@@ -19,5 +19,26 @@ etc.
 *NOTES:*
 - Please ensure that branch always have one commit.
 
-## Deploy & Feedback source code
+## Feedback source code
 
+Terminal:
+
+```sh
+./shell/feedback.sh [param]
+
+#Options for [param]:
+#	1. all
+#	2. your_project_name
+```
+
+## Deploy source code
+
+Terminal:
+
+```sh
+./shell/deploy.sh [param]
+
+#Options for [param]:
+#	1. all
+#	2. your_project_name
+```
