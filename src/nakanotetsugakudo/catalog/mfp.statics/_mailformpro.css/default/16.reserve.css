@@ -1,0 +1,65 @@
+input#mfp_reserve_item,input#mfp_reserve_date {
+	display: none;
+}
+div#mfp_reserve_wrapper {
+	position: relative;
+	overflow: hidden;
+	border: solid 1px #CCC;
+}
+div#mfp_reserve_inner {
+	position: relative;
+	padding: 0px 0px 0px 100px;
+	overflow: auto;
+}
+div#mfp_reserve_wrapper table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+div#mfp_reserve_wrapper table.mfp_reserve_table_label {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	background-color: #FEE;
+	z-index: 100;
+}
+div#mfp_reserve_wrapper table.mfp_reserve_table_value {
+	padding: 0px 0px 0px 0px;
+}
+div#mfp_reserve_wrapper table.mfp_reserve_table_value tr td.mfp_reserve_active,
+div#mfp_reserve_wrapper table.mfp_reserve_table_value tr td.mfp_reserve_warning {
+	cursor: pointer;
+}
+div#mfp_reserve_wrapper table.mfp_reserve_table_value tr td.mfp_reserve_active:hover,
+div#mfp_reserve_wrapper table.mfp_reserve_table_value tr td.mfp_reserve_warning:hover {
+	background-color: #E8EEF9;
+}
+div#mfp_reserve_wrapper table.mfp_reserve_table_value tr td.mfp_reserve_current {
+	background-color: #0068B7;
+	color: #FFF;
+}
+td.mfp_reserve_disabled {
+	background-color: #CCC;
+}
+td.mfp_reserve_warning {
+	background-color: #FFC;
+}
+
+div#mfp_reserve_wrapper table tr td,div#mfp_reserve_wrapper table tr th {
+	border: solid 1px #CCC;
+	padding: 0px 5px;
+	font-size: 12px;
+	text-align: center;
+	font-family: Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	font-weight: normal;
+	height: 20px;
+	text-align: left;
+}
+td.mfp_reserve_week_0 {
+	color: #F00;
+	background-color: #FEE;
+}
+td.mfp_reserve_week_6 {
+	color: #00F;
+	background-color: #EEF;
+}

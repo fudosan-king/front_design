@@ -1,0 +1,27 @@
+table#mfp_confirm_table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table#mfp_confirm_table tr.mfp_colored {
+	background-color: #F6F7F9;
+}
+table#mfp_confirm_table tr.mfp_achroma {
+	background-color: #FFF;
+}
+
+table#mfp_confirm_table tr th,table#mfp_confirm_table tr td {
+	text-align: left;
+	font-size: 12px;
+	border-top: solid 1px #CCC;
+	padding: 5px 10px;
+}
+table#mfp_confirm_table tr th {
+	white-space: nowrap;
+	width: 200px;
+}
+table#mfp_confirm_table tr td {
+	line-height: 1.5em;
+	word-break: break-all;
+}

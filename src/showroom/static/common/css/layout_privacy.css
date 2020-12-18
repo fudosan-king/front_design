@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html ,body{margin: 0; padding: 5px;}
+body{
+	font-family: "ヒラギノ角ゴ Pro W3","hiragino kaku gothic pro","メイリオ",Meiryo,sans-serif, "ＭＳ ゴシック", Osaka;
+	background: #fff;
+	font-size: 80%;
+	color: #323232;
+}
+
+img{
+	border: 0;
+}
+
+ul{
+	margin: 0 30px;
+	padding: 0;
+}
+
+li{
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.sign {
+	float: right;
+}
+
+
+/* ========== フロート解除 ========== */
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-table;
+	min-height: 1%;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix { display: block;}
+/* End hide from IE-mac */

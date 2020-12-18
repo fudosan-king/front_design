@@ -1,0 +1,359 @@
+
+@font-face {
+    font-family: 'hiragino_kaku_gothic_stdnw8';
+    src: url('../css/fonts/hiragino-kaku-gothic-stdn-w8-webfont.woff2') format('woff2'),
+         url('../css/fonts/hiragino-kaku-gothic-stdn-w8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {color: #666;}
+.btn {font-size: 18px; color: #666; border-radius: 0;}
+.btn,a,.btn:hover{-webkit-transition:color .25s ease;-moz-transition:color .25s ease;-o-transition:color .25s ease;transition:color .25s ease;}
+.btn:hover, .btn.focus {color:#257996;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
+.btn.focus, .btn:focus {box-shadow: none;}
+::selection{background:#082d4d;color:#FFF;text-shadow:none}
+::-moz-selection{background:#082d4d;color:#FFF;text-shadow:none}
+::-webkit-selection{background:#082d4d;color:#FFF;text-shadow:none}
+html{width:100%;height:100%}
+body{width:100%;height:100%;background:#fff; font-family: "Hiragino Sans", "Hiragino Kaku Gothic Std"; line-height:1.5em; font-size:14px; font-weight:300;-webkit-font-smoothing:subpixel-antialiased;-webkit-font-smoothing:antialiased!important;-moz-osx-font-smoothing:grayscale;color:#4b4b4b;background-size:cover;}
+.btn-link{color:#082d4d;word-break:normal;word-break:break-all;word-break:keep-all}
+.btn-link:hover{color:#082d4d;text-decoration:underline}
+h1,h2,h3,h4,h5,h6 {font-family: "Hiragino Sans", "Hiragino Kaku Gothic Std"; line-height:1.3em; font-weight: 800; text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;color:#4b4b4b; margin-bottom: 10px; font-size: 32px;}
+h2{font-size:36px;} h3{font-size:30px;}
+*,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+html,body{position:relative;height:100%}
+a:hover {text-decoration:none;color:#082d4d;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
+.form-control {border-color: #0c94c5;}
+.form-control:focus {box-shadow: none;}
+.relative {position: relative;} .red {color: red;}
+
+header {
+	background: url('../images/1x/bg_top_pc.jpg') no-repeat center bottom;
+	position: relative;
+	height: 550px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.5);
+}
+header h1 .f_big {
+	font-size: 152px;
+}
+header h1 .f_medium {
+	font-size: 70px;
+}
+.box_real_portal {
+	text-align: center;
+}
+.box_real_portal h1 {
+	text-align: left;
+	color: rgb(255, 95, 95);
+	font-size: 50px;
+	line-height: 1em;
+	text-shadow: rgb(255, 255, 255) 9px 0px 0px, rgb(255, 255, 255) 8.9445px 0.997944px 0px, rgb(255, 255, 255) 8.77869px 1.98358px 0px, rgb(255, 255, 255) 8.50461px 2.94475px 0px, rgb(255, 255, 255) 8.12565px 3.86961px 0px, rgb(255, 255, 255) 7.64647px 4.74674px 0px, rgb(255, 255, 255) 7.07299px 5.56533px 0px, rgb(255, 255, 255) 6.41227px 6.31528px 0px, rgb(255, 255, 255) 5.67248px 6.98735px 0px, rgb(255, 255, 255) 4.86272px 7.57324px 0px, rgb(255, 255, 255) 3.99299px 8.06573px 0px, rgb(255, 255, 255) 3.07402px 8.45875px 0px, rgb(255, 255, 255) 2.11714px 8.74744px 0px, rgb(255, 255, 255) 1.13414px 8.92825px 0px, rgb(255, 255, 255) 0.137162px 8.99895px 0px, rgb(255, 255, 255) -0.861512px 8.95867px 0px, rgb(255, 255, 255) -1.84956px 8.8079px 0px, rgb(255, 255, 255) -2.8148px 8.5485px 0px, rgb(255, 255, 255) -3.74532px 8.18368px 0px, rgb(255, 255, 255) -4.62965px 7.71792px 0px, rgb(255, 255, 255) -5.45689px 7.15698px 0px, rgb(255, 255, 255) -6.21682px 6.50777px 0px, rgb(255, 255, 255) -6.90009px 5.77831px 0px, rgb(255, 255, 255) -7.49825px 4.97757px 0px, rgb(255, 255, 255) -8.00394px 4.11545px 0px, rgb(255, 255, 255) -8.41092px 3.20258px 0px, rgb(255, 255, 255) -8.71416px 2.2502px 0px, rgb(255, 255, 255) -8.90993px 1.27008px 0px, rgb(255, 255, 255) -8.99582px 0.274291px 0px, rgb(255, 255, 255) -8.97076px -0.72488px 0px, rgb(255, 255, 255) -8.83507px -1.71511px 0px, rgb(255, 255, 255) -8.59041px -2.68419px 0px, rgb(255, 255, 255) -8.23981px -3.62017px 0px, rgb(255, 255, 255) -7.78758px -4.51149px 0px, rgb(255, 255, 255) -7.23931px -5.34718px 0px, rgb(255, 255, 255) -6.60176px -6.11692px 0px, rgb(255, 255, 255) -5.88279px -6.81122px 0px, rgb(255, 255, 255) -5.09127px -7.42152px 0px, rgb(255, 255, 255) -4.23696px -7.94029px 0px, rgb(255, 255, 255) -3.33039px -8.36113px 0px, rgb(255, 255, 255) -2.38275px -8.67885px 0px, rgb(255, 255, 255) -1.40572px -8.88954px 0px, rgb(255, 255, 255) -0.411357px -8.99059px 0px, rgb(255, 255, 255) 0.58808px -8.98077px 0px, rgb(255, 255, 255) 1.58026px -8.86018px 0px, rgb(255, 255, 255) 2.55296px -8.63032px 0px, rgb(255, 255, 255) 3.49417px -8.29402px 0px, rgb(255, 255, 255) 4.39229px -7.85543px 0px, rgb(255, 255, 255) 5.23623px -7.31996px 0px, rgb(255, 255, 255) 6.0156px -6.69422px 0px, rgb(255, 255, 255) 6.72078px -5.98591px 0px, rgb(255, 255, 255) 7.34307px -5.20378px 0px, rgb(255, 255, 255) 7.87479px -4.35748px 0px, rgb(255, 255, 255) 8.3094px -3.45743px 0px, rgb(255, 255, 255) 8.64153px -2.51474px 0px, rgb(255, 255, 255) 8.86709px -1.54104px 0px, rgb(255, 255, 255) 8.98328px -0.548328px 0px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.box_real_portal h1 .text_portal {
+	display: block;
+	position: relative;
+	top: 30px;
+}
+.logo {
+	margin: 35px 0 20px 0;
+}
+.logo img {
+	width: 670px;
+}
+.btn_contactus {
+	border-radius: 10px;
+  	background-color: #54ac48;
+  	box-shadow: 0px 7px 0px 0px #118502;
+  	font-family: "Hiragino Maru Gothic ProN";
+  	color: rgb(255, 255, 255);
+  	text-align: center;
+  	font-size: 40px;
+  	padding: 15px 30px;
+  	margin-bottom: 15px;
+}
+.btn_contactus:hover {
+	color: #fff;
+	opacity: .8;
+}
+.tocall {
+  font-size: 20px;
+  color: rgb(75, 75, 75);
+  font-weight: 800;
+  letter-spacing: .01em;
+}
+.text_introducing {
+	color: #fff;
+	text-shadow: rgb(8, 45, 77) 8px 0px 0px, rgb(8, 45, 77) 7.93758px 0.997398px 0px, rgb(8, 45, 77) 7.7513px 1.97923px 0px, rgb(8, 45, 77) 7.44406px 2.93018px 0px, rgb(8, 45, 77) 7.02066px 3.8354px 0px, rgb(8, 45, 77) 6.4877px 4.68078px 0px, rgb(8, 45, 77) 5.85351px 5.45311px 0px, rgb(8, 45, 77) 5.12797px 6.14035px 0px, rgb(8, 45, 77) 4.32242px 6.73177px 0px, rgb(8, 45, 77) 3.44941px 7.21814px 0px, rgb(8, 45, 77) 2.52258px 7.59188px 0px, rgb(8, 45, 77) 1.55638px 7.84714px 0px, rgb(8, 45, 77) 0.565898px 7.97996px 0px, rgb(8, 45, 77) -0.433417px 7.98825px 0px, rgb(8, 45, 77) -1.42597px 7.87189px 0px, rgb(8, 45, 77) -2.39627px 7.63269px 0px, rgb(8, 45, 77) -3.32917px 7.27438px 0px, rgb(8, 45, 77) -4.21013px 6.80256px 0px, rgb(8, 45, 77) -5.02539px 6.22459px 0px, rgb(8, 45, 77) -5.76223px 5.54948px 0px, rgb(8, 45, 77) -6.40915px 4.78778px 0px, rgb(8, 45, 77) -6.95606px 3.95136px 0px, rgb(8, 45, 77) -7.39442px 3.05329px 0px, rgb(8, 45, 77) -7.71739px 2.10757px 0px, rgb(8, 45, 77) -7.91994px 1.12896px 0px, rgb(8, 45, 77) -7.9989px 0.132735px 0px, rgb(8, 45, 77) -7.95304px -0.865561px 0px, rgb(8, 45, 77) -7.78307px -1.85035px 0px, rgb(8, 45, 77) -7.49165px -2.80627px 0px, rgb(8, 45, 77) -7.08333px -3.71839px 0px, rgb(8, 45, 77) -6.56448px -4.57249px 0px, rgb(8, 45, 77) -5.94318px -5.35524px 0px, rgb(8, 45, 77) -5.22915px -6.05442px 0px, rgb(8, 45, 77) -4.43352px -6.65912px 0px, rgb(8, 45, 77) -3.5687px -7.15991px 0px, rgb(8, 45, 77) -2.6482px -7.54898px 0px, rgb(8, 45, 77) -1.68637px -7.82024px 0px, rgb(8, 45, 77) -0.698222px -7.96947px 0px, rgb(8, 45, 77) 0.300817px -7.99434px 0px, rgb(8, 45, 77) 1.29516px -7.89446px 0px, rgb(8, 45, 77) 2.2693px -7.67139px 0px, rgb(8, 45, 77) 3.20802px -7.32862px 0px, rgb(8, 45, 77) 4.09668px -6.87148px 0px, rgb(8, 45, 77) 4.92142px -6.30711px 0px, rgb(8, 45, 77) 5.66936px -5.64432px 0px, rgb(8, 45, 77) 6.32883px -4.89346px 0px, rgb(8, 45, 77) 6.88954px -4.06623px 0px, rgb(8, 45, 77) 7.34274px -3.17555px 0px, rgb(8, 45, 77) 7.68136px -2.23532px 0px, rgb(8, 45, 77) 7.90012px -1.26021px 0px, rgb(8, 45, 77) 7.9956px -0.265434px 0px;
+	font-size: 58px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	margin: 60px 0 200px;
+	position: relative;
+}
+.text_introducing span {
+	position: relative;
+	z-index: 10;
+}
+.text_introducing::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	background: url('../images/1x/arrow_down_big.png') no-repeat center top;
+	width: 368px;
+	height: 217px;
+}
+.text_uploadto {
+	color: #4b4b4b;
+	font-size: 55px;
+	letter-spacing: 0.05em;
+	display: inline-block;
+	position: relative;
+}
+.text_uploadto .text_uploadto_wrap span {
+	position: relative;
+	z-index: 10;
+	top: 5px;
+	display: inline-block;
+}
+.text_uploadto .text_uploadto_wrap::after {
+	content: '';
+	position: absolute;
+	z-index: 9;
+	left: 90px;
+	right: -5px;
+	bottom: -5px;
+	background: url('../images/1x/bg_text.png') repeat-x;
+	height: 26px;
+}
+.text_uploadto .i_check {
+	width: 74px;
+}
+footer {
+	margin-top: 77px;
+}
+.footer_top {
+	background: #082d4d;
+}
+.footer_top ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+.footer_top ul li {
+	display: inline-block;
+}
+.footer_top ul li a {
+	color: #fff;
+	display: block;
+	padding: 30px 15px;
+	font-weight: 600;
+}
+.footer_top ul li:hover a {
+	color: #ccc;
+}
+.footer_bottom {
+	text-align: center;
+	padding: 30px 0;
+}
+.footer_bottom p {
+	margin-bottom: 0;
+	font-size: 13px;
+	opacity: .8;
+}
+.box_logo {
+	background: #fff;
+	padding: 50px;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 60px;
+}
+.submission_content {
+	border-radius: 35px;
+	background: #f9f4f1;
+	padding: 30px;
+	margin-top: 20px;
+}
+.submission_content h4 {
+	font-size: 30px;
+	color: #4b4b4b;
+	letter-spacing: 0.01em;
+	margin-bottom: 50px;
+}
+.box_img_computer {
+	position: relative;
+	width: 645px;
+}
+.box_img_computer .img_computer {
+	position: absolute;
+	z-index: 10;
+	left: -10px;
+	top: 0;
+}
+.section_mediaexposure {
+	margin-top: 60px;
+}
+.section_mediaexposure h3 {
+	font-size: 55px;
+	letter-spacing: 0.01em;
+}
+.section_mediaexposure p {
+	font-size: 35px;
+	font-weight: 300;
+}
+.submission_mediaexposure {
+	border-radius: 35px;
+	background: #f9f4f1;
+	padding: 25px 25px 0;
+	margin-top: 30px;
+}
+.box_img_support_seo_pc {
+	position: relative;
+	bottom: -15px;
+}
+.section_freewebsite {
+	margin-top: 70px;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.freewebsite_content {
+	border-radius: 35px;
+	background: #f9f4f1;
+	padding: 30px;
+	margin-top: 20px;
+}
+.box_freewebsite {
+	position: relative;
+	width: 717px;
+}
+.img_freewebsite_pc {
+	position: absolute;
+	left: -280px;
+    top: -57px;
+}
+.freewebsite_content h4 {
+	font-size: 35px;
+	letter-spacing: 0.01em;
+}
+.freewebsite_content h5 {
+	font-size: 24px;
+	letter-spacing: 0.01em;
+}
+.freewebsite_content_text {
+	position: relative;
+	z-index: 10;
+}
+.section_further {
+	margin-top: 80px;
+}
+.section_further h1 {
+	color: #ff5f5f;
+	letter-spacing: 0.01em;
+	font-size: 121px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.section_further h1 span {
+	position: relative;
+}
+.section_further h1 span::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: -100px;
+	background: url('../images/1x/line_left.png') no-repeat;
+	width: 105px;
+	height: 152px;
+}
+.section_further h1 span::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: -100px;
+	background: url('../images/1x/line_right.png') no-repeat;
+	width: 99px;
+	height: 126px;
+}
+.section_further h3 {
+	font-size: 50px;
+	letter-spacing: 0.01em;
+}
+.section_further .construction_fee {
+	font-size: 33px;
+	line-height: 1em;
+	letter-spacing: 0.01em;
+}
+.section_further .construction_fee .percent {
+	font-weight: 800;
+}
+.section_further .construction_fee .f_small {
+	font-size: 23px;
+}
+.further_top {
+	padding: 0 40px;
+}
+.box_room {
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 10px;
+}
+.section_form_contact {
+	margin-top: 65px;
+}
+.section_form_contact h3 {
+	border-bottom: 1px solid #219dca;
+	color: #219dca;
+	font-size: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+}
+.w_form_contact {
+	padding: 0 25px;
+}
+.w_form_contact h4 {
+	font-size: 14px;
+	font-weight: 400;
+}
+.form_contact .form-group {
+	margin-bottom: 0;
+}
+.form_contact label {
+	margin-bottom: 0;
+	font-weight: 500;
+}
+.box_label {
+	background: #dff1f7;
+	padding: 18px 15px;
+	border-right: 1px solid #fff;
+	/* border-bottom: none */
+}
+.box_field {
+	background: #f4fafc;
+	padding: 10px 15px;
+	border-bottom: 1px solid #fff;
+}
+.box_label.box_address {
+	min-height: 103px;
+}
+.text_below {
+	min-height: 57px;
+	line-height: 35px;
+}
+#btnConfirm {
+	border-radius: 10px;
+  	background-color: #54ac48;
+  	box-shadow: 0px 7px 0px 0px #118502;
+  	font-family: "Hiragino Maru Gothic ProN";
+  	color: rgb(255, 255, 255);
+  	text-align: center;
+  	font-size: 40px;
+  	padding: 15px 30px;
+  	margin-bottom: 15px;
+  	width: 500px;
+}

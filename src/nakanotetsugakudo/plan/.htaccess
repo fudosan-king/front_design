@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^b\.html$ https://www.presis.com/404/ [R=301,L]
+RewriteRule ^bg\.html$ https://www.presis.com/404/ [R=301,L]
+RewriteRule ^c\.html$ https://www.presis.com/404/ [R=301,L]
+RewriteRule ^f\.html$ https://www.presis.com/404/ [R=301,L]
+</IfModule>

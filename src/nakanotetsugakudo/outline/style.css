@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ file name  :  outline.css
+ style info :  outlineページスタイル指定
+=================================================================== */
+
+article.content{
+	background:#FFF;
+
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+section table	{ width: 100%; }
+section th, section td	{ padding: 10px; border: 1px solid #ddd; }
+section th	{ background: #f4f4f4; }
+
+
+.outline01 th	{ width: 30%; text-align: left; }
+
+
+@media only screen and (max-width:480px){
+	.outline01	{ margin: 0 -10px; }
+    .outline01 th,
+    .outline01 td{
+		width: 100%;
+        display: block;
+		border-top: none;
+    }
+	.outline01 tr:first-child th	{ border-top: 1px solid #ddd; }
+}
+
+sup {
+font-size: 78%;
+vertical-align: super;
+}
+
+#outline_content {
+	margin:0 auto;
+	padding:0 30px 30px 30px;
+	color:#333;
+	text-align:left;
+	line-height:1.8em;
+}
+
+#outline_content h3 {
+	font-size:15px;
+	color:#3C2913;
+	font-weight:bold;
+	padding:15px 0 15px 0;
+}
+
+
+
+#outline_content td a {
+	color:#333;
+	text-decoration:underline;
+}

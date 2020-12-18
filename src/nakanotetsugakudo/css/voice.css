@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+
+ File name:      voice.css
+ Style Info:     トップページ
+----------------------------------------------------------- */
+
+/*----------------------------------------------------
+	voice
+----------------------------------------------------*/
+.voice_list{
+	margin:3% auto;
+
+
+	
+}
+
+.voice_list li{
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+
+	
+}
+.voice_list  li span{
+	background:#002759;
+	border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  text-align:center;
+  color:#fff;
+  padding:3px;
+  margin-right:10px;
+  font-size:12px;
+ line-height: 1.6;
+	
+}
+
+.txt_number{
+	background:#002759;
+	border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  text-align:center;
+  color:#fff;
+  padding:3px 3px 3px 3px;
+  margin-right:5px;
+  font-size:10px;
+  line-height:1.2;
+	
+}
+
+
+
+.voice_st01 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #3d4d88;
+    line-height: 1.5;
+    margin: 0 0 10px -10px;}
+
+
+
+
+
+/*----------------------------------------------------
+	rehabili
+----------------------------------------------------*/
+.rehabili_list{
+	margin:3% auto 0;
+
+
+	
+}
+
+.rehabili_list li{
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+
+	
+}
+.rehabili_list  li span{
+	background:#002759;
+	border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  text-align:center;
+  color:#fff;
+  padding:3px;
+  margin-right:10px;
+  font-size:12px;
+ line-height: 1.6;
+	
+}
+
+
+.reha01_txt{
+	text-align:left;
+	margin:0 0.2% 30px 0;
+	float:left;
+	max-width:660px;
+	width:66%;
+}
+
+
+.reha01_img01{
+	max-width:320px;
+	width:32%;
+	margin:0 auto 30px;
+	float:right;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.reha01_txt{
+	text-align:left;
+	margin:0 auto 30px ;
+	float:none;
+	max-width:768px;
+	width:100%;
+}
+
+
+.reha01_img01{
+	max-width:320px;
+	width:100%;
+	margin:0 auto 30px;
+	float:none;
+}
+
+
+}
+

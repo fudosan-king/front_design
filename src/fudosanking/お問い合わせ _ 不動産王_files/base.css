@@ -1,0 +1,616 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin: 0; padding: 0;}
+html{ overflow-y:scroll;}
+body{
+	font-size: 13px;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	color: #222;
+}
+
+/*-------------------------------------
+	Font-size list (base: 13px)
+---------------------------------------
+ 62% =  8px
+ 70% =  9px
+ 77% = 10px
+ 85% = 11px        162% = 21px        239% = 31px
+ 93% = 12px        170% = 22px        247% = 32px
+100% = 13px        177% = 23px        254% = 33px
+108% = 14px        185% = 24px        262% = 34px
+116% = 15px        193% = 25px        270% = 35px
+124% = 16px        200% = 26px        277% = 36px
+131% = 17px        208% = 27px        285% = 37px
+139% = 18px        216% = 28px        293% = 38px
+147% = 19px        224% = 29px        300% = 39px
+154% = 20px        231% = 30px        308% = 40px
+*/
+/*-------------------------------------
+	reset
+--------------------------------------*/
+/* -- other tags -- */
+a{ overflow: hidden; cursor: pointer; outline: none;}
+a:focus{ -moz-outline-style: none;}
+a img, img{ border:0;}
+
+abbr, acronym{ border: 0;}
+caption, th{ text-align: left;}
+code, kbd, pre, samp, tt{ font-family: monospace; line-height: 100%;}
+*+html code, kbd, pre, samp, tt{ font-size: 108%;} /* for IE7 */
+h1, h2, h3, h4, h5, h6{ font-size: 100%; font-weight: normal;}
+ol, ul{ list-style:none;}
+q:before, q:after{ content:'';}
+button, fieldset, form, input, label, legend, select, textarea{
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	vertical-align: baseline;}
+fieldset{ border: none;}
+table{ border-collapse: collapse; border-spacing: 0; font-size: 100%;}/* tables still need 'cellspacing="0"' */
+object{ outline: none;}
+
+img{ border: none; vertical-align: middle;}
+p{ _line-height:2em;} /* for IE6 */
+
+/* html5.js */
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{  
+    display:block;  
+}  
+
+/*-------------------------------------
+	style
+--------------------------------------*/
+.fltL{ float:left; display:inline;}
+.fltR{ float:right; display:inline;}
+.alnC{ text-align:center;}
+.alnR{ text-align:right !important;}
+.alnL{ text-align:left !important;}
+
+.clear{ clear:both;}
+.over{ overflow:hidden;}
+
+a{
+	text-decoration: none;
+	color: #082d4d;
+}
+a:hover{
+	text-decoration: none;
+	filter:alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+    -webkit-transition: 0.3s ease-in-out;  
+       -moz-transition: 0.3s ease-in-out;  
+         -o-transition: 0.3s ease-in-out;  
+            transition: 0.3s ease-in-out;  
+}
+/* -- clearfix -- */
+.clearfix:after{ 
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix{ zoom: 1; } /* IE6 */
+*:first-child+html .clearfix{ zoom: 1; } /* IE7 */
+
+
+.fixed{
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+.red{ color: #ff0000 !important;}
+.bold{ font-weight: bold;}
+
+.mb25{ margin-bottom: 25px;}
+.mb40{ margin-bottom: 40px;}
+.pr20{ padding-right: 20px;}
+.fs11{ font-size: 85%;}
+.fs16{ font-size: 124%;}
+
+/*-------------------------------------
+	block - common
+--------------------------------------*/
+.pc{ display: inherit;}
+.sp{ display: none;}
+
+/*	header
+----------------------------------------*/
+header{
+	width: 100%;
+	min-width: 1000px;
+	height: 158px;
+	margin: 0 auto;
+	padding: 18px 0 0 0;
+	background: rgba(255,255,255,0.95);
+	border-top: 5px solid #082d4d;
+	position: relative;
+	z-index: 50;
+}
+header h1{
+	text-align: center;
+}
+#subnavi{
+	position: absolute;
+	top: 46px;
+	right: 5px;
+}
+#subnavi li{
+	width: 85px;
+	height: 90px;
+	float: left;
+	font-size: 93%;
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: center;
+	vertical-align: bottom;
+	background: url(https://fudosan-king.jp/static/public/img/bg_bluedot.png) no-repeat 0 0;
+}
+#subnavi li a{
+	display: block;
+	width: 65px;
+	height: 78px;
+	padding: 12px 10px 0 10px;
+}
+#subnavi li a:hover{
+	filter:alpha(opacity=100);
+	-ms-filter: "alpha( opacity=100 )";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+#subnavi li:hover{
+	filter:alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+    -webkit-transition: 0.3s ease-in-out;  
+       -moz-transition: 0.3s ease-in-out;  
+         -o-transition: 0.3s ease-in-out;  
+            transition: 0.3s ease-in-out;  
+}
+#subnavi li:first-child{ background: url(https://fudosan-king.jp/static/public/img/bg_reddot.png) no-repeat 0 0;}
+#subnavi li span{
+	display: block;
+	font-size: 170%;
+	padding-bottom: 17px;
+	line-height: 1;
+	color: #fff;
+}
+#subnavi li span.icon-header_contact{
+	padding-top: 3px;
+	font-size: 147%;
+}
+#gnavi{
+	width: 100%;
+	height: 84px;
+	position: absolute;
+	top: 0;
+	border-top: 1px solid #e6eaed;
+	background: rgba(255,255,255,0.95);
+}
+#gnavi ul{
+	width: 1000px;
+	height: 84px;
+	margin: 0 auto;
+}
+#gnavi li{
+	width: 143px;
+	height: 84px;
+	float: left;
+	font-size: 108%;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	background: url(https://fudosan-king.jp/static/public/img/border01.png) no-repeat left 25px;
+}
+#gnavi li:first-child{
+	width: 142px;
+	background: none;
+}
+#gnavi li a{
+	height: 74px;
+	padding-top: 50px;
+	color: #082d4d;
+	display: block;
+	position: relative;
+}
+#gnavi li aside{
+	width: 142px;
+	position: absolute;
+	top: 10px;
+	text-align: center;
+}
+#gnavi li span{
+	padding-bottom: 3px;
+	display: block;
+	font-size: 270%;
+	text-align: center;
+	line-height: 1;
+    -webkit-transition: 0.3s ease-in-out;  
+       -moz-transition: 0.3s ease-in-out;  
+         -o-transition: 0.3s ease-in-out;  
+            transition: 0.3s ease-in-out;  
+}
+#gnavi li a:hover span{ font-size: 297%;}
+#gnavi li.select a span{
+	color: #28a0cc !important;
+}
+#pan{
+	width: 100%;
+	height: 44px;
+	color: #fff;
+	background: #082d4d;
+	position: absolute;
+	top: 84px;
+	z-index: 50;
+}
+#pan a{ color: #fff;}
+#pan ul{
+	width: 1000px;
+	height: 44px;
+	margin: 0 auto;
+	font-size: 108%;
+	line-height: 1;
+}
+#pan li{
+	float: left;
+	height: 25px;
+	padding: 15px 14px 0 14px;
+	border-bottom: 4px solid #082d4d;
+}
+#pan li.select{ border-bottom: 4px solid #28a0cc;}
+#snav-mini{
+	display: none;
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#snav-mini ul{
+	position: absolute;
+	top: 95px;
+	right: 25px;
+	z-index: 50;
+}
+#snav-mini li{
+	padding-left: 25px;
+	float: left;
+	line-height: 1;
+	border: none;
+}
+#snav-mini li:first-child{
+	padding: 0 25px 0 0;
+	background: url(https://fudosan-king.jp/static/public/img/dotline03.png) no-repeat right 3px;
+}
+#snav-mini li a{ display: block;}
+#snav-mini li span{ display: block;}
+#snav-mini li span.icon-header_contact{
+	padding-top: 3px;
+	font-size: 147%;
+	color: #fff;
+}
+#snav-mini li span.icon-header_login{
+	font-size: 170%;
+	color: #ffffff;
+}
+
+/*	main
+----------------------------------------*/
+#wrapper{
+	width: 100%;
+	min-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	background: url('https://fudosan-king.jp/static/public/img/bg.jpg') fixed center 128px;
+	background-size: 100% auto;
+}
+.inner{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#contents{ padding-top: 176px; /* header部分差引 */}
+#contents h2{
+	margin-bottom: 40px;
+	text-align: center;
+}
+#contents section.wrap{
+	width: 750px;
+	margin: 0 auto 40px auto;
+	padding: 90px 125px;
+	background: #fff;
+	line-height: 2;
+}
+#ftpop{
+	height: 151px;
+	margin: 0 0 40px 0;
+	padding: 22px 0 0 0;
+	text-align: center;
+	color: #fff;
+	background: rgba(8,45,77,0.3);
+}
+#ftpop h3{
+	font-size: 131%;
+	font-weight: bold;
+	line-height: 1;
+}
+#ftpop p{
+	margin: 15px auto;
+	line-height: 1.8;
+}
+
+/*	footer
+----------------------------------------*/
+footer{
+	width: 100%;
+	min-width: 1000px;
+	height: 137px;
+	padding: 25px 0 0 0;
+	position: relative;
+	font-size: 93%;
+	background: #082d4d;
+}
+footer a{ color: #fff;}
+footer ul{
+	width: 960px;
+	height: 67px;
+	margin: 0 auto;
+}
+footer li{
+	float: left;
+	margin-left: 50px;
+	color: #fff;
+}
+footer li:first-child{}
+footer a{ color: #fff;}
+footer #copyright{
+	width: 100%;
+	height: 52px;
+	padding-top: 43px;
+	font-size: 85%;
+	line-height: 1;
+	text-align: center;
+	background: #f6f6f6;
+	position: absolute;
+	bottom: 0;
+}
+
+/* タブレット以外で縦向き */
+@media only screen and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),
+only screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait),
+only screen and (device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait){
+	/* スマホ回転した際のフォント拡大対処 */
+	body{  -webkit-text-size-adjust: none;}
+
+}
+
+/* タブレット以外 */
+@media only screen and (max-width: 640px),
+only screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 1),
+only screen and (device-width: 480px) and (-webkit-min-device-pixel-ratio: 1){
+	.sp{ display: block;}
+	.pc{ display: none;}
+	
+	/*	header
+	----------------------------------------*/
+	header{
+		width: 100%;
+		min-width: inherit;
+		height: 114px;
+		margin: inherit;
+		padding: 6px 0 0 0;
+		background: rgba(255,255,255,1);
+		border-top: 2.5px solid #082d4d;
+	}
+	header .inner{
+		width: 100%;
+	}
+	header h1{ height: 78px;}
+	header h1 img{ height: 70px}
+	
+	#subnavi,
+	#gnavi,
+	#pan,
+	#snav-mini,
+	#naviset{
+		display: none;
+	}
+	
+	#spNavi{
+		width: 100%;
+		height: 42px;
+		overflow: hidden;
+		border-top: 1px solid #082d4d;
+		border-bottom: 1px solid #082d4d;
+		background: #fff;
+	}
+	#spNavi li{
+		width: 33%;
+		height: 42px;
+		float: left;
+		font-size: 93%;
+		font-weight: bold;
+		line-height: 1.2;
+		text-align: left;
+		vertical-align: bottom;
+		border-left: 1px solid #082d4d;
+	}
+	#spNavi li a{
+		width: 100%;
+		height: 35px;
+		padding: 7px 0 0 8px;
+		display: block;
+	}
+	#spNavi li:first-child{ border-left: none;}
+	#spNavi li span{
+		display: block;
+		float: left;
+		font-size: 170%;
+		padding-top: 3px;
+		padding-right: 10px;
+		line-height: 1;
+	}
+	#spNavi li span.icon-header_contact{
+		padding-top: 5px;
+		font-size: 147%;
+		color: #ff3d3e;
+	}
+	#spNavi li#spMenubtn a{
+		cursor: pointer;
+		padding-top: 14px;
+	}
+	#spNavi li#spMenubtn a span{
+		padding-top: 0;
+		margin-top: -6px;
+		padding-left: 4px;
+	}
+	#spMenuList{
+		width: 100%;
+		background: #fff;
+		position: absolute;
+		z-index: 500;
+		display: none;
+	}
+	#spMenuList li{
+		width: 50%;
+		height: 37px;
+		float: left;
+		border-bottom: 1px solid #082d4d;
+	}
+	#spMenuList li.lr{
+		width: 50%;
+		margin-right: -1px;
+		border-right: 1px solid #082d4d;
+	}
+	#spMenuList li a{
+		display: block;
+		height: 24px;
+		padding: 13px 0 0 34px;
+		font-size:  93%;
+		line-height: 1;
+		position: relative;
+	}
+	#spMenuList li a span{
+		font-size: 20px;
+		position: absolute;
+		top: 8px;
+		left: 8px;
+	}
+	#spMenuList li.sn{
+		text-indent: 1em;
+		background: url(https://fudosan-king.jp/static/public/img/sp_icn_arrow.png) no-repeat 25px 13px;
+		background-size: 10px 10px;
+	}
+	#spMenuList li.sn2{
+		background: url(https://fudosan-king.jp/static/public/img/sp_icn_arrow.png) no-repeat 13px 13px;
+		background-size: 10px 10px;
+	}
+	/*	main
+	----------------------------------------*/
+	#wrapper{
+		width: 100%;
+		min-width: inherit;
+		margin: inherit;
+		background: url(https://fudosan-king.jp/static/public/img/bg.jpg) fixed center 0;
+		background-size: 100% auto;
+	}
+	.inner{
+		width: 100%;
+	}
+	#contents{
+		padding-top: 0px; /* header部分差引 */
+	}
+	#contents h2{
+		height: 57px;
+		padding-top: 37px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+	#contents h2 img{
+		height: 28px;
+	}
+	#contents section.wrap{
+		margin: 0 auto !important;
+		padding: 13px 10px 38px 10px;
+		background: #fff;
+		line-height: 2;
+		font-size: 85%;
+	}
+
+	#ftpop{
+		height: 106px;
+		margin: 0;
+		padding: 15px 0 0 0;
+		text-align: center;
+		color: #fff;
+		background: rgba(74,141,168,1);
+	}
+	#ftpop h3{
+		font-size: 100%;
+		font-weight: bold;
+		line-height: 1;
+	}
+	#ftpop p{
+		margin: 8px auto;
+		line-height: 1.6;
+		font-size: 62%;
+	}
+	
+	/*	footer
+	----------------------------------------*/
+	footer{
+		width: 100%;
+		min-width: 320px;
+		height: 342px;
+		padding: 0 0 0 0;
+		position: relative;
+		font-size: 93%;
+		background: #082d4d;
+	}
+	footer a{ color: #fff;}
+	footer ul{
+		width: 100%;
+		height: 300px;
+		margin: 0 auto;
+	}
+	footer li{
+		height: 36px;
+		float: none;
+		margin-left: 0;
+		color: #fff;
+		line-height: 1;
+		text-align: center;
+		vertical-align: middle;
+		border-top: 1px solid #9cabb8;
+	}
+	footer li:first-child{
+		border-top: none;
+	}
+	footer li a{
+		display: block;
+		width: 100%;
+		height:22px;
+		padding: 14px 0 0 0;
+	}
+	footer #copyright{
+		width: 100%;
+		height: 27px;
+		padding-top: 18px;
+		font-size: 70%;
+		line-height: 1;
+		text-align: center;
+		background: #f6f6f6;
+		position: absolute;
+		bottom: 0;
+	}
+
+}

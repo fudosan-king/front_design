@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RPA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style type="text/css">
+		.container {margin-top: 100px;}
+	</style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+  	<div class="col-12" align="center">
+  		<button type="button" class="btn btn-primary send-rpa">Send</button>
+  	</div>
+  	<div class="col-12 log" align="center">
+
+  	</div>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function() {
+		function getToken(access_key_id,secret_access_key) {
+			var data = {
+				access_key_id: "RCAKL5WIYATR9A23Z9IJ",
+				secret_access_key: "+6RfXoSVjydHJ0s/RxIKL4obipKBDQ0R/HgSAoI9",
+				expires: 100000 //tokenの有効期限（ミリ秒）
+			};
+			// var option = {
+			// 	method : "post", //メソッドの指定
+			// 	payload: JSON.stringify(data), //body情報
+			// 	contentType: "application/json",
+			// 	muteHttpExceptions: true
+			// };
+
+			// var req = UrlFetchApp.fetch("https://api.roboticcrowd.com/v1/token", option);
+			// var token = req.getContentText(); //.getContentTextでレスポンステキストを取得
+			// 	return token;
+
+			$.ajax({
+		        url: "https://api.roboticcrowd.com/v1/token",
+		        method: "post",
+		        payload: JSON.stringify(data),
+		        contentType: "application/json",
+				muteHttpExceptions: true
+		    }).done(function() {
+			  	console.log("aaaaa");
+			});;
+		}
+
+		function roboticCrowdMain(){
+			var key = "アクセスキー", secret = "シークレットキー";
+			var token = getToken(key,secret); //tokenの取得
+
+			var header = {
+				Authorization: "Bearer "+ token //tokenをヘッダーにする
+			};
+			var body = {
+				workflow_id: "14959" //ボディーに起動するワークフローID
+			};
+			var option = {
+				method: "POST",
+				headers: header,
+				payload: JSON.stringify(body),
+				contentType: "application/json",
+				muteHttpExceptions: true
+			};
+			var queue = UrlFetchApp.fetch("https://api.roboticcrowd.com/v1/session_queues", option);
+			$(".log").append(queue.getContentText());
+			// Logger.log(queue.getContentText()); //実行結果
+		}
+
+		$(".send-rpa").click(function(){
+			console.log("click");
+			getToken();
+		});
+	});
+	</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

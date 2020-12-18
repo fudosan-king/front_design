@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ file name  :  modelroom.css
+ style info :  modelroomページスタイル指定
+=================================================================== */
+
+article.content{
+	background:#FFF;
+}
+.mrauto {margin-right: auto;}
+.mlauto {margin-left: auto;}
+.w100 {width: 100%;}
+.attention {
+	font-size: 10px;
+	line-height: 1.2;
+}
+.content h3 {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-size: 21px;
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+section h4 {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+article img {
+	max-width: 100%;
+}
+article p {
+	margin-bottom: 10px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+.flex .photo {
+	width: 50%;
+}
+
+
+
+/* スマホ */
+@media screen and (max-width: 639px) {
+	.sp-hide {
+		display: none;
+	}
+	.flex {
+		display: block;
+	}
+	.flex .photo {
+		width: auto;
+	}
+	.attention {
+		text-align: left;
+	}
+}

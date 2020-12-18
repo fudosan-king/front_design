@@ -1,0 +1,1 @@
+!function(t){t.fn.samesizr=function(i){var e=t.extend({mobile:767},i),n=Math.max(document.documentElement.clientWidth,window.innerWidth||0);if(this.css("height","auto"),n>e.mobile){var h=0;this.each(function(){h=Math.max(h,t(this).outerHeight())}).css("height",h)}return this}}(jQuery);

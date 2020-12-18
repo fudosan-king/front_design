@@ -1,0 +1,2868 @@
+@charset "utf-8";
+@import "colorscheme.less";
+
+/* =============================================================
+
+　　個別設定
+
+============================================================= */
+
+/*  TOP : トップページ
+--------------------------------------------- */
+
+.page-top #content {
+
+	.boxGiftInfo {
+		margin-bottom: 10px;
+	}
+
+	/* ----- メインスライダー ----- */
+
+	.boxTopMain {
+	    width: 100%;
+		overflow: hidden;
+		background: url(../img/top/topmain/bg-topmain.png) @colorBase;
+		height: 317px;
+		margin-bottom: 22px;
+
+		.bx-pager.bx-default-pager {
+			top: inherit;
+			left: inherit;
+			right: 25px;
+			bottom: 15px;
+			width: auto;
+		}
+	}
+
+
+	/* -------- インフォメーション -------- */
+
+
+	.boxInfo {
+		margin-bottom: 45px;
+
+		dl {
+			border: 1px solid @colorBdrBase;
+			background: @colorWhite;
+			padding: 12px 18px 10px;
+			font-size: 0.9em;
+			line-height: 20px;
+
+			dt {
+				float: left;
+				width: 180px;
+
+				img {
+					vertical-align: -1px;
+				}
+			}
+
+			dd {
+				padding-left: 180px;
+				a.small_link {
+					font-size: 0.8em;
+				}
+				strong {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+	/* -------- マンション検索・ランキング -------- */
+
+	.boxApartment {
+		overflow: hidden;
+		margin-bottom: 80px;
+		margin-top: -20px; /* アンカーリンク位置調整 */
+		padding-top: 20px; /* アンカーリンク位置調整 */
+
+		.tabs {
+			margin-left: 10px;
+			height: 40px;
+			margin-bottom: 0px;
+
+			li {
+				display: inline-block;
+				overflow: hidden;
+				width: 221px;
+				height: 40px;
+				margin-left: 10px;
+				cursor: pointer;
+			}
+
+			li.select {
+				img {
+					margin-top: -40px;
+				}
+			}
+
+			li:hover {
+				img {
+					margin-top: -80px;
+				}
+			}
+		}
+
+		> .boxInner {
+			border: 1px solid @colorBdrBase;
+			background: @colorWhite;
+			padding: 24px 24px 20px 20px;
+
+			.boxTabContent,
+			.boxTabContent.disnon[style="display: block;"] {
+				overflow: visible;
+				height: auto;
+			}
+
+			.boxTabContent.disnon {
+				overflow: hidden;
+				height: 0;
+			}
+		}
+	}
+
+
+	/* -------- 検索 -------- */
+
+	.boxSearch {
+		margin-bottom: 15px;
+
+			.boxLeft {
+				float: left;
+				width: 570px;
+
+				.ttlMain {
+					float: left;
+					width: 200px;
+					margin-bottom: 18px;
+				}
+
+				.boxFloorSearch {
+					position: relative;
+
+					.txtSearch {
+						border-radius: 4px !important;
+						margin-bottom: 10px;
+						padding: 8px 35px 8px 8px;
+						color: #9f9f9f;
+						font-size: 0.7em;
+					}
+
+					.btnSearch {
+						position: absolute;
+						top: 6px;
+						right: 10px;
+						border: none;
+						background: url(../img/top/apartment/search/icn-search.png);
+						width: 20px;
+						height: 20px;
+						overflow: hidden;
+						white-space: nowrap;
+						text-indent: 200%;
+						cursor: pointer;
+					}
+				}
+
+				.boxFloorSearch,
+				.btnFloorAll {
+					float: right;
+				}
+
+				.boxFloorSearch,
+				.boxFloorSearch input[type="text"],
+				.btnFloorAll {
+					width: 280px;
+				}
+
+				.boxAreaSearch {
+					margin-left: -12px;
+					font-size: 0.65em;
+					line-height: 21px;
+
+					.ttl {
+						margin-bottom: 8px;
+					}
+
+					> ul > li {
+						display: inline-block;
+						vertical-align: top;
+						border: 1px solid @colorBdrBase;
+						width: 278px;
+						margin-left: 12px;
+						margin-bottom: 12px;
+						padding: 20px 6px 0 8px;
+
+						> ul {
+							margin-left: -4px;
+
+							>li {
+								display: inline-block;
+								vertical-align: top;
+								width: 128px;
+								margin-left: 4px;
+								margin-bottom: 6px;
+
+								a {
+									position: relative;
+									width: 100%;
+									padding: 0 5px 0 14px;
+									color: #715a46;
+
+									span {
+										font-size: 1.2em;
+										color: @colorTxtBase;
+									}
+								}
+
+								a:before {
+						      position: absolute;
+						      top: 6px;
+						      left: 5px;
+						      border-top: 4px solid transparent;
+						      border-right: 4px solid transparent;
+						      border-bottom: 4px solid transparent;
+						      border-left: 5px solid @colorTxtBase;
+						      width: 0;
+						      height: 0;
+						      content: "";
+						    }
+
+						    a:hover {
+						    	color: @colorWhite;
+						    	opacity: 1;
+
+						    	span {
+						    		color: @colorWhite;
+						    	}
+						    }
+
+						    a:hover:before {
+						    	border-left-color: @colorWhite;
+						    }
+							}
+
+							.bgBrown a {
+								background: #efe1d2;
+
+								a:before {
+									border-left-color: #cb7229;
+								}
+							}
+
+							.bgBrown:hover a {
+								background: #db6e00;
+							}
+
+							.bgGrey a {
+								background: #efece5;
+							}
+
+							.bgGrey:hover a {
+								background: #8f837a;
+							}
+						}
+					}
+
+					.btnAreaSearch {
+						padding: 0;
+
+						a {
+							position: relative;
+							display: block;
+							padding: 22px 22px 22px 42px;
+						}
+
+						a:before {
+							position: absolute;
+							top: 50%;
+							left: 13px;
+							border-top: 4px solid transparent;
+							border-right: 4px solid transparent;
+							border-bottom: 4px solid transparent;
+							border-left: 5px solid #d96d00;
+							width: 0;
+							height: 0;
+							margin-top: -5px;
+							content: "";
+						}
+					}
+				}
+
+		}
+
+		.boxRight {
+			float: right;
+			width: 460px;
+
+			.boxMap {
+				border: 1px solid @colorBdrBase;
+			}
+		}
+	}
+
+
+	/* -------- ランキング -------- */
+
+	.boxRanking {
+		padding: 24px 0 0 0;
+		font-size: 0.85em;
+		line-height: 20px;
+
+		.ttlMain {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+
+		ol {
+			display: table;
+			border-right: 1px solid @colorBdrBase;
+			border-left: 1px solid @colorBdrBase;
+			padding-left: 2px;
+
+			li {
+				position: relative;
+				display: table-cell;
+				vertical-align: top;
+				border-left: 1px solid @colorBdrBase;
+				width: 210px;
+				height: 100%;
+				margin-left: -3px;
+				padding: 0 10px 50px 10px;
+
+				dl {
+
+					dt {
+						margin-bottom: 10px;
+						line-height: 22px;
+						font-size: 1.15em;
+
+						.icnRanki {
+							float: left;
+							background: @colorBase;
+							margin: 2px 10px 0 0;
+						}
+
+						div {
+							height: 41px;
+							overflow: hidden;
+							em {
+								font-weight: normal;
+							}
+						}
+
+					}
+
+					dd {
+
+						p {
+							margin-bottom: 10px;
+						}
+
+						.txtFloorPrice {
+							padding-left: 3px;
+							font-weight: bold;
+							color: #888;
+							letter-spacing: 0;
+
+							em {
+								line-height: 23px;
+								font-size: 1.2em;
+
+								span {
+									font-size: 1.2em;
+								}
+							}
+
+						}
+
+						.boxMore {
+							position: absolute;
+							left: 10px;
+							bottom: 5px;
+							margin-bottom: 0;
+
+							.btnMore {
+								display: block;
+								overflow: hidden;
+								background: #efece5;
+								width: 190px;
+								height: 28px;
+
+								img {
+									transition: none;
+								}
+							}
+
+							a:hover {
+								opacity: 1;
+							}
+
+						}
+					}
+				}
+			}
+
+			li:first-child {
+				border-left: none;
+			}
+
+			.boxLinkHvr {
+				cursor: pointer;
+
+				.boxMore {
+					a {
+						display: block;
+					}
+				}
+
+				&:hover {
+					opacity: 1;
+
+					dl {
+						dt {
+							.icnRanki {
+								background: #d4bba9;
+							}
+						}
+
+						dd {
+
+							p:first-child {
+								img {
+									opacity: 0.6;
+								}
+
+							}
+
+							.boxMore {
+								.btnMore {
+									background: url(../img/top/apartment/ranking/btn-more-hover.png) no-repeat #8f8379;
+
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	/* -------- ピックアップ -------- */
+
+	.boxPickup {
+		margin-bottom: 80px;
+		background: url(../img/top/pickup/bg-pickup.png) repeat-x top center;
+
+		.boxInner {
+			padding: 65px 0 50px;
+
+			.ttlMain {
+				margin-bottom: 24px;
+				text-align: center;
+			}
+
+			ul {
+				margin-left: -21px;
+
+				li {
+					display: inline-block;
+					vertical-align: top;
+					width: 350px;
+					height: 140px;
+					margin-left: 21px;
+					margin-bottom: 22px;
+				}
+			}
+		}
+	}
+
+
+	/* -------- お問い合わせ -------- */
+
+	.boxContact {
+
+		.ttlMain {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+
+		p {
+			float: left;
+		}
+
+		.ttlMain + p {
+			margin-right: 34px;
+		}
+	}
+
+}
+
+
+/*  ABOUT : ログマンションとは
+--------------------------------------------- */
+
+.page-about #content {
+	.boxGiftInfo {
+		margin-bottom: 10px;
+	}
+
+	/* -------- セクション共通 -------- */
+
+	.boxSection {
+		line-height: 30px;
+		text-shadow: 1px 1px 1px #fff;
+	}
+
+	/* -------- ログマンションとは -------- */
+
+	#about.boxArticle {
+
+		/* ---- リノベーションマンション ---- */
+
+		#first {
+			background: url(../img/about/about_chronicle/bg-about01.png) no-repeat top right;
+		}
+
+		/* ---- Chronicle Quality ---- */
+
+		#chronicle-quality.boxBgDot {
+
+			.boxBgInner {
+				padding: 40px 10px 30px;
+			}
+		}
+	}
+
+
+	/* -------- 天然無垢材フローリング -------- */
+
+	#flooring.boxArticle {
+
+		/* ---- ３つのメリット ---- */
+
+		#three-benefits {
+			margin-bottom: 60px;
+
+			.boxThreeColumns {
+
+				li {
+
+					dt {
+						height: 140px;
+					}
+				}
+			}
+		}
+
+		/* ---- フローリング素材 ---- */
+
+		.boxMaterial {
+			font-size: 0.86em;
+
+			> li {
+				overflow: hidden;
+				border-top: 1px solid @colorBdrBase;
+				padding-top: 50px;
+				padding-bottom: 50px;
+
+				.boxContArea {
+					width: 330px;
+
+					dl {
+
+						dt,
+						dd {
+							display: inline-block;
+							vertical-align: top;
+							margin-bottom: 20px;
+						}
+
+						dt {
+							border-radius: 4px;
+							width: 50px;
+							margin-right: 20px;
+							background: @colorBase;
+							line-height: 22px;
+							text-align: center;
+							text-shadow: none;
+							color: @colorWhite;
+						}
+
+						dd {
+							width: 250px;
+							line-height: 26px;
+						}
+					}
+				}
+
+				.boxImgSlider {
+					width: 480px;
+				}
+			}
+
+			> li:first-child {
+				border: none;
+				padding-top: 0;
+			}
+
+			#material-oak {
+				dt {
+					background: #d3b380;
+				}
+
+			}
+
+			#material-walnut {
+				dt {
+					background: #97716a;
+				}
+
+			}
+
+			#material-teak {
+				dt {
+					background: #8c6d5a;
+				}
+
+			}
+
+			#material-karin {
+				dt {
+					background: #b87165;
+				}
+
+			}
+
+			#material-kabazakura {
+				dt {
+					background: #d38F7d;
+				}
+			}
+		}
+	}
+
+
+	/* -------- こだわりの設備・仕様 -------- */
+
+	#spec.boxArticle {
+
+		/* ---- Planning〜Comforts ---- */
+
+		.boxSpecList {
+			margin-left: -32px;
+
+			li {
+				margin-bottom: 40px;
+
+				.img {
+					margin-bottom: 15px;
+				}
+
+				.ttl {
+					margin-bottom: 8px;
+					font-weight: bold;
+
+				}
+
+				.txt {
+					line-height: 26px;
+					font-size: 0.88em;
+				}
+			}
+
+			.boxFull {
+				margin-left: 32px;
+			}
+
+			.boxHalf {
+				display: inline-block;
+				vertical-align: top;
+				width: 400px;
+				margin-left: 32px;
+			}
+		}
+
+		/* ---- 構造へのこだわり ---- */
+
+		#kozo-kodawari {
+			dl {
+				dd.fltL {
+					width: 500px;
+				}
+			}
+		}
+	}
+
+
+	/* -------- できあがるまでのプロセス -------- */
+
+	#process.boxArticle {
+
+		.boxProcess {
+
+			li {
+
+				.img {
+					margin-left: 20px;
+
+				}
+
+				.ttl {
+					margin-bottom: 20px;
+					color: @colorPoint;
+					font-size: 0.85em;
+
+					span {
+						display: inline-block;
+						margin-left: 15px;
+						padding-top: 8px;
+					}
+				}
+
+				.txt {
+					line-height: 24px;
+					font-size: 0.85em;
+				}
+			}
+
+			li:before {
+				position: absolute;
+				top: -28px;
+				left: 50%;
+				border-top: 13px solid #d8cfbc;
+				border-right: 14px solid transparent;
+				border-bottom: 14px solid transparent;
+				border-left: 14px solid transparent;
+				width: 0;
+				height: 0;
+				margin-left: -10px;
+				content: "";
+			}
+
+			li:first-child:before {
+				display: none;
+			}
+		}
+	}
+
+
+	/* -------- クロニクルスイートとは -------- */
+
+	#chronicle-suite.boxArticle {
+		margin-bottom: 70px;
+
+		.ttlMainCircle {
+			.txtMain {
+				padding-top: 10px;
+			}
+		}
+
+		.boxAboutRoom {
+			margin-bottom: 50px;
+
+			.txtAbout,
+			.imgAbout {
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			.txtAbout {
+				width: 378px;
+				padding-right: 20px;
+				line-height: 32px;
+				color: @colorPoint;
+				font-size: 0.95em;
+				font-weight: bold;
+			}
+
+			.imgAbout {
+				width: 457px;
+				margin-top: -70px;
+			}
+		}
+
+		.boxRoomStyle {
+			border-top: 1px solid @colorBdrBase02;
+			margin-bottom: 45px;
+			padding-top: 40px;
+
+			> dl {
+
+				> dt {
+					margin-bottom: 30px;
+				}
+
+				> dd {
+					position: relative;
+					min-height: 226px;
+					padding-left: 355px;
+
+					.ttlCatch {
+						margin-bottom: 20px;
+						font-weight: bold;
+						font-size: 1.3em;
+						color: @colorTxtBase;
+					}
+
+					.imgRoomStyle {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 320px;
+					}
+
+					.txtCont {
+						margin-bottom: 15px;
+						line-height: 26px;
+						font-size: 0.85em;
+					}
+
+					.btnRoomStyle {
+						a {
+							position: relative;
+							padding-left: 12px;
+							font-weight: bold;
+							font-size: 0.88em;
+							color: @colorTxtBase;
+							letter-spacing: 0.2px;
+						}
+
+						a:before {
+							position: absolute;
+							top: 50%;
+							left: 0;
+							border-top: 4px solid transparent;
+							border-right: 4px solid transparent;
+							border-bottom: 4px solid transparent;
+							border-left: 5px solid @colorTxtBase;
+							width: 0;
+							height: 0;
+							margin-top: -4px;
+							content: "";
+						}
+
+						a:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+
+		.boxAboutRoom + .boxRoomStyle {
+			border-top: none;
+			padding-top: 0;
+		}
+	}
+
+
+	/* -------- よくあるご質問 -------- */
+
+	#faq.boxArticle {
+		.ttlMainCircle {
+			margin-bottom: 25px;
+		}
+
+		.boxFaq {
+			ol {
+
+				li {
+					position: relative;
+					border-bottom: 1px solid @colorBdrBase;
+					min-height: 50px;
+
+					dl {
+						margin-left: 90px;
+
+						dt {
+							padding: 15px 0 15px;
+							text-shadow: 1px 1px 1px #fff;
+							font-weight: bold;
+							font-size: 0.98em;
+							color: @colorTxtBase;
+							cursor: pointer;
+
+							.imgFaq {
+								display: inline-block;
+								position: absolute;
+								top: 15px;
+								left: 8px;
+							}
+
+							.txtFaqCate {
+								display: inline-block;
+								background: #de9a89;
+								width: 100px;
+								margin-right: 10px;
+								text-align: center;
+								text-shadow: none;
+								line-height: 24px;
+								font-size: 0.85em;
+								font-weight: normal;
+								color: @colorWhite;
+							}
+
+							.ttlFaq {
+								display: inline;
+							}
+						}
+
+						dd {
+							display: none;
+							padding: 0 0 15px;
+							line-height: 24px;
+							font-size: 0.85em;
+						}
+
+					}
+
+				}
+
+			}
+		}
+	}
+
+
+	/* -------- 実績 -------- */
+
+	#jisseki.boxArticle {
+		color: @colorTxtBase;
+
+		/* --- 実績グラフ --- */
+
+		#boxhouseNumGraph {
+		  position: relative;
+		  border-bottom: 1px solid @colorGrey;
+			height: 100px;
+			margin: 320px 0 90px;
+			letter-spacing: 0.2px;
+			text-align: center;
+			font-weight: bold;
+
+			dl {
+
+			  dt,
+			  dd {
+				  position: absolute;
+			  	width: 60px;
+			  }
+
+				dt {
+				  bottom: -40px;
+				}
+
+				dd {
+				  bottom: 0;
+				  background: #f4b963;
+				  height: 160px;
+
+
+				  p {
+						margin-top: -30px;
+
+						.txtNum {
+							font-size: 1.2em;
+						}
+				  }
+				}
+
+				.ttlGraph01 ,
+				.imgGraph01{
+				  left: 15px;
+				}
+
+				.ttlGraph02 ,
+				.imgGraph02 {
+				  left: 122px;
+				}
+
+				.ttlGraph03 ,
+				.imgGraph03 {
+				  left: 229px;
+				}
+
+				.ttlGraph04 ,
+				.imgGraph04 {
+				  left: 336px;
+				}
+
+				.ttlGraph05 ,
+				.imgGraph05 {
+				  left: 443px;
+				}
+	            .ttlGraph06 ,
+	            .imgGraph06 {
+	              left: 550px;
+	            }
+
+	            .ttlGraph07 ,
+	            .imgGraph07 {
+	              left: 657px;
+	            }
+
+				.ttlGraph08 ,
+	            .imgGraph08 {
+	              left: 764px;
+	            }
+
+
+			}
+		}
+
+		/* --- 実績表組み --- */
+
+		#boxboxhouseNumTable {
+			margin-bottom: 50px;
+			font-weight: bold;
+
+			table {
+				border-collapse: collapse;
+			  width: 100%;
+			  margin-bottom: 20px;
+			}
+
+			td {
+				border-left: 1px solid @colorWhite;
+				border-top: 1px solid @colorWhite;
+				padding: 9px 0 7px;
+				text-align: center;
+				line-height: 23px;
+				letter-spacing: 0;
+			}
+
+			.boxYears {
+				position: relative;
+				background: #98877a;
+				width: 120px;
+				color: #fff;
+				text-shadow: none;
+				font-size: 1.25em;
+			}
+
+			.boxYears:before {
+				position: absolute;
+				top: 50%;
+				right: -18px;
+				border-top: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-bottom: 10px solid transparent;
+				border-left: 9px solid #98877a;
+				width: 0;
+				height: 0;
+				margin-top: -8px;
+				content: "";
+			}
+
+			.boxNumber {
+				background: #f0ede5;
+				width: 105px;
+				font-size: 0.9em;
+
+				.txtNum {
+					font-size: 1.4em;
+				}
+			}
+
+			.boxTotal {
+				background: #f5ba5b;
+				padding: 10px 15px 0 10px;
+				text-align: right;
+				font-size: 1.05em;
+				letter-spacing: 0;
+				width: 160px;
+
+				.txtNum {
+					font-size: 1.65em;
+					letter-spacing: 0.5px;
+					padding: 0 5px;
+				}
+			}
+		}
+	}
+
+}
+
+
+/*  SERVICE : サービス
+--------------------------------------------- */
+
+.page-service #content {
+
+	.boxGiftInfo {
+		margin-bottom: 10px;
+	}
+
+	/* -------- セクション共通 -------- */
+
+	.boxSection {
+		line-height: 30px;
+		text-shadow: 1px 1px 1px #fff;
+	}
+
+	/* -------- タイトル共通 -------- */
+
+	/* ---- 下線付きタイトル ---- */
+	.ttlBdrBtm {
+		border-color: #b4a79c;
+		padding-bottom: 20px;
+	}
+
+	/* ---- サービスタイトル ---- */
+	.ttlService {
+		background-repeat: no-repeat;
+		background-position: 5px 0;
+		min-height: 66px;
+		margin-bottom: 60px;
+		padding-left: 90px;
+
+		.txtMain {
+			margin-bottom: 10px;
+		}
+
+		.txtSub {
+			color: @colorPoint;
+		}
+	}
+
+	.ttlService.bg01 {
+		background-image: url(../img/service/bg-01.png);
+		margin-bottom: 0;
+	}
+
+	.ttlService.bg02 {
+		background-image: url(../img/service/bg-02.png);
+	}
+
+	.ttlService.bg03 {
+		background-image: url(../img/service/bg-03.png);
+
+		.txtMain {
+			padding-top: 20px;
+		}
+	}
+
+	.ttlService.bg04 {
+		background-image: url(../img/service/bg-04.png);
+	}
+
+
+	/* -------- 無料セレクトプラン -------- */
+
+	#select-plan.boxSection {
+		.boxBeforeAfter {
+			margin-bottom: 30px;
+
+			.imgBefore {
+				position: relative;
+				float: left;
+				padding-top: 50px;
+			}
+
+			.imgBefore:before {
+				position: absolute;
+				top: 50%;
+				right: -45px;
+				border-top: 16px solid transparent;
+				border-right: 16px solid transparent;
+				border-bottom: 16px solid transparent;
+				border-left: 15px solid #bbb;
+				width: 0;
+				height: 0;
+				margin-top: 10px;
+				content: "";
+			}
+
+			.imgAfter {
+				float: right;
+			}
+		}
+	}
+
+	/* -------- 安心サービス -------- */
+
+	#anshin.boxSection {
+		.boxAnshin {
+			margin-bottom: 120px;
+
+			li {
+				margin-bottom: 30px;
+				text-align: center;
+
+				.boxBgInner {
+					position: relative;
+
+					.imgAnshin {
+						position: absolute;
+						top: 22px;
+						left: 22px;
+					}
+
+					dl 	{
+						min-height: 200px;
+						padding-left: 230px;
+						text-align: left;
+
+						dt {
+							border-bottom: 1px solid @colorBdrBase;
+							margin-bottom: 20px;
+							padding-bottom: 2px;
+
+							.icnAnshin.imgPC {
+								margin-right: 14px;
+							}
+
+							.ttlAnshin {
+								position: relative;
+								top: 8px;
+							}
+						}
+
+						dd {
+							p {
+								padding-top: 5px;
+								line-height: 26px;
+								font-size: 0.88em;
+							}
+
+							.txtLink {
+								margin-left: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* -------- 仲介手数料無料 -------- */
+
+	#tyukai.boxSection {
+		margin-bottom: 100px;
+
+		.fltR {
+			margin: -50px 0 0;
+
+		}
+
+		.fwB {
+			line-height: 38px;
+			font-size: 1.1em;
+			color: @colorTxtBase;
+
+			img {
+				margin: 0 5px 0 8px;
+				vertical-align: -2px;
+			}
+		}
+	}
+
+	/* -------- 買取査定 -------- */
+
+	#kaitori.boxSection {
+		margin-bottom: 30px;
+
+		.boxThreeColumns {
+			margin-bottom: 30px;
+
+			li {
+
+				dl {
+					dt {
+						height: 110px;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+
+/*  CONTACT : お問い合わせ
+--------------------------------------------- */
+
+.page-contact #content {
+
+	.boxGiftInfo {
+		margin-bottom: 10px;
+	}
+
+	/* -------- セクション共通 -------- */
+
+	.boxSection {
+		line-height: 30px;
+		text-shadow: 1px 1px 1px #fff;
+	}
+
+	/* -------- タイトル共通 -------- */
+
+	.ttlMainCircle {
+		margin-bottom: 30px;
+	}
+
+	/* -------- お客様窓口 -------- */
+
+	#customer-service.boxArticle {
+		margin-bottom: 80px;
+	}
+
+	/* -------- ショールーム -------- */
+
+	#showroom.boxArticle {
+		margin-bottom: 80px;
+
+		.boxThreeColumns {
+
+			li {
+				width: 272px;
+
+				dl {
+					padding: 35px 18px;
+
+					dt {
+						height: 45px;
+					}
+
+					dd {
+
+						.txtAccess {
+							height: 130px;
+						}
+
+						.btnMap {
+
+							a {
+								display: block;
+								overflow: hidden;
+								width: 234px;
+								height: 28px;
+
+								img {
+									margin-top: 0;
+									transition: none;
+								}
+							}
+
+							a:hover {
+								opacity: 1;
+
+								img {
+									opacity: 1;
+									transition: none;
+									margin-top: -28px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* -------- 仲介者様お問い合わせ -------- */
+
+	#tyukai.boxArticle {
+		margin-bottom: 80px;
+	}
+	.back {
+	  margin-left: 100px;
+	  border: none;
+	  background: url(../img/contact/btn-contact-back.png) no-repeat;
+	  text-indent: 100%;
+	  overflow: hidden;
+	  white-space: nowrap;
+	  width: 297px;
+	  height: 37px;
+	  line-height: 37px;
+	  cursor: pointer;
+	  float: left;
+	}
+	.btn_Submit{
+	  border: none;
+	  background: url(../img/contact/btn-contact.png) no-repeat;
+	  text-indent: 100%;
+	  overflow: hidden;
+	  white-space: nowrap;
+	  width: 297px;
+	  height: 37px;
+	  line-height: 37px;
+	  cursor: pointer;
+	  float: left;
+	  margin-left: 30px;
+	}
+	/* -------- お問い合わせフォーム -------- */
+	#estate {
+	  table {
+	    width: 840px;
+	    border-collapse: collapse;
+	    border-spacing: 0;
+	    .photo {
+	      width: 140px;
+	      padding: 10px;
+	    }
+	    .price {
+	      font-weight: bold;
+	      color: #D15457;
+	      font-size: 16px;
+	    }
+	    .title {
+	      background-color: #f5f3ee;
+	      font-weight: bold;
+	      padding: 4px 10px;
+	      border: #D7D4D2 1px solid;
+	    }
+	    th {
+	      padding: 4px;
+	      border: #D7D4D2 1px solid;
+	    }
+	    td {
+	      padding: 4px;
+	      border: #D7D4D2 1px solid;
+	    }
+	  }
+	}
+	.boxContactTable {
+		width: 100%;
+	  margin-bottom: 30px;
+
+	  tr:first-child {
+	  	th,
+	  	td {
+	  		border-top: 1px solid @colorBdrBase02;
+	  	}
+	  }
+
+		th,
+		td {
+			border-bottom: 1px solid @colorBdrBase02;
+		  padding: 20px;
+		}
+
+		th {
+			background: #f5f3ee;
+			min-width: 220px;
+		}
+
+		td {
+			background: #fff;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		input[type="checkbox"],
+		input[type="text"],
+		select,
+		textarea,
+		.boxPrivacyPolicy {
+			border: 1px solid #cdcdcd;
+		}
+
+		input[type="text"],
+		textarea {
+		  padding: 5px;
+		  font-size: 1em;
+		}
+
+		input[type="checkbox"] {
+			width: 15px;
+			height: 15px;
+			margin-right: 6px;
+		}
+
+		input[type="text"][size="30"] {
+		  width: 280px;
+		}
+
+		input[type="text"][size="20"] {
+		  width: 100px;
+		}
+
+		input[type="text"][size="10"] {
+		  width: 70px;
+		}
+
+		/* 郵便番号 */
+		select {
+			background: #fff;
+			font-size: 0.9em;
+		}
+
+		/* 以下住所 */
+		.txtAddressCont {
+			vertical-align: top;
+
+			textarea {
+				width: 480px;
+				height: 31px;
+			}
+		}
+
+		/* お問い合わせ内容 */
+		.txtaraContactCont {
+		  width: 560px;
+		  height: 140px;
+		}
+
+		/* プライバシーポリシー */
+		.boxPrivacyPolicy {
+			position: relative;
+			overflow: auto;
+			width: 640px;
+			height: 140px;
+			margin-bottom: 20px;
+			-webkit-overflow-scrolling:touch;
+
+			iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: block;
+				border: none;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		/* 同意する */
+		.txtAgree {
+			line-height: 20px;
+			font-size: 0.9em;
+
+			input {
+				vertical-align: -1px;
+			}
+		}
+
+		/* 注釈 */
+		.txtGrey {
+		  color: #969696;
+		  font-size: 0.75em;
+		  letter-spacing: 0.2px;
+		}
+
+		/* 必須 */
+		.txtRed {
+			display: inline-block;
+			background: #ff7373;
+			margin-left: 10px;
+			padding: 3px 8px 4px;
+			line-height: 16px;
+			letter-spacing: 0.5px;
+			color: #fff;
+			text-shadow: none;
+			font-size: 0.75em;
+		}
+	}
+
+	/* 送信ボタン */
+	.btnSubmit {
+	  text-align: center;
+
+	  input {
+		  border: none;
+		  background: url(../img/contact/btn-contact.png) no-repeat;
+		  text-indent: 100%;
+		  overflow: hidden;
+		  white-space: nowrap;
+		  width: 297px;
+		  height: 37px;
+		  line-height: 37px;
+		  margin: 0 auto;
+		  cursor: pointer;
+		}
+	}
+
+}
+
+
+/*  SEARCH : 物件を探す
+--------------------------------------------- */
+
+.page-search  #content {
+
+	.boxGiftInfo {
+		margin-bottom: 10px;
+	}
+
+	/* -------- 物件を探す（エリア検索） -------- */
+
+	#search-area {
+		border: 1px solid @colorBdrBase;
+		font-size: 0.95em;
+		letter-spacing: 0.2px;
+
+		.ttlMain,
+		.ttlMain + .fwB,
+		.fwB,
+		.ttlSub,
+		.boxSearchList,
+		.boxSearchOther {
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+		label {
+			display: inline-block;
+			cursor: pointer;
+			padding-left: 23px;
+			line-height: 22px;
+			width: 90%;
+
+			input[type="checkbox"],
+			input[type="radio"] {
+				margin: 0 5px 0 0;
+				width: 15px;
+				height: 15px;
+				margin-left: -23px;
+			}
+		}
+
+		.ttlMain {
+			background: #96877a;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			color: @colorWhite;
+			font-size: 1.3em;
+		}
+
+		.ttlMain + .fwB,
+		.fwB {
+			padding-top: 15px;
+			padding-bottom: 30px;
+		}
+
+		.ttlSub {
+			background: #ededed;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			font-weight: bold;
+	        clear: both;
+		}
+
+		.boxSearchList {
+			margin-bottom: -5px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+
+			li {
+				display: inline-block;
+				vertical-align: top;
+				width: 200px;
+				margin-left: 5px;
+				margin-bottom: 5px;
+			}
+		}
+
+		.boxSearchOther {
+			border-top: 1px solid @colorBdrBase;
+			border-bottom: 1px solid @colorBdrBase;
+			padding-top: 18px;
+			padding-bottom: 10px;
+	        clear: both;
+
+	   //      .matter-port{
+				// text-align: center;
+				// color: #fff;
+				// background-color: #a72809;
+				// font-size: 1.3em;
+				// padding: 10px 0;
+				// margin-bottom: 15px;
+				// box-shadow: 3px 5px 9px #888888;
+	   //      }
+
+			.ttlSearch {
+				padding: 20px 0 15px;
+				font-size: 1.75em;
+				font-weight: bold;
+			}
+
+			> dl {
+
+				> dt {
+					display: block;
+					background: url(../img/search/area/btn-open.png) no-repeat 8px 12px #eeb965;
+					margin-bottom: 10px;
+					padding: 10px 10px 10px 40px;
+					color: @colorWhite;
+					font-size: 1.05em;
+					cursor: pointer;
+
+				}
+
+				> dt.active {
+					background-image: url(../img/search/area/btn-close.png);
+				}
+
+				> dd {
+					display: none;
+
+					> dl {
+						> dt,
+						> dd {
+							padding: 12px 5px;
+						}
+
+
+						> dt {
+							float: left;
+							width: 170px;
+							font-weight: bold;
+
+						}
+
+						> dd {
+							border-bottom: 1px dotted @colorBdrBase;
+							padding-left: 170px;
+
+							.boxOtherList {
+								margin-bottom: -6px;
+
+								li {
+									display: inline-block;
+									vertical-align: top;
+									width: 280px;
+									margin-bottom: 6px;
+								}
+							}
+						}
+					}
+
+				}
+			}
+		}
+
+		.boxSubmit {
+			padding: 35px;
+			text-align: center;
+
+			p {
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			p:first-child {
+				margin-right: 8px;
+			}
+
+			.btnSubmitSearch {
+				border: none;
+				background: url(../img/search/area/btn-search.png) no-repeat;
+				width: 247px;
+				height: 48px;
+				overflow: hidden;
+				text-indent: 200%;
+				white-space: nowrap;
+				cursor: pointer;
+			}
+		}
+	}
+
+	/* -------- 物件結果一覧 -------- */
+
+	#search-result {
+		padding-top: 10px;
+
+		.ttlMain {
+			margin-bottom: 30px;
+		}
+
+
+		label {
+			display: inline-block;
+			cursor: pointer;
+
+			input[type="checkbox"],
+			input[type="radio"] {
+				margin: 0 5px 0 0;
+				width: 15px;
+				height: 15px;
+			}
+		}
+
+		.boxSearchResult {
+			margin-bottom: 10px;
+
+			.boxResultNum,
+			.boxDisplayNum {
+				display: inline-block;
+			}
+
+			.boxResultNum {
+				margin-right: 40px;
+				font-weight: bold;
+
+				span {
+					padding: 0 5px 0 0;
+					font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande","segoe UI", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,Verdana,sans-serif;
+					color: @colorRed;
+					font-size: 1.4em;
+					letter-spacing: 1px;
+					font-weight: normal;
+				}
+			}
+
+			.boxDisplayNum {
+				font-size: 0.85em;
+
+				select {
+					webkit-border-radius: 0 !important;
+					border-radius: 0 !important;
+					border: 1px solid @colorGrey;
+					background: url(../img/search/result/bg-select.png) no-repeat 85% @colorWhite;
+					outline: none;
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					appearance: none;
+					text-indent: .01px; /*Firefox用*/
+					text-overflow: ""; /*Firefox用*/
+					margin-right: 2px;
+					padding: 4px 20px 4px 6px;
+					font-size: 1.1em;
+					color: #666;
+					letter-spacing: 0.5px;
+					cursor: pointer;
+				}
+				select::-ms-expand {
+					display: none;
+				}
+			}
+
+			.boxDisplayNumComment {
+				font-size: 0.70em;
+				display: inline-block;
+			}
+
+			.boxPager {
+				float: right;
+				font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande","segoe UI", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,Verdana,sans-serif;
+
+				.current,
+				.page,
+				.next {
+					margin-left: 2px;
+					padding: 3px 9px;
+					line-height: 18px;
+				}
+
+				.current {
+					background: #000;
+					color: @colorWhite;
+				}
+
+				.page,
+				.next {
+					background: #ddd;
+				}
+
+				.extend {
+					padding: 0 2px;
+				}
+			}
+		}
+
+		.boxOrder {
+			margin-bottom: 15px;
+			font-size: 0.85em;
+
+			dl {
+				dt,
+				dd {
+					display: inline-block;
+				}
+
+				dt {
+					margin-right: 10px;
+				}
+
+				dd {
+					position: relative;
+					padding: 0 12px;
+
+					a {
+						color: #f39708;
+					}
+
+					a:hover {
+						text-decoration: underline;
+					}
+				}
+
+				dd:before {
+					position: absolute;
+					top: 50%;
+					left: 0;
+					border-left: 1px solid #333;
+					width: 1px;
+					height: 12px;
+					content: "";
+					margin-top: -6px;
+				}
+			}
+
+		}
+
+		.boxAllCheck {
+			border-top: 1px solid #b3a89e;
+			border-bottom: 1px solid #b3a89e;
+			margin-bottom: 30px;
+			padding: 15px 0;
+
+			.txtAllCheck,
+			.boxSubmit {
+				display: inline-block;
+			}
+
+			.txtAllCheck {
+				margin-right: 20px;
+				font-size: 0.95em;
+				font-weight: bold;
+				letter-spacing: 0.2px;
+			}
+		}
+
+		.boxSection {
+			border: 1px solid #efece5;
+			margin-bottom: 40px;
+
+			.boxSectionHead {
+				background: #efece5;
+
+				dl {
+					dt,
+					dd {
+						display: inline-block;
+						vertical-align: middle;
+
+					}
+
+					dt {
+
+						label {
+							position: relative;
+							width: 338px;
+							padding: 10px 0px 10px 40px;
+							font-weight: bold;
+							font-size: 1.2em;
+							color: @colorTxtBase;
+							letter-spacing: 0.5px;
+
+							input {
+								position: absolute;
+								top: 50%;
+								left: 15px;
+								margin-top: -8px;
+							}
+							a {
+								color: #542721!important;
+							}
+							a.new {
+								width: 70%;
+								vertical-align: middle;
+							}
+							img {
+								vertical-align: middle;
+							}
+						}
+
+					}
+
+					dd {
+						width: 496px;
+						padding: 6px 5px 6px 0;
+						text-align: right;
+
+						a {
+							background: @colorWhite;
+							margin-left: 2px;
+						}
+
+						a:first-child {
+							margin-left: 0;
+							margin-right: 1px;
+						}
+					}
+				}
+			}
+
+			.boxSectionCont {
+				padding: 20px 15px 15px;
+
+				.boxRoomImg,
+				.boxRoomDetail {
+					margin-bottom: 25px;
+				}
+
+				.boxRoomImg {
+					float: left;
+					width: 200px;
+
+					ul {
+						margin-left: -4px;
+					}
+
+					li {
+						display: inline-block;
+						vertical-align: top;
+						margin-bottom: 7px;
+						margin-left: 4px;
+					}
+				}
+
+				.boxRoomDetail {
+					float: right;
+					width: 570px;
+					font-size: 0.9em;
+					letter-spacing: 0.2px;
+
+					.boxFrameList {
+						padding-left: 4px;
+						overflow: hidden;
+
+						li {
+							display: inline-block;
+							vertical-align: top;
+							border-bottom: 1px dotted @colorGrey;
+							margin-left: -24px;
+							padding: 8px 0;
+
+							dt {
+								float: left;
+								width: 100px;
+								padding-left: 20px;
+							}
+
+							dd {
+								padding-left: 100px;
+							}
+
+							.txtPrice {
+								color: @colorRed;
+								font-weight: bold;
+								font-size: 1.1em;
+
+								span {
+									font-size: 1.5em;
+								}
+							}
+						}
+
+						li:first-child {
+							border-top: 1px dotted @colorGrey;
+							padding-top: 12px;
+						}
+
+						.boxFull {
+							width: 100%;
+							line-height: 24px;
+						}
+
+						.boxHalf {
+							border-left: 1px dotted @colorGrey;
+							width: 294px;
+						}
+
+					}
+
+					.boxBtnList {
+						padding: 18px 0 0;
+
+						li {
+							display: inline-block;
+							vertical-align: top;
+							margin-top: 4px;
+						}
+
+						li:first-child {
+							margin-left: 0;
+						}
+					}
+				}
+
+				.txtPoint {
+					border-top: 1px solid @colorGrey;
+					background: url(../img/search/result/bg-point.png) no-repeat 0 20px;
+					clear: both;
+					min-height: 80px;
+					padding: 20px 0 0 70px;
+					line-height: 26px;
+					font-size: 0.88em;
+					letter-spacing: 0.2px;
+				}
+			}
+		}
+
+		.grey_out {
+			background-color: #ffffcc;
+		}
+	}
+
+
+	/* -------- 検索詳細 -------- */
+
+	#search-detail {
+		padding-top: 10px;
+		letter-spacing: 0.2px;
+
+		/* ---- メイン・タイトル ---- */
+
+		.ttlMain {
+			background: @colorBase;
+
+			.txtMain {
+				display: inline-block;
+				vertical-align: middle;
+				width: 620px;
+				padding: 24px 20px;
+				color: @colorWhite;
+				font-size: 1.7em;
+				letter-spacing: 0.5px;
+			}
+		}
+
+		.btnSns {
+			text-align: right;
+			margin: 4px 0 36px;
+
+			> div {
+				display: inline-block;
+			}
+			> .social-facebook {
+				top: -4px;
+				position: relative;
+				z-index: 51;
+			}
+		}
+
+
+		/* ---- セクション ---- */
+
+		.boxSection {
+			margin-bottom: 50px;
+		}
+
+		/* ---- サブタイトル ---- */
+
+		.ttlSub {
+			background: @colorBase;
+			margin-bottom: 20px;
+			padding: 8px 14px;
+			color: @colorWhite;
+			font-size: 1.15em;
+			text-shadow: none;
+
+			span {
+				font-size: 0.7em;
+				text-shadow: none;
+			}
+		}
+
+		/* ---- テーブル ---- */
+
+		.boxTable {
+			border: 1px solid @colorBdrBase;
+			background: @colorBg02;
+			font-size: 0.95em;
+			line-height: 22px;
+
+			li {
+				border-top: 1px solid @colorBdrBase;
+				font-size: 0.9em;
+
+				> dl {
+
+					> dt,
+					> dd {
+						padding: 8px 12px;
+					}
+
+					> dt {
+						float: left;
+						width: 100px;
+						font-weight: bold;
+					}
+
+					> dd {
+						border-left: 1px solid @colorBdrBase;
+						background: @colorWhite;
+						margin-left: 100px;
+
+						.txtPrice {
+							color: @colorRed;
+							font-weight: bold;
+							font-size: 1.1em;
+
+							span {
+								font-size: 1.5em;
+							}
+						}
+
+						.btnMap {
+							position: relative;
+							background: @colorBg02;
+							margin: 0 0 0 10px;
+							padding: 0 10px 0 17px;
+							line-height: 22px;
+							font-family: "Helvetica Neue",Helvetica;
+							font-size: 1em;
+							color: @colorTxtBase;
+						}
+
+						.btnMap:before {
+							position: absolute;
+							top: 8px;
+							left: 8px;
+							border-top: 3px solid transparent;
+							border-right: 3px solid transparent;
+							border-bottom: 3px solid transparent;
+							border-left: 5px solid @colorBase;
+							width: 0;
+							height: 0;
+							content: "";
+						}
+					}
+				}
+			}
+
+			td {
+				border-top: 1px solid @colorBdrBase;
+				border-right: 1px solid @colorBdrBase;
+				font-size: 0.9em;
+
+				> dl {
+
+					> dt,
+					> dd {
+						padding: 8px 12px;
+					}
+
+					> dt {
+						float: left;
+						width: 100px;
+						font-weight: bold;
+					}
+
+					> dd {
+						border-left: 1px solid @colorBdrBase;
+						background: @colorWhite;
+						margin-left: 100px;
+
+						.txtPrice {
+							color: @colorRed;
+							font-weight: bold;
+							font-size: 1.1em;
+
+							span {
+								font-size: 1.5em;
+							}
+						}
+
+						.btnMap {
+							position: relative;
+							background: @colorBg02;
+							margin: 0 0 0 10px;
+							padding: 0 10px 0 17px;
+							line-height: 22px;
+							font-family: "Helvetica Neue",Helvetica;
+							font-size: 1em;
+							color: @colorTxtBase;
+						}
+
+						.btnMap:before {
+							position: absolute;
+							top: 8px;
+							left: 8px;
+							border-top: 3px solid transparent;
+							border-right: 3px solid transparent;
+							border-bottom: 3px solid transparent;
+							border-left: 5px solid @colorBase;
+							width: 0;
+							height: 0;
+							content: "";
+						}
+					}
+				}
+			}
+
+			li:first-child {
+				border-top: none;
+			}
+		}
+
+
+		/* ---- 物件詳細・画像 ---- */
+
+		#introduction {
+			margin-bottom: 30px;
+
+			.boxRoomImg {
+				float: right;
+				width: 360px;
+			}
+
+			.boxRoomDetail {
+				// float: left;
+				width: 100%;
+
+				.boxTable {
+
+					width: 100%;
+
+					td{
+						dt { padding: 10px;width: 100px; font-weight: bold;}
+						dt,dd {
+							float: none;
+							display: inline-block;
+							vertical-align: middle;
+						}
+
+						dd {
+							width: 300px;
+							margin-right: -4px;
+							margin-left: 0;
+						}
+					}
+
+					li {
+
+						dt,dd {
+							float: none;
+							display: inline-block;
+							vertical-align: middle;
+						}
+
+						dd {
+							width: 349px;
+							margin-right: -4px;
+							margin-left: 0;
+						}
+					}
+				}
+			}
+		}
+
+
+		/* ---- 物件画像スライド ---- */
+
+		#slide-img {
+			border: 1px solid @colorBdrBase;
+			padding: 25px;
+			text-align: center;
+
+			.flexslider {
+				border-radius: 0;
+				border: none;
+				background: none;
+				box-shadow: none;
+				width: 748px;
+				margin: 0 auto;
+				padding: 0;
+
+				.flex-viewport {
+					width: 524px;
+					margin: 0 auto 30px;
+				}
+
+				.flex-control-thumbs {
+					margin: 0;
+					margin-left: -4px;
+
+					li {
+						overflow: hidden;
+						width: 60px;
+						height: 60px;
+						margin-left: 8px;
+						margin-bottom: 8px;
+
+						img {
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+
+				.flex-direction-nav {
+					.flex-prev {
+						left: 50px;
+						background: url(../img/search/detail/bg-slide-prev.png) no-repeat center;
+					}
+
+					.flex-next {
+						right: 50px;
+						background: url(../img/search/detail/bg-slide-next.png) no-repeat center;
+					}
+
+					a {
+						opacity: 1;
+						text-indent: 200%;
+						white-space: nowrap;
+						margin-top: -100px;
+					}
+
+					a:before {
+						display: none;
+					}
+				}
+			}
+		}
+
+		/* ---- お問い合わせ ---- */
+
+		.boxContact {
+			position: relative;
+			background: url(../img/search/detail/bg-dot.png) repeat-y left;
+
+
+			.ttlSub {
+				position: relative;
+				z-index: 2;
+				background-image: url(../img/search/detail/bg-contact.png);
+				background-repeat: no-repeat;
+				background-position: 15px 11px;
+				margin-bottom: 18px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 55px;
+				font-size: 1.1em;
+			}
+
+			.boxContactCall,
+			.boxContactBnr {
+				display: inline-block;
+				vertical-align: top;
+				margin-bottom: 8px;
+				padding-top: 4px;
+			}
+
+			.boxContactCall {
+				width: 372px;
+				padding-left: 22px;
+				padding-right: 22px;
+
+				dt {
+					margin-bottom: 10px;
+					padding-left: 2px;
+					font-weight: bold;
+					font-size: 1.22em;
+				}
+
+				dd {
+					line-height: 20px;
+					font-size: 0.8em;
+
+					p:first-child {
+						margin-bottom: 10px;
+					}
+
+					p:first-child + p {
+						padding-left: 4px;
+					}
+				}
+			}
+
+			.boxContactBnr {
+				background: url(../img/search/detail/bg-dot.png) repeat-y left;
+				width: 460px;
+				padding-left: 30px;
+
+				li {
+					padding-top: 8px;
+				}
+
+				li:first-child {
+					padding-top: 0;
+				}
+			}
+
+		}
+
+		/* オレンジドット背景枠 */
+
+		.boxContact:before,
+		.boxContact:after {
+			position: absolute;
+			z-index: 0;
+			content: "";
+		}
+
+		.boxContact:before {
+			top: 0;
+			right: -2px;
+			width: 5px;
+			height: 100%;
+			background: url(../img/search/detail/bg-dot.png) repeat-y left;
+		}
+
+		.boxContact:after {
+			left: -2px;
+			bottom: -5px;
+			width: 100%;
+			height: 5px;
+			background: url(../img/search/detail/bg-dot.png) repeat-x bottom;
+		}
+
+		/* ---- セレクトプラン ---- */
+
+		#select-plan {
+
+			.txtSelectPlan {
+				margin-top: -5px;
+				margin-bottom: 28px;
+				padding: 0 15px;
+				font-size: 0.85em;
+			}
+
+			.boxSelectPlanImg {
+				position: relative;
+				margin-bottom: 50px;
+				text-align: center;
+
+				dt {
+					display: inline-block;
+					background: @colorBase;
+					margin: 0 0 28px;
+					padding: 0 22px;
+					color: @colorWhite;
+					font-size: 0.85em;
+				}
+
+				.boxImg {
+					display: inline-block;
+					vertical-align: top;
+					width: 400px;
+					text-align: center;
+
+					.imgPlan {
+						margin-bottom: 10px;
+					}
+
+					.btnZoom {
+						-webkit-border-radius: 20px;
+						        border-radius: 20px;
+						border: 1px solid @colorGrey;
+						background: url(../img/search/detail/bg-zoom.png) no-repeat 25px 5px;
+						width: 140px;
+						margin: 0 auto;
+						padding: 0 20px 0 35px;
+						font-size: 0.9em;
+						cursor: pointer;
+
+					}
+				}
+
+				.txtArw {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					width: 120px;
+					margin-top: -60px;
+					margin-left: -80px;
+					line-height: 20px;
+					font-size: 0.82em;
+					color: @colorOrange;
+					text-align: center;
+					font-weight: bold;
+
+					img {
+						margin-bottom: 12px;
+					}
+				}
+			}
+		}
+
+		#room-points {
+			.boxRoomPoint {
+
+				> dt {
+					background: @colorBg02;
+					margin-bottom: 20px;
+					padding: 8px 15px;
+					font-weight: bold;
+					font-size: 1.15em;
+				}
+
+				> dd {
+					.boxBtnList {
+						margin-bottom: 20px;
+						li {
+							display: inline-block;
+							margin-left: 5px;
+						}
+
+						li:first-child {
+							margin-left: 0;
+						}
+					}
+
+					.txtPoint {
+						background: url(../img/search/result/bg-point.png) no-repeat;
+						min-height: 80px;
+						padding: 0 0 0 70px;
+						line-height: 26px;
+						font-weight: bold;
+						font-size: 1.05em;
+						letter-spacing: 0.5px;
+
+					}
+				}
+			}
+		}
+
+		/* ---- リノベーション詳細 ---- */
+
+		#renovation-detail {
+			margin-bottom: 80px;
+
+			.imgReDetail {
+				margin-bottom: 25px;
+				padding-top: 10px;
+				text-align: center;
+			}
+
+			.boxReDetail {
+				margin-bottom: 30px;
+
+				> dt {
+					border-bottom: 1px solid @colorPoint;
+					margin-bottom: 10px;
+					padding: 0 4px;
+					color: @colorTxtBase;
+					font-weight: bold;
+				}
+
+				> dd {
+					font-size: 0.88em;
+					line-height: 24px;
+
+					> p {
+						padding-top: 5px;
+						font-weight: bold;
+						line-height: 28px;
+					}
+
+					li {
+						border-bottom: 1px solid @colorBdrBase;
+
+						> dl {
+
+							> dt,
+							> dd {
+								padding: 20px 0;
+							}
+
+							> dt {
+								float: left;
+								width: 140px;
+								font-weight: bold;
+							}
+
+							> dd {
+								padding-left: 140px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		/* ---- 物件詳細 ---- */
+
+		#room-description {
+			margin-bottom: 60px;
+
+			.boxTable {
+				overflow: hidden;
+
+				> li {
+					> dl {
+
+						> dt {
+							width: 160px;
+						}
+
+						> dd {
+							margin-left: 160px;
+
+							.txtPrice {
+								font-size: 0.8em;
+							}
+						}
+					}
+				}
+
+				> td {
+					> dl {
+
+						> dt {
+							width: 160px;
+						}
+
+						> dd {
+							margin-left: 160px;
+
+							.txtPrice {
+								font-size: 0.8em;
+							}
+						}
+					}
+				}
+
+				.boxFull {
+					width: 100%;
+				}
+
+				.boxHalf {
+					display: inline-block;
+					vertical-align: top;
+					width: 419px;
+					margin-right: -3px;
+
+					> dl {
+						> dt {
+							display: inline-block;
+							border-left: 1px solid @colorBdrBase;
+							margin-left: -2px;
+						}
+					}
+				}
+			}
+		}
+
+		#area-map + .boxContact {
+			margin-bottom: 15px;
+		}
+	}
+
+
+	/* -------- 検索サイド -------- */
+
+	#side {
+		letter-spacing: 0.2px;
+
+		dt,dd,li,a,a:before {
+			border: none;
+			background: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.boxSelected,
+		.boxReSearch {
+			margin-bottom: 30px;
+
+			> dt {
+				border-top: 3px solid #dcc1ad;
+				padding: 15px;
+				color: @colorWhite;
+				font-size: 1.05em;
+			}
+
+			> dd {
+				border: 1px solid #efece5;
+				border-top: none;
+				padding: 15px 10px 10px;
+
+				> dl {
+					margin-bottom: -12px;
+
+					> dt {
+						background: url(../img/common/bg-dot-small.gif) repeat-x top;
+						padding: 12px 0 4px;
+						font-weight: bold;
+					}
+
+					> dt:first-child {
+						background: none;
+						padding-top: 0;
+					}
+
+					> dd {
+						margin-bottom: 12px;
+						font-size: 0.9em;
+					}
+				}
+			}
+		}
+
+		.boxSelected {
+
+			> dt {
+				background: @colorBase;
+			}
+
+			> dd {
+
+				h3 {
+					margin-bottom: 2px;
+				}
+			}
+
+			.boxAreaList {
+				margin-left: -5px;
+
+				li {
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 5px;
+				}
+			}
+		}
+
+		.boxReSearch {
+			margin-bottom: 10px;
+
+			> dt {
+				background: #a38a79;
+			}
+
+			.boxAreaList {
+				font-size: 1.1em;
+				a {
+					padding: 4px 0 4px 28px;
+					text-decoration: underline;
+				}
+
+				a:before {
+					top: 10px;
+					left: 8px;
+					border-top: 3px solid transparent;
+					border-right: 3px solid transparent;
+					border-bottom: 3px solid transparent;
+					border-left: 5px solid #ae9789;
+					width: 0;
+					height: 0;
+				}
+			}
+
+			.boxInput {
+				margin-bottom: 15px;
+				padding-top: 20px;
+
+				input {
+					border: 1px solid @colorGrey;
+					width: 100%;
+					padding: 8px 10px;
+					color: #bbb;
+				}
+			}
+
+			.boxSubmit {
+				margin-bottom: 5px;
+
+				.btnSubmitSearch {
+					border: none;
+					background: url(../img/search/side/btn-search.png) no-repeat;
+					width: 200px;
+					height: 40px;
+					text-indent: 200%;
+					white-space: nowrap;
+					overflow: hidden;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+}

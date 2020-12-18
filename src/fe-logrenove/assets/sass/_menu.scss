@@ -1,0 +1,92 @@
+.service-lp{
+
+	.navbar {
+		display:flex;
+		padding:28px 51px;
+
+		.btn-join-us{
+		    background-color: #3CBCCF;
+		    color: #fff;
+		    padding: 10px 15px;
+		    font-size: 0.875rem;
+			font-weight: 600;
+			width: 100%;
+			max-width:400px;
+			height: 40px;
+			margin-right: 40px;
+			&:hover{
+				background: #177f8e;
+				color: #fff
+			}
+		}
+		.btn_email{
+		    background: #AD814D;
+		    color: #fff;
+		    font-size: 14px;
+		    font-weight: 600;
+		    padding: 8.5px 40px;
+		    &:hover{
+				background: #8c612f;
+				color: #fff;
+			}
+		}
+
+		ul{
+			justify-content:end;
+			margin-left: auto;
+			li{
+				
+				a{
+					font-weight: 500;
+					font-size: 0.875rem;
+					line-height: 14px;
+					display: flex;
+					align-items: center;
+					justify-content:center;
+					letter-spacing: -0.02em;
+					color: #333942;
+				}
+				&.active{
+					a{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+	}
+
+	.navbar-brand{
+		width:100%;
+		max-width: 440px;
+	}
+
+	.navbar-toggler-icon{
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	}
+
+	.navbar-nav{
+		.nav-item{
+			padding:6px 15px;
+		}
+	}
+}
+
+
+.booking-success-menu{
+	.navbar-brand{
+		max-width:300px;
+	}
+	.btn-box{
+		width:100%;
+		text-align: right;
+		display: flex;
+	    justify-content: flex-end;
+	}
+}
+
+
+
+
+
+

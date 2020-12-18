@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="dist/css/swiper.min.css" type="text/css">
+<script src="dist/js/swiper.min.js"></script>
+
+<header class="intro">
+    <div class="swiper-container hidden-xs">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url('images/slides/banner.jpg'); background-position: 0 0;">
+            </div>
+            <div class="swiper-slide" style="background-image:url('images/slides/logmansion-event-slide.png'); background-position: 0 0;">
+                <a href="https://www.chronicle-web.com/logmansion/event/"></a>
+            </div>
+            <div class="swiper-slide" style="background-image:url('images/slides/logmansion-showroom-slide.png')">
+                <a target="_blank" href="https://www.chronicle-web.com/showroom/"></a>
+            </div>
+            <div class="swiper-slide" style="background-image:url('images/slides/logmansion-works-slide.png')">
+                <a href="https://www.chronicle-web.com/logmansion/works/"></a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container visible-xs">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url('images/slides/sp_girl_slide.jpg'); ">
+            </div>
+            <div class="swiper-slide" style="background-image:url('images/slides/sp_event_slide.png'); ">
+                <a href="https://www.chronicle-web.com/logmansion/event/"></a>
+            </div>
+            <div class="swiper-slide" style="background-image:url('images/slides/sp_showroom_slide.png')">
+                <a target="_blank" href="https://www.chronicle-web.com/showroom/"></a>
+            </div>
+            <div class="swiper-slide" style="background-image:url('images/slides/sp_works_slide.png')">
+                <a href="https://www.chronicle-web.com/logmansion/works/"></a>
+            </div>
+        </div>
+    </div>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 0,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        coverflowEffect: {
+            rotate: 30,
+            slideShadows: false,
+        },
+        autoplay: {
+            delay: 5000,
+            // disableOnInteraction: false,
+        },
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+        // mousewheel: true,
+        slidesPerView: 'auto',
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
+        },
+
+    });
+    </script>
+    <a href="#" class="btn_scrolldown"> <span></span>Search </a>
+</header>

@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'Hiragino Kaku Gothic Pro';
+    src: url('font/hiragino-kaku-gothic-pro-w3.eot');
+    src: url('font/hiragino-kaku-gothic-pro-w3.eot?#iefix') format('embedded-opentype'),
+        url('font/hiragino-kaku-gothic-pro-w3.woff2') format('woff2'),
+        url('font/hiragino-kaku-gothic-pro-w3.woff') format('woff'),
+        url(font/hiragino-kaku-gothic-pro-w3.otf) format("opentype")
+        url("/fonts/hiragino-kaku-gothic-pro-w3.svg#hiragino-kaku-gothic-pro-w3") format("svg");
+}
+@font-face {
+    font-family: 'MS PGothic';
+    src: url('MS-PGothic.eot');
+    src: url('MS-PGothic.eot?#iefix') format('embedded-opentype'),
+        url('MS-PGothic.woff2') format('woff2'),
+        url('MS-PGothic.woff') format('woff'),
+        url('MS-PGothic.ttf') format('truetype'),
+        url('MS-PGothic.svg#MS-PGothic') format('svg');
+}
+
+
+small, .small {
+    font-size: 85%;
+}
+.btn, a, .btn:hover {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    color: #F4979F;
+}
+
+@import './_news-lists.scss';

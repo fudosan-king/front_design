@@ -1,0 +1,67 @@
+
+/*09-02*2017*/
+542: background: #451f07;
+762: background: #451f07;
+801: background: #ddc4b3;
+809: background: #451f07;
+
+mobile
+208: background: #451f07;
+259: background: #451f07;
+273: background: #451f07;
+259: background: #451f07;
+800: background: #451f07;
+
+/*10-02*2017*/
+/* add more */
+ul.list_featuredProperty li a {
+    display: block;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+    color: #000;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+}
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+/* Edit */
+601: ul.list_featuredProperty li {
+	width: 100%;
+}
+642: .featuredProperty_item_img:hover img --> .featuredProperty_item:hover .featuredProperty_item_img img
+661: .featuredProperty_item:hover .featuredProperty_item_img .featuredProperty_item_caption --> .featuredProperty_item_img:hover .featuredProperty_item_caption
+706: .featuredProperty_item_price p {
+	color: #000;
+}
+719: .featuredProperty_item_btn .btn:hover {
+	/* background: #381319; */
+}
+727: .owl-theme .list_featuredProperty_owl .owl-nav [class*=owl-] {
+	/* background: rgba(214, 214, 214, 1); */
+}
+733: .list_featuredProperty_owl .owl-nav .owl-next {
+	top: 25%;
+}
+738: .list_featuredProperty_owl .owl-nav .owl-prev  {
+	top: 25%;
+}
+1192: .owl-carousel .owl-item img {
+	margin: 0 auto;
+}
+.section_featuredProperty {
+	
+}
+
+/*mobile*/
+548: @media (max-width: 667px) {
+	.featuredProperty_item_pattern {
+		min-height: 66px;
+	}
+}
+607: .featuredProperty_item_pattern {
+	min-height: 41px;
+}

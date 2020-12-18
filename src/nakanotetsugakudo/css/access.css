@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+
+
+/*----------------------------------------------------
+	ACCESS
+----------------------------------------------------*/
+
+.acc_tit{
+width: 100%;
+max-width: 1280px;
+margin: 0 auto;
+display: block;
+}
+
+.acc_tit_s{
+display: none;
+}
+
+.acc_pic{
+width: 100%;
+max-width: 1280px;
+margin: 0 auto;
+}
+
+
+.acc_area{
+width: 100%;
+}
+
+.acc_area ul{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-webkit-flexbox;
+    display:-moz-flexbox;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    -webkit-box-pack:center;
+    -moz-box-pack:center;
+    -webkit-flex-pack:center;
+    -moz-flex-pack:center;
+    -ms-flex-pack:center;
+    -webkit-justify-content:center;
+    -moz-justify-content:center;
+    justify-content:center;
+    -webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+
+.acc_area ul li{
+margin: 0 16px 20px 16px;
+width: 300px;
+}
+
+.acc_area02{
+width: 98%;
+background: #7f93b7;
+padding: 20px 1%;
+color: #fff;
+margin: 30px auto 0 auto;
+}
+
+.txt_area02{
+color:#fff;
+line-height: 2.0em;
+font-size:120%;
+}
+
+
+.acc_obi{
+	background:#f6f5f1;
+	padding:30px 0 30px 0;
+}
+
+
+
+.acc_obi .area{
+	max-width:960px;
+	width:100%;
+	margin:0 auto;
+	padding:30px auto;
+	width:100%;
+}
+
+.acc_obi .area .txt_filed{
+	max-width:530px;
+	width:55.20833333%;
+	margin:0 auto;
+	padding:0 auto;
+	float:left;
+}
+
+
+.acc_obi .area .txt_filed .txt{
+	margin:0 auto 10px;
+	text-align:left;
+}
+
+.acc_obi .area .pic{
+	max-width:410px;
+	width:42.70833333%;
+	margin:0 auto;
+	padding:0 auto;
+	float:right;
+}
+
+
+.acc_obi .area div h3{
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 21px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+	color: #6d427e;
+}
+
+.h3_violet{
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 21px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+	color: #6d427e;
+}
+
+.acc_right{
+	/*max-width:514px;
+		width:53.5416666%;*/
+
+
+	
+	width: 48.95833333%;
+    max-width: 470px;
+}
+
+
+
+.acc_left{
+    max-width: 470px;
+
+	width: 48.95833333%;
+}
+
+.acc_left02{
+	max-width:450px;
+	float:left;
+	width:46.875%;
+}
+.pic02{
+width: 51.416666%;
+max-width:490px;
+float:right;
+
+
+}
+
+.acc_t_big{
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 36px !important;
+    line-height: 1.4;
+    padding-bottom: 10px;
+	text-align:center;
+	color:#6f417d;
+	border-bottom:3px #ccc solid;
+	margin:0 auto 30px;
+
+}
+
+
+
+.catch {
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 21px;
+    line-height: 1.4;
+    color: #020429;
+}
+
+@media screen and (max-width: 960px) {
+
+.acc_obi .area{
+
+	width:95%;
+}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+.acc_obi .area .txt_filed{
+	max-width:530px;
+	width:100%;
+	margin:0 auto 20px;
+	padding:0 auto;
+	float:none;
+}
+
+
+
+
+.acc_obi .area .pic{
+	max-width:410px;
+	width:100%;
+	margin:0 auto;
+	padding:0 auto;
+	float:none;
+}
+
+
+
+
+
+.acc_right{
+	max-width:514px;
+	float:none;
+	width:100%;
+	margin:0 auto 30px;
+}
+
+.acc_left{
+	max-width:420px;
+	float:none;
+	width:100%;
+	margin:0 auto 30px;
+}
+
+
+
+}
+
+@media screen and (max-width: 840px) {
+
+.acc_left02{
+	max-width:800px;
+	float:none;
+	width:100%;
+		margin:0 auto 20px;
+}
+.pic02{
+width: 100%;
+max-width:490px;
+	float:none;
+	margin:0 auto 30px;
+
+
+}
+
+}
+
+@media screen and (max-width: 800px) {
+.acc_tit{
+display: none;
+}
+
+.acc_tit_s{
+width: 100%;
+margin: 0 auto;
+display: block;
+}
+
+.pic02{
+width: 100%;
+margin: 0 auto;
+max-width:496px;
+
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+.acc_area ul li{
+width: 100%;
+margin: 0 0 20px 0;
+}
+}

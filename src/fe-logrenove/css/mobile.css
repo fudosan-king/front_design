@@ -1,0 +1,521 @@
+@media (max-width: 1200px) {
+    .service-lp_slides {
+        margin-bottom: 200px;
+    }
+
+    .service-lp_slides .slide_text p {
+        font-size: calc(14px + 6 * ((100vw - 768px) / 432));
+    }
+
+    .service-lp_slides .slide_text .small-title {
+        font-size: calc(26px + 10 * ((100vw - 768px) / 432));
+    }
+
+    .service-lp_slides .slide_reception .reception {
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .service-lp .navbar-brand {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .service-lp .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .service-lp .navbar {
+        padding: 28px 0 10px;
+    }
+
+    .service-lp .navbar .navbar-brand {
+        margin-bottom: 10px;
+    }
+
+    .service-lp .navbar button {
+        margin-bottom: 10px;
+    }
+
+    .service-lp .navbar ul li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    }
+
+    .service-lp .navbar ul li:first-child {
+        border-top: 1px solid rgba(0, 0, 0, 0.125);
+    }
+
+    .service-lp .navbar ul li.active a {
+        text-decoration: none;
+    }
+
+    .service-lp .navbar-toggler {
+        display: block;
+    }
+
+    .service-lp_slides .slide_text .slide_note {
+        font-size: 10px;
+    }
+
+    .service-lp_slides .slide_reception .reception {
+        max-width: 280px;
+    }
+
+    .proposal-lp .proposal-lp_box p.title {
+        font-size: calc(20px + 4 * ((100vw - 768px) / 432));
+    }
+
+    .proposal-lp .proposal-lp_box p.des {
+        font-size: calc(14px + 4 * ((100vw - 768px) / 432));
+    }
+
+    .proposal-lp .proposal-lp_box .proposal-lp_box_text {
+        bottom: -20px;
+    }
+
+    .proposal-lp .proposal-lp_box.even-box .proposal-lp_box_text {
+        bottom: 0;
+    }
+
+    .form-lp .nav-tabs::after {
+        left: 0;
+        right: 0;
+    }
+
+    .booking-success-menu .btn-box {
+        width: calc( 100% - 322px);
+    }
+}
+
+@media (min-width: 768px) {
+    .show-pc {
+        display: block;
+    }
+
+    .hide-pc {
+        display: none;
+    }
+
+    .operation-lp .step .btn-lp-sm-turquoise.custom-w {
+        display: block;
+        padding-top: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    .btn-lp-turquoise {
+        font-size: 1.25rem;
+    }
+
+    .service-lp .service-lp_title-en {
+        font-size: 1.125rem;
+    }
+
+    .left-sp-auto {
+        margin-left: auto;
+    }
+
+    .service-lp .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .service-lp .navbar-brand {
+        max-width: 239px;
+    }
+
+    .service-lp .navbar {
+        padding: 28px 0 10px;
+    }
+
+    .service-lp_slides .col-left {
+        position: static;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .service-lp_slides .col-right {
+        position: absolute;
+        bottom: -26%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .service-lp_slides .slide_text {
+        padding-top: 30px;
+    }
+
+    .service-lp_slides .slide_text p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .service-lp_slides .slide_text .small-title {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .service-lp_slides .slide_text .small-img {
+        max-width: 300px;
+        margin: 0 auto 20px auto;
+    }
+
+    .service-lp_slides .slide_text .slide_note {
+        position: absolute;
+        bottom: 41px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.875rem;
+        width: 100%;
+    }
+
+    .service-lp_slides .slide_reception {
+        position: static;
+        transform: translateX(0);
+        padding-bottom: 110px;
+    }
+
+    .service-lp_slides .slide_reception .reception {
+        margin: 0 auto;
+    }
+
+    .service-lp_slides .slide_img {
+        position: relative;
+        top: 75%;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .service-lp .service-lp_title-jp {
+        font-size: 1.875rem;
+        margin-bottom: 0;
+    }
+
+    .service-lp .service-lp_title-jp span {
+        display: block;
+    }
+
+    .about-lp {
+        padding-bottom: 75px;
+    }
+
+    .about-lp p {
+        font-size: 1rem;
+    }
+
+    .about-lp p span {
+        display: block;
+    }
+
+    .about-lp .about-lp_img {
+        text-align: center;
+    }
+
+    .about-lp .btn-lp-brown {
+        left: 50%;
+        max-width: 330px;
+        display: block;
+    }
+
+    .about-lp .btn-lp-brown span {
+        display: block;
+    }
+
+    .operation-lp {
+        padding-bottom: 30px;
+    }
+
+    .operation-lp .row .col-md-3 {
+        flex: 0 0 100%;
+    }
+
+    .operation-lp .row .col-12.col-md-5 {
+        padding: 0 23px;
+        margin-bottom: 25px;
+    }
+
+    .operation-lp .row .width-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 23px;
+    }
+
+    .operation-lp .row .width-img {
+        max-width: 100%;
+    }
+
+    .operation-lp .step {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .operation-lp .step:before {
+        content: '';
+        position: absolute;
+        background-color: #3CBCCF;
+        top: 57px;
+        bottom: -52px;
+        left: 25px;
+        width: 6px;
+    }
+
+    .operation-lp .step .btn-lp-sm-turquoise {
+        padding-left: 60px;
+        margin-left: 0;
+    }
+
+    .operation-lp .step .btn-lp-sm-turquoise.custom-w {
+        max-width: 280px;
+        display: flex;
+        padding-top: 6px;
+    }
+
+    .operation-lp .step .btn-lp-sm-turquoise span.custom-span {
+        margin-left: 0;
+    }
+
+    .operation-lp .step .width-step {
+        max-width: 100%;
+    }
+
+    .operation-lp .step .width-step:before {
+        height: 0;
+    }
+
+    .operation-lp .step .col-auto {
+        flex-basis: unset;
+        flex-grow: unset;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .operation-lp .step .col-auto .operation-lp_img {
+        max-width: 280px;
+        margin-left: 40px;
+    }
+
+    .operation-lp .step .width-text {
+        padding-left: 55px;
+        padding-right: 15px;
+        max-width: 320px;
+        flex: 0 0 100%;
+    }
+
+    .operation-lp p.title {
+        font-size: 1.5rem;
+        line-height: 28px;
+    }
+
+    .operation-lp p.des {
+        font-size: 1rem;
+    }
+
+    .operation-lp .btn-lp-turquoise {
+        margin-top: 0px;
+    }
+
+    .proposal-lp .proposal-lp_box.even-box {
+        padding-bottom: 0;
+    }
+
+    .proposal-lp .proposal-lp_box.even-box .proposal-lp_box_img {
+        padding-left: 0;
+    }
+
+    .proposal-lp .proposal-lp_box:nth-of-type(3) .proposal-lp_box_img .note {
+        bottom: 0;
+    }
+
+    .proposal-lp .proposal-lp_box {
+        margin-bottom: 60px;
+    }
+
+    .proposal-lp .proposal-lp_box .proposal-lp_box_img {
+        margin-bottom: 20px;
+    }
+
+    .proposal-lp .proposal-lp_box .proposal-lp_box_img .note {
+        bottom: 0;
+    }
+
+    .proposal-lp .proposal-lp_box .proposal-lp_box_text {
+        position: static;
+    }
+
+    .proposal-lp .proposal-lp_box p.title {
+        font-size: 1.5rem;
+    }
+
+    .proposal-lp .proposal-lp_box p.des {
+        font-size: 1rem;
+    }
+
+    .faq-lp .faq-top {
+        margin-bottom: 120px;
+    }
+
+    .faq-lp .faq-top p.des {
+        padding: 0 19px;
+    }
+
+    .faq-lp .faq-content .faq-content_box .g-answer {
+        padding: 10px 25px 22px 25px;
+    }
+
+    .faq-lp .faq-content .faq-content_box .g-answer span {
+        left: 45px;
+    }
+
+    .faq-lp .faq-content .faq-content_box .question span {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .faq-lp .faq-content .faq-content_box .question p {
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 24px;
+        color: #333333;
+    }
+
+    .form-lp .form-content {
+        padding: 40px 15px 0 15px;
+    }
+
+    .form-lp .form-content .col-10 {
+        margin-bottom: 10px;
+    }
+
+    .form-lp .rules-lp p {
+        font-size: 0.625rem;
+        font-weight: 600;
+        letter-spacing: -2px;
+    }
+
+    .form-lp .nav-tabs .nav-item .nav-link {
+        font-size: 1rem;
+    }
+
+    ul.list_menufooter li {
+        display: block;
+    }
+
+    ul.list_menufooter li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .booking-success-menu .btn-box {
+        width: calc( 100% - 192px);
+    }
+
+    .booking-success-menu .navbar-brand {
+        max-width: 120px;
+    }
+
+    .service-lp .navbar .btn-join-us {
+        font-size: 0.625rem;
+        margin-right: 10px;
+        max-width: 250px;
+    }
+
+    .service-lp .navbar .btn_email {
+        width: 36px;
+        height: 36px;
+        border-radius: 100px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        position: relative;
+        background: none;
+    }
+
+    .service-lp .navbar .btn_email:before {
+        content: '';
+        position: absolute;
+        background-color: #AD814D;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .booking-confirm .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .booking-confirm .booking-success_box {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .booking-confirm .booking-success_box h2 {
+        font-size: 1.5rem;
+    }
+
+    .booking-confirm .booking-success_ct .img {
+        margin-bottom: 50px;
+    }
+
+    .booking-confirm .btn-lp-turquoise {
+        margin-bottom: 61px;
+        max-width: 300px;
+    }
+
+    .booking-confirm .btn-lp-turquoise .circle-arrow-right {
+        right: 24px;
+    }
+  /* Register Complete */
+    .register-complete .login_body_top p.text {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .service-lp .navbar-brand {
+        max-width: 200px;
+        margin-right: 5px;
+    }
+
+    .service-lp .btn-join-us {
+        font-size: 0.625rem;
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 10px;
+    }
+
+    .booking-success-menu .btn-box {
+        width: calc( 100% - 132px);
+    }
+
+    .booking-success-menu .navbar-brand {
+        max-width: 60px;
+    }
+
+    .booking-confirm .booking-success_box h2 {
+        font-size: 1.55rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .service-lp .navbar .btn-join-us {
+        padding: 10px 0px;
+        font-size: 0.5625rem;
+    }
+}

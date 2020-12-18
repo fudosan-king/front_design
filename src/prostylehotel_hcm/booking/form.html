@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="js/jquery/css/smoothness/jquery-ui-1.10.4.custom.css" />
+    <script type="text/javascript" src="js/jquery/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/jquery/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery/js/jquery.ui.datepicker-ja.js"></script>
+    <script type="text/javascript" src="js/jquery/js/gcalendar-holidays.js"></script>
+    <script type="text/javascript" src="js/smart_form.js"></script>
+    <style>
+      .ui-datepicker {
+          font-size: 70%;
+      }
+    </style>
+  </head>
+  <body bgcolor="#ffffff">
+    <form method="post" action="	https://advance.reservation.jp/prostyleryokan/stay_pc/rsv/htl_redirect_ser.aspx" id="form1" name="form1" target="smart()" onSubmit="return send()">
+    
+      <!-- 言語（日本語"ja-JP",英語"en-US",韓国語"ko-KR",中国語(簡体字)"zh-CN",中国語(繁体字)"zh-TW"）-->
+      <input type="hidden" value="ja-JP" name="lang">
+      <input type="hidden" name="std" id="std" value="" />
+      
+      <!-- 単体ホテルの場合 -->
+      <input type="hidden" value="1" name="hi_id">
+            
+      <!---------------->
+      <!-- 宿泊開始日 -->
+      <!---------------->
+      <br /><br />
+      ■ご宿泊日<br />
+      <script type="text/javascript">date_dropdown_from_make();</script>
+      <input type="text" id="dp_from" name="dp_from" style="display:none;"/>
+      <span class="text_s">から</span>
+
+      <!---------------->
+      <!-- 泊数       -->
+      <!---------------->
+      <select id="le" name="le" size="1">
+        <option value="1" selected="selected">1泊</option>
+        <option value="2">2泊</option>
+        <option value="3">3泊</option>
+        <option value="4">4泊</option>
+        <option value="5">5泊</option>
+        <option value="6">6泊</option>
+        <option value="7">7泊</option>
+        <option value="8">8泊</option>
+        <option value="9">9泊</option>
+        <option value="10">10泊</option>
+      </select>
+
+      <!---------------->
+      <!-- 宿泊終了日 -->
+      <!---------------->
+      <br />
+      <script type="text/javascript">date_dropdown_to_make();</script>
+      <input type="text" id="dp_to" name="dp_to" style="display:none;"/>
+      <span class="text_s">まで</span>
+      
+      <!---------------->
+      <!-- 人数       -->
+      <!---------------->
+      <br /><br />
+      ■ご宿泊人数<br />
+      <select name="mc" size="1">
+        <option value="1">1名</option>
+        <option selected="selected" value="2">2名</option>
+        <option value="3">3名</option>
+        <option value="4">4名</option>
+      </select>
+      <span class="text_s">/室</span>
+      
+      <!---------------->
+      <!-- 部屋数     -->
+      <!---------------->
+      <br /><br />
+      ■部屋数<br />
+      <select name="rc" size="1">
+        <option value="1" selected="selected">1室</option>
+        <option value="2">2室</option>
+        <option value="3">3室</option>
+      </select>
+      <!---------------->
+      <!-- 検索方法   -->
+      <!--(プラン毎"0",部屋毎"1",料金毎"3",カレンダー"4")※"2"は使用できません。 -->
+      <!---------------->
+
+      <br /><br />
+      ■検索方法<br />
+      <input type="radio" value="0" name="st" checked="checked">宿泊プラン別 
+      <input type="radio" value="1" name="st">部屋タイプ別 
+      <input type="radio" value="3" name="st">価格順に検索
+       
+      <!---------------->
+      <!-- 検索ボタン -->
+      <!---------------->
+      <br /><br />
+      <input type="image" src="img/bt.gif" name="Search_A" alt="検索" class="rsvbtn" onclick="document.getElementById('std').value = '';">
+    </form>
+    
+    <!------------------------>
+    <!-- 新規会員登録リンク -->
+    <!------------------------>
+    <br />
+    <a href="https://advance.reservation.jp/prostyleryokan/stay_pc/rsv/rsv_cst_ipt.aspx?lang=ja-JP&hi_id=1" target="smart">新規会員登録</a>
+    
+    <!------------------------>
+    <!-- 予約確認リンク     -->
+    <!------------------------>
+    <br />
+    <a href="https://advance.reservation.jp/prostyleryokan/stay_pc/rsv/cnf_rsv_ent.aspx?lang=ja-JP&hi_id=1" target="smart">予約確認・変更・キャンセル</a>
+  </body>
+</html>

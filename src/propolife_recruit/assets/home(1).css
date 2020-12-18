@@ -1,0 +1,313 @@
+@charset "utf-8";
+/*--------------------------------------------------------------------------------
+*
+*   2016
+*   PROPOLIFE_RECRUIT
+*
+*   recruit.propolife.co.jp (SP)
+*   home.css
+*
+--------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+
+/* Disable Content */
+#sub_global_nav .home_sub_nav_title{ display: none;}
+#animal_element{ display: none;}
+#btn_list{ display: none;}
+#home_sns_share{ display: none;}
+/* ------------------------------ */
+
+#page_home{ padding: 55px 0 0 0;}
+/* ----------------------------------------
+    #main_visual
+---------------------------------------- */
+#main_visual{
+    width: 100%;
+    position: relative;
+}
+
+#main_visual .main_visual_sp img{
+    width: 100%;
+    height: auto;
+}
+
+#main_visual h1{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+#main_visual h1 img{
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+}
+
+/* ----------------------------------------
+    .news_area
+---------------------------------------- */
+#main_visual .news_area{
+    width: inherit;
+    padding: 10px 30px;
+    margin: 0 15px 10px 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    color: #49361d;
+    border-radius: 5px;
+    position: relative;
+    top: -25px;
+    position: relative;
+}
+
+#main_visual .news_area p{
+    padding-left: 85px;
+    line-height: 1.4em;
+    overflow: hidden;
+}
+
+#main_visual .news_area .date{
+    width: 85px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+#main_visual .news_area a{
+    color: #49361d;
+}
+
+
+/* ----------------------------------------
+    .btn_entry
+---------------------------------------- */
+#page_home .btn_entry{
+    width: inherit;
+    height: 30px;
+    margin: 0 15px 20px 15px;
+    background-color: #771116;
+    position: relative;
+    top: 0;
+    transition: opacity .1s ease;
+}
+
+#page_home .btn_entry:hover{
+    opacity: .7;
+}
+
+#page_home .btn_entry a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+#page_home .btn_entry:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image:url(../../images/home/parts_btn_entry_txt_sp.png);
+    background-repeat: no-repeat;
+    background-size: 53px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#page_home .btn_entry:after{
+    content: '';
+    width: 4px;
+    height: 100%;
+    display: block;
+    background-image:url(../../images/home/parts_btn_entry_arrow_sp.png);
+    background-repeat: no-repeat;
+    background-size: 4px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+
+/* ----------------------------------------
+    #sp_global_nav
+---------------------------------------- */
+#sp_global_nav{
+    margin: 0 0 33px 0;
+}
+
+#sp_global_nav li{
+    width: 100%;
+    height: auto;
+    margin: 0 0 1px 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 320px;
+}
+
+#sp_global_nav li a{
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 320px;
+    position: relative;
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+}
+
+#sp_global_nav li .parents:after,
+#sp_global_nav li a:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image:url('https://www.propolife.co.jp/recruit/wordpress/wp-content/themes/propolife_recruit/common/images/home/parts_sp_gnav_arrow_right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4px;
+    position: absolute;
+    top: 0;
+    left: 62px;
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+}
+
+
+#sp_global_nav li a:hover{ opacity: .7;}
+#sp_global_nav li a:hover:after{ left: 67px;}
+
+#sp_global_nav li .parents:after{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+#sp_global_nav li .parents.on:after{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+#sp_global_nav li .parents{
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 320px;
+    cursor: pointer;
+    position: relative;
+}
+
+#sp_global_nav li ul{
+    height: 0;
+    overflow: hidden;
+}
+
+#sp_global_nav li li{
+    margin: 0;
+    background-color: #f2efe9;
+    border-top: 1px solid #e3e0d9;
+}
+
+#sp_global_nav li.concept{ background-image:url('https://www.propolife.co.jp/recruit/wordpress/wp-content/themes/propolife_recruit/common/images/home/parts_sp_gnav_concept.png'); background-position: right center;}
+#sp_global_nav li.job{ background-image:url('https://www.propolife.co.jp/recruit/wordpress/wp-content/themes/propolife_recruit/common/images/home/parts_sp_gnav_job.png'); background-position: left center;}
+#sp_global_nav li.recruit{ background-image:url('https://www.propolife.co.jp/recruit/wordpress/wp-content/themes/propolife_recruit/common/images/home/parts_sp_gnav_recruit.png'); background-position: right top;} 
+#sp_global_nav li.training{ background-image:url('https://www.propolife.co.jp/recruit/wordpress/wp-content/themes/propolife_recruit/common/images/home/parts_sp_gnav_benefit_left.png'); background-position: left center;}
+#sp_global_nav li.benefit{ background-image:url('https://www.propolife.co.jp/recruit/wordpress/wp-content/themes/propolife_recruit/common/images/home/parts_sp_gnav_benefit_left.png'); background-position: left center;}
+#sp_global_nav li.support{ background-image:url(../../images/home/parts_sp_gnav_support.png); background-position: left center;}
+#sp_global_nav li.point{ background-image:url(../../images/home/parts_sp_gnav_point.png); background-position: right center;}
+#sp_global_nav li.office{ background-image:url(../../images/home/parts_sp_gnav_office.png); background-position: left center;}
+#sp_global_nav li.faq{ background-image:url(../../images/home/parts_sp_gnav_faq.png); background-position: right center;}
+
+#sp_global_nav li.concept a{ background-image:url(../../images/home/parts_sp_gnav_concept_txt.png);}
+#sp_global_nav li.job a{ background-image:url(../../images/home/parts_sp_gnav_job_txt.png);}
+#sp_global_nav li.recruit .parents{ background-image:url(../../images/home/parts_sp_gnav_recruit_txt.png);} 
+#sp_global_nav li.recruit .recruit_new a{ background-image:url(../../images/home/parts_sp_gnav_recruit_new_txt.png);} 
+#sp_global_nav li.recruit .recruit_career a{ background-image:url(../../images/home/parts_sp_gnav_recruit_career_txt.png);} 
+#sp_global_nav li.training a{ background-image:url(../../images/home/parts_sp_gnav_training_txt.png);}
+#sp_global_nav li.benefit a{ background-image:url(../../images/home/parts_sp_gnav_benefit_txt.png);}
+#sp_global_nav li.support a{ background-image:url(../../images/home/parts_sp_gnav_support_txt.png);}
+#sp_global_nav li.point a{ background-image:url(../../images/home/parts_sp_gnav_point_txt.png);}
+#sp_global_nav li.office a{ background-image:url(../../images/home/parts_sp_gnav_office_txt.png);}
+#sp_global_nav li.faq a{ background-image:url(../../images/home/parts_sp_gnav_faq_txt.png);}
+
+
+}
+
+
+/* --------------------------------------------------------------------------------
+*
+    @media screen and (max-width: 480px) 
+*
+-------------------------------------------------------------------------------- */
+@media screen and (max-width: 480px) {
+
+/* ----------------------------------------
+    .news_area
+---------------------------------------- */
+#main_visual .news_area{
+    width: inherit;
+    padding: 8px 14px;
+    margin: 0 15px -25px 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    color: #49361d;
+    border-radius: 5px;
+    top: -40px;
+    position: relative;
+}
+
+#main_visual .news_area p{
+    padding-left: 75px;
+    line-height: 1.4em;
+    overflow: hidden;
+}
+
+#main_visual .news_area .date{
+    width: 75px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+#page_home .btn_entry{
+    margin-bottom: 20px;
+}
+
+
+}
+
+
+
+#sp_global_nav li a {
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'fot-tsukuardgothic-std', sans-serif;
+    font-weight: 500;
+}
+#sp_global_nav li a span {
+    display: block;
+    position: relative;
+    top: 14px;
+}
+#sp_global_nav li.recruit .parents {
+    text-align: center;
+    font-family: 'fot-tsukuardgothic-std', sans-serif;
+    font-weight: 500;
+}
+#sp_global_nav li.recruit .parents span {
+    display: block;
+    position: relative;
+    top: 14px;
+}

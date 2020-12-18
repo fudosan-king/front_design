@@ -1,0 +1,467 @@
+@charset "UTF-8";
+
+.location {
+	width: 100%;
+	background: #ffffff;
+	padding: 80px 0;
+}
+.location .locNavi,
+.location .locWrap {
+	max-width: 1037px;
+	width: 98%;
+	margin: 0 auto 50px;
+}
+.location #loc01,
+.location #loc02,
+.location #loc03,
+.location #loc04,
+.location #loc05,
+.location #loc06 {
+	padding-top: 77px;
+	margin-top: -77px;
+}
+.location .locNavi:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+.location .locNavi li {
+	width: 16.490%;
+	float: left;
+	margin-left: 0.212%;
+}
+.location .locNavi li:first-child {
+	margin-left: 0;
+}
+.location h4 {
+	height: 39px;
+	text-align: center;
+	margin: 0 0 35px;
+}
+.location #loc01 h4 {
+	background: #CB480E;
+}
+.location #loc02 h4 {
+	background: #6E1318;
+}
+.location #loc03 h4 {
+	background: #7F3D6C;
+}
+.location #loc04 h4 {
+	background: #171C61;
+}
+.location #loc05 h4 {
+	background: #006835;
+}
+.location #loc06 h4 {
+	background: #0A5CA1;
+}
+.location .locBox {
+
+}
+.location .locBox:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+.location .locBox li {
+	float: left;
+	margin-top: 20px;
+}
+.location .locBox li.large {
+	margin-top: 0;
+}
+.location #loc01 .locBox li,
+.location #loc05 .locBox li,
+.location #loc06 .locBox li {
+	width: 30.376%;
+	margin-left: 4.436%;
+}
+.location #loc01 .locBox li:nth-child(3n+3),
+.location #loc05 .locBox li:nth-child(3n+3),
+.location #loc06 .locBox li:nth-child(3n+3) {
+	margin-left: 0;
+}
+.location #loc01 .locBox li.large,
+.location #loc04 .locBox li.large,
+.location #loc05 .locBox li.large,
+.location #loc06 .locBox li.large {
+	width: 48.795%;
+	margin-left: 2.411%;
+}
+.location #loc01 .locBox li.large:first-child,
+.location #loc04 .locBox li.large:first-child,
+.location #loc05 .locBox li.large:first-child,
+.location #loc06 .locBox li.large:first-child {
+	margin-left: 0;
+}
+.location #loc02 .locBox li.first {
+	width: 64.609%;
+	margin-right: 4.532%;
+	margin-top: 0;
+}
+.location #loc02 .locBox li.second {
+	width: 30.376%;
+	margin-top: 0;
+}
+.location #loc02 .locBox li.third {
+	width: 30.376%;
+}
+.location #loc03 .locBox li {
+	width: 31.533%;
+	margin-left: 2.700%;
+	margin-top: 0;
+}
+.location #loc03 .locBox li:first-child {
+	margin-left: 0;
+}
+.location #loc04 .locBox li {
+	width: 23.626%;
+	margin-left: 1.832%;
+	margin-top: 0;
+}
+.location #loc04 .locBox li:nth-child(4n+3) {
+	margin-left: 0;
+}
+.location .locBox li .caption {
+	height: 3.0em;
+	color: #000000;
+	font-size: 130%;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	text-align: center;
+	margin: 8px 0 0;
+}
+.location #loc02 .locBox li.first .caption {
+	height: auto;
+	text-align: left;
+}
+.location #loc02 .locBox li.first .caption img {
+	width: 48.955%;
+	float: left;
+}
+.location #loc02 .locBox li.first .caption span {
+	line-height: 1.3;
+}
+.location .locList {
+
+}
+.location .locList:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+.location .locList li {
+	width: 32%;
+	text-align: center;
+	float: left;
+	margin-left: 2%;
+}
+.location .locList li:first-child {
+	margin-left: 0;
+}
+
+.location_ver3 {
+	width: 100%;
+	color: #000000;
+	font-size: 1.44rem;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	background: #ffffff;
+	padding: 80px 0 0;
+}
+.location_ver3 h3 {
+	font-size: 3.2rem;
+	text-align: center;
+	margin: 0;
+}
+.location_ver3 .locWrap {
+	max-width: 1037px;
+	width: 98%;
+	margin: 100px auto 0;
+	position: relative;
+}
+.location_ver3 .loc01 {
+	margin-top: 80px;
+}
+.location_ver3 .locWrap .lead {
+	width: 504px;
+	position: absolute;
+	top: 0;
+}
+.location_ver3 .locWrap.loc01 .lead,
+.location_ver3 .locWrap.loc03 .lead {
+	left: 0;
+}
+.location_ver3 .locWrap.loc02 .lead,
+.location_ver3 .locWrap.loc04 .lead {
+	left: 533px;
+}
+.location_ver3 .lead .ico {
+	vertical-align: top;
+	float: left;
+	padding: 0 1em 1em 0;
+}
+.location_ver3 .lead p {
+	font-size: 1.54rem;
+	line-height: 1.6em;
+	margin: 0;
+}
+.location_ver3 .locWrap:after,
+.location_ver3 .lead:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+.location_ver3 .locBox {
+	width: 504px;
+	float: left;
+}
+.location_ver3 .loc01 .locBox.topMargin {
+	margin-top: 253px;
+}
+.location_ver3 .loc02 .locBox.topMargin {
+	margin-top: 181px;
+}
+.location_ver3 .loc03 .locBox.topMargin {
+	margin-top: 231px;
+}
+.location_ver3 .loc04 .locBox.topMargin {
+	margin-top: 193px;
+}
+.location_ver3 .locBox.right {
+	margin-left: 29px;
+}
+.location_ver3 .locBox .second {
+	margin-top: 20px;
+}
+.location_ver3 .locBox .ph {
+	width: 100%;
+	display: block;
+	margin-bottom: 1.0rem;
+}
+.location_ver3 .locBox .ph.left {
+	width: 61.90%;
+	float: left;
+	padding-right: 1.0rem;
+	margin-bottom: 0;
+}
+.location_ver3 .locBox p {
+	margin: 0;
+}
+.location_ver3 .locBox .ttl {
+	margin-bottom: 0.8rem;
+}
+.location_ver3 .locBox .ttl em {
+	font-size: 2.8rem;
+	font-style: normal;
+}
+.location_ver3 .locBox .description {
+	color: #282828;
+}
+.location_ver3 .locBox .indent {
+	text-indent: -1.0em;
+	padding-left: 1.0em;
+}
+.location_ver3 .locBox .smallBox {
+	width: 48.4127%;
+	float: left;
+}
+.location_ver3 .locBox .smallBox.right {
+	margin-left: 3.1746%;
+}
+.location_ver3 .phList li {
+	width: 30.376%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 4.436%;
+}
+.location_ver3 .phList li:nth-child(-n+3) {
+	margin-top: 0;
+}
+.location_ver3 .phList li:nth-child(3n+1) {
+	margin-left: 0;
+}
+.location_ver3 .phList li .caption {
+	height: 3.0em;
+	text-align: center;
+	margin: 8px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+	.location {
+		padding: 40px 0;
+	}
+	.location .locNavi,
+	.location .locWrap {
+		margin: 0 auto 25px;
+	}
+	.location #loc01,
+	.location #loc02,
+	.location #loc03,
+	.location #loc04,
+	.location #loc05,
+	.location #loc06 {
+		padding-top: 56px;
+		margin-top: -56px;
+	}
+	.location .locNavi li {
+		width: 32.5%;
+		margin-left: 1.25%;
+	}
+	.location .locNavi li:nth-child(4) {
+		margin-left: 0;
+	}
+	.location h4 {
+		margin: 0 0 20px;
+	}
+	.location .locBox li {
+		margin-top: 15px;
+	}
+	.location #loc01 .locBox li,
+	.location #loc05 .locBox li,
+	.location #loc06 .locBox li {
+		width: 49%;
+		margin-left: 2%;
+	}
+	.location #loc01 .locBox li:nth-child(3n+3),
+	.location #loc04 .locBox li:nth-child(4n+3),
+	.location #loc05 .locBox li:nth-child(3n+3),
+	.location #loc06 .locBox li:nth-child(3n+3) {
+		margin-left: 2%;
+	}
+	.location #loc01 .locBox li:nth-child(odd),
+	.location #loc03 .locBox li:nth-child(odd),
+	.location #loc04 .locBox li:nth-child(odd),
+	.location #loc05 .locBox li:nth-child(odd),
+	.location #loc06 .locBox li:nth-child(odd) {
+		margin-left: 0;
+	}
+	.location #loc01 .locBox li.large,
+	.location #loc04 .locBox li.large,
+	.location #loc05 .locBox li.large,
+	.location #loc06 .locBox li.large {
+		width: 49%;
+		margin-left: 2%;
+	}
+	.location #loc02 .locBox li.first {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.location #loc02 .locBox li.second {
+		width: 49%;
+		margin-left: 0;
+	}
+	.location #loc02 .locBox li.third {
+		width: 49%;
+		margin-left: 2%;
+		margin-top: 0;
+	}
+	.location #loc03 .locBox li {
+		width: 49%;
+		margin-left: 2%;
+	}
+	.location #loc04 .locBox li {
+		width: 49%;
+		margin-left: 2%;
+	}
+	.location .locBox li .caption {
+		height: 3.0em;
+		font-size: 130%;
+		margin: 5px 0 0;
+	}
+	.location .locList li {
+		width: 100%;
+		float: none;
+		margin: 20px 0 0;
+	}
+	.location .locList li:first-child {
+		margin: 0;
+	}
+
+	.location_ver3 {
+		font-size: 1.3rem;
+		padding: 40px 0;
+	}
+	.location_ver3 h3 {
+		font-size: 1.8rem;
+	}
+	.location_ver3 .locWrap {
+		margin-top: 50px;
+		position: static;
+	}
+	.location_ver3 .loc01 {
+		margin-top: 40px;
+	}
+	.location_ver3 .locWrap .lead {
+		width: 100%;
+		position: static;
+	}
+	.location_ver3 .lead .ico {
+		width: 30%;
+		padding: 0 1em 1em 0;
+	}
+	.location_ver3 .lead p {
+		font-size: 1.3rem;
+	}
+	.location_ver3 .locBox {
+		width: 100%;
+		float: none;
+		margin-top: 15px;
+	}
+	.location_ver3 .loc01 .locBox.topMargin,
+	.location_ver3 .loc02 .locBox.topMargin,
+	.location_ver3 .loc03 .locBox.topMargin,
+	.location_ver3 .loc04 .locBox.topMargin {
+		margin-top: 20px;
+	}
+	.location_ver3 .locBox.right {
+		margin-left: 0;
+	}
+	.location_ver3 .locBox .second {
+		margin-top: 15px;
+	}
+	.location_ver3 .locBox .ph {
+		margin-bottom: 0.5rem;
+	}
+	.location_ver3 .locBox .ph.left {
+		width: 40%;
+	}
+	.location_ver3 .locBox .ttl {
+		margin-bottom: 0.4rem;
+	}
+	.location_ver3 .locBox .ttl em {
+		font-size: 1.8rem;
+	}
+	.location_ver3 .phList li {
+		width: 49%;
+		margin-top: 15px;
+		margin-left: 2%;
+	}
+	.location_ver3 .phList li:nth-child(-n+3) {
+		margin-top: 15px;
+	}
+	.location_ver3 .phList li:nth-child(-n+2) {
+		margin-top: 0;
+	}
+	.location_ver3 .phList li:nth-child(3n+1) {
+		margin-left: 2%;
+	}
+	.location_ver3 .phList li:nth-child(odd) {
+		margin-left: 0;
+	}
+	.location_ver3 .phList li .caption {
+		margin-top: 5px;
+	}
+}

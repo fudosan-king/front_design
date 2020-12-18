@@ -1,0 +1,79 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+div#wrapper {
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	box-shadow: none;
+	border: none;
+}
+div#wrapper div#header {
+	border-radius: 0px;
+	padding: 10px;
+}
+div#wrapper div#header h1 {
+	font-size: 24px;
+}
+form#mailformpro dl dt {
+	float: none;
+	width: auto;
+	font-size: 12px;
+	padding: 5px;
+	text-align: left;
+}
+form#mailformpro dl dd {
+	clear: both;
+	border-top: none;
+	padding: 5px 15px;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+div.mfp_buttons button {
+	font-size: 14px;
+}
+div#mfp_phase_confirm h4 {
+	font-size: 18px;
+}
+ul#mfp_phase_stat {
+	padding: 0px;
+}
+ul#mfp_phase_stat li {
+	float: left;
+	text-align: center;
+	padding: 5px 0px;
+	border-radius: 3px;
+	margin: 5px;
+	list-style: none;
+	font-size: 14px;
+	width: 28%;
+}
+ul#mfp_phase_stat li.mfp_phase_arrow {
+	bos-shadow: none;
+	display: none;
+}
+ul#mfp_phase_stat li.mfp_active_phase {
+	background-color: #E8EEF9;
+	box-shadow: 0px 0px 5px #000;
+}
+ul#mfp_phase_stat li.mfp_inactive_phase {
+	background-color: #CCC;
+	color: #666;
+	box-shadow: 0px 0px 5px #CCC;
+}
+table#mfp_confirm_table tr th {
+	white-space: nowrap;
+	width: 100px;
+}
+div#mfp_thanks {
+	text-align: center;
+	font-size: 18px;
+	padding: 20px 0px;
+}
+div#mfp_thanks strong {
+	color: #C00;
+	font-size: 24px;
+	display: block;
+}

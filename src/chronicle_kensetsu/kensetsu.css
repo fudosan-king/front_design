@@ -1,0 +1,60 @@
+#header #ttlSiteLogo img {
+    width: auto;
+}
+#header .boxContact {
+    top: 63px;
+}
+.boxMenu_2 ul {
+    margin: 0 auto;
+}
+#header #boxGlobalNav li {
+    float: none;
+    display: inline-block;
+    height: 25px;
+}
+#header #boxGlobalNav li:first-child {
+    background: url('https://www.chro-reform.com/wordpress/wp-content/themes/chroniclereform/commonfiles/img/common/bg-gnav-line.gif') no-repeat top left;
+}
+#header #boxGlobalNav li:last-child:after {
+    background: url('https://www.chro-reform.com/wordpress/wp-content/themes/chroniclereform/commonfiles/img/common/bg-gnav-line.gif') no-repeat top right;
+    position: absolute;
+    right: 0;
+    width: 1px;
+    height: 25px;
+    content: '';
+}
+#header #boxGlobalNav a span {
+    background: none;
+    display: inline-block;
+    text-indent: inherit;
+    color: #333;
+}
+#footer #footerMdl {
+    border-color: #534336;
+}
+.logo_footer {
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    #header #ttlSiteLogo img {
+        width: 180px;
+    }
+    #header #boxGlobalNav li {
+        width: 100%;
+        height: auto;
+    }
+    #header #boxGlobalNav li a {
+        color: #fff;
+    }
+    #header #boxGlobalNav li a:after {
+        margin-top: -30px;
+    }
+    #header #boxGlobalNav a span {
+        color: #fff;
+    }
+}
+@media screen and (max-width: 640px) {
+    .page-material #content {
+        margin-top: 63px;
+    }
+}

@@ -1,0 +1,51 @@
+//check radio
+.section_contactus .contactus_content .frm_contactus label.check-radio span{
+	margin-left:0;
+}
+.check-radio{
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	user-select: none;
+	span{
+		margin-left:0;
+	}
+	.checkmark {
+	  position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  left: 0;
+	  height: 20px;
+	  width: 20px;
+	  border:1px solid #828282;
+	  border-radius: 50%;
+	  	&:after {
+		  content: "";
+		  position: absolute;
+		  display: none;
+		}
+	}
+
+	input{
+		position: absolute;
+	  	opacity: 0;
+	  	cursor: pointer;
+	  	&:checked ~ .checkmark:after {
+	  		top: 50%;
+	  		transform: translate(-50%,-50%);
+			left: 50%;
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			background: #B48856;
+			display: block;
+		}
+	}
+
+
+	
+
+}

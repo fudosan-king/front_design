@@ -1,0 +1,2059 @@
+@charset "utf-8";
+@import "colorscheme.less";
+
+/* =============================================================
+
+　　個別設定
+
+============================================================= */
+
+
+/*  TOP : トップページ
+--------------------------------------------- */
+
+.page-top #content {
+
+　/* 矢印付きボタン */
+	.btnArw {
+		text-align: center;
+
+		a {
+			border: 1px solid #b9b2ac;
+			width: 300px;
+			padding: 8px;
+			text-align: center;
+			line-height: 15px;
+		}
+	}
+
+
+/* ----- （PC）メインビジュアル 画像切り替え ----- */
+
+/* メインビジュアルを囲う要素 */
+#topmain.boxImgChangePC {
+  background: @colorBase;
+	height: 464px;
+	margin-bottom: 35px;
+
+  /* タブを囲う要素 */
+  .boxSlidetabs {
+    min-width: 1100px;
+
+    /* タブ */
+    li {
+
+      /* ボタン */
+      a {
+        background: url(../img/top/topmain/bg-imgchange-off.png) no-repeat;
+        width: 120px;
+        padding: 8px;
+      }
+
+      /* ボタン選択中 */
+      .current {
+        background-image: url(../img/top/topmain/bg-imgchange-on.png);
+      }
+    }
+
+    li:first-child {
+      margin-right: 30px;
+    }
+  }
+
+  /* メイン画像を囲う要素 */
+	.boxContWrap {
+		background: @colorBase;
+		height: 464px;
+
+		/* メイン画像 */
+		.boxItem {
+			min-width: 1100px;
+			height: 464px;		}
+
+    /* 自然素材 */
+		.item1 {
+			background-image: url(../img/top/topmain/img-material.png);
+		}
+
+    /* ワンストップ */
+		.item2 {
+			background-image: url(../img/top/topmain/img-onestop.png);
+		}
+	}
+}
+
+
+
+/* -------- 最新情報エリア -------- */
+
+.boxLatestInfo {
+	display: table;
+	margin-bottom: 50px;
+
+	> div {
+		display: inline-block;
+		width: 350px;
+		vertical-align: top;
+	}
+
+	/* 枠付き */
+	.boxLeft,
+	.boxCenter,
+	.boxCP,
+	.boxEvent {
+		border: 1px solid #e0dcd9;
+		padding: 15px 20px 20px;
+	}
+
+	.boxLeft,
+	.boxCenter {
+		margin-right: 20px;
+	}
+
+	.boxRight {
+		position: relative;
+	}
+
+	.boxMedia,
+	.boxBlog {
+		position: relative;
+		height: 100%;
+		padding-bottom: 40px;
+	}
+
+	.boxCP,
+	.boxEvent {
+		height: 48.2%;
+		padding-bottom: 10px\9;
+	}
+
+	.boxEvent {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+	.ttl {
+		margin: 0 0 10px;
+		font-weight: bold;
+		color: @colorTxtBase;
+
+		span {
+			padding: 0 0 0 10px;
+			font-weight: normal;
+			font-size: 0.7em;
+			color: @colorPoint;
+		}
+	}
+
+	.btn {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+
+		a {
+
+			display: block;
+			background: @colorBg;
+			width: 100%;
+			padding: 10px 0 8px;
+			text-align: center;
+			line-height: 18px;
+		}
+	}
+
+	.boxMedia {
+
+		.ttl + a {
+			font-weight: bold;
+			line-height: 24px;
+
+			.imgMedia {
+				display: block;
+				text-align: center;
+
+				img {
+					max-width: 100%;
+					margin-bottom: 20px;
+				}
+			}
+
+			.ttlMedia {
+				margin-bottom: 20px;
+			}
+
+		}
+	}
+
+	.boxBlog {
+
+		li {
+			margin-bottom: 15px;
+
+			a {
+				display: block;
+				min-height: 60px;
+				font-size: 0.8em;
+				line-height: 20px;
+
+				img {
+					float: left;
+					margin-right: 15px;
+				}
+
+			}
+		}
+	}
+
+}
+
+
+/* -------- クロニクルリフォームとは -------- */
+
+.boxAbout {
+	margin-bottom: 60px;
+
+	.boxSection {
+		p:first-child + p {
+			line-height: 40px;
+			font-size: 1.2em;
+			width: 510px;
+		}
+
+		p:first-child + p + p + p {
+			line-height: 35px;
+		}
+	}
+}
+
+
+/* -------- 自然素材 -------- */
+
+.boxMaterial {
+	margin-bottom: 80px;
+
+	#topmainMaterial {
+		margin-bottom: 50px;
+	}
+
+	.boxSection {
+
+		> div {
+			margin-bottom: 30px;
+		}
+
+		.ttlMaterial {
+			position: relative;
+			border: 1px solid #b9b2ac;
+			float: left;
+			width: 300px;
+			height: 188px;
+
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 220px;
+				margin-top: -30px;
+				margin-left: -110px;
+			}
+		}
+
+		.ttlMaterial:before {
+			position: absolute;
+			top: 50%;
+			left: 100%;
+			z-index: 5;
+			background: url(../img/top/material/bg-arw.gif) no-repeat;
+			content: "";
+			width: 20px;
+			height: 22px;
+			margin-top: -10px;
+		}
+
+		.boxCharm {
+			float: right;
+			width: 755px;
+
+			li {
+				margin: 0 0 28px;
+				padding: 8px;
+
+				dl {
+					overflow: hidden;
+
+					dt {
+						float: left;
+						width: 160px;
+					}
+
+					dd {
+						float: right;
+						width: 570px;
+						text-align: left;
+
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+/* -------- サービス -------- */
+
+.boxService {
+	margin-bottom: 60px;
+	padding-bottom: 100px;
+
+	.boxSection {
+
+		.boxStep {
+			position: relative;
+			border: 3px solid #dfd7cd;
+			margin: 0 0 90px;
+			padding: 25px 20px 10px 0;
+
+			.boxStepInner {
+				width: 1055px;
+				margin: 0 0 0 20px;
+				overflow: hidden;
+
+				ol {
+					background: url(../img/top/service/bg-step-arw2.png) no-repeat center;
+					width: 1074px;
+					margin-left: -25px;
+
+					li {
+						display: inline-block;
+						width: 265px;
+						vertical-align: top;
+						padding-left: 25px;
+						margin: 0 0 10px;
+
+						dl {
+							position: relative;
+							padding: 15px 0 0;
+
+							dt {
+								position: absolute;
+								top: 0;
+								left: 10px;
+								z-index: 10;
+							}
+
+							dt + dd {
+
+								span {
+									position: relative;
+									display: block;
+								}
+							}
+
+							dt + dd:before {
+								position: absolute;
+								top: 0;
+								left: -25px;
+								background: url(../img/top/service/bg-step-arw1.png) no-repeat center;
+								width: 20px;
+								height: 100%;
+								content: "";
+							}
+
+							dt + dd + dd {
+								padding: 8px;
+								text-align: center;
+
+								img {
+									vertical-align: middle;
+								}
+							}
+						}
+
+					}
+
+					li:first-child {
+							margin-bottom: 50px;
+					}
+				}
+			}
+
+		}
+
+		.boxStep:before {
+			position: absolute;
+			left: 50%;
+			bottom: -62px;
+			background: url(../img/top/service/bg-arw-g.png) no-repeat;
+			width: 234px;
+			height: 62px;
+			margin-left: -120px;
+			content: "";
+		}
+	}
+
+}
+
+
+/* -------- リフォームプラン -------- */
+
+.boxPlan {
+	margin-bottom: 100px;
+
+	.boxSection {
+
+		ul {
+
+			li {
+				display: inline-block;
+				width: 530px;
+				vertical-align: top;
+
+				dt {
+					position: relative;
+					margin: 0 0 20px;
+
+					.ttlPlan {
+						display: block;
+						position: absolute;
+						left: 0;
+						bottom: 0;
+						background: rgba(0,0,0,0.5) url(../img/top/plan/bg-arw.png) no-repeat 95%;
+						width: 100%;
+						padding: 22px 28px 18px;
+						color: @colorWhite;
+						font-size: 1.55em;
+						letter-spacing: 1px;
+
+						.txtSub {
+							padding: 0 15px;
+							font-size: 0.6em;
+						}
+					}
+				}
+
+				dd {
+					text-align: center;
+				}
+			}
+
+			li:first-child {
+				margin-right: 40px;
+
+			}
+
+		}
+	}
+}
+
+/* -------- 施工事例 -------- */
+
+.boxWorks {
+	margin-bottom: 40px;
+	padding-bottom: 120px;
+
+	.boxWorksList {
+		margin-bottom: 40px;
+	}
+}
+
+/* -------- ショールーム -------- */
+
+.boxShowroom {
+	margin-bottom: 80px;
+
+	.boxSection {
+
+		p {
+			line-height: 34px;
+		}
+	}
+}
+
+
+/* -------- お問い合わせ -------- */
+
+.boxContact {
+	padding-bottom: 80px;
+
+	.boxTable {
+		border-color: #e0dcd9;
+		border-right: none;
+
+		tr {
+
+			td {
+				border-color: #e0dcd9;
+				border-left: none;
+				padding: 20px;
+
+			}
+
+			> td:first-child {
+				background: #fcfbf8;
+				font-weight: normal;
+			}
+
+			> td:first-child + td {
+				padding-left: 30px;
+			}
+		}
+	}
+
+	.txtRequired {
+		position: relative;
+		top: -1px;
+		background: #ff7373;
+		margin: 0 10px;
+		padding: 4px 10px 2px;
+		line-height: 16px;
+		color: @colorWhite;
+		font-size: 0.8em;
+		font-weight: normal;
+	}
+
+	input {
+		margin: 0 8px;
+		padding: 4px;
+	}
+
+	input[type="radio"] {
+		position: relative;
+		top: -2px;
+		margin: 0 8px 0 0;
+	}
+
+	input[name="mailadd"],
+	input[name="tel"] {
+		margin: 0;
+	}
+
+	select {
+		background: @colorWhite;
+		margin: 0 8px;
+	}
+
+	textarea {
+		width: 560px;
+		height: 160px;
+	}
+
+	.txtGrey {
+		padding: 0 0 0 20px;
+		color: #999;
+		font-size: 0.8em;
+	}
+
+	.btnSubmit {
+		padding-top: 30px;
+		text-align: center;
+
+		input {
+			border: none;
+			background: url(../img/top/contact/btn-contact.png) no-repeat center @colorBase;
+			text-indent: 100%;
+			overflow: hidden;
+			white-space: nowrap;
+			width: 300px;
+			height: 30px;
+			padding: 5px 0 8px;
+			line-height: 70px;
+			cursor: pointer;
+		}
+	}
+
+}
+
+
+}
+
+/*  MEDIA : メディア＆ニュース
+--------------------------------------------- */
+
+.page-media #main .txtDate {
+	margin-bottom: 8px;
+	color: @colorPoint;
+	line-height: 16px;
+}
+
+/* -------- 投稿一覧 -------- */
+
+.boxPostList {
+	margin: 0 0 35px;
+
+	> ul {
+
+		> li {
+			position: relative;
+			background: url(../img/common/bg-dot.png) repeat-x bottom;
+			padding: 35px 0;
+		}
+
+		> li:after {
+		  display: block;
+		  clear: both;
+		  visibility: hidden;
+		  content: "";
+		}
+
+		> li:first-child {
+			padding-top: 0;
+		}
+	}
+
+	.imgThumb {
+		float: left;
+		width: 240px;
+
+		img {
+			width: 200px;
+		}
+	}
+
+	.txtDate,
+	.ttlPost {
+		margin-left: 240px;
+		line-height: 30px;
+	}
+
+	.txtDate {
+		color: #3abcce;
+		font-size: 1.1em;
+	}
+
+	.ttlPost {
+		font-size: 1.15em;
+		font-weight: bold;
+	}
+
+	.btnLinkArea a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-indent: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+}
+
+
+/* -------- 投稿メニュー -------- */
+
+.boxPostMenu {
+	margin: 0 0 40px;
+
+	.ttlMain,
+	.ttlSmp {
+		margin: 0 0 10px;
+		font-weight: bold;
+		color: @colorTxtBase;
+		letter-spacing: 1px;
+	}
+
+	.ttlSmp {
+		display: none;
+	}
+
+	ul {
+
+		 > li {
+			border-bottom: 1px solid #e0dcd9;
+			line-height: 24px;
+			font-size: 0.85em;
+
+			a {
+				padding: 12px 0;
+			}
+
+			a,
+			a span {
+				display: block;
+			}
+		}
+	}
+}
+
+/* 最近の投稿 */
+#recent.boxPostMenu ul {
+	font-size: 1em;
+}
+
+/*　アコーディオンメニュー表示設定 */
+#side.lt260 ul {
+	display: block !important;
+}
+
+
+
+/* ---- バナーエリア ---- */
+.boxBannerArea {
+	ul {
+		li {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
+/* -------- 投稿詳細 -------- */
+
+.boxPostDetail {
+	background: url(../img/common/bg-dot.png) repeat-x bottom;
+	margin: 0 0  35px;
+	padding: 0 0 35px;
+
+
+	.boxPostHead {
+		background: #f6f5f2;
+		margin: 0 0 10px;
+		padding: 10px 16px 20px;
+		line-height: 30px;
+	}
+
+	.boxSNS {
+		margin: 0 0 40px;
+
+		ul {
+			float: right;
+			display: inline-block;
+			border: 1px solid #fdfdfa;
+			padding: 4px 8px;
+
+
+			li {
+				display: inline-block;
+				margin-left: 4px;
+			}
+
+			li:first-child {
+				margin-left: 0;
+			}
+		}
+
+		img {
+			vertical-align: middle;
+		}
+	}
+
+
+	.ttlPost {
+		font-size: 1.5em;
+		color: @colorTxtBase;
+	}
+
+	.boxSection p {
+		margin: 0 0 40px;
+		line-height: 32px;
+	}
+}
+
+
+
+/*  BLOG : スタッフブログ
+--------------------------------------------- */
+
+.page-blog #content {
+
+	.boxPostDetail {
+
+		.boxPostHead {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.ttlPost,
+		.txtDate {
+			display: inline;
+		}
+
+		.ttlPost {
+			font-size: 1.5em;
+			color: @colorTxtBase;
+		}
+
+		.txtDate {
+			position: relative;
+			top: -2px;
+			padding: 0 10px;
+		}
+	}
+}
+
+
+/*  EVENT : イベント情報
+--------------------------------------------- */
+
+.page-event #content {
+
+	.boxArticle {
+		border: 5px solid #d9d6d1;
+		margin-bottom: 40px;
+		padding: 55px 65px 15px 55px;
+		line-height: 34px;
+
+
+		.boxArticleHead {
+			margin: 0 0 20px;
+
+
+			.ttlArticle {
+				margin: 60px 0 5px 0;
+				line-height: 36px;
+				font-size: 1.5em;
+				font-weight: bold;
+				color: @colorTxtBase;
+			}
+
+			.txtDate {
+				font-size: 0.9em;
+			}
+		}
+	}
+
+	.boxSection {
+		margin: 0 0 40px;
+
+		.ttlSection {
+			border-bottom: 1px solid @colorGrey;
+			margin: 0 0 25px;
+			padding: 0 0 5px;
+			font-size: 1.25em;
+			font-weight: bold;
+			color: @colorTxtBase;
+		}
+
+		.boxProgram li {
+			margin: 0 0 40px;
+
+			dl dt {
+				font-size: 1.15em;
+				font-weight: bold;
+				color: @colorTxtBase;
+			}
+
+		}
+
+		.boxContact {
+			background: #f6f5f2;
+			padding: 20px 30px;
+
+			li {
+				float: left;
+				padding: 4px 0;
+			}
+
+			li:first-child {
+				border-right: 1px solid @colorBase;
+				margin-right: 25px;
+				padding-right: 30px;
+			}
+		}
+	}
+}
+
+
+
+/*  MATERIAL : 自然素材
+--------------------------------------------- */
+
+.boxMaterial {
+	color: #5e5045;
+
+	.boxArticleHead {
+		margin-bottom: 60px;
+	}
+
+}
+
+/* ------- はじめに（自然素材3つの魅力） ------- */
+
+#introduction.boxMaterial {
+
+	.boxSection {
+		padding: 50px 0 60px;
+
+		.imgCharm {
+			width: 350px;
+
+			img {
+				border: 1px solid @colorGrey;
+			}
+		}
+
+		.boxCharm {
+			width: 690px;
+			margin: 0 0 0 15px;
+
+			dt {
+				margin: 0 0 20px;
+			}
+
+			dd {
+				line-height: 32px;
+			}
+		}
+	}
+}
+
+/* ------- 素材の紹介（自然素材詳細） ------- */
+
+#detail.boxMaterial {
+	padding: 70px 0 30px;
+
+
+	.ttlArticle {
+		line-height: 40px;
+		letter-spacing: 1px;
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	.boxSection {
+		border: 4px solid #d9d6d1;
+		background: @colorWhite;
+		margin-bottom: 60px;
+		padding: 45px 55px 45px 35px;
+	}
+
+	.imgMaterial {
+		width: 200px;
+	}
+
+	.boxMaterial {
+		width: 755px;
+
+		.ttlMaterial {
+			margin: 0 0 20px;
+			padding: 0 0 15px;
+			letter-spacing: 2.5px;
+			font-size: 1.6em;
+			font-weight: bold;
+		}
+
+		.ttlBalloon {
+			position: relative;
+			display: inline-block;
+			border: 1px solid @colorBase;
+			margin: 0 0 13px;
+			padding: 3px 13px;
+			line-height: 18px;
+			letter-spacing: 2px;
+			font-size: 0.9em;
+			font-weight: bold;
+		}
+
+		.ttlBalloon:before {
+			position: absolute;
+			left: 50%;
+			bottom: -6px;
+			z-index: 5;
+			float: left;
+			-webkit-transform: rotate(45deg);
+					transform: rotate(45deg);
+			border-right: 1px solid @colorBase;
+			border-bottom: 1px solid @colorBase;
+			background: @colorWhite;
+			content: "";
+			width: 10px;
+			height: 10px;
+			margin-left: -5px;
+		}
+
+		.ttlBalloon span {
+			position: relative;
+			z-index: 10;
+		}
+
+		.ttlBalloon + dd {
+			margin: 0 0 18px 8px;
+			line-height: 25px;
+		}
+
+		.ttlBalloon + .boxTwoColumn {
+			border-bottom: none;
+			margin: 0;
+			padding-top: 10px;
+			padding-bottom: 0;
+		}
+
+		.ttlBalloon + .boxTwoColumn + .boxTwoColumn {
+			border-top: 1px solid @colorGrey;
+			margin-top: 35px;
+		}
+
+		.boxTwoColumn  {
+			border-bottom: 1px solid @colorGrey;
+			padding: 35px 0 40px;
+
+			.fltL {
+				width: 200px;
+			}
+
+			.fltR {
+				width: 530px;
+
+				dt {
+					margin: 0 0 10px;
+					font-size: 1.2em;
+					font-weight: bold;
+				}
+
+				dd {
+					line-height: 30px;
+				}
+			}
+		}
+	}
+}
+
+
+/* ----- （PC）メインビジュアル 画像切り替え ----- */
+
+/* メインビジュアルを囲う要素 */
+#topmainMaterial.boxImgChangePC {
+  display: block !important;
+  height: 490px;
+
+  /* タブを囲う要素 */
+  .boxSlidetabs {
+    bottom: 17px;
+
+    /* タブ */
+    li {
+
+      /* ボタン */
+      a {
+        background: url(../img/material/bg-imgchange-off.png) no-repeat;
+        width: 74px;
+        padding: 5px;
+      }
+
+      /* ボタン選択中 */
+      .current {
+        background-image: url(../img/material/bg-imgchange-on.png);
+      }
+    }
+
+    li:first-child,
+    li:first-child + li {
+      margin-right: 5px;
+    }
+  }
+}
+
+
+
+
+/*  SERVICE : サービス
+--------------------------------------------- */
+
+.page-service #content {
+
+	.boxArticle {
+		position: relative;
+
+		.boxArticleHead {
+
+			.ttlArticle {
+				margin: 0 0 70px;
+				text-align: center;
+			}
+		}
+
+		#boxStepNav {
+			position: relative;
+			z-index: 50;
+			width: 100%;
+			margin-bottom: -20px;
+			text-align: center;
+
+			ul {
+				margin: 0 auto;
+
+				li {
+					display: inline-block;
+					margin-right: -4px;
+
+					a {
+						position: relative;
+						border: 1px solid @colorGrey;
+						background: @colorWhite;
+						width: 135px;
+						margin-left: 3px;
+						padding: 5px 0 4px;
+						line-height: 18px;
+						text-align: center;
+						letter-spacing: 1px;
+						color: #666;
+					}
+
+					a.on:before,
+					a:before {
+						content:"STEP"
+					}
+
+					a.on {
+						border: 1px solid @colorBase;
+						background: @colorBase;
+						color: @colorWhite;
+					}
+
+					a.on:after {
+						position: absolute;
+						left: 50%;
+						bottom: -22px;
+						width: 0;
+						height: 0;
+						border-top: 10px solid @colorBase;
+						border-right: 12px solid transparent;
+						border-bottom: 12px solid transparent;
+						border-left: 12px solid transparent;
+						margin-left: -10px;
+						content: "";
+					}
+				}
+
+				li:first-child {
+					margin-left: -3px;
+				}
+			}
+		}
+
+		#boxStepNav.fixed {
+			position: fixed;
+			top: 20px;
+			left: 0;
+			width: 100%;
+		}
+
+		.boxServiceStep {
+			border-top: 1px solid #cbc9c6;
+
+
+			.boxInner {
+				position: relative;
+
+				margin-bottom: 50px;
+				padding: 90px 0 0;
+
+				.imgStep {
+					margin-top: 5px;
+					width: 200px;
+				}
+
+				.boxStep {
+					width: 860px;
+
+					dt {
+						margin-bottom: 20px;
+
+					}
+
+					dd {
+						line-height: 32px;
+						font-size: 0.9em;
+
+						a {
+							text-decoration: underline;
+						}
+
+						em {
+							background: #ffe49a;
+							padding: 2px;
+							font-weight: bold;
+
+						}
+					}
+				}
+			}
+
+			.boxInner:before {
+				position: absolute;
+				top: -1px;
+				left: 50%;
+				background: url(../img/service/icn-arw.gif) no-repeat;
+				width: 112px;
+				height: 61px;
+				content: "";
+				margin-left: -50px;
+			}
+
+		}
+
+		#step01.boxServiceStep {
+			border: none;
+
+			.boxInner {
+			}
+
+			.boxInner:before {
+				display: none;
+			}
+		}
+
+
+	}
+}
+
+
+/*  REFORM PLAN : リフォームプラン
+--------------------------------------------- */
+
+.page-plan #content {
+
+	.boxSelectBtn li {
+		display: inline-block;
+	}
+
+	.boxPlanSelect {
+		margin-bottom: 60px;
+		text-align: center;
+
+		.boxSelectBtn {
+
+			li {
+				display: inline-block;
+			}
+
+			li:first-child {
+				margin-right: 40px;
+			}
+
+			li p {
+				position: relative;
+				display: block;
+				border: 1px solid @colorBase;
+				background: @colorBase;
+				width: 527px;
+				padding: 15px 15px 5px;
+				color: @colorWhite;
+			}
+
+			li p:before {
+				position: absolute;
+				left: 50%;
+				bottom: -36px;
+				width: 0;
+				height: 0;
+				border-top: 20px solid @colorBase;
+				border-right: 22px solid transparent;
+				border-bottom: 22px solid transparent;
+				border-left: 22px solid transparent;
+				margin-left: -22px;
+				content: "";
+			}
+
+			p span {
+				position: relative;
+				z-index: 10;
+				letter-spacing: 1px;
+				display: inline-block;
+			}
+
+			p .txtMain {
+				font-size: 1.55em;
+			}
+
+			a p .txtMain:before {
+				position: absolute;
+				left: -45px;
+				bottom: -15px;
+				background: url(../img/plan/common/bg-arw.png) no-repeat;
+				content: "";
+				width: 35px;
+				height: 35px;
+			}
+
+			p .txtSub {
+				top: -5px;
+				line-height: 15px;
+				font-size: 0.8em;
+			}
+
+			a p {
+				border: 1px solid #ddd;
+				background: #f6f5f2;
+				color: @colorBase;
+			}
+
+			a p:before {
+				display: none;
+			}
+
+			a p span {
+				margin-left: 50px;
+			}
+		}
+	}
+
+
+	.boxStyleSelect {
+
+		h2 {
+			letter-spacing: 2px;
+			font-size: 1.6em;
+			font-weight: bold;
+			color: @colorBase;
+		}
+
+		.boxSelectBtn {
+
+			ul {
+				width: 1130px;
+				margin: 0 0 0 -23px;
+			}
+
+			li {
+				width: 200px;
+				margin: 0 0 0 20px;
+				text-align: left;
+
+				.btnImg {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
+
+	.boxArticle {
+
+		.boxArticleHead {
+			display: table;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+			height: 300px;
+			margin-bottom: 40px;
+			vertical-align: middle;
+
+			.ttlArticle {
+				display: table-cell;
+				vertical-align: middle;
+
+				span {
+					display: block;
+					padding: 5px 0 0;
+					text-align: center;
+				}
+			}
+
+			+ .boxSection > p:first-child {
+				line-height: 34px;
+			}
+		}
+	}
+
+	.boxInteriorList {
+		width: 1145px;
+		margin: 0 0 0 -40px;
+
+
+		li {
+			display: inline-block;
+			width: 530px;
+			margin: 0 0 60px 40px;
+			vertical-align: top;
+
+			> p {
+				margin: 0 0 20px;
+			}
+
+			dl dt {
+				margin: 0 0 5px;
+				font-size: 1.1em;
+				font-weight: bold;
+				color: @colorTxtBase;
+			}
+		}
+	}
+
+
+	#basic-style .boxArticleHead {
+		background-image: url(../img/plan/designers/bg-basic-style.jpg);
+	}
+
+	#natural-style .boxArticleHead {
+		background-image: url(../img/plan/designers/bg-natural-style.jpg);
+	}
+
+	#italian-style .boxArticleHead {
+		background-image: url(../img/plan/designers/bg-italian-style.jpg);
+	}
+
+	#japanese-style .boxArticleHead {
+		background-image: url(../img/plan/designers/bg-japanese-style.jpg);
+	}
+
+	#vintage-style .boxArticleHead {
+		background-image: url(../img/plan/designers/bg-vintage-classic-style.jpg);
+	}
+
+
+	/* --- 自由設計プラン --- */
+
+	.boxFreePlan {
+		margin-bottom: 80px;
+
+		.fltL {
+			width: 525px;
+		}
+
+		.ttlArticle {
+			margin-bottom: 50px;
+			font-size: 1.6em;
+			line-height: 36px;
+			letter-spacing: 1px;
+			font-weight: bold;
+			color: @colorBase;
+		}
+
+		dt {
+			font-size: 1.1em;
+			font-weight: bold;
+			color: @colorBase;
+		}
+
+		dd {
+			line-height: 34px;
+		}
+	}
+
+	#works01 .boxArticleHead {
+		background-image: url(../img/plan/free/bg-works01.jpg);
+	}
+
+}
+
+
+
+/*  WORKS : 施工事例
+--------------------------------------------- */
+
+.boxWorks {
+
+	.boxSection {
+
+		.ttlWorks {
+			margin-bottom: 15px;
+		}
+
+		/* ----- メインビジュアル 画像切り替え ----- */
+
+		.boxImgChange {
+			position: relative;
+			opacity: 0;
+			width: 100%;
+			height: 491px;
+			margin-bottom: 20px;
+			text-align: center;
+
+			.boxSelectBtn {
+				left: auto;
+				right: 20px;
+				bottom: 10px;
+				width: auto;
+
+				li {
+					display: inline-block;
+					width: 90px;
+					text-align: center;
+					color: @colorWhite;
+					font-size: 0.6em;
+
+					.imgBtn {
+						img {
+							border: 1px solid #dddcdb;
+						}
+
+					}
+				}
+
+				li.on {
+
+					.imgBtn {
+						img {
+							border: 1px solid @colorWhite;
+						}
+					}
+				}
+			}
+		}
+
+
+		/* ----- 画像切り替え02 ----- */
+
+		.boxImgChange02 {
+			display: none !important;
+		}
+
+
+		/* ----- PICK UP画像横並び ----- */
+		.boxPickUp {
+			margin-bottom: 55px;
+			margin-left: -8px;
+			text-align: center;
+
+			li {
+				display: inline-block;
+				vertical-align: top;
+				border: 1px solid @colorBase;
+				background: @colorWhite;
+				width: 130px;
+				margin: 0 0 0 8px;
+				padding: 4px;
+				line-height: 16px;
+				letter-spacing: 1px;
+				color: @colorBase;
+				cursor: pointer;
+			}
+
+			li.on {
+				background: @colorBase;
+				color: @colorWhite;
+				cursor: default;
+			}
+
+			.boxWorksList {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+
+.boxWorksList {
+	margin-left: -20px;
+
+	li {
+		position: relative;
+		display: inline-block;
+		width: 200px;
+		margin: 0 0 20px 20px;
+		vertical-align: top;
+
+		span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			background: url(../img/works/top/bg-workslist.png) no-repeat;
+			width: 64px;
+			height: 55px;
+			padding: 5px;
+			color: @colorWhite;
+			font-size: 0.9em;
+		}
+	}
+}
+
+.page-works #content {
+
+	.ttl {
+		margin-bottom: 15px;
+		font-size: 1.15em;
+		font-weight: bold;
+		color: @colorTxtBase;
+	}
+
+	h2.ttl {
+		margin-bottom: 20px;
+		font-size: 1.25em;
+	}
+
+	.bdrOrange {
+		background: url(../img/works/detail/bg-ttl-orange.png) no-repeat bottom;
+		padding: 0 0 7px 5px;
+	}
+
+	p {
+		font-size: 0.9em;
+		line-height: 26px;
+		letter-spacing: 0.5px;
+	}
+
+	.boxPostDetail {
+		margin-bottom: 20px;
+
+		.boxPostHead {
+			background: url(../img/works/detail/bg-ttl-post.gif);
+			margin-bottom: 30px;
+			padding: 15px 18px;
+
+			.ttlPost {
+				font-weight: bold;
+				font-size: 1.25em;
+				color: @colorWhite;
+			}
+		}
+
+		.boxSection {
+
+			.imgTopMain {
+				margin-bottom: 15px;
+			}
+
+			.boxRoom {
+				margin-bottom: 40px;
+
+				.imgRoom {
+					width: 350px;
+					margin-right: 30px;
+					text-align: center;
+				}
+
+				dl {
+					width: 385px;
+
+				}
+			}
+
+			.boxBfrAft {
+				margin-bottom: 50px;
+
+				dl {
+					width: 365px;
+
+					dt,dd {
+						text-align: center;
+					}
+
+					dt {
+						margin-bottom: 20px;
+						padding: 7px;
+						font-weight: bold;
+						color: @colorWhite;
+					}
+
+					dd {
+						position: relative;
+					}
+				}
+
+				.boxBfr {
+					.ttl {
+						background: @colorBase;
+					}
+
+					dd:after {
+						position: absolute;
+						top: 50%;
+						right: -30px;
+						background: url(../img/common/icn-arw-right.gif) no-repeat center;
+						width: 20px;
+						height: 20px;
+						content: "";
+						margin-top: -10px;
+					}
+				}
+
+				.boxAft {
+					.ttl {
+						background: @colorTxtPoint;
+					}
+				}
+			}
+
+			.boxShikouDetail {
+
+				.ttl {
+					font-size: 1.6em;
+				}
+
+				dl {
+					border-bottom: 1px solid #e7e5e3;
+					margin-bottom: 50px;
+
+					dt,
+					dd {
+						float: left;
+						border-top: 1px solid #e7e5e3;
+						padding: 10px;
+					}
+
+					dt {
+						width: 150px;
+					}
+
+					dd {
+						width: 230px;
+
+					}
+				}
+
+				.txtTotalCost {
+					padding: 0 15px;
+					font-weight: bold;
+					font-size: 1.2em;
+
+					.txtPrice {
+						font-size: 1.8em;
+						color: @colorTxtPoint;
+					}
+				}
+			}
+		}
+	}
+
+	.boxPaging {
+		margin-bottom: 60px;
+
+		p {
+			a {
+				background: none;
+				width: auto;
+				font-weight: normal;
+				color: @colorTxtBase;
+			}
+		}
+	}
+
+
+	#side {
+		padding-top: 0;
+
+		.boxPostMenu {
+			margin-bottom: 30px;
+
+			.ttlPostMenu {
+				background: url(../img/works/detail/bg-side-ttl.gif);
+				padding: 7px 10px;
+				font-size: 1.1em;
+				color: @colorWhite;
+			}
+		}
+	}
+}
+
+
+/* ----- 施工事例詳細：画像スライド ----- */
+
+.boxImgSlide {
+	height: 82px;
+	margin: 0 auto 65px;
+}
+
+.als-boxContainer {
+	position: relative;
+	z-index: 50;
+}
+
+.als-boxViewport {
+	position: relative;
+	overflow: hidden;
+	width: 760px !important;
+}
+
+.als-boxWrapper {
+	position: relative;
+	list-style: none;
+}
+
+.als-boxItem {
+	position: relative;
+	float: left;
+	margin-right: 15px;
+}
+
+li.als-boxItem:first-child {
+	margin-left: 0;
+}
+
+/* prev, nextボタン設定 */
+.als-bgPrev,
+.als-bgNext {
+	position: absolute;
+	clear: both;
+	top: 28px;
+	width: 25px;
+	height: 25px;
+	z-index: 60;
+}
+
+.als-bgPrev {
+	left: -12px;
+	background: url(../img/common/icn-slide-arw-prev.png) no-repeat;
+}
+.als-bgNext {
+	right: -8px;
+	background: url(../img/common/icn-slide-arw-next.png) no-repeat;
+}
+
+.als-btnPrev,
+.als-btnNext {
+	cursor: pointer;
+}
+
+
+
+/* ---- その他の事例 ----- */
+.boxOtherWorks {
+	margin-bottom: 40px;
+
+	.ttl {
+		margin-bottom: 20px;
+		letter-spacing: 1px;
+	}
+
+	.boxWorksList {
+		margin-left: -10px;
+
+		li {
+			width: 180px;
+			margin-left: 10px;
+			margin-bottom: 10px;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+
+
+
+/*-------------追加分---------------*/
+
+/* トップブログ欄 */
+
+.boxBlog ul li img {
+	width: 60px;
+	height: 60px;
+}
+
+.boxMedia img {max-height: 200px;}
+
+
+/* WORKS詳細メイン画像 */
+
+.imgTopMain {
+	position: relative;
+	width: 100%;}
+
+.imgTopMain img {
+	margin: 0 auto;
+}
+
+.imgTopMain .imgTopMainTxt {
+	position: absolute;
+	left: 0; bottom: 0;
+	width: 100%;
+	padding: 15px 20px;
+	background: rgba(0,0,0, 0.7);
+}
+
+@media screen and (max-width: 640px){
+.imgTopMain .imgTopMainTxt {
+	padding: 2px 10px 5px 10px;}
+}
+
+
+.imgTopMain .imgTopMainTxt span {
+	float: left;
+	display: block;
+	width: 134px;
+	color: #fff;
+	font-size: 4.5em;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+@media screen and (max-width: 640px){
+.imgTopMain .imgTopMainTxt span {display: none;}
+}
+
+.imgTopMain .imgTopMainTxt dl {
+	float: left;
+	width: 570px;}
+
+@media screen and (max-width: 640px){
+.imgTopMain .imgTopMainTxt dl {}
+}
+
+.imgTopMain .imgTopMainTxt dl dt {
+	font-size: 0.8em;
+	color: #fec92e;}
+
+@media screen and (max-width: 640px){
+.imgTopMain .imgTopMainTxt dl dt {
+	font-size: 0.5em;}
+}
+
+
+.imgTopMain .imgTopMainTxt dl dd {
+	color: #fff;
+	font-size: 1.8em;}
+
+@media screen and (max-width: 640px){
+.imgTopMain .imgTopMainTxt dl dd {font-size: 1.5em;}
+}
+
+
+/* WORKS 詳細ページング */
+
+.singleBoxPaging {
+	text-align: center;
+	margin-bottom: 60px;}
+
+span.btnPrev,
+span.btnNext {display: inline;}
+
+span.btnPrev {float: left;}
+span.btnNext {float: right;}
+
+/* WORKS カルーセル画像 */
+
+.als-boxItem img {
+	width: 82px;
+	height: 82px;
+}
+
+h2.ttlarchive {
+	font-weight: bold;
+	margin-bottom: 1em;}
+
+
+/* FOR WORDPRESS */
+
+
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 1em;
+	display: inline;}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 1em 2px 0;
+	display: inline;}
+
+.alignright {float: right;}
+.alignleft {float: left;}
+
+
+.box-pager {
+	padding: 0 0 20px;
+	text-align: center;
+}
+
+.box-pager p {
+	display: inline;
+	margin: 0 10px 0 0;
+}
+
+.box-pager ul {
+	display: inline;
+}
+
+.wp-pagenavi .current,
+.wp-pagenavi a {
+	display: inline-block;
+	font-weight: normal;
+	min-width: 10px;
+	margin: 0 3px;
+	padding: 15px 10px;
+	text-align: center;
+	letter-spacing: 0;}
+
+.wp-pagenavi .current {
+	border: 1px solid #000;
+	background: #524335;
+	color: #fff;
+}
+
+.wp-pagenavi a {
+	border: 1px solid #9b938b;
+	background: #fff;
+	color: #524335;
+}
+
+.wp-pagenavi a:hover {
+	border: 1px solid #000;
+	background: #524335;
+	color: #fff;
+}
+
+
+.box-pager a:hover {
+	color: #000;
+	border: 1px solid #000;
+	background: #ededed;
+}
+
+.wp-pagenavi span.pages {
+	font-size: smaller;
+	border: none;
+	margin-right: 1em;}
+
+.prev a,.next a {
+	font-size: smaller;
+	display: inline-block;
+	min-width: 10px;
+	margin: 0 3px;
+	padding: 3px 5px;
+	text-align: center;
+	letter-spacing: 0;
+	border: 1px solid #ededed;
+	background: #ededed;
+	color: #666;}
+
+.nextprev {text-align: center;}
+
+.nextprev a {
+	display: inline-block;
+	min-width: 10px;
+	margin: 0 3px;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 5px;
+	text-align: center;
+	letter-spacing: 0;
+	border: 1px solid #ededed;
+	background: #ededed;
+	color: #666;}
+
+.nextprev a:hover {
+	border: 1px solid #000;
+	background: #000;
+	color: #fff;
+}
+
+.error {
+	font-size: 0.8em;
+	color: #f00;}
+
+input#contacttype-2 {padding-left: 2em;}
+
+
+/** fdk追加分 **/
+.boxContact .input-pair {
+	white-space: nowrap;
+}
+
+.privacy-policy {
+	border: 1px solid #888;
+	width: 100%;
+	margin: 20px auto;
+}
+
+
+#postalcode_first {
+	width: 60px;
+}
+#postalcode_last {
+	width: 90px;
+}
+#contact_type label {
+	margin-right: 20px;
+}

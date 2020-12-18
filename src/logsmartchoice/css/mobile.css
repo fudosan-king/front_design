@@ -1,0 +1,279 @@
+@media (max-width: 1024px) {
+    ul.recommand_list li {
+        width: 48%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    ul.recommand_list li:nth-child(3n) {
+        margin-right: 15px;
+    }
+
+    ul.recommand_list li:last-child, ul.recommand_list li:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .navbar .navbar-brand {
+        margin: 0 auto;
+    }
+
+    .navbar .navbar-brand img {
+        width: 150px;
+    }
+
+    .bsnav-mobile .bsnav-mobile-overlay {
+        background: rgba(140, 125, 96, 0.8);
+    }
+
+    .bsnav-mobile .navbar {
+        width: 250px;
+    }
+
+    .bsnav-mobile .navbar-nav {
+        padding: 0;
+    }
+
+    .bsnav-mobile .navbar-nav .nav-item:nth-child(4) .nav-link {
+        text-align: right;
+        border-bottom: none;
+    }
+
+    .bsnav-mobile .navbar-nav .nav-item .nav-link {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .spacing {
+        height: 55.7px;
+    }
+
+    h2 {
+        font-size: 1.625em;
+    }
+
+    .section_topbanner {
+        height: 350px;
+    }
+
+    .section_topinfo .w_box_topinfo {
+        width: 100%;
+    }
+
+    .section_topinfo .box_topinfo .box_topinfo_img {
+        text-align: center;
+    }
+
+    .section_topinfo .box_topinfo .btn_askonline {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .section_topinfo .box_price p.label {
+        margin-bottom: 10px;
+        display: block;
+        margin-right: 10px;
+        font-size: .6em;
+    }
+
+    .section_topinfo .box_price p.prices {
+        font-size: 1em;
+    }
+
+    .section_topinfo table th {
+        width: 15%;
+    }
+
+    .w_content {
+        width: 100%;
+    }
+
+    .w_content p.describe {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .w_content .box_example {
+        margin: 30px 0;
+    }
+
+    .w_content .box_example .box_example_content {
+        padding: 10px;
+    }
+
+    .w_content .box_example .box_example_content p {
+        line-height: 1.5em;
+        font-size: 0.875em;
+    }
+
+    .section_expand_room::before {
+        top: 87px;
+    }
+
+    .section_expand_room .box_expand_room {
+        margin-top: 0;
+    }
+
+    .section_expand_room .box_expand_room .box_intro .box_intro_content .box_intro_content_text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section_expand_room .box_expand_room .box_intro .box_intro_content .box_intro_content_text p {
+        line-height: 1.5em;
+        font-size: 0.875em;
+    }
+
+    .section_expand_room .box_expand_room .box_intro .box_intro_content img {
+        position: relative;
+        top: 45px;
+        right: -10px;
+        float: right;
+    }
+
+    .section_expand_room .box_expand_room .box_expand_room_content {
+        width: 100%;
+    }
+
+    .section_expand_room .box_expand_room .box_expand_room_content .box_beforeafter .box_beforeafter_img {
+        margin-bottom: 15px;
+    }
+
+    .section_expand_room .box_smallwindow {
+        margin: 30px 0;
+    }
+
+    .section_originalwood .w_originalwood {
+        width: 100%;
+    }
+
+    .section_originalwood .w_originalwood h2 {
+        margin-bottom: 15px;
+    }
+
+    .section_originalwood .w_originalwood p.describe {
+        padding: 0;
+    }
+
+    .section_originalwood .w_originalwood .box_device {
+        margin-top: 30px;
+    }
+
+    .section_originalwood .w_originalwood .box_originalwood .originalwood_item .originalwood_img {
+        height: 300px;
+    }
+
+    .section_originalwood .w_originalwood .box_originalwood .originalwood_item .originalwood_img img {
+        height: 300px;
+    }
+
+    .section_originalwood .w_originalwood .box_renovation {
+        margin-top: 30px;
+    }
+
+    .section_originalwood .w_originalwood .box_renovation .box_renovation_describe {
+        padding: 0;
+    }
+
+    .section_originalwood .w_originalwood .box_renovation .box_renovation_content {
+        margin-bottom: 30px;
+    }
+
+    .section_originalwood .w_originalwood .box_renovation .box_renovation_content img {
+        top: 40px;
+        right: -10px;
+    }
+
+    .section_furniture {
+        padding: 30px 0;
+    }
+
+    .section_furniture .box_furniture {
+        width: 100%;
+    }
+
+    .section_furniture .box_furniture .describe {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .section_searchby h3 {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .section_searchby ul {
+        text-align: center;
+    }
+
+    .section_searchby ul li:first-child a {
+        padding-left: 10px;
+    }
+
+    .section_searchby .back_to_top {
+        right: 15px;
+    }
+
+    footer .footer_middle {
+        text-align: center;
+    }
+
+    footer .footer_middle .phone_number {
+        text-align: center;
+    }
+
+    footer .footer_middle .btn_contactus {
+        margin-top: 15px;
+    }
+
+    .section_login .frm_login .btnlogin {
+        min-width: auto;
+        display: block;
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    .section_login .frm_login p {
+        width: auto;
+    }
+
+    .section_searchresults .box_filter {
+        margin-bottom: 30px;
+    }
+
+    .section_searchresults .box_filter .w_box_filter_item {
+        display: block;
+    }
+
+    .section_searchresults .box_filter .w_box_filter_item .box_filter_item {
+        flex: inherit;
+        width: 48%;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .section_searchresults .box_filter .w_box_filter_item .box_filter_item:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 414px) {
+    ul.recommand_list li {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .section_searchresults .box_filter .w_box_filter_item .box_filter_item {
+        width: 46%;
+        font-size: 0.75em;
+    }
+}

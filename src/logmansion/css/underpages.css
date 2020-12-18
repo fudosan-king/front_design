@@ -1,0 +1,37 @@
+#content {
+    margin-top: 0 !important;
+}
+.boxCategory {
+	padding: 100px 0 20px;
+}
+@media (max-width: 1024px) {
+	.navbar-brand_xs {
+	    background: url(../images/logo_small_white.png) no-repeat;
+	    background-size: 100%;
+	    width: 200px;
+	    height: 49px;
+	    border-left: none !important;
+	    position: relative;
+	    top: 8px;
+	    left: 10px;
+	}
+	.header_nav {
+		padding-left: 0;
+		padding-right: 0;
+		top: 0;
+	}
+	.header_nav #hdSide {
+		display: none;
+		border-radius: 0;
+	}
+	.navbar-custom.top-nav-collapse {
+		float: none;
+		background: #451f07;
+	}
+	.navbar-custom.top-nav-collapse {
+		border-radius: 0;
+	}
+	.menu-toggle {
+		top: 8px;
+	}
+}

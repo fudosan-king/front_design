@@ -1,0 +1,514 @@
+@charset "utf-8";
+
+
+/*----------------------------------------------------
+	h4
+----------------------------------------------------*/
+
+
+.h4_gen{
+	margin:2% auto 25px;
+  font-weight: bolder;
+	font-size:16px;
+	padding-bottom:5px;
+	color:#546aba;
+	border-bottom:1px solid #3d4d88;
+
+ position:relative;
+
+
+}
+
+.h4_gen:first-letter{
+  color:#374577;
+  font-size:160%;
+  font-weight:normal;
+  color:#000;
+
+  letter-spacing:2pt;
+}
+
+
+
+.h4_gen span{
+	padding-left:130px;
+	
+
+}
+
+.h4_gen .gen01{
+	position:absolute;
+	top:-56px;
+	
+
+}
+
+.h4_gen .gen02{
+	position:absolute;
+	top:-51px;
+	
+
+}
+
+
+.h4_gen .gen03{
+	position:absolute;
+	top:-47px;
+	
+
+}
+
+
+
+/*----------------------------------------------------
+	
+----------------------------------------------------*/
+#gen_box{
+	margin:0 auto 0;
+	max-width: 740px;
+
+
+}
+
+
+.gen_cap01{
+	text-align:center;
+	color:#3d4d88;
+	margin:-10px auto -100px;
+}
+
+
+
+#gen01,#gen02,#gen03,#gen04,#gen05{
+	padding-top:105px;
+	display: inline-block;
+
+
+}
+
+/*----------------------------------------------------
+	外来のボタン
+----------------------------------------------------*/
+
+
+
+.gen_btn_filed{
+	max-width:675px;
+	margin:0px auto 20px;
+	
+	display: flex;
+        width: 100%;
+ 
+        /*並び順*/
+        /*
+        flex-start：左寄せ（デフォルト）
+        flex-end：右寄せ
+        center： 中央寄せ
+        space-between：残り余白の均等割り 
+        space-around：左右余白 ＋ 均等割り
+        */
+        justify-content: space-around;
+		flex-wrap:wrap;
+
+
+}
+
+
+.gen_btn_filed p{
+	width: 20%;
+	max-width:125px;
+ /*width:125px;
+ height: 125px;*/
+
+
+}
+
+.gen_btn_filed p a:hover{
+	opacity:0.5;
+
+
+}
+
+/*----------------------------------------------------
+	日帰り音声手術へのリンク
+----------------------------------------------------*/
+
+
+
+.ger_day_btn a{
+	display:block;
+	background:#38a1ca;
+	padding:15px;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	box-sizing:border-box;
+	border-radius:4px;
+	margin:0 auto;
+		max-width:300px;
+	
+	margin:30px auto 0;
+
+
+
+}
+
+
+
+.ger_day_btn a:hover{
+	opacity:0.5;
+
+
+}
+
+
+
+
+
+
+/*----------------------------------------------------
+	外来のボタン テキスト
+----------------------------------------------------*/
+
+
+
+.gen_txbtn_filed{
+	max-width:1000px;
+	margin:0 auto 20px;
+	
+	display: flex;
+        width: 100%;
+ 
+        /*並び順*/
+        /*
+        flex-start：左寄せ（デフォルト）
+        flex-end：右寄せ
+        center： 中央寄せ
+        space-between：残り余白の均等割り 
+        space-around：左右余白 ＋ 均等割り
+        */
+        justify-content: space-around;
+		flex-wrap:wrap;
+
+
+}
+
+
+.gen_txbtn_filed a {
+
+text-decoration:none;
+
+    box-shadow: 1px 1px 1px #c5baba;
+border-bottom:3px solid #ecebe6;
+margin-bottom:5%;
+
+
+}
+
+
+.gen_txbtn_filed a p{
+ width:192px;
+padding:5px 10px 5px 10px;
+
+box-sizing:border-box;
+
+
+text-align:center;
+
+background-image: -webkit-gradient(
+                  linear
+                , left top
+                , left bottom
+                , from(#fcfaf1)
+                , color-stop(0.49, #fcfaf1)
+                , color-stop(0.50, #ecebe6)
+                , to(#ecebe6));
+				font-weight:bold;
+
+
+
+
+}
+
+.gen_txbtn_filed  a:hover {
+	border-bottom:3px solid #3d4d88;
+
+
+
+
+
+
+
+}
+
+
+.gen_txbtn_filed  a.select{
+	border-bottom:3px solid #3d4d88;
+
+
+
+
+
+}
+
+
+
+
+.gen_st01{
+	color:#002759;
+	/*color:#002759;*/
+	line-height:1.5;
+	margin:0 auto 20px;
+	    font-size: 24px;
+}
+
+
+.gen_st02{
+	font-size: 24px;
+	color:#002759;
+	color:#002759;
+	/*color:#679f33;*/
+	line-height:1.5;
+	margin:0 auto 20px;
+}
+
+
+.gen_st03{
+	font-size: 24px;
+	color:#002759;
+	/*color:#38a1ca;*/
+	line-height:1.5;
+	margin:0 auto 20px;
+}
+
+.gen_st04{
+	font-size: 24px;
+	color:#002759;
+	color:#002759;
+	/*color:#ff8abf;*/
+	line-height:1.5;
+	margin:0 auto 20px;
+}
+
+
+.gen_st05{
+	font-size: 24px;
+	color:#002759;
+	color:#002759;
+	/*color:#aa8e41;*/
+	line-height:1.5;
+	margin:0 auto 20px;
+}
+
+
+.st_s{
+	font-size:14px;
+	/*color:#002759;*/
+
+}
+
+
+
+/*----------------------------------------------------
+	テキスト
+----------------------------------------------------*/
+
+.gen_txt01{
+	margin:0 auto 20px;
+
+}
+
+
+.gen_txt02{
+
+	margin:0 auto 20px;
+
+}
+
+.gen_txt03{
+	font-size:30px;
+	margin:0 auto 20px;
+	color:#fa9513;
+	font-weight:bold;
+
+}
+
+.txtBig{
+
+	font-size:19px;
+	color: #333;
+
+
+}
+
+
+
+
+.orange{
+	color:#f79700;
+
+}
+
+.green{
+	color:#679f33;
+
+}
+
+.blue{
+	color:#38a1ca;
+
+}
+
+
+.pink{
+	color:#ff82ba;
+
+}
+
+
+
+.yellow{
+	color:#aa8e41;
+
+}
+
+
+
+.gen04_point{
+	max-width:700px;
+	margin:0 0 10px 0 ;
+	
+	display: flex;
+        width: 100%;
+ 
+        /*並び順*/
+        /*
+        flex-start：左寄せ（デフォルト）
+        flex-end：右寄せ
+        center： 中央寄せ
+        space-between：残り余白の均等割り 
+        space-around：左右余白 ＋ 均等割り
+        */
+        justify-content: space-around;
+		flex-wrap:wrap;
+
+
+}
+
+
+.gen04_point p{
+	padding:5px 10px 5px 10px;
+	background: #b5a068;
+	margin-bottom:15px;
+	width:220px;
+	text-align:center;
+	color:#fff;
+    height:45px;
+    box-sizing:border-box;
+	border-radius: 4px;        /* CSS3草案 */  
+    -webkit-border-radius:  4px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius:  4px;   /* Firefox用 */ 
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	
+	
+	
+
+
+
+
+}
+
+@media screen and (max-width: 640px) {
+	
+.gen_cap01{
+	text-align:center;
+	color:#3d4d88;
+	margin:-10px auto -50px;
+}	
+	
+	
+
+.gen_btn_filed{
+
+	margin:0px auto 10px;
+	
+
+
+}
+	
+	
+	
+	#gen01,#gen02,#gen03,#gen04,#gen05{
+	padding-top:65px;
+	display: inline-block;
+
+
+}
+
+
+
+
+.h4_gen span{
+	padding-left:0px;
+	
+
+}
+
+.h4_gen .gen01{
+	position:absolute;
+	top:-105px;
+	
+
+}
+
+.h4_gen .gen02{
+	position:absolute;
+	top:-100px;
+	
+
+}
+
+
+.h4_gen .gen03{
+	position:absolute;
+	top:-96px;
+	
+
+}
+
+
+
+.gen_txbtn_filed{
+	max-width:1000px;
+	margin:0 auto 90px;
+	
+	display: flex;
+        width: 100%;
+ 
+        /*並び順*/
+        /*
+        flex-start：左寄せ（デフォルト）
+        flex-end：右寄せ
+        center： 中央寄せ
+        space-between：残り余白の均等割り 
+        space-around：左右余白 ＋ 均等割り
+        */
+        justify-content: space-around;
+		flex-wrap:wrap;
+
+
+}
+
+
+}

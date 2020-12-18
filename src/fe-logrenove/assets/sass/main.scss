@@ -1,0 +1,171 @@
+@font-face {
+  font-family: Antraste;
+  src: url(../assets/fonts/Antraste.ttf) format("truetype"); 
+}
+
+
+body.body-service-lp{
+	background-color: #fff;
+	font-family: "SF Pro Display Regular", 'Noto Sans JP', '游ゴシック', YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+
+
+.service-lp {
+
+	.container{
+		max-width: 939px;
+	}
+
+	.service-lp_title-en{
+		font-family: Antraste;
+		font-size: 1.5rem;
+		line-height: 30px;
+		letter-spacing: -2px;
+		color: #333333;
+		text-align:center;
+		position: relative;
+		margin-bottom: 52px;
+		&:before{
+			content:'';
+			position: absolute;
+			background-color:#333333;
+			height:3px;
+			width:86px;
+			left:50%;
+			bottom:-14px;
+			transform: translateX(-50%);
+		}
+	}
+
+	.service-lp_title-jp{
+		font-weight: 600;
+		font-size: 2.25rem;
+		line-height: 43px;
+		color: #333333;
+		text-align:center;
+		margin-bottom: 38px;
+	}
+
+	p{
+		font-weight: 500;
+		font-size: 1.125rem;
+		line-height: 30px;
+		color: #333333;
+	}
+
+}
+
+.service-lp_slides {
+	.container{
+		max-width: 1200px;
+	}
+}
+
+
+
+.btn-lp-turquoise{
+	background: #3CBCCF;
+	border-radius: 50px;
+	width: 100%;
+	max-width: 420px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 29px;
+	margin:0 auto;
+	position: relative;
+	&:hover{
+		color: #FFFFFF;
+		opacity: 0.8;
+	}
+}
+
+.btn-lp-brown{
+	background: #8C7D60;
+	border-radius: 50px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 24px;
+	color: #FFFFFF;
+	height:60px;
+	width:100%;
+	max-width: 533px;
+	margin: 0 auto;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+
+.chevron-right{
+	background-image: url(../images/chevron-right.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 24px;
+    width: 24px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:15px;
+}
+
+.chevron-up{
+	background-image: url(../images/chevron-up.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 24px;
+    width: 24px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:15px;
+	transition: transform .5s ease;
+}
+
+.circle-arrow-right{
+	background-image: url(../images/circle-arrow-right.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 20px;
+    width: 20px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:15px;
+}
+
+.calendar{
+	background-image: url(../images/calendar.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 22px;
+    width: 20px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:25px;
+}
+
+.cirkle-turquoise-right{
+	background-image: url(../images/cirkle-turquoise-right.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 20px;
+    width: 20px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:25px;
+}
+
+@import './_menu.scss';
+@import './_home.scss';
+@import './_form.scss';
+@import './_footer.scss';
+@import './_booking-success.scss';
+@import './_register-complete.scss';

@@ -1,0 +1,45 @@
+.mfp_element_all {
+	max-width: 90%;
+}
+.mfp_element_text,
+.mfp_element_number,
+.mfp_element_select-one,
+.mfp_element_email,
+.mfp_element_tel,
+.mfp_element_textarea,
+.mfp_element_date {
+	border: solid 1px #CCC;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #CCC inset;
+	padding: 3px 8px;
+	margin: 2px;
+	vertical-align: middle;
+}
+.mfp_element_checkbox,
+.mfp_element_radio {
+	vertical-align: middle;
+	margin: 0px 2px;
+}
+.mfp_element_submit,.mfp_element_reset,.mfp_element_button {
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: solid 1px #CCC;
+	background: gradient(linear, center top, center bottom, from(#FEFEFE), to(#DEDEDE));
+	background: -webkit-gradient(linear, center top, center bottom, from(#FEFEFE), to(#DEDEDE));
+	background: -moz-linear-gradient(top, #FEFEFE, #DEDEDE);
+	background: -ms-linear-gradient(top, #FEFEFE 0%, #DEDEDE 100%);
+	text-shadow: 0px 2px 0px #FFF;
+	font-size: 24px;
+	cursor: pointer;
+	outline: none;
+}
+.mfp_element_reset {
+	color: #333;
+}
+.mfp_element_submit:hover,.mfp_element_reset:hover,.mfp_element_button:hover {
+	background: gradient(linear, center top, center bottom, from(#F7F7F7), to(#7ECEF4));
+	background: -webkit-gradient(linear, center top, center bottom, from(#F7F7F7), to(#7ECEF4));
+	background: -moz-linear-gradient(top, #F7F7F7, #7ECEF4);
+	background: -ms-linear-gradient(top, #F7F7F7 0%, #7ECEF4 100%);
+	box-shadow: 0px 2px 15px #7ECEF4;
+}

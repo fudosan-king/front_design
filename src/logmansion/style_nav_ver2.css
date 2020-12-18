@@ -1,0 +1,159 @@
+/*12-12-2017*/
+.display_table {
+    display: table;
+}
+.table_content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.header_nav {
+	position: fixed;
+	top: 3px;
+	padding-left: 0.1515151515151515%;
+	padding-right: 0.1515151515151515%;
+	box-sizing: border-box;
+	width: 100%;
+	z-index: 100;
+
+}
+.navbar-brand {
+	top: 10px;
+	left: 10px;
+	height: 60px;
+	width: 226px;
+}
+.navbar-custom.top-nav-collapse {
+	background: transparent;
+	box-shadow: none;
+	float: left;
+}
+.navbar-custom.top-nav-collapse .navbar-nav {
+	float: left;
+	position: relative;
+	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	position: relative;
+}
+.navbar-collapse.collapse {
+	display: inline-block !important;
+	margin-top: 10px;
+	float: left;
+}
+.navbar-custom.top-nav-collapse .navbar-nav > li > a {
+	padding: 7px 10px;
+}
+.header_nav #gNavi {
+	display: table;
+	width: 100%;
+	height: 60px;
+}
+.header_nav #hdMain {
+    display: table-cell;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    webkit-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.1);
+	-moz-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.1);
+	box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.1);
+    background: rgba(242,242,242,1);
+	background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(10%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0 );
+}
+.header_nav #hdSide {
+    display: table-cell;
+    width: 408px;
+    box-shadow: rgba(0, 0, 0, 0.05) 6px 12px 6px -6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.05) 6px 12px 6px -6px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.05) 6px 12px 6px -6px;
+}
+.header_nav #hdSide ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.header_nav #hdSide ul li {	
+    width: 100px;
+    float: right;
+    margin-left: 2px;
+}
+.header_nav #hdSide ul li a {
+	font-family : Hiragino Kaku Gothic ProN;
+	color: #441F08;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	font-size: 13px;
+    display: block;
+    width: 100px;
+    height: 77px;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    border-radius: 10px;
+    background: rgba(242,242,242,1);
+	background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(10%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(255,255,255,0.54) 10%, rgba(255,255,255,0.54) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0 );
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    -webkit-transition: box-shadow,-webkit-box-shadow, -moz-box-shadow 0.3s ease-out;
+    -moz-transition: box-shadow,-webkit-box-shadow, -moz-box-shadow 0.3s ease-out;
+    -o-transition: box-shadow,-webkit-box-shadow, -moz-box-shadow 0.3s ease-out;
+    transition: box-shadow,-webkit-box-shadow, -moz-box-shadow 0.3s ease-out;
+    webkit-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.1);
+	-moz-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.1);
+	box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.1);
+}
+.header_nav #hdSide ul li:nth-child(1) a, .header_nav #hdSide ul li:nth-child(2) a {
+	color: #fff;
+	background: rgba(74,74,74,1);
+	background: -moz-linear-gradient(top, rgba(74,74,74,1) 0%, rgba(94,94,94,0.95) 10%, rgba(94,94,94,0.54) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(74,74,74,1)), color-stop(10%, rgba(94,94,94,0.95)), color-stop(100%, rgba(94,94,94,0.54)));
+	background: -webkit-linear-gradient(top, rgba(74,74,74,1) 0%, rgba(94,94,94,0.95) 10%, rgba(94,94,94,0.54) 100%);
+	background: -o-linear-gradient(top, rgba(74,74,74,1) 0%, rgba(94,94,94,0.95) 10%, rgba(94,94,94,0.54) 100%);
+	background: -ms-linear-gradient(top, rgba(74,74,74,1) 0%, rgba(94,94,94,0.95) 10%, rgba(94,94,94,0.54) 100%);
+	background: linear-gradient(to bottom, rgba(74,74,74,1) 0%, rgba(94,94,94,0.95) 10%, rgba(94,94,94,0.54) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#5e5e5e', GradientType=0 );
+}
+.header_nav #hdSide ul li:nth-child(1):hover a, .header_nav #hdSide ul li:nth-child(2):hover a {
+	color: #441F08;
+	background: #fff;
+}
+.header_nav #hdSide ul li:nth-child(2):hover a i {
+	color: #441F08;
+}
+.header_nav #hdSide ul li:hover a {
+	background-color: rgba(255, 255, 255, 1);
+	-webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+.i_envelope {
+	color: #DF5656;
+}
+.i_showroom {
+	color: #5E5E5E;
+}
+.i_list {
+	color: #fff;
+}

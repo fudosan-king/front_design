@@ -1,0 +1,54 @@
+div#mfp_shopping_cart {
+	border: solid 1px #CCC;
+	margin: 0px;
+	padding: 0px;
+}
+div#mfp_shopping_cart p {
+	margin: 0px;
+	text-align: center;
+	padding: 20px 10px;
+	font-size: 12px;
+	background-color: #FEE;
+}
+table.mfp_shoppingcart {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+table.mfp_shoppingcart thead tr td {
+	background-color: #EEE;
+	border-bottom: solid 1px #CCC;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+}
+table.mfp_shoppingcart tbody tr th,table.mfp_shoppingcart tbody tr td {
+	font-size: 12px;
+	padding: 5px;
+	border-bottom: solid 1px #CCC;
+}
+table.mfp_shoppingcart tbody tr td select {
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+}
+table.mfp_shoppingcart tbody tr td select option {
+	text-align: center;
+}
+table.mfp_shoppingcart tbody tr th span {
+	display: block;
+	font-weight: normal;
+	font-size: 10px;
+	color: #666;
+	padding: 3px 0px;
+}
+table.mfp_shoppingcart tfoot tr td {
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #900;
+}
+td.msc_price {
+	font-size: 12px;
+	text-align: right;
+}

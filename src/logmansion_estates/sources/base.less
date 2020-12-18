@@ -1,0 +1,232 @@
+@charset "utf-8";
+@import "colorscheme.less";
+
+
+/* =============================================================
+
+　　BASE CSS　（ベース・レイアウト設定）
+
+============================================================= */
+
+
+/*  全体　基本設定
+---------------------------------------------*/
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "YuGothic", "Yu Gothic", "Helvetica Neue",Helvetica,Arial,"Lucida Grande","segoe UI", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,Verdana,sans-serif;
+	font-size: 1.6em;
+	line-height: 28px;
+	letter-spacing: -1px;
+	color: #525252;
+	text-align: center;
+	word-wrap: break-word;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+/*  画像 基本設定
+-------------------------- */
+
+img {
+	vertical-align: top;
+	border: none;
+}
+
+/* スマホ用画像 */
+.imgSmp {
+	display: none;
+}
+
+/*  リンク 基本設定
+-------------------------- */
+
+a {
+	display: inline-block;
+	outline: none;
+	color: #333;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+
+/*  フォーム 基本設定
+-------------------------- */
+
+input,
+select,
+textarea {
+	webkit-border-radius: 0 !important;
+		     border-radius: 0 !important;
+	padding: 2px;
+}
+
+input[type="text"] {
+	-webkit-appearance: none;
+}
+
+input[type="button"],
+input[type="text"],
+input[type="submit"] {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+input[type="checkbox"] {
+	border-radius: 0;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+	outline: none;
+	border: 1px solid @colorBdrBase;
+}
+
+form textarea {
+	resize: vertical;
+	width: 100%;
+	-webkit-appearance: none;
+}
+
+
+
+
+/* 　コンテナー　レイアウト設定
+---------------------------------------------*/
+
+#container {
+	position: relative;
+	background: @colorBg;
+	width: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+.boxInner {
+	width: 1100px;
+	margin: 0 auto;
+	text-align: left;
+	.bx-wrapper {
+		background: white;
+	}
+}
+
+.boxInner .banner{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+/*  ヘッダー レイアウト設定
+---------------------------------------------*/
+
+#header {
+	border-top: 4px solid @colorBase;
+	height: 266px;
+
+	.boxInner {
+		position: relative;
+		text-align: center;
+	}
+
+}
+
+
+/*  コンテンツ レイアウト設定
+---------------------------------------------*/
+
+#content {
+	width: 100%;
+	// padding-bottom: 600px; /* フッターの高さ分 */
+	margin-top: 24px;
+}
+
+
+/*  メイン・サイド共通 レイアウト設定
+-----------------------------------*/
+
+#division {
+	position: relative;
+}
+
+#main,
+#side {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/*  メイン レイアウト設定
+------------------------------------*/
+
+#main {
+	width: 840px;
+	margin-right: 35px;
+}
+
+.main-contact {
+	width: 100% !important;
+}
+
+/*  サイド レイアウト設定
+------------------------------------*/
+
+#side {
+	width: 220px;
+	line-height: 20px;
+}
+
+
+/*  ASIDE レイアウト設定
+------------------------------------*/
+
+#aside {
+	padding: 60px 0;
+}
+
+
+
+/*  フッター レイアウト設定
+---------------------------------------------*/
+
+#footer {
+	// position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 600px;
+
+	.boxInner {
+		padding: 26px 0;
+	}
+
+	#footerTop {
+		border-top: 1px solid @colorGrey;
+	}
+
+	#footerMdl {
+		border-top: 4px solid @colorBase;
+	}
+
+	#footerBtm {
+		border-top: 1px solid @colorGrey;
+	}
+
+}
+
+.footer-contact {
+	height: auto !important;
+}
+
+.img-responsive {
+	display: inline-block;
+}
+

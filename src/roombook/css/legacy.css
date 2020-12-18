@@ -1,0 +1,86 @@
+#grand-top .covered-area .inner,
+#our-philosophy .inner,
+#message .inner {
+/*  behavior: url(ie-css3.htc);*/
+  zoom: 1;
+}
+#footer {
+  background: transparent !important;
+}
+
+body {
+  background-image: url(../images/background_dot.png);
+}
+
+/***** grand top *****/
+body#grand-top {
+  background-image: url(../images/grandtop_bg.jpg);
+}
+.covered-area .inner {
+  height: 90px;
+}
+#grand-top .covered-area ul {
+  display: block;
+}
+#grand-top .covered-area .stopper,
+#grand-top .covered-area .inner div {
+  float: none;
+  clear: left;
+}
+.covered-area li {
+  display: inline;
+  margin-right: 4px;
+}
+#our-philosophy {
+  margin-top: 20px;
+}
+#our-philosophy .inner {
+  background-color: #fff;
+}
+#message .columns {
+  width: 700px;
+}
+#shop-columns .columns li,
+#message .columns li {
+  background: url(../images/legacy/ffffff-50.png);
+  height: 120px;
+}
+#shop-columns .columns li:hover,
+#message .columns li:hover {
+  background: url(../images/legacy/c8c8c8-50.png);
+}
+
+
+/***** shop *****/
+#book-inner {
+  height: 600px;
+}
+#header-nav li {
+  display: inline;
+}
+#shop-information .covered-area ul,
+#shop-information .covered-area ul li {
+  display: inline;
+}
+#recommended-real-estate ul li {
+  position: static;
+}
+#shop-image-and-message #shop-image ul li {
+  display: inline;
+}
+
+/***** estate *****/
+#estatedetail-right #sns-share .twitter-share {
+  float: left;
+  width: 100px;
+}
+#estatedetail-right #sns-share .facebook-share {
+  margin-left: 110px;
+  width: 250px;
+}
+
+
+/***** columns *****/
+#column-container #header-nav li {
+  display: inline;
+}

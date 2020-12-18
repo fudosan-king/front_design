@@ -1,0 +1,38 @@
+body {
+	overflow-x: hidden;
+}
+div#mfp_hidden {
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+div#mfp_hidden input {
+	margin: 10px;
+}
+div.mfp_thanks {
+	padding: 30px;
+}
+div.mfp_thanks p {
+	line-height: 1.7em;
+}
+div.mfp_thanks ul.mfp_caution {
+	margin: 0px;
+	padding: 0px;
+}
+div.mfp_thanks ul.mfp_caution li {
+	display: block;
+	color: #C00;
+	margin: 0px;
+	padding: 5px 0px;
+}
+div#mfp_thanks {
+	text-align: center;
+	font-size: 18px;
+	padding: 20px 0px;
+}
+div#mfp_thanks strong {
+	color: #C00;
+	font-size: 24px;
+}

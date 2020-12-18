@@ -1,0 +1,437 @@
+a {color: #666;}
+.btn {font-size: 18px; color: #666;}
+.btn,a,.btn:hover{-webkit-transition:color .25s ease;-moz-transition:color .25s ease;-o-transition:color .25s ease;transition:color .25s ease;}
+.btn:hover, .btn.focus {color:#000;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
+.btn.focus, .btn:focus {box-shadow: none;} button:focus {outline: none;}
+::selection{background:#89645D;color:#FFF;text-shadow:none}
+::-moz-selection{background:#89645D;color:#FFF;text-shadow:none}
+::-webkit-selection{background:#89645D;color:#FFF;text-shadow:none}
+html{width:100%;height:100%}
+body{width:100%;height:100%;background:#fff; font-family: 'Shin Go Light', "Hiragino Sans", "Hiragino Kaku Gothic Std", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif; line-height: 1.5em; font-size: 0.625rem; font-weight: 400;-webkit-font-smoothing:subpixel-antialiased;-webkit-font-smoothing:antialiased!important;-moz-osx-font-smoothing:grayscale;color:#363535;background-size:cover;}
+.btn-link{color:#363535;word-break:normal;word-break:break-all;word-break:keep-all}
+.btn-link:hover{color:#89645D;text-decoration:underline}
+h1,h2,h3,h4,h5,h6{font-family: 'Gothic MB101 Ultra', "Hiragino Sans", "Hiragino Kaku Gothic Std", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif; line-height:1.3em; font-weight: 700; text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased; color:#363535; margin-bottom: 0; font-size: 32px;}
+h1 {font-size: 22px;} h2{font-size: 22px;} h3{font-size:20px;} h4 {font-size: 18px;} h5 {font-size: 16px;}
+*,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+html,body{position:relative;height:100%}
+small {font-size: 10px;}
+a:hover {text-decoration:none;color:#89645D;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
+.form-control:focus {box-shadow: none;}
+.relative {position: relative;}
+#page {
+	position: relative;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	min-height: 100vh;
+}
+.main_content {
+	padding: 15px;
+}
+header {
+	border: 1px solid #626262;
+	margin-bottom: 15px;
+}
+.box_apartment_title {
+	border-right: 1px solid #626262;
+	overflow: hidden;
+	position: relative;
+}
+.apartment_label {
+	margin-bottom: 0;
+	background: #000;
+	float: left;
+	font-family: 'Shin Go DeBold';
+	font-size: 0.625rem;
+	line-height: 1.8em;
+	color: #fff;
+	position: relative;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	margin: 0 15px 0 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.apartment_label span {
+	display: block;
+	padding: 0 2px;
+	font-weight: 900;
+}
+.apartment_name {
+	padding: 15px 0;
+	float: left;
+	font-family: 'Shin Go DeBold';
+}
+.apartment_price {
+	padding: 15px 15px 0;
+	font-family: 'Shin Go DeBold';
+	font-size: 0.75rem;
+	text-align: right;
+}
+.apartment_price span {
+	font-size: 2.5rem;
+	letter-spacing: .02em;
+	font-family: 'Gothic MB101 Ultra';
+}
+.title {
+	font-size: 0.625rem;
+	margin-bottom: 5px;
+	font-family: 'Shin Go DeBold';
+}
+.left_content {
+	border: 1px solid #626262;
+	padding: 10px;
+}
+.property_img {
+	width: 100%;
+	height: 281px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.property_img img {
+	width: 100%;
+	height: 281px;
+	object-fit: cover;
+}
+.box_appealpoint {
+	border: 1px solid #626262;
+}
+.box_appealpoint h3 {
+	background: #626262;
+	padding: 3px 10px;
+	color: #fff;
+	font-size: 0.625rem;
+	font-family: 'Shin Go DeBold';
+	margin-bottom: 10px;
+}
+.box_appealpoint p {
+	font-size: 0.75rem;
+	padding-left: 10px;
+	margin-bottom: 0px;
+}
+.box_appealpoint p:last-child {
+	margin-bottom: 10px;
+}
+.property_map {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid #626262;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.property_map img {
+	width: 100%;
+	height: 398px;
+	object-fit: contain;
+}
+.property_map.full-size img {
+	height: 550px;
+}
+.box_traffic {
+	border: 1px solid #626262;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.box_traffic p {
+	font-family: 'Shin Go DeBold';
+}
+.table td, .table th {
+	padding: .3rem;
+	font-size: 0.5rem;
+	line-height: 1.4em;
+	color: #363535;
+}
+.table-bordered td, .table-bordered th {
+	border-color: #626262;
+}
+.box_property_details .table tbody tr:last-child th, .box_property_details .table tbody tr:last-child td {
+	height: 90px;
+}
+.box_property_details h4 {
+	font-size: 0.5rem;
+	line-height: 1.4em;
+    color: #363535;
+    margin-bottom: 5px;
+}
+.box_property_details p {
+	margin-bottom: 0;
+	word-break: break-all;
+	line-height: 1.3em;
+}
+.right_content {
+	margin-left: 10px;
+}
+.logo {
+	background: #fff;
+	display: block;
+	padding: 10px;
+	border-radius: 3px;
+	margin-right: 5px;
+	text-align: center;
+}
+footer {
+	background: #eeeeee;
+	padding: 10px;
+	margin-top: 10px;
+}
+footer p {
+	margin-bottom: 0;
+}
+footer .call {
+	font-family: 'Shin Go Medium';
+}
+footer .call a {
+	color: #363535;
+}
+address {
+	font-family: 'Shin Go Medium';
+}
+.call span {
+	display: inline-block;
+	background: #363535;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 5px;
+	padding: 2px 5px;
+	margin-bottom: 3px;
+	font-weight: 600;
+}
+.box_transaction p {
+	border-bottom: 1px solid #626262;
+	padding-bottom: 2px;
+	margin-bottom: 10px;
+	font-family: 'Shin Go Medium';
+}
+.box_transaction p:last-child {
+	margin-bottom: 0;
+}
+.box_transaction p span {
+	display: inline-block;
+	float: right;
+}
+.equipment-conditions {
+	font-family: 'Shin Go Light';
+}
+.box_property_img_item .box_property_img {
+	padding: 0 10px 0 0;
+}
+.box_property_img_item:nth-child(2n) .box_property_img {
+	padding-right: 0;
+}
+.box_appealpoint p:last-child {
+	margin-bottom: 55px;
+}
+.box_property_img {
+	height: 147px;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.box_property_img img {
+	height: 147px;
+	width: 100%;
+	object-fit: cover;
+}
+@media (max-width: 768px) {
+	header {
+		margin-top: 15px;
+	}
+	.box_apartment_title {
+		border-right: none;
+		border-bottom: 1px solid;
+	}
+	.apartment_price {
+		padding: 20px 15px 10px;
+		line-height: 1.3em;
+		text-align: center;
+	}
+	.main_content {
+		padding: 0;
+	}
+	.right_content {
+		margin-left: 0;
+	}
+	.left_content {
+		margin-bottom: 15px;
+	}
+	.box_transaction {
+		margin-top: 15px;
+	}
+	footer {
+		margin-bottom: 15px;
+	}
+	footer p:first-child {
+		margin-top: 15px;
+	}
+}
+
+@-moz-document url-prefix() {
+    .box_property_details .table tbody tr:last-child th, .box_property_details .table tbody tr:last-child td {
+		height: 68px;
+	}
+	.table td, .table th {
+		padding: .25rem;
+	}
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .box_property_details .table tbody tr:last-child th, .box_property_details .table tbody tr:last-child td {
+			height: 58px;
+		}
+		.box_property_details p {
+			line-height: 1.2em;
+		}
+		.table td, .table th {
+			padding: .23rem;
+		}
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.box_property_details .table tbody tr:last-child th, .box_property_details .table tbody tr:last-child td {
+		height: 68px;
+	}
+
+}
+
+/* Renove page */
+.col_3 {width: 25%;}
+.col_4 {width: 35%;}
+.col_5 {width: 40%;}
+.col_6 {width: 50%;}
+.col_7 {width: 60%;}
+
+.table.table_footer tr td {
+	border-top: none;
+}
+.container_custom h2.title {
+	font-size: 14px;
+	font-family: 'Gothic MB101 Ultra';
+	margin-bottom: 18px;
+	letter-spacing: .01em;
+}
+.left_content_custom {
+	height: 100%;
+}
+.box_photo_img img {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+}
+.box_photo_img {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding: 10px;
+	padding-left: 0;
+}
+.box_photo_img span {
+	display: block;
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.9);
+	color: #fff;
+	text-align: right;
+	font-family: 'Shin Go Medium';
+}
+
+
+.box_photo_img_item:nth-child(2) .box_photo_img, .box_photo_img_item:nth-child(5) .box_photo_img {
+	padding-right: 0;
+}
+.box_photo_img_item:nth-child(2) .box_photo_img span, .box_photo_img_item:nth-child(5) .box_photo_img span {
+	right: 5px;
+}
+.box_payment h3 {
+	font-size: 18px;
+	font-family: 'Shin Go Light';
+	margin-bottom: 10px;
+}
+.box_payment h3 span {
+	font-size: 15px;
+}
+.table_payment td {
+	vertical-align: middle;
+	padding: 5px;
+	text-align: center;
+	font-size: 13px;
+	font-family: 'Shin Go Medium';
+}
+.table_payment td p {
+	margin-bottom: 0;
+	padding-top: 7px;
+}
+.table_payment .price {
+	text-align: right;
+	font-size: 12px;
+}
+.table_payment h1 {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Shin Go Medium';
+}
+.table_payment h1 span {
+	font-size: 12px;
+	display: block;
+	margin-top: 10px;
+	font-family: 'Shin Go Light';
+}
+
+.table_payment .price span {
+	font-family: 'Gothic MB101 Ultra';
+	font-size: 22px;
+	letter-spacing: .01em;
+}
+.estate_name.typesquare_option {
+	font-size: 0.5rem;
+	font-family: 'Shin Go Light', "Hiragino Sans", "Hiragino Kaku Gothic Std", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+
+@media (max-width: 768px) {
+	#page {
+		height: auto;
+	}
+	.box_property_img_item .box_property_img {
+		padding: 0;
+	}
+	.container_custom .right_content {
+		margin-top: 30px;
+	}
+	.box_photo_img {
+		padding-left: 0;
+		padding-right: 0;
+
+	}
+	.box_photo_img span {
+		bottom: 5px;
+	}
+	.box_photo_img_item:nth-child(1) .box_photo_img span, .box_photo_img_item:nth-child(5) .box_photo_img span {
+		right: 10px;
+	}
+	.box_payment {
+		margin-top: 30px;
+	}
+}
+
+.box_payment {
+	width: 100%;
+}
+
+body.A4.landscape .sheet {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}

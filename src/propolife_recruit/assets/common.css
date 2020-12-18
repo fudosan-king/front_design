@@ -1,0 +1,505 @@
+@charset "utf-8";
+/*--------------------------------------------------------------------------------
+*
+*   2016
+*   PROPOLIFE_RECRUIT
+*
+*   common.css
+*
+--------------------------------------------------------------------------------*/
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}/*HTML5display-roleresetforolderbrowsers*/article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+body{
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3', '游ゴシック','YuGothic', Meiryo,メイリオ,sans-serif;
+    color: #000;
+    font-size : 14px;
+    background-color:#fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+}
+
+a, p, div, li{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); outline: none; list-style: none;}
+a:link{ color: #000; text-decoration: underline;}
+a:visited{ color: #000; text-decoration: underline;}
+a:hover{ color: #000; text-decoration: none;}
+a:active{ color: #000; text-decoration: underline;}
+
+strong{ font-weight: bold;}
+em{ font-style: italic;}
+
+body, html, #header{ min-width: 1150px;}
+
+/* clearfix
+---------------------------------------------------------------------------- */
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#wrap{
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3', '游ゴシック','YuGothic', Meiryo,メイリオ,sans-serif;
+    overflow: hidden;
+    padding: 56px 0 30px 0;
+    clear: both;
+    background-color: #e3e0d9;
+    z-index: 1;
+    position: relative;
+}
+
+img.pc{ display: inline-block;}
+img.sp{ display: none;}
+.switch_pc{ display: block;}
+.switch_sp{ display: none;}
+br.sp{ display: none;}
+
+.menu.sp {
+    display: none;
+}
+li.sp {
+    display: none;
+}
+
+.tac {
+    text-align: center;
+}
+
+
+/* -------------------------------------------------------
+    #sub_global_nav
+------------------------------------------------------- */
+#sub_global_nav{
+    background-image:url(../images/parts_bg_white_op90.png);
+    position: absolute;
+    top: 82px;
+    left: 23px;
+    z-index: 3;
+}
+
+#sub_global_nav .btn_entry{
+    width: 229px;
+    margin: 0 auto 18px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#sub_global_nav .btn_entry a{
+    width: 229px;
+    height: 48px;
+    padding: 16px 0;
+    border: 2px solid #771116;
+    display: block;
+    box-sizing: border-box;
+    transition: background .15s ease;
+}
+
+#sub_global_nav .btn_entry span{
+    width: 74px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#sub_global_nav .btn_entry img{
+    transition: all .25s ease;
+    margin-left: -150px;
+}
+
+#sub_global_nav .btn_entry a:hover{
+    background-color: #771116;
+}
+
+#sub_global_nav .btn_entry a:hover img{
+    margin-left: 0;
+    opacity: 1;
+}
+
+
+/*
+    #sub_global_nav_list
+*/
+#sub_global_nav_list{
+    margin: 0 0 25px 0;
+}
+
+#sub_global_nav_list li{
+    width: 100%;
+    height: 30px;
+    margin: 0 0 6px 0;
+}
+
+#sub_global_nav_list li:last-child{
+    margin: 0;
+}
+
+#sub_global_nav_list li a{
+    height: 30px;
+    padding: 9px 0 9px 20px;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .1s ease;
+    position: relative;
+}
+
+#sub_global_nav_list li a:after{
+    content: '';
+    width: 6px;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-image:url(../images/parts_sub_gnav_list_arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+#sub_global_nav_list li.parent{
+    height: inherit;
+}
+
+#sub_global_nav_list li.parent p{
+    height: 30px;
+    margin: 0 0 6px 0;
+    padding: 9px 0 9px 20px;
+    box-sizing: border-box;
+}
+
+#sub_global_nav_list li.parent li a{ padding-left: 40px;}
+
+#sub_global_nav_list li.current a,
+#sub_global_nav_list li a:hover{
+    color: #fff;
+    background-color: #771116;
+}
+
+#sub_global_nav_list li.current a:after,
+#sub_global_nav_list li a:hover:after{
+    background: none;
+}
+
+/*
+    #sub_nav_banner
+*/
+
+#sub_nav_banner{
+    margin: 0 0 25px 0;
+    padding: 0 19px;
+}
+
+#sub_nav_banner li{
+    width: 100%;
+    margin: 0 0 13px 0;
+    line-height: 0;
+}
+
+#sub_nav_banner li:last-child{ margin: 0;}
+
+#sub_nav_banner li img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* ----------------------------------------
+    #footer
+---------------------------------------- */
+.btn_pagetop{
+    width: 60px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+}
+
+.btn_pagetop img{
+    position: relative;
+    transition: all .15s ease;
+}
+
+.btn_pagetop:hover img{
+    opacity: .8;
+    margin: -5px 0 5px 0;
+}
+
+/*------------------------------------------------------------
+    箇条書き
+------------------------------------------------------------*/
+#mainVisual {
+    min-height: 392px;
+    background: url(../../common/img/com_bg01.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+#mainVisual .headLine01 {
+    padding-top: 220px;
+    font-size: 3.5rem;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+
+/* ----------------------------------------------------------------------
+*
+    for 768px;
+*
+---------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+body, html, #header{ min-width: inherit !important;}
+
+img.pc{ display: none;}
+img.sp{ display: inline-block;}
+.switch_pc{ display: none;}
+.switch_sp{ display: block;}
+br.sp{ display: block;}
+/* ---------- common setup ---------- */
+body{
+    color: #000;
+    background-color:#fff;
+    position: relative;
+    z-index: 10;
+}
+
+#wrap{
+    padding: 55px 0 0 0;
+    clear: both;
+}
+
+/* -------------------------------------------------------
+    #sub_global_nav
+------------------------------------------------------- */
+#sub_global_nav{
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    background-image: none;
+    background-color: #c5b79d;
+    position: absolute;
+    top: 55px !important;
+    left: 0 !important;
+    z-index: 10;
+}
+
+.sub_global_overlay{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #c5b79d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+#sub_global_nav h2{
+    height: 55px;
+    padding: 12px 0 10px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    background-color: #786c5e;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+#sub_global_nav h2:after{
+    content: '';
+    width: 18px;
+    height: 100%;
+    display: block;
+    background-image:url(../images/parts_sub_global_nav_btn_tri.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: right center;
+    position: absolute;
+    top: 0;
+    right: 17px;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+}
+
+#sub_global_nav h2:hover:after{
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
+
+#sub_global_nav h2.on:after{
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
+
+#sub_global_nav h2 img{
+    width: 126px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#sub_global_nav .btn_entry{
+    display: none;
+}
+
+/*
+    #sub_global_nav_list
+*/
+#sub_global_nav_list{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+}
+
+#sub_global_nav_list ul{
+    background-color: #fff;
+    padding: 0 0 1px 0;
+}
+
+#sub_global_nav_list li{
+    width: 100%;
+    height: 39px;
+    margin: 0 0 1px 0;
+    background-color: #c5b79d;
+}
+
+#sub_global_nav_list li a{
+    height: 39px;
+    padding: 0;
+    line-height: 39px;
+    color: #342512;
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .1s ease;
+    position: relative;
+}
+
+#sub_global_nav_list li a:after{
+    content: '';
+    width: 6px;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-image:url(../images/parts_sub_gnav_list_arrow_sp.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 4px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+#sub_global_nav_list li.parent{
+    height: inherit;
+    line-height: 39px;
+}
+
+#sub_global_nav_list li.parent p{
+    height: 39px;
+    margin: 0;
+    padding: 0;
+    color: #342512;
+    font-weight: bold;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+#sub_global_nav_list li.parent li{
+    border-top: 1px solid #fff;
+}
+
+#sub_global_nav_list li.parent ul{ padding: 0;}
+#sub_global_nav_list li.parent li a{ padding-left: 0;}
+
+#sub_global_nav_list li.current a,
+#sub_global_nav_list li a:hover{
+    color: #fff;
+    background-color: #93856b;
+}
+
+#sub_global_nav_list li.current a:after,
+#sub_global_nav_list li a:hover:after{
+    background: none;
+}
+
+/*
+    #sub_nav_banner
+*/
+
+#sub_nav_banner{
+    margin: 20px 0;
+    text-align: center;
+}
+
+#sub_nav_banner img{
+    max-width: 280px;
+    margin: 0 auto;
+    transition: opacity .1s ease;
+}
+
+#sub_nav_banner img:hover{
+    opacity: .7;
+}
+
+
+
+/* ---------- footer ---------- */
+.btm_page_top{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.btn_pagetop{
+    text-align: center;
+    line-height: 1em;
+}
+
+.btn_pagetop img{
+    width: 50px;
+    height: auto;
+}
+
+}
+
+#wrap.wrap-force { padding: 0 0 30px 0;   background-color: #fff!important;}
+
+.wrap-force #main {padding: 50px 0 30px;
+    max-width: 1000px;
+    margin: 0 auto;}
+.wrap-force #main .content-inner h2 { font-size: 2.2em; font-weight: bold; text-align: center; padding-bottom: 60px; }
+.wrap-force #main .content-inner {
+    line-height: 1.5;
+    padding: 10px;
+ }
+ .wrap-force #main .content-inner p {font-size: 14pt;}
+
+/* -------------------------------------------------------
+*
+    for 480px;
+*
+------------------------------------------------------- */
+@media screen and (max-width: 480px) {
+#wrap{
+    z-index: 2;
+}
+.wrap-force section.sp-force {display: none;}
+.wrap-force #main .content-inner h2 {font-size: 1.6em; padding-bottom: 30px;}
+.wrap-force #main .content-inner p {font-size: 12pt;}
+
+}
+

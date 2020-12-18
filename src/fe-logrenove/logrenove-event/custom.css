@@ -1,0 +1,92 @@
+/*CSS CHECKBOX*/
+.frm_services .check-radio{
+	display: block;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+	font-size: 0.7rem;
+	line-height: 14px;
+	color: #000000;
+}
+
+.frm_services .custom-checkradio {
+    padding-right: 0;
+    max-width: 200px;
+}
+
+.frm_services .custom-checkradio:first-child{
+	padding-left:15px;
+	max-width: max-content;
+}
+
+.frm_services .check-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.frm_services .check-radio .checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #828282;
+    border-radius: 50%;
+}
+
+.frm_services .check-radio  .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.frm_services .check-radio input:checked ~ .checkmark:after {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #B48856;
+    display: block;
+}
+
+
+@media (max-width:768px){
+	.frm_services .custom-checkradio {
+	    padding-left: 30px;
+	    max-width: 100%;
+	    margin-bottom: 15px;
+	}
+	.frm_services .custom-checkradio:first-child{
+		padding-left:30px;
+		margin-top:10px;
+	}
+	.frm_services .check-radio{
+		font-size: 0.6875rem;
+		margin-bottom:3px;
+		padding-left: 27px;
+	}
+}
+/*END*/
+
+.frm_services {
+    padding: 60px;
+}
+@media (max-width:768px){
+    .frm_services {
+        padding: 15px;
+    }
+    .frm_services .check-radio {
+        margin-bottom: 10px
+    }
+}

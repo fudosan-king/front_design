@@ -1,0 +1,381 @@
+body.single-post .box_article_detail a {
+    text-decoration: underline;
+    color: #007bff
+}
+
+body.single-post .box_article_detail a:hover {
+    text-decoration: none;
+    color: #89645d;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+body.single-post .box_article_detail .box_tags a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px
+}
+
+body.single-post .box_article_detail .list_shared a {
+    text-decoration: none;
+    color: #fff
+}
+
+body.single-post .box_article_detail .list_shared a:hover {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+body.single-post .box_article_detail h2 {
+    border-left: 10px solid #d9d9d9;
+    padding-left: 5px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.8em;
+    width: 100%
+}
+
+body.single-post .box_article_detail h2,
+body.single-post .box_article_detail h3,
+body.single-post .box_article_detail h4 {
+    line-height: 1.3em;
+    width: 100%
+}
+
+body.single-post .box_article_detail ul:not(.list_shared, .blocks-gallery-grid) {
+    list-style: initial;
+    padding-inline-start: 40px;
+    border: #000 1px solid;
+    padding: 20px 20px 20px 40px;
+    width: 100%
+}
+
+body.single-post .box_article_detail ul:not(.list_shared, .blocks-gallery-grid) li {
+    display: list-item
+}
+
+body.single-post .box_article_detail ul.list_shared {
+    display: flex
+}
+
+body.single-post .box_article_detail .wp-block-liquid-speech-balloon,
+body.single-post .box_article_detail .wp-block-spacer,
+body.single-post .box_article_detail p {
+    width: 100%
+}
+
+body.single-post .box_article_detail .wp-block-uagb-table-of-contents ul {
+    border: none;
+    margin: initial;
+    padding: 10px 10px 10px 20px
+}
+
+body.single-post .box_article_detail .wp-block-uagb-table-of-contents {
+    margin-bottom: 1rem
+}
+
+body.single-post .box_article_detail .wp-block-gallery .blocks-gallery-grid {
+    margin-bottom: .5em
+}
+
+body.single-post .box_article_detail .fb_iframe_widget {
+    display: flex;
+    width: 95px
+}
+
+body.single-post .form-consult {
+    margin-bottom: 100px
+}
+
+body.single-post .form-consult .box_intro {
+    font-size: 1.25em;
+    border: 1px solid #777;
+    padding: 25px 30px;
+    text-align: center;
+    margin: 30px 0 90px;
+    border-radius: 10px;
+    color: #777;
+    line-height: 1.5em;
+    font-weight: 700
+}
+
+body.single-post .form-consult .frm_online input {
+    border: none;
+    border-bottom: 1px solid #434343;
+    border-radius: 0;
+    box-shadow: none;
+    background: 0 0;
+    padding-left: 0;
+    color: #777
+}
+
+body.single-post .form-consult .frm_online input::placeholder {
+    color: #777
+}
+
+body.single-post .form-consult .frm_online select {
+    color: #777;
+    border: none;
+    border-bottom: 1px solid #434343;
+    border-radius: 0;
+    box-shadow: none;
+    background: 0 0;
+    background-image: url(../images/1x/i_dropdown.png);
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+body.single-post .form-consult .frm_online select.form-control:focus {
+    background-image: url(../images/1x/i_dropdown.png);
+    background-position: 99% center;
+    background-repeat: no-repeat
+}
+
+body.single-post .form-consult .frm_online textarea {
+    background: 0 0;
+    box-shadow: none;
+    border: 1px solid #434343;
+    color: #777
+}
+
+body.single-post .form-consult .frm_online .form-group {
+    margin-bottom: 65px;
+    position: relative;
+    z-index: 1
+}
+
+body.single-post .form-consult .frm_online .form-control:focus {
+    background: 0 0;
+    border-color: #8c7d5e
+}
+
+body.single-post .form-consult .frm_online input.datepicker,
+body.single-post .form-consult .frm_online input.datepicker:focus {
+    background: url(../images/1x/i_date.png) no-repeat 100% 50%
+}
+
+body.single-post .form-consult .frm_online .text_information {
+    line-height: 1em;
+    color: #000
+}
+
+body.single-post .form-consult .frm_online .text_information a {
+    text-decoration: underline;
+    color: #89645d
+}
+
+body.single-post .form-consult .frm_online .btn_border {
+    border: 6px solid#b77425;
+    padding: 25px 60px;
+    text-align: center;
+    font-size: 1.25em;
+    color: #b77425
+}
+
+body.single-post .form-consult .frm_online .btn_border:hover {
+    background: #b77425;
+    color: #fff
+}
+
+body.single-post .form-consult .frm_online .box_content {
+    padding: 0 55px
+}
+
+body.single-post .form-consult .frm_online h2 {
+    margin-bottom: 50px;
+    color: #8c7d5e
+}
+
+body.single-post .form-consult .frm_online label {
+    font-size: 16px;
+    color: #777;
+    padding: 15px 0
+}
+
+body.single-post .form-consult .frm_online .box_entry p {
+    font-size: 18px;
+    color: #777
+}
+
+body.single-post .form-consult .frm_online .box_entry p.text_information {
+    color: #000;
+    margin-top: 100px
+}
+
+.datepicker td {
+    width: 32px;
+    height: 32px
+}
+
+.datepicker .datepicker-days .table-condensed td.today.day {
+    background-image: linear-gradient(to bottom, #dcdcdc, #eee)
+}
+
+.datepicker .datepicker-days .table-condensed td.today.day.disabled {
+    color: #999
+}
+
+body.single-post .form-consult .frm_online .validate-error {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .075) inset, 0 0 8px rgba(239, 104, 104, .6)!important;
+    border: 1px solid red!important;
+    padding-left: 5px!important
+}
+
+body.single-post .form-consult .frm_online .data-confirm label.cfr {
+    font-family: initial
+}
+
+body.single-post .form-consult .frm_online .placeholder-custom {
+    position: absolute;
+    top: 5px;
+    color: #777;
+    z-index: -1
+}
+
+body.single-post .form-consult .frm_online .placeholder-custom.error {
+    padding-left: 5px!important
+}
+
+body.single-post .form-consult .frm_online .form-group .require {
+    color: #b77425;
+    font-weight: 700
+}
+
+body.single-post .insert-wrapper {width: 100%; margin-bottom: 1.5em;}
+body.single-post .insert-wrapper figure {width: 100%!important;}
+body.single-post .insert-wrapper blockquote {margin: initial; width: fit-content;}
+body.single-post .insert-wrapper blockquote p {width: auto;}
+
+/* video & image - text */
+body.single-post .box_video {
+    padding: 15px;
+    background: #C1B393;
+    width: 100%;
+}
+body.single-post .box_video .embed-responsive {
+    margin-bottom: 0;
+}
+body.single-post .box_video .video_caption {
+    margin-bottom: 0;
+    font-size: 0.875em;
+    background: #fff;
+    padding: 10px 15px;
+}
+body.single-post .box_img_text {
+    padding: 15px;
+    background: #C1B393;
+    position: relative;
+    width: 100%;
+}
+body.single-post .box_img_text h4 {
+    color: #000;
+    margin-bottom: 0;
+}
+body.single-post .box_img_text h4 a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+body.single-post .box_img_text_photo {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+body.single-post .box_img_text_photo img {
+    margin-bottom: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+body.single-post .box_img_text_content {
+    padding-left: 15px;
+}
+body.single-post .logo_logrenove_small {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+body.single-post .logo_logrenove_small img {
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    body.single-post .box_video {
+        padding: 7px;
+    }
+    body.single-post .box_video .video_caption {
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body.single-post .box_img_text {
+        padding: 7px;
+    }
+    body.single-post .box_img_text_photo, body.single-post .box_img_text_photo img {
+        height: 90px;
+    }
+    body.single-post .box_img_text h4 a {
+        font-size: 14px;
+    }
+    body.single-post .logo_logrenove_small {
+        bottom: 5px;
+        right: 7px;
+    }
+    body.single-post .logo_logrenove_small img {
+        width: 72px;
+    }
+    body.single-post .box_img_text_content {
+        padding-left: 10px;
+    }
+}
+
+.services_detail_content .wp-block-image img {
+    height: auto;
+}
+
+/* relation article */
+.relation_article_content .badge_cate {
+    display: none;
+}
+@media (max-width: 768px) {
+    .box_relation_article {
+        border: 1px solid #d0d6d6;
+        background: #fff;
+        margin-bottom: 0;
+    }
+    .box_relation_article_item {
+        padding: 15px 15px 0;
+    }
+    .relation_article_content {
+        padding-left: 12px;
+    }
+    .relation_article_content p {
+        margin-bottom: 5px;
+    }
+    .relation_article_content .badge_cate {
+        background: transparent;
+        color: #8c7d5e;
+        padding-left: 0;
+        display: inline-block;
+    }
+    .box_relation_article h2 {
+        padding: 15px 0;
+        font-size: .9rem;
+        font-weight: 700;
+        border-bottom: 1px solid #edeeee;
+        margin-bottom: 0;
+    }
+    .relation_article_img, .relation_article_img img {
+        height: 80px;
+    }
+}

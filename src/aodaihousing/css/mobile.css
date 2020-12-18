@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+    .news-lists .container {
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+        min-width: 100% !important;
+        width: 100% !important;
+        position: relative !important;
+        height: 100%;
+    }
+}

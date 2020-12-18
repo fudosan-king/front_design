@@ -1,0 +1,36 @@
+button.mfp_next,button.mfp_prev {
+	font-size: 18px;
+	margin: 10px;
+	padding: 5px 10px;
+}
+button.mfp_next {
+	float: right;
+}
+button.mfp_prev {
+	float: left;
+}
+
+ul#mfp_phase_stat {
+	padding: 10px;
+}
+ul#mfp_phase_stat li {
+	float: left;
+	padding: 8px 15px;
+	border-radius: 3px;
+	margin: 5px;
+	list-style: none;
+	font-size: 14px;
+}
+ul#mfp_phase_stat li.mfp_phase_arrow {
+	box-shadow: none;
+	padding: 8px 5px;
+}
+ul#mfp_phase_stat li.mfp_active_phase {
+	background-color: #E8EEF9;
+	box-shadow: 0px 0px 5px #000;
+}
+ul#mfp_phase_stat li.mfp_inactive_phase {
+	background-color: #CCC;
+	color: #666;
+	box-shadow: 0px 0px 5px #CCC;
+}

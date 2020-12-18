@@ -1,0 +1,44 @@
+#flash{
+	position: relative;
+	max-width:1600px;
+	margin:0 auto;
+}
+#flash:before{
+  	padding-top: 46.3%;
+    display: block;
+    content: "";
+	max-width:1600px;
+}
+#flash > #flashcontent{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#flash p img {
+	width:100%;
+}
+
+#flash p {
+	display:none;
+	}
+	
+@media (max-width: 900px) {
+
+#flash:before{
+  	padding-top: 0;
+}
+
+
+#flashcontent{
+	display:none;
+}
+
+#flash p {
+	display:block;
+	}
+
+
+}

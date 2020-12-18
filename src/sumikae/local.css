@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*#sumikae img{
+	zoom:0.5;
+}
+*/
+#sumikae{
+	padding-bottom: 130px;
+	background-color: #fff;
+}
+
+.wrap{
+	max-width: 900px;
+    width: 100%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+	margin: 0 auto;
+    width: 90%;
+}
+
+#sumikae .logo-area{
+	 padding-top: 142px;
+     text-align: center;
+}
+
+#sumikae .logo-area .catch{
+	 font-size: 4rem;
+	 margin-top: 70px;
+	padding: 12px 0;
+	background-image: url(images/bk_yellow.jpg);
+	background-position: bottom;
+}
+
+#sumikae .logo-area .catch-txt{
+	font-size: 2.5rem;
+	margin: 40px 0;
+}
+
+
+.sumikae-sec {
+    margin-top: 85px;
+}
+
+ul.icon3{
+	max-width: 580px;
+	width:100%;
+    display: inline-block;
+}
+
+.icon3 li{
+	width: 29.3%;
+    float: left;
+    margin-right: 6%;
+}
+
+.icon3 li:last-child{
+	margin-right: 0;
+}
+
+ul.sec-top{
+	margin-bottom: 50px;
+}
+
+ul.sec-top li{
+	display: inline-block;
+}
+ul.sec-top li:first-child{
+	float: left;
+}
+ul.sec-top li:first-child img{
+	zoom:0.5;
+}
+ul.sec-top li:nth-child(2n){
+	font-size: 2.5rem;
+	padding: 0px 40px 10px;
+	border-bottom:medium solid;
+	float: left;
+	width: 370px;
+}
+
+ul.sec-top li.border01{
+	border-bottom-color: #C9A552;
+}
+
+ul.sec-top li.border02{
+	border-bottom-color: #9EC546;
+}
+
+ul.sec-top li.border03{
+	border-bottom-color: #618BC8;
+}
+
+ul.sec-top li:last-child{
+	padding: 15px 0px 0px 40px;
+	width: 80%;
+}
+
+ul.sec-top li:last-child p{
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+}
+
+.sumikae-sec #sec-loan {
+	padding:30px 40px;
+	margin-bottom:40px;
+	border: solid #787574 2px;
+}
+
+.sumikae-sec #sec-loan .kids .sec-loantitle{
+	font-size:  2.5rem;
+	background-color: #787574;
+	padding: 12px;
+	color: #fff;
+	text-align: center;
+}
+
+.sumikae-sec #sec-loan .kids ul{
+	margin: 20px 0 30px;
+	display: inline-block;
+	width: 100%;
+}
+
+.sumikae-sec #sec-loan .kids ul li{
+	width:49%
+}
+
+.sumikae-sec #sec-loan .kids ul li:first-child{
+	float: left;
+}
+
+.sumikae-sec #sec-loan .kids ul li:last-child{
+	float: right;
+}
+
+#merit{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+#merit ul {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+#merit ul li{
+	width:47%;
+	margin-bottom: 20px;
+}
+
+#merit ul li img{
+	width: 100%;
+}
+#merit ul li:nth-child(odd){
+	float: left;
+}
+
+#merit ul li:nth-child(even){
+	float: right;
+}
+
+.sumikae-sec #sec-merit{
+	position: relative;
+}
+
+.sumikae-sec #sec-merit .sec-merittop{
+	text-align: center;
+	padding: 12px;
+	background-color: #DFEBC2;
+	font-size: 2rem;
+}
+
+.sumikae-sec #sec-merit ul.illust{
+	width: 100%;
+}
+
+.sumikae-sec #sec-merit ul.illust li{
+	float: left;
+	margin-top: 2%;
+}
+
+.sumikae-sec #sec-merit ul.illust li:nth-child(odd){
+	width:22%;
+}
+
+.sumikae-sec #sec-merit ul.illust li:nth-child(even){
+	width:4%;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.sumikae-sec #sec-merit ul.illust li:last-child{
+	position: absolute;
+	right: 3px;
+    top:4%;
+}
+
+.sumikae-sec #sec-merit ul.text{
+	margin: 30px 0;
+}
+
+.sumikae-sec #sec-merit ul.text01,
+.sumikae-sec #sec-merit ul.text02{
+	width: 47%;
+	float: left;
+}
+
+.sumikae-sec #sec-merit ul.text01{
+	margin-right: 6%;
+}
+
+.sumikae-sec #sec-merit ul.text li:first-child{
+	font-size: 2rem;
+	color: #9EC546;
+	padding-bottom: 7px;
+	margin-bottom: 10px;
+	border-bottom: solid #9EC546 2px;
+}
+
+.sumikae-sec #sec-merit ul.text li:last-child{
+	font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+.sumikae-sec ul.icon5{
+	display: inline-block;
+	padding-bottom: 90px;
+}
+
+.sumikae-sec ul.icon5 li{
+	float: left;
+	width:18.4%;
+	margin-right: 2%;
+}
+
+.sumikae-sec ul.icon5 li:last-child{
+	margin-right: 0;
+}
+
+#btn-area ul.buttons li{
+	margin-bottom: 45px;
+}
+
+#btn-area ul.buttons li:first-child{
+	margin-right: -54px;
+}
+
+@media screen and (max-width: 900px) {
+	#sumikae .wrap{
+	padding: 0 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	.sumikae-sec #sec-merit ul.illust li:last-child{
+    top:9%;
+}
+}
+
+@media screen and (max-width: 480px) {
+	h2{
+	width: 100%;
+}
+	#sumikae {
+    padding-bottom: 40px;
+}
+	.sumikae-sec{
+		margin-top: 45px;
+}
+	#sumikae .logo-area {
+    padding-top: 85px;
+}
+	#sumikae .logo-area .catch{
+		font-size: 2rem;
+		line-height: 1.5em;
+}
+	.sumikae-sec #sec-loan .kids ul{
+		margin-bottom: 0;
+}
+	.sumikae-sec #sec-loan .kids ul li{
+	float: none !important;
+	width: inherit;
+	padding-bottom:25px;
+}
+	.sumikae-sec #sec-loan .kids ul li:last-child{
+	padding-bottom: 0;
+}
+	ul.sec-top li:first-child{
+	display: inherit;
+	float:none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+	ul.sec-top li:nth-child(2n){
+    padding: 0 0 10px;
+    text-align: center;
+	width: 100%;
+}
+	ul.sec-top li:last-child{
+	width: 100%;
+	padding: 15px 0px 0px 0;
+	}
+	.sumikae-sec .kids{
+	margin-top:30px;
+}
+	.sumikae-sec #sec-loan {
+    padding: 0 20px 30px;
+}
+	#merit{
+	max-width: 100%;	
+}
+	
+	#merit ul{
+	margin-top: 0;	
+}
+	#merit ul li{
+	width: 100%;
+}
+	#merit ul li:last-child{
+	margin-bottom: 0;
+}
+	
+.sumikae-sec #sec-merit ul.illust li:nth-child(odd){
+	width:45%;
+}
+
+.sumikae-sec #sec-merit ul.illust li:nth-child(even){
+	width:10%;
+	margin-top: 15%;
+}
+	
+.sumikae-sec #sec-merit ul.illust li:last-child{
+    position: static;
+}
+
+.sumikae-sec #sec-merit ul.illust li:nth-child(4n){
+	display: none;	
+}
+
+.sumikae-sec #sec-merit ul.illust li:nth-child(5n){
+	margin-top: 11%;
+}
+.sumikae-sec #sec-merit ul.text01,
+.sumikae-sec #sec-merit ul.text02{
+	width: 100%;
+	float: none;
+}
+#btn-area ul.buttons li:first-child {
+    margin-right: -20px;
+}
+
+.sumikae-sec #sec-loan .kids .sec-loantitle {
+	font-size: 2em;
+	line-height: 1.5em;
+}
+	
+}
+
+

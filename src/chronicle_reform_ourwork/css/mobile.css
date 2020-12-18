@@ -1,0 +1,106 @@
+@media (min-width: 1200px) {
+	
+}
+
+@media (max-width: 1024px) {
+	
+}
+
+@media (max-width: 823px) {
+	
+}
+@media (max-width: 812px) {
+	
+}
+
+@media (max-width: 800px) {
+	
+}
+
+@media (max-width: 768px) {
+	header {
+		text-align: center;
+		padding: 15px 0;
+	}
+	.section_top h1 {
+		font-size: 26px;
+		line-height: 1.5em;
+	}
+	.section_top .lead {
+		font-size: 16px;
+	}
+	.main_title {
+		font-size: 22px;
+		line-height: 1.5em;
+	}
+	.title {
+		font-size: 20px;
+	}
+	.contruction_item {
+		margin-bottom: 30px;
+	}
+	.contruction_item h2 {
+		min-height: auto;
+		margin-bottom: 10px;
+	}
+	.section_consultation h3 {
+		font-size: 20px;
+	}
+	.box_location_item {
+		padding: 0;
+		min-height: auto;
+	}
+	.box_location_item.no_border::after {
+		display: none;
+	}
+	.box_thanks {
+		width: 100%;
+		margin-top: 0;
+	}
+	.contruction_item_img, .contruction_item_img img {
+		height: 259px;
+	}
+	.w_gotocontact {
+		text-align: center;
+		margin-top: 15px;
+	}
+	.box_pattern {
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 736px) {
+
+}
+@media (min-width: 576px) {
+	
+}
+@media (max-width: 568px) {
+	
+}
+@media (max-width: 414px) {
+	
+}
+@media (max-width: 375px) {
+	
+}
+@media (max-width: 360px) {
+	
+}
+
+@media (max-width: 320px) {
+	
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+  	/* CSS for other than iOS devices */ 
+  	
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	
+}

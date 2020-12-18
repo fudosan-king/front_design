@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* =============================================================
+
+　　Style Reset
+
+============================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+html {
+  overflow-y:auto;
+  color: #221814;
+  background: #fff;
+  font-size: 62.5%;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,img {
+  border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var,optgroup {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+del,ins {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+caption,th {
+  text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,q:after {
+  container: '';
+}
+
+abbr,acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: baseline;
+}
+
+sub {
+  vertical-align: baseline;
+}
+
+legend {
+  color: #000;
+}
+
+input,button,textarea,select,optgroup,option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+input,button,textarea,select {
+  *font-size: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+input[type*="button"] {
+  cursor: pointer;
+}
+
+
+/* clearfix 設定
+-------------------------- */
+
+.clearfix:after {
+  display: block; 
+  clear: both; 
+  visibility: hidden;
+  height: 0; 
+  font-size: 0;
+  content: "."; 
+}
+
+.clearfix {
+  min-height: 1px;
+  clear: both;
+}
+
+* html .clearfix {
+  height: 1px;
+}
+
+

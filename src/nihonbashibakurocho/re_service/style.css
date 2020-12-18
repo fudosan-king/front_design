@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page-re_service article.content{
+	background: #fff;
+	padding: 70px 20px 0px;
+}
+
+.page-re_service .container{
+	/*max-width: 1500px;*/
+	/*max-width: 1250px;*/
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.page-re_service .container .img_box{
+		position:relative;
+	margin:0 0 20px;
+}
+
+.page-re_service .container .notice{
+    font-size: 10pt;
+    position: absolute;
+    bottom: 9px;
+    width: 95%;
+    left: 30px;}
+
+.page-re_service .re_service01{
+	background: #E60012;
+	padding: 20px;
+}
+
+.page-re_service .re_service01 img{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.page-re_service .re_service01 .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.page-re_service .re_service01 .flex div:first-child{
+    width: 38.2%;
+    margin: 2.8% 1% 0 0;
+}
+
+.page-re_service .re_service01 .flex div:last-child{
+	width: 60%;
+	margin: 2.8% 0 0 0;
+}
+
+.page-re_service .re_service02{
+	/*margin: 50px 0;*/
+	margin: 0 0 50px;
+}
+
+.page-re_service .re_service02 .title-img{
+	margin-bottom: 20px;
+}
+
+.page-re_service .re_service02 .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-re_service .re_service02 .flex div:first-child{
+	width: 43.4%;
+}
+
+.page-re_service .re_service02 .flex div:last-child{
+	width: 53%;
+}
+
+.page-re_service .re_service04 img{
+	display: block;
+	    margin: 0 auto;
+	
+}
+
+.page-re_service .re_service04 ul{
+overflow: hidden;}
+
+.page-re_service .re_service04 li{
+	float:left;
+	width:50%;
+}
+
+
+.page-re_service .re_service03{
+	margin: 25px 0;
+}
+
+.page-re_service .re_service03 span{
+	font-size: 10pt;
+}
+
+@media screen and (max-width: 990px){
+	.page-re_service article.content{
+		padding: 40px 20px 40px;
+	}
+	
+	.page-re_service .container .notice {
+    position: static;
+}
+	.page-re_service .re_service01 .flex {
+		flex-wrap: wrap;
+	}
+	.page-re_service .re_service01 .flex div:first-child{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	.page-re_service .re_service01 .flex div:last-child{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	.page-re_service .re_service01 .flex div img{
+		width: 100%;
+	}
+	.page-re_service .re_service02 .flex {
+		flex-wrap: wrap;
+	}
+	.page-re_service .re_service02 {
+		/*margin: 40px 0 10px;*/
+		margin: 0 0 10px;
+	}
+	.page-re_service .re_service02 .flex div:first-child,
+	.page-re_service .re_service02 .flex div:last-child{
+		width: 100%;
+		display: block;
+		margin: 0 0 20px;
+	}
+	.page-re_service .re_service04 li {
+		float:none;
+		width:100%;
+		margin:10px auto 0
+		
+	}
+	.page-re_service .container {
+    padding: 0px;
+}
+}
+
+/* 20180129 */
+.re_service04 #shiny_button {
+	max-width: 100%;
+}
+.re_service04 #shiny_button a:before {
+	width: 70px;
+    animation: shiny 6s infinite linear;
+    -webkit-animation: shiny 6s infinite linear;
+    -moz-animation: shiny 6s infinite linear;
+}

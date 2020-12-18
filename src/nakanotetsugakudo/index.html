@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- meta -->
+    <!--=======Multidevice settinigs=======-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="keywords" content="プレシス中野哲学堂パークフロント,西武新宿線,新井薬師前駅,都営地下鉄大江戸線,落合南長崎駅,東京,マンション,新築,株式会社プロスタイル" />
+    <meta name="description" content="売主変更につき価格改定を実施しました。2DK〜3LDKを3,890万円から販売中です。全戸南東向き・パークビュー。月々9万円台のお支払いで購入可。棟内モデルルーム公開中につき、実際のお部屋をご確認頂けます。" />
+    <!-- title -->
+    <title>【公式】プレシス中野哲学堂パークフロント｜哲学堂公園1分、全戸南東向き、全戸パークビュー｜中野区松が丘2丁目 新築分譲マンション</title>
+    <!-- Load Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script language="javascript" type="text/javascript" src="js/rollover.js"></script>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- webfont -->
+    <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+    <!-- スライドショー -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/flexslider.css" />
+    <script language="javascript" type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script>
+        // Can also be used with $(document).ready()
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+
+            });
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $("#openMenu").click(function() {
+                $("#MENU").height($(document).height());
+                $("#MENU").fadeIn("fast");
+            });
+            $("#closeMenu").click(function() {
+                $("#MENU").fadeOut("fast");
+            });
+        });
+    </script>
+
+    <!-- スムーズスクロール部分の記述 -->
+    <script>
+        $(function() {
+            var topBtn = $('#page-top');
+            //スクロールしてトップ
+            topBtn.click(function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+                return false;
+            });
+        });
+    </script>
+    <script>
+        (function($) {
+
+            $(function() {
+                var display = function() {
+                    if ($(this).scrollTop() > 150) { //scroll量
+                        $(".Bnr").fadeIn();
+                    } else {
+                        $(".Bnr").fadeOut();
+                    }
+                };
+                $(window).on("scroll", display);
+                //click
+                $(".fl_bnr p.close a").click(function() {
+                    $(".fl_bnr").fadeOut();
+                    $(window).off("scroll", display);
+                });
+            });
+
+        })(jQuery);
+    </script>
+
+    <!-- link -->
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <meta name="google-site-verification" content="CrZoAkm9i1Bg1zDkNafgwM69BU2LJzp4TclCfB59Wj8" />
+    <script type="text/javascript">
+        $(function() {
+            $(".fixedbnr p.btn_close a").click(function() {
+                $(".fixedbnr").fadeOut();
+            });
+        });
+        $(function() {
+            $(".fixedbnr_sp p.btn_close a").click(function() {
+                $(".fixedbnr_sp").fadeOut();
+            });
+        });
+    </script>
+    <style>
+        /* 20181220 フロートバナー */
+
+        .fixedbnr {
+            position: fixed;
+            bottom: 120px;
+            /*物件ごとに調整*/
+            right: 40px;
+            z-index: 99999998;
+            max-width: 400px;
+            padding: 5px;
+            border: 2px solid #d9d9d9;
+        }
+
+        .fixedbnr img {
+            width: 100%;
+        }
+
+        .fixedbnr .btn_close {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            z-index: 99999999;
+        }
+
+        .fixedbnr a,
+        .fixedbnr_sp a {
+            -webkit-transition: 0.3s ease-in-out;
+            -moz-transition: 0.3s ease-in-out;
+            -o-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
+        }
+
+        .fixedbnr a:hover,
+        .fixedbnr_sp a:hover {
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+        }
+
+        .fixedbnr_sp {
+            display: none;
+        }
+        .button-plan {
+            width: auto;
+        }
+        .plan-info {
+            margin: auto;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        @media only screen and (max-width:640px) {
+            .fixedbnr {
+                display: none;
+            }
+            .fixedbnr_sp {
+                display: block;
+            }
+            .fixedbnr_sp img {
+                display: block;
+                max-width: 87%;
+                width: 87%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+            }
+            .button-plan {
+                height: auto;
+                width: 90%;
+            }
+        }
+    </style>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KFVKSR');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFVKSR" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="PAGE">
+
+        <div id="WRAPPER">
+            <div id="HEADER">
+                <div class="area">
+                    <div id="LOGO">
+                        <a href="index.html" class="op"><img class="sp" src="img/rogo_sp.png" alt="プレシス中野哲学堂パークフロント｜哲学堂公園1分、全戸南東向き、全戸パークビュー｜中野区松が丘2丁目 新築分譲マンション" /><img class="pc" src="img/rogo.png" alt="プレシス中野哲学堂パークフロント｜哲学堂公園1分、全戸南東向き、全戸パークビュー｜中野区松が丘2丁目 新築分譲マンション" /></a>
+                    </div>
+                    <h1>プレシス中野哲学堂パークフロント｜哲学堂公園1分、全戸南東向き、全戸パークビュー｜中野区松が丘2丁目 新築分譲マンション</h1>
+                    <div class="header_btn">
+                        <ul>
+                            <li class="btn_map">
+                                <a href="javascript:map_in();" onclick="map_in(); return false;"><img src="img/hdr01_.gif" alt="現地案内図" class="sp_menu"></a>
+                            </li>
+                            <li class="btn_out">
+                                <a href="outline/index.html"><img src="img/hdr02_.gif" alt="物件概要" class="sp_menu"></a>
+                            </li>
+                        </ul>
+                        <!--header_btn-->
+                    </div>
+
+                    <div class="header_btn02">
+                        <ul>
+                            <li class="btn_res">
+                                <a href="/nakanotetsugakudo/contact/reservation/" target="_blank"><img src="img/hdr_res_.png" alt="来場予約" class="sp_menu"></a>
+                            </li>
+                            <li class="btn_req">
+                                <a href="/nakanotetsugakudo/contact/material/" target="_blank"><img src="img/hdr_req_.gif" alt="資料請求" class="sp_menu"></a>
+                            </li>
+
+                        </ul>
+                        <!--header_btn-->
+                    </div>
+
+                </div>
+                <!--スマホ用メニュー-->
+                <p id="openMenu"><span></span></p>
+
+                <div id="MENU">
+                    <p id="closeMenu"><span></span></p>
+                    <div class="menu_inner">
+                        <ul>
+                            <li class="nav_01 current"><a href="index.html"><span>トップページ</span></a></li>
+                            <li class="nav_02"><a href="design/index.html"><span>デザイン</span></a></li>
+                            <li class="nav_03"><a href="location/index.html"><span>周辺環境</span></a></li>
+                            <li class="nav_04"><a href="access/index.html"><span>アクセス</span></a></li>
+                            <li class="nav_05"><a href="modelroom/index.html"><span>モデルルーム</span></a></li>
+                            <li class="nav_06"><a href="equipment/index.html"><span>設備仕様</span></a></li>
+                            <li class="nav_07"><a href="plan/index.html"><span>間取り</span></a></li>
+                            <!-- <li class="nav_08 "><a href="http://www.presis.com/safetytree/" target="_blank" onclick="return false;"><span>SAFETY TREE</span></a></li> -->
+                            <li class="nav_10 "><a href="outline/index.html"><span>物件概要</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--トップ画像-->
+            <div class="index_toppic">
+                <div class="bg">
+                    <div class="top_pc">
+                        <p class="point_pic"><img src="img/top.jpg" alt=""></p>
+                    </div>
+                    <p class="top_sp"><img src="img/top_sp.jpg" alt=""></p>
+                </div>
+                <div class="point_txt">
+                    <p class="pc">中野生活圏内という都心近接地にありながら、哲学の森を望む自然と文化の薫りが漂う落ちつきある邸宅街。
+                        <br> 木漏れ日の色彩に彩られた邸宅「プレシス中野哲学堂パークフロント」はここに、誕生します。
+                    </p>
+                    <p class="sp">中野生活圏内の木漏れ日の色彩に彩られた邸宅</p>
+                </div>
+                <!--/トップ画像-->
+            </div>
+
+            <div class=" point_bg">
+                <div>
+                    <p><img src="img/point01.png" alt=""></p>
+                    <p><img src="img/point02.png" alt=""></p>
+                    <p><img src="img/point03.png" alt=""></p>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="area_info">
+
+                    <p class="info"><img src="img/info.png" alt=""></p>
+                    <div class="plan-info">
+                        <a href="plan/index.html"><img src="img/button01.jpg" alt="" class="button-plan"></a>
+                    </div>
+                    <div class="plan-info">
+                        <a href="plan/index.html"><img src="img/button02.jpg" alt="" class="button-plan"></a>
+                    </div>
+                    <div class="plan-info">
+                        <a href="plan/index.html"><img src="img/button03.jpg" alt="" class="button-plan"></a>
+                    </div>
+                    <div class="under">
+                        <h4><img src="img/3point_t.png" alt=""></h4>
+                        <div class="flexslider" id="flexslider-simple">
+                            <ul class="slides">
+                                <li class="op">
+                                    <a href="./location/"><img src="img/3point_01.jpg" alt="" width="1000" class="pc" /><img src="img/3point_01_sp.jpg" alt="" class="sp" /></a>
+                                </li>
+                                <li class="op">
+                                    <a href="./access/"><img src="img/3point_02.jpg" alt="" width="1000" class="pc" /><img src="img/3point_02_sp.jpg" alt="" class="sp" /></a>
+                                </li>
+                                <li class="op">
+                                    <a href="http://www.presis.com/safetytree/" target="_blank" onclick="return false;"><img src="img/3point_03.jpg" alt="" width="1000" class="pc" /><img src="img/3point_03_sp.jpg" alt="" class="sp" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/area-->
+                </div>
+                <!--/cont-->
+            </div>
+
+            <div class="presisi_filed">
+                <div class="area clearfix">
+                    <h4 class="h4_pre"><img src="img/presisstyle_t.png" alt="presis style プレシス三軒茶屋"></h4>
+                    <div><img src="img/presisi_img02.png" alt="緑が寄り添う松が丘周辺エリア"></div>
+                    <div><img src="img/presisi_img01.png" alt="自転車を使う短時間で「中野」駅へ"></div>
+
+                </div>
+                <!--/presisi_filed-->
+            </div>
+            <div class="cont">
+                <div class="area">
+                    <div class="top_under_img">
+
+                        <p class="op">
+                            <a href="design/index.html"><img src="img/under_btn04.png" alt="デザイン" class="pc"><img src="img/under_btn04_sp.jpg" alt="デザイン" class="sp"></a>
+                        </p>
+                        <p class="op">
+                            <a href="location/index.html"><img src="img/under_btn03.png" alt="周辺環境" class="pc"><img src="img/under_btn03_sp.jpg" alt="周辺環境" class="sp"></a>
+                        </p>
+                        <p class="op">
+                            <a href="access/index.html"><img src="img/under_btn01.png" alt="アクセス" class="pc"><img src="img/under_btn01_sp.jpg" alt="アクセス" class="sp"></a>
+                        </p>
+                        <p class="op">
+                            <a href="modelroom/index.html"><img src="img/under_btn05.png" alt="モデルルーム" class="pc"><img src="img/under_btn05_sp.jpg" alt="モデルルーム" class="sp"></a>
+                        </p>
+                        <p class="op">
+                            <a href="plan/index.html"><img src="img/under_btn02.png" alt="間取り" class="pc"><img src="img/under_btn02_sp.jpg" alt="間取り" class="sp"></a>
+                        </p>
+                    </div>
+                    <p class="info_cap">※掲載の外観・エントランス完成予想CGは図面を基に描き起こしたもので実際とは異なります。植栽は特定の季節の状況を示すものではありません。また、植栽の樹種・大きさについては未確定となっており、竣工時には完成予想CG程度には成長しておりません。</p>
+                    <!--/area-->
+                </div>
+
+                <!--/cont-->
+            </div>
+            <div class="under_img_filed">
+                <div class="res_req clearfix">
+                    <p class="op">
+                        <a href="/nakanotetsugakudo/contact/reservation/" target="_blank"><img src="img/btn_res.gif" alt="来場予約"></a>
+                    </p>
+                    <p class="op">
+                        <a href="/nakanotetsugakudo/contact/material/" target="_blank"><img src="img/btn_req.gif" alt="資料請求"></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="under02">
+                <div class="minitabs">
+                    <div class="minitabs_inner">
+                        <ul>
+                            <li class="current"><a href="index.html">トップページ</a></li>
+                            <li><a href="design/index.html">デザイン</a></li>
+                            <li><a href="location/index.html">周辺環境</a></li>
+                            <li><a href="access/index.html">アクセス</a></li>
+                            <li><a href="modelroom/index.html">モデルルーム</a></li>
+                            <li><a href="equipment/index.html">設備仕様</a></li>
+                            <li><a href="plan/index.html">間取り</a></li>
+                            <li><a href="outline/index.html">物件概要</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="FOOTER">
+                <div class="footer_inner">
+                    <div class="content">
+                        <p class="sumikae">
+                            <a href="sumikae/index.html"><img src="img/bnr_sumikae.jpg" alt=""></a>
+                        </p>
+                        <div class="tel">
+                            <a href="https://www.prostyle-residence.com/" target="_blank"><img src="img/footer_rogo01.jpg" alt="【売主】株式会社プロスタイル" /></a>
+                        </div>
+                        <div class="urinushi">
+                            <a href="tel:0120965297"><img src="img/footer_tell.jpg" alt="お問い合わせは「プレシス三軒茶屋」マンションギャラリーまで" /></a>
+                        </div>
+                        <p class="clear"></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="page-top">
+                <a href="#top"></a>
+            </div>
+        </div>
+
+        <div class="under_btn_filed ">
+            <!-- footer navi -->
+            <div class="footer_btn_under">
+                <ul>
+                    <li class="btn_map_f">
+                        <a href="javascript:map_in();" onClick="map_in(); return false;"><img src="img/hdr01_.gif" alt="現地案内図" class="sp_menu"></a>
+                    </li>
+                    <!--li class="btn_out_f"><a href="outline/index.html"><img src="img/hdr_res_.gif" alt="物件概要" class="sp_menu"></a></li-->
+                    <li class="btn_req_f">
+                        <a href="/nakanotetsugakudo/contact/material/" target="_blank"><img src="img/hdr_req_.gif" alt="資料請求" class="sp_menu"></a>
+                    </li>
+                    <li class="btn_res_f">
+                        <a href="/nakanotetsugakudo/contact/reservation/" target="_blank"><img src="img/hdr_res_.gif" alt="来場予約" class="sp_menu"></a>
+                    </li>
+                    <li class="btn_tel_f">
+                        <a href="tel:0120965297"><img src="img/hdr02_.gif" alt="電話を掛ける" class="sp_menu"></a>
+                    </li>
+                </ul>
+                <!-- /footer navi -->
+            </div>
+
+        </div>
+
+        <div class="copy">Copyright ©PROSTYLE.Inc</div>
+
+        <!-- <div class="fixedbnr">
+  <a href="https://www.presis.com/campaign/2018/1222_0131/index.html" target="_blank"><img src="http://www.presis.com/40thbnr.jpg" alt="マンション事業40周年キャンペーン"></a>
+  <p class="btn_close"><a href="javascript:void(0)"><img src="http://www.presis.com/40thbnr_close.png" alt="close"></a></p>
+</div> -->
+        <!-- TEL -->
+
+        <script>
+            var ua = navigator.userAgent;
+            if (ua.indexOf('iPhone') < 0 && ua.indexOf('Android') < 0) {
+                $('a[href^="tel:"]').css('cursor', 'default').click(function(event) {
+                    event.preventDefault();
+                });
+            }
+        </script>
+
+    </div>
+    <script>
+    if ('serviceWorker' in navigator) {
+     
+      // sw.js can literally be empty, but must exist
+      navigator.serviceWorker.register('js/sw.js');
+
+    }
+    self.addEventListener('fetch', (event) => {});
+    </script>
+</body>
+
+</html>

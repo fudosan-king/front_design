@@ -1,0 +1,34 @@
+@charset "utf-8";
+/**
+	body {
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	/* image */
+	img,
+	/* block */
+	div, p, blockquote,
+	/* heading */
+	h1, h2, h3, h4, h5, h6,
+	/* list */
+	ul, ol, li, dl, dt, dd,
+	/* form */
+	form, fieldset, textarea
+	{
+		border: 0;
+		margin: 0;
+		padding: 0;
+		font-size: 100%;
+		font-weight: normal;
+		font-style: normal;
+		text-decoration: none;
+		list-style: none;
+	}
+	a { cursor:pointer; }
+	table {
+		font-size:100%;
+	}
+	hr.separator {
+		display: none;
+	}

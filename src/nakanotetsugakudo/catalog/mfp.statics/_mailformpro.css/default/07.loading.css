@@ -1,0 +1,15 @@
+div#mfp_loading_screen {
+	z-index: 20000;
+	opacity: 0.8;
+	display: none;
+	background-color: #000;
+	position: absolute;
+}
+div#mfp_loading {
+	z-index: 20001;
+	position: absolute;
+	display: none;
+	width: 40px;
+	height: 40px;
+	background-image: url(images/mfp_loading.gif);
+}

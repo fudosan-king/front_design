@@ -1,0 +1,375 @@
+ @charset "utf-8";
+
+/* -----------------------------------------------------------
+
+ギャラリー用
+
+----------------------------------------------------------- */
+
+.photo_spacer {
+	margin-top:20%;
+	}	
+
+
+.mod_filed {
+	max-width:1000px;
+	margin:0 auto 0;
+	}	
+
+
+/* Rotator Styles */
+
+#gallery_field {
+
+
+
+
+}
+
+#rotator {
+	position: relative;
+	max-width:1000px;
+	width:100%;
+	max-height:780px;
+	height:auto;
+	
+
+}
+
+/* Tabs */
+ul.ui-tabs-nav,
+li.ui-tabs-nav-item,
+li.ui-tabs-nav-item a:link,
+li.ui-tabs-nav-item a:visited {
+	margin:0 0 0 0;
+	padding:0;
+	border:0;
+	outline:0;
+	text-decoration:none;
+	list-style:none;
+	float:left;
+
+}
+
+/* Non-Selected Tabs */
+li.ui-tabs-nav-item li,
+li.ui-tabs-nav-item a:visited {	
+	border:none;
+}
+
+li.ui-tabs-nav-item a:link,
+li.ui-tabs-nav-item a:visited {	
+}
+
+/* Hovered Tab */
+#rotator .ui-tabs-nav-item a:hover,
+#rotator .ui-tabs-nav-item a:active {
+	background:#FFF url(../img/uiactivetabbg.jpg) repeat-x bottom left;
+}
+
+#rotator .ui-tabs-nav-item a span {
+	float:left; 
+	padding:1em; 
+	cursor:pointer;
+}
+
+/* Active Tab */
+#rotator .ui-tabs-selected a:link,
+#rotator .ui-tabs-selected a:visited,
+#rotator .ui-tabs-selected a:hover,
+#rotator .ui-tabs-selected a:active {
+	color:#333;
+}
+
+/* Content Panels */
+#rotator .ui-tabs-panel {
+	max-height: 550px;
+	padding:0 0 0 0;
+}
+
+#rotator .ui-tabs-hide {
+	display:none;
+}
+
+ul.ui-tabs-nav {
+	position: absolute;
+	left: 0px;
+	top: 101%;
+	max-height: 220px;
+	z-index: 1;
+	max-width:1000px;
+	padding: 0px;
+	width:100%;
+	height:auto;
+
+}
+
+
+ul.ui-tabs-nav li {
+	margin: 0 0px 0.5% 0.5%;
+	width:19.6%;
+	max-width: 196px;
+	
+
+}
+
+
+
+
+ul.ui-tabs-nav li:nth-child(1){
+	margin: 0 0 0.50% 0px !important;
+
+
+}
+
+ul.ui-tabs-nav li:nth-child(6){
+	margin: 0 0 0.50% 0px !important;
+
+}
+
+ul.ui-tabs-nav li:nth-child(11){
+	margin: 0 0 0.50% 0px !important;
+
+}
+
+
+
+#rotator ul.ui-tabs-nav li img {
+	font-size: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: left;
+	margin:0;
+	width:100%;
+
+}
+
+
+ul.ui-tabs-nav li.ui-tabs-selected img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-ms-filter: "alpha(opacity=0)";
+	background-size:contain;
+}
+
+
+#rotator ul.ui-tabs-nav li#nav-fragment-1.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt01_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-2.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt02_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-3.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt03_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-4.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt04_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-5.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt05_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-6.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt06_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-7.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt07_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+
+#rotator ul.ui-tabs-nav li#nav-fragment-8.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt08_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-9.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt09_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-10.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt10_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-11.ui-tabs-selected {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt11_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+#rotator ul.ui-tabs-nav li#nav-fragment-1.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt01_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-2.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt02_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-3.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt03_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-4.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt04_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-5.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt05_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-6.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt06_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+
+#rotator ul.ui-tabs-nav li#nav-fragment-7.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt07_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+
+#rotator ul.ui-tabs-nav li#nav-fragment-8.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt08_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-9.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt09_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+
+#rotator ul.ui-tabs-nav li#nav-fragment-10.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt10_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+#rotator ul.ui-tabs-nav li#nav-fragment-11.ui-tabs-selected a:hover {
+	display: block;
+	max-width: 196px;
+	max-height: 70px;
+	background: url(../img/model_bt11_on.jpg) no-repeat 0 0;
+	background-size:contain;
+}
+
+
+
+#rotator .btn_get_started {
+	float:left;
+	max-height:30px;
+	max-width:99px;
+	text-indent:-9999em;
+	margin-right:7px; 
+	overflow:hidden; 
+}
+
+#rotator .btn_learn_more {
+	float:left;
+	max-height:26px;
+	font-size:.9em;
+}
+
+#rotator #img_wrapper{
+	max-width: 1000px;
+	width:100%;
+	height:auto;
+	max-height: 550px;
+	padding: 0px;
+	overflow:hidden;
+	}
+	
+	
+#rotator #img_wrapper img{
+	width:100%;
+	height:auto;
+	}	
+	

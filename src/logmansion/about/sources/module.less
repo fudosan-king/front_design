@@ -1,0 +1,818 @@
+@charset "utf-8";
+@import "colorscheme.less";
+
+/* =============================================================
+
+　　共通設定
+
+============================================================= */
+
+
+/*  全体 共通設定
+---------------------------------------------*/
+
+/*  リンク 共通設定
+-------------------------- */
+
+/* -- 動き滑らか -- */
+#header a:hover,
+#header .boxRightArea .btnHojin a:hover,
+#side a:hover,
+#aside a:hover,
+#main a img,
+.page-top #content a:hover,
+.page-top #content .boxAreaSearch a:hover span,
+.page-top .boxRanking ol > li > dl > dt > .icnRanki,
+.page-top .boxRanking ol > li > dl > dd > p:first-child img,
+.page-top .boxRanking ol > li > dl > dd > .boxMore .btnMore,
+.btnSubmit input {
+	transition: all 0.15s ease;
+}
+.page-top #content .opacity {
+    opacity: 1.0;
+    filter: alpha(opacity=70);
+    filter: none;
+
+    &:hover {
+        opacity: 0.7;
+        filter: none;
+    }
+}
+.page-top #content a {
+	filter: none;
+
+	&:hover {
+		opacity: 0.7;
+		filter: none;
+	}
+}
+
+
+
+
+/* -- 半透明 -- */
+#header a:hover,
+#aside a:hover,
+#main a:hover img,
+.bx-wrapper .bx-pager-link:hover,
+.btnSubmit input:hover,
+.boxSubmit a:hover,
+.boxSubmit input:hover,
+.boxPager a:hover,
+.boxTable .btnMap:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	filter: none\9;
+}
+
+/* -- 下線 -- */
+#footer a:hover,
+.boxBreadcrumb a:hover,
+.txtLink,
+.page-about .boxFaq dt:hover .ttlFaq {
+	text-decoration: underline;
+}
+
+/* -- 下線なし -- */
+.txtLink:hover {
+	text-decoration: none;
+}
+
+
+/*  テキスト 共通設定
+-------------------------- */
+
+em {
+	font-weight: bold;
+}
+
+.txtBrown {
+	color: @colorPoint;
+}
+
+.txtOrange {
+	color: @colorOrange;
+}
+
+
+/*  画像 共通設定
+-------------------------- */
+
+/* フレーム付き画像 */
+.imgFrame {
+	border: 1px solid @colorBg;
+	background: @colorWhite;
+	padding: 10px;
+}
+
+
+/*  ヘッダー 共通設定
+---------------------------------------------*/
+
+@bgGNposition : 0;
+
+@bgGNpositionHover : -51px;
+
+#header {
+
+  color: @colorTxtBase;
+
+  a {
+    color: @colorTxtBase;
+  }
+
+  /* -------- サイトキャッチ -------- */
+
+  #ttlSiteCatch {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    background: url(../img/common/bg-hdr-catch.png) no-repeat 0 4px;
+    padding-left: 25px;
+    font-size: 0.8em;
+  }
+
+	/* -------- サイトロゴ -------- */
+
+	#ttlSiteLogo {
+		padding: 60px 0 31px;
+		text-align: left;
+
+	}
+
+	/* -------- 右側エリア -------- */
+
+	.boxRightArea {
+		position: absolute;
+		top: 0;
+		right: 0;
+    width: 355px;
+    text-align: left;
+
+    .btnAbout,
+    .btnHojin {
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 13px;
+    }
+
+    .btnAbout {
+      margin-right: 10px;
+    }
+
+    .btnHojin {
+      padding-top: 5px;
+      width: 55%;
+
+      a {
+        position: relative;
+        border-bottom: 1px solid #a39890;
+        padding-left: 14px;
+        font-size: 0.88em;
+        line-height: 23px;
+      }
+
+      a:before {
+        position: absolute;
+        left: 3px;
+        top: 7px;
+        border-top: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-left: 5px solid @colorTxtBase;
+        width: 0;
+        height: 0;
+        content: "";
+      }
+
+      a:hover {
+      	border-bottom: none;
+      	opacity: 1;
+      	color: @colorOrange;
+      }
+
+      a:hover:before {
+      	border-left-color: @colorOrange;
+      }
+    }
+
+    .boxContact {
+      margin-left: 8px;
+
+      li {
+        margin-bottom: 3px;
+      }
+    }
+
+		a .imgFreeCall {
+			display: none;
+		}
+	}
+
+	/* -------- グローバルナビ -------- */
+
+	#boxGlobalNav {
+		margin-bottom: 12px;
+		margin-top: 24px;
+		.imgPC {
+
+			li {
+				float: left;
+
+				a {
+
+					span {
+						display: block;
+						background: url(../img/common/bg-gnav.png) no-repeat 0 @bgGNposition;
+						height: 50px;
+						color: @colorWhite;
+						overflow: hidden;
+						white-space: nowrap;
+						text-indent: 100%;
+						line-height: 50px \9;
+					}
+				}
+
+				a:hover {
+					opacity: 1;
+				}
+			}
+
+			li:first-child {
+				background: none;
+				padding-left: 0;
+			}
+
+			/* -- トップ -- */
+			.btnTop a span {
+				background-position: 0px @bgGNposition;
+				width: 223px;
+			}
+
+			.btnTop a:hover span {
+				background-position: 0px @bgGNpositionHover;
+			}
+
+			/* -- ログマンション -- */
+			.btnAbout a span {
+				background-position: -223px @bgGNposition;
+				width: 223px;
+			}
+
+			.btnAbout a:hover span {
+				background-position: -223px @bgGNpositionHover;
+			}
+
+			/* -- 物件をさがす -- */
+			.btnSearch a span {
+				background-position: -445px @bgGNposition;
+				width: 218px;
+			}
+
+			.btnSearch a:hover span {
+				background-position: -445px @bgGNpositionHover;
+			}
+
+			/* -- サービス -- */
+			.btnService a span {
+				background-position: -665px @bgGNposition;
+				width: 218px;
+			}
+
+			.btnService a:hover span {
+				background-position: -665px @bgGNpositionHover;
+			}
+
+			/* -- お問い合わせ -- */
+			.btnContact a span {
+				background-position: -884px @bgGNposition;
+				width: 210px;
+			}
+
+			.btnContact a:hover span {
+				background-position: -884px @bgGNpositionHover;
+			}
+		}
+	}
+}
+
+
+
+
+/*  メイン 共通設定
+---------------------------------------------*/
+
+
+/* -------- カテゴリータイトル -------- */
+
+.boxCategory {
+	background: url(../img/common/bg-category.png);
+	width: 100%;
+	margin: 0 0 10px;
+
+	.boxInner {
+		display: table;
+		height: 110px;
+	}
+
+	.ttlCategory {
+		display: table-cell;
+		vertical-align: middle;
+		padding-top: 10px;
+		text-align: center;
+	}
+}
+
+
+/* -------- パンくず -------- */
+
+.boxBreadcrumb {
+	margin-bottom: 40px;
+	font-size: 0.8em;
+	line-height: 20px;
+	letter-spacing: -1px;
+
+	span,
+	a {
+		margin-right: 3px;
+	}
+
+	span:first-child {
+		margin-left: 0;
+	}
+}
+
+
+/* -------- 記事 -------- */
+
+.ttlMainCircle {
+	background: url(../img/common/bg-ttl-main.png) no-repeat left top;
+	min-height: 165px;
+	min-height: 110px \9;
+	margin: 0 0 40px;
+	padding: 60px 0 0;
+	color: @colorPoint;
+
+	.txtMain {
+		margin-left: 2px;
+		margin-bottom: 7px;
+	}
+
+	.txtSub {
+		font-weight: bold;
+		font-size: 0.98em;
+	}
+
+	.txtOrange {
+		padding: 0 2px;
+		font-size: 1.3em;
+	}
+}
+
+body:not(:target) .ttlMainCircle {
+	min-height: 165px \9; /* IE9 */
+}
+
+.ttlBdrBtm {
+	border-bottom: 1px solid @colorBdrBase;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.ttlSub {
+
+	span {
+		display: inline-block;
+		margin-left: 20px;
+		padding-top: 4px;
+		text-shadow: 1px 1px 1px #fff;
+		font-size: 0.9em;
+	}
+}
+
+
+/* -------- 3列ボックス -------- */
+
+.boxThreeColumns {
+	display: table;
+	margin-left: -8px;
+
+	li {
+		position: relative;
+		z-index: 0;
+		display: table-cell;
+		vertical-align: top;
+		border-left: 8px solid @colorBg;
+		background: url(../img/common/bg-dot-line.png) repeat-x bottom;
+		width: 280px;
+		height: 100%;
+		font-size: 0.85em;
+		line-height: 24px;
+		letter-spacing: 0;
+
+		dl {
+			background: url(../img/common/bg-dot-line.png) repeat-x top;
+			padding: 35px 20px;
+
+			dt {
+				height: 100%;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+		}
+	}
+
+	li:before,
+	li:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background: url(../img/common/bg-dot-side.png) repeat-y;
+		width: 100%;
+		height: 100%;
+		content: "";
+	}
+
+	li:before {
+		background-position: left;
+	}
+
+	li:after {
+		background-position: right;
+	}
+}
+
+
+/* -------- ドット枠Box -------- */
+
+.boxBgDot {
+	background: url(../img/common/bg-dot-line.png) repeat-x top;
+
+	.boxBgInner {
+		position: relative;
+		background: url(../img/common/bg-dot-line.png) repeat-x bottom;
+		z-index: 0;
+	}
+
+	.boxBgInner:before,
+	.boxBgInner:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background: url(../img/common/bg-dot-side.png) repeat-y;
+		width: 100%;
+		height: 100%;
+		content: "";
+	}
+
+	.boxBgInner:before {
+		background-position: left;
+	}
+
+	.boxBgInner:after {
+		background-position: right;
+	}
+
+	/* 3列ボックス */
+	.boxThreeColumns {
+		margin-left: 0;
+
+		li {
+			background: url(../img/common/bg-dot-side.png) repeat-y left;
+			border: none;
+			margin-bottom: 0;
+
+			dl {
+				background: none;
+				padding: 0 30px;
+
+				dt {
+					height: 110px;
+					margin-bottom: 30px;
+				}
+			}
+		}
+
+		li:first-child {
+			background: none;
+		}
+
+		li:before,
+		li:after {
+			display: none;
+		}
+	}
+}
+
+
+/* -------- ドット枠List -------- */
+
+.boxBgDotList {
+
+	li {
+		position: relative;
+		background: url(../img/common/bg-dot-line.png) repeat-x top;
+		margin-bottom: 45px;
+
+		.boxBgInner {
+			position: relative;
+			background: url(../img/common/bg-dot-line.png) repeat-x bottom;
+			z-index: 0;
+			padding: 22px 22px 27px;
+		}
+
+		.boxBgInner:before,
+		.boxBgInner:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			background: url(../img/common/bg-dot-side.png) repeat-y;
+			width: 100%;
+			height: 100%;
+			content: "";
+		}
+
+		.boxBgInner:before {
+			background-position: left;
+		}
+
+		.boxBgInner:after {
+			background-position: right;
+		}
+	}
+}
+
+
+/* -------- スライダー -------- */
+
+.bx-wrapper {
+	position: relative;
+
+	li {
+		position: relative;
+		padding-top: 0 !important;
+
+		.txt {
+			position: absolute;
+			top: 110px;
+			left: 0;
+			width: 1100px;
+			text-align: center;
+		}
+	}
+
+	.bx-pager.bx-default-pager {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+
+		.bx-pager-item {
+			display: inline-block;
+			margin-left: 12px;
+
+			.bx-pager-link {
+				display: block;
+				background: url(../img/top/topmain/icn-slide.png) no-repeat 0 -2px;
+				width: 16px;
+				height: 17px;
+				overflow: hidden;
+				text-indent: 100%;
+				white-space: nowrap;
+				cursor: pointer;
+				transition: none !important;
+			}
+
+			.bx-pager-link.active {
+				background-position: left bottom;
+			}
+		}
+	}
+
+	.bx-controls-direction {
+		display: none;
+	}
+}
+
+
+
+/*  サイド 共通設定
+---------------------------------------------*/
+
+/* -------- サイド -------- */
+
+#side {
+	position: relative;
+	width: 220px;
+	font-size: 0.85em;
+
+/* ----- ページナビ ----- */
+
+	#boxPageNav {
+		position: relative;
+		z-index: 50;
+		background: @colorBg;
+		width: 220px;
+		padding-top: 10px;
+
+
+		dl {
+			dt {
+				border-top: 2px solid @colorBase;
+				background: url(../img/common/bg-dot-small.gif) repeat-x bottom;
+				padding: 22px 10px 30px;
+			}
+
+			dd {
+				ul {
+					margin: 0 auto;
+
+					li {
+						background: url(../img/common/bg-dot-small.gif) repeat-x bottom;
+
+						a {
+							position: relative;
+							display: block;
+							padding: 18px 0 18px 23px;
+
+						}
+
+						a:before {
+							position: absolute;
+							top: 26px;
+							left: 10px;
+							background: url(../img/common/bg-maru.png) no-repeat 0 -7px;
+							width: 4px;
+							height: 4px;
+							content: "";
+
+						}
+
+						a.on,
+						a:hover {
+							color: #c3af9c;
+						}
+
+						a.on:before,
+						a:hover:before {
+							background-position: 0 0;
+						}
+					}
+				}
+			}
+
+			dd.gift-info {
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+
+/*  フッター 共通設定
+---------------------------------------------*/
+
+#footer {
+	font-size: 0.8em;
+	line-height: 20px;
+
+
+	#footerTop {
+
+		.boxInner {
+      position: relative;
+			padding: 30px 0 40px;
+		}
+
+		.boxCateNav > ul {
+			display: table;
+			width: 100%;
+
+			> li {
+				display: table-cell;
+				border-right: 1px solid @colorGrey;
+				width: 20%;
+				padding: 10px 20px;
+				vertical-align: top;
+			}
+
+			> li:first-child {
+				padding: 0;
+				vertical-align: middle;
+			}
+
+			> li > dl > dt {
+				margin-bottom: 15px;
+				font-weight: bold;
+				font-size: 1.1em;
+			}
+
+			> li > dl > dd li {
+
+        a {
+				  margin-bottom: 5px;
+        }
+
+        > ul {
+          margin-left: 10px;
+        }
+			}
+		}
+	}
+
+
+	/* -------- フッター中部 -------- */
+
+	#footerMdl {
+
+		.boxInner {
+			display: table;
+
+			> * {
+				display: table-cell;
+				vertical-align: top;
+			}
+		}
+
+
+		/* --- アバウト --- */
+
+		.boxAbout {
+			float: left;
+
+			dl {
+				position: relative;
+				min-height: 100px;
+				padding: 3px 0 0 190px;
+
+				dt {
+					margin-bottom: 5px;
+					font-weight: bold;
+					font-size: 1.1em;
+				}
+
+				img {
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+			}
+		}
+
+		/* --- サイトナビ --- */
+
+		.boxSiteNav {
+      overflow: hidden;
+			float: right;
+      width: 420px;
+
+			ul {
+        margin-right: -10px;
+        text-align: right;
+			}
+
+			li {
+				position: relative;
+        display: inline-block;
+				margin: 0 17px 5px -4px;
+			}
+
+			li:before {
+				position: absolute;
+				top: 4px;
+				right: -10px;
+				border-left: 1px solid #444;
+				width: 1px;
+				height: 12px;
+				content: "";
+			}
+		}
+	}
+
+
+	/* -------- フッター下部 -------- */
+
+	#footerBtm {
+    .boxInner {
+      position: relative;
+      padding: 10px 0;
+    }
+
+		.boxCopyright {
+			margin-bottom: 0;
+			letter-spacing: 0;
+			text-align: center;
+			color: #555;
+			font-size: 1.2em;
+		}
+
+		#btnPageTop {
+			z-index: 800;
+		}
+
+	}
+}

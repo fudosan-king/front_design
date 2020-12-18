@@ -1,0 +1,2393 @@
+@charset "utf-8";
+@import "colorscheme.less";
+
+@media screen and (max-width: 640px) {
+
+/* =============================================================
+
+　　スマホ画面 共通設定
+
+============================================================= */
+
+
+/*  全体 共通設定
+---------------------------------------------*/
+
+/*  画像 共通設定
+-------------------------- */
+
+/* スマホ用画像 */
+.imgSmp {
+	width: 100%;
+	display: inline;
+}
+
+.imgMain {
+	display: none;
+}
+
+
+/* 　コンテナー　レイアウト設定
+---------------------------------------------*/
+
+.boxInner {
+	width: 100%;
+}
+
+
+/* 　ヘッダー 共通設定
+---------------------------------------------*/
+
+#header {
+
+	/* -------- サイトタイトルロゴ -------- */
+
+	#ttlSiteLogo {
+		padding: 18px 0;
+
+		img {
+			width: 130px;
+		}
+	}
+
+	/* -------- お問い合わせ -------- */
+
+	.boxContact {
+		position: inherit;
+		top: inherit;
+		border-top: 1px solid @colorBase;
+		border-bottom: 1px solid @colorBase;
+
+
+		ul {
+			display: table;
+			width: 100%;
+		}
+
+		li {
+			display: table-cell;
+			width: 50%;
+			text-align: center;
+
+			a {
+				display: block;
+				height: 34px;
+				text-align: center;
+
+				.imgSmp {
+					position: relative;
+					top: 2px;
+					width: 152px;
+					vertical-align: middle;
+				}
+			}
+		}
+
+		li:first-child + li {
+
+			a {
+				background: @colorBase;
+
+				.imgSmp {
+					width: 146px;
+				}
+			}
+		}
+
+	}
+
+	/* -------- グローバルナビ -------- */
+
+	#boxGlobalNav {
+		border-top: none;
+		margin-bottom: 0;
+
+		/* -- グローバルナビ開く・閉じるボタン -- */
+		.btnOpen,
+		.btnClose {
+			display: block;
+		}
+
+		/* --- 開くボタン --- */
+		.btnOpen {
+			position: absolute;
+			top: 0;
+			right: 0;
+			background: @colorBase;
+			padding: 14px 15px;
+			cursor: pointer;
+		}
+
+		.btnOpen.hover {
+			background: #bbd366;
+		}
+
+		.btnOpen img {
+			width: 30px;
+		}
+
+		/* --- 閉じるボタン --- */
+		.btnClose {
+			background: #000;
+			padding: 8px;
+			text-align: center;
+			color: @colorWhite;
+			cursor: pointer;
+		}
+
+		.btnClose:before {
+			position: relative;
+			content: "\25B2";
+			padding: 0 7px 0 0;
+		}
+
+		.btnClose.hover {
+			background: #44bcce;
+		}
+
+		/* --- グローバルナビ一覧 --- */
+		dl dd {
+			position: absolute;
+			top: 72px;
+			left: 0;
+			z-index: 100;
+			border-top: 1px solid @colorWhite;
+			width: 100%;
+			font-size: 0.8em;
+		}
+
+		dl .boxMenu {
+			display: none;
+		}
+
+		li {
+			display: block;
+			float: none;
+			border-bottom: 1px solid @colorWhite !important;
+			background: none;
+			width: auto;
+			height: auto;
+			padding: 0;
+		}
+
+		li a {
+			background: @colorBase;
+			padding: 10px 13px !important;
+			text-align: left;
+		}
+
+		li a span:before {
+			position: relative;
+			top: 9px;
+			float: left;
+			border-radius: 10px;
+			background: @colorWhite;
+			width: 8px;
+			height: 8px;
+			margin: 0 10px 0 0;
+			content: "";
+		}
+
+		li a:after {
+			position: relative;
+			float: right;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+			content: "";
+			border-top: 1px solid @colorWhite;
+			border-right: 1px solid @colorWhite;
+			width: 12px;
+			height: 12px;
+			margin-top: -20px;
+		}
+
+		li a:hover {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			background: #44bcce !important;
+		}
+
+		a {
+			display: block;
+		}
+
+		a span {
+			background: none;
+			width: 100% !important;
+			height: auto;
+			color: @colorWhite;
+			text-indent: inherit;
+			overflow: auto;
+			white-space: inherit;
+		}
+
+		/* -- 表示 -- */
+		.btnEvent,
+		.btnBlog,
+		.btnClose {
+			display: block;
+		}
+	}
+}
+
+/* ---- 閲覧中のカテゴリ ---- */
+.page-media #header #boxGlobalNav .btnMedia a,
+.page-about #header #boxGlobalNav .btnAbout a,
+.page-works #header #boxGlobalNav .btnWorks a,
+.page-material #header #boxGlobalNav .btnMaterial a,
+.page-service #header #boxGlobalNav .btnService a,
+.page-plan #header #boxGlobalNav .btnPlan a,
+.page-contact #header #boxGlobalNav .btnContact a {
+	opacity: inherit;
+	filter: none;
+}
+
+
+
+/*  コンテンツ 共通設定
+---------------------------------------------*/
+
+#content {
+	display: block;
+	padding-bottom: 0;
+	line-height: 22px;
+	font-size: 0.8em;
+}
+
+/* -------- カテゴリータイトル -------- */
+
+.ttlCategory {
+	padding: 0;
+	font-size: 0.95em;
+
+	.txtMain {
+		padding-top: 18px;
+		letter-spacing: 0;
+
+		img {
+			width: 100%;
+			margin-top: -15px;
+		}
+
+	}
+
+	.txtSub {
+		padding-bottom: 12px;
+	}
+}
+
+/* -------- パンくず -------- */
+
+.boxBreadcrumb {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+
+/* -------- Article -------- */
+
+.boxArticle {
+	width: 100%;
+	padding: 0 10px;
+
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+/* -------- セクション -------- */
+
+.liDot {
+
+	li {
+		padding-left: 12px;
+	}
+
+	li:before {
+		margin: 0 2px 0 -14px;
+	}
+}
+
+/* -------- 表 -------- */
+
+.boxTable {
+
+	tr {
+
+		td {
+			display: block;
+			width: 100%;
+		}
+
+		> td:first-child {
+			width: 100%;
+
+			+ td {
+				width: 100%;
+				line-height: 26px;
+			}
+		}
+	}
+}
+
+/* -------- ページング -------- */
+
+.boxPaging {
+	margin: 0 0 20px;
+}
+
+.boxPostDetail + .boxPaging {
+	background: url(../img/common/bg-dot.png) repeat-x bottom;
+	margin-bottom: 0;
+	padding: 20px 0;
+
+	.btnPrev,
+	.btnTop,
+	.btnNext {
+		width: 48%;
+	}
+
+	.btnTop {
+		display: none;
+	}
+}
+
+
+/* ----- クリックで画像切り替え ----- */
+
+.boxImgChange {
+	min-width: 100%;
+	margin-bottom: 10px;
+
+}
+
+
+
+/*  メイン・サイド共通設定
+---------------------------------------------*/
+
+#main,
+#side {
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	vertical-align: top;
+	text-align: left;
+}
+
+
+/*  メイン 共通設定
+---------------------------------------------*/
+
+#main {
+	margin: 0;
+	padding-top: 0;
+}
+
+
+/*  サイド 共通設定
+---------------------------------------------*/
+
+#side {
+	margin-bottom: 0;
+}
+
+
+/*  ASIDE 共通設定
+------------------------------------*/
+
+/* -------- バナーエリア -------- */
+
+#aside {
+	border-top: 1px solid @colorGrey;
+	padding: 20px 10px !important;
+
+	a {
+		max-width: 500px;
+		width: 90%;
+
+		img {
+			width: 100%;
+		}
+	}
+
+}
+
+
+
+/*  フッター 共通設定
+---------------------------------------------*/
+
+#footer {
+	position: inherit;
+	left: inherit;
+	bottom: inherit;
+	height: auto;
+
+
+	/* -------- フッター上部 -------- */
+
+	#footerTop {
+
+		.boxInner {
+			padding: 20px 0 20px 20px;
+		}
+
+		.boxCateNav {
+			font-size: 0.9em;
+
+			> ul {
+				width: 100%;
+
+				> li {
+					display: inline-block;
+					vertical-align: top;
+					border-right: none;
+					width: 49%;
+					padding: 0 0 20px;
+
+					> dl {
+
+						> dt {
+							margin-bottom: 5px;
+						}
+
+						> dd {
+
+							li {
+								margin-bottom: 0;
+							}
+						}
+					}
+				}
+
+				> li:first-child {
+					display: none;
+				}
+			}
+		}
+	}
+
+	/* -------- フッター中部 -------- */
+
+	#footerMdl {
+
+		.boxInner {
+			display: block;
+			padding: 15px 10px;
+
+			> * {
+				display: block;
+				float: none;
+			}
+		}
+
+		/* --- アバウト --- */
+
+		.boxAbout {
+			float: none;
+			text-align: center;
+
+			dl {
+				display: inline-block;
+				padding-left: 90px;
+				text-align: left;
+				font-size: 0.9em;
+
+				dd {
+					font-size: 0.8em;
+					line-height: 18px;
+
+					img {
+						width: 80px;
+					}
+				}
+
+			}
+		}
+
+		/* --- サイトナビ --- */
+
+		.boxSiteNav {
+			float: none;
+			width: 100%;
+			margin-bottom: 20px;
+			text-align: center;
+			font-size: 0.7em;
+
+			ul {
+				display: inline-block;
+				float: none;
+				margin-right: 0;
+			text-align: center;
+			}
+
+			li {
+				margin-left: 10px;
+			}
+
+			li:before {
+				left: -5px;
+			}
+		}
+	}
+
+
+	/* -------- フッター下部 -------- */
+
+	#footerBtm {
+		.boxInner {
+			padding-bottom: 50px;
+		}
+
+		.boxCopyright {
+			margin-bottom: 0;
+			padding: 15px 10px;
+			font-size: 0.9em;
+
+			small {
+				display: block;
+				margin-bottom: 15px;
+			}
+		}
+
+		/* -- ページトップへ戻る -- */
+    #btnPageTop {
+    	right: 10px !important;
+    	bottom: 10px !important;
+      text-align: center;
+
+      img {
+      	width: 40px !important;
+      	height: 40px !important;
+      }
+    }
+    #btnPageTop.btm {
+      position: relative !important;
+      right: auto !important;
+      bottom: auto !important;
+    }
+	}
+}
+
+
+/* =============================================================
+
+　　スマホ画面 各ページ 個別設定
+
+============================================================= */
+
+
+/*  TOP : トップページ
+---------------------------------------------*/
+
+.page-top #content {
+
+	.btnArw {
+		a {
+			width: 100%;
+		}
+	}
+
+	.imgSmp {
+		img {
+			width: 100%;
+		}
+	}
+
+	.boxInner {
+		padding: 0 10px;
+	}
+
+	.boxInner.pt60 {
+		padding-top: 10px !important;
+
+		.ttlCategory.mb30 {
+			margin-bottom: 10px !important;
+		}
+	}
+
+
+/* ----- （PC）メインビジュアル 画像切り替え ---- */
+#topmain.boxImgChangePC {
+  display: none ! important;
+}
+
+
+/* ----- （スマホ）メインビジュアル 画像切り替え ---- */
+#topmainSmp.boxImgChangeSmp {
+	display: block !important;
+  background: @colorBase;
+	margin-bottom: 18%;
+
+	.boxSelectBtn {
+		bottom: -30%;
+
+		li {
+			width: 15%;
+
+			.imgBtn {
+        background-image: url(../img/top/topmain/bg-imgchange-off.png);
+        padding: 5px;
+				margin-bottom: 7%;
+			}
+		}
+
+    li.on {
+      .imgBtn {
+        background-image: url(../img/top/topmain/bg-imgchange-on.png);
+      }
+    }
+
+		li:first-child {
+			margin-right: 10%;
+
+			.imgSmp {
+				img {
+					max-width: 62px;
+				}
+			}
+		}
+
+
+		li:first-child + li {
+
+			.imgSmp {
+				img {
+					width: 130%;
+					max-width: 82px;
+				}
+			}
+		}
+	}
+}
+
+
+/* -------- 最新情報エリア -------- */
+
+.boxLatestInfo {
+	margin-bottom: 10px;
+	padding: 0 10px;
+
+	> div {
+		display: block;
+		width: 100% !important;
+		min-height: 100% !important;
+		height: auto !important;
+	}
+
+	.boxLeft,
+	.boxCenter,
+	.boxCP,
+	.boxEvent {
+		padding: 14px 10px 10px;
+	}
+
+	.boxLeft,
+	.boxCenter {
+		margin: 0 0 20px;
+	}
+
+	.boxEvent {
+		position: static;
+		left: auto;
+		bottom: auto;
+	}
+
+	.boxLeft{
+		text-align: center;
+		.ttl{
+			text-align: left;
+		}
+	}
+
+	.boxRight{
+		text-align: center;
+	}
+
+	.ttl {
+		margin-bottom: 14px;
+		font-size: 1.2em;
+
+		span {
+
+		}
+	}
+
+	.boxMedia {
+
+		.ttl + a {
+			margin-bottom: 0;
+			width: 100%;
+			text-align: center;
+
+			img {
+				width: 60%;
+			}
+
+			.ttlMedia {
+				display: block;
+				margin-bottom: 10px;
+				line-height: 20px;
+				text-align: left;
+			}
+		}
+
+		.btn {
+			a {
+				line-height: 16px;
+				img {
+					width: 100px;
+				}
+			}
+		}
+
+	}
+
+	.boxBlog {
+
+		li {
+			border-bottom: 1px solid #e0dcd9;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+
+			a {
+				font-size: 0.9em;
+
+				img {
+					margin-right: 10px;
+				}
+			}
+		}
+
+		.btn {
+			a {
+				line-height: 16px;
+
+				img {
+					width: 70px;
+				}
+			}
+		}
+	}
+
+	.boxCP,
+	.boxEvent {
+		height: auto;
+		margin-bottom: 20px;
+
+		a {
+			img {
+				width: 100%;
+			}
+		}
+
+	}
+
+}
+
+
+/* -------- クロニクルリフォームとは -------- */
+
+.boxAbout {
+	margin-bottom: 30px;
+
+	.boxSection {
+
+		p {
+			margin-right: 0 !important;
+			margin-bottom: 30px !important;
+			margin-left: 0 !important;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		p:first-child {
+			margin: 0 14px 14px !important;
+		}
+
+		p:first-child + p {
+			margin: 0 14px 40px 14px !important;
+			line-height: 24px;
+			font-size: 1em;
+			width: auto;
+		}
+
+		p:first-child + p + p + p {
+			img {
+				width: 90%;
+			}
+		}
+
+		p:first-child + p + p + p + p {
+			line-height: 24px;
+			text-align: left !important;
+		}
+	}
+}
+
+
+/* -------- 自然素材 -------- */
+
+.boxMaterial {
+	margin-bottom: 60px;
+
+	#topmainMaterial {
+
+		.imgSmp {
+			width: 100%;
+		}
+	}
+
+	.boxSection {
+
+		> div {
+			margin-bottom: 20px;
+		}
+
+		.ttlMaterial {
+			border: none;
+			float: none;
+			width: 100%;
+			height: auto;
+			margin-bottom: 30px !important;
+
+			img {
+				position: inherit;
+				top: inherit;
+				left: inherit;
+				width: 180px;
+				margin: 0;
+			}
+		}
+
+		.ttlMaterial:before {
+			display: none;
+		}
+
+		/* -- 特徴 -- */
+		.boxCharm {
+		float: none;
+		width: 100%;
+
+		li {
+			margin: 0 0 10px;
+			padding: 8px 0;
+
+			dl {
+				dt {
+					width: 30%;
+
+					img {
+						position: relative;
+						top: 2px;
+					}
+				}
+
+				dd {
+					width: 65%;
+					line-height: 18px;
+				}
+			}
+		}
+
+		/* 安心安全 */
+		li:first-child {
+			dt {
+				img {
+					width: 80px;
+				}
+			}
+		}
+
+		/* 耐久性 */
+		li:first-child + li {
+			dt {
+				img {
+					width: 64px;
+				}
+			}
+		}
+
+		/* デザイン */
+		li:first-child + li + li {
+			dt {
+				img {
+					width: 80px;
+				}
+			}
+		}
+
+	}
+}
+
+}
+
+
+/* -------- サービス -------- */
+
+.boxService {
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+
+	.boxSection {
+
+		.boxStep {
+			border: none;
+			margin-top: -10px;
+			margin-bottom: 20px;
+			padding: 0 0 10px 0px;
+			text-align: center;
+
+			.boxStepInner {
+				width: 100%;
+				margin: 0 auto;
+
+
+				ol {
+					background: none;
+					width: 100%;
+					margin-left: -20px;
+
+					li {
+						position: relative;
+						width: 45%;
+
+						dl {
+
+							/* STEP丸アイコン */
+							dt {
+								left: 3%;
+								width: 20%;
+
+								img {
+									max-width: 40px;
+									width: 100%;
+								}
+							}
+
+							/* イメージ画像 */
+							dt + dd {
+								position: relative;
+
+								img {
+									width: 100%;
+
+								}
+							}
+
+							/* ⇒矢印 */
+							dt + dd:before {
+								left: -20px;
+								background-size: 100%;
+								width: 8%;
+							}
+
+							dt + dd + dd {
+								padding: 8px 0;
+							}
+						}
+					}
+
+					/* STEP01 */
+					li:nth-of-type(1) {
+						dd + dd {
+							img {
+								width: 90px;
+							}
+						}
+					}
+
+					/* STEP02 */
+					li:nth-of-type(2) {
+						dd + dd {
+							img {
+								width: 60px;
+							}
+						}
+					}
+
+					/* STEP03 */
+					li:nth-of-type(3) {
+						dd + dd {
+							img {
+								width: 100px;
+							}
+						}
+					}
+
+					/* STEP04 */
+					li:nth-of-type(4) {
+						dd + dd {
+							img {
+								width: 120px;
+							}
+						}
+					}
+
+					/* STEP05 */
+					li:nth-of-type(5) {
+						dd + dd {
+							img {
+								width: 28px;
+							}
+						}
+					}
+
+					/* STEP06 */
+					li:nth-of-type(6) {
+						dd + dd {
+							img {
+								width: 20px;
+							}
+						}
+					}
+
+					/* STEP07 */
+					li:nth-of-type(7) {
+						dd + dd {
+							img {
+								width: 65px;
+							}
+						}
+					}
+
+					/* STEP08 */
+					li:nth-of-type(8) {
+						dd + dd {
+							img {
+								width: 100px;
+							}
+						}
+					}
+
+					li:nth-of-type(1),
+					li:nth-of-type(3),
+					li:nth-of-type(5) {
+						margin-bottom: 30px;
+					}
+
+					li:nth-child(odd) {
+						dt + dd:before {
+							display: none;
+						}
+					}
+
+					/* 矢印 */
+					li:nth-of-type(1):before,
+					li:nth-of-type(3):before,
+					li:nth-of-type(5):before {
+						position: absolute;
+						left: 0;
+						bottom: -30px;
+						background: url(../img/top/service/bg-step-arw2-smp.png) no-repeat center;
+						background-size: 50%;
+						width: 200%;
+						height: 30px;
+						content: "";
+					}
+				}
+			}
+		}
+
+		.boxStep:before {
+			display: none;
+		}
+
+		.boxStep + p.mb70 {
+			margin-bottom: 30px !important;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+
+/* -------- リフォームプラン -------- */
+
+.boxPlan {
+	margin-bottom: 10px;
+
+	.ttlCategory.mb30 {
+		margin-bottom: 10px !important;
+	}
+
+	.boxSection {
+		text-align: center;
+
+		ul {
+
+			li {
+				width: 100%;
+				margin-bottom: 20px;
+
+				dt {
+					width: 80%;
+					margin: 0 auto 20px;
+					text-align: left;
+
+					.ttlPlan {
+						background-position: 97%;
+						background-size: 20px;
+						padding: 12px 12px 10px;
+						font-size: 1em;
+						letter-spacing: 1px;
+
+						.txtSub {
+							padding: 0 2px;
+							font-size: 0.5em;
+						}
+					}
+
+					img {
+						width: 100%;
+					}
+				}
+
+				dd {
+					font-size: 0.9em;
+					text-align: left;
+
+					br {
+						display: none;
+					}
+				}
+			}
+
+			li:first-child {
+				margin-right: 0;
+
+			}
+
+		}
+	}
+}
+
+
+/* -------- 施工事例 -------- */
+
+.boxWorks {
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+
+	.boxWorksList {
+		margin-bottom: 20px;
+	}
+}
+
+
+/* -------- ショールーム -------- */
+
+.boxShowroom {
+	margin-bottom: 20px;
+
+	.ttlCategory.mb30 {
+		margin-bottom: 10px !important;
+	}
+
+	.boxSection {
+
+		p.mb40 {
+			margin-bottom: 20px !important;
+			line-height: 24px;
+
+			br {
+				display: none;
+			}
+		}
+
+		p {
+
+			a {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+
+
+/* -------- お問い合わせ -------- */
+
+.boxContact {
+	margin-bottom: 0 !important;
+	padding-bottom: 40px;
+
+	.boxTable {
+		width: 100%;
+		margin-bottom: 20px;
+
+		tr td {
+			padding: 8px 15px;
+
+			p {
+				margin-bottom: 10px !important;
+				span {
+					display: block;
+				}
+			}
+		}
+
+		tr > td:first-child + td {
+			padding-left: 15px;
+		}
+	}
+
+	input[type="radio"] {
+		top: 0;
+	}
+
+	input[name="zip1"] {
+		margin-left: 0;
+	}
+
+	input[name="zip1"],
+	input[name="zip2"]  {
+		width: 100px;
+	}
+
+	input[size="65"],
+	select {
+		margin: 0;
+	}
+
+	input[size="30"],
+	input[size="65"],
+	select,
+	textarea {
+		width: 100%;
+	}
+
+	textarea {
+		margin-top: 5px;
+	}
+
+	.txtGrey {
+		display: block;
+		padding: 0;
+	}
+
+	.btnSubmit {
+		padding-top: 20px;
+
+		input {
+			width: 100%;
+			background-image: url(../img/top/contact/btn-contact-smp.png);
+			background-size: 60px;
+			margin: 0;
+		}
+	}
+}
+
+}
+
+
+
+/*  MEDIA : メディア＆ニュース
+--------------------------------------------- */
+
+.page-media #main .txtDate {
+	margin-bottom: 4px;
+}
+
+
+/* -------- 投稿一覧 -------- */
+
+.boxPostList {
+	margin-bottom: 20px;
+
+	> ul {
+
+		> li {
+			background-size: 3px;
+			padding: 20px 0;
+		}
+	}
+
+	.imgThumb {
+		width: 100px;
+		transition: none;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.txtDate,
+	.ttlPost {
+		margin-left: 120px;
+		line-height: 24px;
+	}
+
+}
+
+
+/* -------- 投稿詳細 -------- */
+
+.boxPostDetail {
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+
+	.boxPostHead {
+		line-height: 26px;
+	}
+
+	.ttlPost {
+		font-size: 1.4em !important;
+	}
+
+	.boxSNS {
+		width: 100%;
+		text-align: center;
+
+		ul {
+			float: none;
+			display: inline-block;
+			border: none;
+			padding: 4px 8px;
+		}
+	}
+
+	.boxSection {
+
+		img {
+			max-width: 100%;
+		}
+
+		p {
+			margin-bottom: 20px;
+			line-height: 26px;
+		}
+	}
+}
+
+
+/* -------- 投稿メニュー -------- */
+
+.boxPostMenu {
+	margin: 0 0 10px;
+
+	.ttlMain {
+		display: none;
+	}
+
+	.ttlSmp {
+		position: relative;
+		display: block;
+		background: url(../img/post/bg-open.png) no-repeat 96% center @colorBg;
+		background-size: 10px 10px;
+		padding: 15px;
+		font-size: 1.1em;
+		cursor: pointer;
+	}
+
+	.ttlSmp.on {
+		background-image: url(../img/post/bg-close.png);
+	}
+
+	ul {
+		margin-bottom: 20px;
+
+		> li {
+			font-size: 1em;
+			line-height: 20px;
+
+			a {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+
+		> li:first-child {
+			a {
+				padding-top: 5px;
+			}
+		}
+	}
+}
+
+/*　アコーディオンメニュー表示設定 */
+#side.gt260 ul {
+	display: none;
+}
+
+
+/* ---- バナーエリア ---- */
+.boxBannerArea {
+	ul {
+		li {
+			margin-bottom: 20px;
+			text-align: center;
+
+			a {
+				max-width: 500px;
+				width: 90%;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+
+
+/*  BLOG : スタッフブログ
+--------------------------------------------- */
+
+.page-blog #content {
+
+	.boxPostDetail {
+
+		.boxPostHead {
+			width: 100%;
+		}
+
+		.txtDate {
+			top: 0;
+			display: block;
+			padding: 0;
+		}
+	}
+}
+
+
+/*  EVENT : イベント情報
+--------------------------------------------- */
+
+.page-event #content {
+
+	.boxArticle {
+		border: none;
+		margin-bottom: 0;
+		padding: 0 10px;
+		line-height: 26px;
+
+		.boxArticleHead {
+			margin: 0 0 15px;
+
+			.ttlArticle {
+				margin-top: 30px;
+				margin-bottom: 0;
+				line-height: 26px;
+			}
+		}
+	}
+
+	.boxSection {
+		margin: 0 0 20px;
+
+		.ttlSection {
+			margin-bottom: 15px;
+		}
+
+		.boxProgram li dl dt {
+			margin-bottom: 5px;
+		}
+
+		.boxContact {
+			padding: 15px 10px 10px;
+			text-align: center;
+
+			li {
+				float: none;
+			}
+
+			/* お問い合わせ・TEL */
+			li:first-child {
+				border: none;
+				margin-right: 0;
+				margin-bottom: 5px;
+				padding-right: 0;
+
+				img {
+					width: 180px;
+				}
+			}
+
+			/* クロニクルフォームお問い合わせ */
+			li:first-child + li {
+
+				img {
+					max-width: 300px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+
+
+/*  MATERIAL : 自然素材
+--------------------------------------------- */
+
+.page-material #content {
+
+	.boxArticle {
+
+		.boxArticleHead {
+			margin-bottom: 20px;
+
+			.ttlArticle {
+
+				.imgSmp {
+					display: block;
+				}
+
+				.imgMain {
+					display: none;
+				}
+			}
+
+			/* 自然素材3つの魅力 */
+			+ h2.mb30 {
+				margin-bottom: 5px !important;
+
+				img {
+					width: 180px;
+				}
+			}
+		}
+	}
+
+
+	/* ------- はじめに（自然素材3つの魅力） ------- */
+
+	#introduction {
+
+		.boxSection {
+			padding: 30px 0 40px;
+
+			.imgCharm {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+
+			.boxCharm {
+				width: 100%;
+				margin-left: 0;
+
+				dt {
+					margin-bottom: 10px;
+				}
+
+				dd {
+				line-height: 26px;
+				}
+			}
+		}
+
+		/* 安心安全 */
+		#charm01.boxSection .boxCharm dt img {
+			width: 100px;
+		}
+
+		/* 耐久性 */
+		#charm02.boxSection .boxCharm dt img {
+			width: 80px;
+		}
+
+		/* デザイン */
+		#charm03.boxSection .boxCharm dt img {
+			width: 90px;
+		}
+	}
+
+
+	/* ------- 素材の紹介（自然素材詳細） ------- */
+
+	#detail {
+		margin-bottom: 0;
+		padding: 10px;
+
+		.ttlArticle.mb60 {
+			margin-bottom: 0 !important;
+			padding: 20px 0 0;
+			line-height: 28px;
+			font-size: 1.2em;
+			text-align: left !important;
+		}
+
+		.boxSection {
+			border: none;
+			margin-bottom: 20px;
+			padding: 20px;
+		}
+
+		.imgMaterial {
+			display: none;
+		}
+
+		.boxMaterial {
+			width: 100%;
+
+			.boxTwoColumn .fltL {
+				width: 100%;
+				margin-bottom: 15px;
+			}
+
+			.boxTwoColumn .fltR {
+				width: 100%;
+
+				dd {
+					line-height: 24px;
+				}
+
+			}
+		}
+	}
+}
+
+/*（PC）メインビジュアル 画像切り替え */
+#topmainMaterial.boxImgChangePC {
+  display: none !important;
+}
+
+/*（スマホ）メインビジュアル 画像切り替え */
+#topmainMaterialSmp.boxImgChangeSmp {
+  display: block !important;
+  min-width: 100%;
+	margin-bottom: 12% !important;
+
+	.boxSelectBtn {
+		bottom: -15%;
+
+		li {
+			width: 15%;
+      max-width: 75px;
+
+      .imgBtn {
+        background-image: url(../img/material/bg-imgchange-off.png);
+        padding: 3px;
+      }
+		}
+
+    li.on {
+      .imgBtn {
+        background-image: url(../img/material/bg-imgchange-on.png);
+      }
+    }
+
+		li:first-child,
+		li:first-child + li {
+			margin-right: 5%;
+		}
+	}
+}
+
+
+
+
+/*  SERVICE : サービス
+--------------------------------------------- */
+
+.page-service #content {
+	.boxArticle {
+		margin-bottom: 0;
+		padding: 0;
+
+		.boxArticleHead {
+			padding: 0 10px;
+
+			.ttlArticle {
+				margin: 0 0 25px;
+
+				img {
+					width: 100%;
+					max-width: 450px;
+				}
+			}
+		}
+
+		#boxStepNav {
+
+			ul {
+				display: table;
+				width: 100%;
+				padding: 0 10px;
+
+				li {
+					display: table-cell;
+					margin-right: 0;
+
+					a {
+						border-left: none !important;
+						width: 100%;
+						margin-left: 0;
+					}
+
+					a:before,
+					a:after {
+						display: none;
+					}
+				}
+
+
+				li:first-child a {
+					margin-left: 0;
+					border-left: 1px solid @colorGrey !important;
+
+				}
+			}
+		}
+
+		.boxServiceStep {
+			border-color: #e2e1e0;
+
+			.boxInner {
+				margin-bottom: 20px;
+				padding: 50px 10px 0 10px;
+
+				.imgStep {
+					margin-top: 5px;
+					width: 22%;
+				}
+
+				.imgStep:after {
+					border: 3px solid rgba(0,0,0,0.1);
+					width: 94%;
+					height: 94%;
+				}
+
+				.boxStep {
+					width: 70%;
+
+					dt {
+						margin-bottom: 10px;
+					}
+
+					dd {
+						line-height: 26px;
+						font-size: 0.9em;
+					}
+				}
+			}
+
+			.boxInner:before {
+				background-image: url(../img/service/icn-arw-smp.gif);
+				background-size: 50%;
+			}
+
+		}
+
+		#boxStepNav.fixed {
+			top: 5px;
+		}
+
+		#step01.boxServiceStep {
+
+			.boxInner {
+				padding-top: 50px;
+
+				.boxStep {
+					width: 70%;
+
+					dt {
+						img {
+							width: 150px;
+						}
+					}
+				}
+			}
+		}
+
+		#step02.boxServiceStep .boxStep dt img {
+			width: 120px;
+		}
+
+		#step03.boxServiceStep .boxStep dt img {
+			width: 160px;
+		}
+
+		#step04.boxServiceStep .boxStep dt img {
+			width: 240px;
+		}
+
+		#step05.boxServiceStep .boxStep dt img {
+			width: 80px;
+		}
+
+		#step06.boxServiceStep .boxStep dt img {
+			width: 65px;
+		}
+
+		#step07.boxServiceStep .boxStep dt img {
+			width: 120px;
+		}
+
+		#step08.boxServiceStep .boxStep dt img {
+			width: 180px;
+		}
+
+	}
+}
+
+
+
+/*  REFORM PLAN : リフォームプラン
+--------------------------------------------- */
+
+.page-plan #content {
+
+	.boxPlanSelect,
+	.boxStyleSelect {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.boxPlanSelect > p,
+	.boxStyleSelect > p {
+		margin-bottom: 20px !important;
+		text-align: left;
+	}
+
+	.boxPlanSelect > p br,
+	.boxStyleSelect > p br {
+		display: none;
+	}
+
+	.boxPlanSelect {
+		margin-bottom: 45px !important;
+
+		> p {
+			padding-top: 0 !important;
+		}
+
+		.boxSelectBtn {
+			width: 100%;
+
+			li {
+				width: 48%;
+				vertical-align: top;
+			}
+
+			li:first-child {
+				margin-right: 5px;
+			}
+
+			li a {
+				width: 100%;
+			}
+
+			li p {
+				width: 100%;
+				padding: 5px 5px 0;
+				font-size: 0.7em;
+			}
+
+			li p:before {
+				bottom: -34px;
+			}
+
+			p .txtMain {
+				top: 3px;
+				font-size: 1.3em;
+			}
+
+			a p .txtMain:before {
+				left: -23px;
+				bottom: -5px;
+				background-size: 100%;
+				width: 18px;
+				height: 18px;
+			}
+
+			a p span {
+				margin-left: 20px;
+			}
+
+			p .txtSub {
+				top: -7px;
+			}
+		}
+	}
+
+
+	/* ---- 選べる5つのスタイル ---- */
+	.boxStyleSelect {
+		margin-bottom: 20px !important;
+
+
+		/* タイトル：選べる5つのスタイル */
+		> h2 {
+			margin-bottom: 10px !important;
+			font-size: 1.3em;
+		}
+
+		> p {
+			padding-bottom: 25px !important;
+			font-size: 0.9em;
+		}
+
+		.bgDotBtm {
+			background-image: url(../img/common/bg-dot-small.gif);
+		}
+
+		/* -- スタイル選択エリア -- */
+		.boxSelectBtn {
+			width: 100%;
+			padding-bottom: 10px !important;
+			text-align: left;
+
+			ul {
+				width: 100%;
+				margin: 0;
+
+				li {
+					width: 32%;
+					margin: 0 0 10px;
+				}
+			}
+
+			li {
+
+				.btnImg {
+					display: none;
+				}
+			}
+
+			li:nth-child(1) .btnTxt {
+				width: 70px;
+			}
+
+			li:nth-child(2) .btnTxt {
+				width: 80px;
+			}
+
+			li:nth-child(3) .btnTxt {
+				width: 75px;
+			}
+
+			li:nth-child(4) .btnTxt {
+				width: 90px;
+			}
+
+			li:nth-child(5) .btnTxt {
+				width: 120px;
+			}
+		}
+	}
+
+
+	.boxArticle {
+		width: 100%;
+		margin-bottom: 0;
+		padding: 0;
+
+		.boxArticleHead {
+			background-size: 100%;
+			height: 90px;
+			margin-bottom: 10px;
+		}
+	}
+
+
+	#basic-style .boxArticleHead .ttlArticle img {
+		width: 120px;
+	}
+
+	#natural-style .boxArticleHead .ttlArticle img {
+		width: 150px;
+	}
+
+	#italian-style .boxArticleHead .ttlArticle img {
+		width: 150px;
+	}
+
+	#japanese-style .boxArticleHead .ttlArticle img {
+		width: 160px;
+	}
+
+	#vintage-style .boxArticleHead .ttlArticle img {
+		width: 200px;
+	}
+
+	.boxArticle .boxSection {
+		padding: 0 10px;
+	}
+
+	.boxArticleHead + .boxSection > p:first-child {
+		margin-bottom: 20px !important;
+		line-height: 24px !important;
+		text-align: left !important;
+	}
+
+
+	.boxArticle .boxSection > p br {
+		display: none;
+	}
+
+	.boxInteriorList {
+		width: 100%;
+		margin: 0 0 10px;
+
+		li {
+			width: 47%;
+			margin-left: 0;
+			margin-bottom: 20px;
+
+			dl {
+				dd {
+					font-size: 0.9em;
+				}
+			}
+		}
+
+		li:nth-child(odd) {
+			margin-right: 10px;
+		}
+	}
+
+
+	/* --- 自由設計プラン --- */
+
+	.boxFreePlan {
+		margin-bottom: 30px !important;
+
+		.fltL {
+			width: 100%;
+			float: none !important;
+		}
+
+		.ttlArticle {
+			margin-bottom: 40px !important;
+			padding: 0 10px;
+			line-height: 28px;
+		}
+
+		.fltR {
+			float: none !important;
+			margin: 0 !important;
+			text-align: center;
+		}
+
+		dt {
+			margin-bottom: 15px !important;
+		}
+
+		dd {
+			line-height: 24px;
+
+			> p {
+				margin-bottom: 20px !important;
+			}
+		}
+	}
+
+	#works01 .boxArticleHead .ttlArticle img {
+		width: 120px;
+	}
+
+}
+
+
+
+/*  WORKS : 施工事例
+--------------------------------------------- */
+
+.boxWorks {
+	margin-bottom: 0;
+
+	.boxSection {
+
+		.ttlWorks {
+			img {
+				width: 100%;
+			}
+		}
+
+		/* ----- 画像切り替え02 ----- */
+
+		.boxImgChange02 {
+			display: block !important;
+		}
+
+		/* ----- PICK UP画像横並び ----- */
+		.boxPickUp {
+			margin-bottom: 30px;
+
+			li {
+					padding: 10px 10px 8px;
+			}
+
+		}
+	}
+}
+
+.boxWorksList {
+	position: relative;
+	left: 4px;
+	margin: 0 0 20px;
+
+	li {
+		width: 33%;
+		margin: 0 0 0 -4px;
+
+		img {
+			width: 100%;
+		}
+
+		span {
+			background-size: 100%;
+			width: 45px;
+			padding-top: 1px;
+			padding-left: 2px;
+			font-size: 0.9em;
+		}
+	}
+}
+
+.page-works #content {
+
+	.ttl {
+		margin-bottom: 10px;
+		font-size: 1.1em;
+	}
+
+	h2.ttl {
+		margin-bottom: 15px;
+		line-height: 26px;
+		font-size: 1.25em;
+	}
+
+	.bdrOrange {
+		padding: 0 0 10px 0;
+	}
+
+	p {
+		line-height: 22px;
+	}
+
+	.boxPostDetail {
+		margin-bottom: 0;
+
+		.boxPostHead {
+			margin-bottom: 10px;
+			padding: 10px 13px;
+
+			.ttlPost {
+			}
+		}
+
+		.boxSection {
+
+			.imgTopMain {
+				margin-bottom: 10px;
+			}
+
+			.ttl.bdrOrange + p {
+				margin-bottom: 30px !important;
+			}
+
+
+			.boxRoom {
+				margin-bottom: 20px;
+
+				.imgRoom {
+					width: 100%;
+					margin-right: 0;
+					margin-bottom: 15px;
+
+					img {
+						max-width: 100%;
+						max-height: 300px;
+					}
+
+				}
+
+				dl {
+					width: 100%;
+				}
+			}
+
+			.boxBfrAft {
+				margin-bottom: 10px;
+
+				dl {
+					width: 100%;
+
+					dt,dd {
+						text-align: center;
+					}
+
+					dt {
+						margin-bottom: 10px;
+						padding: 5px;
+					}
+
+					dd {
+						margin-bottom: 10px;
+					}
+				}
+
+				.boxBfr {
+					dd {
+						margin-bottom: 40px;
+					}
+
+					dd:after {
+						top: auto;
+						right: 50%;
+						bottom: -30px;
+						background: url(../img/common/icn-arw-btm.gif) no-repeat center;
+						background-size: 70%;
+						width: 20px;
+						height: 20px;
+						margin-top: 0;
+					}
+				}
+
+				.boxAft {
+					.ttl {
+						background: @colorTxtPoint;
+					}
+				}
+			}
+
+			.boxBfrAft + p {
+				margin-bottom: 40px !important;
+			}
+
+			.boxShikouDetail {
+
+				.ttl {
+					font-size: 1.6em;
+				}
+
+				dl {
+					width: 100%;
+					margin-bottom: 30px;
+
+					dt,
+					dd {
+						padding: 10px;
+					}
+
+					dt {
+						width: 40%;
+					}
+
+					dd {
+						width: 60%;
+
+					}
+				}
+
+				.txtTotalCost {
+					padding: 0 15px;
+
+					.txtPrice {
+					}
+				}
+			}
+		}
+	}
+
+	.boxPaging {
+		background: none !important;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+
+	#side {
+		padding-top: 0;
+
+		.boxPostMenu {
+			margin-bottom: 30px;
+
+			.ttlPostMenu {
+				margin-bottom: 10px;
+				padding: 10px 15px;
+				font-size: 1.2em;
+				letter-spacing: 0;
+			}
+		}
+	}
+}
+
+
+/* ----- 画像スライド ----- */
+.boxImgSlide {
+	margin: 0 auto 35px;
+}
+
+.als-boxViewport {
+	width: 100% !important;
+}
+
+.als-boxItem {
+	margin-right: 10px;
+}
+
+
+/* ---- その他の事例 ----- */
+.boxOtherWorks {
+	margin-bottom: 0;
+
+	.ttl {
+		margin-bottom: 20px;
+	}
+
+	.boxWorksList {
+		width: 100%;
+		margin-left: -8px;
+
+		li {
+			width: 23.5%;
+			margin-left: 2px;
+			margin-bottom: 2px;
+
+			span {
+				background-size: 100%;
+				width: 60%;
+				padding: 0 4px;
+			}
+		}
+	}
+
+}
+
+
+
+
+
+}
+
+
+/** fdk 追加分 **/
+.boxContact .btnSubmit {
+	padding-top: 30px;
+	text-align: center;
+
+	input {
+		border: none;
+		background: url(../img/top/contact/btn-contact.png) no-repeat center @colorBase;
+		text-indent: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 300px;
+		height: 30px;
+		padding: 5px 0 8px;
+		line-height: 70px;
+		cursor: pointer;
+	}
+}
+.boxContact {
+	textarea {
+		width: 100%;
+	}
+}

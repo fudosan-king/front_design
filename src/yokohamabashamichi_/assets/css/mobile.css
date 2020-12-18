@@ -1,0 +1,41 @@
+@media screen and (min-width: 1000px) {
+.gHeader_link > a:hover{background-color:#595757;color:#fff;border-color:#595757}
+}
+@media (max-width: 768px) {
+.gHeader_cols{width:100%}
+.gNav_logo{min-width:160px}
+.gHeader_link{width:100%}
+.gHeader_col{width:33.333%}
+.section_intro{margin:60px 0}
+.section_intro h1{font-size:23px;margin-bottom:30px;margin-left:0}
+.section_intro h1 span{margin-left:0}
+.section_intro p{font-size:14px}
+.section_about{padding-top:0}
+.section_about:last-child{padding-bottom:0}
+.section_about h3{margin-bottom:30px;font-size:16px}
+.box_main_img,.box_main_img img{height:311px}
+.btn_facility,.btn_reservation{font-size:14px}
+.btn_facility{margin-right:0;margin-bottom:10px}
+.btn_reservation{margin-left:0}
+.section_logo_underpage{margin-bottom:60px}
+.box_info_profile p{font-size:12px}
+.box_info_profile{margin-bottom:15px}
+.section_frequently_questions{margin-top:60px}
+.title{margin-bottom:30px;font-size:24px}
+.accordion_questions .card-header{margin-bottom:15px}
+.box_eachbox p{margin-bottom:15px}
+ul.nav_footer li{margin:-1px 0 0;display:block}
+ul.nav_footer li a{display:block;border:1px solid #ccc;padding:10px}
+.logo_footer{margin-bottom:30px;margin-top:0}
+.footer_bottom p{font-size:13px}
+.frm_contactus .form-control{margin-bottom:10px}
+.frm_contactus .form-group{padding:10px 0}
+.box_eachbox{padding:30px 0}
+.box_eachbox h4{font-size:16px}
+.section_group_enterprise{margin-top:60px}
+.box_logo{margin-bottom:15px}
+}
+@media (max-width: 414px) {
+.section_about .logo_section img{width:80%}
+.logo_footer img{width:80%}
+}

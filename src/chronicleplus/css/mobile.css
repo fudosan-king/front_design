@@ -1,0 +1,553 @@
+@media (max-width: 1280px) {
+	.search_free_word_mobile {
+        width: 100%;
+    }
+	.navbar-nav .nav-item {
+		font-size: 12px;
+	}
+	.navbar-expand-md .navbar-nav .nav-link {
+		font-size: 12px;
+	}
+	.freecall {
+		display: none;
+	}
+}
+@media (max-width: 1024px) {
+	.banner {
+		width: 100%;
+		padding-top: 120px;
+	}
+	.owl_banner.owl-carousel .owl-nav button.owl-prev, .owl_banner.owl-carousel .owl-nav button.owl-next {
+		top: 25%;
+	}
+	.bsnav {
+		padding: 15px 15px 30px;
+	}
+	.bsnav-sticky {
+		z-index: 300;
+	}
+	.bsnav-mobile {
+		z-index: 200;
+	}
+	.bsnav-brand-center .navbar-brand, .bsnav-brand-center-between .navbar-brand {
+		margin-left: inherit;
+		margin-right: inherit;
+		left: -20px;
+	}
+	.navbar-toggler {
+		top: -10px;
+	}
+	.navbar-toggler::after {
+		content: 'メニュー';
+		position: absolute;
+		left: -11px;
+		bottom: -17px;
+		font-size: 11px;
+		display: block;
+		width: 60px;
+	}
+	.navbar-brand {
+		margin: 0 auto;
+		position: relative;
+		left: -20px;
+	}	
+	.bsnav-mobile .navbar-nav {
+		padding: 0;
+	}
+	.bsnav-mobile .navbar {
+		width: 290px;
+		padding-top: 84px;
+	}
+	.bsnav-mobile .navbar-nav .nav-item .navbar-nav {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.bsnav-mobile .navbar-nav .nav-item .navbar-nav .nav-link {
+		padding: 10px 30px;
+		color: #6c757d;
+	}
+	.bsnav-mobile .navbar-nav .nav-item .nav-link {
+		padding: 10px 20px;
+		display: block;
+		border-bottom: 1px solid #f1f1f1;
+		text-align: center;
+	}
+	.bsnav-mobile .navbar-nav .nav-item .nav-link span {
+		display: block;
+	}
+	.nav-item .caret {
+		margin-left: 55px;
+	}
+	.table_estates_item .price {
+		font-size: 24px;
+	}
+	.btnBlue .i_specifyConditions, .btnOrange .i_searchcondition {
+		left: 10px;
+	}
+	.table_estates_item_sp {
+		padding-left: 10px;
+	}
+	.table_estates_item_sp p {
+		margin-bottom: 0;
+		font-size: 13px;
+	}
+	.main_map {
+		height: auto;
+	}
+	.map_svg_xs svg {
+		height: auto;
+		width: 100%;
+	}
+	.section_map, .section_recommendapartment, .section_eventscheduled, .section_renovatepurchase {
+		margin-bottom: 30px;
+	}
+	/* .area_kanto_xs, .area_Kanto2_xs */ .map_svg_xs {
+		display: none;
+	}
+	.search_free_word_mobile .relative input {
+        font-size: 10px;
+    }	
+	
+	
+}
+@media (max-width: 823px) {
+	
+}
+@media (max-width: 812px) {
+	.main_map {
+		margin-bottom: 30px;
+	}
+	.estates_item {
+		padding: 10px;
+		background: #ffc10721;
+		margin-bottom: 15px;
+	}
+	.btnGeneral span {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 800px) {
+	
+}
+
+@media (max-width: 768px) {
+	.banner {
+		width: 100%;
+		padding-top: 100px;
+		margin-bottom: 30px;
+	}
+	.btnGeneral {
+		font-size: 16px;
+	}
+	.btnMantion {
+		margin-right: 5px;
+	}
+	
+	.btnHeart {
+		margin-bottom: 10px;
+		display: none;
+	}
+	.btnMantion, .btnDetachedhouse {
+		margin-bottom: 5px;
+	}
+	
+	.btnRegister {
+		margin-bottom: 5px;
+	}
+	.frm_quicksearch label.lbl_registeredConditions {
+		width: 100%;
+		text-align: center;
+	}
+	.section_banner_VRtours {
+		margin-top: 0;
+	}
+	.section_matterportVR {
+		margin: 30px 0 0;
+	}
+	.img_penguins {
+		float: none;
+		text-align: center;
+	}
+	.main_map {
+		height: auto;
+		margin-bottom: 30px;
+	}
+	.map_svg svg {
+		width: 100%;
+		height: auto;
+	}
+	.eventscheduled_item {
+		margin-bottom: 10px;
+	}
+	.eventscheduled_img {
+		height: 150px;
+	}
+	.eventscheduled_img img {
+		height: 150px;
+		width: 100%;
+	}
+	.eventscheduled_rightcontent p {
+		font-size: 11px;
+		margin-bottom: 0;
+	}
+	.btnCalculating {
+		font-size: 9px;
+	}
+	.table_estates_item .price {
+		padding: 21px 15px;
+		bottom: 0;
+	}
+	.sub_headline {
+		font-size: 14px;
+	}
+	.box_displayresult .form-control {
+		width: auto;
+		display: inline-block;
+	}
+	.top_displayresult {
+		background: #fff;
+		padding-top: 15px;
+		padding-bottom: 5px;
+	}
+	.section_searchresult {
+		padding-top: 85px;
+		padding-bottom: 0;
+	}
+	.summary {
+		margin-top: 10px;
+	}
+	.box_sorter {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.nav_pagination {
+		padding-left: 15px;
+	}
+	ul.sorter li a {
+		line-height: 1.3em;
+	}
+	ul.sorter li::after {
+		top: 0;
+	}
+	.current_condition {
+		line-height: 1.3em;
+	}
+	.current_condition .title {
+		width: 30%;
+		float: left;
+		padding-right: 10px;
+		margin-right: 0;
+	}
+	.current_condition .right_content {
+		font-size: 11px;
+		border-left: 1px solid #009c95;
+		display: inline-block;
+		padding-left: 10px;
+		float: left;
+		width: 65%;
+		padding-left: 10px;
+	}
+	.btn_ContactPhone {
+		width: 100%;
+	}
+	.btn_ContactPhone p {
+		font-size: 14px;
+	}
+	.btn_ContactPhone h2 {
+		font-size: 27px;
+	}
+	.btnBlack {
+		width: 32%;
+		margin-right: auto;
+		margin-bottom: 5px;
+		font-size: 11px;
+	}
+	.section_searchresult_detail {
+		padding-top: 85px;
+	}
+	.table_estate_detail .price {
+		font-size: 20px;
+		border-bottom: 1px dotted #b3b3b3;
+	}
+	.table_estate_detail p {
+		border-bottom: 1px dotted #b3b3b3;
+	}
+	.table_estate_detail .head {
+		border-top: 1px dotted #b3b3b3;
+	}
+	.btnProfit {
+		padding-left: 50px;
+		text-align: left;
+	}
+	.icon01 {
+	    margin: 0 auto;
+	    margin-bottom: 15px;
+	    display: block;
+	}
+	.explain h3 {
+	    font-size: 21px;
+	    text-align: center;
+	}
+	.support h1 {
+		line-height: 1.3em;
+	}
+	.steps {
+		margin-bottom: 0;
+	}
+	.contact_steps {
+		padding: 15px 0;
+	}
+	.frm_contact_content_main .form-control.form_control_custom {
+		margin-bottom: 10px;
+	}
+	.section_banner_VRtours {
+		padding: 15px 0;
+	}
+	.banner_VRtours h2 {
+		font-size: 16px;
+	}
+	.section_matterportVR iframe {
+		height: 205px;
+	}
+	.copyright {
+		text-align: center;
+	}
+	.btnMenu {
+		margin-bottom: 10px;
+		padding: 30px;
+		margin-right: 10px;
+	}
+	.section_map, .section_searchdetail {
+		padding-top: 105px;
+	}
+	.section_map h2 {
+		text-align: center;
+	}
+	.owl_recommendapartment .box_img img, .owl_recommendapartment .box_img {
+		height: 143px;
+	}
+	.eventscheduled_rightcontent {
+		padding: 0 10px;
+	}
+	ul.list_option li {
+		width: 49%;
+		background: #f2f2f2;
+	}
+	.accordion_option .card-body {
+		padding: 15px 0;
+	}
+	.btn_estates_item_title {
+		font-size: 14px;
+		padding-right: 50px;
+		min-height: 65px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: stretch;
+	}
+	.btn_estates_item_title .fa-heart {
+		top: 25px;
+	}
+	.top_displayresult .pagination_number {
+		display: none !important;
+	}
+	.table_estates_item .price {
+		font-size: 16px;
+	}
+	.estates_item_main .btn_detail {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.btnBlue, .btnOrange {
+		width: 48%;
+		font-size: 18px;
+	}
+	.btnOrange .i_mansion {
+		left: 10px;
+		top: 7px;
+	}
+	.btnDetachedhouse {
+		margin-right: 5px;
+	}
+	.frm_contact_content_main .form-control.input_date {
+		margin-bottom: 10px;
+	}
+	.area_Kanto, .area_Kanto2 {
+		display: none !important;
+	}
+	.map_svg_xs.area_Kanto2_xs {
+		display: none;
+	}
+	.map_svg {
+		display: none;
+	}
+	.map_svg_xs {
+		display: block;
+	}
+	.modalRegister ul.list_option li label {
+		font-size: 12px;
+	}
+	.modalRegister ul.list_option li {
+		width: 49%;
+	}
+	.modalRegister .modal-body .row {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.frm_login {
+		width: 100%;		
+	}
+	.qa_row {
+		padding: 0 15px;
+	}
+	.q_a h2 {
+		padding-left: 0;
+	}
+	.panel_deals > .card-header > .card-title {
+	    font-size: 16px;
+	}
+	ul.list_pattern li {
+	    width: 47%;
+	}
+	ul.list_pattern li p {
+	    font-size: 9px;
+	}
+	.btnSymposium {
+		min-height: auto;
+	}
+	.btnSymposium p {
+	    font-size: 9px;
+	}
+	.btnSymposium h4 {
+		font-size: 14px;
+	}
+	.btnIntro {
+		font-size: 13px;
+	}
+	.section_breadcrumb .breadcrumb {
+		flex-direction: column;
+	}
+	.section_breadcrumb .breadcrumb .breadcrumb-item {
+		width: 100%;
+		border-right: none;
+		border-bottom: 1px solid #f1f1f1;
+	}
+
+	.nav_pagination_lg {
+		display: none;
+	}
+
+	.btn_fixed {
+		width: 49%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	ul.list_button li, ul.list_button_other li {
+		width: 49%;
+	}
+
+	.logo_sub {
+		text-align: center;
+		float: none;
+		display: block;
+		margin-top: 0;
+	}
+	.text_top {
+	    float: none;
+	    margin-left: 0;
+	    text-align: center;
+	    margin-top: 15px;
+	}
+	
+	.banner_contact_sub {
+	  	margin-top: 180px;
+	}
+
+}
+
+@media (max-width: 736px) {
+	
+}
+
+@media (max-width: 667px) {
+	
+}
+@media (max-width: 568px) {
+	.btnBlue, .btn_detail {
+		width: 100%;
+	}
+	.btnOrange {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.btnDetachedhouse {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 414px) {
+	
+}
+
+@media (max-width: 375px) {
+	
+}
+@media (max-width: 320px) {
+	
+}
+
+/* @media (max-width: 736px){
+	.navbar-expand-md .navbar-collapse {
+		display: none !important;
+	}
+	.navbar-expand-md .navbar-toggler {
+	    display: block;
+	}
+	.navbar-expand-md .navbar-nav {
+		-ms-flex-direction: column;
+    	flex-direction: column;
+	}
+}
+@media (max-width: 1366px) {
+	.navbar-expand-md .navbar-collapse {
+		display: flex !important;
+	}
+	.navbar-expand-md .navbar-nav {
+		-ms-flex-direction: row;
+    	flex-direction: row;
+	}
+	.navbar-expand-md .navbar-toggler {
+		display: none;
+	}
+	
+}
+@media (max-width: 576px){
+	.navbar-expand-md .navbar-collapse {
+		display: none !important;
+	}
+	.navbar-expand-md .navbar-toggler {
+	    display: block;
+	}
+	.navbar-expand-md .navbar-nav {
+		-ms-flex-direction: column;
+    	flex-direction: column;
+	}
+} */
+
+
+
+@supports (-webkit-overflow-scrolling: touch) {
+    
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+  /* CSS for other than iOS devices */ 
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	
+}

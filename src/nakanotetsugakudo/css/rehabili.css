@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+
+ File name:      rehabili.css
+ Style Info:     
+----------------------------------------------------------- */
+
+/*----------------------------------------------------
+	rehabili
+----------------------------------------------------*/
+
+.re_staff_filed{
+	max-width:960px;
+	width:100%;
+	
+	
+}
+
+
+.re_staff_all{
+	max-width:100px;
+	width:49%;
+	float:left;
+	margin:0 auto 50px;
+	min-height:320px;
+	font-size:12px;
+	line-height:1.5;
+	
+	
+}
+
+
+.re_staff01{
+	max-width:490px;
+	width:49%;
+	float:left;
+	margin:0 auto 30px;
+	min-height:320px;
+	font-size:12px;
+	line-height:1.5;
+	
+	
+}
+
+
+.re_staff02{
+	max-width:490px;
+	width:49%;
+	float:right;
+	margin:0 auto 30px;
+		min-height:320px;
+		font-size:12px;
+	line-height:1.5;
+	
+}
+
+.re_st{
+	color:#546aba;
+	font-size:11px;
+	font-weight:bold;
+	border-bottom:1px solid  #a0a0a0;
+	margin:0 auto 20px;
+	
+	
+	
+	
+}
+
+.re_st span{
+	font-size:16px;
+	padding-left:10px;
+	color:#374577;
+	
+	
+	
+}
+
+
+.re_txt{
+	min-height:185px;
+	margin:0 auto 0;
+	
+	
+}
+
+.re_txt02{
+	margin:0 auto 20px;
+	
+	
+}
+
+.re_txt03{
+	max-width:270px;
+	margin:0 auto 0;
+	float:left;
+	width:55.1020408%;
+	
+	
+}
+
+
+
+.re_name{
+	font-size:13px;
+	/*
+	position: absolute;
+	bottom: -2px;
+	left: 0px;*/
+	margin:15px auto;
+
+	padding:15px;
+	background:#f5f4ed;
+	border-radius:3px;
+	
+	
+}
+
+.re_name02{
+	font-size:13px;
+	margin:15px auto;
+	padding:15px;
+	background:#f5f4ed;
+	border-radius:3px;
+	position:absolute;
+	bottom:0;
+
+	
+	
+}
+
+.re_name03{
+	font-size:13px;
+	margin:15px auto;
+	padding:15px;
+	background:#f5f4ed;
+	border-radius:3px;
+
+	
+	
+}
+
+.row {
+    display: table-row;
+}
+
+.row>div {display:table-cell;
+padding:2px;
+
+  vertical-align: middle;
+		
+            }
+			
+.re_shousai{
+	font-size:10px;
+	color:#374577;
+	font-weight: bold;
+	padding-right:5px;
+	width:10%;
+	
+	
+}
+
+
+.re_shousai_txt{
+	font-size:13px;
+	text-align:left;
+
+	
+	
+}	
+
+
+.re_name span,
+.re_name02 span{
+	font-size:10px;
+	color:#374577;
+	font-weight: bold;
+	padding-right:5px;
+
+	
+	
+}
+
+
+
+.re_staff_all{
+	max-width:1000px;
+	width:100%;
+	float:left;
+	margin:0 auto 30px;
+	position:relative;
+	min-height:320px;
+	font-size:12px;
+	line-height:1.5;
+	
+	
+}
+
+
+.re_staff_all .filed01{
+	max-width:490px;
+	width:49%;
+	float:left;
+	margin:0 auto 50px;
+	min-height:320px;
+	font-size:12px;
+	line-height:1.5;
+	
+	
+}
+
+
+.re_staff_all .filed02{
+	max-width:680px;
+	width:68%;
+	float:left;
+    margin:0 auto 50px;
+		min-height:320px;
+		font-size:12px;
+	line-height:1.5;
+	position:relative;
+	min-height:400px;
+	
+	
+}
+
+
+
+
+.re_img{
+	max-width:300px;
+	width:30%;
+
+	background:#ccc;
+	float:right;}
+	
+.re_img02{
+	max-width:200px;
+	width:40.8163265%;
+
+	background:#ccc;
+	float:right;}	
+	
+	
+	
+@media screen and (max-width: 768px) {
+	
+	.re_staff_all .filed02{
+	max-width:680px;
+	width:100%;
+	float:none;
+    margin:0 auto 50px;
+	min-height:0;
+	position:static;
+	
+	
+	
+}
+
+
+.re_name02{
+	position:static;
+
+	
+	
+}
+
+
+
+
+
+.re_img{
+	max-width:300px;
+	width:100%;
+	float:none;
+	 margin:0 auto 10px;}
+	 
+	 
+.re_staff01{
+	max-width:768px;
+	width:100%;
+	float:none;
+	margin:0 auto 30px;
+
+
+	
+	
+}
+
+
+.re_staff02{
+	max-width:768px;
+	width:100%;
+	float:none;
+    margin:0 auto 50px;
+
+	
+}
+	 
+	 
+
+.re_txt{
+	min-height:0;
+	margin:0 auto 20px;
+	
+	
+}
+
+
+	
+}
+
+
+@media screen and (max-width: 640px) {
+	
+	
+	
+	.re_txt03{
+	max-width:640px;
+	float:none;
+	width:100%;
+	margin:0 auto; 
+	
+	
+}
+
+
+.re_img02{
+	max-width:200px;
+	width:100%;
+	margin:0 auto 10px; 
+	
+
+	background:#ccc;
+		float:none;}	
+
+	
+			
+.re_shousai{
+	font-size:10px;
+	color:#374577;
+	font-weight: bold;
+	padding-right:5px;
+	width:20%;
+	
+	
+}
+
+
+	.re_staff_all .filed02{
+
+
+
+	
+	
+	
+}
+	
+	
+}
+	
+

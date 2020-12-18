@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contents section.wrap{
+	padding: 30px 125px;
+	text-align: center;
+}
+#contents section.wrap h3{
+	margin: 20px 0;
+	text-align: left;
+	font-size: 139%;
+	font-weight: bold;
+	color: #28a0cc;
+	border-bottom: 1px solid #28a0cc;
+}
+#contents section.wrap p{
+	text-align: left;
+}
+#btnConfirm, #btnSubmit{
+	width: 195px;
+	height: 42px;
+	cursor: pointer;
+	text-indent: -9999px;
+	border: none;
+}
+#btnConfirm:hover, #btnSubmit:hover{
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+}
+#btnConfirm{
+	background: url(https://fudosan-king.jp/static/public/img/btn_confirm.png) no-repeat 0 0;
+}
+#btnSubmit{
+	background: url(https://fudosan-king.jp/static/public/img/btn_submit.png) no-repeat 0 0;
+
+}
+#btnReset{
+	width: 195px;
+	height: 42px;
+	background: url(https://fudosan-king.jp/static/public/img/btn_reset.png) no-repeat 0 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	border: none;
+}
+#btnReset:hover{
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+}
+#contents section.wrap dl{
+	background:#dff1f7;
+	text-align: left;
+}
+#contents section.wrap dt{
+	width: 180px;
+	padding: 10px 15px;
+	float:left;
+	clear: left;
+	background:#dff1f7;
+	border-top: 2px solid #fff;
+}
+#contents section.wrap dd{
+	min-height: 26px;
+	margin-left: 210px;
+	padding: 10px 15px;
+	background:#f4fafc;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+#contents section.wrap dd input{
+	height: 28px;
+	border: 1px solid #28a0cc;
+}
+#contents section.wrap select{
+	width: 260px;
+	height: 28px;
+	border: 1px solid #28a0cc;
+}
+#contents section.wrap .address-fields select{
+	width: 100px;
+	height: 28px;
+	border: 1px solid #28a0cc;
+	margin-bottom: 8px;
+}
+#contents section.wrap textarea{
+	width: 670px;
+	height: 200px;
+	font-size: 16px;
+	border: 1px solid #28a0cc;
+	margin: 15px 0 0 0;
+}
+
+/* タブレット以外 */
+@media only screen and (max-width: 640px),
+only screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 1),
+only screen and (device-width: 480px) and (-webkit-min-device-pixel-ratio: 1){
+	#contents section.wrap{
+		width: 100%;
+		margin: 0 auto !important;
+		padding: 13px 10px 38px 10px;
+		box-sizing: border-box;
+	}
+	#contents section.wrap p{
+		font-size: 12px;
+	}
+	#contents section.wrap dl{
+		margin: 25px 0 0 0;
+		background:#dff1f7;
+		line-height: 1.6;
+	}
+	#contents section.wrap dt{
+		width: 65px;
+		padding: 5px 5px;
+		float:left;
+		clear: left;
+		background:#dff1f7;
+		border-top: 2px solid #fff;
+	}
+	#contents section.wrap dd{
+		margin-left: 75px;
+		padding: 5px 7px;
+		background:#f4fafc;
+		border-left: 2px solid #fff;
+		border-top: 2px solid #fff;
+	}
+	#contents section.wrap dd input{
+		width: 48%;
+	}
+	#contents section.wrap dd input:only-child{
+		width: 99%;
+	}
+	#contents section.wrap dd select{
+		width: 48% !important;
+	}
+	#contents section.wrap textarea{
+		width: 100%;
+		height: 100px;
+	}
+	#btnConfirm{
+		width: 155px;
+		height: 34px;
+		background: url(https://fudosan-king.jp/static/public/img/sp_btn_confirm.png) no-repeat 0 0;
+		background-size: 155px 34px;
+		cursor: pointer;
+		text-indent: -9999px;
+		border: none;
+	}
+	
+
+	#btnReset{
+		width: 155px;
+		height: 34px;
+		background: url(https://fudosan-king.jp/static/public/img/sp_btn_reset.png) no-repeat 0 0;
+		background-size: 155px 34px;
+		cursor: pointer;
+		text-indent: -9999px;
+		border: none;
+	}
+	#btnSubmit{
+		width: 155px;
+		height: 34px;
+		background: url(https://fudosan-king.jp/static/public/img/sp_btn_submit.png) no-repeat 0 0;
+		background-size: 155px 34px;
+		cursor: pointer;
+		text-indent: -9999px;
+		border: none;
+	}
+}
+
+
+
+/* New Contact */
+#wrapper.wrapper_custom {
+	background-position: 0 0;
+	background-attachment: fixed;
+}
+#contents.contents_custom section.wrap {
+	padding: 90px 125px;
+}
+.head_contact {
+	margin-bottom: 50px;
+	text-align: center;
+}
+#contents .head_contact h2 {
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: "ヒラギノ角ゴ ProN W6" , "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.head_contact p {
+	color: #28a0cc;
+}
+.body_contact {
+	width: 100%;
+}
+.body_contact h4 {
+	text-align: left;
+	margin-bottom: 15px;
+	font-family: "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+
+}
+.body_contact label {
+	display: block;
+	text-align: left;
+	font-family: "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.body_contact input {
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	border: 1px solid #d6d6d6;
+}
+.form-group {
+	margin-bottom: 15px;
+	text-align: left;
+}
+#contents section.wrap .body_contact textarea {
+	width: 100%;
+	margin-top: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 13px;
+}
+.body_contact table td {
+	width: 25%;
+	text-align: left;
+}
+.body_contact table td label {
+	display: inline-block;
+	width: auto;
+	line-height: 1em;
+}
+.body_contact table td input {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	line-height: inherit;
+}
+.btnSend {
+	border-radius: 5px;
+	border: none;
+	background: #1847b3;
+	text-align: center;
+	color: #fff;
+	font-family: "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;;
+	padding: 10px 50px;
+	cursor: pointer;
+}
+.btnSend:hover {
+	background: #456bc3;
+}
+#contents.contents_custom {
+	padding: 50px 0;
+	box-sizing: content-box;
+}
+#contents section.wrap .success_content p {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+#contents section.wrap .success_content p:last-child {
+	margin-bottom: 0;
+}
+.box_inline {
+	display: inline-block;
+	margin-right: 15px;
+}
+.box_inline label {
+	width: auto;
+	display: inline-block;
+}
+.box_inline input {
+	width: auto;
+	display: inline-block;
+	height: auto;
+}
+
+#contents.contents_custom_success {
+	height: 100vh;
+}
+@media (max-width: 768px) {
+	.head_contact {
+		padding: 0 15px;
+	}
+	#contents.contents_custom section.wrap {
+		padding: 15px;
+	}
+	#contents .head_contact h2 {
+		height: auto;
+	}
+	.body_contact table td {
+		width: auto;
+	}
+	.box_inline {
+		margin-right: auto;
+		text-align: left;
+		margin-right: 10px;
+	}
+	.box_inline label {
+		margin-left: 0;
+		text-align: left;
+	}
+	.box_inline input[type="radio"] {
+		margin-right: 5px;
+		padding: 0;
+	}
+	.head_contact p {
+		color: #fff;
+	}
+}

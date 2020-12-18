@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    main {
+        padding-top: 113px;
+    }
+
+    .top_header .row.no-gutters .align-self-center {
+        padding: 0 15px;
+    }
+
+    .top_header .row.no-gutters .col-3.align-self-center {
+        padding: 0;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    .box_shared {
+        font-size: 0.9rem;
+    }
+
+    body.single-post .box_article_detail ul.list_shared {
+        display: inline-table;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        padding-top: 106px;
+    }
+
+    .top_header .btn_applyconsultation {
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,253 @@
+.form-lp_bg{
+	background-color:#F9F9F9;
+	border-radius: 20px;
+	padding-bottom: 40px;
+}
+.form-lp{
+	margin-top:30px;
+	margin-bottom: 140px;
+	.small-title{
+		font-weight: bold;
+		font-size: 1.125rem;
+		line-height: 48px;
+		color: #333333;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	h2{
+		font-weight: bold;
+		font-size: 2.25rem;
+		line-height: 48px;
+		color: #333333;
+		text-align:center;
+	    margin-bottom: 44px;
+	}
+	.custom-select{
+		color:#828282;
+		height:40px;
+		font-size: 0.875rem;
+		line-height: 17px;
+		-webkit-appearance: none;
+	    -moz-appearance: none;
+	    appearance: none;
+	    text-indent: 1px;
+	    text-overflow: '';
+	    &::-ms-expand{
+	    	display: none;
+	    }
+	}
+	.custom-select.active{
+		color:#333333;
+	}
+	input{
+		font-size: 0.875rem;
+		line-height: 17px;
+		color:#333333;
+		height:40px;
+	}
+	input::placeholder{
+		color:#828282;
+	}
+	.btn-lp-turquoise{
+		font-weight: 600;
+		font-size: 1.125rem;
+		line-height: 21px;
+	}
+	.form-content{
+		width: 100%;
+		max-width: 724px;
+		margin:0 auto;
+		padding-bottom:40px;
+		.form-group{
+			margin-bottom: 31px;
+		}
+		.col-md-1{
+			padding-right:0;
+		}
+		.col:nth-of-type(2){
+			padding-left:22px;
+			padding-right:11px;
+		}
+		.col:nth-of-type(3){
+			padding-left:11px;
+			padding-right:22px;
+		}
+		label.title{
+			background-color:#3CBCCF;
+			width:100%;
+			max-width:50px;
+			height:24px;
+			font-weight: 600;
+			font-size: 0.75rem;
+			line-height: 14px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #FFFFFF;
+		    margin-top: 7px;
+		}
+		p{
+			font-weight: 600;
+			font-size: 0.875rem;
+			line-height: 17px;
+			color: #333333;
+		}
+	}
+
+	.custom-checkbox {
+		display: block;
+		position: relative;
+		padding-left: 30px;
+		margin-bottom: 12px;
+		cursor: pointer;
+		font-size: 22px;
+		user-select: none;
+		margin-bottom: 12px;
+	
+		label{
+			margin-bottom: 0;
+			font-size: 0.875rem;
+			line-height: 16px;
+			color: #333333;
+		}
+	  	.checkmark {
+			position: absolute;
+			top: 4px;
+			left: 0;
+			height: 20px;
+			width: 20px;
+			border: 1px solid #828282;
+			&:after{
+				content: "";
+				position: absolute;
+				display: none;
+			}
+			&:after {
+		 		left: 6px;
+			    top: 3px;
+			    width: 7px;
+			  	height: 10px;
+			  	border: solid white;
+			  	border-width: 0 3px 3px 0;
+			  	transform: rotate(45deg);
+			}
+		}
+	  	input {
+			position: absolute;
+			opacity: 0;
+			cursor: pointer;
+			height: 0;
+			width: 0;
+			&:checked ~ .checkmark {
+			  background-color: #3CBCCF;
+			}
+			&:checked ~ .checkmark:after {
+			  display: block;
+			}
+		}
+	}
+
+
+	// TAB
+	.tab-content{
+		padding-top:40px;
+	}
+	.nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	    border-color: #B48856 #B48856 #fff;
+	    border-bottom-color: #fff;
+	    border-bottom-width: 2px;
+	    background: #fff;
+	}	
+	.nav-tabs {
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: stretch;
+	    align-content: stretch;
+	    border: none;
+	    position: relative;
+	    &::after {
+		    content: '';
+		    display: block;
+		    height: 2px;
+		    background: #3CBCCF;
+		    position: absolute;
+		    bottom: 0;
+		    left: 62px;
+		    right:62px;
+		    z-index: 0;
+		}
+	    
+	    .nav-item{
+	    	margin-bottom: -2px;
+	    	
+   			margin-right: 9px;
+   			width: 100%;
+		    max-width:350px;
+		    &:first-child{
+		    	margin-left: 9px;
+		    }
+		   
+   			.nav-link {
+   				background-color: #3CBCCF;
+			    border: 1px solid transparent;
+			    border-radius: 10px 10px 0px 0px;
+			    height: 50px;
+			    top: -2px;  
+		        padding: 5px;
+			}
+   			.nav-link{
+			    font-weight: bold;
+				font-size: 1.125rem;
+				line-height: 48px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			    color: #828282;
+			  	background-color: #E0E0E0;
+			    position: relative;
+   			}
+   			.nav-link.active {
+			    color: #fff;
+			    border-bottom-color: transparent;
+			    background-color: #3CBCCF;
+			    display: flex;
+			    flex-direction: row;
+			    flex-wrap: nowrap;
+			    justify-content: center;
+			    align-items: center;
+			    align-content: stretch;
+			}
+	    }
+	}
+
+	.rules-lp{
+		margin-bottom: 20px;
+		p{
+			text-align: center;
+			font-size: 0.75rem;
+			line-height:24px;
+			color: #333333;
+			font-weight:400;
+			margin-bottom: 0;
+			span{
+				color:#3CBCCF;
+				text-decoration: underline;
+			}
+		}
+		.custom-checkbox{
+		    max-width: 100px;
+		    width: 100%;
+		    margin: 0 auto;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+

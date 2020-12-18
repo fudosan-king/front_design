@@ -1,0 +1,15 @@
+.box_infoview_img {
+	.path-hover{
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+	    // clip-path: inset(54.5% 63.5% 12.5% 12%);
+	    clip-path: url(#clip-triangle); 
+	    // &:hover{
+	    	background-color:rgba(180, 136, 86,0.5);
+	    // }
+	}
+
+}

@@ -1,0 +1,341 @@
+#index-page { font-family: '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif; }
+.container { max-width: 1050px; }
+h2 { color: #000000; font-weight: 200; font-size: 26px; }
+header { border-bottom: solid 2px #bdbcbc; }
+.logo { height: auto; }
+.logo img { padding: 20px 0px; }
+
+/*SECTION 表参道本店ショールーム*/
+.ot-office h2 { border-bottom: solid 5px #744538; }
+.ot-office-img img {
+	max-width: 100%;
+	min-height: 100%;
+}
+.ot-office-content h3 {
+	font-size: 20px;
+}
+.ot-office-content span {
+	font-family: "Kozuka Gothic Pr6N", sans-serif;
+	font-weight: 300;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	width: 30px;
+	height: 30px;
+}
+.carousel-control-prev, .carousel-control-next {
+	border-radius: 25px;
+	top: 125px !important;
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.carousel-control-prev:hover , .carousel-control-next:hover {
+	border: solid 1px #A9A9A9;
+	opacity: 1;
+}
+.anchor-link {
+	margin-top: 155px;
+	padding-left: 190px;
+}
+.anchor-link a {
+	width: 149px;
+	border: solid 1px #4b4b4b;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-radius: 4px;
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+}
+.anchor-link a:hover {
+	background-color: #A9A9A9;
+}
+.gallery-box {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.zoom-img-item {
+	display: block;
+	height: 190px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.zoom-img-item iframe {
+	width: 100%;
+	height: 100%;
+}
+.zoom-img-item a {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zoom-img-item a .fa {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 27px;
+	color: #ffffff;
+}
+.zoom-img-item img {
+	/*object-fit: contain;*/
+	width: 100%;
+	display: block;
+	height: 100% !important;
+}
+/*zoom image*/
+#overlay{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.8) none 50% / contain no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
+  
+  visibility: hidden;
+  opacity: 0;
+}
+#overlay.open {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999999;
+}
+#overlay:after { /* X button icon */
+  content: "\2715";
+  position: absolute;
+  color:#fff;
+  top: 10px;
+  right:20px;
+  font-size: 2em;
+}
+/*SECTION 開催中のイベント＆セミナー*/
+#container-data .catch, #localNav, .box ul li a .table .icon, .sp, .box h3, .box p {
+	display: none !important;
+}
+.dataBox .pc .icon {
+	display: none;
+}
+#container-data .box ul {
+	padding-inline-start: 0px;
+	margin-bottom: 0px;
+}
+#container-data .box ul li {
+	list-style: none;
+	max-width: 50%;
+	float: left;
+	margin-bottom: 20px;
+	border: solid 1px #e5e5e6;
+	width: 500px;
+}
+#container-data .box ul li:nth-child(2n) {
+    float: right;
+}
+#container-data .box ul li a {
+    color: #333;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+}
+#container-data .box ul li .imgBox {
+    overflow: hidden;
+    display: table-cell;
+    width: 180px;
+    vertical-align: middle;
+}
+#container-data .box ul li .imgBox img {
+    width: 100%;
+}
+#container-data .box ul li .dataBox {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.35;
+    padding-left: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#container-data .box ul li .dataBox .data {
+	padding-bottom: 7px;
+}
+/*#container-data .box ul li a .table {
+    display: table;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}*/
+.box ul li span {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+span.btn {
+    background: #333;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 12px 0 0;
+    padding: 10px 0 9px;
+    width: 136px;
+    position: relative;
+}
+span.btn:before {
+    border-bottom: 1px solid #a0a0a0;
+    border-right: 1px solid #a0a0a0;
+    content: "";
+    height: 7px;
+    margin-top: -4px;
+    width: 7px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: rotate(-45deg);
+}
+/*SECTION リノベーションおすすめ物件紹介*/
+.pt-intro {
+	min-width: 100%;
+	min-height: 100%;
+	border: solid 1px #e5e5e6;
+	padding: 5px 5px;
+}
+.pt-intro .real-img {
+	max-width: 35%;
+	height: 180px;
+	overflow: hidden;
+}
+.pt-intro .pt-intro-content {
+	font-size: 14px;
+	height: 100%;
+	max-width: 65%;
+}
+.pt-intro .real-img, .pt-intro .pt-intro-content {
+	float: left;
+}
+.pt-intro .real-img img {
+	transition: all .2s ease-in-out;
+	max-width: 100%;
+	min-height: 100%;
+	background-position: center;
+}
+.pt-intro img:hover {
+	transform: scale(1.1);
+}
+.pt-intro .pt-intro-content .label {
+	background-color: #b5b4b5;
+	color: #ffffff;
+	font-size: 9px;
+	padding: 3px 0 3px;
+	max-width: 35%;
+	text-align: center;
+}
+.pt-intro-content .occupied, .pt-intro-content .bl-price, .pt-intro-content .amount, .pt-intro-content .skeleton {
+	opacity: 0.9;
+	font-size: 14px;
+}
+.pt-intro-content h6 {
+	font-size: 16px;
+}
+.pt-intro-content label {
+	padding-right: 15px;
+	margin-bottom:0px;
+}
+.pt-intro .pt-intro-content .pt-intro-content-action a {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+.btn:hover {
+	color: #FFFFFF !important;
+	background-color: #A9A9A9;
+}
+.pagination li a {
+	color: #744639;
+	font-weight: 600;
+}
+.page-item.active .page-link { 
+	background-color: #744639;
+	border-color: #744639;
+}
+/*SECTION アクセス*/
+.ac-section {
+	background-color: #fcf4f1;
+}
+.access iframe {
+	border: unset;
+	width: 100%;
+}
+.head-office h4 {
+	font-size: 20px;
+}
+.head-office-info p {
+	margin-bottom: 0px;
+	font-size: 12px;
+	opacity: 0.9;
+	letter-spacing: 1px;
+}
+.head-office-action a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #ffffff;
+}
+.head-office-action .access-link, .head-office-action .phone-contact {
+	max-width: 200px;
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.head-office-action .access-link:hover, .head-office-action .phone-contact:hover {
+	opacity: 0.8;
+}
+.head-office-action .access-link {
+	background-color: #f9a4a4;
+}
+.head-office-action .phone-contact {
+	background-color: #6f6d6d;
+}
+.head-office-action .phone-contact a {
+	display: inline-block;
+	width: 180px;
+}
+.head-office-action .phone-contact a img {
+	max-width: 26px;
+}
+/*Google map and facebook*/
+.fb-page iframe {
+	width: 100%;
+}
+.chronicle-showroom span {
+	font-size: 15px;
+}
+.chronicle-showroom-menu .chronicle-showroom-menu-left, .chronicle-showroom-menu .chronicle-showroom-menu-right {
+	width: 50%;
+	float: left;
+}
+.chronicle-showroom-menu ul li {
+	list-style: none;
+}
+.chronicle-showroom-menu ul li a {
+	color: #000000;
+	font-size: 12px;
+	opacity: 0.7;
+}
+.plugin ._2p3a {
+	width: 100% !important;
+}
+/*FOOTER*/
+.footer {
+	background-color: #744538;
+	height: 70px;
+}
+.footer span {
+	color: #ffffff;
+	font-size: 16px;
+}

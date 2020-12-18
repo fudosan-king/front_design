@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+.page-top #content .boxApartment .tabs li{margin-left:0px !important;}
+@media screen and (max-width: 640px) and (min-width: 441px){.page-top #content .boxApartment .tabs li,.page-top #content .boxApartment .tabs li img {width: 102px !important;}}
+@media screen and (max-width: 440px){
+    .page-top #content .boxApartment .tabs {margin-bottom: 55px !important;}
+    .page-top #content .boxApartment .tabs a{
+        margin: 4px 2px;
+    }
+    .page-top #content .boxApartment .tabs li,
+    .page-top #content .boxApartment .tabs li img {
+        width: 164px !important;
+    }
+}
+
+@media screen and (max-width: 375px) and (min-width: 320px){
+    .page-top #content .boxApartment .tabs {margin-bottom: 40px !important;}
+
+    .page-top #content .boxApartment .tabs li,
+    .page-top #content .boxApartment .tabs li img {
+        width: 130px !important;
+    }
+}

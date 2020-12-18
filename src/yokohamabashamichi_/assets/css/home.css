@@ -1,0 +1,32 @@
+.vis{position:relative;z-index:0;overflow:hidden;height:100vh;opacity:0;transition-duration:1.5s;transition-property:opacity}
+.vis.isShow{opacity:1}
+.vis_slide{font-size:0;opacity:0;transition-duration:1.5s;transition-property:opacity;overflow:hidden}
+.vis_slide.slick-initialized{opacity:1}
+.vis_image{height:100vh;background-position:center center;background-size:cover;background-repeat:no-repeat;-webkit-transform:scale(1);transform:scale(1);transition-duration:0;transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform;transition-timing-function:linear}
+.vis_imageWrap{position:relative;z-index:0;overflow:hidden}
+.isCurrent .vis_image{transition-duration:10s;-webkit-transform:scale(1.1);transform:scale(1.1)}
+.vis_image-no1{background-image:url(../img/home/pt-slide01.jpg)}
+.vis_image-no2{background-image:url(../img/home/pt-slide02.jpg)}
+.vis_image-no3{background-image:url(../img/home/pt-slide03.jpg)}
+.vis_image-no5{background-image:url(../img/home/pt-slide05.jpg)}
+.vis_image-no6{background-image:url(../img/home/pt-slide06.jpg)}
+.vis .slick-dots{text-align:center;position:absolute;z-index:10;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);right:10px}
+.vis .slick-dots > li{display:block}
+.vis .slick-dots > li > button{font-size:0;border:11px solid transparent;width:6px;height:6px;border-radius:50%;box-sizing:content-box;background-clip:padding-box;position:relative;z-index:1;transition-duration:.3s;transition-property:background-color,-webkit-transform;transition-property:background-color,transform;transition-property:background-color,transform,-webkit-transform;background-color:#FFF;display:block}
+.vis .slick-dots > li > button::after{content:"";display:block;width:10px;height:10px;border:1px solid #fff;border-radius:50%;position:absolute;z-index:1;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);opacity:0;transition-duration:.3s;transition-property:opacity}
+.vis .slick-dots > li.slick-active > button{background-color:transparent}
+.vis .slick-dots > li.slick-active > button::after{opacity:1}
+.visWrap{position:relative;z-index:1}
+.gHeader{opacity:0;transition-duration:1s;transition-property:opacity}
+.gHeader.isFadeIn{opacity:1}
+.vis_logo{position:absolute;z-index:10;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);margin-top:46px}
+.vis_logo > svg{display:block;fill:#fff;width:179px;height:270px}
+@media screen and (min-width:1000px) {
+.vis .slick-dots > li:not(.slick-active) > button:hover{-webkit-transform:scale(1.4);transform:scale(1.4)}
+}
+@media screen and (max-width:767px) {
+.visHome{margin-top:116px;height:34vw;margin-bottom:40px}
+.vis .slick-dots{right:5px}
+.vis_logo{margin-top:27px}
+.vis_logo > svg{width:110px;height:166px}
+}

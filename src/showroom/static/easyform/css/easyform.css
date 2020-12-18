@@ -1,0 +1,661 @@
+img {
+  border: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.listnone li {
+  list-style: none;
+}
+.textrap {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+#easyform {
+  width: 700px;
+  margin: 0 auto;
+}
+#easyform #header {
+  height: 105px;
+  margin-bottom: 30px;
+  *zoom: 1;
+}
+#easyform #header:before,
+#easyform #header:after {
+  display: table;
+  content: "";
+}
+#easyform #header:after {
+  clear: both;
+}
+#easyform #header h1 {
+  float: left;
+}
+#easyform #header h1 + p {
+  margin-top: 37px;
+  margin-left: 24px;
+  float: left;
+}
+#easyform #flow {
+  height: 56px;
+  margin-bottom: 30px;
+}
+#easyform #form h2 {
+  font-size: 22px;
+  line-height: 1;
+  background: url("/static/easyform/images/ttl_icon.jpg") no-repeat 0 5px;
+  padding: 0 0 0 27px;
+  margin-bottom: 14px;
+}
+#easyform #form #estate table {
+  width: 668px;
+  border: 3px #DBCBC4 solid;
+  border-collapse: collapse;
+  margin: 16px 0 40px 30px;
+}
+#easyform #form #estate table td,
+#easyform #form #estate table th {
+  border: 1px solid #c5c5c5;
+  padding: 12px;
+}
+#easyform #form #estate table th {
+  width: 126px;
+  background: #EBEBEB;
+  vertical-align: middle;
+  text-align: center;
+  padding: 12px;
+}
+#easyform #form #estate table td ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+#easyform #form #estate table td .name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #6e0a0a;
+}
+#easyform #form #estate table td .address {
+  margin-bottom: 10px;
+}
+#easyform #form #estate table td .price {
+  font-size: 19px;
+  font-weight: bold;
+  color: #6e0a0a;
+}
+#easyform #form #kind {
+  margin-bottom: 40px;
+}
+#easyform #form #kind .check {
+  width: 260px;
+  margin: 0 auto;
+}
+#easyform #form #kind .check label {
+  font-size: 17px;
+}
+#easyform #form #kind .check label input {
+  margin-right: 6px;
+  margin-left: 30px;
+}
+#easyform #form #kind #date {
+  display: none;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#easyform #form #kind #date .message {
+  font-size: 14px;
+  font-weight: bold;
+  color: #6e0a0a;
+  margin-bottom: 4px;
+}
+#easyform #form #kind #date .reservation {
+  padding: 18px;
+  background: #F8F1E8;
+}
+#easyform #form #kind #date .reservation .DateTimePicker {
+  margin-bottom: 20px;
+}
+#easyform #form #kind #date .reservation .DateTimePicker label {
+  font-weight: bold;
+}
+#easyform #form #kind #date .reservation .DateTimePicker label input {
+  margin-right: 6px;
+  margin-left: 12px;
+  padding: 4px;
+  font-size: 13px;
+  border: 1px solid #c5c5c5;
+}
+#easyform #form #kind table {
+  width: 668px;
+  border: 3px #DBCBC4 solid;
+  border-collapse: collapse;
+  margin: 16px 0 20px 30px;
+}
+#easyform #form #kind table td,
+#easyform #form #kind table th {
+  border: 1px solid #c5c5c5;
+  padding: 12px;
+  font-size: 13px;
+}
+#easyform #form #kind table th {
+  width: 126px;
+  color: #6e0a0a;
+  background: #EBEBEB;
+  vertical-align: top;
+  text-align: left;
+  padding: 12px;
+}
+#easyform #form #address-rs .input {
+  width: 662px;
+  border-top: 2px solid #DBCBC4;
+  border-right: 3px solid #DBCBC4;
+  border-bottom: 3px solid #DBCBC4;
+  border-left: 3px solid #DBCBC4;
+  margin: 16px 0px 20px 30px;
+  font-size: 13px;
+}
+#easyform #form #address-rs dl {
+  border-top: none;
+  background: #e7e7e7;
+}
+#easyform #form #address-rs dt {
+  border-top: 1px solid #DBCBC4;
+  clear: left;
+  float: left;
+  width: 140px;
+  padding: 12px;
+  color: #6e0a0a;
+  font-weight: bold;
+}
+#easyform #form #address-rs dd {
+  margin-left: 150px;
+  border-top: 1px solid #DBCBC4;
+  border-left: 1px solid #DBCBC4;
+  background: #fff;
+  padding: 12px;
+}
+#easyform #form #address-rs .name {
+  width: 146px;
+}
+#easyform #form #address-rs .mail {
+  width: 350px;
+}
+#easyform #form #address-rs .tel {
+  width: 102px;
+}
+#easyform #form #address-rs input {
+  padding: 4px;
+  font-size: 13px;
+  border: 1px solid #c5c5c5;
+}
+#easyform #form #address-rs textarea {
+  width: 470px;
+  height: 150px;
+  border: 1px solid #c5c5c5;
+}
+#easyform #form #address table {
+  width: 668px;
+  border: 3px #DBCBC4 solid;
+  border-collapse: collapse;
+  margin: 16px 0 20px 30px;
+}
+#easyform #form #address table td,
+#easyform #form #address table th {
+  border: 1px solid #c5c5c5;
+  padding: 12px;
+  font-size: 13px;
+}
+#easyform #form #address table th {
+  width: 126px;
+  color: #6e0a0a;
+  background: #EBEBEB;
+  vertical-align: top;
+  text-align: left;
+  padding: 12px;
+}
+#easyform #form #address table td .name {
+  width: 146px;
+}
+#easyform #form #address table td .mail {
+  width: 350px;
+}
+#easyform #form #address table td .tel {
+  width: 102px;
+}
+#easyform #form #address table td input {
+  padding: 4px;
+  font-size: 13px;
+  border: 1px solid #c5c5c5;
+}
+#easyform #form #address table td textarea {
+  width: 470px;
+  height: 150px;
+  border: 1px solid #c5c5c5;
+}
+#easyform #form #privacy {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+#easyform #form #privacy iframe {
+  width: 668px;
+  border: 1px solid #c5c5c5;
+  margin-bottom: 14px;
+}
+#easyform #form #privacy .assent {
+  width: 380px;
+  margin: 0 auto;
+}
+#easyform #form #privacy .assent label {
+  font-weight: bold;
+}
+#easyform #form #privacy .assent label input {
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+#easyform #form #privacy .assent span {
+  font-size: 11px;
+}
+#easyform #form #button {
+  width: 668px;
+  margin-left: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  *zoom: 1;
+}
+#easyform #form #button:before,
+#easyform #form #button:after {
+  display: table;
+  content: "";
+}
+#easyform #form #button:after {
+  clear: both;
+}
+#easyform #form #button input {
+  width: 360px;
+  height: 74px;
+}
+#easyform #form #button input:hover {
+  opacity: 0.8;
+}
+#easyform #form #button a:hover img {
+  opacity: 0.8;
+}
+#easyform #form #button .back {
+  padding-top: 10px;
+  margin-right: 40px;
+  margin-left: 55px;
+  float: left;
+}
+#easyform #form #button .submit {
+  float: left;
+}
+
+#easyform #form #message {
+  width: 668px;
+  margin: 0 auto;
+}
+#easyform #form #message .finish-message {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+#easyform #form #message p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+#easyform #form #message p span {
+  font-size: 12px;
+  list-style: 1.4;
+}
+#easyform .error {
+  color: red;
+}
+.button-close img {
+    width: 360px;
+  }
+
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  html {
+    width: 100%;
+    font-size: 62.5%;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    -webkit-text-size-adjust: 100%;
+    border-top: 6px solid #6e0a0a;
+  }
+  #easyform {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #easyform #header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  #easyform #header h1 {
+    width: 160px;
+    height: 105px;
+    margin: 0 auto 10px;
+    float: none;
+  }
+  #easyform #header h1 + p {
+    width: 276px;
+    height: 27px;
+    margin: 0 auto;
+    float: none;
+  }
+  #easyform #flow {
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #easyform #flow img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  #easyform #form h2 {
+    font-size: 1.5rem;
+    line-height: 1;
+    background: url("/static/easyform/images/ttl_icon.jpg") no-repeat 0 40%;
+    padding: 10px 0 10px 27px;
+    margin-bottom: 14px;
+  }
+  #easyform #form #estate table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    margin: 8px 0 40px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  #easyform #form #estate table td,
+  #easyform #form #estate table th {
+    width: 100%;
+    padding: 6px 0 6px 12px;
+    display: list-item;
+    list-style-type: none;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  }
+  #easyform #form #estate table th {
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    padding: 12px;
+  }
+  #easyform #form #estate table td ul {
+    padding-left: 0px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  #easyform #form #estate table td .name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #6e0a0a;
+  }
+  #easyform #form #estate table td .address {
+    margin-bottom: 10px;
+  }
+  #easyform #form #estate table td .price {
+    font-size: 19px;
+    font-weight: bold;
+    color: #6e0a0a;
+  }
+  #easyform #form #kind {
+    margin-bottom: 40px;
+  }
+  #easyform #form #kind .check {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #easyform #form #kind .check label {
+    font-size: 17px;
+  }
+  #easyform #form #kind .check label input {
+    margin-right: 6px;
+    margin-left: 28px;
+  }
+  #easyform #form #kind #date {
+    display: none;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  #easyform #form #kind #date .message {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6e0a0a;
+    margin-bottom: 4px;
+  }
+  #easyform #form #kind #date .reservation {
+    padding: 6px;
+    background: #F8F1E8;
+  }
+  #easyform #form #kind #date .reservation img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  #easyform #form #kind #date .reservation .DateTimePicker {
+    margin-bottom: 20px;
+  }
+  #easyform #form #kind #date .reservation .DateTimePicker label {
+    font-weight: bold;
+  }
+  #easyform #form #kind #date .reservation .DateTimePicker label input {
+    margin-right: 6px;
+    margin-left: 12px;
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #c5c5c5;
+  }
+  #easyform #form #kind table {
+    width: 100%;
+    border: 3px #DBCBC4 solid;
+    border-collapse: collapse;
+    margin: 16px 0px 20px 0;
+  }
+  #easyform #form #kind table td,
+  #easyform #form #kind table th {
+    border: 1px solid #c5c5c5;
+    padding: 12px;
+    font-size: 13px;
+  }
+  #easyform #form #kind table th {
+    width: 126px;
+    color: #6e0a0a;
+    background: #EBEBEB;
+    vertical-align: top;
+    text-align: left;
+    padding: 12px;
+  }
+  #easyform #form #address-rs dl {
+    width: 100%;
+    border-top: none;
+    background: #e7e7e7;
+  }
+  #easyform #form #address-rs dt {
+    border-top: none;
+    clear: both;
+    float: none;
+    width: 100%;
+    padding: 12px;
+    color: #6e0a0a;
+    font-weight: bold;
+  }
+  #easyform #form #address-rs dd {
+    margin-left: 0px;
+    border-top: none;
+    border-left: none;
+    background: #fff;
+    padding: 12px 0;
+  }
+  #easyform #form #address-rs dd .address-fields select {
+    width: 23%;
+    margin-bottom: 10px;
+  }
+  #easyform #form #address-rs #addr_gaikutiban {
+    width: 100%!important;
+  }
+  #easyform #form #address-rs #addr_bldg {
+    width: 100%!important;
+  }
+  #easyform #form #address-rs .name {
+    width: 42%;
+  }
+  #easyform #form #address-rs .mail {
+    width: 100%;
+  }
+  #easyform #form #address-rs .tel {
+    width: 28%;
+  }
+  #easyform #form #address-rs .input {
+    width: 100%;
+    border: none;
+    margin: 16px 0px 20px 0px;
+    font-size: 1.4rem;
+    padding: 4px;
+    margin-bottom: 6px;
+  }
+  #easyform #form #address-rs textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #c5c5c5;
+    padding: 4px;
+    font-size: 1.6rem;
+  }
+  #easyform #form #privacy {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  #easyform #form #privacy .privacy-detail {
+    height: 150px!important;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #c5c5c5;
+    margin-bottom: 20px;
+  }
+  #easyform #form #privacy .privacy-detail iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  #easyform #form #privacy .assent {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #easyform #form #privacy .assent label {
+    font-weight: bold;
+  }
+  #easyform #form #privacy .assent label input {
+    margin-right: 4px;
+    margin-bottom: 10px;
+  }
+  #easyform #form #privacy .assent span {
+    font-size: 1.1rem;
+  }
+  #easyform #form #button {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    *zoom: 1;
+  }
+  #easyform #form #button:before,
+  #easyform #form #button:after {
+    display: table;
+    content: "";
+  }
+  #easyform #form #button:after {
+    clear: both;
+  }
+  #easyform #form #button input {
+    width: 100%;
+    height: auto;
+  }
+  #easyform #form #button input:hover {
+    opacity: 0.8;
+  }
+  #easyform #form #button a:hover img {
+    opacity: 0.8;
+  }
+  #easyform #form #button .back {
+    width: 40%;
+    padding-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
+  }
+  #easyform #form #button .back button {
+    width: 74%;
+  }
+  #easyform #form #button .back button img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  #easyform #form #button .submit {
+    margin-top: 9px;
+    width: 55%;
+    float: left;
+  }
+  #easyform #form #button .submit input {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  #easyform #form #message {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #easyform #form #message .finish-message {
+    font-size: 1.9rem;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+  }
+  #easyform #form #message p {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 40px;
+  }
+  #easyform #form #message p span {
+    font-size: 1.3rem;
+    list-style: 1.4;
+  }
+  #easyform .error {
+    color: red;
+  }
+  .button-close img {
+    width: 180px;
+  }
+  .button-close input[name=submit] {
+    width: 180px;
+  }
+}
+.button-close {
+  text-align: center;
+}
+.button-close {
+  text-align: center;
+}

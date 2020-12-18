@@ -1,0 +1,585 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*! ======================================================================================= ^^
+  Page price list
+=========================================================================================== ^^ */
+#price-list{
+	min-width: 1000px;
+}
+
+#price-list .about{
+	width: 885px;
+	margin: 0 auto;
+}
+
+#price-list .about .about-text{
+	float: left;
+	width: 80%;
+	font-size: 29px;
+	line-height: 1.5;
+	padding: 6.5px 0;
+}
+#price-list .about .about-img{
+	float: right;
+	width: 20%;
+	text-align: right;
+}
+#price-list .price-list-box{
+	margin: 40px auto 0;
+	width: 885px;
+	padding-bottom: 4rem;
+}
+
+
+#price-list .price-list-box-sp{
+	display: none;
+}
+
+
+#price-list .price-list-ul li.storey{
+	background-color: #3E3428;
+	color: #fff;
+	font-size: 14px;
+	padding: 40px 0 41px;
+	text-align: center;
+	border-bottom: 1px solid #ffffff;
+}
+
+#price-list .storey span{
+	vertical-align: middle;
+}
+
+#price-list .price-list-ul li{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	float: left;
+	width: 200px;
+}
+
+#price-list .price-list-ul li:first-child{
+	width: 45px;
+	margin-right: 20px;
+	border: none;
+}
+
+#price-list .price-list-ul li:nth-child(4){
+	border-right: 1px solid #000;
+}
+
+#price-list .price-list-ul li:last-child{
+	border-right: 1px solid #000;
+	margin-left: 20px;
+}
+
+
+#price-list .price-list-ul .room{
+	font-size: 16px;
+	border-bottom: 1px solid #000;
+	padding: 3px 0 2px;
+	text-align: center;
+	background-color: #F4F4F4;
+	font-weight: bold;
+}
+
+#price-list .price-list-ul .acreage{
+	font-size: 10px;
+	text-align: center;
+	padding: 6px 5px;
+	border-bottom: 1px solid #000;
+}
+
+#price-list .price-list-ul .price-b{
+	background-color: #DC7E4D;
+	/*#B48856*/
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+	padding: 8px 0;
+	margin: 0;
+}
+
+#price-list .price-list-ul li:last-child .price-b{
+	/*background-color: #D46F6F;*/
+	background-color: #CB9A0D;
+}
+
+#price-list .price{
+	font-size: 18px;
+	padding: 14px 0;
+	text-align: center;
+	margin: 0;
+}
+#price-list .price-list-ul img.seiyaku {
+	display: block;
+	margin: 1px auto;
+}
+
+#price-list .border-none-ul li{
+	border-top: none;
+}
+
+#price-list .border-none-ul li:first-child{
+	margin-top: 1px;
+}
+
+#price-list .last-ul{
+	margin-top: 20px;
+}
+
+#price-list .last-ul li{
+	border-top: 1px solid #000;
+	padding: 6px 0;
+/*	background-color: #F4F4F4;*/
+	background-color: #DC7E4D;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+
+#price-list .last-ul li:first-child{
+	margin: 0 0 0 65px;
+	border: 1px solid #000;
+	border-right: none;
+	width: 200px;
+}
+
+#price-list .last-ul li:nth-child(3){
+	border-right: 1px solid #000;
+}
+
+#price-list .last-ul li:last-child{
+	background-color: #CB9A0D;
+}
+
+#price-list .cell2{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 29px 0;
+}
+
+#price-list .cell3{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 41px 0;
+}
+
+
+#price-list .price-list-ul a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+
+#price-list .price-list-ul a:hover{
+	opacity: 0.8;
+}
+
+#price-list .close-btn{
+	margin: 40px auto 0;
+}
+
+#price-list .close-btn a{
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+}
+
+#price-list .close-btn a:hover{
+	opacity: 0.8;
+}
+
+#price-list .price-list-ul .seiyaku-b{
+	position: relative;
+}
+
+#price-list .price-list-ul .seiyaku-b:before {
+    content: url(../images/price-list/bara-icon.png);
+    position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#price-list .site-main {
+	padding: 0;
+}
+#price-list #fullpage {
+	background: #ffffff;
+}
+#price-list .page-header {
+	margin: 0;
+}
+#price-list .page-contents {
+	width: 1200px;
+	/*background: #EAEADE;
+	padding: 4rem 0;
+	padding: 0;*/
+	padding: 4rem 3rem;
+	margin: 0 auto;
+}
+
+.page-contents{max-width:128rem;width:100%;padding:4rem 3rem;margin:0 auto;background-color:#fff;}
+
+#price-list .page-contents:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+#price-list .bnrWrap {
+	width: 295px;
+	box-sizing: border-box;
+	float: right;
+	padding: 4rem 0 4rem;
+	position: relative;
+}
+#price-list .priceTable {
+	width: 905px;
+	background: #ffffff;
+	float: left;
+	padding: 4rem 15px 4rem 0;
+	/*padding: 4rem 0 4rem;*/
+	margin: 0 auto;
+}
+#price-list .bnrWrap .floatBanner {
+	width: 286px;
+	display: block;
+	margin: 0;
+}
+#price-list .bnrWrap .floatBanner.fixed {
+	margin-top: 70px;
+	/*margin-left: 905px;*/
+	position: fixed;
+	top: 0;
+	/*left: 0;*/
+	z-index: 9999;
+}
+#price-list .bnrWrap h3 {
+	/*font-size: 1.8rem;
+	font-weight: normal;*/
+	text-align: center;
+	/*padding-top: 15px;*/
+	padding-top: 0;
+	margin: 0 auto 1rem;
+}
+#price-list .bnrWrap .bnr {
+	width: 100%;
+	display: block;
+	margin-bottom: 35px;
+}
+#price-list .bnrWrap .bnr:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.site-header .sp-contents {
+		width: auto;
+	}
+/*	.site-header .sp-contents .tel {
+		margin-right: 0;
+	}*/
+	#price-list .page-contents {
+		width: 100%;
+		background: #ffffff;
+		padding: 3rem 0;
+	}
+	#price-list .bnrWrap {
+		width: 100%;
+		background: #EAEADE;
+		float: none;
+		padding: 15px;
+		margin-bottom: 35px;
+	}
+	/*#price-list .bnrWrap h3 {
+		padding-top: 0;
+	}*/
+	#price-list .priceTable {
+		width: 100%;
+		float: none;
+		padding: 0 2%;
+	}
+	#price-list .bnrWrap .floatBanner {
+		width: 100%;
+		max-width: 562px;
+		display: block;
+		margin: 0 auto;
+	}
+	.sp-hide {
+		display: none;
+	}
+	#price-list {
+		min-width: 100%;
+	}
+	#fullpage {
+		width: 100%;
+		/*min-width: 1000px;*/
+		/*position: absolute;
+		bottom: 0;
+		left: 0;*/
+	}
+	#price-list .about {
+		width: 100%;
+	}
+	#price-list .about .about-text {
+		width: 63%;
+		font-size: 15px;
+		padding: 0;
+	}
+	#price-list .about .about-img {
+		width: 35%;
+	}
+	#price-list .price-list-box {
+		width: 100%;
+	}
+	#price-list .price-list-ul li.storey {
+		width: 8%;
+		box-sizing: border-box;
+		padding: 11% 0;
+		margin-right: 2.0%;
+		margin-top: 0;
+		border-bottom: 1px solid #ffffff;
+	}
+	#price-list .price-list-ul:nth-child(12) li.storey {
+		border-bottom: none;
+	}
+	#price-list .storey span {
+		display: initial;
+		vertical-align: initial;
+	}
+	#price-list .price-list-ul li:nth-child(2),
+	#price-list .price-list-ul li:nth-child(3),
+	#price-list .price-list-ul li:nth-child(4),
+	#price-list .price-list-ul li:nth-child(5) {
+		width: 22%;
+	}
+	#price-list .price-list-ul li:nth-child(5) {
+		margin-left: 2.0%;
+	}
+	#price-list .last-ul li {
+		width: 22%;
+	}
+	#price-list .last-ul li:first-child {
+		width: 22%;
+		margin-left: 10%;
+	}
+	#price-list .last-ul li:nth-child(4) {
+		margin-left: 2.0%;
+	}
+	#price-list .price-list-ul .storey,
+	#price-list .price-list-ul .room,
+	#price-list .price-list-ul .acreage,
+	#price-list .price,
+	#price-list .font12,
+	#price-list .price-list-ul .price-b,
+	#price-list .font14 {
+		font-size: 10px;
+	}
+	#price-list .price {
+		padding: 3px 0;
+	}
+	#price-list .price-list-ul .price-b {
+		padding: 10px 0;
+	}
+	#price-list .price-list-ul .seiyaku-b:before {
+		margin-right: 0;
+		top: 50%;
+		right: 0;
+		left: 0;
+	}
+}
+	@media screen and (max-width: 414px) {
+		#price-list .price {
+			padding: 2px 0;
+		}
+		#price-list .cell2 {
+			padding: 20px 0;
+		}
+		#price-list .price-list-ul .seiyaku-b {
+			padding: 30px 0 20px;
+		}
+
+		#price-list .price-list-box {
+			display: none;
+		}
+
+		#price-list .price-list-box-sp{
+			display: block;
+			margin-top: 20px;
+		}
+	}
+	@media screen and (max-width: 374px) {
+		#price-list .price-list-ul .room {
+			height: 2.7rem;
+		}
+		#price-list .price-list-ul .acreage {
+			padding: 0;
+		}
+		#price-list .cell3 {
+			padding: 35px 0;
+		}
+
+	/*#price-list .price-list-ul {
+		margin-bottom: 20px;
+	}
+	#price-list .price-list-ul li {
+		width: 100%;
+		border: none;
+		border-right: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+		display: table;
+		float: none;
+	}
+	#price-list .price-list-ul li:first-child {
+		width: 100%;
+		display: block;
+		margin-right: 0;
+	}
+	#price-list .price-list-ul li:last-child {
+		margin-left: 0;
+	}
+	#price-list .price-list-ul .storey {
+		padding: 10px 0 10px;
+	}
+	#price-list .price-list-ul li .th {
+		width: 2.2rem;
+		font-size: 12px;
+		text-align: center;
+		vertical-align: middle;
+		background: #F4F4F4;
+		border-right: 1px solid #000000;
+		display: table-cell;
+	}
+	#price-list .price-list-ul li .td {
+		display: table-cell;
+	}*/
+	.site-main {
+		padding: 0 1rem;
+	}
+}
+
+#price-list .price-list-ul .onebara{
+	margin: 13px auto !important;
+}
+
+#price-list .price-b img{
+	width: 65px;
+	vertical-align: baseline;
+	margin-right: 5px;
+}
+
+/**
+#price-list .page-header{
+	background-color:transparent;
+	height: auto !important;
+}**/
+
+#price-list .page-header{
+	width: 100%;
+	height: 26rem;
+	background-color: #222;
+	text-align: center;
+}
+#price-list .page-header::before{
+	width: 1px;
+	height: 100%;
+	text-align: center;
+	content: '\0020';
+	display: inline-block;
+	vertical-align: middle;
+}
+/**
+#price-list .page-title{
+	margin:0;
+	font-size:3rem;
+	color:#000;
+	font-weight:normal;
+	vertical-align:middle;
+	padding: 3rem 0 0;
+	text-align: center;
+}**/
+
+#price-list .page-title{
+	margin: 0;
+	font-size: 3rem;
+	color: #fff;
+	font-weight: normal;
+	text-shadow: 0 0 6px #000;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-animation: fade-in-down 1.2s ease 0.15s;
+	-moz-animation: fade-in-down 1.2s ease 0.15s;
+	animation: fade-in-down 1.2s ease 0.15s;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+#price-list .page-title .sub{
+	font-size:1.6rem;
+	/**color:#000;**/
+	color: #b48856;
+}
+
+#price-list h2.panorama{
+	font-size: 3.0rem;
+	font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+	text-align: center;
+	margin: 3rem auto 1rem;
+}
+
+@media screen and (max-width: 767px) {
+	#price-list h2.panorama{
+	font-size: 1.2rem;
+	font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+	text-align: center;
+	margin: 10px auto;
+}
+	
+}
+
+@media screen and (max-width: 767px) {
+	#price-list .page-title{
+		padding: 0 0 3rem;
+	}
+}
+
+/* 20180130 */
+#price-list .bnrWrap #shiny_button a{
+pointer-events: none;	
+}
+
+#price-list .bnrWrap #shiny_button a:before {
+    left: -60%;
+    top: -29%;
+	width: 50px;
+	height: 190px;
+}
+
+@media screen and (max-width: 767px) {
+	#price-list .bnrWrap #shiny_button a:before {
+		left: -60%;
+		top: -5%;
+		width: 50px;
+		height: 30%;
+	}
+}
+@media screen and (max-width: 400px) {
+	#price-list .bnrWrap #shiny_button a:before {
+		left: -60%;
+		top: -5.5%;
+		width: 40px;
+		height: 30%;
+	}
+}

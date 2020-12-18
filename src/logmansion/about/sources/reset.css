@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/* =============================================================
+
+　　Style Reset
+
+============================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+html {
+  overflow-y:auto;
+  color: #221814;
+  background: #fff;
+  font-size: 62.5%;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,img {
+  border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var,optgroup {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+del,ins {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+caption,th {
+  text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,q:after {
+  container: '';
+}
+
+abbr,acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: baseline;
+}
+
+sub {
+  vertical-align: baseline;
+}
+
+legend {
+  color: #000;
+}
+
+input,button,textarea,select,optgroup,option {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+input,button,textarea,select {
+  *font-size: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+input[type*="button"] {
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+}
+/* clearfix 設定
+-------------------------- */
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  content: ".";
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+.clearfix ul {
+  margin: 0 0 0px;
+  padding: 0;
+}
+
+.clearfix ul.imgPC {
+  margin: 0;
+}
+
+.clearfix .rela {
+  width: 234px;
+  margin-left: 10px;
+  float: left;
+}
+
+* html .clearfix {
+  height: 1px;
+}
+
+.reservation {
+  padding: 18px;
+  background: #F8F1E8;
+}
+
+.reservation input {
+  margin-right: 6px;
+  margin-left: 12px;
+  padding: 4px;
+  font-size: 13px;
+  border: 1px solid #c5c5c5;
+}

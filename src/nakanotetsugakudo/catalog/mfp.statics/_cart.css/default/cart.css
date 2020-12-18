@@ -1,0 +1,45 @@
+form.mfpcart {
+	
+}
+form.mfpcart button {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0px;
+	border: solid 1px #999;
+}
+form.mfpcart button span {
+	font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","メイリオ","ＭＳ Ｐゴシック","Osaka";
+	font-size: 12px;
+	font-weight: bolder;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 3px 8px;
+	border-radius: 3px;
+	border-top: solid 1px #FFF;
+	background-color: #CCC;
+	text-shadow: 0px 1px 0px #EEE;
+}
+form.mfpcart button span:hover {
+	background-color: #DDD;
+}
+a.gocart {
+	display: inline-block;
+	border: solid 1px #999;
+	border-radius: 3px;
+	background-color: #CCC;
+	text-decoration: none;
+}
+a.gocart:hover {
+	background-color: #DDD;
+}
+a.gocart span {
+	border-radius: 3px;
+	display: inline-block;
+	padding: 6px 8px;
+	font-size: 12px;
+	color: #000;
+	border-top: solid 1px #FFF;
+	text-shadow: 0px 1px 0px #EEE;
+	font-weight: bolder;
+}

@@ -1,0 +1,182 @@
+@media (max-width: 1366px) {
+  .swiper_banner.swiper-container {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (max-width: 1024px) {
+  
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 812px) {
+  .navbar-nav>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+  .nav_top {
+    padding: 15px 0 0 0;
+  }
+  .navbar-toggler {
+    margin: 0 auto;
+  }
+  .navbar-collapse {
+    margin-top: 0;
+  }
+  .wrapper-menu {
+    margin-bottom: 10px;
+  }
+  .subtext {
+    margin-bottom: 30px;
+  }
+  .box_text_woodMagic {
+    margin-bottom: 60px;
+  }
+  .box_text_woodMagic p {
+    margin-top: 0;
+  }
+  ul.naviBox li {
+    min-height: auto;
+    margin-bottom: 0;
+  }
+  ul.naviBox ul li {
+    margin-bottom: 0;
+  }
+  ul.naviBox li, ul.naviBox li.col_custom:first-child, ul.naviBox li.col_custom:nth-child(4), ul.naviBox li.col_custom:nth-child(2) {
+    width: 100%;
+    border: none;
+  }
+  ul.naviBox li.col_custom {
+    border: none;
+    padding-left: 0;
+  }
+  ul.naviBox li.col_custom h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    background: #f1f1f1;
+  }
+  ul.naviBox li.col_custom h4 a {
+    display: block;
+    padding: 10px;
+  }
+  ul.naviBox li.col_custom:last-child {
+    width: 100%;
+  }
+  .box_flooring_item a {
+    height: 155px;
+  }
+  .btn_listSale {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+  }
+  .section_sub_banner {
+    margin-top: 60px;
+  }
+  .navbar-brand {
+    margin-left: 15px;
+  }
+  .main-nav {
+    padding: 0;
+  }
+  .sm-blue a, .sm-blue a:active, .sm-blue a:focus, .sm-blue a:hover {
+    background: #fff;
+    background-image: none;
+    color: #000;
+    text-shadow: none;
+    font-weight: normal;
+    font-size: 14px;
+    font-family : "游ゴシック", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .sm-blue ul a, .sm-blue ul a:active, .sm-blue ul a:focus, .sm-blue ul a:hover {
+    color: #333;
+    font-size: 14px;
+  }
+  .sm-blue a .sub-arrow {
+    width: 30px;
+    height: 30px;
+  }
+  .sm-blue a .sub-arrow::before {
+    position: relative;
+    top: -3px;
+  }
+  .main-menu-btn {
+    margin-top: 15px;
+  }
+  .section_banner_img {
+    padding: 0;
+  }
+  ul.list_Kokutan li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  ul.list_Kokutan li:nth-child(2) {
+    top: 0;
+  }
+  .results_madeOrder_item a {
+    height: 135px;
+  }
+
+  
+}
+
+
+@media (max-width: 736px) {
+  .nav_top .navbar-collapse {
+    background: rgba(0, 0, 0, .8);
+    padding: 0 15px;
+    text-align: center;
+    float: none;
+  }
+  
+}
+
+@media (max-width: 667px) {
+  
+}
+
+@media (max-width: 414px) {
+  .navbar-nav > li:first-child > a {
+    padding-left: 10px;
+  }
+
+  .orderMade_content .title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .orderMade_content {
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .orderMade_content p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .orderMade_content .subtext {
+    margin-bottom: 0;
+  }
+  .btnOrder {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 320px) {}

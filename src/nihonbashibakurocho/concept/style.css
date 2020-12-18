@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 960px) {
+	#sec03 .access img,
+	#sec03 .location img{
+		width: 100%;
+	}
+	.page-concept #sec04 .left{
+		width: 50%;
+	}
+	.page-concept #sec04 .right{
+		width: 50%;
+	}
+	.page-concept #sec04 .left .txtBox{
+		margin: 10px auto;
+	}
+	#sec06 .contBox{
+		padding-top: 120px;
+	}
+	#sec06 .tb-hide{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 959px) and (min-width: 640px){
+	.page-concept #sec04 .left .txtBox{
+		margin: 20px auto;
+	}
+	.page-concept #sec06{
+		padding-top: 20px;
+	}
+}
+
+

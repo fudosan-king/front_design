@@ -1,0 +1,720 @@
+img {
+  border: 0;
+}
+// color-Mixins
+@basecolor: #6E0A0A;
+
+// common-Mixins
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Mixins
+.listnone {
+  li {
+    list-style: none;
+  }
+}
+.textrap {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+// header
+#easyform {
+  width: 700px;
+  margin: 0 auto;
+
+  #header {
+    height: 105px;
+    margin-bottom: 30px;
+    .clearfix;
+
+    h1 {
+      float: left;
+    }
+    h1 + p {
+      margin-top: 37px;
+      margin-left: 24px;
+      float: left;
+    }
+  }
+
+  #flow {
+    height: 56px;
+    margin-bottom: 30px;
+  }
+
+  #form {
+    h2 {
+      font-size: 22px;
+      line-height: 1;
+      background: url("/static/easyform/images/ttl_icon.jpg") no-repeat 0 5px;
+      padding: 0 0 0 27px;
+      margin-bottom: 14px;
+    }
+
+    #estate {
+      table {
+        width: 668px;
+        border: 3px #DBCBC4 solid;
+        border-collapse: collapse;
+        margin: 16px 0 40px 30px;
+        td, th {
+          border: 1px solid #c5c5c5;
+          padding: 12px;
+        }
+        th {
+          width: 126px;
+          background: #EBEBEB;
+          vertical-align: middle;
+          text-align: center;
+          padding: 12px;
+        }
+        td {
+          ul {
+            padding-left: 20px;
+            line-height: 1.6;
+          }
+          .name {
+            font-size: 15px;
+            font-weight: bold;
+            color: @basecolor;
+          }
+          .address {
+            margin-bottom: 10px;
+          }
+          .price {
+            font-size: 19px;
+            font-weight: bold;
+            color: @basecolor;
+          }
+        }
+      }
+    }
+
+    #kind {
+      margin-bottom: 40px;
+
+      .check {
+        width: 260px;
+        margin: 0 auto;
+        label {
+          font-size: 17px;
+          input {
+            margin-right: 6px;
+            margin-left: 30px;
+          }
+        }
+      }
+
+      #date {
+        display:none;
+        margin-top: 30px;
+        margin-left: 30px;
+        
+        .message {
+          font-size: 14px;
+          font-weight: bold;
+          color: @basecolor;
+          margin-bottom: 4px;
+        }
+        .reservation {
+          padding: 18px;
+          background: #F8F1E8;
+
+          .DateTimePicker {
+            margin-bottom: 20px;
+
+            label {
+              font-weight: bold;
+              input {
+                margin-right: 6px;
+                margin-left: 12px;
+                padding: 4px;
+                font-size: 13px;
+                border: 1px solid #c5c5c5;
+              }
+            }
+          }
+        }
+      }
+
+      table {
+        width: 668px;
+        border: 3px #DBCBC4 solid;
+        border-collapse: collapse;
+        margin: 16px 0 20px 30px;
+        td, th {
+          border: 1px solid #c5c5c5;
+          padding: 12px;
+          font-size: 13px;
+        }
+        th {
+          width: 126px;
+          color: @basecolor;
+          background: #EBEBEB;
+          vertical-align: top;
+          text-align: left;
+          padding: 12px;
+        }
+      }
+    }
+
+    //dlの場合
+    #address-rs {
+      .input {
+        width: 662px;
+        border-top: 2px solid #DBCBC4;
+        border-right: 3px solid #DBCBC4;
+        border-bottom: 3px solid #DBCBC4;
+        border-left: 3px solid #DBCBC4;
+        margin: 16px 0px 20px 30px;
+        font-size: 13px;
+      }
+      dl {
+        border-top: none;
+        background: #e7e7e7;
+      }
+      dt {
+        border-top: 1px solid #DBCBC4;
+        clear: left;
+        float: left;
+        width: 140px;
+        padding: 12px;
+        color: @basecolor;
+        font-weight: bold;
+      }
+      dd {
+        margin-left: 150px;
+        border-top: 1px solid #DBCBC4;
+        border-left: 1px solid #DBCBC4;
+        background: #fff;
+        padding: 12px;
+      }
+      .name {
+        width: 146px;
+      }
+      .mail {
+        width: 350px;
+      }
+      .tel {
+        width: 102px;
+      }
+      input {
+        padding: 4px;
+        font-size: 13px;
+        border: 1px solid #c5c5c5;
+      }
+      textarea {
+        width: 470px;
+        height: 150px;
+        border: 1px solid #c5c5c5;
+      }
+    }
+
+    //table
+    #address {
+      table {
+        width: 668px;
+        border: 3px #DBCBC4 solid;
+        border-collapse: collapse;
+        margin: 16px 0 20px 30px;
+        td, th {
+          border: 1px solid #c5c5c5;
+          padding: 12px;
+          font-size: 13px;
+        }
+        th {
+          width: 126px;
+          color: @basecolor;
+          background: #EBEBEB;
+          vertical-align: top;
+          text-align: left;
+          padding: 12px;
+        }
+        td {
+          .name {
+            width: 146px;
+          }
+          .mail {
+            width: 350px;
+          }
+          .tel {
+            width: 102px;
+          }
+          input {
+            padding: 4px;
+            font-size: 13px;
+            border: 1px solid #c5c5c5;
+          }
+          textarea {
+            width: 470px;
+            height: 150px;
+            border: 1px solid #c5c5c5;
+          }
+        }
+      }
+    }
+
+    #privacy {
+      margin-left: 30px;
+      margin-bottom: 20px;
+
+      iframe {
+        width: 668px;
+        border: 1px solid #c5c5c5;
+        margin-bottom: 14px;
+      }
+
+      .assent {
+        width: 380px;
+        margin: 0 auto;
+        label {
+          font-weight: bold;
+          input {
+            margin-right: 4px;
+            margin-bottom: 10px;
+          }
+        }
+        span {
+          font-size: 11px;
+        }
+      }
+    }
+
+    #button {
+      width: 668px;
+      margin-left: 30px;
+      text-align: center;
+      margin-bottom: 40px;
+      .clearfix;
+
+      input {
+        width: 360px;
+        height: 74px;
+      }
+      input:hover {
+        opacity: 0.8;
+      }
+      a:hover img {
+        opacity: 0.8;
+      }
+
+      .back {
+        padding-top: 10px;
+        margin-right: 40px;
+        margin-left: 55px;
+        float: left;
+      }
+      .submit {
+        float: left;
+      }
+    }
+
+    #message {
+      width: 668px;
+      margin: 0 auto;
+
+      .finish-message {
+        font-size: 30px;
+        line-height: 1.4;
+        font-weight: bold;
+        color: #a8a8a8;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 1.7;
+        margin-bottom: 40px;
+
+        span {
+          font-size: 12px;
+          list-style: 1.4;
+        }
+      }
+    }
+  }
+
+  .error {
+    color: red;
+  }
+}
+
+//responsive
+@media screen and (max-width:480px){
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  html {
+    width: 100%;
+    font-size: 62.5%;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    -webkit-text-size-adjust: 100%;
+    border-top: 6px solid @basecolor;
+  }
+
+  // header
+  #easyform {
+    width: 90%;
+    margin: 0 auto;
+
+    #header {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+
+      h1 {
+        width: 160px;
+        height: 105px;
+        margin: 0 auto 10px;
+        float: none;
+      }
+      h1 + p {
+        width: 276px;
+        height: 27px;
+        margin: 0 auto;
+        float: none;
+      }
+    }
+
+    #flow {
+      height: auto;
+      margin-bottom: 10px;
+      text-align: center;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    #form {
+      h2 {
+        font-size: 1.5rem;
+        line-height: 1;
+        background: url("/static/easyform/images/ttl_icon.jpg") no-repeat 0 40%;
+        padding: 10px 0 10px 27px;
+        margin-bottom: 14px;
+      }
+
+      #estate {
+        table {
+          width: 100%;
+          border: none;
+          border-collapse: collapse;
+          margin: 8px 0 40px 0;
+          border-bottom: 1px solid #ccc;
+
+          td, th {
+            width: 100%;
+            padding: 6px 0 6px 12px;
+            display: list-item;
+            list-style-type: none;
+            border: none;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+          }
+          th {
+            width: 100%;
+            vertical-align: top;
+            text-align: center;
+            padding: 12px;
+          }
+          td {
+            ul {
+              padding-left: 0px;
+              line-height: 1.6;
+              margin-bottom: 0;
+            }
+            .name {
+              font-size: 15px;
+              font-weight: bold;
+              color: @basecolor;
+            }
+            .address {
+              margin-bottom: 10px;
+            }
+            .price {
+              font-size: 19px;
+              font-weight: bold;
+              color: @basecolor;
+            }
+          }
+        }
+      }
+
+      #kind {
+        margin-bottom: 40px;
+
+        .check {
+          width: 100%;
+          margin: 0 auto;
+          label {
+            font-size: 17px;
+            input {
+              margin-right: 6px;
+              margin-left: 28px;
+            }
+          }
+        }
+
+        #date {
+          display:none;
+          margin-top: 30px;
+          margin-left: 0px;
+
+          .message {
+            font-size: 14px;
+            font-weight: bold;
+            color: @basecolor;
+            margin-bottom: 4px;
+          }
+          .reservation {
+            padding: 6px;
+            background: #F8F1E8;
+            img {
+              width: 100%;
+              max-width: 100%;
+              height: auto;
+            }
+
+            .DateTimePicker {
+              margin-bottom: 20px;
+
+              label {
+                font-weight: bold;
+                input {
+                  margin-right: 6px;
+                  margin-left: 12px;
+                  padding: 4px;
+                  font-size: 13px;
+                  border: 1px solid #c5c5c5;
+                }
+              }
+            }
+          }
+        }
+
+        table {
+          width: 100%;
+          border: 3px #DBCBC4 solid;
+          border-collapse: collapse;
+          margin: 16px 0px 20px 0;
+          td, th {
+            border: 1px solid #c5c5c5;
+            padding: 12px;
+            font-size: 13px;
+          }
+          th {
+            width: 126px;
+            color: @basecolor;
+            background: #EBEBEB;
+            vertical-align: top;
+            text-align: left;
+            padding: 12px;
+          }
+        }
+      }
+
+      //dl
+      #address-rs {
+        dl {
+          width: 100%;
+          border-top: none;
+          background: #e7e7e7;
+        }
+        dt {
+          border-top: none;
+          clear: both;
+          float: none;
+          width: 100%;
+          padding: 12px;
+          color: @basecolor;
+          font-weight: bold;
+        }
+        dd {
+          margin-left: 0px;
+          border-top: none;
+          border-left: none;
+          background: #fff;
+          padding: 12px 0;
+
+          .address-fields {
+            select {
+              width: 23%;
+              margin-bottom: 10px;
+            }
+          }
+        }
+        #addr_gaikutiban {
+          width: 100%!important;
+        }
+        #addr_bldg {
+          width: 100%!important;
+        }
+        .name {
+          width: 42%;
+        }
+        .mail {
+          width: 100%;
+        }
+        .tel {
+          width: 28%;
+        }
+        .input {
+          width: 100%;
+          border: none;
+          margin: 16px 0px 20px 0px;
+          font-size: 1.4rem;
+          padding: 4px;
+          margin-bottom: 6px;
+        }
+        textarea {
+          width: 100%;
+          height: 150px;
+          border: 1px solid #c5c5c5;
+          padding: 4px;
+          font-size: 1.6rem;
+        }
+      }
+
+      #privacy {
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+        .privacy-detail {
+          height: 150px!important;
+          overflow: auto;
+          -webkit-overflow-scrolling: touch;
+          border: 1px solid #c5c5c5;
+          margin-bottom: 20px;
+
+          iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+          }
+        }
+
+        .assent {
+          width: 100%;
+          margin: 0 auto;
+          label {
+            font-weight: bold;
+            input {
+              margin-right: 4px;
+              margin-bottom: 10px;
+            }
+          }
+          span {
+            font-size: 1.1rem;
+          }
+        }
+      }
+
+      #button {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        .clearfix;
+
+        input {
+          width: 100%;
+          height: auto;
+        }
+        input:hover {
+          opacity: 0.8;
+        }
+        a:hover img {
+          opacity: 0.8;
+        }
+
+        .back {
+          width: 40%;
+          padding-top: 10px;
+          margin-right: 0;
+          margin-left: 0;
+          float: left;
+
+          button {
+            width: 74%;
+            img {
+              width: 100%;
+              max-width: 100%;
+              height: auto;
+            }
+          }
+        }
+        .submit {
+          margin-top: 9px;
+          width: 55%;
+          float: left;
+
+          input {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      #message {
+        width: 100%;
+        margin: 0 auto;
+
+        .finish-message {
+          font-size: 1.9rem;
+          line-height: 1.4;
+          font-weight: bold;
+          color: #a8a8a8;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 1.7;
+          margin-bottom: 40px;
+
+          span {
+            font-size: 1.3rem;
+            list-style: 1.4;
+          }
+        }
+      }
+    }
+    .error {
+      color: red;
+    }
+  }
+
+  .button-close input[name=submit] {
+    width: 180px;
+  }
+}
+
+
+.button-close {
+  text-align: center;
+}
+
+
+.button-close {
+  text-align: center;
+}

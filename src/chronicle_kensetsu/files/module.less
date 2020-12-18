@@ -1,0 +1,814 @@
+@charset "utf-8";
+@import "colorscheme.less";
+
+/* =============================================================
+
+　　共通設定
+
+============================================================= */
+
+
+/*  全体 共通設定
+---------------------------------------------*/
+
+/*  リンク 共通設定
+-------------------------- */
+
+/* -- 動き滑らか -- */
+#header a:hover,
+#side a:hover,
+#aside a:hover,
+.boxPostList .imgThumb,
+.boxPaging p a:hover span,
+.singleBoxPaging p a:hover,
+.boxPostDetail + .boxPaging a:hover,
+.page-top #content a:hover,
+.boxWorksList li a:hover,
+.als-boxItem a:hover  {
+	transition: all 0.4s ease;
+}
+
+
+/* -- 半透明 -- */
+#header a:hover,
+#aside a:hover,
+.boxPostList .btnLinkHover .imgThumb,
+.boxPostDetail + .boxPaging a:hover,
+.singleBoxPaging p a:hover,
+.page-top #content a:hover,
+.boxWorksList li a:hover,
+.als-boxItem a:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	filter: none\9;
+	color: #888\9;
+}
+
+/* -- 下線 -- */
+#footer a:hover,
+.boxBreadcrumb a:hover,
+.boxPostList .btnLinkHover .ttlPost,
+#recent.boxPostMenu > dd a:hover .ttlPost {
+	text-decoration: underline;
+}
+
+/* -- 青色 -- */
+#side a:hover {
+	color: @colorPoint;
+}
+
+/*  テキスト 共通設定
+-------------------------- */
+
+em {
+	font-weight: bold;
+}
+
+
+/*  画像 共通設定
+-------------------------- */
+
+/* フレーム付き画像 */
+.imgFrame {
+	border: 1px solid @colorBg;
+	background: @colorWhite;
+	padding: 10px;
+}
+
+/* スマホ用画像 */
+.imgSmp {
+	display: none;
+}
+
+
+/*  ヘッダー 共通設定
+---------------------------------------------*/
+
+@bgGNposition : -2px;
+
+#header {
+
+	/* -------- サイトロゴ -------- */
+
+	 #ttlSiteLogo {
+		padding: 25px 0 35px;
+
+		img {
+			width: 180px;
+		}
+	}
+
+	/* -------- お問い合わせ先 -------- */
+
+	.boxContact {
+		position: absolute;
+		top: 25px;
+		right: 0;
+
+		a .imgFreeCall {
+			display: none;
+		}
+	}
+
+	/* -------- グローバルナビ -------- */
+
+	#boxGlobalNav {
+		margin-bottom: 25px;
+
+		.btnOpen {
+			display: none;
+		}
+
+		li {
+			background: url(../img/common/bg-gnav-line.gif) no-repeat top left;
+			float: left;
+			height: 35px;
+			padding-left: 1px;
+		}
+
+		li:first-child {
+			background: none;
+			padding-left: 0;
+		}
+
+		a {
+			padding: 0 28px;
+
+			span {
+				display: block;
+				background: url(../img/common/bg-gnav.png) no-repeat 0 @bgGNposition;
+				height: 35px;
+				color: @colorWhite;
+				text-indent: 100%;
+				overflow: hidden;
+				white-space: nowrap;
+			}
+
+		}
+
+		/* -- メディア＆ニュース -- */
+		.btnMedia a {
+			padding-left: 16px;
+
+			span {
+				background-position: -16px @bgGNposition;
+				width: 128px;
+			}
+		}
+
+		/* -- クロニクルリフォームとは -- */
+		.btnAbout a span {
+			background-position: -197px @bgGNposition;
+			width: 178px;
+		}
+
+		/* -- 自然素材 -- */
+		.btnMaterial a span {
+			background-position: -432px @bgGNposition;
+			width: 66px;
+		}
+
+		/* -- サービス内容 -- */
+		.btnService a span {
+			background-position: -560px @bgGNposition;
+			width: 65px;
+		}
+
+		/* -- リフォームプラン -- */
+		.btnPlan a span {
+			background-position: -682px @bgGNposition;
+			width: 120px;
+		}
+
+		/* -- 施行事例 -- */
+		.btnWorks a span {
+			background-position: -856px @bgGNposition;
+			width: 70px;
+		}
+
+		/* -- お問い合わせ -- */
+		.btnContact a {
+			padding-right: 10px;
+		}
+
+		.btnContact a span {
+			background-position: -984px @bgGNposition;
+			width: 100px;
+		}
+
+		/* -- 非表示 -- */
+		.btnEvent,
+		.btnBlog,
+		.btnClose {
+			display: none;
+		}
+
+	}
+
+}
+
+
+/* ---- 閲覧中のカテゴリ ---- */
+.page-media #header #boxGlobalNav .btnMedia a,
+.page-about #header #boxGlobalNav .btnAbout a,
+.page-works #header #boxGlobalNav .btnWorks a,
+.page-material #header #boxGlobalNav .btnMaterial a,
+.page-service #header #boxGlobalNav .btnService a,
+.page-plan #header #boxGlobalNav .btnPlan a,
+.page-contact #header #boxGlobalNav .btnContact a {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	filter: none\9;
+}
+
+
+
+
+/*  メイン 共通設定
+---------------------------------------------*/
+
+
+/* -------- カテゴリータイトル -------- */
+
+.ttlCategory {
+	margin: 0 0 14px;
+
+	.boxInner {
+		text-align: center;
+	}
+
+	span {
+		display: block;
+		text-shadow: 1px 1px 1px @colorWhite;
+	}
+
+	.txtMain {
+		padding-top: 28px;
+		letter-spacing: 1.5px;
+		font-weight: bold;
+		font-size: 1.6em;
+		color: #534337;
+		overflow-x: hidden;
+
+		img {
+			margin-top: -28px;
+			margin-left: -200px;
+		}
+	}
+
+	.txtSub {
+		padding-bottom: 15px;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+		color: #a4a4a4;
+	}
+}
+
+
+/* -------- パンくず -------- */
+
+.boxBreadcrumb {
+	margin-bottom: 40px;
+	padding: 0 0 0 5px;
+	font-size: 0.8em;
+	line-height: 20px;
+	letter-spacing: -1px;
+
+	span,
+	a {
+		margin-right: 3px;
+	}
+
+	span:first-child {
+		margin-left: 0;
+	}
+}
+
+
+/* -------- セクション -------- */
+
+.bgGrey {
+	background: @colorBg;
+}
+
+.bgDotBtm {
+	background: url(../img/common/bg-dot.png) repeat-x bottom;
+}
+
+.liDot {
+
+	li {
+		padding-left: 20px;
+	}
+
+	li:before {
+		float: left;
+		margin: 0 5px 0 -20px;
+		content: "・";
+	}
+}
+
+
+.txtNotes {
+	position: relative;
+	top: -2px;
+	background: #b20001;
+	margin: 0 10px;
+	padding: 3px 10px 1px;
+	line-height: 20px;
+	color: @colorWhite;
+	font-size: 0.7em;
+	font-weight: normal;
+}
+
+.btnBlue {
+	background: #31bbd0;
+	margin: 0 12px;
+	padding: 1px 18px 0;
+	line-height: 20px;
+	color: @colorWhite;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+.btnBrown {
+	background: @colorBase;
+	width: 100%;
+
+}
+
+/* -------- お問い合わせ先 -------- */
+
+.boxContact > dl > dt {
+	font-weight: bold;
+}
+
+
+/* -------- ページング -------- */
+
+.boxPaging {
+	margin: 20px 0 35px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 0;
+
+	p {
+		margin: 0 auto;
+
+		span {
+			border: 1px solid @colorBase;
+			background: @colorBase;
+			margin: 0 2px;
+			padding: 7px 11px;
+			color: @colorWhite;
+			font-weight: normal;
+			line-height: 28px;
+		}
+
+		a span {
+			background: @colorWhite;
+			color: @colorBase;
+		}
+
+		a:hover span {
+			border-color: @colorPoint;
+			color: @colorPoint;
+		}
+	}
+
+	.btnPrev {
+		float: left;
+	}
+
+	.btnTop {
+		margin: 0 auto;
+	}
+
+	.btnNext {
+		float: right;
+	}
+
+}
+
+.boxPostDetail + .boxPaging {
+	padding-left: 0;
+	padding-right: 0;
+
+	.btnPrev,
+	.btnTop,
+	.btnNext {
+		background: @colorBg;
+		width: 240px;
+		padding: 10px;
+	}
+}
+
+
+/* -------- 表 -------- */
+
+.boxTable {
+	border-right: 1px solid @colorGrey;
+	border-bottom: 1px solid @colorGrey;
+	width: 100%;
+	margin: 0 0 40px;
+	line-height: 28px;
+
+	tr td {
+		border-left: 1px solid @colorGrey;
+		border-top: 1px solid @colorGrey;
+		padding: 12px 14px;
+	}
+
+	tr > td:first-child {
+		background: @colorBg;
+		width: 20%;
+		width: 24% \9;
+		vertical-align: middle;
+		font-weight: bold;
+	}
+
+	tr > td:first-child + td {
+		background: @colorWhite;
+		width: 80%;
+		width: 76% \9;
+	}
+
+	ol {
+		padding: 0 0 0 20px;
+
+		li{
+			list-style: decimal;
+		}
+	}
+}
+
+/* ----- メインビジュアル 画像切り替え ----- */
+
+.boxImgChange {
+
+  .boxSelectBtn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 50;
+    width: 100%;
+
+    li {
+      cursor: pointer;
+
+      .imgBtn {
+        display: block;
+      }
+    }
+  }
+
+  .boxContWrap.disnon {
+    display: none;
+  }
+}
+
+
+/* ----- 画像切り替え02 ----- */
+
+.boxImgChange02 {
+  position: relative;
+  z-index: 10;
+  opacity: 0;
+  width: 100%;
+  margin-bottom: 40px;
+
+  a {
+    display: inline;
+    transition: none ! important;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /*  ページング */
+  .flex-control-paging {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+
+
+    li {
+      display: inline-block;
+      margin: 0 7px;
+
+
+      a {
+        display: block;
+        float: left;
+        background: url(../img/common/icn-slides-pagination.png) no-repeat;
+        background-size: 10px;
+        width: 10px;
+        height: 11px;
+        text-indent: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+
+      }
+    }
+
+    a.flex-active {
+      background-position: 0 -13px;
+    }
+
+    a,
+    a:hover {
+      transition: none !important;
+    }
+  }
+
+  .flex-direction-nav {
+    display: none;
+  }
+}
+
+
+/* ----- タブ切り替え ----- */
+
+.boxTab {
+	display: none;
+}
+
+.boxTab.visible {
+	display: block;
+}
+
+
+/* ----- （PC）メインビジュアル 画像切り替え ----- */
+
+/* メインビジュアルを囲う要素 */
+.boxImgChangePC {
+	position: relative;
+  opacity: 0;
+	width: 100%;
+	text-align: center;
+
+	/* タブを囲う要素 */
+	.boxSlidetabs {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		z-index: 50;
+		width: 100%;
+    min-width: 1100px;
+		overflow: hidden;
+
+
+		/* タブ */
+		li {
+      display: inline-block;
+
+      /* ボタン */
+			a {
+				display: block;
+				text-align: center;
+			}
+
+      /* ボタン選択中 */
+			.current {
+			}
+		}
+	}
+
+  /* メイン画像を囲う要素 */
+	.boxContWrap {
+		position:relative;
+		width: 100%;
+
+		/* メイン画像 */
+		.boxItem {
+			position: absolute;
+			display: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			width: 100%;
+		}
+
+		/* テキスト */
+		.txt {
+			display: none;
+		}
+	}
+
+	/* タブが存在しない時に使用 */
+	.disabled {
+		visibility:hidden !important;
+	}
+}
+
+
+/* ----- （スマホ）メインビジュアル 画像切り替え ----- */
+
+.boxImgChangeSmp {
+  display: none !important;
+  position: relative;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+  .boxSelectBtn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 50;
+    width: 100%;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      cursor: pointer;
+
+      .imgBtn {
+        display: block;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .boxContWrap {
+    width: 100%;
+    height: auto;
+
+    img {
+      position: static;
+      top: auto;
+      left: auto;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .boxContWrap.disnon {
+    display: none;
+  }
+}
+
+
+
+/*  フッター 共通設定
+---------------------------------------------*/
+
+#footer {
+	background: @colorWhite;
+	font-size: 0.8em;
+	line-height: 20px;
+
+
+	#footerTop {
+
+		.boxInner {
+			padding: 30px 0 40px;
+		}
+
+		.boxCateNav > ul {
+			display: table;
+			width: 100%;
+
+			> li {
+				display: table-cell;
+				border-right: 1px solid @colorGrey;
+				width: 20%;
+				padding: 10px 20px;
+				vertical-align: top;
+			}
+
+			> li:first-child {
+				padding: 0;
+				vertical-align: middle;
+			}
+
+			> li > dl > dt {
+				margin-bottom: 15px;
+				font-weight: bold;
+				font-size: 1.1em;
+			}
+
+			> li > dl > dd li {
+				margin-bottom: 5px;
+			}
+		}
+
+    /* -- （PC）ページトップへ戻る -- */
+    #btnPageTopPC {
+      display: block;
+	position:fixed;
+	bottom:20%;
+	right:10px;
+    }
+	}
+
+
+	/* -------- フッター中部 -------- */
+
+	#footerMdl {
+
+		.boxInner {
+			display: table;
+
+			> * {
+				display: table-cell;
+				vertical-align: top;
+			}
+		}
+
+
+		/* --- アバウト --- */
+
+		.boxAbout {
+			float: left;
+
+			dl {
+				position: relative;
+				min-height: 100px;
+				padding: 3px 0 0 190px;
+
+				dt {
+					margin-bottom: 5px;
+					font-weight: bold;
+					font-size: 1.1em;
+				}
+
+				img {
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+			}
+		}
+
+		/* --- サイトナビ --- */
+
+		.boxSiteNav {
+
+			ul {
+				text-align: center;
+			}
+
+			li {
+				position: relative;
+				display: inline-block;
+				margin-left: 20px;
+			}
+
+			li:before {
+				position: absolute;
+				top: 4px;
+				left: -10px;
+				border-left: 1px solid #444;
+				width: 1px;
+				height: 12px;
+				content: "";
+			}
+
+			li:first-child {
+				margin-left: 0;
+			}
+
+			li:first-child:before {
+				display: none;
+			}
+		}
+	}
+
+@media screen and (max-width: 640px){
+.boxSiteNav {float: none; width: 100%;}
+}
+
+
+
+	/* -------- フッター下部 -------- */
+
+	#footerBtm {
+    .boxInner {
+      position: relative;
+    }
+
+		.boxCopyright {
+			margin-bottom: 170px;
+			letter-spacing: 0;
+			text-align: center;
+			color: #555;
+			font-size: 1.2em;
+		}
+
+    /* -- （スマホ）ページトップへ戻る -- */
+    #btnPageTopSmp {
+      display: none !important;
+    }
+	}
+}

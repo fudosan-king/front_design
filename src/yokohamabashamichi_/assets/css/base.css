@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body {
+	background-image: url(../img/common/bg-main@2x.png);
+	font-family: 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 Pr6 W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	line-height: 1.875;
+	background-size: 100px 100px;
+	background-color: #fefcf7;
+	background-position: 0 0;
+}
+.isIE11 body {}
+body#tinymce {
+	margin: 15px;
+}
+a {
+	color: inherit;
+}
+a[href^="tel:"] {
+	cursor: default;
+	text-decoration: none;
+	color: inherit;
+	pointer-events: none;
+}
+select {
+	font-family: inherit;
+}
+textarea,
+[type="search"],
+[type="date"],
+[type="tel"],
+[type="email"],
+[type="number"],
+[type="password"],
+[type="text"] {
+	-webkit-appearance: none;
+	appearance: none;
+	font-size: inherit;
+	padding: 13px 15px;
+	border: 1px solid #ACACAC;
+	border-radius: 0px;
+	box-sizing: border-box;
+	width: 100%;
+	line-height: inherit;
+}
+label [type="checkbox"],
+label [type="radio"] {
+	margin-right: 5px;
+}
+label {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 1em;
+}
+label:last-child {
+	margin-right: 0;
+}
+.icon {
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	min-width: 1em;
+}
+.icon::before {
+	display: block;
+}
+.u-gothic {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.u-en {
+	font-family: times, 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 Pr6 W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+.u-serif {
+	font-family: 'Cinzel', serif;
+}

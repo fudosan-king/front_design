@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------
+CSS Information
+
+ File name:      index.css
+ Style Info:     トップページ
+----------------------------------------------------------- */
+
+/*----------------------------------------------------
+	index
+----------------------------------------------------*/
+
+.replay{width:60px; height:20px; position:absolute; bottom:10px; right:5px; z-index:42; background:url(../img/replay.gif); cursor:pointer;}
+.skip{width:60px; height:20px; position:absolute; bottom:10px; right:5px; z-index:41; background:url(../img/skip.gif); cursor:pointer;}
+.top_img00,
+.top_img07,
+.top_img08,
+.top_img09,
+.top_img10,
+.top_img10_2,
+.top_img11,
+.top_img12,
+.top_img13,
+.top_img14,
+.top_img15,
+.top_img16,
+.top_img17,
+.top_img18,
+.top_img19,
+.top_img20,
+.top_img21,
+.top_img22{width:100%; height:auto; overflow:hidden; position:absolute; top:0; left:0; bottom:0; right:0; margin: auto;}
+
+
+.top_img07{background:#000;}
+.top_img09{background-image: url(../img/top_09.png); background-size: auto 100%; background-position: 0 -10%;}
+.top_img14{background-image: url(../img/top_14.png); background-size: auto 100%; background-position: -25% 0;}
+.top_img16{background-image: url(../img/top_16.png); background-size: auto 100%; background-position: 25% 0;}
+.top_img18{background-image: url(../img/top_18.png); background-size: auto 100%; background-position: -25% 0;}
+.top_img19{background-image: url(../img/top_19.png); background-size: 100% auto;}
+.top_img20{background-image: url(../img/top_20.png); background-size: auto 100%; background-position: 0 15%;}
+.top_img21{background-image: url(../img/top_21.png); background-size: 100% auto;}
+.top_img22{background-image: url(../img/top_22.png); background-size: 100% auto;}
+
+
+.top_img00{z-index:15}
+.top_img07{z-index:16}
+.top_img08{z-index:17}
+.top_img09{z-index:18}
+.top_img10{z-index:19}
+.top_img10_2{z-index:20}
+.top_img17{z-index:21}
+.top_img18{z-index:22}
+.top_img15{z-index:23}
+.top_img16{z-index:24}
+.top_img13{z-index:25}
+.top_img14{z-index:26}
+.top_img12{z-index:27}
+.top_img11{z-index:28}
+.top_img21{z-index:10}
+.top_img22{z-index:11}
+.top_img19{z-index:12}
+.top_img20{z-index:13}
+
+
+/*----------------------------------------------------
+   トップページ
+----------------------------------------------------*/
+
+#TOPPIC03{
+width: 100%;
+position: absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+z-index:7;
+background-image: url(../img/bg2.png);
+background-size: cover;
+}
+
+#TOPPIC04{
+width: 100%;
+position: absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+z-index:6;
+background-image: url(../img/bg.jpg);
+background-size: cover;
+}
+
+.top_pc{
+	
+	    max-width:1920px;
+    margin: 0 auto;
+}
+.top_pc img{
+	
+	    width:100%;
+
+}
+.top_sp{
+	display:none;
+}
+@media screen and (max-width: 640px) {
+
+.top_pc{
+	display:none;
+}
+.top_sp{
+	display:inherit;
+	max-width:640px;
+	margin:10px auto;
+}
+}
+

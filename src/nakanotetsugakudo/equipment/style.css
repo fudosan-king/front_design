@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ file name  :  location.css
+ style info :  locationページスタイル指定
+=================================================================== */
+
+article.content{
+}
+.mrauto {margin-right: auto;}
+.mlauto {margin-left: auto;}
+.w100 {width: 100%;}
+.attention {
+	font-size: 10px;
+	line-height: 1.2;
+}
+.content h3 {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-size: 21px;
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+section h4 {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+article img {
+	max-width: 100%;
+}
+article p {
+	margin-bottom: 10px;
+}
+
+.fw700{
+font-weight: 700;
+}
+
+ul.list_circle > li{
+list-style:disc;
+margin: 0 0 0 20px;
+}
+ul.base_bg > li{
+background: #74bdb7;
+text-align: center;
+padding: 5px;
+margin: 0 0 2px 0;
+color: #fff;
+}
+
+.fs_10{font-size:10px;}
+.fs_12{font-size:12px;}
+.fs_14{font-size:14px;}
+.fs_16{font-size:16px;}
+.fs_18{font-size:18px;}
+.fs_20{font-size:20px;}
+.fs_22{font-size:22px;}
+.fs_24{font-size:24px;}
+.fs_26{font-size:26px;}
+.fs_28{font-size:28px;}
+.fs_30{font-size:30px;}
+.fs_32{font-size:32px;}
+
+.sw_mincho{
+font-family: "Sawarabi Mincho";
+}
+
+.bg01,
+.bg02,
+.bg03,
+.bg04,
+.bg05{
+background-position: center center;
+background-size: cover;
+position: relative;
+z-index: 2;
+}
+
+.bg01{
+background-image: url(imgs/img09.jpg);
+}
+.bg02{
+background-image: url(imgs/img15.jpg);
+}
+.bg03{
+background-image: url(imgs/img24.jpg);
+}
+.bg04{
+background-image: url(imgs/img29.jpg);
+background-position: center center;
+}
+.bg05{
+background-image: url(imgs/loc_bg05.jpg);
+}
+
+
+.pic{
+position: relative;
+z-index: 1;
+}
+
+.pic > img{
+position: relative;
+z-index: 2;
+}
+
+.bg_cap{
+position: absolute;
+padding: 2px 5px;
+box-sizing: border-box;
+background:RGBA(0,0,0,0.5);
+color: #fff;
+font-size:12px;
+top:auto;
+left: 0;
+bottom:0;
+right: 0;
+z-index: 3;
+}
+
+.headline{
+font-size:18px;
+text-align: center;
+line-height: 1.8em;
+}
+.headline02{
+font-size:20px;
+text-align: center;
+line-height: 1.8em;
+}
+
+.base_color{
+color: #2a6e75;
+}
+.border{
+border: 1px solid #ccc;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.w_630{
+width: 630px;
+margin: 0 auto;
+}
+
+.br::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.loc_label{
+font-size: 16px;
+}
+
+.loc_txt{
+font-size:10px;
+}
+
+.txt_sp{
+text-align: left;
+}
+
+
+/* スマホ */
+@media screen and (max-width: 639px) {
+.headline{
+font-size:14px;
+text-align: left;
+line-height: 1.6em;
+}
+
+.br::before {
+    content: "";
+    white-space: normal;
+}
+.attention {
+	text-align: left;
+}
+
+.w_630{
+width: 85%;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+.txt_sp{
+text-align: center;
+}
+}
+
+
+.inner > ul,
+.inner02 > ul,
+.col02 > ul,
+.col03 > ul,
+.col04 > ul,
+.col04_2 > ul{
+display:-webkit-box;
+display:-moz-box;
+display:-ms-flexbox;
+display:-webkit-flex;
+display:-moz-flex;
+display:flex;
+-webkit-box-lines:multiple;
+-moz-box-lines:multiple;
+-webkit-flex-wrap:wrap;
+-moz-flex-wrap:wrap;
+-ms-flex-wrap:wrap;
+flex-wrap:wrap;
+}
+
+ul.col_c{
+-webkit-box-pack:center;
+-moz-box-pack:center;
+-webkit-flex-pack:center;
+-moz-flex-pack:center;
+-ms-flex-pack:center;
+-webkit-justify-content:center;
+-moz-justify-content:center;
+justify-content:center;
+}
+
+ul.col_s{
+-webkit-box-pack:justify;
+-moz-box-pack:justify;
+-webkit-flex-pack:justify;
+-moz-flex-pack:justify;
+-ms-flex-pack:justify;
+-webkit-justify-content:space-between;
+-moz-justify-content:space-between;
+justify-content:space-between;
+
+}
+
+ul.col_l{
+-webkit-box-pack:start;
+-moz-box-pack:start;
+-webkit-flex-pack:start;
+-moz-flex-pack:start;
+-ms-flex-pack:start;
+-webkit-justify-content:flex-start;
+-moz-justify-content:flex-start;
+justify-content:flex-start;
+}
+
+ul.col_c > li {
+margin: 0 1% 40px 1%;
+}
+ul.col_s > li{
+margin: 0 0 40px 0;
+}
+
+.inner > ul > li > .col04 > ul.col_s > li:nth-last-child(2),
+.inner > ul > li > .col04 > ul.col_s > li:last-child,
+.inner02 > ul > li > .col04 > ul.col_s > li:nth-last-child(2),
+.inner02 > ul > li > .col04 > ul.col_s > li:last-child{
+margin: 0 0 0 0;
+}
+
+.inner > ul > li,
+.inner02 > ul > li,
+.col02 > ul > li{
+width: 480px;
+box-sizing: border-box;
+}
+
+.col04 > ul > li,
+.col04_2 > ul > li{
+width: 220px;
+box-sizing: border-box;
+}
+
+.col03 > ul > li{
+width: 306px;
+box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 1000px) {
+.col04 > ul{
+width: 480px;
+margin: 0 auto;
+}
+
+ul.col_s,
+ul.col_l{
+-webkit-box-pack:center;
+-moz-box-pack:center;
+-webkit-flex-pack:center;
+-moz-flex-pack:center;
+-ms-flex-pack:center;
+-webkit-justify-content:center;
+-moz-justify-content:center;
+justify-content:center;
+}
+.inner > ul > li > .col04 > ul.col_s > li:nth-last-child(2),
+.inner > ul > li > .col04 > ul.col_s > li:last-child,
+.inner02 > ul > li > .col04 > ul.col_s > li:nth-last-child(2),
+.inner02 > ul > li > .col04 > ul.col_s > li:last-child,
+ul.col_c > li,
+ul.col_s > li{
+margin: 0 1% 30px 1%;
+}
+
+.inner > ul > li,
+.inner02 > ul > li:first-child{
+width: 480px;
+margin: 0 0 0 0;
+box-sizing: border-box;
+}
+.inner02 > ul > li,
+.inner > ul > li:first-child{
+width: 100%;
+margin: 0 0 30px 0;
+box-sizing: border-box;
+}
+
+.inner > ul > li:first-child{
+padding: 50% 0 0 0;
+}
+
+.inner > ul > li.bg01:first-child{
+padding: 100% 0 0 0;
+width: 60%;
+}
+}
+
+@media screen and (max-width: 639px) {
+
+.inner > ul > li > .col04 > ul.col_s > li:nth-last-child(2),
+.inner > ul > li > .col04 > ul.col_s > li:last-child,
+.inner02 > ul > li > .col04 > ul.col_s > li:nth-last-child(2),
+.inner02 > ul > li > .col04 > ul.col_s > li:last-child{
+margin: 0 2%;
+}
+
+ul.col_c > li,
+ul.col_s > li{
+margin: 0 2% 30px 2%;
+}
+
+.col03 > ul > li,
+.col02 > ul > li{
+width: 300px;
+}
+.inner > ul > li,
+.inner02 > ul > li{
+width: 100%;
+}
+
+.inner > ul > li.bg01:first-child{
+padding: 130% 0 0 0;
+width: 100%;
+}
+}
+@media only screen and (max-width: 500px) {
+.col04 > ul{
+width: 100%;
+}
+
+.col02 > ul > li{
+width: 220px;
+margin: 0 auto 30px auto;
+}
+
+.col04 > ul > li{
+width: 46%;
+margin: 0 auto 30px auto;
+}
+.col03 > ul > li,
+.col04_2 > ul > li{
+width: 96%;
+margin: 0 auto 30px auto;
+}
+}

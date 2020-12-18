@@ -1,0 +1,209 @@
+@charset "utf-8";
+/*
+Author: LIQUID DESIGN Ltd.
+Author URI: https://lqd.jp/wp/
+*/
+.liquid-speech-balloon-wrap {
+    margin-bottom: 2rem;
+    flex-direction: row;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.liquid-speech-balloon-text {
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: 100%;
+    margin-left: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.liquid-speech-balloon-text p,
+.liquid-speech-balloon-text .wp-block-liquid-speech-balloon {
+    margin: 0;
+    padding: 0;
+}
+.liquid-speech-balloon-text p a {
+    color: inherit;
+    text-decoration: underline;
+}
+.liquid-speech-balloon-arrow {
+    position: absolute;
+    z-index: 2;
+    content: '.';
+    line-height: 1;
+    width: 0;
+    height: 0;
+    top: 25px;
+    left: -11px;
+    color: transparent;
+}
+.liquid-speech-balloon-wrap:not(.liquid-speech-balloon-vertical) .liquid-speech-balloon-arrow {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 10px solid rgba(0, 0, 0, 0.2);
+}
+
+.liquid-speech-balloon-avatar {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    line-height: 1;
+    flex-shrink: 0;
+    background-image: url(../images/avatar.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+.liquid-speech-balloon-avatar::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    left: 0;
+    top: 69px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.liquid-speech-balloon-bubble .liquid-speech-balloon-arrow {
+    display: none;
+}
+.liquid-speech-balloon-bubble .liquid-speech-balloon-text::before {
+    content: '.';
+    color: transparent;
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    border: inherit;
+    background-color: inherit;
+    left: -15px;
+    width: 15px;
+    height: 15px;
+    top: 20px;
+}
+.liquid-speech-balloon-bubble .liquid-speech-balloon-text::after {
+    content: '.';
+    color: transparent;
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    border: inherit;
+    background-color: inherit;
+    left: -20px;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.liquid-speech-balloon-right {
+    flex-direction: row-reverse;
+}
+.liquid-speech-balloon-right .liquid-speech-balloon-text {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.liquid-speech-balloon-wrap.liquid-speech-balloon-right .liquid-speech-balloon-arrow {
+    left: auto;
+    right: -18px;
+    border-right: 7px solid transparent;
+    border-left: 10px solid rgba(0, 0, 0, 0.2);
+}
+
+.liquid-speech-balloon-right.liquid-speech-balloon-bubble .liquid-speech-balloon-text::before {
+    left: auto;
+    right: -15px;
+}
+.liquid-speech-balloon-right.liquid-speech-balloon-bubble .liquid-speech-balloon-text::after {
+    left: auto;
+    right: -20px;
+}
+
+.liquid-speech-balloon-square .liquid-speech-balloon-text {
+    border-radius: 0;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.liquid-speech-balloon-dashed .liquid-speech-balloon-text {
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+}
+
+.liquid-speech-balloon-shadow .liquid-speech-balloon-text {
+    border-radius: 0;
+    box-shadow: 3px 3px 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.liquid-speech-balloon-borderless .liquid-speech-balloon-text {
+    border: 0 none;
+    padding: 10px 5px;
+}
+.liquid-speech-balloon-borderless .liquid-speech-balloon-text .liquid-speech-balloon-arrow {
+    display: none;
+}
+
+.liquid-speech-balloon-small .liquid-speech-balloon-text,
+.liquid-speech-balloon-small .liquid-speech-balloon-text p {
+    font-size: 13px;
+    padding: 10px 15px;
+}
+.liquid-speech-balloon-small .liquid-speech-balloon-avatar {
+    width: 32px;
+    height: 32px;
+}
+.liquid-speech-balloon-small .liquid-speech-balloon-arrow {
+    top: 7px;
+}
+.liquid-speech-balloon-small .liquid-speech-balloon-avatar::after {
+    display: none;
+}
+
+.liquid-speech-balloon-large .liquid-speech-balloon-text,
+.liquid-speech-balloon-large .liquid-speech-balloon-text p {
+    font-size: 36px;
+}
+
+.liquid-speech-balloon-short .liquid-speech-balloon-text {
+    width: auto;
+}
+
+.liquid-speech-balloon-vertical {
+    flex-direction: column-reverse;
+}
+.liquid-speech-balloon-vertical .liquid-speech-balloon-text {
+    margin: 0 0 1rem 0;
+}
+.liquid-speech-balloon-wrap.liquid-speech-balloon-vertical .liquid-speech-balloon-arrow {
+    top: auto;
+    bottom: -11px;
+    left: 11px;
+    border-top: 10px solid rgba(0, 0, 0, 0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+.liquid-speech-balloon-vertical .liquid-speech-balloon-text::before {
+    left: 15px;
+    top: auto;
+    bottom: -15px;
+}
+.liquid-speech-balloon-vertical .liquid-speech-balloon-text::after {
+    left: 20px;
+    top: auto;
+    bottom: -22px;
+}
+.liquid-speech-balloon-vertical.liquid-speech-balloon-right .liquid-speech-balloon-avatar {
+    margin-left: auto;
+    margin-right: 0;
+}
+.liquid-speech-balloon-vertical.liquid-speech-balloon-right .liquid-speech-balloon-arrow {
+    left: auto;
+    right: 11px;
+}

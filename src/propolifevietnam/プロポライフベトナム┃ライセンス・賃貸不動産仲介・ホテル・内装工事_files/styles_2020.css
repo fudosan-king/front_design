@@ -1,0 +1,39 @@
+body.home {
+	background: url('https://www.propolifevietnam.com/wp-content/themes/themes/images/bg-home.jpg');
+}
+.proCol .brown {
+	padding: 15px;
+    min-height: 260px;
+}
+.thumbnail.brown {
+	background: #50401B;
+}
+.thumbnail.brown p {
+	color: #b3ac9d;
+}
+.proCol .optical {
+	min-height: 170px;
+}
+
+.carousel_slider .carousel-cell {
+  width: 100%; /* full width */
+  height: 260px; /* height of carousel */
+  margin-right: 10px;
+}
+.carousel_slider .carousel-cell img {
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+}
+
+@media (max-width: 768px) {
+	.proCol .brown {
+		min-height: 260px;
+	}
+	.proCol .thumb.thumb_slider {
+		height: auto !important;
+	}
+	.carousel_slider .carousel-cell, .carousel_slider .carousel-cell img {
+		height: 369px;
+	}
+}

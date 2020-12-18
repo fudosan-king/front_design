@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 00.base style                                                          */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro W3","ヒラギノ角ゴ Pro W3","Osaka";
+}
+body {
+	background-image: url(../images/mfp_background_image.gif);
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+div.section {
+	border: solid 1px #CCCCCC;
+	padding: 10px;
+	margin: 10px;
+}
+img {
+	display: block;
+	border: none;
+}
+p,li {
+	font-size: 12px;
+	line-height: 1.5em;
+	color : #232323;
+}
+li {
+	list-style: none;
+}
+em,strong,h1,h2,h3,dt {
+	font-family: "Hiragino Kaku Gothic Pro W6","ヒラギノ角ゴ Pro W6","Osaka","ＭＳ Ｐゴシック";
+	font-weight: bolder;
+}
+h1 {
+	font-size: 18px;
+	color : #232323;
+}
+h2 {
+	font-size: 16px;
+	color : #232323;
+}
+h3 {
+	font-size: 14px;
+	color : #232323;
+}
+hr {
+	border-style: solid;
+	border-color: #999999;
+}
+a {
+	text-decoration: none;
+}
+a:active {
+	color: #0000FF;
+}
+a:link {
+	color: #0000FF;
+}
+a:visited {
+	color: #990099;
+}
+a:hover {
+	text-decoration: underline;
+	color: #CC0000;
+}
+.english {
+	font-family: "Myriad Pro","Verdana","Arial", "Helvetica", "sans-serif";
+	line-height: normal;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 01.wrapper style                                                       */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div#wrapper {
+	margin: 0px auto 0px auto;
+	width: 100%;
+	background-image: url(../images/mfp_background.gif);
+	background-repeat: repeat-x;
+}
+div#header {
+	position: relative;
+	margin: 0px auto 0px auto;
+	width: 650px;
+	height: 90px;
+	background-image: url(../images/mfp_header.png);
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mfp_header.png', sizingMethod='scale');
+}
+h1#title {
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	color: #FFFFFF;
+	float: left;
+}
+div#header span {
+	display: block;
+	position: absolute;
+	top: 55px;
+	left: 40px;
+	color: #FFFFFF;
+	font-size: 10px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 04.container style                                                     */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div#container {
+	margin: 0px auto 0px auto;
+	padding: 0px 20px 0px 20px;
+	width: 610px!important;
+	width/**/: 650px;
+	clear: both;
+	text-align: left;
+	background-image: url(../images/mfp_container.png);
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mfp_container.png', sizingMethod='scale');
+
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 05.contents style                                                      */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div#contents {
+	padding: 5px;
+	width: 600px!important;
+	width/**/: 610px;
+	background-color: #FFFFFF;
+}
+div#contents p {
+	padding: 0px 10px 0px 10px;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 07.footer style                                                        */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div#footer {
+	position: relative;
+	margin: 0px auto 0px auto;
+	width: 650px;
+	height: 70px;
+	background-image: url(../images/mfp_footer.png);
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mfp_footer.png', sizingMethod='scale');
+	clear: both;
+}
+div#footer span {
+	display: block;
+	font-family: "Myriad Pro","Verdana","Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	position: absolute;
+	color: #FFFFFF;
+	width: 650px;
+	height: 30px;
+	text-align: center;
+	top: 16px;
+	left: 0px;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 08.copyright style                                                     */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div#copyright {
+	padding: 2px;
+	color: #999999;
+	clear: both;
+	line-height: normal;
+	background-color: #666666;
+}
+div#copyright p {
+	font-size: 10px;
+}
+div#copyright span {
+	font-family: "Myriad Pro","Verdana","Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+div#thanks {
+	padding: 40px 0px 40px 0px;
+	text-align: center;
+}
+div#thanks p {
+	font-size: 16px;
+}
+div#thanks p strong {
+	font-size: 18px;
+	color: #CC0000;
+}

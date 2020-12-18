@@ -1,0 +1,494 @@
+/*nicker*/
+.c744639 {color: #744639; font-weight: 900; font-size: 14px; margin-bottom: 5px; letter-spacing: 0.1em;}
+.c5E5E5E {color: #5E5E5E; font-size: 14px; font-weight: 500; letter-spacing: 0.1em;}
+#header {
+	height: auto !important;
+	border-top: none !important;
+}
+.navbar_custom_sub {
+	background: url('../images/bg-pickup.png') repeat-x;
+	height: 121px;
+	box-shadow: 0 3px 3px 0px rgba(0, 0, 0, .1);
+    -webit-box-shadow: 0 3px 3px 0px rgba(0, 0, 0, .1);
+    z-index: 100;
+}
+.navbar_custom_sub .navbar-nav {
+	float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.navbar_custom_sub .navbar-nav > li {
+	display: inline-block;
+}
+.navbar_custom_sub .navbar-nav > li > a {
+	font-family: 'HiraKakuPro-W6-AlphaNum', arial;
+    padding: 0 5px;
+    color: #744639 !important;
+    border-left: 1px dotted #9A9B94;
+    border-right: none;
+    font-size: 16px;
+    line-height: 16px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.navbar_custom_sub .navbar-nav > li.active > a {
+	color: #333 !important;
+	background-color: transparent;
+}
+.navbar_custom_sub .navbar-nav > li:hover a {
+	opacity: 1 !important;
+	color: #333 !important;
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar_custom_sub .navbar-nav > li > a span {
+	display: block;
+}
+
+/* KNS CSS add more*/
+
+.open > .dropdown-menu {
+  animation-name: slidenavAnimation;
+  animation-duration:.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-name: slidenavAnimation;
+  -webkit-animation-duration:.3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+
+  -moz-animation-name: slidenavAnimation;
+  -moz-animation-duration:.3s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+}
+@keyframes slidenavAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slidenavAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.submit-contact {
+	font-size: 26px;
+	font-weight: bold;
+	width: 300px;
+	height: 60px;
+	color: #fff;
+	background-color: #542721;
+}
+
+.navbar_custom_sub .navbar-nav > li > .dropdown-menu{
+    background: url(../images/bg_infomation.jpg) no-repeat left top;
+    padding: 0 20px;
+}
+
+.navbar_custom_sub .navbar-nav > li > .dropdown-menu > li > a {
+    border: none;
+}
+.navbar_custom_sub .navbar-nav > li > .dropdown-menu > li > a:hover{
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.navbar_custom_sub .navbar-nav > li > .dropdown-menu > li:nth-child(even){
+    border-top: #744639 1.5px dotted;
+}
+.navbar_custom_sub .navbar-nav > li > .dropdown-menu > li > a .w30p{
+    font-size: 16px;
+    color: #744639;
+}
+
+/* END KNS CSS add more*/
+
+
+.navbar_custom_sub > .container .navbar-brand, .navbar_custom_sub > .container-fluid .navbar-brand {
+	margin-left: 15px;
+}
+.menu_sub {
+	position: relative;
+}
+.navbar-brand {
+    background: url('../images/logo_small.png') no-repeat;
+    -webkit-background-size: 87%;
+	background-size: 100%;
+    width: 266px;
+    height: 89px;
+    text-indent: -99999px;
+    position: relative;
+    top: 35px;
+    float: left;
+}
+.navbar_custom_sub .navbar-nav > li:nth-child(2) > a {
+	border-left: none;
+}
+.btn_showroom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background: #c5a993;
+    color: #3c1210;
+    border-left: none;
+    font-size: 14px;
+    font-family: 'HiraKakuPro-W3-AlphaNum', sans-serif;
+    height: 135px;
+    width: 150px;
+    border-radius: 0;
+}
+.btn_showroom .btn_showroom_content {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 55px 0;
+    font-weight: bold;
+}
+.btn_showroom .btn_showroom_content:before {
+    position: absolute;
+    content: '';
+    border: 1px solid #fff;
+    left: 0px;
+    right: 0px;
+    top: 5px;
+    bottom: 5px;
+    margin: auto;
+}
+.btn_showroom:hover {
+    background: #ab896f;
+    opacity: 1 !important;
+}
+.box_top_right {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 160px;
+}
+.box_top_right .btn {
+	color: #53585f !important;
+	border-radius: 0;
+    font-size: 14px;
+    border: none;
+    background: #d4d6d9;
+    margin-left: 5px;
+    padding: 4px 15px;
+    font-family: 'HiraKakuPro-W3-AlphaNum', sans-serif;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid transparent;
+}
+.box_top_right .btn:hover {
+    border-color: #d4d6d9;
+    background: transparent;
+    opacity: 1 !important;
+}
+#content {
+	margin-top: 121px !important;
+}
+
+#boxAccMenu dl{
+    margin-bottom: 0;
+}
+
+
+#boxAccMenu .new_feature{
+    color: #ff0000;
+    font-weight: bold;
+
+    margin-right: 45px;
+    text-transform: lowercase;
+    position: relative;
+    font-size: 9pt;
+}
+
+#boxAccMenu .new_feature span{
+    position: absolute;
+    width: initial!important;
+    max-width: initial!important;
+    padding-left: 0!important;
+    top:-15px;
+    left: 17px;
+}
+
+#boxAccMenu .new_feature_option{
+    color: #ff0000;
+    font-weight: bold;
+
+    text-transform: lowercase;
+    position: relative;
+    font-size: 9pt;
+}
+
+#boxAccMenu .new_feature_option span{
+    position: absolute;
+    width: initial!important;
+    max-width: initial!important;
+    padding-left: 0!important;
+    top:-4px;
+}
+
+
+#boxAccMenu dl dd ul{
+    margin-bottom: -5px;
+}
+
+#boxAccMenu .customer-search-form{
+    margin-top: 20px;
+}
+
+.boxRoomDetail .boxTable.sp{
+    display: none;
+}
+.boxRoomDetail .boxTable.pc{
+    display: table;
+}
+
+
+/* for mobile*/
+@media (max-width:1024px) {
+	.navbar_custom_sub .navbar-nav > li > a {
+		padding: 0 17px;
+	}
+}
+
+@media (max-width: 991px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: none;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin: 0 -15px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-left: none;
+	}
+	.navbar-text {
+		float: none;
+		margin: 15px 0;
+	}
+	.navbar-collapse.collapse.in {
+		display: block!important;
+	}
+	.collapsing {
+		overflow: hidden!important;
+	}
+}
+
+@media (max-width:768px) {
+	.navbar_custom_sub .navbar-nav > li > a .c744639 {
+        color: #FBE6A2 ;
+        margin-bottom: 5px;
+    }
+    .navbar_custom_sub .navbar-nav > li > a .c5E5E5E {
+        color: #fff;
+    }
+	#search-detail .new-small {
+		display: block;
+		height: 22px;
+    	width: auto;
+	}
+	#search-detail .new-large {
+		display: none;
+	}
+
+	.room-detail {
+		padding: 0 0 0;
+	}
+
+	.menu-toggle {
+	    width: 30px;
+	    position: relative;
+	    top: -25px;
+	    left: -20px;
+	}
+	.text_japanese {
+        display: inline-block;
+        top: 0px;
+        padding-left: 5px;
+    }
+	.w30p {width: 40%; display: inline-block; vertical-align: middle;}
+    .w70p {width: 50%; vertical-align: middle; display: inline-block !important;}
+    .navbar-custom.top-nav-collapse .navbar-nav > li > a span {
+        display: inline-block;
+    }
+	.menu_sub {
+		padding: 0;
+	}
+	.navbar-header {
+		height: 65px;
+		width: 100%;
+	}
+	.navbar-toggle {
+	    margin: 0;
+	    background: #451f07;
+	    border-radius: 0;
+	    padding: 25px 20px;
+	    right: 0;
+	    border: none;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #451F07;
+	}
+	.navbar_custom_sub {
+		background: #451f07;
+	    height: auto;
+	    margin-bottom: 0;
+	}
+	.navbar-brand_xs {
+	    background: url('../images/logo_small_white.png') no-repeat;
+	    background-size: 100%;
+	    width: 200px;
+	    height: 49px;
+	    border-left: none !important;
+	    position: relative;
+	    top: 8px;
+	    left: 20px;
+	}
+	#content {
+		margin-top: 0px !important;
+	}
+	.navbar_custom_sub .navbar-nav {
+		margin: 0;
+		width: 100%;
+	}
+	.navbar_custom_sub .navbar-nav > li {
+		display: block;
+	}
+	.navbar_custom_sub .navbar-nav > li > a {
+		padding: 10px 20px;
+		border-left: none;
+		border-bottom: 1px solid #751414;
+		display: block;
+		text-align: center;
+		color: #fff !important;
+		font-size: 14px;
+	}
+	.navbar_custom_sub .navbar-nav > li:hover > a {
+		background-color: #e7e7e7;
+	}
+	.navbar_custom_sub .navbar-nav > li.active > a {
+		color: #bfb895 !important;
+	}
+	.navbar-fixed-top {
+		position: relative;
+	}
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+		margin: 0;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width:420px){
+	.navbar_custom_sub .navbar-nav > li > .dropdown-menu{
+		background: inherit;
+	}
+
+	.navbar_custom_sub .navbar-nav .open .dropdown-menu{
+		padding: 0;
+	}
+
+	.navbar_custom_sub .navbar-nav > li > .dropdown-menu > li > a .w30p{
+		font-size: 12px;
+		color: #fff;
+		font-family: 'HiraKakuPro-W6-AlphaNum',arial;
+		font-weight: 600;
+		margin-left: 41%;
+	}
+
+    .boxRoomDetail .boxTable.sp{
+        display: block;
+    }
+    .boxRoomDetail .boxTable.pc{
+
+        display: none;
+    }
+
+    .matter-port{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:768px) {
+	.labelPrice {
+		margin-top: 6px !important;
+	}
+	.contact-pc {
+		display: none !important;
+	}
+	.button-detail-sp {
+		height: 40px;
+		width: 100%;
+		font-size: 16px;
+		background: #0050c7;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+	.page-search #content #search-result .boxSection .boxSectionHead dl dd.boxBtnArea {
+		text-align: center;
+	}
+	.page-search #content #search-result .boxSection .boxSectionHead dl dt label {
+		padding: 15px 10px 0px 30px !important;
+	}
+	.page-search #content #search-result .boxSection .boxSectionHead dl dt {
+		padding-top: 10px;
+	}
+	.detail-sp {
+		display: block !important;
+		text-align: center;
+	}
+	.detail-sp a {
+		width: 100%;
+		color: #fff;
+	}
+	.detail-sp a:hover {
+		text-decoration: none;
+	}
+	.contact-sp {
+		display: block !important;
+	}
+}
+
+
+
+
+
+

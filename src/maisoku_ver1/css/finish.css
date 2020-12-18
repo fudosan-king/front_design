@@ -1,0 +1,25 @@
+html, body, #page, main, .container, .main_content, section { height: 100%; }
+body {
+    font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ, sans-serif;
+}
+.bg-box { background-color: #000000; height: 10%; }
+.finish-box {
+    background-color: #93bebc;
+    border-radius: 7px 7px;
+    padding: 50px 100px;
+}
+.finish-box h2 { color: #ffffff; font-weight: 600; text-align: center; }
+.finish-box .finish-box-content { margin-top: 10%; }
+.finish-box .finish-box-content p { color: #e2edec; margin-bottom: 0px; }
+.finish-box .finish-box-content .txt-big { font-size: 1rem; }
+.finish-box .finish-box-content .txt-small { font-size: 0.7rem; }
+.finish-box .finish-box-content .txt-small span { padding-left: 3%; }
+/* Footer */
+.ft-footer {background-color: #eeeeee; padding-top: 5px; padding-bottom: 5px; }
+.ft-footer span { font-size: 12px; }
+@media (max-width: 576px) {
+    .finish-box { padding: 50px 50px; }
+    .finish-box h2 { font-size: 1rem; }
+    .finish-box .finish-box-content .txt-big { font-size: 0.6rem; }
+    .finish-box .finish-box-content .txt-small { font-size: 7px; }
+}

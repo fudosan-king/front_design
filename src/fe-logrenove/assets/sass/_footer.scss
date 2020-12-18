@@ -1,0 +1,52 @@
+footer{
+    padding-bottom:110px;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+ul.list_social li a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    background: #fff;
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+    color: #8c755e;
+    text-align: center;
+}
+
+
+ul.list_menufooter {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    font-size: 13px;
+    li {
+	    display: inline-block;
+	    margin: 0 15px;
+	    width: auto;
+	}
+}

@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page-nihonbashi #sec04{
+    background: #fff;
+    color: #000;
+}
+
+.page-nihonbashi article.content {
+    padding: 2rem 0 0;
+    background: #000;
+    color: #fff;
+}
+
+.page-nihonbashi #sec04 .attention {
+	font-size: 1.2rem;
+	padding: 20px 0;
+	color: #000;
+}
+
+#sec04{
+	padding: 30px 0;
+}
+#sec07 {
+	background: #ffffff;
+}
+.hisamatsuTop {
+	width: 100%;
+	height: 12px;
+	background: url('img/hisamatsu_top.png') left top repeat-x;
+}
+.hisamatsu {
+	width: 100%;
+	background: #5D5F42;
+}
+.hisamatsu .boxInner {
+	width: 100%;
+	max-width: 2000px;
+	background: url('img/hisamatsu_bg.png') left top no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+.hisamatsu .boxInner .photo {
+	width: 37.55%;
+	margin-left: 14.5%;
+}
+.hisamatsu .boxInner .txt {
+	width: 27.1%;
+	margin-left: 2.8%;
+}
+.hisamatsuBottom {
+	width: 100%;
+	height: 10px;
+	background: url('img/hisamatsu_bottom.png') left bottom repeat-x;
+}
+@media screen and (max-width: 767px) {
+	.hisamatsu .boxInner {
+		box-sizing: border-box;
+		background: none;
+		padding: 0;
+	}
+	.hisamatsu .boxInner .photo {
+		width: 100%;
+		margin: 0;
+	}
+	.hisamatsu .boxInner .txt {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 15px;
+		margin: 0;
+	}
+
+}
+
+
+@media screen and (min-width: 960px){
+	#sec_01 .station-box .pc{
+		display: block;
+	}
+	#sec_01 .station-box .pc img{
+		width: 100%;
+		display: block;
+	}
+	#sec_01 .station-box .sp{
+		display: none;
+	}
+	.page-nihonbashi #sec03 {
+		background: #3E3428;
+	}
+	.page-nihonbashi #sec03 .area .left {
+		width: 398px;
+		float: left;
+		padding: 114px 20px 64px 20px;
+	}
+	.page-nihonbashi #sec03 .area .right {
+		width: 367px;
+		float: right;
+		padding: 100px 20px 20px 0;
+	}
+	.page-nihonbashi .map-box {
+		background-color: #fff;
+		width: 100%;
+	}
+	.page-nihonbashi #sec04 img{
+		width: 100%;
+	}
+	.page-nihonbashi #sec05 {
+		width: 100%;
+		background: url(img/location_04.png) no-repeat;
+		background-size: cover;
+		margin: 0 auto;
+	}
+	.page-nihonbashi #sec05 .text-box{
+		width: 100%;
+		max-width: 858px;
+		margin: 0 auto;
+		padding: 10% 0;
+		text-align: center;
+	}
+	.page-nihonbashi #sec05  .sec05_title{
+		font-size: 3.3rem;
+	}
+	.page-nihonbashi #sec05  .sec05_about{
+		font-size: 2.2rem;
+		line-height: 2.1;
+		font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	}
+
+}
+
+@media screen and (max-width: 959px) {
+	#sec_01 .station-box .pc{
+		display: none;
+	}
+	#sec_01 .station-box .sp{
+		display: block;
+	}
+	
+	#sec_01 .station .left{
+		text-align: center;
+		padding: 10px 20px 0;
+	}
+	#sec_01 .station .left p{
+		text-align: left;
+		margin: 30px 0;
+		font-size: 1.4rem;
+		line-height: 1.5;
+	}
+	
+	.page-nihonbashi #sec_01 .left img{
+		width: 90%;
+		max-width: 320px;
+	}
+	
+	#sec_01 .station .right{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.page-nihonbashi #sec_01 .right img{
+		width: 90%;
+		max-width: 380px;
+	}
+	#sec05{
+		background-image: url(img/location_04.png);
+		background-size: cover
+	}
+	.text-box{
+		padding: 40px 20px;
+	}
+	#sec05 p{
+		margin: 0;
+		text-align: center;
+		line-height: 1.5;
+	}
+	
+	.sec05_title{
+		font-size: 2rem;
+		padding-bottom: 20px;
+	}
+	.sec05_about{
+		font-size: 1.4rem;
+		
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 639px) {
+	.page-nihonbashi #sec03 {
+		margin: 0;
+	}
+}
+
+#sec06 {
+	width: 100%;
+	box-sizing: border-box;
+	background: url('img/location_bg.png') no-repeat;
+	background-size: cover;
+	padding: 50px 0 80px;
+}
+#sec06 h3 {
+	color: #000000;
+	font-size: 2.8rem;
+	text-align: center;
+	margin: 0 0 30px;
+}
+.locationWrap {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+/* タブの設定 */
+.tab{
+	overflow:hidden;
+}
+.tab,
+.tab_content{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.tab p{
+	background:#1B305B;
+	float:left;
+	padding: 14px 0;
+	width: 16.2%;
+	margin: 0 0.56% 0 0;
+	box-sizing: border-box;
+	font-size: 1.3rem;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.tab p:last-child {
+	margin-right: 0;
+}
+
+.tab p.select {
+	background:#fff;
+	color: #1B305B;
+}
+.tab_content {
+	background: #ffffff;
+	padding: 20px;
+}
+.tab_container {
+	position: relative;
+}
+.tab_container:before {
+	content: "";
+	display: block;
+	padding-top: 27%;
+}
+.tab_location {
+	width: 90% !important;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 5%;
+}
+.hide {
+	z-index: -1;
+}
+.tab_location li{
+	width: 33.3333333333%;
+	float: left;
+	padding: 0 3px;
+	margin: 0;
+}
+.tab_location li p {
+	color: #000000;
+	font-size: 1.3rem;
+	text-align: center;
+}
+@media screen and (max-width: 880px) {
+	.tab_location li p {
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 767px) {
+	.tab_container:before {
+		padding-top: 41%;
+	}
+	.tab_location li{
+		width: 50%;
+		float: left;
+		padding: 0 3px;
+		margin: 0;
+	}
+	.tab_location li p {
+		font-size: 0.8rem;
+	}
+}
+.slick-prev,
+.slick-next {
+	z-index: 3;
+}
+@media screen and (max-width: 639px) {
+	#sec06 {
+		padding: 15px 0 30px;
+	}
+	#sec06 h3 {
+		font-size: 2.4rem;
+		margin: 0 0 15px;
+	}
+	.tab p {
+		font-size: 1.0rem;
+	}
+	.locationWrap {
+		width: 96%;
+	}
+}

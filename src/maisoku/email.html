@@ -1,0 +1,802 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body style="font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; font-size: 12px">
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <style type="text/css">
+	    body {
+	        padding-top: 0 !important;
+	        padding-bottom: 0 !important;
+	        padding-top: 0 !important;
+	        padding-bottom: 0 !important;
+	        margin: 0 !important;
+	        width: 100% !important;
+	        -webkit-text-size-adjust: 100% !important;
+	        -ms-text-size-adjust: 100% !important;
+	        -webkit-font-smoothing: antialiased !important;
+	        font-family: sans-serif;
+	    }
+
+	    .tableContent img {
+	        border: 0 !important;
+	        display: block !important;
+	        outline: none !important;
+	    }
+
+	    a {
+	        color: #382F2E;
+	        font-family: sans-serif;
+	    }
+
+	    p,
+	    h1 {
+	        margin: 0;
+	        font-family: sans-serif;
+	    }
+
+	    div,
+	    p,
+	    ul,
+	    h1 {
+	        margin: 0;
+	    }
+
+	    .bigger {
+	        font-size: 24px;
+	    }
+
+	    .bgBody {
+	        background: #fff5e1;
+	    }
+
+	    .bgItem {
+	        background: #ffffff;
+	    }
+
+	    h2 {
+	        color: #444444;
+	        font-size: 18px;
+	        font-weight: normal;
+	        font-family: sans-serif;
+	        margin: 0;
+	    }
+
+	    p {
+	        color: #3a3838;
+	        font-size: 14px;
+	        line-height: 19px;
+	        font-weight: normal;
+	    }
+
+	    a.link2 {
+	        padding: 10px 20px;
+	        border-radius: 3px;
+	        -moz-border-radius: 3px;
+	        -webkit-border-radius: 3px;
+	        color: #ffffff;
+	        font-size: 14px;
+	        background: #646d42;
+	        text-decoration: none;
+	    }
+
+	    a.link1 {
+	        font-weight: bold;
+	        color: #7E8564;
+	        font-size: 13px;
+	    }
+
+	    @media only screen and (max-width:480px) {
+
+	        table[class="MainContainer"],
+	        td[class="cell"] {
+	            width: 100% !important;
+	            height: auto !important;
+	        }
+
+	        td[class="specbundle"] {
+	            width: 100% !important;
+	            float: left !important;
+	            font-size: 13px !important;
+	            line-height: 17px !important;
+	            display: block !important;
+	            padding-bottom: 15px !important;
+	        }
+
+	        td[class="specbundle_img"] {
+	            width: 100% !important;
+	            float: left !important;
+	            display: block !important;
+	            font-size: 13px !important;
+	            line-height: 17px !important;
+	        }
+
+	        td[class="specbundle2"] {
+	            width: 90% !important;
+	            float: left !important;
+	            font-size: 13px !important;
+	            line-height: 17px !important;
+	            display: block !important;
+	            padding-bottom: 10px !important;
+	            padding-left: 5% !important;
+	            padding-right: 5% !important;
+	            text-align: center !important;
+	        }
+
+	        td[class="specbundle3"] {
+	            width: 70% !important;
+	            float: left !important;
+	            display: block !important;
+	            padding-bottom: 10px !important;
+	            padding-left: 15% !important;
+	            padding-right: 15% !important;
+	        }
+
+	        td[class="spechide"] {
+	            display: none !important;
+	        }
+
+	        img[class="banner"] {
+	            width: 100% !important;
+	            height: auto !important;
+	        }
+
+	        img[class="banner1"] {
+	            width: 95% !important;
+	            height: auto !important;
+	        }
+
+	        td[class="left_pad"] {
+	            padding-left: 15px !important;
+	            padding-right: 15px !important;
+	        }
+
+	    }
+
+	    @media only screen and (max-width:540px) {
+
+	        table[class="MainContainer"],
+	        td[class="cell"] {
+	            width: 100% !important;
+	            height: auto !important;
+	        }
+
+	        td[class="specbundle"] {
+	            width: 100% !important;
+	            float: left !important;
+	            font-size: 13px !important;
+	            line-height: 17px !important;
+	            display: block !important;
+	            padding-bottom: 15px !important;
+	        }
+
+	        td[class="specbundle2"] {
+	            width: 90% !important;
+	            float: left !important;
+	            font-size: 13px !important;
+	            line-height: 17px !important;
+	            display: block !important;
+	            padding-bottom: 10px !important;
+	            padding-left: 5% !important;
+	            padding-right: 5% !important;
+	            text-align: center !important;
+	        }
+
+	        td[class="specbundle_img"] {
+	            width: 100% !important;
+	            float: left !important;
+	            display: block !important;
+	            font-size: 13px !important;
+	            line-height: 17px !important;
+	        }
+
+	        td[class="specbundle3"] {
+	            width: 70% !important;
+	            float: left !important;
+	            display: block !important;
+	            padding-bottom: 10px !important;
+	            padding-left: 15% !important;
+	            padding-right: 15% !important;
+	        }
+
+	        td[class="spechide"] {
+	            display: none !important;
+	        }
+
+	        img[class="banner"] {
+	            width: 100% !important;
+	            height: auto !important;
+	        }
+
+	        img[class="banner1"] {
+	            width: 95% !important;
+	            height: auto !important;
+	        }
+
+	        td[class="left_pad"] {
+	            padding-left: 15px !important;
+	            padding-right: 15px !important;
+	        }
+
+	    }
+    </style>
+    <script type="colorScheme" class="swatch active">
+        {
+    "name":"Default",
+    "bgBody":"333333",
+    "link":"7E8564",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+  }
+</script>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="tableContent bgBody" style="font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;" width="100%">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="MainContainer" width="600">
+                        <tbody>
+                            <tr>
+                                <!-- =============================== Header ====================================== -->
+                                <!-- =============================== Body ====================================== -->
+                                <td class="movableContentContainer">
+                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                        <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td height="30" class="">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td valign="top" width="28" class="">&nbsp;</td>
+                                                                    <td>
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td valign="top" class="">
+                                                                                        <div class="contentEditableContainer contentImageEditable">
+                                                                                            <div class="contentEditable"><img alt="リノベーションならクロニクル" src="https://www.chronicle-web.com/wordpress/wp-content/themes/propolife2015/common/images/img_logo_chronicle_ja.png" width="202"></div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="spechide" valign="top" width="200">&nbsp;</td>
+                                                                                    <td align="right" valign="middle" width="200" class="">
+                                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                                            <div class="contentEditable" valign="middle"><a href="https://www.chronicle-web.com/company/about/?utm_source=email&amp;utm_medium=0831email&amp;utm_campaign=dm-tokyo" style="font-size:13px;" target="_blank">会社概要</a> <a href="https://www.propolife.co.jp/contact/?utm_source=email&amp;utm_medium=0831email&amp;utm_campaign=dm-tokyo" style="font-size:13px;margin-left: 10px;" target="_blank">お問い合わせ</a></div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <td valign="top" width="28" class="">&nbsp;</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="30" class="">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top" width="600" class="">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                        <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="3" height="25" class="">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="25" class="">&nbsp;</td>
+                                                    <td>
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="">
+                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                            <div class="contentEditable">
+                                                                                <h1 style="font-size:20px;color:#707070;font-weight:bold;margin:0 0 15px;text-align: center;font-family: sans-serif;">＊ リノベ向き中古マンション情報出ました＊</h1>
+                                                                                <p style="font-size: 15px; line-height: 1.5em;">＊新しい中古マンション情報出ました＊＊新しい中古マンション情報出ました＊＊新しい中古マンション情報出ました＊＊新しい中古マンション情報出ました＊＊新しい中古マンション情報出ました＊＊新しい中古マンション情報出ました＊</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    <td width="25" class="">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="3" height="25" class="">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative; background: #fff;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                            	<tr>
+                                            		<td valign="top" width="15" class="">&nbsp;</td>
+                                            		<td style="padding-bottom: 30px;">
+                                            			<table width="100%">
+                                                    		<tr>
+                                                    			<td colspan="3">
+                                                    				<h2 style="border-left: 4px solid #734637; padding-left: 7px; margin-bottom: 10px; font-size: 17px; font-weight: bold; color: #707070;">物件名</h2>
+                                                    			</td>
+                                                    		</tr>
+                                                    		<tr>
+                                                    			<td style="padding-right: 2px;">
+                                                    				<img src="images/img_appearance.png" alt="" width="100%" />
+                                                    			</td>
+                                                    			<td style="padding-left: 2px;">
+                                                    				<img src="images/img_floorplan.png" alt=""  width="100%"/>
+                                                    			</td>
+                                                    			<td valign="top" style="padding-left: 15px; color: #707070;">
+                                                    				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    					<tr>
+                                                    						<td style="padding-right: 15px;">專有面積</td>
+                                                    						<td style="font-weight: 600;">65.78m² (壁芯)</td>
+                                                    					</tr>
+                                                    					<tr>
+                                                    						<td>間取</td>
+                                                    						<td style="font-weight: 600;">3LDK</td>
+                                                    					</tr>
+                                                    					<tr>
+                                                    						<td>所在地</td>
+                                                    						<td style="font-weight: 600;">東京都台東区三筋１丁目3-5</td>
+                                                    					</tr>
+                                                    					<tr>
+                                                    						<td colspan="2" style="height: 30px;">&nbsp;</td>
+                                                    					</tr>
+                                                    					<tr>
+                                                    						<td>&nbsp;</td>
+                                                    						<td><a style="border-radius: 3px; background: #6597be; color: #fff; text-align: center; text-decoration: none; padding: 5px 22px; font-size: 15px; font-weight: 600;" href="#">詳細を見る</a></td>
+                                                    					</tr>
+                                                    				</table>
+                                                    			</td>
+                                                    		</tr>
+                                                    		<tr>
+                                                    			<td>&nbsp;</td>
+                                                    		</tr>
+                                                    	</table>
+                                            		</td>
+                                            		<td valign="top" width="15" class="">&nbsp;</td>
+                                            	</tr>
+
+                                                <tr>
+                                                	<td valign="top" width="15" class="">&nbsp;</td>
+                                                	<td style="padding-bottom: 60px;">
+                                                		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                			<tbody>
+                                                				<tr>
+                                                					<td style="padding-right: 20px;">
+                                                						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                							<tbody>
+                                                								<tr>
+					                                                				<td colspan="2">
+					                                                    				<h2 style="border-left: 4px solid #734637; padding-left: 7px; margin-bottom: 10px;font-size: 17px; font-weight: bold; color: #707070;">物件名</h2>
+					                                                    			</td>
+				                                                    			</tr>
+				                                                    			<tr>
+				                                                					<td style="padding-right: 3px;">
+				                                                						<img src="images/img_appearance.png" alt="" width="100%" />
+				                                                					</td>
+				                                                					<td style="padding-left: 3px;">
+				                                                						<img src="images/img_floorplan.png" alt=""  width="100%"/>
+				                                                					</td>
+				                                                				</tr>
+				                                                				<tr>
+				                                                					<td colspan="2" valign="top" style="color: #707070; padding-top: 15px;">
+				                                                						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					                                                    					<tr>
+					                                                    						<td style="padding-right: 15px;">專有面積</td>
+					                                                    						<td style="font-weight: 600;">65.78m² (壁芯)</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td>間取</td>
+					                                                    						<td style="font-weight: 600;">3LDK</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td>所在地</td>
+					                                                    						<td style="font-weight: 600;">東京都台東区三筋１丁目3-5</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td colspan="2" style="height: 20px;">&nbsp;</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td>&nbsp;</td>
+					                                                    						<td><a style="border-radius: 3px; background: #6597be; color: #fff; text-align: center; text-decoration: none; padding: 5px 22px; font-size: 15px; font-weight: 600;margin-left: 15px;" href="#">詳細を見る</a></td>
+					                                                    					</tr>
+					                                                    				</table>
+				                                                					</td>
+				                                                				</tr>
+                                                							</tbody>
+                                                						</table>
+                                                					</td>
+
+                                                					<td style="padding-left: 20px;">
+                                                						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                							<tbody>
+                                                								<tr>
+					                                                				<td colspan="2">
+					                                                    				<h2 style="border-left: 4px solid #734637; padding-left: 7px; margin-bottom: 10px;font-size: 17px; font-weight: bold; color: #707070;">物件名</h2>
+					                                                    			</td>
+				                                                    			</tr>
+				                                                    			<tr>
+				                                                					<td style="padding-right: 3px;">
+				                                                						<img src="images/img_appearance.png" alt="" width="100%" />
+				                                                					</td>
+				                                                					<td style="padding-left: 3px;">
+				                                                						<img src="images/img_floorplan.png" alt=""  width="100%"/>
+				                                                					</td>
+				                                                				</tr>
+				                                                				<tr>
+				                                                					<td colspan="2" valign="top" style="color: #707070; padding-top: 15px;">
+				                                                						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					                                                    					<tr>
+					                                                    						<td style="padding-right: 15px;">專有面積</td>
+					                                                    						<td style="font-weight: 600;">65.78m² (壁芯)</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td>間取</td>
+					                                                    						<td style="font-weight: 600;">3LDK</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td>所在地</td>
+					                                                    						<td style="font-weight: 600;">東京都台東区三筋１丁目3-5</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td colspan="2" style="height: 20px;">&nbsp;</td>
+					                                                    					</tr>
+					                                                    					<tr>
+					                                                    						<td>&nbsp;</td>
+					                                                    						<td><a style="border-radius: 3px; background: #6597be; color: #fff; text-align: center; text-decoration: none; padding: 5px 22px; font-size: 15px;font-weight: 600; margin-left: 15px;" href="#">詳細を見る</a></td>
+					                                                    					</tr>
+					                                                    				</table>
+				                                                					</td>
+				                                                				</tr>
+                                                							</tbody>
+                                                						</table>
+                                                					</td>
+                                                				</tr>
+
+                                                				
+
+                                                				
+                                                				
+                                                			</tbody>
+                                                		</table>
+                                                	</td>
+                                                	<td valign="top" width="15" class="">&nbsp;</td>
+                                                </tr>
+
+                                                
+
+                                                <tr>
+                                                    <td colspan="3">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td bgcolor="#ffffff" class="specbundle_img" valign="top">
+                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td colspan="3" height="10" class="">&nbsp;</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td width="25" class="">&nbsp;</td>
+                                                                                    <td valign="top">
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td height="15" class="">&nbsp;</td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td align="left" class="">
+                                                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                                                            <div class="contentEditable">
+                                                                                                                <p style="font-size: 14px; line-height: 22px; font-family: sans-serif;"><span style="font-weight: normal;">【物件概要】<br>
+                                                                                                                        ※1）無垢材を使ったリノベーションが出来ます！<br>
+                                                                                                                        ご希望に合わせて間取り変更、カラー、樹種セレクト可能です！<br>
+                                                                                                                        <br>
+                                                                                                                        ※2）家具も住宅ローンへ組み込み、合わせてご購入する事が出来ます。<br>
+                                                                                                                        月々+○○円～<br>
+                                                                                                                        <br>
+                                                                                                                        ※3）【月々支払い例のご案内】<br>
+                                                                                                                        ●提携銀行／三井住友銀行<br>
+                                                                                                                        ●融資限度額／50万円～1億円（1万円単位）<br>
+                                                                                                                        ●返済期間／1年以上35年以内<br>
+                                                                                                                        ●年利率/変動金利0.47%<br>
+                                                                                                                        ●月々の返済例144,110円,ボーナス払い0円<br>
+                                                                                                                        （借入金額5,580万円、自己資金0円、金利0.47％、借入期間35年の場合）<br>
+                                                                                                                        <br>
+                                                                                                                        ※4）施工期間の目安は物件引渡から工事を開始し約3ヶ月です。<br>
+                                                                                                                        <br>
+                                                                                                                        現地のご案内についてはご予約制となっております。</span><br>
+                                                                                                                    ご見学希望やご不明な点等がございましたら、 お気軽にご連絡くださいませ。<br>
+                                                                                                                    それでは引き続き、何卒宜しくお願い致します。</p>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td height="15" class="">&nbsp;</td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td align="left" class="">
+                                                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                                                            <div class="contentEditable">
+                                                                                                                <p style=" font-size: 14px;line-height:22px;color:red;font-weight:normal;font-family: sans-serif;">※他に各インターネット上に掲載されている物件で気になる物件がございましたら、<br>
+                                                                                                                    「物件ページのURL」をお送り頂ければ、図面送付やご案内が可能です。<br>
+                                                                                                                    ご遠慮なくお申し付けください。</p>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td height="15" class="">&nbsp;</td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td align="left" class="">
+                                                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                                                            <div class="contentEditable">
+                                                                                                                <p style="font-size: 14px;line-height:22px;font-weight:normal;font-family: sans-serif;">★ご予約フォームは<a href="https://www.chronicle-web.com/reform/lp/ourworks/#section_contact" target="_blank">こちら</a>から★<br>
+                                                                                                                    <br>
+                                                                                                                    ★メールでのご予約も承っております★<br>
+                                                                                                                    ※ご希望日時等を記載の上、ご返信くださいませ。</p>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td height="15" class="">&nbsp;</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                    <td width="25" class="">&nbsp;</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="3" height="12" class="">&nbsp;</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td width="30" class="">&nbsp;</td>
+                                                                                    <td align="center" valign="top" width="503" class="">
+                                                                                        <!--<div class="contentEditableContainer contentTextEditable">
+																<div class="contentEditable"><a class="link2" href="https://www.chronicle-web.com/logmansion/estates/5cf71a810c9fd606be6f62b4?utm_source=email&amp;utm_medium=0831email&amp;utm_campaign=dm-tokyo" target="_blank">物件詳細はこちら</a>
+																</div>
+															</div> -->
+                                                                                    </td>
+                                                                                    <td width="25" class="">&nbsp;</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="3" height="15" class="">&nbsp;</td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td bgcolor="#ffffff">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="25" class="">&nbsp;</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="specbundle" valign="top">
+                                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td valign="top" width="25" class="">&nbsp;</td>
+                                                                                                    <td>
+                                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                            <tbody>
+                                                                                                                <tr>
+                                                                                                                    <td align="left" class="">
+                                                                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                                                                            <div class="contentEditable">
+                                                                                                                                <h2 style="font-size: 15px; font-weight: bold;">クロニクル神戸元町ショールーム</h2>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                    <td height="15" class="">&nbsp;</td>
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                    <td align="left" width="330" class="">
+                                                                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                                                                            <div class="contentEditable">
+                                                                                                                                <p style="line-height: 22px">電話番号：<strong><span style="font-size:16px;"><a href="tel:0120-948-301">0120-948-301</a></span></strong></p>
+                                                                                                                                <p style="line-height: 22px">Email：<a href="mailto:hansoku@propolife.co.jp">hansoku@propolife.co.jp</a></p>
+                                                                                                                                <p style="line-height: 22px">住所 ：神戸市中央区海岸通3 シップ神戸海岸ビル1階</p>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                    <td height="35" class="">&nbsp;</td>
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                    <td class="">
+                                                                                                                        <div class="contentEditableContainer contentTextEditable">
+                                                                                                                            <div align="center" class="contentEditable"><a href="https://www.chronicle-web.com/showroom/kobe/?utm_source=email&amp;utm_medium=0831email&amp;utm_campaign=dm-tokyo" style="padding:10px 30px;border-radius:3px;-moz-bor601der-radius:3px;-webkit-border-radius:3px;font-size:15px;background:#E3A552;text-decoration:none;color:#ffffff;" target="_blank">神戸元町店 MAP</a></div>
+                                                                                                                        </div>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                    <td valign="top" width="25" class="">&nbsp;</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                    <td class="specbundle_img" valign="top" width="95">&nbsp;</td>
+                                                                                    <td class="specbundle_img" valign="middle" width="125">
+                                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center" valign="middle" class="">
+                                                                                                        <div class="contentEditableContainer contentImageEditable">
+                                                                                                            <div class="contentEditable"><img alt="SR image" data-default="placeholder" data-max-width="300" height="*" src="https://www.chronicle-web.com/showroom/static/img/showroom/tokyo_omotesando/831_RV_OmotesandoSR_Interior.jpg" width="200"></div>
+                                                                                                        </div>
+                                                                                                    </td>
+                                                                                                    <td class="spechide" valign="top" width="25">&nbsp;</td>
+                                                                                                    <td class="spechide" valign="top" width="25">&nbsp;</td>
+                                                                                                    <td class="spechide" valign="top" width="25">&nbsp;</td>
+                                                                                                    <td class="spechide" valign="top" width="25">&nbsp;</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="25" class="">&nbsp;</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                        <table align="center" bgcolor="#444444" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td height="25" class="">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" valign="top" class="">
+                                                        <div class="contentEditableContainer contentTextEditable">
+                                                            <div class="contentEditable">
+                                                                <p style="color:#ffffff; font-size:13px;line-height: 16px;"><span style="font-size: 12px; line-height: 16px;">弊社からのご案内を望まれないお客様は、恐れ入りますがこちらをクリックしてくださいませ</span><br>
+                                                                    <a href="%%unsubscribe%%" style="font-weight:bold;color:#ffffff;" target="_blank">unsubscribe</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="25" class="">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- =============================== footer ====================================== -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="customZone" data-type="image">
+        <div class="movableContent">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                <tbody>
+                    <tr>
+                        <td class="bgItem" valign="top">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3" height="25" class="">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="25" class="">&nbsp;</td>
+                                        <td valign="top">
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left" class="">
+                                                            <div class="contentEditableContainer contentImageEditable">
+                                                                <div class="contentEditable"><img data-default="placeholder" data-max-width="540" height="*" src="https://www.chronicle-web.com/wordpress/wp-content/themes/propolife2015/common/images/img_logo_chronicle_ja.png" width="200"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td width="25" class="">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" height="35" class="">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

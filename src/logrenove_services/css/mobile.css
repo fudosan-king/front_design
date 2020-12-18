@@ -1,0 +1,265 @@
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1098px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.box_thecharm_content p {
+		font-size: 1em;
+		line-height: 2em;
+	}
+	/* section_cases */
+	.section_cases h2 {
+		font-size: 1.8em;
+	}
+	.box_cases_info {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.btn_morecase {
+		padding: 10px 50px;
+	}
+	.btn_morecase .i_right {
+		top: 15px;
+	}
+	.box_thecharm_content {
+		padding: 80px;
+	}
+}
+
+@media (max-width: 812px) {
+	
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 768px) {
+	h2 {
+		font-size: 1.3em;
+		margin-bottom: 15px;
+	}
+
+	/* .top_banner */
+	.top_link {
+		left: auto;
+		right: auto;
+	}
+	.top_banner {
+		height: 400px;
+	}
+	.top_banner_content {
+		height: 400px;
+	}
+	.box_logo {
+		padding: 30px;
+		width: 100%;
+	}
+
+	/* .section_info */
+	.section_info_content {
+		padding: 15px;
+	}
+	.section_info_content h2 {
+		font-size: 1.1em;
+	}
+
+	/* section_thecharm */
+	.box_thecharm_left {
+		padding: 15px;
+	}
+	.box_thecharm_img {
+		right: 0;
+		height: 200px;
+		bottom: -50px;
+	}
+	.box_thecharm_img img {
+		height: 200px;
+	}
+	.box_thecharm_content {
+		padding: 60px 15px 30px;
+		margin-top: 0;
+	}
+	.box_thecharm_content h2 {
+		text-align: center;
+	}
+
+	/* .section_strengths */
+	.section_strengths {
+		padding: 30px 0;
+	}
+	.section_strengths h2 {
+		margin-bottom: 15px;
+	}
+	.box_strengths_content {
+		padding: 15px;
+		top: -30px;
+	}
+	.strengths_img {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.strengths_img, .strengths_img img {
+		height: 236px;
+	}
+	.box_strengths_content h3 {
+		font-size: 1.3em;
+		margin-bottom: 15px;
+	}
+
+	/* section_cases */
+	.box_cases_info {
+		padding: 30px 15px;
+		text-align: center;
+	}
+	.section_cases h2 {
+		margin-bottom: 15px;
+	}
+	.box_cases_info p {
+		margin-bottom: 15px;
+	}
+	.btn_morecase {
+		margin-top: 15px;
+	}
+	.box_cases_info::before {
+		width: 100%;
+		top: 0;
+		right: 0;
+	}
+	.carousel_cases {
+		padding: 15px;
+	}
+	.carousel_cases .carousel {
+		padding: 0;
+	}
+	.carousel_cases::before {
+		left: 0;
+	}
+	.carousel_cases .carousel-cell {
+		width: 50%;
+		height: auto;
+		margin-right: 15px;
+	}
+
+	/* .section_simulator */
+	.section_simulator {
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+	.box_room_detail_content {
+		padding: 30px 15px;
+	}
+	.renovation_fee {
+		font-size: 1.3em;
+	}
+
+	/* section_bookonlineconsultation */
+	.top_bookonlineconsultation_img {
+		width: 100%;
+	}
+	.box_bookonline .subtitle {
+		margin-bottom: 20px;
+	}
+	.btntalkhome {
+		width: 80%;
+		font-size: .8em;
+		top: 0;
+	}
+	.box_bookonline {
+		top: -10px;
+		padding: 15px;
+	}
+	.box_bookonline h2 {
+		font-size: 1.5em;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	.btnAgree {
+		width: 100%;
+	}
+	.label_sub {
+		font-size: .6em;
+		padding: 0 3px;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+	
+}
+
+@media (max-width: 667px) {
+	
+}
+
+@media (max-width: 414px) {
+	.box_logo_content {
+		text-align: center;
+	}
+	.box_logo {
+		padding: 30px 15px;
+	}
+	.logo {
+		width: 250px;
+		margin-bottom: 15px;
+	}
+	.logo_title {
+		width: 200px;
+		margin: auto;
+	}
+
+	.carousel_cases .carousel-cell {
+		width: 100%;
+		height: auto;
+	}
+	.box_thecharm_img {
+		width: 100%;
+	}
+
+	ul.list_select_material li {
+		margin-right: 20px;
+	}
+	.box_strengths_content .number {
+		top: -15px;
+	}
+	.frm_room_detail .form-control.estimated_loan {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 375px) {
+  	
+}
+
+
+
+@media not all and (min-resolution:.001dpcm) { 
+    
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+  
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	/* body {
+		font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ, sans-serif;
+	}
+	h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;} */
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	body {
+		font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ, sans-serif;
+	}
+	h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;}
+}

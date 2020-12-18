@@ -1,0 +1,431 @@
+@media (min-width: 1200px) {
+	
+}
+
+@media (max-width: 1024px) {
+	
+}
+
+@media (max-width: 812px) {
+	
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 768px) {
+	.title {
+		margin-bottom: 30px;
+		font-size: 1.5em;
+	}
+
+	/* nav */
+	.bsnav-mobile .navbar-nav {
+		padding: 0;
+	}
+	.navbar-nav .nav-item {
+		min-width: auto;
+	}
+	.navbar-expand-sm .navbar-nav .nav-link {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.bsnav-mobile .navbar-nav .nav-item .nav-link {
+		display: block;
+		padding: 10px 15px;
+		border-bottom: 1px solid #ccc;
+		text-align: center;
+	}	
+	.navbar-nav .nav-item:hover > .nav-link::before, .navbar-nav .nav-item.active>.nav-link::before {
+		display: none;
+	}
+	.bsnav-mobile .navbar-nav.navbar_custom {
+		flex-direction: column-reverse;
+	}
+
+	/* section_banner banner */
+	.section_banner {
+		background-image: url('../images/1x/header_bg_sm.png');
+		background-position: top center;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		display: inherit;
+		margin-top: 195px;
+		height: 643px;
+	}
+	.banner_content {
+		background: #fff;
+		text-align: center;
+		padding: 30px 15px 15px;
+		position: relative;
+		top: -195px;
+	}
+
+	.wrap_main {
+		padding: 0;
+	}
+
+	/* section_onlineconsultation */
+	.section_onlineconsultation {
+		padding-top: 30px;
+	}
+	.box_onlineconsultation.box_onlineconsultation_first::before, .box_onlineconsultation::before {
+		display: none;
+	}
+	.box_onlineconsultation {
+		min-height: auto;
+		padding: 20px 15px;
+		margin-bottom: 10px;
+	}
+	
+	/* .section_onlineconsultation_flow */
+	.section_onlineconsultation_flow {
+		padding: 40px 0 50px;
+	}
+	.box_recommended {
+		margin-bottom: 20px;
+	}
+	.box_recommended h3 {
+		font-size: 1.25em;
+	}
+	.box_onlineconsultation_flow {
+		padding: 0 40px;
+		margin-bottom: 30px;
+	}
+
+	/* footer */
+	.footer_sns {
+		border: none;
+	}
+	.w_footer_sns {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    border-bottom: 1px solid #C8C8C8;
+	}
+	#footer .naviBox {
+	    width: auto;
+	    padding: 0;
+	}
+	#footer .fBox p {
+	    width: auto;
+	    float: none;
+	    font-size: 7pt;
+	    letter-spacing: 0.5px;
+	    text-align: center;
+	}
+	#footer .fBox ul {
+	    display: none;
+	}
+	#footer .fBox .subBox {
+	    width: auto;
+	    padding: 9px 10px 7px;
+	}
+	#footer .naviBox .naviUl > li ul {
+	    margin: 0;
+	    display: none;
+	    border-top: 1px solid #C8C8C8;
+	}
+	#footer .naviBox .naviUl > li {
+	    height: auto !important;
+	    padding: 0 !important;
+	    width: auto !important;
+	    float: none;
+	    border-bottom: 1px solid #C8C8C8 !important;
+	    border-left: none;
+	}
+	#footer .naviBox .naviUl > li p {
+	    font-size: 0.75em;
+	    margin: 0;
+	}
+	#footer .naviBox .naviUl > li a {
+	    padding: 8px 25px 8px 15px;
+	    display: block !important;
+	    font-weight: normal;
+	    position: relative;
+	    text-decoration: none;
+	}
+	#footer .naviBox .naviUl > li:first-child p a {
+	    padding-top: 10px;
+	}
+	#footer .naviBox .naviUl li address {
+	    display: none;
+	    padding: 0 25px;
+	    font-size: 0.75em;
+	}
+	#footer .naviBox .naviUl > li p a::after {
+	    width: 12px;
+	    height: 20px;
+	    margin-top: -5px;
+	    background: url('../images/1x/icon03.png') no-repeat right top;
+	    background-size: 6px 10px;
+	    position: absolute;
+	    top: 50%;
+	    right: 14px;
+	    content: "";
+	}
+	#footer .naviBox .naviUl > li ul li {
+	    padding: 0;
+	}
+	#footer .naviBox .naviUl > li ul li a, #footer .naviBox .naviUl > li ul li span {
+	    padding: 8px 25px 8px 25px;
+	    display: block;
+	    font-size: 9pt;
+	    position: relative;
+	    text-decoration: none;
+	    background: none;
+	    border-bottom: 1px solid #C8C8C8;
+	}
+	
+	/* section_subbanner */
+	.section_subbanner h1 {
+		font-size: 1.5em;
+	}
+	/* section_reservation */
+	.mb30 {
+		margin-bottom: 8px;
+	}
+	.btnAgree {
+		min-width: auto;
+		width: 90%;
+	}
+
+	
+}
+
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+	.bsnav-mobile .navbar-nav .nav-item .nav-link {
+	    text-align: left;
+	}
+}
+
+@media (max-width: 667px) {
+	.section_banner {
+		height: 610px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.main_nav {
+		margin-left: 0;
+	}
+    .bsnav-sticky.bsnav-sticky-slide {position: relative;}
+    .bsnav-mobile.in .navbar {
+    	width: 50%;
+    	height: 100%;
+    	transform: translate3d(0,57px,0);
+    	padding-top: 0;
+    }
+    .bsnav-mobile .navbar-nav .nav-item .nav-link {text-align: left;}
+    .dropdown-toggle::after {display: none;}
+    .navbar-nav .nav-item .dropdown-item {position: relative;}
+    .navbar-nav .nav-item .dropdown-item::before {
+        content: "";
+        background: url('../images/1x/icon03.png') no-repeat right center;
+        background-size: 6px 10px;
+        width: 12px;
+        height: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-bottom: none;
+        left: unset;
+    }
+    
+
+    .navbar-nav .nav-item.active .nav-link.dropdown-toggle::before,
+    .navbar-nav .nav-item:hover .nav-link.dropdown-toggle::before,
+    .navbar-nav .nav-item .nav-link.dropdown-toggle::before {
+        content: "";
+        background: url('../images/1x/icon04.png') no-repeat right center;
+        background-size: 10px;
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        position: absolute;
+        right: 13px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-bottom: none;
+        left: unset;
+    }
+    .navbar-nav .nav-item.active .nav-link.dropdown-toggle.show::before,
+    .navbar-nav .nav-item:hover .nav-link.dropdown-toggle.show::before,
+    .navbar-nav .nav-item .nav-link.dropdown-toggle.show::before {
+       content: "";
+        background: url('../images/1x/icon05.png') no-repeat right center;
+        background-size: 10px;
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        position: absolute;
+        right: 13px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-bottom: none;
+        left: unset;
+    }
+    .navbar-nav .nav-item.active .nav-link::before,
+    .navbar-nav .nav-item:hover .nav-link::before,
+    .navbar-nav .nav-item .nav-link::before {
+        content: "";
+        background: url(../images/1x/icon03.png) no-repeat right center;
+        background-size: 6px 10px;
+        width: 12px;
+        height: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-bottom: none;
+        left: unset;
+    }
+    .navbar-nav.navbar-mobile.mr-0.main_nav.pc_menu {display: none;}
+    .navbar-nav.navbar-mobile.mr-0.main_nav.sp_menu {
+    	display: block;
+    	min-width: inherit;
+    }
+}
+
+@media (max-width: 568px) {
+	.section_banner {
+	    height: 520px;
+	}
+}
+
+@media screen and (max-width:420px){
+    .navbar-nav .hourwoking {
+    	padding: 10px 20px;
+    }
+    .navbar-nav .nav-item > .dropdown-toggle::before{
+    	border: none;
+    }
+    .navbar-nav .nav-item .dropdown-menu {
+    	border-top: none; padding: 0;
+    }
+    .navbar-nav .nav-item .dropdown-item {
+    	text-align: left;
+    }
+    .navbar-nav .nav-item .dropdown-menu .dropdown-item {padding: 4px 30px; font-size: 9pt;}
+    .bsnav-mobile .navbar-nav .nav-item .nav-link {padding: 4px 15px; font-size: 9pt; color:#000;}
+    .bsnav-mobile a {
+    	font-family: "游ゴシック", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic"!important;
+    }
+    .navbar-nav .nav-item .dropdown-item {border-top: #cccc 1px dotted;}
+    .navbar-nav .nav-item .dropdown-item:nth-child(1) {border-top: none;}
+}
+
+@media (max-width: 414px) {
+	.space {
+		height: 57px;
+	}
+
+	/* nav */
+	.bsnav {
+	    padding-top: 11px;
+	    padding-bottom: 11px;
+	    border-bottom: 1px solid #ccc;
+	}
+	.bsnav-mobile .navbar-nav .nav-item .nav-link {
+	    padding: 4px 15px;
+	    font-size: 9pt;
+	    color: #000;
+	}
+
+	/* .section_banner */
+	.section_banner {
+		height: 343px;
+	}
+
+	/* section_onlineconsultation_flow */
+	.box_consultation ul li {
+		width: 100%;
+		margin-right: 0;
+	}
+	.box_consultation {
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-bottom: 0;
+		margin-bottom: 60px;
+	}
+	.box_caller {
+	    position: relative;
+	    left: 0;
+	    top: 0;
+	    margin-bottom: -30px;
+	    margin-top: 20px;
+	}
+	.box_example {
+		padding-top: 0;
+	}
+	.box_example h5 {
+		position: relative;
+		top: -16px;
+		font-size: 1.125em;
+	}
+	.box_example p {
+		font-size: 0.875em;
+		margin-bottom: 15px;
+	}
+	.box_example h6 {
+		font-size: 0.875em;
+		margin-bottom: 5px;
+	}
+	.box_recommended h3 {
+	    font-size: 1.1em;
+	}
+	
+	/* Footer */
+	.social-banner {
+	    padding: 30px 0 10px;
+	}
+	.box_changelife {
+	    width: 95%;
+	}
+	.box_changelife_body {
+	    margin-bottom: 15px;
+	}
+	.box_changelife .btn_clickHere {
+	    font-size: 13px;
+	}
+}
+
+@media (max-width: 375px) {
+  	.section_banner {
+		height: 293px;
+	}
+}
+
+
+
+@media not all and (min-resolution:.001dpcm) { 
+    
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+  
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	/* body {
+		font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ, sans-serif;
+	}
+	h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;} */
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	body {
+		font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ, sans-serif;
+	}
+	h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans JP', '游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;}
+}
