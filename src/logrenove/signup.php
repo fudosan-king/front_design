@@ -41,12 +41,12 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <a href="#" class="btn btn_register">登録</a>
+                                                <a href="#modal_linkregister" class="btn btn_register" data-toggle="modal">登録</a>
                                             </div>
                                             <p>登録することで、<a href="#">利用規約</a>と<a href="#">プライバシーポリシー</a>に同意したものとみなされます。</p>
                                             <hr>
                                             <p class="text-center mb-2">会員の方はこちら</p>
-                                            <a href="#" class="btn btn_login">ログイン</a>
+                                            <a href="#modal_uncompleted" class="btn btn_login" data-toggle="modal">ログイン</a>
                                         </form>
                                     </div>
                                 </div>

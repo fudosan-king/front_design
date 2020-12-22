@@ -67,3 +67,31 @@
         </a>
     </div>
 </footer>
+
+<div class="modal fade modal_small" id="modal_linkregister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-body pb-0">
+            <p class="text-center mb-0 mb-lg-3 mt-lg-3 mt-0"><strong>登録用のリンクを送信いたしました。<br>
+            受信ボックスをご確認いただき、登録を完了してください。</strong></p>
+        </div>
+        <div class="modal-footer border-top-0">
+            <button type="button" class="btn btn_login mb-0 mb-lg-3">ログイン</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal_small" id="modal_uncompleted" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body pb-0">
+                <p class="text-center mb-0 mb-lg-3 mt-lg-3 mt-0"><strong>お客様のメールアドレスは会員登録が完了しておりません。<br>
+                再度メール認証を行って、会員登録を完了してください。</strong></p>
+            </div>
+            <div class="modal-footer border-top-0">
+                <button type="button" class="btn btn_send mb-0 mb-lg-3">メールを送信する</button>
+            </div>
+        </div>
+    </div>
+</div>
