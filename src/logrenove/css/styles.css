@@ -1505,3 +1505,47 @@ body {
         padding: 10px;
     }
 }
+
+.modal_small .btn_login {
+    min-width: 200px;
+    margin: auto;
+    width: auto;
+    font-weight: bold;
+    padding: 9px 15px;
+}
+
+.modal_small .btn_send {
+    min-width: 200px;
+    margin: auto;
+    font-weight: bold;
+    padding: 9px 15px;
+    background: #AD814D;
+    color: #fff;
+    font-size: 0.875em;
+}
+
+.btn_comeback {
+    font-weight: bold;
+    padding: 15px;
+    background: #3CBCCF;
+    color: #fff;
+    font-size: 0.875em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.btn_comeback:hover {
+    background: #1f97a9;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .modal_small .modal-body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .modal_small p {
+        font-size: 0.8571em;
+    }
+}
