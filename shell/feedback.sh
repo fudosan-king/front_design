@@ -1,13 +1,6 @@
 #!/bin/sh
 # rsync  -rlpcDvz --exclude-from=exclude -e "ssh -i ./key/fe-internal.pem" dev-user@13.231.78.135:~/html/ ./src/
-PROJECT_NAME=$1
-HOST=13.231.78.135
-USER=dev-user
-ADDRESS=$USER@$HOST
-KEY_PATH=./key/fe-internal.pem
-REMOTE_SRC='~/html/'
-LOCAL_SRC=./src/
-EXCLUDE_FILE=exclude
+source ./shell/.env
 
 if [ ! -z "$PROJECT_NAME" ]
 then
