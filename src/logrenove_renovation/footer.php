@@ -31,7 +31,7 @@
     		<div class="row">
                 <div class="col-12 col-lg-12">
                     <p>Copyright © <a href="index.php">LogKnot Inc.</a> All Rights Reserved.</p>
-                    <p class="mb-0"><a href="#"><img src="images/logo_chronicleplus.png" alt="" class="img-fluid"></a></p>
+                    <p class="mb-0"><a href="#"><img src="images/SVG/logo_chronicleplus.svg" alt="" class="img-fluid" width="118"></a></p>
                 </div>
     		</div>
     	</div>
