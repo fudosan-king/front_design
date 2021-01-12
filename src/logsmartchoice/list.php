@@ -8,13 +8,11 @@
 <body>
     <div id="page">
 
-        <?php include 'header.php'; ?>
+        <?php include 'header2.php'; ?>
 
         <main id="main">
 
-            
-
-            <section class="section_searchresults bg_silver">
+            <!-- <section class="section_searchresults">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
@@ -63,196 +61,385 @@
                                     </div>
                                 </form>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
 
-                            <ul class="recommand_list">
+            <section class="section_propertyinformation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-12">
+                            <ul class="list_property">
                                 <li>
-                                    <div class="box_recommand_item">
-                                        <div class="box_recommand_item_img">
-                                            <span class="price">3599万円～</span>
-                                            <a href="#"><img src="images/rcm_01.jpg" alt="" class="img-fluid"></a>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list01.png" alt="" class="img-fluid">
+                                            </a>
                                         </div>
-                                        <div class="box_recommand_item_content">
-                                            <h3>南青山コンド</h3>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
                                             <div class="row">
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>住所</h4>
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p>南青山1丁目駅徒歩4分</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>間取</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">2LDK / 51.3㎡</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>逐年</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">1994年5月/鉄筋コン/4階建</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="box_recommand_item">
-                                        <div class="box_recommand_item_img">
-                                            <span class="price">3599万円～</span>
-                                            <a href="#"><img src="images/rcm_02.png" alt="" class="img-fluid"></a>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list02.png" alt="" class="img-fluid">
+                                            </a>
                                         </div>
-                                        <div class="box_recommand_item_content">
-                                            <h3>南青山コンド</h3>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
                                             <div class="row">
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>住所</h4>
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p>南青山1丁目駅徒歩4分</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>間取</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">2LDK / 51.3㎡</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>逐年</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">1994年5月/鉄筋コン/4階建</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="box_recommand_item">
-                                        <div class="box_recommand_item_img">
-                                            <span class="price">3599万円～</span>
-                                            <a href="#"><img src="images/rcm_03.png" alt="" class="img-fluid"></a>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list03.png" alt="" class="img-fluid">
+                                            </a>
                                         </div>
-                                        <div class="box_recommand_item_content">
-                                            <h3>南青山コンド</h3>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
                                             <div class="row">
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>住所</h4>
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p>南青山1丁目駅徒歩4分</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>間取</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">2LDK / 51.3㎡</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>逐年</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">1994年5月/鉄筋コン/4階建</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="box_recommand_item">
-                                        <div class="box_recommand_item_img">
-                                            <span class="price">3599万円～</span>
-                                            <a href="#"><img src="images/rcm_04.png" alt="" class="img-fluid"></a>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list04.png" alt="" class="img-fluid">
+                                            </a>
                                         </div>
-                                        <div class="box_recommand_item_content">
-                                            <h3>南青山コンド</h3>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
                                             <div class="row">
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>住所</h4>
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p>南青山1丁目駅徒歩4分</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>間取</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">2LDK / 51.3㎡</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>逐年</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">1994年5月/鉄筋コン/4階建</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="box_recommand_item">
-                                        <div class="box_recommand_item_img">
-                                            <span class="price">3599万円～</span>
-                                            <a href="#"><img src="images/rcm_05.png" alt="" class="img-fluid"></a>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list01.png" alt="" class="img-fluid">
+                                            </a>
                                         </div>
-                                        <div class="box_recommand_item_content">
-                                            <h3>南青山コンド</h3>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
                                             <div class="row">
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>住所</h4>
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p>南青山1丁目駅徒歩4分</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>間取</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">2LDK / 51.3㎡</p>
-                                                </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>逐年</h4>
-                                                </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">1994年5月/鉄筋コン/4階建</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="box_recommand_item">
-                                        <div class="box_recommand_item_img">
-                                            <span class="price">3599万円～</span>
-                                            <a href="#"><img src="images/rcm_06.png" alt="" class="img-fluid"></a>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list02.png" alt="" class="img-fluid">
+                                            </a>
                                         </div>
-                                        <div class="box_recommand_item_content">
-                                            <h3>南青山コンド</h3>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
                                             <div class="row">
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>住所</h4>
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p>南青山1丁目駅徒歩4分</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>間取</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list03.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">2LDK / 51.3㎡</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
-                                                <div class="col-3 col-lg-3 align-self-center">
-                                                    <h4>逐年</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list04.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
                                                 </div>
-                                                <div class="col-3 col-lg-9 align-self-center">
-                                                    <p class="gray">1994年5月/鉄筋コン/4階建</p>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list01.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list02.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list03.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list04.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list01.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list02.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list03.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_property_item">
+                                        <div class="box_property_item_img">
+                                            <a href="#">
+                                                <img src="images/list/list04.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="box_property_item_body">
+                                            <h2><a href="#">収納たっぷりロフトが楽しい子ども部屋</a></h2>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>2LDK / 51.3㎡</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <p class="property_info">
+                                                        <span>30代ご夫婦</span>
+                                                        <span>お子様2人</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
