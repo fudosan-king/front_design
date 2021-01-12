@@ -1,0 +1,580 @@
+@media (min-width: 1284px) {
+	
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1126px;
+	}
+}
+
+@media (max-width: 1100px) {
+	
+}
+
+@media (max-width: 1024px) {
+	ul.recommand_list {
+	 	li {
+	 		width: 48%;
+	 		margin-right: 15px;
+	 		margin-bottom: 15px;
+	 		&:nth-child(3n) {
+	 			margin-right: 15px;
+	 		}
+	 		&:last-child, &:nth-child(2n) {
+	 			margin-right: 0;
+	 		}
+	 	}
+	}
+}
+@media (max-width: 992px) {
+	
+}
+@media (min-width: 992px) {
+	.navbar-expand-lg {
+		.navbar-toggler {
+		    display: block;
+		}
+	}
+}
+@media (max-width: 800px) {
+	
+}
+
+@media (max-width: 768px) {
+	section {
+		padding: 40px 0;
+	}
+	.navbar {
+		padding: 10px 15px;
+		.navbar-brand {
+			margin: 0 auto;
+			img {
+				width: 150px;
+			}
+		}
+	}
+	.bsnav-mobile {
+		.bsnav-mobile-overlay {
+			background: rgba(140, 125, 96, .8);
+		}
+		.navbar {
+			width: 250px;
+		}
+		.navbar-nav {
+			padding: 0;
+			.nav-item {
+				&:nth-child(4) {
+					.nav-link {
+						text-align: right;
+						border-bottom: none;
+					}
+				}
+				.nav-link {
+					display: block;
+					padding: 15px;
+					border-bottom: 1px solid rgba(0,0,0,.1);
+				}
+			}
+		}
+	}
+	.spacing {
+		height: 55.7px;
+	}
+	h2 {
+		font-size: 1.625em;
+	}
+	.section_topbanner {
+		height: 350px;
+		.topbanner_content {
+			padding: 15px;
+		}
+	}
+	.section_subbanner {
+		// height: 282px;
+	}
+	.section_topinfo {
+		.w_box_topinfo {
+			width: 100%;
+		}
+		.box_topinfo {
+			.box_topinfo_img {
+				text-align: center;
+			}
+			.btn_askonline {
+				margin-top: 15px;
+				margin-bottom: 30px;
+				display: block;
+			}
+		}
+		.box_price {
+			p {
+				&.label {
+					margin-bottom: 10px;
+					display: block;
+					margin-right: 10px;
+					font-size: .6em;
+				}
+				&.prices {
+					font-size: 1em;
+				}
+			}
+		}
+		table th {
+			width: 15%;
+		}
+	}
+	.w_content {
+		width: 100%;
+		padding: 0 15px;
+		p {
+			&.describe {
+				padding: 0;
+				margin-bottom: 30px;
+			}
+		}
+		.box_example {
+			margin: 30px 0;
+			.box_example_content {
+				padding: 10px;
+				p {
+					line-height: 1.5em;
+					font-size: 0.875em;
+				}
+			}
+		}
+	}
+
+	.section_expand_room {
+		&::before {
+			top: 87px;
+		}
+		.box_expand_room {
+			margin-top: 40px;
+			h2 {
+				font-size: 1.875em;
+			}
+			.box_intro {
+				.box_intro_content {
+					.box_intro_content_text {
+						width: 100%;
+						padding: 10px;
+						p {
+							line-height: 1.5em;
+							font-size: 0.875em;
+						}
+					}
+					img {
+						position: relative;
+						top: 45px;
+						right: -10px;
+						float: right;
+					}
+				}
+			}
+			
+			.box_expand_room_content {
+				width: 100%;
+				.box_beforeafter {
+					.box_beforeafter_img {
+						margin-bottom: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	.box_smallwindow {
+		margin: 30px 0;
+		padding-bottom: 40px;
+	}
+
+	.section_originalwood {
+		.w_originalwood {
+			h2 {
+				margin-bottom: 15px;
+			}
+			width: 100%;
+			p {
+				&.describe {
+					padding: 0;
+				}
+			}
+			.box_device {
+				margin-top: 30px;
+			}
+			.box_originalwood {
+				.originalwood_item {
+					.originalwood_img {
+						height: 300px;
+						img {
+							height: 300px;
+						}
+					}
+				}
+			}
+			.box_renovation {
+				margin-top: 30px;
+				.box_renovation_describe {
+					padding: 0;
+				}
+				.box_renovation_content {
+					margin-bottom: 30px;
+					img {
+						top: 40px;
+						right: -10px;
+					}
+				}
+			}
+		}
+	}
+
+	.section_furniture {
+		padding: 30px 0;
+		.box_furniture {
+			width: 100%;
+			.describe {
+				padding: 0;
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.section_searchby {
+		h3 {
+			margin-top: 15px;
+			text-align: center;
+		}
+		ul {
+			text-align: center;
+			li {
+				&:first-child {
+					a {
+						padding-left: 10px;
+					}
+				}
+			}
+		}
+		.back_to_top {
+			right: 15px;
+		}
+	}
+
+	footer {
+		.footer_middle {
+			text-align: center;
+			.phone_number {
+				text-align: center;
+			}
+			.btn_contactus {
+				margin-top: 15px;
+			}
+		}
+		.footer_bottom {
+			padding-bottom: 120px;
+		}
+		.footer_last_bottom {
+			.phone_number {
+				text-align: center;
+			}
+			.btn_contactus {
+				margin-top: 10px;
+				display: block;
+				min-width: 200px;
+			}
+		}
+	}
+
+
+	.section_login {
+		.frm_login {
+			.btnlogin {
+				min-width: auto;
+				display: block;
+				margin: 15px 0;
+				width: 100%;
+			}
+			p {
+				width: auto;
+			}
+		}
+	}
+	
+
+	.section_searchresults {
+		.box_filter {
+			margin-bottom: 30px;
+			.w_box_filter_item {
+				display: block;
+				.box_filter_item {
+					flex: inherit;
+					width: 48%;
+					margin-bottom: 10px;
+					display: inline-block;
+					&:nth-child(2n) {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.section_propertyinformation {
+		 ul.list_property {
+		 	li {
+		 		width: 48%;
+		 		margin-right: 15px;
+		 		margin-bottom: 30px;
+		 		.box_property_item {
+		 			.box_property_item_body {
+		 				padding: 10px;
+		 				h2 {
+		 					font-size: 1em;
+		 					min-height: 40px;
+		 				}
+		 				p {
+		 					text-align: center;
+		 				}
+		 				.property_info {
+		 					font-size: .6em;
+		 					text-align: center;
+		 				}
+		 			}
+		 		}
+		 	}
+		 }
+	}
+
+
+	.section_showroom {
+		.box_showroom {
+			padding: 15px;
+			.box_showroom_img {
+				margin-right: 0;
+			}
+			.box_showroom_content {
+				margin-left: 0;
+				margin-top: 15px;
+				.sub_title {
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+
+	.section_seminar {
+		article {
+			&:last-of-type {
+				margin-bottom: 20px;
+			}
+			p {
+				&.article_thumbnail {
+					width: 100%;
+					margin-right: 0;
+					margin-bottom: 10px;
+				}
+				&.article_meta {
+					a {
+						font-size: .6em;
+						margin-bottom: 5px;
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+
+
+	.section_construction {
+		ul {
+			li {
+				width: 47%;
+				margin-right: 15px;
+				&:nth-child(2n) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.expand_room_carousel {
+		.carousel-cell {
+			height: 186px;
+			img {
+				height: 186px;
+			}
+		}
+	}
+
+	.section_expand_room_carousel {
+		padding-bottom: 80px;
+	}
+
+	.box_equiment_carousel {
+		.carousel {
+			&.carousel-main {
+				margin-bottom: 5px;
+				.carousel-cell {
+					height: 259px;
+					img {
+						height: 259px;
+					}
+					p {
+						padding: 10px;
+					}
+					
+				}
+			}
+			&.carousel-nav {
+				.carousel-cell {
+					width: 100px;
+					height: 75px;
+					margin-right: 5px;
+					img {
+						height: 75px;
+					}
+				}
+			}
+		}
+		.flickity-prev-next-button {
+			&.next {
+				right: 15px;
+			}
+			&.previous {
+				left: 15px;
+			}
+		}
+	}
+
+	.box_privatelabel {
+		margin-top: 40px;
+	}
+	.box_flooring {
+		padding: 15px;
+		ul {
+			li {
+				width: 100%;
+				display: block;
+				margin-right: 0;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+
+}
+
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+
+}
+
+@media (max-width: 667px) {
+
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media (max-width: 568px) {
+
+}
+
+@media screen and (max-width:420px){
+
+}
+
+@media (max-width: 414px) {
+	ul.recommand_list {
+	 	li {
+	 		width: 100%;
+	 		margin-right: 0;
+	 	}
+	}
+}
+
+@media (max-width: 375px) {
+	.section_propertyinformation {
+		 ul.list_property {
+		 	li {
+		 		width: 47.5%;
+		 	}
+		}
+	}
+	.btnBlack {
+		min-width: 270px;
+	}
+}
+@media (max-width: 320px) {
+	.section_propertyinformation {
+		 ul.list_property {
+		 	li {
+		 		width: 47%;
+		 	}
+		}
+	}
+	.section_searchresults {
+		.box_filter {
+			.w_box_filter_item {
+				.box_filter_item {
+					width: 46%;
+					font-size: 0.75em;
+				}
+			}
+		}
+	}
+	.box_flooring {
+		ul {
+			li {
+				article {
+					p {
+						&.article_thumbnail {
+							margin-right: 10px;
+						}
+					}
+					header {
+						h2 {
+							margin-bottom: 5px;
+						}
+						p {
+							font-size: .7em;
+						}
+					}
+				}
+			}
+		}
+	}
+	.section_seminar {
+		article {
+			p {
+				&.article_meta {
+					a {
+						font-size: .5em;
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media not all and (min-resolution:.001dpcm) {
+
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}

@@ -2,10 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class='back_to_top' id='back-to-top' title='Back to top'>
-                    <img src="images/SVG/gototop.svg" alt="" class="img-fluid" width="50">
-                </div>
-                <h3><img src="images/SVG/i_location.svg" alt="" class="img-fluid" width="20"> エリアから探す</h3>
+                <h3>エリアから探す</h3>
                 <ul>
                     <li><a href="">新宿</a></li>
                     <li><a href="">渋谷</a></li>
@@ -45,7 +42,7 @@
                 <div class="searchby_footer">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <h3><img src="images/SVG/i_plan.svg" alt="" class="img-fluid" width="20"> リノベーションプラン</h3>
+                            <h3>リノベーションプラン</h3>
                             <ul>
                                 <li><a href="">シングルライフ満喫</a></li>
                                 <li><a href="">夫婦二人で優雅に</a></li>
@@ -53,7 +50,7 @@
                             </ul>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <h3><img src="images/SVG/i_type.svg" alt="" class="img-fluid" width="23"> 敷地タイプ</h3>
+                            <h3>敷地タイプ</h3>
                             <ul>
                                 <li><a href="">〜40平米</a></li>
                                 <li><a href="">50〜60平米</a></li>
@@ -88,14 +85,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 align-self-center">
-                    <a href="index.php"><img src="images/SVG/logo_brown.svg" alt="" class="img-fluid" width="169"></a>
+                    <a href="index.php"><img src="images/SVG/logo_sliver.svg" alt="" class="img-fluid" width="169"></a>
                     <p class="address">〒107-0061　東京都港区北⻘⼭3-6-23（住所が入ります）</p>
                 </div>
                 <div class="col-12 col-lg-6 align-self-center">
                     <div class="row">
                         <div class="col-12 col-lg-8 align-self-center">
                             <p class="mb-0 phone_number">
-                                <img src="images/SVG/i_callcenter.svg" alt="" class="img-fluid" width="52">
                                 <span>
                                     <a href="tel:000-0000-0000">000-0000-0000</a>
                                     <i>年中無休8:00〜18:30</i>
@@ -103,7 +99,7 @@
                             </p>
                         </div>
                         <div class="col-12 col-lg-4 align-self-center">
-                            <a href="#" class="btn btn_contactus">お問い合わせ</a>
+                            <a href="https://www.logrenove.jp/contact" class="btn btn_contactus">お問い合わせ</a>
                         </div>
                     </div>
                 </div>
@@ -119,9 +115,26 @@
     		</div>
     	</div>
     </div>
+    <div class="footer_last_bottom fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 align-self-center">
+                    <p class="mb-0 phone_number">
+                        <span>
+                            <a href="tel:000-0000-0000">000-0000-0000</a>
+                            <i>年中無休8:00〜18:30</i>
+                        </span>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 align-self-center">
+                    <a href="https://www.logrenove.jp/contact" class="btn btn_contactus"><span>オンライン問い合わせ</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
-<div class="bsnav-mobile d-block d-xl-none">
+<div class="bsnav-mobile d-none d-xl-none">
     <div class="bsnav-mobile-overlay"></div>
     <div class="navbar"></div>
 </div>

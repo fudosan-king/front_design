@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1126px;
+    }
+}
+
 @media (max-width: 1024px) {
     ul.recommand_list li {
         width: 48%;
@@ -14,7 +20,17 @@
     }
 }
 
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+}
+
 @media (max-width: 768px) {
+    section {
+        padding: 40px 0;
+    }
+
     .navbar {
         padding: 10px 15px;
     }
@@ -62,6 +78,10 @@
         height: 350px;
     }
 
+    .section_topbanner .topbanner_content {
+        padding: 15px;
+    }
+
     .section_topinfo .w_box_topinfo {
         width: 100%;
     }
@@ -93,6 +113,7 @@
 
     .w_content {
         width: 100%;
+        padding: 0 15px;
     }
 
     .w_content p.describe {
@@ -118,7 +139,11 @@
     }
 
     .section_expand_room .box_expand_room {
-        margin-top: 0;
+        margin-top: 40px;
+    }
+
+    .section_expand_room .box_expand_room h2 {
+        font-size: 1.875em;
     }
 
     .section_expand_room .box_expand_room .box_intro .box_intro_content .box_intro_content_text {
@@ -146,8 +171,9 @@
         margin-bottom: 15px;
     }
 
-    .section_expand_room .box_smallwindow {
+    .box_smallwindow {
         margin: 30px 0;
+        padding-bottom: 40px;
     }
 
     .section_originalwood .w_originalwood {
@@ -233,6 +259,20 @@
         margin-top: 15px;
     }
 
+    footer .footer_bottom {
+        padding-bottom: 120px;
+    }
+
+    footer .footer_last_bottom .phone_number {
+        text-align: center;
+    }
+
+    footer .footer_last_bottom .btn_contactus {
+        margin-top: 10px;
+        display: block;
+        min-width: 200px;
+    }
+
     .section_login .frm_login .btnlogin {
         min-width: auto;
         display: block;
@@ -262,6 +302,133 @@
     .section_searchresults .box_filter .w_box_filter_item .box_filter_item:nth-child(2n) {
         margin-right: 0;
     }
+
+    .section_propertyinformation ul.list_property li {
+        width: 48%;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body {
+        padding: 10px;
+    }
+
+    .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 {
+        font-size: 1em;
+        min-height: 40px;
+    }
+
+    .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body p {
+        text-align: center;
+    }
+
+    .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body .property_info {
+        font-size: .6em;
+        text-align: center;
+    }
+
+    .section_showroom .box_showroom {
+        padding: 15px;
+    }
+
+    .section_showroom .box_showroom .box_showroom_img {
+        margin-right: 0;
+    }
+
+    .section_showroom .box_showroom .box_showroom_content {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .section_showroom .box_showroom .box_showroom_content .sub_title {
+        margin-bottom: 15px;
+    }
+
+    .section_seminar article:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .section_seminar article p.article_thumbnail {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .section_seminar article p.article_meta a {
+        font-size: .6em;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+
+    .section_construction ul li {
+        width: 47%;
+        margin-right: 15px;
+    }
+
+    .section_construction ul li:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .expand_room_carousel .carousel-cell {
+        height: 186px;
+    }
+
+    .expand_room_carousel .carousel-cell img {
+        height: 186px;
+    }
+
+    .section_expand_room_carousel {
+        padding-bottom: 80px;
+    }
+
+    .box_equiment_carousel .carousel.carousel-main {
+        margin-bottom: 5px;
+    }
+
+    .box_equiment_carousel .carousel.carousel-main .carousel-cell {
+        height: 259px;
+    }
+
+    .box_equiment_carousel .carousel.carousel-main .carousel-cell img {
+        height: 259px;
+    }
+
+    .box_equiment_carousel .carousel.carousel-main .carousel-cell p {
+        padding: 10px;
+    }
+
+    .box_equiment_carousel .carousel.carousel-nav .carousel-cell {
+        width: 100px;
+        height: 75px;
+        margin-right: 5px;
+    }
+
+    .box_equiment_carousel .carousel.carousel-nav .carousel-cell img {
+        height: 75px;
+    }
+
+    .box_equiment_carousel .flickity-prev-next-button.next {
+        right: 15px;
+    }
+
+    .box_equiment_carousel .flickity-prev-next-button.previous {
+        left: 15px;
+    }
+
+    .box_privatelabel {
+        margin-top: 40px;
+    }
+
+    .box_flooring {
+        padding: 15px;
+    }
+
+    .box_flooring ul li {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 414px) {
@@ -271,9 +438,40 @@
     }
 }
 
+@media (max-width: 375px) {
+    .section_propertyinformation ul.list_property li {
+        width: 47.5%;
+    }
+
+    .btnBlack {
+        min-width: 270px;
+    }
+}
+
 @media (max-width: 320px) {
+    .section_propertyinformation ul.list_property li {
+        width: 47%;
+    }
+
     .section_searchresults .box_filter .w_box_filter_item .box_filter_item {
         width: 46%;
         font-size: 0.75em;
+    }
+
+    .box_flooring ul li article p.article_thumbnail {
+        margin-right: 10px;
+    }
+
+    .box_flooring ul li article header h2 {
+        margin-bottom: 5px;
+    }
+
+    .box_flooring ul li article header p {
+        font-size: .7em;
+    }
+
+    .section_seminar article p.article_meta a {
+        font-size: .5em;
+        margin-right: 0;
     }
 }
