@@ -30,14 +30,16 @@
                             <p class="mt-0">LogRenoveは、あらゆることを自分たちで行う「プライベートレーベル・リノベーション」ブランド。自社製の無垢材でリノベーションの設計、施工を行い、アフターサービスまで自社で行います。全工程を自分たちで手掛けることではじめて、良質なリノベーションをムリなく、ムダなく多くの人に提供できるという考えから、唯一無二のリノベーションスタイルを確立したのです。</p>
                             <h2>「或る男」の<span class="d-block d-lg-inline-block">リノベーションへの想い</span></h2>
                             <div class="thoughts_img">
-                                <img src="images/photo01.jpg" alt="" class="img-fluid">
+                                <img src="images/photo01.jpg" alt="" class="img-fluid d-none d-lg-block">
+                                <img src="images/photo01_.jpg" alt="" class="img-fluid d-block d-lg-none">
                             </div>
                             <p>20年ほど前の話です。不動産業に携わる「或る男」が、友人に自宅のリノベーションを頼まれました。大切な友人の自宅――男は「理想のリノベーション」のために仕事抜きで尽力し、その仕上がりに友人も満足してくれました。しかし男は、どこか釈然としない。「住まいのプロ」の自分がプランニングしたにも関わらず、想定以上にコストがかかったことが心にひっかかったのです。</p>
                             <div class="thoughts_img">
-                                <img src="images/photo02.jpg" alt="" class="img-fluid">
+                                <img src="images/photo02.jpg" alt="" class="img-fluid d-none d-lg-block">
+                                <img src="images/photo02_.jpg" alt="" class="img-fluid d-block d-lg-none">
                             </div>
                             <p>コストオーバーの原因は無垢材でした。リノベーションの際、多くの人が選ぶ人気の素材ですが、実は価格が高く、施工も難しい。結果、高コストになってしまうのです。「品質の高い無垢材リノベーションを多くの人に提供するにはどうすればいいのか？」。自らの問いに男が出した答えは「すべての工程を自社でまかなう」という画期的なビジネスモデルでした。製材工場から流通、デザイン、施工、アフターサービスに至るまで自社で行う「プライベートレーベル・リノベーション」ならば、高品質のリノベーションをムリなく、ムダなく提供できるのではないか。そんな「或る男」の想いからLogRenoveは誕生したのです。</p>
-                            <p class="text-center mb-0"><a href="#" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">「或る男」の想いを具現化したリノベーションとは…</a></p>
+                            <p class="text-center mb-0"><a href="https://www.logrenove.jp/work/" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">「或る男」の想いを具現化したリノベーションとは…</a></p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +78,7 @@
                                             <img src="images/01_.jpg" alt="" class="img-fluid" width="w-100">
                                         </div>
                                         <p>LogRenoveでは一貫して、専任のインテリアコーディネーターがお客様の窓口となります。最初のご相談から、物件引き渡しまで、しっかりとサポートしていきます。物件から探す場合でも、社内の不動産仲介担当者と連携を取りながら、候補物件を提案。住宅ローンの案内まで行います。住まいのデザイン提案だけでなく、リノベーションの工程すべての窓口をインテリアコーディネーターが担うので、「この件は誰に相談すればいいんだろう…」といったストレスなくリノベーションを楽しんでいただけます。</p>
-                                        <p class="text-center mb-0"><a href="#" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">「プライベートレーベル・リノベーション」による理想のリノベーション</a></p>
+                                        <p class="text-center mb-0"><a href="https://www.logrenove.jp/work/" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">「プライベートレーベル・リノベーション」による理想のリノベーション</a></p>
                                     </div>
                                 </div>
                             </article>
@@ -106,7 +108,7 @@
                                             <img src="images/02_.jpg" alt="" class="img-fluid" width="w-100">
                                         </div>
                                         <p>合板や突板のフローリングが悪いとは言いません。ですが、化学物質を使わず、メンテナンスさえすれば何十年も楽しめて、年を経る毎に愛着が増していく無垢材は、サスティナブルな時代のリノベーションならでは。次の世代のためにも、無垢材による「持続可能なリノベーション」は意義があるのです。</p>
-                                        <p class="text-center mb-0"><a href="#" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">LogRenoveの天然無垢材へのこだわり、想い</a></p>
+                                        <p class="text-center mb-0"><a href="https://www.logrenove.jp/events/category/solid-wood/" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">LogRenoveの天然無垢材へのこだわり、想い</a></p>
                                     </div>
                                 </div>
                             </article>
@@ -137,7 +139,7 @@
                                             <img src="images/03_.jpg" alt="" class="img-fluid" width="w-100">
                                         </div>
                                         <p>リノベーションへの不安でいちばん多いのは「施工技術」「アフターフォロー」だと思います。LogRenoveは全工程を自社でまかなう「プライベートレーベル・リノベーション」。自社設計のリノベーションを、自社建材を使って、自社で施工。だからこそアフターフォローも自社で責任をもって行います。</p>
-                                        <p class="text-center mb-0"><a href="#" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">不安なく楽しめる「プライベートレーベル」のさらなる特徴</a></p>
+                                        <p class="text-center mb-0"><a href="https://www.logrenove.jp/documents/" class="btn btnwhat"><img src="images/SVG/arrow-down-circle-black.svg" alt="" class="img-fluid" width="20">不安なく楽しめる「プライベートレーベル」のさらなる特徴</a></p>
                                     </div>
                                 </div>
                             </article>
@@ -156,8 +158,8 @@
                             </div>
                             <p>プライベートレーベル・リノベーション</p>
                             <p class="mb-0 text-center">
-                                <a href="#" class="btn btnBlack">オンラインセミナー</a>
-                                <a href="#" class="btn btnBlack">資料請求</a>
+                                <a href="https://www.logrenove.jp/events/" class="btn btnBlack">オンラインセミナー</a>
+                                <a href="#main" class="btn btnBlack" data-scroll>資料請求</a>
                             </p>
                         </div>
                     </div>
