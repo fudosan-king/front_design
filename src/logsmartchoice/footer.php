@@ -93,7 +93,7 @@
                         <div class="col-12 col-lg-8 align-self-center">
                             <p class="mb-0 phone_number">
                                 <span>
-                                    <a href="tel:000-0000-0000">000-0000-0000</a>
+                                    <a href="tel:000-0000-0000">03-6897-8564</a>
                                     <i>月曜～金曜 10:00~18:00</i>
                                 </span>
                             </p>
@@ -121,7 +121,7 @@
                 <div class="col-12 col-lg-6 align-self-center">
                     <p class="mb-0 phone_number">
                         <span>
-                            <a href="tel:000-0000-0000">000-0000-0000</a>
+                            <a href="tel:000-0000-0000">03-6897-8564</a>
                             <i>月曜～金曜 10:00~18:00</i>
                         </span>
                     </p>
