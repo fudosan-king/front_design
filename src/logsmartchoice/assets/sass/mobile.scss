@@ -47,8 +47,10 @@
 	.navbar {
 		padding: 10px 15px;
 		.navbar-brand {
+			position: relative;
+			top: -2px;
 			img {
-				width: 150px;
+				width: 120px;
 			}
 		}
 	}

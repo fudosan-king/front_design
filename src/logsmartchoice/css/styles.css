@@ -342,6 +342,10 @@ section {
     color: #fff;
 }
 
+.section_topbanner .topbanner_content p:nth-of-type(3) {
+    font-size: 1.5em;
+}
+
 .section_topbanner::before {
     content: '';
     position: absolute;

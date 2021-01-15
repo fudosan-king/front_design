@@ -35,8 +35,13 @@
         padding: 10px 15px;
     }
 
+    .navbar .navbar-brand {
+        position: relative;
+        top: -2px;
+    }
+
     .navbar .navbar-brand img {
-        width: 150px;
+        width: 120px;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
