@@ -1724,3 +1724,12 @@ footer .phone_number a {
     -o-object-fit: cover;
        object-fit: cover;
 }
+
+.collapse:not(.show) {
+    display: block;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+}

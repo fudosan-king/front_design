@@ -47,9 +47,16 @@
 	.navbar {
 		padding: 10px 15px;
 		.navbar-brand {
-			margin: 0 auto;
+			margin: 0 auto 15px;
 			img {
 				width: 150px;
+			}
+		}
+	}
+	.navbar-expand-lg {
+		.navbar-nav {
+			.nav-link {
+				padding: 0 15px;
 			}
 		}
 	}
@@ -76,7 +83,9 @@
 				}
 			}
 		}
+
 	}
+
 	.spacing {
 		height: 55.7px;
 	}
@@ -87,6 +96,12 @@
 		height: 350px;
 		.topbanner_content {
 			padding: 15px;
+		}
+		p {
+			&:first-child {
+				margin-top: 30px;
+			}
+			margin-bottom: 10px;
 		}
 	}
 	.section_subbanner {

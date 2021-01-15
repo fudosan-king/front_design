@@ -1512,3 +1512,13 @@ footer {
   }
 }
 
+
+
+.collapse:not(.show) {
+  display: block;
+}
+.navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+}

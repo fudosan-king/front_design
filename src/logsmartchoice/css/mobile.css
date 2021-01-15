@@ -36,11 +36,15 @@
     }
 
     .navbar .navbar-brand {
-        margin: 0 auto;
+        margin: 0 auto 15px;
     }
 
     .navbar .navbar-brand img {
         width: 150px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 15px;
     }
 
     .bsnav-mobile .bsnav-mobile-overlay {
@@ -80,6 +84,14 @@
 
     .section_topbanner .topbanner_content {
         padding: 15px;
+    }
+
+    .section_topbanner p {
+        margin-bottom: 10px;
+    }
+
+    .section_topbanner p:first-child {
+        margin-top: 30px;
     }
 
     .section_topinfo .w_box_topinfo {
