@@ -47,7 +47,6 @@
 	.navbar {
 		padding: 10px 15px;
 		.navbar-brand {
-			margin: 0 auto 15px;
 			img {
 				width: 150px;
 			}
@@ -572,6 +571,10 @@
 				}
 			}
 		}
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0 2px;
 	}
 }
 

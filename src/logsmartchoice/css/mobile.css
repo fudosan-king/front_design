@@ -35,10 +35,6 @@
         padding: 10px 15px;
     }
 
-    .navbar .navbar-brand {
-        margin: 0 auto 15px;
-    }
-
     .navbar .navbar-brand img {
         width: 150px;
     }
@@ -485,5 +481,9 @@
     .section_seminar article p.article_meta a {
         font-size: .5em;
         margin-right: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 2px;
     }
 }

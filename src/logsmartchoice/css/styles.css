@@ -1726,10 +1726,14 @@ footer .phone_number a {
 }
 
 .collapse:not(.show) {
-    display: block;
+    display: inline-block;
+}
+
+.navbar-collapse {
+    flex-basis: inherit;
 }
 
 .navbar-nav {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
 }
