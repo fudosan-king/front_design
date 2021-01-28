@@ -183,7 +183,7 @@
                                         <div class="row">
                                             <div class="col-12 col-lg-5">
                                                 <div class="box_intro_left">
-                                                    <img src="images/family.png" alt="" class="img-fluid">
+                                                    <img src="images/pixta_69650958_M.jpg" alt="" class="img-fluid rounded-circle" width="200">
                                                     <h3>夫婦・子ども2人</h3>
                                                     <ul>
                                                         <li>子どもがのびのびと遊べる空間を持ちたい</li>

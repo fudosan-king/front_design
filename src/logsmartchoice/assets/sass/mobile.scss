@@ -47,9 +47,17 @@
 	.navbar {
 		padding: 10px 15px;
 		.navbar-brand {
-			margin: 0 auto;
+			position: relative;
+			top: -2px;
 			img {
-				width: 150px;
+				width: 120px;
+			}
+		}
+	}
+	.navbar-expand-lg {
+		.navbar-nav {
+			.nav-link {
+				padding: 0 15px;
 			}
 		}
 	}
@@ -76,7 +84,9 @@
 				}
 			}
 		}
+
 	}
+
 	.spacing {
 		height: 55.7px;
 	}
@@ -84,9 +94,15 @@
 		font-size: 1.625em;
 	}
 	.section_topbanner {
-		height: 350px;
+		height: 410px;
 		.topbanner_content {
 			padding: 15px;
+		}
+		p {
+			&:first-child {
+				margin-top: 30px;
+			}
+			margin-bottom: 10px;
 		}
 	}
 	.section_subbanner {
@@ -557,6 +573,10 @@
 				}
 			}
 		}
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0 2px;
 	}
 }
 

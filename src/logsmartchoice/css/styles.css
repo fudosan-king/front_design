@@ -342,6 +342,10 @@ section {
     color: #fff;
 }
 
+.section_topbanner .topbanner_content p:nth-of-type(3) {
+    font-size: 1.5em;
+}
+
 .section_topbanner::before {
     content: '';
     position: absolute;
@@ -1723,4 +1727,17 @@ footer .phone_number a {
     height: 360px;
     -o-object-fit: cover;
        object-fit: cover;
+}
+
+.collapse:not(.show) {
+    display: inline-block;
+}
+
+.navbar-collapse {
+    flex-basis: inherit;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: flex-end;
 }

@@ -85,16 +85,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 align-self-center">
-                    <a href="index.php"><img src="images/SVG/logo_sliver.svg" alt="" class="img-fluid" width="169"></a>
-                    <p class="address">〒107-0061　東京都港区北⻘⼭3-6-23（住所が入ります）</p>
+                    <a target="_blank" href="https://www.logknot.co.jp/"><img src="images/SVG/logo_sliver.svg" alt="" class="img-fluid" width="169"></a>
+                    <p class="address">〒107-0061　東京都港区北⻘⼭3-6-23</p>
                 </div>
                 <div class="col-12 col-lg-6 align-self-center">
                     <div class="row">
                         <div class="col-12 col-lg-8 align-self-center">
                             <p class="mb-0 phone_number">
                                 <span>
-                                    <a href="tel:000-0000-0000">000-0000-0000</a>
-                                    <i>年中無休8:00〜18:30</i>
+                                    <a href="tel:000-0000-0000">03-6897-8564</a>
+                                    <i>月曜～金曜 10:00~18:00</i>
                                 </span>
                             </p>
                         </div>
@@ -121,8 +121,8 @@
                 <div class="col-12 col-lg-6 align-self-center">
                     <p class="mb-0 phone_number">
                         <span>
-                            <a href="tel:000-0000-0000">000-0000-0000</a>
-                            <i>年中無休8:00〜18:30</i>
+                            <a href="tel:000-0000-0000">03-6897-8564</a>
+                            <i>月曜～金曜 10:00~18:00</i>
                         </span>
                     </p>
                 </div>

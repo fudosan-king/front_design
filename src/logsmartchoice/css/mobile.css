@@ -36,11 +36,16 @@
     }
 
     .navbar .navbar-brand {
-        margin: 0 auto;
+        position: relative;
+        top: -2px;
     }
 
     .navbar .navbar-brand img {
-        width: 150px;
+        width: 120px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 15px;
     }
 
     .bsnav-mobile .bsnav-mobile-overlay {
@@ -75,11 +80,19 @@
     }
 
     .section_topbanner {
-        height: 350px;
+        height: 410px;
     }
 
     .section_topbanner .topbanner_content {
         padding: 15px;
+    }
+
+    .section_topbanner p {
+        margin-bottom: 10px;
+    }
+
+    .section_topbanner p:first-child {
+        margin-top: 30px;
     }
 
     .section_topinfo .w_box_topinfo {
@@ -473,5 +486,9 @@
     .section_seminar article p.article_meta a {
         font-size: .5em;
         margin-right: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 2px;
     }
 }

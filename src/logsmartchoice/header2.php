@@ -1,6 +1,6 @@
 <header class="sub_header">
     <div class="navbar navbar-expand-lg bsnav">
-        <a class="navbar-brand" href="index.php"><img src="images/SVG/LogRenove_logo_black.svg" alt="" class="img-fluid" width="217"></a>
+        <a class="navbar-brand" href="index.php"><img src="images/SVG/logo_orderrenove_black.svg" alt="" class="img-fluid" width="220"></a>
         <button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-md-end">
             <ul class="navbar-nav navbar-mobile mr-0">
