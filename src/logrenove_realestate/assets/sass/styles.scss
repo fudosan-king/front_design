@@ -400,33 +400,72 @@ header {
     padding-right: 93px;
     margin-bottom: 100px;
     margin-top: 30px;
+    .box_steps{
+      li{
+        margin-right:auto;
+        
+        
+        .box_steps_img {
+          position: absolute;
+          bottom:0;
+          left: 50%;
+          width: 100%;
+          transform: translateX(-50%);
+        }
+
+      }
+    }
+    &:nth-of-type(1){
+      .box_steps{
+        height:282px;
+        li{
+          max-width: 159px;
+          width: 100%;
+          h3{
+            &::after{
+              right:-50px;
+            }
+          }
+        }
+      }
+    }
     &:nth-of-type(2){
       padding-left: 93px;
       padding-right: 0;
       &::after {
         left: 0;
         right: inherit;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
       }
       .box_steps {
-        &::before {
-          width: 78%;
-        }
+        height:293px;
         li {
-          margin-right: 35px;
-          &:nth-of-type(5) {
+          margin-right: 40px;
+          &:last-child{
+           width: 100%;
+           max-width: 100px;
+          }
+          &:nth-child(4) {
+            h3 {
+              &::after {
+                right: -33px;
+              }
+            }
+          }
+          &:nth-child(5) {
             h3 {
               position: relative;
               top: -10px;
               &::after {
                 top: 5px;
+                right: -33px;
               }
-            }
-            .box_steps_img {
-              top: -20px;
             }
           }
           
           h3 {
+            height:60px;
             &::after {
               right: -25px;
             }
@@ -446,38 +485,17 @@ header {
     }
     &:nth-of-type(3){
       .box_steps {
-        &::before {
-          width: 74%;
-          left: 10px;
+        height:339px;
+        padding-top: 80px;
+        &:before{
+          top: 130px;
+          left: 12%;
         }
         li {
           &:last-child {
-            background: url('../images/SVG/or.svg') no-repeat 26% 0;
-            &::before {
-              left: inherit;
-              right: 70px;
-            }
-            &::after {
-              left: inherit;
-              right: 77px;
-            }
+            background: url('../images/SVG/or.svg') no-repeat 12% 0;
             h3 {
               top: -25px;
-            }
-          }
-          &:nth-of-type(1) {
-            .box_steps_img {
-              top: 25px;
-            }
-          }
-          &:nth-of-type(2) {
-            .box_steps_img {
-              top: 25px;
-            }
-          }
-          &:nth-of-type(3), &:nth-of-type(4) {
-            .box_steps_img {
-              top: 28px;
             }
           }
           &:nth-of-type(5) {
@@ -487,32 +505,32 @@ header {
                 top: 5px;
               }
             }
-            .box_steps_img {
-              top: 10px;
-            }
           }
           h3 {
             font-size: 1.125em;
             position: relative;
             &::after {
-              right: -7px;
+              right: -30px;
             }
           }
           h4 {
             font-size: 1.125em;
           }
+
+         
+
+
+
         }
+
       }
       .w_img_case {
         .img_case {
           left: -175px;
         }
       }
-      
     }
-    .box_steps_img {
-      position: relative;
-    }
+    
     &::after {
       content: '';
       position: absolute;
@@ -558,13 +576,11 @@ header {
       position: relative;
       &::before {
         content: '';
-        width: 66%;
         height: 8px;
         background: #C4A76A;
         position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
+        left: 13%;
+        right: 13%;
         top: 100px;
       }
       li {
@@ -572,14 +588,14 @@ header {
         text-align: center;
         position: relative;
         // margin-right: 113px;
-        flex: 1 1 auto;
+        // flex: 1 1 auto;
         &::before {
           content: '';
           position: absolute;
-          left: 0;
-          right: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          right: 0px;
           top: 39px;
-          margin: auto;
           width: 30px;
           height: 30px;
           border-radius: 30px;
@@ -588,10 +604,10 @@ header {
         &::after {
           content: '';
           position: absolute;
-          left: 0;
+          left: 50%;
+          transform: translateX(-50%);
           right: 0;
           top: 46px;
-          margin: auto;
           width: 15px;
           height: 15px;
           border-radius: 15px;

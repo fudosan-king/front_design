@@ -7,6 +7,22 @@
 	}
 }
 
+@media(max-width:1200px){
+	.section_case {
+		.box_case {
+			&:nth-of-type(2) {
+				.box_steps {
+					li {
+						h3{
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 @media (max-width: 1100px) {
 	
 }
@@ -134,8 +150,9 @@
 			display: block;
 			margin-bottom: 10px;
 		}
-		
-		
+		.info_content {
+			padding-top:30px;
+		}
 	}
 
 	.info_content_custom {
@@ -166,6 +183,7 @@
 				width: 140px;
 				height: 140px;
 				margin-right: 55px;
+				bottom: -58px;
 				img {
 					height: 43px;
 				}
@@ -185,6 +203,7 @@
 			padding: 20px 5px;
 			margin-bottom: 50px;
 			&:nth-of-type(1) {
+
 				h2 {
 					top: -30px;
 					&::before {
@@ -199,12 +218,9 @@
 					}
 				}
 				.box_steps {
+					height:auto;
 					li {
-						&:nth-of-type(3) {
-							h3 {
-								top: 40px;
-							}
-						}
+						max-width:100%;
 					}
 				}
 			}
@@ -217,6 +233,7 @@
 				}
 				h2 {
 					text-align: left;
+					padding-bottom:50px;
 					&::before {
 						content: '';
 						background: url('../images/SVG/CASE2.svg') no-repeat;
@@ -229,34 +246,39 @@
 					}
 				}
 				.box_steps {
+					height:auto;
 					&::before {
 						height: 87%;
 						width: 8px;
 					}
 					li {
 						margin-right: 0;
-						&:nth-of-type(3), &:nth-of-type(4) {
+						h3{
+							height:auto;
+						}
+						&:nth-child(5) {
 							h3 {
-								top: 40px;
+								position: relative;
+								top:6px;
+							}
+						}
+						&:nth-of-type(4){
+							img {
+								margin-left: 30px;
 							}
 						}
 						&:nth-of-type(5) {
-							h3 {
-								top: 30px;
-							}
-						}
-						&:nth-of-type(4), &:nth-of-type(5) {
 							img {
-								margin-left: 30px;
+								margin-left: 21px;
 							}
 						}
 						&:nth-of-type(6) {
 							img {
 								margin-left: 20px;
 							}
-							h3 {
-								top: 40px;
-							}
+						}
+						&:last-child{
+							max-width:100%;
 						}
 					}
 				}
@@ -275,20 +297,19 @@
 					}
 				}
 				.box_steps {
-					padding-bottom: 23px;
+					height:auto;
+					padding-bottom: 50px;
 					&::before {
-						width: 8px;
-						left: 0;
-						height: 92%;
+						left: 50%;
+					    bottom: 50px;
 					}
 					li {
 						&:last-child {
 							background-image: url('../images/SVG/or_sp.svg');
 							background-position: 50% 0;
 							&::before, &::after {
-								right: 0;
-								left: 0;
-								margin: auto;
+								left: 50%;
+    							transform: translateX(-50%);
 							}
 							&::before {
 								top: 80px;
@@ -296,25 +317,37 @@
 							&::after {
 								top: 88px;
 							}
-							h3 {
-								top: 5px;
+							h3{
+								top:-32px;
+							}
+							
+						}
+						&:nth-of-type(5) {
+							h3{
+								top:6px;
+								position: relative;
 							}
 						}
-						&:nth-of-type(4), &:nth-of-type(5) {
+						&:nth-of-type(4){
 							img {
 								margin-left: 30px;
 							}
 						}
+						&:nth-of-type(5) {
+							img {
+								margin-left: 16px;
+							}
+						}
 						&:nth-of-type(6) {
 							img {
-								margin-left: 20px;
+								margin-left: 14px;
 							}
 						}
 						h4 {
 							width: 120px;
 							position: absolute;
 							right: 0;
-							top: 60px;
+							top: 84px;
 							margin-bottom: 0;
 						}
 					}
@@ -324,6 +357,7 @@
 				bottom: 0;
 				right: -15px;
 				border-bottom-right-radius: 0;
+				height: calc(100% - 120px);
 			}
 			h2 {
 				font-size: 2.25em;
@@ -331,18 +365,28 @@
 				position: relative;
 			}
 			.box_steps {
-				padding: 20px 130px;
+
+				padding: 20px 60px;
 				display: block;
 				&::before {
 					width: 8px;
-					height: 80%;
-					top: 60px;
+					height: auto;
+					top: 61px;
+					bottom:70px;
+					right:unset;
+					left:50%;
+					transform: translateX(-50%);
 				}
 				li {
 					text-align: left;
 					margin-bottom: 55px;
+					display: flex;
+    				flex-flow: row-reverse;
+				    align-items: center;
 					.box_steps_img {
 						position: relative;
+						left:unset;
+						transform: translateX(0);
 						&::before {
 							content: '';
 							background: url('../images/SVG/i_down_lg.svg') no-repeat;
@@ -375,12 +419,9 @@
 					}
 					h3 {
 						margin-bottom: 0;
+						width:202px;
 						position: relative;
-						top: 30px;
-						left: 0;
-						width: 120px;
-						float: right;
-						line-height: 1.3em;
+    					top: 6px;
 						&::after {
 							display: none;
 						}
@@ -480,6 +521,28 @@
 	}
 }
 
+
+@media (width: 768px) {
+  	.section_case {
+	  	.box_case {
+	  		.box_steps{
+	  			padding:20px 160px;
+	  		}
+	  		&:nth-of-type(3){
+	  			.box_steps{
+	  				li{
+	  					h4{
+	  						width: 132px;
+	  					}
+	  				}
+	  			}
+	  		}
+	  	}
+
+  	}
+
+}
+
 @media (min-width: 768px) {
 
 }
@@ -510,10 +573,10 @@
 				padding: 20px;
 				li {
 					.box_steps_img {
-						&::before {
-							left: -170px;
-							right: 0;
-						}
+						// &::before {
+						// 	left: -170px;
+						// 	right: 0;
+						// }
 					}
 				}
 			}
@@ -586,11 +649,20 @@
 				}
 			}
 			.box_steps {
+				&:before{
+					bottom:45px;
+				}
 				li {
+					&:before{
+					    top: 30px;
+					}
+					&:after{
+						top: 37px;
+					}
 					h3 {
 						font-size: .8em;
 						left: 20px;
-						top: 46px;
+						top: 7px;
 					}
 					img {
 						width: 100px;
@@ -612,9 +684,21 @@
 					}
 				}
 			}
+			&:nth-of-type(1) {
+				li{
+					&:last-child{
+						h3{
+							top:21px;
+						}
+					}
+				}
+			}
 			&:nth-of-type(2) {
 				.box_steps {
 					li {
+						h3{
+
+						}
 						&:nth-of-type(4) {
 							img {
 								width: 50px;
@@ -639,17 +723,14 @@
 			&:nth-of-type(3) {
 				.box_steps {
 					padding-bottom: 63px;
-					&::before {
-						height: 89%;
-					}
 					li {
 						h3 {
-							font-size: 1em;
+							font-size: .8em;
 						}
 						h4 {
-							font-size: 1em;
-							right: -20px;
-							top: 80px;
+							font-size: .8em;;
+						    right: -29px;
+    						top: 91px;
 						}
 						&:nth-of-type(4) {
 							img {
@@ -661,12 +742,17 @@
 								width: 70px;
 							}
 							h3 {
-								top: 40px;
+							    top: 11px;
 							}
 						}
 						&:nth-of-type(6) {
 							img {
 								width: 70px;
+							}
+						}
+						&:last-child{
+							h3 {
+							    top: -17px;
 							}
 						}
 					}
