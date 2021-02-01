@@ -324,7 +324,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <h3>オンライン査定</h3>
+                                        <h3>訪問査定</h3>
                                         <div class="box_steps_img">
                                             <img src="images/SVG/i_visitsurvey.svg" alt="" class="img-fluid" width="89">
                                         </div>
