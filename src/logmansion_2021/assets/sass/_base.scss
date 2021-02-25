@@ -1,27 +1,3 @@
-.ml-lg-negative-100{
-	@media (min-width: 992px){
-		margin-left: -100px;
-	}
-}
-
-.mr-lg-negative-100{
-	@media (min-width: 992px){
-		margin-right: -100px;
-	}
-}
-
-.pl-lg-100 {
-	@media (min-width: 992px){
-		padding-left: 100px;
-	}
-}
-
-.pr-lg-100{
-	@media (min-width: 992px){
-		padding-right: 100px;
-	}
-}
-
 .bg-gradient-green-turquoise{
-	background: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
+	background: linear-gradient(135deg, $cl-green 0%, $cl-turquoise 100%);
 }
