@@ -207,11 +207,6 @@ h3 {
     box-shadow: none;
 }
 
-.footer_middle .container .row .font-size-note {
-    font-size: 0.875em;
-    padding-top: 10px;
-}
-
 .relative {
     position: relative;
 }
@@ -361,12 +356,6 @@ section {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
 }
 
-.section_subbanner {
-    /*background: url("../images/bg_top.jpg") no-repeat center center;
-    background-size: cover;
-    height: 600px;*/
-}
-
 .section_subbanner .w_subbanner_img {
     display: block;
     width: 100%;
@@ -374,6 +363,7 @@ section {
     position: relative;
     padding-bottom: 56.25%;
 }
+
 .section_subbanner .w_subbanner_img img {
     position: absolute;
     top: 0;
@@ -437,16 +427,6 @@ section {
 }
 
 .section_topinfo .box_price p.prices {
-    font-weight: bold;
-    font-size: 1.5em;
-    font-family: 'Noto Serif JP', serif;
-}
-
-.td-info-estate {
-    width: 40%;
-}
-
-.prices {
     font-weight: bold;
     font-size: 1.5em;
     font-family: 'Noto Serif JP', serif;
@@ -585,8 +565,7 @@ section {
 
 .section_expand_room .box_expand_room .box_intro .box_intro_content img {
     position: relative;
-    /* right: 40px; */
-    left: 8px;
+    right: 40px;
     top: 110px;
 }
 
@@ -941,8 +920,7 @@ footer {
 }
 
 footer .footer_top {
-    padding: 20px 20px 0px 0px;
-    line-height: 1.9em;
+    padding: 20px 0;
 }
 
 footer .footer_top ul {
@@ -981,9 +959,9 @@ footer .footer_top ul li a {
     padding: 0 15px;
 }
 
-/* footer .footer_middle {
+footer .footer_middle {
     padding: 35px 0;
-} */
+}
 
 footer .footer_middle .address {
     margin-bottom: 0;
@@ -1031,10 +1009,8 @@ footer .footer_last_bottom {
 footer .footer_last_bottom .btn_contactus {
     background: #1F91B3;
     color: #fff;
-    border-radius: 0;
     padding: 10px 50px 8px;
     font-size: 0.75em;
-    font-weight: bold;
     position: relative;
 }
 
@@ -1058,16 +1034,6 @@ footer .footer_last_bottom .btn_contactus:hover {
 footer .footer_last_bottom .phone_number {
     font-size: 1.5em;
     font-weight: normal;
-}
-
-footer .footer_arrow {
-    padding: 10px 0;
-}
-
-footer .fixed-right {
-    position: fixed;
-    right: 50px;
-    bottom: 100px;
 }
 
 footer .phone_number {
@@ -1354,10 +1320,11 @@ footer .phone_number a {
     font-size: 0.875em;
     border: 1px solid #000;
     padding: 14px;
+    position: relative;
 }
 
 .btnBlack:hover {
-    background: transparent;
+    background-color: transparent;
     border-color: #000;
     color: #000;
 }
@@ -1771,47 +1738,8 @@ footer .phone_number a {
 }
 
 .navbar-nav {
-    -ms-flex-direction: row;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-#main .estate_info {
-    padding-top: 50px;
-    padding-bottom: 0px;
-}
 
-/* button like */
-.section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 {
-    position: relative;
-}
-
-.section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 .btn_like {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #d8d8da;
-    border-radius: 50%;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 .btn_like .btn_like_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 .btn_like .btn_like_wrapper .i_like {
-    width: 18px;
-    height: 18px;
-    fill: #d8d8da;
-}
-
-.section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 .btn_like .btn_like_wrapper .i_like.active {
-    display: none;
-    fill: #ff6760;
-}

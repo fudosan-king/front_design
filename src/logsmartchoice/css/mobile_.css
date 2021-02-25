@@ -18,10 +18,6 @@
     ul.recommand_list li:last-child, ul.recommand_list li:nth-child(2n) {
         margin-right: 0;
     }
-
-    .section_propertyinformation ul.list_property li {
-        margin-right: 15px;
-    }
 }
 
 @media (min-width: 992px) {
@@ -39,12 +35,17 @@
         padding: 10px 15px;
     }
 
-    /*.navbar .navbar-brand {
-        margin: 0 auto;
-    }*/
+    .navbar .navbar-brand {
+        position: relative;
+        top: -2px;
+    }
 
     .navbar .navbar-brand img {
         width: 120px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 15px;
     }
 
     .bsnav-mobile .bsnav-mobile-overlay {
@@ -79,15 +80,19 @@
     }
 
     .section_topbanner {
-        height: 350px;
+        height: 410px;
     }
 
     .section_topbanner .topbanner_content {
         padding: 15px;
     }
 
-    .section_subbanner {
-        height: 282px;
+    .section_topbanner p {
+        margin-bottom: 10px;
+    }
+
+    .section_topbanner p:first-child {
+        margin-top: 30px;
     }
 
     .section_topinfo .w_box_topinfo {
@@ -257,8 +262,6 @@
 
     footer .footer_middle {
         text-align: center;
-        line-height: 1.3em;
-        padding-top: 10px;
     }
 
     footer .footer_middle .phone_number {
@@ -315,7 +318,8 @@
 
     .section_propertyinformation ul.list_property li {
         width: 48%;
-        margin-right: 20px
+        margin-right: 15px;
+        margin-bottom: 30px;
     }
 
     .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body {
@@ -439,22 +443,7 @@
         margin-bottom: 15px;
     }
 
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding: 0 15px;
-    }
-
-    .section_topbanner {
-        height: 410px;
-    }
-
-    //button like
-
-    .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 .btn_like {
-        top: 0;
-    }
-    .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 {
-        padding-right: 40px
-    }
+    
 }
 
 @media (max-width: 414px) {
@@ -462,14 +451,13 @@
         width: 100%;
         margin-right: 0;
     }
-    .section_propertyinformation ul.list_property li {
-        width: 100%;
-        margin-right: 0
-    }
-    
 }
 
 @media (max-width: 375px) {
+    .section_propertyinformation ul.list_property li {
+        width: 47.5%;
+    }
+
     .btnBlack {
         min-width: 270px;
     }

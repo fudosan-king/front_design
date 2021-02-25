@@ -20,4 +20,8 @@ jQuery(document).ready(function($) {
   }
   $('[data-scroll]').on('click', scrollToSection);
 
+  $(".btn_like_wrapper").click(function(){
+    $(".i_like").toggle();
+  });
+
 }(jQuery));

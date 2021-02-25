@@ -1528,3 +1528,44 @@ footer {
   flex-direction: row;
   justify-content: flex-end;
 }
+
+
+.section_propertyinformation {
+  ul.list_property {
+    li {
+      .box_property_item {
+        .box_property_item_body {
+          h2 {
+            position: relative;
+            .btn_like {
+              position: absolute;
+              right: 0;
+              top: 0;
+              padding: 0;
+              width: 30px;
+              height: 30px;
+              border: 1px solid #d8d8da;
+              border-radius: 50%;
+              background-color: #fff;
+              cursor: pointer;
+              .btn_like_wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .i_like {
+                  width: 18px;
+                  height: 18px;
+                  fill: #d8d8da;
+                  &.active {
+                    display: none;
+                    fill: #ff6760;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
