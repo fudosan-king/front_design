@@ -1,0 +1,28 @@
+body {
+	color:$cl-black;
+	font-size: 16px;
+	background:$cl-white;
+}
+
+.container{
+	max-width:1440px;
+}
+
+ul {
+	list-style: none;
+}
+
+a,
+a:focus,
+a:active,
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button,
+button:focus,
+button:active,
+button:hover {
+	outline: none;
+}
