@@ -1,0 +1,52 @@
+.g-slideshow{
+	position: relative;
+	padding-bottom: 70px;
+	&:before{
+		position: absolute;
+		background: $cl-black-light;
+		content:'';
+		left:0;
+	    right: 13.5%;
+	    height: calc(100% - 100px);
+	    top:100px;
+	    bottom: 0;
+	}
+
+	.splide {
+		padding-left: 14.25%;
+		.splide__track{
+			box-shadow:0px 20px 50px $cl-shadow-black-25;
+			
+		}
+		.splide-item{
+			max-height: 640px;
+			padding-top:51.2%;
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+			
+		}
+		.hide-panigation{
+			li{
+				height:0;
+				button{
+					height:0;
+				}
+			}
+		}
+	}
+
+	.slideshow-text{
+		position: absolute;
+		bottom:23%;
+		left:7%;
+		h1{
+			font-weight: bold;
+			font-size: 6.875rem;
+			line-height: 100%;
+			color: #FFFFFF;
+		}	
+	}
+
+}
+

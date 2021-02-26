@@ -1,0 +1,98 @@
+//----------------------------------------------//
+// *Response Font Size                          //
+//----------------------------------------------//
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-font-size($min-vw, $max-vw, $min-font-size, $max-font-size) {
+    $u1: unit($min-vw);
+    $u2: unit($max-vw);
+    $u3: unit($min-font-size);
+    $u4: unit($max-font-size);
+
+    @if $u1==$u2 and $u1==$u3 and $u1==$u4 {
+        & {
+            font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+        }
+    }
+}
+
+
+@media (max-width: 1130px) {
+
+    /* Footer */
+    footer {
+
+        ul.nav {
+            display: block;
+
+            li {
+                a.nav-link {}
+            }
+        }
+
+        .footer-top {
+            &:before {
+                right: 0;
+            }
+
+            ul {
+                li {
+                    padding: 10px 0px;
+                }
+            }
+        }
+
+        .footer-bottom {
+
+            .navbar {
+                display: block;
+            }
+
+            .navbar-brand {
+                display: flex;
+                justify-content: center;
+            }
+
+            .footer-bottom_list {
+                justify-content: center;
+            }
+
+            ul {
+                li {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:991px) {
+
+    /* Navigation */
+    .nav_menu {
+        padding: 30px 50px 10px;
+
+        ul {
+            li {
+                a {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+
+
+    /* SlideShow */
+    .g-slideshow {
+        .slideshow-text {
+            h1 {
+                @include fluid-font-size(320px, 991px, 40px, 110px);
+            }
+        }
+    }
+
+}
