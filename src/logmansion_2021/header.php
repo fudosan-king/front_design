@@ -11,12 +11,12 @@
     <link rel="icon" type="image/png" href="images/icon/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="mask-icon" href="images/icon/favicons/safari-pinned-tab.svg" color="#5bbad5">
 
-    <link rel="stylesheet" href="/css/bootstrap-v4.6.0.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/all.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/splide.min.css" type="text/css">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/css/mobile.css" type="text/css">
-    <link rel="stylesheet" href="/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap-v4.6.0.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/splide.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+    <link rel="stylesheet" href="./css/custom.css" type="text/css">
 
     <title>天然無垢材・自然素材のリノベーションマンション｜ログマンション</title>
     <meta name="description" content="" />
