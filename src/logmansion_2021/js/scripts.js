@@ -1,17 +1,49 @@
 $(function($) {
 
-    $("body").on("click", 'a[rel^="#"], a[rel^="."]', function(e) {
-        const  currentTarget  = e.currentTarget;
-        const elem = $(currentTarget).attr("rel");
-        const eleID = elem.replace('#', '');
-        const target = $($(currentTarget).attr("rel"));
-        const targetToTop = target.offset().top ? target.offset().top : 0;
-        $('html, body').animate({
-            scrollTop: targetToTop
-        }, 1000);
-        return;
-    });
+    const splide = new Splide( '.splide',{
+        type: 'loop',
+        autoplay:true,
+        interval:2000,
+        pauseOnHover:false,
+        pauseOnFocus:false,
+        arrows:false,
+        classes: {
+            pagination:'splide__pagination hide-panigation',
+            page: 'splide__pagination__page hide-panigation',
+        },
+    }).mount();
+        
 
 });
 
+
+
+
+$(function($) {
+
+    const run_logmansion = new log_mainsion($);
+    $(document).ready(function(){
+        run_logmansion.ready();
+    });
+
+
     
+
+});
+
+
+function log_mainsion()
+{
+    
+    this.ready = function()
+    {
+        const _this = this;
+        _this.slideshow();
+    }
+
+    this.slideshow = function()
+    {
+
+    }
+
+}
