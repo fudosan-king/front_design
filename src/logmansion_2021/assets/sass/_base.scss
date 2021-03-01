@@ -4,13 +4,21 @@
 }
 
 
+
+
+
+
+
+
 /*Layout*/
 img {
     max-width: 100%;
     height: auto;
 }
 
-/*Border*/
+
+/*Button*/
+
 .btn-white {
     border: 2px solid $cl-white;
     color: $cl-white;
@@ -42,7 +50,6 @@ img {
 
 }
 
-/*Button*/
 .btn-mansion {
     position: relative;
     font-weight: bold;
@@ -248,6 +255,48 @@ img {
 
 
 /* Promotion Item */
+.promotion{
+    .row{
+        margin-bottom:50px;
+    }
+    .col-md-6:nth-child(odd){
+        padding-right:50px;
+    }
+    .col-md-6:nth-child(even){
+        padding-left:50px;
+        .promotion-item {
+            .promotion-item_title {
+                &:before{
+                    right:72px;
+                }
+                &:after{
+                    right:72px;
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        .col-md-6:nth-child(odd){
+            padding-right:20px;
+            padding-left:20px;
+        }
+        .col-md-6:nth-child(even){
+            padding-right:20px;
+            padding-left:20px;
+            .promotion-item {
+                .promotion-item_title {
+                    &:before{
+                        right:10px;
+                    }
+                    &:after{
+                        right:10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .promotion-item {
     .promotion-item_img {
         max-width: 570px;
@@ -273,7 +322,7 @@ img {
         letter-spacing: 0.02em;
         color: $promotion-cl-white;
         margin-bottom: 30px;
-        padding-right: 40px;
+        padding-right: 50px;
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
@@ -304,11 +353,26 @@ img {
             background: $promotion-cl-white;
             transform: rotate(30deg);
         }
+        @media(max-width: 767px){
+            margin-bottom: 25px;
+            font-size: 1.125rem;
+            height: auto;
+            &:before {
+                right: 10px;
+            }
+            &:after {
+                right: 10px;
+            }
+        }
     }
 
     .promotion-item_des {
         font-size: 0.875rem;
         color: $promotion-cl-white;
+        @media(max-width: 767px){
+            padding-right:25px;
+            margin-bottom:40px;
+        }
     }
 }
 

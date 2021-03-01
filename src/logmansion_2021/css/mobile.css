@@ -1,32 +1,67 @@
-@media (max-width: 1130px) {
+@media (max-width: 1199px) {
   /* Footer */
     footer ul.nav {
         display: block;
     }
 
     footer .footer-top:before {
-        right: 0;
+        right: 40px;
+    }
+
+    footer .footer-top ul {
+        padding: 22px 0;
     }
 
     footer .footer-top ul li {
-        padding: 10px 0px;
+        padding: 0;
+    }
+
+    footer .footer-top ul li a {
+        text-align: left;
+        font-size: 0.75rem;
+        padding: 10px 0;
+    }
+
+    footer .footer-bottom {
+        padding-top: 10px;
+    }
+
+    footer .footer-bottom:before {
+        top: -91px;
     }
 
     footer .footer-bottom .navbar {
         display: block;
+        padding: 0;
     }
 
     footer .footer-bottom .navbar-brand {
         display: flex;
         justify-content: center;
+        max-width: 124px;
+        margin-bottom: 15px;
     }
 
     footer .footer-bottom .footer-bottom_list {
-        justify-content: center;
+        justify-content: start;
+        width: 100%;
     }
 
     footer .footer-bottom ul li {
-        padding: 10px 0;
+        padding: 0;
+    }
+
+    footer .footer-bottom ul li a {
+        text-align: left;
+        font-size: 0.5625rem;
+        padding: 5px 0;
+        font-weight: 500;
+    }
+
+    footer .footer-bottom .copyright {
+        text-align: right;
+        padding: 25px 0 30px;
+        font-size: 0.625rem;
     }
 }
 
@@ -39,36 +74,192 @@
     .nav_menu .nav_menu-list {
         position: fixed;
         top: 0;
-        right: 0;
-        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+        left: 0;
         height: 100%;
         width: 100%;
         max-width: 300px;
         background: #333333;
+        transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+        transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+        transform: translateX(0);
+        opacity: 1;
+        overflow-y: scroll;
         z-index: 999999;
     }
 
+    .nav_menu ul {
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+
     .nav_menu ul li a {
-        padding: 10px 0;
+        padding: 17px 0;
+        margin-bottom: 10px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+    }
+
+    .menu-animation-scroll {
+        -webkit-animation-name: top-to-bottom;
+                animation-name: top-to-bottom;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+    }
+
+    header.menu-animation-scroll {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .menu-opened .navbar-brand {
+        display: none;
+    }
+
+    .menu-opened .nav_menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(51, 51, 51, 0.5);
+        z-index: 999999;
+    }
+
+    .menu-opened .nav_menu button {
+        top: 0;
+        right: 0;
+        background: #ffffff;
+        border-radius: 0;
+        position: absolute;
+    }
+
+    .menu-opening .nav_menu-list {
+        -webkit-animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+                animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+    }
+
+    .menu-closing .nav_menu-list {
+        -webkit-animation: drawer-close 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+                animation: drawer-close 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
     }
 }
 
 @media (max-width: 767px) {
+  /* SlideShow */
+    .g-slideshow {
+        padding-bottom: 40px;
+    }
+
+    .g-slideshow:before {
+        height: unset;
+    }
+
+    .g-slideshow .splide .splide-item {
+        padding-top: 94.2%;
+    }
+
+    .g-slideshow .slideshow-text {
+        bottom: 10px;
+    }
+
+    .g-slideshow .slideshow-text h2 {
+        font-size: calc(48px + 62 * ((100vw - 376px) / 391));
+    }
   /* Top Page  */
-    .top-page_lists h2 {
+    .lists-bg-gray {
+        margin-bottom: 80px;
+    }
+
+    .lists-bg-gray h2 {
         font-size: 1.5rem;
         padding-top: 60px;
         margin-bottom: 30px;
     }
-  /* SlideShow */
-    .g-slideshow .slideshow-text h2 {
-        font-size: calc(40px + 70 * ((100vw - 376px) / 391));
+
+    .lists-bg-gray h2 span {
+        display: block;
+    }
+  /* Top Page Content  */
+    .section-top-page-content .g-slideshow:before {
+        right: 30px;
+    }
+
+    .section-top-page-content .g-slideshow .slideshow-text {
+        bottom: 10px;
+    }
+
+    .section-top-page-content .g-slideshow .slideshow-text .img-txt-about-us {
+        padding-right: 28%;
+    }
+
+    .section-top-page-content .top-page-content_des {
+        padding: 0 30px;
+    }
+
+    .section-top-page-content .top-page-content_des h3 {
+        font-size: 1.125rem;
+    }
+
+    .section-top-page-content .top-page-content_promotion {
+        margin-bottom: 60px;
+    }
+  /* Top Page Service */
+    .section-top-page-services .news-item {
+        padding-left: 52%;
+    }
+
+    .section-top-page-services .news-item_img {
+        position: absolute;
+        left: 15px;
+        right: 50%;
+        margin-right: 7px;
+    }
+
+    .section-top-page-services .news-item_cat {
+        margin-bottom: 10px;
+    }
+
+    .section-top-page-services .news-item_title {
+        font-size: 1.125rem;
+        padding-right: 15px;
+    }
+
+    .section-top-page-services .i-arrows:before {
+        width: 20px;
+        top: 23px;
+    }
+
+    .section-top-page-services .i-arrows:after {
+        top: 21px;
+    }
+
+    .section-top-page-services .news-item_des {
+        font-size: 0.75rem;
     }
 }
 
 @media (max-width: 375px) {
+  /* Navigation */
+    .nav_menu .navbar-brand {
+        max-width: 125px;
+    }
   /* Top Page  */
     .top-page_lists:before {
         left: 30px;
+    }
+  /* SlideShow */
+    .g-slideshow .slideshow-text h2 {
+        font-size: calc(40px + 8 * ((100vw - 320px) / 55));
     }
 }

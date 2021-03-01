@@ -3,7 +3,6 @@ footer {
     ul {
         li {
             a.nav-link {
-                font-family: SF Pro Display;
                 font-weight: 600;
                 font-size: 0.625rem;
                 line-height: 12px;
@@ -39,6 +38,10 @@ footer {
     .footer-bottom {
         position: relative;
 
+        .navbar-brand {
+            max-width: 166px;
+        }
+
         &:before {
             content: '';
             position: absolute;
@@ -53,13 +56,24 @@ footer {
         .footer-bottom_list {
             display: flex;
             justify-content: flex-end;
-            width: 100%;
+            width: calc(100% - 487px);
         }
 
         ul {
             li {
-                padding: 31px 0;
+                padding: 25px 0 30px;
             }
         }
+
+        .copyright {
+            font-weight: 600;
+            font-size: 0.625rem;
+            line-height: 12px;
+            letter-spacing: 0.02em;
+            color: $cl-white;
+            padding: 10px;
+            text-align: center;
+        }
     }
+
 }
