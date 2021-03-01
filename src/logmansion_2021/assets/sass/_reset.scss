@@ -1,7 +1,7 @@
 body {
 	color:$cl-black;
 	font-size: 16px;
-	background:$cl-white;
+	background:transparent;
 	font-family: 'SF Pro Display', sans-serif;
 	// font-family: 'SF Pro Display','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
@@ -27,4 +27,5 @@ button:focus,
 button:active,
 button:hover {
 	outline: none;
+	box-shadow:none;
 }
