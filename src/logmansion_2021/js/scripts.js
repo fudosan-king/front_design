@@ -15,7 +15,6 @@ $(function($) {
         },
     }).mount();
 
-
     const splide_ct = new Splide('.top-page-ct', {
         pauseOnHover: false,
         pauseOnFocus: false,
@@ -54,7 +53,6 @@ $(function($) {
                 },
             },
         },
-
     }).mount();
 
 });
@@ -73,11 +71,53 @@ function log_mainsion() {
 
     this.ready = function() {
         const _this = this;
-        _this.slideshow();
+        _this.navigation();
     }
 
-    this.slideshow = function() {
+    this.navigation = function() {
+       const _this = this;
 
+        $(window).scroll(function(e){
+            _this.menu_animation_scroll();
+        });
+
+        $('.js-menu').on('click',function(e){
+            const currentTarget = e.currentTarget;
+            if ( $(currentTarget).hasClass('open') ){
+                $(currentTarget).removeClass('open');
+            } else{
+                $(currentTarget).addClass('open');
+            }
+            if( $('.nav_menu-list').hasClass('show') ){
+                $('body').removeClass('menu-opening');
+                $('body').addClass('menu-closing');
+                setTimeout(function(){
+                    $('.nav_menu-list').removeClass('show');
+                    $('body').removeClass('menu-opened');
+                    $('body').removeClass('menu-closing');
+                    _this.menu_animation_scroll();
+                },500);    
+            } else {
+                $('.nav_menu-list').addClass('show'); 
+                $('body').addClass('menu-opened menu-opening');
+            }  
+        });
+
+    }
+
+    this.menu_animation_scroll = function(){
+        const headerHeight = $('header').outerHeight();
+        const win = $(window);
+        const doc = $(document);
+        let winHeight;
+        const _header = $('header');
+        if( $('body').hasClass('menu-opened') ) return;
+        if( win.height() + 2*headerHeight >= doc.height() ) return;
+        if( win.scrollTop() > headerHeight ){
+            _header.addClass('menu-animation-scroll');    
+        } else {
+            _header.removeClass('menu-animation-scroll');    
+        }
     }
 
 }

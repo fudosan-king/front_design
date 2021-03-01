@@ -1,6 +1,38 @@
 <?php include 'header.php'; ?>
 <?php include 'navigation.php'; ?>
-<?php include 'slideshow.php'; ?>
+
+<!-- Slide Show  -->
+<section class="section-slideshow">
+    <div class="g-slideshow">
+        <div class="g-slideshow_content">
+            <div id="slideshow_splide" class="splide slideshow-splide">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide" >
+                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);" ></div>
+                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
+                            </div>
+                            <div class="splide__slide" >
+                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top-page-ct.jpg);"></div>
+                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);"></div>
+                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="slideshow-text">
+                <h2>ABOUT
+                    <p>LogMansion</p></h2>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Top Page Content  -->
 <section class="section-top-page-lists">
     <div class="lists-bg-gray">
         <div class="container">
@@ -72,7 +104,8 @@
                 <div class="splide__track">
                     <div class="splide__list">
                         <div class="splide__slide">
-                            <div class="splide-item" style="background-image: url(./images/2x/top-page-ct.jpg);"></div>
+                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top-page-ct.jpg);"></div>
+                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/top-page-ct-sp.jpg);" ></div>
                         </div>
                     </div>
                 </div>
@@ -89,7 +122,7 @@
                 <h3>ログマンションとは</h3>
                 <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
             </div>
-            <div class="top-page-content_promotion">
+            <div class="promotion">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="promotion-item">
@@ -143,7 +176,7 @@
 <section class="section-top-page-services">
     <div class="lists-bg-gray">
         <div class="container">
-            <h2>ログマンションのサービス</h2>
+            <h2>ログマンションの<span>サービス</span></h2>
             <div class="row-three-list">
                 <div class="row">
                     <div class="col-md-4">
