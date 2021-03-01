@@ -10,13 +10,25 @@
 	    height: calc(100% - 100px);
 	    top:100px;
 	    bottom: 0;
+        z-index: -1;
 	}
-
+	.g-slideshow_content{
+		position: relative;
+	}
 	.splide {
 		padding-left: 14.25%;
+		position: relative;
+		&:before{
+			content:'';
+			position: absolute;
+			background:$cl-white;
+			top:0;
+			bottom:0;
+			left:14.25%;
+			right:0;
+		}
 		.splide__track{
 			box-shadow:0px 20px 50px $cl-shadow-black-25;
-			
 		}
 		.splide-item{
 			max-height: 640px;
@@ -38,9 +50,9 @@
 
 	.slideshow-text{
 		position: absolute;
-		bottom:23%;
+		bottom:14%;
 		left:7%;
-		h1{
+		h2{
 			font-weight: bold;
 			font-size: 6.875rem;
 			line-height: 100%;

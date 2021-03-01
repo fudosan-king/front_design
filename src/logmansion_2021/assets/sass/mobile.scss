@@ -1,3 +1,5 @@
+@import 'variables';
+
 //----------------------------------------------//
 // *Response Font Size                          //
 //----------------------------------------------//
@@ -74,8 +76,24 @@
 
     /* Navigation */
     .nav_menu {
-        padding: 30px 50px 10px;
+        padding: 15px 20px;
 
+        .nav_menu-list{
+            position:fixed;
+            top:0;
+            right:0;
+            
+            transition: all .4s cubic-bezier(.19,1,.22,1);
+
+            
+            
+            height: 100%;
+            width: 100%;
+            max-width:300px;
+
+            background: $nav-cl-black-light;
+            z-index:999999;
+        }
         ul {
             li {
                 a {
@@ -83,16 +101,48 @@
                 }
             }
         }
+
+
     }
 
+   
+}
+
+
+
+
+@media (max-width: 767px){
+    /* Top Page  */
+    .top-page_lists {
+        h2{
+            font-size: 1.5rem;
+            padding-top:60px;
+            margin-bottom: 30px;
+        }
+    }
 
     /* SlideShow */
     .g-slideshow {
         .slideshow-text {
-            h1 {
-                @include fluid-font-size(320px, 991px, 40px, 110px);
+            h2 {
+                @include fluid-font-size(376px, 767px, 40px, 110px);
             }
         }
     }
 
 }
+
+
+
+@media (max-width: 375px){
+    /* Top Page  */
+    .top-page_lists {
+        &:before{
+            left:30px;
+        }
+    }
+
+}
+
+
+
