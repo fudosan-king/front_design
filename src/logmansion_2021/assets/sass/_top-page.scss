@@ -53,6 +53,16 @@
 
 	.promotion{
 		margin-top:80px;
+	    .col-md-6:nth-child(even){
+	        .promotion-item {
+	            .promotion-item_title {
+	                width: calc(100% - 23.5%);
+	            }
+	            .promotion-item_des{
+	            	width: calc(100% - 23.5%);
+	            }
+	        }
+	    }
 	}
 
 }
