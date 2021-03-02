@@ -1,59 +1,68 @@
 $(function($) {
+    $(document).ready(function() {
 
-    const splide = new Splide('.slideshow-splide', {
-        type  : 'fade',
-        rewind: true,
-        autoplay: true,
-        speed:3000,
-        interval: 5000,
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        arrows: false,
-        classes: {
-            pagination: 'splide__pagination hide-panigation',
-            page: 'splide__pagination__page hide-panigation',
-        },
-    }).mount();
+        if( $('.slideshow-splide').length > 0 ){
+            const splide = new Splide('.slideshow-splide', {
+                type  : 'fade',
+                rewind: true,
+                autoplay: true,
+                speed:3000,
+                interval: 5000,
+                pauseOnHover: false,
+                pauseOnFocus: false,
+                arrows: false,
+                classes: {
+                    pagination: 'splide__pagination hide-panigation',
+                    page: 'splide__pagination__page hide-panigation',
+                },
+            }).mount();
+        }
 
-    const splide_ct = new Splide('.top-page-ct', {
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        arrows: false,
-        classes: {
-            pagination: 'splide__pagination hide-panigation',
-            page: 'splide__pagination__page hide-panigation',
-        },
-    }).mount();
+        if( $('.top-page-ct').length > 0 ){
+            const splide_ct = new Splide('.top-page-ct', {
+                pauseOnHover: false,
+                pauseOnFocus: false,
+                arrows: false,
+                classes: {
+                    pagination: 'splide__pagination hide-panigation',
+                    page: 'splide__pagination__page hide-panigation',
+                },
+            }).mount();
+        }
 
-    const splide_product_list = new Splide('.splide-products', {
-        rewind: true,
-        perPage: 3,
-        perMove: 1,
-        arrows: false,
-        pagination: false,
-        padding: {
-            left: 0,
-            right: '1.6%',
-        },
-        breakpoints: {
-            991: {
-                perPage: 2,
-                fixedWidth: '24.6875rem',
-            },
-            680: {
-                perPage: 1,
-                fixedWidth: '24.6875rem',
-            },
-            375: {
-                perPage: 1,
-                fixedWidth: '17.1875rem',
+        if( $('.splide-products').length > 0 ){
+            const splide_product_list = new Splide('.splide-products', {
+                rewind: true,
+                perPage: 3,
+                perMove: 1,
+                arrows: false,
+                pagination: false,
                 padding: {
                     left: 0,
-                    right: '5.6%',
+                    right: '1.6%',
                 },
-            },
-        },
-    }).mount();
+                breakpoints: {
+                    991: {
+                        perPage: 2,
+                        fixedWidth: '24.6875rem',
+                    },
+                    680: {
+                        perPage: 1,
+                        fixedWidth: '24.6875rem',
+                    },
+                    375: {
+                        perPage: 1,
+                        fixedWidth: '17.1875rem',
+                        padding: {
+                            left: 0,
+                            right: '5.6%',
+                        },
+                    },
+                },
+            }).mount();
+        }
+
+    });
 
 });
 
@@ -72,6 +81,18 @@ function log_mainsion() {
     this.ready = function() {
         const _this = this;
         _this.navigation();
+        _this.showCategoiesPC();
+    }
+
+    this.showCategoiesPC = function ()
+    {
+        $(window).on('resize load',function(e){
+            if( $(window).width() >= 992 ){
+                $('#collapse_cat').collapse('show');
+            } else {
+                $('#collapse_cat').collapse('hide');
+            }
+        });
     }
 
     this.navigation = function() {
