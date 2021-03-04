@@ -7,6 +7,7 @@
             <div class="splide slideshow-splide">
                 <div class="splide__track">
                     <div class="splide__list">
+                        <!-- Items -->
                         <div class="splide__slide">
                             <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-owned-property-1.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-owned-property-sp-1.jpg);"></div>
