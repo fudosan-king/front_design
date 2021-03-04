@@ -28,6 +28,11 @@
 
             </div>
         </div>
+        <div class="sm-title">
+            <div class="container">
+                <h3>お問合わせ</h3>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -42,7 +47,7 @@
     				追って担当者よりご連絡させていただきます。<br>
     				連絡がない場合はメールが届いていない可能性がありますので、お手数ですが再度お問合わせください。</p>
     				<p><small>※当社指定日を挟んだ場合や、お見積り内容により、回答が数日かかる場合があります。予めご了承ください。</small></p>
-    				<p><a href="index.php" class="btn btn-mansion bg-gradient-green-turquoise btn_back">トップに戻る</a></p>
+    				<p><a href="index.php" class="btn btn-mansion btn-lg-mansion bg-gradient-green-turquoise btn_back">トップに戻る</a></p>
     			</div>
     		</div>
     	</div>
