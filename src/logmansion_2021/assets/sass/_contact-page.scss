@@ -73,6 +73,8 @@
 			}
 			.btnzipcode {
 				font-size: 1em;
+				color: $cl-green;
+				font-weight: 500;
 				i {
 					position: relative;
 					top: -2px;
@@ -154,11 +156,24 @@
 
 .box_completed {
 	text-align: center;
+	border-radius: 10px;
+	background: #fff;
+	padding: 60px 130px;
+	h2 {
+		font-size: 1.5em;
+		padding-bottom: 30px;
+		border-bottom: 1px solid rgba(16,39,70, .2);
+		margin-bottom: 30px;
+	}
+	p, small {
+		font-weight: 300;
+	}
 	.btn_back {
 		background: linear-gradient(135deg, $cl-green 0%, $cl-turquoise 100%);
 		font-size: 1.125em;
 		font-weight: 500;
 		color: #fff;
+		margin-top: 40px;
 	}
 }
 
@@ -187,5 +202,8 @@
 			}
 		}
 
+	}
+	.box_completed {
+		padding: 30px 0;
 	}
 }

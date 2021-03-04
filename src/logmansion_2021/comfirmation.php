@@ -167,8 +167,8 @@
 							</div>
 
 							<div class="text-center">
-								<a href="contact.php" class="btn btn-mansion btn_back">戻る</a>
-								<a href="completed.php" class="btn btn_send btn-mansion bg-gradient-green-turquoise">送信</a>
+								<a href="contact.php" class="btn btn-mansion btn_back btn-lg-mansion">戻る</a>
+								<a href="completed.php" class="btn btn_send btn-mansion btn-lg-mansion bg-gradient-green-turquoise">送信</a>
 							</div>
 
 						</form>

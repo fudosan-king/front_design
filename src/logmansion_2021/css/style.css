@@ -1406,6 +1406,8 @@ footer .footer-bottom .copyright {
 
 .section_contact_page .box_body_contact .frm_contact .btnzipcode {
     font-size: 1em;
+    color: #1EC656;
+    font-weight: 500;
 }
 
 .section_contact_page .box_body_contact .frm_contact .btnzipcode i {
@@ -1490,6 +1492,20 @@ footer .footer-bottom .copyright {
 
 .box_completed {
     text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    padding: 60px 130px;
+}
+
+.box_completed h2 {
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(16, 39, 70, 0.2);
+    margin-bottom: 30px;
+}
+
+.box_completed p, .box_completed small {
+    font-weight: 300;
 }
 
 .box_completed .btn_back {
@@ -1497,6 +1513,7 @@ footer .footer-bottom .copyright {
     font-size: 1.125em;
     font-weight: 500;
     color: #fff;
+    margin-top: 40px;
 }
 
 @media (max-width: 768px) {
@@ -1521,5 +1538,9 @@ footer .footer-bottom .copyright {
 
     .section_contact_page .box_body_contact .btn-mansion.btn_back, .section_contact_page .box_body_contact .btn-mansion.btn_send {
         max-width: 155px;
+    }
+
+    .box_completed {
+        padding: 30px 0;
     }
 }

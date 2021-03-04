@@ -28,6 +28,11 @@
 
             </div>
         </div>
+        <div class="sm-title">
+            <div class="container">
+                <h3>お問合わせ</h3>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -307,7 +312,7 @@
 								</div>
 							</div>
 
-							<button class="btn btn-mansion btn_confirm btn-black">上記に同意して確認画面へ<span class="btn-line"></span></button>
+							<button class="btn btn_confirm btn-mansion btn-black btn-lg-mansion">上記に同意して確認画面へ<span class="btn-line"></span></button>
 
 						</form>
 					</div>
