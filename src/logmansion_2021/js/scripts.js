@@ -37,6 +37,8 @@ $(function($) {
                 perMove: 1,
                 arrows: false,
                 pagination: false,
+                fixedWidth: '23.125rem',
+                gap:25,
                 padding: {
                     left: 0,
                     right: '1.6%',
@@ -44,7 +46,7 @@ $(function($) {
                 breakpoints: {
                     991: {
                         perPage: 2,
-                        fixedWidth: '24.6875rem',
+                        fixedWidth: '23.125rem',
                     },
                     680: {
                         perPage: 1,
@@ -60,6 +62,81 @@ $(function($) {
                     },
                 },
             }).mount();
+        }
+
+        if( $('.splide-detail-product').length > 0 ){
+            const splide_product_list = new Splide('.splide-detail-product', {
+                type:'loop',
+                perPage: 3,
+                perMove: 1,
+                arrows: false,
+                pagination: false,
+                fixedWidth: '23.125rem',
+                gap:25,
+                padding: {
+                    left: '6rem',
+                    right: 0,
+                },
+                breakpoints: {
+                    991: {
+                        perPage: 2,
+                        fixedWidth: '23.125rem',
+                    },
+                    680: {
+                        perPage: 1,
+                        fixedWidth: '24.6875rem',
+                    },
+                    375: {
+                        perPage: 1,
+                        gap:20,
+                        fixedWidth: '15.9375rem',
+                        padding: {
+                            left: '3.7rem',
+                            right: 0,
+                        },
+                    },
+                },
+            }).mount();
+        }
+
+        if( $('.js-splide-slider').length > 0 && $('.js-primary-splide-slider').length > 0 ){
+            
+            // Create and mount the thumbnails slider.
+            var secondarySlider = new Splide( '.js-splide-slider', {
+                rewind      : true,
+                fixedWidth  : 104,
+                fixedHeight : 69,
+                isNavigation: true,
+                gap         : 12,
+                pagination  : false,
+                arrows      : false,
+                cover       : true,
+                breakpoints : {
+                    767: {
+                       perPage:3,
+                       gap: 5,
+                    }
+                }
+            } ).mount();
+
+            // Create the main slider.
+            var primarySlider = new Splide( '.js-primary-splide-slider', {
+                type       : 'fade',
+                heightRatio: 0.5,
+                pagination : false,
+                arrows     : true,
+                cover      : true,
+                fixedHeight : '66.31%',
+                breakpoints : {
+                    767: {
+                       arrows: false,
+                    }
+                }
+            } );
+
+            // Set the thumbnails slider as a sync target and then call mount.
+            primarySlider.sync( secondarySlider ).mount();
+
         }
 
     });
@@ -82,6 +159,85 @@ function log_mainsion() {
         const _this = this;
         _this.navigation();
         _this.showCategoiesPC();
+        _this.txtShowMore();
+    }  
+
+    this.txtShowMore = function ()
+    {
+        var wrap = $('.detail_des');
+        var current_height = wrap.height();
+        var your_height = 145;
+
+        $(window).on('resize',function() {
+            if( $(window).width() <= 991 ){
+                if($('.detail_des').length > 0 && $('body .view-more').length === 0 ){
+                    if(current_height > your_height){
+                        wrap.css({ 
+                            height: your_height+'px',
+                            overflow: 'hidden',
+                        });
+                        wrap.append(function(){
+                            return '<div class="bg-gradient-ovlarticle"></div>';
+                        });
+                        wrap.after(function(){
+                            return '<div class="view-more"><a class="i-open" title="Xem thêm" href="javascript:void(0);"></a></div>';
+                        });
+                        wrap.after(function(){
+                            return '<div class="view-hide" style="display: none"><a class="i-close" title="Thu gọn" href="javascript:void(0);"></a></div>';
+                        });
+                    }
+                }
+            } else {
+                wrap.find('.bg-gradient-ovlarticle').remove();
+                wrap.removeAttr('style');
+                $('body .view-more').remove();
+                $('body .view-hide').remove();
+            }
+        });
+
+        $(window).on('load',function(){
+            if( $(window).width() <= 991 ){
+                if($('.detail_des').length > 0){
+                    if(current_height > your_height){
+                        wrap.css({ 
+                            height: your_height+'px',
+                            overflow: 'hidden',
+                        });
+                        wrap.append(function(){
+                            return '<div class="bg-gradient-ovlarticle"></div>';
+                        });
+                        wrap.after(function(){
+                            return '<div class="view-more"><a class="i-open" title="Xem thêm" href="javascript:void(0);"></a></div>';
+                        });
+                        wrap.after(function(){
+                            return '<div class="view-hide" style="display: none"><a class="i-close" title="Thu gọn" href="javascript:void(0);"></a></div>';
+                        });
+                        $('body').on('click','.view-more', function(){
+                            wrap.find('.bg-gradient-ovlarticle').remove();
+                            wrap.removeAttr('style');
+                            $('body .view-more').hide();
+                            $('body .view-hide').show();
+                        });
+                        $('body').on('click','.view-hide', function(){
+                            wrap.append(function(){
+                                return '<div class="bg-gradient-ovlarticle"></div>';
+                            });
+                            wrap.css({ 
+                                height: your_height+'px',
+                                overflow: 'hidden',
+                            });
+                            $('body .view-more').show();
+                            $('body .view-hide').hide();
+                        });
+                    }
+                }
+            } else {
+                wrap.find('.bg-gradient-ovlarticle').remove();
+                wrap.removeAttr('style');
+                $('body .view-more').remove();
+                $('body .view-hide').remove();
+            }
+        });
     }
 
     this.showCategoiesPC = function ()
@@ -104,11 +260,7 @@ function log_mainsion() {
 
         $('.js-menu').on('click',function(e){
             const currentTarget = e.currentTarget;
-            if ( $(currentTarget).hasClass('open') ){
-                $(currentTarget).removeClass('open');
-            } else{
-                $(currentTarget).addClass('open');
-            }
+
             if( $('.nav_menu-list').hasClass('show') ){
                 $('body').removeClass('menu-opening');
                 $('body').addClass('menu-closing');
@@ -117,11 +269,15 @@ function log_mainsion() {
                     $('body').removeClass('menu-opened');
                     $('body').removeClass('menu-closing');
                     _this.menu_animation_scroll();
-                },500);    
+                    $(currentTarget).removeClass('open');
+                },300);  
+
             } else {
+                $(currentTarget).addClass('open');
                 $('.nav_menu-list').addClass('show'); 
                 $('body').addClass('menu-opened menu-opening');
             }  
+            
         });
 
     }

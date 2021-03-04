@@ -21,9 +21,10 @@
 }
 
 @media (min-width: 1440px) {
-     /* Top Page Content  */
+
+    /* Top Page Content  */
     .section-top-page-content {
-        .promotion{
+        .promotion {
             .col-md-6:nth-child(even) {
                 .promotion-item {
                     .promotion-item_title {
@@ -218,22 +219,75 @@
     }
 
     /*Owned Property Page*/
-    .owned-property_product{
-        .col-md-6:nth-child(3n+2){
-            .product-items{
-                margin:initial;
+    .owned-property_product {
+        .col-md-6:nth-child(3n+2) {
+            .product-items {
+                margin: initial;
             }
         }
-        .col-md-6:nth-child(3n){
-            .product-items{
-                margin-left:initial;
-                margin-right:initial;
+
+        .col-md-6:nth-child(3n) {
+            .product-items {
+                margin-left: initial;
+                margin-right: initial;
             }
         }
-        .col-md-6:nth-child(2n+2){
-            .product-items{
-                margin-left:auto;
+
+        .col-md-6:nth-child(2n+2) {
+            .product-items {
+                margin-left: auto;
                 margin-right: 0;
+            }
+        }
+    }
+
+    /*Detail Page*/
+    .section-slideshow-details {
+        .product-items {
+            padding-top: unset;
+        }
+
+        .sm-title {
+            width: calc(100% - 7.5%);
+
+            h3 {
+                display: inline-block;
+            }
+        }
+
+        .contact-info {
+            float: unset;
+            justify-content: unset;
+            width: 100%;
+
+            .contact-info_home,
+            .contact-info_email {
+                font-weight: 600;
+                font-size: 1rem;
+                letter-spacing: 0.1em;
+                color: $detail-cl-white;
+
+                i {
+                    margin-right: 30px;
+                }
+            }
+
+            .contact-info_home {
+                max-width: 206px;
+                margin-right: 0;
+
+                i {
+                    top: 5.5px;
+                }
+            }
+
+            .contact-info_email {
+                max-width: 157px;
+                margin-right: 10px;
+
+                i {
+                    top: 6.5px;
+                }
             }
         }
     }
@@ -314,6 +368,7 @@
             margin-bottom: 40px;
             position: relative;
             min-height: 108px;
+            max-width: 100%;
         }
 
         .news-item_ct {
@@ -326,6 +381,7 @@
 
         .news-item_img {
             margin-right: 7px;
+
         }
 
         .news-item_cat {
@@ -356,17 +412,198 @@
 
 
     /*Owned Property Page*/
-    .owned-property_product{
-        .col-md-6{
-            .product-items{
-                margin-left:auto !important;
-                margin-right:auto !important;
-                margin-bottom:40px !important;
+    .owned-property_product {
+        .col-md-6 {
+            .product-items {
+                margin-left: auto !important;
+                margin-right: auto !important;
+                margin-bottom: 40px !important;
             }
         }
     }
 
+    /*About Page*/
+    .section-about {
+        h2 {
+            text-align: center;
+            margin-bottom: 44px;
+        }
 
+        .title-des {
+            font-size: 1rem;
+            margin-bottom: 60px;
+
+            span {
+                display: block;
+            }
+        }
+
+        .news-item {
+            .news-item_title {
+                padding-right: 0;
+            }
+        }
+
+        .note {
+            font-weight: 300;
+            font-size: 0.75rem;
+            line-height: 200%;
+            color: $cl-black;
+            text-align: center;
+        }
+    }
+
+    .about {
+        margin-bottom: 80px;
+
+        &:last-child {
+            margin-bottom: 140px;
+        }
+
+
+
+        p {
+            font-size: 0.75rem;
+        }
+
+        h3 {
+            font-size: 1.125rem;
+
+            span {
+                display: block;
+            }
+        }
+    }
+
+    .about_planning {
+        margin-bottom: 140px;
+
+        &:before {
+            top: -60px;
+            bottom: 8.6%;
+            left: 30px;
+        }
+
+
+    }
+
+    .about_kitchin {
+        margin-bottom: 80px;
+
+        &:before {
+            top: -60px;
+            right: 30px;
+            bottom: 30%;
+        }
+    }
+
+    .about_comforts {
+        margin-bottom: 80px;
+
+        &:before {
+            top: unset;
+        }
+    }
+
+
+    .about_commitment {
+        margin-bottom: 87px;
+    }
+
+    /* Detail Page */
+    .detail_title {
+        font-size: 1rem;
+
+        span {
+            display: block;
+        }
+    }
+
+    .detail-group {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .detail-utilities_advantages {
+        ul {
+            li {
+                font-size: 0.875rem;
+            }
+        }
+    }
+
+    .detail_slider {
+        margin-bottom: 20px;
+
+        .detail_primary_splide-slider {
+            .splide__arrow {}
+
+            .splide__arrow--prev {}
+
+            .splide__arrow--next {}
+
+            .splide__track {}
+        }
+
+        .details_slide-txt {
+            margin: 20px 0;
+
+            p {
+
+                font-size: 0.875rem;
+                text-align: center;
+                color: $detail-black-light;
+                margin-bottom: 0;
+
+            }
+        }
+
+        .detail_splide-slider {
+            .splide__slide {
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+
+            .splide__slide.is-active {
+                border: none;
+            }
+
+            .splide__list {
+                display: block;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .detail-utilities_info {
+
+        table {
+
+
+            td {
+                .item-price {
+                    font-size: 1.5rem;
+                }
+
+                .item-unit {
+                    font-size: 0.875rem;
+                }
+
+            }
+
+            th {
+                font-size: 0.875rem;
+                width: 100px;
+                padding: 12.5px 15px;
+            }
+
+            tr:last-child {
+                td {
+                    padding: 0;
+                }
+            }
+        }
+    }
 
 }
 

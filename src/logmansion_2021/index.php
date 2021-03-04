@@ -7,6 +7,7 @@
             <div id="slideshow_splide" class="splide slideshow-splide">
                 <div class="splide__track">
                     <div class="splide__list">
+                        <!-- Items -->
                         <div class="splide__slide">
                             <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);"></div>
@@ -40,6 +41,7 @@
             <div id="splide" class="splide splide-products">
                 <div class="splide__track">
                     <div class="splide__list">
+                        <!-- Items -->
                         <div class="splide__slide splide-products_block">
                             <div class="product-items">
                                 <div class="product-items_img">
@@ -115,6 +117,7 @@
             <div id="slideshow_splide" class="splide top-page-ct">
                 <div class="splide__track">
                     <div class="splide__list">
+                        <!-- Items -->
                         <div class="splide__slide">
                             <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top-page-ct.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/top-page-ct-sp.jpg);"></div>
@@ -204,9 +207,9 @@
     <div class="lists-bg-gray">
         <div class="container">
             <h2>ログマンションの<span>サービス</span></h2>
-            <div class="row-three-list">
+            <div class="news-group">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -222,7 +225,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -238,7 +241,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -260,4 +263,7 @@
         </div>
     </div>
 </section>
+
+
+<?php include 'footer-content.php'; ?>
 <?php include 'footer.php'; ?>
