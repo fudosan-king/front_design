@@ -310,8 +310,8 @@ button:hover {
 }
 
 .collapse_group ul li {
-    width: 100%;
     max-width: 295px;
+    width: 100%;
     padding: 0 9.5px;
 }
 
@@ -337,13 +337,18 @@ button:hover {
     .collapse_group ul {
         display: block;
         background: #ffffff;
+        max-width: 335px;
+        margin: 0 auto;
     }
 
     .collapse_group ul li {
         max-width: 335px;
-        margin: 0 auto;
         margin-bottom: 5px;
         padding: 0;
+    }
+
+    .collapse_group ul li a {
+        border-left: 1px solid #000000;
     }
 }
 
@@ -718,6 +723,14 @@ img {
 
 .btn-contact:hover {
     color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .btn-contact {
+        margin-right: 10px;
+        font-size: 0.875rem;
+        height: 37px;
+    }
 }
 
 /* Product Item */
@@ -1111,6 +1124,18 @@ img {
 }
 
 /* Width And Height*/
+@media (max-width: 767px) {
+    .mr-last-to-md-0 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .w-to-md-100 {
+        max-width: 100%;
+    }
+}
+
 .max-w-100 {
     max-width: 100%;
 }
@@ -1861,7 +1886,7 @@ footer .footer-bottom .copyright {
     float: right;
     padding-top: 36px;
     margin-right: 32px;
-    width: 50%;
+    width: 44%;
     justify-content: flex-end;
 }
 
@@ -2079,5 +2104,5 @@ footer .footer-bottom .copyright {
 }
 
 .details-contact a span.i-call {
-    padding-left: 40px;
+    padding-left: 39px;
 }

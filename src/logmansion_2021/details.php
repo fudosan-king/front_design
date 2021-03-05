@@ -337,10 +337,13 @@
 <?php include 'footer-content.php'; ?>
 
 <section class="section-detail-contact">
-    <div class="details-contact">
-        <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-email">資料請求</span></a>
-        <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">資料請求</span></a>
-        <a class=" btn btn-contact bg-gradient-green-turquoise"><span class="i-call">資料請求</span></a>
+    <div class="container">
+        <a class="btn btn-contact bg-gradient-green-turquoise w-to-md-100 d-flex d-md-none"><span class="i-home">資料請求</span></a>
+        <div class="details-contact">
+            <a class="btn btn-contact bg-gradient-green-turquoise w-to-md-100"><span class="i-email">資料請求</span></a>
+            <a class="btn btn-contact bg-gradient-green-turquoise d-none d-md-flex"><span class="i-home">資料請求</span></a>
+            <a class=" btn btn-contact bg-gradient-green-turquoise w-to-md-100 mr-last-to-md-0"><span class="i-call">資料請求</span></a>
+        </div>
     </div>
 </section>
 
