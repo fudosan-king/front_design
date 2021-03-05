@@ -321,4 +321,5 @@
     	</div>
     </div>
 </section>
+<?php include 'footer-content.php'; ?>
 <?php include 'footer.php'; ?>
