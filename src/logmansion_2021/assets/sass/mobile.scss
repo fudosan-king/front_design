@@ -474,8 +474,6 @@
             margin-bottom: 140px;
         }
 
-
-
         p {
             font-size: 0.75rem;
         }
@@ -506,16 +504,18 @@
 
         &:before {
             top: -60px;
-            right: 30px;
+            left: 30px;
+            right:0;
             bottom: 30%;
         }
     }
 
     .about_comforts {
         margin-bottom: 80px;
-
         &:before {
-            top: unset;
+            top: 27%;
+            bottom:16%;
+            left:30px;
         }
     }
 
