@@ -41,10 +41,9 @@
 
     ul {
         justify-content: center;
-
         li {
-            width: 100%;
             max-width: 295px;
+            width: 100%;
             padding: 0 9.5px;
         }
     }
@@ -69,13 +68,15 @@
         ul {
             display: block;
             background: $cl-white;
-
+            max-width: 335px;
+            margin: 0 auto;
             li {
-
                 max-width: 335px;
-                margin: 0 auto;
                 margin-bottom: 5px;
                 padding: 0;
+                a{
+                    border-left: 1px solid #000000;
+                }
             }
         }
     }
@@ -450,6 +451,11 @@ img {
     }
     &:hover {
         color: $cl-white;
+    }
+    @media (max-width: 767px){
+        margin-right:10px;
+        font-size: 0.875rem;
+        height:37px;
     }
 }
 
@@ -865,6 +871,17 @@ img {
 
 
 /* Width And Height*/
+.mr-last-to-md-0{
+    @media (max-width: 767px){
+        margin-right:0;
+    }  
+}
+
+.w-to-md-100{
+    @media (max-width: 767px){
+        max-width:100%;
+    }
+}
 
 .max-w-100 {
     max-width: 100%;
