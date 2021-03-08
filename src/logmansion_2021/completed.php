@@ -5,27 +5,20 @@
 <section class="section-slideshow">
     <div class="g-slideshow">
         <div class="g-slideshow_content">
-            <div id="slideshow_splide" class="splide slideshow-splide">
-                    <div class="splide__track">
-                        <div class="splide__list">
-                            <div class="splide__slide" >
-                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);" ></div>
-                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
-                            </div>
-                            <div class="splide__slide" >
-                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top-page-ct.jpg);"></div>
-                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
-                            </div>
-                            <div class="splide__slide">
-                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);"></div>
-                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="none_splide">
+                <img src="images/2x/bg_contact.jpg" alt="" class="img-fluid d-none d-lg-block">
+                <img src="images/2x/bg_contact_sp.jpg" alt="" class="img-fluid d-block d-lg-none">
             </div>
             <div class="slideshow-text">
-                <h2><img src="images/1x/CONTACT.png" alt="" class="img-fluid"></h2>
-
+                <div class="img-txt">
+                    <img class="d-none d-lg-block" src="images/1x/txt_contact.png" alt="" tilte="" />
+                    <img class="d-block d-lg-none" src="images/2x/text_contact_sp.png" alt="" tilte="" />
+                </div>
+            </div>
+        </div>
+        <div class="sm-title">
+            <div class="container">
+                <h3>物件紹介</h3>
             </div>
         </div>
         <div class="sm-title">

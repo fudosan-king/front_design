@@ -1,3 +1,7 @@
+.none_splide {
+	padding-left: 14.25%;
+	position: relative;
+}
 .section_contact_page {
 	background: #F2F2F2;
 	padding: 80px 0 100px;
@@ -59,7 +63,7 @@
 		.frm_contact {
 			label {
 				margin-bottom: 0;
-				font-weight: 500;
+				font-weight: 600;
 				&.custom-control-label {
 					font-weight: 300;
 					line-height: 1.8em;
@@ -75,6 +79,9 @@
 				font-size: 1em;
 				color: $cl-green;
 				font-weight: 500;
+    			font-weight: 500;
+    			opacity: 1;
+    			padding-left: 0;
 				i {
 					position: relative;
 					top: -2px;
@@ -136,6 +143,8 @@
 		}
 		.link_policy {
 			text-decoration: underline;
+			font-weight: 500;
+			color: #2F80ED;
 		}
 		
 	}
@@ -167,6 +176,12 @@
 	}
 	p, small {
 		font-weight: 300;
+
+	h2 {
+		font-size: 1.5em;
+	    padding-bottom: 30px;
+	    border-bottom: 1px solid rgba(16, 39, 70, 0.2);
+	    margin-bottom: 30px;
 	}
 	.btn_back {
 		background: linear-gradient(135deg, $cl-green 0%, $cl-turquoise 100%);
@@ -174,6 +189,9 @@
 		font-weight: 500;
 		color: #fff;
 		margin-top: 40px;
+	}
+	 p, small {
+	    font-weight: 300;
 	}
 }
 
@@ -194,6 +212,11 @@
 					top: -2px;
 					margin-left: 5px;
 				}
+				&.frm_comfirm {
+					p {
+						margin-bottom: 0;
+					}
+				}
 			}
 			.btn-mansion {
 				&.btn_back, &.btn_send {
@@ -205,5 +228,10 @@
 	}
 	.box_completed {
 		padding: 30px 0;
+}
+
+@media (max-width: 320px) {
+	.section_contact_page .box_body_contact .btn-mansion.btn_back, .section_contact_page .box_body_contact .btn-mansion.btn_send {
+	    max-width: 125px;
 	}
 }

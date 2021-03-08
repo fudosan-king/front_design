@@ -5,27 +5,20 @@
 <section class="section-slideshow">
     <div class="g-slideshow">
         <div class="g-slideshow_content">
-            <div id="slideshow_splide" class="splide slideshow-splide">
-                    <div class="splide__track">
-                        <div class="splide__list">
-                            <div class="splide__slide" >
-                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);" ></div>
-                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
-                            </div>
-                            <div class="splide__slide" >
-                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top-page-ct.jpg);"></div>
-                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
-                            </div>
-                            <div class="splide__slide">
-                                <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);"></div>
-                                <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);" ></div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="none_splide">
+            	<img src="images/2x/bg_contact.jpg" alt="" class="img-fluid d-none d-lg-block">
+            	<img src="images/2x/bg_contact_sp.jpg" alt="" class="img-fluid d-block d-lg-none">
             </div>
             <div class="slideshow-text">
-                <h2><img src="images/1x/CONTACT.png" alt="" class="img-fluid"></h2>
-
+                <div class="img-txt">
+                    <img class="d-none d-lg-block" src="images/1x/txt_contact.png" alt="" tilte="" />
+                    <img class="d-block d-lg-none" src="images/2x/text_contact_sp.png" alt="" tilte="" />
+                </div>
+            </div>
+        </div>
+        <div class="sm-title">
+            <div class="container">
+                <h3>物件紹介</h3>
             </div>
         </div>
     </div>
@@ -80,13 +73,15 @@
     				</div>
 
     				<div class="box_body_contact">
-						<form action="" class="frm_contact">
+						<form action="" class="frm_contact frm_comfirm">
 							<div class="form-group mb-3">
 								<div class="row">
-									<div class="col-12 col-lg-3">
-										<label for="">お問合わせ内容 <span class="mustbe bg-gradient-green-turquoise d-inline-block d-lg-none">必須</span></label>
+									<div class="col-6 col-lg-3">
+										<label for="">お問合わせ内容 
+											<span class="mustbe bg-gradient-green-turquoise d-none d-lg-none">必須</span>
+										</label>
 									</div>
-									<div class="col-12 col-lg-9">
+									<div class="col-6 col-lg-9">
 										<p class="mb-0"><b>資料請求</b></p>
 									</div>
 								</div>
@@ -94,10 +89,10 @@
 
 							<div class="form-group mb-3">
 								<div class="row">
-									<div class="col-12 col-lg-3">
+									<div class="col-6 col-lg-3">
 										<label for="">お名前</label>
 									</div>
-									<div class="col-12 col-lg-9">
+									<div class="col-6 col-lg-9">
 										<p>山田 太郎</p>
 									</div>
 								</div>
@@ -105,10 +100,10 @@
 
 							<div class="form-group mb-3">
 								<div class="row">
-									<div class="col-12 col-lg-3 align-self-center">
+									<div class="col-6 col-lg-3 align-self-center">
 										<label for="">メールアドレス</label>
 									</div>
-									<div class="col-12 col-lg-9 align-self-center">
+									<div class="col-6 col-lg-9 align-self-center">
 										<p>080-0000-0000</p>
 									</div>
 								</div>
@@ -116,10 +111,10 @@
 
 							<div class="form-group mb-3">
 								<div class="row">
-									<div class="col-12 col-lg-3">
+									<div class="col-6 col-lg-3">
 										<label for="">電話番号</label>
 									</div>
-									<div class="col-12 col-lg-9">
+									<div class="col-6 col-lg-9">
 										<p>xxxx@xxx.jp</p>
 									</div>
 								</div>
