@@ -18,12 +18,7 @@
         </div>
         <div class="sm-title">
             <div class="container">
-                <h3>物件紹介</h3>
-            </div>
-        </div>
-        <div class="sm-title">
-            <div class="container">
-                <h3>お問合わせ</h3>
+                <h3>新着情報</h3>
             </div>
         </div>
     </div>
