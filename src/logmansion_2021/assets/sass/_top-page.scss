@@ -31,12 +31,24 @@
 				font-size: 0.875rem;
 				color: $cl-black-light;
 				margin-bottom: 5px;
+				position: relative;
+				padding-right:40px;
+				span{
+					top:5px;
+					right: -20px;
+				}
 			}
 			p{
 				font-weight: normal;
 				font-size: 14px;
 				color: $cl-black-light;
 				margin-bottom:5px;
+				position: relative;
+				padding-right::40px;
+				span{
+					top:5px;
+					right: -20px;
+				}
 			}
 
 		}

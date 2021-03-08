@@ -9,16 +9,16 @@
                     <div class="splide__list">
                         <!-- Items -->
                         <div class="splide__slide">
-                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-owned-property-1.jpg);"></div>
+                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/owned-property-slide.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-owned-property-sp-1.jpg);"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="slideshow-text">
-                <div class="img-txt">
+                <div class="img-txt pr-0">
                     <img class="d-none d-md-block" src="./images/1x/txt-owned-property.png" alt="" tilte="" />
-                    <img class="d-block d-md-none" src="./images/2x/top-page-ct-sp.png" alt="" tilte="" />
+                    <img class="d-block d-md-none" src="./images/2x/owned-property-slide-txt-sp.png" alt="" tilte="" />
                 </div>
             </div>
         </div>
@@ -52,12 +52,12 @@
     <div class="container">
         <div class="collapse_group">
             <div class="collapse_btn">
-                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat">CATEGORY<i class="fas fa-plus"></i></button>
+                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat">すべて<i class="fas fa-plus"></i></button>
             </div>
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">すべて<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="#" rel="" target="">すべて<span class="btn-line"></span></a>
                     </li>
                     <li>
                         <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">内装カスタム可能物件<span class="btn-line"></span></a>
@@ -328,6 +328,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<?php include 'footer-content.php'; ?>
+
+<section class="fixed-block-bottom">
+    <div class="container">
+        <div class="contact">
+            <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">問い合わせ</span></a>
+            <a class=" btn btn-contact bg-gradient-green-turquoise mr-last-to-md-0"><span class="i-call">0120-991-657</span></a>
         </div>
     </div>
 </section>

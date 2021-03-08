@@ -36,7 +36,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <h4>年末年始休業のお知らせ</h4>
+                                        <h4>年末年始休業のお知らせ<span class="i-arrow-disabilities"></span></h4>
                                         <p>平素は格別のご愛顧を賜り厚く御礼を申し上げます。 </p>
                                         <p>誠に勝手ながら弊社のクロニクル表参道本店ショールームは、下記の期間中、年末年始休暇の...</p>
                                     </div>
@@ -48,7 +48,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <p>ライフスタイルメディア「LogRenove」をオープン</p>
+                                        <p>ライフスタイルメディア「LogRenove」をオープン<span class="i-arrow-disabilities"></span></p>
                                     </div>
                                 </a>
                             </td>
@@ -58,7 +58,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <h4>リフォーム産業新聞</h4>
+                                        <h4>リフォーム産業新聞<span class="i-arrow-disabilities"></span></h4>
                                         <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
                                     </div>
                                 </a>
@@ -70,7 +70,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <h4>年末年始休業のお知らせ</h4>
+                                        <h4>年末年始休業のお知らせ<span class="i-arrow-disabilities"></span></h4>
                                         <p>平素は格別のご愛顧を賜り厚く御礼を申し上げます。 </p>
                                         <p>誠に勝手ながら弊社のクロニクル表参道本店ショールームは、下記の期間中、年末年始休暇の...</p>
                                     </div>
@@ -82,7 +82,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <p>ライフスタイルメディア「LogRenove」をオープン</p>
+                                        <p>ライフスタイルメディア「LogRenove」をオープン<span class="i-arrow-disabilities"></span></p>
                                     </div>
                                 </a>
                             </td>
@@ -92,7 +92,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <h4>リフォーム産業新聞</h4>
+                                        <h4>リフォーム産業新聞<span class="i-arrow-disabilities"></span></h4>
                                         <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
                                     </div>
                                 </a>
@@ -103,7 +103,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <h4>年末年始休業のお知らせ</h4>
+                                        <h4>年末年始休業のお知らせ<span class="i-arrow-disabilities"></span></h4>
                                         <p>平素は格別のご愛顧を賜り厚く御礼を申し上げます。 </p>
                                         <p>誠に勝手ながら弊社のクロニクル表参道本店ショールームは、下記の期間中、年末年始休暇の...</p>
                                     </div>
@@ -115,7 +115,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <p>ライフスタイルメディア「LogRenove」をオープン</p>
+                                        <p>ライフスタイルメディア「LogRenove」をオープン<span class="i-arrow-disabilities"></span></p>
                                     </div>
                                 </a>
                             </td>
@@ -125,7 +125,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <h4>リフォーム産業新聞</h4>
+                                        <h4>リフォーム産業新聞<span class="i-arrow-disabilities"></span></h4>
                                         <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
                                     </div>
                                 </a>
@@ -136,7 +136,7 @@
                             <td>
                                 <a href="" alt="" >
                                     <div class="newx-box_item">
-                                        <h4>リフォーム産業新聞</h4>
+                                        <h4>リフォーム産業新聞<span class="i-arrow-disabilities"></span></h4>
                                         <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
                                     </div>
                                 </a>
@@ -399,7 +399,7 @@
 
 <?php include 'footer-content.php'; ?>
 
-<section class="section-top-page-contact fixed-block-bottom">
+<section class="fixed-block-bottom">
     <div class="container">
         <div class="contact">
             <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">問い合わせ</span></a>
@@ -407,5 +407,4 @@
         </div>
     </div>
 </section>
-
 <?php include 'footer.php'; ?>

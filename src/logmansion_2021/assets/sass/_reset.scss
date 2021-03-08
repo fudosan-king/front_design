@@ -45,3 +45,8 @@ button:hover {
 	outline: none;
 	box-shadow:none;
 }
+
+.btn.focus, 
+.btn:focus{
+	box-shadow:none;
+}

@@ -263,6 +263,11 @@ button:hover {
     box-shadow: none;
 }
 
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
 /*collapse*/
 .collapse_group {
     margin-bottom: 80px;
@@ -546,6 +551,46 @@ button:hover {
     width: 0;
 }
 
+.i-arrow-disabilities {
+    position: absolute;
+    width: 40px;
+    height: 8px;
+    top: 9px;
+    right: 0;
+}
+
+.i-arrow-disabilities:before {
+    content: '';
+    background: #000000;
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    height: 1px;
+}
+
+.i-arrow-disabilities:after {
+    content: '';
+    background: #000000;
+    position: absolute;
+    width: 10px;
+    top: 1px;
+    transform: rotate(30deg);
+    right: 0;
+    height: 1px;
+}
+
+@media (max-width: 375px) {
+    .i-arrow-disabilities:before {
+        width: 20px;
+    }
+
+    .i-arrow-disabilities:after {
+        width: 8px;
+    }
+}
+
 /*Title*/
 h2 {
     font-weight: 600;
@@ -573,20 +618,6 @@ h2 {
     .sm-title h3 {
         padding-top: 25px;
     }
-}
-
-/*Background Gradient*/
-.bg-gradient-green-turquoise {
-    background: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
-}
-
-.bg-gradient-ovlarticle {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.8) 85%, white 100%);
 }
 
 /*Layout*/
@@ -650,6 +681,21 @@ img {
     height: 1px;
     right: 0;
     top: 0;
+}
+
+.btn-mansion.active {
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    color: #1EC656;
+    background: -webkit-linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image-source: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
+}
+
+.btn-mansion.active .btn-line:before {
+    background: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
 }
 
 .btn-mansion:hover .btn-line:before {
@@ -746,6 +792,7 @@ img {
 .product-items {
     position: relative;
     padding-top: 6px;
+    max-width: 370px;
 }
 
 .product-items .item-flash {
@@ -827,46 +874,6 @@ img {
     .product-items h3 {
         font-size: 1.125rem;
         padding-right: 30px;
-    }
-}
-
-.product-items .i-arrow-disabilities {
-    position: absolute;
-    width: 40px;
-    height: 8px;
-    top: 9px;
-    right: 0;
-}
-
-.product-items .i-arrow-disabilities:before {
-    content: '';
-    background: #000000;
-    position: absolute;
-    width: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    height: 1px;
-}
-
-.product-items .i-arrow-disabilities:after {
-    content: '';
-    background: #000000;
-    position: absolute;
-    width: 10px;
-    top: 1px;
-    transform: rotate(30deg);
-    right: 0;
-    height: 1px;
-}
-
-@media (max-width: 375px) {
-    .product-items .i-arrow-disabilities:before {
-        width: 20px;
-    }
-
-    .product-items .i-arrow-disabilities:after {
-        width: 8px;
     }
 }
 
@@ -1129,6 +1136,7 @@ img {
     left: 0;
     right: 0;
     background: #fff;
+    z-index: 9999999;
 }
 
 /* Width And Height*/
@@ -1181,6 +1189,20 @@ img {
     .contact a {
         margin-bottom: 10px;
     }
+}
+
+/*Background Gradient*/
+.bg-gradient-green-turquoise {
+    background: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
+}
+
+.bg-gradient-ovlarticle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.8) 85%, white 100%);
 }
 
 .nav_menu {
@@ -1542,6 +1564,13 @@ footer .footer-bottom .copyright p {
     font-size: 0.875rem;
     color: #333333;
     margin-bottom: 5px;
+    position: relative;
+    padding-right: 40px;
+}
+
+.news-box .news-box_list .newx-box_item h4 span {
+    top: 5px;
+    right: -20px;
 }
 
 .news-box .news-box_list .newx-box_item p {
@@ -1549,6 +1578,13 @@ footer .footer-bottom .copyright p {
     font-size: 14px;
     color: #333333;
     margin-bottom: 5px;
+    position: relative;
+    padding-right: 40px;
+}
+
+.news-box .news-box_list .newx-box_item p span {
+    top: 5px;
+    right: -20px;
 }
 
 .lists-bg-gray {
