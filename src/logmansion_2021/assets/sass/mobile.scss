@@ -36,11 +36,11 @@
             .col-md-6:nth-child(even) {
                 .promotion-item {
                     .promotion-item_title {
-                        width: calc(100% - 12.9%);
+                        width: calc(100% - 11.9%);
                     }
 
                     .promotion-item_des {
-                        width: calc(100% - 12.9%);
+                        width: calc(100% - 11.9%);
                     }
                 }
             }
@@ -96,8 +96,6 @@
             }
 
             .navbar-brand {
-                // display: flex;
-                // justify-content: center;
                 max-width: 124px;
                 margin-bottom: 15px;
             }
@@ -121,9 +119,11 @@
             }
 
             .copyright {
-                text-align: right;
-                padding: 25px 0 30px;
-                font-size: 0.625rem;
+                p{
+                    text-align: right;
+                    padding: 25px 0 30px;
+                    font-size: 0.625rem;
+                }
             }
         }
     }
@@ -149,23 +149,24 @@
             transition-timing-function: cubic-bezier(.19, 1, .22, 1);
             transform: translateX(0);
             opacity: 1;
-            overflow-y: scroll;
+            overflow-y: auto;
             z-index: 999999;
         }
+        .navbar-expand-lg {
+            ul.navbar-nav {
+                padding-top: 60px;
+                padding-left: 30px;
 
-        ul {
-            padding-top: 60px;
-            padding-left: 30px;
-
-            li {
-                a {
-                    padding: 17px 0;
-                    margin-bottom: 10px;
-                    text-align: left;
-                    font-weight: 600;
-                    font-size: 1rem;
-                    letter-spacing: 0.05em;
-                    color: $cl-white;
+                li {
+                    a {
+                        padding: 17px 0;
+                        margin-bottom: 10px;
+                        text-align: left;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        letter-spacing: 0.05em;
+                        color: $cl-white;
+                    }
                 }
             }
         }
@@ -188,6 +189,7 @@
 
     // Menu Open
     .menu-opened {
+        overflow: hidden;
         .navbar-brand {
             display: none;
         }
@@ -349,6 +351,25 @@
 
             span {
                 display: block;
+            }
+        }
+    }
+
+    .news-box{
+        .news-box_list{
+            padding:82px 0;
+            h2{
+                text-align:center;
+                margin-bottom: 80px;
+            }
+            table{
+                tr{
+                    td{
+                        padding:30px 10px;
+                        border-top: none;
+                        border-bottom: 1px solid $cl-gray-white;
+                    }
+                }
             }
         }
     }

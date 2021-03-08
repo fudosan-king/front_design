@@ -25,7 +25,7 @@
 		        	</ul>
 	        	</div>
 	        	<div class="copyright">
-	        		Copyright © LogSuite. All Rights Reserved.
+                    <p>Copyright © LogSuite. All Rights Reserved.</p>
 	        	</div>
 	     	</div>
     	</div>

@@ -160,14 +160,52 @@ function log_mainsion() {
         _this.navigation();
         _this.showCategoiesPC();
         _this.txtShowMore();
+        _this.calcPromotionH4Arrows();
+        _this.txtNewsMore();
     }  
+
+    this.calcPromotionH4Arrows = function()
+    {
+        const parent = $('.section-top-page-content .promotion .col-md-6:nth-child(even)');
+        $(window).on('load resize',function(){
+            const bodyW = $('body').outerWidth();
+            const rightW = bodyW*0.118;
+            const promotionW = $('.promotion').outerWidth();
+            const promotionW_and_rightW = (bodyW - promotionW)/2;
+            let promotion_title_minus = rightW - promotionW_and_rightW;
+            const promotion_title = $('.promotion-item_title',parent);
+            const promotion_des = $('.promotion-item_des',parent);
+            if( $(window).width() >= 768 ){
+                if( promotionW_and_rightW > rightW ){
+                    promotion_title_minus = promotionW_and_rightW - rightW;
+                    promotion_title.css('width','calc(100% + '+promotion_title_minus+'px)');
+                    promotion_des.css('width','calc(100% + '+promotion_title_minus+'px)');
+                    return;
+                }
+                promotion_title.css('width','calc(100% - '+promotion_title_minus+'px)');
+                promotion_des.css('width','calc(100% - '+promotion_title_minus+'px)');
+
+            }  else{
+                promotion_title.removeAttr('style');
+                promotion_des.removeAttr('style');
+            }
+        });
+    }
+
+    this.txtNewsMore = function ()
+    {
+        $('.js-view-more-news').on('click',function(e){
+            const currentTarget = e.currentTarget;
+            $('.news-box').find('tr').removeAttr('class');
+            $(currentTarget).remove();
+        });
+    }
 
     this.txtShowMore = function ()
     {
         var wrap = $('.detail_des');
         var current_height = wrap.height();
         var your_height = 145;
-
         $(window).on('resize',function() {
             if( $(window).width() <= 991 ){
                 if($('.detail_des').length > 0 && $('body .view-more').length === 0 ){
@@ -281,7 +319,6 @@ function log_mainsion() {
         });
 
     }
-
     this.menu_animation_scroll = function(){
         const headerHeight = $('header').outerHeight();
         const win = $(window);

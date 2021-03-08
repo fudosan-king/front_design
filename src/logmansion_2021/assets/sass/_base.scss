@@ -434,7 +434,6 @@ img {
     max-width: 240px;
     font-weight: 600;
     font-size: 1rem;
-    letter-spacing: 0.1em;
     color: $cl-white;
     border-radius: 0;
     margin-right: 20px;
@@ -702,7 +701,7 @@ img {
             content: '';
             position: absolute;
             right: 0px;
-            top: 10px;
+            top: 12px;
             background: $promotion-cl-white;
             width: 40px;
             height: 1px;
@@ -714,7 +713,7 @@ img {
             right: 0px;
             width: 8px;
             height: 1px;
-            top: 8px;
+            top: 10px;
             background: $promotion-cl-white;
             transform: rotate(30deg);
         }
@@ -869,6 +868,15 @@ img {
     }
 }
 
+/*Position*/
+.fixed-block-bottom{
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#fff;
+}
+
 
 /* Width And Height*/
 .mr-last-to-md-0{
@@ -885,4 +893,33 @@ img {
 
 .max-w-100 {
     max-width: 100%;
+}
+
+
+/*Contact*/
+.contact{
+    padding:10px;
+    display: flex;
+    justify-content:center;
+    a{
+        span{
+            &.i-call{
+                padding-left:39px;
+                @media(max-width:768px){
+                    padding-left:30px;
+                }
+            }
+        }
+    }
+    @media(max-width:768px){
+        padding:10px 0;
+    }
+    @media(max-width:374px){
+        display:block;
+        margin:0 auto;
+        max-width: 240px;
+        a{
+            margin-bottom:10px;
+        }
+    }
 }

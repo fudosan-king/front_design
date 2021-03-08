@@ -9,30 +9,145 @@
                     <div class="splide__list">
                         <!-- Items -->
                         <div class="splide__slide">
-                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);"></div>
-                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);"></div>
-                        </div>
-                        <div class="splide__slide">
-                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top-page-ct.jpg);"></div>
-                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);"></div>
-                        </div>
-                        <div class="splide__slide">
-                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-2.jpg);"></div>
-                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);"></div>
+                            <div class="splide-item " style="background-image: url(./images/2x/slide-top-page-1.jpg);"></div>
+                            <!-- <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);"></div> -->
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slideshow-text">
-                <h2>ABOUT
-                    <p>LogMansion</p>
-                </h2>
+            <div class="slideshow-text is-txt-img">
+                <div class="img-txt pr-0">
+                    <img src="./images/1x/slide-txt-top-page-1.png" alt="logmansion" />
+                </div>
             </div>
         </div>
     </div>
 </section>
 <!-- Top Page Content  -->
 <section class="section-top-page-lists">
+    <div class="news-box">
+        <div class="container">
+            <div class="news-box_list">
+                <h2>新着情報</h2>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>2020.12.24</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <h4>年末年始休業のお知らせ</h4>
+                                        <p>平素は格別のご愛顧を賜り厚く御礼を申し上げます。 </p>
+                                        <p>誠に勝手ながら弊社のクロニクル表参道本店ショールームは、下記の期間中、年末年始休暇の...</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>2020.07.15</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <p>ライフスタイルメディア「LogRenove」をオープン</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>2019.11.14</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <h4>リフォーム産業新聞</h4>
+                                        <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr class="d-none">
+                            <th>2020.12.24</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <h4>年末年始休業のお知らせ</h4>
+                                        <p>平素は格別のご愛顧を賜り厚く御礼を申し上げます。 </p>
+                                        <p>誠に勝手ながら弊社のクロニクル表参道本店ショールームは、下記の期間中、年末年始休暇の...</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="d-none">
+                            <th>2020.07.15</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <p>ライフスタイルメディア「LogRenove」をオープン</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="d-none">
+                            <th>2019.11.14</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <h4>リフォーム産業新聞</h4>
+                                        <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="d-none">
+                            <th>2020.12.24</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <h4>年末年始休業のお知らせ</h4>
+                                        <p>平素は格別のご愛顧を賜り厚く御礼を申し上げます。 </p>
+                                        <p>誠に勝手ながら弊社のクロニクル表参道本店ショールームは、下記の期間中、年末年始休暇の...</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="d-none">
+                            <th>2020.07.15</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <p>ライフスタイルメディア「LogRenove」をオープン</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="d-none">
+                            <th>2019.11.14</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <h4>リフォーム産業新聞</h4>
+                                        <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="d-none">
+                            <th>2019.11.14</th>
+                            <td>
+                                <a href="" alt="" >
+                                    <div class="newx-box_item">
+                                        <h4>リフォーム産業新聞</h4>
+                                        <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+               <a class="btn btn-mansion btn-black btn-lg-mansion js-view-more-news">VIEW MORE<span class="btn-line"></span></a>
+            </div>
+        </div>
+    </div>
     <div class="lists-bg-gray">
         <div class="container">
             <h2>物件を探す</h2>
@@ -133,12 +248,30 @@
             </div>
         </div>
         <div class="container">
-            <div class="top-page-content_des">
+           <!--  <div class="top-page-content_des">
                 <h3>ログマンションとは</h3>
                 <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-            </div>
+            </div> -->
             <div class="promotion">
                 <div class="row">
+                    <div class="col-md-6">
+                        <div class="promotion-video">
+                            <h3>
+                                ログマンションとは
+                            </h3>
+                            <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
+テキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="promotion-video">
+                            <div class="promotion-video_img">
+                                <a href="#" rel="" target="">
+                                    <img src="./images/1x/top-page-video.jpg" alt="" title="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-6">
                         <div class="promotion-item">
                             <div class="promotion-item_img">
@@ -148,8 +281,7 @@
                             </div>
                             <p class="promotion-item_cat">ABOUT LogMansion #01</p>
                             <a href="#" rel="" target="">
-                                <h4 class="promotion-item_title">好立地と質感を両立させた<span>
-                                        新発想の都市型マンション</span></h4>
+                                <h4 class="promotion-item_title">好立地と質感を両立させた<span>新発想の都市型マンション</span></h4>
                             </a>
                             <p class="promotion-item_des">テキストが入りますテキストが入りますテキストが入ります。</p>
                         </div>
@@ -163,7 +295,7 @@
                             </div>
                             <p class="promotion-item_cat">ABOUT LogMansion #02</p>
                             <a href="#" rel="" target="">
-                                <h4 class="promotion-item_title">新築マンションと同等の最新設備を標準装備</h4>
+                                <h4 class="promotion-item_title">唯一無二のプライベートレーベル<span>無垢材マンション</span></h4>
                             </a>
                             <p class="promotion-item_des">テキストが入りますテキストが入りますテキストが入ります。</p>
                         </div>
@@ -266,4 +398,14 @@
 
 
 <?php include 'footer-content.php'; ?>
+
+<section class="section-top-page-contact fixed-block-bottom">
+    <div class="container">
+        <div class="contact">
+            <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">問い合わせ</span></a>
+            <a class=" btn btn-contact bg-gradient-green-turquoise mr-last-to-md-0"><span class="i-call">0120-991-657</span></a>
+        </div>
+    </div>
+</section>
+
 <?php include 'footer.php'; ?>

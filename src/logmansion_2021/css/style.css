@@ -703,7 +703,6 @@ img {
     max-width: 240px;
     font-weight: 600;
     font-size: 1rem;
-    letter-spacing: 0.1em;
     color: #ffffff;
     border-radius: 0;
     margin-right: 20px;
@@ -970,7 +969,7 @@ img {
     content: '';
     position: absolute;
     right: 0px;
-    top: 10px;
+    top: 12px;
     background: #ffffff;
     width: 40px;
     height: 1px;
@@ -982,7 +981,7 @@ img {
     right: 0px;
     width: 8px;
     height: 1px;
-    top: 8px;
+    top: 10px;
     background: #ffffff;
     transform: rotate(30deg);
 }
@@ -1123,6 +1122,15 @@ img {
     transform: rotate(30deg);
 }
 
+/*Position*/
+.fixed-block-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+
 /* Width And Height*/
 @media (max-width: 767px) {
     .mr-last-to-md-0 {
@@ -1138,6 +1146,41 @@ img {
 
 .max-w-100 {
     max-width: 100%;
+}
+
+/*Contact*/
+.contact {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact a span.i-call {
+    padding-left: 39px;
+}
+
+@media (max-width: 768px) {
+    .contact a span.i-call {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 374px) {
+    .contact {
+        display: block;
+        margin: 0 auto;
+        max-width: 240px;
+    }
+
+    .contact a {
+        margin-bottom: 10px;
+    }
 }
 
 .nav_menu {
@@ -1199,17 +1242,18 @@ img {
     transform: rotateZ(-45deg) translate(-4px, -12px);
 }
 
-.nav_menu ul {
+.nav_menu .navbar-expand-lg ul.navbar-nav {
     justify-content: flex-end;
 }
 
-.nav_menu ul li a {
+.nav_menu .navbar-expand-lg ul.navbar-nav li a {
     color: #000000;
     font-weight: 600;
     font-size: 0.75rem;
     line-height: 14px;
     letter-spacing: 0.5px;
     text-align: center;
+    padding: 0 25px;
 }
 
 @-webkit-keyframes drawer-open {
@@ -1354,8 +1398,13 @@ img {
 
 .g-slideshow .slideshow-text {
     position: absolute;
-    bottom: 14%;
+    bottom: 13%;
     left: 6.3%;
+}
+
+.g-slideshow .slideshow-text.is-txt-img {
+    bottom: 3%;
+    left: 5%;
 }
 
 .g-slideshow .slideshow-text h2 {
@@ -1372,6 +1421,17 @@ img {
 
 .g-slideshow .slideshow-text .img-txt {
     padding-right: 28%;
+}
+
+.g-slideshow .slideshow-text .slideshow-text_style {
+    position: absolute;
+    right: 35px;
+    transform: rotate(-2deg);
+    bottom: -96px;
+}
+
+footer {
+    margin-bottom: 79px;
 }
 
 footer ul li a.nav-link {
@@ -1433,6 +1493,10 @@ footer .footer-bottom ul li {
 }
 
 footer .footer-bottom .copyright {
+    padding: 25px 0 30px;
+}
+
+footer .footer-bottom .copyright p {
     font-weight: 600;
     font-size: 0.625rem;
     line-height: 12px;
@@ -1440,6 +1504,51 @@ footer .footer-bottom .copyright {
     color: #ffffff;
     padding: 10px;
     text-align: center;
+    margin-bottom: 0;
+}
+
+.news-box .news-box_list {
+    padding: 82px 100px;
+}
+
+.news-box .news-box_list h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.news-box .news-box_list table {
+    margin-bottom: 60px;
+}
+
+.news-box .news-box_list table tr th {
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #333333;
+    border-top: none;
+    border-bottom: 1px solid #828282;
+    width: 20%;
+    padding: 30px 0;
+}
+
+.news-box .news-box_list table tr td {
+    padding: 30px 20px;
+    border-top: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.news-box .news-box_list .newx-box_item h4 {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.news-box .news-box_list .newx-box_item p {
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 5px;
 }
 
 .lists-bg-gray {
@@ -1501,12 +1610,20 @@ footer .footer-bottom .copyright {
     margin-top: 80px;
 }
 
-.section-top-page-content .promotion .col-md-6:nth-child(even) .promotion-item .promotion-item_title {
-    width: calc(100% - 23.5%);
+.section-top-page-content .promotion-video {
+    margin-bottom: 80px;
 }
 
-.section-top-page-content .promotion .col-md-6:nth-child(even) .promotion-item .promotion-item_des {
-    width: calc(100% - 23.5%);
+.section-top-page-content .promotion-video h3 {
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+.section-top-page-content .promotion-video p {
+    font-size: 0.875rem;
+    line-height: 200%;
+    color: #ffffff;
+    padding-right: 5px;
 }
 
 .owned-property_product .col-md-6:nth-child(3n+2) .product-items {
@@ -2095,14 +2212,4 @@ footer .footer-bottom .copyright {
 
 .detail-utilities_relative .products {
     padding-left: 0;
-}
-
-.details-contact {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.details-contact a span.i-call {
-    padding-left: 39px;
 }
