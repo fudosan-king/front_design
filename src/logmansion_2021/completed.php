@@ -18,7 +18,7 @@
         </div>
         <div class="sm-title">
             <div class="container">
-                <h3>新着情報</h3>
+                <h3>お問い合わせ</h3>
             </div>
         </div>
     </div>
