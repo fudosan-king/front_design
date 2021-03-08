@@ -1639,6 +1639,11 @@ footer .footer-bottom .copyright p {
     margin-bottom: 60px;
 }
 
+.none_splide {
+    padding-left: 14.25%;
+    position: relative;
+}
+
 .section_contact_page {
     background: #F2F2F2;
     padding: 80px 0 100px;
@@ -1712,7 +1717,7 @@ footer .footer-bottom .copyright p {
 
 .section_contact_page .box_body_contact .frm_contact label {
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .section_contact_page .box_body_contact .frm_contact label.custom-control-label {
@@ -1731,6 +1736,9 @@ footer .footer-bottom .copyright p {
     font-size: 1em;
     color: #1EC656;
     font-weight: 500;
+    opacity: 1;
+    padding-left: 0;
+
 }
 
 .section_contact_page .box_body_contact .frm_contact .btnzipcode i {
@@ -1794,6 +1802,8 @@ footer .footer-bottom .copyright p {
 
 .section_contact_page .box_body_contact .link_policy {
     text-decoration: underline;
+    font-weight: 500;
+    color: #2F80ED;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -1831,12 +1841,23 @@ footer .footer-bottom .copyright p {
     font-weight: 300;
 }
 
+.box_completed h2 {
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(16, 39, 70, 0.2);
+    margin-bottom: 30px;
+}
+
 .box_completed .btn_back {
     background: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
     font-size: 1.125em;
     font-weight: 500;
     color: #fff;
     margin-top: 40px;
+}
+
+.box_completed p, .box_completed small {
+    font-weight: 300;
 }
 
 @media (max-width: 768px) {
@@ -1857,6 +1878,10 @@ footer .footer-bottom .copyright p {
         position: relative;
         top: -2px;
         margin-left: 5px;
+    }
+
+    .section_contact_page .box_body_contact .frm_contact.frm_comfirm p {
+        margin-bottom: 0;
     }
 
     .section_contact_page .box_body_contact .btn-mansion.btn_back, .section_contact_page .box_body_contact .btn-mansion.btn_send {
@@ -2212,4 +2237,10 @@ footer .footer-bottom .copyright p {
 
 .detail-utilities_relative .products {
     padding-left: 0;
+}
+
+@media (max-width: 320px) {
+    .section_contact_page .box_body_contact .btn-mansion.btn_back, .section_contact_page .box_body_contact .btn-mansion.btn_send {
+        max-width: 125px;
+    }
 }
