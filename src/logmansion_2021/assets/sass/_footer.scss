@@ -1,5 +1,5 @@
 footer {
-
+    margin-bottom: 79px;
     ul {
         li {
             a.nav-link {
@@ -66,13 +66,17 @@ footer {
         }
 
         .copyright {
-            font-weight: 600;
-            font-size: 0.625rem;
-            line-height: 12px;
-            letter-spacing: 0.02em;
-            color: $cl-white;
-            padding: 10px;
-            text-align: center;
+           padding: 25px 0 30px;
+            p{
+                font-weight: 600;
+                font-size: 0.625rem;
+                line-height: 12px;
+                letter-spacing: 0.02em;
+                color: $cl-white;
+                padding: 10px;
+                text-align: center;
+                margin-bottom: 0;
+            }
         }
     }
 

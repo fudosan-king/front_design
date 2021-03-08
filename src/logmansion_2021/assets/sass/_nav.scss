@@ -57,16 +57,19 @@
         }
     }
 
-    ul {
-        justify-content: flex-end;
-        li {
-            a {
-                color: $cl-black;
-                font-weight: 600;
-                font-size: 0.75rem;
-                line-height: 14px;
-                letter-spacing: 0.5px;
-                text-align:center;
+    .navbar-expand-lg {
+        ul.navbar-nav  {
+            justify-content: flex-end;
+            li {
+                a {
+                    color: $cl-black;
+                    font-weight: 600;
+                    font-size: 0.75rem;
+                    line-height: 14px;
+                    letter-spacing: 0.5px;
+                    text-align:center;
+                    padding:0 25px;
+                }
             }
         }
     }
