@@ -99,10 +99,10 @@ $(function($) {
             }).mount();
         }
 
-        if( $('.js-splide-slider').length > 0 && $('.js-primary-splide-slider').length > 0 ){
+        if( $('.js-detail-furniture').length > 0 && $('.js-primary-detail-furniture').length > 0 ){
             
             // Create and mount the thumbnails slider.
-            var secondarySlider = new Splide( '.js-splide-slider', {
+            var secondarySlider = new Splide( '.js-detail-furniture', {
                 rewind      : true,
                 fixedWidth  : 104,
                 fixedHeight : 69,
@@ -113,14 +113,18 @@ $(function($) {
                 cover       : true,
                 breakpoints : {
                     767: {
-                       perPage:3,
                        gap: 5,
-                    }
+                    },
+                    320: {
+                        fixedWidth  : 90,
+                        fixedHeight : 55,
+                        gap: 0,
+                    },
                 }
             } ).mount();
 
             // Create the main slider.
-            var primarySlider = new Splide( '.js-primary-splide-slider', {
+            var primarySlider = new Splide( '.js-primary-detail-furniture', {
                 type       : 'fade',
                 heightRatio: 0.5,
                 pagination : false,
@@ -158,11 +162,30 @@ function log_mainsion() {
     this.ready = function() {
         const _this = this;
         _this.navigation();
-        _this.showCategoiesPC();
-        _this.txtShowMore();
-        _this.calcPromotionH4Arrows();
-        _this.txtNewsMore();
+        _this.jsCssLogmansion();
+        
     }  
+
+    //JS edit Logmansion layout and CSS element
+    this.jsCssLogmansion = function()
+    {
+        const _this = this;
+        _this.calcPromotionH4Arrows();
+        _this.footerMarginBottomForContactFixed();
+        _this.topPagetxtNewsMore();
+        _this.detailPagetxtShowMore();
+        _this.showCategoiesPC();
+    }
+
+    this.footerMarginBottomForContactFixed = function()
+    {
+        $(window).on('load resize', function(){
+            if( $('.js-contact').length > 0 ){
+                const contactH = $('.js-contact').outerHeight();
+                $('footer').css('margin-bottom',contactH);
+            }    
+        });
+    }
 
     this.calcPromotionH4Arrows = function()
     {
@@ -184,7 +207,6 @@ function log_mainsion() {
                 }
                 promotion_title.css('width','calc(100% - '+promotion_title_minus+'px)');
                 promotion_des.css('width','calc(100% - '+promotion_title_minus+'px)');
-
             }  else{
                 promotion_title.removeAttr('style');
                 promotion_des.removeAttr('style');
@@ -192,7 +214,7 @@ function log_mainsion() {
         });
     }
 
-    this.txtNewsMore = function ()
+    this.topPagetxtNewsMore = function ()
     {
         $('.js-view-more-news').on('click',function(e){
             const currentTarget = e.currentTarget;
@@ -201,7 +223,7 @@ function log_mainsion() {
         });
     }
 
-    this.txtShowMore = function ()
+    this.detailPagetxtShowMore = function ()
     {
         var wrap = $('.detail_des');
         var current_height = wrap.height();
@@ -218,11 +240,11 @@ function log_mainsion() {
                             return '<div class="bg-gradient-ovlarticle"></div>';
                         });
                         wrap.after(function(){
-                            return '<div class="view-more"><a class="i-open" title="Xem thêm" href="javascript:void(0);"></a></div>';
+                            return '<div class="view-more"><span class="i-open" title="Xem thêm" ></span></div>';
                         });
-                        wrap.after(function(){
-                            return '<div class="view-hide" style="display: none"><a class="i-close" title="Thu gọn" href="javascript:void(0);"></a></div>';
-                        });
+                        //wrap.after(function(){
+                            //return '<div class="view-hide" style="display: none"><span class="i-close" title="Thu gọn"></span></div>';
+                        //});
                     }
                 }
             } else {
@@ -245,28 +267,28 @@ function log_mainsion() {
                             return '<div class="bg-gradient-ovlarticle"></div>';
                         });
                         wrap.after(function(){
-                            return '<div class="view-more"><a class="i-open" title="Xem thêm" href="javascript:void(0);"></a></div>';
+                            return '<div class="view-more"><span class="i-open" title="Xem thêm" ></span></div>';
                         });
-                        wrap.after(function(){
-                            return '<div class="view-hide" style="display: none"><a class="i-close" title="Thu gọn" href="javascript:void(0);"></a></div>';
-                        });
+                        //wrap.after(function(){
+                            //return '<div class="view-hide" style="display: none"><span class="i-close" title="Thu gọn"></span></div>';
+                        //});
                         $('body').on('click','.view-more', function(){
                             wrap.find('.bg-gradient-ovlarticle').remove();
                             wrap.removeAttr('style');
                             $('body .view-more').hide();
                             $('body .view-hide').show();
                         });
-                        $('body').on('click','.view-hide', function(){
-                            wrap.append(function(){
-                                return '<div class="bg-gradient-ovlarticle"></div>';
-                            });
-                            wrap.css({ 
-                                height: your_height+'px',
-                                overflow: 'hidden',
-                            });
-                            $('body .view-more').show();
-                            $('body .view-hide').hide();
-                        });
+                        // $('body').on('click','.view-hide', function(){
+                        //     wrap.append(function(){
+                        //         return '<div class="bg-gradient-ovlarticle"></div>';
+                        //     });
+                        //     wrap.css({ 
+                        //         height: your_height+'px',
+                        //         overflow: 'hidden',
+                        //     });
+                        //     $('body .view-more').show();
+                        //     $('body .view-hide').hide();
+                        // });
                     }
                 }
             } else {
@@ -289,6 +311,7 @@ function log_mainsion() {
         });
     }
 
+    //Js Navigation
     this.navigation = function() {
        const _this = this;
 
@@ -319,6 +342,7 @@ function log_mainsion() {
         });
 
     }
+
     this.menu_animation_scroll = function(){
         const headerHeight = $('header').outerHeight();
         const win = $(window);

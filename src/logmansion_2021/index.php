@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <?php include 'navigation.php'; ?>
 <!-- Slide Show  -->
-<section class="section-slideshow">
+<section class="section-slideshow top-page-slideshow">
     <div class="g-slideshow">
         <div class="g-slideshow_content">
             <div id="slideshow_splide" class="splide slideshow-splide">
@@ -399,7 +399,7 @@
 
 <?php include 'footer-content.php'; ?>
 
-<section class="fixed-block-bottom">
+<section class="fixed-block-bottom js-contact">
     <div class="container">
         <div class="contact">
             <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">問い合わせ</span></a>

@@ -333,7 +333,7 @@
 </section>
 <?php include 'footer-content.php'; ?>
 
-<section class="fixed-block-bottom">
+<section class="fixed-block-bottom js-contact">
     <div class="container">
         <div class="contact">
             <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">問い合わせ</span></a>
