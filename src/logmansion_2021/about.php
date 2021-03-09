@@ -52,21 +52,21 @@
     <div class="container">
         <div class="collapse_group">
             <div class="collapse_btn">
-                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat">すべて<i class="fas fa-plus"></i></button>
+                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat"><span>CATEGORY</span><i class="fas fa-plus"></i></button>
             </div>
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="#" rel="" target="">都市型無垢材住宅<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="javascript:void(0)" rel="#about_logmansion_01" target="">都市型無垢材住宅<span class="btn-line"></span></a>
                     </li>
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">プライベートレーベル<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_02" target="">プライベートレーベル<span class="btn-line"></span></a>
                     </li>
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">新築以上の高級設備<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_03" target="">新築以上の高級設備<span class="btn-line"></span></a>
                     </li>
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">見えない「こだわり」<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_04" target="">見えない「こだわり」<span class="btn-line"></span></a>
                     </li>
                 </ul>
             </div>
@@ -76,27 +76,30 @@
 <!-- About -->
 <section class="section-about">
     <div class="container">
-        <div class="about">
+        <div id="about_logmansion_01" class="about">
             <div class="about_img">
-                <img src="./images/1x/about-img-1.jpg" alt="" title="" />
+                <img class="d-none d-md-block" src="./images/1x/about-1.jpg" alt="" title="" />
+                <img class="d-md-none d-block" src="./images/2x/about-sp-1.jpg" alt="" title="" />
                 <div class="about_img-caption">
                     <p>ABOUT LogMansion #01</p>
                     <h3>好立地と質感を両立させた<span>新発想の都市型マンション</span></h3>
                 </div>
             </div>
         </div>
-        <div class="about">
+        <div id="about_logmansion_02" class="about">
             <div class="about_img">
-                <img src="./images/1x/about-img-2.jpg" alt="" title="" />
+                <img class="d-none d-md-block" src="./images/1x/about-2.jpg" alt="" title="" />
+                <img class="d-md-none d-block" src="./images/2x/about-sp-2.jpg" alt="" title="" />
                 <div class="about_img-caption">
                     <p>ABOUT LogMansion #02</p>
                     <h3>唯一無二のプライベートレーベル<span>無垢材マンション</span></h3>
                 </div>
             </div>
         </div>
-        <div class="about">
+        <div id="about_logmansion_03" class="about">
             <div class="about_img">
-                <img src="./images/1x/about-img-3.jpg" alt="" title="" />
+                <img class="d-none d-md-block" src="./images/1x/about-3.jpg" alt="" title="" />
+                <img class="d-md-none d-block" src="./images/2x/about-sp-3.jpg" alt="" title="" />
                 <div class="about_img-caption">
                     <p>ABOUT LogMansion #03</p>
                     <h3>新築マンションと同等の最新設備を標準装備</h3>
@@ -348,9 +351,10 @@
     </div>
     <div class="about_commitment">
         <div class="container">
-            <div class="about">
+            <div id="about_logmansion_04" class="about">
                 <div class="about_img">
-                    <img src="./images/1x/about-img-4.jpg" alt="" title="" />
+                    <img class="d-none d-md-block" src="./images/1x/about-4.jpg" alt="" title="" />
+                    <img class="d-md-none d-block" src="./images/2x/about-sp-4.jpg" alt="" title="" />
                     <div class="about_img-caption">
                         <p>ABOUT LogMansion #04</p>
                         <h3>構造へのこだわり</h3>
