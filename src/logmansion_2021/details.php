@@ -53,18 +53,18 @@
     <div class="container">
         <div class="collapse_group">
             <div class="collapse_btn">
-                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat">すべて<i class="fas fa-plus"></i></button>
+                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat"><span>すべて</span><i class="fas fa-plus"></i></button>
             </div>
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="#" rel="" target="">物件トップ<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="javascript:void(0)" rel="#property_top" target="">物件トップ<span class="btn-line"></span></a>
                     </li>
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">間取り・概要<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#plan_overview" target="">間取り・概要<span class="btn-line"></span></a>
                     </li>
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">地図<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#map" target="">地図<span class="btn-line"></span></a>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
 <section class="section-detail">
     <div class="container">
         <div class="detail-group">
-            <h3 class="detail_title">タイトルが入りますタイトルが入りますタイ<span>トルが入ります</span></h3>
+            <h3 id="property_top" class="detail_title">タイトルが入りますタイトルが入りますタイ<span>トルが入ります</span></h3>
             <p class="detail_des">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
             <div class="detail_slider">
                 <div class="detail_primary_splide-slider js-primary-detail-furniture">
@@ -242,7 +242,7 @@
                     </tbody>
                 </table>
             </div>
-            <h4 class="detail-utilities_title">間取り</h4>
+            <h4 id="plan_overview" class="detail-utilities_title">間取り</h4>
             <div class="detail-utilities_plan">
                 <img src="./images/1x/details-plan.png" alt="" tilte="" />
             </div>
@@ -387,10 +387,10 @@
                 </div>
             </div>
         </div>
-        <h4 class="detail-utilities_title">周辺地図</h4>
+        <h4 id="map" class="detail-utilities_title">周辺地図</h4>
         <div class="detail-utilities_map">
-            <img class="d-none d-md-block" src="./images/1x/detail-map.jpg" alt="" tilte="" />
-            <img class="d-block d-md-none" src="./images/2x/detail-map-sp.jpg" alt="" tilte="" />
+            <img class="d-none d-md-block m-auto" src="./images/1x/detail-map.jpg" alt="" tilte="" />
+            <img class="d-block d-md-none m-auto" src="./images/2x/detail-map-sp.jpg" alt="" tilte="" />
         </div>
     </div>
     </div>

@@ -163,9 +163,29 @@ function log_mainsion() {
         const _this = this;
         _this.navigation();
         _this.jsCssLogmansion();
-        
+        _this.scrollToEle();
     }  
 
+    this.scrollToEle = function() {
+        const _this = this;
+        $("body").on("click", 'a[rel^="#"], a[rel^="."]', function(e) {
+            const  currentTarget  = e.currentTarget;
+
+            const elem = $(currentTarget).attr("rel");
+            const eleID = elem.replace('#', '');
+          
+            const target = $($(currentTarget).attr("rel")),
+                targetToTop = target.offset().top ? target.offset().top : 0;
+
+            const targetHeight = target.outerHeight();
+            const docHeight = $(document).outerHeight();
+            const winHeight = $(window).outerHeight();
+            const navHight = ($('.navbar').outerHeight() != undefined)?$('.navbar').outerHeight():0;
+            $('html, body').animate({
+                scrollTop: targetToTop - navHight
+            }, 1000);
+        });
+    }
     //JS edit Logmansion layout and CSS element
     this.jsCssLogmansion = function()
     {
@@ -175,6 +195,25 @@ function log_mainsion() {
         _this.topPagetxtNewsMore();
         _this.detailPagetxtShowMore();
         _this.showCategoiesPC();
+        _this.replaceTxtCategoryScrollTo();
+    }
+
+    this.replaceTxtCategoryScrollTo = function()
+    {
+        if( $('.collapse_ct').length > 0 ) {
+            $('.collapse_ct a.btn').on('click',function(e){
+                const  currentTarget  = e.currentTarget;
+                const _$currentTarget = $(currentTarget);
+                $('.collapse_ct a.btn').removeClass('active');
+                _$currentTarget.addClass('active');
+                const  txtCategory = _$currentTarget.parents('.collapse_ct').prev().find('button span');
+                const txt = _$currentTarget.text();
+                txtCategory.text(txt);
+                if( $(window).outerWidth()  <= 991 ){                    
+                    $('#collapse_cat').collapse('hide');
+                }
+            });
+        }
     }
 
     this.footerMarginBottomForContactFixed = function()
@@ -308,6 +347,8 @@ function log_mainsion() {
             } else {
                 $('#collapse_cat').collapse('hide');
             }
+
+
         });
     }
 
