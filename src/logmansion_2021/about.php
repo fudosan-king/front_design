@@ -52,12 +52,12 @@
     <div class="container">
         <div class="collapse_group">
             <div class="collapse_btn">
-                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat">CATEGORY<i class="fas fa-plus"></i></button>
+                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat">すべて<i class="fas fa-plus"></i></button>
             </div>
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">都市型無垢材住宅<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="#" rel="" target="">都市型無垢材住宅<span class="btn-line"></span></a>
                     </li>
                     <li>
                         <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="" target="">プライベートレーベル<span class="btn-line"></span></a>
