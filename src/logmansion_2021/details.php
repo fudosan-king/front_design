@@ -20,8 +20,7 @@
             </div>
         </div>
         <div class="container">
-        <div class="sm-title">
-            
+            <div class="sm-title">
                 <h3>ロワ・ヴェール市ヶ谷左内坂 - 304</h3>
                 <div class="contact-info d-none d-md-flex">
                     <a class="btn btn-contact contact-info_email bg-gradient-green-turquoise"><span class="i-email">資料請求</span></a>
@@ -79,7 +78,7 @@
             <h3 class="detail_title">タイトルが入りますタイトルが入りますタイ<span>トルが入ります</span></h3>
             <p class="detail_des">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
             <div class="detail_slider">
-                <div class="detail_primary_splide-slider js-primary-splide-slider">
+                <div class="detail_primary_splide-slider js-primary-detail-furniture">
                     <div class="splide__track">
                         <div class="splide__list">
                             <div class="splide__slide">
@@ -97,7 +96,7 @@
                     <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
                     <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
                 </div>
-                <div class="detail_splide-slider js-splide-slider">
+                <div class="detail_splide-slider js-detail-furniture">
                     <div class="splide__track">
                         <div class="splide__list">
                             <div class="splide__slide">
@@ -175,7 +174,7 @@
                     </div>
                 </div>
             </div>
-             <h4 class="detail-utilities_title">SPEC</h4>
+            <h4 class="detail-utilities_title">SPEC</h4>
             <div class="detail-utilities_info">
                 <table class="table">
                     <tbody>
@@ -198,8 +197,8 @@
                         <tr>
                             <th>専有面積</th>
                             <td> 179.36m²</td>
-                            <th class="d-none d-md-table-row">間取り</th>
-                            <td class="d-none d-md-table-row">3LDK+S</td>
+                            <th class="d-none d-md-table-cell">間取り</th>
+                            <td class="d-none d-md-table-cell">3LDK+S</td>
                         </tr>
                         <tr class="d-table-row d-md-none">
                             <th>間取り</th>
@@ -208,8 +207,8 @@
                         <tr>
                             <th>バルコニー</th>
                             <td> 7.41m²</td>
-                            <th class="d-none d-md-table-row">築年数</th>
-                            <td class="d-none d-md-table-row">1990年01月(築31年)</td>
+                            <th class="d-none d-md-table-cell">築年数</th>
+                            <td class="d-none d-md-table-cell">1990年01月(築31年)</td>
                         </tr>
                         <tr class="d-table-row d-md-none">
                             <th>築年数</th>
@@ -243,22 +242,157 @@
                     </tbody>
                 </table>
             </div>
-
             <h4 class="detail-utilities_title">間取り</h4>
             <div class="detail-utilities_plan">
                 <img src="./images/1x/details-plan.png" alt="" tilte="" />
             </div>
             <h4 class="detail-utilities_title">物件概要</h4>
             <div class="detail-utilities_overview">
-                <img class="d-none d-md-block" src="./images/1x/detail-overview.jpg" alt="" tilte="" />
-                 <img class="d-block d-md-none" src="./images/2x/detail-overview-sp.jpg" alt="" tilte="" />
-            </div>
-            <h4 class="detail-utilities_title">周辺地図</h4>
-            <div class="detail-utilities_map">
-                <img class="d-none d-md-block" src="./images/1x/detail-map.jpg" alt="" tilte="" />
-                <img class="d-block d-md-none" src="./images/2x/detail-map-sp.jpg" alt="" tilte="" />
+                <div class="row no-gutters">
+                    <div class="box box-full">
+                        <span class="title">所在地</span>
+                        <span class="des">東京都新宿区西新宿４丁目16-2</span>
+                    </div>
+                    <div class="box box-full">
+                        <span class="title">交通</span>
+                        <span class="des">
+                            都営大江戸線「西新宿五丁目」駅　徒歩5分<br>
+                            東京メトロ丸ノ内線「西新宿」駅　徒歩11分<br>
+                            京王新線「初台」駅　徒歩13分<br></span>
+                    </div>
+                    <div class="box box-full">
+                        <span class="title">価格</span>
+                        <span class="des">
+                           7,690万円(税込)
+                        </span>
+                    </div>
+                    <div class="box box-full">
+                        <span class="title">築年数</span>
+                        <span class="des">1990年01月（築31年）</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">管理費</span>
+                        <span class="des">39,640円／月
+                            (税込)</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">修繕積立金</span>
+                        <span class="des">27,460円
+                            ／月</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">間取り</span>
+                        <span class="des">3LDK+S（）</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">所在階/階数</span>
+                        <span class="des">5階部分 5階建</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">専有面積</span>
+                        <span class="des">91.3m²</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">バルコニー面積</span>
+                        <span class="des">7.41m²</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">構造</span>
+                        <span class="des">RC
+                            造
+                        </span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">総戸数</span>
+                        <span class="des">26戸</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">土地権利</span>
+                        <span class="des">所有権</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">用途地域</span>
+                        <span class="des">商業</span>
+                    </div>
+                    <div class="box box-full">
+                        <span class="title">管理会社</span>
+                        <span class="des">-</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">管理形態</span>
+                        <span class="des">全部委託</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">管理員</span>
+                        <span class="des">巡回</span>
+                    </div>
+                    <div class="box box-full">
+                        <span class="title">その他使用料</span>
+                        <span class="des">
+                            無
+                        </span>
+                    </div>
+                    <div class="box box-full">
+                        <span class="title">
+                            駐車場
+                        </span>
+                        <span class="des">
+                            無
+                        </span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">
+                            バイク置場
+                        </span>
+                        <span class="des">
+                            2,000円／月
+                        </span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">
+                            駐輪場
+                        </span>
+                        <span class="des">
+                            500円／月
+                        </span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">現状</span>
+                        <span class="des">空家</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">引渡</span>
+                        <span class="des">相談</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">取引態様</span>
+                        <span class="des">売主</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">国土法届出</span>
+                        <span class="des">不要</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">更新日</span>
+                        <span class="des">-</span>
+                    </div>
+                    <div class="box box-half-lg">
+                        <span class="title">担当者</span>
+                        <span class="des">高野実徳</span>
+                    </div>
+                    <div class="box box-full">
+                        <span class="title">備考</span>
+                        <span class="des">～ログマンションとは～<br> 全室に天然無垢材のフローリングを施したリノベーションマンションです。<br> 合板に比べ、化学物質使用量が大幅削減できる天然無垢材は<br> 小さなお子さんに優しいだけでなく、経年変化を楽しめるデザイン性も兼ね備えます。<br> また、お客様の理想の「住」をご提案するため、デザイン・間取り・仕様にもこだわりました。<br> 弊社提携ローンを活用することで変動金利0.47％にてご融資可能。<br> 「柔らかな木の肌触りを感じながら、今も、未来も、温もりにあふれた暮らしやすい住まいを」<br> それがログマンションの想いです。<br> 〇中国語担当、Available in Engdivsh<br></span>
+                    </div>
+                </div>
             </div>
         </div>
+        <h4 class="detail-utilities_title">周辺地図</h4>
+        <div class="detail-utilities_map">
+            <img class="d-none d-md-block" src="./images/1x/detail-map.jpg" alt="" tilte="" />
+            <img class="d-block d-md-none" src="./images/2x/detail-map-sp.jpg" alt="" tilte="" />
+        </div>
+    </div>
     </div>
     <div class="detail-utilities_relative">
         <div class="products">
@@ -335,14 +469,16 @@
     </div>
 </section>
 <?php include 'footer-content.php'; ?>
-
-<section class="fixed-block-bottom">
+<section class="fixed-block-bottom js-contact">
     <div class="container">
         <div class="contact">
-            <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">問い合わせ</span></a>
-            <a class=" btn btn-contact bg-gradient-green-turquoise mr-last-to-md-0"><span class="i-call">0120-991-657</span></a>
+            <a class="btn btn-contact bg-gradient-green-turquoise d-flex d-md-none mr-last-to-md-0 w-to-md-100"><span class="i-home">問い合わせ</span></a>
+        </div>
+        <div class="contact">
+            <a class=" btn btn-contact bg-gradient-green-turquoise w-to-md-100"><span class="i-email">資料請求</span></a>
+            <a class="btn btn-contact bg-gradient-green-turquoise d-none d-md-flex"><span class="i-home">問い合わせ</span></a>
+            <a class=" btn btn-contact bg-gradient-green-turquoise mr-last-to-md-0 w-to-md-100"><span class="i-call">0120-991-657</span></a>
         </div>
     </div>
 </section>
-
 <?php include 'footer.php'; ?>
