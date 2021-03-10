@@ -458,11 +458,11 @@
                     <div class="row">
                         <div class="col-12">
                             <h2 class="title">その他のラインナップ</h2>
-                            <div class="carousel carousel_otherlineup" data-flickity='{ "contain": true, "pageDots": false }'>
+                            <div class="carousel carousel_otherlineup" data-flickity='{"groupCells": true, "pageDots": false }'>
                                 <div class="carousel-cell">
                                     <div class="box_otherlineup_item">
                                         <div class="box_otherlineup_item_img">
-                                            <a href="#"><img src="https://www.prostyle-residence.com/wp-content/uploads/2020/08/motosumiyoshi_prostyle.png" alt="" class="img-fluid"></a>
+                                            <a href="#"><img src="https://staging.prostyle-residence.com/ichigao/wp-content/uploads/2020/09/gakugeidaigaku_frame-1024x732-1.jpg" alt="" class="img-fluid"></a>
                                         </div>
                                         <h3>プレシス秋津ステーションフロント</h3>
                                         <p>東京都支部</p>
@@ -471,7 +471,7 @@
                                 <div class="carousel-cell">
                                     <div class="box_otherlineup_item">
                                         <div class="box_otherlineup_item_img">
-                                            <a href="#"><img src="https://www.prostyle-residence.com/wp-content/uploads/2020/08/%E3%83%97%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%B8%82%E3%83%B6%E5%B0%BE-1024x745.jpg" alt="" class="img-fluid"></a>
+                                            <a href="#"><img src="https://staging.prostyle-residence.com/ichigao/wp-content/uploads/2020/09/150128_%E3%80%90%E3%83%95%E3%82%9A%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%85%83%E4%BD%8F%E5%90%89%E3%80%91%E7%9C%BA%E6%9C%9B%E5%90%88%E6%88%90_%E6%9C%80%E7%B5%82%E7%A8%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%EF%BC%89-1024x439-1.jpg" alt="" class="img-fluid"></a>
                                         </div>
                                         <h3>プロスタイル市ヶ尾</h3>
                                         <p>神奈川県</p>
@@ -480,21 +480,32 @@
                                 <div class="carousel-cell">
                                     <div class="box_otherlineup_item">
                                         <div class="box_otherlineup_item_img">
-                                            <a href="#"><img src="https://www.prostyle-residence.com/wp-content/uploads/2020/08/150128_%E3%80%90%E3%83%97%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%85%83%E4%BD%8F%E5%90%89%E3%80%91%E7%9C%BA%E6%9C%9B%E5%90%88%E6%88%90_%E6%9C%80%E7%B5%82%E7%A8%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%EF%BC%89-1024x439.jpg" alt="" class="img-fluid"></a>
+                                            <a href="#"><img src="https://staging.prostyle-residence.com/ichigao/wp-content/uploads/2020/09/%E3%83%95%E3%82%9A%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%B8%82%E3%83%B6%E5%B0%BE-1024x745-1.jpg" alt="" class="img-fluid"></a>
                                         </div>
                                         <h3>プレシス本川越ルミナス</h3>
                                         <p>埼玉県</p>
                                     </div>
                                 </div>
+
                                 <div class="carousel-cell">
                                     <div class="box_otherlineup_item">
                                         <div class="box_otherlineup_item_img">
-                                            <a href="#"><img src="https://www.prostyle-residence.com/wp-content/uploads/2019/01/gakugeidaigaku_frame-1024x732.jpg" alt="" class="img-fluid"></a>
+                                            <a href="#"><img src="https://staging.prostyle-residence.com/ichigao/wp-content/uploads/2020/09/150128_%E3%80%90%E3%83%95%E3%82%9A%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%85%83%E4%BD%8F%E5%90%89%E3%80%91%E7%9C%BA%E6%9C%9B%E5%90%88%E6%88%90_%E6%9C%80%E7%B5%82%E7%A8%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%EF%BC%89-1024x439-1.jpg" alt="" class="img-fluid"></a>
                                         </div>
-                                        <h3>プレシス大宮土呂サウステラス</h3>
+                                        <h3>プロスタイル市ヶ尾</h3>
+                                        <p>神奈川県</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-cell">
+                                    <div class="box_otherlineup_item">
+                                        <div class="box_otherlineup_item_img">
+                                            <a href="#"><img src="https://staging.prostyle-residence.com/ichigao/wp-content/uploads/2020/09/%E3%83%95%E3%82%9A%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%B8%82%E3%83%B6%E5%B0%BE-1024x745-1.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <h3>プレシス本川越ルミナス</h3>
                                         <p>埼玉県</p>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
