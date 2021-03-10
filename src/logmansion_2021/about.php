@@ -57,7 +57,7 @@
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="javascript:void(0)" rel="#about_logmansion_01" target="">都市型無垢材住宅<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_01" target="">都市型無垢材住宅<span class="btn-line"></span></a>
                     </li>
                     <li>
                         <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_02" target="">プライベートレーベル<span class="btn-line"></span></a>

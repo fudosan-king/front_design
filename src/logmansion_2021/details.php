@@ -58,7 +58,7 @@
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 active" href="javascript:void(0)" rel="#property_top" target="">物件トップ<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#property_top" target="">物件トップ<span class="btn-line"></span></a>
                     </li>
                     <li>
                         <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#plan_overview" target="">間取り・概要<span class="btn-line"></span></a>
