@@ -57,7 +57,7 @@
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100 d-none d-lg-block" href="javascript:void(0)" rel="" target="">すべて<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="" target="">すべて<span class="btn-line"></span></a>
                     </li>
                     <li>
                         <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="#" rel="javascript:void(0)" target="">内装カスタム可能物件<span class="btn-line"></span></a>
