@@ -693,6 +693,8 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-image-source: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
+    display: inline-block;
+    line-height: 1.6;
 }
 
 .btn-mansion.active .btn-line:before {

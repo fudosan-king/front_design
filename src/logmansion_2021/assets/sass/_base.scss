@@ -430,6 +430,8 @@ img {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border-image-source: linear-gradient(135deg, $cl-green 0%, $cl-turquoise 100%);
+        display: inline-block;
+        line-height: 1.6;
         .btn-line {  
             &:before {
                 background:linear-gradient(135deg, $cl-green 0%, $cl-turquoise 100%);

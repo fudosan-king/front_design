@@ -52,7 +52,7 @@
     <div class="container">
         <div class="collapse_group">
             <div class="collapse_btn">
-                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat"><span>すべて</span><i class="fas fa-plus"></i></button>
+                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat"><span>CATEGORY </span><i class="fas fa-plus"></i></button>
             </div>
             <div class="collapse collapse_ct" id="collapse_cat">
                 <ul class="nav">
