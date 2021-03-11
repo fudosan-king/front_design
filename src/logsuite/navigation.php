@@ -12,13 +12,13 @@
 	        <div class="collapse navbar-collapse nav_menu-list">
 	            <ul class="navbar-nav">
 	                <li class="nav-item active">
-	                    <a class="nav-link" href="#">TOP</a>
+	                    <a class="nav-link" href="index.php">TOP</a>
 	                </li>
 	                <li class="nav-item">
 	                    <a class="nav-link" href="#">NEWS</a>
 	                </li>
 	                <li class="nav-item">
-	                    <a class="nav-link" href="#">COMPANY</a>
+	                    <a class="nav-link" href="company.php">COMPANY</a>
 	                </li>
 	                <li class="nav-item">
 	                    <a class="nav-link" href="#">RECRUTE</a>
