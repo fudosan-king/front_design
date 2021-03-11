@@ -230,6 +230,104 @@
         }
     }
 
+    /*Top Page*/
+    .section-top-page-business {
+        h2 {
+            text-align: center;
+        }
+
+        .business_block {
+            position: relative;
+            margin-bottom: 30px;
+
+            &:before {
+                position: absolute;
+                background: $logsuote-bg-businees;
+                content: '';
+                top: 40px;
+                left: 25px;
+                right: 25px;
+                bottom: 70px;
+                z-index: -1;
+            }
+        }
+
+        .about-us {
+            padding: 80px 0px 0 0px;
+            flex-flow: wrap;
+            .about-us_content {
+                width: 100%;
+                max-width: 100%;
+                padding: 0 37px 0 37px;
+                margin-left: 0;
+            }
+            .about-us_content-img {
+                margin-left: 0;
+            }
+
+            .about-us_img{
+                text-align:center;
+                margin-bottom: 20px;
+                max-width: 250px;
+                margin-left:auto;
+                margin-right: auto;
+            }
+
+            .about-us_title {
+                text-align:center;
+                font-weight: 600;
+                font-size: 1.125rem;
+                color: #333333;
+                margin-bottom: 10px;
+
+                .about-us_sm-title {
+                    font-size: 0.875rem;
+                    font-weight: normal;
+                    color: $logsuite-main-txt-cl-black;
+                }
+            }
+
+            .about-us_des {
+                font-size: 1rem;
+                text-align: justify;
+                color: $logsuite-business-des-cl-gray;
+
+            }
+
+            .about-us_more {
+                font-weight: bold;
+                font-size: 0.875rem;
+                text-align: right;
+                letter-spacing: 0.05em;
+                color: $logsuite-cl-black;
+                padding-right: 45px;
+                margin-bottom: 0;
+
+                &.i-arrows {
+                    &:before {
+                        top: unset;
+                        bottom: 5px;
+                    }
+
+                    &:after {
+                        top: unset;
+                        bottom: 7px;
+                    }
+                }
+            }
+        }
+
+        .flip-left {
+            .about-us {
+                padding: 80px 0px 0 0px;
+                flex-direction: column-reverse;
+                .about-us_content {
+                    padding: 0 37px 0 37px;
+                }
+            }
+        }
+    }
+
     /*Owned Property Page*/
     .owned-property_product {
         .col-md-6:nth-child(3n+2) {
@@ -370,7 +468,11 @@
             bottom: 20px;
 
             h2 {
-                @include fluid-font-size(375px, 767px, 48px, 110px);
+                @include fluid-font-size(375px, 767px, 64px, 110px);
+
+                p {
+                    @include fluid-font-size(375px, 767px, 24px, 48px);
+                }
             }
 
             .img-txt {}
@@ -378,20 +480,6 @@
     }
 
     /* Top Page  */
-    .lists-bg-gray {
-        margin-bottom: 80px;
-
-        h2 {
-            font-size: 1.5rem;
-            padding-top: 60px;
-            margin-bottom: 30px;
-
-            span {
-                display: block;
-            }
-        }
-    }
-
     .news-box {
         .news-box_list {
             padding: 82px 0;
@@ -427,28 +515,30 @@
         }
     }
 
-    .section-top-page-content {
+    .lists-bg-gray {
+        margin-bottom: 40px;
 
-        .g-slideshow {
-            &:before {
-                right: 30px;
-            }
+        &:before {
+            left: 30px;
         }
 
-        .top-page-content_des {
-            padding: 0 30px;
-
-            h3 {
-                font-size: 1.125rem;
-            }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            padding: 60px 35.8px 0;
         }
 
-        .top-page-content_promotion {
-            margin-bottom: 60px;
+        .top-page-corporate_des {
+            padding: 0 38px;
+
+            p {
+                font-size: 1rem;
+                text-align: justify;
+            }
         }
     }
 
-    .section-top-page-services {
+    .section-top-page-corporate {
         .news-item {
             padding-right: 50%;
             margin-bottom: 40px;
@@ -475,28 +565,70 @@
         }
 
         .news-item_title {
-            font-size: 1.125rem;
+            font-size: 1.5rem;
             padding-right: 25px;
             margin-bottom: 5px;
-        }
 
-        .news-item_des{
-            padding-right: 25px;
-        }
+            &.i-arrows {
+                &:before {
+                    height: 0;
+                }
 
-        .i-arrows {
-            &:before {
-                width: 20px;
-                top: 24px;
-            }
-
-            &:after {
-                top: 22px;
+                &:after {
+                    height: 0;
+                }
             }
         }
 
-        .news-item_des {
-            font-size: 0.75rem;
+        .news-group {
+            .news-item {
+                .news-item_des {
+                    padding-right: 25px;
+                    font-size: 0.75rem;
+                    position: relative;
+
+                    &.i-arrows {
+                        &:before {
+                            width: 20px;
+                            bottom: 2px;
+                            top: unset;
+                            height: 1px;
+                        }
+
+                        &:after {
+                            top: unset;
+                            bottom: 4px;
+                            height: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-top-page-business {
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .section-top-page-business{
+        .business_recruit{
+            background-image:url('../images/2x/top-page-sp-1.jpg');
+            margin-left: -20px;
+            margin-right: -20px;
+            h2{
+                padding: 44px 0 0 0;
+                p{
+                    font-size:0.875rem;
+                    margin:0;
+                    padding-bottom:10px;
+                }
+            }
+            p{
+                font-size: 1rem;
+                padding-bottom:44px;
+            }
         }
     }
 
@@ -652,6 +784,7 @@
         .detail_splide-slider {
             max-width: 334px;
             margin: 0 auto;
+
             .splide__slide {
                 display: inline-block;
                 margin-bottom: 10px;
@@ -709,6 +842,7 @@
 }
 
 @media (max-width: 425px) {
+
     /* SlideShow */
     .g-slideshow {
         .slideshow-text {
@@ -721,8 +855,9 @@
             }
         }
     }
+
     /*Top Page */
-    .top-page-slideshow{
+    .top-page-slideshow {
         .g-slideshow {
             .slideshow-text {
                 .img-txt {
@@ -771,8 +906,7 @@
             min-height: 135px;
         }
     }
-     /* Top Page Service */
-    .btn-detail-contact{
-        
-    }
+
+    /* Top Page Service */
+    .btn-detail-contact {}
 }

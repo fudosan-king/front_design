@@ -173,6 +173,99 @@
         -webkit-animation-fill-mode: both;
                 animation-fill-mode: both;
     }
+  /*Top Page*/
+    .section-top-page-business h2 {
+        text-align: center;
+    }
+
+    .section-top-page-business .business_block {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .section-top-page-business .business_block:before {
+        position: absolute;
+        background: #F3F3F3;
+        content: '';
+        top: 40px;
+        left: 25px;
+        right: 25px;
+        bottom: 70px;
+        z-index: -1;
+    }
+
+    .section-top-page-business .about-us {
+        padding: 80px 0px 0 0px;
+        flex-flow: wrap;
+    }
+
+    .section-top-page-business .about-us .about-us_content {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 37px 0 37px;
+        margin-left: 0;
+    }
+
+    .section-top-page-business .about-us .about-us_content-img {
+        margin-left: 0;
+    }
+
+    .section-top-page-business .about-us .about-us_img {
+        text-align: center;
+        margin-bottom: 20px;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-top-page-business .about-us .about-us_title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.125rem;
+        color: #333333;
+        margin-bottom: 10px;
+    }
+
+    .section-top-page-business .about-us .about-us_title .about-us_sm-title {
+        font-size: 0.875rem;
+        font-weight: normal;
+        color: #333333;
+    }
+
+    .section-top-page-business .about-us .about-us_des {
+        font-size: 1rem;
+        text-align: justify;
+        color: #4F4F4F;
+    }
+
+    .section-top-page-business .about-us .about-us_more {
+        font-weight: bold;
+        font-size: 0.875rem;
+        text-align: right;
+        letter-spacing: 0.05em;
+        color: #000000;
+        padding-right: 45px;
+        margin-bottom: 0;
+    }
+
+    .section-top-page-business .about-us .about-us_more.i-arrows:before {
+        top: unset;
+        bottom: 5px;
+    }
+
+    .section-top-page-business .about-us .about-us_more.i-arrows:after {
+        top: unset;
+        bottom: 7px;
+    }
+
+    .section-top-page-business .flip-left .about-us {
+        padding: 80px 0px 0 0px;
+        flex-direction: column-reverse;
+    }
+
+    .section-top-page-business .flip-left .about-us .about-us_content {
+        padding: 0 37px 0 37px;
+    }
   /*Owned Property Page*/
     .owned-property_product .col-md-6:nth-child(3n+2) .product-items {
         margin: initial;
@@ -292,23 +385,13 @@
     }
 
     .g-slideshow .slideshow-text h2 {
-        font-size: calc(48px + 62 * ((100vw - 375px) / 392));
+        font-size: calc(64px + 46 * ((100vw - 375px) / 392));
+    }
+
+    .g-slideshow .slideshow-text h2 p {
+        font-size: calc(24px + 24 * ((100vw - 375px) / 392));
     }
   /* Top Page  */
-    .lists-bg-gray {
-        margin-bottom: 80px;
-    }
-
-    .lists-bg-gray h2 {
-        font-size: 1.5rem;
-        padding-top: 60px;
-        margin-bottom: 30px;
-    }
-
-    .lists-bg-gray h2 span {
-        display: block;
-    }
-
     .news-box .news-box_list {
         padding: 82px 0;
     }
@@ -332,23 +415,30 @@
         right: -10px;
     }
 
-    .section-top-page-content .g-slideshow:before {
-        right: 30px;
+    .lists-bg-gray {
+        margin-bottom: 40px;
     }
 
-    .section-top-page-content .top-page-content_des {
-        padding: 0 30px;
+    .lists-bg-gray:before {
+        left: 30px;
     }
 
-    .section-top-page-content .top-page-content_des h3 {
-        font-size: 1.125rem;
+    .lists-bg-gray h2 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        padding: 60px 35.8px 0;
     }
 
-    .section-top-page-content .top-page-content_promotion {
-        margin-bottom: 60px;
+    .lists-bg-gray .top-page-corporate_des {
+        padding: 0 38px;
     }
 
-    .section-top-page-services .news-item {
+    .lists-bg-gray .top-page-corporate_des p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .section-top-page-corporate .news-item {
         padding-right: 50%;
         margin-bottom: 40px;
         position: relative;
@@ -356,7 +446,7 @@
         max-width: 100%;
     }
 
-    .section-top-page-services .news-item_ct {
+    .section-top-page-corporate .news-item_ct {
         position: absolute;
         top: 0;
         right: 0;
@@ -364,35 +454,70 @@
         margin-left: 7px;
     }
 
-    .section-top-page-services .news-item_img {
+    .section-top-page-corporate .news-item_img {
         margin-right: 7px;
     }
 
-    .section-top-page-services .news-item_cat {
+    .section-top-page-corporate .news-item_cat {
         margin-bottom: 10px;
     }
 
-    .section-top-page-services .news-item_title {
-        font-size: 1.125rem;
+    .section-top-page-corporate .news-item_title {
+        font-size: 1.5rem;
         padding-right: 25px;
         margin-bottom: 5px;
     }
 
-    .section-top-page-services .news-item_des {
+    .section-top-page-corporate .news-item_title.i-arrows:before {
+        height: 0;
+    }
+
+    .section-top-page-corporate .news-item_title.i-arrows:after {
+        height: 0;
+    }
+
+    .section-top-page-corporate .news-group .news-item .news-item_des {
         padding-right: 25px;
-    }
-
-    .section-top-page-services .i-arrows:before {
-        width: 20px;
-        top: 24px;
-    }
-
-    .section-top-page-services .i-arrows:after {
-        top: 22px;
-    }
-
-    .section-top-page-services .news-item_des {
         font-size: 0.75rem;
+        position: relative;
+    }
+
+    .section-top-page-corporate .news-group .news-item .news-item_des.i-arrows:before {
+        width: 20px;
+        bottom: 2px;
+        top: unset;
+        height: 1px;
+    }
+
+    .section-top-page-corporate .news-group .news-item .news-item_des.i-arrows:after {
+        top: unset;
+        bottom: 4px;
+        height: 1px;
+    }
+
+    .section-top-page-business h2 {
+        text-align: center;
+    }
+
+    .section-top-page-business .business_recruit {
+        background-image: url("../images/2x/top-page-sp-1.jpg");
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .section-top-page-business .business_recruit h2 {
+        padding: 44px 0 0 0;
+    }
+
+    .section-top-page-business .business_recruit h2 p {
+        font-size: 0.875rem;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    .section-top-page-business .business_recruit p {
+        font-size: 1rem;
+        padding-bottom: 44px;
     }
   /*Owned Property Page*/
     .owned-property_product .col-md-6 .product-items {
