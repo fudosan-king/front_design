@@ -233,7 +233,7 @@
                     <p class="about-us_sm-title">[リノベーションマンション]</p>
                 </h4>
                 <p class="about-us_des">中古マンションの室内をリノベーションし、新たな付加価値を追求した住宅商品。経年劣化した室内を、現代のライフスタイルにあった機能・デザインに再生し、天然無垢材をふんだんに使用した当社オリジナル建材を全室に採用するなど、ログマンション独自の仕様で、質と価格の両面にとことんこだわったリノベーションマンションに仕上げています。</p>
-                <p class="about-us_more i-arrows">VIEW MORE</p>
+                <a href="" rel="" target="" class="about-us_more i-arrows">VIEW MORE</a>
             </div>
             <div class="about-us_content-img">
                 <img class="d-none d-lg-block" src="./images/1x/top-page-business-1.png" alt="" title=""/>
@@ -256,7 +256,7 @@
                     <p class="about-us_sm-title">[リノベーションマンション]</p>
                 </h4>
                 <p class="about-us_des">中古マンションの室内をリノベーションし、新たな付加価値を追求した住宅商品。経年劣化した室内を、現代のライフスタイルにあった機能・デザインに再生し、天然無垢材をふんだんに使用した当社オリジナル建材を全室に採用するなど、ログマンション独自の仕様で、質と価格の両面にとことんこだわったリノベーションマンションに仕上げています。</p>
-                <p class="about-us_more i-arrows">VIEW MORE</p>
+                <a href="" rel="" target="" class="about-us_more i-arrows">VIEW MORE</a>
             </div>
         </div>
     </div>
@@ -271,7 +271,7 @@
                     <p class="about-us_sm-title">[リノベーションマンション]</p>
                 </h4>
                 <p class="about-us_des">中古マンションの室内をリノベーションし、新たな付加価値を追求した住宅商品。経年劣化した室内を、現代のライフスタイルにあった機能・デザインに再生し、天然無垢材をふんだんに使用した当社オリジナル建材を全室に採用するなど、ログマンション独自の仕様で、質と価格の両面にとことんこだわったリノベーションマンションに仕上げています。</p>
-                <p class="about-us_more i-arrows">VIEW MORE</p>
+                <a href="" rel="" target="" class="about-us_more i-arrows">VIEW MORE</a>
             </div>
             <div class="about-us_content-img">
                 <img class="d-none d-lg-block" src="./images/1x/top-page-business-3.png" alt="" title=""/>
