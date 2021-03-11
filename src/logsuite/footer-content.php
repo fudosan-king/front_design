@@ -13,7 +13,7 @@
     	<div class="container">
     		<div class="navbar navbar-expand-lg">
         		<a class="navbar-brand" href="#">
-		        	<img class="" src="./images/2x/logo.png" alt="" title="" />
+		        	<img class="" src="./images/1x/logo-sample.jpg" alt="" title="" />
 		        </a>
 	        	<div class="footer-bottom_list">
 		        	<ul class="nav">

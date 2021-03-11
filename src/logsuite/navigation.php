@@ -2,7 +2,7 @@
 	<div class="nav_menu">
 		<nav class="navbar navbar-expand-lg">
 	        <a class="navbar-brand" href="#">
-	        	<img class="" src="./images/2x/logo.png" alt="" title="" />
+	        	<img class="" src="./images/1x/logo-sample.jpg" alt="" title="" />
 	        </a>
 	        <button class="navbar-toggler js-menu" type="button" >
 	            <span class="nav-toggler-line"></span>

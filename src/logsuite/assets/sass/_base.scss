@@ -10,7 +10,12 @@ h2 {
     font-size: 2.25rem;
     line-height: 36px;
     color: #000000;
-
+    .sm-title{
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 1.125rem;
+        letter-spacing: 0.1em;
+    }
     @media(max-width: 768px) {
         font-size: 1.5rem;
     }
@@ -521,7 +526,7 @@ h2 {
 
     .news-item_title {
         font-weight: 600;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         line-height: 24px;
         color: $cl-black;
         margin-bottom: 15px;

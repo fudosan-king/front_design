@@ -57,75 +57,168 @@
 
 .lists-bg-gray{
 	position: relative;
-	margin-bottom:130px;
+	margin-bottom:80px;
 	&:before{
 		content:'';
 		position: absolute;
 		top:0;
-		height:460px;
+	    bottom: 29%;
 		left:14%;
 		right:0;
 		background: $cl-gray-light;
 		z-index: -1;
 	}
 	h2{
-		padding-top:100px;
+		padding-top:80px;
 		font-weight: 600;
 		font-size: 1.875rem;
 		line-height: 36px;
 		color: $cl-black;
 		text-align: center;
-		margin-top: 80px;
-		margin-bottom: 160px;
-	}
-}
-
-
-
-.section-top-page-content {
-
-	.g-slideshow {
-		padding-bottom:80px;
-		&:before{
-	    	right: 11.8%;
-		}
-		.slideshow-text{
-			bottom: 30px;
-		}
-	}
-
-	.top-page-content_des{
-		margin-top:50px;
-		h3{
-			font-size:1.5rem;
-			color:$cl-white;
-			margin-bottom:35px;
-		}
-		p{
-			max-width:754px; 
-			font-size:0.875rem;
-			color:$cl-white;
-		}
-	}
-
-	.promotion{
-		margin-top:80px;
-	}
-
-	.promotion-video{
-		margin-bottom: 80px;
-		h3{
-			color:$cl-white;
-			padding-right:5px;
-		}
-		p{
+		margin-top: 50px;
+		margin-bottom: 60px;
+		.sm-title-top{
+			font-weight: 600;
 			font-size: 0.875rem;
-			line-height: 200%;
-			color:$cl-white;
-			padding-right:5px;
-		}	
+			letter-spacing: 0.1em;
+			color: $cl-black;
+			margin-bottom:15px;
+		}
 	}
-
+	.top-page-corporate_des{
+		margin-bottom: 60px;
+		p{
+			font-weight: 500;
+			font-size: 1.125rem;
+			letter-spacing: 0.1em;
+			color: $cl-black;
+			text-align:center;
+		}
+	}
 }
 
+.section-top-page-corporate{
+	.news-group{
+		.news-item{
+			.news-item_des{
+				&.i-arrows{
+					&:before{
+						height:0;
+					}
+					&:after{
+						height:0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.section-top-page-business{
+	h2{
+		text-align:center;
+	}
+	.business_block{
+		position: relative;
+		margin-bottom: 30px;
+		&:before{
+			position: absolute;
+			background:$logsuote-bg-businees;
+			content:'';
+			top:70px;
+			left:7%;
+			right:7%;
+			bottom:70px;
+			z-index:-1;
+		}
+	}
+	.about-us{
+		padding: 35px 0 35px 7%;
+		display: flex;
+		align-items:center;
+	    flex-flow: nowrap;
+		.about-us_content{
+	    	width: 50%;
+    		max-width: 619px;
+			padding:88px 0 88px 7%;
+			margin-left: auto;
+		}
+		.about-us_content-img{
+			margin-left: auto;
+		}
+		.about-us_title{
+			text-align: right;
+			font-weight: 600;
+			font-size: 1.125rem;
+			color: #333333;
+			margin-bottom: 10px;
+			.about-us_sm-title{
+				font-size: 0.875rem;
+				font-weight:normal;
+				color: $logsuite-main-txt-cl-black;
+			}
+		}
+		.about-us_des{
+			font-size: 1rem;
+			text-align: justify;
+			color: $logsuite-business-des-cl-gray;
+
+		}
+		.about-us_more{
+			font-weight: bold;
+			font-size: 0.875rem;
+			text-align: right;
+			letter-spacing: 0.05em;
+			color: $logsuite-cl-black;
+			padding-right:45px;
+			margin-bottom: 0;
+			&.i-arrows{
+				&:before{
+					top:unset;
+					bottom:5px;
+				}
+				&:after{
+					top:unset;
+					bottom:7px;
+				}
+			}
+		}
+	}
+	.flip-left{
+		.about-us{
+			padding: 35px 7% 35px 0;
+		
+			.about-us_content{
+				padding:88px 7% 88px 0;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+.section-top-page-business{
+	.business_recruit{
+		background-image:url('../images/1x/top-page-1.jpg');
+		background-size: cover;
+		background-position:center;
+		background-repeat: no-repeat;
+		margin-top:70px;
+		margin-bottom: 100px;
+		h2{
+			padding:68px 0 0 0;
+			color:$logsuite-cl-white;
+			p{
+			    padding-bottom: 49px;
+			}
+		}
+		p{
+			padding-bottom: 68px;
+			font-weight: 600;
+			font-size: 1.5rem;
+			letter-spacing: 0.05em;
+			color:$logsuite-cl-white;
+			text-align:center;
+		}
+	}
+}
 
