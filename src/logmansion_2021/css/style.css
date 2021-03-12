@@ -2047,6 +2047,85 @@ footer .footer-bottom .copyright p {
     margin-bottom: 556px;
 }
 
+.about-us h1 {
+    font-size: 3.5rem;
+    color: #777777;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 0.8;
+    margin-top: 20px;
+}
+
+.about-us h1 span {
+    margin: 14px 0 10px 0;
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.about-us .line {
+    width: 247px;
+    height: 6px;
+    margin: 0 auto 60px auto;
+    background-color: #e1e1e1;
+    margin-bottom: 45px;
+}
+
+.about-us_table {
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about-us_table table tr:nth-child(odd) {
+    background-color: #e1e1e1;
+}
+
+.about-us_table table tr th, .about-us_table table tr td {
+    vertical-align: middle;
+}
+
+.about-us_table table tr th p, .about-us_table table tr td p {
+    margin-bottom: 0;
+}
+
+.about-us_table table tr th {
+    font-weight: 600px;
+    clear: both;
+    width: 32%;
+    padding: 13px 4%;
+    text-align: right;
+    border-right: 1px solid #c0c0c0;
+}
+
+.about-us_table table tr td {
+    width: 52%;
+    padding: 13px 4%;
+    position: relative;
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+#gtx-trans {
+    background-color: whitesmoke;
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+    z-index: 2147483647;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gainsboro;
+    -o-border-image: initial;
+       border-image: initial;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    left: -19px;
+    top: 86px;
+}
+
 .section-slideshow-details .product-items {
     padding-top: unset;
 }

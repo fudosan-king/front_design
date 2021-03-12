@@ -512,7 +512,7 @@
         }
     }
 
-    /*About Page*/
+    /*About Service*/
     .section-about {
         h2 {
             text-align: center;
@@ -601,6 +601,35 @@
         margin-bottom: 87px;
     }
 
+    // About US
+    #gtx-trans{
+        bottom:40px;
+        top:unset;
+        height: 15px;
+        width: 15px;
+        left: -16px;
+    }
+    .about-us{
+        h1{
+            font-size:2rem;
+            span{
+                font-size: 1rem;
+            }
+        }
+        .line{
+            height: 3px;
+            margin-bottom: 20px;
+        }
+    }
+    .about-us_table{
+        table{
+            tr{
+                th,td{
+                    font-size:0.875rem;
+                }
+            }
+        }
+    }
     /* Detail Page */
     .detail_title {
         font-size: 1rem;

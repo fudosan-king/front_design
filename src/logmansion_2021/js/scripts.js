@@ -196,6 +196,23 @@ function log_mainsion() {
         _this.detailPagetxtShowMore();
         _this.showCategoiesPC();
         _this.replaceTxtCategoryScrollTo();
+        _this.aboutUsBtn();
+    }
+
+    this.aboutUsBtn = function()
+    {
+        const html = '<div id="gtx-trans" class="gtx-trans">&nbsp;</div>';
+    
+        if( $('.about-us_table table tr:last-child td').find('.gtx-trans').length === 0 ){
+            $('.about-us_table').css('max-width','660px');
+            $('.about-us_table table tr:last-child td').append(html);
+        }
+
+        $('.about-us_table table tr').on('click',function(){
+            $('.about-us_table').removeAttr('style');
+            $('.about-us_table table tr:last-child td').find('.gtx-trans').remove();
+        });
+
     }
 
     this.replaceTxtCategoryScrollTo = function()
