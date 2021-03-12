@@ -123,4 +123,12 @@
     </div>
 </section>
 <?php include 'footer-content.php'; ?>
+<section class="fixed-block-bottom js-contact">
+    <div class="container">
+        <div class="contact">
+            <a class="btn btn-contact bg-gradient-green-turquoise"><span class="i-home">問い合わせ</span></a>
+            <a class=" btn btn-contact bg-gradient-green-turquoise mr-last-to-md-0"><span class="i-call">0120-991-657</span></a>
+        </div>
+    </div>
+</section>
 <?php include 'footer.php'; ?>
