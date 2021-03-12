@@ -1,124 +1,78 @@
-.section-about {
-    h2 {
-        text-align: center;
-        margin-bottom: 44px;
-    }
-
-    .title-des {
-        font-weight: 300;
-        font-size: 1.125rem;
-        text-align: center;
-        color: $cl-black;
-        margin-bottom: 72px;
-    }
-
-    .news-item {
-        .news-item_title {
-            padding-right: 0;
-        }
-    }
-
-    .note {
-        font-weight: 300;
-        font-size: 0.75rem;
-        line-height: 200%;
-        color: $cl-black;
-        text-align:center;
-    }
-}
-
-.about {
-    position: relative;
-    margin-bottom: 200px;
-
-    &:last-child {
-        margin-bottom: 94px;
-    }
-
-    .about_img {
-        box-shadow: 0px 20px 50px $cl-shadow-black-25;
-    }
-
-    .about_img-caption {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-    }
-
-    p {
-        font-weight: 600;
-        font-size: 1rem;
-        letter-spacing: 0.05em;
-        color: $cl-white;
-        text-align: center;
-    }
-
-    h3 {
-        font-weight: 600;
-        font-size: 1.5rem;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: $cl-white;
-
-        span {
-            display: block;
-        }
-    }
-}
-
-.about_planning {
-    position: relative;
-    margin-bottom: 230px;
-
-    &:before {
-        content: '';
-        position: absolute;
-        top: -200px;
-        right: 0;
-        bottom: 32%;
-        background: $cl-gray-light;
-        left: 14%;
-        z-index: -1;
-    }
-
-
-}
-
-.about_kitchin {
-    position: relative;
-    margin-bottom: 230px;
-
-    &:before {
-        content: '';
-        position: absolute;
-        top: -100px;
-        right: 14%;
-        bottom: 50%;
-        background: $cl-gray-light;
-        left: 0;
-        z-index: -1;
-    }
-}
-
-.about_comforts {
-    position: relative;
-    margin-bottom: 130px;
-
- &:before {
-        content: '';
-        position: absolute;
-        top: -100px;
-        right: 0;
-        bottom: 32%;
-        background: $cl-gray-light;
-        left: 14%;
-        z-index: -1;
-    }
+.about-us{
+	h1{
+		font-size:3.5rem;
+		color:#777777;
+		text-align: center;
+		font-weight:600px;
+		line-height: 0.8;
+		margin-top: 20px;
+		span{
+		    margin: 14px 0 10px 0;
+    		font-size: 1.125rem;
+    		font-weight:normal;
+			color:$cl-black;
+			line-height: 1.2;
+		}
+	}
+	.line{
+	    width: 247px;
+	    height: 6px;
+	    margin: 0 auto 60px auto;
+	    background-color: #e1e1e1;;
+	    margin-bottom: 45px;
+	}
 }
 
 
-.about_commitment{
-	margin-bottom: 556px;
+.about-us_table{
+    max-width: 880px;
+    margin: 0 auto;
+   	margin-bottom:60px;
+    table{
+    	tr{
+    		&:nth-child(odd){
+    			background-color: #e1e1e1;
+    		}
+    		th,td{
+    			vertical-align: middle;
+    			p{
+    				margin-bottom: 0;
+    			}
+    		}
+    		th{
+    			font-weight:600px;
+			    clear: both;
+			    width: 32%;
+			    padding: 13px 4%;
+			    text-align: right;
+			    border-right: 1px solid #c0c0c0;
+    		}
+    		td{
+    			width: 52%;
+			    padding: 13px 4%;
+			    position: relative;
+			    font-weight:normal;
+			    font-size:0.875rem;
+    		}
+    	}
+
+    }
+}
+
+#gtx-trans{
+	background-color: rgb(245, 245, 245);
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+    z-index: 2147483647;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    border-image: initial;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    left: -19px;
+    top: 86px;
 }
