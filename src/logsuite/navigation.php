@@ -15,7 +15,7 @@
 	                    <a class="nav-link" href="index.php">TOP</a>
 	                </li>
 	                <li class="nav-item">
-	                    <a class="nav-link" href="#">NEWS</a>
+	                    <a class="nav-link" href="news.php">NEWS</a>
 	                </li>
 	                <li class="nav-item">
 	                    <a class="nav-link" href="company.php">COMPANY</a>
