@@ -6,7 +6,7 @@
 				text-align: center;
 				.slideshow_caption {
 					position: absolute;
-					top: 0;
+					top: 15px;
 					bottom: 0;
 					width: 100%;
 					height: 100%;
@@ -23,6 +23,8 @@
 					p {
 						font-size: 0.875em;
 						margin-bottom: 10px;
+						font-weight: 600;
+    					letter-spacing: 0.1em;
 					}
 					.btn_photo {
 						font-size: 0.875em;
@@ -106,6 +108,7 @@
 		h3 {
 			font-size: 1.125em;
 			margin-bottom: 15px;
+			font-weight: 600;
 		}
 		ul {
 			padding: 0;
@@ -134,7 +137,9 @@
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06121d', endColorstr='#09a9cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 			border: none;
 			&:last-child {
-				margin-right: 0;
+			    max-width: 288px;
+			    display: block;
+			    margin: 0 auto;
 			}
 			img {
 				margin-right: 10px;

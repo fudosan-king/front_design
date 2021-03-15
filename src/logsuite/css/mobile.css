@@ -419,12 +419,21 @@
         height: unset;
     }
 
+    .g-slideshow .splide {
+        padding-left: 30px;
+    }
+
+    .g-slideshow .splide:before {
+        left: 30px;
+    }
+
     .g-slideshow .splide .splide-item {
         padding-top: 94.2%;
     }
 
     .g-slideshow .slideshow-text {
         bottom: 20px;
+        left: 4.3%;
     }
 
     .g-slideshow .slideshow-text h2 {
