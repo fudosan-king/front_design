@@ -14,8 +14,8 @@
                         </div>
                          <!-- Items -->
                         <div class="splide__slide">
-                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top-page-slide-2.jpg);"></div>
-                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/top-page-slide-sp-2.jpg);"></div>
+                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/company_top.jpg);"></div>
+                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/company_top_sp.jpg);"></div>
                         </div>
                          <!-- Items -->
                         <div class="splide__slide">
@@ -416,7 +416,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="business_recruit">
+        <div class="business_recruit logsuite-box-shadow">
             <h2>RECRUIT<p class="sm-title">採用情報</p></h2>
             <p>小さな知恵が集まれば、<span class="d-block d-md-inline">世界を動かす力になる。</span></p>
         </div>

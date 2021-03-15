@@ -13,7 +13,6 @@
                                 <div class="slideshow_caption">
                                     <h1>COMPANY</h1>
                                     <p>Company overview</p>
-                                    <a href="#" class="btn btn_photo">会社の写真が入ります</a>
                                 </div>
                             </div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/company_top_sp.jpg);">
@@ -218,9 +217,9 @@
                                         <p><img src="images/icons/icon-access.svg" alt="" class="img-fluid" width="20"> 東京メトロ銀座線・千代⽥線・半蔵⾨線「表参道駅」B2出⼝1分</p>
                                     </li>
                                 </ul>
-                                <a href="#" class="btn btn_blue"><img src="images/icons/home.svg" alt="" class="img-fluid" width="20"> 予約する</a>
-                                <a href="#" class="btn btn_blue"><img src="images/icons/freecall.svg" alt="" class="img-fluid" width="20"> 0120-991-657</a>
                             </div>
+                            <!--  <a href="#" class="btn btn_blue"><img src="images/icons/home.svg" alt="" class="img-fluid" width="20"> 予約する</a> -->
+                            <a href="#" class="btn btn_blue"><img src="images/icons/freecall.svg" alt="" class="img-fluid" width="20"> 0120-991-657</a>
                         </div>
                     </div>
                 </div>
@@ -269,7 +268,7 @@
 
 <section class="section-top-page-business">
     <div class="container">
-        <div class="business_recruit">
+        <div class="business_recruit logsuite-box-shadow">
             <h2>RECRUIT<p class="sm-title">採用情報</p></h2>
             <p>小さな知恵が集まれば、<span class="d-block d-md-inline">世界を動かす力になる。</span></p>
         </div>

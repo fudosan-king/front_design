@@ -509,6 +509,10 @@
         }
 
         .splide {
+            padding-left:30px;
+            &:before{
+                left:30px;
+            }
             .splide-item {
                 padding-top: 94.2%;
             }
@@ -516,7 +520,7 @@
 
         .slideshow-text {
             bottom: 20px;
-
+            left: 4.3%;
             h2 {
                 @include fluid-font-size(375px, 767px, 64px, 110px);
 
