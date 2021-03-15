@@ -1,14 +1,14 @@
 <?php include 'header.php'; ?>
 <?php include 'navigation.php'; ?>
 <!-- Slide Show  -->
-<section class="section-slideshow">
+<!-- <section class="section-slideshow">
     <div class="g-slideshow">
         <div class="g-slideshow_content">
             <div id="slideshow_splide" class="splide slideshow-splide">
                 <div class="splide__track">
-                    <div class="splide__list">
+                    <div class="splide__list"> -->
                         <!-- Items -->
-                        <div class="splide__slide">
+                      <!--   <div class="splide__slide">
                             <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-about-1.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-about-sp-1.jpg);"></div>
                         </div>
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Breadcrumb -->
 <section class="section-breadcrumb">
     <div class="container">
