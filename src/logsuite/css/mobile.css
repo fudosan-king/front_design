@@ -174,6 +174,49 @@
                 animation-fill-mode: both;
     }
   /*Top Page*/
+    .news-box .news-box_list {
+        padding: 82px 0;
+    }
+
+    .news-box .news-box_list h2 {
+        margin-bottom: 30px;
+    }
+
+    .news-box .news-box_list .news-box_row {
+        margin-bottom: 0;
+    }
+
+    .news-box .news-box_list .news-box_row:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .news-box .news-box_list .news-box_row ul li {
+        border-bottom: none;
+        padding: 24px 0 10px;
+    }
+
+    .news-box .news-box_list .news-box_row ul li:nth-child(1) {
+        padding: 33px 0 0;
+    }
+
+    .news-box .news-box_list .news-box_row ul li:nth-child(3) {
+        padding: 10px 0 20px;
+        width: 100%;
+    }
+
+    .news-box .news-box_list .newx-box_item h4 span {
+        visibility: hidden;
+    }
+
+    .news-box .news-box_list .newx-box_item p {
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    .news-box .news-box_list .newx-box_item p span {
+        visibility: hidden;
+    }
+
     .section-top-page-business h2 {
         text-align: center;
     }
@@ -392,35 +435,13 @@
         font-size: calc(24px + 24 * ((100vw - 375px) / 392));
     }
   /* Top Page  */
-    .news-box .news-box_list {
-        padding: 82px 0;
-    }
-
-    .news-box .news-box_list h2 {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .news-box .news-box_list table tr td {
-        padding: 30px 10px;
-        border-top: none;
-        border-bottom: 1px solid #E0E0E0;
-    }
-
-    .news-box .news-box_list .newx-box_item h4 span {
-        right: -10px;
-    }
-
-    .news-box .news-box_list .newx-box_item p span {
-        right: -10px;
-    }
-
     .lists-bg-gray {
         margin-bottom: 40px;
     }
 
     .lists-bg-gray:before {
         left: 30px;
+        bottom: 19%;
     }
 
     .lists-bg-gray h2 {
@@ -430,7 +451,7 @@
     }
 
     .lists-bg-gray .top-page-corporate_des {
-        padding: 0 38px;
+        padding: 0 18px;
     }
 
     .lists-bg-gray .top-page-corporate_des p {
@@ -478,7 +499,6 @@
 
     .section-top-page-corporate .news-group .news-item .news-item_des {
         padding-right: 25px;
-        font-size: 0.75rem;
         position: relative;
     }
 

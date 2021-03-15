@@ -2,10 +2,10 @@
     <div class="footer-top">
     	<div class="container">
         	<ul class="nav">
-        		<li class="nav-item"><a class="nav-link" href="#">ログマンションとは</a></li>
-        		<li class="nav-item"><a class="nav-link" href="#">物件を探す</a></li>
-        		<li class="nav-item"><a class="nav-link" href="#">サービス紹介</a></li>
-        		<li class="nav-item"><a class="nav-link" href="#">お問合わせ</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#">NEWS</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#">COMPANY</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#">RECRUTE</a></li>
+        		<li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
         	</ul>
     	</div>
     </div>
@@ -13,7 +13,7 @@
     	<div class="container">
     		<div class="navbar navbar-expand-lg">
         		<a class="navbar-brand" href="#">
-		        	<img class="" src="./images/1x/logo-sample.jpg" alt="" title="" />
+		        	<img class="" src="./images/1x/logo-logsuite-w.png" alt="" title="" />
 		        </a>
 	        	<div class="footer-bottom_list">
 		        	<ul class="nav">

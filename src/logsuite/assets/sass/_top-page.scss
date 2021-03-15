@@ -1,27 +1,61 @@
 .news-box{
 	.news-box_list{
 		padding:82px 100px;
+		span.news-box_border{
+			padding:6px 20px;
+			margin:0 32px;
+			width: max-content;
+		}
+		span.border-blue{
+			border: 1px solid #2F80ED;
+			font-size: 0.75rem;
+			align-items: center;
+			color: #2F80ED;
+			border-radius: 100px;
+		}
+		span.border-red{
+			border: 1px solid #EB5757;
+			box-sizing: border-box;
+			border-radius: 100px;
+			font-size: 0.75rem;
+			color: #EB5757;
+		}
+		span.border-green{
+			border: 1px solid #219653;
+			border-radius: 100px;
+			font-size: 0.75rem;
+			color: #219653;
+		}
 		h2{
 			text-align:center;
 			margin-bottom: 80px;
 		}
-		table{
+		.news-box_row{
 			margin-bottom: 60px;
-			tr{
-				th{
+			ul{
+				li{
+					display: inline-block;
 					font-weight: bold;
 					font-size: 0.875rem;
 					line-height: 17px;
 					color: $cl-black-light;
 					border-top: none;
 					border-bottom: 1px solid $cl-gray-medium;
-					width: 20%;
-					padding:30px 0;
+					padding:24px 0 20px;
 				}
-				td{
-					padding:30px 20px;
+				li:nth-child(1){
+					width:100%;
+					max-width: 75px;
+				}
+				li:nth-child(2){
+					width: 100%;
+					max-width:214px;
+				}
+				li:nth-child(3){
+					padding:24px 20px 20px;
 					border-top: none;
 					border-bottom: 1px solid $cl-gray-white;
+					width: calc(100% - 290px);
 				}
 			}
 		}
@@ -44,7 +78,7 @@
 				color: $cl-black-light;
 				margin-bottom:5px;
 				position: relative;
-				padding-right::40px;
+				padding-right:40px;
 				span{
 					top:5px;
 					right: -20px;
@@ -162,7 +196,12 @@
 			font-size: 1rem;
 			text-align: justify;
 			color: $logsuite-business-des-cl-gray;
-
+			p{
+				margin-bottom:0;
+				&:last-child{
+					margin-bottom: 10px;
+				}
+			}
 		}
 		.about-us_more{
 			font-weight: bold;
