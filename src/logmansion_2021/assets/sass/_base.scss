@@ -322,6 +322,31 @@
 }
 
 /*Title*/
+.ct-page{
+    h1{
+        font-size:3.5rem;
+        color:#777777;
+        text-align: center;
+        font-weight:600px;
+        line-height:1.2;
+        margin-top: 20px;
+        span{
+            margin: 14px 0 10px 0;
+            font-size: 1.125rem;
+            font-weight:normal;
+            color:$cl-black;
+            line-height: 1.2;
+        }
+    }
+    .line{
+        width: 247px;
+        height: 6px;
+        margin: 0 auto 60px auto;
+        background-color: #fff;
+        margin-bottom: 45px;
+    }
+}
+
 h2 {
     font-weight: 600;
     font-size: 1.875rem;

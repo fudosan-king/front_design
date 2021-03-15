@@ -1,0 +1,44 @@
+.policy-page{
+    clear: both;
+    margin: 55px 30px 30px 30px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.policy-ct{
+	text-align: justify;
+	max-width:880px;
+	width: 100%;
+	margin:0 auto;
+	font-size:0.875rem;
+	font-family:'Noto Sans JP';
+	ul{
+		padding-left:0;
+		li{
+			a{
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	h3 {
+	    padding: 0 0 13px 0;
+	    margin: 0 0 10px 0;
+	    font-weight: bold;
+	    border-bottom: 1px dotted #000;
+	    line-height: 1.3em;
+	    font-size:0.875rem;
+	}
+	p {
+	    margin: 0 0 30px 0;
+	    text-align: justify;
+	    font-weight:normal;
+	    &:last-child {
+    		margin-bottom:80px;
+		}
+	}
+	.policy-ct_top{
+		margin-bottom: 80px;
+	}
+}

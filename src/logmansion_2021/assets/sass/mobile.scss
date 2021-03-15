@@ -480,7 +480,7 @@
             margin-bottom: 5px;
         }
 
-        .news-item_des{
+        .news-item_des {
             padding-right: 25px;
         }
 
@@ -602,34 +602,41 @@
     }
 
     // About US
-    #gtx-trans{
-        bottom:40px;
-        top:unset;
+    #gtx-trans {
+        bottom: 40px;
+        top: unset;
         height: 15px;
         width: 15px;
         left: -16px;
     }
-    .about-us{
-        h1{
-            font-size:2rem;
-            span{
+
+    .about-us {
+        h1 {
+            font-size: 2rem;
+
+            span {
                 font-size: 1rem;
             }
         }
-        .line{
+
+        .line {
             height: 3px;
             margin-bottom: 20px;
         }
     }
-    .about-us_table{
-        table{
-            tr{
-                th,td{
-                    font-size:0.875rem;
+
+    .about-us_table {
+        table {
+            tr {
+
+                th,
+                td {
+                    font-size: 0.875rem;
                 }
             }
         }
     }
+
     /* Detail Page */
     .detail_title {
         font-size: 1rem;
@@ -681,6 +688,7 @@
         .detail_splide-slider {
             max-width: 334px;
             margin: 0 auto;
+
             .splide__slide {
                 display: inline-block;
                 margin-bottom: 10px;
@@ -735,9 +743,30 @@
         padding: 10px 0;
     }
 
+    //Policy Page
+    .policy-page {
+        clear: both;
+        margin: 55px 0 30px 0;
+        .policy h1 {
+            font-size: 2rem;
+            span{
+                font-size:0.6875rem;
+            }
+        }
+    }
+
+    .policy-ct {
+        text-align: justify;
+        max-width: 880px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0.6875rem;
+    }
+
 }
 
 @media (max-width: 425px) {
+
     /* SlideShow */
     .g-slideshow {
         .slideshow-text {
@@ -750,8 +779,9 @@
             }
         }
     }
+
     /*Top Page */
-    .top-page-slideshow{
+    .top-page-slideshow {
         .g-slideshow {
             .slideshow-text {
                 .img-txt {
@@ -800,8 +830,7 @@
             min-height: 135px;
         }
     }
-     /* Top Page Service */
-    .btn-detail-contact{
-        
-    }
+
+    /* Top Page Service */
+    .btn-detail-contact {}
 }
