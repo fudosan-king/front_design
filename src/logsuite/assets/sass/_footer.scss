@@ -3,9 +3,9 @@ footer {
         li {
             a.nav-link {
                 font-weight: 600;
-                font-size: 0.625rem;
+                font-size: 0.75rem;
                 line-height: 12px;
-                letter-spacing: 0.02em;
+                letter-spacing: 0.5px;
                 color: $cl-white;
                 padding: 10px;
                 text-align: center;
@@ -61,6 +61,9 @@ footer {
         ul {
             li {
                 padding: 25px 0 30px;
+                a.nav-link {
+                    font-size: 0.625rem;
+                }
             }
         }
 

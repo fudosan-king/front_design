@@ -1032,6 +1032,7 @@ h2 .sm-title {
     color: #FFFFFF;
     margin-bottom: 0;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .g-slideshow .slideshow-text h2 p {
@@ -1053,9 +1054,9 @@ h2 .sm-title {
 
 footer ul li a.nav-link {
     font-weight: 600;
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     line-height: 12px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.5px;
     color: #ffffff;
     padding: 10px;
     text-align: center;
@@ -1109,6 +1110,10 @@ footer .footer-bottom ul li {
     padding: 25px 0 30px;
 }
 
+footer .footer-bottom ul li a.nav-link {
+    font-size: 0.625rem;
+}
+
 footer .footer-bottom .copyright {
     padding: 25px 0 30px;
 }
@@ -1128,30 +1133,72 @@ footer .footer-bottom .copyright p {
     padding: 82px 100px;
 }
 
+.news-box .news-box_list span.news-box_border {
+    padding: 6px 20px;
+    margin: 0 32px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.news-box .news-box_list span.border-blue {
+    border: 1px solid #2F80ED;
+    font-size: 0.75rem;
+    align-items: center;
+    color: #2F80ED;
+    border-radius: 100px;
+}
+
+.news-box .news-box_list span.border-red {
+    border: 1px solid #EB5757;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    color: #EB5757;
+}
+
+.news-box .news-box_list span.border-green {
+    border: 1px solid #219653;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    color: #219653;
+}
+
 .news-box .news-box_list h2 {
     text-align: center;
     margin-bottom: 80px;
 }
 
-.news-box .news-box_list table {
+.news-box .news-box_list .news-box_row {
     margin-bottom: 60px;
 }
 
-.news-box .news-box_list table tr th {
+.news-box .news-box_list .news-box_row ul li {
+    display: inline-block;
     font-weight: bold;
     font-size: 0.875rem;
     line-height: 17px;
     color: #333333;
     border-top: none;
     border-bottom: 1px solid #828282;
-    width: 20%;
-    padding: 30px 0;
+    padding: 24px 0 20px;
 }
 
-.news-box .news-box_list table tr td {
-    padding: 30px 20px;
+.news-box .news-box_list .news-box_row ul li:nth-child(1) {
+    width: 100%;
+    max-width: 75px;
+}
+
+.news-box .news-box_list .news-box_row ul li:nth-child(2) {
+    width: 100%;
+    max-width: 214px;
+}
+
+.news-box .news-box_list .news-box_row ul li:nth-child(3) {
+    padding: 24px 20px 20px;
     border-top: none;
     border-bottom: 1px solid #E0E0E0;
+    width: calc(100% - 290px);
 }
 
 .news-box .news-box_list .newx-box_item h4 {
@@ -1293,6 +1340,14 @@ footer .footer-bottom .copyright p {
     font-size: 1rem;
     text-align: justify;
     color: #4F4F4F;
+}
+
+.section-top-page-business .about-us .about-us_des p {
+    margin-bottom: 0;
+}
+
+.section-top-page-business .about-us .about-us_des p:last-child {
+    margin-bottom: 10px;
 }
 
 .section-top-page-business .about-us .about-us_more {

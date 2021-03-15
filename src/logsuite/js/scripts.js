@@ -6,8 +6,8 @@ $(function($) {
                 type  : 'fade',
                 rewind: true,
                 autoplay: true,
-                speed:3000,
-                interval: 5000,
+                speed:2000,
+                interval: 3000,
                 pauseOnHover: false,
                 pauseOnFocus: false,
                 arrows: false,
@@ -257,7 +257,7 @@ function log_mainsion() {
     {
         $('.js-view-more-news').on('click',function(e){
             const currentTarget = e.currentTarget;
-            $('.news-box').find('tr').removeAttr('class');
+            $('.news-box').find('.news-box_row').removeClass('d-none');
             $(currentTarget).remove();
         });
     }
