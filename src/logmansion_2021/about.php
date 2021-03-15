@@ -49,7 +49,7 @@
 </section>
 <!-- About -->
 <section class="section-about-us">
-    <div class="about-us">
+    <div class="about-us ct-page">
     	<div class="container">
     		<h1>ABOUT
     			<span class="d-block">会社概要</span>

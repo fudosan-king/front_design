@@ -219,6 +219,7 @@ body {
     font-size: 16px;
     background: transparent;
     font-family: 'SF Pro Display', sans-serif;
+    font-weight: normal;
 }
 
 .container {
@@ -593,6 +594,31 @@ button:hover {
 }
 
 /*Title*/
+.ct-page h1 {
+    font-size: 3.5rem;
+    color: #777777;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+.ct-page h1 span {
+    margin: 14px 0 10px 0;
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.ct-page .line {
+    width: 247px;
+    height: 6px;
+    margin: 0 auto 60px auto;
+    background-color: #fff;
+    margin-bottom: 45px;
+}
+
 h2 {
     font-weight: 600;
     font-size: 1.875rem;
@@ -2047,29 +2073,8 @@ footer .footer-bottom .copyright p {
     margin-bottom: 556px;
 }
 
-.about-us h1 {
-    font-size: 3.5rem;
-    color: #777777;
-    text-align: center;
-    font-weight: 600px;
-    line-height: 0.8;
-    margin-top: 20px;
-}
-
-.about-us h1 span {
-    margin: 14px 0 10px 0;
-    font-size: 1.125rem;
-    font-weight: normal;
-    color: #000000;
-    line-height: 1.2;
-}
-
 .about-us .line {
-    width: 247px;
-    height: 6px;
-    margin: 0 auto 60px auto;
     background-color: #e1e1e1;
-    margin-bottom: 45px;
 }
 
 .about-us_table {
@@ -2396,4 +2401,51 @@ footer .footer-bottom .copyright p {
 
 .detail-utilities_relative .products {
     padding-left: 0;
+}
+
+.policy-page {
+    clear: both;
+    margin: 55px 30px 30px 30px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.policy-ct {
+    text-align: justify;
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.875rem;
+    font-family: 'Noto Sans JP';
+}
+
+.policy-ct ul {
+    padding-left: 0;
+}
+
+.policy-ct ul li a:hover {
+    text-decoration: underline;
+}
+
+.policy-ct h3 {
+    padding: 0 0 13px 0;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    border-bottom: 1px dotted #000;
+    line-height: 1.3em;
+    font-size: 0.875rem;
+}
+
+.policy-ct p {
+    margin: 0 0 30px 0;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.policy-ct p:last-child {
+    margin-bottom: 80px;
+}
+
+.policy-ct .policy-ct_top {
+    margin-bottom: 80px;
 }

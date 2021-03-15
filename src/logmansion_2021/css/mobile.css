@@ -503,7 +503,8 @@
         margin-bottom: 20px;
     }
 
-    .about-us_table table tr th, .about-us_table table tr td {
+    .about-us_table table tr th,
+  .about-us_table table tr td {
         font-size: 0.875rem;
     }
   /* Detail Page */
@@ -582,6 +583,27 @@
 
     .details-contact {
         padding: 10px 0;
+    }
+
+    .policy-page {
+        clear: both;
+        margin: 55px 0 30px 0;
+    }
+
+    .policy-page .policy h1 {
+        font-size: 2rem;
+    }
+
+    .policy-page .policy h1 span {
+        font-size: 0.6875rem;
+    }
+
+    .policy-ct {
+        text-align: justify;
+        max-width: 880px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0.6875rem;
     }
 }
 
