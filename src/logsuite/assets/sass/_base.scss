@@ -4,6 +4,13 @@ img {
     height: auto;
 }
 
+/*Text Color*/
+
+.txt-black{
+    color:black !important;
+}
+
+
 /* Head Title */
 h2 {
     font-weight: 600;
@@ -11,16 +18,45 @@ h2 {
     line-height: 36px;
     letter-spacing: .1em;
     color: #000000;
-    .sm-title{
+
+    .sm-title {
         margin-top: 10px;
         font-weight: 600;
         font-size: 1.125rem;
         letter-spacing: 0.1em;
     }
+
     @media(max-width: 768px) {
         font-size: 1.5rem;
     }
 }
+
+.ct-page{
+    h2{
+        font-size:3.5rem;
+        color:#777777;
+        text-align: center;
+        font-weight:600px;
+        line-height:1.2;
+        margin-top: 20px;
+        span{
+            margin: 14px 0 10px 0;
+            font-size: 1.125rem;
+            font-weight:normal;
+            color:$cl-black;
+            line-height: 1.2;
+        }
+    }
+    .line{
+        width: 247px;
+        height: 6px;
+        margin: 0 auto 60px auto;
+        background-color: #e1e1e1;;
+        margin-bottom: 45px;
+    }
+}
+
+
 
 .sm-title {
     h3 {
@@ -40,15 +76,15 @@ h2 {
 }
 
 /* Width And Height*/
-.mr-last-to-md-0{
-    @media (max-width: 767px){
-        margin-right:0;
-    }  
+.mr-last-to-md-0 {
+    @media (max-width: 767px) {
+        margin-right: 0;
+    }
 }
 
-.w-to-md-100{
-    @media (max-width: 767px){
-        max-width:100%;
+.w-to-md-100 {
+    @media (max-width: 767px) {
+        max-width: 100%;
     }
 }
 
@@ -62,16 +98,16 @@ h2 {
     background: $bg-gradient-black-turquoise;
 }
 
-.bg-gradient-ovlarticle{
+.bg-gradient-ovlarticle {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     height: 100px;
-    background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(255,255,255,.8) 85%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .8) 85%, rgba(255, 255, 255, 1) 100%);
 }
 
-.logsuite-box-shadow{
+.logsuite-box-shadow {
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
 }
 
@@ -259,6 +295,7 @@ h2 {
 
 .i-open {
     position: relative;
+
     &:before {
         content: '';
         position: absolute;
@@ -406,14 +443,17 @@ h2 {
         border: 2px solid;
         border-image-slice: 2;
         border-width: 2px;
-        color:$logsuite-cl-turquoise;
-        background: -webkit-$bg-gradient-black-turquoise;
+        color: $bg-gradient-cl-category;
+        background: -webkit-linear-gradient(135deg, #06121D 0%, #09A9CC 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        border-image-source: $bg-gradient-black-turquoise;
-        .btn-line {  
+        border-image-source: linear-gradient(135deg, #06121D 0%, #09A9CC 100%);
+        display: inline-block;
+        line-height: 1.6;
+
+        .btn-line {
             &:before {
-                background:$bg-gradient-black-turquoise;
+                background: linear-gradient(135deg, #06121D 0%, #09A9CC 100%);
             }
         }
     }
@@ -556,7 +596,142 @@ h2 {
     }
 }
 
+.news-box {
+    .news-box_list {
+        padding: 82px 100px;
+
+        span.news-box_border {
+            padding: 6px 20px;
+            margin: 0 32px;
+            width: max-content;
+        }
+
+        span.border-blue {
+            border: 1px solid #2F80ED;
+            font-size: 0.75rem;
+            align-items: center;
+            color: #2F80ED;
+            border-radius: 100px;
+        }
+
+        span.border-red {
+            border: 1px solid #EB5757;
+            box-sizing: border-box;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            color: #EB5757;
+        }
+
+        span.border-green {
+            border: 1px solid #219653;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            color: #219653;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        tr {
+            margin-bottom: 60px;
+
+            th,
+            td {
+                border-top: none;
+                padding: 30px 0 25px;
+                font-size: 0.875rem;
+            }
+
+            th {
+                border-bottom: 1px solid#828282;
+                padding-left: 0;
+                font-weight: bold;
+                color: #333333;
+            }
+
+            td {
+                border-bottom: 1px solid $cl-gray-white;
+                color: #4F4F4F;
+                padding-left: 20px;
+            }
+        }
+
+        .newx-box_item {
+            h4 {
+                font-weight: 600;
+                font-size: 0.875rem;
+                color: $cl-black-light;
+                margin-bottom: 5px;
+                position: relative;
+                padding-right: 40px;
+
+                span {
+                    top: 5px;
+                    right: -20px;
+                }
+            }
+
+            p {
+                font-weight: normal;
+                font-size: 14px;
+                color: $cl-black-light;
+                margin-bottom: 5px;
+                position: relative;
+                padding-right: 40px;
+
+                span {
+                    top: 5px;
+                    right: -20px;
+                }
+            }
+
+        }
+    }
+}
 
 
 
 
+//Pagination
+#pagination {
+    text-align: center;
+
+    .wp-pagenavi {
+        font-size: 1rem;
+        margin: 0 auto;
+        text-align: center;
+        display: table;
+        border-collapse: separate;
+        border-spacing: 10px 0;
+
+        .current {
+            background-color: #ddd;
+        }
+
+        span {
+            width: 30px;
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            letter-spacing: 0;
+        }
+
+        a {
+            width: 30px;
+            height: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            text-decoration: none;
+            transition: background .1s ease;
+        }
+
+        .last,.first {
+            color:white;
+            background-color: #333;
+            font-size: 0.875rem;
+            text-indent: .2em;
+        }
+    }
+}
