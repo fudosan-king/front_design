@@ -149,6 +149,7 @@
 }
 
 .section_ir {
+	margin-top:60px;
 	.news-box {
 		.news-box_list {
 			width: 714px;
@@ -201,7 +202,10 @@
 			table {
 				tr {
 					th {
-						width: 20%;
+						width: 31%;
+						span{
+							display: block;
+						}
 					}
 				}
 			}
@@ -271,12 +275,16 @@
 				table {
 					tr {
 						th {
-							width: 20%;
+							width: 29%;
+						}
+						td{
+							span{
+								padding: 10px 0 0;
+							}
 						}
 					}
 				}
 			}
 		}
 	}
-
 }

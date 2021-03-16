@@ -196,10 +196,26 @@ function log_mainsion() {
         _this.detailPagetxtShowMore();
         _this.showCategoiesPC();
         _this.replaceTxtCategoryScrollTo();
+        
+    }
+
+    this.hookOnClickBtnCategory = function(e)
+    {
+       const _this = this;     
+        _this.changeLayoutAtNews(e);
+    }
+
+    this.changeLayoutAtNews = function(e)
+    {
+        const  currentTarget  = e.currentTarget;
+        $('.box_listnews').addClass('d-none');
+        const target_id = $(currentTarget).data('target');
+        $(target_id).removeClass('d-none');
     }
 
     this.replaceTxtCategoryScrollTo = function()
     {
+        const _this = this;
         if( $('.collapse_ct').length > 0 ) {
             $('.collapse_ct a.btn').on('click',function(e){
                 const  currentTarget  = e.currentTarget;
@@ -209,6 +225,7 @@ function log_mainsion() {
                 const  txtCategory = _$currentTarget.parents('.collapse_ct').prev().find('button span');
                 const txt = _$currentTarget.text();
                 txtCategory.text(txt);
+                _this.hookOnClickBtnCategory(e);
                 if( $(window).outerWidth()  <= 991 ){                    
                     $('#collapse_cat').collapse('hide');
                 }

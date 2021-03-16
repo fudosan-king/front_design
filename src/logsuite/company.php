@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <?php include 'navigation.php'; ?>
 <!-- Slide Show  -->
-<section class="section-slideshow top-page-slideshow">
+<section class="section-slideshow">
     <div class="g-slideshow slideshow_company">
         <div class="g-slideshow_content">
             <div id="slideshow_splide" class="splide slideshow-splide">
@@ -85,7 +85,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>資本金及び資本剰余金  </th>
+                                    <th><span>資本金及び</span>資本剰余金  </th>
                                     <td>
                                         <div class="newx-box_item">
                                             <p>850,515,970円</p>
@@ -228,7 +228,7 @@
     </div>
 </section>
 
-<section class="section_ir d-none d-lg-block">
+<section class="section_ir">
     <div class="news-box">
         <div class="container">
             <div class="row">
@@ -239,10 +239,10 @@
                             <tbody>
                                 <tr>
                                     <th>電子公告</th>
-                                    <td>
+                                    <td data-title="電子公告">
                                         <div class="newx-box_item">
-                                            <p>2017年12月22日　　<a href="#">資本金の額の減少公告</a> <img src="images/icons/pdf.png" alt="" class="img-fluid"></p>
-                                            <p>2019年11月18日　　<a href="#">合併公告</a> <img src="images/icons/pdf.png" alt="" class="img-fluid"></p>
+                                            <p>2017年12月22日　　<span class="d-block d-lg-inline"><a href="#">資本金の額の減少公告</a> <img src="images/icons/pdf.png" alt="" class="img-fluid"><span></p>
+                                            <p>2019年11月18日　　<span class="d-block d-lg-inline"><a href="#">合併公告</a> <img src="images/icons/pdf.png" alt="" class="img-fluid"></span></p>
                                         </div>
                                     </td>
                                 </tr>
