@@ -1,0 +1,256 @@
+
+section {
+	padding: 60px 0;
+}
+
+.nav_top {
+	text-align: center;
+	display: flex;
+	margin-bottom: 15px;
+	.btn {
+		width: 50%;
+		color: #fff;
+		background: $cl-brown;
+		border-radius: 0;
+		font-size: 0.75em;
+		margin-left: 15px;
+		&:last-of-type {
+			background: $cl-green;
+			margin-right: 15px;
+		}
+		.time {
+			display: inline-block;
+			color: $cl-brown;
+			font-size: 0.625em;
+			background: #fff;
+			border-radius: 100px;
+			margin-bottom: 3px;
+			padding: 0 5px;
+		}
+		span {
+			&:last-of-type {
+				display: block;
+			}
+		}
+	}
+}
+
+.section_intro {
+	text-align: center;
+	background: #F9F6F3;
+	padding-top: 120px;
+	padding-bottom: 0;
+	h1 {
+		margin-bottom: 50px;
+	}
+	p {
+		margin-bottom: 30px;
+	}
+	.box_img_top {
+		width: 100%;
+		height: 600px;
+		background: url('../images/bg_top.jpg') no-repeat 0 10%;
+		background-size: cover;
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: -200px;
+			background: url('../images/line.png') no-repeat;
+			background-size: 100%;
+			width: 184px;
+			height: 300px;
+		}
+	}
+}
+
+.box_chart {
+	background: #F5FFFD;
+	padding: 30px 15px;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.section_more {
+	text-align: center;
+}
+.section_how {
+	background: #F9F6F3;
+}
+
+.section_know {
+	background: #000;
+	background: url('../images/bg_top.jpg') no-repeat 0 10%;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	padding: 100px 0;
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0,0,0,.5);
+	}
+	h2 {
+		color: #fff;
+		line-height: 1.8em;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: left;
+	}
+	.box_seminar {
+		position: relative;
+		ul {
+			li {
+				margin-bottom: 15px;
+				color: #fff;
+				span {
+					color: #EB5757;
+				}
+			}
+		}
+		p {
+			color: #fff;
+			margin-bottom: 0;
+		}
+		.btn {
+			background: #1CBEA1;
+			color: #fff;
+			padding: 15px 30px;
+			position: relative;
+			margin-top: 15px;
+			&::after {
+				content: '';
+				position: absolute;
+				right: 10px;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				background: url('../images/chevron-right.svg') no-repeat;
+				width: 6px;
+				height: 10px;
+			}
+			&:hover {
+				background: #158974;
+			}
+		}
+	}
+}
+
+footer {
+	background: $cl-brown;
+	padding: 40px 0 15px;
+	text-align: center;
+	ul {
+		margin: 20px 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				width: 34px;
+				height: 34px;
+				border-radius: 100px;
+				background: #fff;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: center;
+				align-items: center;
+				align-content: stretch;
+			}
+		}
+	}
+	.freecall {
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		font-size: 1.875em;
+		letter-spacing: .01em;
+		line-height: 1em;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		align-content: stretch;
+	}
+	p {
+		color: #fff;
+	}
+	.footer_bottom {
+		border-top: 1px solid #fff;
+		padding: 15px 0 0;
+		margin-top: 30px;
+		p {
+			line-height: 1em;
+			font-size: 0.75em;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	section {
+		padding: 30px 0;
+	}
+	.nav_top {
+		.btn {
+			padding-left: 5px;
+			padding-right: 5px;
+			margin-left: 5px;
+			&:last-of-type {
+				margin-right: 5px;
+			}
+		}
+	}
+	h2 {
+		font-size: 1em;
+		line-height: 1.8em;
+	}
+	.section_intro {
+		h1 {
+			font-size: 1.5em;
+			line-height: 1.8em;
+		}
+		img {
+			width: 163px;
+		}
+		.box_img_top {
+			height: 300px;
+			&::after {
+				background-size: 40%;
+				bottom: -260px;
+			}
+		}
+	}
+	.section_know {
+		.box_seminar {
+			.btn {
+				padding: 15px;
+				font-size: 0.875em;
+				display: block;
+			}
+		}
+	}
+	.section_know {
+		padding: 66px 0;
+	}
+}
+
+@media (max-width: 320px) {
+	.nav_top {
+		.btn {
+			font-size: .6em;
+		}
+	}
+}
