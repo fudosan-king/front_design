@@ -33,18 +33,18 @@
     <div class="container">
         <div class="collapse_group">
             <div class="collapse_btn">
-                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="true" aria-controls="collapse_cat"><span>CATEGORY</span><i class="fas fa-plus"></i></button>
+                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat"><span>CATEGORY</span><i class="fas fa-plus"></i></button>
             </div>
-            <div class="collapse_ct collapse show" id="collapse_cat" style="">
+            <div class="collapse_ct collapse" id="collapse_cat" style="">
                 <ul class="nav">
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="" data-target="#media_block">企業からの知らせ<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="" data-target="#information_block">企業からの知らせ<span class="btn-line"></span></a>
                     </li>
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="" data-target="#information_block">プレスリリース<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="" data-target="#press_release_block">プレスリリース<span class="btn-line"></span></a>
                     </li>
                     <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="" data-target="#press_release_block">メディア閲覧情報<span class="btn-line"></span></a>
+                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="" data-target="#media_block">メディア閲覧情報<span class="btn-line"></span></a>
                     </li>
                 </ul>
             </div>
@@ -60,156 +60,8 @@
                     <li><a href="#"><img src="images/icons/logo-twitter.svg" alt="" class="img-fluid" width="25"></a></li>
                     <li><a href="#"><img src="images/icons/logo-facebook.svg" alt="" class="img-fluid" width="25"></a></li>
                 </ul> -->
-                <div id="media_block" class="box_listnews media-block">
-                    <div class="ct-page">
-                        <h2 class="txt-black">メディア閲覧情報</h2>
-                    </div>
-                    <article class="listnews_item">
-                        <div class="row">
-                            <div class="col-12 col-lg-1">
-                                <p class="date">2019.11.14</p>
-                            </div>
-                            <div class="col-12 col-lg-11">
-                                <div class="row flex-lg-row-reverse">
-                                    <div class="col-9 col-lg-10">
-                                        <div class="listnews_item_info">
-                                            <h3>リフォーム産業新聞</h3>
-                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
-                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-lg-2">
-                                        <div class="listnews_item_img">
-                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="listnews_item">
-                        <div class="row">
-                            <div class="col-12 col-lg-1">
-                                <p class="date">2019.11.14</p>
-                            </div>
-                            <div class="col-12 col-lg-11">
-                                <div class="row flex-lg-row-reverse">
-                                    <div class="col-9 col-lg-10">
-                                        <div class="listnews_item_info">
-                                            <h3>リフォーム産業新聞</h3>
-                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
-                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-lg-2">
-                                        <div class="listnews_item_img">
-                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="listnews_item">
-                        <div class="row">
-                            <div class="col-12 col-lg-1">
-                                <p class="date">2019.11.14</p>
-                            </div>
-                            <div class="col-12 col-lg-11">
-                                <div class="row flex-lg-row-reverse">
-                                    <div class="col-9 col-lg-10">
-                                        <div class="listnews_item_info">
-                                            <h3>リフォーム産業新聞</h3>
-                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
-                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-lg-2">
-                                        <div class="listnews_item_img">
-                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="listnews_item">
-                        <div class="row">
-                            <div class="col-12 col-lg-1">
-                                <p class="date">2019.11.14</p>
-                            </div>
-                            <div class="col-12 col-lg-11">
-                                <div class="row flex-lg-row-reverse">
-                                    <div class="col-9 col-lg-10">
-                                        <div class="listnews_item_info">
-                                            <h3>リフォーム産業新聞</h3>
-                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
-                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-lg-2">
-                                        <div class="listnews_item_img">
-                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="listnews_item">
-                        <div class="row">
-                            <div class="col-12 col-lg-1">
-                                <p class="date">2019.11.14</p>
-                            </div>
-                            <div class="col-12 col-lg-11">
-                                <div class="row flex-lg-row-reverse">
-                                    <div class="col-9 col-lg-10">
-                                        <div class="listnews_item_info">
-                                            <h3>リフォーム産業新聞</h3>
-                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
-                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-lg-2">
-                                        <div class="listnews_item_img">
-                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="listnews_item">
-                        <div class="row">
-                            <div class="col-12 col-lg-1">
-                                <p class="date">2019.11.14</p>
-                            </div>
-                            <div class="col-12 col-lg-11">
-                                <div class="row flex-lg-row-reverse">
-                                    <div class="col-9 col-lg-10">
-                                        <div class="listnews_item_info">
-                                            <h3>リフォーム産業新聞</h3>
-                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
-                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-lg-2">
-                                        <div class="listnews_item_img">
-                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div id="information_block" class="box_listnews layout-news-info information-block d-none">
-                    <div class="ct-page">
-                        <h2>INFORMATION
-                            <span class="d-block">企業からのお知らせ</span>
-                        </h2>
-                        <p class="line"></p>
-                    </div>
+                <div id="information_block" class="box_listnews layout-news-info information-block">
+                    <h2>企業からのお知らせ</h2>
                     <div class="news-block-list">
                         <dl>
                             <dt>2020/12/24</dt>
@@ -341,14 +193,9 @@
                             </dd>
                         </dl>
                     </div>
-                </div>
+                </div>    
                 <div id="press_release_block" class="box_listnews layout-news-press-release press-release-block d-none">
-                    <div class="ct-page">
-                        <h2>PRESS RELEASE
-                            <span class="d-block">プレスリリース</span>
-                        </h2>
-                        <p class="line"></p>
-                    </div>
+                    <h2>プレスリリース</h2>
                     <div class="news-block-list">
                         <h3>2020年</h3>
                         <dl>
@@ -398,6 +245,148 @@
                         </dl>
                     </div>
                 </div>
+                <div id="media_block" class="box_listnews media-block  d-none">
+                    <h2 class="txt-black">メディア閲覧情報</h2>
+                    <article class="listnews_item">
+                        <div class="row">
+                            <div class="col-12 col-lg-1">
+                                <p class="date">2019.11.14</p>
+                            </div>
+                            <div class="col-12 col-lg-11">
+                                <div class="row flex-lg-row-reverse">
+                                    <div class="col-9 col-lg-10">
+                                        <div class="listnews_item_info">
+                                            <h3>リフォーム産業新聞</h3>
+                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-lg-2">
+                                        <div class="listnews_item_img">
+                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="listnews_item">
+                        <div class="row">
+                            <div class="col-12 col-lg-1">
+                                <p class="date">2019.11.14</p>
+                            </div>
+                            <div class="col-12 col-lg-11">
+                                <div class="row flex-lg-row-reverse">
+                                    <div class="col-9 col-lg-10">
+                                        <div class="listnews_item_info">
+                                            <h3>リフォーム産業新聞</h3>
+                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-lg-2">
+                                        <div class="listnews_item_img">
+                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="listnews_item">
+                        <div class="row">
+                            <div class="col-12 col-lg-1">
+                                <p class="date">2019.11.14</p>
+                            </div>
+                            <div class="col-12 col-lg-11">
+                                <div class="row flex-lg-row-reverse">
+                                    <div class="col-9 col-lg-10">
+                                        <div class="listnews_item_info">
+                                            <h3>リフォーム産業新聞</h3>
+                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-lg-2">
+                                        <div class="listnews_item_img">
+                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="listnews_item">
+                        <div class="row">
+                            <div class="col-12 col-lg-1">
+                                <p class="date">2019.11.14</p>
+                            </div>
+                            <div class="col-12 col-lg-11">
+                                <div class="row flex-lg-row-reverse">
+                                    <div class="col-9 col-lg-10">
+                                        <div class="listnews_item_info">
+                                            <h3>リフォーム産業新聞</h3>
+                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-lg-2">
+                                        <div class="listnews_item_img">
+                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="listnews_item">
+                        <div class="row">
+                            <div class="col-12 col-lg-1">
+                                <p class="date">2019.11.14</p>
+                            </div>
+                            <div class="col-12 col-lg-11">
+                                <div class="row flex-lg-row-reverse">
+                                    <div class="col-9 col-lg-10">
+                                        <div class="listnews_item_info">
+                                            <h3>リフォーム産業新聞</h3>
+                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-lg-2">
+                                        <div class="listnews_item_img">
+                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="listnews_item">
+                        <div class="row">
+                            <div class="col-12 col-lg-1">
+                                <p class="date">2019.11.14</p>
+                            </div>
+                            <div class="col-12 col-lg-11">
+                                <div class="row flex-lg-row-reverse">
+                                    <div class="col-9 col-lg-10">
+                                        <div class="listnews_item_info">
+                                            <h3>リフォーム産業新聞</h3>
+                                            <p>11月11日発行「リフォーム産業新聞 No.1384」にてクロニクル吉祥寺・埼玉大宮ショールームが紹介されました</p>
+                                            <a href="#" class="btn btn-link">■無垢材体感できる新店舗『クロニクル吉祥寺・大宮に新店舗オープン』</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-lg-2">
+                                        <div class="listnews_item_img">
+                                            <a href="#"><img src="images/news/article.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
                 <div id="pagination">
                     <div class="wp-pagenavi" role="navigation">
                         <a class="first" href="#">&lt;</a>

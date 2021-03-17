@@ -2597,6 +2597,7 @@ footer .footer-bottom .copyright p {
 .section_listnews h2 {
     font-size: 1.875em;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .section_listnews ul {
@@ -2774,6 +2775,10 @@ footer .footer-bottom .copyright p {
 }
 
 @media (max-width: 768px) {
+    .section_listnews h2 {
+        font-size: 1.5rem;
+    }
+
     .section_listnews .box_listnews .listnews_item::before {
         display: none;
     }
