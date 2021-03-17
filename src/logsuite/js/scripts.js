@@ -359,14 +359,14 @@ function log_mainsion() {
     this.showCategoiesPC = function ()
     {
         $(window).on('resize load',function(e){
-            if( $(window).width() >= 992 ){
+            if( $(window).outerWidth() >= 992 ){
                 $('#collapse_cat').collapse('show');
             } else {
                 $('#collapse_cat').collapse('hide');
+                $('.collapse_ct').removeClass('show');
             }
-
-
         });
+
     }
 
     //Js Navigation
