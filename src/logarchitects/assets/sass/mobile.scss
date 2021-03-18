@@ -941,7 +941,10 @@
     .g-slideshow {
         .slideshow-text {
             h2 {
-                @include fluid-font-size(320px, 374px, 40px, 48px);
+                @include fluid-font-size(320px, 374px, 38px, 40px);
+                p{
+                    @include fluid-font-size(320px, 374px, 16px, 22px);
+                }
             }
         }
     }
