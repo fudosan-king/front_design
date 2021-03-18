@@ -760,7 +760,11 @@
     }
   /* SlideShow */
     .g-slideshow .slideshow-text h2 {
-        font-size: calc(40px + 8 * ((100vw - 320px) / 54));
+        font-size: calc(38px + 2 * ((100vw - 320px) / 54));
+    }
+
+    .g-slideshow .slideshow-text h2 p {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 54));
     }
   /* Top Page Service */
     .section-top-page-services .news-item {

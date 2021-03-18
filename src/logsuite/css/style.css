@@ -1343,19 +1343,17 @@ footer .footer-bottom .copyright p {
     margin-bottom: 80px;
 }
 
-.news-box .news-box_list .news-box_row {
-    margin-bottom: 60px;
+.news-box .news-box_list .news-box_row ul {
+    border-bottom: 1px solid #828282;
 }
 
 .news-box .news-box_list .news-box_row ul li {
     display: inline-block;
     font-weight: bold;
     font-size: 0.875rem;
-    line-height: 17px;
     color: #333333;
     border-top: none;
-    border-bottom: 1px solid #828282;
-    padding: 24px 0 20px;
+    padding: 30px 0 30px;
 }
 
 .news-box .news-box_list .news-box_row ul li:nth-child(1) {
@@ -1369,7 +1367,7 @@ footer .footer-bottom .copyright p {
 }
 
 .news-box .news-box_list .news-box_row ul li:nth-child(3) {
-    padding: 24px 20px 20px;
+    padding: 30px 20px 30px;
     border-top: none;
     border-bottom: 1px solid #E0E0E0;
     width: calc(100% - 290px);
@@ -1401,6 +1399,10 @@ footer .footer-bottom .copyright p {
 .news-box .news-box_list .newx-box_item p span {
     top: 5px;
     right: -20px;
+}
+
+.news-box .news-box_list .btn-mansion {
+    margin-top: 60px;
 }
 
 .lists-bg-gray {
