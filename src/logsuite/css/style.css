@@ -2503,16 +2503,12 @@ footer .footer-bottom .copyright p {
         display: block;
     }
 
-    .box_map {
-        height: 300px;
-        width: 100%;
+    .section_access .box_map {
+        margin: 40px 0 40px;
     }
 
-    .box_map img {
-        height: 300px;
-        width: 100%;
-        -o-object-fit: cover;
-           object-fit: cover;
+    .section_access .box_map iframe {
+        max-height: 300px;
     }
 
     .section_ir .news-box .news-box_list {
