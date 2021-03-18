@@ -44,7 +44,6 @@
 		}
 		.news-box_row{
 			ul{
-				border-bottom: 1px solid $cl-gray-medium;
 				li{
 					display: inline-block;
 					font-weight: bold;
@@ -52,6 +51,7 @@
 					color: $cl-black-light;
 					border-top: none;
 					padding:30px 0 30px;
+					border-bottom: 1px solid $cl-gray-medium;
 				}
 				li:nth-child(1){
 					width:100%;
