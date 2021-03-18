@@ -188,14 +188,16 @@
                                 </div>
                                 <div class="col-6 col-lg-6">
                                     <div class="box_access_img box_access_img_sm">
-                                        <a href="#"><img src="images/2x/video.png" alt="" class="img-fluid"></a>
+                                        <a href="#">
+                                            <iframe width="100%" height="100%" src="https://my.matterport.com/show/?m=kADWBSviwid&amp;brand=0" frameborder="0" allowfullscreen=""></iframe>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="box_map">
-                        <img src="images/2x/map.png" alt="" class="img-fluid">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.51153124569!2d139.70905641496026!3d35.66440463850262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca0038ff363%3A0x6404b6408fcd1533!2z44CSMTA3LTAwNjEg5p2x5Lqs6YO95riv5Yy65YyX6Z2S5bGx77yT5LiB55uu77yW4oiS77yS77yT!5e0!3m2!1sja!2sjp!4v1582018112942!5m2!1sja!2sjp" width=100% height="435" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                     <div class="box_showroom">
                         <div class="row">
