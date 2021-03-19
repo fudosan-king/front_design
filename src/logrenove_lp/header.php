@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-v4.6.0.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
 
     <title>天然無垢材・自然素材のリノベーションマンション｜ログマンション</title>
     <meta name="description" content="" />
