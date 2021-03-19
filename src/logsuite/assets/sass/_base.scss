@@ -46,6 +46,9 @@ h2 {
             color:$cl-black;
             line-height: 1.2;
         }
+        @media(max-width: 768px) {
+            font-size: 1.5rem;
+        }
     }
     .line{
         width: 247px;
@@ -734,4 +737,11 @@ h2 {
             text-indent: .2em;
         }
     }
+}
+
+
+.content-mw-880{
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }

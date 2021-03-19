@@ -264,6 +264,12 @@ h2 .sm-title {
     line-height: 1.2;
 }
 
+@media (max-width: 768px) {
+    .ct-page h2 {
+        font-size: 1.5rem;
+    }
+}
+
 .ct-page .line {
     width: 247px;
     height: 6px;
@@ -915,6 +921,12 @@ h2 .sm-title {
     background-color: #333;
     font-size: 0.875rem;
     text-indent: .2em;
+}
+
+.content-mw-880 {
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .nav_menu {
@@ -2130,5 +2142,125 @@ footer .footer-bottom .copyright p {
 
     .section_listnews dd span {
         margin: 0 0 0 5px;
+    }
+}
+
+.about-us .line {
+    background-color: #e1e1e1;
+}
+
+.about-us_table {
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about-us_table table tr:nth-child(odd) {
+    background-color: #e1e1e1;
+}
+
+.about-us_table table tr th, .about-us_table table tr td {
+    vertical-align: middle;
+}
+
+.about-us_table table tr th p, .about-us_table table tr td p {
+    margin-bottom: 0;
+}
+
+.about-us_table table tr th {
+    font-weight: 600px;
+    clear: both;
+    width: 32%;
+    padding: 13px 4%;
+    text-align: right;
+    border-right: 1px solid #c0c0c0;
+}
+
+.about-us_table table tr td {
+    width: 52%;
+    padding: 13px 4%;
+    position: relative;
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+#gtx-trans {
+    background-color: whitesmoke;
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+    z-index: 2147483647;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gainsboro;
+    -o-border-image: initial;
+       border-image: initial;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    left: -19px;
+    top: 86px;
+}
+
+.social-media-policy_des {
+    text-align: justify;
+    margin: 0 0 80px 0;
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 480px) {
+    .social-media-policy_des {
+        margin: 0 0 45px 0;
+    }
+}
+
+.social-media-policy_ct ul {
+    font-size: 0.875rem;
+    padding-left: 0;
+}
+
+.social-media-policy_ct ul img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.social-media-policy_ct ul h3 {
+    padding: 0 0 13px 0;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    border-bottom: 1px dotted #000;
+    line-height: 1.3em;
+    font-size: 1rem;
+}
+
+.social-media-policy_ct ul p {
+    margin: 0 0 30px 0;
+    text-align: justify;
+}
+
+.social-media-policy_ct ul p:last-of-type {
+    margin: 0 0 80px 0;
+}
+
+.social-media-policy_ct ul p a {
+    color: #000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .social-media-policy_ct ul p {
+        margin: 0 0 25px 0;
+    }
+
+    .social-media-policy_ct ul p:last-of-type {
+        margin: 0 0 40px 0;
     }
 }
