@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 @font-face {
     font-family: 'SF Pro Display';
-  src: url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.eot");
-  src: url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.svg#SFProDisplay-BlackItalic") format("svg");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
+    src: url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.eot");
+    src: url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-BlackItalic.svg#SFProDisplay-BlackItalic") format("svg");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -65,18 +63,9 @@
 
 @font-face {
     font-family: 'SF Pro Display';
-  src: url("../fonts/sf-pro-display/SFProDisplay-Light.eot");
-  src: url("../fonts/sf-pro-display/SFProDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Light.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Light.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Light.svg#SFProDisplay-Light") format("svg");
+  src: url("SFProDisplay-Light.eot");
+  src: url("SFProDisplay-Light.eot?#iefix") format("embedded-opentype"), url("SFProDisplay-Light.woff2") format("woff2"), url("SFProDisplay-Light.woff") format("woff"), url("SFProDisplay-Light.ttf") format("truetype"), url("SFProDisplay-Light.svg#SFProDisplay-Light") format("svg");
   font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
-  src: url("../fonts/sf-pro-display/SFProDisplay-Medium.eot");
-  src: url("../fonts/sf-pro-display/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Medium.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Medium.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Medium.svg#SFProDisplay-Medium") format("svg");
-  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -92,15 +81,6 @@
 
 @font-face {
     font-family: 'SF Pro Display';
-  src: url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.eot");
-  src: url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.svg#SFProDisplay-RegularItalic") format("svg");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
   src: url("../fonts/sf-pro-display/SFProDisplay-Regular.eot");
   src: url("../fonts/sf-pro-display/SFProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Regular.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Regular.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Regular.svg#SFProDisplay-Regular") format("svg");
   font-weight: normal;
@@ -110,9 +90,27 @@
 
 @font-face {
     font-family: 'SF Pro Display';
-  src: url("../fonts/sf-pro-display/SFProDisplay-Thin.eot");
-  src: url("../fonts/sf-pro-display/SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Thin.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Thin.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Thin.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Thin.svg#SFProDisplay-Thin") format("svg");
-  font-weight: 100;
+  src: url("../fonts/sf-pro-display/SFProDisplay-Medium.eot");
+  src: url("../fonts/sf-pro-display/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Medium.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Medium.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Medium.svg#SFProDisplay-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+  src: url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.eot");
+  src: url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-RegularItalic.svg#SFProDisplay-RegularItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+  src: url("../fonts/sf-pro-display/SFProDisplay-Semibold.eot");
+  src: url("../fonts/sf-pro-display/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.svg#SFProDisplay-Semibold") format("svg");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -128,9 +126,9 @@
 
 @font-face {
     font-family: 'SF Pro Display';
-  src: url("../fonts/sf-pro-display/SFProDisplay-Semibold.eot");
-  src: url("../fonts/sf-pro-display/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Semibold.svg#SFProDisplay-Semibold") format("svg");
-  font-weight: 600;
+  src: url("../fonts/sf-pro-display/SFProDisplay-Thin.eot");
+  src: url("../fonts/sf-pro-display/SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-Thin.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-Thin.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-Thin.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-Thin.svg#SFProDisplay-Thin") format("svg");
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -159,60 +157,6 @@
   src: url("../fonts/sf-pro-display/SFProDisplay-UltralightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-display/SFProDisplay-UltralightItalic.woff2") format("woff2"), url("../fonts/sf-pro-display/SFProDisplay-UltralightItalic.woff") format("woff"), url("../fonts/sf-pro-display/SFProDisplay-UltralightItalic.ttf") format("truetype"), url("../fonts/sf-pro-display/SFProDisplay-UltralightItalic.svg#SFProDisplay-UltralightItalic") format("svg");
   font-weight: 200;
   font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'Noto Sans JP';
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.eot");
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.svg#NotoSansJP-Black-Alphabetic") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'Noto Sans JP';
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.eot");
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.svg#NotoSansJP-Light-Alphabetic") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'Noto Sans JP';
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.eot");
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.svg#NotoSansJP-Bold-Alphabetic") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'Noto Sans JP';
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.eot");
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.svg#NotoSansJP-Thin-Alphabetic") format("svg");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'Noto Sans JP';
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.eot");
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.svg#NotoSansJP-Medium-Alphabetic") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-    font-family: 'Noto Sans JP';
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.eot");
-  src: url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.svg#NotoSansJP-Regular-Alphabetic") format("svg");
-  font-weight: normal;
-  font-style: normal;
   font-display: swap;
 }
 
