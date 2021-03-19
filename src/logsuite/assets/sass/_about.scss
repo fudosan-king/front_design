@@ -1,0 +1,59 @@
+.about-us{
+	.line{
+	    background-color: #e1e1e1;;
+	}
+}
+
+
+.about-us_table{
+    max-width: 880px;
+    margin: 0 auto;
+   	margin-bottom:60px;
+    table{
+    	tr{
+    		&:nth-child(odd){
+    			background-color: #e1e1e1;
+    		}
+    		th,td{
+    			vertical-align: middle;
+    			p{
+    				margin-bottom: 0;
+    			}
+    		}
+    		th{
+    			font-weight:600px;
+			    clear: both;
+			    width: 32%;
+			    padding: 13px 4%;
+			    text-align: right;
+			    border-right: 1px solid #c0c0c0;
+    		}
+    		td{
+    			width: 52%;
+			    padding: 13px 4%;
+			    position: relative;
+			    font-weight:normal;
+			    font-size:0.875rem;
+    		}
+    	}
+
+    }
+}
+
+#gtx-trans{
+	background-color: rgb(245, 245, 245);
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+    z-index: 2147483647;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    border-image: initial;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    left: -19px;
+    top: 86px;
+}
