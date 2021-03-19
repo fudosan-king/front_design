@@ -1897,14 +1897,14 @@ footer .footer-bottom .copyright p {
     font-weight: 300;
 }
 
-.box_completed p h2, .box_completed small h2 {
+.box_completed h2 {
     font-size: 1.5em;
     padding-bottom: 30px;
     border-bottom: 1px solid rgba(16, 39, 70, 0.2);
     margin-bottom: 30px;
 }
 
-.box_completed p .btn_back, .box_completed small .btn_back {
+.box_completed .btn_back {
     background: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
     font-size: 1.125em;
     font-weight: 500;
@@ -1912,41 +1912,41 @@ footer .footer-bottom .copyright p {
     margin-top: 40px;
 }
 
-.box_completed p p, .box_completed p small, .box_completed small p, .box_completed small small {
+.box_completed p, .box_completed small {
     font-weight: 300;
 }
 
 @media (max-width: 768px) {
-    .box_completed .section_contact_page {
+    .section_contact_page {
         background: #fff;
         padding: 30px 0;
     }
 
-    .box_completed .section_contact_page .box_contact {
+    .section_contact_page .box_contact {
         padding: 0;
     }
 
-    .box_completed .section_contact_page .box_body_contact .frm_contact label {
+    .section_contact_page .box_body_contact .frm_contact label {
         margin-bottom: 10px;
     }
 
-    .box_completed .section_contact_page .box_body_contact .frm_contact .mustbe {
+    .section_contact_page .box_body_contact .frm_contact .mustbe {
         position: relative;
         top: -2px;
         margin-left: 5px;
     }
 
-    .box_completed .section_contact_page .box_body_contact .frm_contact.frm_comfirm p {
+    .section_contact_page .box_body_contact .frm_contact.frm_comfirm p {
         margin-bottom: 0;
     }
 
-    .box_completed .section_contact_page .box_body_contact .btn-mansion.btn_back, .box_completed .section_contact_page .box_body_contact .btn-mansion.btn_send {
+    .section_contact_page .box_body_contact .btn-mansion.btn_back, .section_contact_page .box_body_contact .btn-mansion.btn_send {
         max-width: 155px;
     }
-}
 
-.box_completed .box_completed {
-    padding: 30px 0;
+    .box_completed {
+        padding: 30px 0;
+    }
 }
 
 @media (max-width: 320px) {
