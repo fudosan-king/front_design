@@ -92,10 +92,43 @@
                                     <span class="i-building">2階以上</span>
                                 </li>
                                 <li>
-                                    <span class="i-metro">角部屋</span>
+                                    <span class="i-office">南向きバルコニー</span>
                                 </li>
                                 <li>
-                                    <span class="i-animals">ペット可</span>
+                                    <span class="i-building-radar">角部屋</span>
+                                </li>
+                                <li>
+                                    <span class="i-dog">ペット可</span>
+                                </li>
+                                <li>
+                                    <span class="i-walking">徒歩5分圏内</span>
+                                </li>
+                                <li>
+                                    <span class="i-warm">南向き</span>
+                                </li>
+                                <li>
+                                    <span class="i-missing">バリアフリー</span>
+                                </li>
+                                <li>
+                                    <span class="i-officer">事務所可</span>
+                                </li>
+
+                                <li>
+                                    <span class="i-repair">リフォーム済み</span>
+                                </li>
+                                <li>
+                                    <span class="i-health">安心売買暇庇保険</span>
+                                </li>
+
+                                <li>
+                                    <span class="i-teach">セレクトプラン</span>
+                                </li>
+                                <li>
+                                    <span class="i-gift">初期費用無料キャンペーン</span>
+                                </li>
+
+                                <li>
+                                    <span class="i-one-r">適合リノベーション</span>
                                 </li>
                             </ul>
                         </div>

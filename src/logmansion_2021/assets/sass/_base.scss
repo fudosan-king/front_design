@@ -83,10 +83,9 @@
     }
 }
 
-/* Icons */
+/* Icons Add 22-02-2021 */
 .i-building {
     position: relative;
-
     &:before {
         content: '';
         position: absolute;
@@ -99,13 +98,54 @@
     }
 }
 
-.i-animals {
+.i-building-radar {
     position: relative;
-
     &:before {
         content: '';
         position: absolute;
-        background: url('../images/icons/cat.svg');
+        background: url('../images/icons/building-radar.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-dog {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/dog.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-gift {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/gift.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-health {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/health.svg');
         background-repeat: no-repeat;
         height: 20px;
         width: 20px;
@@ -129,6 +169,21 @@
     }
 }
 
+.i-missing {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/missing.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
 .i-office {
     position: relative;
 
@@ -143,6 +198,97 @@
         left: 0;
     }
 }
+
+.i-officer {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/officer.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-one-r {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/one-r.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 28px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-repair {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/repair.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-teach {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/teach.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-walking {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/walking.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+
+.i-warm {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/warm.svg');
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        top: 0.4em;
+        left: 0;
+    }
+}
+/* End add 22-03-2021 */
 
 .i-home {
     position: relative;
