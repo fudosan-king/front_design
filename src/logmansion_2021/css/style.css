@@ -218,7 +218,7 @@ body {
     color: #000000;
     font-size: 16px;
     background: transparent;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'SF Pro Display','Noto Sans JP', sans-serif;
     font-weight: normal;
 }
 
@@ -2106,6 +2106,7 @@ footer .footer-bottom .copyright p {
     }
 }
 
+/* About Service */
 .section-about h2 {
     text-align: center;
     margin-bottom: 44px;
@@ -2128,20 +2129,26 @@ footer .footer-bottom .copyright p {
     font-size: 0.75rem;
     line-height: 200%;
     color: #000000;
-    text-align: center;
+    text-align: left;
+}
+
+@media (max-width: 991px) {
+    .section-about .title-des {
+        font-size: 1rem;
+    }
+
+    .section-about .title-des span {
+        display: block;
+    }
 }
 
 .about {
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
 
 .about:last-child {
-    margin-bottom: 94px;
-}
-
-.about .about_img {
-    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+    margin-bottom: 200px;
 }
 
 .about .about_img-caption {
@@ -2152,24 +2159,110 @@ footer .footer-bottom .copyright p {
     width: 100%;
 }
 
-.about p {
+.about .about_des-img {
+    max-width: 503px;
+    margin-top: 118px;
+}
+
+.about .about_des-img.right {
+    margin-left: auto;
+}
+
+@media (max-width: 991px) {
+    .about {
+        margin-bottom: 60px;
+    }
+
+    .about:last-child {
+        margin-bottom: 90px;
+    }
+
+    .about .about_img {
+        margin-bottom: 30px;
+    }
+}
+
+.about_des {
+    position: relative;
+    z-index: 2;
+}
+
+.about_des:before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    bottom: -100px;
+    background: white;
+    z-index: -1;
+}
+
+.about_des.right:before {
+    right: 0;
+    left: -100px;
+}
+
+.about_des.left:before {
+    right: -100px;
+    left: 0;
+}
+
+.about_des p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2.4;
+    margin-bottom: 0;
+    letter-spacing: -0.1px;
+}
+
+.about_des .about_des_title-sm {
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 0.05em;
-    color: #ffffff;
-    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    line-height: auto;
 }
 
-.about h3 {
+.about_des h3 {
     font-weight: 600;
     font-size: 1.5rem;
-    text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: black;
+    margin-bottom: 60px;
 }
 
-.about h3 span {
+.about_des h3 span {
     display: block;
+}
+
+@media (max-width: 991px) {
+    .about_des:before {
+        background: transparent;
+    }
+
+    .about_des.right:before {
+        right: unset;
+        left: unset;
+    }
+
+    .about_des.left:before {
+        right: unset;
+        left: unset;
+    }
+
+    .about_des p {
+        font-size: 0.875rem;
+    }
+
+    .about_des .about_des_title-sm {
+        margin-bottom: 20px;
+        font-size: 0.75rem;
+    }
+
+    .about_des h3 {
+        margin-bottom: 30px;
+        font-size: 1.125rem;
+    }
 }
 
 .about_planning {
@@ -2181,11 +2274,24 @@ footer .footer-bottom .copyright p {
     content: '';
     position: absolute;
     top: -200px;
-    right: 0;
+    right: 14%;
     bottom: 32%;
     background: #F3F3F3;
-    left: 14%;
+    left: 0;
     z-index: -1;
+}
+
+@media (max-width: 991px) {
+    .about_planning {
+        margin-bottom: 140px;
+    }
+
+    .about_planning:before {
+        top: -60px;
+        bottom: 8.6%;
+        left: 30px;
+        right: 0;
+    }
 }
 
 .about_kitchin {
@@ -2197,11 +2303,24 @@ footer .footer-bottom .copyright p {
     content: '';
     position: absolute;
     top: -100px;
-    right: 14%;
+    right: 0;
     bottom: 50%;
     background: #F3F3F3;
-    left: 0;
+    left: 14%;
     z-index: -1;
+}
+
+@media (max-width: 991px) {
+    .about_kitchin {
+        margin-bottom: 80px;
+    }
+
+    .about_kitchin:before {
+        top: -60px;
+        left: 30px;
+        right: 0;
+        bottom: 30%;
+    }
 }
 
 .about_comforts {
@@ -2213,17 +2332,141 @@ footer .footer-bottom .copyright p {
     content: '';
     position: absolute;
     top: -100px;
-    right: 0;
+    right: 14%;
     bottom: 32%;
     background: #F3F3F3;
-    left: 14%;
+    left: 0;
     z-index: -1;
 }
 
-.about_commitment {
-    margin-bottom: 556px;
+@media (max-width: 991px) {
+    .about_comforts {
+        margin-bottom: 80px;
+    }
+
+    .about_comforts:before {
+        top: 27%;
+        bottom: 16%;
+        left: 30px;
+    }
 }
 
+.about_commitment {
+    margin-bottom: 100px;
+}
+
+.about_commitment h4 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+}
+
+.about_commitment .about_commitment_box-img p {
+    color: #947B4B;
+}
+
+.about_commitment .about_commitment_box-des {
+    max-width: 818px;
+}
+
+.about_commitment .about_commitment_box-des .sm-title {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 2;
+    color: #947B4B;
+    margin-bottom: 20px;
+}
+
+.about_commitment .about_commitment_box-des p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.about_commitment .about_commitment_box-des ul {
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.about_commitment .about_commitment_box-des ul li {
+    border: 2px solid #947B4B;
+    color: #947B4B;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    padding: 47px 33px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.about_commitment .about_commitment_box-des ul li:last-child {
+    margin-right: 0;
+}
+
+.about_commitment .about_commitment_box-des ul li p {
+    position: absolute;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.40;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .about_commitment {
+        margin-bottom: 80px;
+    }
+
+    .about_commitment .about_commitment_box {
+        margin-bottom: 60px;
+    }
+
+    .about_commitment h4 {
+        font-size: 1.125rem;
+        margin-bottom: 30px;
+    }
+
+    .about_commitment .about_commitment_box-img {
+        margin-left: 20px;
+    }
+
+    .about_commitment .about_commitment_box-des .sm-title {
+        font-size: 0.875rem;
+    }
+
+    .about_commitment .about_commitment_box-des p {
+        font-size: 0.875rem;
+        margin-bottom: 30px;
+    }
+
+    .about_commitment .about_commitment_box-des ul {
+        margin-bottom: 30px;
+    }
+
+    .about_commitment .about_commitment_box-des ul li {
+        height: 75px;
+        width: 75px;
+        padding: 11px 5px;
+        margin-right: 10px;
+    }
+
+    .about_commitment .about_commitment_box-des ul li p {
+        font-size: 0.625rem;
+    }
+
+    .about_commitment .about_commitment_box-des ul li p span {
+        display: block;
+    }
+}
+
+/* End About Serice */
 .about-us .line {
     background-color: #e1e1e1;
 }

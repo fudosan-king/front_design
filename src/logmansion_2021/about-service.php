@@ -78,31 +78,74 @@
     <div class="container">
         <div id="about_logmansion_01" class="about">
             <div class="about_img">
-                <img class="d-none d-md-block" src="./images/1x/about-1.jpg" alt="" title="" />
-                <img class="d-md-none d-block" src="./images/2x/about-sp-1.jpg" alt="" title="" />
-                <div class="about_img-caption">
-                    <p>ABOUT LogMansion #01</p>
-                    <h3>好立地と質感を両立させた<span>新発想の都市型マンション</span></h3>
+                <img class="d-none d-md-block" src="./images/1x/about-service-1.jpg" alt="" title="" />
+                <img class="d-md-none d-block" src="./images/2x/about-service-sp-1.jpg" alt="" title="" />
+            </div>
+            <div class="row flex-row-reverse flex-lg-row">
+                <div class="col-lg-6">
+                    <div class="about_des-img d-none d-lg-block">
+                        <img src="./images/1x/about-service-2.jpg" alt="" title="" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_des right">
+                        <p class="about_des_title-sm">ABOUT LogMansion #01</p>
+                        <h3>好立地と質感を両立させた<span>新発想の都市型マンション</span></h3>
+                        <p>ログマンションの特徴のひとつが立地のよさ。<br>
+                            東京都心を中心に、利便性とステイタスを兼ね備えたエリアで展開しています。<br>
+                            交通至便で都会的なロケーションに位置しながら、<br>
+                            ドアを開けると広がる天然無垢材の香り――。<br>
+                            温かみのあるナチュラルなインテリアに心なごみます。<br>
+                            無垢材ならではの肌ざわりのよさ、温かみが感じられるテイストと<br>
+                            都会的なロケーションとのコントラストがログマンションの魅力です。
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="about_logmansion_02" class="about">
             <div class="about_img">
-                <img class="d-none d-md-block" src="./images/1x/about-2.jpg" alt="" title="" />
-                <img class="d-md-none d-block" src="./images/2x/about-sp-2.jpg" alt="" title="" />
-                <div class="about_img-caption">
-                    <p>ABOUT LogMansion #02</p>
-                    <h3>唯一無二のプライベートレーベル<span>無垢材マンション</span></h3>
+                <img class="d-none d-md-block" src="./images/1x/about-service-3.jpg" alt="" title="" />
+                <img class="d-md-none d-block" src="./images/2x/about-service-sp-3.jpg" alt="" title="" />
+            </div>
+            <div class="row align-items-end">
+                <div class="col-lg-6">
+                    <div class="about_des left">
+                        <p class="about_des_title-sm">ABOUT LogMansion #02</p>
+                        <h3>10年1500件超の無垢材施工実績<span>圧倒的な質の高さと信頼性</span></h3>
+                        <p>ログマンションは物件の買取から、リノベーションのデザイン、施工、販売まですべてグループ内で一貫して行っています。<br>
+                            さらに、ログマンションの特徴である、天然無垢材も自社生産。<br>
+                            製材から流通、施工まですべて自社で一貫しています。<br>
+                            そのため、一般的には高価で施工も難しいといわれる無垢材を<br>
+                            ふんだんに使ったリノベーションが<br>
+                            比較的リーズナブルに提供できるのです。
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_des-img right d-none d-lg-block">
+                        <img src="./images/1x/about-service-4.jpg" alt="" title="" />
+                    </div>
                 </div>
             </div>
         </div>
         <div id="about_logmansion_03" class="about">
             <div class="about_img">
-                <img class="d-none d-md-block" src="./images/1x/about-3.jpg" alt="" title="" />
-                <img class="d-md-none d-block" src="./images/2x/about-sp-3.jpg" alt="" title="" />
-                <div class="about_img-caption">
-                    <p>ABOUT LogMansion #03</p>
-                    <h3>新築マンションと同等の最新設備を標準装備</h3>
+                <img class="d-none d-md-block" src="./images/1x/about-service-5.jpg" alt="" title="" />
+                <img class="d-md-none d-block" src="./images/2x/about-service-sp-5.jpg" alt="" title="" />
+            </div>
+            <div class="row flex-row-reverse flex-lg-row align-items-end">
+                <div class="col-lg-6">
+                    <div class="about_des-img d-none d-lg-block"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_des right">
+                        <p class="about_des_title-sm">ABOUT LogMansion #03</p>
+                        <h3>新築マンションと同等の最新設備を標準装備</h3>
+                        <p>ログマンションの特徴は無垢材によるデザイン性の高さだけではありません。<br>
+                            新築マンション同等の便利な設備、最新機能を有している点もアドバンテージです。<br>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -353,20 +396,87 @@
         <div class="container">
             <div id="about_logmansion_04" class="about">
                 <div class="about_img">
-                    <img class="d-none d-md-block" src="./images/1x/about-4.jpg" alt="" title="" />
-                    <img class="d-md-none d-block" src="./images/2x/about-sp-4.jpg" alt="" title="" />
-                    <div class="about_img-caption">
-                        <p>ABOUT LogMansion #04</p>
-                        <h3>構造へのこだわり</h3>
+                    <img class="d-none d-md-block" src="./images/1x/about-service-9.jpg" alt="" title="" />
+                    <img class="d-md-none d-block" src="./images/2x/about-service-sp-4.jpg" alt="" title="" />
+                </div>
+                <div class="row flex-row-reverse flex-lg-row align-items-end">
+                    <div class="col-lg-6">
+                        <div class="about_des left">
+                            <p class="about_des_title-sm">ABOUT LogMansion #04</p>
+                            <h3>「見えない部分」へのこだわり</h3>
+                            <p>ログマンションは、お客様に長く快適に暮らしていただくために「目に見えない部分」にもこだわっています。<br>
+                                物件の専有部内を解体して、スケルトン状態にした後、給水設備の更新、二重床・天井工事、壁付けなどを行います。<br>
+                                なかでも「二重床」「二重天井」を採用している点がトピックスです。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about_des-img d-none d-lg-block"></div>
                     </div>
                 </div>
             </div>
+            <div class="about_commitment_box">
+                <h4>二重床</h4>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="about_commitment_box-des">
+                            <p>二重床とは、コンクリートスラブに防振ゴムの支持脚を立てた上に床下地材をのせ、さらにその上にフローリング材で仕上げを行う工法です。<br>
+                            中古物件の多くに採用されている「直床（コンクリートスラブに直接仕上げ材を貼る工法）」と異なり、さまざまなメリットがあります。</p>
+                            <p class="sm-title">● 二重床のメリット</p>
+                            <ul class="nav">
+                                <li><p>遮音性<span>防音効果</span></p></li>
+                                <li><p>間取りの<span>変更が</span>しやすい</p></li>
+                                <li><p>保温性が<span>高い</span></p></li>
+                                <li><p>段差が少ない</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="about_commitment_box-img">
+                            <p class="">
+                                <img src="./images/1x/about-service-6.jpg" alt="" title="" />
+                            </p>
+                            <p>▲直に音が伝わりやすい</p>
+                            <p>
+                                <img src="./images/1x/about-service-7.jpg" alt="" title="" />
+                            </p>
+                            <p>◯音を吸収し防音効果が見込めます</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about_commitment_box">
+                <h4>二重天井</h4>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="about_commitment_box-des">
+                            <p>「二重天井」は、二重床と同じように間取りの変更がしやすく、遮音性・保温性に優れている他、照明器具の配線の変更なども「直天井」に比べると簡単にできるので便利です。<br>
+                            また、二重天井なら美しくすっきりとした天井になり、お部屋の雰囲気を損ないません。
+                            </p>
+                            <p class="sm-title">● 二重床のメリット</p>
+                            <ul class="nav">
+                                <li><p>遮音性<span>防音効果</span></p></li>
+                                <li><p>間取りの<span>変更が</span>しやすい</p></li>
+                                <li><p>配線の変更も<span>しやすい</span></p></li>
+                                <li><p>すっきりとした<span>デザイン</span></p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="about_commitment_box-img">
+                            <p class="">
+                                <img src="./images/1x/about-service-8.jpg" alt="" title="" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="note">※建物の構造上、二重床が採用できない物件は、直床仕上げを採用していますが、その場合は天然無垢材フローリング専用のLL45等級の防音マットを貼って遮音性を高めています。<br>※掲載の図は概念図であり、実際とは異なる場合があります。</p>
+            </div>
         </div>
     </div>
+    
 </section>
-
 <?php include 'footer-content.php'; ?>
-
 <section class="fixed-block-bottom js-contact">
     <div class="container">
         <div class="contact">
