@@ -27,31 +27,15 @@
         text-align: left;
     }
 
-    @media (max-width: 991px) {
-        .title-des {
-            font-size: 1rem;
 
-            span {
-                display: block;
-            }
-        }
-    }
 }
 
 .about {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 
     &:last-child {
         margin-bottom: 200px;
-    }
-
-    .about_img-caption {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
     }
 
     .about_des-img {
@@ -60,16 +44,6 @@
 
         &.right {
             margin-left: auto;
-        }
-    }
-
-    @media (max-width: 991px) {
-        margin-bottom: 60px;
-        &:last-child {
-            margin-bottom: 90px;
-        }
-        .about_img {
-            margin-bottom: 30px;
         }
     }
 }
@@ -129,40 +103,6 @@
             display: block;
         }
     }
-
-    @media (max-width: 991px) {
-        &:before {
-            background: transparent;
-        }
-
-        &.right {
-            &:before {
-                right: unset;
-                left: unset;
-            }
-        }
-
-        &.left {
-            &:before {
-                right: unset;
-                left: unset;
-            }
-        }
-
-        p {
-            font-size: 0.875rem;
-        }
-
-        .about_des_title-sm {
-            margin-bottom: 20px;
-            font-size: 0.75rem;
-        }
-
-        h3 {
-            margin-bottom: 30px;
-            font-size: 1.125rem;
-        }
-    }
 }
 
 
@@ -182,17 +122,6 @@
         left: 0;
         z-index: -1;
     }
-
-    @media (max-width: 991px) {
-        margin-bottom: 140px;
-
-        &:before {
-            top: -60px;
-            bottom: 8.6%;
-            left: 30px;
-            right: 0;
-        }
-    }
 }
 
 .about_kitchin {
@@ -210,16 +139,7 @@
         z-index: -1;
     }
 
-    @media (max-width: 991px) {
-        margin-bottom: 80px;
 
-        &:before {
-            top: -60px;
-            left: 30px;
-            right: 0;
-            bottom: 30%;
-        }
-    }
 }
 
 .about_comforts {
@@ -236,17 +156,6 @@
         left: 0;
         z-index: -1;
     }
-
-    @media (max-width: 991px) {
-        margin-bottom: 80px;
-
-        &:before {
-            top: 27%;
-            bottom: 16%;
-            left: 30px;
-        }
-    }
-
 }
 
 
@@ -268,6 +177,12 @@
 
     .about_commitment_box-des {
         max-width: 818px;
+        p {
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 2;
+            margin-bottom: 50px;
+        }
 
         .sm-title {
             font-weight: bold;
@@ -277,13 +192,7 @@
             margin-bottom: 20px;
         }
 
-        p {
-            font-weight: 300;
-            font-size: 1rem;
-            line-height: 2;
-            margin-bottom: 50px;
-        }
-
+    
         ul {
             margin-bottom: 80px;
             justify-content: center;
@@ -318,27 +227,125 @@
             }
         }
     }
+}
 
-    @media (max-width: 991px) {
-          margin-bottom: 80px;
-        .about_commitment_box{
-            margin-bottom:60px;
+@media (max-width:991px) {
+
+    .section-about {
+        .title-des {
+            font-size: 1rem;
+
+            span {
+                display: block;
+            }
         }
+    }
+
+    .about {
+        margin-bottom: 60px;
+
+        &:last-child {
+            margin-bottom: 90px;
+        }
+
+        .about_img {
+            margin-bottom: 30px;
+        }
+    }
+
+    .about_des {
+        &:before {
+            background: transparent;
+        }
+
+        &.right {
+            &:before {
+                right: unset;
+                left: unset;
+            }
+        }
+
+        &.left {
+            &:before {
+                right: unset;
+                left: unset;
+            }
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+
+        .about_des_title-sm {
+            margin-bottom: 20px;
+            font-size: 0.75rem;
+        }
+
+        h3 {
+            margin-bottom: 30px;
+            font-size: 1.125rem;
+        }
+    }
+
+    .about_planning {
+        margin-bottom: 140px;
+
+        &:before {
+            top: -60px;
+            bottom: 8.6%;
+            left: 30px;
+            right: 0;
+        }
+    }
+
+
+    .about_kitchin {
+        margin-bottom: 80px;
+
+        &:before {
+            top: -60px;
+            left: 30px;
+            right: 0;
+            bottom: 30%;
+        }
+    }
+
+    .about_comforts {
+        margin-bottom: 80px;
+
+        &:before {
+            top: 27%;
+            bottom: 16%;
+            left: 30px;
+        }
+    }
+
+
+    .about_commitment {
+        margin-bottom: 80px;
+
+        .about_commitment_box {
+            margin-bottom: 60px;
+        }
+
         h4 {
             font-size: 1.125rem;
             margin-bottom: 30px;
         }
+
         .about_commitment_box-img {
             margin-left: 20px;
         }
+
         .about_commitment_box-des {
-            .sm-title {
-                font-size: 0.875rem;
-            }
 
             p {
                 font-size: 0.875rem;
                 margin-bottom: 30px;
+            }
+
+            .sm-title {
+                font-size: 0.875rem;
             }
 
             ul {
@@ -349,7 +356,7 @@
                     width: 75px;
 
                     padding: 11px 5px;
-                    margin-right: 10px;
+                    margin-right: 5px;
 
                     p {
                         font-size: 0.625rem;
@@ -362,6 +369,8 @@
             }
         }
     }
+
 }
+
 
 /* End About Serice */

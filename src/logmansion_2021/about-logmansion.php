@@ -16,10 +16,7 @@
                 </div>
             </div>
             <div class="slideshow-text">
-                <div class="img-txt">
-                    <img class="d-none d-md-block" src="./images/2x/txt-slide-about-1.png" alt="" tilte="" />
-                    <img class="d-block d-md-none" src="./images/2x/txt-slide-about-sp-1.png" alt="" tilte="" />
-                </div>
+                <h2>About<br>LogMansion</h2>
             </div>
         </div>
         <div class="sm-title">

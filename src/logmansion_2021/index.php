@@ -9,16 +9,18 @@
                     <div class="splide__list">
                         <!-- Items -->
                         <div class="splide__slide">
-                            <div class="splide-item " style="background-image: url(./images/2x/slide-top-page-1.jpg);"></div>
+                            <div class="splide-item " style="background-image: url(./images/2x/top-page-slide-1.jpg);"></div>
                             <!-- <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);"></div> -->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="slideshow-text is-txt-img">
-                <div class="img-txt pr-0">
-                    <img src="./images/1x/slide-txt-top-page-1.png" alt="logmansion" />
-                </div>
+               <h2>
+                    LogMansion
+                   <p class="des-title">都心エリアと無垢材にこだわる<br>
+                    高級分譲リノベーションマンション</p>
+               </h2>
             </div>
         </div>
     </div>
@@ -241,10 +243,10 @@
                 </div>
             </div>
             <div class="slideshow-text">
-                <div class="img-txt">
-                    <img class="d-none d-md-block" src="./images/1x/top-page-ct.png" alt="" tilte="" />
-                    <img class="d-block d-md-none" src="./images/2x/top-page-ct-sp.png" alt="" tilte="" />
-                </div>
+               <h2>
+                    About<br>
+                    LogMansion
+               </h2>
             </div>
         </div>
         <div class="container">
@@ -259,8 +261,21 @@
                             <h3>
                                 ログマンションとは
                             </h3>
-                            <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
-テキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                            <p>ログマンションは、全室に天然無垢材のフローリング、建具を使った、<br>
+                            ログスイート社が提供する、高級分譲リノベーションマンションブランドです。</p>
+                            <p>ただの「住まい」ではなく<br>
+                            最高の「暮らし」をご提案するため、<br>
+                            デザイン・間取り・仕様・素材の一つひとつにこだわりました。
+                            </p>
+                            <p>買取から完成までをグループ一貫で行うことで<br>
+                                新築を超える機能性・高品質を維持しながらも、低価格を実現しています。
+                            </p>
+                            <p>
+                                都市部の利便性、ステイタスを享受しながらも<br>
+                                柔らかな木の肌触りを常に感じられる、<br>
+                                『温もりにあふれた暮らしやすい住まい』<br>
+                                それがログマンションの想いです。
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -281,9 +296,8 @@
                             </div>
                             <p class="promotion-item_cat">ABOUT LogMansion #01</p>
                             <a href="#" rel="" target="">
-                                <h4 class="promotion-item_title">好立地と質感を両立させた<span>新発想の都市型マンション</span></h4>
+                                <h4 class="promotion-item_title">10年1500件超の無垢材施工実績<span>圧倒的な質の高さと信頼性</span></h4>
                             </a>
-                            <p class="promotion-item_des">テキストが入りますテキストが入りますテキストが入ります。</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -295,9 +309,8 @@
                             </div>
                             <p class="promotion-item_cat">ABOUT LogMansion #02</p>
                             <a href="#" rel="" target="">
-                                <h4 class="promotion-item_title">唯一無二のプライベートレーベル<span>無垢材マンション</span></h4>
+                                <h4 class="promotion-item_title">10年1500件超の無垢材施工実績<span>圧倒的な質の高さと信頼性</span></h4>
                             </a>
-                            <p class="promotion-item_des">テキストが入りますテキストが入りますテキストが入ります。</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -309,10 +322,8 @@
                             </div>
                             <p class="promotion-item_cat">ABOUT LogMansion #03</p>
                             <a href="#" rel="" target="">
-                                <h4 class="promotion-item_title">唯一無二のプライベートレーベル<span>
+                                <h4 class="promotion-item_title">新築マンションと同等の最新設備を標準装備</h4>
                             </a>
-                            無垢材マンション</span></h4>
-                            <p class="promotion-item_des">テキストが入りますテキストが入りますテキストが入ります。</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -324,9 +335,8 @@
                             </div>
                             <p class="promotion-item_cat">ABOUT LogMansion #04</p>
                             <a href="#" rel="" target="">
-                                <h4 class="promotion-item_title">構造へのこだわり</h4>
+                                <h4 class="promotion-item_title">「見えない部分」へのこだわり</h4>
                             </a>
-                            <p class="promotion-item_des">テキストが入りますテキストが入りますテキストが入ります。</p>
                         </div>
                     </div>
                 </div>
@@ -341,7 +351,7 @@
             <h2>ログマンションの<span>サービス</span></h2>
             <div class="news-group">
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6">
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -353,11 +363,10 @@
                                 <a href="#" rel="" target="">
                                     <h4 class="news-item_title i-arrows">ログマンション・カスタマイズ</h4>
                                 </a>
-                                <p class="news-item_des">テキストが入りますテキストが入ります</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6">
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -369,11 +378,10 @@
                                 <a href="#" rel="" target="">
                                     <h4 class="news-item_title i-arrows">間取りセレクト</h4>
                                 </a>
-                                <p class="news-item_des">テキストが入りますテキストが入ります</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6">
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -385,7 +393,21 @@
                                 <a href="#" rel="" target="">
                                     <h4 class="news-item_title i-arrows">充実のアフターサービス </h4>
                                 </a>
-                                <p class="news-item_des">テキストが入りますテキストが入ります</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="news-item">
+                            <div class="news-item_img">
+                                <a href="#" rel="" target="">
+                                    <img src="./images/1x/news-item-4.jpg" alt="" title="" />
+                                </a>
+                            </div>
+                            <div class="news-item_ct">
+                                <p class="news-item_cat">Service #04</p>
+                                <a href="#" rel="" target="">
+                                    <h4 class="news-item_title i-arrows">買取査定</h4>
+                                </a>
                             </div>
                         </div>
                     </div>
