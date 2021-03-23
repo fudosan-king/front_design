@@ -9,473 +9,188 @@
                     <div class="splide__list">
                         <!-- Items -->
                         <div class="splide__slide">
-                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-about-1.jpg);"></div>
-                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-about-sp-1.jpg);"></div>
+                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/top_aboutservices.jpg);"></div>
+                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/top_aboutservices_sp.jpg);"></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slideshow-text">
-                <div class="img-txt">
-                    <img class="d-none d-md-block" src="./images/2x/txt-slide-about-1.png" alt="" tilte="" />
-                    <img class="d-block d-md-none" src="./images/2x/txt-slide-about-sp-1.png" alt="" tilte="" />
-                </div>
+            <div class="slideshow-text slideshow-text_aboutservice">
+                <h2>About <span class="d-block d-lg-inline-block">Service</span></h2>
             </div>
         </div>
-        <div class="sm-title">
+        <div class="sm-title sm-title_aboutservice">
             <div class="container">
-                <h3>ログマンションとは</h3>
+                <h3>ログマンションのサービス</h3>
             </div>
         </div>
     </div>
 </section>
-<!-- Breadcrumb -->
-<section class="section-breadcrumb">
-    <div class="container">
-        <div class="breadcrumb">
-            <ul class="nav">
-                <li>
-                    <a href="#" rel="" target="">TOP</a>
-                </li>
-                <li>
-                    <a href="#" rel="" target="">物件紹介</a>
-                </li>
-                <li class="active">
-                    <span>テナント</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-<!-- Category -->
-<section class="section-collapse_btn">
-    <div class="container">
-        <div class="collapse_group">
-            <div class="collapse_btn">
-                <button type="button" data-toggle="collapse" data-target="#collapse_cat" aria-expanded="false" aria-controls="collapse_cat"><span>CATEGORY</span><i class="fas fa-plus"></i></button>
-            </div>
-            <div class="collapse collapse_ct" id="collapse_cat">
-                <ul class="nav">
-                    <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_01" target="">都市型無垢材住宅<span class="btn-line"></span></a>
-                    </li>
-                    <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_02" target="">プライベートレーベル<span class="btn-line"></span></a>
-                    </li>
-                    <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_03" target="">新築以上の高級設備<span class="btn-line"></span></a>
-                    </li>
-                    <li>
-                        <a class="btn btn-mansion btn-sm-mansion btn-black max-w-100" href="javascript:void(0)" rel="#about_logmansion_04" target="">見えない「こだわり」<span class="btn-line"></span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- About -->
-<section class="section-about">
-    <div class="container">
-        <div id="about_logmansion_01" class="about">
-            <div class="about_img">
-                <img class="d-none d-md-block" src="./images/1x/about-service-1.jpg" alt="" title="" />
-                <img class="d-md-none d-block" src="./images/2x/about-service-sp-1.jpg" alt="" title="" />
-            </div>
-            <div class="row flex-row-reverse flex-lg-row">
-                <div class="col-lg-6">
-                    <div class="about_des-img d-none d-lg-block">
-                        <img src="./images/1x/about-service-2.jpg" alt="" title="" />
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about_des right">
-                        <p class="about_des_title-sm">ABOUT LogMansion #01</p>
-                        <h3>好立地と質感を両立させた<span>新発想の都市型マンション</span></h3>
-                        <p>ログマンションの特徴のひとつが立地のよさ。<br>
-                            東京都心を中心に、利便性とステイタスを兼ね備えたエリアで展開しています。<br>
-                            交通至便で都会的なロケーションに位置しながら、<br>
-                            ドアを開けると広がる天然無垢材の香り――。<br>
-                            温かみのあるナチュラルなインテリアに心なごみます。<br>
-                            無垢材ならではの肌ざわりのよさ、温かみが感じられるテイストと<br>
-                            都会的なロケーションとのコントラストがログマンションの魅力です。
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="about_logmansion_02" class="about">
-            <div class="about_img">
-                <img class="d-none d-md-block" src="./images/1x/about-service-3.jpg" alt="" title="" />
-                <img class="d-md-none d-block" src="./images/2x/about-service-sp-3.jpg" alt="" title="" />
-            </div>
-            <div class="row align-items-end">
-                <div class="col-lg-6">
-                    <div class="about_des left">
-                        <p class="about_des_title-sm">ABOUT LogMansion #02</p>
-                        <h3>10年1500件超の無垢材施工実績<span>圧倒的な質の高さと信頼性</span></h3>
-                        <p>ログマンションは物件の買取から、リノベーションのデザイン、施工、販売まですべてグループ内で一貫して行っています。<br>
-                            さらに、ログマンションの特徴である、天然無垢材も自社生産。<br>
-                            製材から流通、施工まですべて自社で一貫しています。<br>
-                            そのため、一般的には高価で施工も難しいといわれる無垢材を<br>
-                            ふんだんに使ったリノベーションが<br>
-                            比較的リーズナブルに提供できるのです。
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about_des-img right d-none d-lg-block">
-                        <img src="./images/1x/about-service-4.jpg" alt="" title="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="about_logmansion_03" class="about">
-            <div class="about_img">
-                <img class="d-none d-md-block" src="./images/1x/about-service-5.jpg" alt="" title="" />
-                <img class="d-md-none d-block" src="./images/2x/about-service-sp-5.jpg" alt="" title="" />
-            </div>
-            <div class="row flex-row-reverse flex-lg-row align-items-end">
-                <div class="col-lg-6">
-                    <div class="about_des-img d-none d-lg-block"></div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about_des right">
-                        <p class="about_des_title-sm">ABOUT LogMansion #03</p>
-                        <h3>新築マンションと同等の最新設備を標準装備</h3>
-                        <p>ログマンションの特徴は無垢材によるデザイン性の高さだけではありません。<br>
-                            新築マンション同等の便利な設備、最新機能を有している点もアドバンテージです。<br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="about_planning">
+
+<!-- About services -->
+<div class="main_aboutservices">
+    <section>
         <div class="container">
-            <h2>PLANNING</h2>
-            <p class="title-des">細部にまで心を配った<span>ログマンションのクオリティ</span></p>
-            <div class="news-group">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-1.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">PLANNING #01</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">開放感あふれるワイドリビング</h4>
-                                </a>
-                                <p class="news-item_des">家族が集まり、語らい、寛ぐ場所、それがリビングルームです。ログマンションでは、住まいの中心となるリビングスペースをできる限り充分に取ると共に、窓からの採光を存分に活かす造りで、明るく温かみのあるワイドリビングに仕上げています。</p>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="aboutservices_top">
+                        <h3>SERVICE #01</h3>
+                        <h2>ログマンション・カスタマイズ</h2>
+                        <p>ログマンションは、竣工の●カ月前までにご契約いただければ、お客様のご希望を活かした「カスタマイズ」をすることができます。<br>提示しているログマンションの販売価格内で、お客様のライフスタイルに合ったリノベーションを提案させていただけます。</p>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-2.jpg" alt="" title="" />
-                                </a>
+                    <ul class="box_aboutservices">
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers01.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">MERIT #01</p>
+                                <h2><a href="#">理想の住まいが低コストで</a></h2>
+                                <p class="description">カスタイマイズといえども、リノベーションの費用は全て物件の販売価格内に含まれています。追加はありません。お客様は低コストで理想のお住まいが実現できます。</p>
                             </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">PLANNING #02</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">快適な暮らしの入り口となる玄関まわり</h4>
-                                </a>
-                                <p class="news-item_des">家族全員が日々出入りするのはもちろんのこと、靴を脱ぎ履きしたり、持ち帰った大きな荷物を置いたり、コートを着たりと、玄関まわりは思いのほか、大切な場所です。人感センサー付き照明を設置するなど、スムーズで快適に暮らせるように玄関まわりを設計しています。</p>
+                        </li>
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers02.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">MERIT #01</p>
+                                <h2><a href="#">何度設計相談しても費用は0円</a></h2>
+                                <p class="description">理想の住まいを実現するためにとても重要な設計、デザイン。ログマンションのカスタマイズでは当社専属の経験豊富なプランナーが、予め設定された期間内であれば何度でも図面を引き直し、 もちろん追加費用も頂きませんのでお気軽にご相談いただけます。</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-3.jpg" alt="" title="" />
-                                </a>
+                        </li>
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers03.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">MERIT #03</p>
+                                <h2><a href="#">安心・無料のアフターサービス </a></h2>
+                                <p class="description">アフターサービスとはお買い求めいただいた物件に一定期間、当社保証が付与されることを指します。また、物件のお引渡し時には、必ずアフターサービス保証書をお渡し致します。お客様が安心してお買い求めいただける環境を当社は常に追求していきます。</p>
                             </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">PLANNING #03</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">個性とセンスを感じる遊び心をプラス </h4>
-                                </a>
-                                <p class="news-item_des">広い土間を造ってみたり、モザイクタイルを敷き詰めた洗面化粧台を取り入れたり、一カ所だけ風合いの違うクロスを貼ってお部屋にアクセントをつけてみたり‥どこも同じ画一的な空間づくりではなく、個性的な遊び心が感じられる、おしゃれな演出をそれぞれの住まいに施しています。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-4.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">PLANNING #04</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">小さな隙間を活かした充実の収納力</h4>
-                                </a>
-                                <p class="news-item_des">リビング、キッチン、玄関、廊下などのわずかなデッドスペースも、できる限り収納スペースにリノベーションしています。玄関にはシューズインクローゼットを設けて収納力を大幅アップしたり、マンションにありがちな収納不足をできる限り解消しています。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-5.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">PLANNING #05</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">やわらかなLEDダウンライト照明</h4>
-                                </a>
-                                <p class="news-item_des">やわらかな優しい明かりのダウンライトを設置しています。お部屋をすっきり見せるとともに、雰囲気のある明かりで落ち着きのある空間づくりをしています。LED照明なので、電気代も大変お得。暮らしにも環境にも優しいログマンションのこだわりのひとつです。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-6.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">PLANNING #06</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">カーテンBOXでお部屋の印象を<span>
-                                            より綺麗に</span></h4>
-                                </a>
-                                <p class="news-item_des">すべての住戸にカーテンBOXをお取り付けしています。お部屋の効果的な演出に欠かせないカーテン。BOXでレールをきれいに隠すことで、窓まわりに洗練された雰囲気をもたらし、カーテンを付けたときに、ひときわ美しいお部屋の印象になります。</p>
-                            </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="about_kitchin">
+    </section>
+
+    <section>
         <div class="container">
-            <h2>KITCHIN</h2>
-            <p class="title-des">毎日使うものだから、<span>気持ち良く使えるキッチン</span></p>
-            <div class="news-group">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-7.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">KITCHIN #01</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">食器洗い乾燥機</h4>
-                                </a>
-                                <p class="news-item_des">ビルトイン式の食器洗い乾燥機を標準設置しています。家事の手間を大幅に軽減してくれるお役立ちアイテムは、洗浄力が高いうえ、除菌効果にも優れています。</p>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="aboutservices_top">
+                        <h3>SERVICE #02</h3>
+                        <h2>間取りセレクトプラン</h2>
+                        <p>「立地もいいし、内装も自分好み。でも間取りが……」<br>
+                        そんなご要望を叶えるのが、ログマンションならではの「間取り無料セレクトプラン」です。<br>
+                        ログマンションは、ひとつの物件に対して複数の間取りプランを想定して設計しています。<br>
+                        竣工後でもお客様のライフスタイルにあわせ、無料で一部の間取りを変更していただけます。</p>
+                        <p class="mb-0"><small>※間取り変更できる箇所には限りがあります</small></p>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-8.jpg" alt="" title="" />
-                                </a>
+                    <div class="box_beforeafter">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <img src="images/2x/before.png" alt="" class="img-fluid mt-5">
                             </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">KITCHIN #02</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">浄水器一体型水栓</h4>
-                                </a>
-                                <p class="news-item_des">いつでもおいしく綺麗なお水をお楽しみいただけるよう、浄水機能を兼ね備えた混合水栓を設置しています。温水・冷水の切り替えも簡単操作で可能です。</p>
+                            <div class="col-12 col-lg-6">
+                                <img src="images/2x/after.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="about_comforts">
+    </section>
+
+    <section>
         <div class="container">
-            <h2>COMFORTS</h2>
-            <p class="title-des">より快適に、より心地よく暮らすために</p>
-            <div class="news-group">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-9.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">COMFORTS #01</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">清潔・便利な温水洗浄付きトイレ</h4>
-                                </a>
-                                <p class="news-item_des">多機能搭載型の温水洗浄付きトイレを標準設置しています。また夜間に大変便利な人感センサー付き照明をトイレにも取り付けています。暮らしの安全性を高めると同時に、照明の消し忘れもなく、省エネにもつながる設備です。</p>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="aboutservices_top">
+                        <h3>SERVICE #03</h3>
+                        <h2>アフターサービス</h2>
+                        <p>何かと多い中古物件購入への不安を払拭するため、お引き渡し後も安心のサービスをご用意しました。</p>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-10.jpg" alt="" title="" />
-                                </a>
+                    <ul class="box_aboutservices">
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers04.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">AFTER SERVICE #01</p>
+                                <h2><a href="#">アフターサービス最長２年保証</a></h2>
+                                <p>アフターサービスとはお買い求めいただいた物件に一定期間、当社保証が付与されることを指します。また、物件のお引渡し時には、必ずアフターサービス保証書をお渡し致します。<br>
+                                お客様が安心してお買い求めいただける環境を当社は常に追求していきます。</p>
                             </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">COMFORTS #02</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">さらりと快適 浴室暖房乾燥機</h4>
-                                </a>
-                                <p class="news-item_des">換気機能でカビの発生を抑制して清潔・快適なバスルームをご提供します。また寒い季節には暖房、冬期や梅雨時など屋外で洗たく物を干せない場合には、浴室の遊休時間を利用して洗たく物の乾燥ができます。しわになりにくく、花粉やホコリも付かないというメリットもあります。</p>
+                        </li>
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers04_.svg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">AFTER SERVICE #02</p>
+                                <h2><a href="#">既存住宅売買瑕疵保険付帯サービス</a></h2>
+                                <p>物件のお引渡し完了後、万が一、売主が補償できない場合でも、瑕疵（傷や欠陥）の補修にかかった費用が支払われる保険をお付けしています。<br>
+                                保険料のお客様負担もないので、安心かつお得です。</p>
+                                <p><small>※建物の構造および管理上、保険適用対象外の物件も一部ございます。予めご了承のうえ、詳細は各担当者までお問い合わせください。</small></p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-11.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">COMFORTS #03</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">エアコン一基完備＆先行配管で<span>
-                                            全室設置可能</span></h4>
-                                </a>
-                                <p class="news-item_des">どのお部屋にもエアコンを取り付けられるように室外機が置けないお部屋には先行配管を施しています。希望するお部屋に、いざ取り付けたいと思ったら配管がなかったというご心配はいりません。また、リビングにはエアコン一基を完備。お引越し時から、快適な暮らしをスタートできます。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-12.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">COMFORTS #04</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">バルコニータイルを標準装備</h4>
-                                </a>
-                                <p class="news-item_des">新築マンションでもバルコニーは塩化ビニールシート仕上げが一般的ですが、ログマンションでは、共用部分のバルコニーも住居の一部と考え、バルコニータイルを全戸に標準装備しています。おしゃれで高級感あふれる仕上がりで、より快適なひとときをバルコニーでもお過ごしいただけます。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/about-thumnail-13.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <p class="news-item_cat">COMFORTS #05</p>
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title">モニター付きインターホンで<span>
-                                            セキュリティーに配慮</span></h4>
-                                </a>
-                                <p class="news-item_des">オートロック対応できないマンションには、玄関部分にカラーモニター付きインターホンをお取り付けしています。また1Fのマンション住戸にはセコムのホームセキュリティを無償で設置。外出時はもちろん、在宅時も安心してお過ごしいただけます。</p>
-                            </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <p class="note">※建物の構造および管理上、標準仕様の適用がかなわない物件も一部ございます。予めご了承のうえ、詳細は各担当者までお問い合わせください。</p>
         </div>
-    </div>
-    <div class="about_commitment">
+    </section>
+
+    <section>
         <div class="container">
-            <div id="about_logmansion_04" class="about">
-                <div class="about_img">
-                    <img class="d-none d-md-block" src="./images/1x/about-service-9.jpg" alt="" title="" />
-                    <img class="d-md-none d-block" src="./images/2x/about-service-sp-4.jpg" alt="" title="" />
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="aboutservices_top">
+                        <h3>SERVICE #04</h3>
+                        <h2>買取査定</h2>
+                        <p>住み替えで、現在所有されている不動産の売却をご検討されているお客様の場合、無料買取査定も行っています。 <br>すぐに売却されたいという場合、弊社が「直接買取」することも可能です。</p>
+                    </div>
+                    <ul class="box_aboutservices">
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers05.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">MERIT #01</p>
+                                <h2><a href="#">仲介手数料無料</a></h2>
+                                <p>通常のお取引の場合、必ず発生する仲介手数料（物件価格×3％＋6万円＋消費税）を一切いただいていません。手数料分がそのままお客様に還元されます。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers06.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">MERIT #02</p>
+                                <h2><a href="#">手続きがスムーズ</a></h2>
+                                <p>ご近所の方に知れ渡ることなく、スピーディかつスムーズに売却いただけます。内覧希望がある度に、お部屋の準備をするなどの煩わしい思いをすることもございません。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box_aboutservices_item">
+                                <div class="box_aboutservices_item_img">
+                                    <a href="#"><img src="images/2x/servers07.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <p class="sub_title">MERIT #03</p>
+                                <h2><a href="#">即現金化</a></h2>
+                                <p>通常、仲介サービスを通じて売却する際は、早くて１か月、長い場合は半年以上かかることもあります。住宅ローンの二重払いや、いつ売却で きるかわからないという不安がなく、確実に現金化できるので、安心です。</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="row flex-row-reverse flex-lg-row align-items-end">
-                    <div class="col-lg-6">
-                        <div class="about_des left">
-                            <p class="about_des_title-sm">ABOUT LogMansion #04</p>
-                            <h3>「見えない部分」へのこだわり</h3>
-                            <p>ログマンションは、お客様に長く快適に暮らしていただくために「目に見えない部分」にもこだわっています。<br>
-                                物件の専有部内を解体して、スケルトン状態にした後、給水設備の更新、二重床・天井工事、壁付けなどを行います。<br>
-                                なかでも「二重床」「二重天井」を採用している点がトピックスです。
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about_des-img d-none d-lg-block"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="about_commitment_box">
-                <h4>二重床</h4>
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="about_commitment_box-des">
-                            <p>二重床とは、コンクリートスラブに防振ゴムの支持脚を立てた上に床下地材をのせ、さらにその上にフローリング材で仕上げを行う工法です。<br>
-                            中古物件の多くに採用されている「直床（コンクリートスラブに直接仕上げ材を貼る工法）」と異なり、さまざまなメリットがあります。</p>
-                            <p class="sm-title">● 二重床のメリット</p>
-                            <ul class="nav">
-                                <li><p>遮音性<span>防音効果</span></p></li>
-                                <li><p>間取りの<span>変更が</span>しやすい</p></li>
-                                <li><p>保温性が<span>高い</span></p></li>
-                                <li><p>段差が少ない</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="about_commitment_box-img">
-                            <p class="">
-                                <img src="./images/1x/about-service-6.jpg" alt="" title="" />
-                            </p>
-                            <p>▲直に音が伝わりやすい</p>
-                            <p>
-                                <img src="./images/1x/about-service-7.jpg" alt="" title="" />
-                            </p>
-                            <p>◯音を吸収し防音効果が見込めます</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about_commitment_box">
-                <h4>二重天井</h4>
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="about_commitment_box-des">
-                            <p>「二重天井」は、二重床と同じように間取りの変更がしやすく、遮音性・保温性に優れている他、照明器具の配線の変更なども「直天井」に比べると簡単にできるので便利です。<br>
-                            また、二重天井なら美しくすっきりとした天井になり、お部屋の雰囲気を損ないません。
-                            </p>
-                            <p class="sm-title">● 二重床のメリット</p>
-                            <ul class="nav">
-                                <li><p>遮音性<span>防音効果</span></p></li>
-                                <li><p>間取りの<span>変更が</span>しやすい</p></li>
-                                <li><p>配線の変更も<span>しやすい</span></p></li>
-                                <li><p>すっきりとした<span>デザイン</span></p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="about_commitment_box-img">
-                            <p class="">
-                                <img src="./images/1x/about-service-8.jpg" alt="" title="" />
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <p class="note">※建物の構造上、二重床が採用できない物件は、直床仕上げを採用していますが、その場合は天然無垢材フローリング専用のLL45等級の防音マットを貼って遮音性を高めています。<br>※掲載の図は概念図であり、実際とは異なる場合があります。</p>
             </div>
         </div>
-    </div>
-    
-</section>
+    </section>
+</div>
+
+
+
 <?php include 'footer-content.php'; ?>
 <section class="fixed-block-bottom js-contact">
     <div class="container">
