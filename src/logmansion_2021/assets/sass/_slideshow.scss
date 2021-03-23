@@ -2,7 +2,7 @@
 .g-slideshow {
     position: relative;
     padding-bottom: 70px;
-
+    overflow: hidden;
     &:before {
         position: absolute;
         background: $cl-black-light;
@@ -71,13 +71,10 @@
             line-height: 100%;
             color: #FFFFFF;
             margin-bottom: 0;
-            /*Update - 23-03-2021*/
             letter-spacing: 0.05em;
-            /*End Update*/
             p {
                 margin-bottom: 0;
             }
-             /*Update - 23-03-2021*/
             .des-title{
                 margin-top: 20px;
                 font-weight: bold;
@@ -86,7 +83,6 @@
                 color: #FFFFFF;
                 line-height: 1.5;
             }
-            /*End Update*/
         }
 
         .img-txt {
