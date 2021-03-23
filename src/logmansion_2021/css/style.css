@@ -1537,6 +1537,7 @@ img {
     }
 }
 
+/*Slide Show - 23-03-2021 */
 .g-slideshow {
     position: relative;
     padding-bottom: 70px;
@@ -1606,14 +1607,28 @@ img {
 
 .g-slideshow .slideshow-text h2 {
     font-weight: bold;
-    font-size: 6.875rem;
+    font-size: 6.25rem;
     line-height: 100%;
     color: #FFFFFF;
     margin-bottom: 0;
+      /*Update - 23-03-2021*/
+    letter-spacing: 0.05em;
+      /*End Update*/
+      /*Update - 23-03-2021*/
+      /*End Update*/
 }
 
 .g-slideshow .slideshow-text h2 p {
     margin-bottom: 0;
+}
+
+.g-slideshow .slideshow-text h2 .des-title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.875rem;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    line-height: 1.5;
 }
 
 .g-slideshow .slideshow-text .img-txt {
@@ -1627,6 +1642,7 @@ img {
     bottom: -96px;
 }
 
+/*End Slide Show - 23-03-2021 */
 footer ul li a.nav-link {
     font-weight: 600;
     font-size: 0.625rem;
@@ -1698,6 +1714,11 @@ footer .footer-bottom .copyright p {
     padding: 10px;
     text-align: center;
     margin-bottom: 0;
+}
+
+/*Top Page - 23-03-2021*/
+.top-page-slideshow .g-slideshow .slideshow-text h2 {
+    margin-bottom: 50px;
 }
 
 .news-box .news-box_list {
@@ -1817,13 +1838,18 @@ footer .footer-bottom .copyright p {
     margin-top: 80px;
 }
 
+.section-top-page-content .promotion .promotion-item {
+    margin-bottom: 60px;
+}
+
 .section-top-page-content .promotion-video {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .section-top-page-content .promotion-video h3 {
     color: #ffffff;
     padding-right: 5px;
+    margin-bottom: 16px;
 }
 
 .section-top-page-content .promotion-video p {
@@ -1831,8 +1857,30 @@ footer .footer-bottom .copyright p {
     line-height: 200%;
     color: #ffffff;
     padding-right: 5px;
+    margin-bottom: 20px;
 }
 
+.section-top-page-content .promotion-video p:last-child {
+    margin-bottom: 0;
+}
+
+.section-top-page-services .news-group .news-item {
+    max-width: 570px;
+}
+
+.section-top-page-services .news-group .news-item .news-item_ct {
+    margin-bottom: 30px;
+}
+
+.section-top-page-services .news-group .col-md-6:nth-child(even) .news-item {
+    margin: 0 0 0 auto;
+}
+
+.section-top-page-services .news-group .col-md-6:nth-child(odd) .news-item {
+    margin: 0 auto 0 0;
+}
+
+/*Top Page - 23-03-2021*/
 .owned-property_product .col-md-6:nth-child(3n+2) .product-items {
     margin: 0 auto;
 }
@@ -2132,31 +2180,13 @@ footer .footer-bottom .copyright p {
     text-align: left;
 }
 
-@media (max-width: 991px) {
-    .section-about .title-des {
-        font-size: 1rem;
-    }
-
-    .section-about .title-des span {
-        display: block;
-    }
-}
-
 .about {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .about:last-child {
     margin-bottom: 200px;
-}
-
-.about .about_img-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
 }
 
 .about .about_des-img {
@@ -2166,20 +2196,6 @@ footer .footer-bottom .copyright p {
 
 .about .about_des-img.right {
     margin-left: auto;
-}
-
-@media (max-width: 991px) {
-    .about {
-        margin-bottom: 60px;
-    }
-
-    .about:last-child {
-        margin-bottom: 90px;
-    }
-
-    .about .about_img {
-        margin-bottom: 30px;
-    }
 }
 
 .about_des {
@@ -2235,36 +2251,6 @@ footer .footer-bottom .copyright p {
     display: block;
 }
 
-@media (max-width: 991px) {
-    .about_des:before {
-        background: transparent;
-    }
-
-    .about_des.right:before {
-        right: unset;
-        left: unset;
-    }
-
-    .about_des.left:before {
-        right: unset;
-        left: unset;
-    }
-
-    .about_des p {
-        font-size: 0.875rem;
-    }
-
-    .about_des .about_des_title-sm {
-        margin-bottom: 20px;
-        font-size: 0.75rem;
-    }
-
-    .about_des h3 {
-        margin-bottom: 30px;
-        font-size: 1.125rem;
-    }
-}
-
 .about_planning {
     position: relative;
     margin-bottom: 230px;
@@ -2279,19 +2265,6 @@ footer .footer-bottom .copyright p {
     background: #F3F3F3;
     left: 0;
     z-index: -1;
-}
-
-@media (max-width: 991px) {
-    .about_planning {
-        margin-bottom: 140px;
-    }
-
-    .about_planning:before {
-        top: -60px;
-        bottom: 8.6%;
-        left: 30px;
-        right: 0;
-    }
 }
 
 .about_kitchin {
@@ -2310,19 +2283,6 @@ footer .footer-bottom .copyright p {
     z-index: -1;
 }
 
-@media (max-width: 991px) {
-    .about_kitchin {
-        margin-bottom: 80px;
-    }
-
-    .about_kitchin:before {
-        top: -60px;
-        left: 30px;
-        right: 0;
-        bottom: 30%;
-    }
-}
-
 .about_comforts {
     position: relative;
     margin-bottom: 130px;
@@ -2337,18 +2297,6 @@ footer .footer-bottom .copyright p {
     background: #F3F3F3;
     left: 0;
     z-index: -1;
-}
-
-@media (max-width: 991px) {
-    .about_comforts {
-        margin-bottom: 80px;
-    }
-
-    .about_comforts:before {
-        top: 27%;
-        bottom: 16%;
-        left: 30px;
-    }
 }
 
 .about_commitment {
@@ -2370,19 +2318,19 @@ footer .footer-bottom .copyright p {
     max-width: 818px;
 }
 
+.about_commitment .about_commitment_box-des p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
 .about_commitment .about_commitment_box-des .sm-title {
     font-weight: bold;
     font-size: 1.125rem;
     line-height: 2;
     color: #947B4B;
     margin-bottom: 20px;
-}
-
-.about_commitment .about_commitment_box-des p {
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 2;
-    margin-bottom: 50px;
 }
 
 .about_commitment .about_commitment_box-des ul {
@@ -2420,6 +2368,86 @@ footer .footer-bottom .copyright p {
 }
 
 @media (max-width: 991px) {
+    .section-about .title-des {
+        font-size: 1rem;
+    }
+
+    .section-about .title-des span {
+        display: block;
+    }
+
+    .about {
+        margin-bottom: 60px;
+    }
+
+    .about:last-child {
+        margin-bottom: 90px;
+    }
+
+    .about .about_img {
+        margin-bottom: 30px;
+    }
+
+    .about_des:before {
+        background: transparent;
+    }
+
+    .about_des.right:before {
+        right: unset;
+        left: unset;
+    }
+
+    .about_des.left:before {
+        right: unset;
+        left: unset;
+    }
+
+    .about_des p {
+        font-size: 0.875rem;
+    }
+
+    .about_des .about_des_title-sm {
+        margin-bottom: 20px;
+        font-size: 0.75rem;
+    }
+
+    .about_des h3 {
+        margin-bottom: 30px;
+        font-size: 1.125rem;
+    }
+
+    .about_planning {
+        margin-bottom: 140px;
+    }
+
+    .about_planning:before {
+        top: -60px;
+        bottom: 8.6%;
+        left: 30px;
+        right: 0;
+    }
+
+    .about_kitchin {
+        margin-bottom: 80px;
+    }
+
+    .about_kitchin:before {
+        top: -60px;
+        left: 30px;
+        right: 0;
+        bottom: 30%;
+    }
+
+    .about_comforts {
+        margin-bottom: 80px;
+    }
+
+    .about_comforts:before {
+        top: 27%;
+        bottom: 16%;
+        left: 30px;
+    }
+
     .about_commitment {
         margin-bottom: 80px;
     }
@@ -2437,13 +2465,13 @@ footer .footer-bottom .copyright p {
         margin-left: 20px;
     }
 
-    .about_commitment .about_commitment_box-des .sm-title {
-        font-size: 0.875rem;
-    }
-
     .about_commitment .about_commitment_box-des p {
         font-size: 0.875rem;
         margin-bottom: 30px;
+    }
+
+    .about_commitment .about_commitment_box-des .sm-title {
+        font-size: 0.875rem;
     }
 
     .about_commitment .about_commitment_box-des ul {
@@ -2454,7 +2482,7 @@ footer .footer-bottom .copyright p {
         height: 75px;
         width: 75px;
         padding: 11px 5px;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .about_commitment .about_commitment_box-des ul li p {
