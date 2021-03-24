@@ -34,22 +34,39 @@
         background: #8C7D5E;
         border-radius: 0;
         font-size: 0.75em;
-        margin-left: 15px;
+        position: relative;
     }
 
     .nav_top .btn:last-of-type {
         background: #1BB71F;
-        margin-right: 15px;
+    }
+
+    .nav_top .btn:last-of-type .txt {
+        margin-left: 40px;
+    }
+
+    .nav_top .btn:last-of-type .time {
+        color: #1BB71F;
     }
 
     .nav_top .btn .time {
         display: inline-block;
-        color: #8C7D5E;
+        color: #FF7E41;
         font-size: 0.625em;
         background: #fff;
         border-radius: 100px;
         margin-bottom: 3px;
         padding: 0 5px;
+        max-width: 77px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .nav_top .btn .img-g {
+        position: absolute;
+        left: calc(50% - 55px);
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .nav_top .btn span:last-of-type {
@@ -63,11 +80,19 @@
     <section class="sec_cv_float">
         <div class="nav_top fixed-top">
             <a class="btn flex-fill" href="#">
-                <span class="time">簡単！１分で</span>
-                <span>事例集プレゼント</span>
+                <div class="txt">
+                    <span class="time">簡単！１分で</span>
+                    <span>事例集プレゼント</span>
+                </div>
             </a>
             <a class="btn flex-fill" href="#">
-                <img class="img-fluid" src="images/LINE_SOCIAL_Square 1.png" alt="" width="40" />１分でマイホーム診断
+                <div class="img-g">
+                    <img class="img-fluid" src="images/LINE_SOCIAL_Square 1.png" alt="" width="40" />
+                </div>
+                <div class="txt">
+                    <span class="time">LINEで気軽に</span>
+                    <span>１分でマイホーム診断</span>
+                </div>
             </a>
         </div>
     </section>
@@ -83,25 +108,41 @@
         .nav_top .btn {
             width: 50%;
             color: #fff;
-            background: #8C7D5E;
+            background: #FF7E41;
             border-radius: 0;
             font-size: 0.75em;
-            margin-left: 15px;
         }
 
         .nav_top .btn:last-of-type {
             background: #1BB71F;
-            margin-right: 15px;
+        }
+
+        .nav_top .btn:last-of-type .txt {
+            margin-left: 40px;
+        }
+
+        .nav_top .btn:last-of-type .time {
+            color: #1BB71F;
         }
 
         .nav_top .btn .time {
             display: inline-block;
-            color: #8C7D5E;
+            color: #FF7E41;
             font-size: 0.625em;
             background: #fff;
             border-radius: 100px;
             margin-bottom: 3px;
             padding: 0 5px;
+            max-width: 77px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .nav_top .btn .img-g {
+            position: absolute;
+            left: calc(50% - 55px);
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
 
         .nav_top .btn span:last-of-type {
@@ -111,16 +152,30 @@
         .sec_cv_float {
             padding: 0;
         }
+        @media (max-width: 320px) {
+            .nav_top .btn {
+                font-size: .6em;
+            }
+        }
         </style>
-
         <section class="sec_cv_float">
-            <div class="nav_top fixed-top"><a class="btn flex-fill" href="#">
-                    <span class="time">簡単！１分で</span>
-                    <span>事例集プレゼント</span>
+            <div class="nav_top fixed-top">
+                <a class="btn flex-fill" href="#">
+                    <div class="txt">
+                        <span class="time">簡単！１分で</span>
+                        <span>事例集プレゼント</span>
+                    </div>
                 </a>
                 <a class="btn flex-fill" href="#">
-                    <img class="img-fluid" src="images/LINE_SOCIAL_Square 1.png" alt="" width="40" />１分でマイホーム診断
-                </a></div>
+                    <div class="img-g">
+                        <img class="img-fluid" src="images/LINE_SOCIAL_Square 1.png" alt="" width="40" />
+                    </div>
+                    <div class="txt">
+                        <span class="time">LINEで気軽に</span>
+                        <span>１分でマイホーム診断</span>
+                    </div>
+                </a>
+            </div>
         </section>
         <style>
         /* CSS Here */
@@ -130,13 +185,14 @@
 
         ._intro {
             text-align: center;
-            background: #F9F6F3;
-            padding-top: 120px;
+            padding-top: 80px;
             padding-bottom: 0;
         }
 
         ._intro h1 {
-            padding-bottom: 50px;
+            padding-bottom: 20px;
+            font-size: 22px;
+            letter-spacing: -1px;
         }
 
         ._intro p {
@@ -146,289 +202,944 @@
         <section class="sec_h1">
             <div class="_intro">
                 <p><img src="images/LogRenove_logo_color.svg" alt="" class="img-fluid" width="326"></p>
-                <h1>失敗しない中古マンション<br>
-                    選び方セミナー</h1>
+                <h1>新築、築浅、築古＋リノベーション<br>
+                    一番お得な住まいの選び方</h1>
             </div>
         </section>
         <style>
         /* CSS Here */
-
-        ._intro .box_img_top {
-            width: 100%;
-            height: 600px;
-            background: url("images/bg_top.jpg") no-repeat 0 10%;
+        .decoration{
+            padding-top: 20px;
+        }
+        .decoration .box_img_top {
+            padding-top: 66.67%;
+            background: url("./images/bg-top.jpg") no-repeat center;
             background-size: cover;
             position: relative;
         }
 
-        ._intro .box_img_top::after {
+        .decoration-btn {
+            max-width: 200px;
+            height: 40px;
+            left: 0px;
+            top: 0px;
+            background: #FF7E41;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 0.875em;
+            line-height: 30px;
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .decoration-btn:hover {
+            color: #ffffff;
+        }
+
+        .decoration-btn::after {
             content: '';
             position: absolute;
-            left: 0;
-            bottom: -200px;
-            background: url("images/line.png") no-repeat;
-            background-size: 100%;
-            width: 184px;
-            height: 300px;
-        }
-
-        .sec_image_decoration ._intro,
-        .sec_image_decoration {
-            padding: 0;
-        }
-        </style>
-        <section class="sec_image_decoration">
-            <!-- Merge 2 section: sec_image & sec_decoration -->
-            <div class="_intro">
-                <div class="box_img_top"></div>
-            </div>
-        </section>
-        <style>
-        /* CSS Here */
-        ._more {
-            text-align: center;
-        }
-        </style>
-        <section class="sec_apeal_text pb-0">
-            <div class="_more">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-12">
-                            <h2>購入時よりも想定以上に<br>
-                                価格が下がってしまった！</h2>
-                            <p class="mb-4 mb-lg-5">不動産の価値は景気や市況などに左右されるので、売却する際に価格が非常に上がったり、下がったりいうことは起こり得ます。<br>
-                                とはいえ、一般的には長く時間が経つにつれて建物の価値は下がることは理解しておかないといけません。<br>
-                                以下は首都圏の物件がどれ位の築年数で売却されているのかの平均なのでまず、ここを理解しておくことは大切です。</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <style>
-        /* CSS Here */
-        .box_chart {
-            background: #F5FFFD;
-            padding: 60px 15px;
-            text-align: center;
-        }
-
-        .sec_apeal_image {
-            padding: 0;
-        }
-        </style>
-        <section class="sec_apeal_image">
-            <div class="_more">
-                <div class="box_chart mb-0">
-                    <img src="images/chat01.png" alt="" class="img-fluid">
-                </div>
-            </div>
-        </section>
-        <style>
-        /* CSS Here */
-        .sec_apeal_text_2 {
-            background: #F9F6F3;
-        }
-        </style>
-        <section class="sec_apeal_text_2">
-            <div class="_how">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-12 text-center">
-                            <p class="mb-5">上記から築25年までは建物の売却単価は下がっていますが、それ以降は下がりにくくなっています。<br>
-                                これ以降の物件は比較的建物価値の下落リスクは低い、とも捉えることができます。</p>
-                            <h2>古いマンションは大丈夫なの？</h2>
-                            <p>建物自体がきちんと管理されていれば100年は持つ、とも言われていますが、実際、古いマンションはどれ位あるのでしょうか？</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <style>
-        /* CSS Here */
-        ._how {
-            background: #F9F6F3;
-        }
-
-        .sec_result {
-            padding: 0
-        }
-        </style>
-        <section class="sec_result">
-            <div class="_how">
-                <div class="box_chart">
-                    <img src="images/chat02.png" alt="" class="img-fluid">
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-12 text-center">
-                            <h2 class="my-lg-5 mt-2 mb-0 py-4">このような価格や広さなどだけではない<br>
-                                見分け方を知ることは<br>
-                                失敗するリスクを大幅に減らせます。</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <! -- Info Stylesheet here -->
-        <style>
-        /* CSS Here */
-        ._know {
-            background: #000;
-            background: url("images/bg_top.jpg") no-repeat 0 10%;
-            background-size: cover;
-            position: relative;
-            text-align: center;
-            padding: 100px 0;
-        }
-
-        ._know::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
-        }
-
-        ._know h2 {
-            color: #fff;
-            line-height: 1.8em;
-        }
-
-        ._know ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            text-align: left;
-        }
-
-        ._know .box_seminar {
-            position: relative;
-        }
-
-        ._know .box_seminar ul li {
-            margin-bottom: 15px;
-            color: #fff;
-        }
-
-        ._know .box_seminar ul li span {
-            color: #EB5757;
-        }
-
-        ._know .box_seminar p {
-            color: #fff;
-            margin-bottom: 0;
-        }
-
-        ._know .box_seminar .btn {
-            background: #1CBEA1;
-            color: #fff;
-            padding: 15px 30px;
-            position: relative;
-            margin-top: 15px;
-        }
-
-        ._know .box_seminar .btn::after {
-            content: '';
-            position: absolute;
-            right: 10px;
+            right: 15px;
             top: 0;
             bottom: 0;
             margin: auto;
-            background: url("images/chevron-right.svg") no-repeat;
+            background: url(images/chevron-right.svg) no-repeat;
             width: 6px;
             height: 10px;
         }
 
-        ._know .box_seminar .btn:hover {
-            background: #158974;
+        </style>
+        <section class="sec_image_decoration">
+            <!-- Merge 2 section: sec_image & sec_decoration -->
+            <div class="decoration">
+                <div class="box_img_top"></div>
+            </div>
+            <a class="btn decoration-btn" href="#">セミナーを申し込む　</a>
+        </section>
+        <style>
+        /* CSS Here */
+        .chart-block_bg-color {
+            background: #F9F6F3;
+            border-radius: 4px;
+            padding: 38px 20px;
+            margin-bottom: 30px;
         }
 
-        /*update css */
-        .sec_info {
-            padding: 0
+        .chart-block_title h2 {
+            font-weight: 600;
+            font-size: 22px;
+            color: #000000;
+            text-align: center;
+        }
+
+        .chart-block_chart {
+            margin-bottom: 20px;
+        }
+
+        .chart-block_sm-title {
+            font-weight: 600;
+            font-size: 11px;
+            letter-spacing: -0.05em;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        .chart-block_img {
+            text-align: center;
+        }
+
+        .chart-block_des {
+            background: #F9F6F3;
+            padding: 20px 12px;
+            padding-bottom: 40px;
+        }
+
+        .chart-block_des p {
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #000000;
+            line-height: 28px;
         }
         </style>
-        <section class="sec_info">
-            <div class="_know">
+        <section class="section-chart-block">
+            <div class="chart-block">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-7 m-auto">
-                            <div class="box_seminar">
-                                <h2>今回のオンラインセミナーは<br>こんな方にお勧めします</h2>
-                                <ul>
-                                    <li>
-                                        <p><span>#</span> ここに記載できていない注意点や具体的な見分け方のポイントを知りたい</p>
-                                    </li>
-                                    <li>
-                                        <p><span>#</span> ご希望に応じてこれらを踏まえた実際の物件情報を知りたい</p>
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn">失敗しない中古マンションセミナー</a>
-                            </div>
-                        </div>
+                    <div class="chart-block_title chart-block_bg-color">
+                        <h2>同条件でも2,500万円の差が！</h2>
+                    </div>
+                    <div class="chart-block_chart">
+                        <p class="chart-block_sm-title">新築マンション・築浅マンション・築古+リノベーション総額イメージ</p>
+                        <p class="chart-block_img">
+                            <img class="img-fluid" src="./images/chart-block_img.png" alt="Chart Block" />
+                        </p>
+                    </div>
+                    <div class="chart-block_des">
+                        <p>首都圏の新築マンションの平均価格は約6,100万円！サラリーマンの年収が上がらない中、マンションの価格だけが高騰。</p>
+                        <p>もはや新築は普通のサラリーマンには手が届きにくい状態になっています。</p>
+                        <p>築浅の中古マンションは、新築より割安感はありますが、平均価格4,200万円とこちらも決して安くありません…。</p>
+                        <p>そんな中、注目を集めているのが、築年数20年以降の中古マンションのリノベーション。築古の平均価格が2,700万円なのでフルリノベーションしたとしても合計3,600万円。理想の間取りや内装もかなえられて、しかもお得！とくれば、やらない理由はありませんよね。</p>
                     </div>
                 </div>
             </div>
         </section>
         <style>
         /* CSS Here */
-        @media (max-width: 768px) {
-            section {
-                padding: 30px 0;
-            }
-
-            .nav_top .btn {
-                padding-left: 5px;
-                padding-right: 5px;
-                margin-left: 5px;
-            }
-
-            .nav_top .btn:last-of-type {
-                margin-right: 5px;
-            }
-
-            h2 {
-                font-size: 1em;
-                line-height: 1.8em;
-            }
-
-            ._intro h1 {
-                font-size: 1.5em;
-                line-height: 1.8em;
-            }
-
-            ._intro img {
-                width: 163px;
-            }
-
-            ._intro .box_img_top {
-                height: 300px;
-            }
-
-            ._intro .box_img_top::after {
-                background-size: 40%;
-                bottom: -260px;
-            }
-
-            ._know .box_seminar .btn {
-                padding: 15px;
-                font-size: 0.875em;
-                display: block;
-            }
-
-            ._know {
-                padding: 66px 0;
-            }
+        .chart-scatter_bg-color {
+            background: #F9F6F3;
+            border-radius: 4px;
+            padding: 38px 20px;
+            margin-bottom: 30px;
         }
 
-        @media (max-width: 320px) {
-            .nav_top .btn {
-                font-size: .6em;
-            }
+        .chart-scatter_title h2 {
+            font-weight: 600;
+            font-size: 22px;
+            color: #000000;
+            text-align: center;
+        }
+
+        .chart-scatter_chart {
+            margin-bottom: 20px;
+        }
+
+        .chart-scatter_sm-title {
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: -0.05em;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        .chart-scatter_img {
+            text-align: center;
+        }
+
+        .chart-scatter_des {
+            background: #F9F6F3;
+            padding: 20px 12px;
+            padding-bottom: 40px;
+        }
+
+        .chart-scatter_des p {
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #000000;
+            line-height: 28px;
         }
         </style>
+        <section class="section-chart-scatter">
+            <div class="chart-scatter">
+                <div class="container">
+                    <div class="chart-scatter_title chart-scatter_bg-color">
+                        <h2>売却時にもお得な築古＋リノベ</h2>
+                    </div>
+                    <div class="chart-scatter_chart">
+                        <p class="chart-scatter_sm-title">築年数経過によるマンション価格推移イメージ</p>
+                        <p class="chart-scatter_img">
+                            <img class="img-fluid" src="./images/chart-scatter_img.png" alt="Chart Scatter" />
+                        </p>
+                    </div>
+                    <div class="chart-scatter_des">
+                        <p>あまり知られていないのですが、新築マンションは買った瞬間から資産価値が下がり続けます。</p>
+                        <p>築浅中古もそれは同じ。一般的に築20年ごろまでマンション価格は下がり続けますが、築20年を過ぎる頃から価格は安定し、横ばいになるケースが多いと言われています。</p>
+                        <p>つまり、築20年の築古マンションを買えば、その後の資産価値の下落が抑えられるというメリットがあります。</p>
+                        <p>さらに、リノベーションをする事で、資産価値が向上するのです！</p>
+                        <p> 売却時にもリノベーション済みのマンションの方が買い手が付きやすいのでオススメですよ。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+        /* CSS Here */
+        .chart-circle_bg-color {
+            background: #F9F6F3;
+            border-radius: 4px;
+            padding: 38px 24px;
+            margin-bottom: 30px;
+        }
+
+        .chart-circle_title h2 {
+            font-weight: 600;
+            font-size: 22px;
+            color: #000000;
+            text-align: center;
+        }
+
+        .chart-circle_chart {
+            margin-bottom: 20px;
+        }
+
+        .chart-circle_sm-title {
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: -0.05em;
+            color: #000000;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .chart-circle_img {
+            text-align: center;
+        }
+
+        .chart-circle_des {
+            background: #F9F6F3;
+            padding: 20px 12px;
+            padding-bottom: 40px;
+        }
+
+        .chart-circle_des p {
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #000000;
+            line-height: 28px;
+        }
+        </style>
+        <section class="section-chart-circle">
+            <div class="chart-circle">
+                <div class="container">
+                    <div class="chart-circle_title chart-circle_bg-color">
+                        <h2>物件の選択肢は約60倍</h2>
+                    </div>
+                    <div class="chart-circle_chart">
+                        <p class="chart-circle_sm-title">東京都の物件数をポータルサイトで比較</p>
+                        <p class="chart-circle_img">
+                            <img class="img-fluid" src="./images/chart-circle_img.png" alt="Chart Circle" />
+                        </p>
+                    </div>
+                    <div class="chart-circle_des">
+                        <p>マンションを選ぶときには、エリアや立地から探すことが多いですよね。</p>
+                        <p>ただし、希望のエリアに新築マンションがタイミングよく建つ事はレアケース、そうそうありません。</p>
+                        <p>不動産のポータルサイトを見ると、中古と新築の物件数の差はなんと60倍！</p>
+                        <p>圧倒的に選択肢に差があるのです。中古を選ぶメリットは「希望の条件に合った物件を見つけやすい」ということ。ものすごく古い（汚い）物件でも、リノベーションを視野に入れる事で、選択肢に入ってきます！</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+        /* CSS Here */
+        .conclude {
+            background: #E9F9F6;
+            padding-top: 60px;
+            position: relative;
+            padding-bottom: 80px;
+        }
+
+        .conclude_btn {
+            background: #fff;
+            border-radius: 100px;
+            width: 186px;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: 600;
+            font-size: 22px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+        }
+
+        .conclude_step {
+            display:flex;
+            justify-content:center;
+        }
+
+        .conclude_step ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .conclude_step ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .conclude_step ul li .number {
+            background: #1CBEA1;
+            width: 30px;
+            height: 30px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 200%;
+            color: #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        .conclude_step ul li .txt {
+            font-weight: 600;
+            font-size: 14px;
+            color: #000000;
+        }
+
+        .conclude_des {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .conclude_des p {
+            margin-bottom: 0;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 2;
+            color: #000000;
+        }
+
+        .conclude_btn-action {
+            max-width: 320px;
+            height: 50px;
+            background: #FF7E41;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .conclude_btn-action:hover {
+            color: #ffffff;
+        }
+
+        .conclude_btn-action::after {
+            content: '';
+            position: absolute;
+            right: 15px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: url(images/chevron-right.svg) no-repeat;
+            width: 6px;
+            height: 10px;
+        }
+        </style>
+        <section class="section-conclude">
+            <div class="conclude">
+                <div class="container">
+                    <dic class="btn conclude_btn">結果は…</dic>
+                    <div class="conclude_step">
+                        <ul>
+                            <li>
+                                <span class="number">1</span>
+                                <span class="txt">物件購入価格が安い</span>
+                            </li>
+                            <li>
+                                <span class="number">2</span>
+                                <span class="txt">将来的に資産価値が下がらない</span>
+                            </li>
+                            <li>
+                                <span class="number">3</span>
+                                <span class="txt">希望の物件は中古が見つけやすい</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="conclude_des">
+                        <p>ということから、</p>
+                        <p>「築古＋リノベーション」がベスト！</p>
+                        <p>価格を抑えながらも、</p>
+                        <p>理想の住まいを手に入れられる賢い選択です！</p>
+                    </div>
+                    <a class="btn conclude_btn-action" href="#">○○セミナーはこちら</a>
+                </div>
+            </div>
+        </section>
+        <style>
+        /* CSS Here */
+        .section-our-projects {
+            background: #E9F9F6;
+            padding-bottom: 40px;
+        }
+
+        .our-projects {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background: #fff;
+            margin: 0 12px;
+        }
+
+        .our-projects_title h2 {
+            font-weight: 600;
+            font-size: 22px;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .our-projects_img {
+            margin: 0 -12px 50px;
+        }
+
+        .our-projects_img-caption {
+            font-weight: bold;
+            font-size: 14px;
+            color: #1CBEA1;
+            text-align: center;
+        }
+
+        .our-projects_img:nth-of-type(2) .our-projects_img-full {
+            margin-bottom: 20px;
+            background: url("./images/our-projects-full-1.jpg") no-repeat center;
+            background-size: cover;
+            padding-top: 40.067%;
+        }
+
+        .our-projects_img:nth-of-type(2) .our-projects_img-left {
+            margin-right: 8px;
+            background: url("./images/our-projects-half-1.jpg") no-repeat center;
+            background-size: cover;
+            padding-top: 38.889%;
+            width: calc(100%/2);
+        }
+
+        .our-projects_img:nth-of-type(2) .our-projects_img-right {
+            margin-left: 8px;
+            background: url("./images/our-projects-half-2.jpg") no-repeat center;
+            background-size: cover;
+            padding-top: 38.889%;
+            width: calc(100%/2);
+        }
+
+        .our-projects_img:nth-of-type(3) .our-projects_img-full {
+            margin-bottom: 20px;
+            background: url("./images/our-projects-full-2.jpg") no-repeat center;
+            background-size: cover;
+            padding-top: 40.067%;
+        }
+
+        .our-projects_img:nth-of-type(3) .our-projects_img-left {
+            margin-right: 8px;
+            background: url("./images/our-projects-half-3.jpg") no-repeat center;
+            background-size: cover;
+            padding-top: 38.889%;
+            width: calc(100%/2);
+        }
+
+        .our-projects_img:nth-of-type(3) .our-projects_img-right {
+            margin-left: 8px;
+            background: url("./images/our-projects-half-4.jpg") no-repeat center;
+            background-size: cover;
+            padding-top: 38.889%;
+            width: calc(100%/2);
+        }
+
+        .our-projects_btn-action {
+            max-width: 320px;
+            height: 50px;
+            background: #FF7E41;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .our-projects_btn-action:hover {
+            color: #ffffff;
+        }
+
+        .our-projects_btn-action::after {
+            content: '';
+            position: absolute;
+            right: 15px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: url(images/chevron-right.svg) no-repeat;
+            width: 6px;
+            height: 10px;
+        }
+        </style>
+        <section class="section-our-projects">
+            <div class="our-projects">
+                <div class="container">
+                    <div class="our-projects_title">
+                        <h2>理想を叶える<br>
+                            リノベーション事例</h2>
+                    </div>
+                </div>
+                <div class="our-projects_img">
+                    <p class="our-projects_img-caption">･･･ 人を招きたくなるアイキャッチのある家 ･･･ </p>
+                    <div class="our-projects_img-full"></div>
+                    <div class="d-flex">
+                        <div class="our-projects_img-left"></div>
+                        <div class="our-projects_img-right"></div>
+                    </div>
+                </div>
+                <div class="our-projects_img">
+                    <p class="our-projects_img-caption">･･･ 猫が縦横無尽に遊ぶ家 ･･･ </p>
+                    <div class="our-projects_img-full"></div>
+                    <div class="d-flex">
+                        <div class="our-projects_img-left"></div>
+                        <div class="our-projects_img-right"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a class="btn our-projects_btn-action">セミナーを申し込む</a>
+                </div>
+            </div>
+        </section>
+        <style>
+        /* CSS Here */
+        .section-how-to {
+            background: #fff;
+            margin-bottom: 40px;
+        }
+
+        .how-to {
+            position: relative;
+            z-index: 2;
+            padding-bottom: 40px;
+        }
+
+        .how-to:before {
+            content: '';
+            position: absolute;
+            background: #F9F6F3;
+            left: 15px;
+            right: 15px;
+            top: 125px;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        .how-to_img {
+            margin-top: 40px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .how-to_title h2 {
+            font-weight: 600;
+            font-size: 20px;
+            color: #000000;
+            text-align: center;
+        }
+
+        .how-to_step {
+            background: #fff;
+            margin: 0 35px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .how-to_step ul {
+            list-style: none;
+            padding:0 20px;
+        }
+
+        .how-to_step ul li p {
+            font-weight: 500;
+            font-size: 14px;
+            color: #000000;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .how-to_step ul li span {
+            color: #EB5757;
+            font-size: 18px;
+            line-height: 1.2;
+            position: absolute;
+            left:0;
+            top:0;
+        }
+        .how-to_video{
+            text-align:center;
+            margin-bottom: 40px;
+        }
+
+        .how-to_btn-action {
+            max-width: 320px;
+            height: 50px;
+            background: #FF7E41;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .how-to_btn-action:hover {
+            color: #ffffff;
+        }
+
+        .how-to_btn-action::after {
+            content: '';
+            position: absolute;
+            right: 15px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: url(images/chevron-right.svg) no-repeat;
+            width: 6px;
+            height: 10px;
+        }
+        </style>
+        <section class="section-how-to">
+            <div class="how-to">
+                <div class="container">
+                    <div class="how-to_img">
+                        <img class="img-fluid" src="./images/how-to-1.png" alt="how to" />
+                    </div>
+                    <div class="how-to_title">
+                        <h2>ログリノベって</h2>
+                    </div>
+                    <div class="how-to_step">
+                        <ul>
+                            <li>
+                                <p><span>#</span> 安心の定額リノベーション</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> 中古物件の仲介手数料無料！</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> 施工実績1,500件！<br>業界トップクラスの経験</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> ご希望に応じてこれらを踏まえた実際の物件情報を知りたい</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> 物件探しからアフターフォロー迄をすべて弊社でご案内</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="how-to_video">
+                    <img class="img-fluid" src="./images/how-to-video.jpg" alt="video" />
+                </div>
+                <div class="container">
+                     <a class="btn how-to_btn-action">セミナーを申し込む</a>
+                </div>
+            </div>
+        </section>
+        <style>
+            .find{
+                background:#D5FFF6;
+                padding-bottom: 40px;
+            }
+            .find_title h2{
+                background:#1CBEA1;
+                font-weight: 600;
+                font-size: 20px;
+                color: #FFFFFF;
+                padding:18px 0;
+                text-align: center;
+            }
+            .find_sm-title{
+                font-weight: 600;
+                font-size: 16px;
+                color: #000000;
+                text-align: center;
+                line-height: 1.2;
+            }
+            .find_sm-title .number{
+                font-weight: 600;
+                font-size: 36px;
+                color: #11B799;
+            }
+            .find_sm-title .txt{
+                color: #11B799;
+            }
+            .find_img{
+                position: relative;
+                z-index: 2;
+                max-width: 698px;
+                margin:0 auto 15px;
+            }
+            .find_img:before{
+                content:'';
+                background: #fff;
+                position: absolute;
+                left:0;
+                right:0;
+                bottom: 0;
+                z-index: -1;
+                height: 100px;
+            }
+            .find_img_des{
+                margin-top: 15px;
+                text-align:center;
+                padding-bottom: 20px;
+            }
+            .find_img_des p{
+                font-weight: 600;
+                font-size: 16px;
+                color: #11B799;
+                margin-bottom: 0;
+
+            }
+            .find_btn-action {
+                max-width: 320px;
+                height: 50px;
+                background: #FF7E41;
+                border-radius: 4px;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #FFFFFF;
+                position: relative;
+                margin: 0 auto;
+            }
+
+            .find_btn-action:hover {
+                color: #ffffff;
+            }
+
+            .find_btn-action::after {
+                content: '';
+                position: absolute;
+                right: 15px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: url(images/chevron-right.svg) no-repeat;
+                width: 6px;
+                height: 10px;
+            }
+
+        </style>
+        <section class="section-find">
+            <div class="find">
+                <div class="find_title">
+                    <h2>まずは気軽にLINEでリノベ診断！</h2>
+                </div>
+                <div class="container">
+                    <p class="find_sm-title">
+                        <span class="number">４</span><span class="txt">問</span> の質問に答えるだけで<br>
+                        あなたに合わせた事例や情報をお届け！ 
+                    </p>
+                    <div class="find_img">
+                        <img class="img-fluid" src="./images/find-1.png" alt="find">
+                        <div class="find_img_des">
+                            <p>LINEから無料相談会にお申込みOK！</p>
+                            <p>チャットで専門家に質問できます！</p>
+                        </div>
+                    </div>
+                    <a class="btn find_btn-action">セミナーを申し込む</a>
+                </div>
+            </div>
+        </section>
+        <style> 
+            /* CSS Here */
+            .section-contact-us{
+                background: #F9F6F3;
+                padding-top: 40px;
+                padding-right:15px;
+                padding-left: 15px;
+                padding-bottom: 40px;
+            }
+            .contact-us{
+                background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #E9F9F6;
+                border-radius: 4px;
+                padding-top: 95px;
+                position: relative;
+                padding-bottom: 40px;
+            }
+            .contact-us_title{
+                text-align:center;
+                position: absolute;
+                top:40px;
+                left:50%;
+                transform:translateX(-50%);
+                width: 100%;
+            }
+            .contact-us_title h2{
+                font-weight: 600;
+                font-size: 20px;
+                color: #000000;
+                line-height: 36px;
+            }
+            .contact-us_img{
+                margin:0 -15px;
+                background: url("./images/contact-us.png") no-repeat center;
+                background-size: cover;
+                padding-top: calc(63.2% + 19px);
+            }
+            .contact-us_step {
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .contact-us_step ul {
+                list-style: none;
+                padding:0 20px;
+            }
+
+            .contact-us_step ul li p {
+                font-weight: 500;
+                font-size: 14px;
+                color: #000000;
+                margin-bottom: 10px;
+                position: relative;
+                padding-left: 15px;
+            }
+
+            .contact-us_step ul li span {
+                color: #EB5757;
+                font-size: 18px;
+                line-height: 1.2;
+                position: absolute;
+                left:0;
+                top:0;
+            }
+            .contact-us_des{
+                margin-bottom: 30px;
+            }
+            .contact-us_des p{
+                margin-bottom: 0;
+                text-align:center;
+                font-weight: 500;
+                font-size: 14px;
+                color: #000000;
+            }
+            .contact-us_btn-action {
+                max-width: 320px;
+                height: 50px;
+                background: #FF7E41;
+                border-radius: 4px;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #FFFFFF;
+                position: relative;
+                margin: 0 auto;
+            }
+
+            .contact-us_btn-action:hover {
+                color: #ffffff;
+            }
+
+            .contact-us_btn-action::after {
+                content: '';
+                position: absolute;
+                right: 15px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: url(images/chevron-right.svg) no-repeat;
+                width: 6px;
+                height: 10px;
+            }
+
+
+        </style>
+        <section class="section-contact-us">
+            <div class="contact-us">
+                <div class="container">
+                    <div class="contact-us_title">
+                        <h2>直接コーディネーターに<br>
+                            相談してみる</h2>
+                    </div>
+                </div>    
+                <div class="contact-us_img"></div>
+                <div class="container">
+                    <div class="contact-us_step">
+                        <ul>
+                            <li>
+                                <p><span>#</span> 安心の定額リノベーション</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> 中古物件の仲介手数料無料！</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> 施工実績1,500件！<br>業界トップクラスの経験</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> ご希望に応じてこれらを踏まえた実際の物件情報を知りたい</p>
+                            </li>
+                            <li>
+                                <p><span>#</span> 物件探しからアフターフォロー迄をすべて弊社でご案内</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-us_des">
+                        <p>わたしたちがお客様のご要望に合わせて、</p>
+                        <p>お話をさせて頂きます！</p>
+                        <p>4月25日まで限定で仲介手数料無料</p>
+                        <p>キャンペーンも実施中です！</p>
+                    </div>
+                    <a class="btn contact-us_btn-action">オンライン無料相談会</a>
+                </div>
+            </div>
+        </section>
     </main>
     <style>
     /* CSS Here */
@@ -437,7 +1148,9 @@
         padding: 40px 0 15px;
         text-align: center;
     }
-
+    footer a {
+        color:#fff;
+    }
     footer ul {
         margin: 20px 0;
         padding: 0;
@@ -485,7 +1198,7 @@
     }
 
     footer .footer_bottom {
-        border-top: 1px solid #fff;
+        border-top: 1px solid rgba(255,255,255,.5);
         padding: 15px 0 0;
         margin-top: 30px;
     }
