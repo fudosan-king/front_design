@@ -82,20 +82,117 @@
                     <div class="splide__track">
                         <div class="splide__list">
                             <div class="splide__slide">
-                                <div class="detail_slide-img">
-                                    <img src="./images/1x/details-2.jpg" alt="" title="">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="splide__slide">Slide 02</div>
-                            <div class="splide__slide">Slide 03</div>
+                            <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>  
+                                <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="detail_slide-box">
+                                    <div class="detail_slide-img">
+                                        <img src="./images/1x/details-2.jpg" alt="" title="">
+                                    </div>
+                                    <div class="details_slide-txt">
+                                        <p>【参考CGパース】</p>
+                                        <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
+                                        <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="details_slide-txt">
-                    <p>【参考CGパース】</p>
-                    <p>室内の大半を占めるフローリングには自然素材である天然無垢材を取り入れました。</p>
-                    <p>紫外線の吸収、音の緩和、天然香など、五感に優しい癒やしを与えてくれます。</p>
-                </div>
+                
                 <div class="detail_splide-slider js-detail-furniture">
                     <div class="splide__track">
                         <div class="splide__list">

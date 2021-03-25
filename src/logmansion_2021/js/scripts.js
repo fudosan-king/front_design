@@ -113,10 +113,10 @@ $(function($) {
                 cover       : true,
                 breakpoints : {
                     767: {
-                       gap: 5,
+                       gap: 0,
                     },
-                    320: {
-                        fixedWidth  : 90,
+                    374: {
+                        fixedWidth  : 83,
                         fixedHeight : 55,
                         gap: 0,
                     },
@@ -126,11 +126,12 @@ $(function($) {
             // Create the main slider.
             var primarySlider = new Splide( '.js-primary-detail-furniture', {
                 type       : 'fade',
-                heightRatio: 0.5,
+                rewind      : true,
+                // heightRatio: 0.5,
                 pagination : false,
                 arrows     : true,
-                cover      : true,
-                fixedHeight : '66.31%',
+                // cover      : true,
+                // fixedHeight : '66.31%',
                 breakpoints : {
                     767: {
                        arrows: false,
