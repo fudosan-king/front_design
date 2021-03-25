@@ -7,6 +7,12 @@
     
     .navbar-brand{
         max-width: 208px;
+        span{
+            margin-left:10px;
+            font-weight: 500;
+            font-size: 0.75rem;
+            color: #5B5658;
+        }
     }
 
     .nav_menu-list {
@@ -108,4 +114,25 @@
 @keyframes top-to-bottom {
   0%   {top:-200px;}
   100% {top:0;}
+}
+
+
+@media(max-width:767px){
+    .nav_menu {
+        .navbar-brand{
+            span{
+                font-size: 0.375rem;
+            }
+        }
+    }
+}
+
+@media(max-width:374px){
+    .nav_menu {
+        .navbar-brand{
+            span{
+                display: block;
+            }
+        }
+    }
 }

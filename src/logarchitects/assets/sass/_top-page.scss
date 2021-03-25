@@ -142,6 +142,10 @@
 			letter-spacing: 0.1em;
 			color: $cl-black;
 			text-align:center;
+			margin-bottom: 50px;
+			&:last-child{
+				margin-bottom: 90px;
+			}
 		}
 	}
 }
@@ -186,6 +190,11 @@
 		display: flex;
 		align-items:center;
 	    flex-flow: nowrap;
+		.about-us_img{
+			max-width:163px;
+			margin-left:auto;
+			margin-bottom: 10px;
+		}
 		.about-us_content{
 	    	width: 50%;
     		max-width: 619px;
@@ -196,11 +205,11 @@
 			margin-left: auto;
 		}
 		.about-us_title{
-			text-align: right;
 			font-weight: 600;
-			font-size: 1.125rem;
+			font-size: 2.25rem;
+			letter-spacing: -0.05em;
 			color: #333333;
-			margin-bottom: 10px;
+			
 			.about-us_sm-title{
 				font-size: 0.875rem;
 				font-weight:normal;
@@ -278,3 +287,16 @@
 	}
 }
 
+
+@media (max-width:768px){
+	.lists-bg-gray{
+		.top-page-corporate_des{
+			p{
+				margin-bottom: 40px;
+				&:last-child{
+					margin-bottom: 60px;
+				}
+			}
+		}
+	}
+}

@@ -3,6 +3,7 @@
 		<nav class="navbar navbar-expand-lg">
 	        <a class="navbar-brand" href="#">
 	        	<img class="" src="./images/1x/logo-architects.png" alt="" title="" />
+	        	<span>卓越したリノベーション技術と建物診断力</span>
 	        </a>
 	        <button class="navbar-toggler js-menu" type="button" >
 	            <span class="nav-toggler-line"></span>
