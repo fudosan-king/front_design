@@ -286,31 +286,30 @@
                 <p class="sm-title-top">CORPORATE MESSAGE</p>
                 メッセージタイトルが入ります<span class="d-md-block">メッセージタイトル…</span></h2>
             <div class="top-page-corporate_des">
-                <p>「Happy Families in the Zoo / 動物園に暮らす家族」というコーポレートビジュアル。
-                <span class="d-md-block">－動物園にだって住める－その自由な発想力と、</span>
-                <span class="d-md-block">ロマンある空間を具現化する創造力を表現しています。</span>
-                <span class="d-md-block">私たちは、常に探究・発想し、</span>
-                <span class="d-md-block">一つ一つのニーズに真摯に向き合い、本当に良いと思えるものを作り続けていきます。</span>
-                <span class="d-md-block">これまでもそしてこれからも。</span></p>
+                <p>ログアーキテクツは新しい建物を造るだけの建築会社ではなく、
+                    <span class="d-block">「持続可能な社会」に貢献する会社でありたいと考えます。</span>
+                </p>
+                <p>
+                    その想いを具現化したのが「リノベーション事業」です。
+                    <span class="d-block">人口減少局面を迎えた日本において、新しい物件を造り続けるのは得策ではありません。</span>
+                    <span class="d-block">古い住宅を再生するリノベーションこそ、</span>
+                    <span class="d-block">住まい方の新しいスタンダードになると、私たちは信じています。</span>
+                </p>
+                <p>
+                    そしてもうひとつ。20年以上にわたる診断実績を持つ「建物診断事業」も
+                    <span class="d-block">「持続可能な社会」にいち早く対応したスタイルだと自負しています。</span>
+                    <span class="d-block">建物をしっかり診断し、適切なメンテナンスを適切な時期に施すことで、</span>
+                    <span class="d-block">古い建物も効率的かつ大切に使うことができるのです。</span>
+                    <span class="d-block">これを遂行するのに必要な「建物診断力」と「施工技術力」を併せ持つ点が</span>
+                    <span>ログアーキテクツの特徴でもあります。</span>
+                </p>
+                <p>
+                    私たちログアーキテクツは、「住」のプロとして
+                    <span class="d-block">２つの事業で「持続可能な社会」の実現に貢献していきます。</span>
+                </p>
             </div>
             <div class="news-group">
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="news-item">
-                            <div class="news-item_img">
-                                <a href="#" rel="" target="">
-                                    <img src="./images/1x/top-page-cor-1.jpg" alt="" title="" />
-                                </a>
-                            </div>
-                            <div class="news-item_ct">
-                                <a href="#" rel="" target="">
-                                    <h4 class="news-item_title i-arrows">MESSAGE</h4>
-                                </a>
-                                <p class="news-item_des i-arrows">代表者挨拶</p>
-
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="news-item">
                             <div class="news-item_img">
@@ -323,6 +322,22 @@
                                     <h4 class="news-item_title i-arrows">COMPANY</h4>
                                 </a>
                                 <p class="news-item_des i-arrows">会社概要</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="news-item">
+                            <div class="news-item_img">
+                                <a href="#" rel="" target="">
+                                    <img src="./images/1x/top-page-cor-1.jpg" alt="" title="" />
+                                </a>
+                            </div>
+                            <div class="news-item_ct">
+                                <a href="#" rel="" target="">
+                                    <h4 class="news-item_title i-arrows">HISTORY</h4>
+                                </a>
+                                <p class="news-item_des i-arrows">沿革</p>
                             </div>
                         </div>
                     </div>
@@ -335,31 +350,32 @@
                             </div>
                             <div class="news-item_ct">
                                 <a href="#" rel="" target="">
-                                    <h4 class="news-item_title i-arrows">HISTORY</h4>
+                                    <h4 class="news-item_title i-arrows">IR</h4>
                                 </a>
-                                <p class="news-item_des i-arrows">沿革</p>
+                                <p class="news-item_des i-arrows">電子公告・決算公告</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a class="btn btn-mansion btn-black btn-lg-mansion js-view-more-news">VIEW MORE<span class="btn-line"></span></a>
         </div>
     </div>
 </section>
 <section class="section-top-page-business">
     <div class="container">
-        <h2>BUSINESS<p class="sm-title">事業内容</p></h2>
+        <!-- <h2>BUSINESS<p class="sm-title">事業内容</p></h2> -->
     </div>
      <div class="business_block">
         <div class="about-us">
             <div class="about-us_content">
-                <div class="about-us_img">
-                    <img src="./images/1x/logo-renove.png" alt="" title="" />
-                </div>
                 <h4 class="about-us_title">
                     リノベーション事業
                     <p class="about-us_sm-title"></p>
                 </h4>
+                <div class="about-us_img">
+                    <img src="./images/1x/logo-renove.png" alt="" title="" />
+                </div>
                 <div class="about-us_des">
                     <p>無垢材の製材から、リノベーションの設計、施工、アフターサービスまですべて自社で行うリノベーションブランド、「LogRenove」を展開しています。無垢材のリノベーションの工程をすべて自社でまかなうことで、コスト、施工期間の圧縮を実現。無垢材のリノベーションをパッケージ化した画期的なビジネスモデルとして注目を集めています。</p>
                 </div>
@@ -378,13 +394,13 @@
                 <img class="d-block d-lg-none" src="./images/2x/top-page-business-sp-4.png" alt="" title=""/>
             </div>
             <div class="about-us_content k img-right">
-                <div class="about-us_img">
-                    <img src="./images/1x/demo.jpg" alt="" title="" />
-                </div>
                 <h4 class="about-us_title">
                     建物診断事業
                     <p class="about-us_sm-title"></p>
                 </h4>
+                <div class="about-us_img">
+                   <!--  <img src="./images/1x/demo.jpg" alt="" title="" /> -->
+                </div>
                 <div class="about-us_des">
                     <p>戸建から、マンション、商業ビル、オフィスビルまで、幅広く建物診断・調査を行っています。「雨漏り、漏水診断」「劣化診断」「耐震診断」の側面から建物のコンディションをチェック。お客様が安心してお使いになれるように、わかりやすく親身になった診断、調査をモットーにしています。</p>
                 </div>
