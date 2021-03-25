@@ -309,8 +309,8 @@
                 </p>
             </div>
             <div class="news-group">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4"> 
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -324,8 +324,8 @@
                                 <p class="news-item_des i-arrows">会社概要</p>
 
                             </div>
-                        </div>
-                    </div>
+                        </div> 
+                   </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="news-item">
                             <div class="news-item_img">
@@ -341,7 +341,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                   <!--  <div class="col-md-6 col-lg-4">
                         <div class="news-item">
                             <div class="news-item_img">
                                 <a href="#" rel="" target="">
@@ -355,7 +355,7 @@
                                 <p class="news-item_des i-arrows">電子公告・決算公告</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <a class="btn btn-mansion btn-black btn-lg-mansion js-view-more-news">VIEW MORE<span class="btn-line"></span></a>
