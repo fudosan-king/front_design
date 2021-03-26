@@ -1639,6 +1639,52 @@ img {
     bottom: -96px;
 }
 
+@media (max-width: 767px) {
+    .g-slideshow {
+        padding-bottom: 40px;
+    }
+
+    .g-slideshow:before {
+        height: unset;
+    }
+
+    .g-slideshow .splide .splide-item {
+        padding-top: 94.2%;
+    }
+
+    .g-slideshow .slideshow-text {
+        bottom: 20px;
+    }
+
+    .g-slideshow .slideshow-text h2 {
+        font-size: calc(48px + 62 * ((100vw - 375px) / 392));
+    }
+
+    .g-slideshow .slideshow-text h2 .des-title {
+        font-size: calc(16px + 14 * ((100vw - 375px) / 392));
+    }
+}
+
+@media (max-width: 425px) {
+    .g-slideshow .slideshow-text h2 {
+        font-size: calc(40px + 8 * ((100vw - 320px) / 54));
+    }
+
+    .g-slideshow .slideshow-text .img-txt {
+        padding-right: 47% !important;
+    }
+}
+
+@media (max-width: 374px) {
+    .g-slideshow .slideshow-text h2 {
+        font-size: calc(40px + 8 * ((100vw - 320px) / 54));
+    }
+
+    .g-slideshow .slideshow-text h2 .des-title {
+        font-size: calc(16px + 0 * ((100vw - 320px) / 54));
+    }
+}
+
 /*End Slide Show - 23-03-2021 */
 footer ul li a.nav-link {
     font-weight: 600;

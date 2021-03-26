@@ -1,24 +1,5 @@
 @import 'variables';
 
-//----------------------------------------------//
-// *Response Font Size                          //
-//----------------------------------------------//
-@function strip-unit($value) {
-    @return $value / ($value * 0 + 1);
-}
-
-@mixin fluid-font-size($min-vw, $max-vw, $min-font-size, $max-font-size) {
-    $u1: unit($min-vw);
-    $u2: unit($max-vw);
-    $u3: unit($min-font-size);
-    $u4: unit($max-font-size);
-
-    @if $u1==$u2 and $u1==$u3 and $u1==$u4 {
-        & {
-            font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
-        }
-    }
-}
 
 @media(max-width:1270px) {
     .section-slideshow-details {
@@ -253,10 +234,6 @@
         }
     }
 
-   
-
-    
-
 }
 
 
@@ -268,31 +245,6 @@
     .nav_menu {
         .navbar-brand {
             max-width: 125px;
-        }
-    }
-
-    /* SlideShow */
-    .g-slideshow {
-        padding-bottom: 40px;
-
-        &:before {
-            height: unset;
-        }
-
-        .splide {
-            .splide-item {
-                padding-top: 94.2%;
-            }
-        }
-
-        .slideshow-text {
-            bottom: 20px;
-
-            h2 {
-                @include fluid-font-size(375px, 767px, 48px, 110px);
-            }
-
-            .img-txt {}
         }
     }
 
@@ -492,19 +444,6 @@
 
 @media (max-width: 425px) {
 
-    /* SlideShow */
-    .g-slideshow {
-        .slideshow-text {
-            h2 {
-                @include fluid-font-size(320px, 374px, 40px, 48px);
-            }
-
-            .img-txt {
-                padding-right: 47% !important;
-            }
-        }
-    }
-
     /*Top Page */
     .top-page-slideshow {
         .g-slideshow {
@@ -536,15 +475,6 @@
                 p {
                     padding-right: 25px;
                 }
-            }
-        }
-    }
-
-    /* SlideShow */
-    .g-slideshow {
-        .slideshow-text {
-            h2 {
-                @include fluid-font-size(320px, 374px, 40px, 48px);
             }
         }
     }

@@ -10,7 +10,14 @@
                         <!-- Items -->
                         <div class="splide__slide">
                             <div class="splide-item " style="background-image: url(./images/2x/top-page-slide-1.jpg);"></div>
-                            <!-- <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-sp-1.jpg);"></div> -->
+                        </div>
+                        <!-- Items -->
+                        <div class="splide__slide">
+                            <div class="splide-item " style="background-image: url(./images/2x/top-page-slide-2.jpg);"></div>
+                        </div>
+                        <!-- Items -->
+                        <div class="splide__slide">
+                            <div class="splide-item " style="background-image: url(./images/2x/top-page-slide-3.jpg);"></div>
                         </div>
                     </div>
                 </div>
