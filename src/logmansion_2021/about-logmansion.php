@@ -87,7 +87,7 @@
                 <div class="col-lg-6">
                     <div class="about_des right">
                         <p class="about_des_title-sm">ABOUT LogMansion #01</p>
-                        <h3>好立地と質感を両立させた<span>新発想の都市型マンション</span></h3>
+                        <h3>天然無垢材の香りに包まれる<span>都心のラグジュアリーマンション</span></h3>
                         <p>ログマンションの特徴のひとつが立地のよさ。<br>
                             東京都心を中心に、利便性とステイタスを兼ね備えたエリアで展開しています。<br>
                             交通至便で都会的なロケーションに位置しながら、<br>
@@ -109,7 +109,7 @@
                 <div class="col-lg-6">
                     <div class="about_des left">
                         <p class="about_des_title-sm">ABOUT LogMansion #02</p>
-                        <h3>10年1500件超の無垢材施工実績<span>圧倒的な質の高さと信頼性</span></h3>
+                        <h3>圧倒的な質の高さと信頼性を物語る<span>15年2000件のリノベーション実績</span></h3>
                         <p>ログマンションは物件の買取から、リノベーションのデザイン、施工、販売まですべてグループ内で一貫して行っています。<br>
                             さらに、ログマンションの特徴である、天然無垢材も自社生産。<br>
                             製材から流通、施工まですべて自社で一貫しています。<br>
@@ -128,8 +128,8 @@
         </div>
         <div id="about_logmansion_03" class="about">
             <div class="about_img">
-                <img class="d-none d-md-block" src="./images/1x/about-service-5.jpg" alt="" title="" />
-                <img class="d-md-none d-block" src="./images/2x/about-service-sp-5.jpg" alt="" title="" />
+                <img class="" src="./images/1x/about-service-5.jpg" alt="" title="" />
+                <!-- <img class="d-md-none d-block" src="./images/2x/about-service-sp-5.jpg" alt="" title="" /> -->
             </div>
             <div class="row flex-row-reverse flex-lg-row align-items-end">
                 <div class="col-lg-6">
