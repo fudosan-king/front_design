@@ -16,10 +16,9 @@
                 </div>
             </div>
             <div class="slideshow-text">
-                <div class="img-txt pr-0">
-                    <img class="d-none d-md-block" src="./images/1x/txt-owned-property.png" alt="" tilte="" />
-                    <img class="d-block d-md-none" src="./images/2x/owned-property-slide-txt-sp.png" alt="" tilte="" />
-                </div>
+                <h2>
+                    Owned Property
+                </h2>
             </div>
         </div>
         <div class="sm-title">
