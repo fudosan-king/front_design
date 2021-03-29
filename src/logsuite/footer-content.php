@@ -24,10 +24,51 @@
 		        		<li class="nav-item"><a class="nav-link" href="#">法人のお客様 （社有物件一覧表）</a></li>
 		        	</ul>
 	        	</div>
-	        	<div class="copyright">
-                    <p>Copyright © LogSuite. All Rights Reserved.</p>
-	        	</div>
+	        	
 	     	</div>
+
+            <div class="footer-bottom_ct">
+                <div class="footer-bottom_ct-l"></div>
+                <div class="footer-bottom_ct-r">
+                    <div class="footer-bottom_ct-box">
+                        <p>プロポライフグループ</p>
+                        <ul class="nav this-pc">
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社ログスイート</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社ログアーキテクツ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社プロスタイル</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">千野建物管理株式会社</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">煙台提案生活木業有限公司</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">PROPOLIFE VIETNAM</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社小滝野</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社プロスタイル旅館</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社沖縄イゲトー</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">LogKnot株式会社</a></li>
+                        </ul>
+                        <ul class="nav this-sp">
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社ログスイート</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">PROPOLIFE VIETNAM</a></li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社ログアーキテクツ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社小滝野</a></li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社プロスタイル</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社プロスタイル旅館</a></li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">千野建物管理株式会社</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">株式会社沖縄イゲトー</a></li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">煙台提案生活木業有限公司</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">LogKnot株式会社</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+             </div>
+
+            <div class="copyright">
+                <p>Copyright © LogSuite. All Rights Reserved.</p>
+            </div>
+
     	</div>
     </div>
 </footer>
