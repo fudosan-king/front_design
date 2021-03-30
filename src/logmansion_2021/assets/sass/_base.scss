@@ -917,10 +917,23 @@ img {
     .promotion-item_des {
         font-size: 0.875rem;
         color: $promotion-cl-white;
-
         @media(max-width: 767px) {
             padding-right: 25px;
             margin-bottom: 40px;
+        }
+    }
+}
+
+
+.promotion-video{
+    .promotion-item_des {
+        font-size: 0.875rem;
+        color: $promotion-cl-white;
+        margin-top: 10px;
+        @media(max-width: 767px) {
+            padding-right: 25px;
+            margin-bottom: 40px;
+
         }
     }
 }

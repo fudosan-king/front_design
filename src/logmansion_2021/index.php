@@ -290,6 +290,7 @@
                             <div class="promotion-video_img">
                                 <a href="#" rel="" target="">
                                     <img src="./images/1x/top-page-video.jpg" alt="" title="" />
+                                    <p class="promotion-item_des">都心に位置する、構造がしっかりしていて、管理状態に優れた物件をログスイート社が購入、約3カ月のリノベーション期間を経て、ログマンションとして再生させます。ログマンションが誕生するまでの3カ月間を定点撮影して、動画にまとめました。</p>
                                 </a>
                             </div>
                         </div>
