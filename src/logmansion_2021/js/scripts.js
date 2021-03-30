@@ -235,9 +235,12 @@ function log_mainsion() {
         const promotion_parent = $('.section-top-page-content .promotion .col-md-6:nth-child(even)');
         const promotion_title = $('.promotion-item_title',promotion_parent);
         const promotion_des = $('.promotion-item_des',promotion_parent);
+     
 
         const news_parent = $('.section-top-page-services .news-group .col-md-6:nth-child(even)');
         const news_title = $('.news-item_title',news_parent);
+
+
 
         const news_opt = {
             title: news_title

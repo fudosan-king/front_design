@@ -1204,6 +1204,19 @@ img {
     }
 }
 
+.promotion-video .promotion-item_des {
+    font-size: 0.875rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .promotion-video .promotion-item_des {
+        padding-right: 25px;
+        margin-bottom: 40px;
+    }
+}
+
 /* News Item */
 .news-group .col-md-6:nth-child(3n+2) .news-item {
     margin: 0 auto;
@@ -2065,8 +2078,8 @@ footer .copyright p {
     font-size: 0.875rem;
     line-height: 200%;
     color: #ffffff;
-    padding-right: 5px;
     margin-bottom: 20px;
+    padding-right: 25px;
 }
 
 .section-top-page-content .promotion-video p:last-child {
