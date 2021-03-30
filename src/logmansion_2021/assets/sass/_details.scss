@@ -153,7 +153,9 @@
         width: 100%;
         padding-left: 50px;
         padding-right: 50px;
-
+        .splide__slide{
+            overflow:hidden;
+        }
         .splide__slide.is-active {
             border: none;
         }
@@ -290,9 +292,8 @@
 }
 
 .detail-utilities_plan {
-    display: flex;
-    justify-content: center;
     margin-bottom: 94px;
+    text-align: center;
 }
 
 .detail-utilities_overview {

@@ -721,7 +721,8 @@ img {
         box-shadow: 0px 20px 50px $cl-shadow-black-25;
         max-width: 370px;
         margin: 0 auto;
-
+        max-height: 250px;
+        overflow: hidden;
         @media (max-width: 375px) {
             box-shadow: 20px 20px 30px $cl-shadow-black-25;
         }
