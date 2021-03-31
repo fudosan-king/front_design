@@ -9,13 +9,13 @@
                     <div class="splide__list">
                         <!-- Items -->
                         <div class="splide__slide">
-                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/company_top.jpg);">
+                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/company-top.jpg);">
                                 <div class="slideshow_caption">
                                     <h1>COMPANY</h1>
                                     <p>Company overview</p>
                                 </div>
                             </div>
-                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/company_top_sp.jpg);">
+                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/company-top-sp.jpg);">
                                 <div class="slideshow_caption">
                                     <h1>COMPANY</h1>
                                     <p>Company overview</p>
