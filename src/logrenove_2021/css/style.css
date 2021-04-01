@@ -69,39 +69,54 @@ header {
 
 .main_nav {
     margin-bottom: 30px;
-    background: #f8f9fa;
-    position: relative;
-    overflow: hidden;
-}
-
-.main_nav #myTab {
+    background: #8C7D5E;
     position: relative;
 }
 
-.main_nav #myTab:before, .main_nav #myTab:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 1px;
-    background: #dee2e6;
-    bottom: -1px;
+.main_nav .nav-tabs {
+    border-bottom: none;
 }
 
-.main_nav #myTab:before {
-    left: -100%;
+.main_nav .nav-tabs li {
+    border-right: 1px solid #aba0a0;
+    position: relative;
 }
 
-.main_nav #myTab:after {
-    right: -100%;
+.main_nav .nav-tabs li a span {
+    position: relative;
+    z-index: 10;
 }
 
 .main_nav .nav-tabs li a.nav-link {
     font-size: 0.875em;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    padding: 17px 30px;
+    position: relative;
+    z-index: 2;
+    transition: padding 0.2s ease, margin 0.2s ease;
 }
 
-.main_nav .nav-tabs li a:hover {
+.main_nav .nav-tabs li a.nav-link.active {
+    color: #333;
+}
+
+.main_nav .nav-tabs li a.nav-link.active span {
+    top: -3px;
+}
+
+.main_nav .nav-tabs li a.nav-link.active:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -5px;
+    width: 100%;
+    height: 106%;
     background: #fff;
+    border: 1px solid #8C7D5E;
+    border-bottom: none;
 }
 
 .top_article article {
@@ -130,9 +145,7 @@ header {
 
 .mid_article article {
     background: #fff;
-    margin-bottom: 15px;
-    border-radius: 3px;
-    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 
@@ -151,7 +164,7 @@ header {
 
 .mid_article article p {
     margin-bottom: 0;
-    padding-right: 30px;
+    padding: 0 15px;
 }
 
 .mid_article article p a:hover {
@@ -417,7 +430,7 @@ footer .footer_bottom p {
 }
 
 footer .footer_contact {
-    border-top: 1px solid #fff;
+    border-top: 1px solid #8C7D5E;
     background: #8C7D5E;
     display: flex;
     flex-direction: row;
@@ -437,6 +450,7 @@ footer .footer_contact a {
 
 footer .footer_contact a:nth-of-type(2) {
     background: #ffd639;
+    border-right: 1px solid #8C7D5E;
 }
 
 footer .footer_contact a:nth-of-type(3) {
@@ -511,7 +525,7 @@ footer .footer_contact a:nth-of-type(3) {
     }
 
     .main_nav .nav-tabs li a.nav-link {
-        padding: 10px 5px;
+        padding: 15px 5px;
         font-size: 0.75em;
     }
 
@@ -529,16 +543,17 @@ footer .footer_contact a:nth-of-type(3) {
     }
 
     .mid_article article .box_article_img {
-        height: 230px;
+        height: 100px;
     }
 
     .mid_article article .box_article_img img {
-        height: 230px;
+        height: 100px;
     }
 
     .mid_article article p {
-        padding: 10px;
         line-height: 1.5em;
+        padding: 0 15px;
+        font-size: 0.875em;
     }
 
     .footer_article article .box_article_img {
@@ -553,6 +568,14 @@ footer .footer_contact a:nth-of-type(3) {
         padding: 10px;
         font-size: 0.875em;
         line-height: 1.5em;
+    }
+
+    footer .footer_top ul.list_social {
+        margin: 20px 0;
+    }
+
+    footer .footer_top ul.list_menufooter li {
+        display: block;
     }
 
     footer .footer_bottom {
