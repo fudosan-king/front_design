@@ -69,7 +69,7 @@
             ノウハウ満載！<br>リノベーション事例集
         </a>
         <a href="#" class="flex-fill">
-            かんたんリノベ診断<br>LINE公開アカウント
+            かんたんリノベ診断<br>LINE公式アカウント
         </a>
     </div>
 </footer>
