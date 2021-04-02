@@ -62,7 +62,7 @@
         </div>
     </section>
     <div class="footer_contact d-flex d-lg-none fixed-bottom">
-        <a href="#main_article" data-scroll>
+        <a href="#header" data-scroll>
             <img src="images/icon/ico.svg" alt="" class="img-fluid" width="30">
         </a>
         <a href="#" class="flex-fill">
