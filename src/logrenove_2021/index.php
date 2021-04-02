@@ -3,7 +3,15 @@
 <?php include('head.php'); ?>
 
 <body>
-    <?php include('header.php'); ?>
+    
+    <header id="header">
+        <div class="top_header">
+            <div class="container">
+                <a href="index.php" class="navbar-brand"><img src="https://www.logrenove.jp/wp-content/themes/logrenove/assets/images/1x/logo_.svg" class="img-fluid" width="257"></a>
+            </div>
+        </div>
+    </header>
+
     <main>
         <div id="main_article" class="main_article">
             <div class="main_nav">
