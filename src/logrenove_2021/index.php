@@ -3,15 +3,7 @@
 <?php include('head.php'); ?>
 
 <body>
-    <header class="bg-faded bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-12">
-                    <a href="index.php"><img src="images/LogRenove.svg" alt="" class="img-fluid" width="257"></a>      
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include('header.php'); ?>
     <main>
         <div id="main_article" class="main_article">
             <div class="main_nav">
