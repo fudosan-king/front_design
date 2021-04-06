@@ -12,6 +12,7 @@
                             <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/slide-about-1.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/slide-about-sp-1.jpg);"></div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
