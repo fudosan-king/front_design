@@ -39,6 +39,9 @@ $(function($) {
                 pagination: false,
                 fixedWidth: '23.125rem',
                 gap:25,
+                autoplay: true,
+                speed:3000,
+                interval: 3000,
                 padding: {
                     left: 0,
                     right: '1.6%',
@@ -73,6 +76,9 @@ $(function($) {
                 pagination: false,
                 fixedWidth: '23.125rem',
                 gap:25,
+                autoplay: true,
+                speed:3000,
+                interval: 3000,
                 padding: {
                     left: '6rem',
                     right: 0,
