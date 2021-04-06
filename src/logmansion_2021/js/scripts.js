@@ -32,7 +32,7 @@ $(function($) {
 
         if( $('.splide-products').length > 0 ){
             const splide_product_list = new Splide('.splide-products', {
-                rewind: true,
+                type: 'loop',
                 perPage: 3,
                 perMove: 1,
                 arrows: false,
@@ -40,8 +40,9 @@ $(function($) {
                 fixedWidth: '23.125rem',
                 gap:25,
                 autoplay: true,
-                speed:3000,
+                speed:1000,
                 interval: 3000,
+                pauseOnHover:false,
                 padding: {
                     left: 0,
                     right: '1.6%',
