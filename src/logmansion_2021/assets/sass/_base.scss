@@ -702,7 +702,9 @@ img {
         margin-bottom: 0;
         z-index: 1;
         padding: 11px 6px;
-
+        text-align: center;
+        width: 100%;
+        max-width:60px;
         span {
             display: block;
             font-weight: bold;
@@ -722,7 +724,7 @@ img {
         max-width: 370px;
         margin: 0 auto;
         max-height: 250px;
-        overflow: hidden;
+        //overflow: hidden;
         @media (max-width: 375px) {
             box-shadow: 20px 20px 30px $cl-shadow-black-25;
         }
@@ -1120,6 +1122,11 @@ img {
 .bg-gradient-green-turquoise {
     background: linear-gradient(135deg, $cl-green 0%, $cl-turquoise 100%);
 }
+
+.bg-gradient-orange {
+    background: linear-gradient(135deg, #FF8642 0%, #FA1165 100%);
+}
+
 .bg-gradient-ovlarticle{
     position: absolute;
     left: 0;
