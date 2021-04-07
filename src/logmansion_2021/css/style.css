@@ -160,6 +160,60 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'Noto Sans JP';
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.eot");
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Black-Alphabetic.svg#NotoSansJP-Black-Alphabetic") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.eot");
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Light-Alphabetic.svg#NotoSansJP-Light-Alphabetic") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.eot");
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Bold-Alphabetic.svg#NotoSansJP-Bold-Alphabetic") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.eot");
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Thin-Alphabetic.svg#NotoSansJP-Thin-Alphabetic") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.eot");
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Medium-Alphabetic.svg#NotoSansJP-Medium-Alphabetic") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.eot");
+  src: url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.woff2") format("woff2"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.woff") format("woff"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.ttf") format("truetype"), url("../fonts/noto-sans-jp/NotoSansJP-Regular-Alphabetic.svg#NotoSansJP-Regular-Alphabetic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
     color: #000000;
     font-size: 16px;
@@ -929,6 +983,9 @@ img {
     margin-bottom: 0;
     z-index: 1;
     padding: 11px 6px;
+    text-align: center;
+    width: 100%;
+    max-width: 60px;
 }
 
 .product-items .item-flash span {
@@ -951,7 +1008,6 @@ img {
     max-width: 370px;
     margin: 0 auto;
     max-height: 250px;
-    overflow: hidden;
 }
 
 @media (max-width: 375px) {
@@ -1330,6 +1386,10 @@ img {
 /*Background Gradient*/
 .bg-gradient-green-turquoise {
     background: linear-gradient(135deg, #1EC656 0%, #1BADA9 100%);
+}
+
+.bg-gradient-orange {
+    background: linear-gradient(135deg, #FF8642 0%, #FA1165 100%);
 }
 
 .bg-gradient-ovlarticle {

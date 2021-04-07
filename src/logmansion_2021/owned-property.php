@@ -77,7 +77,7 @@
                             <a href="#" rel="" target="">
                                 <img class="" src="./images/1x/top-page-item.jpg" alt="" tilte="" />
                                 <span class="item-price">29,990<span class="item-unit">万円(税込)</span></span>
-                                <p class="item-flash bg-gradient-green-turquoise"><span>カスタム</span><span>可能物件</span></p>
+                                <p class="item-flash bg-gradient-orange"><span>完成済</span><span>物件</span></p>
                             </a>
                         </div>
                         <a href="#" rel="" target="">
