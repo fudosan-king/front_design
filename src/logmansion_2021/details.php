@@ -17,6 +17,14 @@
                         </div>
                         <!-- Items -->
                         <div class="splide__slide">
+                            <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/detail-plan-map.jpg);"></div>
+                            <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/detail-plan-map.jpg);"></div>
+                            <div class="product-items">
+                                <span class="item-price">39,990<span class="item-unit">万円(税込)</span></span>
+                            </div>
+                        </div>
+                        <!-- Items -->
+                        <div class="splide__slide">
                             <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/img-detail.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/img-detail-sp.jpg);"></div>
                             <div class="product-items">
