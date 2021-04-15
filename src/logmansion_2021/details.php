@@ -11,9 +11,20 @@
                         <div class="splide__slide">
                             <div class="splide-item d-none d-md-block" style="background-image: url(./images/2x/details-1.jpg);"></div>
                             <div class="splide-item d-block d-md-none" style="background-image: url(./images/2x/detail-slide-sp-2.jpg);"></div>
-                            <div class="product-items">
-                                <span class="item-price">29,990<span class="item-unit">万円(税込)</span></span>
+                            <div class="splide-item_box">
+                                <div class="d-flex">
+                                    <div class="product-items">
+                                        <span class="item-price">29,990<span class="item-unit">万円(税込)</span></span>
+                                    </div>
+                                    <div class="product-items info">
+                                        <span class="item_construction-status bg-turquoise">カスタム可能物件</span>
+                                    </div>
+                                    <div class="product-items info">
+                                        <span class="item_construction-status bg-redpink">完成済物件</span>
+                                    </div>
+                                </div>
                             </div>
+                           
                         </div>
                         <!-- Items -->
                         <div class="splide__slide">

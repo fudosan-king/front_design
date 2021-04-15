@@ -204,8 +204,16 @@ function log_mainsion() {
         _this.detailPagetxtShowMore();
         _this.showCategoiesPC();
         _this.replaceTxtCategoryScrollTo();
+        _this.detailArrowAlwayAlignCenTer();
     }
 
+    this.detailArrowAlwayAlignCenTer = function()
+    { 
+        $(window).on('load resize',function(){
+            const heightImg = $('.detail_slide-img').outerHeight();
+            $('.detail_primary_splide-slider .splide__arrow').css('top',heightImg/2);
+        });
+    }
     
 
     this.replaceTxtCategoryScrollTo = function()
