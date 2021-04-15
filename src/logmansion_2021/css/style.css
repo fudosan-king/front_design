@@ -2871,12 +2871,17 @@ footer .copyright p {
 }
 
 @media (max-width: 767px) {
+    .section-slideshow-details .product-items {
+        max-width: 156px;
+    }
+
     .section-slideshow-details .product-items.info {
-        max-width: 90px;
+        max-width: 120px;
     }
 
     .section-slideshow-details .product-items .item-price {
         font-size: 1.5rem;
+        padding: 5px 7px;
     }
 
     .section-slideshow-details .product-items .item-unit {
@@ -2974,6 +2979,16 @@ footer .copyright p {
 
     .details-contact {
         padding: 10px 0;
+    }
+}
+
+@media (max-width: 374px) {
+    .section-slideshow-details .product-items .item-price {
+        font-size: 1.125rem;
+    }
+
+    .section-slideshow-details .product-items .item-unit {
+        font-size: .875rem;
     }
 }
 

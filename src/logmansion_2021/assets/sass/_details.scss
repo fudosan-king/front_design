@@ -443,11 +443,13 @@
 
     .section-slideshow-details {
         .product-items {
+            max-width: 156px;
             &.info{
-                max-width:90px;
+                max-width:120px;
             }
             .item-price{
                 font-size:1.5rem;
+                padding: 5px 7px;
             }
             .item-unit{
                 font-size:.875rem;
@@ -573,4 +575,19 @@
 
 }
 
+
+
+@media (max-width:374px) {
+
+    .section-slideshow-details {
+        .product-items {
+            .item-price{
+                font-size:1.125rem;
+            }
+            .item-unit{
+                font-size:.875rem;
+            }
+        }
+    }
+}
 /* End Detail page */
