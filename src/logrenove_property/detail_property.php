@@ -35,7 +35,8 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="https://www.logrenove.jp">TOP</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="#">物件</a></li>
+                            <li class="breadcrumb-item" aria-current="page"><a href="#">物件</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">バーチャルプランナーが解説！リノベーションまるわかりセミナー</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -58,7 +59,7 @@
                                             <h1 class="mb-3 mb-lg-0">【目黒区】都心で探すリノベーション向き物件の探し方｜表参道ショールーム開催</h1>
                                         </div>
                                         <div class="col-12 col-lg-3 align-self-center">
-                                            <a class="btn btn_reservation" href="https://www.logrenove.jp/events/24310/#frm_services">物件を見てみる</a>
+                                            <a class="btn btn_reservation" href="#frm_services" data-scroll>物件を見てみる</a>
                                         </div>
                                     </div>
                                 </div>
@@ -124,8 +125,8 @@
             </div> -->
                                             <div class="col-12 col-md-12 align-self-center">
                                                 <p class="text-center">
-                                                    <a class="btn btn_online" rel="noopener noreferrer" href="https://www.logrenove.jp/events/24310/#eventinfo">開催情報をみる</a>
-                                                    <a class="btn btn_online" rel="noopener noreferrer" href="https://www.logrenove.jp/events/24310/#frm_services">参加予約をする</a>
+                                                    <a class="btn btn_online" rel="noopener noreferrer" href="#eventinfo" data-scroll>問い合わせる</a>
+                                                    <a class="btn btn_online" rel="noopener noreferrer" href="tel:0909000000">電話する</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -147,7 +148,27 @@
                                                     <label for="">物件名</label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 align-self-center">
-                                                    <input class="form-control" type="text" placeholder="インシティ浜松町">
+                                                    <span class="d-block border p-2 rounded border-secondary">インシティ浜松町</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        
+                                        <div class="form-group">
+                                            <div class="row mb-3">
+                                                <div class="col-12 col-lg-3 align-self-center">
+                                                    <label for="">参加方法<span class="red">（※）</span></label>
+                                                </div>
+                                                <div class="col-12 col-lg-9 align-self-center">
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+                                                        <label class="custom-control-label" for="customRadioInline1">内見したい</label>
+                                                    </div>
+                                                    <div class="custom-control custom-radio custom-control-inline">
+                                                        <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
+                                                        <label class="custom-control-label" for="customRadioInline2">問合せしたい</label>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -214,24 +235,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        <div class="form-group">
-                                            <div class="row mb-3">
-                                                <div class="col-12 col-lg-3 align-self-center">
-                                                    <label for="">参加方法<span class="red">（※）</span></label>
-                                                </div>
-                                                <div class="col-12 col-lg-9 align-self-center">
-                                                    <div class="custom-control custom-radio custom-control-inline">
-                                                        <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
-                                                        <label class="custom-control-label" for="customRadioInline1">内見したい</label>
-                                                    </div>
-                                                    <div class="custom-control custom-radio custom-control-inline">
-                                                        <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
-                                                        <label class="custom-control-label" for="customRadioInline2">問合せしたい</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                         <div class="form-group">
                                             <div class="row">
                                                 <div class="col-12 col-lg-3 align-self-center">
@@ -294,7 +298,7 @@
                                         <table class="table table-bordered">
                                             <tr>
                                                 <td width="50%">
-                                                    <label>第1希望日時</label>
+                                                    <label>物件名</label>
                                                 </td>
                                                 <td class="confirm-text">
                                                     <span id="date"></span> <span id="time"></span>
@@ -302,7 +306,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <label>第2希望日時</label>
+                                                    <label>参加方法</label>
                                                 </td>
                                                 <td class="confirm-text">
                                                     <span id="date_2"></span> <span id="time_2"></span>
@@ -310,29 +314,21 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <label>第3希望日時</label>
+                                                    <label>内見希望日時１</label>
                                                 </td>
                                                 <td class="confirm-text">
                                                     <span id="date_3"></span> <span id="time_3"></span>
                                                 </td>
                                             </tr>
-                                            <!-- <tr>
-             <td>
-                <label>参加方法</label>
-             </td>
-             <td class="confirm-text">
-                 <span id="seminer_method"></span>
-             </td>
-          </tr> -->
                                             <tr>
                                                 <td>
-                                                    <label>お名前</label>
+                                                    <label>内見希望日時２</label>
                                                 </td>
                                                 <td id="full_name" class="confirm-text"></td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <label>メールアドレス</label>
+                                                    <label>氏名</label>
                                                 </td>
                                                 <td id="email" class="confirm-text"></td>
                                             </tr>
@@ -344,7 +340,13 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <label>気になるご質問</label>
+                                                    <label>メールアドレス</label>
+                                                </td>
+                                                <td id="inquiry_content" class="confirm-text"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label>備考</label>
                                                 </td>
                                                 <td id="inquiry_content" class="confirm-text"></td>
                                             </tr>
@@ -366,7 +368,7 @@
 
 
                                 <div class="box_otherevents">
-                                    <h2>その他のイベント</h2>
+                                    <h2>その他の物件</h2>
                                     <div class="row">
                                         <div class="col-12 col-sm-6 col-lg-6">
                                             <div class="box_otherevents_item">
