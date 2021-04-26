@@ -22,6 +22,9 @@
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"></noscript>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+
     <script src="https://sdk.form.run/js/v2/formrun.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     
@@ -29,7 +32,9 @@
     (function(html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement);
     </script>
     <!-- This site is optimized with the Yoast SEO plugin v15.4 - https://yoast.com/wordpress/plugins/seo/ -->
+    
     <link media="all" href="https://www.logrenove.jp/wp-content/cache/autoptimize/css/autoptimize_9f296b46f4faba53cde73b8c763f11f3.css" rel="stylesheet" />
+    <link media="all" href="https://www.logrenove.jp/wp-content/cache/autoptimize/css/autoptimize_b058c88e1252293e163eced1219aa0ce.css" rel="stylesheet" />
 
     <link media="all" href="https://www.logrenove.jp/wp-content/cache/autoptimize/css/autoptimize_36e927813e8b7b7401c1fda19ec8b660.css" rel="stylesheet" />
 
