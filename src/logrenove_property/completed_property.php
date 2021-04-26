@@ -51,7 +51,7 @@
                                 ありがとうございました。</h3>
                                 <p class="mb-5">ご入力いただいたメールアドレスに、お問合せ完了メールをお送りしました。<br>
                                 のちほど担当者よりご連絡申し上げます。</p>
-                                <a class="btn btn_post" href="#">ログリノベで掲載するの</a>
+                                <a class="btn btnAgree" href="#">ログリノベ トップに戻る <i class="i_rightwhite"></i></a>
                             </div>
                         </div>
                     </div>

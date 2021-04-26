@@ -148,7 +148,7 @@
                                                     <label for="">物件名</label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 align-self-center">
-                                                    <span class="d-block border p-2 rounded border-secondary">インシティ浜松町</span>
+                                                    <span class="d-block p-2">インシティ浜松町</span>
                                                 </div>
                                             </div>
                                         </div>

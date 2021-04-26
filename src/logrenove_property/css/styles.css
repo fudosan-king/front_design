@@ -25,15 +25,11 @@
 	width: 100%;
 	min-width: inherit;
 }
-.box_completed .btn_post {
-	border-radius: 100px;
-	background: #ae8148;
-	padding: 10px 40px;
-	color: #fff;
-	font-weight: 600;
+.box_completed .btnAgree {
+	background: #3cbccf;
 }
-.box_completed .btn_post:hover {
-	background: #8c7d5e;
+.box_completed .btnAgree:hover {
+	background: #1a7b8a;
 }
 
 @media (max-width: 768px) {
