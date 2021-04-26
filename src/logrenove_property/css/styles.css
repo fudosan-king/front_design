@@ -1,3 +1,42 @@
 .box_popular_seminar .box_popular_seminar_body .box_popular_seminar_item .box_popular_seminar_item_body ul:last-child {
 	margin-top: 5px;
 }
+.box_otherevents_item {
+	margin-bottom: 15px;
+}
+.box_otherevents_item h3 {
+	border-bottom: none;
+	text-align: left;
+	line-height: 1.5em;
+	font-weight: normal;
+	font-size: 1em;
+}
+.box_otherevents_item_img {
+	height: 208px;
+}
+.box_otherevents_item_img img {
+	height: 208px;
+}
+.frm_confirm .box_content_footer .btnAgree {
+	width: 100%;
+	min-width: inherit;
+}
+.box_completed .btn_post {
+	border-radius: 100px;
+	background: #ae8148;
+	padding: 10px 40px;
+	color: #fff;
+	font-weight: 600;
+}
+.box_completed .btn_post:hover {
+	background: #8c7d5e;
+}
+
+@media (max-width: 768px) {
+	.box_otherevents {
+		margin: 0
+	}
+	.box_otherevents_item {
+		
+	}
+}
