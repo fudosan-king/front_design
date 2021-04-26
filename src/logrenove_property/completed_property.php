@@ -44,7 +44,7 @@
             <section class="section_events">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-6 mx-auto text-center">
+                        <div class="col-12 col-lg-7 mx-auto text-center">
                             <div class="box_completed my-5">
                                 <h1 class="text-dark mb-3">物件お問合せ完了</h1>
                                 <h3 class="mb-3">お問い合わせいただき<br>
