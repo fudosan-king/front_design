@@ -50,72 +50,72 @@
                                 <section class="mid_article">
                                     <article>
                                         <div class="row no-gutters">
-                                            <div class="col-4 col-lg-4 align-self-center">
+                                            <div class="col-5 col-lg-4 align-self-center">
                                                 <div class="box_article_img">
                                                     <a href="detail.php"><img src="images/MG_0022-880x460-3-350x183.jpg" alt="" class="img-fluid"></a>
                                                 </div>
                                             </div>
-                                            <div class="col-8 col-lg-8 align-self-center">
+                                            <div class="col-7 col-lg-8 align-self-center">
                                                 <p><a href="detail.php">天然無垢材の質感と、明るい日差しのなかでゆったり子育てできる家</a></p>
                                             </div>
                                         </div>
                                     </article>
                                     <article>
                                         <div class="row no-gutters">
-                                            <div class="col-4 col-lg-4 align-self-center">
+                                            <div class="col-5 col-lg-4 align-self-center">
                                                 <div class="box_article_img">
                                                     <a href="detail.php"><img src="https://cdn.shortpixel.ai/client/q_lossless,ret_img/https://www.logrenove.jp/wp-content/uploads/2020/03/1000%E7%B9%9D%E4%BB%A3%CE%A6%E7%B9%9D%C2%80-350x233.jpg" alt="" class="img-fluid"></a>
                                                 </div>
                                             </div>
-                                            <div class="col-8 col-lg-8 align-self-center">
+                                            <div class="col-7 col-lg-8 align-self-center">
                                                 <p><a href="detail.php">こだわったのは無垢材と陽ざしの温もり。子供とともに“成長”する家</a></p>
                                             </div>
                                         </div>
                                     </article>
                                     <article>
                                         <div class="row no-gutters">
-                                            <div class="col-4 col-lg-4 align-self-center">
+                                            <div class="col-5 col-lg-4 align-self-center">
                                                 <div class="box_article_img">
                                                     <a href="detail.php"><img src="https://cdn.shortpixel.ai/client/q_lossless,ret_img/https://www.logrenove.jp/wp-content/uploads/2020/04/I-sama-main-350x228.jpg" alt="" class="img-fluid"></a>
                                                 </div>
                                             </div>
-                                            <div class="col-8 col-lg-8 align-self-center">
+                                            <div class="col-7 col-lg-8 align-self-center">
                                                 <p><a href="detail.php">暮らし方、時間の流れさえも変えた「無垢材リノベ」との出会い</a></p>
                                             </div>
                                         </div>
                                     </article>
                                     <article>
                                         <div class="row no-gutters">
-                                            <div class="col-4 col-lg-4 align-self-center">
+                                            <div class="col-5 col-lg-4 align-self-center">
                                                 <div class="box_article_img">
                                                     <a href="detail.php"><img src="https://cdn.shortpixel.ai/client/q_lossless,ret_img/https://www.logrenove.jp/wp-content/uploads/2020/11/1-1-880x460-1-350x183.jpg" alt="" class="img-fluid"></a>
                                                 </div>
                                             </div>
-                                            <div class="col-8 col-lg-8 align-self-center">
+                                            <div class="col-7 col-lg-8 align-self-center">
                                                 <p><a href="detail.php">キッチンから見渡せるワイドリビングと快適な書斎にこだわったリノベーションマンション</a></p>
                                             </div>
                                         </div>
                                     </article>
                                     <article>
                                         <div class="row no-gutters">
-                                            <div class="col-4 col-lg-4 align-self-center">
+                                            <div class="col-5 col-lg-4 align-self-center">
                                                 <div class="box_article_img">
                                                     <a href="detail.php"><img src="https://cdn.shortpixel.ai/client/q_lossless,ret_img/https://www.logrenove.jp/wp-content/uploads/2020/04/I-sama-main-350x228.jpg" alt="" class="img-fluid"></a>
                                                 </div>
                                             </div>
-                                            <div class="col-8 col-lg-8 align-self-center">
+                                            <div class="col-7 col-lg-8 align-self-center">
                                                 <p><a href="detail.php">暮らし方、時間の流れさえも変えた「無垢材リノベ」との出会い</a></p>
                                             </div>
                                         </div>
                                     </article>
                                     <article>
                                         <div class="row no-gutters">
-                                            <div class="col-4 col-lg-4 align-self-center">
+                                            <div class="col-5 col-lg-4 align-self-center">
                                                 <div class="box_article_img">
                                                     <a href="detail.php"><img src="https://cdn.shortpixel.ai/client/q_lossless,ret_img/https://www.logrenove.jp/wp-content/uploads/2020/11/1-1-880x460-1-350x183.jpg" alt="" class="img-fluid"></a>
                                                 </div>
                                             </div>
-                                            <div class="col-8 col-lg-8 align-self-center">
+                                            <div class="col-7 col-lg-8 align-self-center">
                                                 <p><a href="detail.php">キッチンから見渡せるワイドリビングと快適な書斎にこだわったリノベーションマンション</a></p>
                                             </div>
                                         </div>

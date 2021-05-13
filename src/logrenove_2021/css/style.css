@@ -232,6 +232,7 @@ header .btnRegistration:hover {
 .top_article article p {
     margin-bottom: 0;
     padding: 15px;
+    font-weight: 600;
 }
 
 .mid_article article {
@@ -256,6 +257,9 @@ header .btnRegistration:hover {
 .mid_article article p {
     margin-bottom: 0;
     padding: 0 15px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-size: 0.875em;
 }
 
 .mid_article article p a:hover {
@@ -301,6 +305,7 @@ header .btnRegistration:hover {
 .footer_article article p {
     margin-bottom: 0;
     padding: 15px;
+    font-weight: 600;
 }
 
 .footer_article article p a:hover {
@@ -656,11 +661,11 @@ footer .footer_contact a:nth-of-type(3) {
     }
 
     .top_article article .box_article_img {
-        height: 230px;
+        height: 194px;
     }
 
     .top_article article .box_article_img img {
-        height: 230px;
+        height: 194px;
     }
 
     .top_article article p {
@@ -668,12 +673,16 @@ footer .footer_contact a:nth-of-type(3) {
         line-height: 1.5em;
     }
 
+    .mid_article article {
+        margin-bottom: 10px;
+    }
+
     .mid_article article .box_article_img {
-        height: 100px;
+        height: 81px;
     }
 
     .mid_article article .box_article_img img {
-        height: 100px;
+        height: 81px;
     }
 
     .mid_article article p {
