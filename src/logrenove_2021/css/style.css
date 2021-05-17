@@ -64,7 +64,7 @@ button:hover {
 }
 
 section {
-    padding: 0 0 30px;
+    padding: 0 0 10px;
 }
 
 header {
@@ -237,19 +237,23 @@ header .btnRegistration:hover {
 
 .mid_article article {
     background: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     overflow: hidden;
+}
+
+.mid_article article:last-child {
+    margin-bottom: 0;
 }
 
 .mid_article article .box_article_img {
     width: 100%;
-    height: 148px;
+    height: 136px;
     overflow: hidden;
 }
 
 .mid_article article .box_article_img img {
     width: 100%;
-    height: 148px;
+    height: 136px;
     -o-object-fit: cover;
        object-fit: cover;
 }
@@ -291,13 +295,13 @@ header .btnRegistration:hover {
 
 .footer_article article .box_article_img {
     width: 100%;
-    height: 223px;
+    height: 200px;
     overflow: hidden;
 }
 
 .footer_article article .box_article_img img {
     width: 100%;
-    height: 223px;
+    height: 200px;
     -o-object-fit: cover;
        object-fit: cover;
 }
@@ -615,6 +619,11 @@ footer .footer_contact a:nth-of-type(3) {
 }
 
 @media (max-width: 768px) {
+    .main_nav .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     header {
         padding: 10px 0;
     }
@@ -661,11 +670,11 @@ footer .footer_contact a:nth-of-type(3) {
     }
 
     .top_article article .box_article_img {
-        height: 194px;
+        height: 164px;
     }
 
     .top_article article .box_article_img img {
-        height: 194px;
+        height: 164px;
     }
 
     .top_article article p {
@@ -692,11 +701,11 @@ footer .footer_contact a:nth-of-type(3) {
     }
 
     .footer_article article .box_article_img {
-        height: 104px;
+        height: 94px;
     }
 
     .footer_article article .box_article_img img {
-        height: 104px;
+        height: 94px;
     }
 
     .footer_article article p {
