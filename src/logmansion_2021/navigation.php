@@ -18,6 +18,9 @@
 	                    <a class="nav-link" href="#">物件紹介</a>
 	                </li>
 	                <li class="nav-item">
+	                    <a class="nav-link" href="#">VR施工事例</a>
+	                </li>
+	                <li class="nav-item">
 	                    <a class="nav-link" href="#">サービス紹介</a>
 	                </li>
 	                <li class="nav-item">

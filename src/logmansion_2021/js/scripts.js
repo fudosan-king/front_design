@@ -172,7 +172,35 @@ function log_mainsion() {
         _this.navigation();
         _this.jsCssLogmansion();
         _this.scrollToEle();
+        _this.scrollToEleAutoPlayVideo();
+        _this.scrollHeaderFixed();
     }  
+
+    
+
+    this.scrollToEleAutoPlayVideo = function()
+    {
+        const offset_vrvideo = $('#vrVideo').offset();
+        const vrVideo = document.getElementById('vrVideo');
+
+        if ( typeof(offset_vrvideo) !== 'object' || offset_vrvideo === null ) return;
+
+        $(window).on('scroll',function(e){
+            const currentTarget = e.currentTarget;
+            const scrollToTop = $(currentTarget).scrollTop();
+            const isVideoRun = vrVideo.autoplay;
+            if( offset_vrvideo.top  <= scrollToTop ){
+                if( !isVideoRun ){
+                    vrVideo.autoplay = true;
+                    vrVideo.loop = true;
+                    vrVideo.load();
+                }
+            }
+        });
+
+       
+    }
+
 
     this.scrollToEle = function() {
         const _this = this;
@@ -410,7 +438,7 @@ function log_mainsion() {
     //Js Navigation
     this.navigation = function() {
        const _this = this;
-
+       
         $(window).scroll(function(e){
             _this.menu_animation_scroll();
         });

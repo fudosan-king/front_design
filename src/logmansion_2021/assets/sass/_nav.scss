@@ -1,3 +1,17 @@
+.menu-animation-scroll{
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    animation-name: top-to-bottom;
+    animation-duration: 1s;
+}
+
+@keyframes top-to-bottom {
+  0%   {top:-200px;}
+  100% {top:0;}
+}
+
 .nav_menu {
     padding: 30px 50px 10px;
 

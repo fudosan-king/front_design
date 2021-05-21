@@ -76,8 +76,7 @@
 		position: absolute;
 		top:0;
 		height:460px;
-		left:14%;
-		right:0;
+		
 		background: $cl-gray-light;
 		z-index: -1;
 	}
@@ -93,6 +92,19 @@
 	}
 }
 
+.gray-right{
+	&:before{
+		left:14%;
+		right:0;
+	}
+}
+
+.gray-left{
+	&:before{
+		right:14%;
+		left:0;
+	}
+}
 
 
 .section-top-page-content {
@@ -147,6 +159,20 @@
 		}	
 	}
 
+}
+
+.section-virtual{
+	.virtual-video,.virtual-text{
+		padding-right:5px;
+		padding-left:5px;
+		margin-bottom:20px;
+	}
+	.btn-mansion{
+		margin-top:80px;
+	}
+	p{
+		margin-bottom:0;
+	}
 }
 
 .section-top-page-services{

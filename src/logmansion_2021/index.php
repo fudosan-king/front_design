@@ -157,7 +157,7 @@
             </div>
         </div>
     </div>
-    <div class="lists-bg-gray">
+    <div class="lists-bg-gray gray-right">
         <div class="container">
             <h2>物件を探す</h2>
         </div>
@@ -353,8 +353,32 @@
         </div>
     </div>
 </section>
+
+<section class="section-virtual">
+    <div class="virtual lists-bg-gray gray-right">
+        <div class="container">
+            <h2>VR施工事例</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="virtual-video is-video">
+                        <video  id="vrVideo" controls="" class="virtual-video_item" webkit-playsinline="webkit-playsinline" src="./images/video/video_cut.mov"></video>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="virtual-text">
+                        <p>ログマンションの代表的な施工事例をVR（バーチャル・リアリティ）コンテンツ化しました。WEB上の３D物件内をバーチャル体験できるアクティビティ。</p>
+                        <p>天然木をふんだんに使ったログマンションの独特の世界観をWEB上で味わってください。</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-mansion btn-black btn-lg-mansion">VIEW MORE<span class="btn-line"></span></a>
+        </div>
+    </div>
+</section>
+
+
 <section class="section-top-page-services">
-    <div class="lists-bg-gray">
+    <div class="lists-bg-gray gray-left">
         <div class="container">
             <h2>ログマンションの<span>サービス</span></h2>
             <div class="news-group">
