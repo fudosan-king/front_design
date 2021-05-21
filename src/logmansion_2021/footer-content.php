@@ -4,6 +4,7 @@
         	<ul class="nav">
         		<li class="nav-item"><a class="nav-link" href="#">ログマンションとは</a></li>
         		<li class="nav-item"><a class="nav-link" href="#">物件を探す</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">VR施工事例</a></li>
         		<li class="nav-item"><a class="nav-link" href="#">サービス紹介</a></li>
         		<li class="nav-item"><a class="nav-link" href="#">お問合わせ</a></li>
         	</ul>

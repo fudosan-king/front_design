@@ -1191,6 +1191,42 @@ img {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.8) 85%, white 100%);
 }
 
+.is-video video {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-animation-scroll {
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    -webkit-animation-name: top-to-bottom;
+            animation-name: top-to-bottom;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+
+@-webkit-keyframes top-to-bottom {
+    0% {
+        top: -200px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes top-to-bottom {
+    0% {
+        top: -200px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
 .nav_menu {
     padding: 30px 50px 10px;
 }
@@ -1325,16 +1361,6 @@ img {
     100% {
         opacity: 0;
         transform: translateX(-100%);
-    }
-}
-
-@-webkit-keyframes top-to-bottom {
-    0% {
-        top: -200px;
-    }
-
-    100% {
-        top: 0;
     }
 }
 
@@ -1807,8 +1833,6 @@ footer .copyright p {
     position: absolute;
     top: 0;
     height: 460px;
-    left: 14%;
-    right: 0;
     background: #F3F3F3;
     z-index: -1;
 }
@@ -1822,6 +1846,16 @@ footer .copyright p {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 160px;
+}
+
+.gray-right:before {
+    left: 14%;
+    right: 0;
+}
+
+.gray-left:before {
+    right: 14%;
+    left: 0;
 }
 
 .section-top-page-content .g-slideshow {
@@ -1879,6 +1913,20 @@ footer .copyright p {
 }
 
 .section-top-page-content .promotion-video p:last-child {
+    margin-bottom: 0;
+}
+
+.section-virtual .virtual-video, .section-virtual .virtual-text {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.section-virtual .btn-mansion {
+    margin-top: 80px;
+}
+
+.section-virtual p {
     margin-bottom: 0;
 }
 
@@ -2453,7 +2501,7 @@ footer .copyright p {
 }
 
 /* Detail page */
-.section-slideshow-details .splide .splide-item {
+.section-slideshow-details .splide .floor_plan .splide-item {
     background-size: contain;
     margin: 0 20px;
 }
@@ -3384,3 +3432,110 @@ footer .copyright p {
 }
 
 /* End About Logmansion 23-01-2021*/
+.vr-page h2, .vr-compare h2 {
+    margin-bottom: 45px;
+}
+
+.vr-page .product-items, .vr-compare .product-items {
+    margin-bottom: 60px;
+}
+
+.vr-page .vr-iframe, .vr-compare .vr-iframe {
+    height: 250px;
+}
+
+.vr-page .product-items, .vr-compare .product-items {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vr-compare {
+    text-align: center;
+}
+
+.vr-compare .vr-before {
+    padding-right: 35px;
+}
+
+.vr-compare .vr-after {
+    position: relative;
+    padding-left: 35px;
+}
+
+.vr-compare .vr-after:before {
+    content: '';
+    position: absolute;
+    background-image: url("../images/icons/arrow-compare-right.svg");
+    width: 50px;
+    height: 50px;
+    top: 42%;
+    transform: translateY(-50%);
+    left: -41px;
+}
+
+.vr-compare .product-items h3 {
+    font-size: 1.5rem;
+    padding-right: 0;
+}
+
+@media (max-width: 767px) {
+    .vr-compare .vr-before {
+        padding-right: 0px;
+        margin-bottom: 90px;
+    }
+
+    .vr-compare .vr-after {
+        padding-left: 0px;
+    }
+
+    .vr-compare .vr-after:before {
+        left: calc(50% - 25px);
+        transform: rotate(90deg) translate(-50%, 0);
+        top: -40px;
+    }
+}
+
+.vr-attr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vr-attr .vr-bd {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 14px;
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+.vr-attr .bd-black {
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+}
+
+.vr-attr .bd-green {
+    background: #FFFFFF;
+    border: 1px solid #219653;
+    color: #219653;
+}
+
+.vr-attr .bd-orange {
+    background: #FFFFFF;
+    border: 1px solid #F2994A;
+    color: #F2994A;
+}
+
+.vr-des {
+    margin-bottom: 60px;
+}
+
+.vr-des p {
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 200%;
+    text-align: center;
+    color: #000000;
+}
