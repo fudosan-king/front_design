@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <?php include 'navigation.php'; ?>
 <!-- Slide Show  -->
-<section class="section-slideshow">
+<section class="section-slideshow vr-page-slideshow">
     <div class="g-slideshow">
         <div class="g-slideshow_content">
             <div id="slideshow_splide" class="splide slideshow-splide">
@@ -25,21 +25,7 @@
         </div>
     </div>
 </section>
-<!-- Breadcrumb -->
-<section class="section-breadcrumb">
-    <div class="container">
-        <div class="breadcrumb">
-            <ul class="nav">
-                <li>
-                    <a href="#" rel="" target="">TOP</a>
-                </li>
-                <li class="active">
-                    <span>VR施工事例</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
+
 <!-- section vr page -->
 <section class="section-vr-page">
     <div class="vr-page lists-bg-gray gray-left">
