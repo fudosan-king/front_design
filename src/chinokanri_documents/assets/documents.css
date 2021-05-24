@@ -1,0 +1,78 @@
+.btnEmail span {
+	margin-bottom: 5px;
+}
+.job {
+	font-size: 0.8125em;
+}
+.box_download {
+	background: #0180CD;
+	display: block;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.box_download span {
+	margin-bottom: 5px;
+}
+.box_download:hover {
+	background: #045687;
+    color: #fff;
+}
+.section_document {
+	margin-top: 50px;
+}
+.section_document h2 {
+	font-size: 2.1875em;
+}
+.box_document_item {
+	border-bottom: 1px solid #EAEAEA;
+	padding: 30px 0;
+}
+.box_document_item h4 {
+	font-size: 1.25em;
+	font-weight: 600;
+	margin-bottom: 17px;
+}
+.box_document_item ul {
+	padding: 0 0 0 15px;
+	margin: 0;
+	list-style: none;
+}
+.box_document_item ul li {
+	background: url('../assets/i_pdf.svg') no-repeat left top;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+.box_document_item ul li:last-of-type {
+	margin-bottom: 0;
+}
+.box_document_item ul li a {
+	color: #0180CD;
+}
+.box_document_item ul li:hover a {
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.section_document h2 {
+		font-size: 1.375em;
+		font-weight: 700
+	}
+	.box_document_item h4 {
+		font-size: 1em;
+	}
+	.box_document_item ul li {
+		margin-bottom: 10px
+	}
+	.box_document_item ul li a {
+		font-size: 0.875em;
+	}
+}
