@@ -9315,6 +9315,7 @@
                                         <li><a data-scroll="" href="https://www.chinokanri.co.jp/#recruit">採用情報</a></li>
                                         <li><a data-scroll="" href="https://www.chinokanri.co.jp/#access">アクセス</a></li>
                                         <li><a href="https://www.chinokanri.co.jp/news/">お知らせ</a></li>
+                                        <li><a href="documents.php">ダウンロードページ</a></li>
                                     </ul>
                                 </div>
                                 <div class="footer_top_item">
