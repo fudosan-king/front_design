@@ -162,13 +162,29 @@
 }
 
 .section-virtual{
+	.virtual:before{
+		@media (max-width:767px){
+			height:38%;
+		}
+	}
 	.virtual-video,.virtual-text{
 		padding-right:5px;
 		padding-left:5px;
 		margin-bottom:20px;
 	}
+	.virtual-text{
+		@media (max-width:767px){
+			p{
+				font-size: 0.875rem;
+				letter-spacing:-0.2px;
+			}
+		}
+	}
 	.btn-mansion{
 		margin-top:80px;
+		@media (max-width:767px){
+			margin-top:60px;	
+		}
 	}
 	p{
 		margin-bottom:0;

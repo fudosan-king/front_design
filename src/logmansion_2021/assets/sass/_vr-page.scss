@@ -17,8 +17,23 @@
 	}
 }
 
+@media (max-width:767px){
+	.vr-page,.vr-compare{
+		&.lists-bg-gray h2{
+			font-size: 1.25rem;
+		}
+	}
+	.vr-page:before{
+		right: 0;
+    	left: 14%;
+    	height:15%;
+	}
+}
+
+
 .vr-compare {
 	text-align: center;
+
 	.vr-before{
 		padding-right:35px;
 	}
@@ -97,6 +112,10 @@
 		line-height: 200%;
 		text-align: center;
 		color: #000000;
+		@media (max-width:767px){
+			text-align: left;
+			font-size: 0.875rem;
+		}
 	}
 	
 }
