@@ -29,10 +29,12 @@
 			font-size: 1.25rem;
 		}
 	}
-	.vr-page:before{
-		right: 0;
-    	left: 30px;
-    	height:15%;
+	.vr-page{
+		&:before{
+			right: 0;
+	    	left: 30px;
+	    	height:15%;
+		}
 	}
 }
 
@@ -64,6 +66,10 @@
 		}
 	}
 	@media(max-width: 767px){
+		&:before{
+			left: 30px;
+			height:55%;
+		}
 		.vr-before{
 			padding-right:0px;
 			margin-bottom: 90px;
