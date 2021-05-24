@@ -1916,14 +1916,33 @@ footer .copyright p {
     margin-bottom: 0;
 }
 
+@media (max-width: 767px) {
+    .section-virtual .virtual:before {
+        height: 38%;
+    }
+}
+
 .section-virtual .virtual-video, .section-virtual .virtual-text {
     padding-right: 5px;
     padding-left: 5px;
     margin-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+    .section-virtual .virtual-text p {
+        font-size: 0.875rem;
+        letter-spacing: -0.2px;
+    }
+}
+
 .section-virtual .btn-mansion {
     margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+    .section-virtual .btn-mansion {
+        margin-top: 60px;
+    }
 }
 
 .section-virtual p {
@@ -3449,6 +3468,18 @@ footer .copyright p {
     margin-right: auto;
 }
 
+@media (max-width: 767px) {
+    .vr-page.lists-bg-gray h2, .vr-compare.lists-bg-gray h2 {
+        font-size: 1.25rem;
+    }
+
+    .vr-page:before {
+        right: 0;
+        left: 14%;
+        height: 15%;
+    }
+}
+
 .vr-compare {
     text-align: center;
 }
@@ -3538,4 +3569,11 @@ footer .copyright p {
     line-height: 200%;
     text-align: center;
     color: #000000;
+}
+
+@media (max-width: 767px) {
+    .vr-des p {
+        text-align: left;
+        font-size: 0.875rem;
+    }
 }
