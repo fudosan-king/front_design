@@ -1,3 +1,9 @@
+.vr-page-slideshow{
+	.splide--fade>.splide__track>.splide__list>.splide__slide{
+		top:5px;
+	}
+}
+
 .vr-page,.vr-compare{
 	h2{
 		margin-bottom:45px;
@@ -25,7 +31,7 @@
 	}
 	.vr-page:before{
 		right: 0;
-    	left: 14%;
+    	left: 30px;
     	height:15%;
 	}
 }

@@ -3451,6 +3451,10 @@ footer .copyright p {
 }
 
 /* End About Logmansion 23-01-2021*/
+.vr-page-slideshow .splide--fade > .splide__track > .splide__list > .splide__slide {
+    top: 5px;
+}
+
 .vr-page h2, .vr-compare h2 {
     margin-bottom: 45px;
 }
@@ -3475,7 +3479,7 @@ footer .copyright p {
 
     .vr-page:before {
         right: 0;
-        left: 14%;
+        left: 30px;
         height: 15%;
     }
 }
