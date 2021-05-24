@@ -1853,9 +1853,21 @@ footer .copyright p {
     right: 0;
 }
 
+@media (max-width: 767px) {
+    .gray-right:before {
+        left: 30px;
+    }
+}
+
 .gray-left:before {
     right: 14%;
     left: 0;
+}
+
+@media (max-width: 767px) {
+    .gray-left:before {
+        right: 30px;
+    }
 }
 
 .section-top-page-content .g-slideshow {
@@ -3402,6 +3414,7 @@ footer .copyright p {
         top: 27%;
         bottom: 16%;
         left: 30px;
+        right: 0;
     }
 
     .about_commitment {
@@ -3514,6 +3527,11 @@ footer .copyright p {
 }
 
 @media (max-width: 767px) {
+    .vr-compare:before {
+        left: 30px;
+        height: 55%;
+    }
+
     .vr-compare .vr-before {
         padding-right: 0px;
         margin-bottom: 90px;

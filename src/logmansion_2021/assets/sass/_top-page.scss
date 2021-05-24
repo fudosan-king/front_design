@@ -96,6 +96,9 @@
 	&:before{
 		left:14%;
 		right:0;
+		@media(max-width: 767px){
+			left:30px;
+		}
 	}
 }
 
@@ -103,6 +106,9 @@
 	&:before{
 		right:14%;
 		left:0;
+		@media(max-width: 767px){
+			right:30px;
+		}
 	}
 }
 
