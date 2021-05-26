@@ -361,7 +361,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="virtual-video is-video">
-                        <video  id="vrVideo" controls="" class="virtual-video_item" webkit-playsinline="webkit-playsinline" src="./images/video/video_cut.mov"></video>
+                        <video  muted="" id="vrVideo" data-video-status="false" controls="" class="virtual-video_item" webkit-playsinline="webkit-playsinline" src="./images/video/video_cut.mov"></video>
                     </div>
                 </div>
                 <div class="col-md-6">
