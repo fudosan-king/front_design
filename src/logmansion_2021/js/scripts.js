@@ -173,7 +173,6 @@ function log_mainsion() {
         _this.jsCssLogmansion();
         _this.scrollToEle();
         _this.scrollToEleAutoPlayVideo();
-        _this.scrollHeaderFixed();
     }  
 
     
@@ -182,6 +181,7 @@ function log_mainsion() {
     {
         const offset_vrvideo = $('#vrVideo').offset();
         const vrVideo = document.getElementById('vrVideo');
+        const headerHeight = $('header').outerHeight();
 
         if ( typeof(offset_vrvideo) !== 'object' || offset_vrvideo === null ) return;
 
@@ -189,7 +189,7 @@ function log_mainsion() {
             const currentTarget = e.currentTarget;
             const scrollToTop = $(currentTarget).scrollTop();
             const isVideoRun = vrVideo.autoplay;
-            if( offset_vrvideo.top  <= scrollToTop ){
+            if( ( offset_vrvideo.top - headerHeight)  <= (scrollToTop + headerHeight) ){
                 if( !isVideoRun ){
                     vrVideo.autoplay = true;
                     vrVideo.loop = true;
