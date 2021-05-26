@@ -51,66 +51,34 @@
 
 
 @media (max-width: 768px) {
-	.navbar-brand {
-		margin: auto;
-		img {
-			width: 100px;
-		}
-	}
-	.navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {
-		background: #fff;
-	}
-	.bsnav-mobile {
-		z-index: 999;
-		&.in {
-			.bsnav-mobile-overlay {
-				background: rgba(115, 136, 107, .64);
-			}
-		}
-		.navbar-nav {
-			padding: 0;
-			.nav-item {
-				.nav-link {
-					padding: 10px 15px;
-					border-bottom: 1px solid $cl-gray-light-white-1;
-					display: block;
-					font-weight: 500;
-				}
-			}
-		}
-		.navbar {
-			padding-top: 15px;
-		}
-	}
-	header {
-		.bsnav {
-			padding: 10px;
-		}
-	}
-
 	.section_about {
 		ul {
 			li {
 				flex-direction: column;
 				align-items: center;
+				margin-bottom: 40px;
 				.box_circle {
 					margin-bottom: 15px;
+					width: 100px;
+					height: 100px;
+					img {
+						width: 50%;
+					}
 				}
 				.box_content {
 					width: 100%;
 					text-align: center;
 					margin-top: 15px;
-				}
-			}
-		}
-	}
-
-	footer {
-		ul {
-			li {
-				a {
-					padding: 0 5px;
-					font-size: 0.875em;
+					h2 {
+						font-size: 1em;
+					}
+					p {
+						text-align: left;
+						font-size: 0.8125em;
+					}
+					small {
+						font-size: 70%;
+					}
 				}
 			}
 		}
