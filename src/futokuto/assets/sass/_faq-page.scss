@@ -1,0 +1,35 @@
+.section_faq {
+	.faq_content {
+		.card {
+			margin-bottom: 80px;
+			border: none;
+			h2 {
+				font-size: 1.5em;
+				margin-bottom: 15px;
+			}
+			.card-title {
+				font-size: 1.5em;
+				margin-bottom: 25px;
+			}
+			.card-body {
+				padding: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.section_faq {
+		.faq_content {
+			.card {
+				margin-bottom: 30px;
+				.card-title {
+					font-size: 1.3em;
+				}
+				h2 {
+					font-size: 1.3em;
+				}
+			}
+		}
+	}
+}
