@@ -328,7 +328,21 @@ footer small {
     margin-bottom: 40px;
 }
 
+@media (max-width: 1024px) {
+    .navbar-expand-lg .navbar-nav {
+        padding-right: 50px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+        padding: 25px 15px;
+    }
+}
+
 @media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav {
+        padding-right: 0;
+    }
+
     .first_time_content section {
         padding: 50px 0;
     }
