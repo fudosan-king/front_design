@@ -189,11 +189,13 @@ function log_mainsion() {
             const currentTarget = e.currentTarget;
             const scrollToTop = $(currentTarget).scrollTop();
             const isVideoRun = vrVideo.autoplay;
+            const videoStatus = $('#vrVideo').data('video-status');
+
             if( ( offset_vrvideo.top - headerHeight)  <= (scrollToTop + headerHeight) ){
-                if( !isVideoRun ){
-                    vrVideo.autoplay = true;
+                if( !videoStatus ){
+                    $('#vrVideo').data('video-status',true);
+                    vrVideo.play();
                     vrVideo.loop = true;
-                    vrVideo.load();
                 }
             }
         });
