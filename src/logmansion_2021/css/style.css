@@ -3468,6 +3468,22 @@ footer .copyright p {
     top: 5px;
 }
 
+.vr-page-slideshow .g-slideshow .slideshow-text {
+    bottom: 13%;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .vr-page-slideshow .g-slideshow .slideshow-text {
+        bottom: 19%;
+    }
+}
+
+@media (max-width: 767px) {
+    .vr-page-slideshow .g-slideshow .slideshow-text {
+        bottom: 70px;
+    }
+}
+
 .vr-page h2, .vr-compare h2 {
     margin-bottom: 45px;
 }

@@ -1,6 +1,22 @@
 .vr-page-slideshow{
+
 	.splide--fade>.splide__track>.splide__list>.splide__slide{
 		top:5px;
+	}
+	.g-slideshow .slideshow-text{
+		bottom:13%;
+	}
+
+	@media (max-width: 1024px) and (min-width: 768px) {
+		.g-slideshow .slideshow-text{
+			bottom:19%;
+		}
+	}
+
+	@media (max-width: 767px){
+		.g-slideshow .slideshow-text{
+			bottom:70px;
+		}
 	}
 }
 
