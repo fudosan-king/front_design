@@ -6,7 +6,9 @@
                     <ul>
                         <li><a href="#">運営会社について</a></li>
                         <li><a href="#">利用規約</a></li>
+                        <li><a href="#">反社会的勢力排除に関する基本方針</a></li>
                         <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">ソーシャルメディアポリシー</a></li>
                     </ul>
                     <ul class="list_social">
                         <li><a href="#"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="10"></a></li>
@@ -18,9 +20,9 @@
             </div>
         </div>
     </div>
-    <div class="footer_bottom">
-        <a class="btn" href="#">資料請求</a>
-        <a class="btn" href="tel:000-0000-0000">000-0000-0000</a>
+    <div class="footer_bottom fixed-bottom">
+        <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18"> 資料請求</a>
+        <a class="btn" href="tel:000-0000-0000"><img src="images/svg/i_call.svg" alt="" class="img-fluid" width="18"> 000-0000-0000</a>
     </div>
 </footer>
 

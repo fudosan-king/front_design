@@ -11,9 +11,6 @@
                 <img src="images/slider/3.jpg" alt="" class="img-fluid">
             </div>
             <div class="carousel-cell">
-                <img src="images/slider/0.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="carousel-cell">
                 <img src="images/slider/1.jpg" alt="" class="img-fluid">
             </div>
             <div class="carousel-cell">
@@ -36,7 +33,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <h1 class="title">リマワルとは？</h1>
-                            <h4>リマワルは、株式会社プロスタイルが運営する</h4>
+                            <h4>リマワルは、<span class="d-block d-lg-inline-block">株式会社プロスタイルが運営する</span></h4>
                             <h2>不動産小口化商品事業<span>です。</span></h2>
                             <h3>もっと身近に、不動産投資で資産運用を</h3>
                             <p>不動産投資は「リスクが大きい」「高額で手が出ない」「敷居が高い」な どと思っていませんか？<br>
@@ -117,7 +114,8 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <h1 class="title">運用イメージ</h1>
-                            <img src="images/svg/steps.svg" alt="" class="img-fluid w-100">
+                            <img src="images/svg/steps.svg" alt="" class="img-fluid w-100 d-none d-lg-block">
+                            <img src="images/svg/steps_sp.svg" alt="" class="img-fluid w-100 d-block d-lg-none">
                             <p class="text-center mb-0"><a href="#" class="btn btn_detail">詳細はこちら</a></p>
                         </div>
                     </div>
@@ -130,10 +128,15 @@
                         <div class="col-12 col-lg-12">
                             <h1 class="title">投資物件情報</h1>
                             <div class="box_property">
-                                <div class="row">
+                                <h4>募集中！</h4>
+                                <div class="row flex-row-reverse">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="box_property_img">
+                                            <a href="#"><img src="images/property.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                    </div>
                                     <div class="col-12 col-lg-6">
                                         <div class="box_property_info">
-                                            <h4>募集中！</h4>
                                             <h2>リマワル（第一号）</h2>
                                             <p class="mb-3">神奈川県横浜市鶴見区鶴見2丁目共同住宅</p>
                                             <div class="row mb-2">
@@ -141,7 +144,7 @@
                                                     <p><b>募集金額</b></p>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
-                                                    <p class="text-right">¥54,500,000 / ¥106,500,000（優先出資）</p>
+                                                    <p class="date">54,500,000円 / 106,500,000円（優先出資）</p>
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -149,7 +152,7 @@
                                                     <p><b>募集期間</b></p>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
-                                                    <p class="text-right">2021年3月16日 10:00 〜 7月10日 18:00</p>
+                                                    <p class="date">2021年3月16日 10:00 〜 7月10日 18:00</p>
                                                 </div>
                                             </div>
                                             <div class="progress my-3">
@@ -165,21 +168,17 @@
                                                     <h3>152<span>日</span></h3>
                                                 </li>
                                                 <li>
-                                                    <p>募集単位（1口）</p>
+                                                    <p>出資金<span class="d-block d-lg-inline-block">（1口あたり）</span></p>
                                                     <h3>100,000<span>円</span></h3>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_property_img">
-                                            <img src="images/property.jpg" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
 
-                            <p class="text-center mb-0"><a href="#" class="btn btn_detail">一覧へ</a></p>
+                            <p class="text-center mb-0"><a href="property.php" class="btn btn_detail">投資物件詳細へ</a></p>
                         </div>
                     </div>
                 </div>
