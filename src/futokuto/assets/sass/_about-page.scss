@@ -13,7 +13,7 @@
 			flex-direction: row;
 			flex-wrap: nowrap;
 			justify-content: flex-start;
-			align-items: stretch;
+			align-items: center;
 			align-content: stretch;
 			.box_circle {
 				width: 188px;
@@ -34,6 +34,7 @@
 					font-size: 1.5em;
 					margin-bottom: 10px;
 					font-weight: 500;
+					color: $cl-green;
 				}
 				p {
 					&:last-of-type {
