@@ -936,6 +936,8 @@ footer .footer_bottom .btn:last-of-type {
 .request-doc_form {
     max-width: 816px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .request-doc_form h3 {
@@ -953,8 +955,27 @@ footer .footer_bottom .btn:last-of-type {
     margin-left: auto;
 }
 
+@media (max-width: 768px) {
+    .request-doc_form .col-md-8 {
+        max-width: 100%;
+    }
+}
+
 .request-doc_form .col-md-4 {
     padding-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .request-doc_form .col-md-4 {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .request-doc_form .label_required {
+        margin-bottom: 10px;
+        display: block;
+    }
 }
 
 .request-doc_form .form-control:focus {
@@ -1112,7 +1133,9 @@ footer .footer_bottom .btn:last-of-type {
 
 .thank-you {
   padding-bottom: 60px;
-  margin-bottom: 103px; }
+  margin-bottom: 103px;
+  padding-left: 20px;
+  padding-right: 20px; }
   .thank-you h3 {
     margin: 0 25px 30px;
     padding: 60px 0 30px;

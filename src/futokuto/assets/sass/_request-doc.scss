@@ -12,6 +12,8 @@
 .request-doc_form{
 	max-width:816px;
 	margin: 0 auto;
+	padding-left:20px;
+	padding-right:20px;
 	h3{
 		padding-top: 60px;
 		padding-bottom: 60px;
@@ -25,10 +27,23 @@
 	.col-md-8{
 		max-width:503px;
 		margin-left: auto;
+		@media (max-width: 768px){
+			max-width:100%;
+		}
 	}
 
 	.col-md-4{
 		padding-right:8px;
+		@media (max-width: 768px){
+			padding-right:15px;
+		}
+	}
+
+	.label_required{
+		@media (max-width: 768px){
+			margin-bottom:10px;
+			display:block;
+		}
 	}
 
 	.form-control:focus{
@@ -220,6 +235,8 @@
 .thank-you{
 	padding-bottom:60px;
 	margin-bottom: 103px;
+	padding-left:20px;
+	padding-right:20px;
 	h3{
 		margin:0 25px 30px;
 		padding: 60px 0 30px;
