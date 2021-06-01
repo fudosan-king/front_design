@@ -111,11 +111,11 @@ function contact_submit($) {
                 // var ERROR_NO_INPUT = miyanomori_validate_msg.field_required;
                 var ERROR_NO_INPUT = 'この項目は必須です';
                 var htmlError = '<span class="error-required" style="color: red">' +  ERROR_NO_INPUT + '</span>';
-                $(_this.html.agree_privacy,_this.html.parent_frm).next().addClass('border-danger');
+                $(_this.html.agree_privacy,_this.html.parent_frm).next().addClass('validate-error');
                 $(_this.html.agree_privacy,_this.html.parent_frm).closest('.agree-privacy').find('.label_required').append(htmlError);
                 isValid = false;
             } else {
-                $(_this.html.agree_privacy,_this.html.parent_frm).next().removeClass('border-danger');
+                $(_this.html.agree_privacy,_this.html.parent_frm).next().removeClass('validate-error');
                 $(_this.html.agree_privacy,_this.html.parent_frm).closest('.agree-privacy').find('.error-required').remove();
             }
 
@@ -363,7 +363,7 @@ function contact_submit($) {
     {
 	    var formGroup = elem.closest('.form-group');
 	    formGroup.find('.error-required').remove();
-        // $(elem).removeClass('border-danger');
+        // $(elem).removeClass('validate-error');
 	}
 
     //This take message error by name setting
@@ -419,11 +419,11 @@ function contact_submit($) {
 	    var isValid = true;
 	    if(typeof(elem.val()) === 'undefined' || elem.val() == "" || elem.val() == "null"){
 	      _this.addErrorMessage(elem, ERROR_NO_INPUT);
-          elem.addClass('border-danger');
+          elem.addClass('validate-error');
 	      isValid = false;
 	    }else{
 	      _this.removeErrorMessage(elem);
-          elem.removeClass('border-danger');
+          elem.removeClass('validate-error');
 	    }
 	    return isValid;
     }
@@ -439,22 +439,22 @@ function contact_submit($) {
         switch (true) {
             case elem.val() == '':
                 _this.addErrorMessage(elem, ERROR_NO_INPUT);
-                elem.addClass('border-danger');
+                elem.addClass('validate-error');
                 isValid = false;
                 break;
             // case !elem.intlTelInput('isValidNumber'):
             //     _this.addErrorMessage(elem, ERROR_FORMAT);
-            //     elem.addClass('border-danger');
+            //     elem.addClass('validate-error');
             //     isValid = false;
             //     break;
             case elem.val().match(/^[0-9]{10,11}$/) == null:
                 _this.addErrorMessage(elem, ERROR_FORMAT);
-                elem.addClass('border-danger');
+                elem.addClass('validate-error');
                 isValid = false;
                 break;
             default:
                 _this.removeErrorMessage(elem);
-                elem.removeClass('border-danger');
+                elem.removeClass('validate-error');
         }
         return isValid;
     }
@@ -470,22 +470,22 @@ function contact_submit($) {
 	    switch (true) {
             case elem.val() == '':
  				_this.addErrorMessage(elem, ERROR_NO_INPUT);
-                elem.addClass('border-danger');
+                elem.addClass('validate-error');
                 isValid = false;
                 break;
             case elem.val().match(/^[0-9]+$/) == null:
               	_this.addErrorMessage(elem, ERROR_FORMAT);
-                elem.addClass('border-danger');
+                elem.addClass('validate-error');
                 isValid = false;
                 break;
             case elem.val().match(/^[0-9]{0,7}$/) == null:
                 _this.addErrorMessage(elem, ERROR_FORMAT);
-                elem.addClass('border-danger');
+                elem.addClass('validate-error');
                 isValid = false;
                 break;
             default:
              	_this.removeErrorMessage(elem);
-                elem.removeClass('border-danger');
+                elem.removeClass('validate-error');
         }
         return isValid;
 	}
@@ -501,17 +501,17 @@ function contact_submit($) {
         switch (true) {
             case elem.val() == '':
                 _this.addErrorMessage(elem, ERROR_NO_INPUT);
-                elem.addClass('border-danger');
+                elem.addClass('validate-error');
                 isValid = false;
                 break;
             case elem.val().match(/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/) == null:
                 _this.addErrorMessage(elem, ERROR_FORMAT);
-                elem.addClass('border-danger');
+                elem.addClass('validate-error');
                 isValid = false;
                 break;
             default:
                 _this.removeErrorMessage(elem);
-                elem.removeClass('border-danger');
+                elem.removeClass('validate-error');
         }
 	    return isValid;
 	}

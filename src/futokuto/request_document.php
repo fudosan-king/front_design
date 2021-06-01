@@ -30,7 +30,7 @@
                                                         <label>
                                                             お名前 <span class="i-required">必須</span>
                                                         </label>
-                                                        <span class="label_required"></span>
+                                                        <!-- <span class="label_required"></span> -->
                                                     </div>
                                                     <div class="col-md-8">
                                                         <input name="name_customer" class="form-control required" type="text" value="" placeholder="例：山田　太郎">
@@ -44,7 +44,7 @@
                                                         <label>
                                                             郵便番号 <span class="i-required">必須</span>
                                                         </label>
-                                                        <span class="label_required"></span>
+                                                        <!-- <span class="label_required"></span> -->
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="row align-items-center">
@@ -65,7 +65,7 @@
                                                         <label>
                                                             都道府県 <span class="i-required">必須</span>
                                                         </label>
-                                                        <span class="label_required"></span>
+                                                        <!-- <span class="label_required"></span> -->
                                                     </div>
                                                     <div class="col-md-8">
                                                         <select name="prefecture" class="form-control custom-select required" onchange>
@@ -224,7 +224,7 @@
                                                         <label>
                                                             住所 <span class="i-required">必須</span>
                                                         </label>
-                                                        <span class="label_required"></span>
+                                                        <!-- <span class="label_required"></span> -->
                                                     </div>
                                                     <div class="col-md-8">
                                                         <input name="city" class="form-control required" type="text" value="" placeholder="">
@@ -252,7 +252,7 @@
                                                         <label>
                                                             ご連絡先電話番号 <span class="i-required">必須</span>
                                                         </label>
-                                                        <span class="label_required"></span>
+                                                        <!-- <span class="label_required"></span> -->
                                                     </div>
                                                     <div class="col-md-8">
                                                         
@@ -267,7 +267,7 @@
                                                         <label>
                                                             メールアドレス <span class="i-required">必須</span>
                                                         </label>
-                                                        <span class="label_required"></span>
+                                                        <!-- <span class="label_required"></span> -->
                                                     </div>
                                                     <div class="col-md-8">
                                                         <input class="form-control js_valid-email" type="email" name="email" value="" placeholder="例：◯◯◯◯◯◯@xxxxxxxx.jp">
@@ -294,7 +294,7 @@
                                                         <div class="request-doc_form_footer">
                                                             <p class="text-center">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。
                                                                 <br>下記の
-                                                                 <a href="/privacy-policy" target="_blank">プライバシーポリシー 
+                                                                 <a href="https://www.prostyle-residence.com/privacy-policy/" target="_blank">プライバシーポリシー 
                                                                  </a> を必ずご一読頂き、同意のうえお問い合わせください。
                                                             </p>
                                                             
@@ -304,7 +304,7 @@
                                                                     <span class="checkmark"></span>
                                                                     同意する
                                                                 </label>
-                                                                <span class="label_required"></span>
+                                                                <!-- <span class="label_required"></span> -->
                                                             </div>
 
                                                             <button type="button" class="btn btn-form-action js-submit-cfr" id="" ><span>上記に同意して確認画面へ</span></button>
