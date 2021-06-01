@@ -48,10 +48,10 @@
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="row align-items-center">
-                                                            <div class="col-12 col-lg-6">
+                                                            <div class="col-6 col-lg-6">
                                                                 <input type="text" class="form-control js_valid-postalcode" name="postal" placeholder="例：1234567" maxlength="7" onKeyUp="AjaxZip3.zip2addr(this,'','prefecture','city', '')">
                                                             </div>
-                                                            <div class="col-12 col-lg-6">
+                                                            <div class="col-6 col-lg-6">
                                                                 <a class="" id="" href="javascript:void(0)" onclick="AjaxZip3.zip2addr('postal','','prefecture','city', '')"><img src="./images/svg/i-arrow-r.svg" alt="" class="img-fluid mr-2" width="20"> 郵便番号から住所を自動入力</a>
                                                             </div>
                                                         </div>
