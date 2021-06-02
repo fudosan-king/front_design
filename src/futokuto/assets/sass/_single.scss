@@ -1,5 +1,23 @@
+.i-mail{
+	width:30px;
+	height:15px;
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		background:url('../images/svg/i-mail.svg');
+		background-repeat:no-repeat;
+		width:22px;
+		height:16px;
+		left:0;
+	}
+}
+
+
 .signle-property {
+
 	.list_property {
+		padding-top:30px;
 		.main_property{
 			padding:60px 30px;
 			.container{
@@ -139,9 +157,18 @@
 .single-property_box_img{
 	margin-bottom:40px;
 	position:relative;
+	.img-bg{
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		padding-top:50.934%;
+		@media(max-width:767px){
+			padding-top:300px;
+		}
+	}
 	.circle-green{
 		position: absolute;
-		top: -160px;
+		top: -130px;
     	right: -30px;
 		background:#73886B;
 		border-radius:50%;

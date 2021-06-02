@@ -2,7 +2,7 @@
 <html>
 <?php include('head.php'); ?>
 
-<body>
+<body class="home-page">
     <?php require('header.php') ?>
 
     <section class="seciton_banner">
