@@ -31,7 +31,7 @@
                                    
                                         <div class="single-property_box_img">
                                             <h4>募集中！</h4>
-                                            <a href="#"><img src="images/single-img.jpg" alt="" class="img-fluid"></a>
+                                            <div class="img-bg" style="background-image:url('images/single-img.jpg');"></div>
                                             <div class="circle-green">
                                                 <div class="circle-white">
                                                     <p class="note">（サブリース）</p>
@@ -223,7 +223,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <a href="#" class="btn btn-single-mail"><i class=""></i>資料請求</a>
+                                                            <a href="#" class="btn btn-single-mail"><i class="i-mail"></i>資料請求</a>
                                                         </div>
                                                     </div>
 
