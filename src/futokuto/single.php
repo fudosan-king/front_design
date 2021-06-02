@@ -31,7 +31,7 @@
                                    
                                         <div class="single-property_box_img">
                                             <h4>募集中！</h4>
-                                            <div class="img-bg" style="background-image:url('images/single-img.jpg');"></div>
+                                            <div class="img-bg" style="background-image:url('./images/single-img.jpg');"></div>
                                             <div class="circle-green">
                                                 <div class="circle-white">
                                                     <p class="note">（サブリース）</p>
@@ -97,10 +97,10 @@
                                                             <p>横浜市が発表した将来推計人口によると鶴見区の人口は2042年まで伸び続ける見込みとなっており中長期的にみても賃貸ニーズは安心できるエリアと言えます。そんな鶴見区の中でも鶴見駅は区内で最も栄えた駅になります。川崎駅と横浜駅の間にあり、JR京浜東北線と京急線が乗り入れているので利便性の高さが特徴です。</p>
                                                             <p>当物件は鶴見駅から徒歩10分と住みやすいエリアにあり安定した入居需要が見込める立地となります。且つ当社グループ会社によるマスターリース契約により空き部屋になっても家賃を保証する仕組みになっているので投資家の皆様は安心してご利用いただける内容となっております。</p>
                                                             <div class="img">
-                                                                <img class="img-fluid" src="../images/single-img-1.jpg" alt="" />
+                                                                <img class="img-fluid" src="./images/single-img-1.jpg" alt="" />
                                                             </div>
                                                             <div class="img">
-                                                                <img class="img-fluid" src="../images/single-img-2.jpg" alt="" />
+                                                                <img class="img-fluid" src="./images/single-img-2.jpg" alt="" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -171,7 +171,7 @@
                                                             <p>出資者への配当は賃貸借契約者の賃料から得る利益を原資としているため、空室が続くと配当の原資が損なわれてしまいます。リマワルでは、出資元本の保全性を高めると同時に、出資者への配当をより確実なものとするために、運用期間における当社グループ会社によるマスターリース契約を締結しています。これにより、空室による無配当のリスクを抑制し、出資者の皆さまに安心して投資していただけるような商品を提供することができます。</p>
 
                                                             <div class="img">
-                                                                <img class="img-fluid" src="../images/single-img-3.png" >
+                                                                <img class="img-fluid" src="./images/single-img-3.png" >
                                                             </div>
                                                         </div>
                                                     </div>
