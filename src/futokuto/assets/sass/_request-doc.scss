@@ -1,3 +1,9 @@
+.request-doc-page{
+	.footer_bottom.fixed-bottom{
+		display:none;
+	}
+}
+
 .validate-error {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(239, 104, 104, 0.6)!important;
     border-color: #ff0000!important;
@@ -22,7 +28,7 @@
 	h3{
 		padding-top: 60px;
 		padding-bottom: 60px;
-		font-weight: 500;
+		font-weight: 400;
 		font-size: 1rem;
 		line-height: 180%;
 		color: #333333;
@@ -41,6 +47,15 @@
 		padding-right:8px;
 		@media (max-width: 768px){
 			padding-right:15px;
+		}
+	}
+	.col-6{
+		span{
+			margin-top: 5px;
+		    display: flex;
+		    line-height: 1.5;
+		    word-wrap: break-word;
+		    word-break: break-word;
 		}
 	}
 
@@ -79,6 +94,12 @@
     	justify-content: space-between;
     	align-items: center;
     	margin-top: 9px;
+    	@media (max-width: 767px){
+    		justify-content: normal;
+    		span{
+    			margin-left:10px;
+    		}
+    	}
 	}
 
 	.i-required{
@@ -95,6 +116,8 @@
 		font-size: 0.875rem;
 		line-height: 17px;
 		color: #73886B;
+		margin: 8px 0 0;
+    	display: inline-block;
 		img{
 			position: relative;
 			top:-2px;
@@ -137,6 +160,7 @@
 		    max-width: 112px;
 		    margin: 20px auto 10px;
 		    color: #000000;
+		    font-weight:400;
 		}
 
 		/* Hide the browser's default checkbox */
@@ -253,7 +277,7 @@
 	}
 	p{
 		text-align:center;
-		font-weight: 500;
+		font-weight: 400;
 		line-height: 180%;
 		color: #556170;
 		&:last-of-type{

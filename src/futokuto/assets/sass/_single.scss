@@ -1,3 +1,24 @@
+//----------------------------------------------//
+// *Response Font Size                          //
+//----------------------------------------------//
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-font-size($min-vw, $max-vw, $min-font-size, $max-font-size) {
+    $u1: unit($min-vw);
+    $u2: unit($max-vw);
+    $u3: unit($min-font-size);
+    $u4: unit($max-font-size);
+
+    @if $u1==$u2 and $u1==$u3 and $u1==$u4 {
+        & {
+            font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+        }
+    }
+}
+
+
 .i-mail{
 	width:30px;
 	height:15px;
@@ -34,11 +55,8 @@
 				padding:60px 0;
 				.container{
 					max-width: 1268px;
-					padding-left:20px;
-					padding-right:20px;
 					.row-sp{
-						margin-right:-35px;
-						margin-left:-35px;
+						background:#fff;
 					}
 				}
 			}
@@ -50,6 +68,10 @@
 
 
 .single-info{
+	@media(max-width:767px){
+		padding-left:5px;
+		padding-right:5px;
+	}
 	h3{
 		font-weight: 600;
 		font-size: 1.5rem;
@@ -140,7 +162,7 @@
 	}
 
 	@media (max-width:767px){
-		padding:0 20px 20px;
+		padding:0 0 20px;
 		h4{
 			padding: 10px 30px 10px 30px;
 			top: unset;
@@ -169,7 +191,7 @@
 	.circle-green{
 		position: absolute;
 		top: -130px;
-    	right: -30px;
+    	right: -41px;
 		background:#73886B;
 		border-radius:50%;
 		width: 100%;
@@ -204,8 +226,8 @@
 		}
 	}
 	@media (max-width:767px){
-		margin-right: -20px;
-    	margin-left: -20px;
+		margin-right: -15px;
+    	margin-left: -15px;
     	.circle-green{
     		top:-20px;
     		right:20px;
@@ -291,20 +313,35 @@
 		margin-top: 20px;
 		padding:0 14px;
 		max-width: 231px;
+		max-width: max-content;
 		margin-left: auto;
 		margin-right: auto;
 		span{
 			display:block;
 			font-weight: 600;
-			font-size: 1.125rem;
+			font-size:1.125rem;
 			line-height: 1.4;
 			color: #73886B;
 			margin-bottom:0;
 		}
+		@media (min-width:992px) and (max-width: 1400px){
+			span{
+				@include fluid-font-size(992px, 1400px, 11px, 15px);
+			}
+		}
 		@media(max-width: 767px){
 			max-width: 164px;
+			max-width: max-content;
+			margin-top:15px;
 			span{
     			font-size:0.75rem;
+    		}
+		}
+		@media(max-width: 374px){
+			max-width: 140px;
+			max-width: max-content;
+			span{
+    			font-size:0.6rem;
     		}
 		}
 	}
@@ -429,13 +466,13 @@
 		font-size: 1.125rem;
 		line-height: 21px;
 		letter-spacing: 0.1em;
-		color:#fff;
-		background: #73886B;
+		background: #EEF0F1;
+		color: #73886B;
 		position: relative;
 		padding: 19.5px 0;
 		&.active{
-			background: #EEF0F1;
-			color: #73886B;
+			color:#fff;
+			background: #73886B;
 		}
 		@media(max-width: 767px){
 			font-size: 0.875rem;
@@ -463,7 +500,7 @@
 		line-height: 19px;
 		color: #556170;
 		vertical-align: middle;
-		width: 160px;
+		width: 120px;
 		height:60px;
 	}
 	td{
@@ -499,7 +536,7 @@
 			margin-bottom:60px;
 		}
 		th{
-			width:200px;
+			width:120px;
 			.light{
 				font-weight:400;
 			}

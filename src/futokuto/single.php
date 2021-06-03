@@ -9,8 +9,8 @@
             <div class="container">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">TOP</a></li>
-                    <li class="breadcrumb-item" aria-current="page"><a href="/property.php">投資物件情報一覧</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">リマワル（第一号）</li>
+<!--                     <li class="breadcrumb-item" aria-current="page"><a href="/property.php">投資物件情報一覧</a></li>
+ -->                    <li class="breadcrumb-item active" aria-current="page">リマワル（第一号）</li>
                 </ol>
             </div>
         </nav>
@@ -34,14 +34,14 @@
                                             <div class="img-bg" style="background-image:url('./images/single-img.jpg');"></div>
                                             <div class="circle-green">
                                                 <div class="circle-white">
-                                                    <p class="note">（サブリース）</p>
-                                                    <p class="title-sm">マスターリース<br>契約による</p>
+                                                    <p class="note">マスターリース</p>
+                                                    <p class="title-sm">（サブリース）<br>契約による</p>
                                                     <p class="title-big">家賃保証</p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="row flex-column-reverse flex-lg-row">
+                                        <div class="row flex-column-reverse flex-lg-row js-single-sidebar-right">
                                             <div class="col-12 col-lg-8">
                                                 <ul class="nav single-property_tabs" role="tablist">
 
@@ -57,55 +57,6 @@
                                                 <div class="tab-content" id="pills-tabContent">
 
                                                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                                        <div class="signle-property_ct">
-                                                            <h3>エリア情報</h3>
-                                                            <div class="table">
-                                                                <table class="table">
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <th>物件名称</th>
-                                                                            <td>鶴見ハイツI棟</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th>所在地</th>
-                                                                            <td>横浜市鶴見区鶴見2-3-29</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th>交通アクセス</th>
-                                                                            <td>JR京浜東北線「鶴見」駅徒歩12分</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th>間取り</th>
-                                                                            <td>3LDK</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th>床面積</th>
-                                                                            <td>48.74㎡</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th>物件種別</th>
-                                                                            <td>共同住宅</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th>構造</th>
-                                                                            <td>RC造/td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
-                                                            <p>鶴見区の人口は現在約29万人（横浜市内18区中第3位）、世帯数約14万世帯（横浜市内18区中第2位）となっており現段階として賃貸ニーズも見込めるエリアとなっております。</p>
-                                                            <p>横浜市が発表した将来推計人口によると鶴見区の人口は2042年まで伸び続ける見込みとなっており中長期的にみても賃貸ニーズは安心できるエリアと言えます。そんな鶴見区の中でも鶴見駅は区内で最も栄えた駅になります。川崎駅と横浜駅の間にあり、JR京浜東北線と京急線が乗り入れているので利便性の高さが特徴です。</p>
-                                                            <p>当物件は鶴見駅から徒歩10分と住みやすいエリアにあり安定した入居需要が見込める立地となります。且つ当社グループ会社によるマスターリース契約により空き部屋になっても家賃を保証する仕組みになっているので投資家の皆様は安心してご利用いただける内容となっております。</p>
-                                                            <div class="img">
-                                                                <img class="img-fluid" src="./images/single-img-1.jpg" alt="" />
-                                                            </div>
-                                                            <div class="img">
-                                                                <img class="img-fluid" src="./images/single-img-2.jpg" alt="" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                                         <div class="signle-property_ct">
                                                             <div class="signle-property_ct_des">
                                                                 <p>株式会社プロスタイルの運営する不動産小口化事業の“リマワル”の1号の対象不動産になります。区分所有マンションで、現在分譲賃貸として貸出中となり、入居者様から毎月家賃を頂いております。</p>
@@ -129,7 +80,7 @@
                                                                         </tr>
                                                                         <tr>
                                                                             <th>出資金<span class="light">（1口あたり）</span></th>
-                                                                            <td>10万円 <span class="small">（お一人様、最大5口までとさせていただきます）</span></td>
+                                                                            <td>100,000円 <span class="small">（お一人様、最大5口までとさせていただきます）</span></td>
                                                                         </tr>
                                                                         <tr>
                                                                             <th>予定分配率<span class="light">（年）</span></th>
@@ -174,6 +125,56 @@
                                                                 <img class="img-fluid" src="./images/single-img-3.png" >
                                                             </div>
                                                         </div>
+                                                        
+                                                    </div>
+
+                                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                                        <div class="signle-property_ct">
+                                                            <h3>エリア情報</h3>
+                                                            <div class="table">
+                                                                <table class="table">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <th>物件名称</th>
+                                                                            <td>鶴見ハイツI棟</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>所在地</th>
+                                                                            <td>横浜市鶴見区鶴見2-3-29</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>交通アクセス</th>
+                                                                            <td>JR京浜東北線「鶴見」駅徒歩12分</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>間取り</th>
+                                                                            <td>3LDK</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>床面積</th>
+                                                                            <td>48.74㎡</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>物件種別</th>
+                                                                            <td>共同住宅</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th>構造</th>
+                                                                            <td>RC造</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p>鶴見区の人口は現在約29万人（横浜市内18区中第3位）、世帯数約14万世帯（横浜市内18区中第2位）となっており現段階として賃貸ニーズも見込めるエリアとなっております。</p>
+                                                            <p>横浜市が発表した将来推計人口によると鶴見区の人口は2042年まで伸び続ける見込みとなっており中長期的にみても賃貸ニーズは安心できるエリアと言えます。そんな鶴見区の中でも鶴見駅は区内で最も栄えた駅になります。川崎駅と横浜駅の間にあり、JR京浜東北線と京急線が乗り入れているので利便性の高さが特徴です。</p>
+                                                            <p>当物件は鶴見駅から徒歩10分と住みやすいエリアにあり安定した入居需要が見込める立地となります。且つ当社グループ会社によるマスターリース契約により空き部屋になっても家賃を保証する仕組みになっているので投資家の皆様は安心してご利用いただける内容となっております。</p>
+                                                            <div class="img">
+                                                                <img class="img-fluid" src="./images/single-img-1.jpg" alt="" />
+                                                            </div>
+                                                            <div class="img">
+                                                                <img class="img-fluid" src="./images/single-img-2.jpg" alt="" />
+                                                            </div>
+                                                        </div>
                                                     </div>
                                             
                                                 </div>
@@ -200,7 +201,7 @@
                                                             <div class="bg-green-light">
                                                                 <p class="title">募集金額</p>
                                                                 <p class="total-money">54,500,000<span class="unit">円</span></p>
-                                                                <p class="money-each">¥106,500,000（優先出資）</p>
+                                                                <p class="money-each">106,500,000円（優先出資）</p>
                                                                 <div class="progress my-3">
                                                                     <div class="progress-bar" role="progressbar" style="width: 51%;" aria-valuenow="51" aria-valuemin="0" aria-valuemax="100">51%</div>
                                                                 </div>

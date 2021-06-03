@@ -20,10 +20,12 @@
             </div>
         </div>
     </div>
+
     <div class="footer_bottom fixed-bottom">
         <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18"> 資料請求</a>
         <a class="btn" href="tel:000-0000-0000"><img src="images/svg/i_call.svg" alt="" class="img-fluid" width="18"> 000-0000-0000</a>
     </div>
+    
 </footer>
 
 <div class="bsnav-mobile d-block d-lg-none">
