@@ -26,7 +26,23 @@ function log_mainsion() {
     this.ready = function() {
         const _this = this;
         _this.navigation();
+        _this.widthSideBarRight ();
     } 
+
+    //Calculator sidebar right width
+    this.widthSideBarRight = function()
+    {
+        $(window).on('load resize',function(){
+            if( $(window).outerWidth() >= 992 ){
+                const wContent = $('.js-single-sidebar-right .col-12.col-lg-8').outerWidth();
+                $('.js-single-sidebar-right .col-12.col-lg-4').css('max-width','calc(100% - '+wContent+'px)');
+            } else {
+                $('.js-single-sidebar-right .col-12.col-lg-4').removeAttr('style');
+            }
+        });
+        
+    }
+    
 
     //Js Navigation
     this.navigation = function() {

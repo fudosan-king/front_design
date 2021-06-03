@@ -2,7 +2,7 @@
 <html>
 <?php include('head.php'); ?>
 
-<body>
+<body class="request-doc-page">
     <?php require('header.php') ?>
     <main>
         <nav aria-label="breadcrumb">
@@ -48,10 +48,10 @@
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="row align-items-center">
-                                                            <div class="col-6 col-lg-6">
+                                                            <div class="col-12 col-lg-6">
                                                                 <input type="text" class="form-control js_valid-postalcode" name="postal" placeholder="例：1234567" maxlength="7" onKeyUp="AjaxZip3.zip2addr(this,'','prefecture','city', '')">
                                                             </div>
-                                                            <div class="col-6 col-lg-6">
+                                                            <div class="col-12 col-lg-6">
                                                                 <a class="" id="" href="javascript:void(0)" onclick="AjaxZip3.zip2addr('postal','','prefecture','city', '')"><img src="./images/svg/i-arrow-r.svg" alt="" class="img-fluid mr-2" width="20"> 郵便番号から住所を自動入力</a>
                                                             </div>
                                                         </div>
@@ -322,12 +322,12 @@
                                             <h3></h3>
                                            <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-6">
                                                         <label>
                                                             お名前 <!-- <span class="i-required">必須</span> -->
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-6">
                                                         <span class="view_name_customer"></span>
                                                     </div>
                                                 </div>
@@ -335,12 +335,12 @@
 
                                             <div class=" form-group">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-6">
                                                         <label>
                                                             郵便番号 <!-- <span class="i-required">必須</span> -->
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-6">
                                                         <span class="view_postal"></span>
                                                     </div>
                                                 </div>
@@ -348,12 +348,12 @@
 
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-6">
                                                         <label>
                                                             都道府県 <!-- <span class="i-required">必須</span> -->
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-6">
                                                         <span class="view_prefecture"></span>
                                                     </div>
                                                 </div>
@@ -361,12 +361,12 @@
 
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-6">
                                                         <label>
                                                             住所 <!-- <span class="i-required">必須</span> -->
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-6">
                                                         <span class="view_city"></span>
                                                     </div>
                                                 </div>
@@ -374,12 +374,12 @@
 
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-6">
                                                         <label>
                                                             建物名・号室
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-6">
                                                         <span class="view_number_room"></span>
                                                     </div>
                                                 </div>
@@ -387,12 +387,12 @@
 
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-6">
                                                         <label>
                                                             ご連絡先電話番号 <!-- <span class="i-required">必須</span> -->
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-6">
                                                         <span class="view_number_room"></span>
                                                     </div>
                                                 </div>
@@ -400,12 +400,12 @@
 
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-6">
                                                         <label>
                                                             メールアドレス <!-- <span class="i-required">必須</span> -->
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-6">
                                                         <span class="view_email"></span>
                                                     </div>
                                                 </div>
