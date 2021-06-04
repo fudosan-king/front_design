@@ -30,5 +30,4 @@
 
 <div class="bsnav-mobile d-block d-lg-none">
     <div class="bsnav-mobile-overlay"></div>
-    <div class="navbar"></div>
 </div>

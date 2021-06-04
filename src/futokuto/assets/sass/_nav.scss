@@ -150,61 +150,61 @@
 
 }
 
-.home-page{
-    .navbar-brand{
-        img.logo-white{
-            display:none;
-        }
-        img.logo-green{
-            display:block;
-        }
-    }
-    .nav_menu {
-        background: #fff;
-        .menu-spin{
-            .nav-toggler-line{
-                background-color: #556170;
-                &:before {
-                    background-color: #556170;
-                }
+// .home-page{
+//     .navbar-brand{
+//         img.logo-white{
+//             display:none;
+//         }
+//         img.logo-green{
+//             display:block;
+//         }
+//     }
+//     .nav_menu {
+//         background: #fff;
+//         .menu-spin{
+//             .nav-toggler-line{
+//                 background-color: #556170;
+//                 &:before {
+//                     background-color: #556170;
+//                 }
 
-                &:after {
-                    background-color: #556170;
-                }
-            }
+//                 &:after {
+//                     background-color: #556170;
+//                 }
+//             }
 
-            &.open{
-                border: transparent!important;
-                .nav-toggler-line{
-                    background-color: black;
-                    &:before {
-                        background-color: black;
-                    }
+//             &.open{
+//                 border: transparent!important;
+//                 .nav-toggler-line{
+//                     background-color: black;
+//                     &:before {
+//                         background-color: black;
+//                     }
 
-                    &:after {
-                        background-color: black;
-                    }
-                } 
-            }
-        }
+//                     &:after {
+//                         background-color: black;
+//                     }
+//                 } 
+//             }
+//         }
       
-        .navbar-expand-lg {
-            ul.navbar-nav  {
-                li {
-                    a {
-                        color: #556170;
-                        span {
-                            &::before {
-                                border: 1px solid #556170;;
+//         .navbar-expand-lg {
+//             ul.navbar-nav  {
+//                 li {
+//                     a {
+//                         color: #556170;
+//                         span {
+//                             &::before {
+//                                 border: 1px solid #556170;;
                     
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
 @media (max-width:991px) {
@@ -258,60 +258,60 @@
     }
 
     //Is home page
-    .home-page{
-        .navbar-brand{
-            img.logo-white{
-                display:none;
-            }
-            img.logo-green{
-                display:block;
-            }
-        }
-        .nav_menu {
-            background: #fff;
-            .menu-spin{
-                .nav-toggler-line{
-                    background-color: #556170;
-                    &:before {
-                        background-color: #556170;
-                    }
+    // .home-page{
+    //     .navbar-brand{
+    //         img.logo-white{
+    //             display:none;
+    //         }
+    //         img.logo-green{
+    //             display:block;
+    //         }
+    //     }
+    //     .nav_menu {
+    //         background: #fff;
+    //         .menu-spin{
+    //             .nav-toggler-line{
+    //                 background-color: #556170;
+    //                 &:before {
+    //                     background-color: #556170;
+    //                 }
 
-                    &:after {
-                        background-color: #556170;
-                    }
-                }
+    //                 &:after {
+    //                     background-color: #556170;
+    //                 }
+    //             }
 
-                &.open{
-                    border: transparent!important;
-                    .nav-toggler-line{
-                        background-color: black;
-                        &:before {
-                            background-color: black;
-                        }
+    //             &.open{
+    //                 border: transparent!important;
+    //                 .nav-toggler-line{
+    //                     background-color: black;
+    //                     &:before {
+    //                         background-color: black;
+    //                     }
 
-                        &:after {
-                            background-color: black;
-                        }
-                    } 
-                }
-            }
+    //                     &:after {
+    //                         background-color: black;
+    //                     }
+    //                 } 
+    //             }
+    //         }
           
-            .navbar-expand-lg {
-                ul.navbar-nav  {
-                    li {
-                        a {
-                            color: #fff;
-                            span {
-                                &::before {
-                                    border: none;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+    //         .navbar-expand-lg {
+    //             ul.navbar-nav  {
+    //                 li {
+    //                     a {
+    //                         color: #fff;
+    //                         span {
+    //                             &::before {
+    //                                 border: none;
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 
     //Scroll Through Menu
     .menu-animation-scroll {
