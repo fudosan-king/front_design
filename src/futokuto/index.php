@@ -2,7 +2,7 @@
 <html>
 <?php include('head.php'); ?>
 
-<body class="home-page">
+<body>
     <?php require('header.php') ?>
 
     <section class="seciton_banner">
@@ -113,7 +113,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <h1 class="title">運用イメージ</h1>
+                            <h1 class="title">ご利用の流れ</h1>
                             <img src="images/svg/steps.svg" alt="" class="img-fluid w-100 d-none d-lg-block">
                             <img src="images/svg/steps_sp.svg" alt="" class="img-fluid w-100 d-block d-lg-none">
                             <p class="text-center mb-0"><a href="#" class="btn btn_detail">詳細はこちら</a></p>

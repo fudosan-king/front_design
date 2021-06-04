@@ -5,8 +5,6 @@
 
                 <img src="images/svg/logo.svg" alt="" class="logo-white img-fluid" width="155">
 
-                <img src="images/svg/logo-green.svg" alt="" class="logo-green img-fluid" width="155">
-
             </a>
             <div class="nav_menu-action">
                 <button class="navbar-toggler menu-spin js-menu" type="button">
@@ -21,9 +19,9 @@
                             <img src="./images/svg/logo.svg" alt="" class="img-fluid" width="155">
                         </a>
                     </li>
-                    <li class="nav-item active">
+                   <!--  <li class="nav-item active">
                         <a class="nav-link" href="#">投資物件情報一覧</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">はじめての方へ</a>
                     </li>
