@@ -806,6 +806,28 @@ footer .footer_bottom .btn img {
     }
 }
 
+@media (min-width: 1024px) {
+    ul.list_property li {
+        width: 48.5%;
+    }
+
+    .section_near_property ul.list_property li {
+        width: 48.5%;
+    }
+
+    .section_near_property ul.list_property li:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+    .section_near_property ul.list_property li .property_img {
+        height: 359px;
+    }
+
+    .section_near_property ul.list_property li .property_img img {
+        height: 359px;
+    }
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-toggler {
         display: block;
@@ -832,6 +854,8 @@ footer .footer_bottom .btn img {
     .navbar-brand {
         padding: 0;
         margin-right: 0;
+        position: relative;
+        top: -4px;
     }
 
     .navbar {

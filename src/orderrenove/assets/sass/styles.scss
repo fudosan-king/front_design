@@ -668,6 +668,31 @@ footer {
   }
 }
 
+@media (min-width: 1024px) {
+  ul.list_property {
+    li {
+      width: 48.5%;
+    }
+  }
+
+  .section_near_property {
+    ul.list_property {
+      li {
+        width: 48.5%;
+        &:nth-of-type(2n) {
+          margin-right: 0;
+        }
+        .property_img {
+          height: 359px;
+          img {
+            height: 359px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg {
     .navbar-toggler {
@@ -693,6 +718,8 @@ footer {
   .navbar-brand {
     padding: 0;
     margin-right: 0;
+    position: relative;
+    top: -4px;
   }
 
   .navbar {
