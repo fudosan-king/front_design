@@ -15,11 +15,13 @@ $(function($) {
 	$("#dropdown_user").click(function(event) {
   		event.preventDefault();
 	  	$(".dropdown_user_content").slideToggle("fast");
+	  	$(".dropdown_search_content").hide();
 	});
 
 	$("#dropdown_search").click(function(event) {
   		event.preventDefault();
 	  	$(".dropdown_search_content").slideToggle("fast");
+	  	$(".dropdown_user_content").hide();
 	});
 
 	jQuery(document).ready(function($) {
