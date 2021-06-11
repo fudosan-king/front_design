@@ -15,5 +15,6 @@
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/flickity.min.css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">

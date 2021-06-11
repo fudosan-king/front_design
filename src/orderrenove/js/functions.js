@@ -12,6 +12,11 @@ $(function($) {
 		$(this).toggleClass("on");
 	});
 
+	$(".btn_del").click(function(event){
+		event.preventDefault();
+		// $('.box_notice_item').hide();
+	});
+
 	$("#dropdown_user").click(function(event) {
   		event.preventDefault();
 	  	$(".dropdown_user_content").slideToggle("fast");
@@ -39,6 +44,34 @@ $(function($) {
 		  	$(".btn_call span").slideToggle("fast");
 		});
 
+		$(".btnshowhide").click(function(event) {
+	  		event.preventDefault();
+		  	$(".w_box_simulation_result").slideToggle("fast");
+		});
+
 	}(jQuery));
 });
+
+$(".js-range-slider").ionRangeSlider({
+	min: 1,
+    max: 35,
+    from: 10
+});
+
+$(".js-range-slider1").ionRangeSlider({
+	min: 0,
+    max: 35,
+    postfix: "年"
+});
+
+$(".js-range-slider2").ionRangeSlider({
+	min: 0,
+    max: 3,
+    step: .1,
+    postfix: "%"
+});
+
+
+
+
 

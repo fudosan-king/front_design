@@ -1,32 +1,32 @@
-<header class="fixed-top">
+<header class="fixed-top subheader">
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand" href="index.php">
-            <img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="224">
-            <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="134">
+            <img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid i_white" width="224">
+            <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid i_black" width="224">
         </a>
         <div class="ml-auto box_user">
             <div class="dropdown dropdown_user">
-                <a class="dropdown_user" href="login.php">
-                    <img src="images/svg/i_user.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="15">
-                    <img src="images/svg/i_user_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="15">
+                <a id="dropdown_user" href="#">
+                    <img src="images/svg/i_user.svg" alt="" class="img-fluid i_white" width="15">
+                    <img src="images/svg/i_user_black.svg" alt="" class="img-fluid i_black" width="15">
                     <span>ログイン</span>
                 </a>
-                <!-- <div class="dropdown_user_content">
+                <div class="dropdown_user_content">
                     <ul>
                         <li><a href="#">ゴチャンユイアインさま</a></li>
-                        <li><a href="#">会員登録情報</a></li>
+                        <li><a href="account_information.php">会員登録情報</a></li>
                         <li><a href="#">メルマガ配信希望条件</a></li>
                         <li><a href="#">お知らせ <span>10</span></a></li>
                         <li><a href="#">お気に入り</a></li>
                         <li><a href="#">ログアウト</a></li>
                     </ul>
-                </div> -->
+                </div>
             </div>
 
             <div class="dropdown dropdown_search">
                 <a id="dropdown_search" href="#">
-                    <img src="images/svg/i_search.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="16">
-                    <img src="images/svg/i_search_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="16">
+                    <img src="images/svg/i_search.svg" alt="" class="img-fluid i_white" width="16">
+                    <img src="images/svg/i_search_black.svg" alt="" class="img-fluid i_black" width="16">
                 </a>
                 <div class="dropdown_search_content">
                     <div class="accordion" id="accordionExample">
