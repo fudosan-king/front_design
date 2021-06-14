@@ -5,22 +5,12 @@
             <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="134">
         </a>
         <div class="ml-auto box_user">
-            <div class="dropdown dropdown_user">
+            <div class="dropdown dropdown_user mr-3">
                 <a class="dropdown_user" href="login.php">
                     <img src="images/svg/i_user.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="15">
                     <img src="images/svg/i_user_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="15">
                     <span>ログイン</span>
                 </a>
-                <!-- <div class="dropdown_user_content">
-                    <ul>
-                        <li><a href="#">ゴチャンユイアインさま</a></li>
-                        <li><a href="#">会員登録情報</a></li>
-                        <li><a href="#">メルマガ配信希望条件</a></li>
-                        <li><a href="#">お知らせ <span>10</span></a></li>
-                        <li><a href="#">お気に入り</a></li>
-                        <li><a href="#">ログアウト</a></li>
-                    </ul>
-                </div> -->
             </div>
 
             <div class="dropdown dropdown_search">

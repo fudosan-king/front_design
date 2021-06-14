@@ -9,7 +9,10 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">ログイン</h2>
+                            <h2 class="title mb-3">確認メールの再送信</h2>
+                            <p class="subtitle mb-2">
+                                <small>下記に登録したメールアドレスを入力してください。登録確認のご案内をメールでお送りします。</small>
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -18,14 +21,13 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-lg-12">
-                                <div class="box_toplogin">
+                                <div class="box_toplogin mb-4">
                                     <ul>
                                         <li>
                                             <a class="btn" href="#"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="24">Facebookでログイン</a>
                                         </li>
                                         <li><a class="btn" href="#"><img src="images/svg/i_google.svg" alt="" class="img-fluid" width="24"> Googleでログイン</a></li>
                                     </ul>
-                                    <p class="or"><span>または</span></p>
                                 </div>
                                 
                                 <form action="" class="frm_settingpass">
@@ -33,20 +35,8 @@
                                         <label for="">メールアドレス <span class="red">必須</span></label>
                                         <input type="text" class="form-control" placeholder="orderrenove@propolife.co.jp">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="">パスワード  <span class="red">必須</span></label>
-                                        <input type="text" class="form-control" placeholder="英数字８文字以上">
-                                    </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">入力した情報を保存する</label>
-                                    </div>
-                                    <button type="submit" class="btn btnsave mb-3">ログイン</button>
-                                    <p class="text-center red">
-                                        <a class="text-decoration-none d-block" href="forgotpassword.php">パスワードを忘れた場合</a>
-                                        <a class="text-decoration-none d-block" href="resendreconfirmed.php">確認メールが届いてない場合</a>
-                                        <a class="text-decoration-none d-block" href="new_registration.php">新規会員登録</a>
-                                    </p>
+                                    <button type="submit" class="btn btnsave mb-3">メールを送信する</button>
+                                    <p class="text-center red"><a href="login.php" class="text-decoration-none">ログインに戻る</a></p>
                                 </form>
                             </div>
                         </div>

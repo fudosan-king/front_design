@@ -103,9 +103,8 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-lg-6">
-                                                            <!-- <div id="piechart"></div> -->
-                                                            <canvas id="myChart" width="213" height="213"></canvas>
-
+                                                            <!-- <canvas id="myChart" width="213" height="213"></canvas> -->
+                                                            <canvas id="pie-canvas1"></canvas>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -513,6 +512,7 @@
 
         <?php include('js-footer.php') ?>
 
+<<<<<<< HEAD
         <!-- <script type="text/javascript">
           google.charts.load("current", {packages:["corechart"]});
           google.charts.setOnLoadCallback(drawChart);
@@ -562,9 +562,6 @@
                 
             });
         </script>
-
-
-         
 
     </body>
 </html>
