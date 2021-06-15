@@ -84,7 +84,7 @@
                                                             <div class="form-group">
                                                                 <label for="">毎月のローン返済額</label>
                                                                 <div class="d-flex align-items-center">
-                                                                    <input type="text" class="form-control" placeholder="155,089">
+                                                                    <input type="text" class="form-control repayment_amount" placeholder="155,089">
                                                                     <span class="ml-2">円</span>
                                                                 </div>
                                                             </div>
@@ -273,229 +273,197 @@
                                 <ul class="list_property">
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
                                             <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
-                                            <p class="label_custom">リノベ済<br>物件</p>
+                                            <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
 
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
-                                            <p class="label_custom">リノベ済<br>物件</p>
+                                            <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
-                                            <p class="label_custom">リノベ済<br>物件</p>
+                                            <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
 
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
-                                            <p class="label_custom">リノベ済<br>物件</p>
+                                            <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
-                                            <p class="label_custom">リノベ済<br>物件</p>
+                                            <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
 
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
-                                            <p class="label_custom">リノベ済<br>物件</p>
+                                            <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="property_img">
-                                            <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                            <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                             <p class="total_price">5400<span>万円</span></p>
-                                            <p class="label_custom">リノベ済<br>物件</p>
+                                            <p class="label_custom renovated">リノベ済<br>物件</p>
                                         </div>
                                         <div class="property_head">
                                             <p class="property_name">麻布狸穴ナショナルコート</p>
-                                            <div class="d-flex d-lg-block">
-                                                <p class="property_address">港区西麻布2丁目</p>
-                                                <p class="property_square">50.4m²</p>
-                                            </div>
+                                            <p class="property_address">港区西麻布2丁目</p>
+                                            <p class="property_square">50.4m²</p>
                                         </div>
                                     </li>
                                 </ul>

@@ -967,6 +967,10 @@ footer .footer_bottom .btn img {
     width: auto;
 }
 
+.section_property_main .box_calcu .frm_calcu .repayment_amount {
+    max-width: 162px;
+}
+
 .section_property_main .box_calcu .frm_calcu .title_simulation_result {
     width: auto;
     display: block;
@@ -1778,6 +1782,11 @@ footer .footer_bottom .btn img {
         font-size: 0.75em;
     }
 
+    ul.list_property li .property_img p.label_custom {
+        padding: 5px;
+        font-size: .5em;
+    }
+
     ul.list_property li .property_img img {
         height: 237px;
     }
@@ -1826,7 +1835,7 @@ footer .footer_bottom .btn img {
 
     .section_near_property ul.list_property li .property_head p.property_square {
         font-size: 0.625em;
-        margin-left: 10px;
+        line-height: 1em;
     }
 
     .section_near_property ul.list_property li .property_head .btn_wishlist {
@@ -1895,6 +1904,14 @@ footer .footer_bottom .btn img {
         margin-bottom: 0;
     }
 
+    .section_property_main .box_calcu .frm_calcu .form-control {
+        font-size: 1.3em;
+    }
+
+    .section_property_main .box_calcu .frm_calcu .repayment_amount {
+        max-width: 110px;
+    }
+
     .box_renovation_specifications p {
         font-size: 0.75em;
     }
@@ -1957,12 +1974,22 @@ footer .footer_bottom .btn img {
         margin-bottom: 10px;
     }
 
+    .section_accinfo h4 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
     .section_accinfo p.head {
         margin-left: 0;
     }
 
     .section_accinfo .btnedit {
         margin-right: 0;
+    }
+
+    .frm_accinfo h4 {
+        margin-left: -15px;
+        margin-right: -15px;
     }
 }
 
