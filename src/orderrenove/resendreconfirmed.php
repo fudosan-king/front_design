@@ -21,15 +21,6 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-lg-12">
-                                <div class="box_toplogin mb-4">
-                                    <ul>
-                                        <li>
-                                            <a class="btn" href="#"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="24">Facebookでログイン</a>
-                                        </li>
-                                        <li><a class="btn" href="#"><img src="images/svg/i_google.svg" alt="" class="img-fluid" width="24"> Googleでログイン</a></li>
-                                    </ul>
-                                </div>
-                                
                                 <form action="" class="frm_settingpass">
                                     <div class="form-group">
                                         <label for="">メールアドレス <span class="red">必須</span></label>
