@@ -806,6 +806,9 @@ footer {
           width: auto;
         }
       }
+      .repayment_amount {
+        max-width: 162px;
+      }
       .title_simulation_result {
         width: auto;
         display: block;
@@ -1590,6 +1593,10 @@ footer {
           &.total_price {
             font-size: 0.75em;
           }
+          &.label_custom {
+            padding: 5px;
+            font-size: .5em;
+          }
         }
         img {
           height: 237px;
@@ -1640,7 +1647,7 @@ footer {
             }
             &.property_square {
               font-size: 0.625em;
-              margin-left: 10px;
+              line-height: 1em;
             }
           }
           .btn_wishlist {
@@ -1709,7 +1716,14 @@ footer {
           font-size: 1.125em;
           margin-bottom: 0;
         }
+        .form-control {
+          font-size: 1.3em;
+        }
+        .repayment_amount {
+          max-width: 110px;
+        }
       }
+
 
     }
   }
@@ -1777,6 +1791,10 @@ footer {
   }
 
   .section_accinfo {
+    h4 {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
     p {
       &.head {
         margin-left: 0;
@@ -1784,6 +1802,13 @@ footer {
     }
     .btnedit {
       margin-right: 0;
+    }
+  }
+
+  .frm_accinfo {
+    h4 {
+      margin-left: -15px;
+      margin-right: -15px;
     }
   }
 

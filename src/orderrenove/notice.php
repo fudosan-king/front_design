@@ -26,12 +26,12 @@
                                         <div class="col-5 col-lg-6">
                                             <div class="box_notice_img">
                                                 <a href="#"><img src="images/img05.jpg" alt="" class="img-fluid"></a>
-                                                <span>新着物件</span>
+                                                <span>成約済</span>
                                             </div>
                                         </div>
                                         <div class="col-7 col-lg-6">
                                             <div class="box_notice_content">
-                                                <p>1日前</p>
+                                                <p>NEW</p>
                                                 <p><a href="#">麻布狸穴ナショナルコート麻布狸穴ナショナルコート</a></p>
                                                 <p>48.24m2</p>
                                                 <p>5,400万円（物件＋リノベーション）</p>
@@ -48,12 +48,12 @@
                                         <div class="col-4 col-lg-6">
                                             <div class="box_notice_img">
                                                 <a href="#"><img src="images/img05.jpg" alt="" class="img-fluid"></a>
-                                                <span>新着物件</span>
+                                                <span>成約済</span>
                                             </div>
                                         </div>
                                         <div class="col-8 col-lg-6">
                                             <div class="box_notice_content">
-                                                <p>1日前</p>
+                                                <p>NEW</p>
                                                 <p><a href="#">麻布狸穴ナショナルコート麻布狸穴ナショナルコート</a></p>
                                                 <p>48.24m2</p>
                                                 <p>5,400万円（物件＋リノベーション）</p>
@@ -70,12 +70,12 @@
                                         <div class="col-4 col-lg-6">
                                             <div class="box_notice_img">
                                                 <a href="#"><img src="images/img05.jpg" alt="" class="img-fluid"></a>
-                                                <span>新着物件</span>
+                                                <span>成約済</span>
                                             </div>
                                         </div>
                                         <div class="col-8 col-lg-6">
                                             <div class="box_notice_content">
-                                                <p>1日前</p>
+                                                <p>NEW</p>
                                                 <p><a href="#">麻布狸穴ナショナルコート麻布狸穴ナショナルコート</a></p>
                                                 <p>48.24m2</p>
                                                 <p>5,400万円（物件＋リノベーション）</p>
@@ -92,12 +92,12 @@
                                         <div class="col-4 col-lg-6">
                                             <div class="box_notice_img">
                                                 <a href="#"><img src="images/img05.jpg" alt="" class="img-fluid"></a>
-                                                <span>新着物件</span>
+                                                <span>成約済</span>
                                             </div>
                                         </div>
                                         <div class="col-8 col-lg-6">
                                             <div class="box_notice_content">
-                                                <p>1日前</p>
+                                                <p>NEW</p>
                                                 <p><a href="#">麻布狸穴ナショナルコート麻布狸穴ナショナルコート</a></p>
                                                 <p>48.24m2</p>
                                                 <p>5,400万円（物件＋リノベーション）</p>
