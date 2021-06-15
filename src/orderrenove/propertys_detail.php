@@ -103,7 +103,6 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-6 col-lg-6">
-                                                            <!-- <canvas id="myChart" width="213" height="213"></canvas> -->
                                                             <canvas id="pie-canvas1"></canvas>
                                                         </div>
                                                     </div>
