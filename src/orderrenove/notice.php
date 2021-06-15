@@ -26,7 +26,7 @@
                                         <div class="col-5 col-lg-6">
                                             <div class="box_notice_img">
                                                 <a href="#"><img src="images/img05.jpg" alt="" class="img-fluid"></a>
-                                                <span>成約済</span>
+                                                <span>新規物件</span>
                                             </div>
                                         </div>
                                         <div class="col-7 col-lg-6">
