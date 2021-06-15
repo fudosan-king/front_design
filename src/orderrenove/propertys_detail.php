@@ -511,56 +511,9 @@
 
         <?php include('js-footer.php') ?>
 
-<<<<<<< HEAD
-        <!-- <script type="text/javascript">
-          google.charts.load("current", {packages:["corechart"]});
-          google.charts.setOnLoadCallback(drawChart);
-          function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-              ['Language', 'Speakers (in millions)'],
+    
 
-              ['管理費',  1],
-              ['修繕積立金',  1],
-              ['ローン返済額', 8],
-              
-            ]);
-
-          var options = {
-            legend: 'none',
-            pieSliceText: 'label',
-            pieStartAngle: 100,
-          };
-
-            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-            chart.draw(data, options);
-          }
-        </script> -->
-
-        <script>
-            var ctx = document.getElementById('myChart').getContext('2d');
-            var myChart = new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    datasets: [{
-                        data: [10, 10, 80],
-                        backgroundColor: [
-                            '#EB5757',
-                            '#F2994A',
-                            '#F2C94C',
-                        ],
-                        borderWidth: 0
-                    }],
-                    hoverOffset: 4
-                },
-
-                options: {
-                    interaction: {
-                        mode: 'index'
-                    }
-                }
-                
-            });
-        </script>
+        
 
     </body>
 </html>
