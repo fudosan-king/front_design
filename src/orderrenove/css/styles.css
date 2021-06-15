@@ -1761,6 +1761,7 @@ footer .footer_bottom .btn img {
         padding-left: 30px;
         padding-right: 30px;
         margin-right: 5px;
+        width: 48%;
     }
 
     ul.list_property li {
@@ -1983,6 +1984,11 @@ footer .footer_bottom .btn img {
     .dropdown_search .dropdown_search_content {
         min-width: 385px;
     }
+
+    footer .footer_bottom .btn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -1992,10 +1998,5 @@ footer .footer_bottom .btn img {
 
     .section_near_property ul.list_property li {
         width: 46.5%;
-    }
-
-    footer .footer_bottom .btn {
-        padding-left: 15px;
-        padding-right: 15px;
     }
 }
