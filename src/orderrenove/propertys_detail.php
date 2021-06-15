@@ -74,7 +74,9 @@
                                                     <p class="text-center mt-3">管理費：20,000円／修繕積立金：20,000円 含む</p>
                                                 </div>
 
-                                                <p class="text-center"><a class="btn btnshowhide d-block d-lg-none" href="#"><img src="images/svg/showhide.svg" alt="" class="img-fluid" width="9"></a></p>
+                                                <p class="text-center box_showmore mb-5">
+                                                    <a class="btn btnshowhide d-block d-lg-none" href="#"></a>
+                                                </p>
 
                                                 <div class="w_box_simulation_result">
                                                     <div class="row no-gutters">

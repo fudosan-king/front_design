@@ -46,6 +46,7 @@ $(function($) {
 
 		$(".btnshowhide").click(function(event) {
 	  		event.preventDefault();
+	  		$(this).toggleClass('show');
 		  	$(".w_box_simulation_result").slideToggle("fast");
 		});
 

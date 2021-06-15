@@ -172,7 +172,7 @@
                                     <div class="property_img">
                                         <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
-                                        <p class="label_custom">リノベ済<br>物件</p>
+                                        <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
                                     <div class="property_head">
                                         <p class="property_name">麻布狸穴ナショナルコート</p>
@@ -201,7 +201,7 @@
                                     <div class="property_img">
                                         <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
-                                        <p class="label_custom">リノベ済<br>物件</p>
+                                        <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
                                     <div class="property_head">
                                         <p class="property_name">麻布狸穴ナショナルコート</p>
@@ -229,7 +229,7 @@
                                     <div class="property_img">
                                         <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
-                                        <p class="label_custom">リノベ済<br>物件</p>
+                                        <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
                                     <div class="property_head">
                                         <p class="property_name">麻布狸穴ナショナルコート</p>
@@ -258,7 +258,7 @@
                                     <div class="property_img">
                                         <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
-                                        <p class="label_custom">リノベ済<br>物件</p>
+                                        <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
                                     <div class="property_head">
                                         <p class="property_name">麻布狸穴ナショナルコート</p>
@@ -286,7 +286,7 @@
                                     <div class="property_img">
                                         <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
-                                        <p class="label_custom">リノベ済<br>物件</p>
+                                        <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
                                     <div class="property_head">
                                         <p class="property_name">麻布狸穴ナショナルコート</p>
@@ -315,7 +315,7 @@
                                     <div class="property_img">
                                         <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
-                                        <p class="label_custom">リノベ済<br>物件</p>
+                                        <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
                                     <div class="property_head">
                                         <p class="property_name">麻布狸穴ナショナルコート</p>
@@ -343,7 +343,7 @@
                                     <div class="property_img">
                                         <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
-                                        <p class="label_custom">リノベ済<br>物件</p>
+                                        <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
                                     <div class="property_head">
                                         <p class="property_name">麻布狸穴ナショナルコート</p>
