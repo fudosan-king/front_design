@@ -9,7 +9,11 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">ログイン</h2>
+                            <h2 class="title mb-3">新規会員登録</h2>
+                            <p class="subtitle mb-2">
+                                <small>ようこそOrder-Renoveへ！<br>
+                                あなただけの新しいすまいづくりはここから</small>
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -37,16 +41,17 @@
                                         <label for="">パスワード  <span class="red">必須</span></label>
                                         <input type="text" class="form-control" placeholder="英数字８文字以上">
                                     </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">入力した情報を保存する</label>
+                                    <div class="form-group">
+                                        <label for="">パスワード（再入力） <span class="red">必須</span></label>
+                                        <input type="text" class="form-control" placeholder="パスワードを再入力する">
                                     </div>
-                                    <button type="submit" class="btn btnsave mb-3">ログイン</button>
-                                    <p class="text-center red">
-                                        <a class="text-decoration-none d-block" href="forgotpassword.php">パスワードを忘れた場合</a>
-                                        <a class="text-decoration-none d-block" href="resendreconfirmed.php">確認メールが届いてない場合</a>
-                                        <a class="text-decoration-none d-block" href="new_registration.php">新規会員登録</a>
-                                    </p>
+                                    <p>ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。<br>
+                                    下記の <a href="#">プライバシーポリシー</a>  を必ずご一読頂き、同意のうえお問い合わせください。</p>
+                                    <div class="custom-control custom-checkbox text-center mb-3">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">同意する</label>
+                                    </div>
+                                    <button type="submit" class="btn btnsave">新規会員登録する</button>
                                 </form>
                             </div>
                         </div>

@@ -40,7 +40,7 @@
                             <ul class="list_property">
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -59,7 +59,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
@@ -78,7 +78,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -97,7 +97,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
@@ -128,7 +128,7 @@
                             <ul class="list_property">
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -142,7 +142,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom renovated">リノベ済<br>物件</p>
                                     </div>
@@ -156,7 +156,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -170,7 +170,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom">リノベ済<br>物件</p>
                                     </div>
@@ -185,7 +185,7 @@
 
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -199,7 +199,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom">リノベ済<br>物件</p>
                                     </div>
@@ -213,7 +213,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -227,7 +227,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom">リノベ済<br>物件</p>
                                     </div>
@@ -242,7 +242,7 @@
 
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -256,7 +256,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom">リノベ済<br>物件</p>
                                     </div>
@@ -270,7 +270,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -284,7 +284,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom">リノベ済<br>物件</p>
                                     </div>
@@ -299,7 +299,7 @@
 
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -313,7 +313,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom">リノベ済<br>物件</p>
                                     </div>
@@ -327,7 +327,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
                                         <p class="label_custom">カスタム<br>可能物件</p>
                                     </div>
@@ -341,7 +341,7 @@
                                 </li>
                                 <li>
                                     <div class="property_img">
-                                        <a href="#"><img src="images/img.jpg" alt="" class="img-fluid"></a>
+                                        <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
                                         <p class="total_price">5400<span>万円</span></p>
                                         <p class="label_custom">リノベ済<br>物件</p>
                                     </div>

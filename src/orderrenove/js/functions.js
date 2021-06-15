@@ -72,6 +72,23 @@ $(".js-range-slider2").ionRangeSlider({
 });
 
 
-
+$('.datepicker_year').datepicker({
+	format: 'yyyy',
+	viewMode: "years", 
+    minViewMode: "years",
+	language: 'ja'
+});
+$('.datepicker_month').datepicker({
+	format: 'mm',
+	viewMode: "months", 
+    minViewMode: "months",
+	language: 'ja'
+});
+$('.datepicker_day').datepicker({
+	format: 'dd',
+	viewMode: "days", 
+    minViewMode: "days",
+	language: 'ja'
+});
 
 

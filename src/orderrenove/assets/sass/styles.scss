@@ -38,6 +38,9 @@ h1 {font-size: 2.3125em;}
 h2 {
   font-size: 1.5em;
 }
+
+.red {color: #EB5757;}
+
 .form-control {
   font-size: 0.875em;
   border-color: #BDBDBD;
@@ -53,6 +56,15 @@ h2 {
 .custom-control-input:focus~.custom-control-label::before {
   box-shadow: none;
 }
+
+.custom-control-label::before {
+  border-color: $prink-color;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  background-color: $prink-color;
+  border-color: $prink-color;
+}
+
 .relative {position: relative;}
 b {
   font-weight: 700;
@@ -94,6 +106,8 @@ header {
       align-content: stretch;
       span {
         margin-left: 5px;
+        font-size: 0.75em;
+        font-weight: 600;
       }
       &:last-of-type {
         margin-right: 0;
@@ -1014,17 +1028,7 @@ footer {
         color: $prink-color;
       }
     }
-    .btnsave {
-      background: $prink-color;
-      width: 100%;
-      color: #fff;
-      padding: 13.5px 30px;
-      margin-top: 10px;
-      font-size: 0.875em;
-      &:hover {
-        background: #000;
-      }
-    }
+
     p {
       font-size: 0.875em;
       a {
@@ -1033,6 +1037,19 @@ footer {
         font-weight: 500;
       }
     }
+  }
+}
+
+.btnsave {
+  background: $prink-color;
+  width: 100%;
+  color: #fff;
+  padding: 13.5px 30px;
+  margin-top: 10px;
+  font-size: 0.875em;
+  &:hover {
+    background: #000;
+    color: #fff;
   }
 }
 
@@ -1188,10 +1205,14 @@ footer {
     font-size: 0.75em;
     margin-bottom: 0;
     margin-top: 15px;
+
+    span {
+      color: #EB5757;
+    }
   }
   p {
     margin-bottom: 0;
-    font-size: 0.875em;
+    font-size: 0.8em;
     padding: 10px 0;
     &.head {
       font-size: 0.75em;
@@ -1215,6 +1236,68 @@ footer {
   }
 }
 
+
+.frm_accinfo {
+  h4 {
+    margin-bottom: 15px;
+  }
+  .box_date {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      right: 40px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background: url('../images/svg/i_down2.svg') no-repeat;
+      width: 8px;
+      height: 8px;
+    }
+    span {
+      margin-left: 10px;
+    }
+  }
+}
+
+.list_area {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  li {
+    width: 115px;
+    margin-bottom: 20px;
+    label {
+      font-size: 0.875em;
+    }
+  }
+}
+
+.box_select {
+  position: relative;
+  &:after {
+    content: '⁓';
+    position: absolute;
+    right: -22px;
+    top: 5px;
+    bottom: 0;
+    margin: auto; 
+  }
+}
+
+
+#chartdiv {
+  width: 100%;
+  height: 213px;
+}
 
 //mobile
 
@@ -1291,6 +1374,7 @@ footer {
   }
   .subtitle {
     margin-bottom: 30px;
+    line-height: 1.3em;
   }
   .box_template {
     padding-top: 51px;
@@ -1731,4 +1815,38 @@ footer {
       }
     }
   }
+}
+
+
+.highcharts-figure, .highcharts-data-table table {
+  min-width: 213px; 
+  max-width: 213px;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #EBEBEB;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 213px;
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
 }
