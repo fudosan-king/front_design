@@ -1916,12 +1916,9 @@ footer .footer_bottom .btn img {
 
     .section_notice .box_notice_item {
         margin: 0 -15px;
+        padding: 10px;
         overflow: hidden;
         transition: all 0.3s;
-    }
-
-    .section_notice .box_notice_item:hover .btn_del {
-        right: 0;
     }
 
     .section_notice .box_notice_item .box_notice_img {
@@ -1933,7 +1930,8 @@ footer .footer_bottom .btn img {
     }
 
     .section_notice .box_notice_item .box_notice_content {
-        padding-left: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .section_notice .box_notice_item .box_notice_content p {
@@ -1954,13 +1952,14 @@ footer .footer_bottom .btn img {
     }
 
     .section_notice .box_notice_item .btn_del {
-        right: -120px;
-        bottom: 0;
-        top: 0;
-        background: #EB5757;
-        border-radius: 0;
-        width: 120px;
-        height: 100%;
+        right: 10px;
+        bottom: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .section_notice .box_notice_item .btn_del img {
+        width: 60%;
     }
 
     .box_toplogin ul {
