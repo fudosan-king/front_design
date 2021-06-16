@@ -43,9 +43,9 @@
                                     </div>
                                     <button type="submit" class="btn btnsave mb-3">ログイン</button>
                                     <p class="text-center red">
-                                        <a class="text-decoration-none d-block" href="forgotpassword.php">パスワードを忘れた場合</a>
-                                        <a class="text-decoration-none d-block" href="resendreconfirmed.php">確認メールが届いてない場合</a>
-                                        <a class="text-decoration-none d-block" href="new_registration.php">新規会員登録</a>
+                                        <a class="d-block" href="forgotpassword.php">パスワードを忘れた場合</a>
+                                        <a class="d-block" href="resendreconfirmed.php">確認メールが届いてない場合</a>
+                                        <a class="d-block" href="new_registration.php">新規会員登録</a>
                                     </p>
                                 </form>
                             </div>

@@ -46,7 +46,8 @@ function createChart(id, type, options) {
     },
     plugins: {
       labels: {
-        render: 'label'
+        render: 'label',
+        fontColor: ['#000', '#000', '#000'],
       }
     }
   });
