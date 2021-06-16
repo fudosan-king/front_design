@@ -1735,13 +1735,9 @@ footer {
   .section_notice {
     .box_notice_item {
       margin: 0 -15px;
+      padding: 10px;
       overflow: hidden;
       transition: all 0.3s;
-      &:hover {
-        .btn_del {
-          right: 0;
-        }
-      }
       .box_notice_img {
         height: 79px;
         img {
@@ -1749,7 +1745,8 @@ footer {
         }
       }
       .box_notice_content {
-        padding-left: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         p {
           font-size: 0.875em;
           line-height: 1.4em;
@@ -1765,13 +1762,13 @@ footer {
         }
       }
       .btn_del {
-        right: -120px;
-        bottom: 0;
-        top: 0;
-        background: $prink-color;
-        border-radius: 0;
-        width: 120px;
-        height: 100%;
+        right: 10px;
+        bottom: 10px;
+        width: 30px;
+        height: 30px;
+        img {
+          width: 60%;
+        }
       }
     }
   }

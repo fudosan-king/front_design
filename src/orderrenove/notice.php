@@ -23,13 +23,13 @@
                             <div class="col-12 col-lg-12">
                                 <div class="box_notice_item new">
                                     <div class="row no-gutters">
-                                        <div class="col-5 col-lg-6">
+                                        <div class="col-4 col-lg-6">
                                             <div class="box_notice_img">
                                                 <a href="#"><img src="images/img05.jpg" alt="" class="img-fluid"></a>
                                                 <span>新規物件</span>
                                             </div>
                                         </div>
-                                        <div class="col-7 col-lg-6">
+                                        <div class="col-8 col-lg-6">
                                             <div class="box_notice_content">
                                                 <p>NEW</p>
                                                 <p><a href="#">麻布狸穴ナショナルコート麻布狸穴ナショナルコート</a></p>
@@ -39,8 +39,7 @@
                                         </div>
                                     </div>
                                     <a href="#" class="btn_del">
-                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid d-none d-lg-block" width="20">
-                                        <img src="images/svg/i_delete_white.svg" alt="" class="img-fluid d-block d-lg-none" width="20">
+                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid" width="20">
                                     </a>
                                 </div>
                                 <div class="box_notice_item">
@@ -61,8 +60,7 @@
                                         </div>
                                     </div>
                                     <a href="#" class="btn_del">
-                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid d-none d-lg-block" width="20">
-                                        <img src="images/svg/i_delete_white.svg" alt="" class="img-fluid d-block d-lg-none" width="20">
+                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid" width="20">
                                     </a>
                                 </div>
                                 <div class="box_notice_item">
@@ -83,8 +81,7 @@
                                         </div>
                                     </div>
                                     <a href="#" class="btn_del">
-                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid d-none d-lg-block" width="20">
-                                        <img src="images/svg/i_delete_white.svg" alt="" class="img-fluid d-block d-lg-none" width="20">
+                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid" width="20">
                                     </a>
                                 </div>
                                 <div class="box_notice_item">
@@ -105,8 +102,7 @@
                                         </div>
                                     </div>
                                     <a href="#" class="btn_del">
-                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid d-none d-lg-block" width="20">
-                                        <img src="images/svg/i_delete_white.svg" alt="" class="img-fluid d-block d-lg-none" width="20">
+                                        <img src="images/svg/i_delete.svg" alt="" class="img-fluid" width="20">
                                     </a>
                                 </div>
                             </div>

@@ -24,7 +24,8 @@ function createChart(id, type, options) {
                 '#EB5757',
                 '#F2994A',
                 '#F2C94C',
-            ]
+            ],
+            borderWidth: 0,
         }
     ]
   };
