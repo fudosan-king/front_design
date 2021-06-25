@@ -124,6 +124,17 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
+                                                <label for="">物件名</label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <p class="mb-0"><span>Lorem, ipsum.</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
                                                 <label for="">お名前<span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
