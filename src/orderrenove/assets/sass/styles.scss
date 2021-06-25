@@ -1326,6 +1326,151 @@ footer {
   }
 }
 
+.section_contact {
+  .container {
+    max-width: 675px;
+  }
+}
+
+.frm_contact {
+  label {
+    font-size: 0.75em;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  textarea {
+    height: 90px;
+  }
+  .primary_policy {
+    font-size: 0.75em;
+    a {
+      color: #EB5757;
+    }
+  }
+  .btnsave {
+    position: relative;
+    img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 15px;
+      margin: auto;
+    }
+  }
+  table {
+    th, td {
+      span {
+        font-size: 0.75em;
+      }
+      
+    }
+  }
+}
+
+.modal_register {
+  text-align: center;
+  .modal-content {
+    border-radius: 0;
+    border-color: transparent;
+  }
+  .modal-body {
+    padding: 30px;
+  }
+  .modal-title {
+    font-size: 0.875em;
+  }
+  .modal-header {
+    justify-content: space-around;
+    .close {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      display: block;
+      margin-bottom: 10px;
+      a {
+        display: block;
+        background: #f2f2f2;
+        padding: 10px;
+        border-radius: 3px;
+        font-weight: 700;
+        img {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  p {
+    font-size: 0.875em;
+    &.termofuse {
+      a {
+        text-decoration: underline;
+        color: #EB5757;
+      }
+    }
+  }
+  .btn_register {
+    background: #f2f2f2;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 15px;
+  }
+  .modal-footer {
+    justify-content: space-around;
+    padding: 30px;
+    p {
+      a {
+        text-decoration: underline;
+        color: #EB5757;
+      }
+    }
+  }
+}
+
+.box_confirm {
+  background: #fff;
+  padding: 30px;
+  .btn {
+    background: #EB5757;
+    width: 100%;
+    color: #fff;
+    padding: 13.5px 30px;
+    margin-top: 10px;
+    font-size: 0.875em;
+    position: relative;
+    &:hover {
+      background: #000;
+    }
+    &.btn_back {
+      img {
+        left: 15px;
+      }
+    }
+    &.btn_send {
+      img {
+        right: 15px;
+      }
+    }
+    img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  
+}
+
+
+
 //mobile
 
 @media (min-width: 1200px) {
@@ -1392,6 +1537,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .box_confirm {
+    padding: 15px;
+  }
   section {
     padding: 30px 0;
   }
