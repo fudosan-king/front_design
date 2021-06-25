@@ -1529,6 +1529,156 @@ footer .footer_bottom .btn img {
     opacity: 0;
 }
 
+.section_contact .container {
+    max-width: 675px;
+}
+
+.frm_contact label {
+    font-size: 0.75em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.frm_contact textarea {
+    height: 90px;
+}
+
+.frm_contact .primary_policy {
+    font-size: 0.75em;
+}
+
+.frm_contact .primary_policy a {
+    color: #EB5757;
+}
+
+.frm_contact .btnsave {
+    position: relative;
+}
+
+.frm_contact .btnsave img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto;
+}
+
+.frm_contact table th span, .frm_contact table td span {
+    font-size: 0.75em;
+}
+
+.modal_register {
+    text-align: center;
+}
+
+.modal_register .modal-content {
+    border-radius: 0;
+    border-color: transparent;
+}
+
+.modal_register .modal-body {
+    padding: 30px;
+}
+
+.modal_register .modal-title {
+    font-size: 0.875em;
+}
+
+.modal_register .modal-header {
+    justify-content: space-around;
+}
+
+.modal_register .modal-header .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.modal_register ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.modal_register ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal_register ul li a {
+    display: block;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.modal_register ul li a img {
+    margin-right: 5px;
+}
+
+.modal_register p {
+    font-size: 0.875em;
+}
+
+.modal_register p.termofuse a {
+    text-decoration: underline;
+    color: #EB5757;
+}
+
+.modal_register .btn_register {
+    background: #f2f2f2;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 15px;
+}
+
+.modal_register .modal-footer {
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.modal_register .modal-footer p a {
+    text-decoration: underline;
+    color: #EB5757;
+}
+
+.box_confirm {
+    background: #fff;
+    padding: 30px;
+}
+
+.box_confirm .btn {
+    background: #EB5757;
+    width: 100%;
+    color: #fff;
+    padding: 13.5px 30px;
+    margin-top: 10px;
+    font-size: 0.875em;
+    position: relative;
+}
+
+.box_confirm .btn:hover {
+    background: #000;
+}
+
+.box_confirm .btn.btn_back img {
+    left: 15px;
+}
+
+.box_confirm .btn.btn_send img {
+    right: 15px;
+}
+
+.box_confirm .btn img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1130px;
@@ -1582,6 +1732,10 @@ footer .footer_bottom .btn img {
 }
 
 @media (max-width: 768px) {
+    .box_confirm {
+        padding: 15px;
+    }
+
     section {
         padding: 30px 0;
     }
