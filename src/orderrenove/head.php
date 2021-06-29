@@ -16,8 +16,8 @@
 
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-<link rel="stylesheet" href="css/bootstrap-datepicker.min.css" type="text/css">
-<link rel="stylesheet" href="css/bootstrap-datepicker.standalone.min.css" type="text/css">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" type="text/css">
 
 <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>

@@ -135,6 +135,28 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
+                                                <label for="">第1希望日時<span class="red">（※）</span></label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <div class="box_date mb-2">
+                                                            <input type="text" class="form-control datepicker_day" placeholder="7月1日(休）">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6">
+                                                        <div class="box_date">
+                                                            <input type="text" class="form-control datepicker_time" placeholder="10:00">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
                                                 <label for="">お名前<span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
