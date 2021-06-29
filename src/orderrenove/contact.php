@@ -140,14 +140,22 @@
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <div class="row">
                                                     <div class="col-12 col-lg-6">
-                                                        <div class="box_date mb-2">
-                                                            <input type="text" class="form-control datepicker_day" placeholder="7月1日(休）">
-                                                        </div>
+                                                        <select name="" class="custom-select">
+                                                            <option value="">7月1日 (木)</option>
+                                                            <option value="">7月2日 (金)</option>
+                                                            <option value="">7月3日 (土)</option>
+                                                            <option value="">7月4日 (日)</option>
+                                                            <option value="">7月5日 (月)</option>
+                                                            <option value="">7月8日 (木)</option>
+                                                        </select>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
-                                                        <div class="box_date">
-                                                            <input type="text" class="form-control datepicker_time" placeholder="10:00">
-                                                        </div>
+                                                        <select name="" class="custom-select">
+                                                            <option value="">10:00</option>
+                                                            <option value="">12:00</option>
+                                                            <option value="">14:00</option>
+                                                            <option value="">16:00</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>
