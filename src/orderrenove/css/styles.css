@@ -1433,13 +1433,13 @@ footer .footer_bottom .btn img {
     margin-bottom: 15px;
 }
 
-.frm_accinfo .box_date {
+.box_date {
     display: flex;
     align-items: center;
     position: relative;
 }
 
-.frm_accinfo .box_date:after {
+.box_date:after {
     content: '';
     position: absolute;
     right: 40px;
@@ -1451,8 +1451,12 @@ footer .footer_bottom .btn img {
     height: 8px;
 }
 
-.frm_accinfo .box_date span {
+.box_date span {
     margin-left: 10px;
+}
+
+.frm_contact .box_date:after {
+    right: 15px;
 }
 
 .list_area {

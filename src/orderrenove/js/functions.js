@@ -73,23 +73,23 @@ $(".js-range-slider2").ionRangeSlider({
 });
 
 
-$('.datepicker_year').datepicker({
-	format: 'yyyy',
-	viewMode: "years", 
-    minViewMode: "years",
-	language: 'ja'
+$('.datepicker_year').datetimepicker({
+	format: 'YYYY',
+	locale: 'ja'
 });
-$('.datepicker_month').datepicker({
-	format: 'mm',
-	viewMode: "months", 
-    minViewMode: "months",
-	language: 'ja'
+$('.datepicker_month').datetimepicker({
+	format: 'MM',
+	locale: 'ja'
 });
-$('.datepicker_day').datepicker({
-	format: 'dd',
-	viewMode: "days", 
-    minViewMode: "days",
-	language: 'ja'
+
+$('.datepicker_day').datetimepicker({
+	format: 'DD',
+    locale: 'ja'
+});
+
+$('.datepicker_time').datetimepicker({
+	format: 'LT',
+	locale: 'ja'
 });
 
 

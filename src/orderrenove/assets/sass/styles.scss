@@ -1238,23 +1238,32 @@ footer {
   h4 {
     margin-bottom: 15px;
   }
+}
+
+.box_date {
+  display: flex;
+  align-items: center;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../images/svg/i_down2.svg') no-repeat;
+    width: 8px;
+    height: 8px;
+  }
+  span {
+    margin-left: 10px;
+  }
+}
+
+.frm_contact {
   .box_date {
-    display: flex;
-    align-items: center;
-    position: relative;
     &:after {
-      content: '';
-      position: absolute;
-      right: 40px;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      background: url('../images/svg/i_down2.svg') no-repeat;
-      width: 8px;
-      height: 8px;
-    }
-    span {
-      margin-left: 10px;
+      right: 15px;
     }
   }
 }

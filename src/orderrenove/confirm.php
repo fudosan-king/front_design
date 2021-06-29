@@ -36,31 +36,6 @@
 
                                                   <tr>
                                                      <td>
-                                                        <label>第2希望日時</label>
-                                                     </td>
-                                                     <td class="confirm-text">
-                                                         <span id="date_2">Lorem, ipsum dolor.</span> <span id="time_2"></span>
-                                                     </td>
-                                                  </tr>
-
-                                                  <tr>
-                                                     <td>
-                                                        <label>第3希望日時</label>
-                                                     </td>
-                                                     <td class="confirm-text">
-                                                         <span id="date_3">Lorem, ipsum dolor.</span> <span id="time_3"></span>
-                                                     </td>
-                                                  </tr>
-                                                  <!-- <tr>
-                                                     <td>
-                                                        <label>参加方法</label>
-                                                     </td>
-                                                     <td class="confirm-text">
-                                                         <span id="seminer_method"></span>
-                                                     </td>
-                                                  </tr> -->
-                                                  <tr>
-                                                     <td>
                                                         <label>お名前</label>
                                                      </td>
                                                      <td id="full_name" class="confirm-text"><span>Lorem, ipsum dolor.</span></td>
