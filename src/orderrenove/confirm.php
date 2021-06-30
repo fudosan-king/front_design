@@ -26,13 +26,22 @@
                                            <table class="table table-bordered">
                                                 <tbody>
                                                     <tr>
-                                                     <td width="50%">
-                                                        <label>第1希望日時</label>
-                                                     </td>
-                                                     <td class="confirm-text">
-                                                         <span id="date">Lorem, ipsum dolor.</span> <span id="time"></span>
-                                                     </td>
-                                                  </tr>
+                                                        <td width="50%">
+                                                            <label>第1希望日時</label>
+                                                        </td>
+                                                        <td class="confirm-text">
+                                                            <span id="date">Lorem, ipsum dolor.</span> <span id="time"></span>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <label>第2希望日時</label>
+                                                        </td>
+                                                        <td class="confirm-text">
+                                                            <span id="date">Lorem, ipsum dolor.</span> <span id="time"></span>
+                                                        </td>
+                                                    </tr>
 
                                                   <tr>
                                                      <td>

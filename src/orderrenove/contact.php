@@ -9,7 +9,7 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">連絡先</h2>
+                            <h2 class="title mb-3">内見・お問い合わせ</h2>
                         </div>
                     </div>
                 </section>
@@ -136,6 +136,36 @@
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
                                                 <label for="">第1希望日時<span class="red">（※）</span></label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <select name="" class="custom-select">
+                                                            <option value="">7月1日 (木)</option>
+                                                            <option value="">7月2日 (金)</option>
+                                                            <option value="">7月3日 (土)</option>
+                                                            <option value="">7月4日 (日)</option>
+                                                            <option value="">7月5日 (月)</option>
+                                                            <option value="">7月8日 (木)</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6">
+                                                        <select name="" class="custom-select">
+                                                            <option value="">10:00</option>
+                                                            <option value="">12:00</option>
+                                                            <option value="">14:00</option>
+                                                            <option value="">16:00</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label for="">第2希望日時</label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <div class="row">
