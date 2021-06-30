@@ -1265,6 +1265,11 @@ footer {
 }
 
 .frm_contact {
+  .custom-select {
+    font-size: 0.875em;
+    border-color: #BDBDBD;
+    height: calc(1.5em + .75rem + 7px);
+  }
   .box_date {
     &:after {
       right: 15px;
