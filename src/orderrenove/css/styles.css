@@ -170,7 +170,7 @@ section {
 
 .title {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .subtitle {
@@ -1696,6 +1696,16 @@ footer .footer_bottom .btn img {
 @media (min-width: 1200px) {
     .container {
         max-width: 1130px;
+    }
+}
+
+@media (max-width: 1112px) {
+    ul.list_property li {
+        width: 48%;
+    }
+
+    .section_near_property ul.list_property li {
+        width: 23%;
     }
 }
 
