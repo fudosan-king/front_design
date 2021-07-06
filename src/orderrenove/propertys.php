@@ -9,7 +9,7 @@
                 <section class="section_near_property pt-0">
                     <div class="box_top">
                         <div class="container">
-                            <h2 class="title mb-3">港区エリア</h2>
+                            <h2 class="title mb-2">港区エリア</h2>
                             <p class="subtitle">リノベーション・中古マンション物件一覧</p>
                             <ul class="box_sort">
                                 <li><a href="#">価格 指定なし</a></li>
@@ -55,7 +55,7 @@
                                     <li>
                                         <div class="property_img">
                                             <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
-                                            <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
+                                            <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
@@ -112,7 +112,7 @@
                                     <li>
                                         <div class="property_img">
                                             <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
-                                            <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
+                                            <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
@@ -169,7 +169,7 @@
                                     <li>
                                         <div class="property_img">
                                             <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
-                                            <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
+                                            <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
@@ -226,7 +226,7 @@
                                     <li>
                                         <div class="property_img">
                                             <a href="propertys_detail.php"><img src="images/img.jpg" alt="" class="img-fluid"></a>
-                                            <p class="total_price">5400<span>万円</span><span>（物件＋リノベーション）</span></p>
+                                            <p class="total_price">5400<span>万円</span><span class="sub">（物件＋リノベーション）</span></p>
                                             <p class="label_custom">カスタム<br>可能物件</p>
                                         </div>
                                         <div class="property_head">
