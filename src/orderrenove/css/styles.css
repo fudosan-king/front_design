@@ -112,6 +112,10 @@ a:hover {
     transition: all .3s linear;
 }
 
+.small, small {
+    font-size: 90%;
+}
+
 h1 {
     font-size: 2.3125em;
 }
@@ -842,16 +846,10 @@ footer .footer_bottom {
     text-align: center;
 }
 
-footer .footer_bottom .bg-btn-footer {
+footer .footer_bottom .btn {
     background: #EB5757;
     color: #fff;
-}
-footer .footer_bottom .color-btn-footer{
-    border: 1px solid #EB5757;
-    color: #EB5757;
-}
-footer .footer_bottom .btn {
-    margin-righ48t: 20px;
+    margin-right: 20px;
     border-radius: 2px;
     padding: 12.5px 40px;
     min-width: 300px;
@@ -1946,18 +1944,10 @@ footer .footer_bottom .btn img {
 
     footer .footer_bottom .btn {
         min-width: auto;
-        margin-right: 5px;
-    }
-    footer .footer_bottom .bg-btn-footer {
-        width: 98%;
-        margin-bottom:10px;
         padding-left: 30px;
         padding-right: 30px;
-
-    }
-    footer .footer_bottom .color-btn-footer{
+        margin-right: 5px;
         width: 48%;
-        padding: 10px;
     }
 
     ul.list_property li {
