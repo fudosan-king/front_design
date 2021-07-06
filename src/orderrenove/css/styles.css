@@ -117,7 +117,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5625em;
 }
 
 .red {
@@ -174,9 +174,9 @@ section {
 }
 
 .subtitle {
-    font-size: 0.875em;
+    font-size: 1em;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 header {
@@ -681,7 +681,7 @@ ul.list_property li .property_img p.total_price {
 }
 
 ul.list_property li .property_img p.total_price span {
-    font-size: 0.5em;
+    font-size: 0.6em;
     font-weight: 400;
 }
 
@@ -872,7 +872,7 @@ footer .footer_bottom .btn img {
 .box_top {
     background: #fff;
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 60px;
     margin-bottom: 30px;
 }
 
@@ -1957,7 +1957,15 @@ footer .footer_bottom .btn img {
     }
 
     ul.list_property li .property_img p.total_price {
-        font-size: 0.75em;
+        font-size: 0.85em;
+    }
+
+    ul.list_property li .property_img p.total_price span {
+        font-size: 0.8em;
+    }
+
+    ul.list_property li .property_img p.total_price span.sub {
+        font-size: .5em;
     }
 
     ul.list_property li .property_img p.label_custom {
@@ -2188,12 +2196,16 @@ footer .footer_bottom .btn img {
     }
 
     footer .footer_bottom .btn {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
 @media (max-width: 320px) {
+    ul.list_property li .property_img p.total_price {
+        font-size: 0.7em;
+    }
+
     .section_banner ul li a {
         font-size: .5em;
     }

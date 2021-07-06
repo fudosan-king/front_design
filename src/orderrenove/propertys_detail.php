@@ -9,7 +9,7 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">秀和麻布笄町レジデンス</h2>
+                            <h2 class="title mb-2">秀和麻布笄町レジデンス</h2>
                             <p class="subtitle mb-2">
                                 <small>東京都港区西麻布2丁目24-25<br>
                                 50.4m²（15.24坪）（壁芯）<br>
