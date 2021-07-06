@@ -842,10 +842,16 @@ footer .footer_bottom {
     text-align: center;
 }
 
-footer .footer_bottom .btn {
+footer .footer_bottom .bg-btn-footer {
     background: #EB5757;
     color: #fff;
-    margin-right: 20px;
+}
+footer .footer_bottom .color-btn-footer{
+    border: 1px solid #EB5757;
+    color: #EB5757;
+}
+footer .footer_bottom .btn {
+    margin-righ48t: 20px;
     border-radius: 2px;
     padding: 12.5px 40px;
     min-width: 300px;
@@ -1940,10 +1946,18 @@ footer .footer_bottom .btn img {
 
     footer .footer_bottom .btn {
         min-width: auto;
+        margin-right: 5px;
+    }
+    footer .footer_bottom .bg-btn-footer {
+        width: 98%;
+        margin-bottom:10px;
         padding-left: 30px;
         padding-right: 30px;
-        margin-right: 5px;
+
+    }
+    footer .footer_bottom .color-btn-footer{
         width: 48%;
+        padding: 10px;
     }
 
     ul.list_property li {
