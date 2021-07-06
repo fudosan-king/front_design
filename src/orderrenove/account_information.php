@@ -9,7 +9,7 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">会員登録情報</h2>
+                            <h2 class="title mb-0">会員登録情報</h2>
                         </div>
                     </div>
                 </section>
