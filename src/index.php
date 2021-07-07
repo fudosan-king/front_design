@@ -26,8 +26,7 @@
                 <div class="col-1-12|auto">
                     <h1 class="mt-5 mb-3">Projects List</h1>
                     <?php
-                        $dir    = '/data/html';
-                        $files = scandir($dir);
+                        $files = scandir(dirname(__FILE__));
                         echo '<ul class="list-group">';
                         foreach ($files as $file) {
                             if ( $file != 'index.php' && $file != '.' && $file != '..' ){
