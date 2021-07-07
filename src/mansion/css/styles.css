@@ -859,6 +859,7 @@ footer .footer_bottom .btn {
     min-width: 300px;
     font-size: 0.875em;
     font-weight: 600;
+    margin: 0 5px;
 }
 
 footer .footer_bottom .btn:hover {
@@ -891,14 +892,22 @@ footer .footer_bottom .btn img {
     display: flex;
     justify-content: center;
 }
-
-/*.box_sort li:nth-of-type(2) a {*/
-/*    border-left: none;*/
-/*}*/
-
 .box_sort li {
     margin-left: 25px;
 }
+
+@media (max-width: 414px) {
+    .box_sort li:nth-of-type(2) a {
+        border-left: none;
+    }
+    .box_sort li {
+        margin-left: 0;
+    }
+    .box_sort li:last-of-type {
+        margin-left: 25px;
+    }
+}
+
 
 .box_sort li:last-of-type a {
     color: #fff;
@@ -2228,40 +2237,40 @@ footer .footer_bottom .btn img {
     font-size: 12px;
 }
 
-.list_property .property_image {
+.list_property .property .property_image {
     max-height: 360px;
 }
 
-.flickity-prev-next-button {
+.list_property .property .flickity-prev-next-button {
     width: 10px;
     height: 20px;
     background: transparent;
 }
 
 /* arrow color */
-.flickity-prev-next-button .arrow {
+.list_property .property .flickity-prev-next-button .arrow {
     fill: white;
 }
 
-.flickity-prev-next-button.no-svg {
+.list_property .property .flickity-prev-next-button.no-svg {
     color: white;
 }
 
-.flickity-prev-next-button:hover {
+.list_property .property .flickity-prev-next-button:hover {
     background: transparent;
 }
 
 /* hide disabled button */
-.flickity-prev-next-button:disabled {
+.list_property .property .flickity-prev-next-button:disabled {
     display: none;
 }
 
-.flickity-page-dots {
+.list_property .property .flickity-page-dots {
     bottom: 15px;
 }
 
 /* white circles */
-.flickity-page-dots .dot {
+.list_property .property .flickity-page-dots .dot {
     width: 12px;
     height: 12px;
     opacity: 1;
@@ -2271,43 +2280,46 @@ footer .footer_bottom .btn img {
 }
 
 /* fill-in selected dot */
-.flickity-page-dots .dot.is-selected {
+.list_property .property .flickity-page-dots .dot.is-selected {
     background: white;
 }
 
-.carousel_property .carousel-main {
+.list_property .property .carousel_property .carousel-main {
     margin-bottom: 20px;
 }
-
-.box_list_property .carousel-cell {
-    width: 100%;
-    height: 640px;
+.list_property .property .property_box {
+    padding: 10px;
 }
 
-.box_list_property .carousel-cell img {
+.list_property .property .box_list_property .carousel-cell {
+    width: 100%;
+    /*height: 640px;*/
+}
+
+.list_property .property .box_list_property .carousel-cell img {
     width: 100%;
     height: 640px;
     -o-object-fit: cover;
     object-fit: cover;
 }
 
-.box_list_property .carousel-nav .carousel-cell {
+.list_property .property .box_list_property .carousel-nav .carousel-cell {
     width: 170px;
     top: 2px;
     margin-right: 20px;
 }
 
-.box_list_property .carousel-nav .carousel-cell img {
+.list_property .property .box_list_property .carousel-nav .carousel-cell img {
     object-fit: cover;
     height: 113.33px;
 }
 
-.box_list_property .property_img {
+.list_property .property .box_list_property .property_img {
     position: relative;
 
 }
 
-.box_list_property .property_img p.label_custom {
+.list_property .property .box_list_property .property_img p.label_custom {
     position: absolute;
     top: -4px;
     right: -3px;
@@ -2322,27 +2334,45 @@ footer .footer_bottom .btn img {
     padding: 5px 0 5px;
 }
 
-.box_list_property .property_img p.total_price {
+.list_property .property .box_list_property .property_img p.label_custom.renovated {
+    background: #F2C94C;
+}
+
+.list_property .property .box_list_property .property_img p.total_price {
     background: #000;
     position: absolute;
     font-weight: 600;
     font-size: 0.875rem;
     left: 0;
     bottom: 0;
-    padding: 0 5px;
+    padding: 0 5px 0 2px;
 
 }
 
-.box_list_property .property_img p {
+.list_property .property .box_list_property .property_img p {
     margin-bottom: 0;
     color: #fff;
     padding: 5px 10px;
 }
-.box_list_property .property_img p.total_price span {
+
+.list_property .property .box_list_property .property_img p.total_price span {
     font-size: 0.6em;
     font-weight: 400;
 }
 
-.box_list_property .property_head p.property_square {
+.list_property .property .box_list_property .property_head p.property_square {
     font-size: 0.85em;
+}
+
+
+.list_property .property .property-btn {
+    padding: 20px 0;
+}
+.list_property .property .property-btn a.btn {
+    width: 100%;
+    border: 1px solid #EB5757;
+    color: #EB5757;
+}
+.list_property .m-10{
+    margin: 10px 0;
 }
