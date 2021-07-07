@@ -10,7 +10,7 @@
                     <div class="box_top">
                         <div class="container">
                             <h2 class="title mb-2">港区エリア</h2>
-                            <p class="subtitle">リノベーション・中古マンション物件一覧</p>
+                            <p class="subtitle mb-4">リノベーション・中古マンション物件一覧</p>
                             <ul class="box_sort">
                                 <li><a href="#">価格 指定なし</a></li>
                                 <li><a href="#">広さ 指定なし</a></li>
