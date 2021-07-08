@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # rsync --delete -rlpcgvz --exclude-from=exclude -e "ssh -i ./key/fe-internal.pem" ./src/ dev-user@13.231.78.135:~/html/
 source ./shell/.env
 
