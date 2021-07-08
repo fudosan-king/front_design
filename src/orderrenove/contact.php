@@ -140,7 +140,7 @@
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <div class="row">
                                                     <div class="col-12 col-lg-6">
-                                                        <select name="" class="custom-select mb-2 mb-lg-0">
+                                                        <select name="" class="custom-select mb-2 mb-lg-0 ">
                                                             <option value="">7月1日 (木)</option>
                                                             <option value="">7月2日 (金)</option>
                                                             <option value="">7月3日 (土)</option>
@@ -170,7 +170,7 @@
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <div class="row">
                                                     <div class="col-12 col-lg-6">
-                                                        <select name="" class="custom-select mb-2 mb-lg-0">
+                                                        <select name="" class="custom-select mb-2 mb-lg-0 ">
                                                             <option value="">7月1日 (木)</option>
                                                             <option value="">7月2日 (金)</option>
                                                             <option value="">7月3日 (土)</option>
