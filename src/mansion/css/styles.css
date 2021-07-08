@@ -751,6 +751,10 @@ ul.list_property li .property_head .btn_wishlist.on {
     background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23FF4572;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
 }
 
+.section_near_property .subtitle {
+    margin-bottom: 30px;
+}
+
 .section_near_property ul.list_property li {
     width: 23.5%;
 }
@@ -892,6 +896,7 @@ footer .footer_bottom .btn img {
     display: flex;
     justify-content: center;
 }
+
 .box_sort li {
     margin-left: 25px;
 }
@@ -900,9 +905,11 @@ footer .footer_bottom .btn img {
     .box_sort li:nth-of-type(2) a {
         border-left: none;
     }
+
     .box_sort li {
         margin-left: 0;
     }
+
     .box_sort li:last-of-type {
         margin-left: 25px;
     }
@@ -1970,7 +1977,7 @@ footer .footer_bottom .btn img {
     }
 
     footer .footer_bottom .color-btn-footer {
-        width: 48%;
+        width: 46%;
         padding: 10px;
     }
 
@@ -2287,8 +2294,13 @@ footer .footer_bottom .btn img {
 .list_property .property .carousel_property .carousel-main {
     margin-bottom: 20px;
 }
+
 .list_property .property .property_box {
     padding: 10px;
+}
+
+.list_property .property .box_list_property {
+    padding-top: 22px;
 }
 
 .list_property .property .box_list_property .carousel-cell {
@@ -2368,11 +2380,30 @@ footer .footer_bottom .btn img {
 .list_property .property .property-btn {
     padding: 20px 0;
 }
+
 .list_property .property .property-btn a.btn {
     width: 100%;
     border: 1px solid #EB5757;
     color: #EB5757;
+    border-radius: 4px;
+    font-weight: 600;
 }
-.list_property .m-10{
+
+.list_property .m-10 {
     margin: 10px 0;
+}
+
+.list_property .property .description .address {
+    padding: 0 0 10px 0;
+}
+
+.list_property .property .description .station {
+    padding-bottom: 10px;
+    line-height: 16.8px
+}
+.list_property .property .description .station img , .list_property .property .description .room img {
+    padding-top: 3px;
+}
+.list_property .property .description .room{
+    line-height: 16.8px
 }

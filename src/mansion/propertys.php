@@ -71,7 +71,7 @@
                                         <p class="my-auto pl-2">東京都渋谷区神宮前3丁目36-14</p>
                                     </div>
                                     <div class="station font-12 d-flex">
-                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             東京メトロ銀座線 / 外苑前駅 徒歩8分 <br>
                                             東京メトロ半蔵門線 / 表参道駅 徒歩9分 <br>
@@ -79,7 +79,7 @@
                                         </p>
                                     </div>
                                     <div class="room font-12 d-flex">
-                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             5階地下1階建／RC(鉄筋コンクリート) <br>
                                             総戸数：49戸
@@ -196,7 +196,7 @@
                                         <p class="my-auto pl-2">東京都渋谷区神宮前3丁目36-14</p>
                                     </div>
                                     <div class="station font-12 d-flex">
-                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             東京メトロ銀座線 / 外苑前駅 徒歩8分 <br>
                                             東京メトロ半蔵門線 / 表参道駅 徒歩9分 <br>
@@ -204,7 +204,7 @@
                                         </p>
                                     </div>
                                     <div class="room font-12 d-flex">
-                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             5階地下1階建／RC(鉄筋コンクリート) <br>
                                             総戸数：49戸
@@ -321,7 +321,7 @@
                                         <p class="my-auto pl-2">東京都渋谷区神宮前3丁目36-14</p>
                                     </div>
                                     <div class="station font-12 d-flex">
-                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             東京メトロ銀座線 / 外苑前駅 徒歩8分 <br>
                                             東京メトロ半蔵門線 / 表参道駅 徒歩9分 <br>
@@ -329,7 +329,7 @@
                                         </p>
                                     </div>
                                     <div class="room font-12 d-flex">
-                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             5階地下1階建／RC(鉄筋コンクリート) <br>
                                             総戸数：49戸
@@ -446,7 +446,7 @@
                                         <p class="my-auto pl-2">東京都渋谷区神宮前3丁目36-14</p>
                                     </div>
                                     <div class="station font-12 d-flex">
-                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             東京メトロ銀座線 / 外苑前駅 徒歩8分 <br>
                                             東京メトロ半蔵門線 / 表参道駅 徒歩9分 <br>
@@ -454,7 +454,7 @@
                                         </p>
                                     </div>
                                     <div class="room font-12 d-flex">
-                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             5階地下1階建／RC(鉄筋コンクリート) <br>
                                             総戸数：49戸
@@ -571,7 +571,7 @@
                                         <p class="my-auto pl-2">東京都渋谷区神宮前3丁目36-14</p>
                                     </div>
                                     <div class="station font-12 d-flex">
-                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             東京メトロ銀座線 / 外苑前駅 徒歩8分 <br>
                                             東京メトロ半蔵門線 / 表参道駅 徒歩9分 <br>
@@ -579,7 +579,7 @@
                                         </p>
                                     </div>
                                     <div class="room font-12 d-flex">
-                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             5階地下1階建／RC(鉄筋コンクリート) <br>
                                             総戸数：49戸
@@ -696,7 +696,7 @@
                                         <p class="my-auto pl-2">東京都渋谷区神宮前3丁目36-14</p>
                                     </div>
                                     <div class="station font-12 d-flex">
-                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_station.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             東京メトロ銀座線 / 外苑前駅 徒歩8分 <br>
                                             東京メトロ半蔵門線 / 表参道駅 徒歩9分 <br>
@@ -704,7 +704,7 @@
                                         </p>
                                     </div>
                                     <div class="room font-12 d-flex">
-                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100 pt-2">
+                                        <img src="images/svg/i_building.svg" alt="" class="img-fluid h-100">
                                         <p class="my-auto pl-2">
                                             5階地下1階建／RC(鉄筋コンクリート) <br>
                                             総戸数：49戸
