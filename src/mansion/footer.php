@@ -28,9 +28,9 @@
                     
                     <p class="text-center"><a target="_blank" href="https://www.logrenove.jp"><img src="images/svg/logrenove_logo.svg" alt="" class="img-fluid" width="108"></a></p>
                     <ul>
-                        <li><a target="_blank" href="https://www.logsuite.co.jp"><img src="images/LogSuite.png" alt="" class="img-fluid" width="88"></a></li>
-                        <li><a target="_blank" href="https://www.logarchitects.co.jp"><img src="images/LogArchitects.png" alt="" class="img-fluid" width="120"></a></li>
-                        <li><a target="_blank" href="https://www.logknot.co.jp"><img src="images/LogKnot.png" alt="" class="img-fluid" width="84"></a></li>
+                        <li><a target="_blank" href="https://www.logsuite.co.jp"><img src="images/svg/logSuite_white.svg" alt="" class="img-fluid" width="88"></a></li>
+                        <li><a target="_blank" href="https://www.logarchitects.co.jp"><img src="images/svg/logArch_white.svg" alt="" class="img-fluid" width="120"></a></li>
+                        <li><a target="_blank" href="https://www.logknot.co.jp"><img src="images/svg/logKnot_white.svg" alt="" class="img-fluid" width="84"></a></li>
                     </ul>
                     <p class="text-center"><small>Copyright © <a target="_blank" href="https://www.logsuite.co.jp">LogSuite.</a> All Rights Reserved.</small></p>
                 </div>
@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="footer_bottom fixed-bottom">
-        <a class="btn bg-btn-footer" target="_blank" href="https://www.logrenove.jp/contact"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">お問い合せ</a>
+        <a class="btn bg-btn-footer" target="_blank" href="https://www.logrenove.jp/contact">賃貸募集待ちをする</a>
         <a class="btn color-btn-footer">無料売却査定 </a>
         <a class="btn color-btn-footer" href="tel:0368978564"><img src="images/svg/i_call.svg" alt="" class="img-fluid" width="18">03-6897-8564</a>
     </div>
