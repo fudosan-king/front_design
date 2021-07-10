@@ -2202,6 +2202,14 @@ footer .footer_bottom .btn img {
 }
 
 @media (max-width: 320px) {
+    .dropdown_user .dropdown_user_content {
+        min-width: 327px;
+    }
+
+    .dropdown_search .dropdown_search_content {
+        min-width: 327px;
+    }
+
     ul.list_property li .property_img p.total_price {
         font-size: 0.7em;
     }

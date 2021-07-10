@@ -2023,7 +2023,27 @@ footer {
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
+  .dropdown_user {
+    .dropdown_user_content {
+      min-width: 327px;
+    }
+  }
+  .dropdown_search {
+    .dropdown_search_content {
+      min-width: 327px;;
+      .card {
+        .card-body {
+          ul {
+            li {
+
+            }
+          }
+        }
+      }
+    }
+  }
+
   ul.list_property {
     li {
       .property_img {
