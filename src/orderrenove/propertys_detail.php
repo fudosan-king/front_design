@@ -58,19 +58,12 @@
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <p class="text-center d-none d-lg-block">
-                                                    <span class="title_simulation_result">シミュレーション結果</span>
+                                                    <span class="title_simulation_result">毎月のお支払例</span>
                                                 </p>
 
                                                 <div class="box_simulation_result">
-                                                    <div class="row no-gutters">
-                                                        <div class="col-6 col-lg-6 align-self-center">
-                                                            <h4>毎月のお支払例 </h4>
-                                                        </div>
-                                                        <div class="col-6 col-lg-6 align-self-center">
-                                                            <h2>201,089<span>円</span></h2>
-                                                            <p class="text-right">ボーナス月　＋<span>０</span>円</p>
-                                                        </div>
-                                                    </div>
+                                                    <h2>201,089<span>円</span></h2>
+                                                    <p class="text-center">ボーナス月　＋<span>０</span>円</p>
                                                     <p class="text-center mt-3">管理費：20,000円／修繕積立金：20,000円 含む</p>
                                                 </div>
 
