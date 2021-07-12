@@ -1,0 +1,571 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.title_sub {
+    font-size: 1.875em;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title_sub span {
+    position: relative;
+}
+
+.title_sub span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+
+.section_banner_sub {
+    padding-top: 73px;
+}
+
+.section_staffintroduction {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.section_staffintroduction .carousel-cell {
+    width: 260px;
+    height: 320px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.section_staffintroduction .carousel-cell img {
+    width: 100%;
+    height: 320px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.section_staffintroduction .carousel-cell .box_staff {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: stretch;
+    border-radius: 4px;
+}
+
+.section_staffintroduction .carousel-cell .box_staff:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60.41%, #000000 100%);
+}
+
+.section_staffintroduction .carousel-cell .box_staff .box_staff_content {
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.section_staffintroduction .carousel-cell .box_staff .box_staff_content p {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.section_staffintroduction .carousel-cell .box_staff .box_staff_content h4 {
+    font-weight: 600;
+    font-size: 1.1429em;
+    margin-bottom: 0;
+}
+
+.section_staffintroduction .flickity-prev-next-button {
+    width: 50px;
+    height: 50px;
+    background: #000;
+    border-radius: 0;
+}
+
+.section_staffintroduction .flickity-prev-next-button.previous {
+    left: 0;
+}
+
+.section_staffintroduction .flickity-prev-next-button.next {
+    right: 0;
+}
+
+.section_staffintroduction .flickity-button-icon {
+    fill: #fff;
+    left: 33%;
+    top: 33%;
+    width: 30%;
+    height: 30%;
+}
+
+.section_staffintroduction .btn_list {
+    margin-top: 50px;
+    border: 1px solid #4F4F4F;
+    color: #4F4F4F;
+    font-size: 1em;
+    min-width: 300px;
+    padding: 15px;
+}
+
+.section_staffintroduction .btn_list:hover {
+    background: #4F4F4F;
+    color: #fff;
+}
+
+.section_recruitmenttype ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.section_recruitmenttype ul li {
+    width: 49%;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.section_recruitmenttype ul li:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+.section_recruitmenttype ul li:last-of-type {
+    margin-right: 0;
+}
+
+.section_recruitmenttype ul li .box_recruitment {
+    display: block;
+}
+
+.section_recruitmenttype ul li .box_recruitment .recruitment_img {
+    position: relative;
+    width: 100%;
+    height: 228px;
+}
+
+.section_recruitmenttype ul li .box_recruitment .recruitment_img img {
+    width: 100%;
+    height: 228px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.section_recruitmenttype ul li .box_recruitment .recruitment_img span {
+    background: #000;
+    color: #fff;
+    padding: 2px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section_recruitmenttype ul li .box_recruitment .recruitment_content {
+    padding: 0 20px;
+}
+
+.section_recruitmenttype ul li .box_recruitment .recruitment_content h3 {
+    color: #000;
+    font-size: 1.7143em;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.section_recruitmenttype ul li .box_recruitment .recruitment_content h4 {
+    font-size: 1.2857em;
+    color: #000;
+    font-weight: 500;
+    border-top: 1px solid #E0E0E0;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.section_recruitmenttype ul li .box_recruitment .recruitment_content p {
+    color: #828282;
+    letter-spacing: .01em;
+    margin-bottom: 20px;
+}
+
+.section_career .box_career {
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.section_career .box_career:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.section_career .box_career span {
+    position: absolute;
+    text-align: center;
+}
+
+.section_career .box_career span h3 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.section_career .box_career span p {
+    margin-bottom: 0;
+    font-size: 1.0714em;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section_banner_submore {
+    width: 100%;
+    height: 500px;
+    padding-top: 73px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.section_banner_submore:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    height: 120%;
+}
+
+.section_banner_submore .caption {
+    position: absolute;
+    text-align: center;
+}
+
+.section_banner_submore .caption h1 {
+    color: #fff;
+    font-weight: 200;
+    font-size: 3.4286em;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section_banner_submore .caption p {
+    color: #fff;
+    font-size: 1.2857em;
+    margin-bottom: 0;
+}
+
+.section_app_requirements {
+    background: #F2F2F2;
+    padding: 0 0 100px;
+}
+
+.section_app_requirements .container_custom {
+    max-width: 1030px;
+    margin: auto;
+}
+
+.section_app_requirements .top_career {
+    border: 4px solid #AE8148;
+    text-align: center;
+    padding: 110px 15px 75px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.section_app_requirements .top_career h4 {
+    color: #AE8148;
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section_app_requirements .top_career h2 {
+    color: #333;
+    font-size: 1.875em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.section_app_requirements h2 {
+    font-size: 2.1429em;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.section_app_requirements h2 span {
+    position: relative;
+}
+
+.section_app_requirements h2 span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    width: 120px;
+    margin: auto;
+    background: #000;
+    height: 3px;
+}
+
+.section_app_requirements h3 {
+    color: #333333;
+    font-size: 1.7143em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section_app_requirements h5 {
+    color: #333;
+    font-size: 1.2857em;
+    font-weight: 600;
+}
+
+.section_app_requirements p {
+    font-size: 1.1429em;
+    line-height: 2em;
+}
+
+.section_app_requirements .career_img {
+    margin: 80px 0;
+}
+
+.section_app_requirements .subtitle {
+    font-size: 1.1429em;
+    margin-bottom: 40px;
+}
+
+.section_app_requirements .box_requirements {
+    background: #fff;
+    padding: 30px;
+    max-width: 1039px;
+    margin: auto;
+}
+
+.section_app_requirements .box_requirements table th, .section_app_requirements .box_requirements table td {
+    font-size: 1.1429em;
+}
+
+.section_app_requirements .box_requirements table th {
+    vertical-align: middle;
+    background: #F2F2F2;
+}
+
+.section_app_requirements .box_requirements table ul {
+    padding-left: 0;
+}
+
+.section_app_requirements .box_requirements table ul li {
+    position: relative;
+    padding-left: 30px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.section_app_requirements .box_requirements table ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.section_app_requirements .box_requirements table ul li:before {
+    content: '●';
+    color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.section_app_requirements .box_recruitmentprocess h2 {
+    background: #F2F2F2;
+    padding: 10px 15px;
+    font-size: 1.1429em;
+    font-weight: 600;
+    color: #333333;
+}
+
+.section_app_requirements .box_recruitmentprocess ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.section_app_requirements .box_recruitmentprocess ul li {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 1px solid #AE8148;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.section_app_requirements .box_recruitmentprocess ul li h3 {
+    color: #AE8148;
+    font-size: 1.5714em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.section_app_requirements .box_recruitmentprocess ul li p {
+    margin-bottom: 0;
+    font-size: 1.0714em;
+    text-align: center;
+}
+
+.btn_entry {
+    margin: 60px 0;
+    background: #AE8148;
+    color: #fff;
+    min-width: 300px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.btn_entry:hover {
+    background: #000;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .section_banner_sub {
+        padding-top: 56px;
+    }
+
+    .section_recruitmenttype ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .section_recruitmenttype ul li .box_recruitment .recruitment_content {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .section_recruitmenttype ul li .box_recruitment .recruitment_content h3 {
+        margin-top: 15px;
+    }
+
+    .section_staffintroduction {
+        padding: 30px 0;
+    }
+
+    .section_banner_submore {
+        padding-top: 57px;
+        height: auto;
+    }
+
+    .section_banner_submore .caption h1 {
+        font-size: 2em;
+    }
+
+    .section_app_requirements {
+        padding: 0 0 50px;
+    }
+
+    .section_app_requirements h2 {
+        font-size: 1.8em;
+        margin-bottom: 50px;
+    }
+
+    .section_app_requirements h2 span:after {
+        bottom: -20px;
+        height: 1px;
+    }
+
+    .section_app_requirements h5 {
+        font-size: 1em;
+    }
+
+    .section_app_requirements h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px !important;
+    }
+
+    .section_app_requirements .career_img {
+        margin: 30px 0;
+    }
+
+    .section_app_requirements .top_career {
+        top: -10px;
+        padding: 30px 15px;
+        border-width: 2px;
+    }
+
+    .section_app_requirements .top_career h4 {
+        margin-bottom: 10px !important;
+    }
+
+    .section_app_requirements .top_career h2 {
+        font-size: 1.3em;
+    }
+
+    .section_app_requirements .box_requirements {
+        padding: 10px;
+    }
+
+    .section_app_requirements .box_recruitmentprocess ul {
+        flex-wrap: wrap;
+    }
+
+    .section_app_requirements .box_recruitmentprocess ul li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .section_app_requirements .box_recruitmentprocess ul li:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+    .btn_entry {
+        min-width: inherit;
+        display: block;
+    }
+
+    #footer {
+        overflow: hidden;
+    }
+}
