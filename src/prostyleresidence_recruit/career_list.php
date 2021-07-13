@@ -17,7 +17,7 @@
         		</div>
         	</section>
 
-        	<section class="section_recruitmenttype mt-5 py-5">
+        	<section class="section_recruitmenttype mt-5 py-0 py-lg-5">
         		<div class="container">
         			<div class="row">
         				<div class="col-12 col-lg-12">
