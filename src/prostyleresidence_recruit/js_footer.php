@@ -9,8 +9,11 @@
 <script src="./index_files/bootstrap-datepicker.min.js"></script>
 <script src="./index_files/bootstrap-datepicker.ja.min.js"></script>
 <script src="./index_files/jquery.toc.min.js"></script>
+<script src="./js/TweenMax.min.js"></script>
 <script src="./index_files/bsnav.min.js"></script>
-<script src="./index_files/functions.js"></script>
+<!-- <script src="./index_files/functions.js"></script> -->
+<script src="./js/functions.js"></script>
+
 <script>
 (function(d) {
     var config = {
