@@ -160,10 +160,7 @@
                                     <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/newgraduate/" target="_blank" rel="noopener noreferrer">新卒採用</a>
                                 </li>
                                 <li>
-                                    <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/%e6%96%b0%e7%af%89%e3%83%9e%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%b3%e4%bc%81%e7%94%bb%e8%b2%a9%e5%a3%b2%e5%96%b6%e6%a5%ad/" target="_blank" rel="noopener noreferrer">新築マンション販売営業</a>
-                                </li>
-                                <li>
-                                    <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/%e8%a8%ad%e8%a8%88%e5%a3%ab%ef%bc%88%e8%a8%88%e7%94%bb%e3%83%bb%e7%8f%be%e5%a0%b4%e7%ae%a1%e7%90%86%ef%bc%89/" target="_blank" rel="noopener noreferrer">設計士（計画業務）</a>
+                                    <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/%e6%96%b0%e7%af%89%e3%83%9e%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%b3%e4%bc%81%e7%94%bb%e8%b2%a9%e5%a3%b2%e5%96%b6%e6%a5%ad/" target="_blank" rel="noopener noreferrer">キャリア採用</a>
                                 </li>
                             </ul>
                         </div>

@@ -124,7 +124,7 @@ header{
 .nav-main{
 	background-color:#fff;
 	position: relative;
-	z-index: 2;
+	z-index: 120;
 	.navbar{
 		padding-bottom:0;
 	}
@@ -144,7 +144,7 @@ header{
 
 .nav-sub{
    	position: absolute;
-    z-index: 1;
+    z-index: 100;
     top: 0;
     left: 0;
     width: 100%;

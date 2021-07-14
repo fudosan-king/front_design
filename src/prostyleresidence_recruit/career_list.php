@@ -21,7 +21,7 @@
         		<div class="container">
         			<div class="row">
         				<div class="col-12 col-lg-12">
-        					<h2 class="title_sub"><span>募集職種</span></h2>
+        					<h2 class="title_sub"><span>募集要項</span></h2>
         					<ul>
         						<li>
         							<a href="#" class="box_recruitment">
@@ -29,7 +29,7 @@
         									<div class="col-12 col-lg-4">
         										<div class="recruitment_img">
         											<img src="images/recruitment01.jpg" alt="" class="img-fluid">
-        											<span>新卒採用</span>
+        											<span>キャリア採用</span>
         										</div>
         									</div>
         									<div class="col-12 col-lg-8">
@@ -48,7 +48,7 @@
         									<div class="col-12 col-lg-4">
         										<div class="recruitment_img">
         											<img src="images/recruitment02.jpg" alt="" class="img-fluid">
-        											<span>新卒採用</span>
+        											<span>キャリア採用</span>
         										</div>
         									</div>
         									<div class="col-12 col-lg-8">
@@ -67,7 +67,7 @@
         									<div class="col-12 col-lg-4">
         										<div class="recruitment_img">
         											<img src="images/recruitment03.jpg" alt="" class="img-fluid">
-        											<span>新卒採用</span>
+        											<span>キャリア採用</span>
         										</div>
         									</div>
         									<div class="col-12 col-lg-8">
@@ -86,7 +86,7 @@
         									<div class="col-12 col-lg-4">
         										<div class="recruitment_img">
         											<img src="images/recruitment02.jpg" alt="" class="img-fluid">
-        											<span>新卒採用</span>
+        											<span>キャリア採用</span>
         										</div>
         									</div>
         									<div class="col-12 col-lg-8">
@@ -105,7 +105,7 @@
         									<div class="col-12 col-lg-4">
         										<div class="recruitment_img">
         											<img src="images/recruitment01.jpg" alt="" class="img-fluid">
-        											<span>新卒採用</span>
+        											<span>キャリア採用</span>
         										</div>
         									</div>
         									<div class="col-12 col-lg-8">
@@ -124,7 +124,7 @@
         									<div class="col-12 col-lg-4">
         										<div class="recruitment_img">
         											<img src="images/recruitment03.jpg" alt="" class="img-fluid">
-        											<span>新卒採用</span>
+        											<span>キャリア採用</span>
         										</div>
         									</div>
         									<div class="col-12 col-lg-8">

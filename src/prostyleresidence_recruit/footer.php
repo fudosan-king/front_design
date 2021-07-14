@@ -123,13 +123,12 @@
             </li>
         </ul>
     </div>
-    <div class="row mt-3 pb-3">
-        <div class="col-12 col-lg-2 offset-lg-9 d-flex justify-content-center">
-            <a href="https://privacymark.jp/" target="_blank" rel="noopener noreferrer">
-                <img src="./index_files/img_logo.png" alt="" class="logo-image" height="auto">
-            </a>
-        </div>
+    <div class="col-12 col-lg-2 offset-lg-9 d-flex justify-content-center">
+        <a href="https://privacymark.jp/" target="_blank" rel="noopener noreferrer">
+            <img src="./index_files/img_logo.png" alt="" class="logo-image" height="auto">
+        </a>
     </div>
+
     <div class="fBox">
         <div class="subBox clearfix">
             <p>Copyright © PROSTYLE INC. All Rights Reserved.</p>
@@ -146,3 +145,4 @@
 <div class="back-to-top" id="back-to-top" title="Back to top">
     <img src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_top.png" alt="" class="img-fluid">
 </div>
+<div class="bg-overflow"></div>
