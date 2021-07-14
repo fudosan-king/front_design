@@ -6,7 +6,7 @@
                 <img src="images/career_recruitment.jpg" alt="" class="img-fluid">
                 <span>
                     <h3>新卒採用</h3>
-                    <p>NEW CRADUATE</p>
+                    <p>NEW GRADUATE</p>
                 </span>
             </a>
         </div>
@@ -14,8 +14,8 @@
             <a href="#" class="box_career">
                 <img src="images/new_graduates.jpg" alt="" class="img-fluid">
                 <span>
-                    <h3>キャリア採用</h3>
-                    <p>CAREER</p>
+                    <h3>中途採用</h3>
+                    <p>MID CAREER</p>
                 </span>
             </a>
         </div>

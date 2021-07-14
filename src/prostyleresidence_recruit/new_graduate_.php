@@ -12,8 +12,8 @@
         	<section class="section_banner_submore">
         		<img src="images/new_graduate.jpg" alt="" class="img-fluid w-100">
         		<div class="caption">
-        			<h1>NEW GRADUATE</h1>
-        			<p>新卒採用</p>
+        			<h1>MID CAREER</h1>
+        			<p>中途採用</p>
         		</div>
         	</section>
 
