@@ -3,7 +3,7 @@
         <div class="nav-main">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="/">
-                    <img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/logo.svg" alt="" class="img-fluid" width="194px">
+                    <img src="https://www.prostyle-residence.com/main/wp-content/uploads/2019/01/logo.svg" alt="" class="img-fluid" width="194px">
                 </a>
                 <div class="menu-sp-action">
                     <button class="navbar-toggler js-menu" type="button">
@@ -17,17 +17,17 @@
                     <ul class="navbar-nav">
                         <li class="nav-item active"><a class="nav-link" href="/">TOP</a></li>
                         <li class="nav-item  ">
-                            <a class="nav-link " href="http://prostyle-residence.com/news/" target="_blank" id="navbarDropdown-737" role="button"  data-toggle="dropdown">NEWS</a>
+                            <a class="nav-link " href="https://prostyle-residence.com/news/" target="_blank" id="navbarDropdown-737" role="button"  data-toggle="dropdown">NEWS</a>
                         </li>
                         <li class="nav-item  dropdown">
                             <a class="nav-link dropdown-toggle" href="#" target="" id="navbarDropdown-613" role="button" data-toggle="dropdown">企業情報</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown-613"> <a class="dropdown-item" href="/philosophy/" target="">ANH THI企業理念<br>ANH THI</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/company/" target="">会社概要</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/business/" target="">事業内容</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/company/history/" target="">企業沿革</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/access/" target="">アクセス</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/ir/" target="">電子公告</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/brochure/" target="">パンフレット一覧</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/company/" target="">会社概要</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/business/" target="">事業内容</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/company/history/" target="">企業沿革</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/access/" target="">アクセス</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/ir/" target="">電子公告</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/brochure/" target="">パンフレット一覧</a>
                             </div>
                         </li>
                         <li class="nav-item  dropdown">
@@ -39,28 +39,33 @@
                         </li>
                         <li class="nav-item  dropdown">
                             <a class="nav-link dropdown-toggle" href="#" target="" id="navbarDropdown-767" role="button" data-toggle="dropdown">実績</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown-767"> <a class="dropdown-item" href="http://prostyle-residence.com/result/project/" target="">分譲実績・販売実績</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/result/award/" target="">受賞実績</a>
-                                <a class="dropdown-item" href="http://prostyle-residence.com/result/gallery/" target="">フォトギャラリー</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown-767"> <a class="dropdown-item" href="https://prostyle-residence.com/result/project/" target="">分譲実績・販売実績</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/result/award/" target="">受賞実績</a>
+                                <a class="dropdown-item" href="https://prostyle-residence.com/result/gallery/" target="">フォトギャラリー</a>
                             </div>
                         </li>
                         <li class="nav-item  dropdown">
-                            <a class="nav-link dropdown-toggle" href="http://prostyle-residence.com/purchase/" target="" id="navbarDropdown-628" role="button" data-toggle="dropdown">募集中のプロジェクト</a>
+                            <a class="nav-link dropdown-toggle" href="https://prostyle-residence.com/purchase/" target="" id="navbarDropdown-628" role="button" data-toggle="dropdown">募集中のプロジェクト</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown-628"> <a class="dropdown-item" href="https://www.prostyle-residence.com/brochure/#youchi-catalog" target="_blank" rel="noopener noreferrer">用地募集のご案内（PDF)</a>
                             </div>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link " href="http://prostyle-residence.com/contact/" target="" id="navbarDropdown-611" role="button" data-toggle="dropdown">お問い合わせ</a>
+                            <a class="nav-link " href="https://prostyle-residence.com/contact/" target="" id="navbarDropdown-611" role="button" data-toggle="dropdown">お問い合わせ</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link " href="http://prostyle-residence.com/privacy-policy/" target="" id="navbarDropdown-612" role="button" data-toggle="dropdown">プライバシーポリシー</a>
+                            <a class="nav-link " href="https://prostyle-residence.com/privacy-policy/" target="" id="navbarDropdown-612" role="button" data-toggle="dropdown">プライバシーポリシー</a>
                         </li>
                         <li class="nav-item">
-                            <div class="social-link"> <a href="https://www.facebook.com/prostyleresidence/" target="_blank" rel="noopener noreferrer"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images//social/icon-facebook.svg" class="img-responsive" alt="social-facebook" width="30"></a>
-                                <a href="https://mobile.twitter.com/PROSTYLE_OA" target="_blank" rel="noopener noreferrer"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images//social/icon-twitter.svg" class="img-responsive" alt="social-twitter" width="30"></a>
-                                <a href="https://www.instagram.com/prostyle.official/" target="_blank" rel="noopener noreferrer"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images//social/icon-instagram.svg" class="img-responsive" alt="social-instagram" width="30"></a>
-                                <a href="https://www.youtube.com/channel/UC1UquQQDwtU6VfKq3pwM4Hg" target="_blank" rel="noopener noreferrer"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images//social/icon-youtube.svg" class="img-responsive" alt="social-youtube" width="30"></a>
-                                <a href="https://lin.ee/8dqmWKo" target="_blank" rel="noopener noreferrer"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images//social/icon-line.svg" class="img-responsive" alt="social-line" width="30"></a>
+                            <div class="social-link">
+                                <a href="https://www.facebook.com/prostyleresidence/" target="_blank" rel="noopener noreferrer"><img src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-facebook-black.svg" class="img-responsive" alt="social-facebook" width="30"></a>
+                                
+                                <a href="https://mobile.twitter.com/PROSTYLE_OA" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-twitter-black.svg" width="30"></a>
+                                
+                                <a href="https://www.instagram.com/prostyle.official/" target="_blank" rel="noopener noreferrer"><img src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-instagram-black.svg" class="img-responsive" alt="social-instagram" width="30"></a>
+                                
+                                <a href="https://www.youtube.com/channel/UC1UquQQDwtU6VfKq3pwM4Hg" target="_blank" rel="noopener noreferrer"> <img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-youtube-black.svg" width="30"></a>
+                                
+                                <a href="https://lin.ee/8dqmWKo" target="_blank" rel="noopener noreferrer"> <img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-line-black.svg" width="30"></a>
                             </div>
                         </li>
                     </ul>
@@ -69,143 +74,144 @@
                     <ul class="navbar-nav">
                         <li class="nav-item active d-none d-sm-block"><a class="nav-link" aria-haspopup="false" href="/">TOP</a></li>
                         <li class="nav-item   ">
-                            <a class="nav-link js-nav-main_hover" href="http://prostyle-residence.com/news/" aria-haspopup="false" role="button">NEWS</a>
+                            <a class="nav-link js-nav-main_hover" href="https://prostyle-residence.com/news/" aria-haspopup="false" role="button">NEWS</a>
                         </li>
                         <li class="nav-item   ">
-                            <a class="nav-link js-nav-main_hover" href="http://prostyle-residence.com/company/" role="button" aria-haspopup="true" aria-expanded="false">企業情報</a>
+                            <a class="nav-link js-nav-main_hover" href="https://prostyle-residence.com/company/" role="button" aria-haspopup="true" aria-expanded="false">企業情報</a>
                         </li>
                         <li class="nav-item   ">
                             <a class="nav-link js-nav-main_hover" href="https://www.propolife.co.jp/recruit/" role="button" aria-haspopup="true" target="_blank" rel="noopener noreferrer" aria-expanded="false">採用情報</a>
                         </li>
                         <li class="nav-item   ">
-                            <a class="nav-link js-nav-main_hover" href="http://prostyle-residence.com/result/" role="button" aria-haspopup="true" aria-expanded="false">実績</a>
+                            <a class="nav-link js-nav-main_hover" href="https://prostyle-residence.com/result/" role="button" aria-haspopup="true" aria-expanded="false">実績</a>
                         </li>
                         <li class="nav-item   ">
                             <a class="nav-link js-nav-main_hover" href="#" role="button" aria-haspopup="true">事業用用地募集</a>
                         </li>
                         <li class="nav-item d-none d-sm-block  ">
-                            <a class="nav-link js-nav-main_hover" href="http://prostyle-residence.com/contact/" aria-haspopup="false" role="button">お問い合わせ</a>
+                            <a class="nav-link js-nav-main_hover" href="https://prostyle-residence.com/contact/" aria-haspopup="false" role="button">お問い合わせ</a>
                         </li>
                     </ul>
                 </div>
                 <div class="logo-sns">
                     <a href="https://www.facebook.com/prostyleresidence/" target="_blank" rel="noopener noreferrer">
                         <div class="i-nav">
-                            <img class="img-fluid" src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-facebook-black.svg">
+                            <img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-facebook-black.svg">
                         </div>
                     </a>
                     <a href="https://mobile.twitter.com/PROSTYLE_OA" target="_blank" rel="noopener noreferrer">
                         <div class="i-nav">
-                            <img class="img-fluid" src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-twitter-black.svg">
+                            <img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-twitter-black.svg">
                         </div>
                     </a>
                     <a href="https://www.instagram.com/prostyle.official" target="_blank" rel="noopener noreferrer">
                         <div class="i-nav">
-                            <img class="img-fluid" src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-instagram-black.svg">
+                            <img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-instagram-black.svg">
                         </div>
                     </a>
                     <a href="https://www.youtube.com/channel/UC1UquQQDwtU6VfKq3pwM4Hg" target="_blank" rel="noopener noreferrer">
                         <div class="i-nav">
-                            <img class="img-fluid" src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-youtube-black.svg">
+                            <img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-youtube-black.svg">
                         </div>
                     </a>
                     <a href="https://lin.ee/8dqmWKo" target="_blank" rel="noopener noreferrer">
                         <div class="i-nav">
-                            <img class="img-fluid" src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-line-black.svg">
+                            <img class="img-fluid" src="https://www.prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/SVG/icon-line-black.svg">
                         </div>
                     </a>
                 </div>
             </nav>
         </div>
-        <div class="nav-sub d-none d-lg-block" style="height: 0px;">
-            <section class="nav-sub_section" style="visibility: hidden; opacity: 1;">
-                <div class="nav-sub_box">
-                    <div class="container">
-                        <a class="nav-sub_box_title" href="/company/"><h3>COMPANY<span>企業情報</span></h3></a>
-                        <ul class="nav nav-sub_box_items">
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="/philosophy/" target="">企業理念</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="/company/" target="">会社概要</a>
-                            </li>
-                            <li>
-                               <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/company/history/" target="">企業沿革</a>
-                            </li>
-                            <li>
-                               <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/access/" target="">アクセス</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/brochure/" target="">会社案内</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/ir/" target="">電子公告</a>
-                            </li>
-                        </ul>
+        <div class="nav-sub d-none d-lg-block">
+            <div class="nav-sub_block">
+                <section class="nav-sub_section">
+                    <div class="nav-sub_box">
+                        <div class="container">
+                            <a class="nav-sub_box_title" href="/company/"><h3>COMPANY<span>企業情報</span></h3></a>
+                            <ul class="nav nav-sub_box_items">
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="/philosophy/" target="">企業理念</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="/company/" target="">会社概要</a>
+                                </li>
+                                <li>
+                                   <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/company/history/" target="">企業沿革</a>
+                                </li>
+                                <li>
+                                   <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/access/" target="">アクセス</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/brochure/" target="">会社案内</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/ir/" target="">電子公告</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="nav-sub_section">
-                <div class="nav-sub_box">
-                    <div class="container">
-                        <a class="nav-sub_box_title" href="https://www.propolife.co.jp/recruit" target="_blank" rel="noopener noreferrer"><h3>RECRUIT<span>採用情報</span></h3></a>
-                        <ul class="nav nav-sub_box_items">
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/newgraduate/" target="_blank" rel="noopener noreferrer">新卒採用</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/%e6%96%b0%e7%af%89%e3%83%9e%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%b3%e4%bc%81%e7%94%bb%e8%b2%a9%e5%a3%b2%e5%96%b6%e6%a5%ad/" target="_blank" rel="noopener noreferrer">新築マンション販売営業</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/%e8%a8%ad%e8%a8%88%e5%a3%ab%ef%bc%88%e8%a8%88%e7%94%bb%e3%83%bb%e7%8f%be%e5%a0%b4%e7%ae%a1%e7%90%86%ef%bc%89/" target="_blank" rel="noopener noreferrer">設計士（計画業務）</a>
-                            </li>
-                        </ul>
+                </section>
+                <section class="nav-sub_section">
+                    <div class="nav-sub_box">
+                        <div class="container">
+                            <a class="nav-sub_box_title" href="https://www.propolife.co.jp/recruit" target="_blank" rel="noopener noreferrer"><h3>RECRUIT<span>採用情報</span></h3></a>
+                            <ul class="nav nav-sub_box_items">
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/newgraduate/" target="_blank" rel="noopener noreferrer">新卒採用</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/%e6%96%b0%e7%af%89%e3%83%9e%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%b3%e4%bc%81%e7%94%bb%e8%b2%a9%e5%a3%b2%e5%96%b6%e6%a5%ad/" target="_blank" rel="noopener noreferrer">新築マンション販売営業</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/%e8%a8%ad%e8%a8%88%e5%a3%ab%ef%bc%88%e8%a8%88%e7%94%bb%e3%83%bb%e7%8f%be%e5%a0%b4%e7%ae%a1%e7%90%86%ef%bc%89/" target="_blank" rel="noopener noreferrer">設計士（計画業務）</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="nav-sub_section">
-                <div class="nav-sub_box">
-                    <div class="container">
-                        <a class="nav-sub_box_title" href="http://prostyle-residence.com/result"><h3>RESULT<span>実績</span></h3></a>
-                        <ul class="nav nav-sub_box_items">
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="http://prostyle-residence.com/esult/project/" target="">分譲実績</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="http://prostyle-residence.com/result/award/" target="">受賞実績</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="http://prostyle-residence.com/result/gallery/" target="">フォトギャラリー</a>
-                            </li>
-                        </ul>
+                </section>
+                <section class="nav-sub_section">
+                    <div class="nav-sub_box">
+                        <div class="container">
+                            <a class="nav-sub_box_title" href="https://prostyle-residence.com/result"><h3>RESULT<span>実績</span></h3></a>
+                            <ul class="nav nav-sub_box_items">
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/esult/project/" target="">分譲実績</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/result/award/" target="">受賞実績</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/result/gallery/" target="">フォトギャラリー</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="nav-sub_section">
-                <div class="nav-sub_box">
-                    <div class="container">
-                        <a class="nav-sub_box_title" href="#"><h3>PURCHASE<span>事業用用地募集</span></h3></a>
-                        <ul class="nav nav-sub_box_items">
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="http://prostyle-residence.com/purchase" target="">募集中のプロジェクト</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="http://prostyle-residence.com/purchase-solutions/" target="">弊社取引の特徴</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="http://prostyle-residence.com/purchase-record/" target="">用地買収実績</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="http://prostyle-residence.com/purchase-gallery/" target="">販売実績（ギャラリー）</a>
-                            </li>
-                            <li>
-                                <a class="nav-sub_box_link animation-btn" href="https://www.prostyle-residence.com/brochure/#youchi-catalog" target="_blank" rel="noopener noreferrer">用地募集のご案内（PDF）</a>
-                            </li>
-                        </ul>
+                </section>
+                <section class="nav-sub_section">
+                    <div class="nav-sub_box">
+                        <div class="container">
+                            <a class="nav-sub_box_title" href="#"><h3>PURCHASE<span>事業用用地募集</span></h3></a>
+                            <ul class="nav nav-sub_box_items">
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/purchase" target="">募集中のプロジェクト</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/purchase-solutions/" target="">弊社取引の特徴</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/purchase-record/" target="">用地買収実績</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://prostyle-residence.com/purchase-gallery/" target="">販売実績（ギャラリー）</a>
+                                </li>
+                                <li>
+                                    <a class="nav-sub_box_link animation-btn" href="https://www.prostyle-residence.com/brochure/#youchi-catalog" target="_blank" rel="noopener noreferrer">用地募集のご案内（PDF）</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <!-- endif -->
+                </section>
+            </div>
         </div>
     </header>
     <div id="modal_brands" class="modal fade bd-example-modal-lg modal_brands" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -215,12 +221,12 @@
                     <!-- <img src="/modal02.png" width="75%" class="img-responsive" alt="Image"> -->
                     プロスタイルのブランド展開
                 </h2>
-                <a href="#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close_white.png" alt=""></a>
+                <a href="#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close_white.png" alt=""></a>
                 <ul class="list_row">
                     <li>
                         <div class="row">
                             <div class="col-12 col-sm-4">
-                                <a class="logo_brands" href="#"><img src="http://prostyle-residence.com/main/wp-content/uploads/2019/01/logo_larg.png" alt="" class="img-fluid"></a>
+                                <a class="logo_brands" href="#"><img src="https://prostyle-residence.com/main/wp-content/uploads/2019/01/logo_larg.png" alt="" class="img-fluid"></a>
                             </div>
                             <div class="col-12 col-sm-8">
                                 <h4>
@@ -243,7 +249,7 @@
                     <li>
                         <div class="row">
                             <div class="col-12 col-sm-4">
-                                <a class="logo_brands" href="#"><img src="http://prostyle-residence.com/main/wp-content/uploads/2019/01/logo_wealth.png" alt="" class="img-fluid"></a>
+                                <a class="logo_brands" href="#"><img src="https://prostyle-residence.com/main/wp-content/uploads/2019/01/logo_wealth.png" alt="" class="img-fluid"></a>
                             </div>
                             <div class="col-12 col-sm-8">
                                 <h4>
@@ -260,7 +266,7 @@
                     <li>
                         <div class="row">
                             <div class="col-12 col-sm-4">
-                                <a class="logo_brands" href="#"><img src="http://prostyle-residence.com/main/wp-content/uploads/2020/07/ryokan-1-e1594367998500.png" alt="" class="img-fluid"></a>
+                                <a class="logo_brands" href="#"><img src="https://prostyle-residence.com/main/wp-content/uploads/2020/07/ryokan-1-e1594367998500.png" alt="" class="img-fluid"></a>
                             </div>
                             <div class="col-12 col-sm-8">
                                 <h4>
@@ -274,23 +280,23 @@
                         </div>
                     </li>
                 </ul>
-                <a href="#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close.png" alt=""></a>
+                <a href="#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close.png" alt=""></a>
             </div>
         </div>
     </div>
     <div id="modal_commitment" class="modal fade bd-example-modal-lg modal_commitment" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
-                <h2><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/kodawari.png" height="35" class="img-responsive" alt="Image"></h2>
-                <h3><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/mukuzai.png" height="25" class="img-responsive" alt="Image"></h3>
-                <a href="#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close_white.png" alt=""></a>
+                <h2><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/kodawari.png" height="35" class="img-responsive" alt="Image"></h2>
+                <h3><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/mukuzai.png" height="25" class="img-responsive" alt="Image"></h3>
+                <a href="#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close_white.png" alt=""></a>
                 <ul class="list_row">
                     <li>
                         <div class="row flex-sm-row-reverse">
                             <div class="col-12 col-sm-6">
                                 <h5 class="d-block d-sm-none">
                                     耐久性 </h5>
-                                <img src="http://prostyle-residence.com/main/wp-content/uploads/2019/01/img16-300x158.jpg" alt="" class="img-fluid img_row">
+                                <img src="https://prostyle-residence.com/main/wp-content/uploads/2019/01/img16-300x158.jpg" alt="" class="img-fluid img_row">
                             </div>
                             <div class="col-12 col-sm-6">
                                 <h5 class="d-none d-sm-block">
@@ -304,7 +310,7 @@
                             <div class="col-12 col-sm-6">
                                 <h5 class="d-block d-sm-none">
                                     安心・安全 </h5>
-                                <img src="http://prostyle-residence.com/main/wp-content/uploads/2019/01/img17-300x158.jpg" alt="" class="img-fluid img_row">
+                                <img src="https://prostyle-residence.com/main/wp-content/uploads/2019/01/img17-300x158.jpg" alt="" class="img-fluid img_row">
                             </div>
                             <div class="col-12 col-sm-6">
                                 <h5 class="d-none d-sm-block">
@@ -318,7 +324,7 @@
                             <div class="col-12 col-sm-6">
                                 <h5 class="d-block d-sm-none">
                                     デザイン </h5>
-                                <img src="http://prostyle-residence.com/main/wp-content/uploads/2019/01/img18-300x158.jpg" alt="" class="img-fluid img_row">
+                                <img src="https://prostyle-residence.com/main/wp-content/uploads/2019/01/img18-300x158.jpg" alt="" class="img-fluid img_row">
                             </div>
                             <div class="col-12 col-sm-6">
                                 <h5 class="d-none d-sm-block">
@@ -328,7 +334,7 @@
                         </div>
                     </li>
                 </ul>
-                <a href="#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close.png" alt=""></a>
+                <a href="#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -336,11 +342,11 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <h2>MOVIE</h2>
-                <a href="#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close_white.png" alt=""></a>
+                <a href="#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close_white.png" alt=""></a>
                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
                     <iframe id="video" class="embed-responsive-item" src="" allowfullscreen=""></iframe>
                 </div>
-                <a href="#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="http://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close.png" alt=""></a>
+                <a href="#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close.png" alt=""></a>
             </div>
         </div>
     </div>

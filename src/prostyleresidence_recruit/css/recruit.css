@@ -121,20 +121,45 @@ header {
 
 .nav-main {
   background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.nav-main .navbar {
+  padding-bottom: 0;
+}
+.nav-main .navbar-brand {
+  padding-right: 20px;
+}
+.nav-main .main-menu {
+  border-left: 1px solid #eaeaea;
+}
+.nav-main .navbar-expand-lg .navbar-nav .nav-link, .nav-main .navbar-nav .nav-link {
+  padding: 20px 8px;
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .nav-main .navbar-expand-lg .navbar-nav .nav-link, .nav-main .navbar-nav .nav-link {
+    font-size: 0.75rem;
+  }
 }
 
 .nav-sub {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-sub_block {
   position: relative;
-  height: 0;
-  background: white;
-  z-index: 9999;
+  background: #fff;
 }
 
 .nav-sub_section {
   visibility: hidden;
   position: absolute;
   background-color: #fff;
-  top: 0;
+  top: 73px;
   right: 0;
   left: 0;
   margin: 0 auto;
@@ -216,6 +241,10 @@ header {
 }
 
 @media (max-width: 991px) {
+  .nav-main .navbar {
+    padding: 20px 15px;
+  }
+
   .menu-sp {
     background: #fff;
     width: 230px;
@@ -244,6 +273,7 @@ header {
   }
   .menu-sp > .navbar-nav > .nav-item .social-link {
     margin-top: 20px;
+    text-align: center;
   }
   .menu-sp > .navbar-nav > .nav-item .social-link a {
     padding-right: 5px;
@@ -442,10 +472,6 @@ header {
   width: 100%;
   height: 2px;
   background: #000;
-}
-
-.section_banner_sub {
-  padding-top: 73px;
 }
 
 .section_staffintroduction {

@@ -244,7 +244,7 @@ function prostyle_residence_main() {
         _$header: $('header'),
         _$body: $('body'),
         _$nav_sub_section: $('.nav-sub_section'),
-        _$nav_sub: $('.nav-sub'),
+        _$nav_sub: $('.nav-sub_block'),
     }
 
     this.viewClass = {
