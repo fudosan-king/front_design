@@ -1138,7 +1138,13 @@ header {
   background: url("../images/common/i-mail-white.svg");
   background-repeat: no-repeat;
   height: 13px;
-  width: 18px;
+  width: 20px;
+}
+@media (max-width: 767px) {
+  .page-bottom-fixed .btn-fixed-mail {
+    height: 40px;
+    font-size: 1rem;
+  }
 }
 
 .footer-page #footer {
