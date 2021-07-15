@@ -145,7 +145,12 @@
 
         </main>
 
-        <?php require('footer.php'); ?>
+       <div class="page-bottom-fixed">
+        	<a href="" class="btn btn-fixed-mail">エントリーする</a>
+        </div>
+        <div class="footer-page">
+        	<?php require('footer.php'); ?>
+    	</div>
     </div>
     
     <?php require('js_footer.php'); ?>
