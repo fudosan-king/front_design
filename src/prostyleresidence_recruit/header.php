@@ -338,25 +338,13 @@
     <div id="modal_video" class="modal fade bd-example-modal-lg modal_brands" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
-                <h2>MOVIE</h2>
+          
                 <a href="#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close_white.png" alt=""></a>
                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
                     <iframe id="video" class="embed-responsive-item" src="" allowfullscreen=""></iframe>
                 </div>
                 <a href="#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="https://prostyle-residence.com/main/wp-content/themes/prostyledata/assets/images/1x/i_close.png" alt=""></a>
             </div>
-        </div>
-    </div>
-</div>
-<div id="modal_video" class="modal fade bd-example-modal-lg modal_brands" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <h2>MOVIE</h2>
-            <a href="https://www.prostyle-residence.com/#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="./index_files/i_close_white.png" alt=""></a>
-            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <iframe id="video" class="embed-responsive-item" src="./index_files/saved_resource.html" allowfullscreen=""></iframe>
-            </div>
-            <a href="https://www.prostyle-residence.com/#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="./index_files/i_close.png" alt=""></a>
         </div>
     </div>
 </div>

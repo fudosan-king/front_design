@@ -169,7 +169,6 @@
 	                    <div class="container recruit-container">
 	                        <div class="row">
 	                            <div class="col col-12">
-	                                <h2 class="headline"><img src="./index_files/MOVIE.png" height="35" class="img-responsive" alt="Image"></h2>
 	                                <div>
 	                                    <a class="btnVideo" href="https://www.prostyle-residence.com/#" data-target="#modal_video" data-toggle="modal" data-src="https://s3-ap-northeast-1.amazonaws.com/propolife/prostyle-coop-movie.mp4?rel=0"><img src="./images/page/img_video.jpg" alt="" class="img-fluid"></a>
 	                                </div>

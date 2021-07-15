@@ -13,8 +13,8 @@
 	        	<section class="section_banner_submore">
 	        		<img src="images/bg_career01.jpg" alt="" class="img-fluid w-100">
 	        		<div class="caption">
-	        			<h1>NEW GRADUATE</h1>
-	        			<p>新卒採用</p>
+	        			<h1>新卒採用</h1>
+	        			<p>NEW GRADUATE</p>
 	        		</div>
 	        	</section>
 
@@ -176,7 +176,46 @@
 	        								</td>
 	        							</tr>
 	        						</table>
-	        						<p class="text-center"><a href="#" class="btn btn_entry mb-3">エントリーフォームへ</a></p>
+	        						<p class="text-center"><a href="#" class="btn btn_entry">エントリーフォームへ</a></p>
+	        						<div class="graduate_step">
+	        							<p class="title">採用プロセス</p>
+	        							<div class="graduate_block">
+		        							<ul>
+		        								<li>
+		        									<div class="graduate_step_circle">
+		        										<p class="step">STEP.1</p>
+		        										<p class="des">書類選考または
+		        										グループ選考</p>
+		        									</div>
+		        								</li>
+		        								<li>
+		        									<div class="graduate_step_circle">
+		        										<p class="step">STEP.2</p>
+		        										<p class="des">一時面接</p>
+		        									</div>
+		        								</li>
+		        								<li>
+		        									<div class="graduate_step_circle">
+		        										<p class="step">STEP.3</p>
+		        										<p class="des">二次面接</p>
+		        									</div>
+		        								</li>
+		        								<li>
+		        									<div class="graduate_step_circle">
+		        										<p class="step">STEP.4</p>
+		        										<p class="des">最終面接</p>
+		        									</div>
+		        								</li>
+		        								<li>
+		        									<div class="graduate_step_circle">
+		        										<p class="step">STEP.5</p>
+		        										<p class="des">内定</p>
+		        									</div>
+		        								</li>
+		        							</ul>
+		        							<p class="note">※応募から内定まではおよそ1ヶ月を予定しています。</p>
+	        							</div>
+	        						</div>
 	        					</div>
 	        				</div>
 	        			</div>
@@ -185,7 +224,12 @@
         	</div>
         </main>
 
-        <?php require('footer.php'); ?>
+        <div class="page-bottom-fixed">
+        	<a href="" class="btn btn-fixed-mail">エントリーする</a>
+        </div>
+        <div class="footer-page">
+        	<?php require('footer.php'); ?>
+    	</div>
     </div>
     
     <?php require('js_footer.php'); ?>
