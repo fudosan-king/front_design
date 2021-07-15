@@ -333,6 +333,9 @@
     table {
       th,td {
         font-size: 1.1429em;
+        @media(max-width: 767px){
+          display: block;
+        }
       }
       th {
         vertical-align: middle;

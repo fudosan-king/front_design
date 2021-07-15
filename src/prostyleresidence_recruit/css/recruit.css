@@ -827,6 +827,11 @@ header {
 .section_app_requirements .box_requirements table th, .section_app_requirements .box_requirements table td {
   font-size: 1.1429em;
 }
+@media (max-width: 767px) {
+  .section_app_requirements .box_requirements table th, .section_app_requirements .box_requirements table td {
+    display: block;
+  }
+}
 .section_app_requirements .box_requirements table th {
   vertical-align: middle;
   background: #F2F2F2;
