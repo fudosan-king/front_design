@@ -112,10 +112,6 @@ a:hover {
     transition: all .3s linear;
 }
 
-.small, small {
-    font-size: 90%;
-}
-
 h1 {
     font-size: 2.3125em;
 }
@@ -1747,15 +1743,15 @@ footer .footer_bottom .btn img {
     margin: 0;
     list-style: none;
     display: flex;
-}
-
-.section_searh .box_searchby ul.show {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+}
+
+.section_searh .box_searchby ul.show {
+    display: none;
 }
 
 .section_searh .box_searchby ul li {
@@ -1840,6 +1836,7 @@ footer .footer_bottom .btn img {
 
     .w_box_simulation_result {
         display: none;
+        padding: 0 20px;
     }
 }
 
@@ -2363,6 +2360,16 @@ footer .footer_bottom .btn img {
 
     .box_renovation_specifications .renovation_specifications_table .table td {
         font-size: 0.75em;
+    }
+
+    .section_searh .box_searchby ul li {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        min-width: 31.33%;
+    }
+
+    .section_searh .box_searchby ul li a {
+        padding: 3px 5px;
     }
 }
 
