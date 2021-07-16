@@ -29,6 +29,23 @@ $(function($) {
 	  	$(".dropdown_user_content").hide();
 	});
 
+
+	$(".btn_map").click(function(event) {
+  		event.preventDefault();
+	  	$(".section_searh").show();
+	  	$(".section_searh .box_searchby.area").show();
+	  	$(".box_searchby.line").hide();
+	});
+
+	$(".btn_stations").click(function(event) {
+  		event.preventDefault();
+	  	$(".section_searh").show();
+	  	$(".section_searh .box_searchby.line").show();
+	  	$(".box_searchby.area").hide();
+	});
+
+
+
 	jQuery(document).ready(function($) {
 	  	function scrollToSection(event) {
 		    event.preventDefault();

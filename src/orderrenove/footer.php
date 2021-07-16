@@ -27,7 +27,7 @@
                     <hr>
                     
                     <p class="text-center"><a target="_blank" href="https://www.logrenove.jp"><img src="images/svg/logrenove_logo.svg" alt="" class="img-fluid" width="108"></a></p>
-                    <ul>
+                    <ul class="footer_logo">
                         <li><a target="_blank" href="https://www.logsuite.co.jp"><img src="images/LogSuite.png" alt="" class="img-fluid" width="88"></a></li>
                         <li><a target="_blank" href="https://www.logarchitects.co.jp"><img src="images/LogArchitects.png" alt="" class="img-fluid" width="120"></a></li>
                         <li><a target="_blank" href="https://www.logknot.co.jp"><img src="images/LogKnot.png" alt="" class="img-fluid" width="84"></a></li>
