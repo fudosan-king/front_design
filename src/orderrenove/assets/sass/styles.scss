@@ -75,6 +75,7 @@ section {
 .title {
   text-align: center;
   margin-bottom: 30px;
+  font-weight: 500;
 }
 .subtitle {
   font-size: 1em;
@@ -571,9 +572,12 @@ ul.list_property {
           font-size: 1.125em;
           margin-bottom: 5px;
         }
-        &.property_address, &.property_square {
-          font-size: 0.875em;
-        }
+      }
+      .property_address {
+        margin-right: 15px;
+      }
+      .property_address, &.property_square {
+        font-size: 0.875em;
       }
       .btn_wishlist {
         float: right;
@@ -716,9 +720,9 @@ footer {
 }
 .box_top {
   background: #fff;
-  padding-bottom: 30px;
-  padding-top: 60px;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
 
 .box_sort {
@@ -969,7 +973,7 @@ footer {
       width: 100%;
     }
     p {
-      margin-top: 15px;
+      margin-top: 10px;
       margin-bottom: 0;
     }
   }
@@ -1328,6 +1332,7 @@ footer {
   text-align: center;
   display: block;
   position: relative;
+  margin-top: 50px;
   &:after {
     content: 'お支払いの詳細を見る';
     position: absolute;
@@ -1339,9 +1344,10 @@ footer {
   }
   &.show {
     background-image: url('../images/svg/showhide.svg');
-     &:after {
-      opacity: 0;
-     }
+   &:after {
+    opacity: 0;
+   }
+   margin-top: 0;
   }
 }
 
@@ -1480,6 +1486,82 @@ footer {
   
 }
 
+.section_searh {
+  background: #fff;
+  display: none;
+  .box_searchby {
+    display: none;
+    h3 {
+      margin-bottom: 15px;
+      a {
+        display: block;
+        background: #EB5757;
+        color: #fff;
+        border-radius: 3px;
+        text-align: center;
+        padding: 10px;
+        font-weight: 600;
+        position: relative;
+        &:after {
+          content: '-';
+          position: absolute;
+          right: 15px;
+          top: 2px;
+          margin: auto;
+          width: 10px;
+          height: 10px;
+          font-size: 2em;
+          line-height: 1em;
+          font-weight: 400;
+        }
+        &.collapsed {
+          &:after {
+            content: '+';
+            top: 5px;
+          }
+        }
+      }
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: none;
+      
+      &.show {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+      }
+      li {
+        min-width: 100px;
+        margin-right: 18px;
+        margin-bottom: 15px;
+        display: inline-block;
+        &:hover {
+          a {
+            background: #EB5757;
+            color: #fff;
+          }
+        }
+        a {
+          display: block;
+          color: #000;
+          font-size: 0.7em;
+          display: block;
+          background: #F2F2F2;
+          border-radius: 100px;
+          padding: 5px 20px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
 
 
 //mobile
@@ -1563,6 +1645,20 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+
   .box_confirm {
     padding: 15px;
   }
@@ -1571,7 +1667,7 @@ footer {
   }
   .title {
     margin-bottom: 30px;
-    font-size: 1.375em;
+    font-size: 1em;
   }
   .subtitle {
     margin-bottom: 30px;
@@ -1708,7 +1804,17 @@ footer {
       background: #fff;
       padding: 20px 10px;
       width: 100%;
-      border-bottom: 1px solid #BDBDBD;
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 95%;
+        height: 1px;
+        background: #BDBDBD;
+      }
       li {
         margin-right: 12px;
         flex: 1 1 auto;
@@ -1754,6 +1860,14 @@ footer {
         width: 48%;
       }
     }
+    p {
+      &:last-of-type {
+        margin-top: 40px;
+        small {
+          font-size: 10px;
+        }
+      }
+    }
   }
 
   ul.list_property {
@@ -1767,7 +1881,7 @@ footer {
           &.total_price {
             font-size: 0.85em;
             span {
-              font-size: 0.8em;
+              font-size: 0.6em;
               &.sub {
                 font-size: .5em;
               }
@@ -1775,7 +1889,7 @@ footer {
           }
           &.label_custom {
             padding: 5px;
-            font-size: .5em;
+            font-size: 0.375em;
           }
         }
         img {
@@ -1783,10 +1897,8 @@ footer {
         }
       }
       .property_head {
-        p {
-          &.property_name {
-            font-size: 1em;
-          }
+        &.property_name {
+          font-size: 1em;
         }
       }
     }
@@ -1816,17 +1928,20 @@ footer {
         .property_head {
           border: none;
           padding-top: 0;
+          padding-left: 0;
+          right: 0;
           p {
             &.property_name {
               display: none;
             }
-            &.property_address {
-              font-size: 0.625em;
-            }
-            &.property_square {
-              font-size: 0.625em;
-              line-height: 1em;
-            }
+          }
+          .property_address {
+            font-size: 0.625em;
+            margin-right: 5px;
+          }
+          .property_square {
+            font-size: 0.625em;
+            line-height: 1em;
           }
           .btn_wishlist {
             display: none;
@@ -1872,14 +1987,16 @@ footer {
 
   .section_property_main {
     .box_calcu {
-      padding: 20px;
+      padding: 10px;
       padding-bottom: 40px;
+      margin-bottom: 40px;
       h1 {
         margin-bottom: 20px;
+        padding: 20px 5px;
       }
       .frm_calcu {
         .box_simulation_result {
-          padding: 15px;
+          padding: 15px 5px;
           h2 {
             font-size: 1.875em;
           }
@@ -1887,19 +2004,27 @@ footer {
             font-size: 1em;
           }
           p {
-            font-size: 0.75em;
+            font-size: 0.7em;
           }
+        }
+        label {
+          font-size: 0.5625em;
+          line-height: 1em;
         }
         h5 {
           font-size: 1.125em;
           margin-bottom: 0;
+          span {
+            font-size: .8em;
+          }
         }
         .form-control {
-          font-size: 1.3em;
+          font-size: 1.1em;
+          &.repayment {
+            width: 200px;
+          }
         }
-        .repayment_amount {
-          max-width: 110px;
-        }
+        
       }
 
 
@@ -1912,16 +2037,29 @@ footer {
     }
   }
 
+  .section_pass {
+    padding-bottom: 184px;
+  }
+
   .section_notice {
+    padding: 0;
+    margin: 0;
     .box_notice_item {
       margin: 0 -15px;
-      padding: 10px;
+      padding: 10px 25px;
       overflow: hidden;
       transition: all 0.3s;
+      &:first-of-type {
+        border-top: 1px solid #BDBDBD;
+      }
       .box_notice_img {
         height: 79px;
         img {
           height: 79px;
+        }
+        span {
+          line-height: 1em;
+          font-size: 0.5em;
         }
       }
       .box_notice_content {
@@ -1938,6 +2076,7 @@ footer {
           }
           &:last-of-type {
             font-size: 0.625em;
+            margin-top: 3px;
           }
         }
       }
@@ -1966,6 +2105,9 @@ footer {
   }
 
   .section_accinfo {
+    .box_accinfo {
+      padding: 0 10px;
+    }
     h4 {
       margin-left: -15px;
       margin-right: -15px;
@@ -1984,6 +2126,44 @@ footer {
     h4 {
       margin-left: -15px;
       margin-right: -15px;
+    }
+  }
+
+  .section_new_property {
+    background: #fff;
+  }
+
+  .section_near_property {
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 90%;
+      height: 1px;
+      background: #BDBDBD;
+    }
+    &.custom {
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+
+  .box_renovation_specifications {
+    .renovation_specifications_table {
+      .table {
+        th {
+          font-size: 0.5625em;
+        }
+        td {
+          font-size: 0.75em;
+        }
+      }
     }
   }
 
@@ -2018,6 +2198,15 @@ footer {
       .btn {
         padding-left: 10px;
         padding-right: 10px;
+      }
+    }
+  }
+  .section_property_main {
+    .box_calcu {
+      .frm_calcu {
+        .repayment_amount {
+          max-width: 145px;
+        }
       }
     }
   }
@@ -2072,5 +2261,51 @@ footer {
       }
     }
   }
+
+  footer {
+    ul {
+      li {
+        a {
+          font-size: .5em;
+        }
+      }
+      &.footer_logo {
+        li {
+          &:nth-of-type(1) {
+            a {
+              img {
+                width: 66px;
+              }
+            }
+          }
+          &:nth-of-type(2) {
+            a {
+              img {
+                width: 90px;
+              }
+            }
+          }
+          &:nth-of-type(3) {
+            a {
+              img {
+                width: 63px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section_property_main {
+    .box_calcu {
+      .frm_calcu {
+        .form-control {
+          max-width: 115px;
+        }
+      }
+    }
+  }
+
 }
 

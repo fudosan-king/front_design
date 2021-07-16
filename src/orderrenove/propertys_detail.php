@@ -67,13 +67,13 @@
                                                     <p class="text-center mt-3">管理費：20,000円／修繕積立金：20,000円 含む</p>
                                                 </div>
 
-                                                <p class="text-center box_showmore mt-5">
+                                                <p class="text-center box_showmore">
                                                     <a class="btn btnshowhide d-block d-lg-none" href="#"></a>
                                                 </p>
 
                                                 <div class="w_box_simulation_result">
                                                     <div class="row no-gutters">
-                                                        <div class="col-6 col-lg-6">
+                                                        <div class="col-7 col-lg-6">
                                                             <div class="form-group">
                                                                 <label for="">毎月のローン返済額</label>
                                                                 <div class="d-flex align-items-center">
@@ -97,7 +97,7 @@
                                                                 <h5>26,000<span>万／月</span></h5>
                                                             </div>
                                                         </div>
-                                                        <div class="col-6 col-lg-6">
+                                                        <div class="col-5 col-lg-6">
                                                             <canvas id="pie-canvas1"></canvas>
                                                         </div>
                                                     </div>
@@ -108,7 +108,7 @@
 
                                             <div class="col-12 col-lg-6">
                                                 <div class="w_box_simulation_result">
-                                                    <div class="form-group">
+                                                    <div class="form-group mb-1">
                                                         <div class="row">
                                                             <div class="col-6 col-lg-6">
                                                                 <label for="">自己資金（頭金）</label>
@@ -129,12 +129,13 @@
                                                     <div class="form-group mb-4">
                                                         <input type="text" class="js-range-slider" name="my_range" value="">
                                                     </div>
-                                                    <div class="form-group">
+                                                    <hr class="mt-5">
+                                                    <div class="form-group mb-0">
                                                         <div class="row">
                                                             <div class="col-6 col-lg-6">
                                                                 <label for="">返済期間</label>
                                                                 <div class="d-flex align-items-center">
-                                                                    <input type="text" class="form-control" placeholder="35">
+                                                                    <input type="text" class="form-control repayment" placeholder="35">
                                                                     <span class="ml-2 sub">年</span>
                                                                 </div>
                                                             </div>
@@ -180,7 +181,7 @@
                                     <div class="renovation_specifications_table">
                                         <table class="table">
                                             <tr>
-                                                <th>マンション名</th>
+                                                <th width="45%">マンション名</th>
                                                 <td>秀和麻布笄町レジデンス</td>
                                             </tr>
                                             <tr>

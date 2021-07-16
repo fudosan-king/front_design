@@ -175,6 +175,7 @@ section {
 .title {
     text-align: center;
     margin-bottom: 30px;
+    font-weight: 500;
 }
 
 .subtitle {
@@ -725,7 +726,11 @@ ul.list_property li .property_head p.property_name {
     margin-bottom: 5px;
 }
 
-ul.list_property li .property_head p.property_address, ul.list_property li .property_head p.property_square {
+ul.list_property li .property_head .property_address {
+    margin-right: 15px;
+}
+
+ul.list_property li .property_head .property_address, ul.list_property li .property_head.property_square {
     font-size: 0.875em;
 }
 
@@ -875,9 +880,9 @@ footer .footer_bottom .btn img {
 
 .box_top {
     background: #fff;
-    padding-bottom: 30px;
-    padding-top: 60px;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 .box_sort {
@@ -1149,7 +1154,7 @@ footer .footer_bottom .btn img {
 }
 
 .box_renovation_specifications .specifications_pic p {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 
@@ -1527,6 +1532,7 @@ footer .footer_bottom .btn img {
     text-align: center;
     display: block;
     position: relative;
+    margin-top: 50px;
 }
 
 .btnshowhide:after {
@@ -1541,6 +1547,7 @@ footer .footer_bottom .btn img {
 
 .btnshowhide.show {
     background-image: url("../images/svg/showhide.svg");
+    margin-top: 0;
 }
 
 .btnshowhide.show:after {
@@ -1693,6 +1700,87 @@ footer .footer_bottom .btn img {
     margin: auto;
 }
 
+.section_searh {
+    background: #fff;
+    display: none;
+}
+
+.section_searh .box_searchby {
+    display: none;
+}
+
+.section_searh .box_searchby h3 {
+    margin-bottom: 15px;
+}
+
+.section_searh .box_searchby h3 a {
+    display: block;
+    background: #EB5757;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+.section_searh .box_searchby h3 a:after {
+    content: '-';
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 400;
+}
+
+.section_searh .box_searchby h3 a.collapsed:after {
+    content: '+';
+    top: 5px;
+}
+
+.section_searh .box_searchby ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: none;
+}
+
+.section_searh .box_searchby ul.show {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.section_searh .box_searchby ul li {
+    min-width: 100px;
+    margin-right: 18px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.section_searh .box_searchby ul li:hover a {
+    background: #EB5757;
+    color: #fff;
+}
+
+.section_searh .box_searchby ul li a {
+    display: block;
+    color: #000;
+    font-size: 0.7em;
+    display: block;
+    background: #F2F2F2;
+    border-radius: 100px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1130px;
@@ -1756,6 +1844,21 @@ footer .footer_bottom .btn img {
 }
 
 @media (max-width: 768px) {
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .row {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
     .box_confirm {
         padding: 15px;
     }
@@ -1766,7 +1869,7 @@ footer .footer_bottom .btn img {
 
     .title {
         margin-bottom: 30px;
-        font-size: 1.375em;
+        font-size: 1em;
     }
 
     .subtitle {
@@ -1900,7 +2003,18 @@ footer .footer_bottom .btn img {
         background: #fff;
         padding: 20px 10px;
         width: 100%;
-        border-bottom: 1px solid #BDBDBD;
+    }
+
+    .section_banner ul:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 95%;
+        height: 1px;
+        background: #BDBDBD;
     }
 
     .section_banner ul li {
@@ -1946,6 +2060,14 @@ footer .footer_bottom .btn img {
         width: 48%;
     }
 
+    footer p:last-of-type {
+        margin-top: 40px;
+    }
+
+    footer p:last-of-type small {
+        font-size: 10px;
+    }
+
     ul.list_property li {
         width: 100%;
         margin-right: 0;
@@ -1961,7 +2083,7 @@ footer .footer_bottom .btn img {
     }
 
     ul.list_property li .property_img p.total_price span {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 
     ul.list_property li .property_img p.total_price span.sub {
@@ -1970,14 +2092,14 @@ footer .footer_bottom .btn img {
 
     ul.list_property li .property_img p.label_custom {
         padding: 5px;
-        font-size: .5em;
+        font-size: 0.375em;
     }
 
     ul.list_property li .property_img img {
         height: 237px;
     }
 
-    ul.list_property li .property_head p.property_name {
+    ul.list_property li .property_head.property_name {
         font-size: 1em;
     }
 
@@ -2007,17 +2129,20 @@ footer .footer_bottom .btn img {
     .section_near_property ul.list_property li .property_head {
         border: none;
         padding-top: 0;
+        padding-left: 0;
+        right: 0;
     }
 
     .section_near_property ul.list_property li .property_head p.property_name {
         display: none;
     }
 
-    .section_near_property ul.list_property li .property_head p.property_address {
+    .section_near_property ul.list_property li .property_head .property_address {
         font-size: 0.625em;
+        margin-right: 5px;
     }
 
-    .section_near_property ul.list_property li .property_head p.property_square {
+    .section_near_property ul.list_property li .property_head .property_square {
         font-size: 0.625em;
         line-height: 1em;
     }
@@ -2059,16 +2184,18 @@ footer .footer_bottom .btn img {
     }
 
     .section_property_main .box_calcu {
-        padding: 20px;
+        padding: 10px;
         padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     .section_property_main .box_calcu h1 {
         margin-bottom: 20px;
+        padding: 20px 5px;
     }
 
     .section_property_main .box_calcu .frm_calcu .box_simulation_result {
-        padding: 15px;
+        padding: 15px 5px;
     }
 
     .section_property_main .box_calcu .frm_calcu .box_simulation_result h2 {
@@ -2080,7 +2207,12 @@ footer .footer_bottom .btn img {
     }
 
     .section_property_main .box_calcu .frm_calcu .box_simulation_result p {
-        font-size: 0.75em;
+        font-size: 0.7em;
+    }
+
+    .section_property_main .box_calcu .frm_calcu label {
+        font-size: 0.5625em;
+        line-height: 1em;
     }
 
     .section_property_main .box_calcu .frm_calcu h5 {
@@ -2088,23 +2220,40 @@ footer .footer_bottom .btn img {
         margin-bottom: 0;
     }
 
-    .section_property_main .box_calcu .frm_calcu .form-control {
-        font-size: 1.3em;
+    .section_property_main .box_calcu .frm_calcu h5 span {
+        font-size: .8em;
     }
 
-    .section_property_main .box_calcu .frm_calcu .repayment_amount {
-        max-width: 110px;
+    .section_property_main .box_calcu .frm_calcu .form-control {
+        font-size: 1.1em;
+    }
+
+    .section_property_main .box_calcu .frm_calcu .form-control.repayment {
+        width: 200px;
     }
 
     .box_renovation_specifications p {
         font-size: 0.75em;
     }
 
+    .section_pass {
+        padding-bottom: 184px;
+    }
+
+    .section_notice {
+        padding: 0;
+        margin: 0;
+    }
+
     .section_notice .box_notice_item {
         margin: 0 -15px;
-        padding: 10px;
+        padding: 10px 25px;
         overflow: hidden;
         transition: all 0.3s;
+    }
+
+    .section_notice .box_notice_item:first-of-type {
+        border-top: 1px solid #BDBDBD;
     }
 
     .section_notice .box_notice_item .box_notice_img {
@@ -2113,6 +2262,11 @@ footer .footer_bottom .btn img {
 
     .section_notice .box_notice_item .box_notice_img img {
         height: 79px;
+    }
+
+    .section_notice .box_notice_item .box_notice_img span {
+        line-height: 1em;
+        font-size: 0.5em;
     }
 
     .section_notice .box_notice_item .box_notice_content {
@@ -2135,6 +2289,7 @@ footer .footer_bottom .btn img {
 
     .section_notice .box_notice_item .box_notice_content p:last-of-type {
         font-size: 0.625em;
+        margin-top: 3px;
     }
 
     .section_notice .box_notice_item .btn_del {
@@ -2157,6 +2312,10 @@ footer .footer_bottom .btn img {
         margin-bottom: 10px;
     }
 
+    .section_accinfo .box_accinfo {
+        padding: 0 10px;
+    }
+
     .section_accinfo h4 {
         margin-left: -15px;
         margin-right: -15px;
@@ -2173,6 +2332,38 @@ footer .footer_bottom .btn img {
     .frm_accinfo h4 {
         margin-left: -15px;
         margin-right: -15px;
+    }
+
+    .section_new_property {
+        background: #fff;
+    }
+
+    .section_near_property {
+        position: relative;
+    }
+
+    .section_near_property:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 90%;
+        height: 1px;
+        background: #BDBDBD;
+    }
+
+    .section_near_property.custom:before {
+        display: none;
+    }
+
+    .box_renovation_specifications .renovation_specifications_table .table th {
+        font-size: 0.5625em;
+    }
+
+    .box_renovation_specifications .renovation_specifications_table .table td {
+        font-size: 0.75em;
     }
 }
 
@@ -2199,6 +2390,10 @@ footer .footer_bottom .btn img {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .section_property_main .box_calcu .frm_calcu .repayment_amount {
+        max-width: 145px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -2220,5 +2415,25 @@ footer .footer_bottom .btn img {
 
     .section_near_property ul.list_property li {
         width: 46.5%;
+    }
+
+    footer ul li a {
+        font-size: .5em;
+    }
+
+    footer ul.footer_logo li:nth-of-type(1) a img {
+        width: 66px;
+    }
+
+    footer ul.footer_logo li:nth-of-type(2) a img {
+        width: 90px;
+    }
+
+    footer ul.footer_logo li:nth-of-type(3) a img {
+        width: 63px;
+    }
+
+    .section_property_main .box_calcu .frm_calcu .form-control {
+        max-width: 115px;
     }
 }
