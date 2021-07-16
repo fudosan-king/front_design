@@ -88,7 +88,7 @@
                                             <a href="edit_account_information.php" class="btn btnedit">設定</a>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btnsave my-5">保存</button>
+                                    <button type="submit" class="btn btnsave my-lg-5">保存</button>
                                 </form>
                             </div>
                         </div>

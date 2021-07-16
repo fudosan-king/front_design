@@ -6,7 +6,7 @@
 
         <main>
             <div class="box_template">
-                <section class="section_near_property pt-0">
+                <section class="section_near_property custom pt-0 bg-white">
                     <div class="box_top">
                         <div class="container">
                             <h2 class="title mb-2">港区エリア</h2>
