@@ -1746,7 +1746,7 @@ footer .footer_bottom .btn img {
     padding: 0;
     margin: 0;
     list-style: none;
-    display: none;
+    display: flex;
 }
 
 .section_searh .box_searchby ul.show {
@@ -2144,7 +2144,6 @@ footer .footer_bottom .btn img {
 
     .section_near_property ul.list_property li .property_head .property_square {
         font-size: 0.625em;
-        line-height: 1em;
     }
 
     .section_near_property ul.list_property li .property_head .btn_wishlist {
@@ -2158,7 +2157,7 @@ footer .footer_bottom .btn img {
     .box_sort li a {
         padding-left: 8px;
         padding-right: 8px;
-        font-size: 0.75em;
+        font-size: 0.6em;
     }
 
     .carousel_property .carousel-main {
