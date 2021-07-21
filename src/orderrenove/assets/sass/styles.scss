@@ -342,6 +342,7 @@ header {
         }
       }
       .card-body {
+        padding-right: 0;
         ul {
           padding: 0;
           margin: 0;
@@ -352,6 +353,8 @@ header {
           justify-content: flex-start;
           align-items: stretch;
           align-content: stretch;
+          height: 250px;
+          overflow: auto;
           li {
             margin-right: 18px;
             margin-bottom: 15px;

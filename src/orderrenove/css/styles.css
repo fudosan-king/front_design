@@ -472,6 +472,10 @@ header.subheader.compressed .i_white {
     background: url("../images/svg/i_right.svg") no-repeat right center;
 }
 
+.dropdown_search .dropdown_search_content .card .card-body {
+    padding-right: 0;
+}
+
 .dropdown_search .dropdown_search_content .card .card-body ul {
     padding: 0;
     margin: 0;
@@ -482,6 +486,8 @@ header.subheader.compressed .i_white {
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    height: 250px;
+    overflow: auto;
 }
 
 .dropdown_search .dropdown_search_content .card .card-body ul li {
