@@ -1,918 +1,942 @@
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>【Logsuite】</title>
-        <style type="text/css">
-            body {
-                padding-top: 0 !important;
-                padding-bottom: 0 !important;
-                margin: 0 !important;
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>【Logsuite】</title>
+    <style type="text/css">
+        body {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            margin: 0 !important;
+            width: 100% !important;
+            -webkit-text-size-adjust: 100% !important;
+            -ms-text-size-adjust: 100% !important;
+            -webkit-font-smoothing: antialiased !important;
+            font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, Montserrat, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+            font-size: 13px;
+            font-weight: 400;
+            color: #000000;
+        }
+
+        .tableContent img {
+            border: 0 !important;
+            display: block !important;
+            outline: none !important;
+        }
+
+        p, h2 {
+            color: #000000;
+            margin: 0;
+        }
+
+        div, p, ul, h2 {
+            margin: 0;
+        }
+
+        ul li {
+            white-space: nowrap;
+        }
+
+        h2 {
+            font-size: 21px;
+            font-weight: normal;
+        }
+
+        h3 {
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .btn {
+            font-size: 14px;
+            color: #fff;
+            padding: 10px 15px;
+            background: #000000;
+            border-radius: 30px;
+            display: block;
+            text-align: center;
+            margin: 15px auto 0;
+        }
+
+        a {
+            font-weight: bold;
+            color: #0000cd;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .font-14 {
+            font-size: 14px;
+        }
+
+        .font-12 {
+            font-size: 12px;
+        }
+
+        .font-10 {
+            font-size: 10px
+        }
+
+        .font-22 {
+            font-size: 22px
+        }
+
+        .font-24 {
+            font-size: 24px
+        }
+
+        .font-16 {
+            font-size: 16px
+        }
+
+        .font-20 {
+            font-size: 20px
+        }
+
+
+        @media screen and (max-width: 545px) {
+
+            table[class="MainContainer"] {
                 width: 100% !important;
-                -webkit-text-size-adjust: 100% !important;
-                -ms-text-size-adjust: 100% !important;
-                -webkit-font-smoothing: antialiased !important;
-                font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, Montserrat, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
-                font-size: 13px;
-                font-weight: 400;
-                color: #000000;
+                height: auto !important;
             }
 
-            .tableContent img {
-                border: 0 !important;
-                display: block !important;
-                outline: none !important;
+            table[class="MainContainer"] h3 {
+                font-size: 26px !important
             }
 
-            p, h2 {
-                color: #000000;
-                margin: 0;
+            table[class="MainContainer"] .font-14 {
+                font-size: 16px !important;
             }
 
-            div, p, ul, h2 {
-                margin: 0;
+            table[class="MainContainer"] .font-12 {
+                font-size: 14px !important;
             }
 
-            ul li {
-                white-space: nowrap;
+            table[class="MainContainer"] .font-10 {
+                font-size: 12px !important;
             }
 
-            h2 {
-                font-size: 21px;
-                font-weight: normal;
+            table[class="MainContainer"] .font-22 {
+                font-size: 24px !important;
             }
 
-            h3 {
-                font-weight: bold;
-                color: #ffffff;
+            table[class="MainContainer"] .font-24 {
+                font-size: 26px !important;
             }
 
-            .btn {
-                font-size: 14px;
-                color: #fff;
-                padding: 10px 15px;
-                background: #000000;
-                border-radius: 30px;
-                display: block;
-                text-align: center;
-                margin: 15px auto 0;
+            table[class="MainContainer"] .font-16 {
+                font-size: 18px !important;
             }
 
-            a {
-                font-weight: bold;
-                color: #0000cd;
-                font-size: 13px;
-                text-decoration: none;
+            table[class="MainContainer"] .font-20 {
+                font-size: 22px !important;
             }
 
-            .font-14 {
-                font-size: 14px;
-            }
+        }
 
-            .font-12 {
-                font-size: 12px;
-            }
+    </style>
 
-            .font-10 {
-                font-size: 10px
-            }
-
-            .font-22 {
-                font-size: 22px
-            }
-
-            .font-24 {
-                font-size: 24px
-            }
-
-            .font-16 {
-                font-size: 16px
-            }
-
-            .font-20 {
-                font-size: 20px
-            }
-
-
-            @media screen and (max-width: 545px) {
-
-                table[class="MainContainer"] {
-                    width: 100% !important;
-                    height: auto !important;
-                }
-
-                table[class="MainContainer"] h3 {
-                    font-size: 26px !important
-                }
-
-                table[class="MainContainer"] .font-14 {
-                    font-size: 16px !important;
-                }
-
-                table[class="MainContainer"] .font-12 {
-                    font-size: 14px !important;
-                }
-
-                table[class="MainContainer"] .font-10 {
-                    font-size: 12px !important;
-                }
-
-                table[class="MainContainer"] .font-22 {
-                    font-size: 24px !important;
-                }
-
-                table[class="MainContainer"] .font-24 {
-                    font-size: 26px !important;
-                }
-
-                table[class="MainContainer"] .font-16 {
-                    font-size: 18px !important;
-                }
-
-                table[class="MainContainer"] .font-20 {
-                    font-size: 22px !important;
-                }
-
-            }
-
-        </style>
-
-    </head>
-    <body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
-          style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;"
-          offset="0" toppadding="0" leftpadding="0">
-    <table align="center" bgcolor="#fef4f4" border="0" cellpadding="0" cellspacing="0" class="tableContent" width="100%">
-        <tbody>
-        <tr>
-            <td>
-                <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="MainContainer"
-                       width="750">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                <tbody>
-                                <tr>
-                                    <td align="left" valign="top" width="20" class="">&nbsp;</td>
-                                    <!--  =========================== The header ===========================  -->
-                                    <!--  =========================== The body ===========================  -->
-                                    <td align="center" valign="top" width="560">
-                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                            <tbody>
-                                            <tr>
-                                                <td class="movableContentContainer" style="padding: 0 25px">
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-top: 0px; position: relative;">
-                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <table align="center" border="0" cellpadding="0"
-                                                                           cellspacing="0" width="100%">
-                                                                        <tbody>
-                                                                        <tr>
-                                                                            <td height="5" class="">&nbsp;</td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>
-                                                                                <table align="center" border="0"
-                                                                                       cellpadding="0" cellspacing="0"
-                                                                                       width="100%">
-                                                                                    <tbody>
-                                                                                    <tr>
-                                                                                        <td align="left" valign="middle"
-                                                                                            class="">
-                                                                                            <div class="contentEditableContainer contentImageEditable">
-                                                                                                <div class="contentEditable"
-                                                                                                     style="text-align: center;">
-                                                                                                    <img alt="logmansion-logo"
-                                                                                                         border="0"
-                                                                                                         data-default="placeholder"
-                                                                                                         data-max-width="400"
-                                                                                                         height="*"
-                                                                                                         src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/logo.png"
-                                                                                                         width="200"
-                                                                                                         style="margin: auto;">
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </td>
-                                                                                        <td align="right" valign="top"
-                                                                                            class="">
-                                                                                            <div class="contentEditableContainer contentTextEditable"
-                                                                                                 style="display:inline-block;">
-                                                                                                &nbsp;
-                                                                                            </div>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                    </tbody>
-                                                                                </table>
-                                                                            </td>
-                                                                        </tr>
-                                                                        </tbody>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-top: 0px; position: relative; margin-bottom: 25px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td height="30" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td align="center" valign="top" class="">
-                                                                    <div class="contentEditableContainer contentTextEditable"
-                                                                         style="border: 1px solid #BDBDBD;padding: 10px;line-height: 180%;">
-                                                                        <div class="contentEditable">
-                                                                            <p>
-                                                                                新規未公開物件。羨望の世田谷松原アドレスに登場した188㎡の超大型Logmansionです。</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="20" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="30" class="">
-                                                                    <div class="contentEditableContainer contentTextEditable"
-                                                                         style="line-height: 25px;">
-                                                                        <div class="contentEditable">
-                                                                            <p class="font-14">株式会社〇〇〇〇 <br>
-                                                                                〇〇様</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="20" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="30" class="">
-                                                                    <div class="contentEditableContainer contentTextEditable"
-                                                                         style="line-height: 25px;">
-                                                                        <div class="contentEditable">
-                                                                            <p class="font-12">
-                                                                                いつも弊社のリノベーション分譲マンション「ログマンション」をお客様にご紹介いただき、ありがとうございます。<br>
-                                                                                「ログマンション」の最新情報をご送付しますので、客付けのほど、よろしくお願いいたします。<br>
-                                                                                ※全て当社物件は手数料出し・当社契約書作成済。当日契約可能です。</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="30" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="">
-                                                                    <table align="center" bgcolor="#fff" border="0"
-                                                                           cellpadding="0" cellspacing="0"
-                                                                           style="width: 100%;">
-                                                                        <tbody>
-                                                                        <tr>
-                                                                            <td align="left" valign="middle"
-                                                                                class="">
-                                                                                <div class="contentEditableContainer contentImageEditable">
-                                                                                    <div class="contentEditable"
-                                                                                         style="text-align: center;">
-                                                                                        <img alt="logmansion-logo"
-                                                                                             border="0"
-                                                                                             data-default="placeholder"
-                                                                                             data-max-width="400"
-                                                                                             height="*"
-                                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/logmansion_customize.png"
-                                                                                             width="359"
-                                                                                             style="margin: auto;">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <p class="font-10"
-                                                                                   style="line-height: 140%; color: #828282; margin-left: 65px">
-                                                                                    ※現在解体中につき、間取プラン確定前にご契約頂くと、お客様のご希望で間取をある程度カスタマイズできる物件です</p>
-                                                                            </td>
-                                                                        </tr>
-                                                                        </tbody>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="25%" style="border-right: 0.5px solid #000000">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center; ">
-                                                                            <h3 style="line-height: 36px; color:#000000; font-weight: bold;"
-                                                                                class="font-22">
-                                                                                INDEX</h3>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: left;">
-                                                                            <ol style="line-height: 180%;" class="font-16" >
-                                                                                <li><a href="#tab1" class="font-16" style="color: #000000;">パレロワイヤル世田谷松原【201号室】</a></li>
-                                                                                <li><a href="#tab2" class="font-16"  style="color: #000000;">パレロワイヤル世田谷松原【201号室】</a></li>
-                                                                            </ol>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent" id="tab1"
-                                                         style="border: 0px; padding-top: 0px; position: relative;  margin-bottom: 25px">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td height="25" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td align="center" valign="top" class=""
-                                                                    style="border-top: 1px solid #BDBDBD; border-bottom: 1px solid #BDBDBD">
-                                                                    <div class="contentEditableContainer contentTextEditable"
-                                                                         style="padding: 5px">
-                                                                        <div class="contentEditable">
-                                                                            <h2 style="font-weight: 600; color: #000000; line-height:180%"
-                                                                                class="font-24">
-                                                                                パレロワイヤル世田谷松原【201号室】</h2>
-                                                                            <p style="line-height:180%" class="font-14">
-                                                                                専有面積188.10㎡／14,990万円／3SLDK or 4SLDK <br>
-                                                                                京王井の頭線「東松原」駅 徒歩7分</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center;">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="700" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img.png"
-                                                                                 width="700"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="40%" style="border-right: 0.5px solid #000000">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center; ">
-                                                                            <h3 style="line-height: 36px; color:#000000; font-weight: bold;"
-                                                                                class="font-22">
-                                                                                STRONG POINT</h3>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: left;">
-                                                                            <ol style="line-height: 180%;" class="font-16">
-                                                                                <li>1.7坪の大型浴室</li>
-                                                                                <li> 天井ビルトインエアコン7台</li>
-                                                                                <li>「世田谷区松原」アドレス</li>
-                                                                                <li>小田急線・井の頭線2路線利用可</li>
-                                                                                <li>三方角部屋</li>
-                                                                                <li>ペット飼育可能</li>
-                                                                            </ol>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent"
-                                                         style="padding-top: 0px; position: relative; margin-bottom: 25px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center;">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="700" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_1.png"
-                                                                                 width="700"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center;">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="700" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_2.png"
-                                                                                 width="700"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-<!--                                                            <tr>-->
-<!--                                                                <td>-->
-<!--                                                                    <div class="contentEditableContainer contentImageEditable">-->
-<!--                                                                        <div class="contentEditable"-->
-<!--                                                                             style="text-align: center;">-->
-<!--                                                                            <img alt="logmansion-logo" border="0"-->
-<!--                                                                                 data-default="placeholder"-->
-<!--                                                                                 data-max-width="700" height="*"-->
-<!--                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_3.png"-->
-<!--                                                                                 width="700"-->
-<!--                                                                                 style="margin:auto;">-->
-<!--                                                                        </div>-->
-<!--                                                                    </div>-->
-<!--                                                                </td>-->
-<!--                                                            </tr>-->
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="movableContent" id="tab2"
-                                                         style="border: 0px; padding-top: 0px; position: relative;  margin-bottom: 25px">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td height="25" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td align="center" valign="top" class=""
-                                                                    style="border-top: 1px solid #BDBDBD; border-bottom: 1px solid #BDBDBD">
-                                                                    <div class="contentEditableContainer contentTextEditable"
-                                                                         style="padding: 5px">
-                                                                        <div class="contentEditable">
-                                                                            <h2 style="font-weight: 600; color: #000000; line-height:180%"
-                                                                                class="font-24">
-                                                                                パレロワイヤル世田谷松原【201号室】</h2>
-                                                                            <p style="line-height:180%" class="font-14">
-                                                                                専有面積188.10㎡／14,990万円／3SLDK or 4SLDK <br>
-                                                                                京王井の頭線「東松原」駅 徒歩7分</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center;">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="700" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img.png"
-                                                                                 width="700"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="40%" style="border-right: 0.5px solid #000000">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center; ">
-                                                                            <h3 style="line-height: 36px; color:#000000; font-weight: bold;"
-                                                                                class="font-22">
-                                                                                STRONG POINT</h3>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: left;">
-                                                                            <ol style="line-height: 180%;" class="font-16">
-                                                                                <li>1.7坪の大型浴室</li>
-                                                                                <li> 天井ビルトインエアコン7台</li>
-                                                                                <li>「世田谷区松原」アドレス</li>
-                                                                                <li>小田急線・井の頭線2路線利用可</li>
-                                                                                <li>三方角部屋</li>
-                                                                                <li>ペット飼育可能</li>
-                                                                            </ol>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent"
-                                                         style="padding-top: 0px; position: relative; margin-bottom: 25px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center;">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="700" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_1.png"
-                                                                                 width="700"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center;">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="700" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_2.png"
-                                                                                 width="700"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <!--                                                            <tr>-->
-                                                            <!--                                                                <td>-->
-                                                            <!--                                                                    <div class="contentEditableContainer contentImageEditable">-->
-                                                            <!--                                                                        <div class="contentEditable"-->
-                                                            <!--                                                                             style="text-align: center;">-->
-                                                            <!--                                                                            <img alt="logmansion-logo" border="0"-->
-                                                            <!--                                                                                 data-default="placeholder"-->
-                                                            <!--                                                                                 data-max-width="700" height="*"-->
-                                                            <!--                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_3.png"-->
-                                                            <!--                                                                                 width="700"-->
-                                                            <!--                                                                                 style="margin:auto;">-->
-                                                            <!--                                                                        </div>-->
-                                                            <!--                                                                    </div>-->
-                                                            <!--                                                                </td>-->
-                                                            <!--                                                            </tr>-->
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-
-                                                    <div class="movableContent"
-                                                         style=" padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px; background-color: #333333">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="" align="center">
-                                                                    <div class="contentEditableContainer contentImageEditable"
-                                                                         style="padding: 0 50px;">
-                                                                        <div class="contentEditableContainer contentTextEditable"
-                                                                             style="border-bottom: 1px solid #BDBDBD;">
-                                                                            <div class="contentEditable">
-                                                                                <h3 class="font-24">
-                                                                                    Logmansion4つの魅力</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td align="center">
-                                                                    <div class="contentEditableContainer contentImageEditable"
-                                                                         style="width:61%">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: left; color:#ffffff; ">
-                                                                            <p class="font-16"
-                                                                               style="color:#ffffff; font-weight: bold; font-family: Montserrat; line-height: 200%;">
-                                                                                Point.1 <span
-                                                                                    style="font-weight: normal;">無垢材の自社製フローリング、建具を使用</span>
-                                                                            </p>
-                                                                            <p class="font-16"
-                                                                               style="color:#ffffff;font-weight: bold; font-family: Montserrat; line-height: 200%;">
-                                                                                Point.2 <span
-                                                                                    style="font-weight: normal;">15年2000件の無垢材施工実績。信頼の自社施工</span>
-                                                                            </p>
-                                                                            <p class="font-16"
-                                                                               style="color:#ffffff;font-weight: bold; font-family: Montserrat; line-height: 200%;">
-                                                                                Point.3 <span
-                                                                                    style="font-weight: normal;">新築マンション以上の最新設備を標準装備</span>
-                                                                            </p>
-                                                                            <p class="font-16"
-                                                                               style="color:#ffffff;font-weight: bold; font-family: Montserrat; line-height: 200%;">
-                                                                                Point.4 <span
-                                                                                    style="font-weight: normal;">専有部解体で配管交換。二重床・二重天井</span>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td width="50%">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center; ">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="370" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_4.png"
-                                                                                 width="370"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: justify; padding: 0 26px 0 24px">
-                                                                            <h3 style="text-align: center; color: #000000; font-size: 18px; line-height:200%">
-                                                                                Logmansion 3D施工事例</h3>
-                                                                            <p class="font-12">
-                                                                                お手持ちのスマホ、タブレット、PCでアクセスすれば、３D物件内をバーチャル体験できます。<br>
-                                                                                天然木をふんだんに使ったログマンションの独特の世界観をWEB上で味わってください。
-                                                                            </p>
-                                                                            <a class="btn" style="color: #fff;" href="#">施工事例を見る</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-top: 0px; position: relative;">&nbsp;
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2" height="30" class="">&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="3"
-                                        style="background-image:url('https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_5.png') ;">
-                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                            <tbody>
-                                            <tr>
-                                                <td class="movableContentContainer" style="padding: 0 25px">
-                                                    <div class="movableContent"
-                                                         style="border: 1px solid #E0E0E0; box-sizing: border-box;border-radius: 10px; margin-top: -30px; margin-bottom: 30px; background-color: #ffffff">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td width="27%" style="border-right: 0.5px solid #000000">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center; padding: 0 20px 0 20px; font-weight: bold; ">
-                                                                            <p class="font-12"
-                                                                               style="line-height: 160%;text-align: left;">
-                                                                                お問い合わせは担当者まで <br>
-                                                                                お願い致します</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td width="30%">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: left;">
-                                                                            <ul class="font-14" style="list-style-type: none; padding-left: 20px">
-                                                                                <li>担当：飯塚</li>
-                                                                                <li style="white-space:nowrap"> メール：<a
-                                                                                        href="mailto:iizuka@propolife.co.jp">iizuka@propolife.co.jp</a>
-                                                                                </li>
-                                                                                <li>Mobile：080-3440-8829</li>
-                                                                                <li>TEL：03-6897-8570</li>
-                                                                                <li>FAX：03-6897-8571</li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td width="40%">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: left;">
-                                                                            <ul class="font-12" style="padding-left: 30px">
-                                                                                <li style="display:none;"></li>
-                                                                                <li>お客様ご案内（名刺をご送付下さい）</li>
-                                                                                <li>駐車場空き状況等</li>
-                                                                                <li>物件資料や写真の送付</li>
-                                                                                <li>物件掲載（要承諾書、スーモ・ホームズ不可）</li>
-                                                                            </ul>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td colspan="2" height="10" class="">&nbsp;</td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-
-                                                    <div class="movableContent"
-                                                         style=" padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px; background-color: #ffffff; border-radius: 10px;">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                                               width="100%">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td width="40%">
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: center; padding: 30px ">
-                                                                            <img alt="logmansion-logo" border="0"
-                                                                                 data-default="placeholder"
-                                                                                 data-max-width="370" height="*"
-                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_6.png"
-                                                                                 width="300"
-                                                                                 style="margin:auto;">
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                                <td>
-                                                                    <div class="contentEditableContainer contentImageEditable">
-                                                                        <div class="contentEditable"
-                                                                             style="text-align: justify;">
-                                                                            <h3 style="text-align: left; color: #000000; line-height:32px" class="font-20">
-                                                                                株式会社LogSuite <br>
-                                                                                表参道本店ショールーム</h3>
-                                                                            <table align="center" bgcolor="#fff" border="0"
+</head>
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+      style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;"
+      offset="0" toppadding="0" leftpadding="0">
+<table align="center" bgcolor="#fef4f4" border="0" cellpadding="0" cellspacing="0" class="tableContent" width="100%">
+    <tbody>
+    <tr>
+        <td>
+            <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="MainContainer"
+                   width="750">
+                <tbody>
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                            <tr>
+                                <td align="left" valign="top" width="20" class="">&nbsp;</td>
+                                <!--  =========================== The header ===========================  -->
+                                <!--  =========================== The body ===========================  -->
+                                <td align="center" valign="top" width="560">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                        <tr>
+                                            <td class="movableContentContainer" style="padding: 0 25px">
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-top: 0px; position: relative;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <table align="center" border="0" cellpadding="0"
+                                                                       cellspacing="0" width="100%">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td height="5" class="">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table align="center" border="0"
                                                                                    cellpadding="0" cellspacing="0"
-                                                                                   style="width: 100%;">
+                                                                                   width="100%">
                                                                                 <tbody>
                                                                                 <tr>
-                                                                                    <td>
-                                                                                        <p class="font-12">
-                                                                                            所在：東京都港区北青山3-6-23 <br>
-                                                                                            Mail：LogSuite@propolife.co.jp
-                                                                                            <br>
-                                                                                            TEL：03-6897-8570 <br>
-                                                                                            FAX：03-6897-8571 <br>
-                                                                                            <a href="https://www.logsuite.co.jp/">https://www.logsuite.co.jp/</a>
-                                                                                            <br>
-                                                                                            営業時間：10:00～19:00（火・水曜日定休 祝日を除く）
-                                                                                        </p>
+                                                                                    <td align="left" valign="middle"
+                                                                                        class="">
+                                                                                        <div class="contentEditableContainer contentImageEditable">
+                                                                                            <div class="contentEditable"
+                                                                                                 style="text-align: center;">
+                                                                                                <img alt="logmansion-logo"
+                                                                                                     border="0"
+                                                                                                     data-default="placeholder"
+                                                                                                     data-max-width="400"
+                                                                                                     height="*"
+                                                                                                     src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/logo.png"
+                                                                                                     width="200"
+                                                                                                     style="margin: auto;">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td align="right" valign="top"
+                                                                                        class="">
+                                                                                        <div class="contentEditableContainer contentTextEditable"
+                                                                                             style="display:inline-block;">
+                                                                                            &nbsp;
+                                                                                        </div>
                                                                                     </td>
                                                                                 </tr>
                                                                                 </tbody>
                                                                             </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-top: 0px; position: relative; margin-bottom: 25px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="30" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="top" class="">
+                                                                <div class="contentEditableContainer contentTextEditable"
+                                                                     style="border: 1px solid #BDBDBD;padding: 10px;line-height: 180%;">
+                                                                    <div class="contentEditable">
+                                                                        <p>
+                                                                            新規未公開物件。羨望の世田谷松原アドレスに登場した188㎡の超大型Logmansionです。</p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" class="">
+                                                                <div class="contentEditableContainer contentTextEditable"
+                                                                     style="line-height: 25px;">
+                                                                    <div class="contentEditable">
+                                                                        <p class="font-14">株式会社〇〇〇〇 <br>
+                                                                            〇〇様</p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="20" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" class="">
+                                                                <div class="contentEditableContainer contentTextEditable"
+                                                                     style="line-height: 25px;">
+                                                                    <div class="contentEditable">
+                                                                        <p class="font-12">
+                                                                            いつも弊社のリノベーション分譲マンション「ログマンション」をお客様にご紹介いただき、ありがとうございます。<br>
+                                                                            「ログマンション」の最新情報をご送付しますので、客付けのほど、よろしくお願いいたします。<br>
+                                                                            ※全て当社物件は手数料出し・当社契約書作成済。当日契約可能です。</p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="">
+                                                                <table align="center" bgcolor="#fff" border="0"
+                                                                       cellpadding="0" cellspacing="0"
+                                                                       style="width: 100%;">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td align="left" valign="middle"
+                                                                            class="">
+                                                                            <div class="contentEditableContainer contentImageEditable">
+                                                                                <div class="contentEditable"
+                                                                                     style="text-align: center;">
+                                                                                    <img alt="logmansion-logo"
+                                                                                         border="0"
+                                                                                         data-default="placeholder"
+                                                                                         data-max-width="400"
+                                                                                         height="*"
+                                                                                         src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/logmansion_customize.png"
+                                                                                         width="359"
+                                                                                         style="margin: auto;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <p class="font-10"
+                                                                               style="line-height: 140%; color: #828282; margin-left: 65px">
+                                                                                ※現在解体中につき、間取プラン確定前にご契約頂くと、お客様のご希望で間取をある程度カスタマイズできる物件です</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="25%" style="border-right: 0.5px solid #000000">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center; ">
+                                                                        <h3 style="line-height: 36px; color:#000000; font-weight: bold;"
+                                                                            class="font-22">
+                                                                            INDEX</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: left;">
+                                                                        <ol style="line-height: 180%;" class="font-16">
+                                                                            <li><a href="#tab1" class="font-16"
+                                                                                   style="color: #000000;">パレロワイヤル世田谷松原【201号室】</a>
+                                                                            </li>
+                                                                            <li><a href="#tab2" class="font-16"
+                                                                                   style="color: #000000;">パレロワイヤル世田谷松原【201号室】</a>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="movableContent" id="tab1"
+                                                     style="border: 0px; padding-top: 0px; position: relative;  margin-bottom: 25px">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="25" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="top" class=""
+                                                                style="border-top: 1px solid #BDBDBD; border-bottom: 1px solid #BDBDBD">
+                                                                <div class="contentEditableContainer contentTextEditable"
+                                                                     style="padding: 5px">
+                                                                    <div class="contentEditable">
+                                                                        <h2 style="font-weight: 600; color: #000000; line-height:180%"
+                                                                            class="font-24">
+                                                                            パレロワイヤル世田谷松原【201号室】</h2>
+                                                                        <p style="line-height:180%" class="font-14">
+                                                                            専有面積188.10㎡／14,990万円／3SLDK or 4SLDK <br>
+                                                                            京王井の頭線「東松原」駅 徒歩7分</p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center;">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="700" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img.png"
+                                                                             width="700"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="40%" style="border-right: 0.5px solid #000000">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center; ">
+                                                                        <h3 style="line-height: 36px; color:#000000; font-weight: bold;"
+                                                                            class="font-22">
+                                                                            STRONG POINT</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: left;">
+                                                                        <ol style="line-height: 180%;" class="font-16">
+                                                                            <li>1.7坪の大型浴室</li>
+                                                                            <li> 天井ビルトインエアコン7台</li>
+                                                                            <li>「世田谷区松原」アドレス</li>
+                                                                            <li>小田急線・井の頭線2路線利用可</li>
+                                                                            <li>三方角部屋</li>
+                                                                            <li>ペット飼育可能</li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="movableContent"
+                                                     style="padding-top: 0px; position: relative; margin-bottom: 25px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center;">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="700" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_1.png"
+                                                                             width="700"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center;">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="700" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_2.png"
+                                                                             width="700"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <!--                                                            <tr>-->
+                                                        <!--                                                                <td>-->
+                                                        <!--                                                                    <div class="contentEditableContainer contentImageEditable">-->
+                                                        <!--                                                                        <div class="contentEditable"-->
+                                                        <!--                                                                             style="text-align: center;">-->
+                                                        <!--                                                                            <img alt="logmansion-logo" border="0"-->
+                                                        <!--                                                                                 data-default="placeholder"-->
+                                                        <!--                                                                                 data-max-width="700" height="*"-->
+                                                        <!--                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_3.png"-->
+                                                        <!--                                                                                 width="700"-->
+                                                        <!--                                                                                 style="margin:auto;">-->
+                                                        <!--                                                                        </div>-->
+                                                        <!--                                                                    </div>-->
+                                                        <!--                                                                </td>-->
+                                                        <!--                                                            </tr>-->
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="movableContent" id="tab2"
+                                                     style="border: 0px; padding-top: 0px; position: relative;  margin-bottom: 25px">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="25" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="top" class=""
+                                                                style="border-top: 1px solid #BDBDBD; border-bottom: 1px solid #BDBDBD">
+                                                                <div class="contentEditableContainer contentTextEditable"
+                                                                     style="padding: 5px">
+                                                                    <div class="contentEditable">
+                                                                        <h2 style="font-weight: 600; color: #000000; line-height:180%"
+                                                                            class="font-24">
+                                                                            パレロワイヤル世田谷松原【201号室】</h2>
+                                                                        <p style="line-height:180%" class="font-14">
+                                                                            専有面積188.10㎡／14,990万円／3SLDK or 4SLDK <br>
+                                                                            京王井の頭線「東松原」駅 徒歩7分</p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center;">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="700" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img.png"
+                                                                             width="700"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="40%" style="border-right: 0.5px solid #000000">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center; ">
+                                                                        <h3 style="line-height: 36px; color:#000000; font-weight: bold;"
+                                                                            class="font-22">
+                                                                            STRONG POINT</h3>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: left;">
+                                                                        <ol style="line-height: 180%;" class="font-16">
+                                                                            <li>1.7坪の大型浴室</li>
+                                                                            <li> 天井ビルトインエアコン7台</li>
+                                                                            <li>「世田谷区松原」アドレス</li>
+                                                                            <li>小田急線・井の頭線2路線利用可</li>
+                                                                            <li>三方角部屋</li>
+                                                                            <li>ペット飼育可能</li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="movableContent"
+                                                     style="padding-top: 0px; position: relative; margin-bottom: 25px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center;">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="700" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_1.png"
+                                                                             width="700"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center;">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="700" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_2.png"
+                                                                             width="700"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+
+                                                <div class="movableContent"
+                                                     style=" padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px; background-color: #333333">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="" align="center">
+                                                                <div class="contentEditableContainer contentImageEditable"
+                                                                     style="padding: 0 50px;">
+                                                                    <div class="contentEditableContainer contentTextEditable"
+                                                                         style="border-bottom: 1px solid #BDBDBD;">
+                                                                        <div class="contentEditable">
+                                                                            <h3 class="font-24">
+                                                                                Logmansion4つの魅力</h3>
                                                                         </div>
                                                                     </div>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <div class="contentEditableContainer contentImageEditable"
+                                                                     style="width:73%">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: left; color:#ffffff; ">
+                                                                        <p class="font-16"
+                                                                           style="color:#ffffff; font-weight: bold; font-family: Montserrat; line-height: 200%;">
+                                                                            Point.1 <span
+                                                                                style="font-weight: normal;">無垢材の自社製フローリング、建具を使用</span>
+                                                                        </p>
+                                                                        <p class="font-16"
+                                                                           style="color:#ffffff;font-weight: bold; font-family: Montserrat; line-height: 200%;">
+                                                                            Point.2 <span
+                                                                                style="font-weight: normal;">15年2000件の無垢材施工実績。信頼の自社施工</span>
+                                                                        </p>
+                                                                        <p class="font-16"
+                                                                           style="color:#ffffff;font-weight: bold; font-family: Montserrat; line-height: 200%;">
+                                                                            Point.3 <span
+                                                                                style="font-weight: normal;">新築マンション以上の最新設備を標準装備</span>
+                                                                        </p>
+                                                                        <p class="font-16"
+                                                                           style="color:#ffffff;font-weight: bold; font-family: Montserrat; line-height: 200%;">
+                                                                            Point.4 <span
+                                                                                style="font-weight: normal;">専有部解体で配管交換。二重床・二重天井</span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
 
-                                                    <div class="movableContent"
-                                                         style="border: 0px; padding-bottom: 25px; position: relative; text-align: center; ">
-                                                        &nbsp;
-                                                        <p style="color: #ffffff" class="font-12">
-                                                            ※本メールは当社と名刺交換させて頂いた方に送付させて頂いております。</p>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        </tbody>
-    </table>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
 
-    </body>
-    </html>
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-top: 0px; position: relative; border: 1px solid #868686; margin-bottom: 25px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td width="50%">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center; ">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="370" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_4.png"
+                                                                             width="370"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: justify; padding: 0 26px 0 24px">
+                                                                        <h3 style="text-align: center; color: #000000; font-size: 18px; line-height:200%">
+                                                                            Logmansion 3D施工事例</h3>
+                                                                        <p class="font-12">
+                                                                            お手持ちのスマホ、タブレット、PCでアクセスすれば、３D物件内をバーチャル体験できます。<br>
+                                                                            天然木をふんだんに使ったログマンションの独特の世界観をWEB上で味わってください。
+                                                                        </p>
+                                                                        <a class="btn" style="color: #fff;" href="#">施工事例を見る</a>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-top: 0px; position: relative;">&nbsp;
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" height="30" class="">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                        <tr>
+                                            <td class="movableContentContainer" style="padding: 0 25px">
+                                                <div class="movableContent"
+                                                     style="border: 1px solid #E0E0E0; box-sizing: border-box;border-radius: 10px; margin-top: -30px; margin-bottom: 30px; background-color: #ffffff">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="30%" style="border-right: 0.5px solid #000000">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center; padding: 0 20px 0 20px; font-weight: bold; ">
+                                                                        <p class="font-12"
+                                                                           style="line-height: 160%;text-align: left;">
+                                                                            お問い合わせは担当者まで <br>
+                                                                            お願い致します</p>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td width="30%">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: left;">
+                                                                        <ul class="font-14"
+                                                                            style="list-style-type: none; padding-left: 20px">
+                                                                            <li>担当：飯塚</li>
+                                                                            <li style="white-space:nowrap"> メール：<a
+                                                                                    href="mailto:iizuka@propolife.co.jp">iizuka@propolife.co.jp</a>
+                                                                            </li>
+                                                                            <li>Mobile：080-3440-8829</li>
+                                                                            <li>TEL：03-6897-8570</li>
+                                                                            <li>FAX：03-6897-8571</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td width="40%">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: left;">
+                                                                        <ul class="font-12" style="padding-left: 30px">
+                                                                            <li style="display:none;"></li>
+                                                                            <li>お客様ご案内（名刺をご送付下さい）</li>
+                                                                            <li>駐車場空き状況等</li>
+                                                                            <li>物件資料や写真の送付</li>
+                                                                            <li>物件掲載（要承諾書、スーモ・ホームズ不可）</li>
+                                                                        </ul>
+
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" height="10" class="">&nbsp;</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"
+                                    style="background-image:url('https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_5.png') ;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                        <tr>
+                                            <td class="movableContentContainer" style="padding: 0 25px">
+                                                <div class="movableContent"
+                                                     style=" padding-top: 0; position: relative; border: 1px solid #868686; margin-bottom: 25px; background-color: #ffffff; border-radius: 10px; margin-top: 28px;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                           width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td width="40%">
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: center; padding: 30px ">
+                                                                        <img alt="logmansion-logo" border="0"
+                                                                             data-default="placeholder"
+                                                                             data-max-width="370" height="*"
+                                                                             src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/img_6.png"
+                                                                             width="300"
+                                                                             style="margin:auto;">
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="contentEditableContainer contentImageEditable">
+                                                                    <div class="contentEditable"
+                                                                         style="text-align: justify;">
+                                                                        <h3 style="text-align: left; color: #000000; line-height:32px"
+                                                                            class="font-20">
+                                                                            株式会社LogSuite <br>
+                                                                            表参道本店ショールーム</h3>
+                                                                        <table align="center" bgcolor="#fff"
+                                                                               border="0"
+                                                                               cellpadding="0" cellspacing="0"
+                                                                               style="width: 100%;">
+                                                                            <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <p class="font-12">
+                                                                                        所在：東京都港区北青山3-6-23 <br>
+                                                                                        Mail：LogSuite@propolife.co.jp
+                                                                                        <br>
+                                                                                        TEL：03-6897-8570 <br>
+                                                                                        FAX：03-6897-8571 <br>
+                                                                                        <a href="https://www.logsuite.co.jp/">https://www.logsuite.co.jp/</a>
+                                                                                        <br>
+                                                                                        営業時間：10:00～19:00（火・水曜日定休
+                                                                                        祝日を除く）
+                                                                                    </p>
+                                                                                </td>
+                                                                            </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="movableContent"
+                                                     style="border: 0px; padding-bottom: 25px; position: relative; text-align: center; ">
+                                                    &nbsp;
+                                                    <p style="color: #ffffff" class="font-12">
+                                                        ※本メールは当社と名刺交換させて頂いた方に送付させて頂いております。</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+<script>
+    $('ol a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        var targetEle = this.hash;
+        var $targetEle = $(targetEle);
+
+        $('html, body').stop().animate({
+            'scrollTop': $targetEle.offset().top
+        }, 800, 'swing', function () {
+            window.location.hash = targetEle;
+        });
+    });
+
+    $('ol a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        var target = $(this).attr('href');
+        var offset = 0;
+        if ($(this).data('offset') != undefined) offset = $(this).data('offset');
+        $.scrollTo(target, 800, {offset: -93});
+    });
+</script>
+</body>
+</html>
