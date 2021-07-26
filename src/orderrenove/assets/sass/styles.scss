@@ -725,6 +725,9 @@ footer {
   padding-bottom: 10px;
   padding-top: 20px;
   margin-bottom: 10px;
+  .title, .subtitle {
+    text-align: left;
+  }
 }
 
 .box_sort {
@@ -776,10 +779,10 @@ footer {
   .carousel-nav {
     .carousel-cell {
       width: 466px;
-      height: 210px;
+      height: 310px;
       margin-right: 20px;
       img {
-        height: 210px;
+        height: 310px;
       }
     }
   }
@@ -980,7 +983,7 @@ footer {
 
 .box_renovation_specifications {
   p {
-    font-size: 0.875em;
+    font-size: 1em;
   }
   .specifications_pic {
     margin-bottom: 40px;
@@ -1688,6 +1691,11 @@ footer {
   .subtitle {
     margin-bottom: 30px;
     line-height: 1.3em;
+  }
+  .box_top {
+    .title, .subtitle {
+      text-align: center;
+    }
   }
   .box_template {
     padding-top: 51px;
