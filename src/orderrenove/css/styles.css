@@ -887,6 +887,10 @@ footer .footer_bottom .btn img {
     margin-bottom: 10px;
 }
 
+.box_top .title, .box_top .subtitle {
+    text-align: left;
+}
+
 .box_sort {
     padding: 0;
     margin: 0;
@@ -938,12 +942,12 @@ footer .footer_bottom .btn img {
 
 .carousel_property .carousel-nav .carousel-cell {
     width: 466px;
-    height: 210px;
+    height: 310px;
     margin-right: 20px;
 }
 
 .carousel_property .carousel-nav .carousel-cell img {
-    height: 210px;
+    height: 310px;
 }
 
 .section_property_main .container {
@@ -1160,7 +1164,7 @@ footer .footer_bottom .btn img {
 }
 
 .box_renovation_specifications p {
-    font-size: 0.875em;
+    font-size: 1em;
 }
 
 .box_renovation_specifications .specifications_pic {
@@ -1894,6 +1898,10 @@ footer .footer_bottom .btn img {
     .subtitle {
         margin-bottom: 30px;
         line-height: 1.3em;
+    }
+
+    .box_top .title, .box_top .subtitle {
+        text-align: center;
     }
 
     .box_template {
