@@ -926,24 +926,24 @@ footer .footer_bottom .btn img {
 
 .carousel_property .carousel-cell {
     width: 100%;
-    height: 640px;
+    height: 500px;
 }
 
 .carousel_property .carousel-cell img {
     width: 100%;
-    height: 640px;
+    height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
 }
 
 .carousel_property .carousel-nav .carousel-cell {
     width: 466px;
-    height: 310px;
+    height: 210px;
     margin-right: 20px;
 }
 
 .carousel_property .carousel-nav .carousel-cell img {
-    height: 310px;
+    height: 210px;
 }
 
 .section_property_main .container {
@@ -980,6 +980,17 @@ footer .footer_bottom .btn img {
 
 .section_property_main .box_calcu .frm_calcu .repayment_amount {
     max-width: 162px;
+}
+
+.section_property_main .box_calcu .frm_calcu .label_repayment_amount {
+    font-size: 2em;
+    color: #EB5757;
+    font-weight: 700;
+}
+
+.section_property_main .box_calcu .frm_calcu .label_repayment_amount span {
+    font-size: .6em;
+    font-weight: 500;
 }
 
 .section_property_main .box_calcu .frm_calcu .title_simulation_result {
@@ -1043,6 +1054,11 @@ footer .footer_bottom .btn img {
 
 .section_property_main .box_calcu .frm_calcu .box_simulation_result p span {
     font-size: 1.5em;
+}
+
+.section_property_main .box_calcu .frm_calcu .box_simulation_result .btn_simulation_result {
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .section_property_main .box_calcu .frm_calcu label {
@@ -2194,6 +2210,10 @@ footer .footer_bottom .btn img {
     .section_property_main .box_calcu h1 {
         margin-bottom: 20px;
         padding: 20px 5px;
+    }
+
+    .section_property_main .box_calcu h1 span {
+        font-size: 2.2em;
     }
 
     .section_property_main .box_calcu .frm_calcu .box_simulation_result {
