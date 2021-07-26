@@ -58,12 +58,13 @@
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <p class="text-center d-none d-lg-block">
-                                                    <span class="title_simulation_result">毎月のお支払例</span>
+                                                    <span class="title_simulation_result">毎月のローンお支払列</span>
                                                 </p>
 
                                                 <div class="box_simulation_result">
+                                                    <p class="text-center d-block d-lg-none btn_simulation_result mb-3">毎月のお支払例</p>
                                                     <h2>201,089<span>円</span></h2>
-                                                    <p class="text-center">ボーナス月　＋<span>０</span>円</p>
+                                                    <!-- <p class="text-center">ボーナス月　＋<span>０</span>円</p> -->
                                                     <p class="text-center mt-3">管理費：20,000円／修繕積立金：20,000円 含む</p>
                                                 </div>
 
@@ -76,10 +77,11 @@
                                                         <div class="col-7 col-lg-6">
                                                             <div class="form-group">
                                                                 <label for="">毎月のローン返済額</label>
-                                                                <div class="d-flex align-items-center">
-                                                                    <input type="text" class="form-control repayment_amount" placeholder="155,089">
-                                                                    <span class="ml-2">円</span>
-                                                                </div>
+                                                                <p class="label_repayment_amount">155,089<span>円</span></p>
+                                                                <!-- <div class="d-flex align-items-center">
+                                                                    <input type="text" class="form-control repayment_amount" placeholder="">
+                                                                    <span class="ml-2"></span>
+                                                                </div> -->
                                                             </div>
                                                             <div class="form-group">
                                                                 <label for="">ボーナス分返済金額（年2回）</label>
