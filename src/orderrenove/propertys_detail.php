@@ -143,11 +143,11 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group mb-5">
+                                                    <div class="form-group mb-4">
                                                         <input type="text" class="js-range-slider1" name="my_range" value="">
                                                     </div>
-                                                    <hr>
-                                                    <div class="form-group">
+                                                    <hr class="mt-5">
+                                                    <div class="form-group mb-0">
                                                         <div class="row">
                                                             <div class="col-6 col-lg-6">
                                                                 <label for="">金利（元利均等）</label>
