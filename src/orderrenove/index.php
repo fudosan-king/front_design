@@ -9,8 +9,9 @@
             <section class="section_banner" style="background-image: url('images/KV.jpg');">
                 <div class="caption d-none d-lg-block">
                     <img src="images/svg/label.svg" alt="" class="img-fluid" width="430">
-                    <p>『自分に合った住まい』を考え、新しい暮らしの夢を膨らませませんか？<br>
-                    自宅にいながら最適なリノベーションを全力でサポートいたします。</p>
+                    <p>住みたいエリア、広さ、予算、ライフスタイル…<br>
+                    あなたの価値観にあった「中古＋リノベーション」を提案する<br>
+                    SDGsな住まいソリューション</p>
                 </div>
                 <ul>
                     <li>
