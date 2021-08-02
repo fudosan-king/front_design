@@ -1588,7 +1588,8 @@ footer p {
 
     .section_top ul li a p {
         width: 50%;
-        font-size: 1.3em;
+        font-size: 1em;
+        padding: 10px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -1649,6 +1650,7 @@ footer p {
 
     .section_case h1 img {
         width: 20%;
+        top: 10px;
     }
 
     .section_case .box_case .container .col-12, .section_case .box_case .container .col-lg-12 {
