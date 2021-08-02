@@ -1365,7 +1365,8 @@ footer {
           }
           p {
             width: 50%;
-            font-size: 1.3em;
+            font-size: 1em;
+            padding: 10px;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -1419,6 +1420,7 @@ footer {
     line-height: 1.3em;
     img {
       width: 20%;
+      top: 10px;
     }
   }
   .box_case {
