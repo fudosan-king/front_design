@@ -67,7 +67,7 @@
                             <div class="box_findhome">
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
-                                <a href="#" class="btn btn_addfriend">友だち追加する <img src="images/i_right.png" alt="" class="img-fluid"> </a>
+                                <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>
@@ -287,7 +287,12 @@
                                         <p>
                                             <span class="label_deal">こんなにお得！</span>
                                             <span class="text_renovation d-block d-lg-none">ログリノベの</span>
-                                            <span class="material_main"><span class="d-none d-lg-inline-block">ログリノベの</span>天然素材リノベーション</span>
+                                            <span class="material_main">
+                                                <span class="material_main_text">
+                                                    <span class="d-none d-lg-inline-block">ログリノベの</span>
+                                                    天然素材リノベーション
+                                                </span>
+                                            </span>
                                         </p>
                                         <p class="text-center"><img src="images/img_natural_material.png" alt="" class="img-fluid"></p>
                                         <p>出典：新築マンション価格：首都圏マンション市場動向2021年1月度/不動産経済研究所<br>　　   中古マンション価格：レインズ中古マンションの築年帯別状況（東京都）</p>
@@ -306,7 +311,7 @@
                             <div class="box_findhome">
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
-                                <a href="#" class="btn btn_addfriend">友だち追加する <img src="images/i_right.png" alt="" class="img-fluid"> </a>
+                                <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>
@@ -459,7 +464,7 @@
                             <div class="box_findhome">
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
-                                <a href="#" class="btn btn_addfriend">友だち追加する <img src="images/i_right.png" alt="" class="img-fluid"> </a>
+                                <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>
@@ -479,13 +484,13 @@
                                     <div class="col-12 col-lg-6">
                                         <div class="box_img">
                                             <img src="images/renovated_property.jpg" alt="" class="img-fluid">
-                                            <p>リノベーション済物件</p>
+                                            <p><span>リノベーション済物件</span></p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <div class="box_img custom pr-0">
                                             <img src="images/property_renovation.jpg" alt="" class="img-fluid">
-                                            <p>リノベーション向き物件</p>
+                                            <p><span>リノベーション向き物件</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -591,7 +596,7 @@
                             <div class="box_findhome">
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
-                                <a href="#" class="btn btn_addfriend">友だち追加する <img src="images/i_right.png" alt="" class="img-fluid"> </a>
+                                <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>

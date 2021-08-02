@@ -2062,3 +2062,74 @@ footer p {
         top: -120px;
     }
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .section_top ul li a p {
+        padding-top: 20px;
+    }
+
+    .box_findhome h2 span {
+        background: transparent;
+        position: relative;
+    }
+
+    .box_findhome h2 span:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #8c7d60;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: -25px;
+    }
+
+    .box_findhome .btn_addfriend span {
+        position: relative;
+        top: 30px;
+    }
+
+    .section_case h1 {
+        line-height: 1.3em;
+    }
+
+    .section_logrenovation h2 span {
+        top: 20px;
+    }
+
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(3) .material_main .material_main_text {
+        position: relative;
+        top: 17px;
+    }
+
+    .section_point .box_but h2 span {
+        top: 20px;
+    }
+
+    .section_point .w_box_point .box_point .box_point_content h2 i:before {
+        bottom: 20px;
+    }
+
+    .section_budget .box_budgetarea h3 {
+        margin-top: 40px;
+    }
+
+    .section_budget .box_budgetarea .box_img p {
+        left: 15px;
+        right: 15px;
+        top: 39%;
+        margin: auto;
+    }
+
+    .section_budget .box_budgetarea .box_img p span {
+        position: relative;
+        top: 14px;
+        display: block;
+        text-align: center;
+    }
+
+    .section_flow .w_box_flow .box_flow h2 .steps_text {
+        position: relative;
+        top: 25px;
+    }
+}
