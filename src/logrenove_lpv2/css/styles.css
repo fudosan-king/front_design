@@ -185,7 +185,7 @@ section {
 .title {
     text-align: center;
     margin-bottom: 30px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.875em;
     color: #696054;
     position: relative;
@@ -1541,12 +1541,17 @@ footer p {
     }
 
     header {
-        height: 100%;
+        height: 500px;
+    }
+
+    header .logo {
+        margin-bottom: 40px;
     }
 
     header h2 {
-        font-size: 1.6875em;
-        margin-bottom: 110px;
+        font-size: .9em;
+        margin-bottom: 40px;
+        padding: 10px;
     }
 
     header h2:after {
@@ -1566,7 +1571,16 @@ footer p {
 
     header ul {
         right: -15px;
-        bottom: -75px;
+        bottom: -85px;
+        padding: 15px;
+    }
+
+    header ul li {
+        line-height: 1.3em;
+    }
+
+    .section_top {
+        padding-bottom: 50px;
     }
 
     .section_top ul {
@@ -1594,18 +1608,19 @@ footer p {
     }
 
     .section_top ul li a .box_img {
-        height: 119px;
+        height: 100px;
         width: 50%;
     }
 
     .section_top ul li a .box_img img {
-        height: 119px;
+        height: 100px;
     }
 
     .section_top ul li a p {
         width: 50%;
         font-size: 1em;
         padding: 10px;
+        min-height: 100px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -1632,6 +1647,7 @@ footer p {
         width: 80px;
         height: 80px;
         top: -120px;
+        font-size: .7em;
     }
 
     .box_findhome h1 span:before {
@@ -1642,8 +1658,8 @@ footer p {
     }
 
     .box_findhome .btn_addfriend {
-        font-size: 2em;
-        text-align: left;
+        font-size: 1.5em;
+        padding-right: 35px;
     }
 
     .box_findhome .btn_addfriend img {
@@ -1653,6 +1669,10 @@ footer p {
 
     .box_findhome p {
         font-size: .8em;
+    }
+
+    .box_findhome .img_line {
+        width: 30px;
     }
 
     .section_case {
@@ -1667,6 +1687,11 @@ footer p {
     .section_case h1 img {
         width: 20%;
         top: 10px;
+    }
+
+    .section_case .box_case {
+        margin-bottom: 60px;
+        overflow: hidden;
     }
 
     .section_case .box_case .container .col-12, .section_case .box_case .container .col-lg-12 {
@@ -1686,7 +1711,7 @@ footer p {
         left: 15px;
         top: 15px;
         padding: 15px;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .section_case .box_case .box_img ul {
@@ -1696,13 +1721,13 @@ footer p {
 
     .section_case .box_case .box_img_medium {
         width: 100%;
-        height: 300px;
+        height: 200px;
         margin-bottom: 30px;
         padding-right: 30px;
     }
 
     .section_case .box_case .box_img_medium img {
-        height: 300px;
+        height: 200px;
     }
 
     .section_case .box_case .box_img_medium.box_img_medium_custom {
@@ -1712,11 +1737,11 @@ footer p {
 
     .section_case .box_case .box_img_small {
         width: 100%;
-        height: 300px;
+        height: 200px;
     }
 
     .section_case .box_case .box_img_small img {
-        height: 300px;
+        height: 200px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -1732,16 +1757,22 @@ footer p {
 
     .section_case .w_box_case .box_case:nth-of-type(2) .box_img_small {
         text-align: right;
-        height: 200px;
+        height: 100px;
         position: relative;
         top: -50px;
+        right: -30px;
     }
 
     .section_case .w_box_case .box_case:nth-of-type(2) .box_img_small img {
         padding-left: 0;
         padding-right: 0;
         width: 50%;
-        height: 200px;
+        height: 100px;
+    }
+
+    .section_case .w_box_case .box_case:nth-of-type(3) .box_img_small {
+        float: right;
+        width: 90%;
     }
 
     .section_case .w_box_case .box_case:nth-of-type(4) ul {
@@ -1749,8 +1780,13 @@ footer p {
         left: 30px;
     }
 
+    .section_logrenovation {
+        padding-bottom: 50px;
+    }
+
     .section_logrenovation h1 {
         padding: 0 30px;
+        margin-bottom: 30px;
     }
 
     .section_logrenovation h2 {
@@ -1758,7 +1794,15 @@ footer p {
     }
 
     .section_logrenovation h2:before {
-        border-width: 90px 130px 0 120px;
+        border-width: 70px 160px 0 160px;
+    }
+
+    .section_logrenovation h2 span {
+        margin-top: 7px;
+    }
+
+    .section_logrenovation .box_thatwhy {
+        padding-bottom: 50px;
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content {
@@ -1771,11 +1815,11 @@ footer p {
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content ul li .box_img {
-        height: 143px;
+        height: 100px;
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content ul li .box_img img {
-        height: 143px;
+        height: 100px;
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content ul li p {
@@ -1841,7 +1885,11 @@ footer p {
     }
 
     .section_point .box_but h2:before {
-        border-width: 90px 130px 0 120px;
+        border-width: 70px 160px 0 160px;
+    }
+
+    .section_point .box_but h2 span {
+        margin-top: 7px;
     }
 
     .section_point .box_but h3 {
@@ -1972,7 +2020,7 @@ footer p {
     }
 
     .section_flow h1 {
-        font-size: 2.8em;
+        font-size: 2.5em;
         padding: 30px 15px;
     }
 
@@ -2076,6 +2124,14 @@ footer p {
     .section_qa ul li p {
         font-size: 1em;
     }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+    footer p {
+        font-size: .9em;
+    }
 }
 
 @media (max-width: 736px) {
@@ -2087,6 +2143,143 @@ footer p {
 @media (max-width: 414px) {
     .box_findhome h1 span {
         top: -120px;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        height: 500px;
+    }
+
+    header .logo {
+        margin-bottom: 40px;
+    }
+
+    header h2 {
+        font-size: .7em;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    header ul {
+        padding: 15px;
+        bottom: -85px;
+    }
+
+    header ul li {
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+
+    .section_top ul li a p {
+        font-size: .8em;
+    }
+
+    .section_case h1 {
+        font-size: 1.5em;
+    }
+
+    .section_case .box_case .box_img h2 {
+        font-size: 1.1em;
+    }
+
+    .section_case .box_case .box_img ul li {
+        font-size: .9em;
+    }
+
+    .section_case .box_case .box_img_medium p {
+        font-size: 1.1em;
+    }
+
+    .box_findhome h1 {
+        font-size: 1em;
+    }
+
+    .box_findhome h1 span {
+        top: -100px;
+    }
+
+    .box_findhome h2 {
+        font-size: 1em;
+    }
+
+    .box_findhome p {
+        font-size: .7em;
+    }
+
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(3) .material_main {
+        font-size: .5em;
+    }
+
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:last-of-type {
+        font-size: .7em;
+    }
+
+    .section_purchase .head h1 span {
+        font-size: 1em;
+    }
+
+    .section_purchase .head h2 span:before {
+        left: -30px;
+    }
+
+    .section_purchase .head h2 span:after {
+        right: -30px;
+    }
+
+    .section_point .head_sub .box_head_sub:after {
+        right: -60px;
+    }
+
+    .section_point .head_sub .box_head_sub:before {
+        left: -30px;
+    }
+
+    .section_point .top_point p {
+        font-size: .9em;
+    }
+
+    .section_point .box_but {
+        height: 400px;
+    }
+
+    .section_point .box_but h3 {
+        font-size: 2em;
+        padding: 0 15px;
+    }
+
+    .section_point .w_box_point .box_point .box_point_content h2 {
+        font-size: 1.2em;
+        padding-left: 90px;
+    }
+
+    .section_point .w_box_point .box_point .box_point_content h2 span {
+        width: 70px;
+        height: 70px;
+    }
+
+    .section_flow h1 {
+        font-size: 1.5em;
+    }
+
+    .box_menu ul li p {
+        font-size: .8em;
+    }
+
+    .section_qa h2 {
+        font-size: 1.5em;
+    }
+
+    .section_qa ul li p {
+        font-size: .9em;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+    footer p {
+        font-size: .7em;
     }
 }
 

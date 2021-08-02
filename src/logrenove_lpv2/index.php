@@ -48,9 +48,7 @@
                                         <span class="box_img">
                                             <img src="images/img03.jpg" alt="" class="img-fluid">
                                         </span>
-                                        <p>光がたっぷり<br>
-                                        差し込む<br>
-                                        ベッドルーム</p>
+                                        <p>光がたっぷり差し込むベッドルーム</p>
                                     </a>
                                 </li>
                                 <li>
@@ -68,7 +66,7 @@
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
-                                <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
+                                <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>
                     </div>
@@ -312,7 +310,7 @@
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
-                                <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
+                                <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>
                     </div>
@@ -465,7 +463,7 @@
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
-                                <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
+                                <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>
                     </div>
@@ -597,7 +595,7 @@
                                 <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
-                                <p><img src="images/i_line.png" alt="" class="img-fluid"> ログリノベLINE公式アカウントで提供中</p>
+                                <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
                             </div>
                         </div>
                     </div>
