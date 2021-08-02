@@ -109,11 +109,11 @@
                                     </div>
                                     <div class="d-block d-lg-flex">
                                         <div class="box_img_medium">
-                                            <img src="images/case02.jpg" alt="" class="img-fluid">
+                                            <img src="images/case01_2.jpg" alt="" class="img-fluid">
                                             <p>おしゃべりしながら料理できる<br>アイランドキッチン</p>
                                         </div>
                                         <div class="box_img_small">
-                                            <img src="images/case03.jpg" alt="" class="img-fluid">
+                                            <img src="images/case01_3.jpg" alt="" class="img-fluid">
                                             <p>無垢材の天井パネルで<br>玄関からくつろぎ空間</p>
                                         </div>
                                     </div>
