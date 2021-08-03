@@ -263,6 +263,10 @@ header h1 span {
     font-size: 0.65em;
 }
 
+header h1 i {
+    font-style: normal;
+}
+
 header ul {
     list-style: none;
     padding: 20px 35px;
@@ -385,6 +389,10 @@ header ul li span {
     padding: 5px;
 }
 
+.box_findhome h2 i {
+    font-style: normal;
+}
+
 .box_findhome h1 {
     font-size: 3.75em;
     font-weight: 900;
@@ -465,20 +473,35 @@ header ul li span {
 .section_case h1 {
     text-align: center;
     font-size: 3em;
+    line-height: 1.3em;
     color: #8c7d60;
     font-weight: 800;
     position: relative;
-    line-height: .1em;
     margin-bottom: 85px;
-}
-
-.section_case h1 img {
-    position: relative;
-    top: -30px;
 }
 
 .section_case h1 span {
     font-size: 1.25em;
+}
+
+.section_case h1 i {
+    font-style: normal;
+}
+
+.section_case h1 .case_title {
+    position: relative;
+    display: inline-block;
+}
+
+.section_case h1 .case_title:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: -30px;
+    width: 100px;
+    height: 109px;
+    background: url("../images/i_home.png") no-repeat;
+    background-size: 100%;
 }
 
 .section_case .box_case {
@@ -749,6 +772,10 @@ header ul li span {
     font-size: 3.75em;
     font-weight: 800;
     margin-bottom: 125px;
+}
+
+.section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(2) i {
+    font-style: normal;
 }
 
 .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(2) span {
@@ -1569,6 +1596,10 @@ footer p {
         line-height: 1.3em;
     }
 
+    header h1 i {
+        display: block;
+    }
+
     header ul {
         right: -15px;
         bottom: -85px;
@@ -1618,14 +1649,14 @@ footer p {
 
     .section_top ul li a p {
         width: 50%;
-        font-size: 1em;
+        font-size: .9em;
         padding: 10px;
         min-height: 100px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         align-content: stretch;
     }
 
@@ -1635,6 +1666,10 @@ footer p {
 
     .box_findhome h2 {
         font-size: 1.5em;
+    }
+
+    .box_findhome h2 i {
+        display: block;
     }
 
     .box_findhome h1 {
@@ -1680,13 +1715,19 @@ footer p {
     }
 
     .section_case h1 {
-        font-size: 2em;
-        line-height: 1.3em;
+        font-size: 1.8em;
+        line-height: 1.4em;
     }
 
-    .section_case h1 img {
-        width: 20%;
-        top: 10px;
+    .section_case h1 i {
+        display: block;
+    }
+
+    .section_case h1 .case_title:before {
+        width: 50px;
+        height: 59px;
+        left: 34px;
+        top: -10px;
     }
 
     .section_case .box_case {
@@ -1780,6 +1821,15 @@ footer p {
         left: 30px;
     }
 
+    .section_case .w_box_case .box_case:nth-of-type(4) .box_img_small img {
+        padding-left: 0;
+    }
+
+    .section_case .w_box_case .box_case:nth-of-type(4) .box_img_small p {
+        right: inherit;
+        left: 15px;
+    }
+
     .section_logrenovation {
         padding-bottom: 50px;
     }
@@ -1844,6 +1894,11 @@ footer p {
         margin-bottom: 95px;
     }
 
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(2) i {
+        display: block;
+        margin-bottom: 10px;
+    }
+
     .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(3) .material_main {
         font-size: .6em;
     }
@@ -1857,6 +1912,23 @@ footer p {
         font-size: .6em;
         color: #514736;
         margin-bottom: 15px;
+    }
+
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:last-of-type {
+        text-align: left;
+        line-height: 1.5em;
+        font-size: .8em;
+        padding-left: 50px;
+        position: relative;
+    }
+
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:last-of-type span {
+        display: block;
+    }
+
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:last-of-type span {
+        position: relative;
+        left: -50px;
     }
 
     .section_purchase .head {
@@ -1924,6 +1996,15 @@ footer p {
     .section_point .w_box_point .box_point:nth-of-type(2n) .box_point_content .box_img {
         margin-top: 15px;
         margin-bottom: 0;
+        height: auto;
+    }
+
+    .section_point .w_box_point .box_point:nth-of-type(2n) .box_point_content .box_img img {
+        height: auto;
+    }
+
+    .section_point .w_box_point .box_point:nth-of-type(3) .box_point_content p {
+        margin-top: 15px;
     }
 
     .section_point .w_box_point .box_point:last-of-type p {
@@ -2022,6 +2103,10 @@ footer p {
     .section_flow h1 {
         font-size: 2.5em;
         padding: 30px 15px;
+    }
+
+    .section_flow h1 span {
+        display: block;
     }
 
     .section_flow .w_box_flow .box_flow h2 {
