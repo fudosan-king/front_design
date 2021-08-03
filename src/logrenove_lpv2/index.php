@@ -74,8 +74,16 @@
             </section>
 
             <section class="section_case pt-0">
-                <h1><div class="case_title"><div class="break_text"><i><span>ログリノベ</span></i><i>がおつくりするのは</i></div>
-                <i>住むほどにあなたに馴染む</i><span>理想の住まい</span></div></h1>
+                <h1>
+                    <div class="case_title">
+                        <div class="break_text">
+                            <i><span>ログリノベが</span></i>
+                            <i>おつくりするのは</i>
+                        </div>
+                        <i>住むほどにあなたに馴染む</i>
+                        <span>理想の住まい</span>
+                    </div>
+                </h1>
                 <div class="w_box_case">
                     <div class="box_case">
                         <div class="container">
@@ -431,14 +439,11 @@
                                         <div class="box_point_content">
                                         <h2 class="d-none d-lg-block"><span>03</span>物件探しからアフターサービスまで<br>オールワンストップリノベーション</h2>
                                         <h2 class="d-block d-lg-none"><span>03</span>物件探しから<br>アフターサービスまで<br>オールワンストップリノベーション</h2>
-                                        <div class="d-flex d-lg-block flex-column-reverse">
-                                            <img src="images/03.jpg" alt="" class="img-fluid d-none d-lg-block">
-                                            <img src="images/03_sm.jpg" alt="" class="img-fluid d-block d-lg-none mt-3 mt-lg-0">
-                                            <div class="">
-                                                <p>木材の製造、卸し、物件探し、デザインん、施行、アフターサービスまで、リノベーションすべての工程をログリノベが一括で対応する「オールワンストップリノベーション」です。</p>
-                                                <p>工程ごとに各領域のスペシャリストたちがしっかりサポートするので、ストレスなくスムーズに「理想のリノベーション」を実現できます。</p>
-                                            </div>
-                                        </div>
+                                        <img src="images/03.jpg" alt="" class="img-fluid d-none d-lg-block">
+                                        <img src="images/03_sm.jpg" alt="" class="img-fluid d-block d-lg-none mt-3 mt-lg-0">
+                                        <p>木材の製造、卸し、物件探し、デザインん、施行、アフターサービスまで、リノベーションすべての工程をログリノベが一括で対応する「オールワンストップリノベーション」です。</p>
+                                        <p>工程ごとに各領域のスペシャリストたちがしっかりサポートするので、ストレスなくスムーズに「理想のリノベーション」を実現できます。</p>
+                                        
                                     </div>
                                 </div>
                             </div>
