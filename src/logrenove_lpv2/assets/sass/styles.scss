@@ -154,6 +154,9 @@ header {
       display: block;
       font-size: 0.65em;
     }
+    i {
+      font-style: normal;
+    }
   }
   ul {
     list-style: none;
@@ -265,6 +268,9 @@ header {
       display: inline-block;
       padding: 5px;
     }
+    i {
+      font-style: normal;
+    }
   }
   h1 {
     font-size: 3.75em;
@@ -346,17 +352,30 @@ header {
   h1 {
     text-align: center;
     font-size: 3em;
+    line-height: 1.3em;
     color: #8c7d60;
     font-weight: 800;
     position: relative;
-    line-height: .1em;
     margin-bottom: 85px;
-    img {
-      position: relative;
-      top: -30px;
-    }
     span {
       font-size: 1.25em;
+    }
+    i {
+      font-style: normal;
+    }
+    .case_title {
+      position: relative;
+      display: inline-block;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 10px;
+        top: -30px;
+        width: 100px;
+        height: 109px;
+        background: url('../images/i_home.png') no-repeat;
+        background-size: 100%;
+      }
     }
   }
 
@@ -594,6 +613,9 @@ header {
             font-size: 3.75em;
             font-weight: 800;
             margin-bottom: 125px;
+            i {
+              font-style: normal;
+            }
             span {
               color: #3cbccf;
             }
@@ -675,6 +697,7 @@ header {
             margin-bottom: 0;
             font-size: 0.875em;
             line-height: 1.3em;
+            
           }
         }
       }
@@ -1358,6 +1381,9 @@ footer {
         margin-bottom: 10px;
         line-height: 1.3em;
       }
+      i {
+        display: block;
+      }
     }
     ul {
       right: -15px;
@@ -1399,14 +1425,14 @@ footer {
           }
           p {
             width: 50%;
-            font-size: 1em;
+            font-size: .9em;
             padding: 10px;
             min-height: 100px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: nowrap;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             align-content: stretch;
           }
         }
@@ -1418,6 +1444,9 @@ footer {
   padding: 15px;
   h2 {
     font-size: 1.5em;
+    i {
+      display: block;
+    }
   }
   h1 {
     font-size: 1.5em;
@@ -1455,11 +1484,18 @@ footer {
 .section_case {
   padding-bottom: 50px;
   h1 {
-    font-size: 2em;
-    line-height: 1.3em;
-    img {
-      width: 20%;
-      top: 10px;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    i {
+      display: block;
+    }
+    .case_title {
+      &:before {
+        width: 50px;
+        height: 59px;
+        left: 34px;
+        top: -10px;
+      }
     }
   }
   .box_case {
@@ -1546,7 +1582,16 @@ footer {
           right: inherit;
           left: 30px;
         }
-       }
+        .box_img_small {
+          img {
+            padding-left: 0;
+          }
+          p {
+            right: inherit;
+            left: 15px;
+          }
+        }
+      }
     }
   }
 
@@ -1599,6 +1644,10 @@ footer {
           &:nth-of-type(2) {
             font-size: 1.5em;
             margin-bottom: 95px;
+            i {
+              display: block;
+              margin-bottom: 10px;
+            }
           }
           &:nth-of-type(3) {
             .material_main {
@@ -1612,6 +1661,20 @@ footer {
               font-size: .6em;
               color: #514736;
               margin-bottom: 15px;
+            }
+          }
+          &:last-of-type {
+            text-align: left;
+            line-height: 1.5em;
+            font-size: .8em;
+            span {
+              display: block;
+            }
+            padding-left: 50px;
+            position: relative;
+            span {
+              position: relative;
+              left: -50px;
             }
           }
         }
@@ -1680,6 +1743,17 @@ footer {
           .box_img {
             margin-top: 15px;
             margin-bottom: 0;
+            height: auto;
+            img {
+              height: auto;
+            }
+          }
+        }
+      }
+      &:nth-of-type(3) {
+        .box_point_content {
+          p {
+            margin-top: 15px;
           }
         }
       }
@@ -1767,6 +1841,9 @@ footer {
   h1 {
     font-size: 2.5em;
     padding: 30px 15px;
+    span {
+      display: block;
+    }
   }
   .w_box_flow {
     .box_flow {

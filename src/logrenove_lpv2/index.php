@@ -7,7 +7,7 @@
                 <div class="top_content">
                     <a class="logo" href="index.php"><img src="images/SVG/logo.svg" alt="" class="img-fluid" width="227"></a>
                     <h2><span>住むほどにあなたに馴染んでいくリノベーション</span></h2>
-                    <h1><span>快適で、機能的になのに、どこか情感ある</span>あなただけの理想の住まい</h1>
+                    <h1><span>快適で、機能的になのに、<i>どこか情感ある</i></span>あなただけの<i>理想の住まい</i></h1>
                     <ul>
                         <li><span>・建物種別</span>RC造</li>
                         <li><span>・面積</span>67㎡</li>
@@ -48,7 +48,7 @@
                                         <span class="box_img">
                                             <img src="images/img03.jpg" alt="" class="img-fluid">
                                         </span>
-                                        <p>光がたっぷり差し込むベッドルーム</p>
+                                        <p><span>光がたっぷり差し込む</span>ベッドルーム</p>
                                     </a>
                                 </li>
                                 <li>
@@ -63,7 +63,7 @@
                             </ul>
 
                             <div class="box_findhome">
-                                <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
+                                <h2>あなたの<span>理想の住まい</span>を<i>探してみよう！</i></h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
@@ -74,9 +74,8 @@
             </section>
 
             <section class="section_case pt-0">
-                <h1><img src="images/i_home.png" alt="" class="img-fluid"> <span>ログリノベ</span>がおつくりするのは<br>
-                住むほどにあなたに馴染む<span>理想の住まい</span></h1>
-
+                <h1><div class="case_title"><div class="break_text"><i><span>ログリノベ</span></i><i>がおつくりするのは</i></div>
+                <i>住むほどにあなたに馴染む</i><span>理想の住まい</span></div></h1>
                 <div class="w_box_case">
                     <div class="box_case">
                         <div class="container">
@@ -281,7 +280,7 @@
                                     </ul>
                                     <div class="box_idealhome">
                                         <p>あなたの<span>理想<i>の</i>住まい</span>を</p>
-                                        <p>とことん<span>こだわり抜ける</span>んです</p>
+                                        <p><i>とことん</i><span>こだわり抜ける</span>んです</p>
                                         <p>
                                             <span class="label_deal">こんなにお得！</span>
                                             <span class="text_renovation d-block d-lg-none">ログリノベの</span>
@@ -293,7 +292,16 @@
                                             </span>
                                         </p>
                                         <p class="text-center"><img src="images/img_natural_material.png" alt="" class="img-fluid"></p>
-                                        <p>出典：新築マンション価格：首都圏マンション市場動向2021年1月度/不動産経済研究所<br>　　   中古マンション価格：レインズ中古マンションの築年帯別状況（東京都）</p>
+                                        <p class="d-none d-lg-block">
+                                            出典：新築マンション価格：
+                                            首都圏マンション市場動向2021年1月度/不動産経済研究所<br>
+                                            中古マンション価格：レインズ中古マンションの築年帯別状況（東京都）
+                                        </p>
+                                        <p class="d-block d-lg-none">
+                                            <span>出典：新築マンション価格：</span>
+                                            首都圏マンション市場動向2021年1月度/不動産経済研究所<br>
+                                            中古マンション価格：<br>レインズ中古マンションの築年帯別状況（東京都）
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -307,7 +315,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="box_findhome">
-                                <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
+                                <h2>あなたの<span>理想の住まい</span>を<i>探してみよう！</i></h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
@@ -343,9 +351,13 @@
                 </div>
                 <div class="box_but">
                     <h2><span>でも</span></h2>
-                    <h3>ログリノベなら<br>
+                    <h3 class="d-none d-lg-block">ログリノベなら<br>
                     こんな悩みをマルッと解決！<br>
                     <span>理想の住まい</span>を実現します！</h3>
+
+                    <h3 class="d-block d-lg-none">ログリノベなら<br>
+                    こんな悩みを<br>マルッと解決！<br>
+                    <span>理想の住まい</span>を<br>実現します！</h3>
                 </div>
                 <div class="head_sub">
                     <div class="box_head_sub">
@@ -360,8 +372,15 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <div class="box_point_content">
-                                        <h2><span>01</span>最高品質の天然木材は<i>完全自社製</i><br>
-                                        低コストで自然素材の安心リノベーション</h2>
+                                        <h2 class="d-none d-lg-block">
+                                            <span>01</span>
+                                            最高品質の天然木材は<i>完全自社製</i><br>
+                                            低コストで自然素材の安心リノベーション</h2>
+
+                                        <h2 class="d-block d-lg-none">
+                                            <span>01</span>
+                                            最高品質の天然木材は<i>完全自社製</i>
+                                            低コストで自然素材の<br>安心リノベーション</h2>
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <div class="box_img">
@@ -386,7 +405,8 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <div class="box_point_content">
-                                        <h2><span>02</span>明瞭価格・施工期間短縮を実現</h2>
+                                        <h2 class="d-none d-lg-block"><span>02</span>明瞭価格・施工期間短縮を実現</h2>
+                                        <h2 class="d-block d-lg-none"><span>02</span>明瞭価格・<br>施工期間短縮を実現</h2>
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <p>ログリノベでは平米数に応じてリノベーション費用が決まる定額制の明瞭価格です。</p>
@@ -409,10 +429,16 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                         <div class="box_point_content">
-                                        <h2><span>03</span>物件探しからアフターサービスまで<br>オールワンストップリノベーション</h2>
-                                        <img src="images/03.jpg" alt="" class="img-fluid">
-                                        <p>木材の製造、卸し、物件探し、デザインん、施行、アフターサービスまで、リノベーションすべての工程をログリノベが一括で対応する「オールワンストップリノベーション」です。</p>
-                                        <p>工程ごとに各領域のスペシャリストたちがしっかりサポートするので、ストレスなくスムーズに「理想のリノベーション」を実現できます。</p>
+                                        <h2 class="d-none d-lg-block"><span>03</span>物件探しからアフターサービスまで<br>オールワンストップリノベーション</h2>
+                                        <h2 class="d-block d-lg-none"><span>03</span>物件探しから<br>アフターサービスまで<br>オールワンストップリノベーション</h2>
+                                        <div class="d-flex d-lg-block flex-column-reverse">
+                                            <img src="images/03.jpg" alt="" class="img-fluid d-none d-lg-block">
+                                            <img src="images/03_sm.jpg" alt="" class="img-fluid d-block d-lg-none mt-3 mt-lg-0">
+                                            <div class="">
+                                                <p>木材の製造、卸し、物件探し、デザインん、施行、アフターサービスまで、リノベーションすべての工程をログリノベが一括で対応する「オールワンストップリノベーション」です。</p>
+                                                <p>工程ごとに各領域のスペシャリストたちがしっかりサポートするので、ストレスなくスムーズに「理想のリノベーション」を実現できます。</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -460,7 +486,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="box_findhome">
-                                <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
+                                <h2>あなたの<span>理想の住まい</span>を<i>探してみよう！</i></h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
@@ -500,7 +526,7 @@
             </section>
 
             <section class="section_flow pt-0">
-                <h1>かんたんリノベ診断の流れ</h1>
+                <h1><span>かんたん</span>リノベ診断の流れ</h1>
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
@@ -531,7 +557,8 @@
                             </div>
 
                             <div class="box_menu">
-                                <h3><span>そのほか便利なメニューが盛りだくさんです</span></h3>
+                                <h3 class="d-none d-lg-block"><span>そのほか便利なメニューが盛りだくさんです</span></h3>
+                                <h3 class="d-block d-lg-none"><span>そのほか便利なメニューが<br>盛りだくさんです</span></h3>
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -592,7 +619,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="box_findhome">
-                                <h2>あなたの<span>理想の住まい</span>を探してみよう！</h2>
+                                <h2>あなたの<span>理想の住まい</span>を<i>探してみよう！</i></h2>
                                 <h1>かんたんリノベ診断 <span>たったの<br>30秒</span></h1>
                                 <a href="#" class="btn btn_addfriend"><span>友だち追加する</span> <img src="images/i_right.png" alt="" class="img-fluid"> </a>
                                 <p><img src="images/i_line.png" alt="" class="img-fluid img_line"> ログリノベLINE公式アカウントで提供中</p>
