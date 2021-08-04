@@ -1023,6 +1023,8 @@ header {
       color: #514736;
       text-align: right;
       margin-top: 20px;
+      margin-bottom: 0;
+
     }
     .box_img {
       width: 100%;
@@ -1245,6 +1247,22 @@ header {
     color: #514736;
     text-align: center;
     margin-bottom: 25px;
+    i {
+      font-style: normal;
+      position: relative;
+      display: inline-block;
+      &:before {
+        content: '';
+        position: absolute;
+        left: -52px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url('../images/SVG/i_chat.svg') no-repeat;
+        width: 50px;
+        height: 43px;
+      }
+    }
   }
   h3 {
     text-align: center;
@@ -1375,7 +1393,7 @@ footer {
       }
     }
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
       span {
         font-size: 0.55em;
         margin-bottom: 10px;
@@ -1417,17 +1435,17 @@ footer {
           align-items: center;
           align-content: stretch;
           .box_img {
-            height: 100px;
+            height: 78px;
             width: 50%;
             img {
-              height: 100px;
+              height: 78px;
             }
           }
           p {
             width: 50%;
             font-size: .9em;
             padding: 10px;
-            min-height: 100px;
+            min-height: 78px;
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
@@ -1486,6 +1504,7 @@ footer {
   h1 {
     font-size: 1.8em;
     line-height: 1.4em;
+    margin-bottom: 50px;
     i {
       display: block;
     }
@@ -1516,7 +1535,8 @@ footer {
         left: 15px;
         top: 15px;
         padding: 15px;
-        font-size: 1.3em;
+        font-size: 1.2em;
+        width: 90%;
       }
       ul {
         right: 3px;
@@ -1525,11 +1545,11 @@ footer {
     }
     .box_img_medium {
       width: 100%;
-      height: 200px;
+      height: 260px;
       margin-bottom: 30px;
       padding-right: 30px;
       img {
-        height: 200px;
+        height: 260px;
       }
       &.box_img_medium_custom {
         padding-right: 0;
@@ -1538,9 +1558,9 @@ footer {
     }
     .box_img_small {
       width: 100%;
-      height: 200px;
+      height: 260px;
       img {
-        height: 200px;
+        height: 260px;
         padding-left: 30px;
         padding-right: 30px;
       }
@@ -1559,7 +1579,7 @@ footer {
         margin-bottom: 30px;
         .box_img_small {
           text-align: right;
-          height: 100px;
+          height: 130px;
           position: relative;
           top: -50px;
           right: -30px;
@@ -1567,7 +1587,7 @@ footer {
             padding-left: 0;
             padding-right: 0;
             width: 50%;
-            height: 100px;
+            height: 130px;
           }
         }
       }
@@ -1614,6 +1634,7 @@ footer {
   }
   .box_thatwhy {
     padding-bottom: 50px;
+    padding-top: 60px;
     .box_thatwhy_content {
       padding-left: 15px;
       padding-right: 15px;
@@ -1621,9 +1642,9 @@ footer {
         li {
           margin-right: 5px;
           .box_img {
-            height: 100px;
+            height: 93px;
             img {
-              height: 100px;
+              height: 93px;
             }
           }
           p {
@@ -1648,8 +1669,12 @@ footer {
               display: block;
               margin-bottom: 10px;
             }
+            span {
+              font-size: 30px;
+            }
           }
           &:nth-of-type(3) {
+            margin-bottom: 30px;
             .material_main {
               font-size: .6em;
             }
@@ -1660,17 +1685,17 @@ footer {
             .text_renovation {
               font-size: .6em;
               color: #514736;
-              margin-bottom: 15px;
+              margin-bottom: 5px;
             }
           }
           &:last-of-type {
             text-align: left;
             line-height: 1.5em;
-            font-size: .8em;
+            font-size: .65em;
             span {
               display: block;
             }
-            padding-left: 50px;
+            padding-left: 35px;
             position: relative;
             span {
               position: relative;
@@ -1687,7 +1712,21 @@ footer {
   .head {
     padding: 15px 0;
     h2 {
-      font-size: 2em;
+      font-size: 1.5em;
+      margin-bottom: 5px;
+      span {
+        &:before, &:after {
+          background-size: 50%;
+        }
+        &:before {
+          left: -20px;
+          top: 6px;
+        }
+        &:after {
+          right: -30px;
+          top: 6px;
+        }
+      }
     }
     h1 {
       font-size: 1.5em;
@@ -1704,8 +1743,9 @@ footer {
     }
   }
   .box_but {
+    height: 380px;
     h2 {
-      font-size: 2.3em;
+      font-size: 1.875em;
       &:before {
         border-width: 70px 160px 0 160px;
       }
@@ -1714,10 +1754,11 @@ footer {
       }
     }
     h3 {
-      font-size: 3em;
+      font-size: 1.7em;
     }
   }
   .head_sub {
+    padding: 15px 0;
     h2 {
       font-size: 1.5em;
     }
@@ -1735,7 +1776,7 @@ footer {
   }
   .w_box_point {
     .box_point {
-      margin-top: 100px;
+      margin-top: 50px;
       &:nth-of-type(2n) {
         .box_point_content {
           padding-right: 0;
@@ -1758,37 +1799,69 @@ footer {
         }
       }
       &:last-of-type {
+        h2 {
+          i {
+            &:before {
+              display: none;
+            }
+          }
+        }
         p {
           margin-top: 15px;
         }
       }
       .box_point_content {
         padding-right: 15px;
+        padding-top: 35px;
         &:after {
           width: 120%;
           right: 0;
           left: inherit;
         }
         h2 {
-          padding-left: 120px;
+          padding-left: 100px;
           font-size: 1.3em;
+          margin-bottom: 30px;
+          &:before {
+            display: none;
+          }
+          i {
+            &:before {
+              background: #ffc936;
+            }
+          }
           span {
-            width: 100px;
-            height: 100px;
+            width: 78px;
+            height: 78px;
             font-size: 2em;
+            top: -55px;
+            &:before {
+              content: '';
+              position: absolute;
+              left: 0;
+              bottom: -30px;
+              width: 34px;
+              height: 2px;
+              background: #a3977e;
+            }
           }
         }
         .box_img {
-          height: 360px;
+          height: 235px;
           margin-bottom: 15px;
           img {
-            height: 360px;
+            height: 235px;
           }
         }
         .box_img_small {
-          margin-top: 15px;
+          margin-top: 10px;
+          margin-right: 5px;
           width: 50%;
           margin-bottom: 0;
+          height: 100px;
+          img {
+            height: 100px;
+          }
         }
       }
     }
@@ -1801,18 +1874,21 @@ footer {
 }
 
 .section_budget {
-  padding-top: 50px;
+  padding: 50px 0;
   h1 {
     font-size: 1.8em;
   }
   .box_budgetarea {
-    padding: 30px 15px;
+    padding: 30px 15px 15px;
     h2 {
       font-size: 1.5em;
       margin-bottom: 15px;
     }
     h3 {
       font-size: 1.5em;
+      margin-top: 0;
+      position: relative;
+      top: -10px;
     }
     .box_img {
       padding-right: 30px;
@@ -1840,30 +1916,49 @@ footer {
   padding-bottom: 50px;
   h1 {
     font-size: 2.5em;
-    padding: 30px 15px;
+    padding: 15px 15px;
+    margin-bottom: 70px;
     span {
       display: block;
     }
   }
   .w_box_flow {
     .box_flow {
+      border-width: 3px;
+      padding-bottom: 30px;
+      margin-bottom: 65px;
+      &:after {
+        border-width: 28px;
+        margin-left: -28px;
+      }
+      &:before {
+        border-width: 33px;
+        margin-left: -33px;
+      }
       h2 {
         font-size: 1em;
-        top: -30px;
+        top: -37px;
         .steps_number {
-          width: 50px;
-          height: 50px;
+          width: 68px;
+          height: 68px;
+          font-size: 2.5em;
         }
         .steps_text {
+          font-size: 1.3em;
+          line-height: 1.3em;
           span {
             display: block;
           }
         }
       }
       &:last-of-type {
+        margin-top: 90px;
         h2 {
           font-size: 1em;
-          top: -45px;
+          top: -55px;
+        }
+        &:after, &:before {
+          display: block;
         }
       }
     }
@@ -1873,6 +1968,7 @@ footer {
 .box_menu {
   h3 {
     font-size: 1.5em;
+    margin-bottom: 30px;
     span {
       &:before {
         left: 0;
@@ -1888,8 +1984,9 @@ footer {
       width: 47%;
       margin-right: 15px;
       margin-bottom: 15px;
-      min-height: 200px;
+      min-height: 160px;
       flex: 1 1 auto;
+      border-width: 3px;
       &:nth-of-type(2n) {
         margin-right: 0;
       }
@@ -1924,21 +2021,54 @@ footer {
   padding: 50px 0;
   h2 {
     font-size: 2em;
+    margin-bottom: 0;
+    i {
+      &:before {
+        display: none;
+      }
+    }
     span {
       display: block;
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url(../images/SVG/i_chat.svg) no-repeat;
+        width: 33px;
+        height: 29px;
+      }
     }
     img {
       position: relative;
       top: 30px;
     }
   }
+  h3 {
+    margin-bottom: 20px;
+    font-size: 1.875em;
+  }
   ul {
     li {
       h4 {
-        font-size: 1.2em;
+        font-size: 1.25em;
+        padding-left: 50px;
+        margin-bottom: 30px;
+        &:before {
+          width: 40px;
+          height: 40px;
+        }
       }
       p {
-        font-size: 1em;
+        font-size: 1.125em;
+        padding-left: 50px;
+        &:before {
+          width: 40px;
+          height: 40px;
+        }
       }
     }
   }
@@ -2100,7 +2230,7 @@ footer {
       }
     }
     .box_but {
-      height: 400px;
+      height: 380px;
       h3 {
         font-size: 2em;
         padding: 0 15px;
@@ -2228,6 +2358,7 @@ footer {
 
   .section_point {
     .box_but {
+      height: 380px;
       h2 {
         span {
           top: 20px;

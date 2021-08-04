@@ -1211,6 +1211,7 @@ header ul li span {
     color: #514736;
     text-align: right;
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .section_budget .box_budgetarea .box_img {
@@ -1450,6 +1451,24 @@ header ul li span {
     margin-bottom: 25px;
 }
 
+.section_qa h2 i {
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+}
+
+.section_qa h2 i:before {
+    content: '';
+    position: absolute;
+    left: -52px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url("../images/SVG/i_chat.svg") no-repeat;
+    width: 50px;
+    height: 43px;
+}
+
 .section_qa h3 {
     text-align: center;
     color: #cccccc;
@@ -1587,7 +1606,7 @@ footer p {
     }
 
     header h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     header h1 span {
@@ -1639,19 +1658,19 @@ footer p {
     }
 
     .section_top ul li a .box_img {
-        height: 100px;
+        height: 78px;
         width: 50%;
     }
 
     .section_top ul li a .box_img img {
-        height: 100px;
+        height: 78px;
     }
 
     .section_top ul li a p {
         width: 50%;
         font-size: .9em;
         padding: 10px;
-        min-height: 100px;
+        min-height: 78px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -1717,6 +1736,7 @@ footer p {
     .section_case h1 {
         font-size: 1.8em;
         line-height: 1.4em;
+        margin-bottom: 50px;
     }
 
     .section_case h1 i {
@@ -1752,7 +1772,8 @@ footer p {
         left: 15px;
         top: 15px;
         padding: 15px;
-        font-size: 1.3em;
+        font-size: 1.2em;
+        width: 90%;
     }
 
     .section_case .box_case .box_img ul {
@@ -1762,13 +1783,13 @@ footer p {
 
     .section_case .box_case .box_img_medium {
         width: 100%;
-        height: 200px;
+        height: 260px;
         margin-bottom: 30px;
         padding-right: 30px;
     }
 
     .section_case .box_case .box_img_medium img {
-        height: 200px;
+        height: 260px;
     }
 
     .section_case .box_case .box_img_medium.box_img_medium_custom {
@@ -1778,11 +1799,11 @@ footer p {
 
     .section_case .box_case .box_img_small {
         width: 100%;
-        height: 200px;
+        height: 260px;
     }
 
     .section_case .box_case .box_img_small img {
-        height: 200px;
+        height: 260px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -1798,7 +1819,7 @@ footer p {
 
     .section_case .w_box_case .box_case:nth-of-type(2) .box_img_small {
         text-align: right;
-        height: 100px;
+        height: 130px;
         position: relative;
         top: -50px;
         right: -30px;
@@ -1808,7 +1829,7 @@ footer p {
         padding-left: 0;
         padding-right: 0;
         width: 50%;
-        height: 100px;
+        height: 130px;
     }
 
     .section_case .w_box_case .box_case:nth-of-type(3) .box_img_small {
@@ -1853,6 +1874,7 @@ footer p {
 
     .section_logrenovation .box_thatwhy {
         padding-bottom: 50px;
+        padding-top: 60px;
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content {
@@ -1865,11 +1887,11 @@ footer p {
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content ul li .box_img {
-        height: 100px;
+        height: 93px;
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content ul li .box_img img {
-        height: 100px;
+        height: 93px;
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content ul li p {
@@ -1899,6 +1921,14 @@ footer p {
         margin-bottom: 10px;
     }
 
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(2) span {
+        font-size: 30px;
+    }
+
+    .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(3) {
+        margin-bottom: 30px;
+    }
+
     .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(3) .material_main {
         font-size: .6em;
     }
@@ -1911,14 +1941,14 @@ footer p {
     .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(3) .text_renovation {
         font-size: .6em;
         color: #514736;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:last-of-type {
         text-align: left;
         line-height: 1.5em;
-        font-size: .8em;
-        padding-left: 50px;
+        font-size: .65em;
+        padding-left: 35px;
         position: relative;
     }
 
@@ -1936,7 +1966,22 @@ footer p {
     }
 
     .section_purchase .head h2 {
-        font-size: 2em;
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+
+    .section_purchase .head h2 span:before, .section_purchase .head h2 span:after {
+        background-size: 50%;
+    }
+
+    .section_purchase .head h2 span:before {
+        left: -20px;
+        top: 6px;
+    }
+
+    .section_purchase .head h2 span:after {
+        right: -30px;
+        top: 6px;
     }
 
     .section_purchase .head h1 {
@@ -1952,8 +1997,12 @@ footer p {
         font-size: 1em;
     }
 
+    .section_point .box_but {
+        height: 380px;
+    }
+
     .section_point .box_but h2 {
-        font-size: 2.3em;
+        font-size: 1.875em;
     }
 
     .section_point .box_but h2:before {
@@ -1965,7 +2014,11 @@ footer p {
     }
 
     .section_point .box_but h3 {
-        font-size: 3em;
+        font-size: 1.7em;
+    }
+
+    .section_point .head_sub {
+        padding: 15px 0;
     }
 
     .section_point .head_sub h2 {
@@ -1985,7 +2038,7 @@ footer p {
     }
 
     .section_point .w_box_point .box_point {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .section_point .w_box_point .box_point:nth-of-type(2n) .box_point_content {
@@ -2007,12 +2060,17 @@ footer p {
         margin-top: 15px;
     }
 
+    .section_point .w_box_point .box_point:last-of-type h2 i:before {
+        display: none;
+    }
+
     .section_point .w_box_point .box_point:last-of-type p {
         margin-top: 15px;
     }
 
     .section_point .w_box_point .box_point .box_point_content {
         padding-right: 15px;
+        padding-top: 35px;
     }
 
     .section_point .w_box_point .box_point .box_point_content:after {
@@ -2022,29 +2080,55 @@ footer p {
     }
 
     .section_point .w_box_point .box_point .box_point_content h2 {
-        padding-left: 120px;
+        padding-left: 100px;
         font-size: 1.3em;
+        margin-bottom: 30px;
+    }
+
+    .section_point .w_box_point .box_point .box_point_content h2:before {
+        display: none;
+    }
+
+    .section_point .w_box_point .box_point .box_point_content h2 i:before {
+        background: #ffc936;
     }
 
     .section_point .w_box_point .box_point .box_point_content h2 span {
-        width: 100px;
-        height: 100px;
+        width: 78px;
+        height: 78px;
         font-size: 2em;
+        top: -55px;
+    }
+
+    .section_point .w_box_point .box_point .box_point_content h2 span:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -30px;
+        width: 34px;
+        height: 2px;
+        background: #a3977e;
     }
 
     .section_point .w_box_point .box_point .box_point_content .box_img {
-        height: 360px;
+        height: 235px;
         margin-bottom: 15px;
     }
 
     .section_point .w_box_point .box_point .box_point_content .box_img img {
-        height: 360px;
+        height: 235px;
     }
 
     .section_point .w_box_point .box_point .box_point_content .box_img_small {
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-right: 5px;
         width: 50%;
         margin-bottom: 0;
+        height: 100px;
+    }
+
+    .section_point .w_box_point .box_point .box_point_content .box_img_small img {
+        height: 100px;
     }
 
     .section_findhome {
@@ -2053,7 +2137,7 @@ footer p {
     }
 
     .section_budget {
-        padding-top: 50px;
+        padding: 50px 0;
     }
 
     .section_budget h1 {
@@ -2061,7 +2145,7 @@ footer p {
     }
 
     .section_budget .box_budgetarea {
-        padding: 30px 15px;
+        padding: 30px 15px 15px;
     }
 
     .section_budget .box_budgetarea h2 {
@@ -2071,6 +2155,9 @@ footer p {
 
     .section_budget .box_budgetarea h3 {
         font-size: 1.5em;
+        margin-top: 0;
+        position: relative;
+        top: -10px;
     }
 
     .section_budget .box_budgetarea .box_img {
@@ -2102,34 +2189,66 @@ footer p {
 
     .section_flow h1 {
         font-size: 2.5em;
-        padding: 30px 15px;
+        padding: 15px 15px;
+        margin-bottom: 70px;
     }
 
     .section_flow h1 span {
         display: block;
     }
 
+    .section_flow .w_box_flow .box_flow {
+        border-width: 3px;
+        padding-bottom: 30px;
+        margin-bottom: 65px;
+    }
+
+    .section_flow .w_box_flow .box_flow:after {
+        border-width: 28px;
+        margin-left: -28px;
+    }
+
+    .section_flow .w_box_flow .box_flow:before {
+        border-width: 33px;
+        margin-left: -33px;
+    }
+
     .section_flow .w_box_flow .box_flow h2 {
         font-size: 1em;
-        top: -30px;
+        top: -37px;
     }
 
     .section_flow .w_box_flow .box_flow h2 .steps_number {
-        width: 50px;
-        height: 50px;
+        width: 68px;
+        height: 68px;
+        font-size: 2.5em;
+    }
+
+    .section_flow .w_box_flow .box_flow h2 .steps_text {
+        font-size: 1.3em;
+        line-height: 1.3em;
     }
 
     .section_flow .w_box_flow .box_flow h2 .steps_text span {
         display: block;
     }
 
+    .section_flow .w_box_flow .box_flow:last-of-type {
+        margin-top: 90px;
+    }
+
     .section_flow .w_box_flow .box_flow:last-of-type h2 {
         font-size: 1em;
-        top: -45px;
+        top: -55px;
+    }
+
+    .section_flow .w_box_flow .box_flow:last-of-type:after, .section_flow .w_box_flow .box_flow:last-of-type:before {
+        display: block;
     }
 
     .box_menu h3 {
         font-size: 1.5em;
+        margin-bottom: 30px;
     }
 
     .box_menu h3 span:before {
@@ -2148,8 +2267,9 @@ footer p {
         width: 47%;
         margin-right: 15px;
         margin-bottom: 15px;
-        min-height: 200px;
+        min-height: 160px;
         flex: 1 1 auto;
+        border-width: 3px;
     }
 
     .box_menu ul li:nth-of-type(2n) {
@@ -2191,10 +2311,28 @@ footer p {
 
     .section_qa h2 {
         font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    .section_qa h2 i:before {
+        display: none;
     }
 
     .section_qa h2 span {
         display: block;
+        position: relative;
+    }
+
+    .section_qa h2 span:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url(../images/SVG/i_chat.svg) no-repeat;
+        width: 33px;
+        height: 29px;
     }
 
     .section_qa h2 img {
@@ -2202,12 +2340,30 @@ footer p {
         top: 30px;
     }
 
+    .section_qa h3 {
+        margin-bottom: 20px;
+        font-size: 1.875em;
+    }
+
     .section_qa ul li h4 {
-        font-size: 1.2em;
+        font-size: 1.25em;
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .section_qa ul li h4:before {
+        width: 40px;
+        height: 40px;
     }
 
     .section_qa ul li p {
-        font-size: 1em;
+        font-size: 1.125em;
+        padding-left: 50px;
+    }
+
+    .section_qa ul li p:before {
+        width: 40px;
+        height: 40px;
     }
 
     footer {
@@ -2325,7 +2481,7 @@ footer p {
     }
 
     .section_point .box_but {
-        height: 400px;
+        height: 380px;
     }
 
     .section_point .box_but h3 {
@@ -2405,6 +2561,10 @@ footer p {
     .section_logrenovation .box_thatwhy .box_thatwhy_content .box_idealhome p:nth-of-type(3) .material_main .material_main_text {
         position: relative;
         top: 17px;
+    }
+
+    .section_point .box_but {
+        height: 380px;
     }
 
     .section_point .box_but h2 span {

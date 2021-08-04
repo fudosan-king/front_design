@@ -364,7 +364,7 @@
                     <span>理想の住まい</span>を実現します！</h3>
 
                     <h3 class="d-block d-lg-none">ログリノベなら<br>
-                    こんな悩みを<br>マルッと解決！<br>
+                    こんな悩みをマルッと解決！<br>
                     <span>理想の住まい</span>を<br>実現します！</h3>
                 </div>
                 <div class="head_sub">
@@ -388,7 +388,7 @@
                                         <h2 class="d-block d-lg-none">
                                             <span>01</span>
                                             最高品質の天然木材は<i>完全自社製</i>
-                                            低コストで自然素材の<br>安心リノベーション</h2>
+                                            低コストで<br>自然素材の安心リノベーション</h2>
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <div class="box_img">
@@ -415,15 +415,15 @@
                                     <div class="box_point_content">
                                         <h2 class="d-none d-lg-block"><span>02</span>明瞭価格・施工期間短縮を実現</h2>
                                         <h2 class="d-block d-lg-none"><span>02</span>明瞭価格・<br>施工期間短縮を実現</h2>
-                                        <div class="row">
+                                        <div class="row flex-row-reverse">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="box_img mb-3 mb-lg-0">
+                                                    <img src="images/02.jpg" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
                                             <div class="col-12 col-lg-6">
                                                 <p>ログリノベでは平米数に応じてリノベーション費用が決まる定額制の明瞭価格です。</p>
                                                 <p>また、すべての工程を自社内で完結させることで製材の受発注時のタイムロスを防ぎ、お客様が負担に感じられる施工期間の短縮も実現しています。</p>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="box_img">
-                                                    <img src="images/02.jpg" alt="" class="img-fluid">
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -441,7 +441,7 @@
                                         <h2 class="d-block d-lg-none"><span>03</span>物件探しから<br>アフターサービスまで<br>オールワンストップリノベーション</h2>
                                         <img src="images/03.jpg" alt="" class="img-fluid d-none d-lg-block">
                                         <img src="images/03_sm.jpg" alt="" class="img-fluid d-block d-lg-none mt-3 mt-lg-0">
-                                        <p>木材の製造、卸し、物件探し、デザインん、施行、アフターサービスまで、リノベーションすべての工程をログリノベが一括で対応する「オールワンストップリノベーション」です。</p>
+                                        <p>木材の製造、卸し、物件探し、デザイン、施行、アフターサービスまで、リノベーションすべての工程をログリノベが一括で対応する「オールワンストップリノベーション」です。</p>
                                         <p>工程ごとに各領域のスペシャリストたちがしっかりサポートするので、ストレスなくスムーズに「理想のリノベーション」を実現できます。</p>
                                         
                                     </div>
@@ -455,7 +455,7 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <div class="box_point_content">
-                                        <h2><span>04</span>前払金なし！<br>現地調査やデザインも無料対応</h2>
+                                        <h2><span>04</span>前払金なし！<br>現地調査やデザインも<i>無料対応</i></h2>
                                         <div class="row">
                                             <div class="col-12 col-lg-8">
                                                 <div class="box_img">
@@ -463,11 +463,11 @@
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-4">
-                                                <div class="d-inline-flex d-lg-block">
+                                                <div class="d-inline-flex d-lg-block w-100">
                                                     <div class="box_img_small">
                                                         <img src="images/04_2.jpg" alt="" class="img-fluid">
                                                     </div>
-                                                    <div class="box_img_small mb-0">
+                                                    <div class="box_img_small mb-0 mr-0">
                                                         <img src="images/04_3.jpg" alt="" class="img-fluid">
                                                     </div>
                                                 </div>
@@ -541,7 +541,8 @@
                                         <div class="steps_number"><span>STEP</span>01</div>
                                         <div class="steps_text"><span>「友だち追加する」</span>ボタンをタップする</div>
                                     </h2>
-                                    <img src="images/step01.png" alt="" class="img-fluid">
+                                    <img src="images/step01.png" alt="" class="img-fluid d-none d-lg-block">
+                                    <img src="images/step01_sm.png" alt="" class="img-fluid d-block d-lg-none">
                                 </div>
 
                                 <div class="box_flow">
@@ -549,7 +550,8 @@
                                         <div class="steps_number"><span>STEP</span>02</div>
                                         <div class="steps_text">「追加」をタップする</div>
                                     </h2>
-                                    <img src="images/step02.png" alt="" class="img-fluid">
+                                    <img src="images/step02.png" alt="" class="img-fluid d-none d-lg-block">
+                                    <img src="images/step02_sm.png" alt="" class="img-fluid d-block d-lg-none">
                                 </div>
 
                                 <div class="box_flow">
@@ -596,7 +598,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <h2><img src="images/SVG/i_chat.svg" alt="" class="img-fluid" width="50"> よくあるご質問に<span>回答します</span></h2>
+                            <h2><i>よくあるご質問に<span>回答します</span></i></h2>
                             <h3>FAQ</h3>
                             <ul>
                                 <li>
