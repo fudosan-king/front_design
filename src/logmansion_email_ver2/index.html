@@ -64,11 +64,11 @@
             text-decoration: none;
         }
 
-        .font-14 {
+        .font-14, .text-description {
             font-size: 14px;
         }
 
-        .font-12 {
+        .font-12 .sub-text {
             font-size: 12px;
         }
 
@@ -99,9 +99,12 @@
         .font-20 {
             font-size: 20px
         }
+        .contacts{
+            font-size: 14px
+        }
 
 
-        @media screen and (max-width: 545px) {
+        @media only screen and (max-device-width: 545px) {
 
             table[class="MainContainer"] {
                 width: 100% !important;
@@ -115,9 +118,15 @@
             table[class="MainContainer"] .font-14 {
                 font-size: 16px !important;
             }
+            table[class="MainContainer"] .text-description {
+                font-size: 16px !important;
+            }
 
             table[class="MainContainer"] .font-12 {
-                font-size: 14px !important;
+                font-size: 15px !important;
+            }
+            table[class="MainContainer"] .contacts {
+                font-size: 20px !important;
             }
 
             table[class="MainContainer"] .font-10 {
@@ -271,10 +280,13 @@
                                                                 <div class="contentEditableContainer contentTextEditable"
                                                                      style="line-height: 25px;">
                                                                     <div class="contentEditable">
-                                                                        <p class="font-14" style="white-space: nowrap;">
-                                                                            いつも弊社のリノベーション分譲マンション「ログマンション」をお客様にご紹介いただき、ありがとうございます。<br>
-                                                                            「ログマンション」の最新情報をご送付しますので、客付けのほど、よろしくお願いいたします。<br>
-                                                                            ※全て当社物件は手数料出し・当社契約書作成済。当日契約可能です。</p>
+                                                                        <div class="contentEditable">
+                                                                            <p class="text-description" style="white-space: nowrap;">
+                                                                                <p style="white-space: nowrap;">いつも弊社のリノベーション分譲マンション「ログマンション」をお客様にご紹介いただき、ありがとうございます。</p>
+                                                                                <p style="white-space: nowrap">「ログマンション」の最新情報をご送付しますので、客付けのほど、よろしくお願いいたします。</p>
+                                                                                <p>※全て当社物件は手数料出し・当社契約書作成済。当日契約可能です。</p>
+                                                                            </p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </td>
@@ -365,7 +377,7 @@
                                                                             style="width: 100%;">
                                                                         <tbody>
                                                                         <tr>
-                                                                           <td align="center" valign="top" class="">
+                                                                           <td align="center" valign="top" class="" width="40%">
                                                                                 <div class="contentEditableContainer contentImageEditable">
                                                                                     <div class="contentEditable"
                                                                                             style="text-align: center;">
@@ -375,15 +387,17 @@
                                                                                                 data-max-width="400"
                                                                                                 height="*"
                                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/logmansion_customize.png"
-                                                                                                width="359"
+                                                                                                width="318"
                                                                                                 style="margin: auto;">
                                                                                     </div>
                                                                                 </div>
                                                                             </td>
-                                                                            <td>
+                                                                            <td width="60%">
                                                                                 <p class="font-12"
-                                                                                    style="line-height: 140%; color: #828282; margin-left: 40px">
-                                                                                    ※現在解体中につき、間取プラン確定前にご契約頂くと、お客様のご希望で間取をある程度カスタマイズできる物件です</p>
+                                                                                    style="line-height: 140%; color: #828282; margin-left: 25px">
+                                                                                    <span style="white-space: nowrap">※現在解体中につき、間取プラン確定前にご契約頂くと、お</span> <br>
+                                                                                    <span style="white-space: nowrap">客様のご希望で間取をある程度カスタマイズできる物件です</span> 
+                                                                                </p>
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -575,7 +589,7 @@
                                                                             style="width: 100%;">
                                                                         <tbody>
                                                                         <tr>
-                                                                           <td align="center" valign="top" class="">
+                                                                           <td align="center" valign="top" class="" width="40%">
                                                                                 <div class="contentEditableContainer contentImageEditable">
                                                                                     <div class="contentEditable"
                                                                                             style="text-align: center;">
@@ -585,15 +599,17 @@
                                                                                                 data-max-width="400"
                                                                                                 height="*"
                                                                                                 src="https://pardot-s3.s3.ap-northeast-1.amazonaws.com/logmansion_email/logmansion_customize.png"
-                                                                                                width="359"
+                                                                                                width="318"
                                                                                                 style="margin: auto;">
                                                                                     </div>
                                                                                 </div>
                                                                             </td>
-                                                                            <td>
+                                                                            <td width="60%">
                                                                                 <p class="font-12"
-                                                                                    style="line-height: 140%; color: #828282; margin-left: 40px">
-                                                                                    ※現在解体中につき、間取プラン確定前にご契約頂くと、お客様のご希望で間取をある程度カスタマイズできる物件です</p>
+                                                                                    style="line-height: 140%; color: #828282; margin-left: 25px">
+                                                                                    <span style="white-space: nowrap">※現在解体中につき、間取プラン確定前にご契約頂くと、お</span> <br>
+                                                                                    <span style="white-space: nowrap">客様のご希望で間取をある程度カスタマイズできる物件です</span> 
+                                                                                </p>
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -873,38 +889,41 @@
                                                             <td colspan="2" height="10" class="">&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td width="30%" style="border-right: 0.5px solid #000000">
+                                                            <td width="20%" style="border-right: 0.5px solid #000000">
                                                                 <div class="contentEditableContainer contentImageEditable">
                                                                     <div class="contentEditable"
                                                                          style="text-align: center; padding: 0 20px 0 20px; font-weight: bold; ">
-                                                                         <p class="font-14" style="line-height: 160%;text-align: left;white-space: nowrap;">
-                                                                            お問い合わせは担当者まで <br>
+                                                                         <p class="contacts" style="line-height: 160%;text-align: left;white-space: nowrap;">
+                                                                            お問い合わせは <br>
+                                                                            担当者まで <br>
                                                                             お願い致します</p>
                                                                     </div>
                                                                 </div>
                                                             </td>
-                                                            <td width="30%">
+                                                            <td width="25%">
                                                                 <div class="contentEditableContainer contentImageEditable">
                                                                     <div class="contentEditable"
                                                                          style="text-align: left;">
-                                                                        <ul class="font-14"
+                                                                        <ul class="contacts"
                                                                             style="list-style-type: none; padding-left: 20px">
                                                                             <li>担当：飯塚</li>
                                                                             <li style="white-space:nowrap"> メール：<a
                                                                                     href="mailto:iizuka@propolife.co.jp">iizuka@propolife.co.jp</a>
                                                                             </li>
-                                                                            <li>Mobile：080-3440-8829</li>
-                                                                            <li>TEL：03-6897-8570</li>
+                                                                            <li>Mobile：
+                                                                                <a href="tel:080-3440-8829">080-3440-8829</a>
+                                                                            </li>
+                                                                            <li>TEL：<a href="tel:03-6897-8570">03-6897-8570</a></li>
                                                                             <li>FAX：03-6897-8571</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                             </td>
-                                                            <td width="">
+                                                            <td width="55%">
                                                                 <div class="contentEditableContainer contentImageEditable">
                                                                     <div class="contentEditable"
                                                                          style="text-align: left;">
-                                                                        <ul class="font-14" style="padding-left: 30px">
+                                                                        <ul class="contacts" style="padding-left: 30px">
                                                                             <li style="display:none;"></li>
                                                                             <li>お客様ご案内（名刺をご送付下さい）</li>
                                                                             <li>駐車場空き状況等</li>
@@ -979,8 +998,7 @@
                                                                                         FAX：03-6897-8571 <br>
                                                                                         <a href="https://www.logsuite.co.jp/">https://www.logsuite.co.jp/</a>
                                                                                         <br>
-                                                                                        営業時間：10:00～19:00（火・水曜日定休
-                                                                                        祝日を除く）
+                                                                                        営業時間：10:00～19:00（火・水曜日定祝日を除く）
                                                                                     </p>
                                                                                 </td>
                                                                             </tr>
