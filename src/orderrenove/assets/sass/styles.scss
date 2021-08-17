@@ -352,7 +352,7 @@ header {
           flex-wrap: wrap;
           justify-content: flex-start;
           align-items: stretch;
-          align-content: stretch;
+          align-content: flex-start;
           height: 250px;
           overflow: auto;
           li {
@@ -530,15 +530,16 @@ ul.list_property {
       }
       p {
         margin-bottom: 0;
-        color: #fff;
-        padding: 5px 10px;
+        color: #4f4f4f;
         &.total_price {
           background: #000;
+          color: #fff;
           position: absolute;
           left: 0;
           bottom: 0;
           font-weight: 600;
           font-size: 1.5em;
+          padding: 5px 10px;
           span {
             font-size: 0.6em;
             font-weight: 400;
@@ -557,6 +558,7 @@ ul.list_property {
           text-align: center;
           line-height: 1.5em;
           padding: 10px;
+          color: #fff;
           &.renovated {
             background: $yellow-color;
           }
@@ -571,15 +573,17 @@ ul.list_property {
       p {
         margin-bottom: 0;
         &.property_name {
+          color: #4f4f4f;
           font-size: 1.125em;
           margin-bottom: 5px;
         }
       }
       .property_address {
-        margin-right: 15px;
+        color: #4f4f4f;
       }
       .property_address, &.property_square {
         font-size: 0.875em;
+        color: #4f4f4f;
       }
       .btn_wishlist {
         float: right;
@@ -620,6 +624,7 @@ ul.list_property {
       }
       .property_img {
         height: 173px;
+        margin-bottom: 98px;
         img {
           height: 173px;
         }
@@ -628,6 +633,10 @@ ul.list_property {
         p {
           &.property_name {
             font-size: 1em;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
           }
         }
       }
@@ -1621,6 +1630,7 @@ footer {
         }
         .property_img {
           height: 359px;
+          margin-bottom: 0;
           img {
             height: 359px;
           }
@@ -1903,17 +1913,19 @@ footer {
         height: 237px;
         p {
           &.total_price {
-            font-size: 0.85em;
+            font-size: 1em;
             span {
-              font-size: 0.6em;
+              font-size: 0.8em;
               &.sub {
                 font-size: .5em;
               }
             }
           }
           &.label_custom {
-            padding: 5px;
-            font-size: 0.375em;
+            padding: 10px;
+            font-size: 0.875em;
+            right: 0;
+            top: 0;
           }
         }
         img {
@@ -1931,37 +1943,44 @@ footer {
   .section_near_property {
     ul.list_property {
       li {
-        width: 47.5%;
-        margin-right: 15px;
+        width: 100%;
+        margin-right: 0;
         &:nth-of-type(2n) {
           margin-right: 0;
           margin-bottom: 10px;
         }
         .property_img {
-          height: 113px;
+          height: 255px;
+          overflow: hidden;
           img {
-            height: 113px;
+            height: 255;
           }
           p {
             &.total_price {
-              padding-top: 0;
-              padding-bottom: 0;
+              bottom: 61px;
             }
           }
         }
         .property_head {
           border: none;
-          padding-top: 0;
-          padding-left: 0;
-          right: 0;
+          padding: 5px 10px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background: rgba(255, 255, 255, .66);
           p {
+            color: #000;
+            margin-bottom: 0;
+            font-weight: 500;
+            line-height: 1.5em;
             &.property_name {
-              display: none;
+              font-size: 0.875em;
             }
           }
           .property_address {
-            font-size: 0.625em;
             margin-right: 5px;
+            font-size: 0.625em;
           }
           .property_square {
             font-size: 0.625em;
@@ -2282,7 +2301,7 @@ footer {
       .property_img {
         p {
           &.total_price {
-            font-size: 0.7em;
+            font-size: 1em;
           }
         }
       }
@@ -2301,7 +2320,6 @@ footer {
   .section_near_property {
     ul.list_property {
       li {
-        width: 46.5%;
       }
     }
   }
