@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_banner" style="background-image: url('images/KV.jpg');">
+            <section class="section_banner" style="background-image: url('images/takayamatei-800x534.jpg');">
                 <div class="caption">
                     <img src="images/svg/label.svg" alt="" class="img-fluid" width="430">
                     <p>住みたいエリア、広さ、予算、ライフスタイル…<br>
