@@ -768,6 +768,7 @@ ul.list_property li .property_head .btn_wishlist.on {
 
 .section_near_property ul.list_property li {
     width: 23.5%;
+    overflow: hidden;
 }
 
 .section_near_property ul.list_property li:nth-of-type(2n) {
@@ -778,13 +779,44 @@ ul.list_property li .property_head .btn_wishlist.on {
     margin-right: 0;
 }
 
+.section_near_property ul.list_property li:hover .property_img img {
+    transform: scale(1.3);
+}
+
+.section_near_property ul.list_property li a {
+    display: block;
+}
+
 .section_near_property ul.list_property li .property_img {
-    height: 173px;
-    margin-bottom: 98px;
+    height: 271px;
 }
 
 .section_near_property ul.list_property li .property_img img {
-    height: 173px;
+    height: 271px;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.section_near_property ul.list_property li .property_img p.total_price {
+    position: relative;
+    display: inline-block;
+}
+
+.section_near_property ul.list_property li .w_property_head {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section_near_property ul.list_property li .property_head {
+    border: none;
+    background: rgba(255, 255, 255, 0.66);
+    padding: 5px 10px;
+}
+
+.section_near_property ul.list_property li .property_head p {
+    line-height: 1.3em;
 }
 
 .section_near_property ul.list_property li .property_head p.property_name {
@@ -966,7 +998,7 @@ footer .footer_bottom .btn img {
 .section_property_main .box_calcu {
     background: #fff;
     padding: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .section_property_main .box_calcu h1 {
@@ -1578,7 +1610,7 @@ footer .footer_bottom .btn img {
 
 .btnshowhide.show {
     background-image: url("../images/svg/showhide.svg");
-    margin-top: 0;
+    margin-top: 15px;
 }
 
 .btnshowhide.show:after {
@@ -2034,6 +2066,22 @@ footer .footer_bottom .btn img {
         height: 325px;
     }
 
+    .section_banner .caption {
+        padding: 15px;
+        position: relative;
+        top: -30px;
+    }
+
+    .section_banner .caption img {
+        max-width: 70%;
+    }
+
+    .section_banner .caption p {
+        font-size: .7em;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
     .section_banner ul {
         position: absolute;
         bottom: 0;
@@ -2290,6 +2338,12 @@ footer .footer_bottom .btn img {
 
     .box_renovation_specifications p {
         font-size: 1em;
+    }
+
+    .box_showmore {
+        padding: 0 15px 10px;
+        border: 1px solid #EB5757;
+        border-radius: 100px;
     }
 
     .section_pass {
