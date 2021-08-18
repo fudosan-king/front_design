@@ -616,21 +616,52 @@ ul.list_property {
   ul.list_property {
     li {
       width: 23.5%;
+      overflow: hidden;
       &:nth-of-type(2n) {
         margin-right: 20px;
       }
       &:nth-of-type(4n) {
         margin-right: 0;
       }
-      .property_img {
-        height: 173px;
-        margin-bottom: 98px;
-        img {
-          height: 173px;
+      &:hover {
+        .property_img {
+          img {
+            -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+          }
         }
       }
-      .property_head {
+      a {
+        display: block;
+      }
+      .property_img {
+        height: 271px;
+        img {
+          height: 271px;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+          -webkit-transition: .3s ease-in-out;
+          transition: .3s ease-in-out;
+        }
         p {
+          &.total_price {
+            position: relative;
+            display: inline-block;
+          }
+        }
+      }
+      .w_property_head {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      .property_head {
+        border: none;
+        background: rgba(255, 255, 255, .66);
+        padding: 5px 10px;
+        p {
+          line-height: 1.3em;
           &.property_name {
             font-size: 1em;
             display: -webkit-box;
@@ -804,7 +835,7 @@ footer {
   .box_calcu {
     background: #fff;
     padding: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     h1 {
       background: #F2F2F2;
       padding: 20px;
@@ -1374,7 +1405,7 @@ footer {
    &:after {
     opacity: 0;
    }
-   margin-top: 0;
+   margin-top: 15px;
   }
 }
 
@@ -1832,6 +1863,19 @@ footer {
   .section_banner {
     margin-top: 56px;
     height: 325px;
+    .caption {
+      padding: 15px;
+      position: relative;
+      top: -30px;
+      img {
+        max-width: 70%;
+      }
+      p {
+        font-size: .7em;
+        margin-bottom: 0;
+        margin-top: 15px;
+      }
+    }
     ul {
       position: absolute;
       bottom: 0;
@@ -2083,6 +2127,12 @@ footer {
     p {
       font-size: 1em;
     }
+  }
+
+  .box_showmore {
+    padding: 0 15px 10px;
+    border: 1px solid #EB5757;
+    border-radius: 100px;
   }
 
   .section_pass {
