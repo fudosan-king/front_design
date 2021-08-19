@@ -635,9 +635,9 @@ ul.list_property {
         display: block;
       }
       .property_img {
-        height: 271px;
+        height: 237px;
         img {
-          height: 271px;
+          height: 237px;
           -webkit-transform: scale(1);
           transform: scale(1);
           -webkit-transition: .3s ease-in-out;
@@ -647,6 +647,7 @@ ul.list_property {
           &.total_price {
             position: relative;
             display: inline-block;
+            font-size: 1em;
           }
         }
       }
@@ -663,11 +664,17 @@ ul.list_property {
         p {
           line-height: 1.3em;
           &.property_name {
-            font-size: 1em;
+            font-size: 0.875em;
             display: -webkit-box;
             -webkit-line-clamp: 1;
             -webkit-box-orient: vertical;  
             overflow: hidden;
+          }
+          &.property_address {
+            font-size: 0.625em;
+          }
+          &.property_square {
+            font-size: 0.625em;
           }
         }
       }
@@ -1997,7 +2004,7 @@ footer {
           height: 255px;
           overflow: hidden;
           img {
-            height: 255;
+            height: 255px;
           }
           p {
             &.total_price {
