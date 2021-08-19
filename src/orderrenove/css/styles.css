@@ -788,11 +788,11 @@ ul.list_property li .property_head .btn_wishlist.on {
 }
 
 .section_near_property ul.list_property li .property_img {
-    height: 271px;
+    height: 237px;
 }
 
 .section_near_property ul.list_property li .property_img img {
-    height: 271px;
+    height: 237px;
     transform: scale(1);
     transition: .3s ease-in-out;
 }
@@ -800,6 +800,7 @@ ul.list_property li .property_head .btn_wishlist.on {
 .section_near_property ul.list_property li .property_img p.total_price {
     position: relative;
     display: inline-block;
+    font-size: 1em;
 }
 
 .section_near_property ul.list_property li .w_property_head {
@@ -820,11 +821,19 @@ ul.list_property li .property_head .btn_wishlist.on {
 }
 
 .section_near_property ul.list_property li .property_head p.property_name {
-    font-size: 1em;
+    font-size: 0.875em;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.section_near_property ul.list_property li .property_head p.property_address {
+    font-size: 0.625em;
+}
+
+.section_near_property ul.list_property li .property_head p.property_square {
+    font-size: 0.625em;
 }
 
 .btnSeemore {
@@ -2206,7 +2215,7 @@ footer .footer_bottom .btn img {
     }
 
     .section_near_property ul.list_property li .property_img img {
-        height: 255;
+        height: 255px;
     }
 
     .section_near_property ul.list_property li .property_img p.total_price {
