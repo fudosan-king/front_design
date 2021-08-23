@@ -1,0 +1,98 @@
+.board-tool{
+	position: fixed;
+	top:92px;
+	left:20px;
+	ul{
+		list-style-type: none;
+		padding-left:0;
+		li{
+			a{
+				border: 1px solid #BDC0BA;
+			    background: #fff;
+			    width: 50px;
+			    height: 50px;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    svg{
+			    	fill:#5B5B5B;
+			    	
+				}
+				&:hover{
+					svg{
+						fill:#1F91B3;
+					}
+				}
+			}
+
+			&:last-child{
+				margin-right:0;
+			}
+		}
+	}
+}
+
+.board-info{
+	background: #5B5B5B;
+	padding:9px 20px;
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	.col-left,.col-right{
+		display:flex;
+		float:left;
+    	width: 50%;
+    	@media (max-width: 991px){
+    		width: 100%;
+    		float:none;
+    		justify-content:center;
+    		padding:10px;
+    	}
+	}
+	.btn-yellow{
+		width: 100%;
+		margin-right:10px;
+		max-width: 176px;
+		background: #D3A243;
+		border-radius: 3px;
+		font-weight: 600;
+		font-size: 0.875rem;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #FFFFFF;
+	}
+	.col-right{
+		justify-content: flex-end;
+		@media (max-width: 991px){
+			justify-content: center;
+			flex-flow: wrap;
+			align-item:center;
+		}
+		span{
+			font-family: Hiragino Kaku Gothic Pro;
+			font-weight: bold;
+			font-size: 1.125rem;
+			line-height: 27px;
+			display: flex;
+			align-items: center;
+			color: #D1D1D1;
+			justify-content: center;
+			margin-right:20px;
+			@media (max-width: 991px){
+				
+				text-align: center;
+			}
+			@media (max-width: 576px){
+				margin-bottom:20px;
+			}
+		}
+		.btn-yellow{
+			margin-right:0;
+			max-width: 186px;
+		}
+	}
+}
+
+

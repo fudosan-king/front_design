@@ -1,0 +1,224 @@
+.i-arrow{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: rotate(-180deg) translate(4px,5px);
+		background-image: url('../images/icons/i-arrow-gray.svg');
+		background-repeat:no-repeat;
+		background-size:8px 9px;
+		width:8px;
+		height:9px;
+	}
+}
+
+
+.i-arrow-tab{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		transform: rotate(-90deg);
+		background-image: url('../images/icons/i-arrow-green.svg');
+		background-repeat:no-repeat;
+		background-size:1em 1em;
+		width:1em;
+		height:1em;
+		right:0;
+	}
+}
+
+
+.i-arrow-white{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		transform: rotate(-90deg);
+		background-image:url('../images/icons/i-arrow-white.svg');
+		background-repeat:no-repeat;
+		background-size:1em 1em;
+		width:1em;
+		height:1em;
+		right:0;
+	}
+}
+
+.i-col-light{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-col-light.svg');
+		background-repeat:no-repeat;
+		background-size:20px 12px;
+		width:20px;
+		height:12px;
+	}
+}
+
+
+.i-col-dark{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-col-dark.svg');
+	    background-repeat: no-repeat;
+		background-size:20px 12px;
+		width:20px;
+		height:12px;
+	}
+}
+
+.i-list-light{
+
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-list-light.svg');
+		background-repeat:no-repeat;
+		background-size:20px 12px;
+		width:20px;
+		height:12px;
+	}
+}
+
+.i-list-dark{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-list-dark.svg');
+		background-repeat:no-repeat;
+		background-size:20px 12px;
+		width:20px;
+		height:12px;
+	}
+}
+
+.i-heart-line-white{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-heart-line-white.svg');
+		background-repeat:no-repeat;
+		background-size:17px 15px;
+		width:17px;
+		height:15px;
+		right:0;
+	}
+}
+
+.i-heart-weight-white{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-heart-weight-white.svg');
+		background-repeat:no-repeat;
+		background-size:17px 15px;
+		width:17px;
+		height:15px;
+		right:0;
+	}
+}
+
+.i-search-white{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-search-white.svg');
+		background-repeat:no-repeat;
+		background-size:20px 16px;
+		width:20px;
+		height:16px;
+		right:0;
+	}
+}
+
+.i-search-orange{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-search-orange.svg');
+		background-repeat:no-repeat;
+		background-size:20px 16px;
+		width:20px;
+		height:16px;
+		right:0;
+	}
+}
+
+
+.i-arrow-weight-gray{
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		background-image:url('../images/icons/i-arrow-weight-gray.svg');
+		background-repeat:no-repeat;
+		background-size:20px 12px;
+		width:20px;
+		height:12px;
+	}
+}
+
+
+.i-heart-circle-light{
+	position: relative;
+	&:before{
+	    content: '';
+	    position: absolute;
+	    top: 2px;
+	    left: 2px;
+	    background-image: url(../images/icons/i-heart-circle-light.svg);
+	    background-repeat: no-repeat;
+	    background-size: 20px 20px;
+	    height: 20px;
+	    width: 20px;
+	}
+}
+
+
+.i-heart-circle-weight{
+	position: relative;
+	&:before{
+	    content: '';
+	    position: absolute;
+	    top: 2px;
+	    left: 2px;
+	    background-image: url(../images/icons/i-heart-circle-weight.svg);
+	    background-repeat: no-repeat;
+	    background-size: 20px 20px;
+	    height: 20px;
+	    width: 20px;
+	}
+}
+
+
+

@@ -1,0 +1,26 @@
+body{
+	overflow-x:hidden;
+	position: relative;
+	background:url('../images/common/bg.jpg');
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+img{
+	height:auto;
+	max-width: 100%;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.form-control{
+padding: 4px 24px 4px 12px;
+background: #fff url(../images/icons/i-arrow-weight-gray.svg) no-repeat calc(100% - 10px) center;
+}
+
+.btn-check:focus+.btn, .btn:focus{
+	box-shadow:none;
+}
