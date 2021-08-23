@@ -389,6 +389,18 @@ span.drawer-btn{
 	label{
 		width: 100%;
 	}
+	.input-group{
+		margin-bottom:10px;
+		flex-wrap: nowrap;
+		input{
+			max-width: 200px;
+			width: 100%;
+			margin-right: 5px;
+		}
+		button{
+			border-radius: 3px;
+		}
+	}
 	input,select{
 		height:30px;
 		border: 1px solid #D1D1D1;
@@ -398,13 +410,10 @@ span.drawer-btn{
 		margin-right:auto;
 		padding:5px;
 		font-size:0.625rem;
-		margin-bottom:15px;
+		margin-bottom:0;
 		position: relative;
 	}
 
-	input{
-		width: 200px;
-	}
 
 
 	.btn-turquoise{
@@ -447,6 +456,14 @@ span.drawer-btn{
 			padding:15px 0;
 		}
 	}
+
+	.nav-icon{
+	    display: inline-block;
+	    width: 16px;
+    	height: 9px;
+    	margin-right:18px;
+	}
+
 }
 
 //List mode
@@ -480,43 +497,8 @@ ul.drawer-items{
 			margin-right:0;
 		}
 	}
-}
-
-.has-icon-side{
-	display:flex;
-	button{
-		border-radius:0;
-		border-bottom: 1px solid #d1d1d1;
-	}
-	>*{
-		-webkit-box-flex: 1;
-	    -ms-flex-positive: 1;
-	    flex-grow: 1;
-	    display: -webkit-box;
-	    display: -ms-flexbox;
-	    display: flex;
-	    -webkit-box-align: center;
-	    -ms-flex-align: center;
-	    align-items: center;
-	    -webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	    justify-content: center;
-	    -webkit-box-sizing: border-box;
-	    box-sizing: border-box;
-	}
-	p{
-		text-align: left;
-		width: 100%;
-	}
-
-	.nav-icon{
-	    display: inline-block;
-	    width: 16px;
-    	height: 9px;
-    	margin-right:18px;
-    	margin: 0 auto;
-	}
 
 }
+
 
 
