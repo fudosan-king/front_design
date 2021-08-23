@@ -158,6 +158,68 @@
 								</div>
 							</li>
 
+							<li>
+								<button class="btn drawer-btn_down drawer-listitem__tex"
+									type="button" 
+								 	data-bs-toggle="collapse" 
+								 	data-bs-target="#multiCollapse_21" 
+								 	aria-expanded="false"
+								 	>
+								 	<p>
+								 		床材<i class="right i-arrow-tab"></i>
+								 	</p>
+								 </button>
+								 <div class="collapse multi-collapse" id="multiCollapse_21">
+									<div class="drawer-navbars_top drawer-hidden ">
+										<div class="drawer-navbar">
+											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
+										</div>
+									</div>
+									<div class="drawer-group">
+										<ul class="drawer-items drawer-collapse">
+											<li>
+												<p>フローリング</p>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+											</li>
+											<li>
+												<p>カーペット</p>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+											</li>
+											<li>
+												<p>タイル</p>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+											</li>
+											<li>
+												<p>クッションフロア</p>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+											</li>
+											<li>
+												<p>畳</p>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+											</li>
+											<li>
+												<p>その他</p>
+												<div data-id="69" class="drawer-item"></div>
+												<div data-id="69" class="drawer-item"></div>
+											</li>		
+										</ul>
+									</div>
+								</div>
+							</li>
+
 							<li class="drawer-listitem tree">
 								<button class="btn drawer-btn_down drawer-listitem__tex"
 								type="button" 
@@ -438,11 +500,18 @@
 																<i class="zoom i-search-orange"></i>
 											 				</div>
 											 			</li>
-											 			<li>
-											 				<p>玄関ドア</p>
-											 			</li>
+											 		
 											 		</ul>
 											 	</div>
+
+											 	<button class="btn drawer-btn_down drawer-listitem__tex"
+												type="button" 
+											 	data-bs-toggle="collapse" 
+											 	data-bs-target="#multiCollapse_sub-44"
+											 	aria-expanded="false">
+											 	<p>玄関ドア</p>
+											 	</button>
+											 	
 
 											 	<button class="btn drawer-btn_down drawer-listitem__tex"
 												type="button" 
@@ -1109,7 +1178,7 @@
 							 	data-bs-toggle="collapse" 
 							 	data-bs-target="#multiCollapse_8" 
 							 	aria-expanded="false">
-							 	<p>契約企業登録アイテム</p>
+							 	<p>契約企業登録アイテム<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_8">
 							 		<div class="drawer-navbars_top drawer-hidden">
@@ -1117,7 +1186,14 @@
 											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
 										</div>
 									</div>
-									<div class="drawer-group"></div>
+									<div class="drawer-group">
+										<ul class="drawer-items drawer-collapse">
+											<li class="drawer-item_sub">
+												<p>契約企業が設定</p>
+												<div data-id="69" class="drawer-item"></div>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</li>
 
@@ -1263,7 +1339,7 @@
 											 				<div data-id="69" class="drawer-item"></div>
 											 			</li>
 											 			<li>
-											 				<p>カーテン</p>
+											 				<p>ブラインド</p>
 											 				<div data-id="69" class="drawer-item"></div>
 											 				<div data-id="69" class="drawer-item"></div>
 											 			</li>
@@ -1622,7 +1698,7 @@
 			<a href="#" class="btn btn-yellow">共有する</a>
 		</div>
 		<div class="col-right">
-			<span>プラン参考価格 ¥290,000,000</span>
+			<span>プラン参考価格&nbsp;<span class="preview-total-price">¥290,000,000</span></span>
 			<button type="button" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#infoModal">御見積りを確認する</button>
 		</div>
 	</div>
@@ -1661,12 +1737,10 @@
 	        				<tr>
 	        					<td class="d-none"></td>
 	        					<td data-title="削除">
-	        						
 	    							<label class="custom-checkbox">
-	    								<input type="checkbox" name="" value="">
+	    								<input class="hasChoice" type="checkbox" checked name="" value="">
 	    								<span class="checkmark"></span>
 	    							</label>
-	        						
 	        					</td>
 	        					<td data-title="商品名">
 	        						<p class="images">
@@ -1687,10 +1761,14 @@
 	        						<p class="price">￥100,000</p>
 	        					</td>
 	        					<td data-title="数量">
-	        						<input type="number" name="" value="">
+	        						<div class="quantity-block">
+		        						<input data-price="100000" type="number" name="" value="1">
+		        						<span class="up-num"><i class="i-arrow-up-weight"></i></span>
+		        						<span class="down-num"><i class="i-arrow-down-weight"></i></span>
+	        						</div>
 	        					</td>
 	        					<td data-title="小計">
-	        						<p class="total">￥240,000</p>
+	        						<p class="total" data-total="100000">￥100,000</p>
 	        					</td>
 	        				</tr>
 	        				<tr>
@@ -1698,7 +1776,7 @@
 	        					<td data-title="削除">
 	        						
 	    							<label class="custom-checkbox">
-	    								<input type="checkbox" name="" value="">
+	    								<input class="hasChoice" checked  type="checkbox" name="" value="">
 	    								<span class="checkmark"></span>
 	    							</label>
 	        						
@@ -1722,10 +1800,14 @@
 	        						<p class="price">￥120,000</p>
 	        					</td>
 	        					<td data-title="数量">
-	        						<input type="number" name="" value="">
+	        						<div class="quantity-block">
+		        						<input data-price="120000" type="number" name="" value="2">
+		        						<span class="up-num"><i class="i-arrow-up-weight"></i></span>
+		        						<span class="down-num"><i class="i-arrow-down-weight"></i></span>
+	        						</div>
 	        					</td>
 	        					<td data-title="小計">
-	        						<p class="total">￥240,000</p>
+	        						<p class="total" data-total="240000">￥240,000</p>
 	        					</td>
 	        				</tr>
 	        			</tbody>
@@ -1733,15 +1815,15 @@
 	        		<div class="body_ct_result">
 	        			<div class="body_ct_result_list">
 	        				<p class="txt">小計税抜</p>
-	        				<p class="num">360,000￥</p>
+	        				<p class="num before-vat">340,000￥</p>
 	        			</div>
 	        			<div class="body_ct_result_list">
 	        				<p class="txt">税率</p>
-	        				<p class="num">36,000￥</p>
+	        				<p class="num vat">34,000￥</p>
 	        			</div>
 	        			<div class="body_ct_result_list">
 	        				<p class="txt">会計</p>
-	        				<p class="num">396,000￥</p>
+	        				<p class="num after-vat">374,000￥</p>
 	        			</div>
 	        		</div>
 	        	</div>

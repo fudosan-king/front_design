@@ -179,3 +179,31 @@
 		margin:0 10px;
 	}
 }
+
+
+.quantity-block{
+	position: relative;
+	max-width: 80px;
+	span{
+		position: absolute;
+		width:.6em;
+		height:.6em;
+    	right: 5px;
+    	cursor: pointer;
+		&.up-num{
+			top: 4px;
+		}
+		&.down-num{
+			bottom: 4px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

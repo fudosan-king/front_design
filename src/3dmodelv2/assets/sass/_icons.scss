@@ -220,5 +220,34 @@
 	}
 }
 
+.i-arrow-up-weight{
+	position: relative;
+	&:before{
+	    content: '';
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	    background-image: url(../images/icons/i-arrow-up-weight.svg);
+	    background-repeat: no-repeat;
+	    background-size: .6em .6em;
+	    height: .6em;
+	    width: .6em;
+	}
+}
+
+.i-arrow-down-weight{
+	position: relative;
+	&:before{
+	    content: '';
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	    background-image: url(../images/icons/i-arrow-down-weight.svg);
+	    background-repeat: no-repeat;
+	    background-size: .6em .6em;
+	    height: .6em;
+	    width: .6em;
+	}
+}
 
 

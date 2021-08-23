@@ -24,3 +24,16 @@ background: #fff url(../images/icons/i-arrow-weight-gray.svg) no-repeat calc(100
 .btn-check:focus+.btn, .btn:focus{
 	box-shadow:none;
 }
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
