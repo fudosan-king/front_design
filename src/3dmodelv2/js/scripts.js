@@ -1,6 +1,5 @@
 function menu()
 {
-
     this.html = {
         drawer_current_items:'.drawer-items:not(.drawer-detail)',
         drawer_item:'.drawer-item',
@@ -48,6 +47,20 @@ function menu()
         _this.showDetail();
         _this.backFromDetailToItems();
         _this.drawerPos();
+        _this.drawerMenu();
+    }
+
+
+    this.drawerMenu = function ()
+    {
+        const eleFooterBoard = document.querySelector('.board-info');
+        const eleDrawerMenu = document.querySelector('.drawer-menu');
+        let height = eleFooterBoard.offsetHeight;
+        eleDrawerMenu.style.height = 'calc(100% - '+height+'px)';
+        window.addEventListener('resize', ()=>{
+            let height = eleFooterBoard.offsetHeight;
+            eleDrawerMenu.style.height = 'calc(100% - '+height+'px)';
+        });
     }
 
     this.drawerPos = function()
@@ -66,7 +79,6 @@ function menu()
             eleTool.style.top = (height+20)+'px';
         });   
     }
-
 
 
     this.backFromDetailToItems = function()
@@ -249,9 +261,9 @@ function menu()
     }
 }
 
+
 function helper()
 {
-    
     this.func = {
         modal:new bootstrap.Modal(
             document.getElementById("infoModal")
@@ -264,13 +276,225 @@ function helper()
         const {modal} = _this.func;
         modal.hide();
     }
-
 }
 
+
+function handle_modal()
+{
+    this.ready = function()
+    {
+        const _this = this;
+        _this.numIncrease();
+        _this.numDecrease();
+        _this.numChange();
+        _this.choseItem();
+    }
+
+    this.choseItem = function()
+    {
+        const _this = this;
+        const choseItems = document.querySelectorAll('#infoModal .hasChoice');
+        choseItems.forEach(choseItem=>{
+            choseItem.addEventListener('change',e=>{
+                const {currentTarget} = e;
+                _this.calculateResult();
+            });
+        });
+    }
+
+    this.numChange = function()
+    {
+        const _this = this;
+        const change_inputs = document.querySelectorAll('.quantity-block input');
+
+        change_inputs.forEach(change_input=>{
+            change_input.addEventListener('change', e => {
+                const {currentTarget} = e;
+                const nextParent = currentTarget.closest('td').nextElementSibling;
+                
+                let value = parseInt(currentTarget.value);
+                if( value <= 1 || isNaN(value) ) {
+                    value = currentTarget.value = 1;
+                }
+                const options = {
+                    input: currentTarget,
+                    nextParent:nextParent,
+                    value:value,
+                }
+                _this.calculatePrice(options);   
+            });
+        });
+    }
+
+    this.numIncrease = function()
+    {
+        const _this = this;
+        const up_nums = document.querySelectorAll('.quantity-block .up-num');
+        const up_inputs = document.querySelectorAll('.quantity-block input');
+        up_nums.forEach(up_num=>{
+            up_num.addEventListener('click',e=>{
+                const {currentTarget} = e;
+                const nextParent = currentTarget.closest('td').nextElementSibling;
+                
+                const input = currentTarget.closest('.quantity-block').querySelector('input');
+                let value = parseInt(input.value);
+                value = isNaN(value) ? 1 : value;
+                value++;
+                input.value = value;
+                //handle calculate
+                const options = {
+                    input: input,
+                    nextParent:nextParent,
+                    value:value,
+                }
+                _this.calculatePrice(options);    
+            });
+        });
+
+
+        up_inputs.forEach(up_input=>{
+            up_input.addEventListener('keydown', e => {
+                const {currentTarget} = e;
+                const key = e.key;
+                const nextParent = currentTarget.closest('td').nextElementSibling;
+                
+                let value = parseInt(currentTarget.value);
+                if(key === 'ArrowUp'){
+                    const options = {
+                        input: currentTarget,
+                        nextParent:nextParent,
+                        value:value,
+                    }
+                    _this.calculatePrice(options);   
+                }
+            });
+        });    
+    }
+
+    this.numDecrease = function()
+    {
+        const _this = this;
+        const down_nums = document.querySelectorAll('.quantity-block .down-num');
+        const down_inputs = document.querySelectorAll('.quantity-block input');
+       
+
+        down_nums.forEach(down_num=>{
+            down_num.addEventListener('click',e=>{
+                const {currentTarget} = e;
+                const nextParent = currentTarget.closest('td').nextElementSibling;
+                const input = currentTarget.closest('.quantity-block').querySelector('input');
+                
+
+                let value = parseInt(input.value);
+                value = isNaN(value) ? 1 : value;
+                if(value===1)return;
+                value--;
+                input.value = value;
+
+                //handle calculate
+                const options = {
+                    input: input,
+                    nextParent:nextParent,
+                    value:value,
+                }
+                _this.calculatePrice(options);  
+
+            }); 
+        });
+
+        down_inputs.forEach(down_input=>{
+            down_input.addEventListener('keydown', e => {
+                const {currentTarget} = e;
+                const nextParent = currentTarget.closest('td').nextElementSibling;
+                const key = e.key;
+                let value = parseInt(currentTarget.value);
+                if(key === 'ArrowDown'){
+                    if(value <= 1 || isNaN(value) ) {
+                        value = currentTarget.value = 1;
+                    }
+                    //handle calculate
+                    const options = {
+
+                        input: currentTarget,
+                        nextParent:nextParent,
+                        value:value,
+                    }
+                    _this.calculatePrice(options);  
+                } 
+            });
+        });    
+    }
+
+    this.calculatePrice = function(options)
+    {
+        const _this = this;
+        const {input,nextParent,value,hasChoice} = options;
+        const price = input.getAttribute('data-price');
+        //Each list
+        let calcPrice = price*value;
+        nextParent.querySelector('.total').setAttribute('data-total',calcPrice);
+        calcPrice = new Intl.NumberFormat(
+            'ja-JP', 
+            { 
+                style: 'currency', 
+                currency: 'JPY' 
+            }
+        ).format(calcPrice);
+        nextParent.querySelector('.total').innerHTML = calcPrice;
+
+        //Total List
+        _this.calculateResult();
+    }
+
+    this.calculateResult = function()
+    {
+        const totals = document.querySelectorAll('#infoModal .total');
+        let beforeVat = 0;
+        totals.forEach(total=>{
+            const hasChoice = total.closest('tr').querySelector('.hasChoice');
+            let price_total = parseInt(total.getAttribute('data-total'));
+            if( !isNaN(price_total) && hasChoice.checked ){
+                beforeVat += price_total;
+            }
+        });
+        const vat = beforeVat*0.1;
+        const afterVat = vat + beforeVat;
+        const beforeVatCurrency = new Intl.NumberFormat(
+            'ja-JP', 
+            { 
+                style: 'currency', 
+                currency: 'JPY' 
+            }
+        ).format(beforeVat);
+        const vatCurrency = new Intl.NumberFormat(
+            'ja-JP', 
+            { 
+                style: 'currency', 
+                currency: 'JPY' 
+            }
+        ).format(vat);
+        const afterVatCurrency = new Intl.NumberFormat(
+            'ja-JP', 
+            { 
+                style: 'currency', 
+                currency: 'JPY' 
+            }
+        ).format(afterVat);
+        document.querySelector('#infoModal .before-vat').innerHTML = beforeVatCurrency;
+        document.querySelector('#infoModal .vat').innerHTML = vatCurrency; 
+        document.querySelector('#infoModal .after-vat').innerHTML = afterVatCurrency;
+        document.querySelector('.board-info .col-right .preview-total-price').innerHTML = afterVatCurrency;
+    }
+}
+
+
+
+const run_handle_modal = new handle_modal();
 const action = new helper();
 const sideMenu = new menu();
 window.addEventListener('DOMContentLoaded', (event) => {
     sideMenu.ready();
+    run_handle_modal.ready();
 });
 
 
