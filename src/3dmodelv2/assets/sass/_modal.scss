@@ -18,6 +18,10 @@
 	}
 	.modal-dialog{
 		max-width: 1000px;
+		margin-top:60px;
+		@media(max-width:991px){
+			max-width:800px;
+		}
 	}
 	.modal-body{
 		padding:38px;
@@ -35,19 +39,20 @@
 		}
 	}
 	.body_ct{
+		.table-popup{
+			overflow: auto;
+		    width: 100%;
+		    height: calc(100% - 60px );
+		    max-height: 400px;
+		}
 		table{
 			width:100%;
-			thead{
-				@media(max-width:991px){
-					display: none;
-				}
-			}
 		}
 		td,th{
 			border-bottom:1px solid #D1D1D1;
 		}
 		td{
-			padding:24px 0;
+			padding:24px 5px;
 			p{
 				font-size: 0.875rem;
 				line-height: 17px;
@@ -106,15 +111,15 @@
 			input{
 				max-width: 80px;
 			}
-			@media (max-width: 991px){
-			    text-align: left!important;
-			    vertical-align: middle;
-			    border-right: none;
-			    border-top: none;
-			    display: block;
-			    padding-left: 50%;
-			    position: relative;
-			}
+			// @media (max-width: 991px){
+			//     text-align: left!important;
+			//     vertical-align: middle;
+			//     border-right: none;
+			//     border-top: none;
+			//     display: block;
+			//     padding-left: 50%;
+			//     position: relative;
+			// }
 		}
 		th{
 			font-size: 0.875rem;
@@ -124,23 +129,19 @@
 		}
 		@media(max-width:991px){
 			tr{
-				td:first-child{
-					background:#D1D1D1;
-				}
-				td+td:before {
-				    content: attr(data-title);
-				    left: 0;
-				    color: #000;
-				    display: inline-block;
-				    width: 50%;
-				    position: absolute;
-				    padding-left: 12px;
-				    @media (max-width:767px){
-						font-size: 0.875rem;
+				td{
+					white-space: nowrap;
+					p.images{
+						width: max-content;
+						text-align:center;
+					}
+					p.title{
+						width: max-content;
 					}
 				}
 			}
 		}
+
 	}
 }
 
