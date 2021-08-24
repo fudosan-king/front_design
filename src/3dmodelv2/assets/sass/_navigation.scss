@@ -5,6 +5,9 @@
 	width: 100%;
 	.container-fluid{
 		padding:0;
+		@media (max-width: 991px){
+			justify-content: center;
+		}
 	}
 	@media (min-width: 992px){
 		flex-wrap: nowrap;
@@ -18,6 +21,7 @@
 	    flex-grow: 1;
 	    align-items: center;
 	}
+
 }
 
 .header-menu{
@@ -60,6 +64,9 @@
 			margin-right:0;
 		}
 		@media (max-width:576px){
+			margin-right:20px;
+		}
+		@media (max-width:375px){
 			margin-right:10px;
 		}
 	}
@@ -67,11 +74,16 @@
 
 .header-menu_left{
 	@media (max-width: 991px){
-		display: none;
+		.navbar-list{
+			justify-content: center;
+		}
 	}
 }
 
 .header-menu_right{
+	@media (max-width: 991px){
+		display: none;
+	}
 	.navbar-list{
 		justify-content: flex-end;
 	}
