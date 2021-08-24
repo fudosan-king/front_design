@@ -34,7 +34,7 @@
                         <div class="card-header" id="headingOne">
                           <h2 class="mb-0">
                             <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              <img src="images/svg/i_map_black.svg" alt="" class="img-fluid" width="18"> エリアから探す</a>
+                              <img src="images/svg/i_map_black.svg" alt="" class="img-fluid" width="18"> <span>エリアから探す</span></a>
                             </button>
                           </h2>
                         </div>
@@ -73,7 +73,7 @@
                         <div class="card-header" id="headingTwo">
                           <h2 class="mb-0">
                             <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              <img src="images/svg/i_stations_black.svg" alt="" class="img-fluid" width="13"> 沿線から探す</a></li>
+                              <img src="images/svg/i_stations_black.svg" alt="" class="img-fluid" width="13"> <span>沿線から探す</span></a></li>
                             </button>
                           </h2>
                         </div>
@@ -111,7 +111,7 @@
                         <div class="card-header" id="headingThree">
                           <h2 class="mb-0">
                             <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <img src="images/svg/i_locations_black.svg" alt="" class="img-fluid" width="14"> MAPから探す
+                              <img src="images/svg/i_locations_black.svg" alt="" class="img-fluid" width="14"> <span>MAPから探す</span>
                             </button>
                           </h2>
                         </div>

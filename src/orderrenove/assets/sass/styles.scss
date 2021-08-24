@@ -322,6 +322,20 @@ header {
       right: 0;
       top: 100px;
     }
+    .accordion {
+      .card {
+        &:nth-child(1) {
+          .card-header {
+            .btn {
+              span {
+                position: relative;
+                left: -3px;
+              }
+            }
+          }
+        }
+      }
+    }
     .card {
       border-radius: 0;
       border-left: none;
@@ -1844,6 +1858,17 @@ footer {
       &:after {
         top: 56px;
       }
+      .accordion {
+        .card {
+            .card-header {
+              .btn {
+                span {
+                  display: inline-block;
+                }
+              }
+            }
+        }
+      }
       .card {
         .card-body {
           padding: 15px;
@@ -1862,7 +1887,6 @@ footer {
       min-width: 326px;
       top: 37px;
       right: -21px;
-      border-top: 1px solid #BDBDBD;
     }
   }
   
@@ -2144,7 +2168,7 @@ footer {
   }
 
   .section_pass {
-    padding-bottom: 184px;
+    padding-bottom: 50px;
   }
 
   .section_notice {

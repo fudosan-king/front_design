@@ -447,6 +447,11 @@ header.subheader.compressed .i_white {
     top: 100px;
 }
 
+.dropdown_search .dropdown_search_content .accordion .card:nth-child(1) .card-header .btn span {
+    position: relative;
+    left: -3px;
+}
+
 .dropdown_search .dropdown_search_content .card {
     border-radius: 0;
     border-left: none;
@@ -2051,11 +2056,14 @@ footer .footer_bottom .btn img {
         min-width: 326px;
         top: 37px;
         right: -21px;
-        border-top: 1px solid #BDBDBD;
     }
 
     .dropdown_search .dropdown_search_content:after {
         top: 56px;
+    }
+
+    .dropdown_search .dropdown_search_content .accordion .card .card-header .btn span {
+        display: inline-block;
     }
 
     .dropdown_search .dropdown_search_content .card .card-body {
@@ -2357,7 +2365,7 @@ footer .footer_bottom .btn img {
     }
 
     .section_pass {
-        padding-bottom: 184px;
+        padding-bottom: 50px;
     }
 
     .section_notice {
