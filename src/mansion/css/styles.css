@@ -913,8 +913,15 @@ footer .footer_bottom .btn img {
     .box_sort li:last-of-type {
         margin-left: 25px;
     }
-}
 
+    .d-table-none {
+        display: none;
+    }
+
+    .property-mobile {
+        display: block !important
+    }
+}
 
 .box_sort li:last-of-type a {
     color: #fff;
@@ -957,7 +964,21 @@ footer .footer_bottom .btn img {
 }
 
 .carousel_property .carousel-nav .carousel-cell img {
-    height: 310px;
+    height: 500px;
+}
+
+.carousel_property .carousel-nav .carousel-cell .description {
+    position: absolute;
+    background: #000;
+    left: 0;
+    bottom: -15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px 20px 25px 20px;
+    opacity: 0.5;
+    line-height: 14.4px;
 }
 
 .section_property_main .container {
@@ -1178,7 +1199,8 @@ footer .footer_bottom .btn img {
     background: #fff;
 }
 
-.box_renovation_specifications .renovation_specifications_table table th, .box_renovation_specifications .renovation_specifications_table table td {
+.box_renovation_specifications .renovation_specifications_table table th,
+.box_renovation_specifications .renovation_specifications_table table td {
     font-size: 0.875em;
 }
 
@@ -1190,19 +1212,25 @@ footer .footer_bottom .btn img {
     font-weight: 500;
 }
 
-.box_renovation_specifications .renovation_specifications_table .table th, .box_renovation_specifications .renovation_specifications_table .table td {
+.box_renovation_specifications .renovation_specifications_table .table th,
+.box_renovation_specifications .renovation_specifications_table .table td {
     font-size: 0.875em;
 }
 
 .box_renovation_specifications .renovation_specifications_table .table th {
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 12px;
+    color: #4F4F4F
 }
 
 .box_renovation_specifications .renovation_specifications_table .table td {
     font-weight: 500;
+    font-size: 14px;
+    color: #000000
 }
 
-.box_renovation_specifications .table-bordered td, .box_renovation_specifications .table-bordered th {
+.box_renovation_specifications .table-bordered td,
+.box_renovation_specifications .table-bordered th {
     border: none;
 }
 
@@ -1646,7 +1674,7 @@ footer .footer_bottom .btn img {
 
 .modal_register ul li a {
     display: block;
-    background: #f2f2f2;
+    background: #F2F2F2;
     padding: 10px;
     border-radius: 3px;
     font-weight: 700;
@@ -1666,7 +1694,7 @@ footer .footer_bottom .btn img {
 }
 
 .modal_register .btn_register {
-    background: #f2f2f2;
+    background: #F2F2F2;
     font-weight: 700;
     padding: 10px;
     border-radius: 3px;
@@ -1778,11 +1806,97 @@ footer .footer_bottom .btn img {
     .w_box_simulation_result {
         display: none;
     }
+
+    .d-table-none {
+        display: none;
+    }
+
+    .property-mobile {
+        display: block !important;
+    }
 }
 
 @media (max-width: 768px) {
     .box_confirm {
         padding: 15px;
+    }
+
+    .d-table-none {
+        display: none;
+    }
+    .property-mobile {
+        display: block !important;
+    }
+    .section_carousel_mobile{
+        display: block !important;
+    }
+
+    .table-mobile {
+        line-height: 21px
+
+    }
+
+    .table-mobile .table-img {
+        position: relative;
+    }
+
+    .table-mobile .text-img {
+        position: absolute;
+        background: #FFFFFF;
+        color: #ff4572;
+        font-size: 8px;
+        text-align: justify;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 0 5px;
+        border: 0.5px solid #ff4572;
+    }
+    .table-mobile .open-contract {
+        color: #ff4572;
+        border: 0.5px solid #ff4572;
+    }
+    .table-mobile .contracted {
+        color: #828282;
+        border: 0.5px solid #828282;
+    }
+    .table-mobile hr{
+        margin: 0.5rem auto;
+    }
+    .box_renovation_specifications .renovation_specifications_table .table th {
+        font-size: 9px;
+    }
+    .box_renovation_specifications .renovation_specifications_table .table td {
+        font-size: 12px;
+    }
+    .section_property_main .gmqp_pic .describe {
+        position: absolute;
+        top: 44%;
+        left: 37%;
+    }
+    .section_property_main .contract-case {
+        margin: 20px auto 50px auto;
+    }
+
+    .section_carousel_mobile .description {
+        position: absolute;
+        background: #000;
+        left: 0;
+        bottom: -15px;
+        font-weight: 500;
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: justify;
+        padding: 9px 10px;
+        opacity: 0.5;
+        line-height: 14.4px;
+    }
+    .flickity-prev-next-button {
+        top: 50%;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        transform: translateY(-50%);
     }
 
     section {
@@ -1973,7 +2087,6 @@ footer .footer_bottom .btn img {
         margin-bottom: 10px;
         padding-left: 30px;
         padding-right: 30px;
-
     }
 
     footer .footer_bottom .color-btn-footer {
@@ -2328,14 +2441,13 @@ footer .footer_bottom .btn img {
 
 .list_property .property .box_list_property .property_img {
     position: relative;
-
 }
 
 .list_property .property .box_list_property .property_img p.label_custom {
     position: absolute;
     top: -4px;
     right: -3px;
-    background: #BB6BD9;
+    background: #bb6bd9;
     font-size: 0.625em;
     font-weight: 600;
     text-align: center;
@@ -2358,7 +2470,6 @@ footer .footer_bottom .btn img {
     left: 0;
     bottom: 0;
     padding: 0 5px 0 2px;
-
 }
 
 .list_property .property .box_list_property .property_img p {
@@ -2375,7 +2486,6 @@ footer .footer_bottom .btn img {
 .list_property .property .box_list_property .property_head p.property_square {
     font-size: 0.85em;
 }
-
 
 .list_property .property .property-btn {
     padding: 20px 0;
@@ -2399,11 +2509,145 @@ footer .footer_bottom .btn img {
 
 .list_property .property .description .station {
     padding-bottom: 10px;
-    line-height: 16.8px
+    line-height: 16.8px;
 }
-.list_property .property .description .station img , .list_property .property .description .room img {
+
+.list_property .property .description .station img, .list_property .property .description .room img {
     padding-top: 3px;
 }
-.list_property .property .description .room{
-    line-height: 16.8px
+
+.list_property .property .description .room {
+    line-height: 16.8px;
+}
+
+/* Property detail */
+
+.section_property_main .btn-contract {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 50px;
+    background: linear-gradient(0deg, #EB5757, #EB5757);
+    border: 1px solid #EB5757;
+    border-radius: 4px;
+}
+
+.section_property_main .btn-contract a {
+    color: #FFFFFF;
+}
+
+.section_property_main p.table-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.section_property_main p.table-info-show {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.section_property_main .table-info-show .total-record {
+    font-size: 16px;
+}
+
+.section_property_main .table-info-show .total-page {
+    font-size: 16px;
+    color: #EB5757;
+}
+
+.section_property_main .table thead th {
+    vertical-align: bottom;
+    background: #e0e0e0;
+    font-size: 12px;
+    color: #333333;
+}
+
+.section_property_main .table td,
+.table th {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+.section_property_main .table .table-img {
+    position: relative;
+}
+
+.section_property_main .table .table-img .text-img {
+    position: absolute;
+    background: #FFFFFF;
+    font-size: 8px;
+    text-align: justify;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0 5px;
+}
+
+.section_property_main .table .table-img .open-contract {
+    color: #ff4572;
+    border: 0.5px solid #ff4572;
+}
+.section_property_main .table .table-img .contracted {
+    color: #828282;
+    border: 0.5px solid #828282;
+}
+
+.section_property_main .btn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 50px;
+    border: 1px solid #EB5757;
+    border-radius: 4px;
+}
+
+.section_property_main .btn-more a {
+    color: #EB5757;
+}
+
+.section_property_main .gmqp_pic {
+    position: relative;
+}
+
+.section_property_main .gmqp_pic img {
+    padding: 20px;
+}
+
+.section_property_main .gmqp_pic .describe {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+}
+
+.section_property_main .contract-case {
+    margin: 40px auto 60px auto;
+}
+
+.section_property_main .property-mobile {
+    display: none;
+}
+
+.font-9 {
+    font-size: 9px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.font-12 {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.section_carousel_mobile{
+    display: none;
 }
