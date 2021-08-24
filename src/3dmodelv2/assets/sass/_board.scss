@@ -2,6 +2,9 @@
 	position: fixed;
 	top:92px;
 	left:20px;
+	@media(max-width:991px){
+		display: none;
+	}
 	ul{
 		list-style-type: none;
 		padding-left:0;
@@ -39,15 +42,18 @@
 	bottom:0;
 	width: 100%;
 	z-index: 9999;
+	@media(max-width:576px){
+		padding:9px 10px;
+	}
+	.board-info_blocker{
+		display: flex;
+	}
 	.col-left,.col-right{
 		display:flex;
 		float:left;
-    	width: 50%;
     	@media (max-width: 991px){
-    		width: 100%;
     		float:none;
-    		justify-content:center;
-    		padding:10px;
+    		
     	}
 	}
 	.btn-yellow{
@@ -63,13 +69,40 @@
 		align-items: center;
 		justify-content: center;
 		color: #FFFFFF;
+		@media (max-width: 991px){
+			max-width:150px;
+			@include fluid-font-size(768px,991px,13px,14px);
+		}
+		@media (max-width: 767px){
+			max-width:105px;
+			@include fluid-font-size(576px,767px,10px,13px);
+		}
+		@media(max-width:576px){
+			@include fluid-font-size(320px,576px,6px,9px);
+			padding:0;
+		}
+	}
+	.col-left{
+		width: 50%;
+		@media(max-width:1200px){
+			width: 45%;
+		}
+		@media (max-width: 767px){
+			width: 38%;
+		}
 	}
 	.col-right{
+		width: 50%;
 		justify-content: flex-end;
+		@media(max-width:1200px){
+			width: 55%;
+		}
 		@media (max-width: 991px){
-			justify-content: center;
-			flex-flow: wrap;
+			flex-flow: nowrap;
 			align-item:center;
+		}
+		@media (max-width: 767px){
+			width: 65%;
 		}
 		span{
 			font-family: Hiragino Kaku Gothic Pro;
@@ -81,17 +114,39 @@
 			color: #D1D1D1;
 			justify-content: center;
 			margin-right:20px;
+			.preview-total-price{
+				margin-right:0;
+			}
 			@media (max-width: 991px){
-				
+				@include fluid-font-size(768px,991px,13px,14px);
 				text-align: center;
 			}
-			@media (max-width: 576px){
-				margin-bottom:20px;
+			@media (max-width: 767px){
+				@include fluid-font-size(546px,767px,10px,13px);
+			}
+			@media(max-width:576px){
+				@include fluid-font-size(320px,576px,7px,10px);
+			}
+			@media(max-width:375px){
+				margin-right:10px;
+				@include fluid-font-size(320px,576px,7.5px,10px);
 			}
 		}
 		.btn-yellow{
 			margin-right:0;
 			max-width: 186px;
+			@media (max-width: 991px){
+				max-width: 155px;
+			}
+			@media (max-width: 767px){
+				max-width:143px;
+			}
+			@media(max-width:576px){
+				max-width:90px;
+			}
+			@media(max-width:375px){
+				max-width:65px;
+			}
 		}
 	}
 }
