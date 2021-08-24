@@ -1,0 +1,279 @@
+.section_search {
+  background: #333030;
+  padding: 30px 0 45px;
+  
+
+  
+
+}
+
+.nav-tabs {
+  justify-content: center;
+  .nav-item {
+    margin-bottom: 0;
+    &:last-child {
+      .nav-link {
+        border-left: none;
+      }
+    }
+    &.show {
+      .nav-link {
+        background-color: #444444;
+        border-color: #dee2e6;
+      }
+    }
+    .nav-link {
+      border-radius: 0;
+      color: #fff;
+      border-color: #dee2e6 #dee2e6 #333030;
+      background: #222222;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: stretch;
+      position: relative;
+      min-width: 214px;
+      img {
+        margin-right: 10px;
+      }
+      &.active {
+        background-color: #333030;
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -2px;
+          width: 100%;
+          height: 1px;
+          background: #333030;
+        }
+      }
+    }
+  }
+}
+
+.frm_search {
+  ::placeholder {
+    color: #fff;
+  }
+  .custom-select {
+    color: #fff;
+    border-radius: 0;
+    background: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 14 8' style='enable-background:new 0 0 14 8;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:none;stroke:%23FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cpath class='st0' d='M1,1l6,6l6-6'/%3e%3c/svg%3e ") no-repeat right 1.2rem center/12px 10px;
+    background-color: #444444;
+    height: calc(1.5em + .75rem + 4px);
+    border: none;
+    padding-left: 20px;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .tab-content {
+    padding-top: 25px;
+    .frm_search_content {
+      display: flex;
+      justify-content: center;
+      .form-group {
+        margin-right: 20px;
+        margin-bottom: 0;
+        width: 204px;
+        &:first-child {
+          width: 316px;
+        }
+        &:last-child {
+          margin-right: 0;
+          width: 316px;
+        }
+        &.departureairport, &.checkin {
+          min-width: 316px;
+        }
+        &.box_number {
+          width: 92px;
+        }
+      }
+    }
+  }
+
+  .btn_searchby {
+    background: #fff;
+    color: #000;
+    font-size: 1.2308em;
+    width: 100%;
+    padding: 7px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  .box_date {
+    position: relative;
+    img {
+      position: absolute;
+      right: 20px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  label {
+    color: #fff;
+    font-size: 1.0769em;
+    font-weight: 600;
+  }
+  .form-control {
+    background: #444444;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    padding-left: 20px;
+    &.datetime, &.datetime2, &.datetime3, &.datetime4 {
+      padding-left: 20px;
+    }
+  }
+}
+
+
+.btn_findvacancy {
+  display: none;
+  background: #333030;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1.2308em;
+  &:hover, &:focus, &.focus {
+    color: #fff;
+  }
+}
+
+.modal_vacancysearch {
+  .modal-header {
+    padding-top: 0;
+    .close {
+      position: absolute;
+      right: 25px;
+      top: 25px;
+      opacity: 1;
+    }
+  }
+  .modal-title {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+  .modal-content {
+    background: #333030;
+    padding: 36px 25px 45px;
+    border: none;
+    border-radius: 0;
+  }
+  .modal-body {
+    padding: 0;
+  }
+
+  .frm_search {
+    label {
+      margin-bottom: 5px;
+    }
+    .tab-content {
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      padding: 65px 50px;
+      .frm_search_content {
+        display: block;
+        .form-group {
+          margin-bottom: 20px;
+          margin-right: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 593px;
+  }
+}
+
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 593px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+      -ms-transform: translate3d(0%, 0, 0);
+       -o-transform: translate3d(0%, 0, 0);
+          transform: translate3d(0%, 0, 0);
+}
+.modal.right .modal-content {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.modal.right.fade .modal-dialog {
+  right: -593px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+          transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .btn_findvacancy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  .modal_vacancysearch {
+    .modal-content {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .modal-title {
+      padding-top: 0;
+    }
+    .frm_search {
+      .tab-content {
+        padding: 50px 20px;
+      }
+    }
+  }
+  .modal.right .modal-dialog {
+    width: 100%;
+  }
+  .nav-tabs {
+    .nav-item {
+      flex: 1 1 auto;
+      .nav-link {
+        min-width: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 736px) {
+  footer {
+    .copyright {
+      padding-bottom: 100px;
+    }
+  }
+}
