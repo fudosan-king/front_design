@@ -464,6 +464,12 @@ input[type=number] {
     margin-right: 30px;
   }
 }
+@media (max-width: 576px) {
+  .header-menu .logo {
+    margin-right: 12px;
+    max-width: 100px;
+  }
+}
 .header-menu .navbar-list {
   list-style: none;
   display: -webkit-box;
@@ -484,6 +490,11 @@ input[type=number] {
 .header-menu li a svg {
   fill: #5B5B5B;
 }
+@media (max-width: 576px) {
+  .header-menu li a svg {
+    width: 16px;
+  }
+}
 .header-menu li a:hover svg {
   fill: #1F91B3;
 }
@@ -492,28 +503,10 @@ input[type=number] {
 }
 @media (max-width: 576px) {
   .header-menu li {
-    margin-right: 20px;
-  }
-}
-@media (max-width: 375px) {
-  .header-menu li {
-    margin-right: 10px;
+    margin-right: 13px;
   }
 }
 
-@media (max-width: 991px) {
-  .header-menu_left .navbar-list {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media (max-width: 991px) {
-  .header-menu_right {
-    display: none;
-  }
-}
 .header-menu_right .navbar-list {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
