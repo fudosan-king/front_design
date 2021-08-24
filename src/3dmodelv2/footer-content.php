@@ -1809,6 +1809,7 @@
 	        	</div>
 
 	        	<div class="body_ct">
+	        		<div class="table-popup">
 	        		<table>
 	        			<thead>
 	        			<tr>
@@ -1900,6 +1901,7 @@
 	        				</tr>
 	        			</tbody>
 	        		</table>
+	        		</div>
 	        		<div class="body_ct_result">
 	        			<div class="body_ct_result_list">
 	        				<p class="txt">小計税抜</p>

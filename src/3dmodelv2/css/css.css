@@ -1187,6 +1187,12 @@ ul.drawer-items .list-item:last-of-type {
 }
 #infoModal .modal-dialog {
   max-width: 1000px;
+  margin-top: 60px;
+}
+@media (max-width: 991px) {
+  #infoModal .modal-dialog {
+    max-width: 800px;
+  }
 }
 #infoModal .modal-body {
   padding: 38px;
@@ -1205,19 +1211,20 @@ ul.drawer-items .list-item:last-of-type {
     padding: 15px;
   }
 }
+#infoModal .body_ct .table-popup {
+  overflow: auto;
+  width: 100%;
+  height: calc(100% - 60px );
+  max-height: 400px;
+}
 #infoModal .body_ct table {
   width: 100%;
-}
-@media (max-width: 991px) {
-  #infoModal .body_ct table thead {
-    display: none;
-  }
 }
 #infoModal .body_ct td, #infoModal .body_ct th {
   border-bottom: 1px solid #D1D1D1;
 }
 #infoModal .body_ct td {
-  padding: 24px 0;
+  padding: 24px 5px;
 }
 #infoModal .body_ct td p {
   font-size: 0.875rem;
@@ -1281,17 +1288,6 @@ ul.drawer-items .list-item:last-of-type {
 #infoModal .body_ct td input {
   max-width: 80px;
 }
-@media (max-width: 991px) {
-  #infoModal .body_ct td {
-    text-align: left !important;
-    vertical-align: middle;
-    border-right: none;
-    border-top: none;
-    display: block;
-    padding-left: 50%;
-    position: relative;
-  }
-}
 #infoModal .body_ct th {
   font-size: 0.875rem;
   line-height: 17px;
@@ -1299,22 +1295,19 @@ ul.drawer-items .list-item:last-of-type {
   padding-bottom: 25px;
 }
 @media (max-width: 991px) {
-  #infoModal .body_ct tr td:first-child {
-    background: #D1D1D1;
+  #infoModal .body_ct tr td {
+    white-space: nowrap;
   }
-  #infoModal .body_ct tr td + td:before {
-    content: attr(data-title);
-    left: 0;
-    color: #000;
-    display: inline-block;
-    width: 50%;
-    position: absolute;
-    padding-left: 12px;
+  #infoModal .body_ct tr td p.images {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    text-align: center;
   }
-}
-@media (max-width: 991px) and (max-width: 767px) {
-  #infoModal .body_ct tr td + td:before {
-    font-size: 0.875rem;
+  #infoModal .body_ct tr td p.title {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 
