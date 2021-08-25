@@ -18,7 +18,7 @@ function createChart(id, type, options) {
     labels: ['管理費', '修繕積立金', 'ローン返済額'],
     datasets: [
         {
-            label: 'My First dataset',
+            // label: 'My First dataset',
             data: [10, 10, 80],
             backgroundColor: [
                 '#EB5757',
@@ -43,13 +43,14 @@ function createChart(id, type, options) {
     maintainAspectRatio: false,
     borderWidth: 0,
     legend: {
-      display: false
+      // display: false
+      // position: 'top',
     },
     plugins: {
-      labels: {
-        render: 'label',
-        fontColor: ['#000', '#000', '#000'],
-      }
+      // labels: {
+      //   render: 'label',
+      //   fontColor: ['#000', '#000', '#000'],
+      // }
     }
   });
 });

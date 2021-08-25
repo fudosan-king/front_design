@@ -310,7 +310,7 @@ header {
     position: absolute;
     right: -30px;
     top: 63px;
-    min-width: 377px;
+    min-width: 417px;
     &:after {
       content: '';
       position: fixed;
@@ -370,8 +370,8 @@ header {
           height: 250px;
           overflow: auto;
           li {
-            margin-right: 18px;
-            margin-bottom: 15px;
+            margin-right: 10px;
+            margin-bottom: 10px;
             position: relative;
             width: 29.33%;
             &:after {
@@ -399,7 +399,7 @@ header {
               display: block;
               background: #F2F2F2;
               border-radius: 100px;
-              padding: 0 20px;
+              padding: 0 10px;
               text-align: left;
             }
           }
@@ -511,6 +511,10 @@ header {
       }
     }
   }
+}
+
+.section_subbanner {
+  background: #fff;
 }
 
 ul.list_property {
@@ -824,6 +828,10 @@ footer {
   }
 }
 
+.section_carousel {
+  background: #fff;
+}
+
 .carousel_property {
   .carousel-main {
     margin-bottom: 20px;
@@ -840,19 +848,20 @@ footer {
 
   .carousel-nav {
     .carousel-cell {
-      width: 466px;
-      height: 310px;
+      width: 353px;
+      height: 265px;
       margin-right: 20px;
       img {
-        height: 310px;
+        height: 265px;
       }
     }
   }
 }
 
 .section_property_main {
+  background: #fff;
   .container {
-    max-width: 941px;
+    // max-width: 941px;
   }
   .box_calcu {
     background: #fff;
@@ -871,6 +880,8 @@ footer {
     .frm_calcu {
       h5 {
         font-size: 1.5em;
+        line-height: 1em;
+        margin-bottom: 0;
         span {
           font-weight: normal;
           font-size: 0.5833em;
@@ -1089,6 +1100,9 @@ footer {
 
   .map {
     padding: 0 20px;
+    p {
+      font-size: 0.875em;
+    }
   }
   .btn_viewmap {
     color: $prink-color;
@@ -1721,7 +1735,7 @@ footer {
 
   .w_box_simulation_result {
     display: none;
-    padding: 0 20px;
+    padding: 0;
   }
 
 }
@@ -1968,6 +1982,9 @@ footer {
         padding-right: 30px;
         margin-right: 5px;
         width: 48%;
+        &.btn_conditions {
+          width: auto;
+        }
       }
     }
     p {
@@ -2118,6 +2135,11 @@ footer {
       .frm_calcu {
         .box_simulation_result {
           padding: 15px 5px;
+          span {
+            &.sub {
+              font-size: .8em;
+            }
+          }
           h2 {
             font-size: 1.875em;
           }
@@ -2149,6 +2171,9 @@ footer {
           margin: 5px 0;
         }
         
+        .label_repayment_amount {
+          margin-bottom: 0;
+        }
       }
 
 
@@ -2335,7 +2360,9 @@ footer {
   }
   .dropdown_search {
     .dropdown_search_content {
-      min-width: 385px;
+      min-width: auto;
+      width: 100vw;
+      right: -15px;
     }
   }
   footer {
@@ -2357,6 +2384,14 @@ footer {
   }
 }
 
+@media (max-width: 360px) {
+  .dropdown_user {
+    .dropdown_user_content {
+      min-width: 327px;
+    }
+  }
+}
+
 @media (max-width: 320px) {
   .dropdown_user {
     .dropdown_user_content {
@@ -2370,7 +2405,9 @@ footer {
         .card-body {
           ul {
             li {
-
+              a {
+                font-size: .5em;
+              }
             }
           }
         }
@@ -2444,12 +2481,23 @@ footer {
   .section_property_main {
     .box_calcu {
       .frm_calcu {
+        h5 {
+          span {
+            font-size: .6em;
+          }
+        }
+        span {
+          &.sub {
+            font-size: .7em;
+          }
+        }
         .form-control {
           max-width: 115px;
         }
       }
     }
   }
+
 
 }
 

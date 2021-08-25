@@ -6,14 +6,15 @@
 
         <main>
             <div class="box_template">
-                <section class="section_subbanner p-0">
-                    <img src="images/KV.jpg" alt="" class="img-fluid w-100">
+                <section class="section_subbanner pb-0">
+                    <div class="container">
+                        <img src="images/KV.jpg" alt="" class="img-fluid w-100">
+                    </div>
                 </section>
 
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <!-- <h2 class="title mb-2">秀和麻布笄町レジデンス</h2> -->
                             <p class="subtitle mb-2">
                                 <small>東京都港区西麻布2丁目24-25<br>
                                 50.4m²（15.24坪）（壁芯）<br>
@@ -24,29 +25,31 @@
                 </section>
 
                 <section class="p-0 section_carousel">
-                    <div class="carousel_property">
-                        <div class="carousel carousel-main"
-                        data-flickity='{"contain": true, "pageDots": false, "initialIndex": 1 }'>
-                            <div class="carousel-cell">
-                                <img src="images/KV.jpg" alt="" class="img-fluid">
+                    <div class="container">
+                        <div class="carousel_property">
+                            <div class="carousel carousel-main"
+                            data-flickity='{"contain": true, "pageDots": false, "initialIndex": 1 }'>
+                                <div class="carousel-cell">
+                                    <img src="images/KV.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="carousel-cell">
+                                    <img src="images/img.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="carousel-cell">
+                                    <img src="images/kv03.jpg" alt="" class="img-fluid">
+                                </div>
                             </div>
-                            <div class="carousel-cell">
-                                <img src="images/img.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="carousel-cell">
-                                <img src="images/kv03.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="carousel carousel-nav"
-                            data-flickity='{"asNavFor": ".carousel-main", "contain": true, "prevNextButtons": false, "pageDots": false }'>
-                            <div class="carousel-cell">
-                                <img src="images/KV.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="carousel-cell">
-                                <img src="images/img.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="carousel-cell">
-                                <img src="images/kv03.jpg" alt="" class="img-fluid">
+                            <div class="carousel carousel-nav"
+                                data-flickity='{"asNavFor": ".carousel-main", "contain": true, "prevNextButtons": false, "pageDots": false }'>
+                                <div class="carousel-cell">
+                                    <img src="images/KV.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="carousel-cell">
+                                    <img src="images/img.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="carousel-cell">
+                                    <img src="images/kv03.jpg" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -94,16 +97,23 @@
                                                     </p>
 
                                                     <div class="w_box_simulation_result">
-                                                        <div class="row no-gutters">
+                                                        <div class="row">
                                                             <div class="col-7 col-lg-6">
-                                                                <div class="form-group">
+                                                                <div class="form-group mb-0 mb-lg-3">
                                                                     <label for="">毎月のローン返済額</label>
                                                                     <p class="label_repayment_amount">155,089<span>円</span></p>
-                                                                    <!-- <div class="d-flex align-items-center">
-                                                                        <input type="text" class="form-control repayment_amount" placeholder="">
-                                                                        <span class="ml-2"></span>
-                                                                    </div> -->
                                                                 </div>
+                                                            </div>
+                                                            <div class="col-5 col-lg-6 align-self-end">
+                                                                <div class="form-group mb-0">
+                                                                    <label class="mb-0" for="">管理費</label>
+                                                                    <h5>200,000<span>万／月</span></h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mt-2 mt-lg-0">
+                                                            <div class="col-7 col-lg-6">
                                                                 <div class="form-group">
                                                                     <label for="">ボーナス分返済金額（年2回）</label>
                                                                     <div class="d-flex align-items-center">
@@ -111,16 +121,17 @@
                                                                         <span class="ml-2 sub">円/回</span>
                                                                     </div>
                                                                 </div>
-                                                                <div class="form-group mb-0">
-                                                                    <label class="mb-0" for="">管理費</label>
-                                                                    <h5>200,000<span>万／月</span></h5>
-                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 col-lg-6 align-self-end">
                                                                 <div class="form-group">
                                                                     <label class="mb-0" for="">修繕積立金</label>
                                                                     <h5>26,000<span>万／月</span></h5>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-5 col-lg-6">
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-12 col-lg-12">
                                                                 <canvas id="pie-canvas1"></canvas>
                                                             </div>
                                                         </div>
@@ -155,7 +166,7 @@
                                                         <hr class="mt-5">
                                                         <div class="form-group mb-0">
                                                             <div class="row">
-                                                                <div class="col-6 col-lg-6">
+                                                                <div class="col-12 col-lg-6">
                                                                     <label for="">返済期間</label>
                                                                     <div class="d-flex align-items-center">
                                                                         <input type="text" class="form-control repayment" placeholder="35">
