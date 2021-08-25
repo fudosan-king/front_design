@@ -80,7 +80,7 @@
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
                                 <ul>
-                                    <li><a href="#">足立区</a></li>
+                                    <li><a href="#">湘南新宿ライン</a></li>
                                     <li><a href="">荒川区</a></li>
                                     <li><a href="">板橋区</a></li>
                                     <li><a href="">江戸川区</a></li>
