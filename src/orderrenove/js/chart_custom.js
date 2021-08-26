@@ -27,13 +27,15 @@ function createChart(id, type, options) {
             ],
             borderWidth: 0,
         }
-    ]
+    ],
+
   };
+
 
   new Chart(document.getElementById(id), {
     type: type,
     data: data,
-    options: options
+    options: options,
   });
 }
 
@@ -43,14 +45,20 @@ function createChart(id, type, options) {
     maintainAspectRatio: false,
     borderWidth: 0,
     legend: {
-      // display: false
-      // position: 'top',
+      // display: false,
+      position: 'top',
     },
     plugins: {
-      // labels: {
-      //   render: 'label',
-      //   fontColor: ['#000', '#000', '#000'],
-      // }
-    }
+      labels: {
+        // render: 'label',
+        // fontColor: ['#EB5757', '#F2994A', '#F2C94C'],  
+      },
+    },
+
+    
+
   });
+
+  
+
 });

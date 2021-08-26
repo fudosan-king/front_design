@@ -98,43 +98,40 @@
 
                                                     <div class="w_box_simulation_result">
                                                         <div class="row">
-                                                            <div class="col-7 col-lg-6">
-                                                                <div class="form-group mb-0 mb-lg-3">
-                                                                    <label for="">毎月のローン返済額</label>
-                                                                    <p class="label_repayment_amount">155,089<span>円</span></p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-5 col-lg-6 align-self-end">
-                                                                <div class="form-group mb-0">
-                                                                    <label class="mb-0" for="">管理費</label>
-                                                                    <h5>200,000<span>万／月</span></h5>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row mt-2 mt-lg-0">
-                                                            <div class="col-7 col-lg-6">
-                                                                <div class="form-group">
-                                                                    <label for="">ボーナス分返済金額（年2回）</label>
-                                                                    <div class="d-flex align-items-center">
-                                                                        <input type="text" class="form-control" placeholder="0">
-                                                                        <span class="ml-2 sub">円/回</span>
+                                                            <div class="col-12 col-lg-6">
+                                                                <div class="row">
+                                                                    <div class="col-6 col-lg-12">
+                                                                        <div class="form-group mb-0 mb-lg-3">
+                                                                            <label for="">毎月のローン返済額</label>
+                                                                            <p class="label_repayment_amount">155,089<span>円</span></p>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label for="">ボーナス分返済金額（年2回）</label>
+                                                                            <div class="d-flex align-items-center">
+                                                                                <input type="text" class="form-control" placeholder="0">
+                                                                                <span class="ml-2 sub">円/回</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 col-lg-12 align-self-end">
+                                                                        <div class="form-group">
+                                                                            <label class="mb-0" for="">管理費</label>
+                                                                            <h5>200,000<span>万／月</span></h5>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="mb-0" for="">修繕積立金</label>
+                                                                            <h5>26,000<span>万／月</span></h5>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-5 col-lg-6 align-self-end">
-                                                                <div class="form-group">
-                                                                    <label class="mb-0" for="">修繕積立金</label>
-                                                                    <h5>26,000<span>万／月</span></h5>
-                                                                </div>
-                                                            </div>
-                                                        </div>
 
-                                                        <div class="row">
-                                                            <div class="col-12 col-lg-12">
+                                                            <div class="col-12 col-lg-6">
                                                                 <canvas id="pie-canvas1"></canvas>
                                                             </div>
                                                         </div>
+
+                                                        
                                                     </div>
                                                     
 

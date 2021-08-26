@@ -6,6 +6,7 @@
 
 <script src="js/Chart.bundle.min.js"></script>
 <script src="js/chartjs-plugin-labels.js"></script>
+<!-- <script src="js/chartist-plugin-legend.js"></script> -->
 
 <script src="js/flickity.pkgd.min.js"></script>
 <script src="js/ion.rangeSlider.min.js"></script>
