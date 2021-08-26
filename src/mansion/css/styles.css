@@ -884,7 +884,7 @@ footer .footer_bottom .btn img {
 
 .box_top {
     background: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     padding-top: 30px;
     margin-bottom: 30px;
 }
@@ -1236,6 +1236,7 @@ footer .footer_bottom .btn img {
 
 .box_renovation_specifications .map {
     padding: 0 20px;
+    border: 1px solid #BDBDBD;
 }
 
 .box_renovation_specifications .btn_viewmap {
@@ -1826,14 +1827,19 @@ footer .footer_bottom .btn img {
     }
     .property-mobile {
         display: block !important;
+        padding-bottom: 20px;
     }
     .section_carousel_mobile{
         display: block !important;
     }
 
     .table-mobile {
-        line-height: 21px
-
+        line-height: 21px;
+        border-bottom: 1px solid #BDBDBD;
+        padding: 15px 0;
+    }
+    .box_renovation_specifications .specifications_pic {
+        margin-bottom: 20px;
     }
 
     .table-mobile .table-img {
@@ -1862,6 +1868,7 @@ footer .footer_bottom .btn img {
     }
     .table-mobile hr{
         margin: 0.5rem auto;
+        display:none;
     }
     .box_renovation_specifications .renovation_specifications_table .table th {
         font-size: 9px;
@@ -1876,6 +1883,10 @@ footer .footer_bottom .btn img {
     }
     .section_property_main .contract-case {
         margin: 20px auto 50px auto;
+    }
+
+    .section_property_main .text-total-page{
+        margin-top: 30px;
     }
 
     .section_carousel_mobile .description {
@@ -1900,7 +1911,7 @@ footer .footer_bottom .btn img {
     }
 
     section {
-        padding: 30px 0;
+        padding: 15px 0;
     }
 
     .title {
@@ -2147,6 +2158,7 @@ footer .footer_bottom .btn img {
     .section_near_property ul.list_property li .property_head {
         border: none;
         padding-top: 0;
+        display: flex;
     }
 
     .section_near_property ul.list_property li .property_head p.property_name {
@@ -2160,6 +2172,7 @@ footer .footer_bottom .btn img {
     .section_near_property ul.list_property li .property_head p.property_square {
         font-size: 0.625em;
         line-height: 1em;
+        margin: auto;
     }
 
     .section_near_property ul.list_property li .property_head .btn_wishlist {
@@ -2191,7 +2204,10 @@ footer .footer_bottom .btn img {
     .carousel_property .carousel-nav .carousel-cell {
         width: 120px;
         height: 80px;
-        margin-right: 6px;
+        margin-right: 0;
+    }
+    .carousel-cell.is-selected.is-nav-selected {
+        border: 1px solid #EB5757;
     }
 
     .carousel_property .carousel-nav .carousel-cell img {
@@ -2536,6 +2552,12 @@ footer .footer_bottom .btn img {
 .section_property_main .btn-contract a {
     color: #FFFFFF;
 }
+.section_property_main .btn-contract:hover {
+    background: #FFFFFF;
+}
+.section_property_main .btn-contract:hover a {
+    color: #EB5757;
+}
 
 .section_property_main p.table-title {
     font-size: 16px;
@@ -2608,13 +2630,24 @@ footer .footer_bottom .btn img {
 .section_property_main .btn-more a {
     color: #EB5757;
 }
+.section_property_main .btn-more:hover {
+    background: #EB5757;
+}
+.section_property_main .btn-more:hover a {
+    color: #FFFFFF;
+}
 
 .section_property_main .gmqp_pic {
     position: relative;
+    border: 1px solid #BDBDBD;
+    border-top: none;
+    height: 385px;
 }
 
 .section_property_main .gmqp_pic img {
     padding: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .section_property_main .gmqp_pic .describe {
@@ -2651,3 +2684,4 @@ footer .footer_bottom .btn img {
 .section_carousel_mobile{
     display: none;
 }
+

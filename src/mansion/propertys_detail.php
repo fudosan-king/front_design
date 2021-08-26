@@ -63,6 +63,12 @@
                             <p>青空にキレイに映えた真っ白な外観。平成築のデザイナーズマンションは建築家、新居千秋氏による設計のもの。大和ハウス㈱旧分譲物件です。</p>
                         </div>
                     </div>
+                    <div class="carousel-cell">
+                        <img src="images/img06.png" alt="" class="img-fluid">
+                        <div class="description">
+                            <p>青空にキレイに映えた真っ白な外観。平成築のデザイナーズマンションは建築家、新居千秋氏による設計のもの。大和ハウス㈱旧分譲物件です。</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel carousel-nav"
                      data-flickity='{"asNavFor": ".carousel-main", "contain": true, "prevNextButtons": false, "pageDots": false }'>
@@ -75,6 +81,9 @@
                     <div class="carousel-cell">
                         <img src="images/kv03.jpg" alt="" class="img-fluid">
                     </div>
+                    <div class="carousel-cell">
+                        <img src="images/img06.png" alt="" class="img-fluid">
+                    </div>
                 </div>
             </div>
         </section>
@@ -83,14 +92,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12">
-                        <div class="btn-contract m-auto col-md-8 col-sm-8 col-8 text-center">
+                        <div class="btn-contract m-auto col-md-8 col-sm-8 col-12 text-center">
                             <a class="btn font-12">詳細情報を見る </a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-12 mt-3">
-                        <div class="row">
+                        <div class="row text-total-page ">
                             <div class="col-md-6 col-sm-6 col-6">
                                 <p class="table-title">部屋情報</p>
                             </div>
@@ -246,7 +255,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <hr>
                             <div class=" row table-mobile">
                                 <div class="col-5 col-sm-5">
                                     <div class="table-img">
@@ -277,7 +285,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <hr>
                             <div class=" row table-mobile">
                                 <div class="col-5 col-sm-5">
                                     <div class="table-img">
@@ -308,7 +315,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <hr>
                             <div class=" row table-mobile">
                                 <div class="col-5 col-sm-5">
                                     <div class="table-img">
@@ -339,7 +345,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <hr>
                             <div class=" row table-mobile">
                                 <div class="col-5 col-sm-5">
                                     <div class="table-img">
@@ -370,7 +375,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <hr>
 
                         </div>
 
@@ -378,13 +382,12 @@
                         <div class="row">
                             <div class="col-12 col-lg-12">
                                 <div class="btn-more m-auto col-md-8 col-sm-8 col-8 text-center">
-                                    <a class="btn font-12">もっと見る </a>
+                                    <a class="btn font-12 ">もっと見る </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <hr>
@@ -493,7 +496,7 @@
                                             <img src="images/img03.png" alt=""
                                                  class="img-fluid col-md-6 col-lg-6 col-sm-6 col-6 pr-2">
                                             <img src="images/img04.png" alt=""
-                                                 class="img-fluid col-md-6 col-lg-6 col-sm-6 col-6">
+                                                 class="img-fluid col-md-6 col-lg-6 col-sm-6 col-6 pl-0">
 
                                         </div>
                                         <p class="describe">管理体制の良さを感じさせる環境。敷地内駐輪場完備。駐車場は３ナンバーにも対応しています。</p>
@@ -511,7 +514,7 @@
                                             <img src="images/img07.png" alt=""
                                                  class="img-fluid col-md-6 col-lg-6 col-sm-6 col-6 pr-2">
                                             <img src="images/img08.png" alt=""
-                                                 class="img-fluid col-md-6 col-lg-6 col-sm-6 col-6">
+                                                 class="img-fluid col-md-6 col-lg-6 col-sm-6 col-6 pl-0">
 
                                         </div>
                                         <p class="describe">
@@ -522,9 +525,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12 col-lg-12">
-                                    <div class="btn-more m-auto col-md-8 col-sm-8 col-8 text-center">
-                                        <a class="btn font-12">もっと見る </a>
-                                    </div>
+                                    <p class="text-center mt-3"><a href="#" class="btn btnSeemore">もっと見る</a></p>
                                 </div>
                             </div>
 
@@ -534,6 +535,7 @@
                 </div>
             </div>
         </section>
+        <hr>
 
         <!-- 表参道エリアの物件 -->
         <section class="section_near_property">
