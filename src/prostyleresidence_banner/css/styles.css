@@ -156,10 +156,6 @@
         background-color: #fff;
     }
 
-    .banner .box_banner .box_banner_img .img_people {
-        top: 2px;
-    }
-
     .banner .box_banner .box_banner_content {
         padding-left: 15px;
         top: 0;
@@ -213,9 +209,10 @@
         text-shadow: none;
         background: #AE8148;
         width: 100%;
-        position: relative;
+        position: absolute;
         z-index: 20;
-        bottom: 0;
+        top: 0;
+        bottom: inherit;
         border-radius: 8px 8px 0 0;
         padding: 7px 15px;
         font-size: 12px;
@@ -224,5 +221,15 @@
 
     .banner .box_banner.ver_brown h3 span {
         display: inline-block;
+    }
+
+    .banner .box_banner.ver_brown .box_banner_img .img_people {
+        top: 8px;
+        z-index: 30;
+    }
+
+    .banner .box_banner.ver_brown .box_banner_content {
+        z-index: 40;
+        top: 10px;
     }
 }

@@ -149,7 +149,6 @@
           background-color: #fff;
         }
         .img_people {
-          top: 2px;
         }
       }
       .box_banner_content {
@@ -204,9 +203,10 @@
           text-shadow: none;
           background: #AE8148;
           width: 100%;
-          position: relative;
+          position: absolute;
           z-index: 20;
-          bottom: 0;
+          top: 0;
+          bottom: inherit;
           -webkit-border-radius: 8px 8px 0 0;
           border-radius: 8px 8px 0 0;
           padding: 7px 15px;
@@ -215,6 +215,16 @@
           span {
             display: inline-block;
           }
+        }
+        .box_banner_img {
+          .img_people {
+            top: 8px;
+            z-index: 30;
+          }
+        }
+        .box_banner_content {
+          z-index: 40;
+          top: 10px;
         }
       }
     }
