@@ -253,10 +253,12 @@ header {
   background: #F5F5FA;
   .list_services {
     display: flex;
+    justify-content: center;
     padding: 0 30px;
     .box_services {
       display: block;
       margin-right: 20px;
+      width: 320px;
       &:last-child {
         margin-right: 0;
       }
@@ -692,6 +694,11 @@ footer {
       flex-direction: column;
       .box_services {
         margin-bottom: 30px;
+        width: 100%;
+        margin-right: 0;
+        .services_img {
+          width: 100%;
+        }
         h3 {
           font-size: 1em;
         }
