@@ -356,12 +356,14 @@ header.compressed {
 
 .section_services .list_services {
     display: flex;
+    justify-content: center;
     padding: 0 30px;
 }
 
 .section_services .list_services .box_services {
     display: block;
     margin-right: 20px;
+    width: 320px;
 }
 
 .section_services .list_services .box_services:last-child {
@@ -819,6 +821,12 @@ footer .footer_bottom p a:hover {
 
     .section_services .list_services .box_services {
         margin-bottom: 30px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .section_services .list_services .box_services .services_img {
+        width: 100%;
     }
 
     .section_services .list_services .box_services h3 {
