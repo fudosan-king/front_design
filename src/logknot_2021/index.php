@@ -48,7 +48,7 @@
                                     </div>
                                     <h3>VRシミュレーションツール</h3>
                                 </a>
-                                <a href="#" class="box_services">
+                                <a href="webdesign.php" class="box_services">
                                     <div class="services_img">
                                         <img src="images/img04.png" alt="" class="img-fluid">
                                     </div>
@@ -441,13 +441,13 @@
                 </div>
             </section>
 
-             <section class="section_news_popular">
+            <section class="section_news_popular">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-8">
                             <ul>
                                 <li>
-                                    <article class="article_list">
+                                    <article class="article_list vertical">
                                         <a href="#">
                                             <time datetime="11/10/2021">11/10/2021</time>
                                             <div class="newest_media">
@@ -470,7 +470,7 @@
                                     </article>
                                 </li>
                                 <li>
-                                    <article class="article_list">
+                                    <article class="article_list vertical">
                                         <a href="#">
                                             <time datetime="11/4/2021">11/4/2021</time>
                                             <div class="newest_media">
@@ -493,7 +493,7 @@
                                     </article>
                                 </li>
                                 <li>
-                                    <article class="article_list">
+                                    <article class="article_list vertical">
                                         <a href="#">
                                             <time datetime="11/4/2021">11/4/2021</time>
                                             <div class="newest_media">
@@ -516,7 +516,7 @@
                                     </article>
                                 </li>
                                 <li>
-                                    <article class="article_list">
+                                    <article class="article_list vertical">
                                         <a href="#">
                                             <time datetime="11/4/2021">11/4/2021</time>
                                             <div class="newest_media">
@@ -539,7 +539,7 @@
                                     </article>
                                 </li>
                                 <li>
-                                    <article class="article_list">
+                                    <article class="article_list vertical">
                                         <a href="#">
                                             <time datetime="11/4/2021">11/4/2021</time>
                                             <div class="newest_media">
@@ -562,7 +562,7 @@
                                     </article>
                                 </li>
                                 <li>
-                                    <article class="article_list">
+                                    <article class="article_list vertical">
                                         <a href="#">
                                             <time datetime="11/4/2021">11/4/2021</time>
                                             <div class="newest_media">

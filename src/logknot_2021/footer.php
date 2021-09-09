@@ -3,15 +3,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-3">
-                    <a href="index.php"><img src="images/svg/logo.svg" alt="" class="img-fluid" width="200"></a>
-                    <p class="mt-2">株式会社LIG　TEL : <a href="tel:03-6240-1253">03-6240-1253</a><br>
-                    111-0056 東京都台東区小島2-20-11<br>
-                    LIGビル 1F受付</p>
-                    <ul class="list_social">
-                        <li><a href="#"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="12"></a></li>
-                        <li><a href=""><img src="images/svg/i_twitter.svg" alt="" class="img-fluid" width="24"></a></li>
-                        <li><a href=""><img src="images/svg/i_instagram.svg" alt="" class="img-fluid" width="22"></a></li>
-                    </ul>
+                    <div class="footer_info">
+                        <a href="index.php"><img src="images/svg/logo.svg" alt="" class="img-fluid" width="200"></a>
+                        <p class="mt-2">株式会社LIG　TEL : <a href="tel:03-6240-1253">03-6240-1253</a><br>
+                        111-0056 東京都台東区小島2-20-11<br>
+                        LIGビル 1F受付</p>
+                        <ul class="list_social">
+                            <li><a href="#"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="12"></a></li>
+                            <li><a href=""><img src="images/svg/i_twitter.svg" alt="" class="img-fluid" width="24"></a></li>
+                            <li><a href=""><img src="images/svg/i_instagram.svg" alt="" class="img-fluid" width="22"></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-9">
                     <div class="row">
@@ -75,3 +77,7 @@
         <p class="mb-0">Copyright © <a href="index.php">LogKnot Inc.</a> All Rights Reserved.</p>
     </div>
 </footer>
+
+<div class='back-to-top' id='back-to-top' title='Back to top'>
+    <img src="images/svg/i_top.svg" alt="" class="img-fluid" width="15">
+</div>
