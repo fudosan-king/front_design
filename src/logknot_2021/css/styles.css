@@ -178,6 +178,14 @@ section {
     font-size: 1.5em;
 }
 
+.title_sub {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
 .subtitle {
     font-size: 1em;
     text-align: center;
@@ -311,6 +319,16 @@ header.compressed {
     justify-content: flex-start;
     align-items: center;
     align-content: stretch;
+}
+
+.section_banner.custom:before {
+    background-image: url("../images/slide-1.png");
+    width: 1007px;
+    height: 760px;
+}
+
+.section_banner.custom .caption h1 {
+    font-family: "Montserrat", sans-serif;
 }
 
 .section_banner:before {
@@ -1014,6 +1032,117 @@ footer .footer_bottom p a:hover {
 
 .section_subbanner .breadcrumb .breadcrumb-item a {
     color: #fff;
+}
+
+.section_subnews ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.section_subnews ul li {
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 45px;
+}
+
+.section_subnews ul li:last-child {
+    margin-bottom: 0;
+}
+
+.section_subnews ul li:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 13px;
+    width: 35px;
+    height: 2px;
+    background: #bdbdbd;
+    transition: all 0.2s ease-in-out;
+}
+
+.section_subnews ul li:hover:before {
+    left: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.section_subnews ul li:hover h4 {
+    color: #1C90B2;
+}
+
+.section_subnews ul li time {
+    color: #828282;
+    font-size: 0.75em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section_subnews ul li h4 {
+    font-size: 1.125em;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section_subnews ul li p span {
+    background: #1F91B3;
+    color: #fff;
+    padding: 3px 5px;
+    margin-right: 5px;
+    font-size: 0.625em;
+}
+
+.section_mission {
+    background: url("../images/Servicess-Outer-Stroke.jpg") no-repeat;
+    background-size: cover;
+    padding-right: 60px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.section_mission:before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 20%;
+    bottom: 0;
+    margin: auto;
+    background: url("../images/imac_home.png") no-repeat;
+    width: 1052px;
+    height: 821px;
+}
+
+.section_mission .subtitle {
+    color: #fff;
+    font-weight: 500;
+}
+
+.section_mission h2 {
+    color: #fff;
+}
+
+.section_mission .box_mission {
+    border: 1px solid #fff;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.section_mission .box_mission h4 {
+    color: #fff;
+}
+
+.section_mission .box_mission h4 span {
+    color: #000;
+}
+
+.section_mission .box_mission p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.section_mission .box_mission_footer p {
+    color: #fff;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {

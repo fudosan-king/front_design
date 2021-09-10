@@ -79,6 +79,13 @@ section {
   font-weight: 700;
   font-size: 1.5em;
 }
+.title_sub {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: $sub-font;
+  line-height: 1em;
+  margin-bottom: 0;
+}
 .subtitle {
   font-size: 1em;
   text-align: center;
@@ -215,6 +222,18 @@ header {
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+  &.custom {
+    &:before {
+      background-image: url('../images/slide-1.png');
+      width: 1007px;
+      height: 760px;
+    }
+    .caption {
+      h1 {
+        font-family: $sub-font;
+      }
+    }
+  }
   &:before {
     content: '';
     position: absolute;
@@ -893,6 +912,112 @@ footer {
   }
 }
 
+.section_subnews {
+  ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      display: block;
+      margin-bottom: 30px;
+      position: relative;
+      padding-left: 45px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 13px;
+        width: 35px;
+        height: 2px;
+        background: #bdbdbd;
+        transition: all 0.2s ease-in-out;
+      }
+      &:hover {
+        &:before {
+          left: 0;
+          transition: all 0.2s ease-in-out;
+        }
+        h4 {
+          color: $blue-color;
+        }
+      }
+      time {
+        color: #828282;
+        font-size: 0.75em;
+        font-family: $sub-font;
+      }
+      h4 {
+        font-size: 1.125em;
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-family: $sub-font;
+      }
+      p {
+        span {
+          background: #1F91B3;
+          color: #fff;
+          padding: 3px 5px;
+          margin-right: 5px;
+          font-size: 0.625em;
+        }
+      }
+    }
+  }
+}
+
+.section_mission {
+  background: url('../images/Servicess-Outer-Stroke.jpg') no-repeat;
+  background-size: cover;
+  padding-right: 60px;
+  padding-left: 60px;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 20%;
+    bottom: 0;
+    margin: auto;
+    background: url('../images/imac_home.png') no-repeat;
+    width: 1052px;
+    height: 821px;
+  }
+  .subtitle {
+    color: #fff;
+    font-weight: 500;
+  }
+  h2 {
+    color: #fff;
+  }
+  .box_mission {
+    border: 1px solid #fff;
+    padding: 30px;
+    margin: 30px 0;
+    h4 {
+      color: #fff;
+      span {
+        color: #000;
+      }
+    }
+    p {
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+  .box_mission_footer {
+    p {
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+}
+
+
+
+
 @media (max-width: 768px) {
   header {
     background: #000;
@@ -939,6 +1064,7 @@ footer {
         font-size: 0.875em;
       }
     }
+
   }
 
   .section_services {
