@@ -432,7 +432,7 @@ header.subheader.compressed .i_white {
     position: absolute;
     right: -30px;
     top: 63px;
-    min-width: 417px;
+    min-width: 497px;
 }
 
 .dropdown_search .dropdown_search_content:after {
@@ -499,7 +499,7 @@ header.subheader.compressed .i_white {
     margin-right: 10px;
     margin-bottom: 10px;
     position: relative;
-    width: 29.33%;
+    width: 31.33%;
 }
 
 .dropdown_search .dropdown_search_content .card .card-body ul li:after {
@@ -2081,12 +2081,17 @@ footer .footer_bottom .btn img {
     }
 
     .dropdown_search .dropdown_search_content .card .card-body {
-        padding: 15px;
+        padding: 15px 0 15px 15px;
     }
 
     .dropdown_search .dropdown_search_content .card .card-body ul li {
-        margin-right: 10px;
-        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .dropdown_search .dropdown_search_content .card .card-body ul li:after {
+        right: 4px;
+        top: -3px;
     }
 
     .dropdown_search .dropdown_search_content .card .card-body ul li a {
