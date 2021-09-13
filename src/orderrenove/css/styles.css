@@ -2067,7 +2067,6 @@ footer .footer_bottom .btn img {
     }
 
     .dropdown_search .dropdown_search_content {
-        min-width: 326px;
         top: 37px;
         right: -21px;
     }
@@ -2535,6 +2534,18 @@ footer .footer_bottom .btn img {
 
     .section_searh .box_searchby ul li a {
         padding: 3px 5px;
+    }
+}
+
+@media (max-width: 720px) {
+    .dropdown_search .dropdown_search_content {
+        min-width: 432px;
+    }
+}
+
+@media (max-width: 540px) {
+    .dropdown_search .dropdown_search_content {
+        min-width: 432px;
     }
 }
 

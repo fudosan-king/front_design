@@ -64,7 +64,7 @@ body {
     line-height: 1.5em;
     font-size: 1rem;
     font-weight: 400;
-    color: #4F4F4F;
+    color: #000;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
@@ -176,6 +176,7 @@ section {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 1.5em;
+    color: #000;
 }
 
 .title_sub {
@@ -184,12 +185,14 @@ section {
     font-family: "Montserrat", sans-serif;
     line-height: 1em;
     margin-bottom: 0;
+    color: #000;
 }
 
 .subtitle {
     font-size: 1em;
     text-align: center;
     margin-bottom: 50px;
+    color: #4F4F4F;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -265,7 +268,7 @@ section {
 
 .dropdown-slide .dropdown-menu:after {
     bottom: 100%;
-    left: 50%;
+    left: 26%;
     border: solid transparent;
     content: "";
     height: 0;
@@ -348,6 +351,7 @@ header.compressed {
     font-weight: 900;
     color: #fff;
     margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .section_banner .caption h1 span {
@@ -447,7 +451,7 @@ header.compressed {
 }
 
 .section_news .box_newest article a .newest_media {
-    flex-basis: 320px;
+    flex-basis: 440px;
     margin-right: 20px;
     display: inline-block;
     overflow: hidden;
@@ -458,7 +462,7 @@ header.compressed {
 }
 
 .section_news .box_newest article a .newest_content {
-    flex-basis: 462px;
+    flex-basis: 100%;
     position: relative;
     padding-bottom: 56px;
 }
@@ -664,6 +668,10 @@ header.compressed {
     transition: all 0.2s linear;
 }
 
+.section_news_popular {
+    background: #F5F5FA;
+}
+
 .section_news_popular ul {
     list-style: none;
     padding: 0;
@@ -676,10 +684,10 @@ header.compressed {
 .section_news_popular ul li {
     margin-bottom: 30px;
     margin-right: 15px;
-    width: 48%;
+    width: 32.33%;
 }
 
-.section_news_popular ul li:nth-child(2n) {
+.section_news_popular ul li:nth-child(3n) {
     margin-right: 0;
 }
 
@@ -749,7 +757,8 @@ footer .footer_top h4 {
 footer .footer_top p {
     margin-bottom: 0;
     color: #fff;
-    font-size: 0.875em;
+    font-size: 0.8125em;
+    font-family: "Montserrat", sans-serif;
 }
 
 footer .footer_top p a {
@@ -806,7 +815,7 @@ footer .footer_top ul li:hover a {
 
 footer .footer_top ul li a {
     color: #fff;
-    font-size: 0.875em;
+    font-size: 0.8125em;
 }
 
 footer .footer_bottom {
@@ -1093,11 +1102,12 @@ footer .footer_bottom p a:hover {
 }
 
 .section_mission {
-    background: url("../images/Servicess-Outer-Stroke.jpg") no-repeat;
+    background: url("../images/bg_mission.jpg") no-repeat;
     background-size: cover;
     padding-right: 60px;
     padding-left: 60px;
     position: relative;
+    background-attachment: fixed;
 }
 
 .section_mission:before {
@@ -1123,20 +1133,17 @@ footer .footer_bottom p a:hover {
 
 .section_mission .box_mission {
     border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
     padding: 30px;
     margin: 30px 0;
 }
 
-.section_mission .box_mission h4 {
-    color: #fff;
-}
-
 .section_mission .box_mission h4 span {
-    color: #000;
+    color: #1C90B2;
 }
 
 .section_mission .box_mission p {
-    color: #fff;
     font-weight: 500;
 }
 
@@ -1145,9 +1152,118 @@ footer .footer_bottom p a:hover {
     font-weight: 500;
 }
 
+.section_about {
+    position: relative;
+}
+
+.section_about:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: url("../images/Canvas.png") no-repeat;
+    background-size: 100%;
+    width: 610px;
+    height: 600px;
+}
+
+.section_work {
+    background: #F5F5FA;
+    background-image: url("../images/Works_bak.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section_work p {
+    color: #fff;
+}
+
+.section_work p.subtitle {
+    color: #F5F5FA;
+}
+
+.section_work ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.section_work ul li {
+    border-radius: 4px;
+    background: #fff;
+    padding: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    text-align: center;
+    width: 33.33%;
+}
+
+.section_work ul li:last-child {
+    margin-right: 0;
+}
+
+.section_work ul li h4 {
+    font-size: 1.125em;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.section_work ul li img {
+    margin-bottom: 15px;
+}
+
+.section_work ul li p {
+    margin-bottom: 0;
+    font-size: 0.875em;
+    color: #000;
+}
+
+.section_recruit .btn {
+    display: inline-block;
+    border: 1px solid #000;
+    margin-right: 15px;
+    padding: 15px 30px;
+    min-width: 280px;
+    position: relative;
+    font-weight: 500;
+}
+
+.section_recruit .btn img {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 350ms ease-in;
+}
+
+.section_recruit .btn:last-child {
+    margin-right: 0;
+}
+
+.section_recruit .btn:hover img {
+    right: 10px;
+}
+
+.section_company {
+    border-top: 1px solid #f1f1f1;
+}
+
 @media (max-width: 768px) {
+    p {
+        font-size: 0.875em;
+    }
+
     header {
         background: #000;
+    }
+
+    .navbar-brand img {
+        width: 120px;
     }
 
     .dropdown-slide.show .dropdown-menu {
@@ -1161,6 +1277,14 @@ footer .footer_bottom p a:hover {
 
     .dropdown-slide .dropdown-menu:after {
         left: 28%;
+    }
+
+    .title_sub {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        margin-bottom: 30px;
     }
 
     section {
@@ -1298,5 +1422,44 @@ footer .footer_bottom p a:hover {
 
     .section_consult .btn img {
         right: 20px;
+    }
+
+    .section_mission {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section_mission:after, .section_mission:before {
+        display: none;
+    }
+
+    .section_mission .box_mission {
+        padding: 15px;
+    }
+
+    .section_about:after {
+        display: none;
+    }
+
+    .section_work ul {
+        flex-wrap: wrap;
+    }
+
+    .section_work ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .section_recruit .btn {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .section_company .table th, .section_company .table td {
+        font-size: 0.8125em;
+    }
+
+    .section_company .table th {
+        width: 30%;
     }
 }
