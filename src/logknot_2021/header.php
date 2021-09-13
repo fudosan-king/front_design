@@ -11,25 +11,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link nav_link" href="index2.php#section_subnews">NEWS</a>
                     </li>
                     <li class="nav-item dropdown dropdown-slide dropdown-hover">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WORKS</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#"> Webサービス</a>
-                            <a class="dropdown-item" href="#">テクノロジー</a>
-                            <a class="dropdown-item" href="#">キャリア</a>
-                            <a class="dropdown-item" href="#">ライフ</a>
+                            <a class="dropdown-item" href="#">リノベーションプラットフォーム</a>
+                            <a class="dropdown-item" href="#">ライフスタイル・リノベーションメディア</a>
+                            <a class="dropdown-item" href="#">VRシミュレーションツール</a>
+                            <a class="dropdown-item" href="knotmarketing.php">マーケティング支援</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Company</a>
+                        <a class="nav-link nav_link" href="index2.php#section_about">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Recruit</a>
+                        <a class="nav-link nav_link" href="index2.php#section_recruit">RECRUIT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a class="nav-link" href="contact.php">CONTACT</a>
                     </li>
                 </ul>
             </div>

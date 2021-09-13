@@ -1902,8 +1902,6 @@ footer {
           }
         }
       }
-      
-      min-width: 326px;
       top: 37px;
       right: -21px;
     }
@@ -2343,6 +2341,22 @@ footer {
     }
   }
 
+}
+
+@media (max-width: 720px) {
+  .dropdown_search {
+    .dropdown_search_content {
+      min-width: 432px;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .dropdown_search {
+    .dropdown_search_content {
+      min-width: 432px;
+    }
+  }
 }
 
 @media (max-width: 414px){

@@ -30,30 +30,29 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="list_services">
-                                <a href="#" class="box_services">
+                                <a href="orderrenove.php" class="box_services">
                                     <div class="services_img">
                                         <img src="images/img01.png" alt="" class="img-fluid">
                                     </div>
-                                    <h3>リノベーション物件プラットフォームOrder Renove</h3>
+                                    <h3>リノベーションプラットフォーム <span>Order Renove</span></h3>
                                 </a>
-                                <a href="#" class="box_services">
+                                <a href="logrenove.php" class="box_services">
                                     <div class="services_img">
                                         <img src="images/img02.png" alt="" class="img-fluid">
                                     </div>
-                                    <h3>ライフスタイル・リノベーションメディアLogRenove</h3>
+                                    <h3>ライフスタイル・リノベーションメディア<span>LogRenove</span></h3>
                                 </a>
-                                <a href="#" class="box_services">
+                                <a href="orderspace.php" class="box_services">
                                     <div class="services_img">
                                         <img src="images/img03.png" alt="" class="img-fluid">
                                     </div>
-                                    <h3>VRシミュレーションツール</h3>
+                                    <h3>VRシミュレーションツール<span>Order Space</span></h3>
                                 </a>
-                                <a href="webdesign.php" class="box_services">
+                                <a href="knotmarketing.php" class="box_services">
                                     <div class="services_img">
                                         <img src="images/img04.png" alt="" class="img-fluid">
                                     </div>
-                                    <h3>マーケティング支援<br>
-                                    WEB制作、システム開発、広告運用、コンテンツ制作、3Dパース制作、動画制作</h3>
+                                    <h3>マーケティング支援<span>Knot Marketing</span></h3>
                                 </a>
                             </div>
                         </div>
@@ -64,7 +63,7 @@
             <section class="section_news">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-8">
+                        <div class="col-12 col-lg-12">
                             <div class="box_newest">
                                 <article>
                                     <a href="#">
@@ -162,7 +161,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-lg-4">
+                        <!-- <div class="col-12 col-lg-4">
                             <aside class="side_right">
                                 <div class="box_newest_related">
                                     <article>
@@ -358,13 +357,13 @@
                                     </a>
                                 </div>
                             </aside>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
 
             
-            <section class="section_article_list">
+            <!-- <section class="section_article_list">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
@@ -439,12 +438,12 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="section_news_popular">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-8">
+                        <div class="col-12 col-lg-12">
                             <ul>
                                 <li>
                                     <article class="article_list vertical">
@@ -587,7 +586,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-12 col-lg-4">
+                        <!-- <div class="col-12 col-lg-4">
                             <aside class="side_right">
                                 <div class="box_banner_right">
                                     <a href="#">
@@ -604,7 +603,7 @@
                                     </a>
                                 </div>
                             </aside>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
