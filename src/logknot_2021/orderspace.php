@@ -7,11 +7,11 @@
         <main>
 
             <section class="section_subbanner" style="background-image: url('images/banner_webdesign.jpg');">
-                <h1>マーケティング支援</h1>
+                <h1>VRシミュレーションツール</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Knot Marketing</li>
+                        <li class="breadcrumb-item active" aria-current="page">Order space</li>
                     </ol>
                 </nav>
             </section>
@@ -20,89 +20,44 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <h2 class="title mb-3">モノではなく「成果」を提供。<br>
-                            共にゴールを目指す共創ビジネス</h2>
-                            <p class="mb-5">新規メディアを半年で月間20万UU規模にグロースさせた経験、月間150件もの不動産反響を獲得した集客スキルを活かして、企画立案から集客まで含めたトータルWEBマーケティング支援を行っています。WEBページやシステムといった「モノ」を提供するのではなく、しっかりとした「成果」を提供することをモットーに、お客様との「Knot＝縁、絆」を大切にしたソリューションを提供します。</p>
-                            <div class="box_marketing">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item">
-                                            <div class="box_icon">
-                                                <img src="images/svg/i_brain.svg" alt="" class="img-fluid" width="30">
-                                            </div>
-                                            <h2>サービス戦略策定・設計・構築</h2>
-                                            <p>お客様のビジネスを成功させるための戦略をともに考え、WEBサービスに落とし込むお手伝いをさせていただきます。お客様の本来の目的をしっかりと理解したうえで、どのようなWEBサービスを作り、どのように戦っていくべきなのか？ 戦略の策定から設計、ローンチに至るまであらゆるWEB施策をともに考え、戦術を打ち出していきます。</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item_img">
-                                            <img src="images/image-11.png" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
+                            <h2 class="title mb-5">より簡単に、より具体的に――<br>
+                            ECにもつながる三次元VRツール</h2>
+                            <p>家具や不動産情報など、二次元ではなかなかイメージしにくいテーマを、VR(バーチャルリアリティ）で具体的に表現するツールを開発しました。他社のツールに比べ、弊社のOrder Spaceは、色や素材などの「着せ替え」が簡単にできる点が特徴。選択肢やオプションの多いサービス、商品に向いているツールです。</p>
+                            <p>たとえば、ファブリックやカラーでバリエーションが多いソファやテーブルといった家具類、壁紙や床材で大きく印象が変わる中古マンションのリノベーション完成図などに最適です。さらにツール上で気にいった組み合わせを、そのままECサイトで購入することも可能です。</p>
+                            <p class="mb-5">弊社が展開するメディアやサービスを活用して、新たなユーザー創出につなげられるのもOrder Spaceの特長です。インテリアや住まいに興味を持つユーザーや、さらには具体的に不動産探しをしているユーザー等、クライアント様のビジネスに合わせて最適なカスタマーをご紹介するところまで、一貫してお手伝いさせていただきます。</p>
 
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item_img">
-                                            <img src="images/media.png" alt="" class="img-fluid">
+                            <div class="box_orderspace">
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-lg-5 align-self-center">
+                                        <div class="box_orderspace_img">
+                                            <img src="images/VR.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item">
-                                            <div class="box_icon">
-                                                <img src="images/svg/i_seo.svg" alt="" class="img-fluid" width="30">
-                                            </div>
-                                            <h2>リードジェネレーション・ナーチャリング</h2>
-                                            <p>月間150人もの不動産購入顧客を獲得した実績を活かし、リード（見込顧客）を開拓する設計、育成する戦略をご提案します。まず、お客様が求めるリードのタイプを見極め、最適な手法を、広告、SEO、コンテンツマーケティング、SNSなど多角的視点でご提案させていただきます。そしてメルマガやSNS、オウンドメディア等を活用したナーチャリング戦略も提案。見込顧客の獲得から育成まで、最終的に売り上げとなるまでのプロセスをご一緒させていただきます。</p>
+                                    <div class="col-12 col-lg-7 align-self-center">
+                                        <div class="box_orderspace_content">
+                                            <h2>インテリアメーカー様向け機能<br> »ファニチャーVR</h2>
+                                            <p>家具やインテリアアイテムを3Dモデル化して、立体的にデザインを確認できるツール。「着せ替え」が簡単にできるので、色や素材のバリエーションが多いアイテムに最適です。さらに、自分の部屋にマッチするかどうか、VRのルームスペースにアイテムを配置してチェックすることも可能。店頭で見たときにはぴったりだと思っていても、実際に部屋に入れてみると圧迫感があったり、色や素材感がマッチしなかったり…。そんなミスマッチを防いで、カスタマーの満足度を上げるためにも「ファニチャーVR」は有効に使えます。さらに、その家具やインテリアアイテムをWEB上で購入することも可能。VRとECが連携した「バーチャル・インテリアショップ」を実現できます。</p>
                                         </div>
                                     </div>
-
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item">
-                                            <div class="box_icon">
-                                                <img src="images/svg/i_media.svg" alt="" class="img-fluid" width="30">
-                                            </div>
-                                            <h2>WEB制作・メディア制作</h2>
-                                            <p>オウンドメディア「LogRenove」を立ち上げ、月間20万ユーザー規模のサイトに成長させた知見を活かして、お客様のWEB制作、オウンドメディアの制作・運営をお手伝いさせていただきます。紙媒体、WEB媒体をはじめ複数メディアの編集に携わった多くのスタッフが、取材、記事制作、SEO対策までフォローさせていただきます。</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item_img">
-                                            <img src="images/paint.png" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item_img">
-                                            <img src="images/Pencils.png" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item">
-                                            <div class="box_icon">
-                                                <img src="images/video-camera.png" alt="" class="img-fluid" width="30">
-                                            </div>
-                                            <h2>動画制作</h2>
-                                            <p>WEBマーケティングにおいていまや動画は欠かすことのできないコンテンツです。弊社では、自社サイト、YouTube、SNS、ライブ配信と掲載メディアに合わせた内容、尺での動画制作が可能です。動画のコンセプト立案からプロット作成、スタッフィング、撮影、編集に至るまで、動画マーケティングに長年携わってきたスタッフがしっかりとサポートいたします。</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item">
-                                            <div class="box_icon">
-                                                <img src="images/settings.png" alt="" class="img-fluid" width="30">
-                                            </div>
-                                            <h2>システム開発</h2>
-                                            <p>不動産業者向けの一括入稿システム、一般ユーザー向けの着付けマッチングサービス等のシステム開発実績を活かして、toB、toC問わず、各種システム構築のお手伝いをさせていただきます。まずはお客様が目指すビジネスゴールはどこなのか？という根本から関わらせていただき、もっともゴールに効率的にたどり着くための手法（システム）を、一緒に開発させていただきます。</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <div class="box_marketing_item_img">
-                                            <img src="images/image-16.png" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    
-
                                 </div>
                             </div>
+
+                            <div class="box_orderspace">
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-lg-7 align-self-center">
+                                        <div class="box_orderspace_content">
+                                            <h2>マンションデベロッパー様向け機能<br> »フロアプランVR</h2>
+                                            <p>新築マンションの間取り図を見て、実際の居住空間をイメージするのは、なかなか難しいもの。モデルルームも全プラン分用意するのは現実的ではありません。そこでVRを使ったバーチャルモデルルームの活用を提案します。2Dの間取りを3D化し、そのなかを「一人称視点」で歩くことも可能。さらにオプションアイテムもVRに組み込むことで、施工後のイメージがしやすくなり、アップセルにつながります。</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-5 align-self-center">
+                                        <div class="box_orderspace_img">
+                                            <img src="images/VR02.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

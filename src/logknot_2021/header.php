@@ -17,8 +17,8 @@
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WORKS</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">リノベーションプラットフォーム</a>
-                            <a class="dropdown-item" href="#">ライフスタイル・リノベーションメディア</a>
-                            <a class="dropdown-item" href="#">VRシミュレーションツール</a>
+                            <a class="dropdown-item" href="logrenove.php">ライフスタイル・リノベーションメディア</a>
+                            <a class="dropdown-item" href="orderspace.php">VRシミュレーションツール</a>
                             <a class="dropdown-item" href="knotmarketing.php">マーケティング支援</a>
                         </div>
                     </li>
