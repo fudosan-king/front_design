@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_subbanner" style="background-image: url('images/banner_webdesign.jpg');">
+            <section class="section_subbanner" style="background-image: url('images/bg_vr.jpg');">
                 <h1>VRシミュレーションツール</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">

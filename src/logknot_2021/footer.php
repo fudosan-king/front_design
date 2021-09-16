@@ -2,10 +2,11 @@
     <div class="footer_top">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-2">
                     <div class="footer_info">
                         <a href="index.php"><img src="images/svg/logo.svg" alt="" class="img-fluid" width="200"></a>
-                        <p class="mt-2">LogKnot株式会社　TEL : <a href="tel:03-6897-8564">03-6897-8564</a><br>
+                        <p class="mt-2">LogKnot株式会社　<br>
+                        TEL : <a href="tel:03-6897-8564">03-6897-8564</a><br>
                         東京都港区北青山3-6-23</p>
                         <ul class="list_social">
                             <li><a target="_blank" href="https://www.facebook.com/logknot"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="12"></a></li>
@@ -14,7 +15,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-lg-9">
+                <div class="col-12 col-lg-10">
                     <div class="row">
                         <div class="col-6 col-lg-2">
                             <ul>
@@ -26,9 +27,14 @@
                                 <li><a href="terms.php">利用規約</a></li>
                             </ul>
                         </div>
-                        <div class="col-6 col-lg-3">
+                        <div class="col-6 col-lg-2">
                             <ul>
-                                <li><a href="antisocial.php">反社会的努力排除に関する方針</a></li>
+                                <li><a href="antisocial.php">反社会的勢力排除に関する方針</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-2">
+                            <ul>
+                                <li><a href="privacypolicy.php">プライバシーポリシー</a></li>
                             </ul>
                         </div>
                         <div class="col-6 col-lg-2">
@@ -36,7 +42,7 @@
                                 <li><a href="socialpolicy.php">ソーシャルメディアポリシー</a></li>
                             </ul>
                         </div>
-                        <div class="col-6 col-lg-3">
+                        <div class="col-6 col-lg-2">
                             <ul>
                                 <li><a href="information-security-policy.php">情報セキュリティ基本方針</a></li>
                             </ul>

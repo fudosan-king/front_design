@@ -130,7 +130,7 @@ h2 {
 .form-control {
     font-size: 0.875em;
     border-color: #BDBDBD;
-    height: calc(1.5em + .75rem + 7px);
+    height: calc(1.5em + .75rem + 12px);
 }
 
 .custom-select:focus {
@@ -150,13 +150,17 @@ h2 {
     box-shadow: none;
 }
 
+.form-control:focus {
+    border-color: #1C90B2;
+}
+
 .custom-control-label::before {
-    border-color: #D7443E;
+    border-color: #1C90B2;
 }
 
 .custom-control-input:checked ~ .custom-control-label::before {
-    background-color: #D7443E;
-    border-color: #D7443E;
+    background-color: #1C90B2;
+    border-color: #1C90B2;
 }
 
 .relative {
@@ -1023,6 +1027,18 @@ footer .footer_bottom p a:hover {
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
+    position: relative;
+}
+
+.section_subbanner:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .section_subbanner h1 {
@@ -1031,11 +1047,14 @@ footer .footer_bottom p a:hover {
     color: #fff;
     font-weight: 900;
     margin-bottom: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 .section_subbanner .breadcrumb {
     margin: 0;
     background: transparent;
+    position: relative;
 }
 
 .section_subbanner .breadcrumb .breadcrumb-item {
@@ -1342,7 +1361,121 @@ footer .footer_bottom p a:hover {
 }
 
 .box_logrenove {
+    margin-bottom: 60px;
+    background: #f0f8f9;
+    padding: 30px;
+    position: relative;
+}
+
+.box_logrenove:after {
+    content: "";
+    width: calc(100% - 30px) !important;
+    height: 100% !important;
+    position: absolute;
+    z-index: -1;
+    background: none;
+    border: 1px solid #1C90B2;
+    right: -30px !important;
+    top: 30px !important;
+    transition: all 300ms ease-in-out;
+}
+
+.box_logrenove .box_logrenove_content {
+    padding-left: 30px;
+}
+
+.box_logrenove .box_logrenove_content h2 {
+    font-size: 1.125em;
+    margin-bottom: 20px;
+    color: #1C90B2;
+}
+
+.box_logrenove .box_logrenove_content p {
+    margin-bottom: 0;
+}
+
+.box_logrenove .box_logrenove_img img {
+    width: 100%;
+}
+
+.box_orderrenove {
+    border-bottom: 1px solid #e4e7f2;
+    padding: 30px 0;
+}
+
+.box_orderrenove .box_orderrenove_img {
     margin-bottom: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+.box_orderrenove .box_orderrenove_img img {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.box_orderrenove h2 {
+    font-size: 1.125em;
+    margin-bottom: 10px;
+    color: #1C90B2;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box_orderrenove p {
+    margin-bottom: 0;
+}
+
+.box_orderrenove .box_orderrenove_content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.section_contact .frm_contact label {
+    font-weight: 500;
+}
+
+.section_contact .frm_contact .info a {
+    color: #1C90B2;
+    font-weight: 600;
+}
+
+.section_contact .frm_contact .btnSend {
+    margin-top: 15px;
+    border: 1px solid #000;
+    margin-right: 15px;
+    padding: 15px 30px;
+    min-width: 280px;
+    position: relative;
+    font-weight: 500;
+}
+
+.section_contact .frm_contact .btnSend img {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 350ms ease-in;
+}
+
+.section_contact .frm_contact .btnSend:hover img {
+    right: 10px;
+}
+
+.section_termpage h3 {
+    margin: 50px 0 20px;
+}
+
+.highline {
+    font-family: Menlo,Consolas,monaco,monospace;
+    padding: .8em 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.875em;
+    line-height: 1.8em;
 }
 
 @media (max-width: 768px) {
@@ -1561,9 +1694,23 @@ footer .footer_bottom p a:hover {
 
     .section_subbanner h1 {
         font-size: 2em;
+        text-align: center;
     }
 
     .section_marketing .box_marketing .box_marketing_item {
         padding: 15px;
+    }
+
+    .box_logrenove {
+        padding: 15px;
+    }
+
+    .box_logrenove .box_logrenove_content {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .box_logrenove .box_logrenove_content h2 {
+        margin-bottom: 10px;
     }
 }
