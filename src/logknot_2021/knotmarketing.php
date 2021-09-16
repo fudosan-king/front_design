@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_subbanner" style="background-image: url('images/banner_webdesign.jpg');">
+            <section class="section_subbanner" style="background-image: url('https://t4.ftcdn.net/jpg/02/68/13/83/240_F_268138321_fOi7qFJqgPk1LPFTtwM5SNZx7209xNkS.jpg');">
                 <h1>マーケティング支援</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
