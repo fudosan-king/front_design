@@ -45,7 +45,7 @@ h2 {
 .form-control {
   font-size: 0.875em;
   border-color: #BDBDBD;
-  height: calc(1.5em + .75rem + 7px);
+  height: calc(1.5em + .75rem + 12px);
 }
 .custom-select:focus {
   border-color: $primary-color;
@@ -57,13 +57,15 @@ h2 {
 .custom-control-input:focus~.custom-control-label::before {
   box-shadow: none;
 }
-
+.form-control:focus {
+  border-color: $blue-color;
+}
 .custom-control-label::before {
-  border-color: $prink-color;
+  border-color: $blue-color;
 }
 .custom-control-input:checked~.custom-control-label::before {
-  background-color: $prink-color;
-  border-color: $prink-color;
+  background-color: $blue-color;
+  border-color: $blue-color;
 }
 
 .relative {position: relative;}
@@ -901,16 +903,30 @@ footer {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, .5);
+  }
   h1 {
     font-family: $sub-font;
     font-size: 3.125em;
     color: #fff;
     font-weight: 900;
     margin-bottom: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    position: relative;
   }
   .breadcrumb {
     margin: 0;
     background: transparent;
+    position: relative;
     .breadcrumb-item {
       color: #fff;
       font-family: $sub-font;
@@ -1200,11 +1216,123 @@ footer {
 }
 
 .box_logrenove {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  background: #f0f8f9;
+  padding: 30px;
+  position: relative;
+  &:after {
+    content: "";
+    width: calc(100% - 30px)!important;
+    height: 100%!important;
+    position: absolute;
+    z-index: -1;
+    background: none;
+    border: 1px solid $blue-color;
+    right: -30px!important;
+    top: 30px!important;
+    transition: all 300ms ease-in-out;
+  }
+  .box_logrenove_content {
+    padding-left: 30px;
+    h2 {
+      font-size: 1.125em;
+      margin-bottom: 20px;
+      color: $blue-color;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .box_logrenove_img {
+    img {
+      width: 100%;
+    }
+  }
 }
 
+.box_orderrenove {
+  border-bottom: 1px solid #e4e7f2;
+  padding: 30px 0;
+  .box_orderrenove_img {
+    margin-bottom: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+  h2 {
+    font-size: 1.125em;
+    margin-bottom: 10px;
+    color: $blue-color;
+    font-family: $sub-font;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .box_orderrenove_content {
+    p {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
 
+.section_contact {
+  .frm_contact {
+    label {
+      font-weight: 500;
+    }
+    .info {
+      a {
+        color: $blue-color;
+        font-weight: 600;
+      }
+    }
+    .btnSend {
+      margin-top: 15px;
+      border: 1px solid #000;
+      margin-right: 15px;
+      padding: 15px 30px;
+      min-width: 280px;
+      position: relative;
+      font-weight: 500;
+      img {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transition: all 350ms ease-in;
+      }
+      &:hover {
+        img {
+          right: 10px;
+        }
+      }
+    }
+  }
+}
 
+.section_termpage {
+  h3 {
+    margin: 50px 0 20px;
+  }
+}
+
+.highline {
+  font-family: Menlo,Consolas,monaco,monospace;
+  padding: .8em 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.875em;
+  line-height: 1.8em;
+}
 
 @media (max-width: 768px) {
   p {
@@ -1438,6 +1566,7 @@ footer {
   .section_subbanner {
     h1 {
       font-size: 2em;
+      text-align: center;
     }
   }
 
@@ -1445,6 +1574,17 @@ footer {
     .box_marketing {
       .box_marketing_item {
         padding: 15px;
+      }
+    }
+  }
+
+  .box_logrenove {
+    padding: 15px;
+    .box_logrenove_content {
+      padding-left: 0;
+      padding-top: 30px;
+      h2 {
+        margin-bottom: 10px;
       }
     }
   }
