@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_banner custom" style="background-image: url('images/bg_top.jpg'); background-attachment: fixed;">
+            <!-- <section class="section_banner custom" style="background-image: url('images/bg_top.jpg'); background-attachment: fixed;">
                 <div class="container">
                     <div class="caption">
                         <div class="row">
@@ -16,6 +16,21 @@
                                 </h1>
                             </div>
                             <div class="col-12 col-lg-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="section_banner" style="background-image: url('images/home2_bak-slide_1920x1060.jpg'); background-attachment: fixed;">
+                <div class="container">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-12 col-lg-12">
+                                <h1 class="mb-0 text-center">
+                                    <img src="images/svg/logo_black.svg" alt="" class="img-fluid" width="520">
+                                    TECH×RENOVATION <img src="images/svg/i_arrow_duplicate.svg" alt="" class="img-fluid mr-2">LogKnot
+                                </h1>
                             </div>
                         </div>
                     </div>
