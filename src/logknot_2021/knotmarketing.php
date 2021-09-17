@@ -36,13 +36,13 @@
                                     </div>
                                     <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/サービス戦略策定・設計・構築.jpg" alt="" class="img-fluid">
+                                            <img src="images/knotmarketing01.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
                                     <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/リードジェネレーション・ナーチャリング.jpg" alt="" class="img-fluid">
+                                            <img src="images/knotmarketing02.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-6 align-self-center">
@@ -66,13 +66,13 @@
                                     </div>
                                     <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/WEB制作・メディア制作.jpg" alt="" class="img-fluid">
+                                            <img src="images/knotmarketing03.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
                                     <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/動画制作.jpg" alt="" class="img-fluid">
+                                            <img src="images/knotmarketing04.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-6 align-self-center">
@@ -96,7 +96,7 @@
                                     </div>
                                     <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/システム開発.jpg" alt="" class="img-fluid">
+                                            <img src="images/knotmarketing05.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     

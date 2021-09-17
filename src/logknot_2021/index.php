@@ -45,15 +45,16 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <h2 class="title_sub">WORKS</h2>
-                            <p class="subtitle">「事業」</p>
+                            <p class="subtitle">事業</p>
 
                             <div class="list_services">
                                 <div class="box_services">
                                     <div class="services_img">
-                                        <img src="images/img01.png" alt="" class="img-fluid">
+                                        <img src="images/bg_orderrenove01.jpg" alt="" class="img-fluid">
                                         <span>「まだ見ぬ住まい」まで提案する<br>新時代のリノベ・ソリューション</span>
                                     </div>
-                                    <h3>リノベーションプラットフォーム <span>Order Renove</span></h3>
+                                    <h3>リノベーションプラットフォーム</h3>
+                                    <h4>Order Renove</h4>
                                     <a href="orderrenove.php" class="btn">「詳しく見る」<img src="images/svg/i_right.svg" alt="" class="img-fluid" width="25"></a>
                                 </div>
                                 <div class="box_services">
@@ -61,7 +62,8 @@
                                         <img src="images/pc_sp.jpg" alt="" class="img-fluid">
                                         <span>生き方まで「リノベーション」<br>豊かな人生を送るための提案型メディア</span>
                                     </div>
-                                    <h3>ライフスタイル・リノベーションメディア<span>LogRenove</span></h3>
+                                    <h3>ライフスタイル・リノベーションメディア</h3>
+                                    <h4>LogRenove</h4>
                                     <a href="logrenove.php" class="btn">「詳しく見る」<img src="images/svg/i_right.svg" alt="" class="img-fluid" width="25"></a>
                                 </div>
                                 <div class="box_services">
@@ -69,7 +71,8 @@
                                         <img src="images/VRシミュレーション.PNG" alt="" class="img-fluid">
                                         <span>より簡単に、より具体的に――<br>ECにもつながる三次元VRツール</span>
                                     </div>
-                                    <h3>VRシミュレーションツール<span>Order Space</span></h3>
+                                    <h3>VRシミュレーションツール</h3>
+                                    <h4>Order Space</h4>
                                     <a href="orderspace.php" class="btn">「詳しく見る」<img src="images/svg/i_right.svg" alt="" class="img-fluid" width="25"></a>
                                 </div>
                                 <div class="box_services">
@@ -77,7 +80,8 @@
                                         <img src="images/bg_knotmarketing.jpg" alt="" class="img-fluid">
                                         <span>モノではなく「成果」を提供。<br>共にゴールを目指す共創ビジネス</span>
                                     </div>
-                                    <h3>マーケティング支援<span>Knot Marketing</span></h3>
+                                    <h3>マーケティング支援</h3>
+                                    <h4>Knot Marketing</h4>
                                     <a href="knotmarketing.php" class="btn">「詳しく見る」<img src="images/svg/i_right.svg" alt="" class="img-fluid" width="25"></a>
                                 </div>
                             </div>
@@ -471,7 +475,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <h2 class="title_sub">BLOG</h2>
-                            <p class="subtitle">「ブログ」</p>
+                            <p class="subtitle">ブログ</p>
 
                             <ul>
                                 <li>

@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_subbanner" style="background-image: url('images/３Dキャプチャ-1.png');">
+            <section class="section_subbanner" style="background-image: url('images/3d1.png');">
                 <h1>VRシミュレーションツール</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -30,7 +30,7 @@
                                 <div class="row no-gutters">
                                     <div class="col-12 col-lg-5 align-self-center">
                                         <div class="box_orderspace_img">
-                                            <img src="images/３Dキャプチャ-2.PNG" alt="" class="img-fluid">
+                                            <img src="images/3d2.PNG" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-7 align-self-center">
@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="col-12 col-lg-5 align-self-center">
                                         <div class="box_orderspace_img">
-                                            <img src="images/３Dキャプチャ-4.PNG" alt="" class="img-fluid">
+                                            <img src="images/3d4.PNG" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
