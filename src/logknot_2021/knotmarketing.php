@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_subbanner" style="background-image: url('https://t4.ftcdn.net/jpg/02/68/13/83/240_F_268138321_fOi7qFJqgPk1LPFTtwM5SNZx7209xNkS.jpg');">
+            <section class="section_subbanner" style="background-image: url('images/bg_knotmarketing.jpg');">
                 <h1>マーケティング支援</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -25,7 +25,7 @@
                             <p class="mb-5">新規メディアを半年で月間20万UU規模にグロースさせた経験、月間150件もの不動産反響を獲得した集客スキルを活かして、企画立案から集客まで含めたトータルWEBマーケティング支援を行っています。WEBページやシステムといった「モノ」を提供するのではなく、しっかりとした「成果」を提供することをモットーに、お客様との「Knot＝縁、絆」を大切にしたソリューションを提供します。</p>
                             <div class="box_marketing">
                                 <div class="row">
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item">
                                             <div class="box_icon">
                                                 <img src="images/svg/i_brain.svg" alt="" class="img-fluid" width="30">
@@ -34,18 +34,18 @@
                                             <p>お客様のビジネスを成功させるための戦略をともに考え、WEBサービスに落とし込むお手伝いをさせていただきます。お客様の本来の目的をしっかりと理解したうえで、どのようなWEBサービスを作り、どのように戦っていくべきなのか？ 戦略の策定から設計、ローンチに至るまであらゆるWEB施策をともに考え、戦術を打ち出していきます。</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/image-11.png" alt="" class="img-fluid">
+                                            <img src="images/サービス戦略策定・設計・構築.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/media.png" alt="" class="img-fluid">
+                                            <img src="images/リードジェネレーション・ナーチャリング.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item">
                                             <div class="box_icon">
                                                 <img src="images/svg/i_seo.svg" alt="" class="img-fluid" width="30">
@@ -55,7 +55,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item">
                                             <div class="box_icon">
                                                 <img src="images/svg/i_media.svg" alt="" class="img-fluid" width="30">
@@ -64,18 +64,18 @@
                                             <p>オウンドメディア「LogRenove」を立ち上げ、月間20万ユーザー規模のサイトに成長させた知見を活かして、お客様のWEB制作、オウンドメディアの制作・運営をお手伝いさせていただきます。紙媒体、WEB媒体をはじめ複数メディアの編集に携わった多くのスタッフが、取材、記事制作、SEO対策までフォローさせていただきます。</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/paint.png" alt="" class="img-fluid">
+                                            <img src="images/WEB制作・メディア制作.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
 
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/Pencils.png" alt="" class="img-fluid">
+                                            <img src="images/動画制作.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item">
                                             <div class="box_icon">
                                                 <img src="images/video-camera.png" alt="" class="img-fluid" width="30">
@@ -85,7 +85,7 @@
                                         </div>
                                     </div>
                                     
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item">
                                             <div class="box_icon">
                                                 <img src="images/settings.png" alt="" class="img-fluid" width="30">
@@ -94,9 +94,9 @@
                                             <p>不動産業者向けの一括入稿システム、一般ユーザー向けの着付けマッチングサービス等のシステム開発実績を活かして、toB、toC問わず、各種システム構築のお手伝いをさせていただきます。まずはお客様が目指すビジネスゴールはどこなのか？という根本から関わらせていただき、もっともゴールに効率的にたどり着くための手法（システム）を、一緒に開発させていただきます。</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-12 col-lg-6 align-self-center">
                                         <div class="box_marketing_item_img">
-                                            <img src="images/image-16.png" alt="" class="img-fluid">
+                                            <img src="images/システム開発.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     
