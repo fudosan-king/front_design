@@ -210,6 +210,7 @@ header {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  background: #000;
   &.compressed {
     background: #000;
     -webkit-transition: all 0.3s ease;
@@ -239,24 +240,25 @@ header {
       }
     }
   }
-  &:before {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: url('../images/decor_banner.png') no-repeat;
-    width: 676px;
-    height: 559px;
-  }
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   right: 0;
+  //   top: 0;
+  //   bottom: 0;
+  //   margin: auto;
+  //   background: url('../images/decor_banner.png') no-repeat;
+  //   width: 676px;
+  //   height: 559px;
+  // }
   .caption {
     h1 {
       font-size: 3.75em;
       font-weight: 900;
-      color: #fff;
+      color: #000;
       margin-bottom: 20px;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      // text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+      font-family: $sub-font;
       span {
         display: block;
         color: #1C90B2;
@@ -290,7 +292,11 @@ header {
 }
 
 .section_services {
-  background: #F5F5FA;
+  background: url('../images/bg_services.jpg') no-repeat;
+  background-size: cover;
+  .title_sub, .subtitle {
+    color: #fff;
+  }
   .list_services {
     display: flex;
     justify-content: center;
@@ -309,24 +315,64 @@ header {
       }
       .services_img {
         width: 320px;
-        height: 190px;
+        height: 250px;
         overflow: hidden;
         border-radius: 4px;
         transition: all 0.4s ease-in-out;
+        position: relative;
         img {
           width: 100%;
-          height: 190px;
+          height: 250px;
           object-fit: cover;
           transition: all 0.2s linear;
+        }
+        span {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding: 10px;
+          background: rgba(28, 144, 178, .8);
+          font-weight: 500;
+          color: #fff;
         }
       }
       h3 {
         margin-bottom: 0;
         font-weight: 700;
-        font-size: 1.125em;
+        font-size: 1.25em;
         margin-top: 20px;
+        min-height: 70px;
+        color: #fff;
         span {
           display: block;
+          font-size: .8em;
+          font-family: $sub-font;
+          font-weight: 500;
+        }
+      }
+      .btn {
+        color: #fff;
+        border-radius: 4px;
+        border: 1px solid #fff;
+        margin-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 0.875em;
+        position: relative;
+        &:hover {
+          img {
+            right: 10px;
+            transform: scale(1);
+          }
+        }
+        img {
+          position: absolute;
+          right: 15px;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          transition: all 350ms ease-in;
         }
       }
     }
@@ -893,6 +939,7 @@ footer {
 }
 
 .section_subbanner {
+  margin-top: 77px;
   height: 474px;
   display: flex;
   flex-direction: column;
@@ -1142,12 +1189,12 @@ footer {
   margin-bottom: 60px;
   .box_marketing {
     .box_marketing_item {
-      margin-top: 30px;
+      margin-bottom: 30px;
       text-align: left;
       background: rgba(255, 255, 255, 0.80);
       padding: 40px 35px 10px 37px;
       border: 1px solid #e4e7f2;
-      border-radius: 10px 10px 10px 10px;
+      border-radius: 4px;
       position: relative;
       &:after {
         content: '';
@@ -1188,14 +1235,22 @@ footer {
       }
     }
     .box_marketing_item_img {
-      margin-top: 30px;
-      height: 100%;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 376px;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
       align-content: stretch;
+      border-radius: 4px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 376px;
+        object-fit: cover;
+      }
     }
   }
 }
@@ -1413,6 +1468,7 @@ footer {
         }
         h3 {
           font-size: 1em;
+          min-height: auto;
         }
       }
     }
