@@ -343,7 +343,7 @@ header.compressed {
 
 .section_banner .caption h1 {
     font-size: 3.75em;
-    font-weight: 900;
+    font-weight: 500;
     color: #000;
     margin-bottom: 20px;
     font-family: "Montserrat", sans-serif;
@@ -1577,16 +1577,6 @@ footer .footer_bottom p a:hover {
         height: 349px;
     }
 
-    .section_banner:after {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.5);
-    }
-
     .section_banner .caption {
         z-index: 10;
         position: relative;
@@ -1598,6 +1588,10 @@ footer .footer_bottom p a:hover {
 
     .section_banner .caption p {
         font-size: 0.875em;
+    }
+
+    .section_subbanner {
+        margin-top: 56px;
     }
 
     .section_services .list_services {
