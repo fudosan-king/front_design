@@ -90,7 +90,34 @@
                 </div>
             </section>
 
-            <section class="section_news">
+            <section id="section_subnews" class="section_subnews">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-12">
+                            <h2 class="title_sub">NEWS</h2>
+                            <p class="subtitle">お知らせ</p>
+                            <ul class="list_news">
+                                <li>
+                                    <a href="#">
+                                        <time datetime="2020年11月30日">2020年11月30日</time>
+                                        <h4>UsideUと共同で不動産・リノベーションにおける「接客のDX化プロジェクト」を始動</h4>
+                                        <p><span>お知らせ</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <time datetime="2020年8月19日">2020年8月19日</time>
+                                        <h4>LogKnot株式会社を設立いたしました。</h4>
+                                        <p><span>お知らせ</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="section_news">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
@@ -191,7 +218,7 @@
                             </div>
                         </div>
 
-                        <!-- <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-4">
                             <aside class="side_right">
                                 <div class="box_newest_related">
                                     <article>
@@ -387,10 +414,10 @@
                                     </a>
                                 </div>
                             </aside>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             
             <!-- <section class="section_article_list">
@@ -491,10 +518,10 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <div class="like">
+                                                    <!-- <div class="like">
                                                         <span class="i_like"></span>
                                                         <span class="like_counter">2</span>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <h4>【Gmail活用術】業務効率化の第一歩！テンプレートでお問い合わせメール対応するんや！編</h4>
                                             </div>
@@ -514,10 +541,10 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <div class="like">
+                                                    <!-- <div class="like">
                                                         <span class="i_like"></span>
                                                         <span class="like_counter">2</span>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -537,10 +564,10 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <div class="like">
+                                                    <!-- <div class="like">
                                                         <span class="i_like"></span>
                                                         <span class="like_counter">2</span>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -560,10 +587,10 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <div class="like">
+                                                    <!-- <div class="like">
                                                         <span class="i_like"></span>
                                                         <span class="like_counter">2</span>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -583,10 +610,10 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <div class="like">
+                                                    <!-- <div class="like">
                                                         <span class="i_like"></span>
                                                         <span class="like_counter">2</span>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -606,10 +633,10 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <div class="like">
+                                                    <!-- <div class="like">
                                                         <span class="i_like"></span>
                                                         <span class="like_counter">2</span>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
