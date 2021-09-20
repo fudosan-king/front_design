@@ -103,20 +103,21 @@
                 <p class="subtitle">わたしたちについて</p>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-md-12 col-lg-8">
+                        <div class="col-12 col-md-12 col-lg-6">
                             <p>LogKnotって聞きなれない？ そうですか…まぁ、私たちが考えた造語なので、仕方ありませんね。<br>
                             Logは①丸太、無垢材②記録。Knotは①結び目②縁、絆③スピードの意。このふたつの造語です。<br>
                             「Log＝無垢材」のような肌触り、温度感、センスを楽しめるようなサービス・コンテンツを作る組織になれるといいなぁ、と思ってます。もちろんテック企業なので、「Log＝記録」の正確さは大切ですけどね。</p>
                             <p>「Knot＝縁、絆」というのもLogKnotが大切にしたいところ。社内のKnotだけでなく、ユーザーや関係する企業とのKnotも大切にしていきます。世の中、縁と絆、義理人情がすべてですから。そして、テック企業としてのスピード（Knot）感ももちろん大事。<br>
                             人の縁や絆といった「心地よさ」とテック企業ならではの「合理性」をあわせもった、両生類的な企業を目指します。</p>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-4">
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <img src="images/aboutus.jpg" alt="" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="section_work" class="section_work">
+            <!-- <section id="section_work" class="section_work">
                 <h2 class="title_sub text-white">WORKS</h2>
                 <p class="subtitle">事業内容</p>
                 <div class="container">
@@ -145,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section id="section_recruit" class="section_recruit">
                 <h2 class="title_sub">RECRUIT</h2>
@@ -159,7 +160,6 @@
                                 <a target="_blank" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/" class="btn">中途採用を見る <img src="images/svg/i_right_black.svg" alt="" class="img-fluid" width="25"></a>
                                 <a target="_blank" href="https://www.propolife.co.jp/recruit/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/" class="btn">アルバイト採用を見る <img src="images/svg/i_right_black.svg" alt="" class="img-fluid" width="25"></a>
                             </p>
-                            <p class="text-center mt-5"><img src="images/Pencils.png" alt="" class="img-fluid"></p>
                         </div>
                     </div>
                 </div>
@@ -194,13 +194,7 @@
                                 </tr>
                                 <tr>
                                     <th>役員</th>
-                                    <td>
-                                        <p class="mb-0">
-                                            代表取締役社長　伊藤 竜介<br>
-                                            取締役会長　　　野澤 泰之<br>
-                                            取締役　　　　　荒井 洋平
-                                        </p>
-                                    </td>
+                                    <td>代表取締役社長　伊藤 竜介</td>
                                 </tr>
                             </table>
                             <p class="text-center"><img src="images/SGS_ISO-IEC_27001_with_ISMS-AC_TCL_LR.jpg" alt="" class="img-fluid" width="100"></p>

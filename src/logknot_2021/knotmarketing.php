@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_subbanner" style="background-image: url('images/bg_knotmarketing.jpg');">
+            <section class="section_subbanner" style="background-image: url('images/bg_knotmarketing.jpg'); background-position: 0 center;">
                 <h1>マーケティング支援</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">

@@ -50,7 +50,7 @@
                                     </div>
                                     <div class="col-12 col-lg-5 align-self-center">
                                         <div class="box_logrenove_img">
-                                            <img src="https://t3.ftcdn.net/jpg/02/17/41/48/240_F_217414837_iOKVvCr9lO9NC0NHzqdCeDcnv5w3vRLU.jpg" alt="" class="img-fluid">
+                                            <img src="images/lifestyle_renovation.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
