@@ -1166,40 +1166,21 @@ footer .footer_bottom p a:hover {
 }
 
 .section_mission {
-    background: url("../images/bg_mission.jpg") no-repeat;
-    background-size: cover;
     padding-right: 60px;
     padding-left: 60px;
     position: relative;
-    background-attachment: fixed;
-}
-
-.section_mission:before {
-    content: '';
-    position: absolute;
-    left: 30px;
-    top: 20%;
-    bottom: 0;
-    margin: auto;
-    background: url("../images/imac_home.png") no-repeat;
-    width: 1052px;
-    height: 821px;
+    background-color: #F5F5FA;
 }
 
 .section_mission .subtitle {
-    color: #fff;
     font-weight: 500;
 }
 
-.section_mission h2 {
-    color: #fff;
-}
-
 .section_mission .box_mission {
-    border: 1px solid #fff;
+    border: 1px solid #ccc;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 4px;
-    padding: 30px;
+    padding: 25px;
     margin: 30px 0;
 }
 
@@ -1212,7 +1193,6 @@ footer .footer_bottom p a:hover {
 }
 
 .section_mission .box_mission_footer p {
-    color: #fff;
     font-weight: 500;
 }
 

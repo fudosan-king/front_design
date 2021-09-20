@@ -6,7 +6,7 @@
 
         <main>
 
-            <section class="section_subbanner" style="background-image: url('images/bg_logrenove.jpg');">
+            <section class="section_subbanner" style="background-image: url('images/bg_logrenove.jpg'); background-position: center;">
                 <h1>ライフスタイル・リノベーションメディア</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
