@@ -1220,18 +1220,6 @@ footer .footer_bottom p a:hover {
     position: relative;
 }
 
-.section_about:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background: url("../images/Canvas.png") no-repeat;
-    background-size: 100%;
-    width: 610px;
-    height: 600px;
-}
-
 .section_work {
     background: #F5F5FA;
     background-image: url("../images/Works_bak.jpg");
@@ -1284,6 +1272,10 @@ footer .footer_bottom p a:hover {
     margin-bottom: 0;
     font-size: 0.875em;
     color: #000;
+}
+
+.section_recruit {
+    background: #F5F5FA;
 }
 
 .section_recruit .btn {
@@ -1396,6 +1388,18 @@ footer .footer_bottom p a:hover {
 .box_orderspace {
     background: rgba(28, 114, 178, 0.1);
     margin-bottom: 30px;
+}
+
+.box_orderspace .box_orderspace_img {
+    width: 100%;
+    height: 378px;
+}
+
+.box_orderspace .box_orderspace_img img {
+    width: 100%;
+    height: 378px;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .box_orderspace .box_orderspace_content {

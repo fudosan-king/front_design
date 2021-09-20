@@ -32,7 +32,7 @@
                             <div class="col-12 col-lg-12">
                                 <h1 class="mb-0 text-center">
                                     <img src="images/svg/logo_black.svg" alt="" class="img-fluid" width="520">
-                                    TECH×RENOVATION <img src="images/svg/i_arrow_duplicate.svg" alt="" class="img-fluid mr-2">LogKnot
+                                    TECH×RENOVATION <img src="images/svg/i_arrow_duplicate.svg" alt="" class="img-fluid mr-2" width="70">LogKnot
                                 </h1>
                             </div>
                         </div>
