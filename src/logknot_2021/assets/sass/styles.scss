@@ -1432,6 +1432,14 @@ footer {
       position: relative;
       h1 {
         font-size: 1.6em;
+        img {
+          &.logo {
+            display: block;
+            width: 80%;
+            margin: auto auto 20px;
+          }
+          width: 30px;
+        }
       }
       p {
         font-size: 0.875em;
@@ -1619,6 +1627,12 @@ footer {
     .box_marketing {
       .box_marketing_item {
         padding: 15px;
+      }
+      .box_marketing_item_img {
+        height: auto;
+        img {
+          height: auto;
+        }
       }
     }
   }

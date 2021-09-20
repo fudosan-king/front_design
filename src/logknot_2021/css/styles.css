@@ -1570,6 +1570,16 @@ footer .footer_bottom p a:hover {
         font-size: 1.6em;
     }
 
+    .section_banner .caption h1 img {
+        width: 30px;
+    }
+
+    .section_banner .caption h1 img.logo {
+        display: block;
+        width: 80%;
+        margin: auto auto 20px;
+    }
+
     .section_banner .caption p {
         font-size: 0.875em;
     }
@@ -1729,6 +1739,14 @@ footer .footer_bottom p a:hover {
 
     .section_marketing .box_marketing .box_marketing_item {
         padding: 15px;
+    }
+
+    .section_marketing .box_marketing .box_marketing_item_img {
+        height: auto;
+    }
+
+    .section_marketing .box_marketing .box_marketing_item_img img {
+        height: auto;
     }
 
     .box_logrenove {
