@@ -1,17 +1,16 @@
 function menu()
 {
+    // Update popup menu 20-09-2021
     this.html = {
-        drawer_current_items:'.drawer-items:not(.drawer-detail)',
         drawer_item:'.drawer-item',
         drawer_txt:'.drawer-txt',
-        drawer_btn:'.drawer-btn-action',
-        drawer_btn_prev:'.drawer-btn_prev',
-        drawer_parent: '.drawer-group',
-        drawer_navbars_top:'.drawer-navbars_top',
-        drawer_hidden:'drawer-hidden',
+        drawer_btn:'.property-panel-current',
+        drawer_btn_prev:'.close-detail',
+        drawer_parent: '.drawer',
         drawer_detail:'.drawer-detail',
         show_detail:'show-detail',
         detail_showing:'detail-showing',
+        detail_closing:'detail-closing',
     }
 
     this.hamburger = function()
@@ -50,70 +49,65 @@ function menu()
         _this.drawerMenu();
     }
 
-
+    // Update popup menu 20-09-2021
     this.drawerMenu = function ()
     {
-        const eleFooterBoard = document.querySelector('.board-info');
-        const eleDrawerMenu = document.querySelector('.drawer-menu');
-        let height = eleFooterBoard.offsetHeight;
-        eleDrawerMenu.style.height = 'calc(100% - '+height+'px)';
-        window.addEventListener('resize', ()=>{
+        const eleSideBars = ['.drawer-detail-modal','.drawer-menu'];
+        eleSideBars.forEach((ele,i)=>{
+            const eleFooterBoard = document.querySelector('.board-info');
+            const eleDrawerMenu = document.querySelector(ele);
             let height = eleFooterBoard.offsetHeight;
             eleDrawerMenu.style.height = 'calc(100% - '+height+'px)';
+            window.addEventListener('resize', ()=>{
+                let height = eleFooterBoard.offsetHeight;
+                eleDrawerMenu.style.height = 'calc(100% - '+height+'px)';
+            });
         });
     }
-
+    
+    // Update popup menu 20-09-2021
     this.drawerPos = function()
     {
         const _this = this;
         const eleHeader = document.querySelector('header');
         const eleDrawerPos = document.querySelector('.drawer-pos');
+        const eleDrawerDetail = document.querySelector('.drawer-detail-modal');
         const eleTool = document.querySelector('.board-tool');
-
         let height = eleHeader.offsetHeight;
         eleDrawerPos.style.top = height+'px';
         eleTool.style.top = (height+20)+'px';
+        eleDrawerDetail.style.top = height+'px';
         window.addEventListener('resize', ()=>{
             height = eleHeader.offsetHeight;
             eleDrawerPos.style.top = height+'px';
+            eleDrawerDetail.style.top = height+'px';
             eleTool.style.top = (height+20)+'px';
         });   
     }
 
-
+    // Update popup menu 20-09-2021
     this.backFromDetailToItems = function()
     {
         const _this = this;
-        const { drawer_hidden,
-                drawer_btn_prev,
+        const { drawer_btn_prev,
                 drawer_parent,
                 show_detail,
-                drawer_navbars_top,
                 drawer_detail,
-                drawer_current_items,
-                detail_showing, } = _this.html;
-        const btnBacks = document.querySelectorAll(drawer_btn_prev);
-        btnBacks.forEach(btnBack =>{
-            btnBack.addEventListener('click',e =>{
-                const {currentTarget} = e;
-                const currentParent = currentTarget.closest(drawer_navbars_top);
-                const parentList = currentParent.nextElementSibling;
-                //Showing
-                parentList.classList.add(detail_showing);
-                parentList.classList.remove(show_detail);
-                currentParent.classList.add(drawer_hidden);
-                parentList.querySelector(drawer_current_items).classList.remove(drawer_hidden);
-                setTimeout(()=>{
-                    parentList.classList.remove(detail_showing);
-                    if( parentList.querySelector(drawer_detail) ){
-                        parentList.querySelector(drawer_detail).remove();
-                    }
-                },40); 
-            });
+                detail_closing, } = _this.html;
+        const btnBack = document.querySelector(drawer_btn_prev);
+        btnBack.addEventListener('click',e =>{
+            const {currentTarget} = e;
+            const parent = currentTarget.closest(drawer_parent);
+            //Closing
+            parent.classList.add(detail_closing);
+            setTimeout(()=>{
+                parent.classList.remove(show_detail);
+            },40); 
         });
+
     }
 
-
+    // Update popup menu 20-09-2021
     this.showDetail = function()
     {
         const _this = this;
@@ -122,97 +116,38 @@ function menu()
             drawer_txt,
             drawer_btn,
             drawer_parent,
-            drawer_detail,
             show_detail,
-            drawer_hidden,
-            drawer_current_items,
             detail_showing,} = _this.html;
         const eleDetail = document.querySelectorAll(`${drawer_item},${drawer_txt},${drawer_btn}`);
-
         eleDetail.forEach(ele =>{
-
             ele.addEventListener('click',e => {
                 const {currentTarget,target} = e;
-                
                 if(target.tagName === 'I') return;
-
                 const parent = currentTarget.closest(drawer_parent);
                 const data = currentTarget.getAttribute(data_id);
+                //button global
+                if( currentTarget.classList.contains('property-panel-current') ){
 
-                //Showing
-                parent.classList.add(detail_showing);
-                setTimeout(()=>{
-                    parent.classList.remove(detail_showing);
-                    parent.querySelector(drawer_current_items).classList.add(drawer_hidden);
-                    parent.classList.add(show_detail);
-                },40);
-                parent.previousElementSibling.classList.remove(drawer_hidden);
-                if( parent.querySelector(drawer_detail) ){
-                    parent.querySelector(drawer_detail).remove();
+                    const detail_popup = document.querySelector(drawer_parent);
+                    console.log();
+                    setTimeout(()=>{
+                        detail_popup.classList.add(detail_showing);
+                    },10);
+                    setTimeout(()=>{
+                        detail_popup.classList.add(show_detail);
+                        detail_popup.classList.remove(detail_showing);
+                    },40);
+                } else {
+                    parent.classList.remove(`${detail_showing},${show_detail}`);
+                    //Showing
+                    parent.classList.add(detail_showing);
+                    setTimeout(()=>{
+                        parent.classList.add(show_detail);
+                        parent.classList.remove(detail_showing);
+                        document.querySelector(drawer_btn).setAttribute('data-id',data);
+                    },40);
                 }
-                let html = '';
-                html += `
-                    <ul class="drawer-items drawer-detail drawer-collapse">
-                        <li>
-                            <div data-id="69" class="drawer-item">
-                                <i onclick="sideMenu.wishList(event)" class="top i-heart-circle-light"></i>
-                                <img src="./images/menu-side/1.svg" alt="image" title="image">
-                            </div>
-                            <div data-id="69" class="drawer-txt">
-                                <p>SEMPRE</p>
-                                <p>ベッド（BE-02）シングル</p>
-                                <p>W1110 / D2260 / H650</p>
-                                <p>151,200 円</p>
-                                <i class="zoom i-search-orange"></i>
-                            </div>
-                        </li>
-                        <li>
-                            <button type="button"
-                                class="btn btn-turquoise">
-                                削除
-                            </button>
-                            <button type="button"
-                                class="btn btn-turquoise">
-                                複製
-                            </button>
-                            <button type="button"
-                                class="btn btn-turquoise">
-                                高さ調整
-                            </button>
-                        </li>
-                        <li>
-                            <p>種類名</p>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                        </li>
-                        <li>
-                            <p>種類名</p>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                            <div class="drawer-item"></div>
-                        </li>
-                        <li class="text-center">
-                            <a class="btn btn-yellow">商品サイトへ</a> 
-                        </li>
-                    </ul>
-                `; 
-                parent.insertAdjacentHTML('afterbegin',html);
-
             });
-
         });
     }
 
@@ -377,7 +312,6 @@ function handle_modal()
         const down_nums = document.querySelectorAll('.quantity-block .down-num');
         const down_inputs = document.querySelectorAll('.quantity-block input');
        
-
         down_nums.forEach(down_num=>{
             down_num.addEventListener('click',e=>{
                 const {currentTarget} = e;

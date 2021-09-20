@@ -211,10 +211,10 @@ ul.drawer-items{
 .drawer-group{
 	position: relative;
 }
+
 .drawer-navbar{
 	.drawer-btn_prev{
 		background: #FFFFFF;
-		border-radius: 8px 8px 0px 0px;
 		font-weight: 600;
 		font-size: 0.875rem;
 		line-height: 1.4;
@@ -284,26 +284,6 @@ ul.drawer-items{
 		width: 100%;
 		max-width: 144px;
 		margin:0 auto;
-	}
-}
-
-.show-detail{
-	.drawer-detail{
-		transform: translate3d(0,0,0);
-	}
-	.control-view{
-		display: none;	
-	}
-}
-
-.detail-showing{
-	.drawer-items{
-		transform: translate3d(100%,0,0);
-	}
-	.drawer-detail{
-		transform: translate3d(100%,0,0);
-		position: absolute;
-		visibility: hidden;
 	}
 }
 
