@@ -29,7 +29,7 @@
                             <div class="col-12 col-lg-12">
                                 <h1 class="mb-0 text-center">
                                     <img src="images/svg/logo_black.svg" alt="" class="img-fluid" width="520">
-                                    TECH×RENOVATION <img src="images/svg/i_arrow_duplicate.svg" alt="" class="img-fluid mr-2">LogKnot
+                                    TECH×RENOVATION <img src="images/svg/i_arrow_duplicate.svg" alt="" class="img-fluid mr-2" width="70">LogKnot
                                 </h1>
                             </div>
                         </div>
@@ -68,11 +68,11 @@
                 <h2 class="title_sub">MISSION</h2>
                 <p class="subtitle">わたしたちの目標</p>
                 <div class="container">
-                    <div class="row no-gutters">
-                        <div class="col-12 col-lg-5">
-                            
+                    <div class="row">
+                        <div class="col-12 col-lg-3 align-self-center">
+                            <img src="images/svg/logo_effect.svg" alt="" class="img-fluid" width="400">
                         </div>
-                        <div class="col-12 col-lg-7">
+                        <div class="col-12 col-lg-9 align-self-center">
                             <h2>アタリマエをリノベーション</h2>
                             <div class="box_mission">
                                 <h4>アタリマエ <span>【当たり前】</span></h4>

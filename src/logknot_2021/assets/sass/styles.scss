@@ -1034,50 +1034,41 @@ footer {
 }
 
 .section_mission {
-  background: url('../images/bg_mission.jpg') no-repeat;
-  background-size: cover;
   padding-right: 60px;
   padding-left: 60px;
   position: relative;
-  background-attachment: fixed;
-  &:before {
-    content: '';
-    position: absolute;
-    left: 30px;
-    top: 20%;
-    bottom: 0;
-    margin: auto;
-    background: url('../images/imac_home.png') no-repeat;
-    width: 1052px;
-    height: 821px;
-  }
+  background-color: $silver-color;
+  // &:before {
+  //   content: '';
+  //   position: absolute;
+  //   left: 30px;
+  //   top: 20%;
+  //   bottom: 0;
+  //   margin: auto;
+  //   background: url('../images/imac_home.png') no-repeat;
+  //   width: 1052px;
+  //   height: 821px;
+  // }
   .subtitle {
-    color: #fff;
     font-weight: 500;
   }
-  h2 {
-    color: #fff;
-  }
   .box_mission {
-    border: 1px solid #fff;
+    border: 1px solid #ccc;
     background: rgba(255, 255, 255, .5);
     border-radius: 4px;
-    padding: 30px;
+    padding: 25px;
     margin: 30px 0;
     h4 {
-      // color: #fff;
       span {
         color: $blue-color;
       }
     }
     p {
-      // color: #fff;
       font-weight: 500;
     }
   }
   .box_mission_footer {
     p {
-      color: #fff;
       font-weight: 500;
     }
   }
