@@ -24,7 +24,7 @@
                             共にゴールを目指す共創ビジネス</h2>
                             <p>新規メディアを半年で月間20万UU規模にグロースさせた経験、月間150件もの不動産反響を獲得した集客スキルを活かして、企画立案から集客まで含めたトータルWEBマーケティング支援を行っています。WEBページやシステムといった「モノ」を提供するのではなく、しっかりとした「成果」を提供することをモットーに、お客様との「Knot＝縁、絆」を大切にしたソリューションを提供します。</p>
                             <div class="w_contact">
-                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
+                                <a href="contact.php" class="btn btn_contact"><span>マーケティング支援について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
                             </div>
                             <div class="box_marketing">
                                 <div class="row">
@@ -108,7 +108,7 @@
                             </div>
 
                             <div class="w_contact pt-0">
-                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
+                                <a href="contact.php" class="btn btn_contact"><span>マーケティング支援について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
                             </div>
 
                         </div>

@@ -27,7 +27,7 @@
                             <p class="mb-3">すでにリノベーションされた物件だけでなく、これまで分かりにくかった「築古の中古物件をこれからリノベーション」する際の、仕上がりイメージ、トータルの予算がわかる形で提供できるサービスです。「リノベーション済み物件」だけでなく「リノベーション前物件」の完成予想イメージと予算を具体的に提案することで、人々の住まいにおける選択肢を増やし、日本人の住まいに対する意識を変えていきたいと考えています。</p>
 
                             <div class="w_contact pb-0">
-                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
+                                <a href="#" class="btn btn_contact"><span>リノベーションプラットフォームについて相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
                             </div>
 
                             <div class="box_orderrenove">
@@ -47,7 +47,7 @@
                             </div>
 
                             <div class="w_contact">
-                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
+                                <a href="#" class="btn btn_contact"><span>リノベーションプラットフォームについて相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
                             </div>
 
                         </div>
