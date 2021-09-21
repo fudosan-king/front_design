@@ -1099,11 +1099,17 @@ footer .footer_bottom p a:hover {
 }
 
 .section_subbanner .breadcrumb .breadcrumb-item {
+    text-transform: uppercase;
+    font-weight: 500;
     color: #fff;
     font-family: "Montserrat", sans-serif;
 }
 
 .section_subbanner .breadcrumb .breadcrumb-item a {
+    color: #fff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
     color: #fff;
 }
 
@@ -1513,6 +1519,44 @@ footer .footer_bottom p a:hover {
     line-height: 1.8em;
 }
 
+.w_contact {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.w_contact .btn_contact {
+    background: #1ca8cc;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    padding: 15px 60px;
+    position: relative;
+}
+
+.w_contact .btn_contact:hover {
+    background: #0a6682;
+}
+
+.w_contact .btn_contact:hover img {
+    right: 10px;
+}
+
+.w_contact .btn_contact span {
+    position: relative;
+    display: inline-block;
+}
+
+.w_contact .btn_contact img {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 350ms ease-in;
+}
+
 @media (max-width: 768px) {
     p {
         font-size: 0.875em;
@@ -1760,5 +1804,15 @@ footer .footer_bottom p a:hover {
 
     .box_logrenove .box_logrenove_content h2 {
         margin-bottom: 10px;
+    }
+
+    .w_contact .btn_contact {
+        font-size: 1em;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .w_contact .btn_contact img {
+        width: 20px;
     }
 }
