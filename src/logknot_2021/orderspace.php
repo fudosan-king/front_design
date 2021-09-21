@@ -27,7 +27,7 @@
                             <p>弊社が展開するメディアやサービスを活用して、新たなユーザー創出につなげられるのもOrder Spaceの特長です。インテリアや住まいに興味を持つユーザーや、さらには具体的に不動産探しをしているユーザー等、クライアント様のビジネスに合わせて最適なカスタマーをご紹介するところまで、一貫してお手伝いさせていただきます。</p>
 
                             <div class="w_contact">
-                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
+                                <a href="contact.php" class="btn btn_contact"><span>VRシミュレーションツールについて相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
                             </div>
 
                             <div class="box_orderspace">
@@ -63,7 +63,7 @@
                             </div>
 
                             <div class="w_contact pt-0">
-                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
+                                <a href="contact.php" class="btn btn_contact"><span>VRシミュレーションツールについて相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
                             </div>
 
                         </div>

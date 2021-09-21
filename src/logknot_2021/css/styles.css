@@ -1529,7 +1529,7 @@ footer .footer_bottom p a:hover {
     border-radius: 4px;
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.125em;
     padding: 15px 60px;
     position: relative;
@@ -1795,6 +1795,10 @@ footer .footer_bottom p a:hover {
 
     .box_logrenove {
         padding: 15px;
+    }
+
+    .box_logrenove:after {
+        right: 0 !important;
     }
 
     .box_logrenove .box_logrenove_content {

@@ -1396,7 +1396,7 @@ footer {
     border-radius: 4px;
     color: #fff;
     font-family: $sub-font;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.125em;
     padding: 15px 60px;
     position: relative;
@@ -1680,6 +1680,9 @@ footer {
 
   .box_logrenove {
     padding: 15px;
+    &:after {
+      right: 0 !important;
+    }
     .box_logrenove_content {
       padding-left: 0;
       padding-top: 30px;
