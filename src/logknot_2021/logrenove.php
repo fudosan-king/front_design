@@ -22,7 +22,11 @@
                         <div class="col-12 col-lg-12">
                             <h2 class="title mb-5">生き方まで「リノベーション」<br>
                             豊かな人生を送るための提案型メディア</h2>
-                            <p class="mb-5">「ログ（＝無垢）なリノベーション」をテーマに、暮らしのさまざまなシーンで新しいライフスタイルを提案するメディアです。住まいにとどまらず、日常生活をリノベーション（改革・刷新）することを提案。日々の暮らしに彩りや豊かさをもたらす情報を発信します。無垢材のように肌ざわりのいい、本質を追求したライフスタイルを提案していきます</p>
+                            <p>「ログ（＝無垢）なリノベーション」をテーマに、暮らしのさまざまなシーンで新しいライフスタイルを提案するメディアです。住まいにとどまらず、日常生活をリノベーション（改革・刷新）することを提案。日々の暮らしに彩りや豊かさをもたらす情報を発信します。無垢材のように肌ざわりのいい、本質を追求したライフスタイルを提案していきます</p>
+
+                            <div class="w_contact">
+                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
+                            </div>
 
                             <div class="box_logrenove">
                                 <div class="row no-gutters">
@@ -54,6 +58,10 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="w_contact pt-0">
+                                <a href="#" class="btn btn_contact"><span>Web割作について相談する</span> <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="30"></a>
                             </div>
 
                         </div>
