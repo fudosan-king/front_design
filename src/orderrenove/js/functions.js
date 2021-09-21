@@ -12,6 +12,11 @@ $(function($) {
 		$(this).toggleClass("on");
 	});
 
+	$(".btn_wishlist2").click(function(event){
+		 event.preventDefault();
+		$(this).toggleClass("on");
+	});
+
 	$(".btn_del").click(function(event){
 		event.preventDefault();
 		// $('.box_notice_item').hide();

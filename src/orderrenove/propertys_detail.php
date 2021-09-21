@@ -8,18 +8,28 @@
             <div class="box_template">
                 <section class="section_subbanner pb-0">
                     <div class="container">
-                        <img src="images/KV.jpg" alt="" class="img-fluid w-100">
+                        <div class="pro_main_img">
+                            <img src="images/KV.jpg" alt="" class="img-fluid w-100">
+                            <a href="#" class="btn_wishlist custom d-block d-lg-none"></a>
+                        </div>
                     </div>
                 </section>
 
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <p class="subtitle mb-2">
-                                <small>東京都港区西麻布2丁目24-25<br>
-                                50.4m²（15.24坪）（壁芯）<br>
-                                1階/RC7階建</small>
-                            </p>
+                            <div class="row">
+                                <div class="col-12 col-lg-10 align-self-center">
+                                    <p class="subtitle mb-2">
+                                        <small>東京都港区西麻布2丁目24-25<br>
+                                        50.4m²（15.24坪）（壁芯）<br>
+                                        1階/RC7階建</small>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-lg-2 align-self-center">
+                                    <a href="#" class="btn btn_wishlist2 d-none d-lg-block"><i></i> <span>保存する</span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
