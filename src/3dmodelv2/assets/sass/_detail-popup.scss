@@ -1,10 +1,9 @@
-/* Custom Detail 20/09/2021 */
+/*Custom Detail 20/09/2021 */
 .i-circle-close{
 	position: relative;
 	&:before{
 		content:'';
 		position: absolute;
-
 		background-image: url('../images/icons/circle-close.svg');
 		background-repeat:no-repeat;
 		background-size:1.5em 1.5em;
@@ -13,6 +12,16 @@
 	}
 }
 
+.drawer{
+	@media (max-width:991px){
+		display: block;
+	}
+	.drawer-pos{
+		@media (max-width:991px){
+			display: none;
+		}
+	}
+}
 
 .drawer-detail-modal{
 	position: fixed;
@@ -64,4 +73,133 @@
 		display: block;
 	}
 }
+
+
+// Footer
+.board-info{
+	@media(max-width:991px){
+		z-index: 200;
+	    position: fixed;
+	    right: 0;
+	    bottom: 0;
+	    min-width: 320px;
+	    width: 100%;
+	    max-width: 100%;
+	    height: 140px;
+	    overflow: hidden;
+	    transition: transform .2s ease;
+	    transform: translateY(0px);
+	}
+ 	.col-left {
+		@media (max-width: 767px){
+    		width: 42%;
+    	}
+	}
+	.col-right {
+		@media (max-width: 767px){
+    		width: 62%;
+    	}
+    	.btn-yellow{
+    		max-height:33px;
+    		align-self: center;
+    	}
+	}
+	.tab{
+	    display: flex;
+	    justify-content: center;
+	    width: 100%;
+	    height: 40px;
+	    cursor: pointer;
+	    z-index:2;
+	    .bar{
+	    	display: block;
+		    margin-top: 8px;
+		    width: 52px;
+		    height: 6px;
+		    border-radius: 3px;
+		    background: #fff;
+		    transition: background-color .25s;
+	    }
+	}
+}
+
+.board-info_blocker{
+	@media(max-width:991px){
+		position: relative;
+	    padding: 0 0 30px;
+	    max-width: 100%;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-align-items: center;
+	    align-items: center;
+	    overflow-x: auto;
+	    overflow-y: hidden;
+	    --webkit-overflow-scrolling: touch;
+	}
+	.cs-group{
+	    margin-right: 8px;
+	    display: flex;
+	    font-size: 0.625rem;
+	    ovevflow-x:auto;
+	    overflow-y:hidden;
+	    @media(max-width:991px){
+	    	height: 75%;
+	    }
+	    .cs-pattern{
+	    	margin: 0 6px;
+		    text-align: center;
+		    display: -webkit-flex;
+		    display: flex;
+		    -webkit-flex-direction: column;
+		    flex-direction: column;
+		    -webkit-align-items: center;
+		    align-items: center;
+		    cursor: pointer;
+		    width: max-content;
+		    &:first-child{
+		    	margin-left:0;
+		    }
+		    &:last-child{
+		    	margin-right:0;
+		    }
+		    .thumbnail{
+	    	    box-sizing: border-box;
+			    width: 50px;
+			    height: 50px;
+			    border-radius: 25px;
+			    border: 1px solid #fff;
+			    margin-bottom: 8px;
+		    }
+
+		    &.active{
+		     	.thumbnail{
+			    	border-width: 3px;
+			    }
+			}
+
+		    .name{
+		    	font-weight: bold;
+		    	color:#fff;
+		    	text-align: center;
+		    }
+	    }
+	}
+}
+
+
+
 /* End custom detail 20/09/2021 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

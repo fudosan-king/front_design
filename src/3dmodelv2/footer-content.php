@@ -1785,14 +1785,32 @@
 </div>
 
 <div class="board-info">
+	<div class="d-flex d-lg-none tab">
+		<span class="bar"></span>
+	</div>
 	<div class="board-info_blocker">
 		<div class="col-left">
-			<a data-id="69" href="#" class="btn btn-yellow property-panel-current">お問い合わせ</a>
-			<a href="#" class="btn btn-yellow">共有する</a>
+			<!-- SP -->
+			<div class="cs-group">
+				<div class="cs-pattern active">
+					<div class="thumbnail" style="background-image:url('./images/common/オーク.png');"></div> 
+					<span class="name">オーク</span>
+				</div>
+				<div class="cs-pattern">
+					<div class="thumbnail" style="background-image:url('./images/common/ウォルナット.png');"></div> 
+					<span class="name">ウォルナット</span>
+				</div>
+			</div>
+			<!-- PC -->
+			<!-- <a data-id="69" href="#" class="d-none d-lg-block btn btn-yellow property-panel-current">お問い合わせ</a> -->
+			<!-- <a href="#" class="d-none d-lg-block btn btn-yellow">共有する</a> -->
 		</div>
 		<div class="col-right">
+			<!-- PC -->
 			<span>プラン参考価格&nbsp;<span class="preview-total-price">¥290,000,000</span></span>
-			<button type="button" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#infoModal">御見積りを確認する</button>
+			<!-- <button type="button" class="d-none d-lg-block btn btn-yellow" data-bs-toggle="modal" data-bs-target="#infoModal">御見積りを確認する</button> -->
+			<!-- SP -->
+			<a data-id="69" href="#" class="btn btn-yellow property-panel-current">お問い合わせ</a>
 		</div>
 	</div>
 </div>
