@@ -56,12 +56,7 @@
 
 <div class="drawer">
 	<div class="drawer-pos drawer-slideout">
-
-
-
 			<span class="drawer-btn" onclick="sideMenu.hamburger();"><i class="i-arrow"></i></span>
-		
-
 			<!-- Drawer menu side -->
 			<nav class="drawer-menu" id="drawer_menu">
 				
@@ -81,11 +76,6 @@
 								 	</p>
 								 </button>
 								<div class="collapse multi-collapse" id="multiCollapse">
-									<div class="drawer-navbars_top drawer-hidden ">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
 									<div class="drawer-group">
 										<ul class="drawer-items drawer-collapse">
 											<li>
@@ -172,11 +162,6 @@
 								 	</p>
 								 </button>
 								 <div class="collapse multi-collapse" id="multiCollapse_21">
-									<div class="drawer-navbars_top drawer-hidden ">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
 									<div class="drawer-group">
 										<ul class="drawer-items drawer-collapse">
 											<li>
@@ -233,11 +218,7 @@
 							 	</p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_1">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 								 		<div class="control-view">
 								 			<span onclick="sideMenu.listMode(event)" 
@@ -681,11 +662,7 @@
 							 	<p>天井<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_2">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 										<ul class="drawer-items drawer-collapse">
 											<li></li>
@@ -703,11 +680,7 @@
 							 	<p>壁紙<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_3">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 										<ul class="drawer-items drawer-collapse">
 											<li></li>
@@ -724,11 +697,7 @@
 							 	<p>造作材<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_4">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 							 			<ul class="drawer-items drawer-collapse">
 											<li>
@@ -769,11 +738,7 @@
 							 	<p>柱・梁<i class="right i-arrow-tab"></i></p>
 							 	</button>	
 							 	<div class="collapse multi-collapse" id="multiCollapse_5">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 								 		<ul class="drawer-items drawer-collapse">
 								 			<li class="list-view">
@@ -834,11 +799,7 @@
 							 	<p>バルコニー<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_6">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 						 				<div class="control-view">
 								 			<span onclick="sideMenu.listMode(event)" 
@@ -948,11 +909,7 @@
 							 	<p>住宅設備<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_7">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 								 		<div class="control-view">
 								 			<span onclick="sideMenu.listMode(event)" 
@@ -1209,11 +1166,7 @@
 							 	<p>契約企業登録アイテム<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_8">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 									<div class="drawer-group">
 										<ul class="drawer-items drawer-collapse">
 											<li class="drawer-item_sub">
@@ -1234,11 +1187,7 @@
 							 	<p>サンプルアイテム<i class="right i-arrow-tab"></i></p>
 							 	</button>
 							 	<div class="collapse multi-collapse" id="multiCollapse_9">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 							 		<div class="drawer-group">
 								 		<ul class="drawer-items drawer-collapse">
 											
@@ -1508,11 +1457,7 @@
 							 	</button>
 							 	
 							 	<div class="collapse multi-collapse" id="multiCollapse_10">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 							 		<div class="drawer-group">
 								 		<div class="control-view">
 								 			<span onclick="sideMenu.listMode(event)" 
@@ -1695,11 +1640,7 @@
 								 	</button>
 							 
 							 	<div class="collapse multi-collapse" id="multiCollapse_11">
-							 		<div class="drawer-navbars_top drawer-hidden">
-										<div class="drawer-navbar">
-											<a class="drawer-btn_prev drawer-navbar__title"><i class="left i-arrow-tab"></i>支払方法の選択</a>
-										</div>
-									</div>
+							 		
 							 		<div class="drawer-group">
 								 		<div class="control-input">
 								 			
@@ -1777,12 +1718,76 @@
 				</div>
 			</nav>
 	</div>
+	<!-- Popup Detail -->
+	<div class="drawer-detail-modal">
+		<div class="drawer-navbars_top">
+			<div class="drawer-navbar">
+				<span class="drawer-btn_prev">支払方法の選択<i class="right i-circle-close close-detail"></i></span>
+			</div>
+		</div>
+		<ul class="drawer-items drawer-detail drawer-collapse">
+            <li>
+                <div data-id="69" class="drawer-item">
+                    <i onclick="sideMenu.wishList(event)" class="top i-heart-circle-light"></i>
+                    <img src="./images/menu-side/1.svg" alt="image" title="image">
+                </div>
+                <div data-id="69" class="drawer-txt">
+                    <p>SEMPRE</p>
+                    <p>ベッド（BE-02）シングル</p>
+                    <p>W1110 / D2260 / H650</p>
+                    <p>151,200 円</p>
+                    <i class="zoom i-search-orange"></i>
+                </div>
+            </li>
+            <li>
+                <button type="button"
+                    class="btn btn-turquoise">
+                    削除
+                </button>
+                <button type="button"
+                    class="btn btn-turquoise">
+                    複製
+                </button>
+                <button type="button"
+                    class="btn btn-turquoise">
+                    高さ調整
+                </button>
+            </li>
+            <li>
+                <p>種類名</p>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+            </li>
+            <li>
+                <p>種類名</p>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+                <div class="drawer-item"></div>
+            </li>
+            <li class="text-center">
+                <a class="btn btn-yellow">商品サイトへ</a> 
+            </li>
+        </ul>
+	</div>
 </div>
 
 <div class="board-info">
 	<div class="board-info_blocker">
 		<div class="col-left">
-			<a href="#" class="btn btn-yellow">お問い合わせ</a>
+			<a data-id="69" href="#" class="btn btn-yellow property-panel-current">お問い合わせ</a>
 			<a href="#" class="btn btn-yellow">共有する</a>
 		</div>
 		<div class="col-right">
