@@ -47,20 +47,69 @@ function menu()
         _this.backFromDetailToItems();
         _this.drawerPos();
         _this.drawerMenu();
+        _this.footerToggle();
+        _this.footerFloorActive();
+    }
+
+    // Update popup menu 20-09-2021
+    this.footerFloorActive = function()
+    {
+        const toggles = document.querySelectorAll('.board-info .cs-pattern');
+        toggles.forEach( ele =>{
+            ele.addEventListener('click',e =>{
+                const {currentTarget}  = e;
+                toggles.forEach( elea =>{
+                    elea.classList.remove('active');
+                });
+                currentTarget.classList.add('active');
+            });
+        });
+       
+    }
+
+    // Update popup menu 20-09-2021
+    this.footerToggle = function()
+    {
+        const toggle = document.querySelector('.board-info .tab');
+        const _this = this;
+        //PC remove
+        window.addEventListener('resize', ()=>{
+            let width = window.outerWidth;
+            if( width > 991 ){
+                document.querySelector('.board-info').removeAttribute('style');
+            }
+        });
+        //Handle SP
+        toggle.addEventListener('click',e =>{
+            const {currentTarget}  = e;
+            const parent = currentTarget.closest('.board-info');
+            const height = parent.offsetHeight;
+            if( parent.getAttribute('style') ){
+                parent.removeAttribute('style');
+            } else{
+                parent.style.transform = `translateY(${height-35}px)`;
+            }
+            //callback
+            _this.drawerMenu();
+        });
     }
 
     // Update popup menu 20-09-2021
     this.drawerMenu = function ()
     {
         const eleSideBars = ['.drawer-detail-modal','.drawer-menu'];
+
         eleSideBars.forEach((ele,i)=>{
             const eleFooterBoard = document.querySelector('.board-info');
+            const eleHeader = document.querySelector('header');
             const eleDrawerMenu = document.querySelector(ele);
+            let heightHeader = eleHeader.offsetHeight;
             let height = eleFooterBoard.offsetHeight;
-            eleDrawerMenu.style.height = 'calc(100% - '+height+'px)';
+            
+            eleDrawerMenu.style.height = 'calc(100% - '+(height)+'px)';
             window.addEventListener('resize', ()=>{
                 let height = eleFooterBoard.offsetHeight;
-                eleDrawerMenu.style.height = 'calc(100% - '+height+'px)';
+                eleDrawerMenu.style.height = 'calc(100% - '+(height)+'px)';
             });
         });
     }
@@ -129,7 +178,6 @@ function menu()
                 if( currentTarget.classList.contains('property-panel-current') ){
 
                     const detail_popup = document.querySelector(drawer_parent);
-                    console.log();
                     setTimeout(()=>{
                         detail_popup.classList.add(detail_showing);
                     },10);
