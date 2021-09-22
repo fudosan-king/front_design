@@ -1785,22 +1785,23 @@
 </div>
 
 <div class="board-info">
-	<div class="d-flex d-lg-none tab">
+	<div class="tab">
 		<span class="bar"></span>
+	</div>
+	<!-- SP -->
+	<div class="cs-group">
+		<div class="cs-pattern active">
+			<div class="thumbnail" style="background-image:url('./images/common/オーク.png');"></div> 
+			<span class="name">オーク</span>
+		</div>
+		<div class="cs-pattern">
+			<div class="thumbnail" style="background-image:url('./images/common/ウォルナット.png');"></div> 
+			<span class="name">ウォルナット</span>
+		</div>
 	</div>
 	<div class="board-info_blocker">
 		<div class="col-left">
-			<!-- SP -->
-			<div class="cs-group">
-				<div class="cs-pattern active">
-					<div class="thumbnail" style="background-image:url('./images/common/オーク.png');"></div> 
-					<span class="name">オーク</span>
-				</div>
-				<div class="cs-pattern">
-					<div class="thumbnail" style="background-image:url('./images/common/ウォルナット.png');"></div> 
-					<span class="name">ウォルナット</span>
-				</div>
-			</div>
+			
 			<!-- PC -->
 			<!-- <a data-id="69" href="#" class="d-none d-lg-block btn btn-yellow property-panel-current">お問い合わせ</a> -->
 			<!-- <a href="#" class="d-none d-lg-block btn btn-yellow">共有する</a> -->

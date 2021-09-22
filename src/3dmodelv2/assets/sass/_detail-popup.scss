@@ -77,27 +77,25 @@
 
 // Footer
 .board-info{
-	@media(max-width:991px){
-		z-index: 200;
-	    position: fixed;
-	    right: 0;
-	    bottom: 0;
-	    min-width: 320px;
-	    width: 100%;
-	    max-width: 100%;
-	    height: 140px;
-	    overflow: hidden;
-	    transition: transform .2s ease;
-	    transform: translateY(0px);
-	}
+	z-index: 200;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 320px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    transition: transform .2s ease;
+    transform: translateY(0px);
+
  	.col-left {
 		@media (max-width: 767px){
-    		width: 42%;
+    		width: 34%;
     	}
 	}
 	.col-right {
 		@media (max-width: 767px){
-    		width: 62%;
+    		width: 66%;
     	}
     	.btn-yellow{
     		max-height:33px;
@@ -120,21 +118,6 @@
 		    background: #fff;
 		    transition: background-color .25s;
 	    }
-	}
-}
-
-.board-info_blocker{
-	@media(max-width:991px){
-		position: relative;
-	    padding: 0 0 30px;
-	    max-width: 100%;
-	    display: -webkit-flex;
-	    display: flex;
-	    -webkit-align-items: center;
-	    align-items: center;
-	    overflow-x: auto;
-	    overflow-y: hidden;
-	    --webkit-overflow-scrolling: touch;
 	}
 	.cs-group{
 	    margin-right: 8px;
@@ -184,6 +167,22 @@
 		    }
 	    }
 	}
+}
+
+.board-info_blocker{
+	@media(max-width:991px){
+		position: relative;
+	    padding: 0 0 10px;
+	    max-width: 100%;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-align-items: center;
+	    align-items: center;
+	    overflow-x: auto;
+	    overflow-y: hidden;
+	    --webkit-overflow-scrolling: touch;
+	}
+
 }
 
 
