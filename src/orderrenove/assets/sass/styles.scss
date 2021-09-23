@@ -2602,3 +2602,34 @@ footer {
     background-color: #ccc;
   }
 }
+
+
+
+.modal_info {
+  text-align: center;
+  .modal-title {
+    width: 100%;
+    text-align: center;
+  }
+  .modal-body {
+    padding: 30px 40px;
+  }
+  .modal-footer {
+    justify-content: center;
+  }
+  .btnok {
+    background: #EB5757;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 3px;
+    &:hover {
+      background: #000;
+    }
+  }
+  p {
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 0.875em;
+  }
+}

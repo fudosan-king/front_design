@@ -24,13 +24,13 @@ $(function($) {
 
 	$("#dropdown_user").click(function(event) {
   		event.preventDefault();
-	  	$(".dropdown_user_content").slideToggle("fast");
+	  	// $(".dropdown_user_content").slideToggle("fast");
 	  	$(".dropdown_search_content").hide();
 	});
 
 	$("#dropdown_search").click(function(event) {
   		event.preventDefault();
-	  	$(".dropdown_search_content").slideToggle("fast");
+	  	// $(".dropdown_search_content").slideToggle("fast");
 	  	$(".dropdown_user_content").hide();
 	});
 
@@ -112,6 +112,22 @@ $('.datepicker_day').datepicker({
 	viewMode: "days", 
     minViewMode: "days",
 	language: 'ja'
+});
+
+
+$(document).ready(function(){
+    $(".dropdown").click(function(){
+        $(this).find(".dropdown_user_content").slideToggle("fast");
+        $(this).find(".dropdown_search_content").slideToggle("fast");
+    });
+});
+
+$(document).on("click", function(event){
+    var $trigger = $(".dropdown");
+    if($trigger !== event.target && !$trigger.has(event.target).length){
+        $(".dropdown_user_content").slideUp("fast");
+        $(".dropdown_search_content").slideUp("fast");
+    }            
 });
 
 

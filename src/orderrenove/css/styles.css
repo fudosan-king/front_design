@@ -2718,3 +2718,38 @@ footer .footer_bottom .btn img {
 .btn_wishlist.custom {
     background-color: #ccc;
 }
+
+.modal_info {
+    text-align: center;
+}
+
+.modal_info .modal-title {
+    width: 100%;
+    text-align: center;
+}
+
+.modal_info .modal-body {
+    padding: 30px 40px;
+}
+
+.modal_info .modal-footer {
+    justify-content: center;
+}
+
+.modal_info .btnok {
+    background: #EB5757;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.modal_info .btnok:hover {
+    background: #000;
+}
+
+.modal_info p {
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 0.875em;
+}
