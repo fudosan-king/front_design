@@ -26,7 +26,7 @@
                                     </div>
                                     <h4>メールアドレス <span>必須</span></h4>
                                     <input type="text" class="form-control" placeholder="anh-n@propolife.co.jp">
-                                    <h4>電話番号</h4>
+                                    <h4>電話番号 <span>必須</span></h4>
                                     <input type="text" class="form-control" placeholder="080-3179-2609">
 
                                     <h4>エリア（複数選択可）</h4>
@@ -238,15 +238,18 @@
                                         </div>
                                     </div>
 
-                                    <p>ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。<br>
-                                    下記の <a class="red font-weight-bold" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a> を必ずご一読頂き、同意のうえお問い合わせください。</p>
-
-                                    <div class="custom-control custom-checkbox">
+                                    <div class="custom-control custom-checkbox mt-3">
                                         <input type="checkbox" class="custom-control-input required" name="ck_agree" id="ck_agree" checked="">
-                                        <label class="custom-control-label font-weight-normal ck_agree" for="ck_agree">メールで通知を受け取る </label>
+                                        <label class="custom-control-label font-weight-normal ck_agree lbl_ck" for="ck_agree">メールで通知を受け取る </label>
+                                    </div>
+                                    <p class="text_condition">ご入力いただいた情報は、当社の<a class="red font-weight-bold" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a>に従って厳重に管理いたします。<br>
+                                    下記のプライバシーポリシーを必ずご一読頂き、同意のうえお問い合わせください。 </p>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input required" name="ck_condition" id="ck_condition">
+                                        <label class="custom-control-label font-weight-normal ck_condition lbl_ck" for="ck_condition">同意する</label>
                                     </div>
                                     
-                                    <button type="button" class="btn btnsave my-lg-5 font-weight-bold" data-toggle="modal" data-target="#modal_info">新規会員登録をして保存</button>
+                                    <button type="button" class="btn btnsave mb-lg-5 font-weight-bold" data-toggle="modal" data-target="#modal_info">新規会員登録をして保存</button>
                                 </form>
 
 
