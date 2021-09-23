@@ -76,32 +76,25 @@
 
 
 // Footer
-.board-info{
+.board-info_extra{
 	z-index: 200;
-    position: fixed;
-    right: 0;
-    bottom: 0;
     min-width: 320px;
     width: 100%;
     max-width: 100%;
     overflow: hidden;
     transition: transform .2s ease;
     transform: translateY(0px);
-
- 	.col-left {
-		@media (max-width: 767px){
-    		width: 34%;
-    	}
-	}
-	.col-right {
-		@media (max-width: 767px){
-    		width: 66%;
-    	}
-    	.btn-yellow{
-    		max-height:33px;
-    		align-self: center;
-    	}
-	}
+    background: #5B5B5B;
+    padding: 9px 20px;
+    position: absolute;
+    bottom: 50px;
+    z-index: -1;
+    @media (max-width:991px){
+    	bottom: 43px;
+    }
+    @media (max-width:767px){
+    	
+    }
 	.tab{
 	    display: flex;
 	    justify-content: center;
@@ -168,11 +161,32 @@
 	    }
 	}
 }
+.board-info{
+	padding:0;
+	background: transparent;
+ 	.col-left {
+		@media (max-width: 767px){
+    		width: 30%;
+    	}
+	}
+	.col-right {
+		@media (max-width: 767px){
+    		width: 70%;
+    	}
+    	.btn-yellow{
+    		max-height:33px;
+    		align-self: center;
+    	}
+	}
+
+}
 
 .board-info_blocker{
+	position: relative;
+	padding: 9px 20px;
+	background: #5B5B5B;
 	@media(max-width:991px){
-		position: relative;
-	    padding: 0 0 10px;
+	    padding: 10px 20px;
 	    max-width: 100%;
 	    display: -webkit-flex;
 	    display: flex;
