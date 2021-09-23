@@ -11,7 +11,7 @@
                         <div class="row">
                             <div class="col-12 col-lg-12">
                                 <h2 class="title mb-2">メルマガ配信希望条件（会員登録）</h2>
-                                <p class="text-center mb-5">あなたのご希望条件にマッチした物件をメールでいち早くお知らせします。<br>
+                                <p class="text-center mb-3">あなたのご希望条件にマッチした物件をメールでいち早くお知らせします。<br>
                                 大手ポータルサイトに載っていない掘り出しものの物件もお届けしています。</p>
 
                                 <form class="frm_accinfo">
@@ -208,15 +208,15 @@
                                         </div>
                                         <div class="col-6 col-lg-6">
                                             <select name="" class="custom-select">
-                                                <option value="">上限なし"</option>
                                                 <option>0</option>
                                                 <option>1</option>
                                                 <option>2</option>
+                                                <option value="">上限なし</option>
                                             </select>
                                         </div>
                                     </div>
                                     
-                                    <h4>広さ（m2）</h4>
+                                    <h4>広さ<i>（m<sup>2</sup>)</i></h4>
                                     <div class="row">
                                         <div class="col-6 col-lg-6">
                                             <div class="box_select">
@@ -230,10 +230,10 @@
                                         </div>
                                         <div class="col-6 col-lg-6">
                                             <select name="" class="custom-select">
-                                                <option value="上限なし">上限なし</option>
                                                 <option>0</option>
                                                 <option>1</option>
                                                 <option>2</option>
+                                                <option value="上限なし">上限なし</option>
                                             </select>
                                         </div>
                                     </div>
@@ -242,9 +242,9 @@
                                         <input type="checkbox" class="custom-control-input required" name="ck_agree" id="ck_agree" checked="">
                                         <label class="custom-control-label font-weight-normal ck_agree lbl_ck" for="ck_agree">メールで通知を受け取る </label>
                                     </div>
-                                    <p class="text_condition">ご入力いただいた情報は、当社の<a class="red font-weight-bold" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a>に従って厳重に管理いたします。<br>
+                                    <p class="text_condition text-center mt-3">ご入力いただいた情報は、当社の<a class="red font-weight-bold" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a>に従って厳重に管理いたします。<br>
                                     下記のプライバシーポリシーを必ずご一読頂き、同意のうえお問い合わせください。 </p>
-                                    <div class="custom-control custom-checkbox mb-3">
+                                    <div class="custom-control custom-checkbox mb-3 text-center">
                                         <input type="checkbox" class="custom-control-input required" name="ck_condition" id="ck_condition">
                                         <label class="custom-control-label font-weight-normal ck_condition lbl_ck" for="ck_condition">同意する</label>
                                     </div>
