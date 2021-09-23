@@ -87,7 +87,7 @@ function menu()
             if( parent.getAttribute('style') ){
                 parent.removeAttribute('style');
             } else{
-                parent.style.transform = `translateY(${height-35}px)`;
+                parent.style.transform = `translateY(${height-40}px)`;
             }
             //callback
             _this.drawerMenu();
@@ -97,19 +97,27 @@ function menu()
     // Update popup menu 20-09-2021
     this.drawerMenu = function ()
     {
-        const eleSideBars = ['.drawer-detail-modal','.drawer-menu'];
-
+        const eleSideBars = ['.drawer-detail-modal','.drawer-pos'];
         eleSideBars.forEach((ele,i)=>{
             const eleFooterBoard = document.querySelector('.board-info');
             const eleHeader = document.querySelector('header');
             const eleDrawerMenu = document.querySelector(ele);
             let heightHeader = eleHeader.offsetHeight;
             let height = eleFooterBoard.offsetHeight;
-            
-            eleDrawerMenu.style.height = 'calc(100% - '+(height)+'px)';
+
+            //check footer open
+            const footer = document.querySelector('.board-info');
+            let heightFooterChange = 0;
+            if( footer.getAttribute('style') ){  
+                heightFooterChange = footer.offsetHeight-35;
+            }
+            eleDrawerMenu.style.bottom = (height-heightFooterChange)+'px';
             window.addEventListener('resize', ()=>{
-                let height = eleFooterBoard.offsetHeight;
-                eleDrawerMenu.style.height = 'calc(100% - '+(height)+'px)';
+                height = eleFooterBoard.offsetHeight;
+                if( footer.getAttribute('style') ){  
+                    heightFooterChange = footer.offsetHeight-35;
+                }
+                eleDrawerMenu.style.bottom = (height-heightFooterChange)+'px';
             });
         });
     }
