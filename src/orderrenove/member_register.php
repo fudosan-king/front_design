@@ -199,7 +199,7 @@
                                     <div class="row">
                                         <div class="col-6 col-lg-6">
                                             <div class="box_select">
-                                                <select name="" class="custom-select">
+                                                <select name="" class="custom-select form-control">
                                                     <option value="下限なし">下限なし</option>
                                                     <option>0</option>
                                                     <option>1</option>
@@ -207,7 +207,7 @@
                                             </div>
                                         </div>
                                         <div class="col-6 col-lg-6">
-                                            <select name="" class="custom-select">
+                                            <select name="" class="custom-select form-control">
                                                 <option>0</option>
                                                 <option>1</option>
                                                 <option>2</option>
@@ -220,7 +220,7 @@
                                     <div class="row">
                                         <div class="col-6 col-lg-6">
                                             <div class="box_select">
-                                                <select name="" class="custom-select">
+                                                <select name="" class="custom-select form-control">
                                                     <option value="下限なし">下限なし</option>
                                                     <option>0</option>
                                                     <option>1</option>
@@ -229,7 +229,7 @@
                                             </div>
                                         </div>
                                         <div class="col-6 col-lg-6">
-                                            <select name="" class="custom-select">
+                                            <select name="" class="custom-select form-control">
                                                 <option>0</option>
                                                 <option>1</option>
                                                 <option>2</option>

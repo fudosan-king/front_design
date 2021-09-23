@@ -156,6 +156,18 @@ h2 {
     border-color: #EB5757;
 }
 
+.form-control::-moz-placeholder {
+    color: #ccc;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #ccc;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
 .relative {
     position: relative;
 }
