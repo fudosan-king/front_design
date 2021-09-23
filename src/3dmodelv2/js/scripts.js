@@ -70,19 +70,19 @@ function menu()
     // Update popup menu 20-09-2021
     this.footerToggle = function()
     {
-        const toggle = document.querySelector('.board-info .tab');
+        const toggle = document.querySelector('.board-info_extra .tab');
         const _this = this;
         //PC remove
         window.addEventListener('resize', ()=>{
             let width = window.outerWidth;
             if( width > 991 ){
-                document.querySelector('.board-info').removeAttribute('style');
+                document.querySelector('.board-info_extra').removeAttribute('style');
             }
         });
         //Handle SP
         toggle.addEventListener('click',e =>{
             const {currentTarget}  = e;
-            const parent = currentTarget.closest('.board-info');
+            const parent = currentTarget.closest('.board-info_extra');
             const height = parent.offsetHeight;
             if( parent.getAttribute('style') ){
                 parent.removeAttribute('style');
@@ -106,18 +106,23 @@ function menu()
             let height = eleFooterBoard.offsetHeight;
 
             //check footer open
-            const footer = document.querySelector('.board-info');
+            const footerExtra = document.querySelector('.board-info_extra');
             let heightFooterChange = 0;
-            if( footer.getAttribute('style') ){  
-                heightFooterChange = footer.offsetHeight-35;
+            if( footerExtra.getAttribute('style') ){  
+                heightFooterChange = footerExtra.offsetHeight-50;
+            } else{
+                heightFooterChange = height+footerExtra.offsetHeight-10;
             }
-            eleDrawerMenu.style.bottom = (height-heightFooterChange)+'px';
+            eleDrawerMenu.style.bottom = (heightFooterChange)+'px';
+            
             window.addEventListener('resize', ()=>{
                 height = eleFooterBoard.offsetHeight;
-                if( footer.getAttribute('style') ){  
-                    heightFooterChange = footer.offsetHeight-35;
-                }
-                eleDrawerMenu.style.bottom = (height-heightFooterChange)+'px';
+                if( footerExtra.getAttribute('style') ){  
+                    heightFooterChange = footerExtra.offsetHeight-50;
+                } else{
+                    heightFooterChange = height+footerExtra.offsetHeight-10;
+                }   
+                eleDrawerMenu.style.bottom = (heightFooterChange)+'px';
             });
         });
     }
