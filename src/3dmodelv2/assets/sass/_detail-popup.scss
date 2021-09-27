@@ -145,6 +145,11 @@
 			    border-radius: 25px;
 			    border: 1px solid #fff;
 			    margin-bottom: 8px;
+			    @media (max-width:767px){
+			    	width: 115px;
+			    	height:115px;
+			    	border-radius: 50%;
+			    }
 		    }
 
 		    &.active{

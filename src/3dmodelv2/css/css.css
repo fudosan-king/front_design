@@ -1518,6 +1518,13 @@ ul.drawer-items .list-item:last-of-type {
   border: 1px solid #fff;
   margin-bottom: 8px;
 }
+@media (max-width: 767px) {
+  .board-info_extra .cs-group .cs-pattern .thumbnail {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+  }
+}
 .board-info_extra .cs-group .cs-pattern.active .thumbnail {
   border-width: 3px;
 }
