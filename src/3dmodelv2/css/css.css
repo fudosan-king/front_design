@@ -1040,7 +1040,7 @@ ul.drawer-items .list-item:last-of-type {
     padding: 0;
   }
   .board-info .btn-yellow {
-    font-size: calc(6px + 3 * ((100vw - 320px) / 256));
+    font-size: calc(7px + 3 * ((100vw - 320px) / 256));
   }
 }
 .board-info .col-left {
@@ -1115,14 +1115,6 @@ ul.drawer-items .list-item:last-of-type {
 @media (max-width: 576px) {
   .board-info .col-right span {
     font-size: calc(7px + 3 * ((100vw - 320px) / 256));
-  }
-}
-@media (max-width: 375px) {
-  .board-info .col-right span {
-    margin-right: 10px;
-  }
-  .board-info .col-right span {
-    font-size: calc(7.5px + 2.5 * ((100vw - 320px) / 256));
   }
 }
 .board-info .col-right .btn-yellow {
@@ -1518,13 +1510,6 @@ ul.drawer-items .list-item:last-of-type {
   border: 1px solid #fff;
   margin-bottom: 8px;
 }
-@media (max-width: 767px) {
-  .board-info_extra .cs-group .cs-pattern .thumbnail {
-    width: 115px;
-    height: 115px;
-    border-radius: 50%;
-  }
-}
 .board-info_extra .cs-group .cs-pattern.active .thumbnail {
   border-width: 3px;
 }
@@ -1532,6 +1517,7 @@ ul.drawer-items .list-item:last-of-type {
   font-weight: bold;
   color: #fff;
   text-align: center;
+  font-size: 1rem;
 }
 
 .board-info {

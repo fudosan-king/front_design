@@ -78,7 +78,7 @@
 			@include fluid-font-size(576px,767px,10px,13px);
 		}
 		@media(max-width:576px){
-			@include fluid-font-size(320px,576px,6px,9px);
+			@include fluid-font-size(320px,576px,7px,10px);
 			padding:0;
 		}
 	}
@@ -127,10 +127,10 @@
 			@media(max-width:576px){
 				@include fluid-font-size(320px,576px,7px,10px);
 			}
-			@media(max-width:375px){
-				margin-right:10px;
-				@include fluid-font-size(320px,576px,7.5px,10px);
-			}
+			// @media(max-width:375px){
+			// 	margin-right:10px;
+			// 	@include fluid-font-size(320px,576px,7.5px,10px);
+			// }
 		}
 		.btn-yellow{
 			margin-right:0;
