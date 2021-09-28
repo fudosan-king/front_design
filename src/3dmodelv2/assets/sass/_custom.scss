@@ -1,0 +1,22 @@
+/*Custom Detail 28/09/2021 */
+.board-info{
+	
+	.col-right{
+		width: 100%;
+		span{
+			@media (max-width: 991px) {
+				font-size:35px;
+				text-align: center;
+			}
+		}
+		.btn-yellow{
+			@media (max-width: 991px) {
+				max-width:240px;
+				font-size:35px;
+				padding: 15px 10px;
+				max-height:100%;
+			}
+		}
+	}
+}
+/* End custom detail 28/09/2021 */
