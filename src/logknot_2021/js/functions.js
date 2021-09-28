@@ -43,12 +43,11 @@ jQuery(function($) {
 	});
 
 	$('.navbar-toggler').click(function(){
-    $('.nav_link').on('click', function(event) {
-    	event.preventDefault();
-			if($('.navbar-toggler').hasClass('collapsed'))
-	      $('.navbar-toggler').click();
-	    });
-	});
+    $('.nav_link').on('click', function() {
+		if(!$('.navbar-toggler').hasClass('collapsed'))
+      $('.navbar-toggler').click();
+    });
+	})
 
 
 
