@@ -1,4 +1,4 @@
-/*Custom Detail 20/09/2021 */
+/*Custom Detail 28/09/2021 */
 .i-circle-close{
 	position: relative;
 	&:before{
@@ -90,11 +90,10 @@
     bottom: 50px;
     z-index: -1;
     @media (max-width:991px){
-    	bottom: 43px;
+    	bottom: 100px;
+    	padding: 0px;
     }
-    @media (max-width:767px){
-    	
-    }
+
 	.tab{
 	    display: flex;
 	    justify-content: center;
@@ -113,13 +112,13 @@
 	    }
 	}
 	.cs-group{
-	    margin-right: 8px;
 	    display: flex;
 	    font-size: 0.625rem;
 	    ovevflow-x:auto;
 	    overflow-y:hidden;
 	    @media(max-width:991px){
 	    	height: 75%;
+	    	padding: 0px 30px;
 	    }
 	    .cs-pattern{
 	    	margin: 0 6px;
@@ -131,7 +130,10 @@
 		    -webkit-align-items: center;
 		    align-items: center;
 		    cursor: pointer;
-		    width: max-content;
+		    max-width: 96px;
+		    @media (max-width: 991px){
+		    	max-width: 144px;
+		    }
 		    &:first-child{
 		    	margin-left:0;
 		    }
@@ -144,9 +146,14 @@
 			    height: 50px;
 			    border-radius: 25px;
 			    border: 1px solid #fff;
-			    margin-bottom: 8px;
+			    margin-bottom: 20px;
+		      	@media (max-width: 991px){
+			    	width: 130px;
+				    height: 130px;
+				    border-radius: 50%;
+			    }
 		    }
-
+		  
 		    &.active{
 		     	.thumbnail{
 			    	border-width: 3px;
@@ -158,6 +165,13 @@
 		    	color:#fff;
 		    	text-align: center;
 		    	font-size:1rem;
+		    	width: max-content;
+		    	max-width: 96px;
+		    	@media (max-width: 991px){
+		    		font-size:1.5rem;
+		    		width: max-content;
+		    		max-width: 144px;
+		    	}
 		    }
 	    }
 	}
@@ -165,15 +179,7 @@
 .board-info{
 	padding:0;
 	background: transparent;
- 	.col-left {
-		@media (max-width: 767px){
-    		width: 30%;
-    	}
-	}
 	.col-right {
-		@media (max-width: 767px){
-    		width: 70%;
-    	}
     	.btn-yellow{
     		max-height:33px;
     		align-self: center;
@@ -187,7 +193,7 @@
 	padding: 9px 20px;
 	background: #5B5B5B;
 	@media(max-width:991px){
-	    padding: 10px 20px;
+	    padding: 25px 20px;
 	    max-width: 100%;
 	    display: -webkit-flex;
 	    display: flex;
@@ -199,10 +205,7 @@
 	}
 
 }
-
-
-
-/* End custom detail 20/09/2021 */
+/* End custom detail 28/09/2021 */
 
 
 
