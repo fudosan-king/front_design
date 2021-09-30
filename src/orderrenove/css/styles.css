@@ -26,25 +26,25 @@ button:focus {
 }
 
 ::-moz-selection {
-    background: #F2C94C;
+    background: #E5C47F;
     color: #FFF;
     text-shadow: none;
 }
 
 ::selection {
-    background: #F2C94C;
+    background: #E5C47F;
     color: #FFF;
     text-shadow: none;
 }
 
 ::-moz-selection {
-    background: #F2C94C;
+    background: #E5C47F;
     color: #FFF;
     text-shadow: none;
 }
 
 ::-webkit-selection {
-    background: #F2C94C;
+    background: #E5C47F;
     color: #FFF;
     text-shadow: none;
 }
@@ -128,7 +128,6 @@ h2 {
     font-size: 0.875em;
     border-color: #BDBDBD;
     height: calc(1.5em + .75rem + 7px);
-    border-radius: 100px;
 }
 
 .custom-select:focus {
@@ -396,7 +395,7 @@ header.subheader.compressed .i_white {
     width: 20px;
     height: 20px;
     border-radius: 100px;
-    background: #EB5757;
+    background: #F39A7B;
     color: #fff;
     font-weight: 600;
     line-height: 1em;
@@ -488,10 +487,6 @@ header.subheader.compressed .i_white {
 
 .dropdown_search .dropdown_search_content .card .card-header .btn img {
     margin-right: 10px;
-}
-
-.dropdown_search .dropdown_search_content .card .card-header .btn.collapsed {
-    background: url("../images/svg/i_right.svg") no-repeat right center;
 }
 
 .dropdown_search .dropdown_search_content .card .card-body {
@@ -989,8 +984,8 @@ footer .footer_bottom .btn img {
 
 .box_sort li:last-of-type a {
     color: #fff;
-    background: #EB5757;
-    border-color: #EB5757;
+    background: #F39A7B;
+    border-color: #F39A7B;
 }
 
 .box_sort li a {
@@ -1601,7 +1596,7 @@ footer .footer_bottom .btn img {
 }
 
 .custom-select {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 4 5' style='enable-background:new 0 0 4 5;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23EB5757;%7d %3c/style%3e%3cpath class='st0' d='M2,0L0,2h4L2,0z M2,5L0,3h4L2,5z'/%3e%3c/svg%3e ");
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 4 5' style='enable-background:new 0 0 4 5;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23F08865;%7d %3c/style%3e%3cpath class='st0' d='M2,0L0,2h4L2,0z M2,5L0,3h4L2,5z'/%3e%3c/svg%3e ");
 }
 
 .frm_contact .custom-select {
@@ -1766,7 +1761,7 @@ footer .footer_bottom .btn img {
     display: block;
     background: #f2f2f2;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 100px;
     font-weight: 700;
 }
 
@@ -1780,14 +1775,15 @@ footer .footer_bottom .btn img {
 
 .modal_register p.termofuse a {
     text-decoration: underline;
-    color: #EB5757;
+    color: #F08865;
 }
 
 .modal_register .btn_register {
-    background: #f2f2f2;
+    background: #E5C47F;
+    color: #fff;
     font-weight: 700;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 100px;
     display: block;
     margin-top: 15px;
 }
@@ -1799,7 +1795,7 @@ footer .footer_bottom .btn img {
 
 .modal_register .modal-footer p a {
     text-decoration: underline;
-    color: #EB5757;
+    color: #F08865;
 }
 
 .box_confirm {
@@ -1808,17 +1804,18 @@ footer .footer_bottom .btn img {
 }
 
 .box_confirm .btn {
-    background: #EB5757;
+    background: #F08865;
     width: 100%;
     color: #fff;
     padding: 13.5px 30px;
     margin-top: 10px;
     font-size: 0.875em;
+    border-radius: 100px;
     position: relative;
 }
 
 .box_confirm .btn:hover {
-    background: #000;
+    background: #2C4057;
 }
 
 .box_confirm .btn.btn_back img {
@@ -2186,6 +2183,11 @@ footer .footer_bottom .btn img {
     .section_banner ul li {
         margin-right: 12px;
         flex: 1 1 auto;
+    }
+
+    .section_banner ul li:hover a {
+        background: #E5C47F;
+        border-color: #E5C47F;
     }
 
     .section_banner ul li a {
@@ -2714,11 +2716,11 @@ footer .footer_bottom .btn img {
 }
 
 .btn_wishlist:hover {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23FF4572;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23F08865;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
 }
 
 .btn_wishlist.on {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23FF4572;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23F08865;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
 }
 
 .btn_wishlist2 {
@@ -2753,11 +2755,11 @@ footer .footer_bottom .btn img {
 }
 
 .btn_wishlist2:hover i {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23FF4572;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23F08865;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
 }
 
 .btn_wishlist2.on i {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23FF4572;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23F08865;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3s-1.7,4.5,0,6.3 l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
 }
 
 .btn_wishlist.custom {
@@ -2782,7 +2784,7 @@ footer .footer_bottom .btn img {
 }
 
 .modal_info .btnok {
-    background: #EB5757;
+    background: #F08865;
     color: #fff;
     font-weight: 600;
     padding: 10px 30px;
@@ -2790,7 +2792,7 @@ footer .footer_bottom .btn img {
 }
 
 .modal_info .btnok:hover {
-    background: #000;
+    background: #2C4057;
 }
 
 .modal_info p {
