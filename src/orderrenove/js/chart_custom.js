@@ -21,9 +21,9 @@ function createChart(id, type, options) {
             // label: 'My First dataset',
             data: [10, 10, 80],
             backgroundColor: [
-                '#EB5757',
-                '#F2994A',
-                '#F2C94C',
+                '#F39A7B',
+                '#E5C47F',
+                '#98B6B8',
             ],
             borderWidth: 0,
         }

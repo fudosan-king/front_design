@@ -87,7 +87,7 @@
                                     </div>
 
                                     <div class="box_calcu mt-5">
-                                        <h1>リノベ＋物件価格 　<span>6,000</span>万円</h1>
+                                        <h1>リノベ＋物件価格 　<span>6,000</span><i>万円</i></h1>
                                         <form action="" class="frm_calcu">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6">
