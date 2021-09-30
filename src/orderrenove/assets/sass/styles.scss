@@ -28,25 +28,26 @@ body{width:100%;height:100%;
 .btn-link {color: $primary-color;word-break:normal;word-break:break-all;word-break:keep-all;text-decoration: underline;}
 .btn-link:hover{color: $primary-color;text-decoration:underline;}
 h1,h2,h3,h4,h5,h6{font-family: $primary-font;
-line-height: 1.3em; text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased; color:$primary-color; margin-bottom: 10px; font-size: 1.25em; font-weight: 600;}
+line-height: 1.3em; text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased; color:#2C4057; margin-bottom: 10px; font-size: 1.25em; font-weight: 600;}
 *,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
 html,body{position:relative;height:100%}
 p {word-wrap: break-word;}
-a:hover {text-decoration:none;color:$primary-color;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
+a:hover {text-decoration:none;color:#2C4057;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
 h1 {font-size: 2.3125em;}
 h2 {
   font-size: 1.5625em;
 }
 
-.red {color: #EB5757;}
+.red {color: #F39A7B;}
 
 .form-control {
   font-size: 0.875em;
   border-color: #BDBDBD;
   height: calc(1.5em + .75rem + 7px);
+  border-radius: 100px;
 }
 .custom-select:focus {
-  border-color: $primary-color;
+  border-color: #2C4057;
 }
 .form-control:focus {box-shadow: none; border-color: $primary-color;}
 .custom-checkbox .custom-control-label::before {
@@ -57,11 +58,11 @@ h2 {
 }
 
 .custom-control-label::before {
-  border-color: $prink-color;
+  border-color: #F39A7B;
 }
 .custom-control-input:checked~.custom-control-label::before {
-  background-color: $prink-color;
-  border-color: $prink-color;
+  background-color: #F39A7B;
+  border-color: #F39A7B;
 }
 
 .form-control::placeholder {
@@ -82,6 +83,7 @@ section {
 }
 .subtitle {
   font-size: 1em;
+  color: #2C4057;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -93,6 +95,7 @@ header {
   }
   .dropdown_user {
     border: 1px solid #fff;
+    border-radius: 100px;
   }
   .box_user {
     display: flex;
@@ -122,7 +125,7 @@ header {
   padding: 30px;
   transition: all 0.3s;
   &.compressed {
-    background: #000;
+    background: #2C4057;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   }
 
@@ -139,11 +142,12 @@ header {
       border: none;
     }
     #dropdown_user {
-      border-color: #000;
-      color: #000;
+      border-color: #2C4057;
+      color: #2C4057;
+      border-radius: 100px;
     }
     &.compressed {
-      background: #000;
+      background: #2C4057;
       #dropdown_user {
         border-color: #fff;
         color: #fff;
@@ -189,7 +193,7 @@ header {
       display: block;
       li {
         a {
-          color: #000;
+          color: #2C4057;
           text-align: left;
           display: block;
           padding: 15px 22px;
@@ -211,7 +215,7 @@ header {
             width: 20px;
             height: 20px;
             border-radius: 100px;
-            background: $prink-color;
+            background: #F39A7B;
             color: #fff;
             font-weight: 600;
             line-height: 1em;
@@ -347,6 +351,7 @@ header {
       .card-header {
         background: #fff;
         .btn {
+          color: #2C4057;
           padding: 0;
           font-size: 0.5833em;
           transition: 0.3s;
@@ -398,7 +403,7 @@ header {
               }
             }
             a {
-              color: #000;
+              color: #2C4057;
               font-size: 0.7em;
               display: block;
               background: #F2F2F2;
@@ -495,11 +500,12 @@ header {
       }
       &:hover {
         a {
-          background: $yellow-color;
+          background: #2C4057;
         }
       }
       a {
-        background: #000;
+        background: #E0AF6C;
+        border-radius: 100px;
         color: #fff;
         font-weight: 600;
         padding: 12.5px 30px;
@@ -554,7 +560,7 @@ ul.list_property {
         margin-bottom: 0;
         color: #4f4f4f;
         &.total_price {
-          background: #000;
+          background: #2C4057;
           color: #fff;
           position: absolute;
           left: 0;
@@ -574,7 +580,7 @@ ul.list_property {
           position: absolute;
           top: 0;
           right: 0;
-          background: $purple-color;
+          background: #607C7C;
           font-size: 0.625em;
           font-weight: 600;
           text-align: center;
@@ -582,7 +588,7 @@ ul.list_property {
           padding: 10px;
           color: #fff;
           &.renovated {
-            background: $yellow-color;
+            background: #E0AF6C;
           }
         }
       }
@@ -624,10 +630,10 @@ ul.list_property {
         align-items: center;
         align-content: stretch;
         &:hover {
-          background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23FF4572;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
+          background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='18' height='15' viewBox='0 0 18 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M16.6323 1.29923C14.9 -0.433078 12.0914 -0.433078 10.359 1.29923L9.38044 2.27777C9.14713 2.51108 8.76876 2.51108 8.53546 2.27777L7.57256 1.31487C5.84025 -0.417442 3.03161 -0.417442 1.29923 1.31487C-0.433077 3.04718 -0.433077 5.85582 1.29923 7.5882L8.53604 14.825C8.76934 15.0583 9.14771 15.0583 9.38102 14.825L16.6322 7.57257C18.3646 5.84019 18.3646 3.03162 16.6323 1.29923Z' fill='%23F08865'/%3e%3c/svg%3e ");
         }
         &.on {
-          background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 15' style='enable-background:new 0 0 18 15;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23FFFFFF;%7d .st1%7bfill:%23FF4572;%7d %3c/style%3e%3cpath class='st0' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3cpath class='st1' d='M16.6,1.3c-1.7-1.7-4.5-1.7-6.3,0l-1,1c-0.2,0.2-0.6,0.2-0.8,0l-1-1C5.8-0.4,3-0.4,1.3,1.3 c-1.7,1.7-1.7,4.5,0,6.3l7.2,7.2c0.2,0.2,0.6,0.2,0.8,0l7.3-7.3C18.4,5.8,18.4,3,16.6,1.3z'/%3e%3c/svg%3e ");
+          background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='18' height='15' viewBox='0 0 18 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M16.6323 1.29923C14.9 -0.433078 12.0914 -0.433078 10.359 1.29923L9.38044 2.27777C9.14713 2.51108 8.76876 2.51108 8.53546 2.27777L7.57256 1.31487C5.84025 -0.417442 3.03161 -0.417442 1.29923 1.31487C-0.433077 3.04718 -0.433077 5.85582 1.29923 7.5882L8.53604 14.825C8.76934 15.0583 9.14771 15.0583 9.38102 14.825L16.6322 7.57257C18.3646 5.84019 18.3646 3.03162 16.6323 1.29923Z' fill='%23F08865'/%3e%3c/svg%3e ");
         }
       }
     }
@@ -658,6 +664,8 @@ ul.list_property {
       }
       .property_img {
         height: 237px;
+        border-radius: 4px;
+        overflow: hidden;
         img {
           height: 237px;
           -webkit-transform: scale(1);
@@ -706,21 +714,22 @@ ul.list_property {
 }
 
 .btnSeemore {
-  border: 1px solid $prink-color;
+  border: 1px solid #2C4057;
+  border-radius: 100px;
   padding: 12.5px 30px;
-  color: $prink-color;
+  color: #2C4057;
   min-width: 350px;
   font-size: 1.125em;
   font-weight: 500;
   &:hover {
-    background: $prink-color;
+    background: #2C4057;
     color: #fff;
   }
 }
 
 
 footer {
-  background: #000;
+  background: #2C4057;
   padding: 40px 0 70px;
   hr {
     border-color: #828282;
@@ -743,7 +752,7 @@ footer {
       }
       &:hover {
         a {
-          color: $prink-color;
+          color: #E0AF6C;
         }
       }
       a {
@@ -766,16 +775,16 @@ footer {
     background: #fff;
     text-align: center;
     .btn {
-      background: $prink-color;
+      background: #E0AF6C;
       color: #fff;
       margin-right: 20px;
-      border-radius: 2px;
+      border-radius: 100px;
       padding: 12.5px 40px;
       min-width: 300px;
       font-size: 0.875em;
       font-weight: 600;
       &:hover {
-        background: $yellow-color;
+        background: #2C4057;
       }
       &:last-of-type {
         margin-right: 0;
@@ -872,13 +881,18 @@ footer {
     padding: 25px;
     margin-bottom: 40px;
     h1 {
-      background: #F2F2F2;
+      background: rgba(129, 145, 157, .2);
       padding: 20px;
       text-align: center;
       font-size: 0.875em;
       margin-bottom: 30px;
       span {
         font-size: 2.5714em;
+        color: #F08865;
+      }
+      i {
+        font-style: normal;
+        color: #F08865;
       }
     }
     .frm_calcu {
@@ -897,7 +911,7 @@ footer {
       }
       .label_repayment_amount {
         font-size: 2em;
-        color: #EB5757;
+        color: #F08865;
         font-weight: 700;
         span {
           font-size: .6em;
@@ -909,7 +923,7 @@ footer {
         width: auto;
         display: block;
         text-align: center;
-        background: #F2C94C;
+        background: #F08865;
         border-radius: 100px;
         color: #fff;
         font-size: 1.125em;
@@ -928,7 +942,7 @@ footer {
           position: absolute;
           pointer-events: none;
           border-color: rgba(136, 183, 213, 0);
-          border-top-color: #F2C94C;
+          border-top-color: #F08865;
           border-width: 7px;
           margin-left: -7px;
         }
@@ -941,7 +955,7 @@ footer {
         h2 {
           font-size: 2.25em;
           margin-bottom: 0;
-          color: $prink-color;
+          color: #F08865;
           text-align: center;
           line-height: .5em;
           span {
@@ -956,6 +970,7 @@ footer {
         p {
           margin-bottom: 0;
           font-size: 0.875em;
+          color: #2C4057;
           span {
             font-size: 1.5em;
 
@@ -967,7 +982,7 @@ footer {
         }
       }
       label {
-        color: #000;
+        color: #2C4057;
         font-size: 0.875em;
       }
       span {
@@ -977,7 +992,7 @@ footer {
         }
       }
       .form-control {
-        color: $prink-color;
+        color: #F08865;
         font-weight: 600;
         text-align: right;
         font-size: 1.5em;
@@ -987,16 +1002,16 @@ footer {
         height: calc(1.5em + .75rem + -4px);
       }
       ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: $prink-color;
+        color: #F08865;
       }
       ::-moz-placeholder { /* Firefox 19+ */
-        color: $prink-color;
+        color: #F08865;
       }
       :-ms-input-placeholder { /* IE 10+ */
-        color: $prink-color;
+        color: #F08865;
       }
       :-moz-placeholder { /* Firefox 18- */
-        color: $prink-color;
+        color: #F08865;
       }
     }
 
@@ -1009,6 +1024,7 @@ footer {
   .irs-bar {
     height: 17px;
     border-radius: 100px;
+    background: #F08865;
   }
   .irs-line {
     height: 17px;
@@ -1019,7 +1035,7 @@ footer {
     width: 17px;
     height: 17px;
     top: 25px;
-    background: $prink-color;
+    background: #F08865;
     border-radius: 100px;
     &:before {
       content: '';
@@ -1048,9 +1064,13 @@ footer {
 }
 .irs-from, .irs-to, .irs-single {
   top: -5px;
+  background-color: #F08865 !important;
 }
 .irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
   background-color: #fff;
+}
+.irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before {
+  border-top-color: #F08865;
 }
 .irs--flat .irs-min, .irs--flat .irs-max {
   top: inherit;
@@ -1075,6 +1095,7 @@ footer {
   .renovation_specifications_table {
     background: #fff;
     table {
+      color: #2C4057;
       th, td {
         font-size: 0.875em;
       }
@@ -1109,7 +1130,7 @@ footer {
     }
   }
   .btn_viewmap {
-    color: $prink-color;
+    color: #F39A7B;
     text-decoration: underline;
   }
   
@@ -1125,14 +1146,14 @@ footer {
       font-size: 0.75em;
       font-weight: 300;
       .red {
-        color: $prink-color;
+        color: #F39A7B;
       }
     }
 
     p {
       font-size: 0.875em;
       a {
-        color: $prink-color;
+        color: #F39A7B;
         text-decoration: underline;
         font-weight: 500;
       }
@@ -1141,14 +1162,15 @@ footer {
 }
 
 .btnsave {
-  background: $prink-color;
+  background: #F39A7B;
   width: 100%;
   color: #fff;
   padding: 13.5px 30px;
+  border-radius: 100px;
   margin-top: 10px;
   font-size: 0.875em;
   &:hover {
-    background: #000;
+    background: #2C4057;
     color: #fff;
   }
 }
@@ -1166,17 +1188,17 @@ footer {
     &.new {
       .box_notice_img {
         span {
-          color: $prink-color;
-          border-color: $prink-color;
+          color: #F39A7B;
+          border-color: #F39A7B;
         }
       }
       .box_notice_content {
         p {
           &:nth-of-type(1) {
-            color: $prink-color;
+            color: #F39A7B;
           }
           &:last-of-type {
-            color: $prink-color;
+            color: #F39A7B;
           }
         }
       }
@@ -1253,7 +1275,7 @@ footer {
     li {
       flex: 1 1 auto;
       background: #fff;
-      border-radius: 4px;
+      border-radius: 100px;
       &:first-of-type {
         margin-right: 15px;
       }
@@ -1307,7 +1329,7 @@ footer {
     margin-top: 15px;
 
     span {
-      color: #EB5757;
+      color: #F39A7B;
     }
   }
   p {
@@ -1321,17 +1343,17 @@ footer {
     }
   }
   .btnedit {
-    color: #EB5757;
-    border: 1px solid #EB5757;
+    color: #F39A7B;
+    border: 1px solid #F39A7B;
     font-size: 0.875em;
-    border-radius: 4px;
+    border-radius: 100px;
     padding: 5px 10px;
     float: right;
     margin-right: 20px;
     &:hover {
-      background: #EB5757;
+      background: #F39A7B;
       color: #fff;
-      border-color: #EB5757;
+      border-color: #F39A7B;
     }
   }
 }
@@ -1471,7 +1493,7 @@ footer {
   .primary_policy {
     font-size: 0.875em;
     a {
-      color: #EB5757;
+      color: #F39A7B;
     }
   }
   .btnsave {
@@ -1597,9 +1619,9 @@ footer {
       margin-bottom: 15px;
       a {
         display: block;
-        background: #EB5757;
+        background: #2C4057;
         color: #fff;
-        border-radius: 3px;
+        border-radius: 100px;
         text-align: center;
         padding: 10px;
         font-weight: 600;
@@ -1607,7 +1629,7 @@ footer {
         &:after {
           content: '-';
           position: absolute;
-          right: 15px;
+          right: 25px;
           top: 2px;
           margin: auto;
           width: 10px;
@@ -1645,7 +1667,7 @@ footer {
         display: inline-block;
         &:hover {
           a {
-            background: #EB5757;
+            background: #E0AF6C;
             color: #fff;
           }
         }
@@ -2200,7 +2222,7 @@ footer {
 
   .box_showmore {
     padding: 0 15px 10px;
-    border: 1px solid #EB5757;
+    border: 1px solid #F08865;
     border-radius: 100px;
   }
 
@@ -2571,9 +2593,10 @@ footer {
 }
       
 .btn_wishlist2 {
-  border: 1px solid #d8d8da;
-  border-radius: 2px;
+  border: 1px solid #2C4057;
+  border-radius: 100px;
   background-color: #fff;
+  color: #2C4057;
   font-size: 1em;
   display: flex;
   flex-direction: row;
