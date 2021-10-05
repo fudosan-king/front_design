@@ -50,7 +50,7 @@ h2 {
 }
 .form-control:focus {box-shadow: none; border-color: $primary-color;}
 .custom-checkbox .custom-control-label::before {
-  border-radius: 0;
+  border-radius: 2px;
 }
 .custom-control-input:focus~.custom-control-label::before {
   box-shadow: none;
@@ -86,6 +86,12 @@ section {
   text-align: center;
   margin-bottom: 50px;
 }
+.subtitle2 {
+  font-size: 0.75em;
+  color: #2C4057;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 header {
   #dropdown_user {
@@ -101,13 +107,11 @@ header {
     a {
       color: #fff;
       display: block;
-      
-      
       padding: 0 10px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       align-content: stretch;
       span {
@@ -317,7 +321,7 @@ header {
     position: absolute;
     right: -30px;
     top: 63px;
-    min-width: 497px;
+    min-width: 377px;
     &:after {
       content: '';
       position: fixed;
@@ -2678,3 +2682,168 @@ footer {
 }
 
 
+.frm_search_conditions {
+  max-width: 725px;
+  margin: auto;
+  h2 {
+    background: #F2F2F2;
+    padding: 10px 20px;
+    font-size: 0.75em;
+    color: #828282;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  .nav {
+    justify-content: space-evenly;
+    border: 1px solid #F08865;
+    margin-bottom: 30px;
+  }
+  .nav-pills {
+    .nav-item {
+      flex: 1 1 auto;
+      text-align: center;
+    }
+    .nav-link {
+      border-radius: 0;
+      font-size: 0.875em;
+      font-weight: 600;
+      color: #F08865;
+      position: relative;
+      &.active {
+        background: #F08865;
+        color: #fff;
+        &:after {
+          top: 100%;
+          left: 50%;
+          border: solid transparent;
+          content: "";
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none;
+          border-color: rgba(240, 136, 101, 0);
+          border-top-color: #F08865;
+          border-width: 10px;
+          margin-left: -10px;
+        }
+      }
+    }
+  }
+  label {
+    font-size: 0.875em;
+    color: #2C4057;
+  }
+  p {
+    margin-bottom: 0;
+    &.cases {
+      text-align: right;
+      font-size: 0.75em;
+      span {
+        font-size: 1.5em;
+      }
+    }
+    
+  }
+  .custom-checkbox {
+    margin-bottom: 30px;
+  }
+  .box_form_group {
+    max-width: 330px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0 10px;
+    }
+  }
+
+  .accordion {
+    .card {
+      border: none;
+      border-radius: 0;
+      .card-header {
+        background: #fff;
+        padding: 0;
+        border-bottom: 1px solid #E0E0E0;
+        margin-bottom: 0;
+        h2 {
+          background: transparent;
+          padding: 0;
+          position: relative;
+          .ck_all {
+            position: absolute;
+            z-index: 10;
+            left: 20px;
+            top: 20px;
+            bottom: 0;
+            margin: auto;
+            label {
+              font-size: 1.17em;
+              span {
+                position: relative;
+                top: 5px;
+              }
+            }
+          }
+          .btn {
+            padding: 30px 20px;
+            position: relative;
+            &::before {
+              content: '';
+              position: absolute;
+              right: 20px;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+              background: url('../images/svg/i_arrow_down.svg') no-repeat;
+              width: 20px;
+              height: 20px;
+            }
+            &.collapsed {
+              &::before {
+                background: url('../images/svg/i_arrow_up.svg') no-repeat;
+              }
+            }
+          }
+        }
+      }
+    }
+    .card-body {
+      background: rgba(240, 136, 101, .1);
+    }
+  }
+}
+
+.btn_search_conditions {
+  display: inline-flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .frm_search_conditions {
+    h2 {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+    .accordion {
+      .card {
+        .card-header {
+          h2 {
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .footer_bottom {
+      .btn.btn_conditions.btn_search_conditions {
+        width: 100%;
+        padding: 16px 30px;
+      }
+    }
+  }
+}

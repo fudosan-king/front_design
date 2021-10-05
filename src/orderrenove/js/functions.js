@@ -130,4 +130,13 @@ $(document).on("click", function(event){
     }            
 });
 
+$("#ck_01").click(function() {
+	$("#collapseOne input[type=checkbox]").prop("checked", $(this).prop("checked"));
+});
+
+$("#collapseOne input[type=checkbox]").click(function() {
+	if (!$(this).prop("checked")) {
+		$("#ck_01").prop("checked", false);
+	}
+});
 
