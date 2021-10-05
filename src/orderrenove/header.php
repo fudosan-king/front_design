@@ -23,13 +23,13 @@
                       <div class="card">
                         <div class="card-header" id="headingOne">
                           <h2 class="mb-0">
-                            <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <a class="btn btn-block text-left" href="search_conditions.php">
                               <img src="images/svg/i_map_black.svg" alt="" class="img-fluid" width="18"> エリアから探す</a>
-                            </button>
+                            </a>
                           </h2>
                         </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <!-- <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
                                 <ul>
                                     <li><a href="#">足立区</a></li>
@@ -80,17 +80,17 @@
                                     <li><a href="">目黒区</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                       </div>
                       <div class="card">
                         <div class="card-header" id="headingTwo">
                           <h2 class="mb-0">
-                            <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <a class="btn btn-block text-left" href="#">
                               <img src="images/svg/i_stations_black.svg" alt="" class="img-fluid" width="13"> 沿線から探す</a></li>
-                            </button>
+                            </a>
                           </h2>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <!-- <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
                                 <ul>
                                     <li><a href="#">東京メトロ日比谷線</a></li>
@@ -141,17 +141,15 @@
                                     <li><a href="">目黒区</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                       </div>
                       <div class="card">
                         <div class="card-header" id="headingThree">
                           <h2 class="mb-0">
-                            <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <img src="images/svg/i_locations_black.svg" alt="" class="img-fluid" width="14"> MAPから探す
-                            </button>
+                            <a class="btn btn-block text-left" href="#">閉じる</a>
                           </h2>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <!-- <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
                                 <ul>
                                     <li><a href="#">足立区</a></li>
@@ -202,7 +200,7 @@
                                     <li><a href="">目黒区</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                 </div>

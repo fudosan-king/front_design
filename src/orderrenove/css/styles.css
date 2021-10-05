@@ -140,7 +140,7 @@ h2 {
 }
 
 .custom-checkbox .custom-control-label::before {
-    border-radius: 0;
+    border-radius: 2px;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -193,6 +193,13 @@ section {
     margin-bottom: 50px;
 }
 
+.subtitle2 {
+    font-size: 0.75em;
+    color: #2C4057;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 header {
     padding: 30px;
     transition: all 0.3s;
@@ -219,7 +226,7 @@ header .box_user a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: stretch;
 }
@@ -447,7 +454,7 @@ header.subheader.compressed .i_white {
     position: absolute;
     right: -30px;
     top: 63px;
-    min-width: 497px;
+    min-width: 377px;
 }
 
 .dropdown_search .dropdown_search_content:after {
@@ -2803,4 +2810,174 @@ footer .footer_bottom .btn img {
 
 .modal_info p.text_condition {
     font-size: 1em;
+}
+
+.frm_search_conditions {
+    max-width: 725px;
+    margin: auto;
+}
+
+.frm_search_conditions h2 {
+    background: #F2F2F2;
+    padding: 10px 20px;
+    font-size: 0.75em;
+    color: #828282;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.frm_search_conditions .nav {
+    justify-content: space-evenly;
+    border: 1px solid #F08865;
+    margin-bottom: 30px;
+}
+
+.frm_search_conditions .nav-pills .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.frm_search_conditions .nav-pills .nav-link {
+    border-radius: 0;
+    font-size: 0.875em;
+    font-weight: 600;
+    color: #F08865;
+    position: relative;
+}
+
+.frm_search_conditions .nav-pills .nav-link.active {
+    background: #F08865;
+    color: #fff;
+}
+
+.frm_search_conditions .nav-pills .nav-link.active:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(240, 136, 101, 0);
+    border-top-color: #F08865;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.frm_search_conditions label {
+    font-size: 0.875em;
+    color: #2C4057;
+}
+
+.frm_search_conditions p {
+    margin-bottom: 0;
+}
+
+.frm_search_conditions p.cases {
+    text-align: right;
+    font-size: 0.75em;
+}
+
+.frm_search_conditions p.cases span {
+    font-size: 1.5em;
+}
+
+.frm_search_conditions .custom-checkbox {
+    margin-bottom: 30px;
+}
+
+.frm_search_conditions .box_form_group {
+    max-width: 330px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.frm_search_conditions .box_form_group p {
+    margin: 0 10px;
+}
+
+.frm_search_conditions .accordion .card {
+    border: none;
+    border-radius: 0;
+}
+
+.frm_search_conditions .accordion .card .card-header {
+    background: #fff;
+    padding: 0;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 0;
+}
+
+.frm_search_conditions .accordion .card .card-header h2 {
+    background: transparent;
+    padding: 0;
+    position: relative;
+}
+
+.frm_search_conditions .accordion .card .card-header h2 .ck_all {
+    position: absolute;
+    z-index: 10;
+    left: 20px;
+    top: 20px;
+    bottom: 0;
+    margin: auto;
+}
+
+.frm_search_conditions .accordion .card .card-header h2 .ck_all label {
+    font-size: 1.17em;
+}
+
+.frm_search_conditions .accordion .card .card-header h2 .ck_all label span {
+    position: relative;
+    top: 5px;
+}
+
+.frm_search_conditions .accordion .card .card-header h2 .btn {
+    padding: 30px 20px;
+    position: relative;
+}
+
+.frm_search_conditions .accordion .card .card-header h2 .btn::before {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url("../images/svg/i_arrow_down.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.frm_search_conditions .accordion .card .card-header h2 .btn.collapsed::before {
+    background: url("../images/svg/i_arrow_up.svg") no-repeat;
+}
+
+.frm_search_conditions .accordion .card-body {
+    background: rgba(240, 136, 101, 0.1);
+}
+
+.btn_search_conditions {
+    display: inline-flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .frm_search_conditions h2 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .frm_search_conditions .accordion .card .card-header h2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer .footer_bottom .btn.btn_conditions.btn_search_conditions {
+        width: 100%;
+        padding: 16px 30px;
+    }
 }
