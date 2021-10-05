@@ -186,6 +186,12 @@ section {
     font-weight: 500;
 }
 
+.title2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
 .subtitle {
     font-size: 1em;
     color: #2C4057;
@@ -197,7 +203,6 @@ section {
     font-size: 0.75em;
     color: #2C4057;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 header {
@@ -2888,7 +2893,6 @@ footer .footer_bottom .btn img {
 }
 
 .frm_search_conditions .box_form_group {
-    max-width: 330px;
     margin: auto;
     margin-bottom: 20px;
     display: flex;
@@ -2966,6 +2970,10 @@ footer .footer_bottom .btn img {
 }
 
 @media (max-width: 768px) {
+    .subtitle2 {
+        margin-bottom: 10px;
+    }
+
     .frm_search_conditions h2 {
         margin-left: -10px;
         margin-right: -10px;
