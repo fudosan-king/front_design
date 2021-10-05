@@ -9,7 +9,7 @@
                 <section class="section_new_property p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title text-center mb-3">検索条件</h2>
+                            <h2 class="title2 text-center">検索条件</h2>
                             <p class="text-center subtitle2">東京の中古マンションを沿線・駅から探す</p>
                         </div>
                     </div>
@@ -1448,29 +1448,32 @@
                                     <h2>価格（万円）</h2>
                                     <div class="form-group box_form_group">
                                         <select name="" class="custom-select">
-                                            <option value="">3,500</option>
-                                            <option value="">3,600</option>
-                                            <option value="">3,700</option>
+                                            <option value="">下限なし</option>
+                                            <option value="">0</option>
+                                            <option value="">1</option>
                                         </select>
                                         <p class="mb-0">⁓</p>
                                         <select name="" class="custom-select">
-                                            <option value="">4,500</option>
-                                            <option value="">5,600</option>
-                                            <option value="">6,700</option>
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">上限なし</option>
                                         </select>
                                     </div>
                                     <h2>広さ（m<sup>2</sup>）</h2>
                                     <div class="form-group box_form_group">
                                         <select name="" class="custom-select">
-                                            <option value="">65</option>
-                                            <option value="">70</option>
-                                            <option value="">75</option>
+                                            <option value="">下限なし</option>
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
                                         </select>
                                         <p class="mb-0">⁓</p>
                                         <select name="" class="custom-select">
-                                            <option value="">65</option>
-                                            <option value="">70</option>
-                                            <option value="">75</option>
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">上限なし</option>
                                         </select>
                                     </div>
                                 </form>
