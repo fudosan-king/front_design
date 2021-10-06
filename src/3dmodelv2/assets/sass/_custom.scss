@@ -22,3 +22,36 @@
 	}
 }
 /* End custom detail 30/09/2021 */
+
+/*Custom Detail 05/10/2021 */
+.board-info_extra {
+	.cs-group {
+		.cs-pattern_box{
+		    margin-right: 60px;
+		    text-align: center;
+		    display: flex;
+		    max-width: max-content;
+		    &:last-child{
+		    	margin-right:0;
+		    }
+		    p{
+		    	font-weight: bold;
+			    color: #fff;
+			    text-align: center;
+			    font-size: 1rem;
+			    padding-right: 20px;
+			    margin-top: 13px;
+			    width: max-content;
+			    max-width:90px;
+			    @media (max-width: 991px){
+			    	margin-top: 13px;
+		    		font-size:1.5rem;
+		    		width: max-content;
+		    		max-width:120px;
+		    		margin-top:46px;
+		    	}
+		    }
+		}
+	}
+}
+/* End custom detail 05/10/2021 */
