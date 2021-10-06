@@ -1791,13 +1791,38 @@
 		</div>
 		<!-- SP -->
 		<div class="cs-group">
-			<div class="cs-pattern active">
-				<div class="thumbnail" style="background-image:url('./images/common/オーク.png');"></div> 
-				<span class="name">オーク</span>
+			<div class="cs-pattern_box">
+				<p>床</p>
+				<div class="cs-pattern active">
+					<div class="thumbnail" style="background-image:url('./images/common/オーク.png');"></div> 
+					<span class="name">オーク</span>
+				</div>
+				<div class="cs-pattern">
+					<div class="thumbnail" style="background-image:url('./images/common/ウォルナット.png');"></div> 
+					<span class="name">ウォルナット</span>
+				</div>
 			</div>
-			<div class="cs-pattern">
-				<div class="thumbnail" style="background-image:url('./images/common/ウォルナット.png');"></div> 
-				<span class="name">ウォルナット</span>
+			<div class="cs-pattern_box">
+				<p>キッチン</p>
+				<div class="cs-pattern active">
+					<div class="thumbnail" style="background-image:url('./images/common/オーク.png');"></div> 
+					<span class="name">オーク</span>
+				</div>
+				<div class="cs-pattern">
+					<div class="thumbnail" style="background-image:url('./images/common/ウォルナット.png');"></div> 
+					<span class="name">ウォルナット</span>
+				</div>
+			</div>
+			<div class="cs-pattern_box">
+				<p>ドア</p>
+				<div class="cs-pattern active">
+					<div class="thumbnail" style="background-image:url('./images/common/オーク.png');"></div> 
+					<span class="name">オーク</span>
+				</div>
+				<div class="cs-pattern">
+					<div class="thumbnail" style="background-image:url('./images/common/ウォルナット.png');"></div> 
+					<span class="name">ウォルナット</span>
+				</div>
 			</div>
 		</div>
 	</div>	

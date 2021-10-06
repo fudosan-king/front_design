@@ -1599,3 +1599,42 @@ ul.drawer-items .list-item:last-of-type {
 }
 
 /* End custom detail 30/09/2021 */
+/*Custom Detail 05/10/2021 */
+.board-info_extra .cs-group .cs-pattern_box {
+  margin-right: 60px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+.board-info_extra .cs-group .cs-pattern_box:last-child {
+  margin-right: 0;
+}
+.board-info_extra .cs-group .cs-pattern_box p {
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding-right: 20px;
+  margin-top: 13px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 90px;
+}
+@media (max-width: 991px) {
+  .board-info_extra .cs-group .cs-pattern_box p {
+    margin-top: 13px;
+    font-size: 1.5rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 120px;
+    margin-top: 46px;
+  }
+}
+
+/* End custom detail 05/10/2021 */
