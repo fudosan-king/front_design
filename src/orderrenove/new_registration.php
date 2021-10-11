@@ -9,11 +9,9 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">新規会員登録</h2>
-                            <p class="subtitle mb-2">
-                                <small>ようこそOrder-Renoveへ！<br>
-                                あなただけの新しいすまいづくりはここから</small>
-                            </p>
+                            <h2 class="title text-center mb-3">新規会員登録</h2>
+                            <p class="subtitle text-center mb-2">ようこそOrder-Renoveへ！<br>
+                            あなただけの新しい住まい探しはここから</p>
                         </div>
                     </div>
                 </section>
@@ -25,14 +23,25 @@
                                 <div class="box_toplogin">
                                     <ul>
                                         <li>
-                                            <a class="btn" href="#"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="24">Facebookでログイン</a>
+                                            <a class="btn" href="#"><img src="images/svg/i_fb.svg" alt="" class="img-fluid" width="24">Facebookで登録</a>
                                         </li>
-                                        <li><a class="btn" href="#"><img src="images/svg/i_google.svg" alt="" class="img-fluid" width="24"> Googleでログイン</a></li>
+                                        <li><a class="btn" href="#"><img src="images/svg/i_google.svg" alt="" class="img-fluid" width="24"> Googleで登録</a></li>
                                     </ul>
                                     <p class="or"><span>または</span></p>
                                 </div>
                                 
                                 <form action="" class="frm_settingpass">
+                                    <div class="form-group">
+                                        <label for="">名前 <span class="red">必須</span></label> 
+                                        <div class="row">
+                                            <div class="col-6 col-lg-6 align-self-center">
+                                                <input type="text" placeholder="例：山田" class="form-control">
+                                            </div>
+                                            <div class="col-6 col-lg-6 align-self-center">
+                                                <input type="text" placeholder="例：太郎" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="form-group">
                                         <label for="">メールアドレス <span class="red">必須</span></label>
                                         <input type="text" class="form-control" placeholder="orderrenove@propolife.co.jp">
@@ -62,7 +71,7 @@
 
         </main>
 
-        <?php include('footer.php') ?>
+        <?php include('footer2.php') ?>
 
         <?php include('js-footer.php') ?>
     </body>

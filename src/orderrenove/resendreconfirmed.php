@@ -9,10 +9,8 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">確認メールの再送信</h2>
-                            <p class="subtitle mb-2">
-                                <small>下記に登録したメールアドレスを入力してください。登録確認のご案内をメールでお送りします。</small>
-                            </p>
+                            <h2 class="title text-center mb-3">確認メールの再送信</h2>
+                            <p class="subtitle mb-2">下記に登録したメールアドレスを入力してください。登録確認のご案内をメールでお送りします。</p>
                         </div>
                     </div>
                 </section>

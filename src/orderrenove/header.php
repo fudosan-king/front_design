@@ -5,7 +5,7 @@
             <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="134">
         </a>
         <div class="ml-auto box_user">
-            <div class="dropdown dropdown_user mr-3">
+            <div class="dropdown dropdown_user">
                 <a class="dropdown_user" href="login.php">
                     <img src="images/svg/i_user.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="15">
                     <img src="images/svg/i_user_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="15">

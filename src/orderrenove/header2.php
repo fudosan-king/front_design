@@ -110,12 +110,10 @@
                       <div class="card">
                         <div class="card-header" id="headingThree">
                           <h2 class="mb-0">
-                            <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <img src="images/svg/i_locations_black.svg" alt="" class="img-fluid" width="14"> <span>MAPから探す</span>
-                            </button>
+                            <button style="background-image: none;" class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">閉じる</button>
                           </h2>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <!-- <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
                                 <ul>
                                     <li><a href="#">足立区</a></li>
@@ -143,7 +141,7 @@
                                     <li><a href="">目黒区</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                 </div>
