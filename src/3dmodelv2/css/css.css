@@ -1639,44 +1639,50 @@ ul.drawer-items .list-item:last-of-type {
 
 /* End custom detail 05/10/2021 */
 /*Custom Detail 11/10/2021 */
+.touch-control .btn-touch-left {
+  position: fixed;
+  left: 21px;
+  bottom: 111px;
+  width: 82px;
+  height: 82px;
+}
+.touch-control .btn-touch-left:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("../images/icons/touch-left.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
+.touch-control .btn-touch-right {
+  position: fixed;
+  right: 21px;
+  bottom: 111px;
+  width: 82px;
+  height: 82px;
+}
+.touch-control .btn-touch-right:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../images/icons/touch-right.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
 @media (max-width: 991px) {
   .touch-control .btn-touch-left {
-    position: fixed;
-    left: 21px;
     bottom: 161px;
-    width: 82px;
-    height: 82px;
-  }
-  .touch-control .btn-touch-left:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-image: url("../images/icons/touch-left.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    opacity: .5;
   }
   .touch-control .btn-touch-right {
-    position: fixed;
-    right: 21px;
     bottom: 161px;
-    width: 82px;
-    height: 82px;
-  }
-  .touch-control .btn-touch-right:before {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-image: url("../images/icons/touch-right.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    opacity: .5;
   }
 }
 
