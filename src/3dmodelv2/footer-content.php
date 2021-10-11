@@ -1975,7 +1975,7 @@
  	</div>
 </div>
 
-<div class="touch-control d-block d-lg-none">
+<div class="touch-control">
 
 	<div class="btn btn-touch-left"></div>
 
