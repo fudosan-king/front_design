@@ -127,7 +127,7 @@ $(document).on("click", function(event){
     if($trigger !== event.target && !$trigger.has(event.target).length){
         $(".dropdown_user_content").slideUp("fast");
         $(".dropdown_search_content").slideUp("fast");
-    }            
+    }
 });
 
 $("#ck_01").click(function() {

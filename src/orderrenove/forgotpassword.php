@@ -9,7 +9,7 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-3">パスワード再設定</h2>
+                            <h2 class="title text-center mb-3">パスワード再設定</h2>
                             <p class="subtitle mb-2">
                                 <small>下記に登録したメールアドレスを入力してください。パスワード再設定のご案内をメールでお送りします。</small>
                             </p>
@@ -38,7 +38,7 @@
 
         </main>
 
-        <?php include('footer.php') ?>
+        <?php include('footer2.php') ?>
 
         <?php include('js-footer.php') ?>
     </body>

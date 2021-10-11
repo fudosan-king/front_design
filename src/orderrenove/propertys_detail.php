@@ -87,7 +87,11 @@
                                     </div>
 
                                     <div class="box_calcu mt-5">
-                                        <h1>リノベ＋物件価格 　<span>6,000</span><i>万円</i></h1>
+                                        <h1>
+                                            リノベ＋物件価格 　<span>6,000</span><i>万円</i>
+                                            <p class="mb-0 mt-2">物件価格：○○○○万円／リノベ費用：○○○○万円</p>
+                                        </h1>
+
                                         <form action="" class="frm_calcu">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6">
@@ -99,7 +103,7 @@
                                                         <p class="text-center d-block d-lg-none btn_simulation_result mb-3">毎月のお支払例</p>
                                                         <h2>201,089<span>円</span></h2>
                                                         <!-- <p class="text-center">ボーナス月　＋<span>０</span>円</p> -->
-                                                        <p class="text-center mt-3">管理費：20,000円／修繕積立金：20,000円 含む</p>
+                                                        <p class="text-center mt-3">管理費：20,000円／修繕積立金：20,000円 含む／リノ<br>ベーション費用：20,000円 含む</p>
                                                     </div>
 
                                                     <p class="text-center box_showmore">
