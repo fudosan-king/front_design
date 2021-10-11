@@ -1974,3 +1974,11 @@
 	    </div>
  	</div>
 </div>
+
+<div class="touch-control d-block d-lg-none">
+
+	<div class="btn btn-touch-left"></div>
+
+	<div class="btn btn-touch-right"></div>
+	
+</div>

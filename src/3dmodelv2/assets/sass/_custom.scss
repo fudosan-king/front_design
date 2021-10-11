@@ -55,3 +55,55 @@
 	}
 }
 /* End custom detail 05/10/2021 */
+
+
+
+/*Custom Detail 11/10/2021 */
+.touch-control{
+	@media (max-width:991px){
+		.btn-touch-left{
+			position: fixed;
+			left:21px;
+			bottom:161px;
+			width: 82px;
+			height:82px;
+			&:before{
+				content:'';
+				position: absolute;
+				left:0;
+				top:0;
+				background-image: url('../images/icons/touch-left.svg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 100%;
+    			width: 100%;
+	    		opacity: .5;
+			}
+		}
+
+		.btn-touch-right{
+			position: fixed;
+			right:21px;
+			bottom:161px;
+			width: 82px;
+			height:82px;
+			&:before{
+				content:'';
+				position: absolute;
+				right:0;
+				top:0;
+				background-image: url('../images/icons/touch-right.svg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 100%;
+    			width: 100%;
+	    		opacity: .5;
+			}
+		}
+
+	}	
+}
+
+
+
+/* End custom detail 11/10/2021 */
