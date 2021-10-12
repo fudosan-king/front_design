@@ -89,7 +89,7 @@
                                     <div class="box_calcu mt-5">
                                         <h1>
                                             リノベ＋物件価格 　<span>6,000</span><i>万円</i>
-                                            <p class="mb-0 mt-2">物件価格：○○○○万円／リノベ費用：○○○○万円</p>
+                                            <p class="mb-0 mt-2 fee">物件価格：○○○○万円／リノベ費用：○○○○万円</p>
                                         </h1>
 
                                         <form action="" class="frm_calcu">
