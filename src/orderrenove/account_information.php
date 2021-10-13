@@ -66,7 +66,7 @@
                                             <p>設定無し</p>
                                         </div>
                                         <div class="col-3 col-lg-4 align-self-center">
-                                            <a href="edit_account_information.php" class="btn btnedit">設定</a>
+                                            <a href="member_register.php" class="btn btnedit">設定</a>
                                         </div>
                                         <div class="col-4 col-lg-4">
                                             <p class="head">広さ：</p>
@@ -89,7 +89,7 @@
                                             <p class="head">未設定</p>
                                         </div>
                                         <div class="col-8 col-lg-8 align-self-center">
-                                            <a href="password_setting.php" class="btn btnedit">設定</a>
+                                            <a href="change_pass.php" class="btn btnedit">設定</a>
                                         </div>
                                     </div>
                                 </div>
