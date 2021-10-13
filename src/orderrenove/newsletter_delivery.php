@@ -11,8 +11,7 @@
                         <div class="container">
                             <h2 class="title mb-3">メルマガ配信希望条件</h2>
                             <p class="subtitle mb-2">
-                                <small>ご希望の条件にチェックを付けてください。<br>
-                                希望条件にあった物件をメールでお送りします。</small>
+                                あなたのご希望条件にマッチした物件をメールでいち早くお知らせします。
                             </p>
                         </div>
                     </div>
@@ -201,6 +200,16 @@
                                                 <option>20</option>
                                                 <option>80</option>
                                             </select>
+                                        </div>
+                                    </div>
+
+                                    <h4>メール通知設定</h4>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-12">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" id="send_announcement" name="sendAnnouncement" class="custom-control-input">
+                                                <label for="send_announcement" class="custom-control-label">メールで通知を受け取る</label>
+                                            </div>
                                         </div>
                                     </div>
                                     

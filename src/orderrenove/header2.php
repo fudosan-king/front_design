@@ -13,12 +13,12 @@
                 </a>
                 <div class="dropdown_user_content">
                     <ul>
-                        <li><a href="#">ゴチャンユイアインさま</a></li>
+                        <!-- <li><a href="#">ゴチャンユイアインさま</a></li> -->
                         <li><a href="account_information.php">会員登録情報</a></li>
                         <li><a href="newsletter_delivery.php">メルマガ配信希望条件</a></li>
-                        <li><a href="notice.php">お知らせ <span>10</span></a></li>
+                        <!-- <li><a href="notice.php">お知らせ <span>10</span> </a></li> -->
                         <li><a href="wishlist.php">お気に入り</a></li>
-                        <li><a href="index.php">ログアウト</a></li>
+                        <li><a href="login.php">ログアウト</a></li>
                     </ul>
                 </div>
             </div>

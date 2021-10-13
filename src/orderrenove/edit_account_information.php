@@ -9,7 +9,7 @@
                 <section class="p-0">
                     <div class="box_top mb-0">
                         <div class="container">
-                            <h2 class="title mb-0">会員登録情報の変更</h2>
+                            <h2 class="title mb-3">会員登録情報の変更</h2>
                         </div>
                     </div>
                 </section>
@@ -32,9 +32,9 @@
                                     <input type="text" class="form-control" placeholder="anh-n@propolife.co.jp">
                                     <h4>電話番号</h4>
                                     <input type="text" class="form-control" placeholder="080-3179-2609">
-                                    <h4>携帯番号</h4>
-                                    <input type="text" class="form-control" placeholder="080-3179-2609">
-                                    <h4>生年月日</h4>
+                                    <!-- <h4>携帯番号</h4>
+                                    <input type="text" class="form-control" placeholder="080-3179-2609"> -->
+                                    <!-- <h4>生年月日</h4>
                                     <div class="row">
                                         <div class="col-4 col-lg-4">
                                             <div class="box_date">
@@ -87,7 +87,7 @@
                                         <div class="col-8 col-lg-8 align-self-center">
                                             <a href="edit_account_information.php" class="btn btnedit">設定</a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <button type="submit" class="btn btnsave my-lg-5">保存</button>
                                 </form>
                             </div>
@@ -99,7 +99,7 @@
 
         </main>
 
-        <?php include('footer.php') ?>
+        <?php include('footer2.php') ?>
 
         <?php include('js-footer.php') ?>
     </body>

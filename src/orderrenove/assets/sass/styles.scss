@@ -86,7 +86,7 @@ section {
   font-weight: 500;
 }
 .subtitle {
-  font-size: 1em;
+  font-size: 1em !important;
   color: #2C4057;
   text-align: center;
   margin-bottom: 50px;
@@ -813,7 +813,7 @@ footer {
   padding-top: 20px;
   margin-bottom: 10px;
   .title, .subtitle {
-    text-align: left;
+    text-align: center;
   }
 }
 
