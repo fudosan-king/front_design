@@ -2864,7 +2864,7 @@ footer {
 
 
 .section_thanks {
-  padding-bottom: 170px;
+  padding-bottom: 130px;
   h3 {
     margin-bottom: 20px;
     font-size: 1.0625em;
@@ -2882,6 +2882,7 @@ footer {
     padding: 10px 50px;
     margin-top: 30px;
     position: relative;
+    min-width: 297px;
     img {
       position: absolute;
       right: 15px;
@@ -2898,8 +2899,15 @@ footer {
     }
     .btngoto {
       padding: 8px 20px;
+      min-width: 100%;
       img {
         right: 5px;
+      }
+    }
+    .w_btngoto {
+      .btngoto {
+        min-width: auto;
+        width: 100%;
       }
     }
   }
