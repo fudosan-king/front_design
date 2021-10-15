@@ -2857,3 +2857,32 @@ footer {
     }
   }
 }
+
+
+.section_thanks {
+  padding-bottom: 200px;
+  h3 {
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 0.875em;
+    a {
+      color: #4F4F4F;
+    }
+  }
+  .btngoto {
+    background: #F08865;
+    color: #fff;
+    border-radius: 100px;
+    padding: 10px 50px;
+    margin-top: 30px;
+    position: relative;
+    img {
+      position: absolute;
+      right: 15px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+}
