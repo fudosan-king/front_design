@@ -2240,6 +2240,7 @@ footer .footer_bottom .btn img {
 
     footer .footer_bottom {
         padding: 10px;
+        display: flex;
     }
 
     footer .footer_bottom .btn {
@@ -2247,11 +2248,8 @@ footer .footer_bottom .btn img {
         padding-left: 30px;
         padding-right: 30px;
         margin-right: 5px;
-        width: 48%;
-    }
-
-    footer .footer_bottom .btn.btn_conditions {
-        width: auto;
+        width: 50%;
+        flex: 1 1 auto;
     }
 
     footer p:last-of-type {
@@ -2639,8 +2637,7 @@ footer .footer_bottom .btn img {
     }
 
     footer .footer_bottom .btn {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 10px;
     }
 
     .section_property_main .box_calcu .frm_calcu .repayment_amount {

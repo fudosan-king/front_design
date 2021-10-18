@@ -2032,14 +2032,16 @@ footer {
     }
     .footer_bottom {
       padding: 10px;
+      display: flex;
       .btn {
         min-width: auto;
         padding-left: 30px;
         padding-right: 30px;
         margin-right: 5px;
-        width: 48%;
+        width: 50%;
+        flex: 1 1 auto;
         &.btn_conditions {
-          width: auto;
+          
         }
       }
     }
@@ -2441,8 +2443,7 @@ footer {
   footer {
     .footer_bottom {
       .btn {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 10px;
       }
     }
   }

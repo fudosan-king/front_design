@@ -1123,8 +1123,8 @@
                 </div>
             </div>
             <div class="footer_bottom fixed-bottom">
+                <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">メルマガ骨盟 </a>
                 <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact">希望条件を入力</a>
-                <!-- <a class="btn" href="tel:0368978564"><img src="images/svg/i_call.svg" alt="" class="img-fluid" width="18">03-6897-8564</a> -->
             </div>
         </footer>
 
