@@ -2137,7 +2137,7 @@ footer {
             font-size: 0.625em;
           }
           .btn_wishlist {
-            display: none;
+            // display: none;
           }
         }
       }
@@ -2151,6 +2151,9 @@ footer {
         padding-left: 8px;
         padding-right: 8px;
         font-size: 0.6em;
+        &.search_number {
+          font-size: 0.875em;
+        }
       }
     }
   }
@@ -2893,6 +2896,29 @@ footer {
     }
   }
 }
+
+.info_topsearch {
+  margin-bottom: 25px;
+  p {
+    &.searchby_area_label {
+      text-align: center;
+    }
+    font-size: 0.875em;
+    color: rgba(44, 64, 87, .5);
+    b {
+      color: rgba(44, 64, 87, 1);
+    }
+  }
+}
+
+.search_number {
+  color: #2C4057;
+  span {
+    font-size: 1.7143em;
+    font-weight: 600;
+  }
+}
+
 @media (max-width: 768px) {
   .section_thanks {
     h3 {
@@ -2912,4 +2938,12 @@ footer {
       }
     }
   }
+  .info_topsearch {
+    p {
+      &.searchby_area_label {
+        text-align: left;
+      }
+    }
+  }
 }
+
