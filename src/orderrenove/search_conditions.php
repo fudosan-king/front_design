@@ -20,7 +20,7 @@
                         <div class="row">
                             <div class="col-12 col-lg-12">
                                 <form action="" class="frm_search_conditions">
-                                    <h2>エリアまたは沿線・駅から選択（複数選択可）</h2>
+                                    <h2 class="little_title">エリアまたは沿線・駅から選択（複数選択可）</h2>
                                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                         <li class="nav-item" role="presentation">
                                             <a class="nav-link" id="pills-area-tab" data-toggle="pill" href="#pills-area" role="tab" aria-controls="pills-area" aria-selected="true">エリアから探す</a>
