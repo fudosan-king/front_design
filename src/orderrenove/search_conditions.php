@@ -1445,7 +1445,7 @@
 
                                         </div>
 
-                                    <h2>価格（万円）</h2>
+                                    <h2 class="little_title">価格（万円）</h2>
                                     <div class="form-group box_form_group">
                                         <select name="" class="custom-select">
                                             <option value="">下限なし</option>
@@ -1460,7 +1460,7 @@
                                             <option value="">上限なし</option>
                                         </select>
                                     </div>
-                                    <h2>広さ（m<sup>2</sup>）</h2>
+                                    <h2 class="little_title">広さ（m<sup>2</sup>）</h2>
                                     <div class="form-group box_form_group">
                                         <select name="" class="custom-select">
                                             <option value="">下限なし</option>
