@@ -2702,12 +2702,16 @@ footer {
   max-width: 725px;
   margin: auto;
   h2 {
-    background: #2C4057;
+    background: #F2F2F2;
     padding: 10px 20px;
     font-size: 0.75em;
-    color: #fff;
+    color: #828282;
     font-weight: normal;
     margin-bottom: 20px;
+    &.little_title {
+      background: #2C4057;
+      color: #fff;
+    }
   }
   .nav {
     justify-content: space-evenly;

@@ -2830,12 +2830,17 @@ footer .footer_bottom .btn img {
 }
 
 .frm_search_conditions h2 {
-    background: #2C4057;
+    background: #F2F2F2;
     padding: 10px 20px;
     font-size: 0.75em;
-    color: #fff;
+    color: #828282;
     font-weight: normal;
     margin-bottom: 20px;
+}
+
+.frm_search_conditions h2.little_title {
+    background: #2C4057;
+    color: #fff;
 }
 
 .frm_search_conditions .nav {
