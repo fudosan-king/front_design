@@ -11,7 +11,7 @@
                         <div class="container">
                             <h2 class="title mb-2">検索結果</h2>
                             <div class="info_topsearch">
-                                <p class="searchby_area_label"><b>エリアから探す：</b>千代田区, 中央区, 港区, 新宿区, 文京区渋谷区, 台東区, 墨田区, 江東区, 荒川区, 足立区, 葛飾区, …</p>
+                                <p class="searchby_area_label"><b>エリアから探す：</b>千代田区, 中央区, 港区, 新宿区, 文京区渋谷区, 台東区, 墨田区, 江東区, 荒川区, 足立区, 葛飾区, 千代田区, 中央区, 港区, 新宿区, 文京区渋谷区, 台東区, 墨田区, 江東区, 荒川区, 足立区, 葛飾区,</p>
                                 <p class="mb-1"><b>価格：</b>上限なし～下限なし</p>
                                 <p><b>広さ：</b>上限なし～下限なし</p>
                             </div>
