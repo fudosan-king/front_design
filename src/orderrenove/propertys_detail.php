@@ -11,6 +11,7 @@
                         <div class="pro_main_img">
                             <img src="images/KV.jpg" alt="" class="img-fluid w-100">
                             <a href="#" class="btn_wishlist custom d-block d-lg-none"></a>
+                            <span class="price">4,480 <small>万円</small></span>
                         </div>
                     </div>
                 </section>
