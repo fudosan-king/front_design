@@ -16,16 +16,16 @@
             <a href="texture.php" class="list-group-item">テクスチャ</a>
         </li>
         <li>
-            <a href="" class="list-group-item">ユーザー</a>
+            <a href="user.php" class="list-group-item">ユーザー</a>
         </li>
         <li>
-            <a href="" class="list-group-item">権限管理</a>
+            <a href="permission_management.php" class="list-group-item">権限管理</a>
         </li>
         <li>
-            <a href="" class="list-group-item">インポート</a>
+            <a href="import.php" class="list-group-item">インポート</a>
         </li>
         <li>
-            <a href="" class="list-group-item">設定</a>
+            <a href="configuration.php" class="list-group-item">設定</a>
         </li>
     </ul>
 </div>

@@ -2593,6 +2593,19 @@ footer {
       background-color: #000;
     }
   }
+  .price {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+    small {
+      font-size: 50%;
+    }
+  }
 }
 
 .btn_wishlist {
