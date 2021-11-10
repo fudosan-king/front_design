@@ -1548,7 +1548,7 @@
             $(document).ready(function() {
                 $(".btn_commitment").click(function(event){
                     event.preventDefault();
-                    $(this).toggleClass("active");
+                    $(this).toggleClass("actived");
                 });
             });
         </script>
