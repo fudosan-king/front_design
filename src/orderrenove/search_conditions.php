@@ -1476,6 +1476,20 @@
                                             <option value="">上限なし</option>
                                         </select>
                                     </div>
+
+                                    <h2 class="little_title">こだわり</h2>
+                                    <ul class="list_commitment">
+                                        <li><a href="#">カスタム可能</a></li>
+                                        <li><a href="#">リノベ済</a></li>
+                                        <li><a href="#">ペット飼育可</a></li>
+                                        <li><a href="#">ウォークインクローゼット</a></li>
+                                        <li><a href="#">シューズインクローゼット</a></li>
+                                        <li><a href="#">角部屋</a></li>
+                                        <li><a href="#">1DK/LDK</a></li>
+                                        <li><a href="#">2DK/LDK</a></li>
+                                        <li><a href="#">3DK/LDK</a></li>
+                                        <li><a href="#">4DK/LDK以上</a></li>
+                                    </ul>
                                 </form>
                             </div>
                         </div>
