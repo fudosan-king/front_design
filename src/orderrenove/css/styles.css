@@ -3106,3 +3106,23 @@ footer .footer_bottom .btn img {
         padding: 8px 15px;
     }
 }
+
+.list_commitment {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list_commitment li {
+    display: inline-block;
+}
+
+.list_commitment li a {
+    display: block;
+    padding: 2px 10px;
+    border: 0.5px solid #262626;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    font-size: 0.75em;
+}
