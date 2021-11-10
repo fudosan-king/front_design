@@ -1479,16 +1479,16 @@
 
                                     <h2 class="little_title">こだわり</h2>
                                     <ul class="list_commitment">
-                                        <li><a href="#">カスタム可能</a></li>
-                                        <li><a href="#">リノベ済</a></li>
-                                        <li><a href="#">ペット飼育可</a></li>
-                                        <li><a href="#">ウォークインクローゼット</a></li>
-                                        <li><a href="#">シューズインクローゼット</a></li>
-                                        <li><a href="#">角部屋</a></li>
-                                        <li><a href="#">1DK/LDK</a></li>
-                                        <li><a href="#">2DK/LDK</a></li>
-                                        <li><a href="#">3DK/LDK</a></li>
-                                        <li><a href="#">4DK/LDK以上</a></li>
+                                        <li><a class="btn_commitment" href="#">カスタム可能</a></li>
+                                        <li><a class="btn_commitment" href="#">リノベ済</a></li>
+                                        <li><a class="btn_commitment" href="#">ペット飼育可</a></li>
+                                        <li><a class="btn_commitment" href="#">ウォークインクローゼット</a></li>
+                                        <li><a class="btn_commitment" href="#">シューズインクローゼット</a></li>
+                                        <li><a class="btn_commitment" href="#">角部屋</a></li>
+                                        <li><a class="btn_commitment" href="#">1DK/LDK</a></li>
+                                        <li><a class="btn_commitment" href="#">2DK/LDK</a></li>
+                                        <li><a class="btn_commitment" href="#">3DK/LDK</a></li>
+                                        <li><a class="btn_commitment" href="#">4DK/LDK以上</a></li>
                                     </ul>
                                 </form>
                             </div>
@@ -1544,5 +1544,13 @@
         </footer>
 
         <?php include('js-footer.php') ?>
+        <script>
+            $(document).ready(function() {
+                $(".btn_commitment").click(function(event){
+                    event.preventDefault();
+                    $(this).toggleClass("active");
+                });
+            });
+        </script>
     </body>
 </html>
