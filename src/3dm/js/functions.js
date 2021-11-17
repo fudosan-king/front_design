@@ -130,3 +130,32 @@ $(document).ready( function () {
 
 
 
+
+$(".js-range-slider").ionRangeSlider({
+  min: 0,
+  max: 100,
+  from: 80,
+  postfix: "%"
+});
+
+$(".js-range-slider2").ionRangeSlider({
+  min: 1,
+  max: 100,
+  from: 45,
+  postfix: "角度"
+});
+
+$(".js-range-slider3").ionRangeSlider({
+  min: 1,
+  max: 100,
+  from: 45,
+  postfix: "角度"
+});
+$(".js-range-slider4").ionRangeSlider({
+  min: 0,
+  max: 100,
+  from: 80,
+  postfix: "%"
+});
+
+

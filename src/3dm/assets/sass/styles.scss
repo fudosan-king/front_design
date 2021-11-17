@@ -183,6 +183,10 @@ section {
     border: none;
     padding-left: 15px;
     padding-right: 15px;
+    transition: all 0.5s;
+    transform-origin: top center;
+    transform: scale(1,0);
+    display: block;
     &:before {
       bottom: 100%;
       left: 30%;
@@ -214,7 +218,7 @@ section {
   }
   &:hover {
     .dropdown-menu {
-      display: block;
+      transform: scale(1);
     }
   }
   .dropdown-toggle {
@@ -222,6 +226,17 @@ section {
       pointer-events: none;
     }
   }
+}
+
+.dropdown {
+    .dropdown-menu {
+        
+    }
+    &:hover {
+        .dropdown-menu {
+            transform: scale(1);
+        }
+    }
 }
 
 .navbar-nav {
@@ -1153,6 +1168,7 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before
 }
 
 .frm_basic_configuration {
+  max-width: 600px;
   .box_height {
     position: relative;
     display: flex;
@@ -1161,11 +1177,188 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before
     justify-content: flex-start;
     align-items: center;
     align-content: stretch;
-    .form-control {
-      width: auto;
+    &:after {
+      content: 'cm';
+      font-size: 0.875em;
+      position: absolute;
+      right: 10px;
+      top: 8px;
+      margin: auto;
+    }
+    span {
+      font-size: 0.875em;
+      margin-right: 13px;
+      width: 50px;
+    }
+  }
+  .form-control {
+    height: calc(1.5em + 0.75rem + 7px);
+  }
+  label {
+    font-size: 0.875em;
+    margin-bottom: 0;
+  }
+}
+
+// range slider
+.irs {
+  font-family: $primary-font;
+  font-weight: 500;
+}
+.irs--flat {
+  .irs-bar {
+    height: 17px;
+    border-radius: 100px;
+    background: #1F91B3;
+  }
+  .irs-line {
+    height: 17px;
+    border-radius: 100px;
+    background: #F2F2F2;
+  }
+  .irs-handle {
+    width: 17px;
+    height: 17px;
+    top: 25px;
+    background: #1F91B3;
+    border-radius: 100px;
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 20;
+      left: -2px;
+      right: 0;
+      top: -3px;
+      bottom: 0;
+      margin: auto;
+      background: url('../images/common/svg/line.svg') no-repeat;
+      width: 8px;
+      height: 14px;
+    }
+    i:first-child {
+      width: 30px;
+      height: 30px;
+      border-radius: 100px;
+      background: #fff;
+      border: 1px solid #BDBDBD;
+      top: -8px;
+      left: -8px;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
     }
   }
 }
+.irs-from, .irs-to, .irs-single {
+  top: inherit;
+  bottom: -55px;
+  background-color: #fff !important;
+  color: #5B5B5B !important;
+  font-size: 12px !important;
+}
+.irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
+  background-color: #fff;
+}
+.irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before {
+  border-top-color: #1F91B3;
+  top: -3px;
+  display: none;
+}
+.irs--flat .irs-min, .irs--flat .irs-max {
+  top: inherit;
+  bottom: -48px;
+  display: none;
+}
+
+.enterprisesetting_top {
+  border-bottom: 15px solid #F3FCFF;
+  padding: 30px;
+  h2 {
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .box_upload {
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 15px;
+      font-size: 0.875em;
+    }
+  }
+}
+.enterprisesetting_body {
+  padding: 30px;
+  h2 {
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .email_address {
+    width: 150px;
+  }
+}
+
+.box_items {
+  padding: 30px;
+  border-bottom: 15px solid #F3FCFF;
+  h2 {
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+}
+
+.btn_newaddition {
+  background: #2F80ED;
+  color: #fff;
+  border-radius: 4px;
+  min-width: 105px;
+  text-align: center;
+  font-size: 0.75em;
+  margin-right: 25px;
+  font-weight: 600;
+  &:hover {
+    color: #fff;
+  }
+}
+.addition_footer {
+  background: #F3FCFF;
+  text-align: center;
+  padding-top: 30px;
+}
+
+[type='color'] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 5px;
+}
+
+[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+[type='color']::-webkit-color-swatch {
+  border: none;
+}
+
+.color-picker {
+  background-color: #f8f9f9;
+  display: block;
+  label {
+    width: 100%;
+    height: 30px;
+    display: block;
+  }
+  span {
+    display: none;
+    width: 100%;
+  }
+}
+
 
 
 @media (min-width: 1200px) {
