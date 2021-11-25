@@ -72,6 +72,22 @@ $(function($) {
 		  	$(".w_box_simulation_result").slideToggle("fast");
 		});
 
+		$(".burger").click(function(event) {
+	  		event.preventDefault();
+	  		$('.frm_search_conditions_content').slideToggle("fast");
+		});
+
+		const burger = document.querySelector(".burger");
+
+		burger.addEventListener("click", function () {
+		  const body = document.body;
+		  body.classList.toggle("nav_open");
+
+		  // if needed to toggle multiple classes
+		  // const toggleClasses = ["nav-open", "overflow-hidden"];
+		  // toggleClasses.forEach((toggleClass) => body.classList.toggle(toggleClass));
+		});
+
 	}(jQuery));
 });
 
@@ -139,4 +155,5 @@ $("#collapseOne input[type=checkbox]").click(function() {
 		$("#ck_01").prop("checked", false);
 	}
 });
+
 
