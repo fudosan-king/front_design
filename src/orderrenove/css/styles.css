@@ -3117,12 +3117,6 @@ footer .footer_bottom .btn img {
     display: inline-block;
 }
 
-.list_commitment li:hover a {
-    background: #F08865;
-    border-color: #F08865;
-    color: #fff;
-}
-
 .list_commitment li a {
     display: block;
     padding: 2px 10px;
@@ -3131,6 +3125,10 @@ footer .footer_bottom .btn img {
     margin-bottom: 10px;
     margin-right: 8px;
     font-size: 0.75em;
+}
+
+.list_commitment li a.actived {
+    color: #fff;
 }
 
 .actived {
