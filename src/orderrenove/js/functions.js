@@ -78,7 +78,7 @@ $(function($) {
 		});
 
 		const burger = document.querySelector(".burger");
-
+	
 		burger.addEventListener("click", function () {
 		  const body = document.body;
 		  body.classList.toggle("nav_open");
@@ -87,6 +87,11 @@ $(function($) {
 		  // const toggleClasses = ["nav-open", "overflow-hidden"];
 		  // toggleClasses.forEach((toggleClass) => body.classList.toggle(toggleClass));
 		});
+
+
+			$('.plus-to-minus').click( function( event ) {
+				$(this).toggleClass('minus');
+			});
 
 	}(jQuery));
 });
