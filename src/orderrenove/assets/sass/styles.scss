@@ -2718,7 +2718,8 @@ footer {
   width: 22px;
   height: 14px;
   cursor: pointer;
-
+  border: none;
+  background: transparent;
   .burger_line {
     position: absolute;
     left: 0;
@@ -2739,7 +2740,7 @@ footer {
 }
 
 .nav_open {
-  .burger_line {
+  .menu_hamburger, .burger_line {
     &:first-child,
     &:last-child {
       top: 8px;
@@ -2760,6 +2761,44 @@ footer {
   }
 }
 
+$ease: ease;
+$duration: 400ms;
+
+// Style for icon Plus/Minus
+.plus-to-minus {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform $ease $duration;
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    background-color: #2C4057;
+    border-radius: 10px;
+  }
+  &:before {
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 20px;
+  }
+  &:after {
+    top: 50%;
+    margin-top: -1px;
+    height: 2px;
+    width: 20px;
+    transition: transform $ease $duration;
+  }
+  &.minus {
+    transform: rotate( -90deg );
+    &:after {
+      transform: rotate( -90deg );
+    }
+  }
+}
+
+
+
 
 .frm_search_conditions {
   max-width: 725px;
@@ -2774,25 +2813,32 @@ footer {
     color: #828282;
     font-weight: normal;
     margin-bottom: 20px;
+    position: relative;
+    a {
+      position: absolute;
+      display: block;
+      right: 10px;
+      top: 8px;
+    }
+    .burger {
+      .burger_line {
+        background: #2C4057;
+      }
+    }
     &.little_title {
       background: #2C4057;
       color: #fff;
       position: relative;
-      // .btn_little_title {
-      //   color: #fff;
-      //   display: block;
-      //   position: absolute;
-      //   right: 10px;
-      //   top: 8px;
-      //   margin: auto;
-      // }
-
       button {
         background: transparent;
         border: 0;
-
         &:focus {
           outline: none;
+        }
+      }
+      .burger {
+        .burger_line {
+          background: #fff;
         }
       }
     }
@@ -3073,3 +3119,7 @@ footer {
 }
 
 
+.box_jr {
+  display: none;
+  margin-bottom: 10px;
+}
