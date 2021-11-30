@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand" href="index.php">
             <img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="224">
-            <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="134">
+            <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="160">
         </a>
         <div class="ml-auto box_user">
             <div class="dropdown dropdown_user">

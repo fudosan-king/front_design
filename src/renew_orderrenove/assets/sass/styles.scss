@@ -1,4 +1,4 @@
-$primary-color: #000000;
+$primary-color: #4F4F4F;
 $purple-color: #BB6BD9;
 $yellow-color: #E5C47F;
 $sliver-color: #F2F2F2;
@@ -28,11 +28,11 @@ body{width:100%;height:100%;
 .btn-link {color: $primary-color;word-break:normal;word-break:break-all;word-break:keep-all;text-decoration: underline;}
 .btn-link:hover{color: $primary-color;text-decoration:underline;}
 h1,h2,h3,h4,h5,h6{font-family: $primary-font;
-line-height: 1.3em; text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased; color:#2C4057; margin-bottom: 10px; font-size: 1.25em; font-weight: 600;}
+line-height: 1.3em; text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased; color:#262626; margin-bottom: 10px; font-size: 1.25em; font-weight: 600;}
 *,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
 html,body{position:relative;height:100%}
 p {word-wrap: break-word;}
-a:hover {text-decoration:none;color:#2C4057;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
+a:hover {text-decoration:none;color:#262626;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;transition:all .3s linear;}
 h1 {font-size: 2.3125em;}
 h2 {
   font-size: 1.5625em;
@@ -46,7 +46,7 @@ h2 {
   height: calc(1.5em + .75rem + 7px);
 }
 .custom-select:focus {
-  border-color: #2C4057;
+  border-color: #262626;
 }
 .form-control:focus {box-shadow: none; border-color: $primary-color;}
 .custom-checkbox .custom-control-label::before {
@@ -87,13 +87,13 @@ section {
 }
 .subtitle {
   font-size: 1em !important;
-  color: #2C4057;
+  color: #262626;
   text-align: center;
   margin-bottom: 50px;
 }
 .subtitle2 {
   font-size: 0.75em;
-  color: #2C4057;
+  color: #262626;
   text-align: center;
 }
 
@@ -132,7 +132,7 @@ header {
   padding: 30px;
   transition: all 0.3s;
   &.compressed {
-    background: #2C4057;
+    background: #262626;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   }
 
@@ -149,12 +149,12 @@ header {
       border: none;
     }
     #dropdown_user {
-      border-color: #2C4057;
-      color: #2C4057;
+      border-color: #262626;
+      color: #262626;
       border-radius: 100px;
     }
     &.compressed {
-      background: #2C4057;
+      background: #262626;
       #dropdown_user {
         border-color: #fff;
         color: #fff;
@@ -200,7 +200,7 @@ header {
       display: block;
       li {
         a {
-          color: #2C4057;
+          color: #262626;
           text-align: left;
           display: block;
           padding: 15px 22px;
@@ -358,7 +358,7 @@ header {
       .card-header {
         background: #fff;
         .btn {
-          color: #2C4057;
+          color: #262626;
           padding: 0;
           font-size: 0.5833em;
           transition: 0.3s;
@@ -410,7 +410,7 @@ header {
               }
             }
             a {
-              color: #2C4057;
+              color: #262626;
               font-size: 0.7em;
               display: block;
               background: #F2F2F2;
@@ -507,7 +507,7 @@ header {
       }
       &:hover {
         a {
-          background: #2C4057;
+          background: #262626;
         }
       }
       a {
@@ -567,7 +567,7 @@ ul.list_property {
         margin-bottom: 0;
         color: #4f4f4f;
         &.total_price {
-          background: #2C4057;
+          background: #262626;
           color: #fff;
           position: absolute;
           left: 0;
@@ -722,22 +722,22 @@ ul.list_property {
 }
 
 .btnSeemore {
-  border: 1px solid #2C4057;
+  border: 1px solid #262626;
   border-radius: 100px;
   padding: 12.5px 30px;
-  color: #2C4057;
+  color: #262626;
   min-width: 350px;
   font-size: 1.125em;
   font-weight: 500;
   &:hover {
-    background: #2C4057;
+    background: #262626;
     color: #fff;
   }
 }
 
 
 footer {
-  background: #2C4057;
+  background: #262626;
   padding: 40px 0 70px;
   hr {
     border-color: #828282;
@@ -783,7 +783,7 @@ footer {
     background: #fff;
     text-align: center;
     .btn {
-      background: #E0AF6C;
+      background: #424242;
       color: #fff;
       margin-right: 20px;
       border-radius: 100px;
@@ -792,7 +792,7 @@ footer {
       font-size: 0.875em;
       font-weight: 600;
       &:hover {
-        background: #2C4057;
+        background: #262626;
       }
       &:last-of-type {
         margin-right: 0;
@@ -985,7 +985,7 @@ footer {
         p {
           margin-bottom: 0;
           font-size: 0.875em;
-          color: #2C4057;
+          color: #262626;
           span {
             font-size: 1.5em;
 
@@ -997,7 +997,7 @@ footer {
         }
       }
       label {
-        color: #2C4057;
+        color: #262626;
         font-size: 0.875em;
       }
       span {
@@ -1110,7 +1110,7 @@ footer {
   .renovation_specifications_table {
     background: #fff;
     table {
-      color: #2C4057;
+      color: #262626;
       th, td {
         font-size: 0.875em;
       }
@@ -1185,7 +1185,7 @@ footer {
   margin-top: 10px;
   font-size: 0.875em;
   &:hover {
-    background: #2C4057;
+    background: #262626;
     color: #fff;
   }
 }
@@ -1605,7 +1605,7 @@ footer {
     border-radius: 100px;
     position: relative;
     &:hover {
-      background: #2C4057;
+      background: #262626;
     }
     &.btn_back {
       img {
@@ -1636,7 +1636,7 @@ footer {
       margin-bottom: 15px;
       a {
         display: block;
-        background: #2C4057;
+        background: #262626;
         color: #fff;
         border-radius: 100px;
         text-align: center;
@@ -2633,10 +2633,10 @@ footer {
 }
       
 .btn_wishlist2 {
-  border: 1px solid #2C4057;
+  border: 1px solid #262626;
   border-radius: 100px;
   background-color: #fff;
-  color: #2C4057;
+  color: #262626;
   font-size: 1em;
   display: flex;
   flex-direction: row;
@@ -2695,7 +2695,7 @@ footer {
     padding: 10px 30px;
     border-radius: 3px;
     &:hover {
-      background: #2C4057;
+      background: #262626;
     }
   }
   p {
@@ -2722,7 +2722,7 @@ footer {
     font-weight: normal;
     margin-bottom: 20px;
     &.little_title {
-      background: #2C4057;
+      background: #262626;
       color: #fff;
     }
   }
@@ -2764,7 +2764,7 @@ footer {
   }
   label {
     font-size: 0.875em;
-    color: #2C4057;
+    color: #262626;
   }
   p {
     margin-bottom: 0;
@@ -2926,7 +2926,7 @@ footer {
 }
 
 .search_number {
-  color: #2C4057;
+  color: #262626;
   span {
     font-size: 1.7143em;
     font-weight: 600;

@@ -8,23 +8,13 @@
 
             <section class="section_banner" style="background-image: url('images/takayamatei-800x534.jpg');">
                 <div class="caption">
-                    <img src="images/svg/label.svg" alt="" class="img-fluid" width="430">
+                    <img src="images/svg/label.svg" alt="" class="img-fluid" width="200">
                     <p></p>
                 </div>
-                <ul>
-                    <li>
-                        <a class="btn_map" href="#">
-                        <img src="images/svg/i_map.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="18">
-                        <img src="images/svg/i_map_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="18"> 
-                        エリアから探す</a>
-                    </li>
-                    <li>
-                        <a class="btn_stations" href="#">
-                        <img src="images/svg/i_stations.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="13">
-                        <img src="images/svg/i_stations_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="13">
-                        沿線から探す</a>
-                    </li>
-                </ul>
+                <p>テイストと予算で選べる<br>
+                定額リノベーションプラン</p>
+                <h3>価格、立地、広さ…条件にあった中古マンションを<br>
+                好みのテイストでリノベーションする醍醐味</h3>
             </section>
 
 
@@ -1123,8 +1113,8 @@
                 </div>
             </div>
             <div class="footer_bottom fixed-bottom">
-                <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">メルマガ骨盟 </a>
-                <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact">希望条件を入力</a>
+                <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">希望条件を登録 </a>
+                <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact">条件を絞って物件検索</a>
             </div>
         </footer>
 
