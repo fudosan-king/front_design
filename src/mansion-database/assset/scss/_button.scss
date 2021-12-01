@@ -1,0 +1,54 @@
+.btn-more{
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	color: #EB5757;
+	border: 1px solid #EB5757;
+	border-radius:0;
+	max-width:350px;
+	width: 100%;
+	height:50px;
+	margin:0 auto;
+	background:#fff;
+	&:hover{
+		color: #fff;
+		background:#EB5757;
+	}
+}
+
+.btn-red-go{
+	background: #EB5757;
+	border: 1px solid #EB5757;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 0.75rem;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	color: #FFFFFF;
+	&:hover{
+		color: #EB5757;
+		background:#fff;
+	}
+}
+
+.btn-white-go{
+	background:#fff;
+	border: 1px solid #EB5757;
+	border-radius: 0;
+	font-weight: 600;
+	font-size: 1.125rem;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	color: #EB5757;
+	&:hover{
+		color: #fff;
+		background: #EB5757;	
+	}
+}
