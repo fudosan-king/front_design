@@ -7,9 +7,64 @@ function mansionDB_script() {
     _this._SlideIntoPropertyList();
     _this._Wishlist();
     _this._Navigation();
+    _this._SearchCondition();
   }
 
+  this._SearchCondition = function () {
+    
+    const _this = this;
+
+    $('[data-scroll]').on('click', _this.scrollToSection);
+
+    $(".btn_call").click(function(event) {
+        event.preventDefault();
+        $(".btn_call span").slideToggle("fast");
+    });
+
+    $(".btnshowhide").click(function(event) {
+        event.preventDefault();
+        $(this).toggleClass('show');
+        $(".w_box_simulation_result").slideToggle("fast");
+    });
+
+    $(".burger").click(function(event) {
+        event.preventDefault();
+        $('.frm_search_conditions_content').slideToggle("fast");
+    });
+
+    const burger = document.querySelector(".burger");
+    burger.addEventListener("click", function () {
+      const body = document.body;
+      body.classList.toggle("nav_open");
+
+      // if needed to toggle multiple classes
+      // const toggleClasses = ["nav-open", "overflow-hidden"];
+      // toggleClasses.forEach((toggleClass) => body.classList.toggle(toggleClass));
+    });
+
+    $('.plus-to-minus').click( function( event ) {
+      $(this).toggleClass('minus');
+    });
+
+    $("#ck_01").click(function() {
+      $("#collapseOne input[type=checkbox]").prop("checked", $(this).prop("checked"));
+    });
+
+    $("#collapseOne input[type=checkbox]").click(function() {
+      if (!$(this).prop("checked")) {
+        $("#ck_01").prop("checked", false);
+      }
+    });
+
+  }
   
+  this.scrollToSection = function (event) {
+    event.preventDefault();
+    var $section = $($(this).attr('href')); 
+    $('html, body').animate({
+      scrollTop: $section.offset().top 
+    }, 500);
+  }
 
   this._Wishlist = function () {
 
