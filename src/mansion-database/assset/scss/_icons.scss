@@ -1,0 +1,127 @@
+.c-icon{
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		background-repeat:no-repeat;
+		left: 50%;
+    	top: 50%;
+    	transform: translate(-50%,-50%);
+	}
+}
+
+.i-search{
+	&:before{
+		background-image: url('../images/icons/search-black.svg');
+		background-size:cover;
+		width: 16px;
+		height:16px;
+	}
+}
+
+.i-user{
+	&:before{
+		background-image: url('../images/icons/user-black.svg');
+		background-size:cover;
+		width: 14px;
+		height:16px;
+	}
+}
+
+
+.i-location{
+	&:before{
+		background-image: url('../images/icons/location-white.svg');
+		background-size:cover;
+		width: 18px;
+		height:20px;
+	}
+}
+
+.i-map{
+	&:before{
+		background-image: url('../images/icons/map-white.svg');
+		background-size:cover;
+		width: 14px;
+		height:16px;
+	}
+}
+
+.i-train{
+	&:before{
+		background-image: url('../images/icons/train-white.svg');
+		background-size:cover;
+		width: 13px;
+		height:17px;
+	}
+}
+
+.i-train-gray{
+	&:before{
+		background-image: url('../images/icons/train-gray.svg');
+		background-size:cover;
+		width: 12px;
+		height:12px;
+	}
+}
+
+.i-location-gray{
+	&:before{
+		background-image: url('../images/icons/location-gray.svg');
+		background-size:cover;
+		width: 12px;
+		height:12px;
+	}
+}
+
+.i-building-gray{
+	&:before{
+		background-image: url('../images/icons/building-gray.svg');
+		background-size:cover;
+		width: 12px;
+		height:12px;
+	}
+}
+
+.i-filter-white{
+	&:before{
+		background-image: url('../images/icons/filter-white.svg');
+		background-size:cover;
+		width: 12px;
+		height:12px;
+	}
+}
+
+.i-arrow-r{
+	&:before{
+		background-image: url('../images/icons/arrow-r.svg');
+		background-size:cover;
+		width: 14px;
+		height:14px;
+	}
+}
+
+.i-arrow-red-r{
+	&:before{
+		background-image: url('../images/icons/arrow-red-r.svg');
+		background-size:cover;
+		width: 5px;
+		height:10px;
+	}
+}
+
+.nav-white{
+	.i-user{
+		&:before{
+			background-image: url('../images/icons/user-white.svg');
+		}
+	}
+
+	.i-search{
+		&:before{
+			background-image: url('../images/icons/search-white.svg');
+		}
+	}
+}
+
+
