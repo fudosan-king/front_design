@@ -13,7 +13,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
 <link rel="stylesheet" href="css/bootstrap-datepicker.min.css" type="text/css">
@@ -21,5 +21,7 @@
 
 <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/flickity.min.css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="css/t_styles.css" type="text/css">

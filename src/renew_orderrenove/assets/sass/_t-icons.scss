@@ -1,0 +1,61 @@
+.c-icon{
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		background-repeat:no-repeat;
+		left: 50%;
+    	top: 50%;
+    	transform: translate(-50%,-50%);
+	}	
+}
+
+.i-close{
+	&:before{
+		background-image: url('../images/icons/close-yellow.svg');
+		background-size:cover;
+	    transform-origin: left;
+		transform: translate(50%, 50%) rotate(180deg);
+		width: 16px;
+		height:16px;
+	}
+}
+
+
+.i-open {
+	&:before{
+		background-image: url('../images/icons/close-yellow.svg');
+		background-size:cover;
+		width: 16px;
+		height:16px;
+	}
+}
+
+
+.i-filter-white{
+	&:before{
+		background-image: url('../images/icons/filter-white.svg');
+		background-size:cover;
+		width: 12px;
+		height:12px;
+	}
+}
+
+.i-arrow-gray{
+	&:before{
+		background-image: url('../images/icons/arrow-gray.svg');
+		background-size:cover;
+		width: 7px;
+		height:11px;
+	}
+}
+
+
+.i-mail-white{
+	&:before{
+		background-image: url('../images/icons/mail-white.svg');
+		background-size:cover;
+		width: 19px;
+		height:13px;
+	}
+}

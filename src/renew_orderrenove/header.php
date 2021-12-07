@@ -1,226 +1,56 @@
-<header class="fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <a class="navbar-brand" href="index.php">
-            <img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="224">
-            <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="160">
-        </a>
-        <div class="ml-auto box_user">
-            <div class="dropdown dropdown_user">
-                <a class="dropdown_user" href="login.php">
-                    <img src="images/svg/i_user.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="15">
-                    <img src="images/svg/i_user_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="15">
-                    <span>ログイン</span>
-                </a>
+<header>
+    <div class="nav_menu">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid logo-white">
+                <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid logo-black">
+            </a>
+            <button class="navbar-toggler js-menu" type="button" >
+                <span class="nav-toggler-line"></span>
+                <span class="nav-toggler-line"></span>
+                <span class="nav-toggler-line"></span>
+            </button>
+            <div class="nav_menu-list">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="sub-link nav-link" href="#">
+                        マイページ</a>
+                        <ul>
+                            <li><a href="#">マイページ</a></li>
+                            <li><a href="#">お気に入り</a></li>
+                            <li><a href="#">メルマガ希望条件</a></li>
+                            <li><a href="#">お知らせ</a></li>
+                            <li><a href="#">ログイン／会員登録</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OrderRenoveについて<i class="c-icon i-arrow-gray"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">物件一覧<i class="c-icon i-arrow-gray"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">リノベプラン一覧<i class="c-icon i-arrow-gray"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">コンシェルジュ相談<i class="c-icon i-arrow-gray"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">マネー診断シミュレーター<i class="c-icon i-arrow-gray"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">売却サポート<i class="c-icon i-arrow-gray"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LogRenove ライフスタイルメディア<i class="c-icon i-arrow-gray"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ご利用ガイド<i class="c-icon i-arrow-gray"></i></a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="dropdown dropdown_search">
-                <a id="dropdown_search" href="#">
-                    <img src="images/svg/i_search.svg" alt="" class="img-fluid d-none d-lg-inline-block" width="16">
-                    <img src="images/svg/i_search_black.svg" alt="" class="img-fluid d-inline-block d-lg-none" width="16">
-                </a>
-                <div class="dropdown_search_content">
-                    <div class="accordion" id="accordionExample">
-                      <div class="card">
-                        <div class="card-header" id="headingOne">
-                          <h2 class="mb-0">
-                            <a class="btn btn-block text-left" href="search_conditions.php">
-                              <img src="images/svg/i_map_black.svg" alt="" class="img-fluid" width="18"> エリアから探す</a>
-                            </a>
-                          </h2>
-                        </div>
-
-                        <!-- <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <ul>
-                                    <li><a href="#">足立区</a></li>
-                                    <li><a href="">荒川区</a></li>
-                                    <li><a href="">板橋区</a></li>
-                                    <li><a href="">江戸川区</a></li>
-                                    <li><a href="">大田区</a></li>
-                                    <li><a href="">葛飾区</a></li>
-                                    <li><a href="">北区</a></li>
-                                    <li><a href="">江東区</a></li>
-                                    <li><a href="">品川区</a></li>
-                                    <li><a href="">渋谷区</a></li>
-                                    <li><a href="">新宿区</a></li>
-                                    <li><a href="">杉並区</a></li>
-                                    <li><a href="">墨田区</a></li>
-                                    <li><a href="">世田谷区</a></li>
-                                    <li><a href="">台東区</a></li>
-                                    <li><a href="">千代田区</a></li>
-                                    <li><a href="">中央区</a></li>
-                                    <li><a href="">豊島区</a></li>
-                                    <li><a href="">中野区</a></li>
-                                    <li><a href="">練馬区</a></li>
-                                    <li><a href="">文京区</a></li>
-                                    <li><a href="">港区</a></li>
-                                    <li><a href="">目黒区</a></li>
-                                    <li><a href="#">足立区</a></li>
-                                    <li><a href="">荒川区</a></li>
-                                    <li><a href="">板橋区</a></li>
-                                    <li><a href="">江戸川区</a></li>
-                                    <li><a href="">大田区</a></li>
-                                    <li><a href="">葛飾区</a></li>
-                                    <li><a href="">北区</a></li>
-                                    <li><a href="">江東区</a></li>
-                                    <li><a href="">品川区</a></li>
-                                    <li><a href="">渋谷区</a></li>
-                                    <li><a href="">新宿区</a></li>
-                                    <li><a href="">杉並区</a></li>
-                                    <li><a href="">墨田区</a></li>
-                                    <li><a href="">世田谷区</a></li>
-                                    <li><a href="">台東区</a></li>
-                                    <li><a href="">千代田区</a></li>
-                                    <li><a href="">中央区</a></li>
-                                    <li><a href="">豊島区</a></li>
-                                    <li><a href="">中野区</a></li>
-                                    <li><a href="">練馬区</a></li>
-                                    <li><a href="">文京区</a></li>
-                                    <li><a href="">港区</a></li>
-                                    <li><a href="">目黒区</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingTwo">
-                          <h2 class="mb-0">
-                            <a class="btn btn-block text-left" href="#">
-                              <img src="images/svg/i_stations_black.svg" alt="" class="img-fluid" width="13"> 沿線から探す</a></li>
-                            </a>
-                          </h2>
-                        </div>
-                        <!-- <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <ul>
-                                    <li><a href="#">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">東京メトロ日比谷線</a></li>
-                                    <li><a href="">新宿区</a></li>
-                                    <li><a href="">杉並区</a></li>
-                                    <li><a href="">墨田区</a></li>
-                                    <li><a href="">世田谷区</a></li>
-                                    <li><a href="">台東区</a></li>
-                                    <li><a href="">千代田区</a></li>
-                                    <li><a href="">中央区</a></li>
-                                    <li><a href="">豊島区</a></li>
-                                    <li><a href="">中野区</a></li>
-                                    <li><a href="">練馬区</a></li>
-                                    <li><a href="">文京区</a></li>
-                                    <li><a href="">港区</a></li>
-                                    <li><a href="">目黒区</a></li>
-                                    <li><a href="#">足立区</a></li>
-                                    <li><a href="">荒川区</a></li>
-                                    <li><a href="">板橋区</a></li>
-                                    <li><a href="">江戸川区</a></li>
-                                    <li><a href="">大田区</a></li>
-                                    <li><a href="">葛飾区</a></li>
-                                    <li><a href="">北区</a></li>
-                                    <li><a href="">江東区</a></li>
-                                    <li><a href="">品川区</a></li>
-                                    <li><a href="">渋谷区</a></li>
-                                    <li><a href="">新宿区</a></li>
-                                    <li><a href="">杉並区</a></li>
-                                    <li><a href="">墨田区</a></li>
-                                    <li><a href="">世田谷区</a></li>
-                                    <li><a href="">台東区</a></li>
-                                    <li><a href="">千代田区</a></li>
-                                    <li><a href="">中央区</a></li>
-                                    <li><a href="">豊島区</a></li>
-                                    <li><a href="">中野区</a></li>
-                                    <li><a href="">練馬区</a></li>
-                                    <li><a href="">文京区</a></li>
-                                    <li><a href="">港区</a></li>
-                                    <li><a href="">目黒区</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingThree">
-                          <h2 class="mb-0">
-                            <a class="btn btn-block text-left" href="#">閉じる</a>
-                          </h2>
-                        </div>
-                        <!-- <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <ul>
-                                    <li><a href="#">足立区</a></li>
-                                    <li><a href="">荒川区</a></li>
-                                    <li><a href="">板橋区</a></li>
-                                    <li><a href="">江戸川区</a></li>
-                                    <li><a href="">大田区</a></li>
-                                    <li><a href="">葛飾区</a></li>
-                                    <li><a href="">北区</a></li>
-                                    <li><a href="">江東区</a></li>
-                                    <li><a href="">品川区</a></li>
-                                    <li><a href="">渋谷区</a></li>
-                                    <li><a href="">新宿区</a></li>
-                                    <li><a href="">杉並区</a></li>
-                                    <li><a href="">墨田区</a></li>
-                                    <li><a href="">世田谷区</a></li>
-                                    <li><a href="">台東区</a></li>
-                                    <li><a href="">千代田区</a></li>
-                                    <li><a href="">中央区</a></li>
-                                    <li><a href="">豊島区</a></li>
-                                    <li><a href="">中野区</a></li>
-                                    <li><a href="">練馬区</a></li>
-                                    <li><a href="">文京区</a></li>
-                                    <li><a href="">港区</a></li>
-                                    <li><a href="">目黒区</a></li>
-                                    <li><a href="#">足立区</a></li>
-                                    <li><a href="">荒川区</a></li>
-                                    <li><a href="">板橋区</a></li>
-                                    <li><a href="">江戸川区</a></li>
-                                    <li><a href="">大田区</a></li>
-                                    <li><a href="">葛飾区</a></li>
-                                    <li><a href="">北区</a></li>
-                                    <li><a href="">江東区</a></li>
-                                    <li><a href="">品川区</a></li>
-                                    <li><a href="">渋谷区</a></li>
-                                    <li><a href="">新宿区</a></li>
-                                    <li><a href="">杉並区</a></li>
-                                    <li><a href="">墨田区</a></li>
-                                    <li><a href="">世田谷区</a></li>
-                                    <li><a href="">台東区</a></li>
-                                    <li><a href="">千代田区</a></li>
-                                    <li><a href="">中央区</a></li>
-                                    <li><a href="">豊島区</a></li>
-                                    <li><a href="">中野区</a></li>
-                                    <li><a href="">練馬区</a></li>
-                                    <li><a href="">文京区</a></li>
-                                    <li><a href="">港区</a></li>
-                                    <li><a href="">目黒区</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
-        </div>
-
-        
-
-        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"><img src="images/svg/i_user.svg" alt="" class="img-fluid" width="15"> ログイン</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="images/svg/i_search.svg" alt="" class="img-fluid" width="16"></a>
-                </li>
-            </ul>
-        </div> -->
-    </nav>
+        </nav>
+    </div>
 </header>
+
+

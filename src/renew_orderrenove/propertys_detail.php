@@ -146,8 +146,6 @@
                                                                 <canvas id="pie-canvas1"></canvas>
                                                             </div>
                                                         </div>
-
-                                                        
                                                     </div>
                                                     
 

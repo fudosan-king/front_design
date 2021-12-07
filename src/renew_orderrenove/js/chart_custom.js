@@ -21,16 +21,20 @@ function createChart(id, type, options) {
             // label: 'My First dataset',
             data: [10, 10, 80],
             backgroundColor: [
-                '#F39A7B',
-                '#E5C47F',
-                '#98B6B8',
+                '#5C5B5B',
+                '#999999',
+                '#CFAF6E',
             ],
+            // color: [
+            //   '#ffffff',
+            //   '#ffffff',
+            //   '#ffffff',
+            // ],
             borderWidth: 0,
         }
     ],
-
   };
-
+  Chart.defaults.global.defaultFontColor = 'white';
 
   new Chart(document.getElementById(id), {
     type: type,
@@ -39,13 +43,16 @@ function createChart(id, type, options) {
   });
 }
 
-['pie', 'doughnut'].forEach(function (type) {
+['pie'].forEach(function (type) {
+  
   createChart(type + '-canvas1', type, {
     responsive: true,
     maintainAspectRatio: false,
     borderWidth: 0,
     legend: {
-      // display: false,
+      labels: {
+          fontColor: '#333333'
+      },
       position: 'top',
     },
     plugins: {
@@ -56,9 +63,5 @@ function createChart(id, type, options) {
     },
 
     
-
   });
-
-  
-
 });
