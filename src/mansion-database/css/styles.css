@@ -234,14 +234,24 @@ h6 {
   font-weight: 600;
 }
 
+.content-line p {
+  display: inline-block;
+}
+.content-line p:empty {
+  display: none;
+}
+
 .left {
   margin-bottom: 20px;
   float: left;
+  width: calc(50% - 5px);
+  margin-right: 10px;
 }
 
 .right {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   float: right;
+  width: calc(50% - 5px);
 }
 
 .full-width {
