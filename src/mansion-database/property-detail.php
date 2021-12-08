@@ -234,21 +234,17 @@
 							</div>
 							<p>青空にキレイに映えた真っ白な外観。平成築のデザイナーズマンションは建築家、新居千秋氏による設計のもの。大和ハウス㈱旧分譲物件です。</p>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-6">
-							<div class="img-item">
-								<img src="./images/property-detail/dt-img-2.jpg" alt="" title="">
-							</div>
+					
+						<div class="content-line">
+							<p data-block-key="kpcz9"></p>
+							<img alt="dt-img-2.jpg" class="richtext-image left" height="609" src="./images/property-detail/dt-img-2.jpg" width="450">
+							<p data-block-key="6uco8"></p>
+							<img alt="dt-img-3.jpg" class="richtext-image right" height="608" src="./images/property-detail/dt-img-3.jpg" width="450">
+							<p data-block-key="2gplf">
+								<b>青空にキレイに映えた真っ白な外観。平成築のデザイナーズマンションは建築家、新居千秋氏による設計のもの。大和ハウス㈱旧分譲物件です。</b>
+							</p>
 						</div>
-						<div class="col-6">
-							<div class="img-item">
-								<img src="./images/property-detail/dt-img-3.jpg" alt="" title="">
-							</div>
-						</div>
-						<div class="col-md-12">
-							<p>青空にキレイに映えた真っ白な外観。平成築のデザイナーズマンションは建築家、新居千秋氏による設計のもの。大和ハウス㈱旧分譲物件です。</p>
-						</div>
+		
 					</div>
 					<div class="row">
 						<div class="col-md-12">
