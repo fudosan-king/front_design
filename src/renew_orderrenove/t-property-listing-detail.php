@@ -2,10 +2,12 @@
 <html lang="en">
     <?php include('head.php') ?>
     <body>
-        <?php include('header2.php') ?>
+        <div class="nav-black">
+            <?php include('header.php') ?>
+        </div>
 
         <main>
-            <div class="box_template">
+          
 
                 <section class="section_searh">
                     <div class="container">
@@ -232,6 +234,7 @@
                         </div>
 
                         <div class="detail-price">
+                            <div class="container">
                             <div class="detai-price_info">
                                 <div class="detail-price_top">
                                     <div class="name">リノベ＋物件価格 </div>
@@ -327,12 +330,13 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </form>
+                                   
                                 </div>
-                                <button class="btn btn-clo-ope">
-                                    <i class="c-icon i-close"></i>
+                                <button class="btn btn-clo-ope js-collapse">
+                                    <i class="c-icon i-open"></i>
                                 </button>
+                            </div>
                             </div>
                         </div>
                       
@@ -741,7 +745,7 @@
                     </div>
                 </section>
 
-            </div>
+        
         </main>
 
         <footer>
@@ -784,8 +788,9 @@
                 </div>
             </div>
             <div class="footer_bottom fixed-bottom">
-                <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">希望条件を登録 </a>
-                <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact">条件を絞って物件検索</a>
+                <div class="bottom_box">
+                    <a class="btn btn-ft" href="#"><i class="c-icon i-mail-white"></i>内覧・お問い合わせ</a>
+                </div>
             </div>
         </footer>
 

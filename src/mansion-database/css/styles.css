@@ -219,6 +219,20 @@ button:hover {
   background: #EB5757;
 }
 
+.btn_search_conditions {
+  background: #E0AF6C;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12.5px 40px;
+  max-width: 300px;
+  width: 100%;
+  font-size: 0.875em;
+  font-weight: 600;
+}
+.btn_search_conditions:hover {
+  color: #fff;
+}
+
 h1,
 h2,
 h3,
@@ -2030,7 +2044,6 @@ footer .footer_bottom {
   text-align: center;
 }
 footer .footer_bottom .btn {
-  background: #424242;
   color: #fff;
   margin-right: 20px;
   border-radius: 100px;
@@ -2038,9 +2051,6 @@ footer .footer_bottom .btn {
   min-width: 300px;
   font-size: 0.875em;
   font-weight: 600;
-}
-footer .footer_bottom .btn:hover {
-  background: #262626;
 }
 footer .footer_bottom .btn:last-of-type {
   margin-right: 0;
@@ -2053,6 +2063,9 @@ footer .footer_bottom .btn img {
   padding: 10px 0;
   background: #fff;
   text-align: center;
+}
+.footer_bottom img {
+  margin-right: 10px;
 }
 
 @media (max-width: 375px) {

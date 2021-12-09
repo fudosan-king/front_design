@@ -45,7 +45,6 @@ footer {
     background: #fff;
     text-align: center;
     .btn {
-      background: #424242;
       color: #fff;
       margin-right: 20px;
       border-radius: 100px;
@@ -53,9 +52,6 @@ footer {
       min-width: 300px;
       font-size: 0.875em;
       font-weight: 600;
-      &:hover {
-        background: #262626;
-      }
       &:last-of-type {
         margin-right: 0;
       }
@@ -70,6 +66,9 @@ footer {
     padding: 10px 0;
     background: #fff;
     text-align: center;
+    img{
+      margin-right:10px;
+    }
 }
 
 

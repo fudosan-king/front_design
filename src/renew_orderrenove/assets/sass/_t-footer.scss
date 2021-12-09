@@ -1,9 +1,32 @@
 footer{
+  padding:40px 0 0;
   .footer_bottom{
+    
+    .bottom_box{
+      margin:0 auto;
+      max-width:530px;
+      display: flex;
+    }
+    .btn-ft{
+      max-width:335px;
+      border-radius:0;
+      font-size: 0.75em;
+      margin-right: auto;
+      margin-left: auto;
+      min-width: unset;
+      margin-right: 15px;
+      @media (max-width:374px){
+        font-size: 0.5rem;
+      }
+      &:last-of-type{
+        margin-right:auto;
+      }
+    }
     i{
       margin-right:10px;
       width: 19px;
       height:13px;
+      top: 1px;
     }
   }
 }

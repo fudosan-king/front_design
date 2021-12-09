@@ -2,10 +2,12 @@
 <html lang="en">
     <?php include('head.php') ?>
     <body>
-        <?php include('header2.php') ?>
+        <div class="nav-black">
+            <?php include('header.php') ?>
+        </div>
 
         <main>
-            <div class="box_template">
+            <div>
                 <section class="section_searh">
                     <div class="container">
                         <div class="row">
@@ -412,8 +414,10 @@
                 </div>
             </div>
             <div class="footer_bottom fixed-bottom">
-                <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">希望条件を登録 </a>
-                <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact">条件を絞って物件検索</a>
+                <div class="bottom_box">
+                <a class="btn btn-ft" href="#"><i class="c-icon i-mail-white"></i>内覧・お問い合わせ</a>
+                <a class="btn btn-ft" href="#"><i class="c-icon i-search-white"></i>内覧・お問い合わせ</a>
+                </div>
             </div>
         </footer>
 

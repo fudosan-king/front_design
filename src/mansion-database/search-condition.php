@@ -1543,4 +1543,5 @@
     
 </div>
 
+<?php include ('footer-ct.php'); ?>
 <?php include ('footer.php'); ?>

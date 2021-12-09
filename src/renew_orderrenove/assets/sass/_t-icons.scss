@@ -59,3 +59,21 @@
 		height:13px;
 	}
 }
+
+.i-search-white{
+	&:before{
+		background-image: url('../images/icons/search-white.svg');
+		background-size:cover;
+		width: 18px;
+		height:18px;
+	}
+}
+
+.i-call-white{
+	&:before{
+		background-image: url('../images/icons/call-white.svg');
+		background-size:cover;
+		width: 18px;
+		height:12px;
+	}
+}
