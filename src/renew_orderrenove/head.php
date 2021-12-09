@@ -25,3 +25,4 @@
 <link rel="stylesheet" type="text/css" href="css/flickity.min.css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 <link rel="stylesheet" href="css/t_styles.css" type="text/css">
+<link rel="stylesheet" href="css/c_styles.css" type="text/css">
