@@ -1,0 +1,64 @@
+.property-listing_detail{
+	.full-width{
+		width: 100%;
+		display: block;
+	}
+	p:empty{
+		display:none;
+	}
+}
+
+
+.listing-detail_swiper{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:20px;
+	.detail-slide_swiper{
+		margin-bottom: 10px;
+	}
+	.detail-item_box{
+		padding:0;
+		border: none;
+	}
+	.w_property-archive_head{
+		margin-bottom:60px;
+	}
+}
+
+.property-listing_detail{
+	.rnv-explain{
+		max-width:600px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	.detail-price{
+		padding:0;
+	}
+	.rnv-explain{
+		margin-bottom:30px;
+		ul{
+			list-style-type: none;
+			li{
+				font-size: 14px;
+				line-height: 1.8;
+				color: #424242;
+			}
+		}
+	}
+}
+
+
+.detail-listing_relative{
+	h2{
+		font-weight: bold;
+		font-size: 1.125rem;
+		line-height: 1.4;
+		text-align: center;
+		color: #424242;
+		margin-bottom:20px;
+	}
+	.btn-load-more{
+		margin-bottom:60px;
+	}
+}

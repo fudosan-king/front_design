@@ -1,0 +1,77 @@
+.listing_top{
+	margin-bottom:65px;
+	max-width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	h2{
+		font-weight: bold;
+		font-size: 1.125rem;
+		line-height: 21px;
+		letter-spacing: 0.05em;
+		color: #424242;
+	}
+	.listing_info{
+		margin-bottom:40px;
+		p{
+			font-size: 0.9375rem;
+			line-height: 1.8;
+			color: #5C5B5B;
+			margin-bottom:5px;
+			span{
+				font-weight: 600;	
+				color: #424242;
+			}
+		}
+	}
+	.listing_sort{
+		display: flex;
+		align-items:center;
+		justify-content:space-between;
+		ul{
+			list-style-type: none;
+			display:flex;
+			justify-content:center;
+			margin-bottom:0;
+			li{
+				margin-right:20px;
+				@media (max-width:767px){
+					&:first-child{
+						margin-right:0;
+					}
+				}
+				&:last-child{
+					margin-right:0;
+				}
+				button{
+					font-weight: 500;
+					font-size: 0.75rem;
+					line-height: 14px;
+					color: #424242;
+					padding:12px 8px;
+					border: 1px solid #BDBDBD;
+					border-radius: 0;
+					height:30px;
+					display: flex;
+					align-items:center;
+					@media(max-width:374px){
+						font-size:0.625rem;	
+					}
+					&.red{
+						background: #EB5757;
+						border:1px solid #EB5757;
+						color:#fff;
+						i{
+							width:15px;
+							height:15px;
+							margin-right:5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.listing{
+	margin-bottom:60px;
+}

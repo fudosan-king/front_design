@@ -1,0 +1,69 @@
+.btn{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin: 0 auto;
+}
+
+.btn-load-more{
+	width: 100%;
+	max-width:260px;
+	height:50px;
+	font-weight: bold;
+	font-size: 0.875rem;
+	line-height: 1.6;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	background: #424242;
+	&:hover{
+		background:#fff;
+		color:#424242;
+		border:1px solid #424242;
+	}
+}
+
+.btn-detail{
+	border: 1px solid #424242;
+	font-weight: bold;
+	font-size: 0.875rem;
+	line-height: 1.6;
+	letter-spacing: 0.1em;
+	color: #424242;
+	max-width:150px;
+	width:100%;
+	height:50px;
+	&:hover{
+		background:#424242;
+		color:#fff;
+	}
+}
+
+.btn-check{
+	font-size: 0.75rem;
+	line-height: 1.6;
+	background: #424242;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	max-width:130px;
+	height:30px;
+	&:hover{
+		background:#fff;
+		color:#424242;
+		border:1px solid #424242;
+	}
+}
+
+
+.btn-ft-mail{
+	font-weight: 600;
+	font-size: 0.75rem;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	background: #424242;
+}
+
+

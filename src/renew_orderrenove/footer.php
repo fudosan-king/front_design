@@ -38,7 +38,9 @@
         </div>
     </div>
     <div class="footer_bottom fixed-bottom">
-        <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">あなたの希望条件を入力</a>
+        <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact">
+        <i class="c-icon i-mail-white"></i>
+        あなたの希望条件を入力</a>
         <!-- <a class="btn" href="tel:0368978564"><img src="images/svg/i_call.svg" alt="" class="img-fluid" width="18">03-6897-8564</a> -->
     </div>
 </footer>

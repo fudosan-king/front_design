@@ -4,6 +4,13 @@
             <img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid i_white" width="224">
             <img src="images/svg/logo_orderrenove_black.svg" alt="" class="img-fluid i_black" width="224">
         </a>
+
+        <button class="navbar-toggler js-menu" type="button" >
+            <span class="nav-toggler-line"></span>
+            <span class="nav-toggler-line"></span>
+            <span class="nav-toggler-line"></span>
+        </button>
+
         <div class="ml-auto box_user">
             <div class="dropdown dropdown_user">
                 <a id="dropdown_user" href="#">
@@ -151,17 +158,6 @@
             </button> -->
         </div>
 
-        
 
-        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"><img src="images/svg/i_user.svg" alt="" class="img-fluid" width="15"> ログイン</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="images/svg/i_search.svg" alt="" class="img-fluid" width="16"></a>
-                </li>
-            </ul>
-        </div> -->
     </nav>
 </header>

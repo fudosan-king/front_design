@@ -1,12 +1,5 @@
 $(function($) {
-	$(window).on("scroll", function() {
-	    if ($(window).scrollTop() >= 20) {
-	      	$("header").addClass("compressed");
-	    } else {
-	      	$("header").removeClass("compressed");
-	    }
-	 });
-
+	
 	$(".btn_wishlist").click(function(event){
 		 event.preventDefault();
 		$(this).toggleClass("on");
