@@ -8,6 +8,17 @@ function mansionDB_script() {
     _this._Wishlist();
     _this._Navigation();
     _this._SearchCondition();
+    _this._FixedFooterBottom();
+  }
+
+  this._FixedFooterBottom = function () 
+  {
+    $(window).on('load resize',function(){
+      if($('.fixed-bottom').length > 0){
+        const height = $('.fixed-bottom').outerHeight();
+        $('footer').css('padding-bottom',height+'px');
+      }
+    });
   }
 
   this._SearchCondition = function () {
@@ -33,14 +44,16 @@ function mansionDB_script() {
     });
 
     const burger = document.querySelector(".burger");
-    burger.addEventListener("click", function () {
-      const body = document.body;
-      body.classList.toggle("nav_open");
+    if(burger){
+      burger.addEventListener("click", function () {
+        const body = document.body;
+        body.classList.toggle("nav_open");
 
-      // if needed to toggle multiple classes
-      // const toggleClasses = ["nav-open", "overflow-hidden"];
-      // toggleClasses.forEach((toggleClass) => body.classList.toggle(toggleClass));
-    });
+        // if needed to toggle multiple classes
+        // const toggleClasses = ["nav-open", "overflow-hidden"];
+        // toggleClasses.forEach((toggleClass) => body.classList.toggle(toggleClass));
+      });
+    }
 
     $('.plus-to-minus').click( function( event ) {
       $(this).toggleClass('minus');

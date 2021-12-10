@@ -6,7 +6,6 @@
     animation-name: top-to-bottom;
     animation-duration: 1s;
     top: 0;
-    padding:10px;
 }
 
 @keyframes top-to-bottom {
@@ -23,7 +22,10 @@
 }
 
 
+
 .nav_menu{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding:20px 30px;
     @media (max-width:767px){
         padding:20px 16px;
     }
@@ -167,6 +169,10 @@
     .logo-white{
         display:none;
     }
+    .nav_menu{
+        background:#fff;
+        border-bottom: 0.5px solid rgba(0,0,0,.1);
+    }
     .navbar-expand-lg {
         ul.navbar-nav  {
             li {
@@ -190,6 +196,7 @@
 
     .nav_menu{
         box-shadow:none;
+
         .navbar-brand{
             span{
                 color: #fff; 
@@ -218,7 +225,6 @@
 
  /* Navigation */
 .nav_menu {
-    padding: 15px 20px;
 
     .nav_menu-list {
         position: fixed;

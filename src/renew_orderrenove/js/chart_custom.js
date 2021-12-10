@@ -43,8 +43,12 @@ function createChart(id, type, options) {
   });
 }
 
+
+
 ['pie'].forEach(function (type) {
-  
+    
+  if( $(type + '-canvas1').length === 0 ) return;
+
   createChart(type + '-canvas1', type, {
     responsive: true,
     maintainAspectRatio: false,
@@ -61,7 +65,7 @@ function createChart(id, type, options) {
         // fontColor: ['#EB5757', '#F2994A', '#F2C94C'],  
       },
     },
-
-    
   });
+  
 });
+

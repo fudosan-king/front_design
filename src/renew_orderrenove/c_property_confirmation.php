@@ -2,16 +2,16 @@
 <html lang="en">
     <?php include('head.php') ?>
     <body>
-        <div class="navigation nav-fixed nav-white">
+        <div class="nav-black">
             <?php include('header.php') ?>
         </div>
 
         <main>
-            <div class="box_template bg-white">
+            <div class="bg-white">
                 <section class="p-0">
                     <div class="box_top mb-0 bg-transparent">
                         <div class="container">
-                            <h2 class="title mb-2 mt-4">お問い合わせ内容の確認</h2>
+                            <h2 class="title">お問い合わせ内容の確認</h2>
                         </div>
                     </div>
                 </section>
@@ -104,7 +104,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <p class="text-center mb-4"><a class="logo_footer" href="index.php"><img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid" width="224"></a></p>
-                            <ul class="d-none d-lg-flex">
+                            <ul class="text-center">
                                 <li><a target="_blank" href="https://www.logrenove.jp/contact/">お問い合わせ</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/socialpolicy">ソーシャルメディアポリシー</a></li>
@@ -112,18 +112,7 @@
                                 <li><a target="_blank" href="https://www.propolife.co.jp">運営会社（企業情報）</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/antisocial">反社会的勢力排除に関する基本方針</a></li>
                             </ul>
-                            <div class="d-flex">
-                                <ul class="d-block d-lg-none mr-5">
-                                    <li><a target="_blank" href="https://www.logrenove.jp/contact/">お問い合わせ</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/socialpolicy">ソーシャルメディアポリシー</a></li>
-                                </ul>
-                                <ul class="d-block d-lg-none">
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/terms"> 利用規約</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp">運営会社（企業情報）</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/antisocial">反社会的勢力排除に関する基本方針</a></li>
-                                </ul>
-                            </div>
+         
                             <hr>
                             
                             <p class="text-center"><a target="_blank" href="https://www.logrenove.jp"><img src="images/svg/logrenove_logo.svg" alt="" class="img-fluid" width="108"></a></p>
@@ -137,10 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer_bottom fixed-bottom">
-                <a class="btn d-inline-block" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">希望条件を登録 </a>
-                <a class="btn btn_conditions d-inline-block" target="_blank" href="https://www.logrenove.jp/contact">条件を絞って物件検索</a>
-            </div>
+
         </footer>
 
         <?php include('js-footer.php') ?>

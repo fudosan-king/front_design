@@ -129,8 +129,6 @@ header {
       }
     }
   }
-  padding: 30px;
-  transition: all 0.3s;
   &.compressed {
     background: #262626;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
@@ -167,8 +165,8 @@ header {
       }
     }
   }
-
 }
+
 .navbar {
   padding: 0;
 }
@@ -809,8 +807,8 @@ footer {
 }
 .box_top {
   background: #fff;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 30px;
   margin-bottom: 10px;
   .title {
     font-size: 1.25em;
@@ -1336,8 +1334,8 @@ footer {
     max-width: 755px;
   }
   h4 {
-    background: #F2F2F2;
-    color: #828282;
+    color:#fff;
+    background: #424242;
     padding: 10px 20px;
     font-size: 0.75em;
     margin-bottom: 0;
@@ -1845,8 +1843,6 @@ footer {
 
   header {
     position: relative;
-    padding: 0 15px;
-    background: #fff;
     &.subheader {
       .navbar-brand {
         img {
@@ -2328,8 +2324,8 @@ footer {
       padding: 0 10px;
     }
     h4 {
-      margin-left: -15px;
-      margin-right: -15px;
+      margin-left: -10px;
+      margin-right: -10px;
     }
     p {
       &.head {

@@ -2,8 +2,9 @@
 <html lang="en">
     <?php include('head.php') ?>
     <body>
+        <div class="navigation sp-fixed nav-fixed nav-white">
         <?php include('header.php') ?>
-
+        </div>
         <main>
 
             <section class="section_banner" style="background-image: url('images/takayamatei-800x534.jpg');">
@@ -13,8 +14,7 @@
                 </div>
                 <p>テイストと予算で選べる<br>
                 定額リノベーションプラン</p>
-                <h3>価格、立地、広さ…条件にあった中古マンションを<br>
-                好みのテイストでリノベーションする醍醐味</h3>
+                <h3>価格、立地、広さ…条件にあった中古マンションを<br>好みのテイストでリノベーションする醍醐味</h3>
             </section>
 
             <section class="section_searh">
@@ -336,8 +336,10 @@
                 </div>
             </div>
             <div class="footer_bottom fixed-bottom">
-                <a class="btn" href="#"><img src="images/svg/i_mail.svg" alt="" class="img-fluid" width="18">希望条件を登録 </a>
-                <a class="btn btn_conditions" target="_blank" href="https://www.logrenove.jp/contact">条件を絞って物件検索</a>
+                <div class="bottom_box">
+                    <a class="btn btn-ft" href="#"><i class="c-icon i-mail-white"></i>内覧・お問い合わせ</a>
+                    <a class="btn btn-ft" href="#"><i class="c-icon i-call-white"></i>000-0000-0000</a>
+                </div>
             </div>
         </footer>
 
