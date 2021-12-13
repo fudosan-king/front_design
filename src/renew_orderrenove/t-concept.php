@@ -7,10 +7,9 @@
         </div>
         <main>
 
-            <section class="section_banner" style="background-image: url('images/takayamatei-800x534.jpg');">
+            <section class="section_banner" style="background-image: url('images/slideshow/slide-1.jpg');">
                 <div class="caption">
                     <img src="images/svg/label.svg" alt="" class="img-fluid" width="200">
-                    <p></p>
                 </div>
                 <p>テイストと予算で選べる<br>
                 定額リノベーションプラン</p>

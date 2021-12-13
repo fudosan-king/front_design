@@ -12,7 +12,10 @@
 		z-index: -1;
 	}
 	.caption{
+		margin-bottom:20px;
 		@media (max-width:767px){
+			top:-20px;
+			margin-bottom:0px;
 			max-width:113px;
 			padding:0;
 			img{
@@ -23,6 +26,9 @@
 	p{
     	color:#fff;
     	margin-bottom:20px;
+    	@media (max-width:767px){
+    		font-size:0.75rem;
+    	}
     }
     h3{
     	color:#fff;

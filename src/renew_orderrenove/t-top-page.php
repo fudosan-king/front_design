@@ -8,7 +8,7 @@
 
         <main>
 
-            <section class="section_banner" style="background-image: url('images/takayamatei-800x534.jpg');">
+            <section class="section_banner" style="background-image: url('images/slideshow/slide-1.jpg');">
                 <div class="caption">
                     <img src="images/svg/label.svg" alt="" class="img-fluid" width="200">
                 </div>
