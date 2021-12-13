@@ -99,7 +99,7 @@
                                         <p>周辺には植え込みのあるスタイリッシュな建物が多く、緑を目にすることが可能です。</p>
                                     </div>
                                     <div class="plan_img">
-                                        <img src="./images/concept/concept.png" alt="" title="">
+                                        <img class="img-fluid" src="./images/concept/concept.png" alt="" title="">
                                     </div>
                                     
                                 </div>
@@ -178,13 +178,13 @@
                                     <p>大人も子供も無邪気に笑う。</p>
                                     <ul>
                                         <li>
-                                            <span>無垢材</span>
+                                            <a href="#">無垢材</a>
                                         </li>
                                         <li>
-                                            <span>定額リノベーション</span>
+                                            <a href="#">定額リノベーション</a>
                                         </li>
                                         <li>
-                                            <span>LogRenove</span>
+                                            <a href="#">LogRenove</a>
                                         </li>
                                     </ul>
                                     <a href="#" class="btn btn-detail">DETAIL</a>
@@ -302,7 +302,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <p class="text-center mb-4"><a class="logo_footer" href="index.php"><img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid" width="224"></a></p>
-                            <ul class="d-none d-lg-flex">
+                            <ul class="text-center">
                                 <li><a target="_blank" href="https://www.logrenove.jp/contact/">お問い合わせ</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/socialpolicy">ソーシャルメディアポリシー</a></li>
@@ -310,18 +310,7 @@
                                 <li><a target="_blank" href="https://www.propolife.co.jp">運営会社（企業情報）</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/antisocial">反社会的勢力排除に関する基本方針</a></li>
                             </ul>
-                            <div class="d-flex">
-                                <ul class="d-block d-lg-none mr-5">
-                                    <li><a target="_blank" href="https://www.logrenove.jp/contact/">お問い合わせ</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/socialpolicy">ソーシャルメディアポリシー</a></li>
-                                </ul>
-                                <ul class="d-block d-lg-none">
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/terms"> 利用規約</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp">運営会社（企業情報）</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/antisocial">反社会的勢力排除に関する基本方針</a></li>
-                                </ul>
-                            </div>
+                    
                             <hr>
                             
                             <p class="text-center"><a target="_blank" href="https://www.logrenove.jp"><img src="images/svg/logrenove_logo.svg" alt="" class="img-fluid" width="108"></a></p>

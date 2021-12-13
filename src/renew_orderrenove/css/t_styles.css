@@ -1447,11 +1447,6 @@ header.menu-animation-scroll {
   z-index: -1;
 }
 
-@media (max-width: 767px) {
-  .property-detail {
-    padding-top: 54px;
-  }
-}
 .property-detail .sm-title {
   font-family: Sequel;
   font-size: 0.875rem;
@@ -1939,12 +1934,12 @@ header.menu-animation-scroll {
     font-size: 0.625rem;
   }
 }
-.listing_top .listing_sort ul li button.red {
-  background: #EB5757;
-  border: 1px solid #EB5757;
+.listing_top .listing_sort ul li button.black {
+  background: #424242;
+  border: 1px solid #424242;
   color: #fff;
 }
-.listing_top .listing_sort ul li button.red i {
+.listing_top .listing_sort ul li button.black i {
   width: 15px;
   height: 15px;
   margin-right: 5px;
@@ -1957,9 +1952,6 @@ header.menu-animation-scroll {
 .property-listing_detail .full-width {
   width: 100%;
   display: block;
-}
-.property-listing_detail p:empty {
-  display: none;
 }
 
 .listing-detail_swiper {
@@ -1979,16 +1971,28 @@ header.menu-animation-scroll {
   margin-bottom: 60px;
 }
 
-.property-listing_detail .rnv-explain {
+.property-listing_detail .content-line {
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
+}
+.property-listing_detail .content-line p {
+  margin-bottom: 30px;
+}
+.property-listing_detail .content-line h3 {
+  font-family: Sequel;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #424242;
+  margin-bottom: 10px;
 }
 .property-listing_detail .detail-price {
   padding: 0;
 }
 .property-listing_detail .rnv-explain {
   margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 .property-listing_detail .rnv-explain ul {
   list-style-type: none;
@@ -2020,6 +2024,7 @@ footer .footer_bottom .bottom_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 footer .footer_bottom .btn-ft {
   max-width: 335px;

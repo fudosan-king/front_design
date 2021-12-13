@@ -289,6 +289,7 @@
 
             <section class="p-0">
                 <div class="top-lists">
+
                     <div class="top_item">
                         <div class="container">
                             <div class="top_item-ct">
@@ -355,13 +356,13 @@
                                     <p>大人も子供も無邪気に笑う。</p>
                                     <ul>
                                         <li>
-                                            <span>無垢材</span>
+                                            <a href="#">無垢材</a>
                                         </li>
                                         <li>
-                                            <span>定額リノベーション</span>
+                                            <a href="#">定額リノベーション</a>
                                         </li>
                                         <li>
-                                            <span>LogRenove</span>
+                                            <a href="#">LogRenove</a>
                                         </li>
                                     </ul>
                                     <a href="#" class="btn btn-detail">DETAIL</a>

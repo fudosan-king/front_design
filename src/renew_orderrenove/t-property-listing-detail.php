@@ -223,12 +223,17 @@
                                     <li>❸日本橋アドレス</li>
                                 </ul>
                             </div>
-                            <div class="rnv-explain">
+                            <div class="content-line">
                                 <img class="img-fluid" src="./images/property-detail/property-1.jpg" alt="" title="">
+                                <p></p>
                                 <p>廊下のフローリングは勿論、天井も天然無垢材を使用。こだわりのエントランスを演出します。</p>
+                                
                                 <img class="img-fluid" src="./images/property-detail/property-2.jpg" alt="" title="">
+                                <p></p>
                                 <p>キッチンはオリジナルデザイン。ペニンシュラスタイルやアイランドスタイルを選択した場合は背面も床と同じ天然無垢材で一体感を演出します。</p>
+                                
                                 <img class="img-fluid" src="./images/property-detail/property-3.jpg" alt="" title=""> 
+                                <p></p>
                                 <p>バスルームは1.5坪のゆったり仕様。ユニットバスのカラーは豊富な種類からお選びいただけます。洗面台はおしゃれなボウル型。防水加工された天板でお掃除も楽に行えます。</p>
                             </div>
                         </div>
@@ -754,7 +759,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <p class="text-center mb-4"><a class="logo_footer" href="index.php"><img src="images/svg/logo_orderrenove_white.svg" alt="" class="img-fluid" width="224"></a></p>
-                            <ul class="d-none d-lg-flex">
+                            <ul class="text-center">
                                 <li><a target="_blank" href="https://www.logrenove.jp/contact/">お問い合わせ</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/socialpolicy">ソーシャルメディアポリシー</a></li>
@@ -762,18 +767,7 @@
                                 <li><a target="_blank" href="https://www.propolife.co.jp">運営会社（企業情報）</a></li>
                                 <li><a target="_blank" href="https://www.propolife.co.jp/antisocial">反社会的勢力排除に関する基本方針</a></li>
                             </ul>
-                            <div class="d-flex">
-                                <ul class="d-block d-lg-none mr-5">
-                                    <li><a target="_blank" href="https://www.logrenove.jp/contact/">お問い合わせ</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/privacypolicy">プライバシーポリシー</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/socialpolicy">ソーシャルメディアポリシー</a></li>
-                                </ul>
-                                <ul class="d-block d-lg-none">
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/terms"> 利用規約</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp">運営会社（企業情報）</a></li>
-                                    <li><a target="_blank" href="https://www.propolife.co.jp/antisocial">反社会的勢力排除に関する基本方針</a></li>
-                                </ul>
-                            </div>
+              
                             <hr>
                             
                             <p class="text-center"><a target="_blank" href="https://www.logrenove.jp"><img src="images/svg/logrenove_logo.svg" alt="" class="img-fluid" width="108"></a></p>
