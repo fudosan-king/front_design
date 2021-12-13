@@ -3,9 +3,7 @@
 		width: 100%;
 		display: block;
 	}
-	p:empty{
-		display:none;
-	}
+
 }
 
 
@@ -27,16 +25,29 @@
 }
 
 .property-listing_detail{
-	.rnv-explain{
+	.content-line{
 		max-width:600px;
 		margin-right:auto;
 		margin-left:auto;
+		p{
+			margin-bottom:30px;
+		}
+		h3{
+	        font-family: Sequel;
+	        font-size: 0.875rem;
+	        line-height: 1.4;
+	        text-align: center;
+	        color: #424242;
+	        margin-bottom:10px;
+		}
 	}
+
 	.detail-price{
 		padding:0;
 	}
 	.rnv-explain{
 		margin-bottom:30px;
+		padding-bottom: 20px;
 		ul{
 			list-style-type: none;
 			li{
