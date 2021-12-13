@@ -1162,8 +1162,13 @@ header.menu-animation-scroll {
 .section_banner:before {
   z-index: -1;
 }
+.section_banner .caption {
+  margin-bottom: 20px;
+}
 @media (max-width: 767px) {
   .section_banner .caption {
+    top: -20px;
+    margin-bottom: 0px;
     max-width: 113px;
     padding: 0;
   }
@@ -1174,6 +1179,11 @@ header.menu-animation-scroll {
 .section_banner p {
   color: #fff;
   margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .section_banner p {
+    font-size: 0.75rem;
+  }
 }
 .section_banner h3 {
   color: #fff;
