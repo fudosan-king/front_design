@@ -336,7 +336,7 @@
                         </div>
                     </div>
 
-                    <div class="top_item">
+                    <!-- <div class="top_item">
                         <div class="container">
                             <div class="top_item-ct">
                                 <div class="top_logo">
@@ -370,10 +370,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
 
-                       
+                   <!--     
                     <div class="top_promotion">
                         <div class="container">
                             <div class="row">
@@ -408,7 +408,7 @@
                             </div>
                         </div>
                     </div>
-                    
+                     -->
                     <div class="top-more-info">
                         <div class="container">
                             <div class="row">
@@ -418,20 +418,20 @@
                                         <div class="row">
                                             <div class="col-6">
                                                 <p>OrderRenoveについて</p>
-                                                <p>リノベプラン一覧</p>
+                                             <!--    <p>リノベプラン一覧</p>
                                                 <p>マネーシミュレータ</p>
-                                                <p>売却サポート</p>
+                                                <p>売却サポート</p> -->
                                             </div>
                                             <div class="col-6">
                                                 <p>物件一覧</p>
-                                                <p>OrderRenove通信</p>
-                                                <p>コンシェルジュ相談</p>
+                                                <!-- <p>OrderRenove通信</p>
+                                                <p>コンシェルジュ相談</p> -->
                                                 <p>会員登録</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <!-- <div class="col-md-3">
                                     <div class="more-info_item">
                                         <h3>エリアから探す</h3>
                                         <div class="row">
@@ -441,8 +441,8 @@
                                         
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-3">
+                                </div> -->
+                                <!-- <div class="col-md-3">
                                     <div class="more-info_item">
                                         <h3>人気の駅から探す</h3>
                                         <div class="row">
@@ -452,7 +452,7 @@
                                         
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-3">
                                     <div class="more-info_item">
                                         <h3>こだわりから探す</h3>
