@@ -1,0 +1,915 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+a {
+    color: #556170;
+}
+
+.btn {
+    color: #556170;
+    border-radius: 0;
+}
+
+.btn, a, .btn:hover {
+    transition: color .25s ease;
+}
+
+.btn:hover, .btn.focus {
+    transition: all .3s linear;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+::-moz-selection {
+    background: #73886B;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::selection {
+    background: #73886B;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #73886B;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #73886B;
+    color: #FFF;
+    text-shadow: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgba(115, 136, 107, 0.15);
+    font-family: "noto-sans-cjk-jp", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+    line-height: 1.5em;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #556170;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-link {
+    color: #556170;
+    word-break: normal;
+    word-break: break-all;
+    word-break: keep-all;
+    text-decoration: underline;
+}
+
+.btn-link:hover {
+    color: #556170;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "noto-sans-cjk-jp", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+    line-height: 1.3em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #556170;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
+*, :before, :after {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+p {
+    word-wrap: break-word;
+    line-height: 1.8em;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #556170;
+    transition: all .3s linear;
+}
+
+h1 {
+    font-size: 2.3125em;
+}
+
+h2 {
+    font-size: 1.5625em;
+}
+
+.table {
+    color: #556170;
+}
+
+.red {
+    color: #D7443E;
+}
+
+.green {
+    color: #73886B;
+}
+
+.form-control {
+    font-size: 0.875em;
+    border-color: #BDBDBD;
+    height: calc(1.5em + .75rem + 6px);
+    font-family: "noto-sans-cjk-jp", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+}
+
+.custom-select {
+    color: #c9cccf;
+}
+
+.custom-select:focus {
+    border-color: #556170;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #556170;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #73886B;
+}
+
+.custom-control-label::before {
+    border-color: #73886B;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #73886B;
+    border-color: #73886B;
+}
+
+.custom-select {
+    background: #fff url("../images/svg/arrow_down.svg") no-repeat right 0.75rem center/18px 20px;
+}
+
+.custom-select:focus {
+    box-shadow: none;
+}
+
+.relative {
+    position: relative;
+}
+
+b {
+    font-weight: 700;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 2.25em;
+}
+
+.title_sub {
+    font-size: 1em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4F4F4F;
+}
+
+header {
+    background: #73886B;
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: 1238px;
+}
+
+header .btn_register {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    font-size: 0.875em;
+    color: #fff;
+    min-width: 185px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+header .btn_register:hover {
+    background: #fff;
+    color: #73886B;
+}
+
+.onoffcanvas {
+    z-index: 9999;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.onoffcanvas.is-fixed {
+    backface-visibility: inherit;
+    -webkit-backface-visibility: inherit;
+}
+
+.onoffcanvas.is-open .onoffcanvas_overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(115, 136, 107, 0.5);
+}
+
+.onoffcanvas .onoffcanvas-toggler {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.onoffcanvas ul {
+    padding: 70px 25px 15px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: #73886B;
+    display: flex;
+    flex-direction: column;
+}
+
+.onoffcanvas ul li {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.onoffcanvas ul li:first-of-type a {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    padding: 8px 8px 8px 0;
+}
+
+.onoffcanvas ul li:nth-of-type(2) a {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    padding: 8px 8px 8px 0;
+    font-weight: normal;
+}
+
+.onoffcanvas ul li:hover a {
+    color: #fff;
+}
+
+.onoffcanvas ul li a {
+    font-weight: 600;
+    padding: 15px 0;
+    display: block;
+    font-size: 1.125em;
+    color: #fff;
+}
+
+.onoffcanvas ul ul {
+    padding: 0 0 0 30px;
+    position: inherit;
+}
+
+.onoffcanvas ul ul li {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.onoffcanvas ul ul li:before {
+    content: '';
+    position: absolute;
+    background: url("../images/svg/i_left.svg") no-repeat;
+    width: 8px;
+    height: 14px;
+    left: -15px;
+    top: 1px;
+    bottom: 0;
+    margin: auto;
+}
+
+.onoffcanvas ul ul li:first-of-type a {
+    border: none;
+    border-radius: 0;
+    text-align: left;
+}
+
+.onoffcanvas ul ul li:nth-of-type(2) a {
+    border: none;
+    text-align: left;
+}
+
+.onoffcanvas ul ul li a {
+    padding: 5px 0;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.onoffcanvas-toggler {
+    z-index: 100;
+}
+
+.onoffcanvas-toggler:before, .onoffcanvas-toggler:after {
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+.section_template {
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.box_content {
+    background: #fff;
+    padding: 60px 106px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+footer {
+    background: #73886B;
+    padding: 40px 0;
+}
+
+footer h3 {
+    color: #fff;
+    font-weight: 700;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875em;
+}
+
+footer p a {
+    color: #fff;
+}
+
+footer .footer_top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer .footer_top ul li {
+    position: relative;
+    padding-left: 10px;
+    font-size: 0.875em;
+}
+
+footer .footer_top ul li:before {
+    content: '';
+    background: url("../images/svg/i_right.svg") no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    height: 8px;
+    margin: auto;
+}
+
+footer .footer_top ul li a {
+    color: #fff;
+}
+
+footer .footer_top ul.menu_footer li {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+footer .footer_top ul.menu_footer li:before {
+    background: none;
+}
+
+footer .footer_bottom {
+    text-align: center;
+}
+
+footer .footer_bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 30px;
+}
+
+footer .footer_bottom ul li {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100px;
+    margin-right: 18px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+footer .footer_bottom ul li:last-of-type {
+    margin-right: 0;
+}
+
+footer .footer_bottom p {
+    font-size: 0.625em;
+}
+
+.frm_investerinfo {
+    font-size: 0.875em;
+}
+
+.frm_investerinfo .form-group {
+    margin-bottom: 40px;
+}
+
+.frm_investerinfo label {
+    font-weight: 600;
+}
+
+.frm_investerinfo label.custom-control-label {
+    font-weight: normal;
+}
+
+.frm_investerinfo .card-body {
+    padding: 20px 100px;
+}
+
+.frm_investerinfo .card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.frm_investerinfo .card .card-header {
+    border-radius: 0;
+    border: none;
+    background: #73886B;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.btn_confirm {
+    background: #73886B;
+    color: #fff;
+    font-size: 1.125em;
+    min-width: 398px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.btn_confirm:hover {
+    background: #fff;
+    border-color: #73886B;
+    color: #73886B;
+}
+
+.zipcode_auto {
+    color: #73886B;
+    font-weight: 600;
+    display: flex;
+    font-size: 0.75em;
+}
+
+.btn_gray {
+    background: #D8D8D8;
+    padding: 15px;
+    min-width: 295px;
+    font-size: 1.125em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn_gray:hover {
+    color: #fff;
+}
+
+.btn_green {
+    background: #73886B;
+    padding: 15px;
+    min-width: 295px;
+    font-size: 1.125em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn_green:hover {
+    color: #fff;
+}
+
+.box_send_completely h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(85, 97, 112, 0.2);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.accordion_investorinfo .card {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(85, 97, 112, 0.2) !important;
+    margin-bottom: 20px;
+}
+
+.accordion_investorinfo .card .card-header {
+    background: #73886B;
+}
+
+.accordion_investorinfo .card .card-header h2 {
+    font-size: 1em;
+}
+
+.accordion_investorinfo .card .card-header h2 .btn {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 700;
+    padding: 0;
+    position: relative;
+}
+
+.accordion_investorinfo .card .card-header h2 .btn:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background: url("../images/svg/i_down.svg") no-repeat;
+}
+
+.accordion_investorinfo .card .card-header h2 .btn.collapsed:after {
+    background: url("../images/svg/i_up.svg") no-repeat;
+}
+
+.accordion_investorinfo .card-body {
+    padding: 30px 100px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.alert-danger {
+    border-color: #EB5757;
+    background-color: #FFF4F4;
+    border-width: 2px;
+    border-radius: 0;
+    color: #EB5757;
+    padding: 20px 30px;
+}
+
+.alert-danger ul {
+    padding-left: 15px;
+}
+
+.alert-danger ul li {
+    font-size: 0.875em;
+}
+
+.box_assets h2 {
+    margin-bottom: 0;
+    font-size: 2.25em;
+    font-weight: 600;
+    text-align: right;
+}
+
+.box_assets h4 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.box_assets p {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.box_assets .box_totalassets {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box_assets .btn_payment {
+    font-size: 1.125em;
+    color: #73886B;
+    border-radius: 4px;
+    border: 2px solid #73886B;
+    padding: 5px 40px;
+    font-weight: 600;
+}
+
+.steps {
+    padding: 0;
+    margin: 0 150px 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.steps:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 50px;
+    top: -25px;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    background: #BDC3C5;
+}
+
+.steps li {
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+}
+
+.steps li.active a span:first-of-type {
+    background: #73886B;
+}
+
+.steps li.active a span:last-of-type {
+    color: #73886B;
+}
+
+.steps li.actived a span:first-of-type {
+    background: #EAEDE9;
+    border: 2px solid #73886B;
+    color: #73886B;
+}
+
+.steps li.actived a span:last-of-type {
+    color: #73886B;
+}
+
+.steps li a {
+    display: block;
+}
+
+.steps li a span {
+    position: relative;
+    display: block;
+}
+
+.steps li a span:first-of-type {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: auto;
+    background: #BDC3C5;
+    color: #fff;
+    font-size: 1.875em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.steps li a span:last-of-type {
+    font-size: 0.75em;
+    color: #BDC3C5;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.drop-zone {
+    max-width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    font-weight: 500;
+    cursor: pointer;
+    color: #73886B;
+    border: 1px dashed #828282;
+    border-radius: 8px;
+    background: #F2F2F2;
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #828282;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-zone__thumb:after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+}
+
+.drop-zone__prompt {
+    position: relative;
+    top: 30px;
+}
+
+.drop-zone__prompt:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    margin: auto;
+    background: url("../images/svg/i_surface.svg") no-repeat;
+    width: 59px;
+    height: 60px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1030px;
+    }
+}
+
+@media (max-width: 768px) {
+    .onoffcanvas ul li {
+        margin-bottom: 15px;
+    }
+
+    .onoffcanvas ul li:nth-of-type(2) a {
+        border: 1px solid #fff;
+        border-radius: 4px;
+        display: block;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .onoffcanvas ul li a {
+        padding: 0;
+    }
+
+    .onoffcanvas ul ul li:first-of-type a {
+        padding: 5px 0;
+    }
+
+    .onoffcanvas ul ul li:nth-of-type(2) a {
+        border: none;
+        border-radius: 0;
+        text-align: left;
+        padding: 5px 0;
+    }
+
+    .onoffcanvas ul ul li a {
+        border: none;
+        border-radius: 0;
+        padding: 5px 0;
+    }
+
+    .title {
+        font-size: 1.875em;
+    }
+
+    .section_template {
+        margin-bottom: 0;
+    }
+
+    .box_content {
+        padding: 30px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .btn_confirm {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .frm_investerinfo .form-group {
+        margin-bottom: 20px;
+    }
+
+    .frm_investerinfo .card-body {
+        padding: 15px;
+    }
+
+    .accordion_investorinfo .card-body {
+        padding: 15px;
+    }
+
+    .box_assets h4 {
+        text-align: center;
+    }
+
+    .box_assets h2 {
+        text-align: center;
+    }
+
+    .box_assets p {
+        text-align: center;
+    }
+
+    .box_assets .box_totalassets {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .steps {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .steps:after {
+        top: -35px;
+    }
+
+    .steps li a span:last-of-type {
+        line-height: 1.3em;
+        min-height: 32px;
+        font-size: .7em;
+    }
+
+    .zipcode_auto {
+        line-height: 1.3em;
+    }
+
+    .drop-zone {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 15px;
+    }
+}
