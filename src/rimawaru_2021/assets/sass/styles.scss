@@ -102,8 +102,6 @@ b {
 }
 
 header {
-  background: $green-color;
-  padding: 20px 0;
   .container {
     max-width: 1238px;
   }
@@ -150,92 +148,7 @@ header {
     right: 15px;
     top: 15px;
   }
-  ul {
-    padding: 70px 25px 15px;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    width: 300px;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    background: $green-color;
-    display: flex;
-    flex-direction: column;
-    li {
-      color: #fff;
-      text-align: left;
-      margin-bottom: 30px;
-      &:first-of-type {
-        a {
-          border: 1px solid #fff;
-          border-radius: 4px;
-          display: block;
-          text-align: center;
-          padding: 8px 8px 8px 0;
-        }
-      }
-      &:nth-of-type(2) {
-        a {
-          border: 1px solid #fff;
-          border-radius: 4px;
-          display: block;
-          text-align: center;
-          padding: 8px 8px 8px 0;
-          font-weight: normal;
-        }
-      }
-      &:hover {
-        a {
-          color: #fff;
-        }
-      }
-      a {
-        font-weight: 600;
-        padding: 15px 0;
-        display: block;
-        font-size: 1.125em;
-        color: #fff;
-      }
-    }
-    ul {
-      padding: 0 0 0 30px;
-      position: inherit;
-      li {
-        position: relative;
-        margin-bottom: 0;
-        &:before {
-          content: '';
-          position: absolute;
-          background: url('../images/svg/i_left.svg') no-repeat;
-          width: 8px;
-          height: 14px;
-          left: -15px;
-          top: 1px;
-          bottom: 0;
-          margin: auto;
-        }
-        &:first-of-type {
-          a {
-            border: none;
-            border-radius: 0;
-            text-align: left;
-          }
-        }
-        &:nth-of-type(2) {
-          a {
-            border: none;
-            text-align: left;
-          }
-        }
-        a {
-          padding: 5px 0;
-          font-weight: normal;
-          font-size: 1em;
-        }
-      }
-    }
-  }
+
 }
 .onoffcanvas-toggler {
   z-index: 100;
@@ -777,5 +690,6 @@ footer {
   }
 }
 
-
-
+//Menu custom
+@import 'nav';
+//End menu custom

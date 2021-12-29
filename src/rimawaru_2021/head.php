@@ -20,7 +20,6 @@
 <link rel="stylesheet" href="css/bootstrap-datepicker.standalone.min.css" type="text/css">
 
 <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-<link rel="stylesheet" href="css/bsnav.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css">
 <link rel="stylesheet" href="https://unpkg.com/@onoffcanvas/core/dist/onoffcanvas.min.css">
 <link rel="stylesheet" type="text/css" href="css/flickity.min.css">
