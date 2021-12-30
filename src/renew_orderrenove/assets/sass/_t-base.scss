@@ -6,6 +6,9 @@
 background: #F6F6F6;
 }
 
+.bg-yellow{
+    background: linear-gradient(0deg, rgba(224, 193, 132, 0.5), rgba(224, 193, 132, 0.5)), #BE9C59;
+}
 //Collase Show/hide
 .detail-price-calculator{
     display:none;
@@ -316,9 +319,11 @@ ul.archive-list {
     }
 
     &:hover {
-        img {
-            -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+        .property_img {
+            img {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+            }
         }
     }
 }
@@ -466,6 +471,11 @@ ul.archive-list {
     background: #F2F2F2;
     padding:8px 15px;
     margin-bottom:15px;
+    .promotion_img{
+        @media (max-width:767px){
+            max-width:112px;
+        }
+    }
     .promotion_info{
         padding:7px 5px;
         color: #000000;
@@ -502,3 +512,28 @@ ul.archive-list {
         }
     }
 }
+
+.slide-normal_item{
+    margin-top:30px;
+    .slide-normal_info{
+        background: #fff;
+        padding:20px;
+        height:168px;
+        overflow:hidden;
+        .sm-title{
+            text-align:left;
+            font-size:1rem;
+        }
+        p{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size:0.75rem;
+            text-align:justify;
+        }
+    }
+
+}
+

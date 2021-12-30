@@ -9,6 +9,25 @@ function renew_orderrenove_scripts()
 		_this._CollapseShowHide();
 		_this._Navigation();
 		_this._FixedFooterBottom();
+		_this._PlanDetailSwiper();
+		_this._SlideNormalSwiper();
+	}
+
+	this._SlideNormalSwiper = function ()
+	{
+		const swiper = new Swiper('.slide-normal_swiper', {
+		  	loop: true,
+		  	slidesPerView: 3,
+		  	spaceBetween: 20,
+		  	breakpoints: {
+			    320: {
+			      slidesPerView: 1.3,
+			    },
+			    767: {
+			      slidesPerView: 3,
+			    }
+			},
+		});
 	}
 
 	this._FixedFooterBottom = function () 
@@ -53,9 +72,18 @@ function renew_orderrenove_scripts()
 		});
 	}
 
+	this._PlanDetailSwiper = function ()
+	{
+
+		const swiper = new Swiper('.plan-slide_swiper', {
+		  	loop: true,
+		  	slidesPerView: 1,
+		});
+	}
 
 	this._DetailSlideSwiper = function ()
 	{
+		if( $('.detail-slide_swiper_thumbnail').length === 0 ) return;
 		var swiper = new Swiper(".detail-slide_swiper_thumbnail", {
 	        spaceBetween: 30,
 	        slidesPerView: 3,
