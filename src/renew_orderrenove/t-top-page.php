@@ -330,9 +330,9 @@
                             <div class="bottom-img_right">
                                 <img class="img-fluid" src="./images/top-page/img-bottom.jpg" alt="">
                             </div>
-                            <div class="bottom-img_full">
+                          <!--   <div class="bottom-img_full">
                                 <img class="img-fluid" src="./images/top-page/img-bottom-1.jpg" alt="">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 

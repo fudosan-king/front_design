@@ -11,6 +11,14 @@ function renew_orderrenove_scripts()
 		_this._FixedFooterBottom();
 		_this._PlanDetailSwiper();
 		_this._SlideNormalSwiper();
+		_this._CustomCSS();
+	}
+
+	this._CustomCSS = function()
+	{
+		if( $('.bottom-img').children().length < 3){
+			$('.top-lists .top_item').addClass('changed');
+		}
 	}
 
 	this._SlideNormalSwiper = function ()
