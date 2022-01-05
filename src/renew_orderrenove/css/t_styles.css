@@ -1443,13 +1443,13 @@ header.menu-animation-scroll {
   background: #f6f6f6;
   left: 14%;
   right: 0;
-  bottom: 0%;
+  bottom: 20%;
 }
 .top-lists .top_item.changed:nth-child(odd):before {
   bottom: -20px;
 }
 .top-lists .top_item.changed:nth-child(even):before {
-  bottom: 0%;
+  bottom: -20px;
 }
 .top-lists .top_item .top_item-ct {
   padding: 0 15px 30px;
