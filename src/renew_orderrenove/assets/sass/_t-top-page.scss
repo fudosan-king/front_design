@@ -141,7 +141,6 @@
 			content:'';
 			position: absolute;
 			top:24px;
-			
 			z-index: -1;
 		}
 		&:nth-child(odd){
@@ -158,6 +157,18 @@
 				left:14%;
 				right: 0;
 				bottom: 0%;
+			}
+		}
+		&.changed{
+			&:nth-child(odd){
+				&:before{
+					bottom: -20px;
+				}
+			}
+			&:nth-child(even){
+				&:before{
+					bottom: 0%;
+				}
 			}
 		}
 		.top_item-ct{
