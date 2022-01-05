@@ -156,7 +156,7 @@
 				background:rgba(246, 246, 246,1);
 				left:14%;
 				right: 0;
-				bottom: 0%;
+				bottom: 20%;
 			}
 		}
 		&.changed{
@@ -167,7 +167,7 @@
 			}
 			&:nth-child(even){
 				&:before{
-					bottom: 0%;
+					bottom: -20px;
 				}
 			}
 		}

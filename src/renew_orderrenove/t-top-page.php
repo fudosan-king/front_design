@@ -336,6 +336,52 @@
                         </div>
                     </div>
 
+                     <div class="top_item">
+                        <div class="container">
+                            <div class="top_item-ct">
+                                <div class="top_logo">
+                                    <img class="img-fluid" src="./images/common/logo-logrenove.svg" alt="" title="">
+                                </div>
+                                <p class="logan">LogRenove Premium<br>
+                                Produced by LogRenove</p>
+                                <div class="top_group">
+                                    <div class="top_img">
+                                        <img class="img-fluid" src="./images/top-page/top-img.jpg" alt="" title="">
+                                    </div>
+
+                                    <p class="style">Style 01</p>
+                                    <h2>木の香に包まれた<br>
+                                        無垢材リノベStyle</h2>
+                                    <p>フローリングはもちろん、ドア、洗面、キッチンに至るまで、すべて天然木で埋め尽くしたユニークな定額ノベーション。都市で暮らす私たちが忘れかけていた、ナチュラルな生活を味わえるプランです。</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">無垢材</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">定額リノベーション</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">LogRenove</a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-detail">DETAIL</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-img">
+                            <div class="bottom-img_left">
+                                <img class="img-fluid" src="./images/top-page/img-bottom-1.png" alt="">
+                            </div>
+                            <div class="bottom-img_right">
+                                <img class="img-fluid" src="./images/top-page/img-bottom.jpg" alt="">
+                            </div>
+                            <div class="bottom-img_full">
+                                <img class="img-fluid" src="./images/top-page/img-bottom-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- <div class="top_item">
                         <div class="container">
                             <div class="top_item-ct">

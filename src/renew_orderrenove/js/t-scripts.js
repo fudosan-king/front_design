@@ -16,9 +16,12 @@ function renew_orderrenove_scripts()
 
 	this._CustomCSS = function()
 	{
-		if( $('.bottom-img').children().length < 3){
-			$('.top-lists .top_item').addClass('changed');
-		}
+		$('.top_item').each(function(i,ele){
+			if ( $(ele).find('.bottom-img').children().length < 3 ){
+				$(ele).addClass('changed');
+			}
+		});
+		
 	}
 
 	this._SlideNormalSwiper = function ()
