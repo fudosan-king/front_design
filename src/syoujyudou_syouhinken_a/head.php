@@ -11,7 +11,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
