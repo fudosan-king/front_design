@@ -1,0 +1,151 @@
+.vr-page-slideshow{
+
+	.splide--fade>.splide__track>.splide__list>.splide__slide{
+		top:5px;
+	}
+	.g-slideshow .slideshow-text{
+		bottom:13%;
+	}
+
+	@media (max-width: 1024px) and (min-width: 768px) {
+		.g-slideshow .slideshow-text{
+			bottom:19%;
+		}
+	}
+
+	@media (max-width: 767px){
+		.g-slideshow .slideshow-text{
+			bottom:70px;
+		}
+	}
+}
+
+.vr-page,.vr-compare{
+	h2{
+		margin-bottom:45px;
+	}
+	.product-items{
+		margin-bottom:60px;
+	}
+}
+
+.vr-page,.vr-compare {
+	.vr-iframe{
+		height:250px;
+	}
+	.product-items{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width:767px){
+	.vr-page,.vr-compare{
+		&.lists-bg-gray h2{
+			font-size: 1.25rem;
+		}
+	}
+	.vr-page{
+		&:before{
+			right: 0;
+	    	left: 30px;
+	    	height:15%;
+		}
+	}
+}
+
+
+.vr-compare {
+	text-align: center;
+
+	.vr-before{
+		padding-right:35px;
+	}
+	.vr-after{
+		position: relative;
+		padding-left:35px;
+		&:before{
+			content:'';
+			position: absolute;
+			background-image: url('../images/icons/arrow-compare-right.svg');
+			width: 50px;
+			height:50px;
+			top:42%;
+			transform:translateY(-50%);
+		    left: -41px;
+		}
+	}
+	.product-items{
+		h3{
+			font-size: 1.5rem;
+			    padding-right:0;
+		}
+	}
+	@media(max-width: 767px){
+		&:before{
+			left: 30px;
+			height:55%;
+		}
+		.vr-before{
+			padding-right:0px;
+			margin-bottom: 90px;
+		}
+		.vr-after{
+			padding-left:0px;
+			&:before{
+				left: calc(50% - 25px);
+			    transform: rotate(90deg) translate(-50%, 0);
+			    top: -40px;
+			}
+		}
+	}
+}
+
+.vr-attr{
+	display: flex;
+	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	.vr-bd{
+		font-weight: 500;
+		font-size: 0.75rem;
+		line-height: 14px;
+		border-radius: 2px;
+		padding: 5px 15px;
+		margin-right: 9px;
+		margin-bottom:10px;
+	}
+	.bd-black{
+		color:#fff;
+		background: #000;
+		border: 1px solid #000;
+	}
+	.bd-green{
+		background: #FFFFFF;
+		border: 1px solid #219653;
+		color: #219653;
+	}
+	.bd-orange{
+		background: #FFFFFF;
+		border: 1px solid #F2994A;
+		color: #F2994A;
+	}
+}
+
+
+.vr-des{
+	margin-bottom:60px;
+	p{
+		margin-bottom: 0;
+		font-weight: 300;
+		line-height: 200%;
+		text-align: center;
+		color: #000000;
+		@media (max-width:767px){
+			text-align: left;
+			font-size: 0.875rem;
+		}
+	}
+	
+}
+
+
