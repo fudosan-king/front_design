@@ -1,0 +1,77 @@
+.section_contact_page {
+    background: #F2F2F2;
+    padding: 80px 0 100px;
+}
+
+.section_contact_page .box_contact {
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px 100px;
+}
+
+.section_contact_page .box_contact_top {
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 75px;
+}
+
+.section_contact_page .box_contact_top p {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    text-align: right;
+    font-weight: 600;
+    border-top: 1px solid rgba(16, 39, 70, 0.2);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.section_contact_page .box_contact_top p span {
+    font-size: 0.75em;
+}
+
+.section_contact_page .box_contact_top .box_top_contact_content {
+    padding-left: 20px;
+}
+
+.section_contact_page .box_contact_top .box_top_contact_content h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.section_contact_page .box_contact_top .box_top_contact_content .table th, .section_contact_page .box_contact_top .box_top_contact_content .table td {
+    padding: 5px;
+    border: none;
+    font-size: 0.875em;
+}
+
+.section_contact_page .box_body_contact {
+    font-size: 0.875em;
+}
+
+.section_contact_page .box_body_contact .title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section_contact_page .box_body_contact .frm_contact label {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.section_contact_page .box_body_contact .frm_contact label.custom-control-label {
+    font-weight: 300;
+    line-height: 1.8em;
+}
+
+.section_contact_page .box_body_contact .frm_contact .mustbe {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 0.75em;
+}
+
+.section_contact_page .box_body_contact .form-control {
+    height: calc(1.5em + .75rem + 4px);
+}
