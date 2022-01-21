@@ -1,0 +1,129 @@
+
+.form-control {
+	height: calc(1.5em + 0.75rem + 6px);
+	border-color: #828282;
+	&:focus {
+		box-shadow: none;
+	}
+}
+.custom-control-label {
+	&:before {
+		width: 20px;
+		height: 20px;
+		border-color: #828282;
+	}
+	&:after {
+		width: 20px;
+		height: 20px;
+	}
+}
+.custom-checkbox .custom-control-label::before {
+	border-radius: 2px;
+}
+.btn_blue {
+	background: #0D38A6;
+	color: #fff;
+	min-width: 201px;
+	font-weight: 500;
+	padding: 15px;
+	border-radius: 0;
+	margin-right: 15px;
+}
+.box_inquiry {
+	.container {
+		max-width: 975px;
+	}
+	.box_inquiry_content {
+		padding: 42px 65px;
+		background: #fff;
+		border-radius: 10px;
+		h2 {
+			font-size: 2.25em;
+			color: #0D38A6;
+			font-weight: 800;
+			text-align: center;
+			margin-bottom: 55px;
+		}
+		.frm_inquiry {
+			label {
+				font-size: 0.875em;
+				font-weight: 500;
+				line-height: 1.9em;
+				color: #556170;
+				margin-bottom: 0;
+				span {
+					color: #fff;
+					font-size: 0.7143em;
+					margin-left: 10px;
+					display: inline-block;
+					padding: 0 10px;
+					background: #FF7E47;
+				}
+			}
+			.form-control {
+				font-size: 0.875em;
+			}
+			.custom-select {
+				font-size: 0.875em;
+				height: calc(1.5em + 0.75rem + 6px);
+				background: #fff url('../images/icons/arrow_down.svg') no-repeat right 0.75rem center/18px 20px;
+				border-color: #828282;
+			}
+			.btn_zipcode {
+				text-align: left;
+				font-size: 0.875em;
+				color: #1238A6;
+				font-weight: 600;
+				padding-left: 0;
+				padding-right: 0;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: flex-start;
+				align-items: center;
+				align-content: stretch;
+				img {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}
+
+.box_moreinfo {
+	border-radius: 4px;
+	border: 1px solid #828282;
+	padding: 20px;
+	font-size: 0.875em;
+	color: #333;
+	margin-bottom: 40px;
+	height: 185px;
+	overflow: auto;
+}
+
+
+
+@media (max-width: 768px) {
+	.btn_blue {
+		margin-bottom: 10px;
+		font-size: 0.875em;
+		min-width: 120px;
+	}
+	.box_inquiry {
+		.box_inquiry_content {
+			padding: 15px;
+			.frm_inquiry {
+				label {
+					margin-bottom: 5px;
+					&.label_agree {
+						line-height: 1.3em;
+					}
+				}
+				.btn_zipcode {
+					font-size: .7em;
+				}
+			}
+		}
+	}
+	
+}
