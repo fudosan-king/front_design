@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="images/icon/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="images/icon/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="mask-icon" href="images/icon/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
