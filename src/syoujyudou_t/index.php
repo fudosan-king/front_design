@@ -181,6 +181,7 @@
                 <div class="title-main">
                     <h2>よくあるご質問</h2>
                 </div>
+                <div class="faq-group">
                 <div class="faq">
                     <img class="img-fluid img-center" src="./images/top-page/faq-1.png" alt="" title="" >
                     <div class="faq-info">
@@ -222,6 +223,7 @@
                         <p class="sm-title">商品券作成と併せて、封筒に封入する作業も頼めますか？ </p>
                         <p>可能です。詳細を営業担当にお伝えいただければお見積りをさせていただきます。</p>
                     </div>
+                </div>
                 </div>
                 <a  href="#" class="btn btn-action-orange">
                     <span class="txt-left size-32">お問い合わせ・お申し込み</span>
