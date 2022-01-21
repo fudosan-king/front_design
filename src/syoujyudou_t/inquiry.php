@@ -1,5 +1,8 @@
 <?php include 'header.php'; ?>
+
+<div class="navigation sp-fixed nav-fixed nav-white">
 <?php include 'navigation.php'; ?>
+</div>
 
 <!-- Top Page Content  -->
 <section class="home_top">
