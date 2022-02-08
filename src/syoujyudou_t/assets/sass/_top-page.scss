@@ -38,8 +38,21 @@
 	.home_top_img{
 		text-align:center;
 		margin-bottom:90px;
+		position: relative;
+		h1 {
+			color: #1238A6;
+			font-weight: 600;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
 		@media (max-width:767px){
 			margin-bottom:30px;
+			h1 {
+				font-size: 1.6em;
+				top: -77px;
+			}
 		}
 	}
 	.home_top_table{
