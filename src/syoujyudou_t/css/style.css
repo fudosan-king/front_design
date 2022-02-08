@@ -258,18 +258,23 @@ button:hover {
     margin-bottom: 0;
 }
 
-.graphic-img-txt img {
+.graphic-img-txt .graphic_video {
     width: 50%;
 }
 
+.graphic-img-txt .graphic_video .embed-responsive-4by3::before {
+    padding-top: 63%;
+}
+
 @media (max-width: 767px) {
-    .graphic-img-txt img {
+    .graphic-img-txt .graphic_video {
         width: 100%;
     }
 }
 
 .graphic-img-txt .graphic-txt {
     padding: 43px 40px;
+    width: 50%;
 }
 
 .graphic-img-txt .graphic-txt p {
@@ -304,6 +309,7 @@ button:hover {
 @media (max-width: 767px) {
     .graphic-img-txt .graphic-txt {
         padding: 20px;
+        width: 100%;
     }
 
     .graphic-img-txt .graphic-txt .sm-title {
@@ -1389,6 +1395,44 @@ header.menu-animation-scroll {
     .wrap_example {
         flex-direction: column;
     }
+}
+
+.box_ourstrengths {
+    margin-bottom: 160px;
+}
+
+.box_ourstrengths ul {
+    padding: 0;
+    margin: 0;
+}
+
+.box_ourstrengths ul li {
+    margin-bottom: 20px;
+}
+
+.box_ourstrengths ul li:nth-last-of-type {
+    margin-bottom: 0;
+}
+
+.box_ourstrengths ul li p {
+    margin-bottom: 0;
+    font-size: 1.125em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    line-height: 1.3em;
+}
+
+.box_ourstrengths ul li p span {
+    display: inline-block;
+}
+
+.box_ourstrengths ul li p span:first-of-type {
+    color: #fff;
+    background: #0D38A6;
+    border-radius: 100px;
+    padding: 8px 15px;
+    margin-right: 20px;
 }
 
 .form-control {
