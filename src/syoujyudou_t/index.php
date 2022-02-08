@@ -77,7 +77,7 @@
                     <h3><span>コスト重視シンプルプラン例</span></h3>
                     <table class="table table-borderless">
                         <tr>
-                            <th width="35%">サイズ</th>
+                            <th width="40%">サイズ</th>
                             <td>160X76ミリ</td>
                         </tr>
                         <tr>
@@ -94,7 +94,7 @@
                         </tr>
                         <tr>
                             <th>セキュリティアイテム</th>
-                            <td>コピーガード、マイクロ文字、ナンバリング印字</td>
+                            <td>コピーガード、マイクロフォント、ナンバリング印字</td>
                         </tr>
                     </table>
                     <p class="mt-5"><img src="images/top-page/500.png" alt="" class="img-fluid w-100"></p>
@@ -104,7 +104,7 @@
                     <h3><span>セキュリティ重視スペシャルプラン例</span></h3>
                     <table class="table table-borderless">
                         <tr>
-                            <th width="35%">サイズ</th>
+                            <th width="40%">サイズ</th>
                             <td>160X76ミリ</td>
                         </tr>
                         <tr>
@@ -123,7 +123,7 @@
                             <th>セキュリティアイテム</th>
                             <td>ホログラム、<br>
                             コピーガード(4色の内の1色に限る)<br>
-                            マイクロ文字、偏光インク、ナンバリング印字</td>
+                            マイクロ文字、偏光インキ、ナンバリング印字</td>
                         </tr>
                     </table>
                     <p class="mt-3"><img src="images/top-page/1000.png" alt="" class="img-fluid w-100"></p>
@@ -142,6 +142,23 @@
             </div>
             <div class="home_ct_info">
                 <div class="container">
+                    <div class="box_ourstrengths">
+                        <div class="title-main">
+                            <h2>弊社の強み</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p><span>POINT.1</span> <span>多重セキュリティができる（セキュリティアイテムが豊富）</span></p>
+                            </li>
+                            <li>
+                                <p><span>POINT.2</span> <span>一人一人お客さんのニーズに合わせた製品が作ることができる（提案できる幅が広い）</span></p>
+                            </li>
+                            <li>
+                                <p><span>POINT.3</span> <span>複数のセキュリティアイテムを適当に偽造防止組み込んでいるわけでなく、理論に基づいてアイテムを取捨選択している</span></p>
+                            </li>
+                        </ul>
+                    </div>
+
                     <div class="title-main">
                         <p>制作事例</p>
                         <h2><span class="d-block d-md-inline-block">昇寿堂が誇る</span>商品券・クーポン券・金券の<br>
@@ -149,7 +166,14 @@
                     </div>
                     <p class="txt-blue"><span class="d-block d-md-inline-block">商品券・クーポン券・金券類に関する</span>デザインのご相談から<br><span class="d-block d-md-inline-block">バーコード、QR コード印字・ナンバリング、</span>製本含め一括で承ります。</p>
                     <div class="graphic-img-txt">
-                        <img class="img-fluid" src="./images/top-page/graphic-1.jpg" alt="" title="">
+                        <!-- <img class="img-fluid" src="./images/top-page/graphic-1.jpg" alt="" title=""> -->
+                        <div class="graphic_video">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <video class="video-fluid" controls>
+                                    <source src="video/hologram.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                        </div>
                         <div class="graphic-txt">
                             <p class="sm-title">セキュリティ界の王様</p>
                             <h3>ホログラム</h3>
@@ -177,7 +201,7 @@
                         <div class="graphic-txt">
                             <p class="sm-title">肉眼ではただの線、しかしよく見ると...？</p>
                             <h3>マイクロフォント</h3>
-                            <p>微細な文字で、スキャナーやカラーコピーで複製すると文字がつぶれて再現ができません。コピーガードやナンバリング印字と併用されるケースが多いです。</p>
+                            <p>微細な文字で、スキャナーやカラーコピーで複製すると文字がつぶれて再現ができません。コピーガードやナンバリング印字と併用されるケースが多いアイテムです。</p>
                         </div>
                         <img class="img-fluid" src="./images/top-page/graphic-4.jpg" alt="" title="">  
                     </div>
@@ -220,11 +244,11 @@
                     <div class="title-main">
                         <h2>昇寿堂と偽造防止技術</h2>
                     </div>
-                    <p>昇寿堂は1947 年（昭和 22 年）に産声を上げました。 </p>
-                    <p>日本で初めてビジネスフォームと呼ばれる振替用紙や配送伝票などの帳票類専用の印刷機を完成させたのは実は弊社なのです。 </p>
+                    <p>昇寿堂は1947 年（昭和 22 年）に産声を上げました。</p>
+                    <p>日本で初めてビジネスフォームと呼ばれる振替用紙や配送伝票などの帳票類専用の印刷機を完成させたのは実は弊社なのです。</p>
                     <p>一方、変化の激しい時代の中で、従来のビジネスフォーム印刷と並行して弊社が注力してきたのが偽造防止技術です。 </p>
-                    <p>もともと偽造防止のイロハの全くなかった弊社ですが、「お客様からの依頼は断らない」をモットーに 試行錯誤を経て、現在では首都圏を中心に自治体の保険者証や改ざん防止用紙など多くの偽造防止製品をご採用いただいています。 </p>
-                    <p>昨今では、偽造防止技術を活かした商品券・金券類のお引き合いが増えております。 </p>
+                    <p>古くは写真製版の技術を駆使して、現在ではコンピュータ技術を利用して首都圏を中心に自治体の保険者証や改ざん防止用紙など多くの偽造防止製品をご採用いただいています。</p>
+                    <p>昨今では、偽造防止技術を活かした商品券・金券類のお引き合いが増えております。</p>
                     <p>弊社では商品券・金券類は、紙幣と同等の価値があるものと考え、 セキュリティ度の高い偽造防止技術の提案・製造がお客様へ提供できる昇寿堂の付加価値だと自負しています。</p>
                 </div>
             </div>

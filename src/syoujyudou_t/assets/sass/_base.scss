@@ -73,14 +73,20 @@
     &:last-child{
         margin-bottom:0;
     }
-    img{
+    .graphic_video {
         width: 50%;
+        .embed-responsive-4by3 {
+            &::before {
+                padding-top: 63%;
+            }
+        }
         @media (max-width:767px){
             width: 100%;
         }
     }
     .graphic-txt{
         padding:43px 40px;
+        width: 50%;
         p{
             font-weight: 500;
             font-size: 0.75rem;
@@ -109,6 +115,7 @@
         }
         @media (max-width:767px){
             padding:20px;
+            width: 100%;
             .sm-title{
                 font-size: 0.625rem;
             }
