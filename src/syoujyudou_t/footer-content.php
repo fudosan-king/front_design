@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div class="footer-bottom">
+<div class="footer-bottom fixed-bottom">
     <div class="container">
         <div class="footer-top_group">
             <div class="footer-top_box">

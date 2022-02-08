@@ -8,6 +8,7 @@
     <section class="home_top">
         <div class="home_top_info">
             <div class="home_top_img" >
+                <h1>商品券・金券額なら<br>昇寿堂におまかせください！</h1>
                 <img class="img-fluid d-none d-md-block img-center" src="./images/top-page/home-top-pc.png" alt="main" title="main">
                 <img class="img-fluid d-block d-md-none img-center" src="./images/top-page/home-top-sp.png" alt="main" title="main">
             </div>
@@ -185,14 +186,14 @@
                 <div class="faq">
                     <img class="img-fluid img-center" src="./images/top-page/faq-1.png" alt="" title="" >
                     <div class="faq-info">
-                        <p class="sm-title">入稿データはどのような形式で作ればいいですか？</p>
+                        <h3 class="sm-title">入稿データはどのような形式で作ればいいですか？</h3>
                         <p>デザインは、通常の印刷物同様イラストレーターや PDF などでご入稿ください。 </p>
                         <p>偽造防止部分のデータは弊社で作成いたします。</p>
                     </div>
                 </div>
                 <div class="faq">
                     <div class="faq-info">
-                        <p class="sm-title">偽造防止のことが全く分からないのですが...</p>
+                        <h3 class="sm-title">偽造防止のことが全く分からないのですが...</h3>
                         <p>ご安心ください！経験とノウハウを十分に備えた営業マンが 様々な偽造防止技術をご紹介・ご提案させていただきます。</p>
                     </div>
                     <img class="img-fluid img-center" src="./images/top-page/faq-2.png" alt="" title="" >
@@ -200,7 +201,7 @@
                 <div class="faq">
                     <img class="img-fluid img-center" src="./images/top-page/faq-3.png" alt="" title="" >
                     <div class="faq-info">
-                        <p class="sm-title">商品券を作りたいけど、まったく仕様が決まっていません。相談に乗ってくれますか？ </p>
+                        <h3 class="sm-title">商品券を作りたいけど、まったく仕様が決まっていません。相談に乗ってくれますか？ </h3>
                         <p>もちろんです！ </p>
                         <p>商  金券・セキュリティ印刷加工の経験とノウハウを駆使してお手伝いしますので、お気軽にご相談ください。 </p>
                         <p>お客様のイメージや使用シーン等をヒアリングし、仕様を考案するところからお手伝いさせていただきます。</p>
@@ -208,19 +209,19 @@
                 </div>
                 <div class="faq">
                     <div class="faq-info">
-                        <p class="sm-title">冊数が少ないのですが大丈夫ですか？</p>
+                        <h3 class="sm-title">冊数が少ないのですが大丈夫ですか？</h3>
                         <p>問題ございません。最低ロットなどはありませんのでお気軽にご相談ください。 逆に１０万冊を超える大ロット案件などもご対応可能ですので、是非ご相談ください。</p>
                     </div>
                 </div>
                 <div class="faq">
                     <div class="faq-info">
-                        <p class="sm-title">遠方の会社ですが仕事は請けてもらえますか？</p>
+                        <h3 class="sm-title">遠方の会社ですが仕事は請けてもらえますか？</h3>
                         <p>はい。弊社は全国エリアの自治体・企業を対象にしております。</p>
                     </div>
                 </div>
                 <div class="faq">
                     <div class="faq-info">
-                        <p class="sm-title">商品券作成と併せて、封筒に封入する作業も頼めますか？ </p>
+                        <h3 class="sm-title">商品券作成と併せて、封筒に封入する作業も頼めますか？ </h3>
                         <p>可能です。詳細を営業担当にお伝えいただければお見積りをさせていただきます。</p>
                     </div>
                 </div>
