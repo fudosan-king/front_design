@@ -8,7 +8,7 @@
     <section class="home_top">
         <div class="home_top_info">
             <div class="home_top_img" >
-                <h1>商品券・金券額なら<br>昇寿堂におまかせください！</h1>
+                <h1>商品券・クーポン券・金券額なら<br>昇寿堂におまかせください！</h1>
                 <img class="img-fluid d-none d-md-block img-center" src="./images/top-page/home-top-pc.png" alt="main" title="main">
                 <img class="img-fluid d-block d-md-none img-center" src="./images/top-page/home-top-sp.png" alt="main" title="main">
             </div>
@@ -59,7 +59,7 @@
         <div class="home_ct_box">
           
             <div class="title-main">
-                <h2>取引実績一例</h2>
+                <h2>製造実績一例</h2>
             </div>
             <div class="box-blue">T都O市、F県Y市、T県N町、S県S市、I県T市 、M県M町、N県A市、K県A町、A県A市、Y県U市<br>
             <span>自治体、商工会、商店街、百貨店、ショッピングモール、飲食店、ホテル、観光施設ほか全国多数</span></div>
@@ -72,6 +72,63 @@
                     <span class="big">CLICK!</span>
                 </span>
             </a>
+            <div class="wrap_example">
+                <div class="box_example">
+                    <h3><span>コスト重視シンプルプラン例</span></h3>
+                    <table class="table table-borderless">
+                        <tr>
+                            <th width="35%">サイズ</th>
+                            <td>160X76ミリ</td>
+                        </tr>
+                        <tr>
+                            <th>紙質</th>
+                            <td>上質70</td>
+                        </tr>
+                        <tr>
+                            <th>色数</th>
+                            <td>表2色/裏1色</td>
+                        </tr>
+                        <tr>
+                            <th>加工</th>
+                            <td>ライン糊製本</td>
+                        </tr>
+                        <tr>
+                            <th>セキュリティアイテム</th>
+                            <td>コピーガード、マイクロ文字、ナンバリング印字</td>
+                        </tr>
+                    </table>
+                    <p class="mt-5"><img src="images/top-page/500.png" alt="" class="img-fluid w-100"></p>
+                </div>
+
+                <div class="box_example">
+                    <h3><span>セキュリティ重視スペシャルプラン例</span></h3>
+                    <table class="table table-borderless">
+                        <tr>
+                            <th width="35%">サイズ</th>
+                            <td>160X76ミリ</td>
+                        </tr>
+                        <tr>
+                            <th>紙質</th>
+                            <td>マットコート90</td>
+                        </tr>
+                        <tr>
+                            <th>色数</th>
+                            <td>表プロセス4色/裏1色</td>
+                        </tr>
+                        <tr>
+                            <th>加工</th>
+                            <td>クロス巻き製本</td>
+                        </tr>
+                        <tr>
+                            <th>セキュリティアイテム</th>
+                            <td>ホログラム、<br>
+                            コピーガード(4色の内の1色に限る)<br>
+                            マイクロ文字、偏光インク、ナンバリング印字</td>
+                        </tr>
+                    </table>
+                    <p class="mt-3"><img src="images/top-page/1000.png" alt="" class="img-fluid w-100"></p>
+                </div>
+            </div>
         </div>
        
       
