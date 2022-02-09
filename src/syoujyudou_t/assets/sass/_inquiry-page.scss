@@ -28,7 +28,35 @@
 	padding: 15px;
 	border-radius: 0;
 	margin-right: 15px;
+	&:hover,&:focus,&:active{
+		color:#fff;
+	}
 }
+
+.box_inquiry {
+	label {
+		font-size: 0.875em;
+		font-weight: 500;
+		line-height: 1.9em;
+		color: #556170;
+		margin-bottom: 0;
+		span {
+			color: #fff;
+			font-size: 0.7143em;
+			margin-left: 10px;
+			display: inline-block;
+			padding: 0 10px;
+			background: #FF7E47;
+		}
+		.error-required{
+			background:transparent;
+			display: block;
+			margin-left:0;
+			padding:0;
+		}
+	}
+}
+
 .box_inquiry {
 	.container {
 		max-width: 975px;
@@ -44,22 +72,17 @@
 			text-align: center;
 			margin-bottom: 55px;
 		}
-		.frm_inquiry {
-			label {
-				font-size: 0.875em;
-				font-weight: 500;
-				line-height: 1.9em;
-				color: #556170;
-				margin-bottom: 0;
-				span {
-					color: #fff;
-					font-size: 0.7143em;
-					margin-left: 10px;
-					display: inline-block;
-					padding: 0 10px;
-					background: #FF7E47;
-				}
+		.custom-checkbox{
+			.error-required{
+				background:transparent;
+				display: block;
+				margin-left:0;
+				padding:0;
+				font-size: 0.7143em;
 			}
+		}
+		.frm_inquiry {
+			
 			.form-control {
 				font-size: 0.875em;
 			}
