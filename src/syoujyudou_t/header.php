@@ -2,9 +2,8 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="UTF-8">
+
+    
 
     <link rel="apple-touch-icon" sizes="152x152" href="favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
@@ -19,9 +18,33 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/backend-css.css" type="text/css">
 
-    <title>天然無垢材・自然素材のリノベーションマンション｜ログマンション</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+
+    <!--  Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+
+    <!--  Meta landing page -->
+    <title>商品券・クーポン券・金券類なら昇寿堂におまかせください！｜株式会社昇寿堂オフィシャルサイト</title>
+    <meta property="og:title" content="商品券・クーポン券・金券類なら昇寿堂におまかせください！｜株式会社昇寿堂オフィシャルサイト">
+    <meta name="description" content="商品券・クーポン券・金券類なら昇寿堂におまかせください！全国各地に実績多数。印刷・印字製本までトータルサポート。1974年創業の経験とノウハウにより出荷冊数1,000,000冊突破！" />
+    <meta name="keywords" content="商品券等,クーポン券,金券類,セキュリティ印刷,ホログラム加工,封印シール,昇寿堂" />
+    <meta property="og:url" content="https://fe.logknot.co.jp/syoujyudou_t">
+    <meta property="og:site_name" content="株式会社昇寿堂オフィシャルサイト">
+    <meta property="og:image" content="">
+    <!-- End meta landing page -->
+
+    <!-- Meta inquiry page -->
+    <title>お問い合わせ｜株式会社昇寿堂オフィシャルサイト</title>
+    <meta property="og:title" content="お問い合わせ｜株式会社昇寿堂オフィシャルサイト">
+    <meta name="description" content="法人様用お問い合わせはこちら" />
+    <meta name="keywords" content="商品券等,クーポン券,金券類,セキュリティ印刷,ホログラム加工,封印シール,昇寿堂" />
+    <meta property="og:url" content="https://fe.logknot.co.jp/syoujyudou_t/inquiry.php">
+    <meta property="og:site_name" content="株式会社昇寿堂オフィシャルサイト">
+    <meta property="og:image" content="">
+    <!-- End meta inquỉy page -->
 
     <!-- 実際にHPの<HEAD>部分に書かれているもの -->
     <script>
