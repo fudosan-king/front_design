@@ -240,15 +240,17 @@
                 .btn-link{
                     background: #1238A6;
                     border-radius: 100px;
-                    font-weight: 900;
                     font-size: 0.875rem;
                     line-height: 16px;
                     padding:12px 17px;
                     color: #FFFFFF;
                     display:table;
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    font-family: 'Roboto', sans-serif;
                     @media (max-width:767px){
                         font-size: 0.6875rem;
-                        padding:12px;
+                        padding: 7px 15px;
+                        filter: inherit;
                     }
                 }
             }

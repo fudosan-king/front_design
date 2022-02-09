@@ -8,7 +8,7 @@
     <section class="home_top">
         <div class="home_top_info">
             <div class="home_top_img" >
-                <h1>商品券・クーポン券・金券類なら<br>昇寿堂におまかせください！</h1>
+                <h1>商品券・クーポン券・金券類なら<br>昇寿堂にお任せください！</h1>
                 <img class="img-fluid d-none d-md-block img-center" src="./images/top-page/home-top-pc.png" alt="main" title="main">
                 <img class="img-fluid d-block d-md-none img-center" src="./images/top-page/home-top-sp.png" alt="main" title="main">
             </div>
@@ -59,12 +59,12 @@
         <div class="home_ct_box">
           
             <div class="title-main">
-                <h2>製造実績一例</h2>
+                <h2 class="mb-3">製造実績一例</h2>
             </div>
             <div class="box-blue">T都O市、F県Y市、T県N町、S県S市、I県T市 、M県M町、N県A市、K県A町、A県A市、Y県U市<br>
             <span>自治体、商工会、商店街、百貨店、ショッピングモール、飲食店、ホテル、観光施設ほか全国多数</span></div>
             <p class="text-center">このほか、全国各地に<span class="d-block d-md-inline-block">お引き合い実績がございます。</span></p>
-            <a  href="#" class="btn btn-action-orange">
+            <a  href="inquiry.php" class="btn btn-action-orange">
                 <span class="txt-left size-42">まずはお問い合わせ</span>
                 <i class="i-cus i-arrow-action"></i>
                 <span class="txt-right">
@@ -123,7 +123,8 @@
                             <th>セキュリティアイテム</th>
                             <td>ホログラム、<br>
                             コピーガード(4色の内の1色に限る)<br>
-                            マイクロフォント、偏光インキ、ナンバリング印字</td>
+                            マイクロフォント、偏光インキ、<br>
+                            ナンバリング印字</td>
                         </tr>
                     </table>
                     <p class="mt-3"><img src="images/top-page/1000.png" alt="" class="img-fluid w-100"></p>
@@ -151,7 +152,7 @@
                                 <p><span>POINT.1</span> <span>豊富なセキュリティアイテム</span></p>
                             </li>
                             <li>
-                                <p><span>POINT.2</span> <span>セキュリティアイテムを組み合わせ多重化のご提案</span></p>
+                                <p><span>POINT.2</span> <span>セキュリティアイテムを組み合わせた多重化のご提案</span></p>
                             </li>
                             <li>
                                 <p><span>POINT.3</span> <span>お客様の個別ニーズに合わせた、理論に基づく最適な製品のご提供</span></p>
@@ -161,12 +162,19 @@
 
                     <div class="title-main">
                         <p>制作事例</p>
-                        <h2><span class="d-block d-md-inline-block">昇寿堂が誇る</span>商品券・クーポン券・金券類の<br>
+                        <h2 class="mb-4"><span class="d-block d-md-inline-block">昇寿堂が誇る</span>商品券・クーポン券・金券類の<br>
                             <span class="underline">偽造防止加工</span>の一例</h2>
                     </div>
                     <p class="txt-blue"><span class="d-block d-md-inline-block">商品券・クーポン券・金券類に関する</span>デザインのご相談から<br><span class="d-block d-md-inline-block">バーコード、QR コード・ナンバリング印字、</span>製本含め一括で承ります。</p>
-                    <div class="graphic-img-txt">
+                    <div class="graphic-img-txt flex-lg-row-reverse">
                         <!-- <img class="img-fluid" src="./images/top-page/graphic-1.jpg" alt="" title=""> -->
+                        
+                        <div class="graphic-txt">
+                            <p class="sm-title">セキュリティ界の王様</p>
+                            <h3>ホログラム</h3>
+                            <p>セキュリティ度 No1 のホログラムは、 スキャニングカラーコピー・印刷複製対策すべてに効果抜群！ <br>
+                            商品券自体への付加価値も高まります。</p>
+                        </div>
                         <div class="graphic_video">
                             <div class="embed-responsive embed-responsive-4by3">
                                 <video class="video-fluid" controls>
@@ -174,36 +182,30 @@
                                 </video>
                             </div>
                         </div>
-                        <div class="graphic-txt">
-                            <p class="sm-title">セキュリティ界の王様</p>
-                            <h3>ホログラム</h3>
-                            <p>セキュリティ度 No1 のホログラムは、 スキャニングカラーコピー・印刷複製対策すべてに効果抜群！ <br>
-                            商品券自体への付加価値も高まります。</p>
-                        </div>
                     </div>
-                    <div class="graphic-img-txt">
+                    <div class="graphic-img-txt flex-lg-row-reverse">
+                        <img class="img-fluid" src="./images/top-page/graphic-2.jpg" alt="" title="">
                         <div class="graphic-txt">
                             <p class="sm-title">商品券の偽造防止加工で人気</p>
                             <h3>偏光インキ（トリックインキ）</h3>
                             <p>角度や光の加減によって浮かび上がって見える特殊なインキ。カラーコピー、スキャナーに反応しません。柄のデザインもご自由にお選びいただけます。</p>
                         </div>
-                        <img class="img-fluid" src="./images/top-page/graphic-2.jpg" alt="" title="">
                     </div>
-                    <div class="graphic-img-txt">
-                        <img class="img-fluid" src="./images/top-page/graphic-3.jpg" alt="" title="">
+                    <div class="graphic-img-txt flex-lg-row-reverse">
                         <div class="graphic-txt">
                             <p class="sm-title">複製対策の代名詞</p>
                             <h3>コピーガード</h3>
                             <p>コピーを取ると隠れた文字が浮かび上がります。弊社では、より高性能なカラーコピーに反応できる技術を有しております。</p>
                         </div>
+                        <img class="img-fluid" src="./images/top-page/graphic-3.jpg" alt="" title="">
                     </div>
-                    <div class="graphic-img-txt">
+                    <div class="graphic-img-txt flex-lg-row-reverse">
+                        <img class="img-fluid" src="./images/top-page/graphic-4.jpg" alt="" title="">  
                         <div class="graphic-txt">
                             <p class="sm-title">肉眼ではただの線、拡大してみると...？</p>
                             <h3>マイクロフォント</h3>
                             <p>微細な文字で、スキャナーやカラーコピーで複製すると文字がつぶれて再現ができません。コピーガードやナンバリング印字と併用されるケースが多いアイテムです。</p>
                         </div>
-                        <img class="img-fluid" src="./images/top-page/graphic-4.jpg" alt="" title="">  
                     </div>
                 </div>
             </div>
@@ -221,9 +223,9 @@
                 </div> 
                 <p>近年のパソコン、スキャナー、プリンター機能の高精度化に伴い古くから用いられてきた偽造防止技術では容易に偽造されてしまうリスクが高くなっています。</p> 
                 <p>実際に、地域復興クーポン券の印刷状態によって本物か偽物か判別が難しくトラブルに発展した事例も見受けられました。偽造自体をさせないことも重要ですが、万一偽造品が出回ってしまった際にお客様が本物と偽物を見分けられることも危機管理として求められます。</p>
-                <img class="img-fluid img-center" src="./images/top-page/chosen.png" alt="" title="">
+                <img class="img-fluid img-center mt-5 mb-5" src="./images/top-page/chosen.png" alt="" title="">
                 <p>ビジネスフォームのパイオニアとして1947 年創業の弊社では、商品券や偽造防止技術に関して長年の経験から培った独自のノウハウがあります。「商品券を作るのに何から始めたらよいか分からない」「偽造されないためにはどんな技術が必要なのか知りたい」といったお客様にも、ご要望に合わせたご提案が可能です。</p> 
-                <a  href="#" class="btn btn-action-orange">
+                <a  href="inquiry.php" class="btn btn-action-orange">
                     <span class="txt-left size-32">偽造防止印刷について<br>詳しく知りたい方は</span>
                     <i class="i-cus i-arrow-action"></i>
                     <span class="txt-right">
@@ -307,7 +309,7 @@
                     </div>
                 </div>
                 </div>
-                <a  href="#" class="btn btn-action-orange">
+                <a  href="inquiry.php" class="btn btn-action-orange w320">
                     <span class="txt-left size-32">お問い合わせ・お申し込み</span>
                     <i class="i-cus i-arrow-action"></i>
                     <span class="txt-right">

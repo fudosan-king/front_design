@@ -8,25 +8,30 @@
 	justify-content: center;
 	max-width: 640px;
 	width: 100%;
-	margin:30px auto;
+	margin: 40px auto 60px;
 	@media (max-width:767px){
-		max-width:330px;
+		max-width:310px;
 		margin:20px auto;
+		padding-top: 9.1px;
+		padding-bottom: 9.1px;
+		&.w320 {
+			max-width: 320px;
+		}
 	}
 	span{
     	display: inline-block;
     	color: #FFFFFF;
-    	font-weight: bold;
+    	font-weight: 500;
 	}
 	.txt-left{
-		font-style: italic;
+		// font-style: italic;
 		margin-right:15px;
 		&.size-42{
 			font-size: 2.625rem;
 			letter-spacing: -0.05em;
 			line-height: 2;
 			@media(max-width:767px){
-				font-size:1rem;
+				font-size:1.3rem;
 			}
 		}
 		&.size-32{
@@ -34,7 +39,6 @@
 			line-height: 1.2;
 			@media(max-width:767px){
 				font-size:1rem;
-				// letter-spacing: -0.08em;
 			}
 		}
 		@media(max-width:767px){
@@ -60,6 +64,7 @@
 			display: block;
 			font-size: 2.25rem;
 			line-height: 1.1;
+			letter-spacing: .08em;
 		}
 		@media(max-width:767px){
 			font-size:0.625rem;
