@@ -30,8 +30,9 @@ function syoujyudou() {
 
     //Js Navigation
     this.navigation = function() {
-       const _this = this;
-       
+        const _this = this;
+            
+
         _this.menu_animation_scroll();
 
         $(window).scroll(function(e){
@@ -68,6 +69,7 @@ function syoujyudou() {
         const doc = $(document);
         let winHeight;
         const _header = $('header');
+        if( $('.navigation').hasClass('nav-form') ) return;
         if( $('body').hasClass('menu-opened') ) return;
         if( win.height() + 2*headerHeight >= doc.height() ) return;
         if( win.scrollTop() > headerHeight ){
@@ -238,6 +240,11 @@ function syoujyudou_inquiry(){
             if (isValid) {
                 $('.js_frm_confirm').fadeIn();
                 $('.js_frm_inquiry').fadeOut();
+                setTimeout(function(){
+                    $('html, body').animate({
+                        scrollTop: 0
+                    }, 1000);
+                },500)
                 _this._ViewConfirm();
             }
 

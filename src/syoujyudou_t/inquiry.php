@@ -1,6 +1,7 @@
 <?php include 'header.php'; ?>
+<div class="navigation nav-form nav-white">
 <?php include 'navigation.php'; ?>
-
+</div>
 <!-- Top Page Content  -->
 <section class="home_top">
 	<div class="home_top_info px-0">
@@ -27,7 +28,7 @@
 		    					<div class="form-group">
 		    						<div class="row">
 		    							<div class="col-12 col-lg-4 align-self-center">
-		    								<label for="" class="label_required">メールアドレス（確認用）<span>必須</span></label>
+		    								<label for="" class="label_required">メールアドレス<span>必須</span></label>
 		    							</div>
 		    							<div class="col-12 col-lg-8 align-self-center">
 		    								<input name="inquiry_email" type="text" data-valid="email" class="form-control" placeholder="◯◯◯◯◯◯@xxxxxxxx.jp">
@@ -354,7 +355,7 @@
 									</div>
 									<p class="mt-3 d-flex justify-content-center">
 										<a id="inquiry_clean" class="btn btn_blue">リセット</a>
-										<button type="button" class="btn btn_blue mr-0 js_frm_inquiry_to_confirm">上記に同意して送信</button>
+										<button type="button" class="btn btn_blue mr-0 js_frm_inquiry_to_confirm">上記に同意して確認</button>
 									</p>
 		    					</div>
 		    				</form>
@@ -546,7 +547,7 @@
 									  	<label class="custom-control-label text-left text-lg-center label_agree label_required" for="cb_agree">個人情報の取り扱いに同意する場合はチェックを入れてください</label>
 									</div>
 									<p class="mt-3 d-flex justify-content-center">
-										<a id="inquiry_back" class="btn btn_blue">リセット</a>
+										<a id="inquiry_back" class="btn btn_blue">戻る</a>
 										<a id="inquiry_submit" class="btn btn_blue mr-0">上記に同意して送信</a>
 									</p>
 		    					</div>
