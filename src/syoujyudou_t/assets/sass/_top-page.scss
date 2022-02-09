@@ -29,7 +29,7 @@
 			background-image:url('../images/top-page/bg-main-sp.png');
 			padding-top:unset;
 			top:80px;
-			height: 50%;
+			height: 80%;
 		}
 	}
 }
@@ -41,7 +41,7 @@
 		margin-bottom:90px;
 		position: relative;
 		h1 {
-			font-family: 'sf_pro_textsemibold';
+			font-weight: 700;
 			color: #1238A6;
 			position: absolute;
 			left: 0;
@@ -71,7 +71,7 @@
 			@media (max-width:768px){
 				flex-flow:wrap;
 				margin-left: 45px;
-				margin-right:unset;
+				margin-right: 15px;
 				padding:0;
 			}
 			li{
@@ -382,10 +382,16 @@
 			th {
 				padding: 3px;
 				font-size: 0.8125em;
+				@media (max-width: 767px){
+					font-size: 0.75em;
+				}
 			}
 			td {
 				padding: 3px;
 				font-size: 0.8125em;
+				@media (max-width: 767px){
+					font-size: 0.75em;
+				}
 			}
 		}
 	}

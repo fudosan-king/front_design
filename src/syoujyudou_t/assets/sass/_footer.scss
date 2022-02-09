@@ -12,13 +12,13 @@
             flex-flow:wrap;
         }
         .footer-top_box{
-            font-family: 'sf_pro_textregular';
             margin-right:20px;
             &:last-child{
                 margin-right:0;
             }
             @media (max-width:767px){
                 margin-right:0;
+                font-weight: 600;
             }
         }
     }
@@ -33,7 +33,7 @@
         }
     }
     .phone{
-        font-family: 'sf_pro_textheavy';
+        font-weight: 800;
         font-size: 2.25rem;
         line-height: 0.9;
         letter-spacing: .08em;
@@ -44,7 +44,7 @@
         @media (max-width:767px){
             font-size:1.875rem;
             line-height:1.2;
-            font-family: 'sf_pro_textregular';
+            font-weight: 600;
             letter-spacing: inherit;
         }
     }
