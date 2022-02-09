@@ -12,6 +12,7 @@
             flex-flow:wrap;
         }
         .footer-top_box{
+            font-family: 'sf_pro_textregular';
             margin-right:20px;
             &:last-child{
                 margin-right:0;
@@ -22,7 +23,6 @@
         }
     }
     .support{
-        font-weight: 800;
         font-size: 1.5rem;
         color: #FFFFFF;
         @media (max-width:991px){
@@ -33,20 +33,22 @@
         }
     }
     .phone{
-        font-weight: 800;
+        font-family: 'sf_pro_textheavy';
         font-size: 2.25rem;
         line-height: 0.9;
+        letter-spacing: .08em;
         color: #FFFFFF;
         @media (max-width:991px){
             font-size:1.5rem;
         }
         @media (max-width:767px){
             font-size:1.875rem;
-            line-height:1.4;
+            line-height:1.2;
+            font-family: 'sf_pro_textregular';
+            letter-spacing: inherit;
         }
     }
     .time{
-        font-weight: 800;
         font-size: 1.125rem;
         color: #FFFFFF;
         height: 36px;

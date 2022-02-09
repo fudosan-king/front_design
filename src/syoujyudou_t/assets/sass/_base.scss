@@ -14,7 +14,7 @@
 
 .title-main {
     p{
-        font-weight: 800;
+        font-weight: 600;
         font-size: 1.125rem;
         line-height: 1.4;
         letter-spacing: 0.2em;
@@ -22,7 +22,7 @@
         background: #FAED00;
         border-radius: 30px;
         display:table;
-        padding:5px 28px;
+        padding: 0 28px;
         margin:0 auto 30px;
         @media (max-width:767px){
             font-size: 0.75rem;
@@ -31,11 +31,10 @@
     }
     h2{
         color: #0D38A6;
-        font-weight: 800;
         font-size: 2.25rem;
         line-height: 1.4;
-        letter-spacing: -0.5px;
-        margin-bottom:30px;
+        letter-spacing: .1em;
+        margin-bottom: 60px;
         text-align:center;
         .underline{
             position: relative;
@@ -54,6 +53,7 @@
         @media (max-width:767px){
             font-size: 1.5rem;
             margin-bottom:20px;
+            letter-spacing: inherit;
         }
     }   
 }
@@ -61,11 +61,13 @@
 
 .graphic-img-txt{
     display:flex;
+    justify-content: space-around;
     background: #fff;
     margin-bottom:30px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     @media (max-width:767px){
         flex-flow:wrap;
+        margin-bottom: 15px;
         &:nth-child(even){
             flex-direction:column-reverse;
         }
@@ -88,14 +90,13 @@
         padding:43px 40px;
         width: 50%;
         p{
-            font-weight: 500;
-            font-size: 0.75rem;
+            font-size: 0.875rem;
             line-height: 180%;
             letter-spacing: 0.1em;
             color: #000000;
         }
         .sm-title{
-            font-weight: 800;
+            font-weight: 600;
             font-size: 0.75rem;
             line-height: 1.4;
             letter-spacing: 0.2em;
@@ -106,7 +107,7 @@
             margin-bottom:15px;
         }
         h3{
-            font-weight: 800;
+            font-weight: 600;
             font-size: 1.5rem;
             line-height: 1.4;
             letter-spacing: 0.1em;
@@ -114,7 +115,7 @@
             margin-bottom:15px;
         }
         @media (max-width:767px){
-            padding:20px;
+            padding:20px 20px 34px;
             width: 100%;
             .sm-title{
                 font-size: 0.625rem;
@@ -151,7 +152,8 @@
         margin-bottom:15px;
         img{
             padding:0;
-            margin-bottom:20px;
+            margin-bottom:10px;
+            max-width: 136px;
         }
         &:nth-child(even){
             flex-direction:column-reverse;
@@ -162,7 +164,7 @@
         padding-right:20px;
         width: 100%;
         .sm-title{
-            font-weight: bold;
+            font-weight: 600;
             font-size: 1.25rem;
             line-height: 2;
             text-align: justify;
@@ -174,7 +176,7 @@
         }
         p{
             font-size:1rem;
-            font-weight: 500;
+            font-weight: 400;
             line-height: 1.8;
             text-align: justify;
             margin-bottom:0;
@@ -182,8 +184,10 @@
         @media (max-width:767px){
             padding:0;
             .sm-title{
+                padding: 10px 15px;
                 font-size:1rem;
                 line-height:1.6;
+                margin-bottom: 15px;
             }
             p{
                 font-size:0.875rem;
