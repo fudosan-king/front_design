@@ -8,7 +8,7 @@
         align-items:center;
         justify-content:center;
         @media (max-width:767px){
-            flex-flow:wrap;
+            flex-direction: column;
             padding: 10px 0 0;
         }
         .footer-top_box{
