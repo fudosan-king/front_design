@@ -379,7 +379,7 @@
 		    					<div class="form-group">
 		    						<div class="row">
 		    							<div class="col-12 col-lg-4 align-self-center">
-		    								<label for="">メールアドレス（確認用）<span>必須</span></label>
+		    								<label for="">メールアドレス<span>必須</span></label>
 		    							</div>
 		    							<div class="col-12 col-lg-8 align-self-center">
 		    								<span class="view_inquiry_email"></span>
