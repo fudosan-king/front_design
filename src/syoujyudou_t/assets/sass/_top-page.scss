@@ -128,15 +128,13 @@
 						transform:translate(-50%,0);
 						
 					
-						@media (max-width:768px){
+						@media (max-width:768px) {
 							font-size: 0.8125rem;
 							max-width: 80px;
 							height:80px;
-							
-								left:-40px;
-								top:50%;
-								transform: translate(0,-50%);
-							
+							left:-40px;
+							top:50%;
+							transform: translate(0,-50%);
 						}
 					}
 					.home_txt{
@@ -385,12 +383,18 @@
 				@media (max-width: 767px){
 					font-size: 0.75em;
 				}
+				@media (max-width: 375px){
+					font-size: 0.6em;
+				}
 			}
 			td {
 				padding: 3px;
 				font-size: 0.8125em;
 				@media (max-width: 767px){
 					font-size: 0.75em;
+				}
+				@media (max-width: 375px){
+					font-size: 0.6em;
 				}
 			}
 		}
