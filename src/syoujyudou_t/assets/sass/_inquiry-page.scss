@@ -1,3 +1,27 @@
+.nav-form {
+
+	.nav_menu{
+	    position: absolute;
+	    top: 0;
+	    z-index: 9;
+	    width: 100%;
+	}
+	
+	.navbar-expand-lg {
+		ul.nav-pc {
+			.nav-item{
+				&:last-child{
+					display: none;
+				}
+			}
+		}
+	}
+
+}
+
+.thank-you{
+	font-size: 1.5rem;
+}
 
 .form-control {
 	height: calc(1.5em + 0.75rem + 6px);
@@ -36,10 +60,11 @@
 .box_inquiry {
 	label {
 		font-size: 0.875em;
-		font-weight: 500;
+		font-weight: bold;
 		line-height: 1.9em;
 		color: #556170;
 		margin-bottom: 0;
+
 		span {
 			color: #fff;
 			font-size: 0.7143em;
