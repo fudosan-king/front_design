@@ -128,6 +128,7 @@ button:hover {
     justify-content: center;
     max-width: 640px;
     width: 100%;
+    height: 100px;
     margin: 40px auto 60px;
 }
 
@@ -137,6 +138,7 @@ button:hover {
         margin: 20px auto;
         padding-top: 9.1px;
         padding-bottom: 9.1px;
+        height: 52px;
     }
 
     .btn-action-orange.w320 {
@@ -916,7 +918,6 @@ header.menu-animation-scroll {
 
 .footer-bottom {
     background: #FF7B16;
-    padding: 15px;
 }
 
 @media (max-width: 767px) {
@@ -934,6 +935,7 @@ header.menu-animation-scroll {
 @media (max-width: 767px) {
     .footer-bottom .footer-top_group {
         flex-flow: wrap;
+        padding: 10px 0 0;
     }
 }
 
@@ -977,6 +979,17 @@ header.menu-animation-scroll {
     color: #FFFFFF;
 }
 
+.footer-bottom .phone a {
+    padding: 24px 0;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .footer-bottom .phone a {
+        padding: 0;
+    }
+}
+
 @media (max-width: 991px) {
     .footer-bottom .phone {
         font-size: 1.5rem;
@@ -1013,7 +1026,7 @@ header.menu-animation-scroll {
 
 .footer-top {
     background: #1238A6;
-    padding-bottom: 96px;
+    padding-bottom: 105px;
 }
 
 @media (max-width: 767px) {
@@ -1460,6 +1473,12 @@ header.menu-animation-scroll {
     }
 }
 
+@media (max-width: 375px) {
+    .wrap_example .box_example table th {
+        font-size: 0.6em;
+    }
+}
+
 .wrap_example .box_example table td {
     padding: 3px;
     font-size: 0.8125em;
@@ -1468,6 +1487,12 @@ header.menu-animation-scroll {
 @media (max-width: 767px) {
     .wrap_example .box_example table td {
         font-size: 0.75em;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrap_example .box_example table td {
+        font-size: 0.6em;
     }
 }
 

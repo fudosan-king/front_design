@@ -16,7 +16,7 @@
                 <ul>
                     <li>
                         <div class="home_item">
-                            <span class="d-none d-md-flex">プレミアム商品券<br>地域振興券</span>
+                            <span class="d-none d-md-flex">プレミアム<br>商品券<br>地域振興券</span>
                             <span class="d-flex d-md-none">プレミアム<br>商品券</span>
                             <div class="home_txt">
                                 <img class="img-fluid" src="./images/top-page/vc-1.png" alt="" title="">
@@ -25,7 +25,7 @@
                     </li>
                     <li>
                         <div class="home_item">
-                            <span class="d-none d-md-flex">GoToクーポン券<br>商店街向け商品券</span>
+                            <span class="d-none d-md-flex">GoToクーポン券<br>商店街向け<br>商品券</span>
                             <span class="d-flex d-md-none">地域振興券</span>
                             <div class="home_txt">
                                 <img class="img-fluid" src="./images/top-page/vc-2.png" alt="" title="">

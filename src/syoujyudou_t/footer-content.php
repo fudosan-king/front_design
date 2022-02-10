@@ -9,10 +9,10 @@
                 <a target="_blank" href="https://twitter.com/lonpo_shop_sjd"><img class="img-fluid" src="./images/icons/i-twitter.svg" alt="twitter" title="twitter" width="40"></a>
             </div>
             <div class="sns-item">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=100016980709112"><img class="img-fluid" src="./images/icons/i-facebook.svg" alt="facebook" title="facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/shojudo_official/"><img class="img-fluid" src="./images/icons/i-instagram.svg" alt="instagram" title="instagram"></a>
             </div>
             <div class="sns-item">
-                <a target="_blank" href="https://www.instagram.com/shojudo_official/"><img class="img-fluid" src="./images/icons/i-instagram.svg" alt="instagram" title="instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100016980709112"><img class="img-fluid" src="./images/icons/i-facebook.svg" alt="facebook" title="facebook"></a>
             </div>
         </div>
         <div class="signature">

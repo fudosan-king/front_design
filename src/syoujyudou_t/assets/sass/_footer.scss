@@ -1,6 +1,5 @@
 .footer-bottom{
     background: #FF7B16;
-    padding:15px;
     @media (max-width:767px){
         padding-bottom: 0;
     }
@@ -10,6 +9,7 @@
         justify-content:center;
         @media (max-width:767px){
             flex-flow:wrap;
+            padding: 10px 0 0;
         }
         .footer-top_box{
             margin-right:20px;
@@ -38,6 +38,13 @@
         line-height: 0.9;
         letter-spacing: .08em;
         color: #FFFFFF;
+        a {
+            padding: 24px 0;
+            display: block;
+            @media (max-width:767px){
+                padding: 0;
+            }
+        }
         @media (max-width:991px){
             font-size:1.5rem;
         }
@@ -64,7 +71,7 @@
 
 .footer-top{
     background: #1238A6;
-    padding-bottom:96px;
+    padding-bottom: 105px;
     @media (max-width:767px){
         padding-bottom: 136px;
     }
