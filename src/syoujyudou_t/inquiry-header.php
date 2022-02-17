@@ -26,16 +26,15 @@
     <meta name="robots" content="index,follow">
     <meta property="og:type" content="website">
 
-    <!--  Meta landing page -->
-    <title>商品券・クーポン券・金券類の偽造防止印刷なら昇寿堂にお任せください</title>
-    <meta property="og:title" content="商品券・クーポン券・金券類の偽造防止印刷なら昇寿堂にお任せください">
-    <meta name="description" content="偽造防止加工を施した商品券・クーポン券・金券類の印刷承ります。長年培った偽造防止技術の経験とノウハウからお客様へ最適なご提案が可能です。自治体、商工会、商店街、百貨店、ショッピングモール、飲食店、ホテルほか全国多数の製造実績があります。" />
-    <meta name="keywords" content="商品券、クーポン券、金券類、偽造防止" />
-    <meta property="og:url" content="https://fe.logknot.co.jp/syoujyudou_t">
+    <!-- Meta inquiry page -->
+    <title>お問い合わせ｜株式会社昇寿堂オフィシャルサイト</title>
+    <meta property="og:title" content="お問い合わせ｜株式会社昇寿堂オフィシャルサイト">
+    <meta name="description" content="法人様用お問い合わせはこちら" />
+    <meta name="keywords" content="商品券等,クーポン券,金券類,セキュリティ印刷,ホログラム加工,封印シール,昇寿堂" />
+    <meta property="og:url" content="https://fe.logknot.co.jp/syoujyudou_t/inquiry.php">
     <meta property="og:site_name" content="株式会社昇寿堂オフィシャルサイト">
     <meta property="og:image" content="">
-    <!-- End meta landing page -->
-
+    <!-- End meta inquỉy page -->
 
     <!-- 実際にHPの<HEAD>部分に書かれているもの -->
     <script>
