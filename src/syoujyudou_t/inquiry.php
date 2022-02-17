@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'inquiry-header.php'; ?>
 <div class="navigation nav-form nav-white">
 <?php include 'navigation.php'; ?>
 </div>

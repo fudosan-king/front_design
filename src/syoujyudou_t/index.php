@@ -165,14 +165,14 @@
                         <h2 class="mb-4"><span class="d-block d-md-inline-block">昇寿堂が誇る</span>商品券・クーポン券・金券類の<br>
                             <span class="underline">偽造防止加工</span>の一例</h2>
                     </div>
-                    <p class="txt-blue"><span class="d-block d-md-inline-block">商品券・クーポン券・金券類に関する</span>デザインのご相談から<br><span class="d-block d-md-inline-block">バーコード、QR コード・ナンバリング印字、</span>製本含め一括で承ります。</p>
+                    <p class="txt-blue"><span class="d-block d-md-inline-block">商品券・クーポン券・金券類に関する</span>デザインのご相談から<br><span class="d-block d-md-inline-block">バーコード・QRコード・ナンバリング印字</span>製本含め一括で承ります。</p>
                     <div class="graphic-img-txt flex-lg-row-reverse">
                         <!-- <img class="img-fluid" src="./images/top-page/graphic-1.jpg" alt="" title=""> -->
                         
                         <div class="graphic-txt">
                             <p class="sm-title">セキュリティ界の王様</p>
                             <h3>ホログラム</h3>
-                            <p>セキュリティ度 No1 のホログラムは、 スキャニングカラーコピー・印刷複製対策すべてに効果抜群！ <br>
+                            <p>セキュリティ度 No1 のホログラムは、スキャニング・カラーコピー・印刷複製すべてに効果抜群！ <br>
                             商品券自体への付加価値も高まります。</p>
                         </div>
                         <div class="graphic_video">
@@ -225,7 +225,7 @@
                 <p>実際に、地域復興クーポン券の印刷状態によって本物か偽物か判別が難しくトラブルに発展した事例も見受けられました。偽造自体をさせないことも重要ですが、万一偽造品が出回ってしまった際にお客様が本物と偽物を見分けられることも危機管理として求められます。</p>
                 <img class="img-fluid img-center mt-5 mb-5" src="./images/top-page/chosen.png" alt="" title="">
                 <p>ビジネスフォームのパイオニアとして1947 年創業の弊社では、商品券や偽造防止技術に関して長年の経験から培った独自のノウハウがあります。「商品券を作るのに何から始めたらよいか分からない」「偽造されないためにはどんな技術が必要なのか知りたい」といったお客様にも、ご要望に合わせたご提案が可能です。</p> 
-                <a  href="inquiry.php" class="btn btn-action-orange">
+                <a  href="https://www.shojudo.co.jp/technology/security/index.html" class="btn btn-action-orange">
                     <span class="txt-left size-32">偽造防止印刷について<br>詳しく知りたい方は</span>
                     <i class="i-cus i-arrow-action"></i>
                     <span class="txt-right">
