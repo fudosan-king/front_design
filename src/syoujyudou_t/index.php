@@ -64,7 +64,7 @@
             <div class="box-blue">T都O市、F県Y市、T県N町、S県S市、I県T市 、M県M町、N県A市、K県A町、A県A市、Y県U市<br>
             <span>自治体、商工会、商店街、百貨店、ショッピングモール、飲食店、ホテル、観光施設ほか全国多数</span></div>
             <p class="text-center">このほか、全国各地に<span class="d-block d-md-inline-block">お引き合い実績がございます。</span></p>
-            <a  href="#" class="btn btn-action-orange">
+            <a  href="inquiry.php" class="btn btn-action-orange">
                 <span class="txt-left size-42">まずはお問い合わせ</span>
                 <i class="i-cus i-arrow-action"></i>
                 <span class="txt-right">
@@ -309,7 +309,7 @@
                     </div>
                 </div>
                 </div>
-                <a  href="#" class="btn btn-action-orange w320">
+                <a  href="inquiry.php" class="btn btn-action-orange w320">
                     <span class="txt-left size-32">お問い合わせ・お申し込み</span>
                     <i class="i-cus i-arrow-action"></i>
                     <span class="txt-right">
