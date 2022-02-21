@@ -64,7 +64,7 @@
             <div class="box-blue">T都O市、F県Y市、T県N町、S県S市、I県T市 、M県M町、N県A市、K県A町、A県A市、Y県U市<br>
             <span>自治体、商工会、商店街、百貨店、ショッピングモール、飲食店、ホテル、観光施設ほか全国多数</span></div>
             <p class="text-center">このほか、全国各地に<span class="d-block d-md-inline-block">お引き合い実績がございます。</span></p>
-            <a  href="inquiry.php" class="btn btn-action-orange">
+            <a  href="#" class="btn btn-action-orange">
                 <span class="txt-left size-42">まずはお問い合わせ</span>
                 <i class="i-cus i-arrow-action"></i>
                 <span class="txt-right">
@@ -225,7 +225,7 @@
                 <p>実際に、地域復興クーポン券の印刷状態によって本物か偽物か判別が難しくトラブルに発展した事例も見受けられました。偽造自体をさせないことも重要ですが、万一偽造品が出回ってしまった際にお客様が本物と偽物を見分けられることも危機管理として求められます。</p>
                 <img class="img-fluid img-center mt-5 mb-5" src="./images/top-page/chosen.png" alt="" title="">
                 <p>ビジネスフォームのパイオニアとして1947 年創業の弊社では、商品券や偽造防止技術に関して長年の経験から培った独自のノウハウがあります。「商品券を作るのに何から始めたらよいか分からない」「偽造されないためにはどんな技術が必要なのか知りたい」といったお客様にも、ご要望に合わせたご提案が可能です。</p> 
-                <a  href="https://www.shojudo.co.jp/technology/security/index.html" class="btn btn-action-orange">
+                <a  href="https://www.shojudo.co.jp/technology/security/index.html" target="_blank" class="btn btn-action-orange">
                     <span class="txt-left size-32">偽造防止印刷について<br>詳しく知りたい方は</span>
                     <i class="i-cus i-arrow-action"></i>
                     <span class="txt-right">
@@ -309,7 +309,7 @@
                     </div>
                 </div>
                 </div>
-                <a  href="inquiry.php" class="btn btn-action-orange w320">
+                <a  href="#" class="btn btn-action-orange w320">
                     <span class="txt-left size-32">お問い合わせ・お申し込み</span>
                     <i class="i-cus i-arrow-action"></i>
                     <span class="txt-right">
