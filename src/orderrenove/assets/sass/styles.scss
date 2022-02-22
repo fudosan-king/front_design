@@ -892,22 +892,32 @@ footer {
     background: #fff;
     padding: 25px;
     margin-bottom: 40px;
-    h1 {
+    .renovationproperty_price {
       background: rgba(129, 145, 157, .2);
       padding: 20px;
       text-align: center;
-      font-size: 0.875em;
       margin-bottom: 30px;
+      h2 {
+        display: inline-block;
+        font-size: 0.875em;
+        margin-bottom: 0;
+        color: #000;
+      }
       span {
-        font-size: 2.5714em;
+        font-size: 2.25em;
         color: #F08865;
+        font-weight: 700;
+        display: inline-block;
       }
       i {
         font-style: normal;
         color: #F08865;
+        font-size: 0.875em;
       }
       .fee {
-        font-size: 0.8125em;
+        font-size: 0.75em;
+        font-weight: 600;
+        color: #000;
       }
     }
     .frm_calcu {

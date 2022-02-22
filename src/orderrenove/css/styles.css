@@ -1058,26 +1058,37 @@ footer .footer_bottom .btn img {
     margin-bottom: 40px;
 }
 
-.section_property_main .box_calcu h1 {
+.section_property_main .box_calcu .renovationproperty_price {
     background: rgba(129, 145, 157, 0.2);
     padding: 20px;
     text-align: center;
-    font-size: 0.875em;
     margin-bottom: 30px;
 }
 
-.section_property_main .box_calcu h1 span {
-    font-size: 2.5714em;
-    color: #F08865;
+.section_property_main .box_calcu .renovationproperty_price h2 {
+    display: inline-block;
+    font-size: 0.875em;
+    margin-bottom: 0;
+    color: #000;
 }
 
-.section_property_main .box_calcu h1 i {
+.section_property_main .box_calcu .renovationproperty_price span {
+    font-size: 2.25em;
+    color: #F08865;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.section_property_main .box_calcu .renovationproperty_price i {
     font-style: normal;
     color: #F08865;
+    font-size: 0.875em;
 }
 
-.section_property_main .box_calcu h1 .fee {
-    font-size: 0.8125em;
+.section_property_main .box_calcu .renovationproperty_price .fee {
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #000;
 }
 
 .section_property_main .box_calcu .frm_calcu h5 {
