@@ -365,13 +365,12 @@ h3 {
 
 .box_notice {
     margin: 15px 10px;
-    height: 80%;
+    min-height: 80%;
     display: none;
 }
 
 .box_notice .card {
     width: 25rem;
-    height: 100%;
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: 1px solid #ccc;
