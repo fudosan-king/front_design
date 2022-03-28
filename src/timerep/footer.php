@@ -38,7 +38,7 @@
         </li> -->
     </ul>
     <div class="right_content">
-        <a href="#box_notice" class="btn_edit" data-bs-toggle="collapse"></a>
-        <a href="#box_chat" class="btn_chat active" data-bs-toggle="collapse"></a>
+        <a href="#box_notice" class="btn_edit"></a>
+        <a href="#box_chat" class="btn_chat active"></a>
     </div>
 </footer>

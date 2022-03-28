@@ -38,7 +38,7 @@
                         </li>
                         <li>
                             <span class="base_img">
-                                <img src="images/svg/i_slash.svg" alt="" class="img-fluid w-25 h-auto" width="42">
+                                <img src="images/svg/i_slash.svg" alt="" class="img-fluid w-25 h-a" width="42">
                                 <a href="#"><img src="images/svg/i_call_white.svg" alt="" class="img-fluid" width="16"> コールする</a>
                             </span>
                             <p>customer_A</p>
@@ -123,66 +123,68 @@
             <div class="box_main_right">
                 <div class="box_right_top">
                     <img src="images/avatar/img_men2.jpg" alt="" class="img-fluid w-100">
-                    <a href="#box_emotion" class="btn_emotion" data-bs-toggle="collapse">
+                    <a href="#box_emotion" class="btn_emotion">
                         <img src="images/svg/i_emotion.svg" alt="" class="img-fluid" width="36">
                     </a>
-                    <ul id="box_emotion" class="box_emotion collapse multi-collapse">
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_nod.svg" alt="" class="img-fluid" width="50">
-                                <span>うなずき</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_laughter.svg" alt="" class="img-fluid" width="40">
-                                <span>笑い</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_sympathy.svg" alt="" class="img-fluid" width="40">
-                                <span>共感</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_cry.svg" alt="" class="img-fluid" width="50">
-                                <span>共感</span>
-                            </a>
-                        </li>
+                    <div id="box_emotion" class="w_box_emotion">
+                        <ul class="box_emotion">
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_nod.svg" alt="" class="img-fluid" width="50">
+                                    <span>うなずき</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_laughter.svg" alt="" class="img-fluid" width="40">
+                                    <span>笑い</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_sympathy.svg" alt="" class="img-fluid" width="40">
+                                    <span>共感</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_cry.svg" alt="" class="img-fluid" width="50">
+                                    <span>共感</span>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_wavinghands.svg" alt="" class="img-fluid" width="59">
-                                <span>手をふる</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_shakeyourhead.svg" alt="" class="img-fluid" width="61">
-                                <span>首を振る</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_bow.svg" alt="" class="img-fluid" width="40">
-                                <span>おじぎ</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/svg/i_perfect.svg" alt="" class="img-fluid" width="50">
-                                <span>ばっちり!</span>
-                            </a>
-                        </li>
-                    </ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_wavinghands.svg" alt="" class="img-fluid" width="59">
+                                    <span>手をふる</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_shakeyourhead.svg" alt="" class="img-fluid" width="61">
+                                    <span>首を振る</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_bow.svg" alt="" class="img-fluid" width="40">
+                                    <span>おじぎ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/svg/i_perfect.svg" alt="" class="img-fluid" width="50">
+                                    <span>ばっちり!</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div id="box_chat" class="box_notice collapse multi-collapse">
+            <div id="box_chat" class="box_notice">
                 <div class="card mb-3">
-                    <div class="card-header">お知らせ <a href="#box_chat" class="btn_close"  data-bs-toggle="collapse"><img src="images/svg/i_close.svg" alt="" class="img-fluid" width="15"></a></div>
+                    <div class="card-header">お知らせ <a href="#box_chat" class="btn_close"><img src="images/svg/i_close.svg" alt="" class="img-fluid" width="15"></a></div>
                     <div class="card-body text-secondary pe-1">
                         <div class="box_mes">
                             <div class="msg msg_from">
@@ -194,13 +196,22 @@
                                     <span class="time">13:00</span>
                                 </div>
                             </div>
-                            <div class="msg msg_to">
-                                <div class="content_ms">
-                                    <span>Do not write me anymore.</span>
-                                    <span class="time">13:32</span>
+                            <div class="msg msg_from">
+                                <div class="recepient">
+                                    <span class="icon"><img class="img-fluid" src="images/svg/i_people.svg"></span>
                                 </div>
-                                <div class="sender">
-                                <span class="icon"><img class="img-fluid" src="images/svg/i_people.svg"></span>
+                                <div class="content_ms">
+                                    <span>テキストテキステキストトテキステキストテキステキストトテキステキストトテキステテキステキストトテキステキストトテキステ</span>
+                                    <span class="time">13:02</span>
+                                </div>
+                            </div>
+                            <div class="msg msg_from">
+                                <div class="recepient">
+                                    <span class="icon"><img class="img-fluid" src="images/svg/i_people.svg"></span>
+                                </div>
+                                <div class="content_ms">
+                                    <span>テキストテキステキストトテキステキストテキステキストトテキステキストトテキステテキステキストトテキステキストトテキステ</span>
+                                    <span class="time">13:10</span>
                                 </div>
                             </div>
                             <div class="msg msg_from">
@@ -212,13 +223,13 @@
                                     <span class="time">13:00</span>
                                 </div>
                             </div>
-                            <div class="msg msg_to">
-                                <div class="content_ms">
-                                    <span>Do not write me anymore.</span>
-                                    <span class="time">13:32</span>
+                            <div class="msg msg_from">
+                                <div class="recepient">
+                                    <span class="icon"><img class="img-fluid" src="images/svg/i_people.svg"></span>
                                 </div>
-                                <div class="sender">
-                                <span class="icon"><img class="img-fluid" src="images/svg/i_people.svg"></span>
+                                <div class="content_ms">
+                                    <span>テキストテキステキストトテキステキストテキステキストトテキステキストトテキステテキステキストトテキステキストトテキステ</span>
+                                    <span class="time">13:02</span>
                                 </div>
                             </div>
                             <div class="msg msg_from">
@@ -227,16 +238,7 @@
                                 </div>
                                 <div class="content_ms">
                                     <span>テキストテキステキストトテキステキストテキステキストトテキステキストトテキステテキステキストトテキステキストトテキステ</span>
-                                    <span class="time">13:00</span>
-                                </div>
-                            </div>
-                            <div class="msg msg_to">
-                                <div class="content_ms">
-                                    <span>Do not write me anymore.</span>
-                                    <span class="time">13:32</span>
-                                </div>
-                                <div class="sender">
-                                <span class="icon"><img class="img-fluid" src="images/svg/i_people.svg"></span>
+                                    <span class="time">13:10</span>
                                 </div>
                             </div>
                         </div>
@@ -248,26 +250,22 @@
                 </div>
             </div>
 
-            <div id="box_notice" class="box_notice collapse multi-collapse">
+            <div id="box_notice" class="box_notice">
                 <div class="card mb-3">
-                    <div class="card-header">メモ <a href="#box_notice" class="btn_close"  data-bs-toggle="collapse"><img src="images/svg/i_close.svg" alt="" class="img-fluid" width="15"></a></div>
+                    <div class="card-header">メモ <a href="#box_notice" class="btn_close"><img src="images/svg/i_close.svg" alt="" class="img-fluid" width="15"></a></div>
                     <div class="card-body text-secondary">
                         <form action="" class="frm_notice">
                             <div class="mb-3">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <select name="" class="form-select">
-                                            <option selected>履歴5</option>
-                                            <option value="">履歴4</option>
-                                            <option value="">...</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <a href="#" class="btn btn_newmemo">
-                                            <img src="images/svg/i_add.svg" alt="" class="img-fluid" width="26">
-                                            メモを新規分割
-                                        </a>
-                                    </div>
+                                <div class="d-flex">
+                                    <select name="" class="form-select">
+                                        <option selected>履歴5</option>
+                                        <option value="">履歴4</option>
+                                        <option value="">...</option>
+                                    </select>
+                                    <a href="#" class="btn btn_newmemo">
+                                        <img src="images/svg/i_add.svg" alt="" class="img-fluid" width="26">
+                                        メモを新規分割
+                                    </a>
                                 </div>
                             </div>
                             <div class="mb-3">
@@ -276,21 +274,21 @@
                             </div>
                             <div class="mb-3">
                                 <label for="">性別</label>
-                                <select name="" class="form-select">
+                                <select name="" class="form-select w-100">
                                     <option selected>選択してください</option>
                                     <option value="">...</option>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label for="">年代</label>
-                                <select name="" class="form-select">
+                                <select name="" class="form-select w-100">
                                     <option selected>選択してください</option>
                                     <option value="">...</option>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label for="">問い合わせ内容</label>
-                                <select name="" class="form-select">
+                                <select name="" class="form-select w-100">
                                     <option selected>選択してください</option>
                                     <option value="">...</option>
                                 </select>

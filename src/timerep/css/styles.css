@@ -2,6 +2,7 @@
 
 a {
     color: black;
+    text-decoration: none;
 }
 
 .btn {
@@ -10,6 +11,7 @@ a {
     text-transform: uppercase;
     background: black;
     font-size: 1em;
+    padding: 5px;
 }
 
 .btn, a, .btn:hover {
@@ -69,6 +71,12 @@ body {
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
 }
 
 .btn-link {
@@ -356,8 +364,9 @@ h3 {
 }
 
 .box_notice {
-    margin: 0 10px 15px;
+    margin: 15px 10px;
     height: 80%;
+    display: none;
 }
 
 .box_notice .card {
@@ -365,18 +374,28 @@ h3 {
     height: 100%;
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    background: #fff;
 }
 
 .box_notice .card .card-header {
     border-bottom: none;
     position: relative;
     padding: 10px 15px;
+    background: #eee;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .box_notice .card .card-header .btn_close {
     position: absolute;
     right: 15px;
-    top: 5px;
+    top: 10px;
+}
+
+.box_notice .card .card-body {
+    padding: 15px;
 }
 
 header {
@@ -387,7 +406,7 @@ header {
 }
 
 header .customer_info p {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .btn_open {
@@ -415,6 +434,8 @@ header .customer_info p {
     margin-right: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    margin-left: auto;
 }
 
 .btn_transfercall:hover {
@@ -553,6 +574,10 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
 
 .btn_emotion:hover {
     background: #000;
+}
+
+.w_box_emotion {
+    display: none;
 }
 
 .box_emotion {
@@ -872,10 +897,31 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
     }
 }
 
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-25 {
+    width: auto !important;
+}
+
+.h-a {
+    height: auto !important;
+}
+
 .frm_notice label {
     margin-bottom: 5px;
     color: #000;
     font-size: 0.875em;
+    display: block;
 }
 
 .frm_notice select {
@@ -885,11 +931,26 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
 
 .frm_notice textarea {
     font-size: 0.875em;
+    width: 100%;
+    border: 1px solid #B4B4B4;
+    padding: 10px;
+    height: 165px;
+}
+
+.frm_notice .form-select {
+    border-radius: 8px;
+    width: 48%;
+    border: 1px solid #B4B4B4;
+    padding: 5px 10px;
 }
 
 .frm_notice .form-select:focus {
     box-shadow: none;
     border-color: #40BCC9;
+}
+
+.frm_notice .form-check label {
+    display: inline-block;
 }
 
 .frm_notice .form-check-input:checked {
@@ -907,6 +968,8 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
     font-size: 0.875em;
     padding-top: 7px;
     padding-bottom: 7px;
+    width: 48%;
+    margin-left: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1053,6 +1116,8 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
     border-radius: 8px;
     height: 56px;
     font-size: 0.875em;
+    width: 100%;
+    padding: 5px 10px;
 }
 
 .box_input input:focus {
@@ -1061,6 +1126,7 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
 }
 
 .box_input .btn_send {
+    border: none;
     position: absolute;
     right: 5px;
     top: 20px;
@@ -1072,6 +1138,7 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
 }
 
 .box_input .btn_send:hover {
+    cursor: pointer;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 21 18' style='enable-background:new 0 0 21 18;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%2340BCC9;fill-opacity:0.54;%7d %3c/style%3e%3cpath class='st0' d='M0,18l21-9L0,0l0,7l15,2L0,11L0,18z'/%3e%3c/svg%3e ");
 }
 
@@ -1129,6 +1196,7 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
 
     .section_main {
         display: block;
+        padding-bottom: 150px;
     }
 
     .box_main_left {
@@ -1186,10 +1254,6 @@ footer .right_content .btn_edit.active, footer .right_content .btn_edit:hover {
         width: 100%;
         max-width: 100% !important;
         height: auto;
-    }
-
-    .frm_notice .btn_newmemo {
-        margin-top: 10px;
     }
 
     .btn_notice {
