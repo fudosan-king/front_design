@@ -256,21 +256,21 @@
                     <div class="card-body text-secondary">
                         <form action="" class="frm_notice">
                             <div class="mb-3">
-                                <div class="d-flex">
-                                    <select name="" class="form-select">
+                                <div class="clb">
+                                    <select name="" class="form-select" style="float: left;">
                                         <option selected>履歴5</option>
                                         <option value="">履歴4</option>
                                         <option value="">...</option>
                                     </select>
                                     <a href="#" class="btn btn_newmemo">
                                         <img src="images/svg/i_add.svg" alt="" class="img-fluid" width="26">
-                                        メモを新規分割
+                                        <span>メモを新規分割</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <label for="">フリーメモ</label>
-                                <textarea name="" class="form-control" cols="30" rows="6" placeholder="ここにテキストを入力"></textarea>
+                                <textarea name="" class="form-control mt-3" cols="30" rows="6" placeholder="ここにテキストを入力"></textarea>
                             </div>
                             <div class="mb-3">
                                 <label for="">性別</label>
