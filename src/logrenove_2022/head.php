@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>リノベーション | LogRenove(ログリノベ)</title>
-<meta name="description" content="">
+<meta name="description" content="リノベーションをリノベーションするライフスタイルメディア">
 <meta name="keywords" content="リノベーション, リフォーム, ログリノベ, LogRenove">
 
 <link rel="apple-touch-icon" sizes="152x152" href="favicon_package_v0.16/apple-touch-icon.png">
