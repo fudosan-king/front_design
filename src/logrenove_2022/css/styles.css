@@ -1278,11 +1278,6 @@ footer p a:hover {
         padding: 0;
     }
 
-    .carousel.carousel_conditions .carousel-cell {
-        width: 100%;
-        margin-right: 0;
-    }
-
     .property_vertical {
         padding: 0;
         margin: 0;
@@ -1613,7 +1608,7 @@ footer p a:hover {
 }
 
 @media (max-width: 414px) {
-    .carousel.carousel_property .carousel-cell {
+    .carousel.carousel_property .carousel-cell, .carousel.carousel_conditions .carousel-cell {
         margin-right: 0;
         width: 100%;
     }
