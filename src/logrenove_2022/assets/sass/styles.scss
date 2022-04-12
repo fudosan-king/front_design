@@ -1201,10 +1201,6 @@ footer {
     .carousel {
         &.carousel_conditions {
             padding: 0;
-            .carousel-cell {
-                width: 100%;
-                margin-right: 0;
-            }
         }
         &.carousel_property {
         }
@@ -1531,7 +1527,7 @@ footer {
 
 @media (max-width: 414px) {
     .carousel {
-        &.carousel_property {
+        &.carousel_property, &.carousel_conditions {
             .carousel-cell {
                 margin-right: 0;
                 width: 100%;
