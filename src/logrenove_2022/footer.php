@@ -3,14 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12">
-                    <p><a href="#"><img src="images/icons/LogRenove_logo_white.svg" alt="" class="img-fluid" width="210"></a></p>
+                    <p><a href="#"><img src="images/icons/LogRenove_logo_white.svg" alt="LogRenove_logo_white" class="img-fluid" width="210"></a></p>
                     <ul>
-                        <li><a href="">お問い合わせ</a></li>
-                        <li><a href="">プライバシーポリシー</a></li>
-                        <li><a href="">ソーシャルメディアポリシー</a></li>
-                        <li><a href="">利用規約</a></li>
-                        <li><a href="">運営会社（企業情報）</a></li>
-                        <li><a href="">反社会的勢力排除に関する基本方針</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">ソーシャルメディアポリシー</a></li>
+                        <li><a href="#">利用規約</a></li>
+                        <li><a href="#">運営会社（企業情報）</a></li>
+                        <li><a href="#">反社会的勢力排除に関する基本方針</a></li>
                     </ul>
                 </div>
             </div>
@@ -22,11 +22,11 @@
             <div class="row">
                 <div class="col-12 col-lg-12">
                     <ul>
-                        <li><a href="#"><img src="images/icons/LogSuite_white.svg" alt="" class="img-fluid" width="83"></a></li>
-                        <li><a href="#"><img src="images/icons/LogArchitects_white.svg" alt="" class="img-fluid" width="116"></a></li>
-                        <li><a href="#"><img src="images/icons/LogKnot_white.svg" alt="" class="img-fluid" width="84"></a></li>
+                        <li><a href="#"><img src="images/icons/LogSuite_white.svg" alt="LogSuite_white" class="img-fluid" width="83"></a></li>
+                        <li><a href="#"><img src="images/icons/LogArchitects_white.svg" alt="LogArchitects_white" class="img-fluid" width="116"></a></li>
+                        <li><a href="#"><img src="images/icons/LogKnot_white.svg" alt="LogKnot_white" class="img-fluid" width="84"></a></li>
                     </ul>
-                    <p><small>Copyright © <a href="index.php">LogSuite.</a> All Rights Reserved.</small></p>
+                    <p><small>Copyright © <a target="_blank" href="index.php">LogSuite.</a> All Rights Reserved.</small></p>
                 </div>
             </div>
         </div>
@@ -34,6 +34,6 @@
 </footer>
 
 <div class="box_bottom fixed-bottom">
-    <a href="#" class="btn"><img src="images/icons/i_mail.svg" alt="" class="img-fluid" width="18"> お問い合わせ・内覧予約</a>
-    <a href="" class="btn"><img src="images/icons/i_phone.svg" alt="" class="img-fluid" width="20"> 0120-991-657</a>
+    <a href="mailto:" class="btn"><img src="images/icons/i_mail.svg" alt="i_mail" class="img-fluid" width="18"> お問い合わせ・内覧予約</a>
+    <a href="tel:0120991657" class="btn"><img src="images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20"> 0120-991-657</a>
 </div>

@@ -7,7 +7,7 @@
 
         <main>
             <section class="section_banner">
-                <img src="images/bg_top.jpg" alt="" class="img-fluid">
+                <img src="images/bg_top.jpg" alt="bg_top" class="img-fluid">
             </section>
 
             <section class="section_head">
@@ -23,11 +23,11 @@
                                 <h2 class="title">物件情報</h2>
                                 <p class="totalprocess">全 <span>11</span> 件　募集中 <span class="pink">2</span> 件</p>
                             </div>
-                            <div class="carousel carousel_property d-none d-lg-block">
+                            <div class="carousel carousel_property d-none d-xs-block d-sm-block d-lg-block">
                                 <div class="carousel-cell">
                                     <a href="detail.php" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img06.jpg" alt="" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             <span class="label_status">募集中</span>
                                         </div>
                                         <div class="box_footer">
@@ -39,7 +39,7 @@
                                 <div class="carousel-cell">
                                     <a href="detail.php" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img06.jpg" alt="" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             <span class="label_status">募集中</span>
                                         </div>
                                         <div class="box_footer">
@@ -51,7 +51,7 @@
                                 <div class="carousel-cell">
                                     <a href="detail.php" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img06.jpg" alt="" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             <span class="label_status contracted">成約済</span>
                                         </div>
                                         <div class="box_footer">
@@ -63,7 +63,7 @@
                                 <div class="carousel-cell">
                                     <a href="detail.php" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img06.jpg" alt="" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             <span class="label_status contracted">成約済</span>
                                         </div>
                                         <div class="box_footer">
@@ -75,7 +75,7 @@
                                 <div class="carousel-cell">
                                     <a href="detail.php" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img06.jpg" alt="" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             <span class="label_status">募集中</span>
                                         </div>
                                         <div class="box_footer">
@@ -87,7 +87,7 @@
                                 <div class="carousel-cell">
                                     <a href="detail.php" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img06.jpg" alt="" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             <span class="label_status">募集中</span>
                                         </div>
                                         <div class="box_footer">
@@ -98,13 +98,13 @@
                                 </div>
                             </div>
 
-                            <div class="carousel carousel_conditions d-block d-lg-none">
+                            <div class="carousel carousel_conditions d-block d-xs-none d-sm-none d-lg-none">
                                 <div class="carousel-cell">
                                     <ul class="property_vertical">
                                         <li>
                                             <a href="#">
                                                 <div class="box_img">
-                                                    <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                                     <span class="label_status">募集中</span>
                                                 </div>
                                                 <div class="box_content">
@@ -132,7 +132,7 @@
                                         <li>
                                             <a href="#">
                                                 <div class="box_img">
-                                                    <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                                     <span class="label_status">募集中</span>
                                                 </div>
                                                 <div class="box_content">
@@ -160,7 +160,7 @@
                                         <li>
                                             <a href="#">
                                                 <div class="box_img">
-                                                    <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                                     <span class="label_status contracted">成約済</span>
                                                 </div>
                                                 <div class="box_content">
@@ -192,7 +192,7 @@
                                         <li>
                                             <a href="#">
                                                 <div class="box_img">
-                                                    <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                                     <span class="label_status contracted">成約済</span>
                                                 </div>
                                                 <div class="box_content">
@@ -308,25 +308,25 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/i_deliverybox.svg" alt="" class="img-fluid" width="40">
+                                        <img src="images/icons/i_deliverybox.svg" alt="i_deliverybox" class="img-fluid" width="40">
                                         <span>宅配ボックス</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/i_parking.svg" alt="" class="img-fluid" width="40">
+                                        <img src="images/icons/i_parking.svg" alt="i_parking" class="img-fluid" width="40">
                                         <span>駐車場相談</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/i_gasstove.svg" alt="" class="img-fluid" width="40">
+                                        <img src="images/icons/i_gasstove.svg" alt="i_gasstove" class="img-fluid" width="40">
                                         <span>オール家電</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/i_terrace.svg" alt="" class="img-fluid" width="40">
+                                        <img src="images/icons/i_terrace.svg" alt="i_terrace" class="img-fluid" width="40">
                                         <span>角部屋</span>
                                     </a>
                                 </li>
@@ -338,7 +338,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/i_pet.svg" alt="" class="img-fluid" width="40">
+                                        <img src="images/icons/i_pet.svg" alt="i_pet" class="img-fluid" width="40">
                                         <span>ペット相談</span>
                                     </a>
                                 </li>
@@ -393,29 +393,29 @@
                         <div class="col-12 col-lg-12">
                             <h2 class="title">マンション詳細情報</h2>
                             <figure class="figure">
-                                <img src="images/img01.jpg" class="figure-img img-fluid d-none d-lg-block" alt="...">
-                                <img src="images/img01_sp.jpg" class="figure-img img-fluid d-block d-lg-none" alt="...">
+                                <img src="images/img01.jpg" class="figure-img img-fluid d-none d-lg-block" alt="img01">
+                                <img src="images/img01_sp.jpg" class="figure-img img-fluid d-block d-lg-none" alt="img01_sp">
                                 <figcaption class="figure-caption">青空にキレイに映えた真っ白な外観。平成築のデザイナーズマンションは建築家、新居千秋氏による設計のもの。大和ハウス㈱旧分譲物件です。</figcaption>
                             </figure>
                             <figure class="figure">
                                 <div class="figure_row">
-                                    <img src="images/img02.jpg" class="figure-img img-fluid" alt="...">
-                                    <img src="images/img02_.jpg" class="figure-img img-fluid" alt="...">
+                                    <img src="images/img02.jpg" class="figure-img img-fluid" alt="img02">
+                                    <img src="images/img02_.jpg" class="figure-img img-fluid" alt="img02_">
                                 </div>
                                 <figcaption class="figure-caption">管理体制の良さを感じさせる環境。敷地内駐輪場完備。駐車場は<span>３ナンバーにも対応</span>しています。</figcaption>
                             </figure>
                             <figure class="figure">
-                                <img src="images/img03.jpg" class="figure-img img-fluid" alt="...">
+                                <img src="images/img03.jpg" class="figure-img img-fluid" alt="img03">
                                 <figcaption class="figure-caption">エントランスには御影石を使用。落ち着いた雰囲気が演出されています。</figcaption>
                             </figure>
                             <figure class="figure">
-                                <img src="images/img04.jpg" class="figure-img img-fluid" alt="...">
+                                <img src="images/img04.jpg" class="figure-img img-fluid" alt="img04">
                                 <figcaption class="figure-caption">モダンなホテルを彷彿とさせるホテルライクなエレベーター。</figcaption>
                             </figure>
                             <figure class="figure">
                                 <div class="figure_row">
-                                    <img src="images/img05.jpg" class="figure-img img-fluid" alt="...">
-                                    <img src="images/img05_.jpg" class="figure-img img-fluid" alt="...">
+                                    <img src="images/img05.jpg" class="figure-img img-fluid" alt="img05">
+                                    <img src="images/img05_.jpg" class="figure-img img-fluid" alt="img05_">
                                 </div>
                                 <figcaption class="figure-caption">セキュリティは二重オートロック＆24時間セキュリティシステム＆防犯カメラ＆ディンプルキー、日勤の管理人によって厳重な管理体制が整っていています。内廊下もホテルライクで管理体制お良さを実感できます。</figcaption>
                             </figure>
@@ -492,7 +492,7 @@
                                 <h3>番町千鳥ヶ淵アビタシオンを｢売りたい｣オーナー様へ</h3>
                                 <p>{マンション名}の売却・査定のご相談を承っております。<br>
                                 お気軽にお問い合わせください。</p>
-                                <a href="#" class="btn"><img src="images/icons/i_mail.svg" alt="" class="img-fluid" width="18">売却・査定のご相談</a>
+                                <a href="#" class="btn"><img src="images/icons/i_mail.svg" alt="i_mail" class="img-fluid" width="18">売却・査定のご相談</a>
                             </div>
                         </div>
                     </div>
@@ -504,13 +504,13 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="box_logo">
-                                <img src="images/icons/logSuite_vertical.svg" alt="" class="img-fluid" width="60">
+                                <img src="images/icons/logSuite_vertical.svg" alt="logSuite_vertical" class="img-fluid" width="60">
                             </div>
                             <h2 class="title">株式会社LogSuite表参道ショールームq</h2>
-                            <p class="phone"><img src="images/icons/i_freecall.svg" alt="" class="img-fluid" width="37"> 0120-991-657</p>
+                            <p class="phone"><img src="images/icons/i_freecall.svg" alt="i_freecall" class="img-fluid" width="37"> 0120-991-657</p>
                             <p>LogSuiteは、利便性とステイタスを兼ね備えた高級物件を数多く取り扱っています。<br>
                             天然木を多用した高級リノベーション物件「Logmansion」ブランドも好評展開中。都心で物件を探している方、ぜひお問い合わせください。</p>
-                            <a href="#" class="btn_more float-lg-end float-none">MORE DETAIL <img src="images/icons/i_arrow_right.svg" alt="" class="img-fluid" width="20"></a>
+                            <a href="#" class="btn_more float-lg-end float-none">MORE DETAIL <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                         </div>
                     </div>
                 </div>
@@ -521,13 +521,13 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <h2 class="title"><span>渋谷・松濤・南平台</span>エリアのマンション</h2>
-                            <p class="text-right"><a href="#" class="btn_more">同じエリアのマンションを見る <img src="images/icons/i_arrow_right.svg" alt="" class="img-fluid" width="20"></a></p>
+                            <p class="text-right"><a href="#" class="btn_more">同じエリアのマンションを見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a></p>
 
-                            <div class="carousel carousel_conditions d-none d-lg-block">
+                            <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img06.jpg" alt="" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -538,7 +538,7 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="" class="img-fluid">
+                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
@@ -549,7 +549,7 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="" class="img-fluid">
+                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
@@ -560,7 +560,7 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="" class="img-fluid">
+                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
@@ -571,7 +571,7 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="" class="img-fluid">
+                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -582,7 +582,7 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="" class="img-fluid">
+                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -592,12 +592,12 @@
                                 </div>
                             </div>
 
-                            <div class="d-block d-lg-none box_arealist">
+                            <div class="d-block d-sm-none d-lg-none box_arealist">
                                 <ul class="box_conditions_list">
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -608,7 +608,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -619,7 +619,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -644,14 +644,14 @@
                             <div class="box_conditions">
                                 <div class="head_title">
                                     <h2 class="title">人気の条件から<span>駅近マンション</span>を探す</h2>
-                                    <a href="#" class="btnview">駅近のマンションを見る <img src="images/icons/i_arrow_right.svg" alt="" class="img-fluid" width="20"></a>
+                                    <a href="#" class="btnview">駅近のマンションを見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                                 </div>
 
                                 <ul class="box_conditions_list sub">
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -662,7 +662,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -673,7 +673,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -689,14 +689,14 @@
                             <div class="box_conditions">
                                 <div class="head_title">
                                     <h2 class="title">人気の条件から<span>ペット可のマンション</span>を探す</h2>
-                                    <a href="#" class="btnview">ペット可のマンションを見る <img src="images/icons/i_arrow_right.svg" alt="" class="img-fluid" width="20"></a>
+                                    <a href="#" class="btnview">ペット可のマンションを見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                                 </div>
 
                                 <ul class="box_conditions_list sub">
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -707,7 +707,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -718,7 +718,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="" class="img-fluid">
+                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -734,14 +734,14 @@
                             <div class="box_conditions">
                                 <div class="head_title">
                                     <h2 class="title"><span>ログマンション</span>を探す</h2>
-                                    <a href="#" class="btnview">ログマンションを見る <img src="images/icons/i_arrow_right.svg" alt="" class="img-fluid" width="20"></a>
+                                    <a href="#" class="btnview">ログマンションを見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                                 </div>
 
-                                <div class="carousel carousel_conditions d-none d-lg-block">
+                                <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
                                     <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -752,7 +752,7 @@
                                     <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
@@ -763,7 +763,7 @@
                                     <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
@@ -774,7 +774,7 @@
                                     <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
@@ -785,7 +785,7 @@
                                     <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -796,7 +796,7 @@
                                     <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -807,11 +807,11 @@
                                 </div>
 
                                 
-                                <ul class="conditions_list d-line-block d-lg-none">
+                                <ul class="conditions_list d-inline-block d-sm-none d-lg-none">
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -822,7 +822,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -833,7 +833,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -844,7 +844,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>

@@ -127,6 +127,7 @@ b {
 
 ul {
     padding-left: 15px;
+    list-style-type: none;
 }
 
 a:hover {
@@ -1210,6 +1211,21 @@ footer p a:hover {
     background: transparent;
 }
 
+@media (max-width: 820px) {
+    .section_detailproperty .figure .figure_row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .carousel.carousel_conditions .flickity-prev-next-button.next {
+        right: 15px;
+    }
+
+    .carousel.carousel_conditions .flickity-prev-next-button.previous {
+        left: 15px;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar-brand img {
         max-width: 160px;
@@ -1263,11 +1279,6 @@ footer p a:hover {
     }
 
     .carousel.carousel_conditions .carousel-cell {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .carousel.carousel_property .carousel-cell {
         width: 100%;
         margin-right: 0;
     }
@@ -1434,6 +1445,10 @@ footer p a:hover {
         margin-bottom: 60px;
     }
 
+    .section_logsuiteshowroom::before {
+        top: 19%;
+    }
+
     .section_logsuiteshowroom p {
         text-align: left;
     }
@@ -1594,6 +1609,13 @@ footer p a:hover {
     .section_midinfo .table_custom span {
         padding: 10px;
         font-size: .75em;
+    }
+}
+
+@media (max-width: 414px) {
+    .carousel.carousel_property .carousel-cell {
+        margin-right: 0;
+        width: 100%;
     }
 }
 

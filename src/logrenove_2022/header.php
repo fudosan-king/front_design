@@ -1,7 +1,7 @@
 <header>
   <nav class="navbar navbar-expand-lg bg-white fixed-top">
     <div class="container relative">
-      <a class="navbar-brand" href="index.php"><img src="images/icons/LogRenove_logo.svg" alt="" class="img-fluid" width="210"></a>
+      <a class="navbar-brand" href="index.php"><img src="images/icons/LogRenove_logo.svg" alt="LogRenove_logo" class="img-fluid" width="210"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,7 +39,7 @@
       </div>
 
       <button type="submit" class="btn_search d-none d-lg-block" id="search-button">
-        <img src="images/icons/i_search.svg" alt="" class="img-fluid" width="16">
+        <img src="images/icons/i_search.svg" alt="i_search" class="img-fluid" width="16">
       </button>
 
       <!-- <a href="#" class="d-none d-lg-block"><img src="images/icons/i_search.svg" alt="" class="img-fluid" width="16"></a> -->
