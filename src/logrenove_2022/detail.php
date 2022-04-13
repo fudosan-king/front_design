@@ -242,10 +242,10 @@
                             <div class="box_map">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.67495289564!2d139.71906685125276!3d35.66037928010212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b6530fa5ef5%3A0x2c0355e32dbc3abf!2s2-ch%C5%8Dme-24-25%20Nishiazabu%2C%20Minato%20City%2C%20Tokyo%20106-0031%2C%20Japan!5e0!3m2!1sen!2s!4v1649149453438!5m2!1sen!2s" width="100%" height="523" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <div class="row">
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-6 col-lg-6 align-self-center">
                                         <p>東京都港区西麻布2丁目24-25</p>
                                     </div>
-                                    <div class="col-12 col-lg-6">
+                                    <div class="col-6 col-lg-6 align-self-center">
                                         <a class="" href="#">Googleマップで見る</a>
                                     </div>
                                 </div>
