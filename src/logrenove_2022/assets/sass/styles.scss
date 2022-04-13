@@ -343,10 +343,10 @@ header {
     &.carousel_conditions {
         .flickity-prev-next-button {
             &.next {
-                right: -40px;
+                right: -15px;
             }
             &.previous {
-                left: -40px;
+                left: -15px;
             }
         }
     }
@@ -470,6 +470,7 @@ header {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
         &:first-of-type {
             justify-content: space-around;
             padding: 10px;
@@ -515,7 +516,9 @@ header {
                     display: flex;
                     align-items: center;
                     span {
-                        display: inline-block;
+                        display: inline-flex;
+                        align-items: center;
+                        min-height: 32px;
                         font-weight: 600;
                         margin-right: 20px;
                         &:first-of-type {
@@ -815,6 +818,21 @@ header {
                         }
                     }
                 }
+
+                &.properties_area {
+                    display: block;
+                    li {
+                        width: 100%;
+                        margin-right: 0;
+                        margin-bottom: 15px;
+                        .box_img {
+                            height: 200px;
+                            img {
+                                height: 200px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -912,8 +930,23 @@ footer {
 }
 
 .section_area {
+    .title {
+        letter-spacing: inherit;
+    }
     .container {
         max-width: 934px;
+    }
+    .carousel {
+        &.carousel_conditions {
+            .flickity-prev-next-button {
+                &.next {
+                    right: -45px;
+                }
+                &.previous {
+                    left: -45px;
+                }
+            }
+        }
     }
     .box_conditions_list {
         padding: 0;
@@ -998,6 +1031,7 @@ footer {
             font-size: 1em;
             color: #fff;
             margin-bottom: 33px;
+            text-align: center;
         }
         h2 {
             font-weight: normal;
@@ -1008,6 +1042,7 @@ footer {
         p {
             font-size: 0.875em;
             margin-bottom: 0;
+            text-align: left;
         }
     }
 }
@@ -1082,21 +1117,6 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    span {
-        color: #fff;
-        position: absolute;
-        font-weight: 600;
-    }
-    &::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(235, 87, 87, .5);
-    }
-    
 }
 
 .search-form-container {
@@ -1173,9 +1193,10 @@ footer {
         }
     }
     .section_banner {
-        height: 403px;
+        margin-top: 73px;
+        height: auto;
         img {
-            height: 403px;
+            height: auto;
         }
     }
     .section_head {
@@ -1321,12 +1342,13 @@ footer {
     .section_discerningequipment {
         ul {
             &:first-of-type {
-                display: block;
+                display: flex;
+                justify-content: flex-start;
                 li {
-                    display: inline-block;
+                    width: 66px;
                     margin-bottom: 10px;
                     a {
-                        padding: 0 10px;
+                        padding: 0 5px;
                     }
                     span {
                         font-size: 0.5em;
@@ -1342,6 +1364,7 @@ footer {
                             &:last-of-type {
                                 font-size: .75em;
                                 font-weight: normal;
+                                line-height: 1.3em;
                             }
                         }
                     }
@@ -1372,11 +1395,12 @@ footer {
             }
             ul {
                 &.box_conditions_list {
-                    display: block;
+                    flex-wrap: wrap;
                     li {
                         display: inline-block;
                         width: 47%;
                         margin-right: 15px;
+                        margin-bottom: 30px;
                         &:nth-child(2n) {
                             margin-right: 0;
                         }
@@ -1384,15 +1408,16 @@ footer {
                             margin-right: 15px;
                         }
                         .box_img {
-                            height: 200px;
+                            height: 100px;
                             img {
-                                height: 200px;
+                                height: 100px;
                             }
                         }
                         a {
                             .box_footer {
                                 p {
                                     line-height: 1.3em;
+                                    margin-top: 5px;
                                 }
                             }
                         }

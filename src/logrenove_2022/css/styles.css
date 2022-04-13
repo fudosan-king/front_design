@@ -327,11 +327,11 @@ header .navbar {
 }
 
 .carousel.carousel_conditions .flickity-prev-next-button.next {
-    right: -40px;
+    right: -15px;
 }
 
 .carousel.carousel_conditions .flickity-prev-next-button.previous {
-    left: -40px;
+    left: -15px;
 }
 
 .carousel .carousel-cell {
@@ -464,6 +464,7 @@ header .navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .section_discerningequipment ul:first-of-type {
@@ -521,7 +522,9 @@ header .navbar {
 }
 
 .section_discerningequipment ul:last-of-type li a span {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
     font-weight: 600;
     margin-right: 20px;
 }
@@ -855,6 +858,24 @@ header .navbar {
     letter-spacing: .1em;
 }
 
+.section_searchconditions .box_conditions ul.box_conditions_list.properties_area {
+    display: block;
+}
+
+.section_searchconditions .box_conditions ul.box_conditions_list.properties_area li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+.section_searchconditions .box_conditions ul.box_conditions_list.properties_area li .box_img {
+    height: 200px;
+}
+
+.section_searchconditions .box_conditions ul.box_conditions_list.properties_area li .box_img img {
+    height: 200px;
+}
+
 footer {
     background: #262626;
     padding: 40px 0 90px;
@@ -955,8 +976,20 @@ footer p a:hover {
     font-weight: 600;
 }
 
+.section_area .title {
+    letter-spacing: inherit;
+}
+
 .section_area .container {
     max-width: 934px;
+}
+
+.section_area .carousel.carousel_conditions .flickity-prev-next-button.next {
+    right: -45px;
+}
+
+.section_area .carousel.carousel_conditions .flickity-prev-next-button.previous {
+    left: -45px;
 }
 
 .section_area .box_conditions_list {
@@ -1059,6 +1092,7 @@ footer p a:hover {
     font-size: 1em;
     color: #fff;
     margin-bottom: 33px;
+    text-align: center;
 }
 
 .section_topinfo .box_content h2 {
@@ -1071,6 +1105,7 @@ footer p a:hover {
 .section_topinfo .box_content p {
     font-size: 0.875em;
     margin-bottom: 0;
+    text-align: left;
 }
 
 .section_midinfo .container {
@@ -1154,22 +1189,6 @@ footer p a:hover {
     text-align: center;
 }
 
-.box_data span {
-    color: #fff;
-    position: absolute;
-    font-weight: 600;
-}
-
-.box_data::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(235, 87, 87, 0.5);
-}
-
 .search-form-container {
     text-align: right;
     position: absolute;
@@ -1244,11 +1263,12 @@ footer p a:hover {
     }
 
     .section_banner {
-        height: 403px;
+        margin-top: 73px;
+        height: auto;
     }
 
     .section_banner img {
-        height: 403px;
+        height: auto;
     }
 
     .section_head {
@@ -1403,16 +1423,17 @@ footer p a:hover {
     }
 
     .section_discerningequipment ul:first-of-type {
-        display: block;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .section_discerningequipment ul:first-of-type li {
-        display: inline-block;
+        width: 66px;
         margin-bottom: 10px;
     }
 
     .section_discerningequipment ul:first-of-type li a {
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .section_discerningequipment ul:first-of-type li span {
@@ -1430,6 +1451,7 @@ footer p a:hover {
     .section_discerningequipment ul:last-of-type li a span:last-of-type {
         font-size: .75em;
         font-weight: normal;
+        line-height: 1.3em;
     }
 
     .section_discerningequipment iframe {
@@ -1453,13 +1475,14 @@ footer p a:hover {
     }
 
     .section_searchconditions .box_conditions ul.box_conditions_list {
-        display: block;
+        flex-wrap: wrap;
     }
 
     .section_searchconditions .box_conditions ul.box_conditions_list li {
         display: inline-block;
         width: 47%;
         margin-right: 15px;
+        margin-bottom: 30px;
     }
 
     .section_searchconditions .box_conditions ul.box_conditions_list li:nth-child(2n) {
@@ -1471,15 +1494,16 @@ footer p a:hover {
     }
 
     .section_searchconditions .box_conditions ul.box_conditions_list li .box_img {
-        height: 200px;
+        height: 100px;
     }
 
     .section_searchconditions .box_conditions ul.box_conditions_list li .box_img img {
-        height: 200px;
+        height: 100px;
     }
 
     .section_searchconditions .box_conditions ul.box_conditions_list li a .box_footer p {
         line-height: 1.3em;
+        margin-top: 5px;
     }
 
     .section_searchconditions .box_conditions ul.box_conditions_list.sub li .box_img {

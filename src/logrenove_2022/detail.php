@@ -14,7 +14,7 @@
                                 <img src="images/img_main.jpg" alt="img_main" class="img-fluid">
                             </div>
                             <div class="box_content">
-                                <h1>番町千鳥ヶ淵アビタシオン 301号室</h1>
+                                <h1>番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                                 <p class="number">1LDK／54.04㎡／11,480万円</p>
                                 <h2>美しい街並み、高名なアドレスを持つ三番町の瀟洒なログマンション</h2>
                                 <p>「番町千鳥ヶ淵アビタシオン」は修繕、管理が行き届き、番町にふさわしい品を保った物件です。広さは107.55㎡、南向き3方角部屋、3LDKのリノベーションプランを用意しています。日当たりのいい南側に24.6帖の広いLDKを配置。無垢材と天然御影石を使ったL字型のオリジナルキッチンが存在感を示しています。</p>
@@ -215,7 +215,7 @@
                                     <img src="images/img02.jpg" class="figure-img img-fluid" alt="img02">
                                     <img src="images/img02_.jpg" class="figure-img img-fluid" alt="img02_">
                                 </div>
-                                <figcaption class="figure-caption">管理体制の良さを感じさせる環境。<span>敷地内駐輪場完備</span>。駐車場は３ナンバーにも対応しています。/figcaption>
+                                <figcaption class="figure-caption">管理体制の良さを感じさせる環境。<span>敷地内駐輪場完備</span>。駐車場は３ナンバーにも対応しています。</figcaption>
                             </figure>
                             <figure class="figure">
                                 <img src="images/img12.jpg" class="figure-img img-fluid" alt="img12">
@@ -237,7 +237,6 @@
                             
                             <div class="box_data">
                                 <img src="images/data.jpg" class="figure-img img-fluid" alt="data">
-                                <span>内容はデータに基づきます<br>デザインイメージです</span>
                             </div>
 
                             <div class="box_map">
@@ -253,7 +252,7 @@
                             </div>
 
                             <div class="box_owners">
-                                <h3>番町千鳥ヶ淵アビタシオンを｢売りたい｣オーナー様へ</h3>
+                                <h3>番町千鳥ヶ淵アビタシオンを<span class="d-block d-lg-inline-block">｢売りたい｣オーナー様へ</span></h3>
                                 <p>{マンション名}の売却・査定のご相談を承っております。<br>
                                 お気軽にお問い合わせください。</p>
                                 <a target="_blank" href="https://www.propolife.co.jp/contact/" class="btn"><img src="images/icons/i_mail.svg" alt="i_mail" class="img-fluid" width="18">売却・査定のご相談</a>
@@ -270,9 +269,9 @@
                             <div class="box_logo">
                                 <img src="images/icons/logSuite_vertical.svg" alt="logSuite_vertical" class="img-fluid" width="60">
                             </div>
-                            <h2 class="title">株式会社LogSuite表参道ショールームq</h2>
+                            <h2 class="title">株式会社LogSuite表参道ショールーム</h2>
                             <p class="phone"><img src="images/icons/i_freecall.svg" alt="i_freecall" class="img-fluid" width="37"> 0120-991-657</p>
-                            <p>LogSuiteは、利便性とステイタスを兼ね備えた高級物件を数多く取り扱っています。<br>
+                            <p><span class="d-inline d-lg-block">LogSuiteは、利便性とステイタスを兼ね備えた高級物件を数多く取り扱っています。</span>
                             天然木を多用した高級リノベーション物件「Logmansion」ブランドも好評展開中。都心で物件を探している方、ぜひお問い合わせください。</p>
                             <a target="_blank" href="https://www.logsuite.co.jp/" class="btn_more float-lg-end float-none">MORE DETAIL <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                         </div>
@@ -280,18 +279,21 @@
                 </div>
             </section>
 
-            <section class="section_area">
+             <section class="section_area d-none d-lg-block">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <h2 class="title"><span>渋谷・松濤・南平台</span>エリアのマンション</h2>
-                            <p class="text-right"><a href="#" class="btn_more">同じエリアのマンションを見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a></p>
+                            <div class="head_title">
+                                <h2 class="title">番町千鳥ヶ淵アビタシオン物件情報</h2>
+                                <p class="totalprocess mt-3">全 <span>11</span> 件　募集中 <span class="pink">2</span> 件</p>
+                            </div>
 
                             <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
                                             <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            <span class="label_status">募集中</span>
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -302,7 +304,32 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            <span class="label_status">募集中</span>
+                                        </div>
+                                        <div class="box_footer">
+                                            <h3>番町千鳥ヶ淵アビタシオン - 202</h3>
+                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-cell">
+                                    <a href="#" class="box_item">
+                                        <div class="box_img">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            <span class="label_status contracted">成約済</span>
+                                        </div>
+                                        <div class="box_footer">
+                                            <h3>番町千鳥ヶ淵アビタシオン - xxx</h3>
+                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-cell">
+                                    <a href="#" class="box_item">
+                                        <div class="box_img">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            <span class="label_status contracted">成約済</span>
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
@@ -313,29 +340,8 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
-                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
-                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            <span class="label_status">募集中</span>
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -346,7 +352,8 @@
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            <span class="label_status">募集中</span>
                                         </div>
                                         <div class="box_footer">
                                             <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
@@ -361,7 +368,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -372,7 +379,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -383,7 +390,7 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>大森北ハウス</h3>
@@ -407,91 +414,393 @@
 
                             <div class="box_conditions">
                                 <div class="head_title">
-                                    <h2 class="title">人気の条件から<span>駅近マンション</span>を探す</h2>
-                                    <a href="#" class="btnview">駅近のマンションを見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
+                                    <h2 class="title"><span>渋谷・松濤・南平台</span>エリアの物件</h2>
+                                    <a href="#" class="btnview">同じエリアの物件を見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                                 </div>
 
-                                <ul class="box_conditions_list sub">
-                                    <li>
+                                <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
+                                    <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn_samearea">駅近マンションを見る</a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="d-block d-sm-none d-lg-none box_arealist">
+                                    <ul class="box_conditions_list properties_area">
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス 301号室</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス 301号室</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス 301号室</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス 301号室</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn_samearea">同じエリアのマンションを見る</a>
+                                </div>
+                            </div>
+
+                            <div class="box_conditions">
+                                <div class="head_title">
+                                    <h2 class="title">3DK/3LDK<span>の物件を探す</span></h2>
+                                    <a href="#" class="btnview">3DL/3DLKの物件を見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
+                                </div>
+
+                                <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="d-block d-sm-none d-lg-none box_arealist">
+                                    <ul class="box_conditions_list sub">
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn_samearea">駅近マンションを見る</a>
+                                </div>
 
                             </div>
 
                             <div class="box_conditions">
                                 <div class="head_title">
-                                    <h2 class="title">人気の条件から<span>ペット可のマンション</span>を探す</h2>
-                                    <a href="#" class="btnview">ペット可のマンションを見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
+                                    <h2 class="title">ペット可<span>の物件を探す</span></h2>
+                                    <a href="#" class="btnview">ペット可の物件を見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                                 </div>
 
-                                <ul class="box_conditions_list sub">
-                                    <li>
+                                <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
+                                    <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="carousel-cell">
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn_samearea">ペット可のマンションを見る</a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-cell">
+                                        <a href="#" class="box_item">
+                                            <div class="box_img">
+                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                            </div>
+                                            <div class="box_footer">
+                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="d-block d-sm-none d-lg-none box_arealist">
+                                    <ul class="box_conditions_list sub">
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="box_item">
+                                                <div class="box_img">
+                                                    <img src="images/img09.jpg" alt="img09" class="img-fluid">
+                                                </div>
+                                                <div class="box_footer">
+                                                    <h3>大森北ハウス</h3>
+                                                    <p>東京都大田区大森北３丁目３－２</p>
+                                                    <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn_samearea">ペット可のマンションを見る</a>
+                                </div>
 
                             </div>
 
@@ -574,10 +883,11 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p>東京都大田区大森北３丁目３－２</p>
                                                 <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
@@ -585,10 +895,11 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p>東京都大田区大森北３丁目３－２</p>
                                                 <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
@@ -596,10 +907,11 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p>東京都大田区大森北３丁目３－２</p>
                                                 <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
@@ -607,10 +919,11 @@
                                     <li>
                                         <a href="#" class="box_item">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
                                             </div>
                                             <div class="box_footer">
                                                 <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
+                                                <p>東京都大田区大森北３丁目３－２</p>
                                                 <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
                                             </div>
                                         </a>
