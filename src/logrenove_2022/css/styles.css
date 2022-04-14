@@ -94,7 +94,6 @@ h4,
 h5,
 h6 {
     font-family: 'Noto Sans JP', Arial, Helvetica Neue, Helvetica, sans-serif;
-    text-transform: uppercase;
     line-height: 1.3em;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -486,12 +485,12 @@ header .navbar {
 .section_discerningequipment ul:first-of-type li::after {
     content: '';
     position: absolute;
-    right: 0;
+    right: -10px;
     top: 0;
     bottom: 0;
-    width: 1px;
-    height: 100%;
-    background: #F2F2F2;
+    width: .5px;
+    height: 60%;
+    background: #dedede;
 }
 
 .section_discerningequipment ul:first-of-type li a {
@@ -504,6 +503,7 @@ header .navbar {
 .section_discerningequipment ul:first-of-type li span {
     display: block;
     font-size: 0.6875em;
+    margin-top: 10px;
 }
 
 .section_discerningequipment ul:last-of-type {
@@ -1133,24 +1133,24 @@ footer p a:hover {
     background: transparent;
 }
 
-.section_midinfo .table_custom {
+.table_custom {
     border-top: 1px solid #E0E0E0;
 }
 
-.section_midinfo .table_custom .row {
+.table_custom .row {
     border-bottom: 1px solid #E0E0E0;
     background: #F2F2F2;
 }
 
-.section_midinfo .table_custom .th {
+.table_custom .th {
     font-weight: 600;
 }
 
-.section_midinfo .table_custom .td {
+.table_custom .td {
     background: #fff;
 }
 
-.section_midinfo .table_custom span {
+.table_custom span {
     display: block;
     padding: 10px 20px;
     font-size: .875em;
@@ -1179,6 +1179,14 @@ footer p a:hover {
 
 .w_btn_detail .btn_detail:hover {
     color: #BE9C59;
+}
+
+.w_btn_detail .btn_detail img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto;
 }
 
 .box_data {
@@ -1432,6 +1440,10 @@ footer p a:hover {
         margin-bottom: 10px;
     }
 
+    .section_discerningequipment ul:first-of-type li::after {
+        right: -2px;
+    }
+
     .section_discerningequipment ul:first-of-type li a {
         padding: 0 5px;
     }
@@ -1456,10 +1468,6 @@ footer p a:hover {
 
     .section_discerningequipment iframe {
         height: 200px;
-    }
-
-    .section_logsuiteshowroom {
-        margin-bottom: 60px;
     }
 
     .section_logsuiteshowroom::before {
@@ -1621,11 +1629,11 @@ footer p a:hover {
         line-height: 1.8em;
     }
 
-    .section_midinfo .table_custom .border_bottom {
+    .table_custom .border_bottom {
         border-bottom: 1px solid #F2F2F2;
     }
 
-    .section_midinfo .table_custom span {
+    .table_custom span {
         padding: 10px;
         font-size: .75em;
     }
