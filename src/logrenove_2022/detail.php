@@ -100,7 +100,7 @@
                             <h2 class="title">こだわりの設備概要</h2>
                             <iframe width="100%" height="540" src="https://my.matterport.com/show/?m=Msfg36od5J3"></iframe>
 
-                            <ul>
+                            <ul class="bg-transparent mt-2">
                                 <li>
                                     <a href="#">
                                         <img src="images/icons/i_quietarea.svg" alt="i_quietarea" class="img-fluid" width="40">
@@ -235,8 +235,187 @@
                             </figure>
 
                             
-                            <div class="box_data">
-                                <img src="images/data.jpg" class="figure-img img-fluid" alt="data">
+                            <div class="table_custom mb-3">
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>所在地</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 td">
+                                        <span>東京都新宿区市谷左内町29-36</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>交通</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 td">
+                                        <span>JR総無線「市ヶ谷」徒歩6分</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 align-self-center th">
+                                        <span>価格</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 align-self-center td">
+                                        <span>29,990万円（税込）</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 align-self-center th">
+                                        <span>築年数</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 align-self-center td">
+                                        <span>1990/01/01</span>
+                                    </div>
+                                </div>
+
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>管理費</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">60,620円/月（税込）</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>修繕積立金</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span>36,600円/月</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>間取り</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">3LDK+S</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>所在階/階数</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span>3階/34階建</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>専有面積</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">179.36㎡</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>バルコニー面積</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span>73.24㎡</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>構造</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">RC構造</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>総戸数</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span>50戸</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>土地権利</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">所有権</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>用途地域</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>管理会社</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 td">
+                                        <span class="border_bottom">株式会社東急コミュニティー</span>
+                                    </div>
+                                </div>
+
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 align-self-center th">
+                                        <span>その他使用料</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 align-self-center td">
+                                        <span>給湯基本料1,700円/月</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 align-self-center th">
+                                        <span>駐車場</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 align-self-center td">
+                                        <span>30,000円/月</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>バイク置場</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">なし</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>駐輪場</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span>あり</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>現状</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">空室</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>引渡</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span>相談</span>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>取引態様</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span class="border_bottom">売主</span>
+                                    </div>
+                                    <div class="col-4 col-lg-3 th">
+                                        <span>国土法届出</span>
+                                    </div>
+                                    <div class="col-8 col-lg-3 td">
+                                        <span>不要</span>
+                                    </div>
+                                </div>
+
+                                <div class="row g-0">
+                                    <div class="col-4 col-lg-3 align-self-center th">
+                                        <span>備考</span>
+                                    </div>
+                                    <div class="col-8 col-lg-9 align-self-center td">
+                                        <span>&nbsp;</span>
+                                    </div>
+                                </div>
+
                             </div>
 
                             <div class="box_map">
@@ -279,12 +458,12 @@
                 </div>
             </section>
 
-             <section class="section_area d-none d-lg-block">
+             <section class="section_area">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="head_title">
-                                <h2 class="title">番町千鳥ヶ淵アビタシオン物件情報</h2>
+                                <h2 class="title">番町千鳥ヶ淵アビタシオン<span class="d-block d-lg-inline text-dark">物件情報</span></h2>
                                 <p class="totalprocess mt-3">全 <span>11</span> 件　募集中 <span class="pink">2</span> 件</p>
                             </div>
 
@@ -363,43 +542,183 @@
                                 </div>
                             </div>
 
-                            <div class="d-block d-sm-none d-lg-none box_arealist">
-                                <ul class="box_conditions_list">
-                                    <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn_samearea">同じエリアのマンションを見る</a>
+                            <div class="carousel carousel_conditions d-block d-xs-none d-sm-none d-lg-none">
+                                <div class="carousel-cell">
+                                    <ul class="property_vertical">
+                                        <li>
+                                            <a href="#">
+                                                <div class="box_img">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                    <span class="label_status">募集中</span>
+                                                </div>
+                                                <div class="box_content">
+                                                    <table class="table table-borderless">
+                                                        <tr>
+                                                            <th>階数</th>
+                                                            <td>2階</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>面積</th>
+                                                            <td>48.24㎡</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>間取り</th>
+                                                            <td>１LDK</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>参考価格</th>
+                                                            <td><span class="price">8,580</span><span>万円</span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="box_img">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                    <span class="label_status">募集中</span>
+                                                </div>
+                                                <div class="box_content">
+                                                    <table class="table table-borderless">
+                                                        <tr>
+                                                            <th>階数</th>
+                                                            <td>3階</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>面積</th>
+                                                            <td>56.10㎡</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>間取り</th>
+                                                            <td>-</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>参考価格</th>
+                                                            <td><span class="price">11,470</span><span>万円</span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="box_img">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                    <span class="label_status contracted">成約済</span>
+                                                </div>
+                                                <div class="box_content">
+                                                    <table class="table table-borderless">
+                                                        <tr>
+                                                            <th>階数</th>
+                                                            <td>2階</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>面積</th>
+                                                            <td>48.24㎡</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>間取り</th>
+                                                            <td>１LDK</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>参考価格</th>
+                                                            <td><span class="price">8,580</span><span>万円</span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="carousel-cell">
+                                    <ul class="property_vertical">
+                                        <li>
+                                            <a href="#">
+                                                <div class="box_img">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                    <span class="label_status contracted">成約済</span>
+                                                </div>
+                                                <div class="box_content">
+                                                    <table class="table table-borderless">
+                                                        <tr>
+                                                            <th>階数</th>
+                                                            <td>2階</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>面積</th>
+                                                            <td>48.24㎡</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>間取り</th>
+                                                            <td>１LDK</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>参考価格</th>
+                                                            <td><span class="price">8,580</span><span>万円</span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="box_img">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                    <span class="label_status">募集中</span>
+                                                </div>
+                                                <div class="box_content">
+                                                    <table class="table table-borderless">
+                                                        <tr>
+                                                            <th>階数</th>
+                                                            <td>3階</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>面積</th>
+                                                            <td>56.10㎡</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>間取り</th>
+                                                            <td>-</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>参考価格</th>
+                                                            <td><span class="price">11,470</span><span>万円</span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="box_img">
+                                                    <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                    <span class="label_status">募集中</span>
+                                                </div>
+                                                <div class="box_content">
+                                                    <table class="table table-borderless">
+                                                        <tr>
+                                                            <th>階数</th>
+                                                            <td>2階</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>面積</th>
+                                                            <td>48.24㎡</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>間取り</th>
+                                                            <td>１LDK</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>参考価格</th>
+                                                            <td><span class="price">8,580</span><span>万円</span></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
 
                         </div>
@@ -544,7 +863,7 @@
 
                             <div class="box_conditions">
                                 <div class="head_title">
-                                    <h2 class="title">3DK/3LDK<span>の物件を探す</span></h2>
+                                    <h2 class="title"><span>3DK/3LDK</span>の物件を探す</h2>
                                     <a href="#" class="btnview">3DL/3DLKの物件を見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                                 </div>
 
@@ -675,7 +994,7 @@
 
                             <div class="box_conditions">
                                 <div class="head_title">
-                                    <h2 class="title">ペット可<span>の物件を探す</span></h2>
+                                    <h2 class="title"><span>ペット可</span>の物件を探す</h2>
                                     <a href="#" class="btnview">ペット可の物件を見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                                 </div>
 
