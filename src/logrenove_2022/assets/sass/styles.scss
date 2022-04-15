@@ -582,9 +582,15 @@ header {
     }
     .table {
         tr {
+            th {
+                background: #F2F2F2;
+                border-bottom: 1px solid #E0E0E0;
+                width: 20%;
+            }
             th, td {
                 font-size: 0.75em;
-                padding: 13px 0;
+                padding: 13px 15px;
+                border-color: #E0E0E0;
             }
         }
     }
@@ -1099,7 +1105,7 @@ footer {
         font-weight: 700;
         border: 2px solid $brown_color;
         color: $brown_color;
-        padding: 12px;
+        padding: 9px 15px;
         min-width: 353px;
         display: block;
         &:hover {
@@ -1112,7 +1118,7 @@ footer {
             position: absolute;
             top: 0;
             bottom: 0;
-            right: 15px;
+            right: 25px;
             margin: auto;
         }
     }
@@ -1167,6 +1173,13 @@ footer {
             .figure_row {
                 flex-wrap: wrap;
                 flex-direction: column;
+            }
+        }
+        .table {
+            tr {
+                th {
+                    width: 40%;
+                }
             }
         }
     }

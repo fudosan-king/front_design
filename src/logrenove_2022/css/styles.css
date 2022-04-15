@@ -589,9 +589,16 @@ header .navbar {
     background: rgba(33, 150, 83, 0.5);
 }
 
+.section_detailproperty .table tr th {
+    background: #F2F2F2;
+    border-bottom: 1px solid #E0E0E0;
+    width: 20%;
+}
+
 .section_detailproperty .table tr th, .section_detailproperty .table tr td {
     font-size: 0.75em;
-    padding: 13px 0;
+    padding: 13px 15px;
+    border-color: #E0E0E0;
 }
 
 .section_detailproperty .box_map {
@@ -1169,7 +1176,7 @@ footer p a:hover {
     font-weight: 700;
     border: 2px solid #BE9C59;
     color: #BE9C59;
-    padding: 12px;
+    padding: 9px 15px;
     min-width: 353px;
     display: block;
     position: absolute;
@@ -1185,7 +1192,7 @@ footer p a:hover {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 15px;
+    right: 25px;
     margin: auto;
 }
 
@@ -1242,6 +1249,10 @@ footer p a:hover {
     .section_detailproperty .figure .figure_row {
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+    .section_detailproperty .table tr th {
+        width: 40%;
     }
 
     .carousel.carousel_conditions .flickity-prev-next-button.next {
