@@ -222,7 +222,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="images/templates/template01.svg" alt="" class="img-fluid">
+                                            <img src="images/templates/template02.svg" alt="" class="img-fluid">
                                         </a>
                                         <p>全画面コンテンツ</p>
                                     </li>
