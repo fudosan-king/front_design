@@ -28,7 +28,7 @@
                     <div class="sidebar-content">
                         <ul class="menu_left">
                             <li>
-                                <a href="#0" class="cd-popup-trigger">メニュー</a>
+                                <a href="#">メニュー</a>
                             </li>
                             <li>
                                 <a href="#">
@@ -167,7 +167,7 @@
                             <h2>ページ一覧</h2>
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="#0" class="cd-popup-trigger">
                                         <span>+ ページの作成</span>
                                     </a>
                                 </li>
@@ -209,6 +209,27 @@
                                 </li>
                             </ul>
                         </section>
+
+                        <div class="cd-popup" role="alert">
+                            <div class="cd-popup-container">
+                                <h2>どちらのページを作成しますか？</h2>
+                                <ul class="choose_template">
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/templates/template01.svg" alt="" class="img-fluid">
+                                        </a>
+                                        <p>ベーシック</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/templates/template01.svg" alt="" class="img-fluid">
+                                        </a>
+                                        <p>全画面コンテンツ</p>
+                                    </li>
+                                </ul>
+                            </div> <!-- cd-popup-container -->
+                        </div> <!-- cd-popup -->
+
                     </div>
                 </main>
 
@@ -216,5 +237,6 @@
         </div>
 
         <?php include('js-footer.php') ?>
+        
     </body>
 </html>
