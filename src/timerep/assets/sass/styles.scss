@@ -1937,9 +1937,11 @@ header {
     }
   }
   .choose_template {
+    flex-wrap: wrap;
     li {
       margin-right: 0;
-      display: block;
+      display: inline-block;
+      width: 50%;
       img {
         max-width: 142px;
       }
@@ -1948,5 +1950,16 @@ header {
   .cd-popup-container {
     box-sizing: content-box;
     width: 100%;
+    h2 {
+      text-align: center;
+    }
+  }
+  .box_header_right {
+    .frm_company {
+      margin-left: 0;
+    }
+    .btn_logout {
+      margin-left: 0;
+    }
   }
 }

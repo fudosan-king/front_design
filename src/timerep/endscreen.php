@@ -226,6 +226,12 @@
                                         </a>
                                         <p>全画面コンテンツ</p>
                                     </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/templates/template03.svg" alt="" class="img-fluid">
+                                        </a>
+                                        <p>全画面コンテンツ</p>
+                                    </li>
                                 </ul>
                             </div> <!-- cd-popup-container -->
                         </div> <!-- cd-popup -->

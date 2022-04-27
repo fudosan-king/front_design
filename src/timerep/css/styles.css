@@ -2128,9 +2128,14 @@ header.header_sub {
         margin-right: 0;
     }
 
+    .choose_template {
+        flex-wrap: wrap;
+    }
+
     .choose_template li {
         margin-right: 0;
-        display: block;
+        display: inline-block;
+        width: 50%;
     }
 
     .choose_template li img {
@@ -2140,5 +2145,17 @@ header.header_sub {
     .cd-popup-container {
         box-sizing: content-box;
         width: 100%;
+    }
+
+    .cd-popup-container h2 {
+        text-align: center;
+    }
+
+    .box_header_right .frm_company {
+        margin-left: 0;
+    }
+
+    .box_header_right .btn_logout {
+        margin-left: 0;
     }
 }
