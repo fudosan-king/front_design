@@ -61,7 +61,7 @@
 
         </main>
 
-        <footer>
+        <!-- <footer>
             <ul>
                 <li class="active">
                     <a href="#">
@@ -73,7 +73,21 @@
             <div class="right_content right_content_customer">
                 <a href="#box_chat" class="btn_bell"></a>
             </div>
-        </footer>
+        </footer> -->
+
+        <div class="control__wrapper" id="roomFooter">
+            <div class="control__main">
+                <div class="control__item">
+                    <div class="control__item__inner " style="pointer-events: auto;">
+                        <div class="control__item--thumb control__item--endcall">
+                            <span class="control__item--icon"></span>
+                        </div>
+                        <h5 class="control__item--title"><p>終了</p></h5>
+                    </div>
+                </div>
+            </div>
+            <a href="#box_chat" class="btn_bell"></a>
+        </div>
 
         <?php include('js-footer.php') ?>
     </body>
