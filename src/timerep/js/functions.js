@@ -8,6 +8,7 @@ $(function() {
   $( ".btn_edit" ).click(function() {
     $( "#box_notice" ).toggle( "fast", function() {});
   });
+
   $( ".btn_chat" ).click(function() {
     $( "#box_chat" ).toggle( "fast", function() {});
   });
@@ -21,6 +22,10 @@ $(function() {
 
   $( ".btn_emotion" ).click(function() {
     $( ".w_box_emotion" ).toggle( "fast", function() {});
+  });
+
+  $(".btn_bell").click(function () {
+    $("#box_chat").toggle("fast", function () { });
   });
 
 })
