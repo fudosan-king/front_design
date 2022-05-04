@@ -256,18 +256,13 @@
                                             <p class="memo-corp__section__header--type mr--15 mt--5">プルダウン</p>
                                         </div>
                                         <div class="memo-corp__section__form--title my--20 ml--30">
-                                            <p>年代</p>
+                                            <p>性別</p>
                                         </div>
                                         <div class="mx--20 memo-corp__section__form--select">
                                             <select>
-                                                <option value="10代未満: under 10">10代未満: under 10</option>
-                                                <option value="10代: 10~19">10代: 10~19</option>
-                                                <option value="20代:20~29">20代:20~29</option>
-                                                <option value="30代:30~39">30代:30~39</option>
-                                                <option value="40代:40~49">40代:40~49</option>
-                                                <option value="50代:50~59">50代:50~59</option>
-                                                <option value="60代:60~69">60代:60~69</option>
-                                                <option value="70代以上: over 70">70代以上: over 70</option>
+                                                <option value="男性">男性</option>
+                                                <option value="女性">女性</option>
+                                                <option value="その他">その他</option>
                                             </select>
                                         </div>
                                         <div class="memo-corp__section__action my--20 mx--20" style="visibility: visible;">
@@ -285,13 +280,18 @@
                                             <p class="memo-corp__section__header--type mr--15 mt--5">プルダウン</p>
                                         </div>
                                         <div class="memo-corp__section__form--title my--20 ml--30">
-                                            <p>性別</p>
+                                            <p>年代</p>
                                         </div>
                                         <div class="mx--20 memo-corp__section__form--select">
                                             <select>
-                                                <option value="男性">男性</option>
-                                                <option value="女性">女性</option>
-                                                <option value="その他">その他</option>
+                                                <option value="10代未満: under 10">10代未満</option>
+                                                <option value="10代: 10~19">10代: 10~19</option>
+                                                <option value="20代:20~29">20代:20~29</option>
+                                                <option value="30代:30~39">30代:30~39</option>
+                                                <option value="40代:40~49">40代:40~49</option>
+                                                <option value="50代:50~59">50代:50~59</option>
+                                                <option value="60代:60~69">60代:60~69</option>
+                                                <option value="70代以上: over 70">70代以上: over 70</option>
                                             </select>
                                         </div>
                                         <div class="memo-corp__section__action my--20 mx--20" style="visibility: visible;">
@@ -307,10 +307,14 @@
                                                 <i class="icon icon--drag_icon" style="visibility: visible;"></i>
                                             </div><p class="memo-corp__section__header--type mr--15 mt--5">テキスト</p></div>
                                             <div class="memo-corp__section__form--title my--20 ml--30">
-                                                <p>フリーメモ</p>
+                                                <p>接客成果</p>
                                             </div>
-                                            <div class="mx--30">
-                                                <textarea type="text" class="memo-corp__section__form--input" rows="5" maxlength="10000" placeholder="ここにテキストを入力" readonly=""></textarea>
+                                            <div class="mx--20 memo-corp__section__form--select">
+                                                <select>
+                                                    <option value="男性">購入意向示す</option>
+                                                    <option value="女性">...</option>
+                                                    <option value="その他">...</option>
+                                                </select>
                                             </div>
 
                                             <div class="memo-corp__section__action my--20 mx--20" style="visibility: visible;">

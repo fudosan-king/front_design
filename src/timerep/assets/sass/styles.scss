@@ -2043,10 +2043,7 @@ header {
   text-align: center;
   height: 3.125rem;
 }
-.memo-corp__btn-plus button {
-  border: none;
-  height: 3.125rem;
-}
+
 
 #roomFooter {
   transition: height .2s linear;
@@ -2357,14 +2354,15 @@ header {
   }
 }
 
-
-
+.memo-corp__btn-plus button {
+  border: none;
+  height: 2.9rem;
+}
 .icon--memo-corp_plus {
   background-image: url('https://b2bweb-stg.japaneast.cloudapp.azure.com/manager/static/media/memo-corp_plus.c2ed3c77.svg');
   width: 1.875rem;
   height: 1.875rem;
 }
-
 .memo-corp__content {
   width: 80%;
   background-color: #fff;
@@ -2425,7 +2423,7 @@ header {
 .memo-corp__section__form--select select {
   border-radius: 0.5rem;
   border: 1px solid #b4b4b4;
-  height: 40px;
+  height: 50px;
   width: 100%;
   background-color: transparent;
   padding-left: 20px;
