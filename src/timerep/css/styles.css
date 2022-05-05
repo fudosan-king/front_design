@@ -2604,6 +2604,18 @@ header.header_sub {
     cursor: move;
 }
 
+.memo-corp__section ::-moz-placeholder {
+    color: #c4c4c4;
+}
+
+.memo-corp__section :-ms-input-placeholder {
+    color: #c4c4c4;
+}
+
+.memo-corp__section ::placeholder {
+    color: #c4c4c4;
+}
+
 .memo-corp__section.dragElem {
     opacity: 1;
 }
