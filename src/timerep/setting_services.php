@@ -233,8 +233,8 @@
                                         </div>
                                         <div class="memo-corp__section__form--title d--flex my--20 ml--30">
                                             <p>フリーメモ</p>
-                                            <label>お知らせ機能として利用する 
-                                                <input type="checkbox" class="ios-switch blue  bigswitch" checked>
+                                            <label>
+                                                <input type="checkbox" class="ios-switch blue bigswitch" checked>
                                                 <div><div></div></div>
                                             </label>
                                         </div>

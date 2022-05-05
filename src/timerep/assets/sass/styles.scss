@@ -2518,6 +2518,12 @@ textarea {
     color: #787878;
     font-size: 0.875em;
     font-weight: 700;
+    span {
+      position: absolute;
+      z-index: 0;
+      left: -200px;
+      top: 0;
+    }
   }
   input[type="checkbox"] { 
     position: absolute;
@@ -2534,6 +2540,12 @@ textarea {
     -webkit-transition-duration: .4s;
     -webkit-transition-property: background-color, box-shadow;
     margin-left: 5px;
+    &::before {
+      content: 'お知らせ機能として利用する';
+      position: absolute;
+      left: -180px;
+      top: 0;
+    }
   }
 
   /* Checked Track (Blue) */
@@ -2542,11 +2554,9 @@ textarea {
     background-position: 0 0;
     background-color: #40BCC9;
     border: 1px solid #40BCC9;
-  }
-
-  /* Tiny Track */
-  input[type="checkbox"].tinyswitch.ios-switch + div {
-    width: 34px;	height: 18px;
+    &::before {
+      color: #40BCC9;
+    }
   }
 
   /* Big Track */
@@ -2556,17 +2566,11 @@ textarea {
     margin-left: 10px;
   }
 
-  /* Green Track */
-  input[type="checkbox"].green.ios-switch:checked + div {
-    background-color: #00e359;
-    border: 1px solid rgba(0, 162, 63,1);
-    box-shadow: inset 0 0 0 10px rgba(0,227,89,1);
-  }
-
   /* Normal Knob */
   input[type="checkbox"].ios-switch + div > div {
     float: left;
-    width: 18px; height: 18px;
+    width: 18px; 
+    height: 18px;
     border-radius: inherit;
     background: #ffffff;
     -webkit-transition-timing-function: cubic-bezier(.54,1.85,.5,1);
@@ -2577,26 +2581,7 @@ textarea {
     -moz-transition-property: transform, background-color;
     pointer-events: none;
     margin-top: 1px;
-    margin-left: 1px;
-  }
-
-  /* Checked Knob (Blue Style) */
-  input[type="checkbox"].ios-switch:checked + div > div {
-    -webkit-transform: translate3d(20px, 0, 0);
-    -moz-transform: translate3d(20px, 0, 0);
-    background-color: #ffffff;
-  }
-
-  /* Tiny Knob */
-  input[type="checkbox"].tinyswitch.ios-switch + div > div {
-    width: 16px; height: 16px;
-    margin-top: 1px;
-  }
-
-  /* Checked Tiny Knob (Blue Style) */
-  input[type="checkbox"].tinyswitch.ios-switch:checked + div > div {
-    -webkit-transform: translate3d(16px, 0, 0);
-    -moz-transform: translate3d(16px, 0, 0);
+    margin-left: 26px;
   }
 
   /* Big Knob */
@@ -2607,14 +2592,10 @@ textarea {
 
   /* Checked Big Knob (Blue Style) */
   input[type="checkbox"].bigswitch.ios-switch:checked + div > div {
-    -webkit-transform: translate3d(25px, 0, 0);
-    -moz-transform: translate3d(25px, 0, 0);
+    -webkit-transform: translate3d(-24px, 0, 0);
+    -moz-transform: translate3d(-24px, 0, 0);
   }
 
-  /* Green Knob */
-  input[type="checkbox"].green.ios-switch:checked + div > div {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 162, 63,1);
-  }
 }
 .memo-corp__btn-plus {
   button {
