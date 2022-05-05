@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 
 a {
@@ -2760,16 +2762,10 @@ textarea {
     position: relative;
   /* Normal Track */
   /* Checked Track (Blue) */
-  /* Tiny Track */
   /* Big Track */
-  /* Green Track */
   /* Normal Knob */
-  /* Checked Knob (Blue Style) */
-  /* Tiny Knob */
-  /* Checked Tiny Knob (Blue Style) */
   /* Big Knob */
   /* Checked Big Knob (Blue Style) */
-  /* Green Knob */
 }
 
 .memo-corp__section__form--title label {
@@ -2782,6 +2778,13 @@ textarea {
     color: #787878;
     font-size: 0.875em;
     font-weight: 700;
+}
+
+.memo-corp__section__form--title label span {
+    position: absolute;
+    z-index: 0;
+    left: -200px;
+    top: 0;
 }
 
 .memo-corp__section__form--title input[type="checkbox"] {
@@ -2801,6 +2804,13 @@ textarea {
     margin-left: 5px;
 }
 
+.memo-corp__section__form--title input[type="checkbox"].ios-switch + div::before {
+    content: 'お知らせ機能として利用する';
+    position: absolute;
+    left: -180px;
+    top: 0;
+}
+
 .memo-corp__section__form--title input[type="checkbox"].ios-switch:checked + div {
     width: 40px;
     background-position: 0 0;
@@ -2808,21 +2818,14 @@ textarea {
     border: 1px solid #40BCC9;
 }
 
-.memo-corp__section__form--title input[type="checkbox"].tinyswitch.ios-switch + div {
-    width: 34px;
-    height: 18px;
+.memo-corp__section__form--title input[type="checkbox"].ios-switch:checked + div::before {
+    color: #40BCC9;
 }
 
 .memo-corp__section__form--title input[type="checkbox"].bigswitch.ios-switch + div {
     width: 48px;
     height: 24px;
     margin-left: 10px;
-}
-
-.memo-corp__section__form--title input[type="checkbox"].green.ios-switch:checked + div {
-    background-color: #00e359;
-    border: 1px solid #00a23f;
-    box-shadow: inset 0 0 0 10px #00e359;
 }
 
 .memo-corp__section__form--title input[type="checkbox"].ios-switch + div > div {
@@ -2839,24 +2842,7 @@ textarea {
     -moz-transition-property: transform, background-color;
     pointer-events: none;
     margin-top: 1px;
-    margin-left: 1px;
-}
-
-.memo-corp__section__form--title input[type="checkbox"].ios-switch:checked + div > div {
-    -webkit-transform: translate3d(20px, 0, 0);
-    -moz-transform: translate3d(20px, 0, 0);
-    background-color: #ffffff;
-}
-
-.memo-corp__section__form--title input[type="checkbox"].tinyswitch.ios-switch + div > div {
-    width: 16px;
-    height: 16px;
-    margin-top: 1px;
-}
-
-.memo-corp__section__form--title input[type="checkbox"].tinyswitch.ios-switch:checked + div > div {
-    -webkit-transform: translate3d(16px, 0, 0);
-    -moz-transform: translate3d(16px, 0, 0);
+    margin-left: 26px;
 }
 
 .memo-corp__section__form--title input[type="checkbox"].bigswitch.ios-switch + div > div {
@@ -2866,12 +2852,8 @@ textarea {
 }
 
 .memo-corp__section__form--title input[type="checkbox"].bigswitch.ios-switch:checked + div > div {
-    -webkit-transform: translate3d(25px, 0, 0);
-    -moz-transform: translate3d(25px, 0, 0);
-}
-
-.memo-corp__section__form--title input[type="checkbox"].green.ios-switch:checked + div > div {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 0 1px #00a23f;
+    -webkit-transform: translate3d(-24px, 0, 0);
+    -moz-transform: translate3d(-24px, 0, 0);
 }
 
 .memo-corp__btn-plus button {
