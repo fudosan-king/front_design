@@ -2374,6 +2374,9 @@ header {
   border-radius: 0.5rem;
   border: 1px solid #b4b4b4;
   cursor: move;
+  ::placeholder {
+    color: #c4c4c4;
+  }
   &.dragElem {
     opacity: 1;
   }
