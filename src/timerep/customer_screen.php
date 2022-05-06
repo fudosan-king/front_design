@@ -61,20 +61,6 @@
 
         </main>
 
-        <!-- <footer>
-            <ul>
-                <li class="active">
-                    <a href="#">
-                        <span><img src="images/svg/i_phone.svg" alt="" class="img-fluid" width="40"></span>
-                        <span>終了</span>
-                    </a>
-                </li>
-            </ul>
-            <div class="right_content right_content_customer">
-                <a href="#box_chat" class="btn_bell"></a>
-            </div>
-        </footer> -->
-
         <div class="control__wrapper" id="roomFooter">
             <div class="control__main">
                 <div class="control__item">

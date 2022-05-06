@@ -2904,3 +2904,171 @@ textarea {
         margin-top: 15px;
     }
 }
+
+.section_customer_screen {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.section_customer_screen h1 {
+    font-size: 1.625em;
+    color: #303030;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.section_customer_screen .customer_screen_content {
+    max-width: 560px;
+    margin: auto;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .box_img {
+    margin-top: 5px;
+    width: 100%;
+    height: 380px;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .box_img img {
+    width: 100%;
+    height: 380px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen hr {
+    margin-bottom: 30px;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .link {
+    background: #F0F0F0;
+    border-radius: 8px;
+    margin: 10px 0 40px;
+    padding: 15px;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .link a {
+    font-size: 0.875em;
+    color: #006CD0;
+    text-decoration: underline;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen p {
+    font-size: 0.9375em;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen label {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #303030;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen input {
+    background: #FFFFFF;
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    width: 100%;
+    height: 44px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    font-size: 0.9375em;
+    color: #303030;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen ::-moz-placeholder {
+    color: #B4B4B4;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen :-ms-input-placeholder {
+    color: #B4B4B4;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen ::placeholder {
+    color: #B4B4B4;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .text_left {
+    text-align: left;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen hr {
+    margin-bottom: 20px;
+    border-color: #D2D2D2;
+    border-top: none;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .btn_send {
+    background: #40BCC9;
+    border-radius: 50px;
+    min-width: 205px;
+    border: none;
+    padding: 9px 15px;
+    font-size: 1.125em;
+    color: #fff;
+    display: inline-flex;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .btn_send img {
+    margin-right: 10px;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .btn_send.active {
+    background: #C4C4C4;
+}
+
+.section_customer_screen .customer_screen_content .frm_customer_screen .privacy_policy a {
+    text-decoration: underline;
+    color: #006CD0;
+    font-size: 0.75em;
+}
+
+@media (max-width: 768px) {
+    .section_customer_screen {
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+
+    .section_customer_screen h1 {
+        font-size: 0.9375em;
+        margin-bottom: 20px;
+    }
+
+    .section_customer_screen h1 span {
+        display: block;
+    }
+
+    .section_customer_screen .customer_screen_content .frm_customer_screen .box_img {
+        height: 215px;
+    }
+
+    .section_customer_screen .customer_screen_content .frm_customer_screen .box_img img {
+        height: 215px;
+    }
+
+    .section_customer_screen .customer_screen_content .frm_customer_screen input {
+        margin-bottom: 20px;
+    }
+
+    .section_customer_screen .customer_screen_content .frm_customer_screen .link {
+        margin-bottom: 30px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .section_customer_screen .customer_screen_content .frm_customer_screen .text_left {
+        margin-bottom: 20px;
+    }
+
+    .section_customer_screen .customer_screen_content .frm_customer_screen label {
+        margin-top: 0;
+    }
+
+    .section_customer_screen .customer_screen_content .frm_customer_screen .privacy_policy {
+        margin-bottom: 0;
+    }
+}
