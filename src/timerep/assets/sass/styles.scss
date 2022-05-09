@@ -2775,3 +2775,188 @@ textarea {
     }
   }
 }
+
+.frm_editpage {
+  margin-top: 30px;
+}
+
+// radio custom
+$color-1: #ce93d8;
+$color-2: #a5d6a7;
+$color-3: #e6ee9c;
+$color-4: #90cafa;
+$color-5: #80deea;
+$color-6: #9fa8da;
+$color-7: #fbe083;
+$color-8: #facc80;
+$color-9: #f9ab92;
+$color-10: #ef9a9a;
+$color-11: #f48fb1;
+$color-12: #b0bec5;
+$color-13: #dbdbdb;
+
+.section_editpage {
+  .custom-radios {
+    div {
+      display: inline-block;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+
+    input[type="radio"] {
+      display: none;
+
+      + label {
+        color: #333;
+        font-size: 14px;
+        transition: 0.25s ease;
+        &:hover {
+          span {
+            opacity: .7;
+          }
+        }
+        span {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          margin: -1px 4px 0 0;
+          vertical-align: middle;
+          cursor: pointer;
+          border-radius: 50%;
+          background-repeat: no-repeat;
+          background-position: center;
+          text-align: center;
+          line-height: 44px;
+          transition: 0.25s ease;
+          position: relative;
+        }
+      }
+
+      &#color-1 + label span {
+        background-color: $color-1;
+      }
+      &#color-1:checked + label span {
+        &::before {
+          border: 3px solid $color-1;
+        }
+      }
+
+      &#color-2 + label span {
+        background-color: $color-2;
+      }
+      &#color-2:checked + label span {
+        &::before {
+          border: 3px solid $color-2;
+        }
+      }
+
+      &#color-3 + label span {
+        background-color: $color-3;
+      }
+      &#color-3:checked + label span {
+        &::before {
+          border: 3px solid $color-3;
+        }
+      }
+
+      &#color-4 + label span {
+        background-color: $color-4;
+      }
+      &#color-4:checked + label span {
+        &::before {
+          border: 3px solid $color-4;
+        }
+      }
+      &#color-5 + label span {
+        background-color: $color-5;
+      }
+      &#color-5:checked + label span {
+        &::before {
+          border: 3px solid $color-5;
+        }
+      }
+
+      &#color-6 + label span {
+        background-color: $color-6;
+      }
+      &#color-6:checked + label span {
+        &::before {
+          border: 3px solid $color-6;
+        }
+      }
+
+      &#color-7 + label span {
+        background-color: $color-7;
+      }
+      &#color-7:checked + label span {
+        &::before {
+          border: 3px solid $color-7;
+        }
+      }
+      &#color-8 + label span {
+        background-color: $color-8;
+      }
+      &#color-8:checked + label span {
+        &::before {
+          border: 3px solid $color-8;
+        }
+      }
+      &#color-9 + label span {
+        background-color: $color-9;
+      }
+      &#color-9:checked + label span {
+        &::before {
+          border: 3px solid $color-9;
+        }
+      }
+      &#color-10 + label span {
+        background-color: $color-10;
+      }
+      &#color-10:checked + label span {
+        &::before {
+          border: 3px solid $color-10;
+        }
+      }
+      &#color-11 + label span {
+        background-color: $color-11;
+      }
+      &#color-11:checked + label span {
+        &::before {
+          border: 3px solid $color-11;
+        }
+      }
+      &#color-12 + label span {
+        background-color: $color-12;
+      }
+      &#color-12:checked + label span {
+        &::before {
+          border: 3px solid $color-12;
+        }
+      }
+      &#color-13 + label span {
+        background-color: $color-13;
+      }
+      &#color-13:checked + label span {
+        &::before {
+          border: 3px solid $color-13;
+        }
+      }
+
+      &:checked + label span {
+        background-color: #fff !important;
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 100px;
+        }
+      }
+
+    }
+  }
+}
