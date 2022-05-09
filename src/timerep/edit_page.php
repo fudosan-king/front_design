@@ -135,80 +135,80 @@
                                     <div>
                                         <input type="radio" id="color-1" name="color" value="color-1" checked>
                                         <label for="color-1">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     
                                     <div>
                                         <input type="radio" id="color-2" name="color" value="color-2">
                                         <label for="color-2">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     
                                     <div>
                                         <input type="radio" id="color-3" name="color" value="color-3">
                                         <label for="color-3">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="color-4" name="color" value="color-4">
                                         <label for="color-4">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="color-5" name="color" value="color-5">
                                         <label for="color-5">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     
                                     <div>
                                         <input type="radio" id="color-6" name="color" value="color-6">
                                         <label for="color-6">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     
                                     <div>
                                         <input type="radio" id="color-7" name="color" value="color-7">
                                         <label for="color-7">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
 
                                     <div>
                                         <input type="radio" id="color-9" name="color" value="color-9">
                                         <label for="color-9">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     <div>
                                         <input type="radio" id="color-10" name="color" value="color-10">
                                         <label for="color-10">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     <div>
                                         <input type="radio" id="color-11" name="color" value="color-11">
                                         <label for="color-11">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     <div>
                                         <input type="radio" id="color-12" name="color" value="color-12">
                                         <label for="color-12">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
                                     <div>
                                         <input type="radio" id="color-13" name="color" value="color-13">
                                         <label for="color-13">
-                                        <span></span>
+                                            <span><img src="images/svg/i_check_white.svg" alt="Checked Icon" width="12"></span>
                                         </label>
                                     </div>
 
