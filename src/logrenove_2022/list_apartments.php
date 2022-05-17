@@ -11,7 +11,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <h2 class="title">マンション一覧</h2>
-                            <p class="d-flex justify-content-end"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p>
+                            <p class="d-flex justify-content-end mb-0"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p>
                             <ul class="list_content">
                                 <li>
                                     <a href="detail.php">

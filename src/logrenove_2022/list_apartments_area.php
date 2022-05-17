@@ -12,7 +12,7 @@
                         <div class="col-12 col-lg-12">
                             <h2 class="title">恵比寿・目黒・白金エリア<span>のマンション一覧</span></h2>
                             <p class="description">紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります紹介文が入ります。</p>
-                            <p class="d-flex justify-content-end"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p>
+                            <p class="d-flex justify-content-end mb-0"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p>
                             <ul class="list_content">
                                 <li>
                                     <a href="detail.php">
