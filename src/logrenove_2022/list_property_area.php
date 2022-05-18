@@ -188,7 +188,7 @@
                             </p>
                             <p class="d-flex justify-content-center justify-content-lg-end"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p>
 
-                            <nav aria-label="Page navigation example">
+                            <nav class="d-none d-lg-block" aria-label="Page navigation example">
                                 <ul class="pagination justify-content-center">
                                     <li class="page-item disabled">
                                         <a class="page-link"><img class="img-fluid" src="images/icons/i_left.svg" alt="i_left" width="8"></a>
