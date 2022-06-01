@@ -1,0 +1,10 @@
+AuthUserFile /opt/bitnami/apache/htdocs/daitoh/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Input ID and Password."
+AuthType Basic
+require valid-user
+<Files ~ "^.(htpasswd|htaccess)$">
+    deny from all
+</Files>
+
+

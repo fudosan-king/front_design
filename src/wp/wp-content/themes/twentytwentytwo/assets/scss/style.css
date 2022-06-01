@@ -1,0 +1,2972 @@
+@charset "UTF-8";
+/*! destyle.css v3.0.0 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+/* Reset box-model and set borders */
+/* ============================================ */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+}
+
+/* Document */
+/* ============================================ */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Remove gray overlay on links for iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-tap-highlight-color: transparent;
+  /* 3*/
+}
+
+/* Sections */
+/* ============================================ */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/* Vertical rhythm */
+/* ============================================ */
+p,
+table,
+blockquote,
+address,
+pre,
+iframe,
+form,
+figure,
+dl {
+  margin: 0;
+}
+
+/* Headings */
+/* ============================================ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* Lists (enumeration) */
+/* ============================================ */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Lists (definition) */
+/* ============================================ */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/* Grouping content */
+/* ============================================ */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+  border-top-width: 1px;
+  margin: 0;
+  clear: both;
+  color: inherit;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
+}
+
+address {
+  font-style: inherit;
+}
+
+/* Text-level semantics */
+/* ============================================ */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Replaced content */
+/* ============================================ */
+/**
+ * Prevent vertical alignment issues.
+ */
+svg,
+img,
+embed,
+object,
+iframe {
+  vertical-align: bottom;
+}
+
+/* Forms */
+/* ============================================ */
+/**
+ * Reset form fields to make them styleable.
+ * 1. Make form elements stylable across systems iOS especially.
+ * 2. Inherit text-transform from parent.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-appearance: none;
+  /* 1 */
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  /* 2 */
+}
+
+/**
+ * Reset radio and checkbox appearance to preserve their look in iOS.
+ */
+[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  appearance: checkbox;
+}
+
+[type="radio"] {
+  -webkit-appearance: radio;
+  appearance: radio;
+}
+
+/**
+ * Correct cursors for clickable elements.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer;
+}
+
+button:disabled,
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled {
+  cursor: default;
+}
+
+/**
+ * Improve outlines for Firefox and unify style with input elements & buttons.
+ */
+:-moz-focusring {
+  outline: auto;
+}
+
+select:disabled {
+  opacity: inherit;
+}
+
+/**
+ * Remove padding
+ */
+option {
+  padding: 0;
+}
+
+/**
+ * Reset to invisible
+ */
+fieldset {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the outline style in Safari.
+ */
+[type="search"] {
+  outline-offset: -2px;
+  /* 1 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Fix font inheritance.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/**
+ * Clickable labels
+ */
+label[for] {
+  cursor: pointer;
+}
+
+/* Interactive */
+/* ============================================ */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/*
+ * Remove outline for editable content.
+ */
+[contenteditable]:focus {
+  outline: auto;
+}
+
+/* Tables */
+/* ============================================ */
+/**
+1. Correct table border color inheritance in all Chrome and Safari.
+*/
+table {
+  border-spacing: 0;
+  border-color: inherit;
+  /* 1 */
+}
+
+caption {
+  text-align: left;
+}
+
+td,
+th {
+  vertical-align: top;
+  padding: 0;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+/*clearfix-------------------------------*/
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*-----a--img*/
+img, a {
+  display: block;
+}
+
+/*----main width wrap----*/
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+@media (max-width: 1200px) {
+  .container {
+    padding: 0px 20px;
+    width: 100%;
+  }
+}
+
+/*----width narrow wrap----*/
+.narrow {
+  margin: 0 auto;
+  width: 900px;
+}
+@media (max-width: 900px) {
+  .narrow {
+    padding: 0px 20px;
+    width: 100%;
+  }
+}
+
+/*----font ----*/
+@font-face {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/font/NotoSerifCJKjp-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/font/NotoSerifCJKjp-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/font/NotoSansCJKjp-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/font/NotoSansCJKjp-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/font/EBGaramond-Regular.ttf") format("woff");
+}
+.company #contact {
+  margin-top: 8rem;
+}
+@media screen and (max-width: 559px) {
+  .company #contact {
+    margin-top: 4rem;
+  }
+}
+
+/*----Contact btn css----*/
+.btn-cv {
+  border: 1px solid #000;
+  display: block;
+  font: 0.9rem/1rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  letter-spacing: 0.1em;
+  font-family: "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  padding: 0.6rem 0 0.5rem 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  text-decoration: none;
+  width: 170px;
+}
+@media screen and (max-width: 1000px) {
+  .btn-cv {
+    padding: 10px 0px;
+  }
+}
+@media screen and (max-width: 559px) {
+  .btn-cv {
+    width: 100%;
+  }
+}
+.btn-cv:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/*----next btn css----*/
+.btn-next {
+  border-bottom: 1px solid #000;
+  padding: 1.5rem;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  z-index: 1;
+  line-height: 1;
+  transition: ease .2s;
+  box-sizing: content-box;
+}
+.btn-next span {
+  position: relative;
+  z-index: 3;
+}
+.btn-next:hover span {
+  color: #fff;
+}
+.btn-next::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-top: solid 1px #000;
+  border-right: solid 1px #000;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  margin-top: -4px;
+  z-index: 3;
+}
+.btn-next:hover::after {
+  border-top: solid 1px #fff;
+  border-right: solid 1px #fff;
+  transition-delay: 0.4s;
+}
+@media screen and (max-width: 559px) {
+  .btn-next {
+    line-height: 1.4rem;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+  }
+  .btn-next:hover span {
+    color: black;
+  }
+  .btn-next:hover::after {
+    border-top: solid 1px #000;
+    border-right: solid 1px #000;
+  }
+}
+
+.bgleft:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+  transform: scale(0, 1);
+  transform-origin: right top;
+}
+
+.bgleft:hover:before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+@media screen and (max-width: 559px) {
+  .bgleft:hover:before {
+    display: none;
+  }
+}
+/*----brown btn css----*/
+.btn-brown {
+  background: linear-gradient(90deg, #756b63 0%, #80807b 50%, #756b63 100%);
+  border-radius: 10px;
+  border: 3px solid #807974;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding: 1rem 0;
+  width: 600px;
+}
+.btn-brown:hover {
+  opacity: 0.8;
+  transition: 0.6s;
+  background: linear-gradient(90deg, #80807b 0%, #756b63 50%, #80807b 100%);
+}
+@media screen and (max-width: 768px) {
+  .btn-brown {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
+
+html, body {
+  background: #f0e9d9;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.05rem;
+  color: #000;
+  font-family: "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+@media screen and (max-width: 559px) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+.sp-only {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .sp-only {
+    display: block;
+  }
+}
+
+.pc-only {
+  display: block;
+}
+@media screen and (max-width: 1000px) {
+  .pc-only {
+    display: none;
+  }
+}
+
+/*----pagetop btn css----*/
+#page-top {
+  bottom: 50px;
+  position: fixed;
+  right: 20px;
+  z-index: 9999;
+}
+#page-top a {
+  width: 50px;
+}
+
+/*----caption----*/
+.caption {
+  position: relative;
+}
+.caption p.small {
+  bottom: 10px;
+  color: #fff;
+  position: absolute;
+  text-shadow: 1px 2px 3px #000;
+  left: 10px;
+}
+
+.ls0 {
+  letter-spacing: 0;
+}
+
+/*----title----*/
+.ttl-box {
+  display: inline-block;
+}
+.ttl-box h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.3rem;
+}
+.ttl-box span {
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
+}
+.ttl-box span::after {
+  content: "";
+  background: #000;
+  display: block;
+  margin-top: 1.5rem;
+  height: 2px;
+  width: 120px;
+}
+.ttl-box a:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 1000px) {
+  .ttl-box h2 {
+    font-size: 2.9vw;
+  }
+  .ttl-box h2 span {
+    font-size: 0.8rem;
+  }
+}
+
+/*----header css----*/
+header {
+  background: #f0e9d9;
+  box-shadow: 0px 2px 10px #0000001c;
+  height: 125px;
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  transition: 0.3s;
+  width: 100%;
+  z-index: 3;
+}
+header.fixed {
+  background: #fff;
+  transition: 0.3s;
+}
+header .block {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+header .block__ttl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+header .block__ttl h1 {
+  padding-bottom: 0.7rem;
+  width: 230px;
+}
+header .block__ttl h1 img {
+  width: 100%;
+}
+header .block__navi a.btn-cv {
+  margin: 1rem 0rem 0 auto;
+}
+header .block nav ul.mega_menu {
+  font-size: 0.8rem;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .block nav ul.mega_menu li {
+  font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+  line-height: 1.6rem;
+}
+header .block nav ul.mega_menu li a {
+  display: block;
+  padding: 1.5rem 1rem;
+  position: relative;
+  text-decoration: none;
+}
+header .block nav ul.mega_menu li a:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+header .block nav ul.mega_menu li.menu {
+  /*  a:hover::after {
+      opacity: 1;
+    }*/
+}
+header .block nav ul.mega_menu li.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 20px 10px;
+  border-color: transparent transparent #f0e9d9 transparent;
+  opacity: 0;
+}
+header .block nav ul.mega_menu li ul.child_menu {
+  /* 下層メニューのスタイル */
+  display: -ms-flexbox;
+  display: flex;
+  box-shadow: 0px 5px 5px #555;
+  position: absolute;
+  top: 100%;
+  /* 親項目の直下に配置 */
+  left: 0;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem;
+  background: #f0e9d9;
+  /* 背景色 */
+  visibility: hidden;
+  /* 下層メニューを非表示 */
+  opacity: 0;
+  transition: 1s top, 1s opacity;
+  width: 100%;
+}
+header .block nav ul.mega_menu li ul.child_menu li {
+  font: 1rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  margin-left: 0;
+  padding-right: 2rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl {
+  width: 30%;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl b {
+  font-size: 1.8rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl span {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl span::after {
+  content: "";
+  background: #000;
+  display: block;
+  margin-top: 1.5rem;
+  height: 2px;
+  width: 100px;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl.lg {
+  width: 40%;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link {
+  width: 250px;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link span::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0 0.5em 0 0;
+  border: 5px solid transparent;
+  border-right: 0 solid transparent;
+  border-left: 8px solid #000;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link span br {
+  margin-right: 1rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link a::after {
+  content: none;
+}
+header .block nav ul.mega_menu li ul.child_menu li a {
+  padding: 0;
+}
+header .block nav ul.mega_menu li ul.child_menu li a:hover {
+  opacity: 1;
+}
+header .block nav ul.mega_menu li ul.child_menu li img {
+  filter: grayscale(100%);
+  width: 100%;
+}
+header .block nav ul.mega_menu li ul.child_menu li a:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transition: 0.3s;
+}
+header .block nav ul.mega_menu li:hover ul.child_menu {
+  visibility: visible;
+  opacity: 1;
+}
+header .block nav ul.mega_menu li.menu:hover a::after {
+  opacity: 1;
+  transition: 1s, 1s opacity;
+}
+@media (min-width: 1500px) {
+  header .block {
+    margin: 0 auto;
+    width: 1440px;
+  }
+  header .block nav ul.mega_menu li ul.child_menu {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1265px) {
+  header {
+    padding: 0 1rem;
+  }
+  header .block__ttl {
+    position: absolute;
+    top: 1rem;
+  }
+  header .block__ttl h1 {
+    width: 200px;
+  }
+  header .block__navi {
+    width: 100%;
+  }
+  header .block__navi nav ul.mega_menu {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header {
+    height: 70px;
+    padding: 1rem;
+  }
+  header .block__ttl h1 {
+    width: 170px;
+  }
+  header .block__navi a.btn-cv {
+    position: absolute;
+    right: 70px;
+    margin: 0;
+  }
+  header .block nav {
+    transition: all 0.3s;
+    position: fixed;
+    top: 70px;
+    right: -120%;
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 70px;
+  }
+  header .block nav ul.mega_menu {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  header .block nav ul.mega_menu li {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0rem;
+  }
+  header .block nav ul.mega_menu li + li {
+    border-left: 0px;
+  }
+  header .block nav ul.mega_menu li a {
+    padding: 1.5rem 1rem;
+    display: block;
+    border-bottom: 1px solid #000;
+  }
+  header .block nav ul.mega_menu li.current a::after {
+    content: none;
+  }
+  header .block nav ul.mega_menu li.menu a::after {
+    content: none;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu {
+    background: #fff;
+    box-shadow: none;
+    visibility: inherit;
+    position: relative;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    opacity: 1;
+    top: 0;
+    padding: 0;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li.ttl {
+    display: none;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li {
+    border-bottom: 0px;
+    width: 50%;
+    padding: 0;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li a {
+    padding: 1rem 0px 1rem 1rem;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li a img {
+    display: none;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li.link:nth-child(3), header .block nav ul.mega_menu li.menu ul.child_menu li.link:nth-child(5) {
+    border-left: 1px solid #000;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li.link span {
+    margin: 0;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li.link span br {
+    display: none;
+  }
+  header .block nav ul.mega_menu li.menu ul.child_menu li.link.lg {
+    border-left: 0px;
+    width: 100%;
+  }
+  header .block nav ul.mega_menu li.menu:hover {
+    opacity: 1;
+  }
+  header .block nav.open {
+    right: 0;
+    transition: all 0.3s;
+  }
+}
+@media screen and (max-width: 559px) {
+  header .block__navi a.btn-cv {
+    border: none;
+    font: 0.5rem/1rem "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+    position: absolute;
+    padding: 0;
+    letter-spacing: 0px;
+    right: 60px;
+    top: 10px;
+    margin: 0;
+    width: 70px;
+  }
+  header .block__navi a.btn-cv::before {
+    content: "";
+    display: block;
+    background: bottom/contain url("../../assets/img/icon_email.svg") no-repeat;
+    margin: 0 auto 5px auto;
+    height: 30px;
+    width: 30px;
+  }
+  header .block__navi a.btn-cv:hover {
+    background: none;
+    color: #000;
+  }
+  header .block__navi nav ul.mega_menu li.menu ul.child_menu li.link {
+    width: 100%;
+  }
+  header .block__navi nav ul.mega_menu li.menu ul.child_menu li.link:nth-child(3), header .block__navi nav ul.mega_menu li.menu ul.child_menu li.link:nth-child(5) {
+    border: 0px;
+  }
+}
+
+/*---- header hamburger menu----*/
+#nav-toggle {
+  display: none;
+  z-index: 101000;
+  position: fixed;
+  top: 15px;
+  right: 1rem;
+  height: 32px;
+  cursor: pointer;
+}
+#nav-toggle > div {
+  position: relative;
+  width: 36px;
+}
+#nav-toggle span {
+  width: 100%;
+  height: 2px;
+  left: 0;
+  display: block;
+  background: #000;
+  position: absolute;
+  transition: transform .6s ease-in-out, top .5s ease;
+}
+#nav-toggle span:nth-child(1) {
+  top: 0;
+}
+#nav-toggle span:nth-child(2) {
+  top: 14px;
+  width: 70%;
+  right: 0;
+  margin: 0 0 0 auto;
+}
+#nav-toggle span:nth-child(3) {
+  top: 28px;
+  margin: 0 0 0 auto;
+  width: 50%;
+  right: 0;
+}
+#nav-toggle:hover span:nth-child(1) {
+  top: 4px;
+}
+#nav-toggle:hover span:nth-child(3) {
+  top: 23px;
+}
+@media screen and (max-width: 1000px) {
+  #nav-toggle {
+    display: block;
+  }
+}
+
+#nav-toggle.open span:nth-child(1) {
+  top: 15px;
+  transform: rotate(45deg);
+}
+#nav-toggle.open span:nth-child(2) {
+  top: 15px;
+  width: 0;
+  left: 50%;
+}
+#nav-toggle.open span:nth-child(3) {
+  top: 15px;
+  width: 100%;
+  transform: rotate(-45deg);
+}
+@media screen and (max-width: 1000px) {
+  #nav-toggle.open span {
+    background: #000;
+  }
+}
+
+/*---- main css----*/
+main {
+  position: relative;
+}
+
+/*----top page key visual----*/
+.kv {
+  background: url("../../images/top_bg1.jpg") no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin-top: 125px;
+  position: relative;
+}
+.kv__message {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+}
+.kv__message img {
+  display: none;
+  width: 450px;
+}
+@media screen and (max-width: 1000px) {
+  .kv {
+    height: 60vh;
+    margin-top: 70px;
+  }
+  .kv__message img {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 559px) {
+  .kv {
+    height: 400px;
+  }
+  .kv__message img {
+    width: 80%;
+  }
+}
+
+/*----top page about----*/
+#aboutus {
+  background: right bottom 10%/50% url(../../images/top_bg_about.png) no-repeat;
+  position: relative;
+  padding: 180px 0;
+}
+#aboutus h2 {
+  font-size: 2.4rem;
+  line-height: 5rem;
+  letter-spacing: 0.1em;
+}
+#aboutus h2 span {
+  display: block;
+  font-size: 1rem;
+  line-height: 4rem;
+}
+#aboutus hr {
+  background: #000;
+  display: block;
+  height: 1px;
+  margin: 80px 0;
+  width: 120px;
+}
+#aboutus img.image-fix {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#aboutus p {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+@media screen and (max-width: 1000px) {
+  #aboutus {
+    background: none;
+    padding: 100px 0;
+  }
+  #aboutus h2 {
+    font-size: 3.6vw;
+    line-height: 8vw;
+  }
+  #aboutus hr {
+    margin: 40px 0;
+  }
+  #aboutus img.image-fix {
+    display: block;
+    position: relative;
+    margin: 0 -20px 0 auto;
+    width: 70%;
+  }
+  #aboutus p {
+    font-size: 1rem;
+    line-height: 2;
+  }
+}
+@media screen and (max-width: 559px) {
+  #aboutus {
+    padding: 60px 0;
+  }
+  #aboutus h2 {
+    font-size: 4vw;
+  }
+  #aboutus img.image-fix {
+    width: 90%;
+  }
+  #aboutus hr {
+    margin: 20px 0;
+  }
+}
+
+/*----top page news css----*/
+#top-news {
+  padding-bottom: 180px;
+}
+#top-news .box {
+  border: 1px solid #000;
+  padding: 2rem 4rem;
+}
+#top-news .box__ttl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+#top-news .box__ttl h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#top-news .box__ttl h2::after {
+  content: "";
+  background: #000;
+  display: block;
+  height: 2px;
+  width: 70px;
+  margin-bottom: 1rem;
+}
+#top-news .box__ttl a:hover {
+  opacity: 0.6;
+}
+#top-news .box__ttl--next a:hover {
+  text-decoration: underline;
+}
+#top-news .box__content {
+  height: 140px;
+  overflow-x: scroll;
+}
+#top-news .box__content dl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#top-news .box__content dl dt {
+  border-right: 1px solid #000;
+  width: 115px;
+  margin-top: 1rem;
+}
+#top-news .box__content dl dd {
+  width: 80%;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+#top-news .box__content dl dd a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1000px) {
+  #top-news {
+    padding-bottom: 100px;
+  }
+  #top-news .box {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #top-news .box__content dl dt {
+    border: none;
+    margin-top: 2rem;
+  }
+  #top-news .box__content dl dd {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 559px) {
+  #top-news {
+    padding-bottom: 60px;
+  }
+  #top-news .box {
+    padding: 2rem 1rem;
+  }
+  #top-news .box__content {
+    height: 300px;
+  }
+  #top-news .box__content dl dd {
+    padding-left: 0;
+  }
+}
+
+/*----top page category content----*/
+.content .inner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.content .inner__img {
+  width: 45%;
+}
+.content .inner__txt {
+  padding: 6rem;
+  width: 65%;
+}
+.content .inner__txt ul {
+  margin-top: 3rem;
+}
+.content .inner__txt ul.column2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.content .inner__txt ul.column2 li {
+  width: 48%;
+}
+.content .inner__txt ul.column2 li:nth-child(3), .content .inner__txt ul.column2 li:nth-child(4) {
+  margin-top: 2rem;
+}
+.content .inner__txt ul.column li:not(:first-child) {
+  margin-top: 2rem;
+}
+.content .inner.business .inner__img {
+  background: bottom right/cover url("../../images/top_img_1.jpg");
+}
+.content .inner.livemansion .inner__img {
+  background: bottom center/cover url("../../images/top_img_2.jpg");
+}
+.content .inner.findmansion .inner__img {
+  background: bottom/cover url("../../images/top_img_3.jpg") no-repeat;
+}
+.content .inner.rentalowner .inner__img {
+  background: bottom/cover url("../../images/top_img_4.jpg") no-repeat;
+}
+.content .inner.business .inner__txt, .content .inner.findmansion .inner__txt {
+  background: #fff;
+}
+.content .inner.livemansion .inner__txt, .content .inner.rentalowner .inner__txt {
+  background: #807974;
+  color: #fff;
+}
+.content .inner.livemansion .inner__txt ul li a.btn-next, .content .inner.rentalowner .inner__txt ul li a.btn-next {
+  border-bottom: 1px solid #fff;
+}
+.content .inner.livemansion .inner__txt ul li a.btn-next::after, .content .inner.rentalowner .inner__txt ul li a.btn-next::after {
+  border-top: solid 1px #fff;
+  border-right: solid 1px #fff;
+}
+.content .inner.livemansion .inner__txt ul li a.btn-next:hover, .content .inner.rentalowner .inner__txt ul li a.btn-next:hover {
+  border-bottom: 1px solid #000;
+}
+.content .inner.livemansion .inner__txt .ttl-box span::after, .content .inner.rentalowner .inner__txt .ttl-box span::after {
+  background: #fff;
+}
+@media (max-width: 1265px) {
+  .content .inner__txt {
+    padding: 4rem 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .content .inner__txt ul.column2 li {
+    width: 100%;
+  }
+  .content .inner__txt ul.column2 li:nth-child(2) {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content .inner {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .content .inner__img {
+    width: 100%;
+    height: 400px;
+  }
+  .content .inner__txt {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 559px) {
+  .content .inner__txt {
+    padding: 4rem 20px;
+  }
+  .content .inner__txt .ttl-box h2 {
+    font-size: 4.8vw;
+  }
+  .content .inner.livemansion .inner__txt ul.column li a.btn-next.bgleft:hover, .content .inner.rentalowner .inner__txt ul.column li a.btn-next.bgleft:hover {
+    border-bottom: 1px solid #fff;
+  }
+  .content .inner.livemansion .inner__txt ul.column li a.btn-next.bgleft:hover span, .content .inner.rentalowner .inner__txt ul.column li a.btn-next.bgleft:hover span {
+    color: #fff;
+  }
+}
+
+/*----top page banner link css----*/
+#link {
+  padding: 4rem 0;
+}
+#link ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+#link ul li {
+  width: 23%;
+}
+#link ul li img {
+  width: 100%;
+}
+#link ul li a:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 768px) {
+  #link ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #link ul li {
+    width: 46%;
+  }
+  #link ul li:nth-child(3), #link ul li:nth-child(4) {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 559px) {
+  #link ul li {
+    width: 47%;
+  }
+  #link ul li:nth-child(3) {
+    margin-top: 2rem;
+  }
+}
+
+/*----footer css----*/
+footer {
+  background: #807974;
+  color: #fff;
+  padding-top: 6rem;
+}
+footer .block {
+  padding-bottom: 6rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+footer .block__link {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 54%;
+}
+footer .block__link:nth-child(2) {
+  width: 44%;
+}
+footer .block__link--item b {
+  border-bottom: 1px solid #fff;
+  display: block;
+  padding-bottom: 0.2rem;
+  font-size: 1.1rem;
+}
+footer .block__link--item b:hover {
+  opacity: 0.6;
+}
+footer .block__link--item ul {
+  margin-top: 1rem;
+}
+footer .block__link--item ul li {
+  font: 0.9rem/1.6rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+footer .block__link--item ul li a:hover {
+  text-decoration: underline;
+}
+footer .block__link--item.list1 {
+  width: 33%;
+}
+footer .block__link--item.list2 {
+  width: 63%;
+}
+footer .block__link--item.list3 {
+  width: 54%;
+}
+footer .block__link--item.list4 {
+  width: 40%;
+}
+footer .block__link--item .box {
+  font: 0.9rem/1.6rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  margin-top: 1rem;
+}
+footer .block__link--item .box span {
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .block__link--item .box span a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1000px) {
+  footer .block {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  footer .block__link {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer .block__link--item.list1, footer .block__link--item.list2, footer .block__link--item.list3, footer .block__link--item.list4 {
+    width: 48%;
+  }
+  footer .block__link:nth-child(2) {
+    margin-top: 4rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 559px) {
+  footer {
+    padding-top: 4rem;
+  }
+  footer .block {
+    padding-bottom: 4rem;
+  }
+  footer .block__link b {
+    font-size: 1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  footer .block__link--item.list1, footer .block__link--item.list2, footer .block__link--item.list3, footer .block__link--item.list4 {
+    width: 100%;
+  }
+  footer .block__link--item.list2, footer .block__link--item.list4 {
+    margin-top: 4rem;
+  }
+}
+
+.copyright {
+  background: center/cover url("../../assets/img/bg_footer.jpg") no-repeat;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 4rem 0;
+  text-align: center;
+}
+.copyright a {
+  margin-bottom: 1rem;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+/*----lower key visual css----*/
+#kv-lower {
+  height: 400px;
+  margin-top: 125px;
+}
+#kv-lower .ttl {
+  color: #fff;
+  padding-top: 150px;
+  text-shadow: 1px 2px 5px #111;
+}
+#kv-lower .ttl h2 {
+  font: 3rem/4rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  letter-spacing: 0.6rem;
+}
+#kv-lower .ttl h2 span {
+  display: block;
+  font: 1rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  letter-spacing: 0.4rem;
+  margin-top: 0.5rem;
+}
+#kv-lower.company {
+  background: bottom/cover url("../images/common/company_bg.jpg");
+}
+#kv-lower.profile, #kv-lower.privacypolicy {
+  background: bottom/cover url("../../images/profile_bg.jpg");
+}
+#kv-lower.philosophy {
+  background: bottom/cover url("../../images/philosophy_bg.jpg");
+}
+#kv-lower.group {
+  background: bottom/cover url("../../images/group_bg.jpg");
+}
+#kv-lower.history {
+  background: bottom/cover url("../../images/history_bg.jpg");
+}
+#kv-lower.news {
+  background: bottom/cover url("../../images/news_bg.jpg");
+}
+#kv-lower.business {
+  background: bottom/cover url("../../images/business_bg.jpg");
+}
+#kv-lower.mansionmanagement {
+  background: bottom/cover url("../../images/mansionmanagement_bg.jpg");
+}
+#kv-lower.buildingmanagement {
+  background: bottom/cover url("../../images/buildingmanagement_bg.jpg");
+}
+#kv-lower.brokerage {
+  background: bottom/cover url("../../images/brokerage_bg.jpg");
+}
+#kv-lower.propertymanagement {
+  background: bottom/cover url("../../images/propertymanagement_bg.jpg");
+}
+#kv-lower.livemansion {
+  background: bottom/cover url("../../images/livemansion_bg.jpg");
+}
+#kv-lower.service {
+  background: bottom/cover url("../../images/service_bg.jpg");
+}
+#kv-lower.investment {
+  background: bottom/cover url("../../images/investment_bg.jpg");
+}
+#kv-lower.findmansion {
+  background: bottom/cover url("../../images/findmansion_bg.jpg");
+}
+#kv-lower.rentalowner {
+  background: bottom/cover url("../../images/rentalowner_bg.jpg");
+}
+#kv-lower.mansionassociate {
+  background: bottom/cover url("../../images/mansionassociate_bg.jpg");
+}
+#kv-lower.rethink {
+  background: bottom/cover url("../../images/rethink_bg.jpg");
+}
+#kv-lower.effective {
+  background: bottom/cover url("../../images/effective_bg.jpg");
+}
+#kv-lower.freeassessment {
+  background: bottom/cover url("../../images/freeassessment_bg.jpg");
+}
+#kv-lower.download {
+  background: bottom/cover url("../../images/download_bg.jpg");
+}
+#kv-lower.access {
+  background: bottom/cover url("../../images/access_bg.jpg");
+}
+@media screen and (max-width: 1000px) {
+  #kv-lower {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 559px) {
+  #kv-lower {
+    height: 300px;
+  }
+  #kv-lower .ttl {
+    padding-top: 100px;
+  }
+  #kv-lower .ttl h2 {
+    font: 6vw/2.6rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+    letter-spacing: 0.2rem;
+  }
+  #kv-lower .ttl h2 span {
+    font: 0.9rem/1.4rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  #kv-lower.company {
+    background: bottom/cover url("../../images/company_bg_sp.jpg");
+  }
+  #kv-lower.profile, #kv-lower.privacypolicy {
+    background: bottom/cover url("../../images/profile_bg_sp.jpg");
+  }
+  #kv-lower.philosophy {
+    background: bottom/cover url("../../images/philosophy_bg_sp.jpg");
+  }
+  #kv-lower.group {
+    background: bottom/cover url("../../images/group_bg_sp.jpg");
+  }
+  #kv-lower.history {
+    background: bottom/cover url("../../images/history_bg_sp.jpg");
+  }
+  #kv-lower.news {
+    background: bottom/cover url("../../images/news_bg_sp.jpg");
+  }
+  #kv-lower.news .ttl {
+    padding-top: 130px;
+  }
+  #kv-lower.business {
+    background: bottom/cover url("../../images/business_bg_sp.jpg");
+  }
+  #kv-lower.mansionmanagement {
+    background: bottom/cover url("../../images/mansionmanagement_bg_sp.jpg");
+  }
+  #kv-lower.buildingmanagement {
+    background: bottom/cover url("../../images/buildingmanagement_bg_sp.jpg");
+  }
+  #kv-lower.brokerage {
+    background: bottom/cover url("../../images/brokerage_bg_sp.jpg");
+  }
+  #kv-lower.propertymanagement {
+    background: bottom/cover url("../../images/propertymanagement_bg_sp.jpg");
+  }
+  #kv-lower.livemansion {
+    background: bottom/cover url("../../images/livemansion_bg_sp.jpg");
+  }
+  #kv-lower.service {
+    background: bottom/cover url("../../images/service_bg_sp.jpg");
+  }
+  #kv-lower.investment {
+    background: bottom/cover url("../../images/investment_bg_sp.jpg");
+  }
+  #kv-lower.findmansion {
+    background: bottom/cover url("../../images/findmansion_bg_sp.jpg");
+  }
+  #kv-lower.rentalowner {
+    background: bottom/cover url("../../images/rentalowner_bg_sp.jpg");
+  }
+  #kv-lower.mansionassociate {
+    background: bottom/cover url("../../images/mansionassociate_bg_sp.jpg");
+  }
+  #kv-lower.rethink {
+    background: bottom/cover url("../../images/rethink_bg_sp.jpg");
+  }
+  #kv-lower.effective {
+    background: bottom/cover url("../../images/effective_bg_sp.jpg");
+  }
+  #kv-lower.freeassessment {
+    background: bottom/cover url("../../images/freeassessment_bg_sp.jpg");
+  }
+  #kv-lower.download {
+    background: bottom/cover url("../../images/download_bg_sp.jpg");
+  }
+  #kv-lower.access {
+    background: bottom/cover url("../../images/access_bg_sp.jpg");
+  }
+}
+
+/*----lower2 4block category css----*/
+#page-link {
+  padding: 8rem 0px 8rem 0px;
+}
+#page-link .inner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+#page-link .inner .block {
+  width: 44%;
+}
+#page-link .inner .block .img-inner {
+  overflow: hidden;
+}
+#page-link .inner .block img {
+  width: 100%;
+  transition: 1s all;
+}
+#page-link .inner .block p {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+#page-link .inner .block p::before {
+  content: "";
+  border: 8px solid transparent;
+  border-right: 0 solid transparent;
+  border-left: 12px solid #000;
+  display: inline-block;
+  height: 0;
+  margin: 0 0.5em 0 0;
+  width: 0;
+}
+#page-link .inner .block:nth-child(3), #page-link .inner .block:nth-child(4) {
+  margin-top: 4rem;
+}
+#page-link .inner .block a:hover {
+  opacity: 0.8;
+}
+#page-link .inner .block a:hover img {
+  transform: scale(1.2, 1.2);
+  transition: 1s all;
+}
+@media screen and (max-width: 559px) {
+  #page-link {
+    padding: 4rem 0px 4rem 0px;
+  }
+  #page-link .inner .block {
+    width: 100%;
+  }
+  #page-link .inner .block:not(:first-child) {
+    margin-top: 4rem;
+  }
+}
+
+/*----lower3 page css----*/
+#page {
+  padding: 8rem 0px 8rem 0px;
+}
+@media screen and (max-width: 559px) {
+  #page {
+    padding: 4rem 0px 4rem 0px;
+  }
+}
+
+/*----company css----*/
+.company #profile table {
+  line-height: 2;
+  margin: 0;
+  width: 100%;
+}
+.company #profile table th {
+  border-right: 3px solid #807974;
+  text-align-last: justify;
+  padding: 1rem 4rem 1rem 1rem;
+  width: 25%;
+}
+.company #profile table td {
+  padding: 1rem 1rem 1rem 4rem;
+  width: 75%;
+}
+.company #profile table td a {
+  text-decoration: underline;
+}
+.company #profile table td a:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 768px) {
+  .company #profile table th {
+    padding: 1rem;
+    width: 20%;
+  }
+  .company #profile table td {
+    padding: 1rem;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 559px) {
+  .company #profile table {
+    line-height: 1.6;
+  }
+  .company #profile table th {
+    border-right: 0px;
+    border-bottom: 3px solid #807974;
+    display: inline-block;
+    padding: 1rem 0 0rem 0;
+    text-align-last: left;
+    width: auto;
+  }
+  .company #profile table td {
+    display: block;
+    padding: 1rem 0;
+    width: 100%;
+  }
+}
+.company #contact {
+  background: #dedad3;
+  padding: 3rem 4rem;
+}
+.company #contact h3 {
+  border-bottom: 1px solid #807974;
+  font: 1.2rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+.company #contact h4 {
+  font: 1.2rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+.company #contact h4 span {
+  font-size: 0.9rem;
+}
+.company #contact hr {
+  border-top: 1px dashed #807974;
+  margin: 1.5rem 0;
+}
+.company #contact .block {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.company #contact .block__tel a span::before {
+  content: "";
+  background: url("../../images/icon_telfree.svg");
+  display: inline-block;
+  margin-right: 0.5rem;
+  width: 40px;
+  height: 26px;
+}
+.company #contact .block__tel span {
+  font: 3.4rem/3rem "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+.company #contact .block__tel p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.company #contact .block__item p, .company #contact .block__item span {
+  font-size: 0.9rem;
+}
+.company #contact .block__item a {
+  font: 3.4rem/3rem "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+.company #contact .block__item a::before {
+  content: "";
+  background: url("../../images/icon_tel.svg");
+  display: inline-block;
+  margin-right: 0.5rem;
+  width: 40px;
+  height: 30px;
+}
+@media screen and (max-width: 768px) {
+  .company #contact {
+    padding: 1rem;
+  }
+  .company #contact .block {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .company #contact .block__tel span {
+    font: 6vw/2rem "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .company #contact .block__item a {
+    font: 6vw/2rem "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+}
+@media screen and (max-width: 559px) {
+  .company #contact h4 {
+    font: 1.2rem/1.4rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .company #contact .block__tel {
+    width: 100%;
+  }
+  .company #contact .block__tel span {
+    font: 12vw/2rem "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .company #contact .block__tel:nth-child(2) {
+    margin-top: 1.5rem;
+  }
+  .company #contact .block__item {
+    width: 100%;
+  }
+  .company #contact .block__item p br {
+    display: none;
+  }
+  .company #contact .block__item a {
+    font: 12vw/4rem "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .company #contact .block__item:nth-child(2) {
+    margin: 1rem 0;
+  }
+  .company #contact .block__item span {
+    display: block;
+    text-align: right;
+  }
+}
+.company #philosophy p {
+  font: 1.4rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+.company #philosophy p:not(:last-child) {
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 559px) {
+  .company #philosophy p {
+    font: 1.1rem/1.8rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .company #philosophy p:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+.company #group .tree {
+  padding-bottom: 8rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.company #group .tree__block {
+  width: 30%;
+  margin-right: 2rem;
+  position: relative;
+}
+.company #group .tree__block a {
+  background: #807974;
+  padding: 2rem;
+}
+.company #group .tree__block a img {
+  display: block;
+  width: 100%;
+}
+.company #group .tree__block a:hover {
+  opacity: 0.6;
+}
+.company #group .tree__block::after {
+  content: "";
+  border-top: 1px solid #807974;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -2rem;
+  height: 0;
+  width: 2rem;
+}
+.company #group .tree__list {
+  padding-left: 4rem;
+  width: 70%;
+  position: relative;
+}
+.company #group .tree__list::before {
+  content: "";
+  background: #807974;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  height: 1640px;
+  margin: auto 0;
+  top: 0;
+  width: 1px;
+}
+.company #group .tree__list .item {
+  background: #807974;
+  height: 100px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.company #group .tree__list .item::before {
+  content: "";
+  border-top: 1px solid #807974;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -4rem;
+  height: 0;
+  width: 4rem;
+}
+.company #group .tree__list .item a, .company #group .tree__list .item span {
+  color: #fff;
+  text-align: center;
+  width: 40%;
+}
+.company #group .tree__list .item a:hover {
+  text-decoration: underline;
+}
+.company #group .tree__list .item p {
+  background: #dedad3;
+  font-size: 0.9rem;
+  height: 100%;
+  padding: 0 1rem;
+  width: 60%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.company #group .tree__list .item:not(:first-child) {
+  margin-top: 4rem;
+}
+.company #group .tree__list .item:nth-child(5)::before, .company #group .tree__list .item:nth-child(7)::before {
+  content: "";
+  border-top: 0px;
+  border-right: 1px solid #807974;
+  height: 100%;
+  top: -100%;
+  right: 0;
+  left: 20%;
+  width: 1px;
+}
+@media screen and (max-width: 768px) {
+  .company #group .tree {
+    padding-bottom: 4rem;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .company #group .tree__block {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+  .company #group .tree__block a img {
+    width: 300px;
+  }
+  .company #group .tree__block::after {
+    border-right: 1px solid #807974;
+    top: auto;
+    left: 0;
+    bottom: -100%;
+    height: 100%;
+    width: 1px;
+  }
+  .company #group .tree__list {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .company #group .tree__block a img {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .company #group .tree__block::after {
+    content: none;
+  }
+  .company #group .tree__list {
+    width: 100%;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .company #group .tree__list::before {
+    content: none;
+  }
+  .company #group .tree__list .item {
+    height: auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .company #group .tree__list .item::before {
+    content: none;
+  }
+  .company #group .tree__list .item a, .company #group .tree__list .item span {
+    padding: 1rem 0;
+    width: 100%;
+  }
+  .company #group .tree__list .item p {
+    padding: 1rem;
+    width: 100%;
+  }
+  .company #group .tree__list .item:nth-child(5)::before, .company #group .tree__list .item:nth-child(7)::before {
+    content: none;
+  }
+}
+.company #history table tr {
+  border-bottom: 1px solid #807974;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.company #history table tr:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.company #history table th {
+  color: #807974;
+  width: 30%;
+}
+.company #history table th span {
+  font: normal 2rem/1rem "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+.company #history table td {
+  width: 70%;
+}
+.company #history table td dl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.company #history table td dl dt {
+  width: 10%;
+}
+.company #history table td dl dd {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 559px) {
+  .company #history table tr th {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .company #history table tr td {
+    width: 100%;
+  }
+}
+
+/*----news css----*/
+#news span.data {
+  font-weight: bold;
+}
+#news span.category {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.3rem 0;
+  margin-left: 2rem;
+  text-align: center;
+  width: 120px;
+}
+#news span.category.residence {
+  background: #916363;
+}
+#news span.category.pressrelease {
+  background: #637791;
+}
+#news span.category.news {
+  background: #807974;
+}
+#news dl {
+  border-bottom: 1px solid #807974;
+  margin-bottom: 2rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#news dl dt {
+  white-space: nowrap;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+#news dl dd {
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+  width: auto;
+}
+#news dl dd a:hover {
+  text-decoration: underline;
+}
+#news article .ttl {
+  margin-bottom: 4rem;
+}
+#news article .ttl .top {
+  border-bottom: 1px solid #807974;
+  display: block;
+  padding-bottom: 1.5rem;
+}
+#news article .ttl h3 {
+  color: #807974;
+  font: bold 1.6rem/3rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  margin-top: 1.5rem;
+}
+#news article p {
+  line-height: 2;
+}
+#news article p a {
+  color: #807974;
+  text-decoration: underline;
+}
+#news article p a:hover {
+  opacity: 0.6;
+}
+#news article p:not(:first-child) {
+  margin-top: 1rem;
+}
+#news article img {
+  width: 100%;
+}
+#news article .back-page {
+  margin-top: 4rem;
+  text-align: center;
+}
+#news article .back-page a {
+  color: #807974;
+  text-decoration: underline;
+}
+#news article .back-page a:hover {
+  opacity: 0.6;
+}
+#news .pagenation {
+  margin-top: 6rem;
+}
+#news .pagenation ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+#news .pagenation ul li {
+  padding: 1rem;
+}
+#news .pagenation ul li a.page-numbers {
+  text-decoration: underline;
+}
+#news .pagenation ul li a {
+  display: block;
+}
+#news .pagenation ul li a:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 559px) {
+  #news article .ttl {
+    margin-bottom: 2rem;
+  }
+  #news article .ttl h3 {
+    font: bold 1.2rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  #news dl {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #news dl dt {
+    padding-bottom: 1rem;
+  }
+  #news dl dd {
+    margin: 0;
+    width: 100%;
+  }
+  #news .pagenation {
+    margin-top: 2rem;
+  }
+}
+
+/*----business , livemansion ,findmansion , rentalowner , download , access , privacypolicy css----*/
+.business p, .livemansion p, .findmansion p, .rentalowner p, .download p, .access p, .privacypolicy p {
+  margin-top: 1rem;
+}
+.business p.main_txt, .livemansion p.main_txt, .findmansion p.main_txt, .rentalowner p.main_txt, .download p.main_txt, .access p.main_txt, .privacypolicy p.main_txt {
+  font: 1rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  letter-spacing: 0.1rem;
+  margin: 0 0 5rem 0;
+}
+.business p.small, .livemansion p.small, .findmansion p.small, .rentalowner p.small, .download p.small, .access p.small, .privacypolicy p.small {
+  font-size: 0.9rem;
+}
+.business p.bold, .livemansion p.bold, .findmansion p.bold, .rentalowner p.bold, .download p.bold, .access p.bold, .privacypolicy p.bold {
+  font-weight: bold;
+}
+.business ul, .livemansion ul, .findmansion ul, .rentalowner ul, .download ul, .access ul, .privacypolicy ul {
+  font-size: 0.9rem;
+}
+.business ul.disc, .livemansion ul.disc, .findmansion ul.disc, .rentalowner ul.disc, .download ul.disc, .access ul.disc, .privacypolicy ul.disc {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+.business .mt1, .livemansion .mt1, .findmansion .mt1, .rentalowner .mt1, .download .mt1, .access .mt1, .privacypolicy .mt1 {
+  margin-top: 1rem;
+}
+.business .mt2, .livemansion .mt2, .findmansion .mt2, .rentalowner .mt2, .download .mt2, .access .mt2, .privacypolicy .mt2 {
+  margin-top: 2rem;
+}
+.business .mt5, .livemansion .mt5, .findmansion .mt5, .rentalowner .mt5, .download .mt5, .access .mt5, .privacypolicy .mt5 {
+  margin-top: 5rem;
+}
+.business .pt8, .livemansion .pt8, .findmansion .pt8, .rentalowner .pt8, .download .pt8, .access .pt8, .privacypolicy .pt8 {
+  padding-top: 8rem;
+}
+.business .w80, .livemansion .w80, .findmansion .w80, .rentalowner .w80, .download .w80, .access .w80, .privacypolicy .w80 {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.business h3.brown, .livemansion h3.brown, .findmansion h3.brown, .rentalowner h3.brown, .download h3.brown, .access h3.brown, .privacypolicy h3.brown {
+  border-bottom: 1px solid #807974;
+  color: #807974;
+  font: bold 1.6rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  padding-bottom: 1rem;
+}
+.business h4, .livemansion h4, .findmansion h4, .rentalowner h4, .download h4, .access h4, .privacypolicy h4 {
+  font: bold 1.2rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  color: #807974;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.business h4::before, .livemansion h4::before, .findmansion h4::before, .rentalowner h4::before, .download h4::before, .access h4::before, .privacypolicy h4::before {
+  background: #807974;
+  content: "";
+  height: 1.1rem;
+  width: 1.1rem;
+  left: 0;
+  position: absolute;
+  top: 5px;
+}
+.business h5, .livemansion h5, .findmansion h5, .rentalowner h5, .download h5, .access h5, .privacypolicy h5 {
+  font-weight: bold;
+}
+.business h5.img-ttl, .livemansion h5.img-ttl, .findmansion h5.img-ttl, .rentalowner h5.img-ttl, .download h5.img-ttl, .access h5.img-ttl, .privacypolicy h5.img-ttl {
+  background: #fff;
+  color: #807974;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+.business .column2, .livemansion .column2, .findmansion .column2, .rentalowner .column2, .download .column2, .access .column2, .privacypolicy .column2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.business .column2__ttl, .livemansion .column2__ttl, .findmansion .column2__ttl, .rentalowner .column2__ttl, .download .column2__ttl, .access .column2__ttl, .privacypolicy .column2__ttl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 46%;
+}
+.business .column2__ttl .inner h3, .livemansion .column2__ttl .inner h3, .findmansion .column2__ttl .inner h3, .rentalowner .column2__ttl .inner h3, .download .column2__ttl .inner h3, .access .column2__ttl .inner h3, .privacypolicy .column2__ttl .inner h3 {
+  font: 2.4rem/3.6rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  letter-spacing: 0.1rem;
+}
+.business .column2__ttl .inner h3::after, .livemansion .column2__ttl .inner h3::after, .findmansion .column2__ttl .inner h3::after, .rentalowner .column2__ttl .inner h3::after, .download .column2__ttl .inner h3::after, .access .column2__ttl .inner h3::after, .privacypolicy .column2__ttl .inner h3::after {
+  content: "";
+  background: #000;
+  display: block;
+  margin-top: 2rem;
+  height: 2px;
+  width: 120px;
+}
+.business .column2__ttl .inner p, .livemansion .column2__ttl .inner p, .findmansion .column2__ttl .inner p, .rentalowner .column2__ttl .inner p, .download .column2__ttl .inner p, .access .column2__ttl .inner p, .privacypolicy .column2__ttl .inner p {
+  line-height: 2;
+  margin-top: 2rem;
+}
+.business .column2__img, .livemansion .column2__img, .findmansion .column2__img, .rentalowner .column2__img, .download .column2__img, .access .column2__img, .privacypolicy .column2__img {
+  width: 46%;
+}
+.business .column2__img img, .livemansion .column2__img img, .findmansion .column2__img img, .rentalowner .column2__img img, .download .column2__img img, .access .column2__img img, .privacypolicy .column2__img img {
+  width: 100%;
+}
+.business .column2__txt, .livemansion .column2__txt, .findmansion .column2__txt, .rentalowner .column2__txt, .download .column2__txt, .access .column2__txt, .privacypolicy .column2__txt {
+  width: 46%;
+}
+.business .column2__txt ol.number, .livemansion .column2__txt ol.number, .findmansion .column2__txt ol.number, .rentalowner .column2__txt ol.number, .download .column2__txt ol.number, .access .column2__txt ol.number, .privacypolicy .column2__txt ol.number {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+.business .column2__txt ol.number li, .livemansion .column2__txt ol.number li, .findmansion .column2__txt ol.number li, .rentalowner .column2__txt ol.number li, .download .column2__txt ol.number li, .access .column2__txt ol.number li, .privacypolicy .column2__txt ol.number li {
+  font-size: 0.9rem;
+}
+.business .column2__txt ol.number li:not(:first-child), .livemansion .column2__txt ol.number li:not(:first-child), .findmansion .column2__txt ol.number li:not(:first-child), .rentalowner .column2__txt ol.number li:not(:first-child), .download .column2__txt ol.number li:not(:first-child), .access .column2__txt ol.number li:not(:first-child), .privacypolicy .column2__txt ol.number li:not(:first-child) {
+  margin-top: 0.5rem;
+}
+.business .column2__voice, .livemansion .column2__voice, .findmansion .column2__voice, .rentalowner .column2__voice, .download .column2__voice, .access .column2__voice, .privacypolicy .column2__voice {
+  margin-top: 3rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 46%;
+}
+.business .column2__voice--owner, .livemansion .column2__voice--owner, .findmansion .column2__voice--owner, .rentalowner .column2__voice--owner, .download .column2__voice--owner, .access .column2__voice--owner, .privacypolicy .column2__voice--owner {
+  width: 20%;
+}
+.business .column2__voice--owner img, .livemansion .column2__voice--owner img, .findmansion .column2__voice--owner img, .rentalowner .column2__voice--owner img, .download .column2__voice--owner img, .access .column2__voice--owner img, .privacypolicy .column2__voice--owner img {
+  width: 100%;
+}
+.business .column2__voice--txt, .livemansion .column2__voice--txt, .findmansion .column2__voice--txt, .rentalowner .column2__voice--txt, .download .column2__voice--txt, .access .column2__voice--txt, .privacypolicy .column2__voice--txt {
+  width: 75%;
+}
+.business .column2__voice--txt p, .livemansion .column2__voice--txt p, .findmansion .column2__voice--txt p, .rentalowner .column2__voice--txt p, .download .column2__voice--txt p, .access .column2__voice--txt p, .privacypolicy .column2__voice--txt p {
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+.business .column1 img, .livemansion .column1 img, .findmansion .column1 img, .rentalowner .column1 img, .download .column1 img, .access .column1 img, .privacypolicy .column1 img {
+  width: 100%;
+}
+.business #mansionmanagement .column2__txt .item, .livemansion #mansionmanagement .column2__txt .item, .findmansion #mansionmanagement .column2__txt .item, .rentalowner #mansionmanagement .column2__txt .item, .download #mansionmanagement .column2__txt .item, .access #mansionmanagement .column2__txt .item, .privacypolicy #mansionmanagement .column2__txt .item {
+  border: 1px solid #807974;
+}
+.business #mansionmanagement .column2__txt .item h5, .livemansion #mansionmanagement .column2__txt .item h5, .findmansion #mansionmanagement .column2__txt .item h5, .rentalowner #mansionmanagement .column2__txt .item h5, .download #mansionmanagement .column2__txt .item h5, .access #mansionmanagement .column2__txt .item h5, .privacypolicy #mansionmanagement .column2__txt .item h5 {
+  background: #807974;
+  color: #fff;
+  padding: 0.2rem 0rem 0.2rem 1rem;
+}
+.business #mansionmanagement .column2__txt .item p, .livemansion #mansionmanagement .column2__txt .item p, .findmansion #mansionmanagement .column2__txt .item p, .rentalowner #mansionmanagement .column2__txt .item p, .download #mansionmanagement .column2__txt .item p, .access #mansionmanagement .column2__txt .item p, .privacypolicy #mansionmanagement .column2__txt .item p {
+  padding: 0 1rem;
+}
+.business #mansionmanagement .column2__txt .item ul, .livemansion #mansionmanagement .column2__txt .item ul, .findmansion #mansionmanagement .column2__txt .item ul, .rentalowner #mansionmanagement .column2__txt .item ul, .download #mansionmanagement .column2__txt .item ul, .access #mansionmanagement .column2__txt .item ul, .privacypolicy #mansionmanagement .column2__txt .item ul {
+  padding: 0 0rem 1rem 1rem;
+}
+.business #mansionmanagement .column2__txt .item:nth-child(2), .livemansion #mansionmanagement .column2__txt .item:nth-child(2), .findmansion #mansionmanagement .column2__txt .item:nth-child(2), .rentalowner #mansionmanagement .column2__txt .item:nth-child(2), .download #mansionmanagement .column2__txt .item:nth-child(2), .access #mansionmanagement .column2__txt .item:nth-child(2), .privacypolicy #mansionmanagement .column2__txt .item:nth-child(2) {
+  margin-top: 2rem;
+}
+.business #mansionmanagement .img__full, .livemansion #mansionmanagement .img__full, .findmansion #mansionmanagement .img__full, .rentalowner #mansionmanagement .img__full, .download #mansionmanagement .img__full, .access #mansionmanagement .img__full, .privacypolicy #mansionmanagement .img__full {
+  width: 49.5%;
+}
+.business #mansionmanagement .img__full img, .livemansion #mansionmanagement .img__full img, .findmansion #mansionmanagement .img__full img, .rentalowner #mansionmanagement .img__full img, .download #mansionmanagement .img__full img, .access #mansionmanagement .img__full img, .privacypolicy #mansionmanagement .img__full img {
+  width: 100%;
+}
+.business #mansionmanagement ul, .livemansion #mansionmanagement ul, .findmansion #mansionmanagement ul, .rentalowner #mansionmanagement ul, .download #mansionmanagement ul, .access #mansionmanagement ul, .privacypolicy #mansionmanagement ul {
+  margin-top: 1rem;
+}
+.business #mansionmanagement ul li span, .livemansion #mansionmanagement ul li span, .findmansion #mansionmanagement ul li span, .rentalowner #mansionmanagement ul li span, .download #mansionmanagement ul li span, .access #mansionmanagement ul li span, .privacypolicy #mansionmanagement ul li span {
+  display: inline-block;
+  vertical-align: top;
+}
+.business #emergencysupport .column1, .livemansion #emergencysupport .column1, .findmansion #emergencysupport .column1, .rentalowner #emergencysupport .column1, .download #emergencysupport .column1, .access #emergencysupport .column1, .privacypolicy #emergencysupport .column1 {
+  position: relative;
+}
+.business #emergencysupport .column1 p, .livemansion #emergencysupport .column1 p, .findmansion #emergencysupport .column1 p, .rentalowner #emergencysupport .column1 p, .download #emergencysupport .column1 p, .access #emergencysupport .column1 p, .privacypolicy #emergencysupport .column1 p {
+  font-size: 1.5vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.business #contractdetails .column3, .livemansion #contractdetails .column3, .findmansion #contractdetails .column3, .rentalowner #contractdetails .column3, .download #contractdetails .column3, .access #contractdetails .column3, .privacypolicy #contractdetails .column3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.business #contractdetails .column3__item, .livemansion #contractdetails .column3__item, .findmansion #contractdetails .column3__item, .rentalowner #contractdetails .column3__item, .download #contractdetails .column3__item, .access #contractdetails .column3__item, .privacypolicy #contractdetails .column3__item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.business #contractdetails .column3__item img, .livemansion #contractdetails .column3__item img, .findmansion #contractdetails .column3__item img, .rentalowner #contractdetails .column3__item img, .download #contractdetails .column3__item img, .access #contractdetails .column3__item img, .privacypolicy #contractdetails .column3__item img {
+  width: 100%;
+}
+.business #contractdetails .column3__item .txt, .livemansion #contractdetails .column3__item .txt, .findmansion #contractdetails .column3__item .txt, .rentalowner #contractdetails .column3__item .txt, .download #contractdetails .column3__item .txt, .access #contractdetails .column3__item .txt, .privacypolicy #contractdetails .column3__item .txt {
+  height: 260px;
+}
+.business #contractdetails .column3__item .inner, .livemansion #contractdetails .column3__item .inner, .findmansion #contractdetails .column3__item .inner, .rentalowner #contractdetails .column3__item .inner, .download #contractdetails .column3__item .inner, .access #contractdetails .column3__item .inner, .privacypolicy #contractdetails .column3__item .inner {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  flex-grow: 1;
+  display: -ms-flexbox;
+  display: flex;
+}
+.business #service .column2__txt img, .livemansion #service .column2__txt img, .findmansion #service .column2__txt img, .rentalowner #service .column2__txt img, .download #service .column2__txt img, .access #service .column2__txt img, .privacypolicy #service .column2__txt img {
+  width: 100%;
+}
+.business #mansionassociate h5, .livemansion #mansionassociate h5, .findmansion #mansionassociate h5, .rentalowner #mansionassociate h5, .download #mansionassociate h5, .access #mansionassociate h5, .privacypolicy #mansionassociate h5 {
+  color: #807974;
+}
+.business #investment ul.list-vertical, .livemansion #investment ul.list-vertical, .findmansion #investment ul.list-vertical, .rentalowner #investment ul.list-vertical, .download #investment ul.list-vertical, .access #investment ul.list-vertical, .privacypolicy #investment ul.list-vertical {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.business #investment ul.list-vertical li, .livemansion #investment ul.list-vertical li, .findmansion #investment ul.list-vertical li, .rentalowner #investment ul.list-vertical li, .download #investment ul.list-vertical li, .access #investment ul.list-vertical li, .privacypolicy #investment ul.list-vertical li {
+  background: #807974;
+  color: #fff;
+  font-size: 1rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  width: 8%;
+  text-align: center;
+}
+.business #investment ul.list-vertical li span, .livemansion #investment ul.list-vertical li span, .findmansion #investment ul.list-vertical li span, .rentalowner #investment ul.list-vertical li span, .download #investment ul.list-vertical li span, .access #investment ul.list-vertical li span, .privacypolicy #investment ul.list-vertical li span {
+  padding: 1rem 0;
+}
+.business #investment ul.list-vertical li span.number, .livemansion #investment ul.list-vertical li span.number, .findmansion #investment ul.list-vertical li span.number, .rentalowner #investment ul.list-vertical li span.number, .download #investment ul.list-vertical li span.number, .access #investment ul.list-vertical li span.number, .privacypolicy #investment ul.list-vertical li span.number {
+  font-family: "Garamond", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  display: block;
+  border-bottom: 2px solid #f0e9d9;
+  writing-mode: horizontal-tb;
+  width: 100%;
+}
+.business #investment ul.list-vertical li.arrow, .livemansion #investment ul.list-vertical li.arrow, .findmansion #investment ul.list-vertical li.arrow, .rentalowner #investment ul.list-vertical li.arrow, .download #investment ul.list-vertical li.arrow, .access #investment ul.list-vertical li.arrow, .privacypolicy #investment ul.list-vertical li.arrow {
+  background: none;
+  margin-top: 140px;
+  width: 20px;
+}
+.business #investment ul.list-vertical li.arrow img, .livemansion #investment ul.list-vertical li.arrow img, .findmansion #investment ul.list-vertical li.arrow img, .rentalowner #investment ul.list-vertical li.arrow img, .download #investment ul.list-vertical li.arrow img, .access #investment ul.list-vertical li.arrow img, .privacypolicy #investment ul.list-vertical li.arrow img {
+  width: 100%;
+}
+.business #investment table, .livemansion #investment table, .findmansion #investment table, .rentalowner #investment table, .download #investment table, .access #investment table, .privacypolicy #investment table {
+  color: #3c3937;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.business #investment table tr:nth-child(2), .business #investment table tr:nth-child(3), .livemansion #investment table tr:nth-child(2), .livemansion #investment table tr:nth-child(3), .findmansion #investment table tr:nth-child(2), .findmansion #investment table tr:nth-child(3), .rentalowner #investment table tr:nth-child(2), .rentalowner #investment table tr:nth-child(3), .download #investment table tr:nth-child(2), .download #investment table tr:nth-child(3), .access #investment table tr:nth-child(2), .access #investment table tr:nth-child(3), .privacypolicy #investment table tr:nth-child(2), .privacypolicy #investment table tr:nth-child(3) {
+  background: #dedad3;
+}
+.business #investment table th, .livemansion #investment table th, .findmansion #investment table th, .rentalowner #investment table th, .download #investment table th, .access #investment table th, .privacypolicy #investment table th {
+  background: #dedad3;
+  text-align: center;
+  width: 20%;
+  vertical-align: middle;
+}
+.business #investment table th.beside, .livemansion #investment table th.beside, .findmansion #investment table th.beside, .rentalowner #investment table th.beside, .download #investment table th.beside, .access #investment table th.beside, .privacypolicy #investment table th.beside {
+  border: 1px solid #807974;
+  border-left: none;
+  padding: 2rem 0;
+  width: 40%;
+}
+.business #investment table th.ttl, .livemansion #investment table th.ttl, .findmansion #investment table th.ttl, .rentalowner #investment table th.ttl, .download #investment table th.ttl, .access #investment table th.ttl, .privacypolicy #investment table th.ttl {
+  border: 1px solid #807974;
+  border-top: none;
+}
+.business #investment table td, .livemansion #investment table td, .findmansion #investment table td, .rentalowner #investment table td, .download #investment table td, .access #investment table td, .privacypolicy #investment table td {
+  border-right: 1px solid #807974;
+  border-bottom: 1px solid #807974;
+  background: #f0e9d9;
+  padding: 2rem;
+  vertical-align: middle;
+  width: 40%;
+}
+.business #investment table td.none, .livemansion #investment table td.none, .findmansion #investment table td.none, .rentalowner #investment table td.none, .download #investment table td.none, .access #investment table td.none, .privacypolicy #investment table td.none {
+  width: 20%;
+}
+.business #investment table td.sp_beside, .livemansion #investment table td.sp_beside, .findmansion #investment table td.sp_beside, .rentalowner #investment table td.sp_beside, .download #investment table td.sp_beside, .access #investment table td.sp_beside, .privacypolicy #investment table td.sp_beside {
+  display: none;
+}
+.business #investment table + p, .livemansion #investment table + p, .findmansion #investment table + p, .rentalowner #investment table + p, .download #investment table + p, .access #investment table + p, .privacypolicy #investment table + p {
+  color: #3c3937;
+}
+.business #effective #cv strong, .livemansion #effective #cv strong, .findmansion #effective #cv strong, .rentalowner #effective #cv strong, .download #effective #cv strong, .access #effective #cv strong, .privacypolicy #effective #cv strong {
+  color: #807974;
+  display: block;
+  font: 2rem/3rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  text-align: center;
+}
+.business #effective #cv ul, .livemansion #effective #cv ul, .findmansion #effective #cv ul, .rentalowner #effective #cv ul, .download #effective #cv ul, .access #effective #cv ul, .privacypolicy #effective #cv ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.business #effective #cv ul li, .livemansion #effective #cv ul li, .findmansion #effective #cv ul li, .rentalowner #effective #cv ul li, .download #effective #cv ul li, .access #effective #cv ul li, .privacypolicy #effective #cv ul li {
+  width: 30%;
+}
+.business #effective #cv ul li img, .livemansion #effective #cv ul li img, .findmansion #effective #cv ul li img, .rentalowner #effective #cv ul li img, .download #effective #cv ul li img, .access #effective #cv ul li img, .privacypolicy #effective #cv ul li img {
+  width: 100%;
+}
+.business #freeassessment .column2__ttl, .livemansion #freeassessment .column2__ttl, .findmansion #freeassessment .column2__ttl, .rentalowner #freeassessment .column2__ttl, .download #freeassessment .column2__ttl, .access #freeassessment .column2__ttl, .privacypolicy #freeassessment .column2__ttl {
+  width: 100%;
+}
+.business #download p.mail, .livemansion #download p.mail, .findmansion #download p.mail, .rentalowner #download p.mail, .download #download p.mail, .access #download p.mail, .privacypolicy #download p.mail {
+  color: #807974;
+  font-weight: bold;
+}
+.business #download p.mail a, .livemansion #download p.mail a, .findmansion #download p.mail a, .rentalowner #download p.mail a, .download #download p.mail a, .access #download p.mail a, .privacypolicy #download p.mail a {
+  display: inline-block;
+}
+.business #download p.mail a:hover, .livemansion #download p.mail a:hover, .findmansion #download p.mail a:hover, .rentalowner #download p.mail a:hover, .download #download p.mail a:hover, .access #download p.mail a:hover, .privacypolicy #download p.mail a:hover {
+  text-decoration: underline;
+}
+.business #download ul.downloadlist, .livemansion #download ul.downloadlist, .findmansion #download ul.downloadlist, .rentalowner #download ul.downloadlist, .download #download ul.downloadlist, .access #download ul.downloadlist, .privacypolicy #download ul.downloadlist {
+  color: #807974;
+  font: bold 1rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.business #download ul.downloadlist li, .livemansion #download ul.downloadlist li, .findmansion #download ul.downloadlist li, .rentalowner #download ul.downloadlist li, .download #download ul.downloadlist li, .access #download ul.downloadlist li, .privacypolicy #download ul.downloadlist li {
+  margin-top: 2rem;
+  text-align: center;
+  width: 48%;
+}
+.business #download ul.downloadlist li a, .livemansion #download ul.downloadlist li a, .findmansion #download ul.downloadlist li a, .rentalowner #download ul.downloadlist li a, .download #download ul.downloadlist li a, .access #download ul.downloadlist li a, .privacypolicy #download ul.downloadlist li a {
+  background: #d3cfcb;
+  border: 1px solid #807974;
+  padding: 1rem 0;
+  text-decoration: underline;
+}
+.business #download ul.downloadlist li a:hover, .livemansion #download ul.downloadlist li a:hover, .findmansion #download ul.downloadlist li a:hover, .rentalowner #download ul.downloadlist li a:hover, .download #download ul.downloadlist li a:hover, .access #download ul.downloadlist li a:hover, .privacypolicy #download ul.downloadlist li a:hover {
+  opacity: 0.6;
+}
+.business #download ul.downloadlist li p.small, .livemansion #download ul.downloadlist li p.small, .findmansion #download ul.downloadlist li p.small, .rentalowner #download ul.downloadlist li p.small, .download #download ul.downloadlist li p.small, .access #download ul.downloadlist li p.small, .privacypolicy #download ul.downloadlist li p.small {
+  color: #000;
+  font-weight: normal;
+  text-align: left;
+}
+.business #download #rentalmansion ul.disc, .livemansion #download #rentalmansion ul.disc, .findmansion #download #rentalmansion ul.disc, .rentalowner #download #rentalmansion ul.disc, .download #download #rentalmansion ul.disc, .access #download #rentalmansion ul.disc, .privacypolicy #download #rentalmansion ul.disc {
+  color: #807974;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.business #access h3, .business #privacypolicy h3, .livemansion #access h3, .livemansion #privacypolicy h3, .findmansion #access h3, .findmansion #privacypolicy h3, .rentalowner #access h3, .rentalowner #privacypolicy h3, .download #access h3, .download #privacypolicy h3, .access #access h3, .access #privacypolicy h3, .privacypolicy #access h3, .privacypolicy #privacypolicy h3 {
+  color: #807974;
+  font: bold 1.4rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+}
+.business #access .gmap iframe, .business #privacypolicy .gmap iframe, .livemansion #access .gmap iframe, .livemansion #privacypolicy .gmap iframe, .findmansion #access .gmap iframe, .findmansion #privacypolicy .gmap iframe, .rentalowner #access .gmap iframe, .rentalowner #privacypolicy .gmap iframe, .download #access .gmap iframe, .download #privacypolicy .gmap iframe, .access #access .gmap iframe, .access #privacypolicy .gmap iframe, .privacypolicy #access .gmap iframe, .privacypolicy #privacypolicy .gmap iframe {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100%;
+}
+.business #privacypolicy .right, .livemansion #privacypolicy .right, .findmansion #privacypolicy .right, .rentalowner #privacypolicy .right, .download #privacypolicy .right, .access #privacypolicy .right, .privacypolicy #privacypolicy .right {
+  text-align: right;
+}
+.business #privacypolicy ol, .livemansion #privacypolicy ol, .findmansion #privacypolicy ol, .rentalowner #privacypolicy ol, .download #privacypolicy ol, .access #privacypolicy ol, .privacypolicy #privacypolicy ol {
+  counter-reset: count 0;
+}
+.business #privacypolicy ol li span, .livemansion #privacypolicy ol li span, .findmansion #privacypolicy ol li span, .rentalowner #privacypolicy ol li span, .download #privacypolicy ol li span, .access #privacypolicy ol li span, .privacypolicy #privacypolicy ol li span {
+  display: block;
+  padding-left: 1.3rem;
+}
+.business #privacypolicy ol li table, .livemansion #privacypolicy ol li table, .findmansion #privacypolicy ol li table, .rentalowner #privacypolicy ol li table, .download #privacypolicy ol li table, .access #privacypolicy ol li table, .privacypolicy #privacypolicy ol li table {
+  width: 100%;
+}
+.business #privacypolicy ol li table tr th, .livemansion #privacypolicy ol li table tr th, .findmansion #privacypolicy ol li table tr th, .rentalowner #privacypolicy ol li table tr th, .download #privacypolicy ol li table tr th, .access #privacypolicy ol li table tr th, .privacypolicy #privacypolicy ol li table tr th {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  padding: 1rem;
+  width: 30%;
+}
+.business #privacypolicy ol li table tr th.last, .livemansion #privacypolicy ol li table tr th.last, .findmansion #privacypolicy ol li table tr th.last, .rentalowner #privacypolicy ol li table tr th.last, .download #privacypolicy ol li table tr th.last, .access #privacypolicy ol li table tr th.last, .privacypolicy #privacypolicy ol li table tr th.last {
+  border-bottom: 1px solid #000;
+}
+.business #privacypolicy ol li table tr td, .livemansion #privacypolicy ol li table tr td, .findmansion #privacypolicy ol li table tr td, .rentalowner #privacypolicy ol li table tr td, .download #privacypolicy ol li table tr td, .access #privacypolicy ol li table tr td, .privacypolicy #privacypolicy ol li table tr td {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 1rem;
+  width: 70%;
+}
+.business #privacypolicy ol li table tr td.last, .livemansion #privacypolicy ol li table tr td.last, .findmansion #privacypolicy ol li table tr td.last, .rentalowner #privacypolicy ol li table tr td.last, .download #privacypolicy ol li table tr td.last, .access #privacypolicy ol li table tr td.last, .privacypolicy #privacypolicy ol li table tr td.last {
+  border-bottom: 1px solid #000;
+}
+.business #privacypolicy ol li ol.roman, .livemansion #privacypolicy ol li ol.roman, .findmansion #privacypolicy ol li ol.roman, .rentalowner #privacypolicy ol li ol.roman, .download #privacypolicy ol li ol.roman, .access #privacypolicy ol li ol.roman, .privacypolicy #privacypolicy ol li ol.roman {
+  padding-left: 1.3rem;
+  list-style-type: lower-roman;
+}
+.business #privacypolicy ol li ol.roman li::before, .livemansion #privacypolicy ol li ol.roman li::before, .findmansion #privacypolicy ol li ol.roman li::before, .rentalowner #privacypolicy ol li ol.roman li::before, .download #privacypolicy ol li ol.roman li::before, .access #privacypolicy ol li ol.roman li::before, .privacypolicy #privacypolicy ol li ol.roman li::before {
+  content: none;
+}
+.business #privacypolicy ol li ol.roman li:not(:first-child), .livemansion #privacypolicy ol li ol.roman li:not(:first-child), .findmansion #privacypolicy ol li ol.roman li:not(:first-child), .rentalowner #privacypolicy ol li ol.roman li:not(:first-child), .download #privacypolicy ol li ol.roman li:not(:first-child), .access #privacypolicy ol li ol.roman li:not(:first-child), .privacypolicy #privacypolicy ol li ol.roman li:not(:first-child) {
+  margin-top: 0;
+}
+.business #privacypolicy ol li ol.alpha, .livemansion #privacypolicy ol li ol.alpha, .findmansion #privacypolicy ol li ol.alpha, .rentalowner #privacypolicy ol li ol.alpha, .download #privacypolicy ol li ol.alpha, .access #privacypolicy ol li ol.alpha, .privacypolicy #privacypolicy ol li ol.alpha {
+  padding-left: 1.3rem;
+  list-style-type: lower-alpha;
+}
+.business #privacypolicy ol li ol.alpha li::before, .livemansion #privacypolicy ol li ol.alpha li::before, .findmansion #privacypolicy ol li ol.alpha li::before, .rentalowner #privacypolicy ol li ol.alpha li::before, .download #privacypolicy ol li ol.alpha li::before, .access #privacypolicy ol li ol.alpha li::before, .privacypolicy #privacypolicy ol li ol.alpha li::before {
+  content: none;
+}
+.business #privacypolicy ol li ol.alpha li a, .livemansion #privacypolicy ol li ol.alpha li a, .findmansion #privacypolicy ol li ol.alpha li a, .rentalowner #privacypolicy ol li ol.alpha li a, .download #privacypolicy ol li ol.alpha li a, .access #privacypolicy ol li ol.alpha li a, .privacypolicy #privacypolicy ol li ol.alpha li a {
+  display: inline-block;
+}
+.business #privacypolicy ol li ol.alpha li a:hover, .livemansion #privacypolicy ol li ol.alpha li a:hover, .findmansion #privacypolicy ol li ol.alpha li a:hover, .rentalowner #privacypolicy ol li ol.alpha li a:hover, .download #privacypolicy ol li ol.alpha li a:hover, .access #privacypolicy ol li ol.alpha li a:hover, .privacypolicy #privacypolicy ol li ol.alpha li a:hover {
+  text-decoration: underline;
+}
+.business #privacypolicy ol li ol.alpha li:not(:first-child), .livemansion #privacypolicy ol li ol.alpha li:not(:first-child), .findmansion #privacypolicy ol li ol.alpha li:not(:first-child), .rentalowner #privacypolicy ol li ol.alpha li:not(:first-child), .download #privacypolicy ol li ol.alpha li:not(:first-child), .access #privacypolicy ol li ol.alpha li:not(:first-child), .privacypolicy #privacypolicy ol li ol.alpha li:not(:first-child) {
+  margin-top: 0;
+}
+.business #privacypolicy ol li:not(:first-child), .livemansion #privacypolicy ol li:not(:first-child), .findmansion #privacypolicy ol li:not(:first-child), .rentalowner #privacypolicy ol li:not(:first-child), .download #privacypolicy ol li:not(:first-child), .access #privacypolicy ol li:not(:first-child), .privacypolicy #privacypolicy ol li:not(:first-child) {
+  margin-top: 2rem;
+}
+.business #privacypolicy ol li:before, .livemansion #privacypolicy ol li:before, .findmansion #privacypolicy ol li:before, .rentalowner #privacypolicy ol li:before, .download #privacypolicy ol li:before, .access #privacypolicy ol li:before, .privacypolicy #privacypolicy ol li:before {
+  content: counter(count) ". ";
+  counter-increment: count 1;
+}
+@media screen and (max-width: 1000px) {
+  .business #emergencysupport .column1 p, .livemansion #emergencysupport .column1 p, .findmansion #emergencysupport .column1 p, .rentalowner #emergencysupport .column1 p, .download #emergencysupport .column1 p, .access #emergencysupport .column1 p, .privacypolicy #emergencysupport .column1 p {
+    font-size: auto;
+    position: relative;
+  }
+  .business #contractdetails .column3__item .txt, .livemansion #contractdetails .column3__item .txt, .findmansion #contractdetails .column3__item .txt, .rentalowner #contractdetails .column3__item .txt, .download #contractdetails .column3__item .txt, .access #contractdetails .column3__item .txt, .privacypolicy #contractdetails .column3__item .txt {
+    height: 360px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .business .w80, .livemansion .w80, .findmansion .w80, .rentalowner .w80, .download .w80, .access .w80, .privacypolicy .w80 {
+    width: 100%;
+  }
+  .business .column2, .livemansion .column2, .findmansion .column2, .rentalowner .column2, .download .column2, .access .column2, .privacypolicy .column2 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .business .column2__ttl, .livemansion .column2__ttl, .findmansion .column2__ttl, .rentalowner .column2__ttl, .download .column2__ttl, .access .column2__ttl, .privacypolicy .column2__ttl {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .business .column2__img, .livemansion .column2__img, .findmansion .column2__img, .rentalowner .column2__img, .download .column2__img, .access .column2__img, .privacypolicy .column2__img {
+    width: 100%;
+  }
+  .business .column2__txt, .livemansion .column2__txt, .findmansion .column2__txt, .rentalowner .column2__txt, .download .column2__txt, .access .column2__txt, .privacypolicy .column2__txt {
+    width: 100%;
+  }
+  .business .column2__txt:nth-child(2), .livemansion .column2__txt:nth-child(2), .findmansion .column2__txt:nth-child(2), .rentalowner .column2__txt:nth-child(2), .download .column2__txt:nth-child(2), .access .column2__txt:nth-child(2), .privacypolicy .column2__txt:nth-child(2) {
+    margin-top: 5rem;
+  }
+  .business #contractdetails .column3, .livemansion #contractdetails .column3, .findmansion #contractdetails .column3, .rentalowner #contractdetails .column3, .download #contractdetails .column3, .access #contractdetails .column3, .privacypolicy #contractdetails .column3 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .business #contractdetails .column3__item, .livemansion #contractdetails .column3__item, .findmansion #contractdetails .column3__item, .rentalowner #contractdetails .column3__item, .download #contractdetails .column3__item, .access #contractdetails .column3__item, .privacypolicy #contractdetails .column3__item {
+    width: 100%;
+  }
+  .business #contractdetails .column3__item .txt, .livemansion #contractdetails .column3__item .txt, .findmansion #contractdetails .column3__item .txt, .rentalowner #contractdetails .column3__item .txt, .download #contractdetails .column3__item .txt, .access #contractdetails .column3__item .txt, .privacypolicy #contractdetails .column3__item .txt {
+    height: auto;
+  }
+  .business #contractdetails .column3__item:not(:first-child), .livemansion #contractdetails .column3__item:not(:first-child), .findmansion #contractdetails .column3__item:not(:first-child), .rentalowner #contractdetails .column3__item:not(:first-child), .download #contractdetails .column3__item:not(:first-child), .access #contractdetails .column3__item:not(:first-child), .privacypolicy #contractdetails .column3__item:not(:first-child) {
+    margin-top: 3rem;
+  }
+  .business #mansionmanagement .img__full, .livemansion #mansionmanagement .img__full, .findmansion #mansionmanagement .img__full, .rentalowner #mansionmanagement .img__full, .download #mansionmanagement .img__full, .access #mansionmanagement .img__full, .privacypolicy #mansionmanagement .img__full {
+    width: 100%;
+  }
+  .business #mansionmanagement .img__full:nth-child(2), .livemansion #mansionmanagement .img__full:nth-child(2), .findmansion #mansionmanagement .img__full:nth-child(2), .rentalowner #mansionmanagement .img__full:nth-child(2), .download #mansionmanagement .img__full:nth-child(2), .access #mansionmanagement .img__full:nth-child(2), .privacypolicy #mansionmanagement .img__full:nth-child(2) {
+    margin-top: 3rem;
+  }
+  .business #investment ul.list-vertical, .livemansion #investment ul.list-vertical, .findmansion #investment ul.list-vertical, .rentalowner #investment ul.list-vertical, .download #investment ul.list-vertical, .access #investment ul.list-vertical, .privacypolicy #investment ul.list-vertical {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .business #investment ul.list-vertical li, .livemansion #investment ul.list-vertical li, .findmansion #investment ul.list-vertical li, .rentalowner #investment ul.list-vertical li, .download #investment ul.list-vertical li, .access #investment ul.list-vertical li, .privacypolicy #investment ul.list-vertical li {
+    width: 19%;
+  }
+  .business #investment ul.list-vertical li.arrow, .livemansion #investment ul.list-vertical li.arrow, .findmansion #investment ul.list-vertical li.arrow, .rentalowner #investment ul.list-vertical li.arrow, .download #investment ul.list-vertical li.arrow, .access #investment ul.list-vertical li.arrow, .privacypolicy #investment ul.list-vertical li.arrow {
+    width: 15px;
+  }
+  .business #investment ul.list-vertical li.arrow:nth-child(8), .livemansion #investment ul.list-vertical li.arrow:nth-child(8), .findmansion #investment ul.list-vertical li.arrow:nth-child(8), .rentalowner #investment ul.list-vertical li.arrow:nth-child(8), .download #investment ul.list-vertical li.arrow:nth-child(8), .access #investment ul.list-vertical li.arrow:nth-child(8), .privacypolicy #investment ul.list-vertical li.arrow:nth-child(8) {
+    display: none;
+  }
+  .business #investment ul.list-vertical li.arrow:nth-child(10), .business #investment ul.list-vertical li.arrow:nth-child(12), .business #investment ul.list-vertical li.arrow:nth-child(14), .livemansion #investment ul.list-vertical li.arrow:nth-child(10), .livemansion #investment ul.list-vertical li.arrow:nth-child(12), .livemansion #investment ul.list-vertical li.arrow:nth-child(14), .findmansion #investment ul.list-vertical li.arrow:nth-child(10), .findmansion #investment ul.list-vertical li.arrow:nth-child(12), .findmansion #investment ul.list-vertical li.arrow:nth-child(14), .rentalowner #investment ul.list-vertical li.arrow:nth-child(10), .rentalowner #investment ul.list-vertical li.arrow:nth-child(12), .rentalowner #investment ul.list-vertical li.arrow:nth-child(14), .download #investment ul.list-vertical li.arrow:nth-child(10), .download #investment ul.list-vertical li.arrow:nth-child(12), .download #investment ul.list-vertical li.arrow:nth-child(14), .access #investment ul.list-vertical li.arrow:nth-child(10), .access #investment ul.list-vertical li.arrow:nth-child(12), .access #investment ul.list-vertical li.arrow:nth-child(14), .privacypolicy #investment ul.list-vertical li.arrow:nth-child(10), .privacypolicy #investment ul.list-vertical li.arrow:nth-child(12), .privacypolicy #investment ul.list-vertical li.arrow:nth-child(14) {
+    margin-top: 160px;
+  }
+  .business #investment ul.list-vertical li:nth-child(9), .business #investment ul.list-vertical li:nth-child(11), .business #investment ul.list-vertical li:nth-child(13), .business #investment ul.list-vertical li:nth-child(15), .livemansion #investment ul.list-vertical li:nth-child(9), .livemansion #investment ul.list-vertical li:nth-child(11), .livemansion #investment ul.list-vertical li:nth-child(13), .livemansion #investment ul.list-vertical li:nth-child(15), .findmansion #investment ul.list-vertical li:nth-child(9), .findmansion #investment ul.list-vertical li:nth-child(11), .findmansion #investment ul.list-vertical li:nth-child(13), .findmansion #investment ul.list-vertical li:nth-child(15), .rentalowner #investment ul.list-vertical li:nth-child(9), .rentalowner #investment ul.list-vertical li:nth-child(11), .rentalowner #investment ul.list-vertical li:nth-child(13), .rentalowner #investment ul.list-vertical li:nth-child(15), .download #investment ul.list-vertical li:nth-child(9), .download #investment ul.list-vertical li:nth-child(11), .download #investment ul.list-vertical li:nth-child(13), .download #investment ul.list-vertical li:nth-child(15), .access #investment ul.list-vertical li:nth-child(9), .access #investment ul.list-vertical li:nth-child(11), .access #investment ul.list-vertical li:nth-child(13), .access #investment ul.list-vertical li:nth-child(15), .privacypolicy #investment ul.list-vertical li:nth-child(9), .privacypolicy #investment ul.list-vertical li:nth-child(11), .privacypolicy #investment ul.list-vertical li:nth-child(13), .privacypolicy #investment ul.list-vertical li:nth-child(15) {
+    margin-top: 2rem;
+  }
+  .business #freeassessment .column2__ttl, .livemansion #freeassessment .column2__ttl, .findmansion #freeassessment .column2__ttl, .rentalowner #freeassessment .column2__ttl, .download #freeassessment .column2__ttl, .access #freeassessment .column2__ttl, .privacypolicy #freeassessment .column2__ttl {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 559px) {
+  .business p.main_txt, .livemansion p.main_txt, .findmansion p.main_txt, .rentalowner p.main_txt, .download p.main_txt, .access p.main_txt, .privacypolicy p.main_txt {
+    margin-bottom: 3rem;
+  }
+  .business .mt5, .livemansion .mt5, .findmansion .mt5, .rentalowner .mt5, .download .mt5, .access .mt5, .privacypolicy .mt5 {
+    margin-top: 3rem;
+  }
+  .business .pt8, .livemansion .pt8, .findmansion .pt8, .rentalowner .pt8, .download .pt8, .access .pt8, .privacypolicy .pt8 {
+    padding-top: 4rem;
+  }
+  .business h3.brown, .livemansion h3.brown, .findmansion h3.brown, .rentalowner h3.brown, .download h3.brown, .access h3.brown, .privacypolicy h3.brown {
+    font: bold 1.4rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .business .column2, .livemansion .column2, .findmansion .column2, .rentalowner .column2, .download .column2, .access .column2, .privacypolicy .column2 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .business .column2__ttl, .livemansion .column2__ttl, .findmansion .column2__ttl, .rentalowner .column2__ttl, .download .column2__ttl, .access .column2__ttl, .privacypolicy .column2__ttl {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .business .column2__ttl .inner h3, .livemansion .column2__ttl .inner h3, .findmansion .column2__ttl .inner h3, .rentalowner .column2__ttl .inner h3, .download .column2__ttl .inner h3, .access .column2__ttl .inner h3, .privacypolicy .column2__ttl .inner h3 {
+    font: 6vw/2.6rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .business .column2__img, .livemansion .column2__img, .findmansion .column2__img, .rentalowner .column2__img, .download .column2__img, .access .column2__img, .privacypolicy .column2__img {
+    width: 100%;
+  }
+  .business .column2__txt, .livemansion .column2__txt, .findmansion .column2__txt, .rentalowner .column2__txt, .download .column2__txt, .access .column2__txt, .privacypolicy .column2__txt {
+    width: 100%;
+  }
+  .business .column2__txt:nth-child(2), .livemansion .column2__txt:nth-child(2), .findmansion .column2__txt:nth-child(2), .rentalowner .column2__txt:nth-child(2), .download .column2__txt:nth-child(2), .access .column2__txt:nth-child(2), .privacypolicy .column2__txt:nth-child(2) {
+    margin-top: 3rem;
+  }
+  .business .column2__voice, .livemansion .column2__voice, .findmansion .column2__voice, .rentalowner .column2__voice, .download .column2__voice, .access .column2__voice, .privacypolicy .column2__voice {
+    width: 100%;
+  }
+  .business #investment table, .livemansion #investment table, .findmansion #investment table, .rentalowner #investment table, .download #investment table, .access #investment table, .privacypolicy #investment table {
+    display: block;
+  }
+  .business #investment table tr, .livemansion #investment table tr, .findmansion #investment table tr, .rentalowner #investment table tr, .download #investment table tr, .access #investment table tr, .privacypolicy #investment table tr {
+    display: block;
+  }
+  .business #investment table tr:nth-child(1), .livemansion #investment table tr:nth-child(1), .findmansion #investment table tr:nth-child(1), .rentalowner #investment table tr:nth-child(1), .download #investment table tr:nth-child(1), .access #investment table tr:nth-child(1), .privacypolicy #investment table tr:nth-child(1) {
+    display: none;
+  }
+  .business #investment table tr:nth-child(3), .livemansion #investment table tr:nth-child(3), .findmansion #investment table tr:nth-child(3), .rentalowner #investment table tr:nth-child(3), .download #investment table tr:nth-child(3), .access #investment table tr:nth-child(3), .privacypolicy #investment table tr:nth-child(3) {
+    background: none;
+    margin-top: 2rem;
+  }
+  .business #investment table tr:nth-child(2), .livemansion #investment table tr:nth-child(2), .findmansion #investment table tr:nth-child(2), .rentalowner #investment table tr:nth-child(2), .download #investment table tr:nth-child(2), .access #investment table tr:nth-child(2), .privacypolicy #investment table tr:nth-child(2) {
+    background: none;
+  }
+  .business #investment table th, .livemansion #investment table th, .findmansion #investment table th, .rentalowner #investment table th, .download #investment table th, .access #investment table th, .privacypolicy #investment table th {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    text-align: left;
+  }
+  .business #investment table th.beside, .livemansion #investment table th.beside, .findmansion #investment table th.beside, .rentalowner #investment table th.beside, .download #investment table th.beside, .access #investment table th.beside, .privacypolicy #investment table th.beside {
+    display: none;
+  }
+  .business #investment table th.ttl, .livemansion #investment table th.ttl, .findmansion #investment table th.ttl, .rentalowner #investment table th.ttl, .download #investment table th.ttl, .access #investment table th.ttl, .privacypolicy #investment table th.ttl {
+    border: 1px solid #807974;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .business #investment table th.beside, .livemansion #investment table th.beside, .findmansion #investment table th.beside, .rentalowner #investment table th.beside, .download #investment table th.beside, .access #investment table th.beside, .privacypolicy #investment table th.beside {
+    padding: 1rem;
+  }
+  .business #investment table td, .livemansion #investment table td, .findmansion #investment table td, .rentalowner #investment table td, .download #investment table td, .access #investment table td, .privacypolicy #investment table td {
+    border-left: 1px solid #807974;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+  }
+  .business #investment table td.sp_beside, .livemansion #investment table td.sp_beside, .findmansion #investment table td.sp_beside, .rentalowner #investment table td.sp_beside, .download #investment table td.sp_beside, .access #investment table td.sp_beside, .privacypolicy #investment table td.sp_beside {
+    display: block;
+    background: #dedad3;
+  }
+  .business #investment table td.sp_beside:nth-of-type(1), .livemansion #investment table td.sp_beside:nth-of-type(1), .findmansion #investment table td.sp_beside:nth-of-type(1), .rentalowner #investment table td.sp_beside:nth-of-type(1), .download #investment table td.sp_beside:nth-of-type(1), .access #investment table td.sp_beside:nth-of-type(1), .privacypolicy #investment table td.sp_beside:nth-of-type(1) {
+    border-top: 1px solid #807974;
+  }
+  .business #effective #cv strong, .livemansion #effective #cv strong, .findmansion #effective #cv strong, .rentalowner #effective #cv strong, .download #effective #cv strong, .access #effective #cv strong, .privacypolicy #effective #cv strong {
+    font: 5.5vw/8.5vw "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  }
+  .business #effective #cv ul, .livemansion #effective #cv ul, .findmansion #effective #cv ul, .rentalowner #effective #cv ul, .download #effective #cv ul, .access #effective #cv ul, .privacypolicy #effective #cv ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .business #effective #cv ul li, .livemansion #effective #cv ul li, .findmansion #effective #cv ul li, .rentalowner #effective #cv ul li, .download #effective #cv ul li, .access #effective #cv ul li, .privacypolicy #effective #cv ul li {
+    margin-right: auto;
+    margin-left: auto;
+    width: 44%;
+  }
+  .business #effective #cv ul li:not(:last-child), .livemansion #effective #cv ul li:not(:last-child), .findmansion #effective #cv ul li:not(:last-child), .rentalowner #effective #cv ul li:not(:last-child), .download #effective #cv ul li:not(:last-child), .access #effective #cv ul li:not(:last-child), .privacypolicy #effective #cv ul li:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .business #download p.mail, .livemansion #download p.mail, .findmansion #download p.mail, .rentalowner #download p.mail, .download #download p.mail, .access #download p.mail, .privacypolicy #download p.mail {
+    word-break: break-all;
+  }
+  .business #download ul.downloadlist li, .livemansion #download ul.downloadlist li, .findmansion #download ul.downloadlist li, .rentalowner #download ul.downloadlist li, .download #download ul.downloadlist li, .access #download ul.downloadlist li, .privacypolicy #download ul.downloadlist li {
+    width: 100%;
+  }
+  .business #download ul.downloadlist li a, .livemansion #download ul.downloadlist li a, .findmansion #download ul.downloadlist li a, .rentalowner #download ul.downloadlist li a, .download #download ul.downloadlist li a, .access #download ul.downloadlist li a, .privacypolicy #download ul.downloadlist li a {
+    background: #d3cfcb;
+    border: 1px solid #807974;
+    padding: 1rem 0;
+    text-decoration: underline;
+  }
+  .business #download ul.downloadlist li a:hover, .livemansion #download ul.downloadlist li a:hover, .findmansion #download ul.downloadlist li a:hover, .rentalowner #download ul.downloadlist li a:hover, .download #download ul.downloadlist li a:hover, .access #download ul.downloadlist li a:hover, .privacypolicy #download ul.downloadlist li a:hover {
+    opacity: 0.6;
+  }
+  .business #download ul.downloadlist li p.small, .livemansion #download ul.downloadlist li p.small, .findmansion #download ul.downloadlist li p.small, .rentalowner #download ul.downloadlist li p.small, .download #download ul.downloadlist li p.small, .access #download ul.downloadlist li p.small, .privacypolicy #download ul.downloadlist li p.small {
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+  }
+  .business #download #rentalmansion ul.disc, .livemansion #download #rentalmansion ul.disc, .findmansion #download #rentalmansion ul.disc, .rentalowner #download #rentalmansion ul.disc, .download #download #rentalmansion ul.disc, .access #download #rentalmansion ul.disc, .privacypolicy #download #rentalmansion ul.disc {
+    color: #807974;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .business #privacypolicy ol li table, .livemansion #privacypolicy ol li table, .findmansion #privacypolicy ol li table, .rentalowner #privacypolicy ol li table, .download #privacypolicy ol li table, .access #privacypolicy ol li table, .privacypolicy #privacypolicy ol li table {
+    width: 100%;
+    display: block;
+  }
+  .business #privacypolicy ol li table tr th, .livemansion #privacypolicy ol li table tr th, .findmansion #privacypolicy ol li table tr th, .rentalowner #privacypolicy ol li table tr th, .download #privacypolicy ol li table tr th, .access #privacypolicy ol li table tr th, .privacypolicy #privacypolicy ol li table tr th {
+    display: block;
+    border-right: 1px solid #000;
+    width: 100%;
+  }
+  .business #privacypolicy ol li table tr th.last, .livemansion #privacypolicy ol li table tr th.last, .findmansion #privacypolicy ol li table tr th.last, .rentalowner #privacypolicy ol li table tr th.last, .download #privacypolicy ol li table tr th.last, .access #privacypolicy ol li table tr th.last, .privacypolicy #privacypolicy ol li table tr th.last {
+    border-bottom: none;
+  }
+  .business #privacypolicy ol li table tr td, .livemansion #privacypolicy ol li table tr td, .findmansion #privacypolicy ol li table tr td, .rentalowner #privacypolicy ol li table tr td, .download #privacypolicy ol li table tr td, .access #privacypolicy ol li table tr td, .privacypolicy #privacypolicy ol li table tr td {
+    display: block;
+    width: 100%;
+  }
+}

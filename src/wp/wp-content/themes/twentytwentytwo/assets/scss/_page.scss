@@ -1,0 +1,1431 @@
+/*----lower key visual css----*/
+
+#kv-lower {
+  height: 400px;
+  margin-top: 125px;
+  .ttl {
+    color: $white;
+    padding-top: 150px;
+    text-shadow: 1px 2px 5px #111;
+    h2 {
+      font: 3rem/4rem $font-serif;
+      letter-spacing: 0.6rem;
+      span {
+        display: block;
+        font: 1rem/2rem $font-serif;
+        letter-spacing: 0.4rem;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+  &.company {
+    background: bottom / cover url("../../images/company_bg.jpg");
+  }
+  &.profile,&.privacypolicy {
+    background: bottom / cover url("../../images/profile_bg.jpg");
+  }
+  &.philosophy {
+    background: bottom / cover url("../../images/philosophy_bg.jpg");
+  }
+  &.group {
+    background: bottom / cover url("../../images/group_bg.jpg");
+  }
+  &.history {
+    background: bottom / cover url("../../images/history_bg.jpg");
+  }
+  &.news {
+    background: bottom / cover url("../../images/news_bg.jpg");
+  }
+  &.business {
+    background: bottom / cover url("../../images/business_bg.jpg");
+  }
+  &.mansionmanagement {
+    background: bottom / cover url("../../images/mansionmanagement_bg.jpg");
+  }
+  &.buildingmanagement {
+    background: bottom / cover url("../../images/buildingmanagement_bg.jpg");
+  }
+  &.brokerage {
+    background: bottom / cover url("../../images/brokerage_bg.jpg");
+  }
+  &.propertymanagement {
+    background: bottom / cover url("../../images/propertymanagement_bg.jpg");
+  }
+  &.livemansion {
+    background: bottom / cover url("../../images/livemansion_bg.jpg");
+  }
+  &.service {
+    background: bottom / cover url("../../images/service_bg.jpg");
+  }
+  &.investment {
+    background: bottom / cover url("../../images/investment_bg.jpg");
+  }
+  &.findmansion {
+    background: bottom / cover url("../../images/findmansion_bg.jpg");
+  }
+  &.rentalowner {
+    background: bottom / cover url("../../images/rentalowner_bg.jpg");
+  }
+  &.mansionassociate {
+    background: bottom / cover url("../../images/mansionassociate_bg.jpg");
+  }
+  &.rethink {
+    background: bottom / cover url("../../images/rethink_bg.jpg");
+  }
+  &.effective {
+    background: bottom / cover url("../../images/effective_bg.jpg");
+  }
+  &.freeassessment {
+    background: bottom / cover url("../../images/freeassessment_bg.jpg");
+  }
+  &.download {
+    background: bottom / cover url("../../images/download_bg.jpg");
+  }
+  &.access {
+    background: bottom / cover url("../../images/access_bg.jpg");
+  }
+  @include medium {
+    margin-top: 70px;
+  }
+  @include small {
+    height: 300px;
+    .ttl {
+      padding-top: 100px;
+      h2 {
+        font: 6vw/2.6rem $font-serif;
+        letter-spacing: 0.2rem;
+        span {
+          font: 0.9rem/1.4rem $font-serif;
+        }
+      }
+    }
+    &.company {
+      background: bottom / cover url("../../images/company_bg_sp.jpg");
+    }
+    &.profile,&.privacypolicy {
+      background: bottom / cover url("../../images/profile_bg_sp.jpg");
+    }
+    &.philosophy {
+      background: bottom / cover url("../../images/philosophy_bg_sp.jpg");
+    }
+    &.group {
+      background: bottom / cover url("../../images/group_bg_sp.jpg");
+    }
+    &.history {
+      background: bottom / cover url("../../images/history_bg_sp.jpg");
+    }
+    &.news {
+      background: bottom / cover url("../../images/news_bg_sp.jpg");
+		 .ttl {
+			 padding-top: 130px;}
+    }
+    &.business {
+      background: bottom / cover url("../../images/business_bg_sp.jpg");
+    }
+    &.mansionmanagement {
+      background: bottom / cover url("../../images/mansionmanagement_bg_sp.jpg");
+    }
+    &.buildingmanagement {
+      background: bottom / cover url("../../images/buildingmanagement_bg_sp.jpg");
+    }
+    &.brokerage {
+      background: bottom / cover url("../../images/brokerage_bg_sp.jpg");
+    }
+    &.propertymanagement {
+      background: bottom / cover url("../../images/propertymanagement_bg_sp.jpg");
+    }
+    &.livemansion {
+      background: bottom / cover url("../../images/livemansion_bg_sp.jpg");
+    }
+    &.service {
+      background: bottom / cover url("../../images/service_bg_sp.jpg");
+    }
+    &.investment {
+      background: bottom / cover url("../../images/investment_bg_sp.jpg");
+    }
+    &.findmansion {
+      background: bottom / cover url("../../images/findmansion_bg_sp.jpg");
+    }
+    &.rentalowner {
+      background: bottom / cover url("../../images/rentalowner_bg_sp.jpg");
+    }
+    &.mansionassociate {
+      background: bottom / cover url("../../images/mansionassociate_bg_sp.jpg");
+    }
+    &.rethink {
+      background: bottom / cover url("../../images/rethink_bg_sp.jpg");
+    }
+    &.effective {
+      background: bottom / cover url("../../images/effective_bg_sp.jpg");
+    }
+    &.freeassessment {
+      background: bottom / cover url("../../images/freeassessment_bg_sp.jpg");
+    }
+    &.download {
+      background: bottom / cover url("../../images/download_bg_sp.jpg");
+    }
+    &.access {
+      background: bottom / cover url("../../images/access_bg_sp.jpg");
+    }
+  }
+}
+/*----lower2 4block category css----*/
+#page-link {
+   padding: 8rem 0px 8rem 0px;
+	
+  .inner {
+    @include flex();
+    @include flexWrap();
+    @include flexAlignBetween();
+    .block {
+      width: 44%;
+      .img-inner {
+        overflow: hidden;
+      }
+      img {
+        width: 100%;
+        transition: 1s all;
+      }
+      p {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        text-align: center;
+		  &::before{
+			  content: "";
+    border: 8px solid transparent;
+    border-right: 0 solid transparent;
+    border-left: 12px solid #000;
+    display: inline-block;
+    
+    height: 0;
+    margin: 0 0.5em 0 0;
+width: 0;
+		  }
+      }
+      &:nth-child(3), &:nth-child(4) {
+        margin-top: 4rem;
+      }
+      a:hover {
+        opacity: 0.8;
+        img {
+          transform: scale(1.2, 1.2);
+          transition: 1s all;
+        }
+      }
+    }
+  }
+  @include small {padding:4rem 0px 4rem 0px; 
+    .inner {
+      .block {
+        width: 100%;
+        &:not(:first-child) {
+          margin-top: 4rem;
+        }
+      }
+    }
+  }
+}
+/*----lower3 page css----*/
+#page {
+  padding: 8rem 0px 8rem 0px;
+    @include small {padding:4rem 0px 4rem 0px; }
+	
+}
+/*----company css----*/
+.company {
+  #profile {
+    table {
+      line-height: 2;
+      margin: 0;
+      width: 100%;
+      th {
+        border-right: 3px solid $brown;
+        text-align-last: justify;
+        padding: 1rem 4rem 1rem 1rem;
+        width: 25%;
+      }
+      td {
+        padding: 1rem 1rem 1rem 4rem;
+        width: 75%;
+		  a{text-decoration: underline;
+			  &:hover{opacity: 0.6;}}
+      }
+    }
+    @include tablet {
+      table {
+        th {
+          padding: 1rem;
+          width: 20%;
+        }
+        td {
+          padding: 1rem;
+          width: 80%;
+        }
+      }
+    }
+    @include small {
+      table {
+        line-height: 1.6;
+        th {
+          border-right: 0px;
+          border-bottom: 3px solid $brown;
+          display: inline-block;
+          padding: 1rem 0 0rem 0;
+          text-align-last: left;
+          width: auto;
+        }
+        td {
+          display: block;
+          padding: 1rem 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+  #contact {
+    background: $gray;
+    @extend %section-margin-top;
+    padding: 3rem 4rem;
+    h3 {
+      border-bottom: 1px solid $brown;
+      font: 1.2rem/2rem $font-serif;
+    }
+    h4 {
+      font: 1.2rem/2rem $font-serif;
+      span {
+        font-size: 0.9rem;
+      }
+    }
+    hr {
+      border-top: 1px dashed $brown;
+      margin: 1.5rem 0;
+    }
+    .block {
+      @include flex();
+      @include flexAlignBetween();
+      @include flexAlignCenterVertically();
+      margin-top: 1rem;
+      &__tel {
+        a span::before {
+          content: "";
+          background: url("../../images/icon_telfree.svg");
+          display: inline-block;
+          margin-right: 0.5rem;
+          width: 40px;
+          height: 26px;
+        }
+        span {
+          font: 3.4rem/3rem $font-number;
+        }
+        p {
+          font-size: 0.9rem;
+          margin-top: 0.5rem;
+        }
+      }
+      &__item {
+        p, span {
+          font-size: 0.9rem;
+        }
+        a {
+          font: 3.4rem/3rem $font-number;
+          &::before {
+            content: "";
+            background: url("../../images/icon_tel.svg");
+            display: inline-block;
+            margin-right: 0.5rem;
+            width: 40px;
+            height: 30px;
+          }
+        }
+      }
+    }
+    @include tablet {
+      padding: 1rem;
+      .block {
+        @include flexWrap();
+        &__tel {
+          span {
+            font: 6vw/2rem $font-number;
+          }
+        }
+        &__item {
+          a {
+            font: 6vw/2rem $font-number;
+          }
+        }
+      }
+    }
+    @include small {
+      h4 {
+        font: 1.2rem/1.4rem $font-serif;
+      }
+      .block {
+        &__tel {
+          width: 100%;
+          span {
+            font: 12vw/2rem $font-number;
+          }
+          &:nth-child(2) {
+            margin-top: 1.5rem;
+          }
+        }
+        &__item {
+          width: 100%;
+          p {
+            br {
+              display: none;
+            }
+          }
+          a {
+            font: 12vw/4rem $font-number;
+          }
+          &:nth-child(2) {
+            margin: 1rem 0;
+          }
+          span {
+            display: block;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  #philosophy {
+    p {
+      font: 1.4rem/2rem $font-serif;
+      &:not(:last-child) {
+        margin-bottom: 4rem;
+      }
+    }
+    @include small {
+      p {
+        font: 1.1rem/1.8rem $font-serif;
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+  #group {
+    .tree {
+      padding-bottom: 8rem;
+      @include flex();
+      @include flexAlignBetween();
+      @include flexAlignCenterVertically();
+      &__block {
+        width: 30%;
+        margin-right: 2rem;
+        position: relative;
+        a {
+          background: $brown;
+          padding: 2rem;
+          img {
+            display: block;
+            width: 100%;
+          }
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+        &::after {
+          content: "";
+          border-top: 1px solid $brown;
+          display: block;
+          position: absolute;
+          top: 50%;
+          right: -2rem;
+          height: 0;
+          width: 2rem;
+        }
+      }
+      &__list {
+        padding-left: 4rem;
+        width: 70%;
+        position: relative;
+        &::before {
+          content: "";
+          background: $brown;
+          bottom: 0;
+          position: absolute;
+          left: 0;
+          height: 1640px;
+          margin: auto 0;
+          top: 0;
+          width: 1px;
+        }
+        .item {
+          background: $brown;
+          height: 100px;
+          position: relative;
+          @include flex();
+          @include flexAlignBetween();
+          @include flexAlignCenterVertically();
+          &::before {
+            content: "";
+            border-top: 1px solid $brown;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: -4rem;
+            height: 0;
+            width: 4rem;
+          }
+          a,span {
+            color: $white;
+            text-align: center;
+            width: 40%;
+            
+          }
+			a:hover {
+              text-decoration: underline;
+            }
+          p {
+            background: $gray;
+            font-size: 0.9rem;
+            height: 100%;
+            padding: 0 1rem;
+            width: 60%;
+            @include flex();
+            @include flexAlignCenterVertically();
+          }
+          &:not(:first-child) {
+            margin-top: 4rem;
+          }
+          &:nth-child(5), &:nth-child(7) {
+            &::before {
+              content: "";
+              border-top: 0px;
+              border-right: 1px solid $brown;
+              height: 100%;
+              top: -100%;
+              right: 0;
+              left: 20%;
+              width: 1px;
+            }
+          }
+        }
+      }
+    }
+    @include tablet {
+      .tree {
+        padding-bottom: 4rem;
+        @include flexWrap();
+        &__block {
+          width: 100%;
+          margin: 0 0 4rem 0;
+          a {
+            img {
+              width: 300px;
+            }
+          }
+          &::after {
+            border-right: 1px solid $brown;
+            top: auto;
+            left: 0;
+            bottom: -100%;
+            height: 100%;
+            width: 1px;
+          }
+        }
+        &__list {
+          width: 100%;
+        }
+      }
+    }
+    @include tablet {
+      .tree {
+        &__block {
+          a {
+            img {
+              margin: 0 auto;
+              width: 80%;
+            }
+          }
+          &::after {
+            content: none;
+          }
+        }
+        &__list {
+          width: 100%;
+          padding: 0;
+          &::before {
+            content: none;
+          }
+          @include flexWrap();
+          .item {
+            height: auto;
+            @include flexWrap();
+            &::before {
+              content: none;
+            }
+            a,span {
+              padding: 1rem 0;
+              width: 100%;
+            }
+            p {
+              padding: 1rem;
+              width: 100%;
+            }
+            &:nth-child(5), &:nth-child(7) {
+              &::before {
+                content: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #history {
+    table {
+      tr {
+        border-bottom: 1px solid $brown;
+        @include flex();
+        @include flexWrap();
+        @include flexAlignBetween();
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+      }
+      th {
+        color: $brown;
+        width: 30%;
+        span {
+          font: normal 2rem/1rem $font-number;
+        }
+      }
+      td {
+        width: 70%;
+        dl {
+          @include flex();
+          @include flexWrap();
+          dt {
+            width: 10%;
+          }
+          dd {
+            width: 90%;
+            margin-bottom: 2rem;
+          }
+        }
+      }
+    }
+    @include small {
+      table {
+        tr {
+          th {
+            margin-bottom: 1rem;
+            width: 100%;
+          }
+          td {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+/*----news css----*/
+#news {
+	span.data{font-weight: bold;}
+	      span.category {
+        color: $white;
+			  display: inline-block;
+        font-size: 0.9rem;
+			  font-weight: bold;
+        padding: 0.3rem 0;
+        margin-left: 2rem;
+        text-align: center;
+        width: 120px;
+        &.residence {
+          background: $red;
+        }
+        &.pressrelease {
+          background: $blue;
+        }
+        &.news {
+          background: $brown;
+        }
+      }
+  dl {
+    border-bottom: 1px solid $brown;
+    margin-bottom: 2rem;
+    @include flex();
+    @include flexAlignCenterVertically();
+    dt {
+      white-space: nowrap;
+      @include flex();
+      @include flexAlignCenterVertically();
+      padding-bottom: 2rem;
+
+    }
+    dd {
+      margin-left: 2rem;
+      padding-bottom: 2rem;
+      width: auto;
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+	article{
+		//title
+			.ttl{margin-bottom:4rem;
+		.top{border-bottom:1px solid $brown;
+		display: block;
+			padding-bottom:1.5rem;
+		}
+		h3{color:$brown;
+		font:bold 1.6rem/3rem $font-serif;
+		margin-top:1.5rem;}
+	}
+		
+		//text
+		p{line-height: 2;
+			a{color:$brown;
+			text-decoration: underline;
+				&:hover{opacity: 0.6;}}}
+		p:not(:first-child){margin-top:1rem;}
+		//images
+		img{
+			width:100%;
+		}
+		
+		//back
+		.back-page{margin-top:4rem;
+		text-align: center;
+			a{color:$brown;
+			text-decoration: underline;
+				&:hover{opacity: 0.6;}}}
+		
+		
+	}
+
+  .pagenation {
+    margin-top: 6rem;
+    ul {
+      @include flex();
+      @include flexAlignCenterVertically();
+      @include flexAlignCenter();
+      margin: 0 auto;
+      li {
+        padding: 1rem;
+        a.page-numbers {
+          text-decoration: underline;
+        }
+        a {
+          display: block;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  @include small {
+	  article{
+		  .ttl{
+			  h3{font:bold 1.2rem/2rem $font-serif;}
+			  margin-bottom:2rem;
+		  }
+	  }
+    dl {
+      @include flexWrap();
+      dt {
+        padding-bottom: 1rem;
+      }
+      dd {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .pagenation {
+      margin-top: 2rem;
+    }
+  }
+}
+/*----business , livemansion ,findmansion , rentalowner , download , access , privacypolicy css----*/
+.business, .livemansion, .findmansion, .rentalowner, .download, .access,.privacypolicy {
+  p {
+    margin-top: 1rem;
+    &.main_txt {
+      font: 1rem/2rem $font-serif;
+      letter-spacing: 0.1rem;
+      margin: 0 0 5rem 0;
+    }
+    &.small {
+      font-size: 0.9rem;
+    }
+    &.bold {
+      font-weight: bold;
+    }
+  }
+  ul {
+    font-size: 0.9rem;
+    &.disc {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      list-style-type: disc;
+    }
+  }
+  .mt1 {
+    margin-top: 1rem;
+  }
+  .mt2 {
+    margin-top: 2rem;
+  }
+  .mt5 {
+    margin-top: 5rem;
+  }
+  .pt8 {
+    padding-top: 8rem;
+  }
+  .w80 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h3.brown {
+    border-bottom: 1px solid $brown;
+    color: $brown;
+    font: bold 1.6rem/2rem $font-serif;
+    padding-bottom: 1rem;
+  }
+  h4 {
+    font: bold 1.2rem/2rem $font-serif;
+    color: $brown;
+    position: relative;
+    padding-left: 1.5rem;
+    &::before {
+      background: $brown;
+      content: "";
+      height: 1.1rem;
+      width: 1.1rem;
+      left: 0;
+      position: absolute;
+      top: 5px;
+    }
+  }
+  h5 {
+    font-weight: bold;
+  }
+  h5.img-ttl {
+    background: $white;
+    color: $brown;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+  }
+  .column2 {
+    @include flex();
+    @include flexAlignBetween();
+    //見出し
+    &__ttl {
+      @include flex();
+      @include flexAlignBetween();
+      @include flexAlignCenterVertically();
+      width: 46%;
+      .inner {
+        h3 {
+          font: 2.4rem / 3.6rem $font-serif;
+          letter-spacing: 0.1rem;
+          &::after {
+            content: "";
+            background: $black;
+            display: block;
+            margin-top: 2rem;
+            height: 2px;
+            width: 120px;
+          }
+        }
+        p {
+          line-height: 2;
+          margin-top: 2rem;
+        }
+      }
+    }
+    //画像
+    &__img {
+      width: 46%;
+      img {
+        width: 100%;
+      }
+    }
+    //文章		
+    &__txt {
+      width: 46%;
+      ol.number {
+        margin-top: 1rem;
+        padding-left: 1rem;
+        text-indent: -1rem;
+        li {
+          font-size: 0.9rem;
+          &:not(:first-child) {
+            margin-top: 0.5rem;
+          }
+        }
+      }
+    }
+    //オーナーvoice
+    &__voice {
+      margin-top: 3rem;
+      @include flex();
+      @include flexAlignBetween();
+      width: 46%;
+      &--owner {
+        width: 20%;
+        img {
+          width: 100%;
+        }
+      }
+      &--txt {
+        width: 75%;
+        p {
+          font-size: 0.9rem;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  .column1 {
+    img {
+      width: 100%;
+    }
+  }
+  #mansionmanagement {
+    .column2__txt {
+      .item {
+        border: 1px solid $brown;
+        h5 {
+          background: $brown;
+          color: $white;
+          padding: 0.2rem 0rem 0.2rem 1rem;
+        }
+        p {
+          padding: 0 1rem;
+        }
+        ul {
+          padding: 0 0rem 1rem 1rem;
+        }
+        &:nth-child(2) {
+          margin-top: 2rem;
+        }
+      }
+    }
+    .img__full {
+      width: 49.5%;
+      img {
+        width: 100%;
+      }
+    }
+    ul {
+      margin-top: 1rem;
+      li {
+        span {
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+  #emergencysupport {
+    .column1 {
+      position: relative;
+      p {
+        font-size: 1.5vh;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+  #contractdetails {
+    .column3 {
+      @include flex();
+      @include flexAlignBetween();
+      &__item {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 100%;
+        }
+        .txt {
+          height: 260px
+        }
+        .inner {
+          border-top: 1px solid $black;
+          border-bottom: 1px solid $black;
+          padding: 1rem 0;
+          margin-top: 1rem;
+          flex-grow: 1;
+          @include flex();
+          span {}
+        }
+      }
+    }
+  }
+  #service {
+	  .column2{
+		  &__txt{img{width:100%;}}
+	  }
+	}
+	#mansionassociate{
+		h5{color:$brown;}
+	}
+  #investment {
+    ul.list-vertical {
+      @include flex();
+      @include flexAlignBetween();
+      li {
+        background: $brown;
+        color: $white;
+        font-size: 1rem;
+        @include flex();
+        @include flexAlignCenterVertically();
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        width: 8%;
+        text-align: center;
+        span {
+          padding: 1rem 0;
+        }
+        span.number {
+          font-family: $font-number;
+          display: block;
+          border-bottom: 2px solid $beige;
+          writing-mode: horizontal-tb;
+          width: 100%;
+        }
+        &.arrow {
+          background: none;
+          margin-top: 140px;
+          width: 20px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    table {
+      color: #3c3937;
+      width: 100%;
+      tr {
+        &:nth-child(2), &:nth-child(3) {
+          background: $gray;
+        }
+      }
+      font-size:0.9rem;
+      th {
+        background: $gray;
+        text-align: center;
+        width: 20%;
+        vertical-align: middle;
+        &.beside {
+          border: 1px solid $brown;
+          border-left: none;
+          padding: 2rem 0;
+          width: 40%;
+        }
+        &.ttl {
+          border: 1px solid $brown;
+          border-top: none;
+        }
+      }
+      td {
+        border-right: 1px solid $brown;
+        border-bottom: 1px solid $brown;
+        background: $beige;
+        padding: 2rem;
+        vertical-align: middle;
+        width: 40%;
+        &.none {
+          width: 20%;
+        }
+		  &.sp_beside{
+			  display: none;
+		  }
+      }
+    }
+    table + p {
+      color: #3c3937;
+    }
+  }
+  #effective {
+    #cv {
+      strong {
+        color: $brown;
+        display: block;
+        font: 2rem/3rem $font-serif;
+        text-align: center;
+      }
+      ul {
+        @include flex();
+        @include flexAlignBetween();
+        li {
+          width: 30%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #freeassessment {
+    .column2 {
+      &__ttl {
+        width: 100%;
+      }
+    }
+  }
+  #download {
+    p.mail {
+      color: $brown;
+      font-weight: bold;
+      a {
+        display: inline-block;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    ul.downloadlist {
+      color: $brown;
+      font: bold 1rem/2rem $font-serif;
+      @include flex();
+      @include flexWrap();
+      @include flexAlignBetween();
+      li {
+        margin-top: 2rem;
+        text-align: center;
+        width: 48%;
+        a {
+          background: #d3cfcb;
+          border: 1px solid $brown;
+          padding: 1rem 0;
+          text-decoration: underline;
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+        p.small {
+          color: $black;
+          font-weight: normal;
+          text-align: left;
+        }
+      }
+    }
+    #rentalmansion {
+      ul.disc {
+        color: $brown;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+  }
+  #access,#privacypolicy {
+    h3 {
+      color: $brown;
+      font: bold 1.4rem/2rem $font-serif;
+    }
+    .gmap {
+      iframe {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        width: 100%;
+      }
+    }
+  }
+	#privacypolicy{
+		.right{text-align: right;}
+		ol{ counter-reset: count 0;
+			li{
+				span{display: block;
+				padding-left:1.3rem;}
+				table{
+					width:100%;
+					tr{
+							
+						th{border-top:1px solid $black;
+							border-left:1px solid $black;
+							padding:1rem;
+							width:30%;
+							&.last{border-bottom:1px solid $black;}
+						}
+						td{border-top:1px solid $black;
+							border-left:1px solid $black;
+							border-right:1px solid $black;
+							padding:1rem;
+							width:70%;
+							&.last{border-bottom:1px solid $black;}
+						}
+					
+					}
+				}
+				ol.roman{padding-left:1.3rem;
+					list-style-type: lower-roman;
+					li::before{content:none;}
+					li{
+						&:not(:first-child){margin-top:0;}
+					}
+				}	ol.alpha{padding-left:1.3rem;
+					list-style-type: lower-alpha;
+					li::before{content:none;}
+					li{
+						a{display: inline-block;
+							&:hover{text-decoration: underline;}}
+						&:not(:first-child){margin-top:0;}
+					}
+				}
+			}
+			li:not(:first-child){margin-top:2rem;}
+li:before {
+  content: counter(count) ". ";
+  counter-increment: count 1;
+			
+		}
+	}
+}
+  @include medium {
+    #emergencysupport {
+      .column1 {
+        p {
+          font-size: auto;
+          position: relative;
+        }
+      }
+    }
+	    #contractdetails {
+    .column3 {
+      &__item {
+        .txt {
+          height: 360px
+        }
+      }
+    }
+  }
+  }
+  @include tablet {
+    .w80 {
+      width: 100%;
+    }
+    .column2 {
+      @include flexWrap();
+      &__ttl {
+        margin-top: 5rem;
+        width: 100%;
+      }
+      &__img {
+        width: 100%;
+      }
+      &__txt {
+        width: 100%;
+        &:nth-child(2) {
+          margin-top: 5rem;
+        }
+      }
+    }
+	      #contractdetails {
+    .column3 {@include flexWrap();
+      &__item {width:100%;
+        .txt {
+          height: auto;
+        }
+		  &:not(:first-child){margin-top:3rem;}
+      }
+    }
+  }
+	  #mansionmanagement{  
+		  .img__full {
+      width:  100%;
+			  &:nth-child(2){margin-top:3rem;}
+    }
+	  }
+    #investment {
+      ul.list-vertical {
+        @include flexWrap();
+        li {
+          width: 19%;
+          span.number {}
+          &.arrow {
+            width: 15px;
+            &:nth-child(8) {
+              display: none;
+            }
+            &:nth-child(10), &:nth-child(12), &:nth-child(14) {
+              margin-top: 160px;
+            }
+          }
+          &:nth-child(9), &:nth-child(11), &:nth-child(13), &:nth-child(15) {
+            margin-top: 2rem;
+          }
+        }
+      }
+    }
+    #freeassessment {
+      .column2 {
+        &__ttl {
+          margin-top: 0;
+        }
+      }
+    }
+	  #service{
+		  .column2{
+			 
+		  }
+	  }
+  }
+  @include small {
+    p.main_txt {
+      margin-bottom: 3rem;
+    }
+    .mt5 {
+      margin-top: 3rem;
+    }
+    .pt8 {
+      padding-top: 4rem;
+    }
+    h3.brown {
+      font: bold 1.4rem/2rem $font-serif;
+    }
+    .column2 {
+      @include flexWrap();
+      &__ttl {
+        margin-top: 3rem;
+        width: 100%;
+        .inner {
+          h3 {
+            font: 6vw / 2.6rem $font-serif;
+          }
+        }
+      }
+      &__img {
+        width: 100%;
+      }
+      &__txt {
+        width: 100%;
+        &:nth-child(2) {
+          margin-top: 3rem;
+        }
+      }
+      &__voice {
+        width: 100%;
+      }
+    }
+
+    #investment {
+      table {display: block;
+		  tr{display: block;
+			  
+			  &:nth-child(1){display: none;}
+			  &:nth-child(3){background: none;
+				  margin-top:2rem;}
+			  &:nth-child(2){background: none;}}
+        th {
+			width:100%;
+			display: block;
+			padding:1rem;
+			text-align: left;
+			&.beside{display: none;}
+          &.ttl {
+			  
+			  border: 1px solid $brown;
+			  font-size:1rem;
+            width: 100%;
+			  margin-bottom:1rem;
+          }
+          &.beside {
+            padding: 1rem;
+          }
+        }
+        td {border-left:1px solid $brown;
+			display: block;
+          padding: 1rem;
+          width: 100%;
+			&.sp_beside{display: block;
+			background: $gray;
+				&:nth-of-type(1){border-top:1px solid $brown;}
+			}
+        }
+      }
+    }
+    #effective {
+      #cv {
+        strong {
+          font: 5.5vw/8.5vw $font-serif;
+        }
+        ul {
+          @include flexWrap();
+          li {
+            margin-right: auto;
+            margin-left: auto;
+            width: 44%;
+            &:not(:last-child) {
+              margin-bottom: 2rem;
+            }
+          }
+        }
+      }
+    }
+    #download {
+      p.mail {
+        word-break: break-all;
+      }
+      ul.downloadlist {
+        li {
+          width: 100%;
+          a {
+            background: #d3cfcb;
+            border: 1px solid $brown;
+            padding: 1rem 0;
+            text-decoration: underline;
+            &:hover {
+              opacity: 0.6;
+            }
+          }
+          p.small {
+            color: $black;
+            font-weight: normal;
+            text-align: left;
+          }
+        }
+      }
+      #rentalmansion {
+        ul.disc {
+          color: $brown;
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+    }
+	  	#privacypolicy{
+		
+		ol{ 
+			li{
+				table{
+					width:100%;
+					display: block;
+					tr{
+							
+						th{
+							display: block;
+							border-right:1px solid $black;
+							width:100%;
+							&.last{border-bottom:none;}
+						}
+						td{
+							display: block;
+							width:100%;
+						
+						}
+					
+					}
+				}
+
+			}
+
+	}
+}
+  }
+}
