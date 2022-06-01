@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
-        <!-- <ul class="navbar-nav ms-auto d-block d-lg-none">
+        <ul class="navbar-nav ms-auto d-block d-lg-none">
           <li class="nav-item active">
             <a class="nav-link">お問い合わせ</a>
           </li>
@@ -25,7 +25,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">反社会的勢力排除に関する基本方針</a>
           </li>
-        </ul> -->
+        </ul>
       </div>
       <div class="search-form-container hdn d-none d-lg-block" id="search-input-container">
         <div class="search-input-group">
