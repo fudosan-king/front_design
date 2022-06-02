@@ -440,31 +440,31 @@ img, a {
   font-family: 'Noto Serif JP';
   font-style: normal;
   font-weight: 400;
-  src: url("../../assets/font/NotoSerifCJKjp-Regular.woff") format("woff");
+  src: url("../fonts/NotoSerifCJKjp-Regular.woff") format("woff");
 }
 @font-face {
   font-family: 'Noto Serif JP';
   font-style: normal;
   font-weight: 700;
-  src: url("../../assets/font/NotoSerifCJKjp-Bold.woff") format("woff");
+  src: url("../fonts/NotoSerifCJKjp-Bold.woff") format("woff");
 }
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
-  src: url("../../assets/font/NotoSansCJKjp-Regular.ttf") format("woff");
+  src: url("../fonts/NotoSansCJKjp-Regular.ttf") format("woff");
 }
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 700;
-  src: url("../../assets/font/NotoSansCJKjp-Bold.ttf") format("woff");
+  src: url("../fonts/NotoSansCJKjp-Bold.ttf") format("woff");
 }
 @font-face {
   font-family: 'Garamond';
   font-style: normal;
   font-weight: 400;
-  src: url("../../assets/font/EBGaramond-Regular.ttf") format("woff");
+  src: url("../fonts/EBGaramond-Regular.ttf") format("woff");
 }
 .company #contact {
   margin-top: 8rem;
@@ -1108,7 +1108,7 @@ main {
 
 /*----top page key visual----*/
 .kv {
-  background: url("../../images/top_bg1.jpg") no-repeat;
+  background: url("../images/common/top_bg1.jpg") no-repeat;
   background-size: cover;
   height: 90vh;
   margin-top: 125px;
@@ -1144,7 +1144,7 @@ main {
 
 /*----top page about----*/
 #aboutus {
-  background: right bottom 10%/50% url(../../images/top_bg_about.png) no-repeat;
+  background: right bottom 10%/50% url(../images/common/top_bg_about.png) no-repeat;
   position: relative;
   padding: 180px 0;
 }
@@ -1336,16 +1336,16 @@ main {
   margin-top: 2rem;
 }
 .content .inner.business .inner__img {
-  background: bottom right/cover url("../../images/top_img_1.jpg");
+  background: bottom right/cover url("../images/common/top_img_1.jpg");
 }
 .content .inner.livemansion .inner__img {
-  background: bottom center/cover url("../../images/top_img_2.jpg");
+  background: bottom center/cover url("../images/common/top_img_2.jpg");
 }
 .content .inner.findmansion .inner__img {
-  background: bottom/cover url("../../images/top_img_3.jpg") no-repeat;
+  background: bottom/cover url("../images/common/top_img_3.jpg") no-repeat;
 }
 .content .inner.rentalowner .inner__img {
-  background: bottom/cover url("../../images/top_img_4.jpg") no-repeat;
+  background: bottom/cover url("../images/common/top_img_4.jpg") no-repeat;
 }
 .content .inner.business .inner__txt, .content .inner.findmansion .inner__txt {
   background: #fff;
@@ -1554,7 +1554,7 @@ footer .block__link--item .box span a:hover {
 }
 
 .copyright {
-  background: center/cover url("../../assets/img/bg_footer.jpg") no-repeat;
+  background: center/cover url("../img/bg_footer.jpg") no-repeat;
   color: #fff;
   font-size: 0.9rem;
   padding: 4rem 0;
@@ -1588,70 +1588,70 @@ footer .block__link--item .box span a:hover {
   margin-top: 0.5rem;
 }
 #kv-lower.company {
-  background: bottom/cover url("../../images/company_bg.jpg");
+  background: bottom/cover url("../images/common/company_bg.jpg");
 }
 #kv-lower.profile, #kv-lower.privacypolicy {
-  background: bottom/cover url("../../images/profile_bg.jpg");
+  background: bottom/cover url("../images/common/profile_bg.jpg");
 }
 #kv-lower.philosophy {
-  background: bottom/cover url("../../images/philosophy_bg.jpg");
+  background: bottom/cover url("../images/common/philosophy_bg.jpg");
 }
 #kv-lower.group {
-  background: bottom/cover url("../../images/group_bg.jpg");
+  background: bottom/cover url("../images/common/group_bg.jpg");
 }
 #kv-lower.history {
-  background: bottom/cover url("../../images/history_bg.jpg");
+  background: bottom/cover url("../images/common/history_bg.jpg");
 }
 #kv-lower.news {
-  background: bottom/cover url("../../images/news_bg.jpg");
+  background: bottom/cover url("../images/common/news_bg.jpg");
 }
 #kv-lower.business {
-  background: bottom/cover url("../../images/business_bg.jpg");
+  background: bottom/cover url("../images/common/business_bg.jpg");
 }
 #kv-lower.mansionmanagement {
-  background: bottom/cover url("../../images/mansionmanagement_bg.jpg");
+  background: bottom/cover url("../images/common/mansionmanagement_bg.jpg");
 }
 #kv-lower.buildingmanagement {
-  background: bottom/cover url("../../images/buildingmanagement_bg.jpg");
+  background: bottom/cover url("../images/common/buildingmanagement_bg.jpg");
 }
 #kv-lower.brokerage {
-  background: bottom/cover url("../../images/brokerage_bg.jpg");
+  background: bottom/cover url("../images/common/brokerage_bg.jpg");
 }
 #kv-lower.propertymanagement {
-  background: bottom/cover url("../../images/propertymanagement_bg.jpg");
+  background: bottom/cover url("../images/common/propertymanagement_bg.jpg");
 }
 #kv-lower.livemansion {
-  background: bottom/cover url("../../images/livemansion_bg.jpg");
+  background: bottom/cover url("../images/common/livemansion_bg.jpg");
 }
 #kv-lower.service {
-  background: bottom/cover url("../../images/service_bg.jpg");
+  background: bottom/cover url("../images/common/service_bg.jpg");
 }
 #kv-lower.investment {
-  background: bottom/cover url("../../images/investment_bg.jpg");
+  background: bottom/cover url("../images/common/investment_bg.jpg");
 }
 #kv-lower.findmansion {
-  background: bottom/cover url("../../images/findmansion_bg.jpg");
+  background: bottom/cover url("../images/common/findmansion_bg.jpg");
 }
 #kv-lower.rentalowner {
-  background: bottom/cover url("../../images/rentalowner_bg.jpg");
+  background: bottom/cover url("../images/common/rentalowner_bg.jpg");
 }
 #kv-lower.mansionassociate {
-  background: bottom/cover url("../../images/mansionassociate_bg.jpg");
+  background: bottom/cover url("../images/common/mansionassociate_bg.jpg");
 }
 #kv-lower.rethink {
-  background: bottom/cover url("../../images/rethink_bg.jpg");
+  background: bottom/cover url("../images/common/rethink_bg.jpg");
 }
 #kv-lower.effective {
-  background: bottom/cover url("../../images/effective_bg.jpg");
+  background: bottom/cover url("../images/common/effective_bg.jpg");
 }
 #kv-lower.freeassessment {
-  background: bottom/cover url("../../images/freeassessment_bg.jpg");
+  background: bottom/cover url("../images/common/freeassessment_bg.jpg");
 }
 #kv-lower.download {
-  background: bottom/cover url("../../images/download_bg.jpg");
+  background: bottom/cover url("../images/common/download_bg.jpg");
 }
 #kv-lower.access {
-  background: bottom/cover url("../../images/access_bg.jpg");
+  background: bottom/cover url("../images/common/access_bg.jpg");
 }
 @media screen and (max-width: 1000px) {
   #kv-lower {
@@ -1673,73 +1673,73 @@ footer .block__link--item .box span a:hover {
     font: 0.9rem/1.4rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
   }
   #kv-lower.company {
-    background: bottom/cover url("../../images/company_bg_sp.jpg");
+    background: bottom/cover url("../images/common/company_bg_sp.jpg");
   }
   #kv-lower.profile, #kv-lower.privacypolicy {
-    background: bottom/cover url("../../images/profile_bg_sp.jpg");
+    background: bottom/cover url("../images/common/profile_bg_sp.jpg");
   }
   #kv-lower.philosophy {
-    background: bottom/cover url("../../images/philosophy_bg_sp.jpg");
+    background: bottom/cover url("../images/common/philosophy_bg_sp.jpg");
   }
   #kv-lower.group {
-    background: bottom/cover url("../../images/group_bg_sp.jpg");
+    background: bottom/cover url("../images/common/group_bg_sp.jpg");
   }
   #kv-lower.history {
-    background: bottom/cover url("../../images/history_bg_sp.jpg");
+    background: bottom/cover url("../images/common/history_bg_sp.jpg");
   }
   #kv-lower.news {
-    background: bottom/cover url("../../images/news_bg_sp.jpg");
+    background: bottom/cover url("../images/common/news_bg_sp.jpg");
   }
   #kv-lower.news .ttl {
     padding-top: 130px;
   }
   #kv-lower.business {
-    background: bottom/cover url("../../images/business_bg_sp.jpg");
+    background: bottom/cover url("../images/common/business_bg_sp.jpg");
   }
   #kv-lower.mansionmanagement {
-    background: bottom/cover url("../../images/mansionmanagement_bg_sp.jpg");
+    background: bottom/cover url("../images/common/mansionmanagement_bg_sp.jpg");
   }
   #kv-lower.buildingmanagement {
-    background: bottom/cover url("../../images/buildingmanagement_bg_sp.jpg");
+    background: bottom/cover url("../images/common/buildingmanagement_bg_sp.jpg");
   }
   #kv-lower.brokerage {
-    background: bottom/cover url("../../images/brokerage_bg_sp.jpg");
+    background: bottom/cover url("../images/common/brokerage_bg_sp.jpg");
   }
   #kv-lower.propertymanagement {
-    background: bottom/cover url("../../images/propertymanagement_bg_sp.jpg");
+    background: bottom/cover url("../images/common/propertymanagement_bg_sp.jpg");
   }
   #kv-lower.livemansion {
-    background: bottom/cover url("../../images/livemansion_bg_sp.jpg");
+    background: bottom/cover url("../images/common/livemansion_bg_sp.jpg");
   }
   #kv-lower.service {
-    background: bottom/cover url("../../images/service_bg_sp.jpg");
+    background: bottom/cover url("../images/common/service_bg_sp.jpg");
   }
   #kv-lower.investment {
-    background: bottom/cover url("../../images/investment_bg_sp.jpg");
+    background: bottom/cover url("../images/common/investment_bg_sp.jpg");
   }
   #kv-lower.findmansion {
-    background: bottom/cover url("../../images/findmansion_bg_sp.jpg");
+    background: bottom/cover url("../images/common/findmansion_bg_sp.jpg");
   }
   #kv-lower.rentalowner {
-    background: bottom/cover url("../../images/rentalowner_bg_sp.jpg");
+    background: bottom/cover url("../images/common/rentalowner_bg_sp.jpg");
   }
   #kv-lower.mansionassociate {
-    background: bottom/cover url("../../images/mansionassociate_bg_sp.jpg");
+    background: bottom/cover url("../images/common/mansionassociate_bg_sp.jpg");
   }
   #kv-lower.rethink {
-    background: bottom/cover url("../../images/rethink_bg_sp.jpg");
+    background: bottom/cover url("../images/common/rethink_bg_sp.jpg");
   }
   #kv-lower.effective {
-    background: bottom/cover url("../../images/effective_bg_sp.jpg");
+    background: bottom/cover url("../images/common/effective_bg_sp.jpg");
   }
   #kv-lower.freeassessment {
-    background: bottom/cover url("../../images/freeassessment_bg_sp.jpg");
+    background: bottom/cover url("../images/common/freeassessment_bg_sp.jpg");
   }
   #kv-lower.download {
-    background: bottom/cover url("../../images/download_bg_sp.jpg");
+    background: bottom/cover url("../images/common/download_bg_sp.jpg");
   }
   #kv-lower.access {
-    background: bottom/cover url("../../images/access_bg_sp.jpg");
+    background: bottom/cover url("../images/common/access_bg_sp.jpg");
   }
 }
 
@@ -1891,7 +1891,7 @@ footer .block__link--item .box span a:hover {
 }
 .company #contact .block__tel a span::before {
   content: "";
-  background: url("../../images/icon_telfree.svg");
+  background: url("../images/common/icon_telfree.svg");
   display: inline-block;
   margin-right: 0.5rem;
   width: 40px;
@@ -1912,7 +1912,7 @@ footer .block__link--item .box span a:hover {
 }
 .company #contact .block__item a::before {
   content: "";
-  background: url("../../images/icon_tel.svg");
+  background: url("../images/common/icon_tel.svg");
   display: inline-block;
   margin-right: 0.5rem;
   width: 40px;
