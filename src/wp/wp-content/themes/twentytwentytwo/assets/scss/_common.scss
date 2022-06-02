@@ -496,7 +496,7 @@ main {
 }
 /*----top page key visual----*/
 .kv {
-  background: url("../../images/top_bg1.jpg") no-repeat;
+  background: url("../images/common/top_bg1.jpg") no-repeat;
   background-size: cover;
   height: 90vh;
   margin-top: 125px;
@@ -531,7 +531,7 @@ main {
 }
 /*----top page about----*/
 #aboutus {
-	background: right bottom 10% / 50% url(../../images/top_bg_about.png) no-repeat;
+	background: right bottom 10% / 50% url(../images/common/top_bg_about.png) no-repeat;
   position: relative;
   padding: 180px 0;
   h2 {
@@ -718,22 +718,22 @@ main {
     }
     &.business {
       .inner__img {
-        background: bottom right/cover url("../../images/top_img_1.jpg");
+        background: bottom right/cover url("../images/common/top_img_1.jpg");
       }
     }
     &.livemansion {
       .inner__img {
-        background: bottom center/cover url("../../images/top_img_2.jpg");
+        background: bottom center/cover url("../images/common/top_img_2.jpg");
       }
     }
     &.findmansion {
       .inner__img {
-        background: bottom / cover url("../../images/top_img_3.jpg") no-repeat;
+        background: bottom / cover url("../images/common/top_img_3.jpg") no-repeat;
       }
     }
     &.rentalowner {
       .inner__img {
-        background: bottom / cover url("../../images/top_img_4.jpg") no-repeat;
+        background: bottom / cover url("../images/common/top_img_4.jpg") no-repeat;
       }
     }
     &.business, &.findmansion {
@@ -958,7 +958,7 @@ footer {
   }
 }
 .copyright {
-  background: center / cover url("../../assets/img/bg_footer.jpg")no-repeat;
+  background: center / cover url("../img/bg_footer.jpg")no-repeat;
   color: $white;
   font-size: 0.9rem;
   padding: 4rem 0;
