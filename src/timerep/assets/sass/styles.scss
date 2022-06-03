@@ -2676,7 +2676,7 @@ textarea {
         font-size: 0.9375em;
       }
       label {
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 10px;
         color: #303030;
         font-weight: 700;
@@ -2716,6 +2716,9 @@ textarea {
         display: inline-flex;
         align-self: center;
         justify-content: center;
+        &:hover {
+          background-color: #2a9ca8;
+        }
         cursor: pointer;
         img {
           margin-right: 10px;
@@ -2964,6 +2967,30 @@ $color-13: #dbdbdb;
         opacity: 1;
       }
 
+    }
+  }
+}
+
+.box_emailaddress {
+  position: relative;
+  input::placeholder {
+    color: #303030 !important;
+  }
+  input:focus-visible {
+    outline: none;
+  }
+  .btn_sendicon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: #40BCC9;
+    border-radius: 0px 8px 8px 0px;
+    min-width: 60px;
+    height: 44px;
+    &:hover {
+      cursor: pointer;
+      background: #1f7079;
     }
   }
 }
