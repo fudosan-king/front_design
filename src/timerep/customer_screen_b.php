@@ -15,8 +15,11 @@
                         <hr>
                         <p class="text_left">上記内容をご自身のメールアドレスに送付する事が出来ます。以下入力フォームに入力後、送信してください。</p>
                         <label for="メールアドレス">メールアドレス</label>
-                        <input type="text" name="" value="" placeholder="送信したいアドレスを入力してください">
-                        <button class="btn_send" type="submit"><img src="images/svg/i_send_white.svg" alt="" width="24"> 送信する</button>
+                        <div class="box_emailaddress">
+                            <input type="text" name="" value="" placeholder="xxxxxxx@@propolife.co.jp">
+                            <button class="btn_sendicon" type="button"><img src="images/svg/i_send_white.svg" alt="" class="img-fluid" width="24"></button>
+                        </div>
+                        <button class="btn_send" type="submit">送信せず次へ</button>
                         <p class="privacy_policy"><a href="#"><u>プライバシーポリシー</a></u></p>
                     </form>
                 </div>
