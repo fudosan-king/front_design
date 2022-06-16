@@ -1685,6 +1685,7 @@ footer {
             .box_body {
                 padding: 10px;
                 border: 0.5px solid #BDBDBD;
+                min-height: 155px;
                 h3 {
                     font-size: 1em;
                     margin-bottom: 5px;
@@ -1783,4 +1784,33 @@ footer {
             }
         }
     }
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    font-size: 0.875em;
+}
+
+.section_list_templates {
+    .list_content {
+        li {
+            .box_body {
+                h3 {
+                    font-size: 0.875em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section_list_templates {
+    .list_content {
+        li {
+            .box_body {
+                min-height: auto;
+            }
+        }
+    }
+}
 }

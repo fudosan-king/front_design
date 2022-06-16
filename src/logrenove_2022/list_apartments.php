@@ -10,150 +10,160 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <h2 class="title">マンション一覧</h2>
-                            <p class="d-flex justify-content-end mb-0"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p>
+                            <h2 class="title">バイク相談</h2>
+                            <!-- <p class="d-flex justify-content-end mb-0"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p> -->
+                            <p class="subtitle">都心のマンションでありながら、ドアを開けた途端、思わず深呼吸したくなるような天然木の香りに包まれる。<br>
+                            私たちが忘れかけていた、自然とともに過ごす生活を味わえるスタイルです。<br>
+                            フローリングはもちろんん、天井、ドア、洗面、キッチン、バルコニーに至るまで、すべて木で埋め尽くしたユニークなリノベーションは、ナチュラルテイストが好みの方にフィットするはず。</p>
                             <ul class="list_content">
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>ジェイパーク目黒Ⅳ｜「目黒」駅徒歩9分、目黒川沿いの桜が近くにある暮らし</h3>
+                                            <p>東京都目黒区下目黒2-16-12 <br>
+                                            JR山手線「目黒」駅徒歩9分<br>
+                                            東急目黒線「不動前」駅徒歩7分</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/21074553/IV1648788112_2-1.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>目黒台スカイマンション｜目黒区三田アドレスのヴィンテージマンション</h3>
+                                            <p>東京都目黒区三田 2-6-17<br>
+                                            JR山手線・東京メトロ日比谷線「恵比寿」駅徒歩10分<br>
+                                            JR山手線・東急目黒線「目黒」駅徒歩13分<br>
+                                            東急東横線「代官山」駅徒歩16分</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/14104000/w1334_aa364bcc5c4bae371aa3c920e4d3154d-1.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>パークナード代官山｜駅2分のホテルライクなマンション</h3>
+                                            <p>東京都渋谷区恵比寿西  2-20-1<br>
+                                            東急東横線「代官山」駅徒歩2分<br>
+                                            JR山手線「恵比寿」駅徒歩7分<br>
+                                            東京メトロ日比谷線「恵比寿」駅徒歩6分</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/12180136/%E5%86%99%E7%9C%9F-2022-05-10-17-04-11.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>日商岩井代官山マンション｜「代官山」駅徒歩1分のヴィンテージマンション</h3>
+                                            <p>東京都渋谷区恵比寿西 1-34-1</p>
+                                            <p>東急東横線「代官山」駅徒歩1分<br>
+                                            JR山手線「目黒」駅徒歩8分<br>
+                                            JR山手線「恵比寿」駅徒歩10分</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/14134707/DSC_7611-800x600-1.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>グランドメゾン白金・三光坂｜「白金高輪」駅徒歩3分。閑静な高級住宅街での穏やかでラグジュアリーな暮らし</h3>
+                                            <p>東京都港区白金2丁目1-8 </p>
+                                            <p>東京メトロ南北線「白金高輪」駅徒歩3分<br>東京メトロ南北線「 白金台」駅徒歩11分<br></p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/04/27095914/%E4%BC%8A%E7%9A%BF%E5%AD%90%E5%A4%96%E8%A6%B3.jpg.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>ファミールグラン三田伊皿子坂｜「泉岳寺」駅徒歩4分。歴史の情感あふれる街に暮らす</h3>
+                                            <p>東京都港区三田 4丁目18-20</p>
+                                            <p>京浜急行電鉄本線「泉岳寺」駅徒歩4分<br>東京メトロ南北線・都営三田線「白金高輪」駅徒歩8分<br></p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/10164426/23172624_m-1-800x534-1.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>芝浦アイランド ケープタワー｜ビッグコミュニティならではの充実した共用部が魅力</h3>
+                                            <p>東京都港区芝浦 4-19-1</p>
+                                            <p>JR山手線「田町」駅徒歩12分<br>都営三田線「三田」駅徒歩15分<br>ゆりかもめ「芝浦ふ頭」駅徒歩13分<br></p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/10103439/IV1653638457_2-800x534-1.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>シティタワー麻布十番｜麻布十番のシンボリックなタワーマンション</h3>
+                                            <p>東京都港区三田 1-6-3</p>
+                                            <p>都営大江戸線・東京メトロ南北線「麻布十番」駅徒歩4分<br></p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/09105208/IV1653551493_2-800x533-1.jpeg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>飯倉ヒルズ</h3>
+                                            <p>- 港区麻布台 3-5-5</p>
+                                            <p>東京メトロ日比谷線「神谷町」駅徒歩8分<br>東京メトロ南北線「六本木一丁目」駅徒歩8分<br></p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/04/13111905/IV1641867505_15.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>藤和島津山コープ</h3>
+                                            <p>東京都品川区東五反田1-2-25 </p>
+                                            <p> JR山手線「五反田」駅徒歩6分<br></p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/04/11233735/23213241_s-1.jpg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>パシフィック白金台</h3>
+                                            <p>東京都港区白金台4-20-9 </p>
+                                            <p>東京メトロ南北線「白金台」駅徒歩7分<br>JR山手線「目黒」駅徒歩15分<br></p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="detail.php">
                                         <div class="box_img">
-                                            <img class="img-fluid" src="images/products/img07.jpg" alt="img07">
+                                            <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/03155405/IV1650533364_2.jpeg" alt="img07">
                                         </div>
                                         <div class="box_body">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                            <p><span>最寄り駅</span> / <span>徒歩13分</span> </p>
+                                            <h3>藤和シティスクエア三田ノースウイング</h3>
+                                            <p>東京都港区三田2-11-7 </p>
+                                            <p>都営三田線・浅草線「三田」駅徒歩6分<br>JR山手線「田町」駅徒歩8分<br>都営大江戸線「赤羽橋」駅徒歩7分<br></p>
                                         </div>
                                     </a>
                                 </li>
@@ -161,9 +171,9 @@
                             <p class="text-center d-block d-lg-none mb-4">
                                 <a href="#"><img class="img-fluid" src="images/icons/i_dot.svg" alt="i_dot" width="6"></a>
                             </p>
-                            <p class="d-flex justify-content-center justify-content-lg-end"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p>
+                            <!-- <p class="d-flex justify-content-center justify-content-lg-end"><a href="#" class="btn btn_condition"><img src="images/icons/i_sort.svg" alt="i_sort" width="15"> 条件を変更する</a></p> -->
 
-                            <nav class="d-none d-lg-block" aria-label="Page navigation example">
+                            <!-- <nav class="d-none d-lg-block" aria-label="Page navigation example">
                                 <ul class="pagination justify-content-center">
                                     <li class="page-item disabled">
                                         <a class="page-link"><img class="img-fluid" src="images/icons/i_left.svg" alt="i_left" width="8"></a>
@@ -177,7 +187,7 @@
                                         <a class="page-link" href="#"><img class="img-fluid" src="images/icons/i_right2.svg" alt="i_right" width="8"></a>
                                     </li>
                                 </ul>
-                                </nav>
+                            </nav> -->
 
                         </div>
                     </div>
