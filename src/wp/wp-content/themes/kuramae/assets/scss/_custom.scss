@@ -1,0 +1,56 @@
+.datepicker .datepicker-days .day.disabled:not(.today) {
+    background: #e4e4e4;
+    border-radius: 0;
+}
+
+// View 360 Plan
+i.chevron-right{
+	background-image:url('../images/chevron-right.svg');
+	height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+i.chevron-left{
+	background-image:url('../images/chevron-left.svg');
+	height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+.carousel_view{
+	position: relative;
+	.carousel_view_day{
+		background: url('../images/main/img_view_day.jpg') repeat-x center bottom;
+	}
+	.carousel_view_night{
+		background: url('../images/main/img_view_night.jpg') repeat-x center bottom;
+	}
+	.day{
+		height: 548px;
+		backface-visibility: hidden;
+	}
+	.carousel_view_control_left, .carousel_view_control_right {
+	    font-family: 'Material Icons';
+	    text-align: center;
+	    font-size: 5.0rem;
+	    background: rgba(25, 25, 25, 0.8);
+	    color: #FFF;
+	    position: absolute;
+	    top:50%;
+	    transform: translateY(-50%);
+	    width: 60px;
+	    height: 170px;
+	    cursor: pointer;
+	    padding:40px 0;
+	    display: flex;
+	    align-items: center;
+	    margin-bottom:0;
+	    justify-content: center;
+	}
+	.carousel_view_control_left{
+		left:0;
+	}
+	.carousel_view_control_right{
+		right:0;
+	}
+}
+
