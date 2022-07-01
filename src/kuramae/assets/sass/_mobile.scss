@@ -1,0 +1,28 @@
+@media (max-width: 992px){
+	
+}
+
+
+
+@media (max-width: 768px){
+	.equip-spec_box {
+		.outline-table {
+			th {
+				width: 130px;
+				padding: 10px;
+				p{ 
+					font-size: 0.75rem;
+				}
+			}
+			th[rowspan] + th{
+				width: 160px;
+			}
+			td{
+				padding:10px;
+				p{
+					font-size: 0.75rem;
+				}
+			}
+		}
+	}
+}
