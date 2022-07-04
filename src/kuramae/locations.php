@@ -63,18 +63,19 @@
                             </div>
 
                             <div class="box_area">
-                                <div class="row g-0">
+                                <div class="row g-0 flex-row-reverse">
+                                    <div class="col-12 col-lg-7">
+                                        <div class="area_img">
+                                            <img src="images/asakusa_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="asakusa_area" class="img-fluid">
+                                        </div>
+                                    </div>
                                     <div class="col-12 col-lg-5">
                                         <div class="area_content">
                                             <h3>浅草エリア</h3>
                                             <p>東京下町を代表する観光地、浅草。「浅草寺（雷門）」や情緒あふれる「仲見世通り」をはじめ、さまざまな歴史的建造物や日本の伝統文化に触れることができるのが大きな魅力。休日は少し足をのばして、小旅行気分を味わいませんか。</p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-7">
-                                        <div class="area_img">
-                                            <img src="images/asakusa_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="asakusa_area" class="img-fluid">
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -95,16 +96,16 @@
                             </div>
 
                             <div class="box_area">
-                                <div class="row g-0">
+                                <div class="row g-0 flex-row-reverse">
+                                    <div class="col-12 col-lg-7">
+                                        <div class="area_img">
+                                            <img src="images/nihonbashi_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="nihonbashi_area" class="img-fluid">
+                                        </div>
+                                    </div>
                                     <div class="col-12 col-lg-5">
                                         <div class="area_content">
                                             <h3>日本橋エリア</h3>
                                             <p>江戸時代から商業の中心だった日本橋は、今なお江戸の文化・伝統・風情を色濃く残す文化的な魅力にあふれるエリア。「日本橋高島屋」や「コレド室町」「コレド日本橋」など、日本の新旧文化が集結したショッピングタウンとして栄えています。</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-7">
-                                        <div class="area_img">
-                                            <img src="images/nihonbashi_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="nihonbashi_area" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>

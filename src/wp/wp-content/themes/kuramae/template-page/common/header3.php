@@ -2,7 +2,7 @@
     <div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide">
         <a class="navbar-brand" href="<?php echo home_url('/top/'); ?>">
             <h1>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/common/SVG/logo_black.svg" alt="" class="img-fluid logo_black d-block" width="246">
+                <img src="<?php bloginfo('template_directory');?>/assets/images/common/SVG/logo_black.svg" alt="プロスタイル蔵前" class="img-fluid logo_black d-block" width="246">
             </h1>
         </a>
         <button class="navbar-toggler toggler-spring menu">

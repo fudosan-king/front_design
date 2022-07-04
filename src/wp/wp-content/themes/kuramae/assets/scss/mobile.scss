@@ -435,10 +435,16 @@
    
 
     
-    footer ul li a{
-        padding:0;
-        &:after{
-            width:0;
+    footer {
+        ul {
+            li {
+                a {
+                    padding: 0 10px;
+                    &:after {
+                        width: 1px;
+                    }
+                }
+            }
         }
     }
 }
