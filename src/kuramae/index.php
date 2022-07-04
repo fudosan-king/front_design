@@ -55,9 +55,9 @@
 
     </div>
 
-    <div class="intro js-intro intro-1">
+    <!-- <div class="intro js-intro intro-1">
         <div class="introIcon js-introIcon"></div>
-    </div>
+    </div> -->
 
     <?php require 'js-footer.php'; ?>
 </body>
