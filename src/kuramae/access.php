@@ -78,7 +78,7 @@
                                 雄大な都市に位置しながらも、昔ながらの情緒が残るこの場所に<br>
                                 無垢材の心地よさに深みのある暮らしを送りながらも<br>
                                 アクティブな暮らしが愉しめるレジデンスが誕生します。</p>
-                                <a href="#" class="btn btn_viewlocaltion">ロケーションを見る</a>
+                                <a href="locations.php" class="btn btn_viewlocaltion">ロケーションを見る</a>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">

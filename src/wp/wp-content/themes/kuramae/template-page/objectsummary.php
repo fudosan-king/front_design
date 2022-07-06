@@ -25,7 +25,7 @@
                         <div class="card">
                             <div id="architectural_overview" class="card-header mb-3">建築概要</div>
                             <div class="card-body">
-                                <table class="table table-hover">
+                                <table class="table table-hover table_finished">
                                     <tr>
                                         <th class="title_brown">名称</th>
                                         <td>プロスタイル蔵前</td>
@@ -139,7 +139,7 @@
                             <div id="equipment_overview" class="card-header">設備概要</div>
                             <div class="card-body">
                                 <p class="table_title">【専有部分】</p>
-                                <table class="table table-hover">
+                                <table class="table table-hover table_finished">
                                     <tr>
                                         <th class="title_brown">電気</th>
                                         <td>契約容量40A（最大5KVAまで増量可能）、各住戸専用メーター設置</td>
@@ -187,7 +187,7 @@
                                 </table>
 
                                 <p class="table_title">【共有部分】</p>
-                                <table class="table table-hover">
+                                <table class="table table-hover table_finished">
                                     <tr>
                                         <th class="title_brown">エレベーター</th>
                                         <td>9人乗（ロープ式60m/min・1基）設置</td>
@@ -253,7 +253,7 @@
                             <div id="finishing_table" class="card-header">仕上表</div>
                             <div class="card-body">
                                 <p class="table_title">【外部仕上】</p>
-                                <table class="table table-hover">
+                                <table class="table table-hover table_finished">
                                     <tr>
                                         <th class="title_brown">屋根</th>
                                         <td>アスファルト露出防水（外断熱工法）　庇：ウレタン塗膜防水　斜壁・斜梁：アスファルトシングル茸 </td>
@@ -279,27 +279,27 @@
                                 </table>
 
                                 <p class="table_title">【内部仕上】</p>
+                                <p class="table_titlesub">専有部</p>
                                 <table class="table">
                                     <tr class="table_custom_title">
                                         <td colspan="7" class="p-0 border-0">
                                             <table class="table border-0">
                                                 <tr>
+                                                    <!-- <th></th>
                                                     <th></th>
+                                                    <th></th> -->
                                                     <th></th>
-                                                    <th></th>
-                                                    <th></th>
-                                                    <th>床</th>
-                                                    <th>巾木</th>
-                                                    <th>壁</th>
-                                                    <th>天井</th>
-                                                    <th>備考</th>
+                                                    <th><span>床</span></th>
+                                                    <th><span>巾木</span></th>
+                                                    <th><span>壁</span></th>
+                                                    <th><span>天井</span></th>
+                                                    <th><span>備考</span></th>
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
 
                                     <tr class="table_custom">
-                                        <th class="rotated_letters">専<br>有<br>部</th>
                                         <td colspan="5" class="p-0 border-0">
                                             <table class="table table-hover border-0 table_internalfinish">
                                                 <tr>
@@ -330,141 +330,132 @@
                                         </td>
                                     </tr>
 
-                                    <tr class="table_custom">
-                                        <th class="rotated_letters">共<br>有<br>部</th>
-                                        <td colspan="5" class="p-0 border-0">
-                                            <table class="table table-hover border-0 table_internalfinish">
-                                                <tr>
-                                                    <th class="px-0">玄関</th>
-                                                    <td>タイル貼</td>
-                                                    <td>タイル巾木</td>
-                                                    <td>タイル貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">下足入、上り框：タイル、インターホン（外部）、<br>
-                                                    人感センサー点灯照明</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">廊下</th>
-                                                    <td>無垢材フローリング</td>
-                                                    <td>木製巾木</td>
-                                                    <td>タイル貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling"></td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">シューズインクローク</th>
-                                                    <td>タイル貼</td>
-                                                    <td>タイル巾木</td>
-                                                    <td>クロス貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">棚板、分電盤</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">下足入</th>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td class="col_ceiling">システム家具、分電盤</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">キッチン</th>
-                                                    <td>無垢材フローリング</td>
-                                                    <td>木製巾木</td>
-                                                    <td>クロス貼<br>一部キッチンパネル</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">システムキッチン、レンジフード、給湯器リモコン</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">リビング・ダイニング</th>
-                                                    <td>無垢材フローリング</td>
-                                                    <td>木製巾木</td>
-                                                    <td>クロス貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">カラーモニター付インターホン、カーテンボックス、カーテンレールW、給気口、エアコンスリーブ</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">洋室</th>
-                                                    <td>無垢材フローリング</td>
-                                                    <td>木製巾木</td>
-                                                    <td>クロス貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">カーテンボックス、カーテンレールW、給気口、エアコンスリーブ</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">ウォークインクローゼット</th>
-                                                    <td>無垢材フローリング</td>
-                                                    <td>木製巾木</td>
-                                                    <td>クロス貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">ハンガーパイプ、上部固定棚</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">クローゼット・物入・リネン庫</th>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td class="col_ceiling">システム家具</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">トイレ</th>
-                                                    <td>CFシート</td>
-                                                    <td>ソフト巾木</td>
-                                                    <td>クロス貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">ウォシュレット、ペーパーホルダー、タオル掛、吊戸棚、天井吸込口、手洗いカウンター</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">洗面室</th>
-                                                    <td>CFシート</td>
-                                                    <td>ソフト巾木</td>
-                                                    <td>クロス貼</td>
-                                                    <td>クロス貼</td>
-                                                    <td class="col_ceiling">鏡裏収納付洗面化粧台、タオル掛、洗濯機用防水パン、リネン庫、天井吸込口</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="px-0">浴室</th>
-                                                    <td></td>
-                                                    <td>ユニットバス（1317）</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td class="col_ceiling">浴室換気暖房乾燥機、浴槽手摺付、ランドリーパイプ、追炊機能付</td>
-                                                </tr> 
-                                            </table>
-                                        </td>
+                                    
+                                </table>
+
+                                <p class="table_title ps-2">共有部</p>
+                                <table class="table table-hover table_finished">
+                                    <tr>
+                                        <th class="title_brown">玄関</th>
+                                        <td>タイル貼</td>
+                                        <td>タイル巾木</td>
+                                        <td>タイル貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">下足入、上り框：タイル、インターホン（外部）、<br>
+                                        人感センサー点灯照明</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">廊下</th>
+                                        <td>無垢材フローリング</td>
+                                        <td>木製巾木</td>
+                                        <td>タイル貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">シューズインクローク</th>
+                                        <td>タイル貼</td>
+                                        <td>タイル巾木</td>
+                                        <td>クロス貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">棚板、分電盤</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">下足入</th>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="col_ceiling">システム家具、分電盤</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">キッチン</th>
+                                        <td>無垢材フローリング</td>
+                                        <td>木製巾木</td>
+                                        <td>クロス貼<br>一部キッチンパネル</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">システムキッチン、レンジフード、給湯器リモコン</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">リビング・ダイニング</th>
+                                        <td>無垢材フローリング</td>
+                                        <td>木製巾木</td>
+                                        <td>クロス貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">カラーモニター付インターホン、カーテンボックス、カーテンレールW、給気口、エアコンスリーブ</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">洋室</th>
+                                        <td>無垢材フローリング</td>
+                                        <td>木製巾木</td>
+                                        <td>クロス貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">カーテンボックス、カーテンレールW、給気口、エアコンスリーブ</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">ウォークインクローゼット</th>
+                                        <td>無垢材フローリング</td>
+                                        <td>木製巾木</td>
+                                        <td>クロス貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">ハンガーパイプ、上部固定棚</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">クローゼット・物入・リネン庫</th>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="col_ceiling">システム家具</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">トイレ</th>
+                                        <td>CFシート</td>
+                                        <td>ソフト巾木</td>
+                                        <td>クロス貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">ウォシュレット、ペーパーホルダー、タオル掛、吊戸棚、天井吸込口、手洗いカウンター</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">洗面室</th>
+                                        <td>CFシート</td>
+                                        <td>ソフト巾木</td>
+                                        <td>クロス貼</td>
+                                        <td>クロス貼</td>
+                                        <td class="col_ceiling">鏡裏収納付洗面化粧台、タオル掛、洗濯機用防水パン、リネン庫、天井吸込口</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">浴室</th>
+                                        <td></td>
+                                        <td>ユニットバス（1317）</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="col_ceiling">浴室換気暖房乾燥機、浴槽手摺付、ランドリーパイプ、追炊機能付</td>
                                     </tr>
                                 </table>
 
                                 <p class="table_title">【外部仕上表】</p>
                                 <table class="table table_finished">
                                     <tr>
-                                        <th class="rotated_letters">外<br>部<br>仕<br>上<br>表</th>
-                                        <td class="p-0 border-0">
-                                            <table class="table table-hover border-0">
-                                                <tr>
-                                                    <th class="title_brown">屋根</th>
-                                                    <td>アスファルト露出防水（外断熱工法）　庇：ウレタン塗膜防水　斜壁・斜梁：アスファルトシングル茸 </td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="title_brown">外壁</th>
-                                                    <td>吹付タイル・一部45二丁掛けタイル貼 </td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="title_brown">屋外階段</th>
-                                                    <td>床：ノンスリップ長尺塩ビシート貼　手摺壁：アルミ縦格子 一部躯体手摺 吹付タイル（内外共）　段裏：リシン吹付、中壁：吹付タイル </td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="title_brown">共用廊下</th>
-                                                    <td>床：タイルカーペット貼　壁：クロス貼　天井：クロス貼　</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="title_brown">バルコニー</th>
-                                                    <td>床：ノンスリップ長尺塩ビシート貼  巾木：ウレタン塗膜防水　排水溝：ウレタン塗膜防水<br>
-                                                    手摺：アルミ製ガラス手摺 一部躯体手摺 45二丁タイル（外）吹付タイル（内）、物干金物　壁：吹付タイル　天井：リシン吹付　一部避難ハッチ</td>
-                                                </tr>
-                                            </table>
-                                        </td>
+                                        <th class="title_brown">屋根</th>
+                                        <td>アスファルト露出防水（外断熱工法）　庇：ウレタン塗膜防水　斜壁・斜梁：アスファルトシングル茸 </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">外壁</th>
+                                        <td>吹付タイル・一部45二丁掛けタイル貼 </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">屋外階段</th>
+                                        <td>床：ノンスリップ長尺塩ビシート貼　手摺壁：アルミ縦格子 一部躯体手摺 吹付タイル（内外共）　段裏：リシン吹付、中壁：吹付タイル </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">共用廊下</th>
+                                        <td>床：タイルカーペット貼　壁：クロス貼　天井：クロス貼　</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_brown">バルコニー</th>
+                                        <td>床：ノンスリップ長尺塩ビシート貼  巾木：ウレタン塗膜防水　排水溝：ウレタン塗膜防水<br>
+                                        手摺：アルミ製ガラス手摺 一部躯体手摺 45二丁タイル（外）吹付タイル（内）、物干金物　壁：吹付タイル　天井：リシン吹付　一部避難ハッチ</td>
                                     </tr>
                                 </table>
 

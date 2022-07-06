@@ -179,7 +179,7 @@
                                                 </div>
                                                 <div class="col-10 col-lg-9 align-self-center">
                                                     <select name="" id="" class="form-control custom-select required">
-                                                        <option value="">予算を選択する</option>
+                                                        <option value="">予算を選択ください</option>
                                                         <option value="">...</option>
                                                         <option value="">...</option>
                                                     </select>
@@ -231,7 +231,7 @@
                                                     </div>
                                                     <div class="row mb30">
                                                         <div class="col-12 col-lg-2 align-self-center">
-                                                            <label for="第1希望日時">第1希望日時</label>
+                                                            <label for="第2希望日時">第2希望日時</label>
                                                         </div>
                                                         <div class="col-12 col-lg-5 align-self-center">
                                                             <div class="box_datetime">
@@ -263,7 +263,7 @@
                                         
                                         <div class="box_content_footer">
                                             <p class="primary_policy">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。<br>
-                                            個人情報の取扱に関しましては <a class="btn-link" href="#" target="_blank"><b>プライバシーポリシー</b></a> をご覧ください。<br>
+                                            個人情報の取扱に関しましては <a class="btn-link" href="https://www.prostyle-residence.com/privacy-policy/" target="_blank"><b>プライバシーポリシー</b></a> をご覧ください。<br>
                                             ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。</p>
                                             <div class="form-group">
                                                 <div class="custom-control custom-checkbox w_checkbox">
