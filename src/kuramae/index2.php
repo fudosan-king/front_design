@@ -178,7 +178,7 @@
                                 <div class="box_contact_content">
                                     <h3>●●●●●●●パンフレット進呈</h3>
                                     <p>プロスタイル蔵前 の魅力がつまったパンフレットを無料で進呈いたします。以下のフォームからご請求ください。</p>
-                                    <a href="#" class="btn btn_inquiry btn--animated">お問い合わせ</a>
+                                    <a href="inquiry.php" class="btn btn_inquiry btn--animated">お問い合わせ</a>
                                 </div>
                             </div>
                         </div>
