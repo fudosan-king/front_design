@@ -1,9 +1,13 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFVKSR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta charset="UTF-8">
-<title>Prostyle - KURAMAR</title>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
+<title>【公式】プロスタイル蔵前｜新築分譲マンション｜〇〇〇　→〇〇〇部分はキャッチコピーが入る予定</title>
+<meta name="description" content="..."/>
+<meta name="keywords" content="プロスタイル蔵前,蔵前,新築分譲マンション,居住用,ラグジュアリー,大江戸線,浅草線,都営地下鉄,都心生活"/>
 
 <link rel="apple-touch-icon" sizes="152x152" href="favicon_package_v0.16/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">

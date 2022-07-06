@@ -480,12 +480,12 @@
     padding: 0 0 15px;
   }
 
-  .header_sub .navbar-toggler {
-    top: -5px;
-  }
-
   .header_sub .navbar-toggler .navbar-toggler-icon, .header_sub .navbar-toggler .navbar-toggler-icon::after, .header_sub .navbar-toggler .navbar-toggler-icon::before {
     background-color: #000;
+  }
+
+  .bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-brand {
+    padding: 0;
   }
 
   .news {

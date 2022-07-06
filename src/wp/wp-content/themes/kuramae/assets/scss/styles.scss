@@ -688,6 +688,28 @@ footer {
         }
       }
     }
+    &:last-of-type {
+      li {
+        &:hover {
+          a {
+            text-decoration: none;
+          }
+        }
+        &:last-of-type {
+          img {
+            position: relative;
+            top: -2px;
+            opacity: .5;
+          }
+        }
+        a {
+          padding: 0 5px;
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
   }
   p {
     color: #dbdbdb;
@@ -2503,6 +2525,9 @@ a.disable {
       .table_title {
         margin-top: 30px;
       }
+      .table_titlesub {
+        padding-left: 10px;
+      }
     }
   }
   table {
@@ -2528,7 +2553,7 @@ a.disable {
       color: #333;
       text-align: center;
       &.title_brown {
-        width: 15%;
+        width: 20%;
       }
     }
     td {
@@ -2555,7 +2580,29 @@ a.disable {
       border: none;
       th {
         min-width: auto;
-        padding-left: 3px;
+        padding-left: 67px;
+        text-align: left;
+        span {
+          display: inline-block;
+          position: relative;
+        }
+        &:first-of-type {
+          width: 230px;
+        }
+        &:last-of-type {
+          width: 30%;
+          padding-left: 10px;
+        }
+        &:nth-child(4) {
+          span {
+            left: -10px;
+          }
+        }
+        &:nth-child(5) {
+          span {
+            left: -10px;
+          }
+        }
       }
     }
     
@@ -2565,7 +2612,8 @@ a.disable {
         text-align: center;
         vertical-align: middle;
         padding: 0 20px;
-        width: 5%;
+        width: 0;
+        word-wrap: break-word;
       }
       th {
         min-width: auto;
@@ -2573,7 +2621,7 @@ a.disable {
       .table_internalfinish {
         th {
           min-width: inherit;
-          width: 15%;
+          width: 20%;
         }
         td {
           width: 12%;
@@ -2589,6 +2637,8 @@ a.disable {
       background: #fff;
       .rotated_letters {
         padding: 10px 20px;
+        width: 0;
+        word-wrap: break-word;
       }
       th {
         
@@ -2821,6 +2871,10 @@ a.disable {
   }
 }
 
+
+
+
+
 @media (max-width: 992px) {
   .navbar-brand {
     h1 {
@@ -2942,9 +2996,19 @@ a.disable {
           display: block;
         }
       }
+
+      &.table_finished {
+        .rotated_letters {
+          width: 100%;
+          background: #d8d2bd;
+        }
+      }
+
       .table_custom {
         .rotated_letters {
           width: 100%;
+          background: #d8d2bd;
+          padding: 10px;
         }
         .table_internalfinish {
           th {
@@ -2956,17 +3020,27 @@ a.disable {
               width: 100%;
             }
           }
-          
         }
       }
+      
       .table_custom_title {
         th {
-          &:first-of-type {
-            padding-left: 10px;
-          }
           width: 100%;
           padding: 10px;
           display: block;
+          text-align: center;
+          &:first-of-type {
+            display: none;
+          }
+          &:last-of-type {
+            width: 100%;
+            padding-left: 10px;
+          }
+          &:nth-child(4), &:nth-child(5) {
+            span {
+              left: 0;
+            }
+          }
         }
       }
     }
@@ -2990,19 +3064,21 @@ a.disable {
 
   footer {
     ul {
-      display: flex;
-      flex-direction: column;
       li {
-        &:last-of-type {
-          a {
-            border-bottom: 1px solid #4F4F4F;
-          }
-        }
         a {
-          border: 1px solid #4F4F4F;
           border-bottom: none;
           &::after {
-            display: none;
+            
+          }
+        }
+        
+      }
+      &:last-of-type {
+        li {
+          a {
+            &::after {
+              display: none;
+            }
           }
         }
       }
@@ -3115,7 +3191,7 @@ a.disable {
   footer {
     ul {
       &:last-of-type {
-        display: flex;
+        display: block;
         li {
           a {
             padding: 0 2px;

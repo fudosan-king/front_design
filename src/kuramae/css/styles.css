@@ -658,6 +658,20 @@ footer ul li a::after {
   height: 10px;
   background: #fff;
 }
+footer ul:last-of-type li:hover a {
+  text-decoration: none;
+}
+footer ul:last-of-type li:last-of-type img {
+  position: relative;
+  top: -2px;
+  opacity: .5;
+}
+footer ul:last-of-type li a {
+  padding: 0 5px;
+}
+footer ul:last-of-type li a::after {
+  display: none;
+}
 footer p {
   color: #dbdbdb;
 }
@@ -2433,6 +2447,9 @@ i.chevron-left {
 .section_objectsummary .card .card-body .table_title {
   margin-top: 30px;
 }
+.section_objectsummary .card .card-body .table_titlesub {
+  padding-left: 10px;
+}
 .section_objectsummary table {
   border-top: 1px solid rgba(130, 130, 130, 0.5);
   margin-bottom: 0;
@@ -2475,7 +2492,25 @@ i.chevron-left {
 }
 .section_objectsummary table .table_custom_title th {
   min-width: auto;
-  padding-left: 3px;
+  padding-left: 67px;
+  text-align: left;
+}
+.section_objectsummary table .table_custom_title th span {
+  display: inline-block;
+  position: relative;
+}
+.section_objectsummary table .table_custom_title th:first-of-type {
+  width: 230px;
+}
+.section_objectsummary table .table_custom_title th:last-of-type {
+  width: 30%;
+  padding-left: 10px;
+}
+.section_objectsummary table .table_custom_title th:nth-child(4) span {
+  left: -10px;
+}
+.section_objectsummary table .table_custom_title th:nth-child(5) span {
+  left: -10px;
 }
 .section_objectsummary table .table_custom {
   background: #fff;
@@ -2484,14 +2519,15 @@ i.chevron-left {
   text-align: center;
   vertical-align: middle;
   padding: 0 20px;
-  width: 5%;
+  width: 0;
+  word-wrap: break-word;
 }
 .section_objectsummary table .table_custom th {
   min-width: auto;
 }
 .section_objectsummary table .table_custom .table_internalfinish th {
   min-width: inherit;
-  width: 15%;
+  width: 20%;
 }
 .section_objectsummary table .table_custom .table_internalfinish td {
   width: 12%;
@@ -2505,6 +2541,8 @@ i.chevron-left {
 }
 .section_objectsummary table.table_finished .rotated_letters {
   padding: 10px 20px;
+  width: 0;
+  word-wrap: break-word;
 }
 
 .w40 {
@@ -2815,8 +2853,14 @@ i.chevron-left {
   .section_objectsummary table.table_unit th {
     display: block;
   }
+  .section_objectsummary table.table_finished .rotated_letters {
+    width: 100%;
+    background: #d8d2bd;
+  }
   .section_objectsummary table .table_custom .rotated_letters {
     width: 100%;
+    background: #d8d2bd;
+    padding: 10px;
   }
   .section_objectsummary table .table_custom .table_internalfinish th {
     width: 100%;
@@ -2831,9 +2875,17 @@ i.chevron-left {
     width: 100%;
     padding: 10px;
     display: block;
+    text-align: center;
   }
   .section_objectsummary table .table_custom_title th:first-of-type {
+    display: none;
+  }
+  .section_objectsummary table .table_custom_title th:last-of-type {
+    width: 100%;
     padding-left: 10px;
+  }
+  .section_objectsummary table .table_custom_title th:nth-child(4) span, .section_objectsummary table .table_custom_title th:nth-child(5) span {
+    left: 0;
   }
 }
 @media (max-width: 768px) {
@@ -2846,18 +2898,10 @@ i.chevron-left {
     padding-top: 90px !important;
   }
 
-  footer ul {
-    display: flex;
-    flex-direction: column;
-  }
-  footer ul li:last-of-type a {
-    border-bottom: 1px solid #4F4F4F;
-  }
   footer ul li a {
-    border: 1px solid #4F4F4F;
     border-bottom: none;
   }
-  footer ul li a::after {
+  footer ul:last-of-type li a::after {
     display: none;
   }
 
@@ -2958,7 +3002,7 @@ i.chevron-left {
   }
 
   footer ul:last-of-type {
-    display: flex;
+    display: block;
   }
   footer ul:last-of-type li a {
     padding: 0 2px;
