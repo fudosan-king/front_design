@@ -187,6 +187,7 @@
                                                         <option value="～6500万円">～6500万円</option>
                                                         <option value="～7000万円">～7000万円</option>
                                                         <option value="～7500万円">～7500万円</option>
+                                                        <option value="～8000万円">～8000万円</option>
                                                         <option value="～8000万円以上">～8000万円以上</option>
                                                     </select>
                                                 </div>
