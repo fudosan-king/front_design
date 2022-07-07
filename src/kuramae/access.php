@@ -10,6 +10,8 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="アクセス,交通,プロスタイル蔵前,蔵前,新築分譲マンション,居住用,ラグジュアリー,大江戸線,浅草線,都営地下鉄,都心生活">
     <meta name="description" content="...">
+    <meta property="og:site_name" content="【公式】プロスタイル蔵前｜新築分譲マンション">
+    <meta property="og:url" content="">
     <title>アクセス |【公式】プロスタイル蔵前｜新築分譲マンション</title>
 
     <link rel="apple-touch-icon" sizes="152x152" href="favicon_package_v0.16/apple-touch-icon.png">

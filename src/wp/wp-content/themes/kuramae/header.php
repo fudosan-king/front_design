@@ -29,6 +29,8 @@
                 <?php default: ?>
                   <meta name="keywords" content="プロスタイル蔵前,蔵前,新築分譲マンション,居住用,ラグジュアリー,大江戸線,浅草線,都営地下鉄,都心生活">
                   <meta name="description" content="...">
+                  <meta property="og:site_name" content="【公式】プロスタイル蔵前｜新築分譲マンション">
+                  <meta property="og:url" content="">
                   <title>【公式】プロスタイル蔵前｜新築分譲マンション｜〇〇〇　→〇〇〇部分はキャッチコピーが入る予定</title>
           <?php endswitch; ?>
 

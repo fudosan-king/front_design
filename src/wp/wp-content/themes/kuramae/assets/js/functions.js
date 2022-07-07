@@ -10,6 +10,21 @@ jQuery(document).ready(function($) {
 
   $('.datepicker').datepicker({
     language: 'ja',
+    autoclose: true,
+    todayHighlight: true,
+    beforeShowDay: function (date) {
+
+      if (date.getDate() == (new Date()).getDate())
+        return false;
+
+      if (date.getTime() < (new Date()).getTime())
+        return false;
+
+      if (date.getDay() == 2 || date.getDay() == 3)
+        return false;
+
+      return true;
+    },
   });
 
   Fancybox.bind(".kachikura_gallerys a", {
