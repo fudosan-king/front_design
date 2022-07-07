@@ -180,16 +180,13 @@
                                                 <div class="col-10 col-lg-9 align-self-center">
                                                     <select name="budget" id="" class="form-control custom-select required">
                                                         <option value="">予算を選択ください</option>
-                                                        <option value="～3000万円">～3000万円</option>
-                                                        <option value="～3500万円">～3500万円</option>
-                                                        <option value="～4000万円">～4000万円</option>
                                                         <option value="～4500万円">～4500万円</option>
                                                         <option value="～5000万円">～5000万円</option>
                                                         <option value="～5500万円">～5500万円</option>
                                                         <option value="～6000万円">～6000万円</option>
                                                         <option value="～6500万円">～6500万円</option>
-                                                        <option value="～7000万円以上">～7000万円以上</option>
-                                                        <option value="～7500万円以上">～7500万円以上</option>
+                                                        <option value="～7000万円">～7000万円</option>
+                                                        <option value="～7500万円">～7500万円</option>
                                                         <option value="～8000万円以上">～8000万円以上</option>
                                                     </select>
                                                 </div>
