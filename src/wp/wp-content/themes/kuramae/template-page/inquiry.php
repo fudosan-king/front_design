@@ -175,10 +175,19 @@
                                             <label for="予算">予算</label>
                                         </div>
                                         <div class="col-10 col-lg-9 align-self-center">
-                                            <select name="" id="" class="form-control custom-select required">
+                                            <select name="budget" id="" class="form-control custom-select required">
                                                 <option value="">予算を選択ください</option>
-                                                <option value="">...</option>
-                                                <option value="">...</option>
+                                                <option value="～3000万円">～3000万円</option>
+                                                <option value="～3500万円">～3500万円</option>
+                                                <option value="～4000万円">～4000万円</option>
+                                                <option value="～4500万円">～4500万円</option>
+                                                <option value="～5000万円">～5000万円</option>
+                                                <option value="～5500万円">～5500万円</option>
+                                                <option value="～6000万円">～6000万円</option>
+                                                <option value="～6500万円">～6500万円</option>
+                                                <option value="～7000万円以上">～7000万円以上</option>
+                                                <option value="～7500万円以上">～7500万円以上</option>
+                                                <option value="～8000万円以上">～8000万円以上</option>
                                             </select>
                                         </div>
                                     </div>
@@ -237,12 +246,22 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-5 align-self-center">
-                                                    <select class="form-control custom-select required">
+                                                    <select name="time" id="" class="form-control custom-select" data-require="true">
                                                         <option value="時間を選択">時間を選択</option>
-                                                        <option value="...">...</option>
+                                                        <option value="10:00">10:00</option>
+                                                        <option value="11:00">11:00</option>
+                                                        <option value="12:00">12:00</option>
+                                                        <option value="13:00">13:00</option>
+                                                        <option value="14:00">14:00</option>
+                                                        <option value="15:00">15:00</option>
+                                                        <option value="16:00">16:00</option>
+                                                        <option value="17:00">17:00</option>
+                                                        <option value="18:00">18:00</option>
+                                                        <option value="18:30">18:30</option>
                                                     </select>
                                                 </div>
                                             </div>
+                                            <p>スタッフから折り返し連絡させていただく場合がございます。</p>
                                         </div>
                                     </div>
                                 </div>
