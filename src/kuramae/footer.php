@@ -14,7 +14,7 @@
                 
                 <ul class="mb-0">
                     <li><a target="_blank" href="https://www.prostyle-residence.com/">【売主】 <img src="images/logo_small.png" alt="" width="116"> </a></li>
-                    <li><a target="_blank" href="https://www.logsuite.co.jp/">【販売】<img src="images/SVG/logsuite_white.svg" alt="" width="80"></a></li>
+                    <!-- <li><a target="_blank" href="https://www.logsuite.co.jp/">【販売】<img src="images/SVG/logsuite_white.svg" alt="" width="80"></a></li> -->
                 </ul>
             </div>
 		</div>
