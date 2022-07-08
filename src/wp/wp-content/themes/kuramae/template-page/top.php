@@ -125,7 +125,7 @@
                         <p class="mb-0">都市と自然が心地よく響きあうこの場所で抱く上質なリラックス。<br>
                         東と西に配された２つのバルコニーがもたらす開放感は、アクティブに愉しんだ心をゆるやかに解きほぐし、特別なプライベートと優雅な日常を与えてくれます。「ものづくり」の街に生きづく‘’職人気質‘’を継承しながら新しい文化を発信し続ける街「蔵前」。<br>
                         都内にあって下町と呼ばれる特異な存在感を持つこの場所にこの街ならではの個性、こだわりを表現する意匠を纏わせました。</p>
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/sumo.svg" data-aos="zoom-in-up" data-aos-duration="3000" alt="" class="img-fluid img_sumo" width="185">
+                        
                         <img src="<?php bloginfo('template_directory');?>/assets/images/common/artisanshipdesign03.jpg" data-aos="fade-left" data-aos-duration="3000" alt="" class="img-fluid img03">
                     </div>
                 </div>
