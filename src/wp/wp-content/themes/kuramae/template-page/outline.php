@@ -1,6 +1,6 @@
 <?php 
 /*
-    Template Name: objectsummary
+    Template Name: outline
 */
 ?>
 

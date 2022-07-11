@@ -68,7 +68,7 @@
     <?php 
       if(is_page_template('template-page/top.php')) {
         require 'template-page/common/header2.php';
-      } elseif (is_page_template('template-page/objectsummary.php')) {
+      } elseif (is_page_template('template-page/outline.php')) {
         require 'template-page/common/header3.php';
       } elseif (is_page_template('template-page/locations.php')) {
         require 'template-page/common/header2.php';
