@@ -22,6 +22,12 @@
                   <title>アクセス |【公式】プロスタイル蔵前｜新築分譲マンション</title>
                 <?php break; ?>
 
+                <?php case is_page('map'): ?>
+                  <meta name="keywords" content="マップ,プロスタイル蔵前,蔵前,新築分譲マンション,居住用,ラグジュアリー,大江戸線,浅草線,都営地下鉄,都心生活">
+                  <meta name="description" content="...">
+                  <title>マップ |【公式】プロスタイル蔵前｜新築分譲マンション</title>
+                <?php break; ?>
+
                 
 
           
@@ -70,6 +76,8 @@
         require 'template-page/common/header3.php';
       } elseif (is_page_template('template-page/access.php')) {
         require 'template-page/common/header2.php';
+      } elseif (is_page_template('template-page/map.php')) {
+        require 'template-page/common/header3.php';
       }
        else {
         require 'template-page/common/header.php';
