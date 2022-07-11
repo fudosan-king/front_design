@@ -14,10 +14,21 @@
         
         <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav navbar-mobile mr-0">
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">物件コンセプト</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/location/'); ?>">ロケーション</a></li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">天然無垢のマンション</a></li>
+                <li class="nav-item js-menuAnimation dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">間取り </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">プラン詳細</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">設備・仕様</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/access/'); ?>">アクセス</a></li>
-                <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/objectsummary/'); ?>">物件概要</a></li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">モデルルーム</a></li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/outline/'); ?>">物件概要</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/map/'); ?>">現地案内図</a></li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">限定サイトログインページ</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/inquiry/'); ?>">資料請求</a></li>
             </ul>
         </div>

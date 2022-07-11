@@ -386,7 +386,7 @@ ul.list_global {
 }
 
 .header_sub .navbar-expand-lg .navbar-nav .nav-link::after, .header_sub .navbar-nav .nav-link::after {
-    background: #000;
+  // background: #000;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link {
@@ -3188,6 +3188,18 @@ a.disable {
   }
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    .navbar-nav {
+      .dropdown-menu {
+        margin-top: -2px;
+        border: none;
+        border-radius: 0;
+        min-width: 220px;
+      }
+    }
+  }
+}
 
 @media (max-width: 768px) {
   .header_afterlogin {
