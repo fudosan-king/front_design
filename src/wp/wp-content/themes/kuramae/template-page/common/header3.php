@@ -15,6 +15,7 @@
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/location/'); ?>">ロケーション</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/access/'); ?>">アクセス</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/objectsummary/'); ?>">物件概要</a></li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/map/'); ?>">現地案内図</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/inquiry/'); ?>">資料請求</a></li>
             </ul>
         </div>
