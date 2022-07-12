@@ -18,11 +18,16 @@
                             <div class="header_inquiry">
                                 <h2>プロスタイル蔵前</h2>
                                 <h3>お問い合わせフォーム</h3>
-                                <ul class="steps">
+                                <!-- <ul class="steps">
                                     <li id="input" class="active"><span>入力</span></li>
                                     <li id="confirm" class=""><span>確認</span></li>
                                     <li id="finish" class=""><span>完了</span></li>
-                                </ul>
+                                </ul> -->
+                                <div class="arrow-steps clearfix">
+                                    <div id="input" class="step"><span>入力</span></div>
+                                    <div id="confirm" class="step"><span>確認</span></div>
+                                    <div id="finish" class="step current"><span>完了</span> </div>
+                                </div>
                             </div>
                         </div>
                     </div>

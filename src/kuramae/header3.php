@@ -16,8 +16,8 @@
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="locations.php">ロケーション</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">天然無垢のマンション</a></li>
                 <li class="nav-item js-menuAnimation dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">間取り </a>
-                    <ul class="dropdown-menu">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" href="#">間取り </a>
+                    <ul class="dropdown-menu fade-down">
                         <li><a class="dropdown-item" href="#">プラン詳細</a></li>
                     </ul>
                 </li>
