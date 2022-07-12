@@ -3322,8 +3322,7 @@ a.disable {
         .nav-link {
           text-align: center;
           display: block;
-          padding-left: 10px;
-          padding-right: 10px;
+          padding: 15px;
         }
       }
     }
@@ -3345,8 +3344,7 @@ a.disable {
           .navbar-nav {
             .nav-item {
               .nav-link {
-                padding-top: 15px;
-                padding-bottom: 15px;
+                padding: 15px;
               }
             }
           }
@@ -3381,7 +3379,7 @@ a.disable {
   }
   .navbar-expand-lg {
     .navbar-collapse {
-      display: flex;
+      display: none !important;
     }
   }
 
@@ -3389,8 +3387,8 @@ a.disable {
     &.bsnav-sticky-slide {
       &.sticked {
         &.in {
-          padding-top: 0;
-          padding-bottom: 0;
+          padding-top: 15px;
+          padding-bottom: 15px;
         }
       }
     }
@@ -3419,6 +3417,11 @@ a.disable {
   .bsnav-mobile {
     .navbar-nav {
       padding-top: 90px !important;
+      .nav-item {
+        .nav-link {
+          padding: 0;
+        }
+      }
     }
   }
 
