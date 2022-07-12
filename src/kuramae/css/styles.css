@@ -1716,6 +1716,11 @@ i.chevron-left {
   padding: 30px 0;
   text-align: center;
 }
+.section_reservation p {
+  margin-bottom: 0;
+  font-size: 0.75em;
+  text-align: left;
+}
 
 .section_reservation_brown {
   background: #81713C;
@@ -1784,6 +1789,16 @@ i.chevron-left {
   position: relative;
   z-index: 100;
   margin-top: 130px;
+}
+.section_design .design_img span {
+  display: block;
+  font-size: 0.75em;
+  margin-top: 15px;
+  max-width: 282px;
+  margin-left: 65px;
+  position: absolute;
+  bottom: -270px;
+  left: 0;
 }
 .section_design .design_content {
   padding-top: 180px;
@@ -2893,7 +2908,16 @@ i.chevron-left {
   border: 1px solid #0B265E;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1750px) {
+  .bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-brand {
+    padding: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .navbar-brand h1 {
     line-height: 1em;
   }
@@ -3019,6 +3043,30 @@ i.chevron-left {
   .section_map h2 {
     margin-bottom: 40px;
   }
+
+  .bsnav-mobile .navbar-nav {
+    align-items: center;
+  }
+  .bsnav-mobile .navbar-nav .nav-item .nav-link {
+    text-align: center;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .dropdown-menu {
+    background: transparent;
+    border: none;
+  }
+  .dropdown-menu .dropdown-item {
+    color: #fff;
+    text-align: center;
+  }
+
+  .bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-nav .nav-item .nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -3027,8 +3075,23 @@ i.chevron-left {
     border-radius: 0;
     min-width: 220px;
   }
+
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+    position: absolute;
+    right: 15px;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: flex;
+  }
+
+  .bsnav-sticky.bsnav-sticky-slide.sticked.in {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
-@media all and (min-width: 992px) {
+@media all and (min-width: 1750px) {
   .navbar .dropdown-menu-end {
     right: 0;
     left: auto;
@@ -3065,14 +3128,6 @@ i.chevron-left {
   }
 }
 @media (max-width: 768px) {
-  .dropdown-menu {
-    background: transparent;
-    border: none;
-  }
-  .dropdown-menu .dropdown-item {
-    color: #fff;
-  }
-
   .header_afterlogin .bsnav {
     display: flex;
     align-items: center;
@@ -3323,5 +3378,11 @@ i.chevron-left {
   .section_mainaccess .box_trainline ul li h4 {
     font-size: 1em;
     padding-left: 10px;
+  }
+
+  .section_design .design_img span {
+    position: relative;
+    bottom: 0;
+    margin-left: 30px;
   }
 }

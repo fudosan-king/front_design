@@ -29,7 +29,7 @@
     <a class="btn" href="<?php echo home_url('/inquiry/'); ?>"><span>WEB資料請求はこちら</span></a>
 </section>
 
-<div class="bsnav-mobile d-sm-block d-xl-none">
+<div class="bsnav-mobile d-sm-block">
   <div class="bsnav-mobile-overlay"></div>
   <div class="navbar"></div>
 </div>
