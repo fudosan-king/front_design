@@ -4,7 +4,7 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1750px) {
     //Before Loginn
     .before-login{
         .box_designsupervision{
@@ -25,7 +25,6 @@
 
     //Navigation
     .navbar.navbar-expand-lg {
-        padding: 10px 15px;
         .navbar-brand{
             padding:10px 0;
         }
@@ -70,7 +69,6 @@
 
     .bsnav-mobile {
         font-family: 'Noto Serif JP';
-
         .navbar-nav{
            padding: 15px 11px 9px; 
             &.lang{
@@ -82,7 +80,7 @@
                     margin-bottom: 0;
                 }
                 .nav-item{
-                    padding:0 9px;
+                    padding: 0 9px;
                 }
                 .nav-item:last-child{
                     &:before{
@@ -94,28 +92,9 @@
                 }
             }
 
-            &:first-of-type{
-                .nav-item:nth-child(7){
-                    position: relative;
-                    &:before{
-                        position:absolute;
-                        background-color: #fff;
-                        background-repeat:no-repeat;
-                        content:'';
-                        bottom:0;
-                        left:10px;
-                        width: 20px;
-                        height:1px;
-                    }
-                }
-            }
-
-
-
             &:nth-of-type(3){
                 margin-top: 2px;
-                .nav-item:first-child{
-                    
+                .nav-item:first-child{  
                     .nav-link{
                         border: 1px solid #fff;
                         padding: 2px 33px;
@@ -163,18 +142,8 @@
                 }
             }
 
-            .nav-item:last-child{
+            .nav-item:last-child {
                 position: relative;
-                &:before{
-                    position:absolute;
-                    background-color: #fff;
-                    background-repeat:no-repeat;
-                    content:'';
-                    bottom:0;
-                    left:10px;
-                    width: 20px;
-                    height:1px;
-                }
             }
 
         }
@@ -197,13 +166,9 @@
             border:none;
             color:#fff;
             text-align:justify;
-            margin-bottom:20px;
             &:hover{
                 opacity:0.8;
                 color:#fff;
-                &:after{
-                    transform: scale(0, 1);
-                }
             }
         }
     }
