@@ -13,7 +13,7 @@
                 </ul>
                 
                 <ul class="mb-0">
-                    <li><a target="_blank" href="https://www.prostyle-residence.com/">【売主】 <img src="<?php bloginfo('template_directory');?>/assets/images/common/logo_small.png" alt="" width="116"> </a></li>
+                    <li><a target="_blank" href="https://www.prostyle-residence.com/">【売主】 <img src="<?php bloginfo('template_directory');?>/assets/images/common/logo_small.svg" alt="" width="116"> </a></li>
                 </ul>
             </div>
 		</div>

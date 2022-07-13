@@ -366,6 +366,19 @@ ul.list_global {
             .nav-link {
               color: #000;
             }
+
+            &:nth-of-type(1), &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(7) {
+              &:hover {
+                .nav-link {
+                  color: gray !important;
+                  cursor: default;
+                }
+              }
+              .nav-link {
+                color: gray;
+              }
+            }
+
           }
         }
       }
@@ -418,6 +431,17 @@ ul.list_global {
       padding-right: 0;
       .nav-link {
         background: #0B265E;
+      }
+    }
+    &:nth-of-type(1), &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(7) {
+      &:hover {
+        .nav-link {
+          color: gray !important;
+          cursor: default;
+        }
+      }
+      .nav-link {
+        color: gray;
       }
     }
   }
@@ -711,7 +735,6 @@ footer {
           img {
             position: relative;
             top: -2px;
-            opacity: .5;
           }
         }
         a {
@@ -1860,7 +1883,7 @@ a.disable {
     display: block;
     font-size: 0.75em;
     line-height: 1.8em;
-    margin-top: 15px;
+    margin-top: 45px;
     margin-left: 65px;
     position: absolute;
     max-width: 830px;
