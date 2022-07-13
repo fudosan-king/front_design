@@ -2912,6 +2912,9 @@ i.chevron-left {
   .bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-brand {
     padding: 0;
   }
+  .bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-nav .nav-item .nav-link {
+    padding: 0 15px;
+  }
 
   .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link {
     padding-top: 0;
@@ -3078,15 +3081,6 @@ i.chevron-left {
     display: block;
     position: absolute;
     right: 15px;
-  }
-
-  .navbar-expand-lg .navbar-collapse {
-    display: none !important;
-  }
-
-  .bsnav-sticky.bsnav-sticky-slide.sticked.in {
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
 }
 @media all and (min-width: 1750px) {

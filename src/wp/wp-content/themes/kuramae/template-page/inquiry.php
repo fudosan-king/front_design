@@ -196,7 +196,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group">
+                                <!-- <div class="form-group">
                                     <div class="row">
                                         <div class="col-12 col-lg-3">
                                             <label for="">資料請求 <span>（※）</span></label>
@@ -213,7 +213,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="form-group">
                                     <div class="row">
