@@ -12,7 +12,6 @@
         <div class="slides">
             <div class="slideContent">
                 <div class="slide slide-init js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/common/main/bg_top.jpg)"></div>
-                <div class="slide js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/common/main/KV01.jpg)"></div>
             </div>
         </div>
 
@@ -109,8 +108,8 @@
                     <div class="design_img">
                         <img src="<?php bloginfo('template_directory');?>/assets/images/common/artisanshipdesign.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid">
                         <img src="<?php bloginfo('template_directory');?>/assets/images/common/artisanshipdesign02.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid img02">
-                        <span class="design_text" data-aos="fade-up" data-aos-duration="3000">※1: 都営浅草線「蔵前」駅（A0出入口）徒歩5分、都営大江戸線「蔵前」駅（A6出入口）徒歩7分、都営大江戸線・つくばエクスプレス「新御徒町」駅（A4出入口）徒歩8分、東京メトロ銀座線「田原町」駅（エレベーター出入口）徒歩10分、都営浅草線「浅草橋」駅（A4出入口）徒歩11分、JR中央・総武線各駅停車「浅草橋」駅（東口）徒歩12分、都営浅草線「浅草」駅（A1出入口）徒歩14分、東京メトロ銀座線「稲荷町」駅（4出入口）徒歩14分</span>
                     </div>
+                    <p class="mb-0"><span class="design_text">※1: 都営浅草線「蔵前」駅（A0出入口）徒歩5分、都営大江戸線「蔵前」駅（A6出入口）徒歩7分、都営大江戸線・つくばエクスプレス「新御徒町」駅（A4出入口）徒歩8分、東京メトロ銀座線「田原町」駅（エレベーター出入口）徒歩10分、都営浅草線「浅草橋」駅（A4出入口）徒歩11分、JR中央・総武線各駅停車「浅草橋」駅（東口）徒歩12分、都営浅草線「浅草」駅（A1出入口）徒歩14分、東京メトロ銀座線「稲荷町」駅（4出入口）徒歩14分</span></p>
                 </div>
                 <div class="col-12 col-lg-7">
                     <div class="design_content" data-aos="fade-down" data-aos-duration="3000">

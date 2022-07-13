@@ -26,7 +26,7 @@
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">モデルルーム</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="outline.php">物件概要</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="map.php">現地案内図</a></li>
-                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">限定サイトログインページ</a></li>
+                <!-- <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">限定サイトログインページ</a></li> -->
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="inquiry.php">資料請求</a></li>
             </ul>
         </div>
