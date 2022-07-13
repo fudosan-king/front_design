@@ -236,7 +236,6 @@
     transition: all 0.4s;
     right: 15px;
   }
-
   .menu .menuLine {
     box-sizing: border-box;
     background: #fff;
@@ -247,6 +246,13 @@
     height: 1px;
     transition: all 0.4s;
     transform: translate(-50%, 0);
+  }
+
+  .header_sub .menu.active .menuLine {
+    background: #000;
+  }
+  .header_sub .menu .menuLine {
+    background: #000;
   }
 
   .menu-show .bsnav-sticky.bsnav-sticky-slide.sticked.in .user-login:before {

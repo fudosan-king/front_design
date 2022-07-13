@@ -275,19 +275,32 @@
         height: 31px;
         transition: all 0.4s;
         right: 15px;
+        .menuLine {
+            box-sizing: border-box;
+            background: #fff;
+            position: absolute;
+            left: 50%;
+            display: inline-block;
+            width: 20px;
+            height: 1px;
+            transition: all 0.4s;
+            transform: translate(-50%, 0);
+        }
     }
 
-    .menu .menuLine {
-        box-sizing: border-box;
-        background: #fff;
-        position: absolute;
-        left: 50%;
-        display: inline-block;
-        width: 20px;
-        height: 1px;
-        transition: all 0.4s;
-        transform: translate(-50%, 0);
+    .header_sub {
+        .menu {
+            &.active {
+                .menuLine {
+                    background: #000;
+                }
+            }
+            .menuLine {
+                background: #000;
+            }
+        }
     }
+
     .menu-show{
         .bsnav-sticky.bsnav-sticky-slide.sticked.in{
             .user-login{
@@ -400,9 +413,6 @@
     .banner_content {
         padding-left: 30px;
     }
-
-   
-
     
     footer {
         ul {
@@ -555,8 +565,10 @@
         padding: 0;
     }
 
-    .header_sub .navbar-brand {
-        padding: 0 0 15px;
+    .header_sub {
+        .navbar-brand {
+            padding: 0 0 15px;
+        }
     }
 
     .header_sub .navbar-toggler .navbar-toggler-icon, .header_sub .navbar-toggler .navbar-toggler-icon::after, .header_sub .navbar-toggler .navbar-toggler-icon::before {
