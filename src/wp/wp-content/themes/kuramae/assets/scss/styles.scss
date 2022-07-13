@@ -3322,10 +3322,9 @@ a.disable {
 
   .bsnav-mobile {
     .navbar-nav {
-      align-items: center;
+      align-items: flex-start;
       .nav-item {
         .nav-link {
-          text-align: center;
           display: block;
           padding: 15px;
         }
@@ -3335,10 +3334,8 @@ a.disable {
   .dropdown-menu {
     background: transparent;
     border: none;
-
     .dropdown-item {
       color: #fff;
-      text-align: center;
     }
   }
 
@@ -3362,6 +3359,21 @@ a.disable {
 
 }
 
+@media (max-width: 1680px) {
+  .section_map {
+    h2 {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_map {
+    h2 {
+      margin-top: 50px;
+    }
+  }
+}
 
 
 @media (min-width: 992px) {
@@ -3412,6 +3424,8 @@ a.disable {
       }
     }
   }
+
+  
 
   footer {
     ul {
@@ -3727,6 +3741,12 @@ a.disable {
         bottom: 0;
         margin-left: 30px;
       }
+    }
+  }
+
+  .section_map {
+    h2 {
+      margin-top: 20px;
     }
   }
 }

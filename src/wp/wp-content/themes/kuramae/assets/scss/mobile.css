@@ -41,6 +41,7 @@
   .bsnav-mobile.in .navbar .js-menuAnimation {
     opacity: 1;
     transform: translateX(0);
+    visibility: visible;
   }
 
   .menu-show .bsnav-mobile {
@@ -142,11 +143,14 @@
   .navbar-nav .nav-item:first-child .nav-link {
     font-size: 1rem;
     border: none;
-    padding: 0;
   }
   .navbar-nav .nav-item:first-child .nav-link:hover {
     opacity: 0.8;
     color: #fff;
+  }
+
+  .navbar-nav .nav-item:last-child .nav-link {
+    margin-left: 15px;
   }
 
   .navbar-nav .nav-item:first-child .nav-link:hover, .navbar-nav .nav-item:first-child .nav-link:focus {
@@ -188,6 +192,7 @@
 
   .js-menuAnimation {
     opacity: 0;
+    visibility: hidden;
     transform: translateX(-10px);
   }
 
@@ -413,6 +418,14 @@
   .navbar-nav .nav-item:last-of-type .nav-link {
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 0;
+  }
+
+  .menu.active .menuLine {
+    background: #fff;
+  }
+  .menu .menuLine {
+    background: #fff;
   }
 
   /* bsnav */
