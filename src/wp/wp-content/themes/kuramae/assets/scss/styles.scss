@@ -1836,7 +1836,7 @@ a.disable {
 }
 
 .section_design {
-  padding: 80px 0 160px;
+  padding: 80px 0 260px;
   // overflow: hidden;
   .container {
     max-width: 1436px;
@@ -1848,13 +1848,22 @@ a.disable {
     span {
       display: block;
       font-size: 0.75em;
+      line-height: 1.8em;
       margin-top: 15px;
-      max-width: 282px;
       margin-left: 65px;
       position: absolute;
-      bottom: -270px;
       left: 0;
+      min-width: 830px;
     }
+  }
+  .design_text {
+    display: block;
+    font-size: 0.75em;
+    line-height: 1.8em;
+    margin-top: 15px;
+    margin-left: 65px;
+    position: absolute;
+    max-width: 830px;
   }
   .design_content {
     padding-top: 180px;
@@ -3122,6 +3131,7 @@ a.disable {
     &.bsnav-sticky-slide {
       &.sticked {
         &.in {
+          padding: 15px 0;
           .navbar-brand {
             padding: 0;
           }
@@ -3222,10 +3232,17 @@ a.disable {
       .img02 {
         margin-top: -65px;
       }
+      span {
+        bottom: -200px;
+        max-width: inherit;
+        min-width: 282px;
+      }
     }
     .img_sumo {
       left: 15px;
     }
+
+    
   }
 
   .section_story {
@@ -3322,20 +3339,23 @@ a.disable {
 
   .bsnav-mobile {
     .navbar-nav {
-      align-items: flex-start;
+      align-items: flex-end;
       .nav-item {
         .nav-link {
           display: block;
           padding: 15px;
+          text-align: right;
         }
       }
     }
   }
+  
   .dropdown-menu {
     background: transparent;
     border: none;
     .dropdown-item {
       color: #fff;
+      text-align: right;
     }
   }
 
@@ -3346,7 +3366,7 @@ a.disable {
           .navbar-nav {
             .nav-item {
               .nav-link {
-                padding: 15px;
+                padding: 10px;
               }
             }
           }
@@ -3466,7 +3486,7 @@ a.disable {
 
   .section_design {
     padding-top: 0;
-    padding-bottom: 450px;
+    padding-bottom: 200px;
     overflow: hidden;
     .design_img {
       margin-top: 60px;
@@ -3488,7 +3508,7 @@ a.disable {
       margin: -100px 30px 0;
     }
     .img03 {
-      bottom: -410px;
+      bottom: -200px;
     }
     .design_content {
       margin-top: 200px;
@@ -3735,18 +3755,21 @@ a.disable {
   }
 
   .section_design {
-    .design_img {
-      span {
-        position: relative;
-        bottom: 0;
-        margin-left: 30px;
-      }
+    .design_text {
+      position: relative;
+      margin-left: 30px;
     }
   }
 
   .section_map {
     h2 {
       margin-top: 20px;
+    }
+  }
+
+  .section_story {
+    .story_content {
+      padding-top: 0;
     }
   }
 }
