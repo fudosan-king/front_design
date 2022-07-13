@@ -3117,8 +3117,6 @@ a.disable {
   }
 }
 
-
-
 @media (max-width: 1750px) {
   .bsnav-sticky {
     &.bsnav-sticky-slide {
@@ -3126,6 +3124,13 @@ a.disable {
         &.in {
           .navbar-brand {
             padding: 0;
+          }
+          .navbar-nav {
+            .nav-item {
+              .nav-link {
+                padding: 0 15px;
+              }
+            }
           }
         }
       }
@@ -3377,23 +3382,6 @@ a.disable {
       right: 15px;
     }
   }
-  .navbar-expand-lg {
-    .navbar-collapse {
-      display: none !important;
-    }
-  }
-
-  .bsnav-sticky {
-    &.bsnav-sticky-slide {
-      &.sticked {
-        &.in {
-          padding-top: 15px;
-          padding-bottom: 15px;
-        }
-      }
-    }
-  }
-
 
 }
 
