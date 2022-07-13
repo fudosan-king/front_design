@@ -19,9 +19,9 @@
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">天然無垢のマンション</a></li>
                 <li class="nav-item js-menuAnimation dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" href="#">間取り </a>
-                    <ul class="dropdown-menu fade-down">
+                    <!-- <ul class="dropdown-menu fade-down">
                         <li><a class="dropdown-item" href="#">プラン詳細</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">設備・仕様</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/access/'); ?>">アクセス</a></li>
