@@ -1428,7 +1428,7 @@ footer address p {
 }
 .slide-main .slideContent .slide {
   max-height: 990px;
-  background: url("../images/common/main/bg_top.jpg") no-repeat;
+  background: url("../images/main/bg_top.jpg") no-repeat;
   background-size: cover;
 }
 .slide-main .slideText {
@@ -3145,7 +3145,7 @@ i.chevron-left {
 }
 @media (max-width: 992px) {
   .slide-main .slideContent .slide {
-    background-image: url("../images/common/main/bg_top_sp.jpg");
+    background-image: url("../images/main/bg_top_sp.jpg");
   }
 
   .section_design .design_text {
@@ -3158,6 +3158,9 @@ i.chevron-left {
     padding-top: 0;
   }
 
+  .section_reservation img {
+    width: 60%;
+  }
   .section_reservation ul {
     list-style-type: none;
     padding: 0;
@@ -3168,8 +3171,12 @@ i.chevron-left {
     border-bottom: 1px solid #000;
     padding: 15px 0;
   }
+  .section_reservation ul li:first-of-type {
+    padding-top: 0;
+  }
   .section_reservation ul li:last-of-type {
     border-bottom: none;
+    padding-bottom: 0;
   }
 
   .section_contact {
@@ -3248,9 +3255,10 @@ i.chevron-left {
     max-width: 100%;
   }
   .section_design .img03 {
-    bottom: -200px;
+    bottom: -20px;
     max-width: 100%;
     right: 0;
+    position: relative;
   }
   .section_design .design_content {
     margin-top: 200px;
@@ -3453,7 +3461,7 @@ i.chevron-left {
   .section_design .design_text {
     position: relative;
     margin-left: 0;
-    margin-top: 275px;
+    margin-top: 40px;
     max-width: inherit;
     right: 0;
   }
