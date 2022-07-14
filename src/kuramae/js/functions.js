@@ -27,6 +27,16 @@ jQuery(document).ready(function($) {
     },
   });
 
+  $('.menu').on('click', function (e) {
+    if ($('.menu').hasClass('active')) {
+      $('.bsnav-sticky-slide').find('h1 img:first-of-type').hide();
+      $('.bsnav-sticky-slide').find('h1 img:last-of-type').show();
+    } else {
+      $('.bsnav-sticky-slide').find('h1 img:first-of-type').hide();
+      $('.bsnav-sticky-slide').find('h1 img:last-of-type').show();
+    }
+  });
+
   Fancybox.bind(".kachikura_gallerys a", {
     // Your options
   });

@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <section class="section_kachikura">
+    <!-- <section class="section_kachikura">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12">
@@ -275,7 +275,7 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="section_riverside">
         <div class="container">

@@ -11,7 +11,7 @@
     <section class="slide-main before-login">
         <div class="slides">
             <div class="slideContent">
-                <div class="slide slide-init js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/common/main/bg_top.jpg)"></div>
+                <div class="slide slide-init js-slide"></div>
             </div>
         </div>
 
@@ -42,7 +42,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-12">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/common/reservation_text.svg" alt="" class="img-fluid" width="1245">
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/common/reservation_text.svg" alt="" class="img-fluid d-none d-md-block d-lg-block" width="1245">
+                    <ul class="d-block d-md-none d-lg-none">
+                        <li>
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/reservation_text_01.svg" alt="" class="img-fluid">
+                        </li>
+                        <li><img src="<?php bloginfo('template_directory');?>/assets/images/common/reservation_text_02.svg" alt="" class="img-fluid"></li>
+                        <li><img src="<?php bloginfo('template_directory');?>/assets/images/common/reservation_text_03.svg" alt="" class="img-fluid"></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -52,7 +59,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-12">
-                    <p>ディライトテラス建物内新モデルルームオープン【完全予約制】</p>
+                    <p>9月下旬 事前案内会開催(予定) <span class="d-block d-lg-inline"></span>【資料請求受付中】</p>
                 </div>
             </div>
         </div>

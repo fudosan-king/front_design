@@ -18,9 +18,8 @@
   .bsnav-mobile {
     z-index: 999;
   }
-
   .bsnav-mobile .navbar {
-    background-color: #1a1a1a;
+    background-color: #fff;
     opacity: 0;
     width: 100%;
     position: static;
@@ -132,12 +131,12 @@
   }
   .navbar-nav .nav-item .nav-link {
     border: none;
-    color: #fff;
+    color: #000;
     text-align: justify;
   }
   .navbar-nav .nav-item .nav-link:hover {
     opacity: 0.8;
-    color: #fff;
+    color: #000;
   }
 
   .navbar-nav .nav-item:first-child .nav-link {
@@ -151,6 +150,7 @@
 
   .navbar-nav .nav-item:last-child .nav-link {
     margin-left: 15px;
+    color: #fff;
   }
 
   .navbar-nav .nav-item:first-child .nav-link:hover, .navbar-nav .nav-item:first-child .nav-link:focus {
@@ -281,7 +281,7 @@
   }
 
   .menu.active .menuLine {
-    background: #fff;
+    background: #000;
   }
 
   .menu.active .menuLine:nth-of-type(1) {
@@ -428,7 +428,7 @@
   }
 
   .menu.active .menuLine {
-    background: #fff;
+    background: #000;
   }
   .menu .menuLine {
     background: #fff;
