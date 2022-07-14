@@ -14,8 +14,7 @@
             <section class="slide-main before-login">
                 <div class="slides">
                     <div class="slideContent">
-                        <div class="slide slide-init js-slide" style="background-image: url(images/main/bg_top.jpg)"></div>
-                        <!-- <div class="slide js-slide" style="background-image: url(images/main/KV01.jpg)"></div> -->
+                        <div class="slide slide-init js-slide"></div>
                     </div>
                 </div>
 

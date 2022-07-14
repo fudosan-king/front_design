@@ -130,7 +130,7 @@
         <div class="gmap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4146.140179329061!2d139.78210049743035!3d35.704836103574614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eba5218f147%3A0x246d9895d75b24b4!2s111-0055%2C%20Japan!5e0!3m2!1sen!2s!4v1656311130898!5m2!1sen!2s" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="box_contact">
+        <!-- <div class="box_contact">
             <div class="box_contact_img">
                 <img src="<?php bloginfo('template_directory');?>/assets/images/common/img_contact.jpg" alt="img_contact" class="img-fluid">
             </div>
@@ -139,7 +139,7 @@
                 <p><img src="<?php bloginfo('template_directory');?>/assets/images/common/i_location.svg" alt="i_location" class="img-fluid" width="20"> 〒000-0000　東京都台東区三筋一丁目（地番）　　営業時間 10:00~19:00（⽕・⽔曜⽇定休 祝⽇を除く）</p>
                 <p><img src="<?php bloginfo('template_directory');?>/assets/images/common/i_tel.svg" alt="i_tel" class="img-fluid" width="20"> TEL : <a href="tel:03-6897-8570">03-6897-8570</a> 　FAX : <a href="tel:03-6897-8571">03-6897-8571</a></p>
             </div>
-        </div>
+        </div> -->
     </section>
     <?php 
         get_template_part('template-parts/section_tel'); 
