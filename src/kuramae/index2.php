@@ -46,7 +46,14 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <img src="images/reservation_text.svg" alt="" class="img-fluid" width="1245">
+                            <img src="images/reservation_text.svg" alt="" class="img-fluid d-none d-lg-block" width="1245">
+                            <ul class="d-block d-lg-none">
+                                <li>
+                                    <img src="images/reservation_text_01.svg" alt="" class="img-fluid">
+                                </li>
+                                <li><img src="images/reservation_text_02.svg" alt="" class="img-fluid"></li>
+                                <li><img src="images/reservation_text_03.svg" alt="" class="img-fluid"></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -56,7 +63,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <p>ディライトテラス建物内新モデルルームオープン【完全予約制】</p>
+                            <p>9月下旬 事前案内会開催(予定) <span class="d-block d-lg-inline"></span>【資料請求受付中】</p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +136,7 @@
                                 東と西に配された２つのバルコニーがもたらす開放感は、アクティブに愉しんだ心をゆるやかに解きほぐし、特別なプライベートと優雅な日常を与えてくれます。「ものづくり」の街に生きづく‘’職人気質‘’を継承しながら新しい文化を発信し続ける街「蔵前」。<br>
                                 都内にあって下町と呼ばれる特異な存在感を持つこの場所にこの街ならではの個性、こだわりを表現する意匠を纏わせました。</p>
                                 <!-- <img src="images/sumo.svg" data-aos="zoom-in-up" data-aos-duration="3000" alt="" class="img-fluid img_sumo" width="185"> -->
-                                <img src="images/artisanshipdesign03.jpg" data-aos="fade-left" data-aos-duration="3000" alt="" class="img-fluid img03">
+                                <img src="images/kachikura_area06.jpg" data-aos="fade-left" data-aos-duration="3000" alt="" class="img-fluid img03">
                             </div>
                         </div>
                         <div class="col-12 col-lg-12">

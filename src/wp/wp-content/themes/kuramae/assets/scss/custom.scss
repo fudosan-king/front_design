@@ -94,8 +94,12 @@
 		height:100vh;
 	}
 
-	.before-login .slideContent .slide{
-		height:100vh;
+	.before-login {
+		.slideContent {
+			.slide {
+				height:100vh;
+			}
+		}
 	}
 }
 
