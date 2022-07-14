@@ -3276,6 +3276,73 @@ a.disable {
     }
   }
 
+  .section_map {
+    padding-top: 80px;
+    margin-bottom: 40px;
+    h2 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .bsnav-mobile {
+    .navbar-nav {
+      align-items: flex-start;
+      .nav-item {
+        .nav-link {
+          display: block;
+          padding: 15px;
+          text-align: right;
+        }
+      }
+    }
+  }
+  
+  .dropdown-menu {
+    background: transparent;
+    border: none;
+    .dropdown-item {
+      color: #fff;
+      text-align: right;
+    }
+  }
+
+  .bsnav-sticky {
+    &.bsnav-sticky-slide {
+      &.sticked {
+        &.in {
+          .navbar-nav {
+            .nav-item {
+              .nav-link {
+                padding: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+
+}
+
+@media (max-width: 1680px) {
+  .section_map {
+    h2 {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_map {
+    h2 {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
   .section_objectsummary {
     table {
       border-right: 1px solid rgba(130, 130, 130, .5);
@@ -3353,70 +3420,6 @@ a.disable {
       }
     }
     
-  }
-  .section_map {
-    padding-top: 80px;
-    margin-bottom: 40px;
-    h2 {
-      margin-bottom: 40px;
-    }
-  }
-
-  .bsnav-mobile {
-    .navbar-nav {
-      align-items: flex-start;
-      .nav-item {
-        .nav-link {
-          display: block;
-          padding: 15px;
-          text-align: right;
-        }
-      }
-    }
-  }
-  
-  .dropdown-menu {
-    background: transparent;
-    border: none;
-    .dropdown-item {
-      color: #fff;
-      text-align: right;
-    }
-  }
-
-  .bsnav-sticky {
-    &.bsnav-sticky-slide {
-      &.sticked {
-        &.in {
-          .navbar-nav {
-            .nav-item {
-              .nav-link {
-                padding: 10px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  
-
-
-}
-
-@media (max-width: 1680px) {
-  .section_map {
-    h2 {
-      margin-top: 20px;
-    }
-  }
-}
-
-@media (max-width: 1024px) {
-  .section_map {
-    h2 {
-      margin-top: 50px;
-    }
   }
 }
 
