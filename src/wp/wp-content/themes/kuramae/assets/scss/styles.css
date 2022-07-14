@@ -1851,11 +1851,13 @@ i.chevron-left {
 .section_design .img02 {
   margin-top: 145px;
   margin-left: 65px;
+  max-width: 282px;
 }
 .section_design .img03 {
   position: absolute;
   right: 20px;
   bottom: -270px;
+  max-width: 483px;
 }
 .section_design .img_sumo {
   position: absolute;
@@ -3078,7 +3080,7 @@ i.chevron-left {
   }
 
   .bsnav-mobile .navbar-nav {
-    align-items: flex-end;
+    align-items: flex-start;
   }
   .bsnav-mobile .navbar-nav .nav-item .nav-link {
     display: block;
@@ -3195,7 +3197,7 @@ i.chevron-left {
 
   .section_design {
     padding-top: 0;
-    padding-bottom: 200px;
+    padding-bottom: 0;
     overflow: hidden;
   }
   .section_design .design_img {
@@ -3203,8 +3205,8 @@ i.chevron-left {
     margin-bottom: 0;
   }
   .section_design .img_building {
-    top: -90px;
-    right: -280px;
+    top: -170px;
+    right: -140px;
   }
   .section_design .img_building img {
     width: 50%;
@@ -3217,6 +3219,8 @@ i.chevron-left {
   }
   .section_design .img03 {
     bottom: -200px;
+    max-width: 100%;
+    right: 0;
   }
   .section_design .design_content {
     margin-top: 200px;
@@ -3417,7 +3421,9 @@ i.chevron-left {
 
   .section_design .design_text {
     position: relative;
-    margin-left: 30px;
+    margin-left: 0;
+    margin-top: 225px;
+    max-width: inherit;
   }
 
   .section_map h2 {
