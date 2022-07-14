@@ -536,7 +536,7 @@ ul.list_global li span::after {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: url("../images/common/SVG/chevron-right.svg") no-repeat;
+  background: url("../images/SVG/chevron-right.svg") no-repeat;
   width: 24px;
   height: 24px;
   right: 30px;
@@ -3472,5 +3472,9 @@ i.chevron-left {
 
   .section_story .story_content {
     padding-top: 0;
+  }
+
+  .section_request .btn {
+    padding: 11px 0;
   }
 }
