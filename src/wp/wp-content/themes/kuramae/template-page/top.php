@@ -109,7 +109,6 @@
                         <img src="<?php bloginfo('template_directory');?>/assets/images/common/artisanshipdesign.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid">
                         <img src="<?php bloginfo('template_directory');?>/assets/images/common/artisanshipdesign02.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid img02">
                     </div>
-                    <p class="mb-0"><span class="design_text">※1: 都営浅草線「蔵前」駅（A0出入口）徒歩5分、都営大江戸線「蔵前」駅（A6出入口）徒歩7分、都営大江戸線・つくばエクスプレス「新御徒町」駅（A4出入口）徒歩8分、東京メトロ銀座線「田原町」駅（エレベーター出入口）徒歩10分、都営浅草線「浅草橋」駅（A4出入口）徒歩11分、JR中央・総武線各駅停車「浅草橋」駅（東口）徒歩12分、都営浅草線「浅草」駅（A1出入口）徒歩14分、東京メトロ銀座線「稲荷町」駅（4出入口）徒歩14分</span></p>
                 </div>
                 <div class="col-12 col-lg-7">
                     <div class="design_content" data-aos="fade-down" data-aos-duration="3000">
@@ -126,8 +125,11 @@
                         東と西に配された２つのバルコニーがもたらす開放感は、アクティブに愉しんだ心をゆるやかに解きほぐし、特別なプライベートと優雅な日常を与えてくれます。「ものづくり」の街に生きづく‘’職人気質‘’を継承しながら新しい文化を発信し続ける街「蔵前」。<br>
                         都内にあって下町と呼ばれる特異な存在感を持つこの場所にこの街ならではの個性、こだわりを表現する意匠を纏わせました。</p>
                         
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/artisanshipdesign03.jpg" data-aos="fade-left" data-aos-duration="3000" alt="" class="img-fluid img03">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area06.jpg" data-aos="fade-left" data-aos-duration="3000" alt="" class="img-fluid img03">
                     </div>
+                </div>
+                <div class="col-12 col-lg-12">
+                    <p class="mb-0"><span class="design_text">※1: 都営浅草線「蔵前」駅（A0出入口）徒歩5分、都営大江戸線「蔵前」駅（A6出入口）徒歩7分、都営大江戸線・つくばエクスプレス「新御徒町」駅（A4出入口）徒歩8分、東京メトロ銀座線「田原町」駅（エレベーター出入口）徒歩10分、都営浅草線「浅草橋」駅（A4出入口）徒歩11分、JR中央・総武線各駅停車「浅草橋」駅（東口）徒歩12分、都営浅草線「浅草」駅（A1出入口）徒歩14分、東京メトロ銀座線「稲荷町」駅（4出入口）徒歩14分</span></p>
                 </div>
             </div>
         </div>

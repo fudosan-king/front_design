@@ -1917,11 +1917,13 @@ a.disable {
   .img02 {
     margin-top: 145px;
     margin-left: 65px;
+    max-width: 282px;
   }
   .img03 {
     position: absolute;
     right: 20px;
     bottom: -270px;
+    max-width: 483px;
   }
   .img_sumo {
     position: absolute;
@@ -3362,7 +3364,7 @@ a.disable {
 
   .bsnav-mobile {
     .navbar-nav {
-      align-items: flex-end;
+      align-items: flex-start;
       .nav-item {
         .nav-link {
           display: block;
@@ -3509,15 +3511,15 @@ a.disable {
 
   .section_design {
     padding-top: 0;
-    padding-bottom: 200px;
+    padding-bottom: 0;
     overflow: hidden;
     .design_img {
       margin-top: 60px;
       margin-bottom: 0;
     }
     .img_building {
-      top: -90px;
-      right: -280px;
+      top: -170px;
+      right: -140px;
       img {
         width: 50%;
       }
@@ -3532,6 +3534,8 @@ a.disable {
     }
     .img03 {
       bottom: -200px;
+      max-width: 100%;
+      right: 0;
     }
     .design_content {
       margin-top: 200px;
@@ -3780,7 +3784,9 @@ a.disable {
   .section_design {
     .design_text {
       position: relative;
-      margin-left: 30px;
+      margin-left: 0;
+      margin-top: 225px;
+      max-width: inherit;
     }
   }
 
