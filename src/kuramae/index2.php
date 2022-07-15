@@ -30,10 +30,10 @@
                         <div class="col-12 col-lg-10 align-self-center">
                             <div class="carousel carousel_news" data-flickity='{"pageDots": false, "contain": true, "autoPlay": 3500 }'>
                                 <div class="carousel-cell">
-                                    <p><a href="whatsnews.php">物件エントリー者様限定サイトに、間取りを追加いたしました。</a></p>
+                                    <p><a href="#">公式ホームページを公開いたしました。</a></p>
                                 </div>
                                 <div class="carousel-cell">
-                                    <p><a href="whatsnews.php">物件エントリー者様限定サイトに、間取りを追加いたしました。</a></p>
+                                    <p><a href="#">公式ホームページを公開いたしました。</a></p>
                                 </div>
                             </div>
                         </div>
