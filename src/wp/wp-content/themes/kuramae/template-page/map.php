@@ -15,7 +15,7 @@
                     <div class="col-12 col-lg-12">
                         <h2 class="title">現地案内図</h2>
                         <div class="box_map">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/map.svg" alt="map" class="img-fluid">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/map.svg" alt="map" class="img-fluid">
                         </div>
                     </div>
                 </div>

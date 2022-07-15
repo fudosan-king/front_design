@@ -9,7 +9,7 @@
 
 <main>
     <section class="section_subbanner">
-        <img src="<?php bloginfo('template_directory');?>/assets/images/common/main/bg_access.jpg" alt="bg_location" class="img-fluid">
+        <img src="<?php bloginfo('template_directory');?>/assets/images/main/bg_access.jpg" alt="bg_location" class="img-fluid">
     </section>
 
     <section class="section_topaccess">
@@ -24,7 +24,7 @@
                         </ul>
                         <h2 class="title">徒歩15分以内に8駅5路線利用可能なアクセシビリティ</h2>
                         <div class="box_img">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/train_acess.png" alt="train_acess" class="img-fluid">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/train_acess.png" alt="train_acess" class="img-fluid">
                         </div>
                         <ul class="list_color">
                             <li><span class="dark_orange"></span> 都営浅草線「蔵前」駅（A0出入口）徒歩5分</li>
@@ -47,9 +47,9 @@
             <div class="row">
                 <div class="col-12 col-lg-12">
                     <div class="box_trainline">
-                        <h2><img src="<?php bloginfo('template_directory');?>/assets/images/common/icon_a.png" alt="icon_a" class="img-fluid"> 都営浅草線「蔵前」駅利用</h2>
+                        <h2><img src="<?php bloginfo('template_directory');?>/assets/images/icon_a.png" alt="icon_a" class="img-fluid"> 都営浅草線「蔵前」駅利用</h2>
                         <div class="box_img">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/asakusa_line.png" alt="asakusa_line" class="img-fluid">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/asakusa_line.png" alt="asakusa_line" class="img-fluid">
                         </div>
                         <ul>
                             <li>
@@ -98,9 +98,9 @@
                     </div>
 
                     <div class="box_trainline">
-                        <h2><img src="<?php bloginfo('template_directory');?>/assets/images/common/icon_e.png" alt="icon_a" class="img-fluid"> 都営大江戸線「蔵前」駅利用</h2>
+                        <h2><img src="<?php bloginfo('template_directory');?>/assets/images/icon_e.png" alt="icon_a" class="img-fluid"> 都営大江戸線「蔵前」駅利用</h2>
                         <div class="box_img">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/oedo_line.png" alt="oedo_line" class="img-fluid">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/oedo_line.png" alt="oedo_line" class="img-fluid">
                         </div>
                         <ul>
                             <li>
@@ -132,12 +132,12 @@
         </div>
         <!-- <div class="box_contact">
             <div class="box_contact_img">
-                <img src="<?php bloginfo('template_directory');?>/assets/images/common/img_contact.jpg" alt="img_contact" class="img-fluid">
+                <img src="<?php bloginfo('template_directory');?>/assets/images/img_contact.jpg" alt="img_contact" class="img-fluid">
             </div>
             <div class="box_contact_content">
                 <h3>プロスタイル蔵前</h3>
-                <p><img src="<?php bloginfo('template_directory');?>/assets/images/common/i_location.svg" alt="i_location" class="img-fluid" width="20"> 〒000-0000　東京都台東区三筋一丁目（地番）　　営業時間 10:00~19:00（⽕・⽔曜⽇定休 祝⽇を除く）</p>
-                <p><img src="<?php bloginfo('template_directory');?>/assets/images/common/i_tel.svg" alt="i_tel" class="img-fluid" width="20"> TEL : <a href="tel:03-6897-8570">03-6897-8570</a> 　FAX : <a href="tel:03-6897-8571">03-6897-8571</a></p>
+                <p><img src="<?php bloginfo('template_directory');?>/assets/images/i_location.svg" alt="i_location" class="img-fluid" width="20"> 〒000-0000　東京都台東区三筋一丁目（地番）　　営業時間 10:00~19:00（⽕・⽔曜⽇定休 祝⽇を除く）</p>
+                <p><img src="<?php bloginfo('template_directory');?>/assets/images/i_tel.svg" alt="i_tel" class="img-fluid" width="20"> TEL : <a href="tel:03-6897-8570">03-6897-8570</a> 　FAX : <a href="tel:03-6897-8571">03-6897-8571</a></p>
             </div>
         </div> -->
     </section>

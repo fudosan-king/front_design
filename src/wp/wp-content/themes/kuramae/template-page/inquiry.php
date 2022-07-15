@@ -139,7 +139,7 @@
                                                     <input type="text" name="phone" placeholder="例：1234567" class="form-control required">
                                                 </div>
                                                 <div class="col-12 col-lg-5">
-                                                    <a href="#" class="btn btn_auto"><img src="<?php bloginfo('template_directory');?>/assets/images/common/i_right.svg" alt="i_right" class="img-fluid" width="20"> 郵便番号から住所を自動的入力</a>
+                                                    <a href="#" class="btn btn_auto"><img src="<?php bloginfo('template_directory');?>/assets/images/i_right.svg" alt="i_right" class="img-fluid" width="20"> 郵便番号から住所を自動的入力</a>
                                                 </div>
                                             </div>
                                             <div class="row mb30">

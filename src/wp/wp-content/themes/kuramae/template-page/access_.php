@@ -11,8 +11,8 @@
     <section class="slide-main before-login">
         <div class="slides">
             <div class="slideContent">
-                <div class="slide slide-init js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/common/main/bg_top.jpg)"></div>
-                <div class="slide js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/common/main/KV01.jpg)"></div>
+                <div class="slide slide-init js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/main/bg_top.jpg)"></div>
+                <div class="slide js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/main/KV01.jpg)"></div>
             </div>
         </div>
 
@@ -43,7 +43,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-12">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/common/reservation_text.svg" alt="" class="img-fluid" width="1245">
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/reservation_text.svg" alt="" class="img-fluid" width="1245">
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="living_img">
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/map_kuramae.png" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/map_kuramae.png" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -94,12 +94,12 @@
         </div>
         <div class="box_contact">
             <div class="box_contact_img">
-                <img src="<?php bloginfo('template_directory');?>/assets/images/common/img_contact.jpg" alt="" class="img-fluid">
+                <img src="<?php bloginfo('template_directory');?>/assets/images/img_contact.jpg" alt="" class="img-fluid">
             </div>
             <div class="box_contact_content">
                 <h3>プロスタイル蔵前</h3>
-                <p><img src="<?php bloginfo('template_directory');?>/assets/images/common/i_location.svg" alt="" class="img-fluid" width="20"> 〒000-0000　東京都台東区三筋一丁目（地番）　　営業時間 10:00~19:00（⽕・⽔曜⽇定休 祝⽇を除く）</p>
-                <p><img src="<?php bloginfo('template_directory');?>/assets/images/common/i_tel.svg" alt="" class="img-fluid" width="20"> TEL : <a href="tel:03-6897-8570">03-6897-8570</a> 　FAX : <a href="tel:03-6897-8571">03-6897-8571</a></p>
+                <p><img src="<?php bloginfo('template_directory');?>/assets/images/i_location.svg" alt="" class="img-fluid" width="20"> 〒000-0000　東京都台東区三筋一丁目（地番）　　営業時間 10:00~19:00（⽕・⽔曜⽇定休 祝⽇を除く）</p>
+                <p><img src="<?php bloginfo('template_directory');?>/assets/images/i_tel.svg" alt="" class="img-fluid" width="20"> TEL : <a href="tel:03-6897-8570">03-6897-8570</a> 　FAX : <a href="tel:03-6897-8571">03-6897-8571</a></p>
             </div>
         </div>
     </section>
@@ -112,7 +112,7 @@
                     <p>資料請求・オンライン説明会</p>
                     <div class="box_contact">
                         <div class="box_contact_img">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/img_contact2.png" alt="" class="img-fluid">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/img_contact2.png" alt="" class="img-fluid">
                         </div>
                         <div class="box_contact_content">
                             <h3>●●●●●●●パンフレット進呈</h3>

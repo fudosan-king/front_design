@@ -4,8 +4,8 @@
             <section class="slide-main before-login">
                 <div class="slides">
                     <div class="slideContent">
-                        <div class="slide slide-init js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/common/main/KV01.jpg)"></div>
-                        <div class="slide js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/common/main/KV02.jpg)"></div>
+                        <div class="slide slide-init js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/main/KV01.jpg)"></div>
+                        <div class="slide js-slide" style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/main/KV02.jpg)"></div>
                     </div>
                 </div>
 
@@ -14,10 +14,10 @@
                         <a href="#section_living" data-scroll class="scroll_title">Scroll</a>
                     </div>
                     <div class="slides_text">
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/main/text_slide01.png" alt="text_slide01" class="img-fluid">
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/main/text_slide02.png" alt="text_slide02" class="img-fluid">
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/main/text_slide03.png" alt="text_slide03" class="img-fluid">
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/main/text_slide04.png" alt="text_slide04" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/main/text_slide01.png" alt="text_slide01" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/main/text_slide02.png" alt="text_slide02" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/main/text_slide03.png" alt="text_slide03" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/main/text_slide04.png" alt="text_slide04" class="img-fluid">
                     </div>
                     <p class="slides_highline"><span>ディライトテラス建物内新モデルルームオープン【完全予約制】</span></p>
                     <p class="slides_firstservices">

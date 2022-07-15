@@ -9,7 +9,7 @@
 
 <main>
     <section class="section_subbanner">
-        <img src="<?php bloginfo('template_directory');?>/assets/images/common/main/bg_location.jpg" alt="bg_location" class="img-fluid">
+        <img src="<?php bloginfo('template_directory');?>/assets/images/main/bg_location.jpg" alt="bg_location" class="img-fluid">
     </section>
 
     <section class="section_citylife">
@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="citylife_img">
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/map_kuramae.png" data-aos="fade-up" data-aos-duration="3000" alt="map_kuramae" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/map_kuramae.png" data-aos="fade-up" data-aos-duration="3000" alt="map_kuramae" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                         <div class="row g-0">
                             <div class="col-12 col-lg-7">
                                 <div class="area_img">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/images/common/ueno_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="ueno_area" class="img-fluid">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/images/ueno_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="ueno_area" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-12 col-lg-5">
@@ -63,7 +63,7 @@
                         <div class="row g-0 flex-row-reverse">
                             <div class="col-12 col-lg-7">
                                 <div class="area_img">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/images/common/asakusa_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="asakusa_area" class="img-fluid">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/images/asakusa_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="asakusa_area" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-12 col-lg-5">
@@ -80,7 +80,7 @@
                         <div class="row g-0">
                             <div class="col-12 col-lg-7">
                                 <div class="area_img">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/images/common/akihabara_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="akihabara_area" class="img-fluid">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/images/akihabara_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="akihabara_area" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-12 col-lg-5">
@@ -96,7 +96,7 @@
                         <div class="row g-0  flex-row-reverse">
                             <div class="col-12 col-lg-7">
                                 <div class="area_img">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/images/common/nihonbashi_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="nihonbashi_area" class="img-fluid">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/images/nihonbashi_area.jpg" data-aos="fade-up" data-aos-duration="3000" alt="nihonbashi_area" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-12 col-lg-5">
@@ -141,9 +141,9 @@
                         <div class="row g-3">
                             <div class="col-12 col-lg-7">
                                 <div class="box_img horizontal">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area01.jpg" data-fancybox="gallery-1" data-caption="kachikura_area01">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/kachikura_area01.jpg" data-fancybox="gallery-1" data-caption="kachikura_area01">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area01.jpg" alt="kachikura_area" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/kachikura_area01.jpg" alt="kachikura_area" class="img-fluid">
                                         </figure>
                                         <span>1</span>
                                     </a>
@@ -151,17 +151,17 @@
                             </div>
                             <div class="col-12 col-lg-5">
                                 <div class="box_img horizontal_sm">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area02.jpg" data-fancybox="gallery-1" data-caption="kachikura_area02">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/kachikura_area02.jpg" data-fancybox="gallery-1" data-caption="kachikura_area02">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area02.jpg" alt="kachikura_area" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/kachikura_area02.jpg" alt="kachikura_area" class="img-fluid">
                                         </figure>
                                         <span>2</span>
                                     </a>
                                 </div>
                                 <div class="box_img horizontal_sm">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area03.jpg" data-fancybox="gallery-1" data-caption="kachikura_area03">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/kachikura_area03.jpg" data-fancybox="gallery-1" data-caption="kachikura_area03">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area03.jpg" alt="kachikura_area" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/kachikura_area03.jpg" alt="kachikura_area" class="img-fluid">
                                         </figure>
                                         <span>3</span>
                                     </a>
@@ -207,9 +207,9 @@
                         <div class="row">
                             <div class="col-12 col-lg-12">
                                 <div class="box_img vertical">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area04.jpg" data-fancybox="gallery-2" data-caption="kachikura_area04">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/kachikura_area04.jpg" data-fancybox="gallery-2" data-caption="kachikura_area04">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area04.jpg" alt="kachikura_area04" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/kachikura_area04.jpg" alt="kachikura_area04" class="img-fluid">
                                         </figure>
                                         <span>4</span>
                                     </a>
@@ -217,9 +217,9 @@
                             </div>
                             <div class="col-12 col-lg-6">
                                 <div class="box_img vertical_sm">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area05.jpg" data-fancybox="gallery-2" data-caption="kachikura_area05">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/kachikura_area05.jpg" data-fancybox="gallery-2" data-caption="kachikura_area05">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area02.jpg" alt="kachikura_area05" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/kachikura_area02.jpg" alt="kachikura_area05" class="img-fluid">
                                         </figure>
                                         <span>5</span>
                                     </a>
@@ -227,9 +227,9 @@
                             </div>
                             <div class="col-12 col-lg-6">
                                 <div class="box_img vertical_sm">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area06.jpg" data-fancybox="gallery-2" data-caption="kachikura_area06">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/kachikura_area06.jpg" data-fancybox="gallery-2" data-caption="kachikura_area06">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/kachikura_area06.jpg" alt="kachikura_area06" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/kachikura_area06.jpg" alt="kachikura_area06" class="img-fluid">
                                         </figure>
                                         <span>6</span>
                                     </a>
@@ -284,7 +284,7 @@
                     <div class="box_riverside">
                         <div class="row">
                             <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="3000">
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/riverside.svg" alt="riverside" class="img-fluid" widht="90">
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/riverside.svg" alt="riverside" class="img-fluid" widht="90">
                                 <ul class="list_global">
                                     <li><span>PROSTYLE</span></li>
                                     <li><span>KURAMAE</span></li>
@@ -297,16 +297,16 @@
                                 休日は水辺を歩いて、ゆったりとした川の流れを楽しんでみませんか。</p>
                                 <div class="box_riverside_img">
                                     <div class="riverside_img sm">
-                                        <a href="<?php bloginfo('template_directory');?>/assets/images/common/riverside01.jpg" data-fancybox="gallery-3" data-caption="riverside01">
+                                        <a href="<?php bloginfo('template_directory');?>/assets/images/riverside01.jpg" data-fancybox="gallery-3" data-caption="riverside01">
                                             <figure>
-                                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/riverside01.jpg" alt="riverside01" class="img-fluid">
+                                                <img src="<?php bloginfo('template_directory');?>/assets/images/riverside01.jpg" alt="riverside01" class="img-fluid">
                                             </figure>
                                         </a>
                                     </div>
                                     <div class="riverside_img sm">
-                                        <a href="<?php bloginfo('template_directory');?>/assets/images/common/riverside02.jpg" data-fancybox="gallery-3" data-caption="riverside02">
+                                        <a href="<?php bloginfo('template_directory');?>/assets/images/riverside02.jpg" data-fancybox="gallery-3" data-caption="riverside02">
                                             <figure>
-                                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/riverside02.jpg" alt="riverside02" class="img-fluid">
+                                                <img src="<?php bloginfo('template_directory');?>/assets/images/riverside02.jpg" alt="riverside02" class="img-fluid">
                                             </figure>
                                         </a>
                                     </div>
@@ -314,9 +314,9 @@
                             </div>
                             <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="3000">
                                 <div class="riverside_img">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/riverside03.jpg" data-fancybox="gallery-3" data-caption="riverside03">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/riverside03.jpg" data-fancybox="gallery-3" data-caption="riverside03">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/riverside03.jpg" alt="riverside03" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/riverside03.jpg" alt="riverside03" class="img-fluid">
                                         </figure>
                                     </a>
                                 </div>
@@ -328,15 +328,15 @@
                         <div class="row">
                             <div class="col-12 col-lg-6">
                                 <div class="riverside_img lg">
-                                    <a href="<?php bloginfo('template_directory');?>/assets/images/common/redevelopment01.jpg" data-fancybox="gallery-4" data-caption="redevelopment01">
+                                    <a href="<?php bloginfo('template_directory');?>/assets/images/redevelopment01.jpg" data-fancybox="gallery-4" data-caption="redevelopment01">
                                         <figure>
-                                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/redevelopment01.jpg" alt="redevelopment01" class="img-fluid">
+                                            <img src="<?php bloginfo('template_directory');?>/assets/images/redevelopment01.jpg" alt="redevelopment01" class="img-fluid">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-6">
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/redevelopment.svg" alt="redevelopment" class="img-fluid" widht="115">
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/redevelopment.svg" alt="redevelopment" class="img-fluid" widht="115">
                                 <ul class="list_global">
                                     <li><span>PROSTYLE</span></li>
                                     <li><span>KURAMAE</span></li>
@@ -347,10 +347,10 @@
                                 下町文化と新しい文化が混ざり合い創造性のあるまち「蔵前」の魅力を更に引き立て、豊かなまちづくりを描きます。</p>
                                 <div class="box_map">
                                     <div class="box_map_img">
-                                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/redevelopment_map.jpg" alt="redevelopment_map" class="img-fluid">
+                                        <img src="<?php bloginfo('template_directory');?>/assets/images/redevelopment_map.jpg" alt="redevelopment_map" class="img-fluid">
                                     </div>
                                     <div class="box_map_content">
-                                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/map_content.png" alt="map_content" class="img-fluid w-100">
+                                        <img src="<?php bloginfo('template_directory');?>/assets/images/map_content.png" alt="map_content" class="img-fluid w-100">
                                     </div>
                                 </div>
                             </div>
