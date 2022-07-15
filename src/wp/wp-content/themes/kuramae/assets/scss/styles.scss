@@ -692,7 +692,7 @@ ul.list_global {
 /* footer */
 footer {
   background: #333;
-  padding: 40px 0 20px;
+  padding: 40px 0 100px;
   text-align: center;
   ul {
     margin: 0 0 57px;
@@ -2102,6 +2102,7 @@ a.disable {
 .section_request {
   padding: 10px 0;
   text-align: center;
+  background: #fff;
   .btn {
     background: #0B265E;
     min-width: 300px;
@@ -2110,7 +2111,7 @@ a.disable {
     font-size: 1.125em;
     font-weight: 500;
     letter-spacing: .1em;
-    padding: 26px 0;
+    padding: 15px 0;
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -3523,6 +3524,7 @@ a.disable {
   }
 
   footer {
+    padding-bottom: 65px;
     ul {
       li {
         a {
@@ -3868,4 +3870,12 @@ a.disable {
 
 }
 
-
+@media (max-width: 414px) {
+  .slide-main {
+    .slideContent {
+      .slide {
+        background-image: url('../images/main/bg_top_retina.jpg');
+      }
+    }
+  }
+}

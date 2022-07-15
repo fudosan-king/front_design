@@ -26,7 +26,7 @@
     </div>
 </footer>
 
-<section class="section_request">
+<section class="section_request fixed-bottom">
     <a class="btn" href="inquiry.php"><span>WEB資料請求はこちら</span></a>
 </section>
 
