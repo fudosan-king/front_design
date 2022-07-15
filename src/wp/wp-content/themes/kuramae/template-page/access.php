@@ -126,10 +126,10 @@
         </div>
     </section>
 
-    <section class="section_location pt80">
-        <div class="gmap">
+    <section class="section_location p-0">
+        <!-- <div class="gmap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4146.140179329061!2d139.78210049743035!3d35.704836103574614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eba5218f147%3A0x246d9895d75b24b4!2s111-0055%2C%20Japan!5e0!3m2!1sen!2s!4v1656311130898!5m2!1sen!2s" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        </div> -->
         <!-- <div class="box_contact">
             <div class="box_contact_img">
                 <img src="<?php bloginfo('template_directory');?>/assets/images/img_contact.jpg" alt="img_contact" class="img-fluid">
