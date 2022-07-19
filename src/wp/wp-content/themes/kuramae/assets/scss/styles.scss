@@ -3154,6 +3154,47 @@ a.disable {
   }
 }
 
+.section_topconcept {
+  padding: 160px 0 100px;
+  .concept_content {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      left: -130px;
+      top: -80px;
+      width: 200%;
+      height: 190%;
+      background: #f4f2ed;
+    }
+  }
+  .concept_img {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+.section_locations {
+  padding: 100px 0;
+  .locations_list_img {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    li {
+      margin-right: 17px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.section_designer {
+  padding: 100px 0;
+}
+
 @media (max-width: 1750px) {
   .bsnav-sticky {
     &.bsnav-sticky-slide {
