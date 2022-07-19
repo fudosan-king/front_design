@@ -2930,6 +2930,47 @@ i.chevron-left {
   border: 1px solid #0B265E;
 }
 
+.section_topconcept {
+  padding: 160px 0 100px;
+}
+.section_topconcept .concept_content {
+  position: relative;
+}
+.section_topconcept .concept_content::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -130px;
+  top: -80px;
+  width: 200%;
+  height: 190%;
+  background: #f4f2ed;
+}
+.section_topconcept .concept_img {
+  position: relative;
+  z-index: 10;
+}
+
+.section_locations {
+  padding: 100px 0;
+}
+.section_locations .locations_list_img {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+.section_locations .locations_list_img li {
+  margin-right: 17px;
+}
+.section_locations .locations_list_img li:last-of-type {
+  margin-right: 0;
+}
+
+.section_designer {
+  padding: 100px 0;
+}
+
 @media (max-width: 1750px) {
   .bsnav-sticky.bsnav-sticky-slide.sticked.in {
     padding: 15px 0;

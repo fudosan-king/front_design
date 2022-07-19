@@ -79,6 +79,9 @@
       } elseif (is_page_template('template-page/map.php')) {
         require 'template-page/common/header3.php';
       }
+      elseif (is_page_template('template-page/concept.php')) {
+        require 'template-page/common/header2.php';
+      }
        else {
         require 'template-page/common/header.php';
       }

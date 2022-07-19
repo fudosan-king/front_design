@@ -83,7 +83,7 @@
         </div>
     </section> -->
 
-    <section class="section_story">
+    <section class="section_topconcept">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-12 col-lg-6">
