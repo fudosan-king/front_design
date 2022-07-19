@@ -1616,3 +1616,17 @@ footer p a:hover {
     line-height: 1.8em;
   }
 }
+.subtitle {
+  margin-bottom: 30px;
+  font-size: 0.875em;
+}
+
+.section_list_templates .list_content li .box_body h3 {
+  font-size: 0.875em;
+}
+
+@media (max-width: 768px) {
+  .section_list_templates .list_content li .box_body {
+    min-height: auto;
+  }
+}
