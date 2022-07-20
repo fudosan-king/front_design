@@ -41,6 +41,8 @@ jQuery(document).ready(function($) {
     // Your options
   });
 
+  $('.slick_news').slick();
+
 }(jQuery));
 
 

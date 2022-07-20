@@ -3198,6 +3198,38 @@ a.disable {
   padding: 100px 0;
 }
 
+.slick_news {
+  position: relative;
+  .slick-slide {
+    color: #fff;
+    font-size: 0.75em;
+  }
+  .slick-arrow {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+  }
+  .slick-prev, .slick-next {
+    border: none;
+    text-indent: -99999px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .slick-prev {
+    background-image: url('../images/SVG/chevron-left.svg');
+    right: 40px;
+  }
+  .slick-next {
+    background-image: url('../images/SVG/chevron-right.svg');
+  }
+}
+
 @media (max-width: 1750px) {
   .bsnav-sticky {
     &.bsnav-sticky-slide {

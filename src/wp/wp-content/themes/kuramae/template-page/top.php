@@ -25,14 +25,20 @@
                     <h2>新着情報</h2>
                 </div>
                 <div class="col-12 col-lg-10 align-self-center">
-                    <div class="carousel carousel_news" data-flickity='{"pageDots": false, "contain": true, "autoPlay": 3500 }'>
+                    <!-- <div class="carousel carousel_news" data-flickity='{"pageDots": false, "contain": true, "autoPlay": 3500 }'>
                         <div class="carousel-cell">
                             <p><a href="#">公式ホームページを公開いたしました。</a></p>
                         </div>
                         <div class="carousel-cell">
                             <p><a href="#">公式ホームページを公開いたしました。</a></p>
                         </div>
+                    </div> -->
+
+                    <div class="slick_news">
+                        <div>公式ホームページを公開いたしました。</div>
+                        <div>公式ホームページを公開いたしました。</div>
                     </div>
+
                 </div>
             </div>
         </div>
