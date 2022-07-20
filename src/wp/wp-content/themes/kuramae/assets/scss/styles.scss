@@ -553,6 +553,7 @@ ul.list_global {
   z-index: 100;
   bottom: 0;
   width: 100%;
+  overflow: hidden;
   a {
     padding: 30px 0;
     display: block;
@@ -571,6 +572,7 @@ ul.list_global {
       background: transparent;
       left: 0;
       top: 0;
+      display: none;
     }
   }
   &.notlogin {
@@ -604,6 +606,7 @@ ul.list_global {
       width: 100%;
       height: 30px;
       margin-right: 10px;
+      overflow: hidden;
       &:hover {
         a {
           background: transparent;
@@ -3914,7 +3917,9 @@ a.disable {
 @media (max-width: 414px) {
   .slide-main {
     .slideContent {
+      max-height: 100vh;
       .slide {
+        max-height: 100vh;
         background-image: url('../images/main/bg_top_retina.jpg');
       }
     }
