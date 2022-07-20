@@ -88,9 +88,22 @@
 @media (max-width: 414px) {
     .section_list_templates {
         .list_content {
+            &.mansions {
+                li {
+                    .box_body {
+                        min-height: auto;
+                    }
+                }
+            }
             li {
                 &:nth-of-type(4n) {
                     margin-right: 0;
+                }
+                .box_body {
+                    min-height: auto;
+                    h3 {
+                        min-height: auto;
+                    }
                 }
             }
         }

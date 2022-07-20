@@ -58,7 +58,16 @@
   }
 }
 @media (max-width: 414px) {
+  .section_list_templates .list_content.mansions li .box_body {
+    min-height: auto;
+  }
   .section_list_templates .list_content li:nth-of-type(4n) {
     margin-right: 0;
+  }
+  .section_list_templates .list_content li .box_body {
+    min-height: auto;
+  }
+  .section_list_templates .list_content li .box_body h3 {
+    min-height: auto;
   }
 }
