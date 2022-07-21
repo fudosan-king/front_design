@@ -4,7 +4,12 @@
   }
 
   .news a {
-    padding: 8px 0;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+  }
+  .news a:hover {
+    background: transparent;
   }
 
   .title span {

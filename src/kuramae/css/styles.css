@@ -522,11 +522,17 @@ ul.list_global li span::after {
   overflow: hidden;
 }
 .news a {
-  padding: 30px 0;
+  padding: 0;
   display: block;
+  color: #fff;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .news a:hover {
-  background: #B48856;
+  background: transparent;
 }
 .news.news_afterlogin {
   padding: 30px 0;
@@ -3298,9 +3304,17 @@ i.chevron-left {
 
   .news a {
     padding: 0;
+    line-height: 1.3em;
   }
   .news.news_afterlogin {
     width: 100%;
+  }
+
+  .slick_news .slick-arrow {
+    right: -40px;
+  }
+  .slick_news .slick-prev {
+    right: -20px;
   }
 
   .slides_footer .slides_highline {

@@ -6,8 +6,15 @@
         }
     }
 
-    .news a{
-        padding: 8px 0;
+    .news {
+        a {
+            padding: 0;
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                background: transparent;
+            }
+        }
     }
 
     //Login

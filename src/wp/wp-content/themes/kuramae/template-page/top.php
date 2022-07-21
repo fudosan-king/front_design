@@ -34,8 +34,11 @@
                         </div>
                     </div> -->
                     <div class="slick_news">
-                        <div>公式ホームページを公開いたしました。</div>
-                        <div>公式ホームページを公開いたしました。</div>
+                        <div><a href="https://staging.prostyle-residence.com/kuramae/news/">年末年始休業のお知らせ</a></div>
+                        <div><a href="https://staging.prostyle-residence.com/kuramae/news/">「PROSTYLE札幌 宮の森・東京説明会」は好評のうちに終了しました</a></div>
+                        <div><a href="https://staging.prostyle-residence.com/kuramae/news/">8月28日(土)、29日(日)「PROSTYLE札幌 宮の森・東京説明会」を開催します</a></div>
+                        <div><a href="https://staging.prostyle-residence.com/kuramae/news/">【プロスタイル札幌 宮の森】家具・インテリアオプションのご案内</a></div>
+                        <div><a href="https://staging.prostyle-residence.com/kuramae/news/">『プロスタイル札幌 宮の森』工事進捗状況</a></div>
                     </div>
 
                 </div>
