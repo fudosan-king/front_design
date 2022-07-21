@@ -905,33 +905,66 @@ footer {
     padding: 10px;
     display: flex;
     justify-content: center;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
     .btn {
         display: flex;
         align-items: center;
         justify-content: center;
         border: none;
         border-radius: 4px;
+        width: 100%;
         padding: 10.5px 30px;
+        background: linear-gradient(135deg, #CFAF6E 0%, #A3864B 100%);
+        max-width: 275px;
+        font-weight: 600;
+        margin: 4px;
+        &:hover {
+            color: #fff;
+        }
         img {
             margin-right: 10px;
         }
-        &:first-of-type {
-            background: linear-gradient(135deg, #CFAF6E 0%, #A3864B 100%);
-            min-width: 356px;
-            font-weight: 600;
-            margin-right: 15px;
-            &:hover {
-                color: #fff;
-            }
-        }
-        &:last-of-type {
-            min-width: 242px;
+        &.phone_call {
             background: #fff;
-            color: $brown_color;
-            border: 1px solid $brown_color;
+            color: #BE9C59;
+            border: 1px solid #BE9C59;
             font-size: 1.125em;
             font-weight: 600;
         }
+    }
+}
+
+.i-email-w {
+    padding-left: 24px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background: url('../images/icons/i_email.svg');
+        background-repeat: no-repeat;
+        height: 13px;
+        width: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+    }
+}
+.i-home-w {
+    padding-left: 25px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background: url(../images/icons/home-w.svg);
+        background-repeat: no-repeat;
+        height: 15px;
+        width: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
     }
 }
 
@@ -1333,13 +1366,6 @@ footer {
             font-size: .75em;
             img {
                 margin-right: 5px;
-            }
-            &:first-of-type {
-              min-width: inherit;
-              margin-right: 10px;
-            }
-            &:last-of-type {
-                min-width: inherit;
             }
         }
     }
@@ -1781,6 +1807,24 @@ footer {
                         line-height: 1.8em;
                     }
                 }
+            }
+        }
+    }
+
+    .box_bottom {
+        .wrapper {
+            margin: 5px 0;
+        }
+        .btn {
+            max-width: 100%;
+            width: 100%;
+            &.reservation {
+                line-height: 2.4;
+                margin-right: 0;
+            }
+            &.phone_call {
+                font-size: .75em;
+                margin-right: 0;
             }
         }
     }
