@@ -41,7 +41,10 @@ jQuery(document).ready(function($) {
 
   Fancybox.bind(".kachikura_gallerys a", {});
 
-  $('.slick_news').slick();
+  $('.slick_news').slick({
+    autoplay: true,
+    autoplaySpeed: 2000
+  });
 
 }(jQuery));
 
