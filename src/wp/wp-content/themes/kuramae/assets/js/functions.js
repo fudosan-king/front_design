@@ -39,9 +39,7 @@ jQuery(document).ready(function($) {
     }
   });
 
-  Fancybox.bind(".kachikura_gallerys a", {
-    // Your options
-  });
+  Fancybox.bind(".kachikura_gallerys a", {});
 
   $('.slick_news').slick();
 
