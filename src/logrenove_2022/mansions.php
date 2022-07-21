@@ -14,7 +14,7 @@
                             <p class="subtitle">築浅から築古まで、立地条件に優れ、管理状態も良好なマンションをリストアップ。都心部で駅に近い、資産価値が下がりにくいマンションを中心に、紹介していきます。</p>
                             <ul class="list_content mansions">
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>
@@ -32,7 +32,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/21074553/IV1648788112_2-1.jpg" alt="img07">
                                             <span class="label_violet">100㎡以上</span>
@@ -50,7 +50,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/14104000/w1334_aa364bcc5c4bae371aa3c920e4d3154d-1.jpg" alt="img07">
                                             <span class="label_green">ルーフバルコニー</span>
@@ -68,7 +68,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/12180136/%E5%86%99%E7%9C%9F-2022-05-10-17-04-11.jpg" alt="img07">
                                             <span class="label_blue">駅徒歩5分</span>
@@ -86,7 +86,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
                                             <span class="label_yellow">価格改定</span>
@@ -104,7 +104,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/21074553/IV1648788112_2-1.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>
@@ -122,7 +122,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/14104000/w1334_aa364bcc5c4bae371aa3c920e4d3154d-1.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>
@@ -140,7 +140,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/12180136/%E5%86%99%E7%9C%9F-2022-05-10-17-04-11.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>
@@ -158,7 +158,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>
@@ -176,7 +176,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/21074553/IV1648788112_2-1.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>
@@ -194,7 +194,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/14104000/w1334_aa364bcc5c4bae371aa3c920e4d3154d-1.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>
@@ -212,7 +212,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="detail.php">
+                                    <a href="mansions_detail.php">
                                         <div class="box_img">
                                             <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/05/12180136/%E5%86%99%E7%9C%9F-2022-05-10-17-04-11.jpg" alt="img07">
                                             <span class="label_black">リノベ済</span>

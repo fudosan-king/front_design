@@ -32,8 +32,3 @@
         </div>
     </div>
 </footer>
-
-<div class="box_bottom fixed-bottom">
-    <a href="mailto:" class="btn"><img src="images/icons/i_mail.svg" alt="i_mail" class="img-fluid" width="18"> お問い合わせ・内覧予約</a>
-    <a href="tel:0120991657" class="btn"><img src="images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20"> 0120-991-657</a>
-</div>

@@ -201,7 +201,9 @@
             </section>
 
             <section class="section_detailproperty">
-                <p class="w_btn_detail"><a href="#" class="btn btn_detail">この物件のマンション詳細 <img src="images/icons/i_right.svg" alt="i_right" class="img-fluid" width="9"></a></p>
+                <a href="#" class="btn btn_inquire_availability">
+                    <span><img src="assets/images/icons/i_email.svg" alt="email" class="img-fluid" width="20"> 内見お問い合わせ</span>
+                </a>
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-12 col-lg-12">
@@ -726,7 +728,7 @@
                 </div>
             </section>
 
-            <section class="section_searchconditions">
+            <section class="section_searchconditions bg-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
@@ -1283,6 +1285,19 @@
         </main>
         
         <?php include('footer.php') ?>
+
+        <div class="box_bottom fixed-bottom">
+            <div class="container">
+                <div class="wrapper">
+                    <button input="button" class="btn reservation d-flex d-md-none" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-home-w">内見お問い合わせ</span></button>
+                </div>
+                <div class="wrapper">
+                    <a href="https://www.logrenove.jp/mailmagazine/" class=" btn material" data-inquiry="資料請求" onclick="goToForm(this)"><span class="i-email-w">新着物件情報</span></a>
+                    <button input="button" class="btn reservation d-none d-md-flex" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-home-w">内見お問い合わせ</span></button>
+                    <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657</a>
+                </div>
+            </div>
+        </div>
 
         <?php include('js-footer.php') ?>
     </body>
