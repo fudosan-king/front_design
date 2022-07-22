@@ -130,7 +130,7 @@
                                             <a href="#">
                                                 <div class="box_img">
                                                     <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                                    <span class="label_status">募集中</span>
+                                                    <span class="label_black">リノベ済</span>
                                                 </div>
                                                 <div class="box_content">
                                                     <table class="table table-borderless">
@@ -154,7 +154,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="#">
                                                 <div class="box_img">
                                                     <img src="images/img06.jpg" alt="img06" class="img-fluid">
@@ -209,10 +209,29 @@
                                                     </table>
                                                 </div>
                                             </a>
-                                        </li>
+                                        </li> -->
                                     </ul>
+                                    <div class="custom_item">
+                                        <a class="#" href="detail.php">
+                                            <div class="box_img">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                <span class="label_status">募集中</span>
+                                            </div>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <p class="prices">12,000万円</p>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="carousel-cell">
+                                <!-- <div class="carousel-cell">
                                     <ul class="property_vertical">
                                         <li>
                                             <a href="#">
@@ -299,7 +318,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
 
                         </div>
