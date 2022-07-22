@@ -90,7 +90,8 @@
 .section_detailproperty {
   padding-top: 80px;
 }
-.section_detailproperty .btn_inquire_availability {
+
+.btn_inquire_availability {
   background: #CA6407;
   border-radius: 100px;
   font-weight: 700;
@@ -107,7 +108,7 @@
   align-items: center;
   justify-content: center;
 }
-.section_detailproperty .btn_inquire_availability::before {
+.btn_inquire_availability::before {
   content: '';
   display: block;
   border: 1px solid #fff;
@@ -118,7 +119,7 @@
   right: 1px;
   bottom: 1px;
 }
-.section_detailproperty .btn_inquire_availability::after {
+.btn_inquire_availability::after {
   content: '';
   position: absolute;
   right: 20px;
@@ -130,15 +131,15 @@
   width: 15px;
   height: 15px;
 }
-.section_detailproperty .btn_inquire_availability:hover {
+.btn_inquire_availability:hover {
   background: #ad5503;
 }
-.section_detailproperty .btn_inquire_availability img {
+.btn_inquire_availability img {
   margin-right: 5px;
   position: relative;
   top: 2px;
 }
-.section_detailproperty .btn_inquire_availability span {
+.btn_inquire_availability span {
   display: flex;
   align-items: center;
 }
@@ -194,6 +195,9 @@
 }
 .custom_item .box_img span.label_green {
   background: #27AE60;
+}
+.custom_item .box_img span.label_yellow {
+  background: #F2C94C;
 }
 .custom_item .box_img span.label_status {
   position: absolute;
@@ -330,6 +334,9 @@
   font-weight: 600;
   font-size: 0.875em;
 }
+.frm_mansions label span {
+  color: #eb5757;
+}
 .frm_mansions .sub_lable {
   margin-bottom: 0;
   font-size: 0.875em;
@@ -367,26 +374,39 @@
   font-weight: 600;
 }
 
+.section_midinfo {
+  padding-top: 80px;
+}
+
 @media (max-width: 768px) {
   .frm_mansions {
     padding: 30px 15px;
   }
   .frm_mansions .btnAgree {
     min-width: inherit;
+    width: 100%;
   }
   .frm_mansions label {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .frm_mansions .form-group {
     margin-bottom: 15px;
   }
   .frm_mansions .description {
     margin-bottom: 30px;
+    font-size: 0.75em;
+  }
+  .frm_mansions .btn_auto {
+    padding-left: 0;
   }
 
   .section_detailproperty .table tr th, .section_detailproperty .table tr td {
     display: inline-block;
     width: 100%;
+  }
+
+  .section_discerningequipment ul:last-of-type li a span:first-of-type {
+    min-height: auto;
   }
 
   .property_vertical li a .box_img span {
@@ -406,6 +426,16 @@
   }
 }
 @media (max-width: 414px) {
+  .section_area .box_conditions_list li {
+    margin-bottom: 15px;
+  }
+  .section_area .box_conditions_list li a .box_img {
+    height: auto;
+  }
+  .section_area .box_conditions_list li a .box_img img {
+    height: auto;
+  }
+
   .carousel.carousel_property .carousel-cell, .carousel.carousel_conditions .carousel-cell {
     margin-right: 20px;
   }
@@ -417,7 +447,7 @@
   .custom_item {
     width: 100%;
     margin-right: 0;
-    padding: 15px 0 0;
+    margin-bottom: 15px;
   }
   .custom_item .box_body {
     min-height: auto;

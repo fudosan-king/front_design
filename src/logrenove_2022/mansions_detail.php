@@ -26,14 +26,20 @@
                             <div class="carousel carousel_property">
                                 <div class="carousel-cell">
                                     <div class="custom_item">
-                                        <a href="mansions_detail.php" class="box_item">
+                                        <a class="#" href="mansions_detail.php">
                                             <div class="box_img">
-                                                <img src="images/img06.jpg" alt="img06" class="img-fluid">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
                                                 <span class="label_black">リノベ済</span>
                                             </div>
-                                            <div class="box_footer">
-                                                <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
-                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK</span> <span>5,400万円</span></p>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
                                             </div>
                                         </a>
                                     </div>
@@ -528,7 +534,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">メールアドレス<span>(必須)</span></label>
+                                                <label class="mb-lg-0 mb-2" for="">メールアドレス <span>(必須)</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <input type="email" name="email" class="form-control required" placeholder="例：◯◯◯◯◯◯@xxxxxxxx.jp">
@@ -605,7 +611,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3">
-                                                <label for="">お問い合わせ項目<br>（複数選択可）</label>
+                                                <label for="">お問い合わせ項目<span class="d-inline-block d-lg-block">（複数選択可）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9">
                                                 <div class="form-check">
@@ -706,96 +712,173 @@
 
                             <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
                                 <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                        </div>
-                                    </a>
+                                    <div class="custom_item">
+                                        <a class="#" href="mansions_detail.php">
+                                            <div class="box_img">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                <span class="label_black">リノベ済</span>
+                                            </div>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                        </div>
-                                    </a>
+                                    <div class="custom_item">
+                                        <a class="#" href="mansions_detail.php">
+                                            <div class="box_img">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                <span class="label_status">募集中</span>
+                                            </div>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <p class="prices">12,000万円</p>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                        </div>
-                                    </a>
+                                    <div class="custom_item">
+                                        <a class="#" href="mansions_detail.php">
+                                            <div class="box_img">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                <span class="label_black">リノベ済</span>
+                                            </div>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                        </div>
-                                    </a>
+                                    <div class="custom_item">
+                                        <a class="#" href="mansions_detail.php">
+                                            <div class="box_img">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                <span class="label_status">募集中</span>
+                                            </div>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <p class="prices">12,000万円</p>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                        </div>
-                                    </a>
+                                    <div class="custom_item">
+                                        <a class="#" href="mansions_detail.php">
+                                            <div class="box_img">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                <span class="label_status">募集中</span>
+                                            </div>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <p class="prices">12,000万円</p>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="carousel-cell">
-                                    <a href="#" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>大森北ハウス</h3>
-                                            <p>東京都大田区大森北３丁目３－２</p>
-                                        </div>
-                                    </a>
+                                    <div class="custom_item">
+                                        <a class="#" href="mansions_detail.php">
+                                            <div class="box_img">
+                                                <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                <span class="label_black">リノベ済</span>
+                                            </div>
+                                            <div class="box_body">
+                                                <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <p class="prices">12,000万円</p>
+                                                <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                <ul class="statistical">
+                                                    <li>2階</li>
+                                                    <li>48.24㎡</li>
+                                                    <li>1LDK</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="d-block d-sm-none d-lg-none box_arealist">
                                 <ul class="box_conditions_list">
                                     <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
+                                        <div class="custom_item">
+                                            <a class="#" href="mansions_detail.php">
+                                                <div class="box_img">
+                                                    <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                    <span class="label_black">リノベ済</span>
+                                                </div>
+                                                <div class="box_body">
+                                                    <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                    <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                    <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                    <ul class="statistical">
+                                                        <li>2階</li>
+                                                        <li>48.24㎡</li>
+                                                        <li>1LDK</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img07.jpg" alt="img07" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                            </div>
-                                        </a>
+                                        <div class="custom_item">
+                                            <a class="#" href="mansions_detail.php">
+                                                <div class="box_img">
+                                                    <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
+                                                    <span class="label_status">募集中</span>
+                                                </div>
+                                                <div class="box_body">
+                                                    <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                    <p class="prices">12,000万円</p>
+                                                    <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                    <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
+                                                    <ul class="statistical">
+                                                        <li>2階</li>
+                                                        <li>48.24㎡</li>
+                                                        <li>1LDK</li>
+                                                    </ul>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
                                         <a href="#" class="box_item">

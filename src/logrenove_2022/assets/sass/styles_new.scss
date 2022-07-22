@@ -132,60 +132,59 @@
 
 .section_detailproperty {
     padding-top: 80px;
-    .btn_inquire_availability {
-        background: #CA6407;
+}
+.btn_inquire_availability {
+    background: #CA6407;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 1.125em;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -30px;
+    margin: 0 auto;
+    max-width: 348px;
+    padding: 15.5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {
+        content: '';
+        display: block;
+        border: 1px solid #fff;
         border-radius: 100px;
-        font-weight: 700;
-        font-size: 1.125em;
-        color: #fff;
         position: absolute;
-        left: 0;
-        right: 0;
-        top: -30px;
-        margin: 0 auto;
-        max-width: 348px;
-        padding: 15.5px 30px;
+        left: 1px;
+        top: 1px;
+        right: 1px;
+        bottom: 1px;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        bottom: 0;
+        margin: auto;
+        background: url('../images/icons/i_down.svg') no-repeat;
+        background-size: 100%;
+        width: 15px;
+        height: 15px;
+    }
+    &:hover {
+        background: #ad5503;
+    }
+    img {
+        margin-right: 5px;
+        position: relative;
+        top: 2px;
+    }
+    span {
         display: flex;
         align-items: center;
-        justify-content: center;
-        &::before {
-            content: '';
-            display: block;
-            border: 1px solid #fff;
-            border-radius: 100px;
-            position: absolute;
-            left: 1px;
-            top: 1px;
-            right: 1px;
-            bottom: 1px;
-        }
-        &::after {
-            content: '';
-            position: absolute;
-            right: 20px;
-            top: 5px;
-            bottom: 0;
-            margin: auto;
-            background: url('../images/icons/i_down.svg') no-repeat;
-            background-size: 100%;
-            width: 15px;
-            height: 15px;
-        }
-        &:hover {
-            background: #ad5503;
-        }
-        img {
-            margin-right: 5px;
-            position: relative;
-            top: 2px;
-        }
-        span {
-            display: flex;
-            align-items: center;
-        }
     }
 }
-
 
 .custom_item {
     width: 260px;
@@ -234,7 +233,10 @@
                 background: #BB6BD9;
             }
             &.label_green {
-            background: #27AE60;
+                background: #27AE60;
+            }
+            &.label_yellow {
+                background: #F2C94C;
             }
             &.label_status {
                 position: absolute;
@@ -376,6 +378,9 @@
     label {
         font-weight: 600;
         font-size: 0.875em;
+        span {
+            color: rgba(235, 87, 87, 1);
+        }
     }
     .sub_lable {
         margin-bottom: 0;
@@ -415,26 +420,50 @@
     }
 }
 
+.section_midinfo {
+    padding-top: 80px;
+}
+
 @media (max-width: 768px) {
     .frm_mansions {
         padding: 30px 15px;
         .btnAgree {
             min-width: inherit;
+            width: 100%;
         }
         label {
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
         .form-group {
             margin-bottom: 15px;
         }
         .description {
             margin-bottom: 30px;
+            font-size: 0.75em;
+        }
+        .btn_auto {
+            padding-left: 0;
         }
     }
 
     .section_detailproperty .table tr th, .section_detailproperty .table tr td {
         display: inline-block;
         width: 100%;
+    }
+    .section_discerningequipment {
+        ul {
+            &:last-of-type {
+                li {
+                    a {
+                        span {
+                            &:first-of-type {
+                                min-height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     .property_vertical {
         li {
@@ -462,6 +491,21 @@
 }
 
 @media (max-width: 414px) {
+    .section_area {
+        .box_conditions_list {
+            li {
+                margin-bottom: 15px;
+                a {
+                    .box_img {
+                        height: auto;
+                        img {
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
     .carousel.carousel_property .carousel-cell, .carousel.carousel_conditions .carousel-cell {
         margin-right: 20px;
     }
@@ -477,7 +521,7 @@
     .custom_item {
         width: 100%;
         margin-right: 0;
-        padding: 15px 0 0;
+        margin-bottom: 15px;
         .box_body {
             min-height: auto;
             h3 {

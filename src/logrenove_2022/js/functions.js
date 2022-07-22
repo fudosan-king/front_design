@@ -35,9 +35,17 @@ if (matchMedia('(max-width: 768px)').matches) {
 }
 
 $('.carousel').flickity(options);
-var $carousel = $('.carousel').flickity({
+  var $carousel = $('.carousel').flickity({
   contain: true,
   // pageDots: false,
+  // wrapAround: true,
+  freeScroll: false
+});
+
+$('.carousel.carousel_conditions').flickity(options);
+var $carousel = $('.carousel').flickity({
+  contain: true,
+  pageDots: false,
   // wrapAround: true,
   freeScroll: false
 });
