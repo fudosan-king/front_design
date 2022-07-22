@@ -25,6 +25,9 @@
             </section>
 
             <section class="section_midinfo">
+                <a href="#" class="btn btn_inquire_availability">
+                    <span><img src="assets/images/icons/i_email.svg" alt="email" class="img-fluid" width="20"> 内見お問い合わせ</span>
+                </a>
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
