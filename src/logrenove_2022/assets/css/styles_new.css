@@ -133,6 +133,7 @@
 }
 .btn_inquire_availability:hover {
   background: #ad5503;
+  color: #fff;
 }
 .btn_inquire_availability img {
   margin-right: 5px;
@@ -176,8 +177,8 @@
 .custom_item .box_img span {
   display: block;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -1px;
+  top: -1px;
   color: #fff;
   font-weight: 600;
   font-size: 0.625em;
