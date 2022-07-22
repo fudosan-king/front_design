@@ -23,7 +23,7 @@
                                 <h2 class="title">物件情報</h2>
                                 <p class="totalprocess">全 <span>11</span> 件　募集中 <span class="pink">2</span> 件</p>
                             </div>
-                            <div class="carousel carousel_property d-none d-xs-block d-sm-block d-lg-block">
+                            <div class="carousel carousel_property">
                                 <div class="carousel-cell">
                                     <div class="custom_item">
                                         <a href="mansions_detail.php" class="box_item">
@@ -41,7 +41,7 @@
 
                                 <div class="carousel-cell">
                                     <div class="custom_item">
-                                        <a class="#" href="detail.php">
+                                        <a class="#" href="mansions_detail.php">
                                             <div class="box_img">
                                                 <img class="img-fluid" src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/06/15111938/IV1651132321_16-800x533-1.jpg" alt="img07">
                                                 <span class="label_status">募集中</span>
@@ -60,70 +60,9 @@
                                         </a>
                                     </div>
                                 </div>
-
-                                <!-- <div class="carousel-cell">
-                                    <a href="mansions_detail.php" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            <span class="label_status">募集中</span>
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
-                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK</span> <span>5,400万円</span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-cell">
-                                    <a href="mansions_detail.php" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            <span class="label_status contracted">成約済</span>
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
-                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK</span> <span>5,400万円</span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-cell">
-                                    <a href="mansions_detail.php" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            <span class="label_status contracted">成約済</span>
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>番町千鳥ヶ淵アビタシオン xxx号室</h3>
-                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK</span> <span>5,400万円</span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-cell">
-                                    <a href="mansions_detail.php" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            <span class="label_status">募集中</span>
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
-                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK</span> <span>5,400万円</span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="carousel-cell">
-                                    <a href="mansions_detail.php" class="box_item">
-                                        <div class="box_img">
-                                            <img src="images/img06.jpg" alt="img06" class="img-fluid">
-                                            <span class="label_status">募集中</span>
-                                        </div>
-                                        <div class="box_footer">
-                                            <h3>番町千鳥ヶ淵アビタシオン 201号室</h3>
-                                            <p><span>2階</span> <span>48.24㎡</span> <span>１LDK</span> <span>5,400万円</span></p>
-                                        </div>
-                                    </a>
-                                </div> -->
                             </div>
 
-                            <div class="carousel carousel_conditions d-block d-xs-none d-sm-none d-lg-none">
+                            <!-- <div class="carousel carousel_conditions d-block d-xs-none d-sm-none d-lg-none">
                                 <div class="carousel-cell">
                                     <ul class="property_vertical">
                                         <li>
@@ -154,7 +93,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <!-- <li>
+                                        <li>
                                             <a href="#">
                                                 <div class="box_img">
                                                     <img src="images/img06.jpg" alt="img06" class="img-fluid">
@@ -209,7 +148,7 @@
                                                     </table>
                                                 </div>
                                             </a>
-                                        </li> -->
+                                        </li>
                                     </ul>
                                     <div class="custom_item">
                                         <a class="#" href="detail.php">
@@ -231,7 +170,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- <div class="carousel-cell">
+                                <div class="carousel-cell">
                                     <ul class="property_vertical">
                                         <li>
                                             <a href="#">
@@ -318,8 +257,8 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </div> -->
-                            </div>
+                                </div>
+                            </div> -->
 
                         </div>
                     </div>

@@ -103,6 +103,7 @@
                 }
             }
             li {
+                margin-bottom: 15px;
                 &:nth-of-type(4n) {
                     margin-right: 0;
                 }
@@ -110,6 +111,7 @@
                     min-height: auto;
                     h3 {
                         min-height: auto;
+                        font-size: 1.25em;
                     }
                 }
             }
@@ -187,7 +189,6 @@
 
 .custom_item {
     width: 260px;
-    margin-right: 20px;
     margin-bottom: 30px;
     background: #FFFFFF;
     display: block;
@@ -461,42 +462,29 @@
 }
 
 @media (max-width: 414px) {
+    .carousel.carousel_property .carousel-cell, .carousel.carousel_conditions .carousel-cell {
+        margin-right: 20px;
+    }
+    .carousel {
+        .box_item {
+            .box_img {
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
     .custom_item {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 0;
-        padding: 15px 0;
-        box-shadow: none;
-        a {
-            display: flex;
-        }
-        .box_img {
-            width: 40%;
-            height: 125px;
-            padding-bottom: inherit;
-            img {
-                height: 125px;
-                object-fit: cover;
-            }
-        }
+        padding: 15px 0 0;
         .box_body {
-            width: 60%;
             min-height: auto;
-            padding: 0 10px;
             h3 {
-                font-size: .75em;
                 min-height: auto;
-                margin-bottom: 0;
-            }
-            h4 {
-                margin-top: 0;
-                font-size: .75em;
-            }
-            .prices {
-                font-size: .75em;
+                font-size: 1.25em;
             }
             .address {
-                font-size: 0.625em;
                 min-height: auto;
             }
         }
