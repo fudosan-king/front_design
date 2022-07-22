@@ -39,7 +39,7 @@ var $carousel = $('.carousel').flickity({
   contain: true,
   // pageDots: false,
   // wrapAround: true,
-  freeScroll: true
+  freeScroll: false
 });
 
 $('#search-button').on('click', function (e) {
