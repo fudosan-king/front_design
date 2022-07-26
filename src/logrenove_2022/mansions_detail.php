@@ -377,7 +377,7 @@
             </section>
 
             <section class="section_detailproperty">
-                <a href="#" class="btn btn_inquire_availability">
+                <a href="#frm_mansions" class="btn btn_inquire_availability" data-scroll>
                     <span><img src="assets/images/icons/i_email.svg" alt="email" class="img-fluid" width="20"> 空室状況をお問い合わせ</span>
                 </a>
                 <div class="container">
