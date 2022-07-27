@@ -33,6 +33,7 @@
                                             </div>
                                             <div class="box_body">
                                                 <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                                <p class="prices"></p>
                                                 <h4>東京都渋谷区神宮前 6-25-8</h4>
                                                 <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</span>
                                                 <ul class="statistical">

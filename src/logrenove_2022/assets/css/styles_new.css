@@ -249,6 +249,7 @@
   font-size: 1.125em;
   color: #CA6407;
   margin-bottom: 0;
+  min-height: 24px;
 }
 .custom_item .box_body .address {
   font-size: 0.6875em;
@@ -267,6 +268,9 @@
   margin: 0;
   list-style-type: none;
   display: flex;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
 .custom_item .box_body ul.statistical li {
   margin-right: 15px;
@@ -451,9 +455,6 @@
     margin-bottom: 15px;
     border-left: 1px solid #e5e4e4;
     border-right: 1px solid #e5e4e4;
-  }
-  .custom_item .box_body {
-    min-height: auto;
   }
   .custom_item .box_body h3 {
     min-height: auto;
