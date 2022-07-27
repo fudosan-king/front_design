@@ -289,6 +289,7 @@
             font-size: 1.125em;
             color: #CA6407;
             margin-bottom: 0;
+            min-height: 24px;
         }
         .address {
             font-size: 0.6875em;
@@ -308,6 +309,9 @@
                 margin: 0;
                 list-style-type: none;
                 display: flex;
+                position: absolute;
+                left: 10px;
+                bottom: 10px;
                 li {
                     margin-right: 15px;
                     font-size: 0.875em;
@@ -526,7 +530,6 @@
         border-left: 1px solid rgb(229, 228, 228);
         border-right: 1px solid rgb(229, 228, 228);
         .box_body {
-            min-height: auto;
             h3 {
                 min-height: auto;
                 font-size: 1.25em;
