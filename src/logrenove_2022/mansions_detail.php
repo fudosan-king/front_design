@@ -635,14 +635,8 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-3">
-                                                <label for="">その他お問い合わせ</label>
-                                            </div>
-                                            <div class="col-12 col-lg-9">
-                                                <textarea name="contact_content" id="" class="form-control" cols="30" rows="8" placeholder="ご質問やご希望があればご記入ください。"></textarea>
-                                            </div>
-                                        </div>
+                                        <label class="mb-2" for="">その他お問い合わせ</label>
+                                        <textarea name="contact_content" id="" class="form-control" cols="30" rows="8" placeholder="ご質問やご希望があればご記入ください。"></textarea>
                                     </div>
                                     
                                     <div class="box_content_footer">
