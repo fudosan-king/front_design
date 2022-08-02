@@ -51,7 +51,7 @@
                                                 <label class="mb-lg-0 mb-2" for="">電話番号 <span>(必須)</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
-                                                <p class="mt-2 mb-1 note">※ハイフンなしの半角数字でご記入ください</p>
+                                                <p class="mb-1 note">※ハイフンなしの半角数字でご記入ください</p>
                                                 <input type="text" name="phone" class="form-control required" placeholder="09012345678" maxlength="11">
                                             </div>
                                         </div>
@@ -257,6 +257,7 @@
                                                             <option value="20000万円">20000万円</option>
                                                             <option value="25000万円">25000万円</option>
                                                             <option value="30000万円">30000万円</option>
+                                                            <option value="上限なし">上限なし</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -301,6 +302,7 @@
                                                             <option value="150㎡">150㎡</option>
                                                             <option value="200㎡">200㎡</option>
                                                             <option value="250㎡">250㎡</option>
+                                                            <option value="上限なし">上限なし</option>
                                                         </select>
                                                     </div>
                                                 </div>
