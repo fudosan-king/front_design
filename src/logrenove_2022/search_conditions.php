@@ -257,7 +257,7 @@
                                                             <option value="20000万円">20000万円</option>
                                                             <option value="25000万円">25000万円</option>
                                                             <option value="30000万円">30000万円</option>
-                                                            <option value="上限なし">上限なし</option>
+                                                            <option value="上限なし">上限なし </option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -302,7 +302,7 @@
                                                             <option value="150㎡">150㎡</option>
                                                             <option value="200㎡">200㎡</option>
                                                             <option value="250㎡">250㎡</option>
-                                                            <option value="上限なし">上限なし</option>
+                                                            <option value="上限なし">上限なし </option>
                                                         </select>
                                                     </div>
                                                 </div>
