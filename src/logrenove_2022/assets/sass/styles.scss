@@ -1949,3 +1949,45 @@ footer {
         }
     }
 }
+
+
+.frm_mansions .btnAgree .i_rightwhite {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='10' cy='10' r='10' fill='white'/%3e%3cg clip-path='url(%23clip0)'%3e%3cpath d='M5.32092 10H14.6792' stroke='%23AE8148' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M10 5.32092L14.6791 10.0001L10 14.6792' stroke='%23AE8148' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0'%3e%3crect width='11.7647' height='11.7647' fill='white' transform='translate(4.11768 4.11768)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.frm_mansions .btnAgree .i_rightwhite.rotate {
+    transform: rotateY(180deg);
+    left: 20px;
+    right: unset;
+}
+
+.section_mailmagazine {
+    .btnAgree {
+        background: #8c7d5e;
+        border-radius: 100px;
+        color: #fff;
+        padding: 15px 20px;
+        width: 100%;
+        max-width: 440px;
+        display: block;
+        margin: 15px auto 0;
+        font-size: 1.125em;
+        position: relative;
+        font-weight: 600;
+    }
+}
+
+.breadcrumb {
+    .breadcrumb-item {
+        a {
+            text-decoration: none;
+        }
+    }
+}
