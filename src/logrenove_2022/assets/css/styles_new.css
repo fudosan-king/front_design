@@ -464,3 +464,32 @@
     min-height: auto;
   }
 }
+.section_searchconditions h1 {
+  text-align: center;
+  font-size: 1.875em;
+  margin-bottom: 30px;
+}
+.section_searchconditions .note {
+  font-size: 0.875em;
+}
+.section_searchconditions .frm_mansions .w_btnAgree .btnAgree {
+  min-width: auto;
+  width: 100%;
+  position: relative;
+}
+.section_searchconditions .table tr th, .section_searchconditions .table tr td {
+  font-size: 0.75em;
+  padding: 13px 15px;
+  border-color: #E0E0E0;
+}
+
+@media (max-width: 768px) {
+  .section_searchconditions h1 {
+    font-size: 1.5em;
+  }
+
+  .frm_mansions .btnAgree .i_rightwhite {
+    position: absolute;
+    right: 15px;
+  }
+}
