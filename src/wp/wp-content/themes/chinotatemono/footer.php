@@ -94,7 +94,21 @@
     </div>
   </div>
 </footer>
-<div class="copyright"><a href="privacypolicy/">プライバシーポリシー</a><small>Copyright © CHINO-TATEMONO.INC. All rights reserved.　</small></div>
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-12 col-lg-12">
+      <div class="copyright_content">
+        <a href="../privacypolicy/">プライバシーポリシー</a>
+        <small>Copyright © CHINO-TATEMONO.INC. All rights reserved.　</small>
+        <div class="logo_img">
+          <img class="img_fluid" src="<?php bloginfo('template_directory');?>/assets/images/common/17004350_01_JP.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="page-top"><a href="#"><img src="<?php bloginfo('template_directory');?>/assets/img/scrolltop.svg" alt="上へ戻る"></a></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 <script src="<?php bloginfo('template_directory');?>/assets/js/script.js"></script>

@@ -541,7 +541,10 @@
     }
 }
 
-.section_searchconditions {
+.section_search {
+    .container {
+        max-width: 934px;
+    }
     h1 {
         text-align: center;
         font-size: 1.875em;
@@ -570,7 +573,7 @@
 
 
 @media (max-width: 768px) {
-    .section_searchconditions {
+    .section_search {
         h1 {
             font-size: 1.5em;
         }

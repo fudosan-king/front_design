@@ -6,7 +6,7 @@
         <?php require('header.php'); ?>
 
         <main>
-            <section class="section_searchconditions bg-white mt-5">
+            <section class="section_search bg-white mt-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
