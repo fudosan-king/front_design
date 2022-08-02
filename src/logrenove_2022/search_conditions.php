@@ -41,7 +41,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <p class="mt-2 mb-0 note">※ハイフンなしの半角数字でご記入ください</p>
                                             </div>
                                         </div>
                                     </div>
@@ -52,6 +51,7 @@
                                                 <label class="mb-lg-0 mb-2" for="">電話番号 <span>(必須)</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
+                                                <p class="mt-2 mb-1 note">※ハイフンなしの半角数字でご記入ください</p>
                                                 <input type="text" name="phone" class="form-control required" placeholder="09012345678" maxlength="11">
                                             </div>
                                         </div>
@@ -121,7 +121,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
-                                                <label for="">希望エリア2 <span>（必須）</span></label>
+                                                <label for="">希望エリア2</label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <select name="" id="" class="form-control form-select required">
@@ -171,7 +171,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
-                                                <label for="">希望エリア3 <span>（必須）</span></label>
+                                                <label for="">希望エリア3</label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <select name="" id="" class="form-control form-select required">
