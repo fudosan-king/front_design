@@ -464,27 +464,30 @@
     min-height: auto;
   }
 }
-.section_searchconditions h1 {
+.section_search .container {
+  max-width: 934px;
+}
+.section_search h1 {
   text-align: center;
   font-size: 1.875em;
   margin-bottom: 30px;
 }
-.section_searchconditions .note {
+.section_search .note {
   font-size: 0.875em;
 }
-.section_searchconditions .frm_mansions .w_btnAgree .btnAgree {
+.section_search .frm_mansions .w_btnAgree .btnAgree {
   min-width: auto;
   width: 100%;
   position: relative;
 }
-.section_searchconditions .table tr th, .section_searchconditions .table tr td {
+.section_search .table tr th, .section_search .table tr td {
   font-size: 0.75em;
   padding: 13px 15px;
   border-color: #E0E0E0;
 }
 
 @media (max-width: 768px) {
-  .section_searchconditions h1 {
+  .section_search h1 {
     font-size: 1.5em;
   }
 

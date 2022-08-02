@@ -132,6 +132,7 @@
         <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/assets/img/favicon.png" type="image/x-icon">
         <link rel="apple-touch-icon" href="<?php bloginfo('template_directory');?>/assets/img/apple-touch-icon.png">
         <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/scss/style.css" />
+        <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/scss/styles_new.css" />
         <!-- Google Tag Manager --> 
         <script>
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

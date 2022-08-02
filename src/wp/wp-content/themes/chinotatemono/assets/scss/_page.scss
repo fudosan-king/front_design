@@ -1429,3 +1429,52 @@ li:before {
 }
   }
 }
+
+.copyright_content {
+  position: relative;
+  .logo_img {
+    position: absolute;
+    right: 0;
+    top: -1.5em;
+    bottom: 0;
+    margin: 0 auto;
+    img {
+      width: 100%;
+      max-width: 100px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .copyright_content {
+    .logo_img {
+      position: relative;
+      top: 0;
+      margin-top: 15px;
+      display: flex;
+      justify-content: flex-end;
+      img {
+        max-width: 80px;
+      }
+    }
+  }
+
+  .nav_top {
+    .container {
+      padding: 0 5px;
+    }
+  }
+  .section_content_body {
+    .container {
+      padding: 0;
+    }
+  }
+
+  .btnAgree {
+    width: 90%;
+  }
+  .frm_general_content table tr td:first-of-type {
+    width: 17%;
+    padding-left: 0;
+  }
+}
