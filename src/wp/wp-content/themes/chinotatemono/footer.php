@@ -111,6 +111,7 @@
 
 <div id="page-top"><a href="#"><img src="<?php bloginfo('template_directory');?>/assets/img/scrolltop.svg" alt="上へ戻る"></a></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/assets/js/script.js"></script>
 
 </body>

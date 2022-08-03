@@ -131,6 +131,9 @@
         <!-- InstanceEndEditable -->
         <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/assets/img/favicon.png" type="image/x-icon">
         <link rel="apple-touch-icon" href="<?php bloginfo('template_directory');?>/assets/img/apple-touch-icon.png">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/scss/style.css" />
         <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/scss/styles_new.css" />
         <!-- Google Tag Manager --> 

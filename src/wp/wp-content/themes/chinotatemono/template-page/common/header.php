@@ -20,10 +20,10 @@
           <li class="menu"> <a href="business/">事業紹介</a>
             <ul class="child_menu">
               <li class="ttl"><b>事業紹介</b><span>business</span></li>
-              <li class="link"><a href="<?php echo home_url('/business/mansionmanagement/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_5.jpg" alt=""><span>分譲マンション管理事業</span></a></li>
-              <li class="link"><a href="<?php echo home_url('/business/buildingmanagement/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_6.jpg" alt=""><span>ビル・施設管理事業</span></a></li>
+              <li class="link"><a href="<?php echo home_url('/business/mansion-management/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_5.jpg" alt=""><span>分譲マンション管理事業</span></a></li>
+              <li class="link"><a href="<?php echo home_url('/business/building-management/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_6.jpg" alt=""><span>ビル・施設管理事業</span></a></li>
               <li class="link"><a href="<?php echo home_url('/business/brokerage/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_7.jpg" alt=""><span>仲介事業</span></a></li>
-              <li class="link"><a href="<?php echo home_url('/business/propertymanagement/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_8.jpg" alt=""><span>プロパティマネジメント事業</span></a></li>
+              <li class="link"><a href="<?php echo home_url('/business/property-management/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_8.jpg" alt=""><span>プロパティマネジメント事業</span></a></li>
             </ul>
           </li>
           <li class="menu"><a href="<?php echo home_url('/livemansion/'); ?>">管理マンションにお住まいの方</a>
@@ -37,7 +37,7 @@
           <li class="menu"><a href="<?php echo home_url('/findmansion/'); ?>">マンション管理会社を探している</a>
             <ul class="child_menu">
               <li class="ttl lg"><b>マンション管理会社を探している</b><span>Find a condominium company</span></li>
-              <li class="link lg"><a href="<?php echo home_url('/findmansion/mansionassociate/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_11.jpg" alt=""><span>マンション管理組合様・<br>
+              <li class="link lg"><a href="<?php echo home_url('/findmansion/mansion-associate/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_11.jpg" alt=""><span>マンション管理組合様・<br>
                 デベロッパー様</span></a></li>
             </ul>
           </li>
@@ -46,7 +46,7 @@
               <li class="ttl lg"><b>賃貸物件のオーナー様</b><span>Rental property owner</span></li>
               <li class="link"><a href="<?php echo home_url('/rentalowner/rethink/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_12.jpg" alt=""><span>管理会社を見直したい</span></a></li>
               <li class="link"><a href="<?php echo home_url('/rentalowner/effective/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_13.jpg" alt=""><span>不動産の有効活用について</span></a></li>
-              <li class="link lg"><a href="<?php echo home_url('/rentalowner/freeassessment/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_14.jpg" alt=""><span>賃貸の無料査定</span></a></li>
+              <li class="link lg"><a href="<?php echo home_url('/rentalowner/free-assessment/'); ?>"><img src="<?php bloginfo('template_directory');?>/assets/img/navi_img_14.jpg" alt=""><span>賃貸の無料査定</span></a></li>
             </ul>
           </li>
         </ul>
