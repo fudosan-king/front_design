@@ -123,7 +123,7 @@
                         <div class="col-12 col-lg-6">
                         <a href="<?php echo home_url('/new-graduate/'); ?>" target="" class="box_career">
                     
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/新卒下段バナー.jpeg" alt="新卒下段バナー" class="img-fluid">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/bg_newgraduate.jpg" alt="新卒下段バナー" class="img-fluid">
                             <span>
                             <h3>新卒採用</h3>
                             <p>NEW GRADUATE</p>
@@ -133,7 +133,7 @@
                         <a href="<?php echo home_url('/career/'); ?>" target="" class="box_career">
                     
                     
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/中途バナー小.jpeg" alt="中途バナー小" class="img-fluid">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/bg_career.jpg" alt="中途バナー小" class="img-fluid">
                     
                             <span>
                             <h3>中途採用</h3>
