@@ -27,9 +27,7 @@
                         <li>
                             <a href="<?php echo home_url('/staff-detail/'); ?>">
                             <div class="staff-item">
-                                <div class="staff_img">
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/PRS4471-21-e1654147205256.jpeg" alt="e1654147205256" class="img-fluid">
-                                </div>
+                                <div class="staff_img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/common/PRS4471-21-e1654147205256.jpeg');"></div>
                                 <p class="title">望月 聖矢</p>
                                 <p class="since">2019年中途入社／営業職</p>
                                 <p>販売だけでなく、不動産の多岐にわたる業務に挑戦できる環境</p>
@@ -39,8 +37,7 @@
                         <li>
                             <a href="<?php echo home_url('/staff-detail/'); ?>">
                             <div class="staff-item">
-                                <div class="staff_img">
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/PRS4536-11-e1654753569774.jpeg" alt="e1654753569774" class="img-fluid">
+                                <div class="staff_img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/common/PRS4536-11-e1654753569774.jpeg');">
                                 </div>
                                 <p class="title">佐藤 伶威</p>
                                 <p class="since">2019年新卒入社／営業職</p>
@@ -51,8 +48,7 @@
                         <li>
                             <a href="<?php echo home_url('/staff-detail/'); ?>">
                             <div class="staff-item">
-                                <div class="staff_img">
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/PRS4719-11-e1657695675110.jpeg" alt="e1657695675110" class="img-fluid">
+                                <div class="staff_img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/common/PRS4719-11-e1657695675110.jpeg');">
                                 </div>
                                 <p class="title">石川 真吾</p>
                                 <p class="since">2015年中途入社／設計士</p>
@@ -63,8 +59,7 @@
                         <li>
                             <a href="<?php echo home_url('/staff-detail/'); ?>">
                             <div class="staff-item">
-                                <div class="staff_img">
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/PRS4643-21-e1658981064678.jpeg" alt="e1658981064678" class="img-fluid">
+                                <div class="staff_img" style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/common/PRS4643-21-e1658981064678.jpeg');">
                                 </div>
                                 <p class="title">武田 めぐみ</p>
                                 <p class="since">2012年中途入社／契約管理</p>
