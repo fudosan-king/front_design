@@ -27,7 +27,7 @@
                     </dl>
                     <dl>
                     <dt datetime="2022-04-01">2022-04-01<span class="category news">お知らせ</span></dt>
-                    <dd><a href="omotesando.html">表参道支店におけるマンション管理業務開始のお知らせ</a></dd>
+                    <dd><a href="<?php echo home_url('/omotesando/'); ?>">表参道支店におけるマンション管理業務開始のお知らせ</a></dd>
                     </dl>
                     <dl>
                     <dt datetime="2021-10-01">2021-10-01<span class="category pressrelease">プレスリリース</span></dt>

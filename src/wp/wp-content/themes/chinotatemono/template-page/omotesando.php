@@ -30,7 +30,7 @@
                         弊社マンション管理事業の拡大に伴い、2022年4月1日より表参道支店にてマンション管理業務を開始いたします。<br>
                         皆様に満足していただけるよう、従業員一同、精進してまいりますので、今後もご愛顧のほどよろしくお願いいたします。</p>
                     <p><a href="https://www.chinokanri.co.jp/wp-content/uploads/2022/03/表参道支店のお知らせ.pdf">表参道支店のお知らせ</a></p>
-                    <div class="back-page"><a href="./">&#12298; Back</a></div>
+                    <div class="back-page"><a href="<?php echo home_url('/news/'); ?>">&#12298; Back</a></div>
                     </article>
                 </section>
                 </div>
