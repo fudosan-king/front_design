@@ -10,7 +10,7 @@
         <main> 
 
             <section class="section_banner_submore">
-                <div class="banner_submore" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/新卒下段バナー.jpeg')">
+                <div class="banner_submore" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/bg_newgraduate.jpg')">
                     <div class="caption">
                         <h1>新卒採用</h1>
                         <p>NEW GRADUATE</p>
@@ -39,7 +39,7 @@
                                 <h5 class="mb-0">自社ブランドの新築マンション販売を通して企画・開発・販売に携わることが出来るプロスタイルの営業職。幅広く経験を積みたい・成長したいという意欲のある学生さんのご応募をお待ちしております。</h5>
                                 </div>
                                 <div class="career_img text-center"><img loading="lazy" class="alignnone size-full wp-image-2118 img-fluid"
-                                        src="<?php bloginfo('template_directory');?>/assets/images/common/新卒募集トップ1.jpeg"
+                                        src="<?php bloginfo('template_directory');?>/assets/images/common/recruitment_top1.jpg"
                                         alt="" width="1920" height="774"></div>
                                 <div class="container recruit-container">
                                     <h3>まずは事務作業や集客活動の基礎を学びます。<br>
@@ -247,7 +247,7 @@
                     <div class="col-12 col-lg-6">
                     <a href="<?php echo home_url('/new-graduate/'); ?>" target="" class="box_career">
                 
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/新卒下段バナー.jpeg" alt="新卒下段バナー" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/bg_newgraduate.jpg" alt="新卒下段バナー" class="img-fluid">
                         <span>
                         <h3>新卒採用</h3>
                         <p>NEW GRADUATE</p>
@@ -257,7 +257,7 @@
                     <a href="<?php echo home_url('/career/'); ?>" target="" class="box_career">
                 
                 
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/中途バナー小.jpeg" alt="中途バナー小" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/bg_career.jpg" alt="中途バナー小" class="img-fluid">
                 
                         <span>
                         <h3>中途採用</h3>
