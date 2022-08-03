@@ -6,7 +6,7 @@ a {
 #kv-lower {
     &.recruit {
         height: 660px;
-        background: top/cover url('../images/bg_recruit.jpeg');
+        background: top/cover url('../images/common/bg_recruit.jpeg');
     }
 }
 
@@ -60,10 +60,67 @@ a {
                 }
             }
         }
+
+        &.section-staff {
+            ul {
+                &.staff-archive {
+                    -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                    justify-content: start;
+                    margin-bottom: 60px;
+                    li {
+                        width: calc(100%/4 - 15px);
+                        background: transparent;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        margin-right: 20px;
+                        &:nth-of-type(4n) {
+                            margin-right: 0;
+                        }
+                    }
+                    .staff-item {
+                        .staff_img {
+                            margin-bottom: 30px;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        p {
+                            font-size: 0.675rem;
+                            color: #4F4F4F;
+                            line-height: 24px;
+                            margin-bottom: 0;
+                            font-weight: 400;
+                            font-family: 'Noto Sans JP';
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 5;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            &.title {
+                                font-size: 1rem;
+                                line-height: 36px;
+                                font-weight: 500;
+                                color: #333;
+                                text-align: center;
+                            }
+                            &.since {
+                                font-weight: bold;
+                                text-align: center;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+
     }
     .recruit-container {
         max-width: 1060px;
     }
+
+    
 }
 
 .box_recruitment {
@@ -411,6 +468,165 @@ a {
     }
 }
 
+.staff-single {
+    .container {
+        max-width: 1270px;
+    }
+    .staff_schedule {
+        background: #fff;
+        h2 {
+            padding-top: 30px;
+            margin-bottom: 38px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 2;
+            color: #AE8148;
+        }
+        ul {
+            padding-left: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            margin-bottom: 75px;
+            justify-content: space-evenly;
+            li {
+                margin-right: 31px;
+                max-width: 130px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                .time {
+                    padding: 0 10px;
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 0.75rem;
+                    line-height: 2;
+                    padding-bottom: 5px;
+                    color: #AE8148;
+                }
+                .line {
+                    position: relative;
+                    margin-bottom: 24px;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        border-radius: 50%;
+                        top: 50%;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                        background: #fff;
+                        z-index: 1;
+                        height: 14px;
+                        width: 14px;
+                        border: 1px solid #AE8148;
+                    }
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 50%;
+                        -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        background: #AE8148;
+                        top: 0;
+                        height: 1px;
+                        left: 0;
+                        right: -46px;
+                    }
+                }
+                .info {
+                    h3 {
+                        font-weight: bold;
+                        font-size: 0.875rem;
+                        line-height: 2;
+                        color: #333333;
+                        padding: 0 9px;
+                        text-align: center;
+                        padding-bottom: 10px;
+                        margin-bottom: 0;
+                    }
+                    p {
+                        margin-bottom: 0;
+                        font-weight: 500;
+                        font-size: 0.75rem;
+                        line-height: 1.6;
+                        text-align: justify;
+                        letter-spacing: -0.05em;
+                        color: #4F4F4F;
+                    }
+                }
+            }
+        }
+    }
+    .box_requirements {
+        background: #fff;
+        padding: 30px;
+        max-width: 1060px;
+        margin: auto;
+    }
+}
+
+.staff_single-ct {
+    margin-bottom: 101px;
+}
+
+
+@media (max-width: 991px) {
+    .staff-single {
+        .staff_schedule {
+            ul {
+                display: block;
+                padding-left: 20px;
+                li {
+                    position: relative;
+                    padding-bottom: 10px;
+                    max-width: 100%;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        border-radius: 50%;
+                        top: 6px;
+                        left: -20px;
+                        background: #fff;
+                        z-index: 1;
+                        height: 14px;
+                        width: 14px;
+                        border: 1px solid #AE8148;
+                    }
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        background: #AE8148;
+                        left: -14px;
+                        bottom: 0;
+                        width: 1px;
+                    }
+                    &:first-child {
+                        &::after {
+                            top: 6px;
+                        }
+                    }
+                    .time {
+                        text-align: left;
+                    }
+                    .line {
+                        display: none;
+                    }
+                    .info {
+                        h3 {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 @media (max-width: 768px) {
     .section_recruitmenttype {
         padding-top: 60px;
@@ -455,6 +671,8 @@ a {
     }
 }
 
+
+
 @media (max-width: 767px) {
     .section_banner_submore {
         padding-top: 75px;
@@ -489,6 +707,23 @@ a {
     }
     .recruit-psr_top {
         .section_recruit-psr {
+            &.section-staff {
+                padding: 30px 0;
+                ul {
+                    &.staff-archive {
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        justify-content: center;
+                        li {
+                            width: calc(100%/2 - 15px);
+                            margin-right: 15px;
+                            &:nth-of-type(2n) {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
             ul {
                 li {
                     width: 100%;
@@ -497,6 +732,8 @@ a {
             }
         }
     }
+
+    
     
 }
 
