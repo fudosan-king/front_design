@@ -1029,6 +1029,17 @@ a {
             padding: 10px;
         }
     }
+    .section_content_top {
+        .steps {
+            li {
+                span {
+                    &::before {
+                        margin-left: 2px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 

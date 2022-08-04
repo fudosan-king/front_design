@@ -982,6 +982,10 @@ a {
   .section_app_requirements .box_requirements {
     padding: 10px;
   }
+
+  .section_content_top .steps li span::before {
+    margin-left: 2px;
+  }
 }
 @media (max-width: 767px) {
   .section_banner_submore {
