@@ -73,10 +73,13 @@
                         <h2>次のとおり、駐車場・駐輪場・バイク置場等　の使用を申し込みます。</h2>
         
                         <div class="form-group">
-                            <label for="" class="mb-2">マンション名</label>
+                            <label for="">マンション名</label>
                             <div class="row">
-                                <div class="col-12">
-                                    <input type="text" name="_union_name" class="form-control mb-3" placeholder="">
+                                <div class="col-2 col-lg-1 align-self-center">
+                                    <span class="label_sub">必須</span>
+                                </div>
+                                <div class="col-11 col-lg-11 align-self-center">
+                                    <input type="text" name="_union_name" class="form-control" placeholder="">
                                     <input type="hidden" name="union_name" class="form-control">
                                 </div>
                             </div>
@@ -85,15 +88,15 @@
                         <div class="form-group">
                             <label for="">号室</label>
                             <div class="row">
-                            <div class="col-2 col-lg-1 align-self-center">
-                                <span class="label_sub">必須</span>
-                            </div>
-                            <div class="col-8 col-lg-10 align-self-center">
-                                <input type="text" name="room-number" class="form-control required" placeholder="301">
-                            </div>
-                            <div class="col-2 col-lg-1 align-self-center">
-                                <span>号室</span>
-                            </div>
+                                <div class="col-2 col-lg-1 align-self-center">
+                                    <span class="label_sub">必須</span>
+                                </div>
+                                <div class="col-8 col-lg-10 align-self-center">
+                                    <input type="text" name="room-number" class="form-control required" placeholder="301">
+                                </div>
+                                <div class="col-2 col-lg-1 align-self-center">
+                                    <span>号室</span>
+                                </div>
                             </div>
                         </div>
                         
