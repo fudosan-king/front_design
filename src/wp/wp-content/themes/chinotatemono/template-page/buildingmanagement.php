@@ -30,7 +30,7 @@
                     ３．セキュリティ　・・・　日常管理業務や保安警備業務</p>
                     <section id="maintenance">
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/buildingmanagement_img_1.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/buildingmanagement_img_1.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>ビルメンテナンス</h3>
@@ -63,7 +63,7 @@
                     </section>
                     <section id="cleaning" class="pt8">
                     <div class="column2">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/buildingmanagement_img_2.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/buildingmanagement_img_2.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>クリーニング</h3>
@@ -96,7 +96,7 @@
                     </section>
                     <section id="security" class="pt8">
                     <div class="column2">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/buildingmanagement_img_3.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/buildingmanagement_img_3.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>セキュリティ</h3>

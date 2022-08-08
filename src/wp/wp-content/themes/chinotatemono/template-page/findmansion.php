@@ -23,7 +23,7 @@
                 <div class="narrow">
                 <div class="inner">
                     <div class="block"> <a href="../findmansion/mansionassociate/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/findmansion_img_1.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/findmansion_img_1.jpg" alt=""></div>
                     <p>マンション管理組合様・<br>
                         デベロッパー様</p>
                     </a> </div>

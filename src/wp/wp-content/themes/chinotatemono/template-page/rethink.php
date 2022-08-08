@@ -26,7 +26,7 @@
                     現在の管理会社へ相談しても問題が解決されないと感じたら、是非一度ご相談ください。</p>
                     <section id="timing">
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/rethink_img_1.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/rethink_img_1.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>管理会社変更検討の<br class="pc-only">
@@ -71,7 +71,7 @@
                     </section>
                     <section id="consideration" class="pt8">
                     <div class="column2">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/rethink_img_2.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/rethink_img_2.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>自主管理から管理委託を<br>

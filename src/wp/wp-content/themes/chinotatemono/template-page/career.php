@@ -10,7 +10,7 @@
         <main> 
 
             <section class="section_banner_submore">
-                <div class="banner_submore" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/recruit-contact.jpeg')">
+                <div class="banner_submore" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/recruit-contact.jpeg')">
                     <div class="caption">
                         <h1>中途採用</h1>
                         <p>MID CAREER</p>
@@ -32,7 +32,7 @@
                                                     <div class="recruitment_img">
                                                         <div class="image"
                                                             style="
-                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/1IMG_7002-1-e1652080242651.jpeg');">
+                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/1IMG_7002-1-e1652080242651.jpeg');">
                                                         </div>
                                                         <span>営業職</span>
                                                     </div>
@@ -54,7 +54,7 @@
                                                     <div class="recruitment_img">
                                                         <div class="image"
                                                             style="
-                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/望月さんバナー.jpeg');">
+                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/望月さんバナー.jpeg');">
                                                         </div>
                                                         <span>営業職</span>
                                                     </div>
@@ -76,7 +76,7 @@
                                                     <div class="recruitment_img">
                                                         <div class="image"
                                                             style="
-                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/石川さん.jpeg');">
+                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/石川さん.jpeg');">
                                                         </div>
                                                         <span>内勤職</span>
                                                     </div>
@@ -98,7 +98,7 @@
                                                     <div class="recruitment_img">
                                                         <div class="image"
                                                             style="
-                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/武田さん.jpeg');">
+                                                                background-image:url('<?php bloginfo('template_directory');?>/assets/images/武田さん.jpeg');">
                                                         </div>
                                                         <span>法務(契約管理)</span>
                                                     </div>
@@ -124,7 +124,7 @@
                         <div class="col-12 col-lg-6">
                             <a href="<?php echo home_url('/new-graduate/'); ?>" target="" class="box_career">
                 
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/新卒下段バナー.jpeg" alt="新卒下段バナー"
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/bg_newgraduate.jpg" alt="新卒下段バナー"
                                     class="img-fluid">
                                 <span>
                                     <h3>新卒採用</h3>
@@ -135,7 +135,7 @@
                             <a href="<?php echo home_url('/career/'); ?>" target="" class="box_career">
                 
                 
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/common/中途バナー小.jpeg" alt="中途バナー小"
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/bg_career.jpg" alt="中途バナー小"
                                     class="img-fluid">
                 
                                 <span>

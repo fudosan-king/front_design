@@ -102,7 +102,7 @@
         <a href="../privacypolicy/">プライバシーポリシー</a>
         <small>Copyright © CHINO-TATEMONO.INC. All rights reserved.　</small>
         <div class="logo_img">
-          <img class="img_fluid" src="<?php bloginfo('template_directory');?>/assets/images/common/17004350_01_JP.jpg" alt="">
+          <img class="img_fluid" src="<?php bloginfo('template_directory');?>/assets/images/17004350_01_JP.jpg" alt="">
         </div>
       </div>
     </div>

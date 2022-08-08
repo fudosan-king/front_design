@@ -23,7 +23,7 @@
                 <section id="mansionassociate">
                     <section id="replace">
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_1.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_1.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>管理会社変更(リプレイス)を<br>
@@ -48,15 +48,15 @@
                         <h5 class="mt5">《２．DX（デジタルトランスフォーメーション）化の推進》</h5>
                         <p class="small">当社では、マンション管理業界の管理コストが増加している問題について、DX化の推進が急務と認識しており、より良い効率的なマンション管理ならびに管理組合様の負担削減を目指し、総会のオンライン投票システムやリモート会議、ビジネスチャット、オンライン決裁システム等を導入しております。また、三菱地所グループのイノベリオス社と業務提携し、マンション管理アプリ「KURASEL（クラセル）」の採用もご提案しております。</p>
                         <h5 class="img-ttl mt5">買主は主に個人のお客様</h5>
-                        <div class="mt1"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_2.png" alt="当社・当社グループ会社と売主、買主の図"></div>
+                        <div class="mt1"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_2.png" alt="当社・当社グループ会社と売主、買主の図"></div>
                         <h5 class="mt5">《３．管理組合口座の安心運用のためのルール》</h5>
                         <p class="bold">安心の支払い事前承認システム</p>
                         <p class="small">原則、全ての支払いにおいて事前に理事長に支払い承認を頂くルールを採用しております。</p>
                         <h5 class="img-ttl mt5">マンション管理会社変更の流れ</h5>
                         <div class="mt1">
                             <picture>
-                            <source media="(max-width: 559px)" type="image/jpeg" srcset="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_3_sp.png" alt="">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_3.png" alt="他の管理会社に見積り依頼の流れ、総会（定期・臨時）開催をする図"> </picture>
+                            <source media="(max-width: 559px)" type="image/jpeg" srcset="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_3_sp.png" alt="">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_3.png" alt="他の管理会社に見積り依頼の流れ、総会（定期・臨時）開催をする図"> </picture>
                         </div>
                         <h5 class="mt5">《4．管理組合の収支改善・管理コスト削減のために》</h5>
                         <p class="small">当社では、管理組合の収支改善・管理コスト削減など皆様の負担削減案をご提案しています。<br>
@@ -66,7 +66,7 @@
                     </section>
                     <section class="pt8">
                     <div class="column2">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_4.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_4.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>管理方式の見直しを<br>
@@ -83,7 +83,7 @@
                     </section>
                     <section class="pt8">
                     <div class="column2">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_5.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_5.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>自主管理方式の見直しを<br>
@@ -100,8 +100,8 @@
                         委託することにより組合員の組合運営の負担等は軽減されますが、管理委託費用が発生することになるため、数社へ見積もり依頼を行い比較検討することが必要です。</p>
                         <div class="mt5">
                         <picture>
-                            <source media="(max-width: 559px)" type="image/jpeg" srcset="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_6_sp.png" alt="">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionassociate_img_6.png" alt="他の管理会社に見積り依頼の流れ、総会（定期・臨時）開催をする図"> </picture>
+                            <source media="(max-width: 559px)" type="image/jpeg" srcset="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_6_sp.png" alt="">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/mansionassociate_img_6.png" alt="他の管理会社に見積り依頼の流れ、総会（定期・臨時）開催をする図"> </picture>
                         </div>
                     </div>
                     </section>

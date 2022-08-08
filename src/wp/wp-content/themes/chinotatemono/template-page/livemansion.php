@@ -23,12 +23,12 @@
                 <div class="narrow">
                 <div class="inner">
                     <div class="block"> <a href="../livemansion/service/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/livemansion_img_1.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/livemansion_img_1.jpg" alt=""></div>
                     <p>ご入居中のお客様へのサービス<br>
                         　 専有部サービスのご紹介</p>
                     </a> </div>
                     <div class="block"> <a href="../livemansion/investment/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/livemansion_img_2.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/livemansion_img_2.jpg" alt=""></div>
                     <p>マンションを売りたい・貸したい</p>
                     </a> </div>
                 </div>
