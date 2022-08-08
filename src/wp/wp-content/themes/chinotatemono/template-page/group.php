@@ -22,7 +22,7 @@
                 <div class="container">
                 <section id="group">
                     <div class="tree">
-                    <div class="tree__block"><a href="https://www.propolife.co.jp/" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/images/common/logo_propolife.svg" alt="プロポライフ"></a></div>
+                    <div class="tree__block"><a href="https://www.propolife.co.jp/" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/images/logo_propolife.svg" alt="プロポライフ"></a></div>
                     <div class="tree__list">
                         <div class="item"><a href="">千野建物管理株式会社</a>
                         <p>マンション管理事業・ビル管理事業<br>

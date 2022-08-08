@@ -22,15 +22,15 @@
                 <div class="narrow">
                 <div class="inner">
                     <div class="block"><a href="../rentalowner/rethink/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/rentalowner_img_1.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/rentalowner_img_1.jpg" alt=""></div>
                     <p>管理会社を見直したい</p>
                     </a></div>
                     <div class="block"><a href="../rentalowner/effective/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/rentalowner_img_2.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/rentalowner_img_2.jpg" alt=""></div>
                     <p>不動産の有効活用について</p>
                     </a></div>
                     <div class="block"><a href="../rentalowner/freeassessment/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/rentalowner_img_3.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/rentalowner_img_3.jpg" alt=""></div>
                     <p>賃料の無料査定</p>
                     </a></div>
                 </div>

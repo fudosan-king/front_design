@@ -22,19 +22,19 @@
                 <div class="narrow">
                 <div class="inner">
                     <div class="block"><a href="../business/mansionmanagement/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/business_img_1.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/business_img_1.jpg" alt=""></div>
                     <p>分譲マンション管理事業</p>
                     </a></div>
                     <div class="block"><a href="../business/buildingmanagement/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/business_img_2.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/business_img_2.jpg" alt=""></div>
                     <p>ビル・施設管理事業</p>
                     </a> </div>
                     <div class="block"><a href="../business/brokerage/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/business_img_3.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/business_img_3.jpg" alt=""></div>
                     <p>仲介事業</p>
                     </a></div>
                     <div class="block"><a href="../business/propertymanagement/">
-                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/common/business_img_4.jpg" alt=""></div>
+                    <div class="img-inner"><img src="<?php bloginfo('template_directory');?>/assets/images/business_img_4.jpg" alt=""></div>
                     <p>プロパティマネジメント事業</p>
                     </a></div>
                 </div>

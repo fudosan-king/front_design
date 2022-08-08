@@ -27,7 +27,7 @@
                     私たちは不動産オーナー様の頼れるパートナーとして安定した入居率と資産価値の向上をサポート致します。</p>
                     <section>
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/propertymanagement_img_1.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/propertymanagement_img_1.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>安心な管理内容</h3>
@@ -60,7 +60,7 @@
                     </section>
                     <section>
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/propertymanagement_img_2.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/propertymanagement_img_2.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>建物共有部管理業務</h3>
@@ -91,7 +91,7 @@
                     </section>
                     <section id="contractdetails">
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/propertymanagement_img_3.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/propertymanagement_img_3.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>契約内容のご紹介</h3>
@@ -103,7 +103,7 @@
                     <div class="column3 mt5">
                         <div class="column3__item">
                         <h5 class="img-ttl">借上げシステム</h5>
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/propertymanagement_img_4.png" alt="">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/propertymanagement_img_4.png" alt="">
                         <div class="txt"><p class="small mt2">サブリースとは当社にてオーナー様の不動産を定額にて一括借上げするシステムです。
                             メリットとしましては当社にて家賃保証を致しますので、空室の際も定額の家賃収入がございます。
                             毎月のローンの返済金額が少ない場合は最適の契約です。サブリース契約締結後はオーナー様のお手間は殆どございません。
@@ -115,7 +115,7 @@
                         </div>
                         <div class="column3__item">
                         <h5 class="img-ttl">一般管理委託システム</h5>
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/propertymanagement_img_5.png" alt="">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/propertymanagement_img_5.png" alt="">
                         <div class="txt"><p class="small mt2">集金代行と言われるシステムです。当社がオーナー様の代理となり、募集から不動産のメンテナンスまで行います。
                             メリットとしましては家賃の殆ど（管理委託費用を差し引いた金額）が収入となります。
                             設備不良の窓口も当社となりますので、近年多い天災の際も当社にて一時対応を行い、見積り取得後オーナー様へご提案致します。
@@ -131,7 +131,7 @@
                         </div>
                         <div class="column3__item">
                         <h5 class="img-ttl">一般媒介システム</h5>
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/propertymanagement_img_6.png" alt="">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/propertymanagement_img_6.png" alt="">
                         <div class="txt"><p class="small mt2">一般的な媒介契約では募集・契約のみの対応ですが、当社では更新、退去の対応も行っております。オーナー様が忘れがちな更新のご案内を行い、その際に解約であればすぐにご連絡後、募集を開始致します。メリットとしましては毎月の家賃が全額オーナー様へ入金となります。
                             デメリットとしては家賃が滞納となった際はオーナー様にて回収となります。ただ、こちらの家賃滞納のリスクをなくすため、賃借人に保証会社加入を条件とすることが可能です。</p></div>
                         <div class="inner">
@@ -148,7 +148,7 @@
                     </section>
                     <section>
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/propertymanagement_img_7.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/propertymanagement_img_7.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>リフォーム・リノベーション業務</h3>

@@ -11,7 +11,7 @@
 
             <section class="section_banner_submore">
                 <div class="banner_submore"
-                    style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/中途アイキャッチ.jpeg')">
+                    style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/中途アイキャッチ.jpeg')">
                     <div class="caption">
                         <h1>中途採用</h1>
                         <p>MID CAREER</p>
@@ -44,7 +44,7 @@
                                     </h5>
                                 </div>
                                 <div class="career_img text-center"><img loading="lazy" class="alignnone size-full wp-image-2118 img-fluid"
-                                        src="<?php bloginfo('template_directory');?>/assets/images/common/1IMG_7002-e1652079871122.jpeg"
+                                        src="<?php bloginfo('template_directory');?>/assets/images/1IMG_7002-e1652079871122.jpeg"
                                         alt="" width="1920" height="774"></div>
                                 <div class="container recruit-container">
                                     <h3>ベンチャーのフットワークを生かし、様々な事業に挑戦</h3>
@@ -55,12 +55,12 @@
                                     <div class="d-flex">
                                         <div class="left">
                                             <div class="img-sole"
-                                                style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/common/IMG_7010-3-e1652079958718.jpeg');">
+                                                style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/IMG_7010-3-e1652079958718.jpeg');">
                                             </div>
                                         </div>
                                         <div class="right">
                                             <div class="img-sole"
-                                                style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/common/IMG_6993-1-e1652080006112.jpeg');">
+                                                style="background-image: url('<?php bloginfo('template_directory');?>/assets/images/IMG_6993-1-e1652080006112.jpeg');">
                                             </div>
                                         </div>
                                     </div>
@@ -71,7 +71,7 @@
                                         マーケティングから企画、販売促進まで一気通貫で携わることができ、不動産に関わる総合的な能力を身に着けることが可能です。</p>
                                 </div>
                                 <div class="career_img text-center">
-                                    <img loading="lazy" class="alignnone size-full wp-image-2120 img-fluid" src="<?php bloginfo('template_directory');?>/assets/images/common/IMG_7029-1-e1652080049226.jpeg" alt="IMG_7029-1-e1652080049226" width="1920" height="774"></div>
+                                    <img loading="lazy" class="alignnone size-full wp-image-2120 img-fluid" src="<?php bloginfo('template_directory');?>/assets/images/IMG_7029-1-e1652080049226.jpeg" alt="IMG_7029-1-e1652080049226" width="1920" height="774"></div>
                                 <div class="box_requirements">
                                     <table class="table table-bordered">
                                         <tbody>
@@ -190,7 +190,7 @@
                     <div class="col-12 col-lg-6">
                     <a href="<?php echo home_url('/new-graduate/'); ?>" target="" class="box_career">
                 
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/新卒下段バナー.jpeg" alt="新卒下段バナー" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/bg_newgraduate.jpg" alt="新卒下段バナー" class="img-fluid">
                         <span>
                         <h3>新卒採用</h3>
                         <p>NEW GRADUATE</p>
@@ -200,7 +200,7 @@
                     <a href="<?php echo home_url('/career/'); ?>" target="" class="box_career">
                 
                 
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/中途バナー小.jpeg" alt="中途バナー小" class="img-fluid">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/bg_career.jpg" alt="中途バナー小" class="img-fluid">
                 
                         <span>
                         <h3>中途採用</h3>

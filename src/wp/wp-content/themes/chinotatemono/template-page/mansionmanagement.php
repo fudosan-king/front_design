@@ -24,7 +24,7 @@
                     <p class="main_txt">皆様の快適で安全な暮らしを守るためには適切なマンション管理が重要ですが、これを担うのは共用部分や敷地などの維持管理を目的として区分所有者全員で構成される管理組合です。しかし、管理組合だけでは理想のマンションライフの実現は難しく、マンション管理組合の70％以上はプロである管理会社にその業務の全てを委託しているといわれています。私たちは専門家として、マンションの資産価値の維持向上に努め、建物・設備の保守保全を行い、快適で安心な暮らしをサポートします。</p>
                     <section id="officemanagement">
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_1.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_1.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>事務管理業務</h3>
@@ -106,8 +106,8 @@
                     </div>
                     <h5 class="img-ttl mt5">通常督促業務</h5>
                     <div class="column2">
-                        <div class="img__full"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_2.png" alt=""></div>
-                        <div class="img__full"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_3.png" alt=""></div>
+                        <div class="img__full"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_2.png" alt=""></div>
+                        <div class="img__full"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_3.png" alt=""></div>
                     </div>
                     <h4 class="mt5">特別督促業務</h4>
                     <div class="column2">
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                     <h5 class="img-ttl mt5">特別督促業務</h5>
-                    <div class="column1"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_4.png" alt="理事会・総会決議の表">
+                    <div class="column1"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_4.png" alt="理事会・総会決議の表">
                         <h4 class="mt5">長期修繕計画書の作成</h4>
                         <p class="small">大切な皆様の資産であるマンションを維持管理していく上で、必要不可欠なものが長期修繕計画書です。当社においてはマンション管理組合様からご要望頂き次第、可能な限り長期に渡って快適で安心な生活が長くおくれるよう、計画的な修繕を提案させて頂きます。国交省のガイドラインにおいては5年ごとの見直しが提案されており、建築費の変動や建物の現状を把握したうえで、既存の長期修繕計画書の見直しの支援も可能です。</p>
                         <h4 class="mt5">その他 管理組合運営のサポート</h4>
@@ -140,7 +140,7 @@
                     </section>
                     <section class="pt8">
                     <div class="column2">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_5.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_5.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>管理員・清掃業務</h3>
@@ -178,7 +178,7 @@
                     </section>
                     <section class="pt8">
                             <div class="column2">
-                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_6.jpg" alt=""> </div>
+                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_6.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>各種点検業務</h3>
@@ -220,7 +220,7 @@
                     </section>
                     <section id="emergencysupport" class="pt8">
                         <div class="column2">
-                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_7.jpg" alt=""> </div>
+                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_7.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>緊急時のサポートについて</h3>
@@ -229,7 +229,7 @@
                         </div>
                     </div>
                         <div class="column1 mt5">
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_8.png" alt="理事会・総会決議の表">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_8.png" alt="理事会・総会決議の表">
                             <p>緊急センターおよび警備会社など関係各所と連携を取り、物件担当者が状況を確認しながら対応。<br>
             発生〜対応〜完了のセクション毎に管理組合様へ適宜報告・相談いたします。<br>
             ※対応内容により、別途費用が発生します。</p>
@@ -237,7 +237,7 @@
                     </section>
                     <section class="pt8">
                         <div class="column2">
-                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_9.jpg" alt=""> </div>
+                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_9.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>その他快適な暮らしの為に</h3>
@@ -249,7 +249,7 @@
                     </section>
                     <section class="pt8">
                         <div class="column2">
-                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_10.jpg" alt=""> </div>
+                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_10.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>大規模修繕について</h3>
@@ -259,7 +259,7 @@
                         </div>
                         <h4 class="mt5">修繕工事サポートについて</h4>
                         <div class="column1 mt5">
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/mansionmanagement_img_11.png" alt="大規模修繕工事の表">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/mansionmanagement_img_11.png" alt="大規模修繕工事の表">
                             <h4 class="mt5">ニーズにあわせた適切なコンサルティングでサポート</h4>
                         <p class="small">大切なマンションを20年後、30年後も資産価値を維持し、さらに暮らしやすさを追求していくために、将来に向けて必要な資金を積み立てて準備する指標として長期修繕計画を立案。専門スタッフが厳密な計画を立てて補修や大規模修繕工事をご提案し、具体的に進めていきます。日常的な修繕から大規模修繕、そして建替えに至るまで、一貫したコンサルティングで管理組合様をサポートします。</p>
                         </div>

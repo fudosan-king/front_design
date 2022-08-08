@@ -22,7 +22,7 @@
                     <p class="main_txt">物件探しをされているお客様へご希望の物件をご紹介することが仲介事業となります。</p>
                     <section id="rent">
                     <div class="column2 mt5">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/brokerage_img_1.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/brokerage_img_1.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>賃貸仲介事業</h3>
@@ -56,10 +56,10 @@
                         <p class="small">お客様と携帯電話等の端末でお打合せさせていただきます。<br>
                             ご都合の良い場所や時間で物件の具体的な条件等も相談頂けます。<br>
                             例えばお仕事の休憩中でも、家事の合間でも十分可能です。</p>
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/brokerage_img_2.jpg" alt="" class="mt1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brokerage_img_2.jpg" alt="" class="mt1">
                         <h4 class="mt5">オンライン内見</h4>
                         <p class="small">お客様と担当者とを携帯電話等の端末で繋ぎ、ご希望の物件をオンライン上で内見して頂けます。図面では分からない詳しい設備の内容は勿論、日当たりや周辺環境まで確認頂くことが可能です。また、ご都合が合わない際は、担当者が内見し、お客様のご希望の場所等を動画で撮影してくることも出来ますので、安心してオンラインでの物件探しが可能です。</p>
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/brokerage_img_3.jpg" alt="" class="mt1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brokerage_img_3.jpg" alt="" class="mt1">
                         <h4 class="mt5">オンライン仲介</h4>
                         <p class="small">当社では、来店不要のオンライン仲介も行っております。<br>
                             遠方の方や仕事等で忙しく探す時間が無い等、来店いただくことが難しいお客様は是非ご検討ください。また、来店回数を減らしたい際、一部をオンラインへ変更することも可能です。<br>
@@ -67,12 +67,12 @@
                             賃貸サイトにおいて気になった物件は勿論、希望条件を教えて頂ければ、当社専門スタッフがお探し致します。</p>
                         <h4 class="mt5">IT重説</h4>
                         <p class="small">今まではご来店いただき契約書、重要事項説明の読み合わせを行っておりましたが、オンラインで可能になりました。</p>
-                        <img src="<?php bloginfo('template_directory');?>/assets/images/common/brokerage_img_4.jpg" alt="" class="mt1"> </div>
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brokerage_img_4.jpg" alt="" class="mt1"> </div>
                     </div>
                     </section>
                     <section class="pt8">
                     <div class="column2">
-                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/common/brokerage_img_5.jpg" alt=""></div>
+                        <div class="column2__img"><img src="<?php bloginfo('template_directory');?>/assets/images/brokerage_img_5.jpg" alt=""></div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>売買仲介</h3>

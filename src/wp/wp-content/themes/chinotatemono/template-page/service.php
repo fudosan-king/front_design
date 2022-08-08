@@ -22,7 +22,7 @@
                 <div class="container">
                 <section id="service">
                     <div class="column2">
-                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/common/service_img_1.jpg" alt=""> </div>
+                        <div class="column2__img"> <img src="<?php bloginfo('template_directory');?>/assets/images/service_img_1.jpg" alt=""> </div>
                         <div class="column2__ttl">
                         <div class="inner">
                             <h3>居住者様生活応援サービス</h3>
@@ -51,11 +51,11 @@
                         <div class="column2__txt">
                         <h4>リフォーム・修繕</h4>
                         <p>小規模なリペアから大規模なリフォームまで対応いたします。当社グループ会社には多種多様なリフォーム・リノベーションの設計デザイン、施工を主事業とする企業があり、一級建築士も在籍しております。その為、お客様のニーズや細かい希望に応えることが可能です。</p>
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/service_img_2.jpg" alt="Log Architects" class="mt1">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/service_img_2.jpg" alt="Log Architects" class="mt1">
                             <h4 class="mt5">グループ系列のホテル割引きサービス</h4>
                             <p>当社グループ系列ホテルにて当該ホテルＨＰ記載金額より割引にてご宿泊頂けます。</p>
                             
-                            <img src="<?php bloginfo('template_directory');?>/assets/images/common/service_img_3.jpg" alt="プロスタイル旅館那覇県庁前、プロスタイル旅館横浜馬車道、プロスタイル旅館東京浅草、PROSTYLE TERRACE NAHA" class="mt1">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/service_img_3.jpg" alt="プロスタイル旅館那覇県庁前、プロスタイル旅館横浜馬車道、プロスタイル旅館東京浅草、PROSTYLE TERRACE NAHA" class="mt1">
                         </div>
                     </div>
                 

@@ -3,7 +3,7 @@
         <main> <!-- InstanceBeginEditable name="content" -->
             <!--toppage visual part-->
             <div class="kv">
-                <div class="kv__message"><img src="<?php bloginfo('template_directory');?>/assets/images/common/top_bg1_message.svg" alt="つむぎあい Weaving Together"></div>
+                <div class="kv__message"><img src="<?php bloginfo('template_directory');?>/assets/images/top_bg1_message.svg" alt="つむぎあい Weaving Together"></div>
             </div>
             <!--toppage visual part end-->
             <section id="aboutus">
@@ -11,7 +11,7 @@
                 <h2><span>About us</span>「より遠く、より速く移動する」時代から、<br>
                     「より身近に感じる」時代へ</h2>
                 <hr>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/common/top_bg_about.png" alt="つむぎあい" class="image-fix">
+                <img src="<?php bloginfo('template_directory');?>/assets/images/top_bg_about.png" alt="つむぎあい" class="image-fix">
                 <p>私たち千野建物管理は、<br class="pc-only">マンション管理から賃貸管理・不動産仲介業まで、<br class="pc-only">「住」をテーマにさまざまなサービスを手掛けています。<br>
                     価値観が移ろいやすいこの時代、<br class="pc-only">いち早く「住」とIT技術を融合させることで、<br class="pc-only">多くの方にご満足いただけるサービスを提供してきました。<br>
                     これからも皆様との出会いを大切に重ねながら、<br class="pc-only">一本一本の糸を紡ぐように、<br class="pc-only">より良い住まいと生活環境を提供してまいります。</p>

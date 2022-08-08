@@ -9,7 +9,7 @@
 
         <main> 
             <section class="section_banner_submore">
-                <div class="banner_submore" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/common/recruit-contact.jpeg')">
+                <div class="banner_submore" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/recruit-contact.jpeg')">
                     <div class="caption">
                         <h1>中途採用</h1>
                         <p>MID CAREER</p>
