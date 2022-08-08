@@ -63,7 +63,7 @@
                                                 <button type="button" class="btn btnAgree w-100" id="btnBack"><i class="i_rightwhite rotate"></i> 戻る</button>
                                             </div>
                                             <div class="col-6 col-lg-6">
-                                                <button type="button" class="btn btnAgree" id="btnSubmit" disabled="">送信する <i class="i_rightwhite"></i></button>
+                                                <button type="button" class="btn btnAgree" id="btnSubmit">送信する <i class="i_rightwhite"></i></button>
                                             </div>
                                         </div>
                                     </div>

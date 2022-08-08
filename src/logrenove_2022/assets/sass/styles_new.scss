@@ -570,8 +570,6 @@
     }
 }
 
-
-
 @media (max-width: 768px) {
     .section_search {
         h1 {
@@ -581,5 +579,13 @@
     .frm_mansions .btnAgree .i_rightwhite {
         position: absolute;
         right: 15px;
+    }
+}
+
+.w_btnAgree {
+    .btnAgree {
+        &:first-of-type {
+            background: linear-gradient(269deg, #CFAF6E 0%, #A3864B 100%);
+        }
     }
 }
