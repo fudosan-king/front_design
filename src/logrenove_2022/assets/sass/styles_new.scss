@@ -867,6 +867,7 @@
                 th {
                     width: 100%;
                     display: inline-block;
+                    position: relative;
                 }
                 td {
                     display: inline-block;
@@ -933,6 +934,10 @@
         .modal_frmsearch {
             padding: 0 15px;
             .box_select_item {
+                width: 100%;
+            }
+            .btn_searhconditions {
+                min-width: auto;
                 width: 100%;
             }
         }
