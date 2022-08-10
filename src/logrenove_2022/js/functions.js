@@ -63,3 +63,8 @@ $('#hide-search-input-container').on('click', function (e) {
   $('#search-input-container').addClass('hdn')
   return false;
 });
+
+$(".btn_showhide_accordion").click(function () {
+  $('.w_accordion_search').toggle();
+  $(this).toggleClass('active');
+});
