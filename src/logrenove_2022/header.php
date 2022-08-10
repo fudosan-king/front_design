@@ -351,7 +351,7 @@
               </td>
             </tr>
             <tr>
-              <th>占有面積</th>
+              <th>専有面積</th>
               <td>
                 <div class="box_select w-50">
                   <div class="box_select_item">
