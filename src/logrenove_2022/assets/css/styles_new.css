@@ -752,6 +752,7 @@
   .modal_search table tr th {
     width: 100%;
     display: inline-block;
+    position: relative;
   }
   .modal_search table tr td {
     display: inline-block;
@@ -814,6 +815,10 @@
     padding: 0 15px;
   }
   .modal_search .modal_frmsearch .box_select_item {
+    width: 100%;
+  }
+  .modal_search .modal_frmsearch .btn_searhconditions {
+    min-width: auto;
     width: 100%;
   }
   .modal_search .accordion_search .accordion-body .form-check {
