@@ -973,10 +973,15 @@ header {
 @media (max-width: 768px) {
     .section_banner {
         margin-top: 0;
+        height: 200px;
+        img {
+            height: 200px;
+        }
         
     }
     .section_topinfo {
         margin-top: 0;
+        padding-top: 0;
     }
     .section_list_templates {
         padding-top: 0;
