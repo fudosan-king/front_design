@@ -60,9 +60,9 @@
                                 </ul>
                                 <h2 class="title">徒歩15分以内に8駅5路線利用可能なアクセシビリティ</h2>
                                 <div class="box_img">
-                                    <img src="images/train_acess.png" alt="train_acess" class="img-fluid">
+                                    <img src="images/train_acess.svg" alt="train_acess" class="img-fluid">
                                 </div>
-                                <ul class="list_color">
+                                <ul class="list_color ps-0">
                                     <li><span class="dark_orange"></span> 都営浅草線「蔵前」駅（A0出入口）徒歩5分</li>
                                     <li><span class="pink"></span> 都営大江戸線「蔵前」駅（A6出入口）徒歩7分</li>
                                     <li><span class="pink"></span> 都営浅草線「浅草橋」駅（A4出入口）徒歩11分</li>
@@ -85,7 +85,7 @@
                             <div class="box_trainline">
                                 <h2><img src="images/icon_a.png" alt="icon_a" class="img-fluid"> 都営浅草線「蔵前」駅利用</h2>
                                 <div class="box_img">
-                                    <img src="images/asakusa_line.png" alt="asakusa_line" class="img-fluid">
+                                    <img src="images/asakusa_line.svg" alt="asakusa_line" class="img-fluid" width="693">
                                 </div>
                                 <ul>
                                     <li>
@@ -136,7 +136,7 @@
                             <div class="box_trainline">
                                 <h2><img src="images/icon_e.png" alt="icon_a" class="img-fluid"> 都営大江戸線「蔵前」駅利用</h2>
                                 <div class="box_img">
-                                    <img src="images/oedo_line.png" alt="oedo_line" class="img-fluid">
+                                    <img src="images/oedo_line.svg" alt="oedo_line" class="img-fluid" width="754">
                                 </div>
                                 <ul>
                                     <li>
