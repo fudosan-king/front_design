@@ -423,6 +423,314 @@
 
                             </div>
 
+                            <form id="frm_services" class="frm_services frm_mansions property" data-form-type="estate" action="" method="POST" accept-charset="utf-8">
+                                <input type="hidden" name="origin_url" value="https://www.logrenove.jp/estates/48602">
+                                <input type="hidden" name="estate_status" value="募集中">
+                                <input type="hidden" name="address" value="東京都新宿区下落合 4-3-16">
+                                <input type="hidden" name="price" value="10,580万円">
+                                <input type="hidden" name="square_meters" value="3LDK">
+                                <input type="hidden" name="estate_number" value="208号室">
+
+                                <input type="hidden" name="estate_name" value="エンブレム下落合208号室">
+
+                                <h2>エンブレム下落合208号室</h2>
+                                <p class="description">弊社では、WEBサイト未公開の「シークレット物件」も多数取り揃えております。<br>弊社コンシェルジュまでお気軽にお問合せください。</p>
+
+                                <div class="data-input frm_mansions_content" id="input-form">
+                                            <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">お問合わせ内容 <span>(必須)</span></label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <div class="row">
+                                                    <div class="col-6 col-lg-6">
+                                                        <div class="custom-control custom-radio">
+                                                            <input type="radio" id="request_item2" name="request_item[]" class="custom-control-input" value="資料請求" checked="">
+                                                            <label class="custom-control-label" for="request_item2">資料請求</label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6 col-lg-6">
+                                                        <div class="custom-control custom-radio">
+                                                            <input type="radio" id="request_item1" name="request_item[]" class="custom-control-input" value="来場予約">
+                                                            <label class="custom-control-label" for="request_item1">来場予約</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <input type="hidden" name="request_item" value="来場予約">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">お名前 <span>(必須)</span></label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <div class="row mb-2 mb-lg-0">
+                                                            <div class="col-2 col-lg-2 align-self-center">
+                                                                <p class="sub_lable">姓</p>
+                                                            </div>
+                                                            <div class="col-10 col-lg-10 align-self-center">
+                                                                <input type="text" name="last_name" class="form-control required" placeholder="例：山田" required="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-6">
+                                                        <div class="row">
+                                                            <div class="col-2 align-self-center">
+                                                                <p class="sub_lable">名</p>
+                                                            </div>
+                                                            <div class="col-10 align-self-center">
+                                                                <input type="text" name="first_name" class="form-control required" placeholder="例：太郎" required="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">メールアドレス <span>(必須)</span></label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <input type="email" name="email" class="form-control required" placeholder="例：◯◯◯◯◯◯@xxxxxxxx.jp" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">電話番号 <span>(必須)</span></label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <input type="tel" name="phone" class="form-control required" placeholder="例：08000000000">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">郵便番号 </label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <input type="text" name="zip_code" class="form-control" placeholder="例：1234567" onkeyup="AjaxZip3.zip2addr(this,'','pref','city');">
+                                                    </div>
+                                                    <div class="col-12 col-lg-6">
+                                                        <button type="button" class="btn btnzipcode" onclick="AjaxZip3.zip2addr('zip_code','','pref','city');"> <span>郵便番号から住所を自動的入力</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">都道府県 </label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <select name="pref" class="form-control custom-select">
+                                                    <option value="--">▼ 選択してください </option>
+                                                    <option value="北海道">北海道</option>
+                                                    <option value="青森県">青森県</option>
+                                                    <option value="岩手県">岩手県</option>
+                                                    <option value="宮城県">宮城県</option>
+                                                    <option value="秋田県">秋田県</option>
+                                                    <option value="山形県">山形県</option>
+                                                    <option value="福島県">福島県</option>
+                                                    <option value="茨城県">茨城県</option>
+                                                    <option value="栃木県">栃木県</option>
+                                                    <option value="群馬県">群馬県</option>
+                                                    <option value="埼玉県">埼玉県</option>
+                                                    <option value="千葉県">千葉県</option>
+                                                    <option value="東京都">東京都</option>
+                                                    <option value="神奈川県">神奈川県</option>
+                                                    <option value="新潟県">新潟県</option>
+                                                    <option value="山梨県">山梨県</option>
+                                                    <option value="長野県">長野県</option>
+                                                    <option value="富山県">富山県</option>
+                                                    <option value="石川県">石川県</option>
+                                                    <option value="福井県">福井県</option>
+                                                    <option value="岐阜県">岐阜県</option>
+                                                    <option value="静岡県">静岡県</option>
+                                                    <option value="愛知県">愛知県</option>
+                                                    <option value="三重県">三重県</option>
+                                                    <option value="滋賀県">滋賀県</option>
+                                                    <option value="京都府">京都府</option>
+                                                    <option value="大阪府">大阪府</option>
+                                                    <option value="兵庫県">兵庫県</option>
+                                                    <option value="奈良県">奈良県</option>
+                                                    <option value="和歌山県">和歌山県</option>
+                                                    <option value="鳥取県">鳥取県</option>
+                                                    <option value="島根県">島根県</option>
+                                                    <option value="岡山県">岡山県</option>
+                                                    <option value="広島県">広島県</option>
+                                                    <option value="山口県">山口県</option>
+                                                    <option value="徳島県">徳島県</option>
+                                                    <option value="香川県">香川県</option>
+                                                    <option value="愛媛県">愛媛県</option>
+                                                    <option value="高知県">高知県</option>
+                                                    <option value="福岡県">福岡県</option>
+                                                    <option value="佐賀県">佐賀県</option>
+                                                    <option value="長崎県">長崎県</option>
+                                                    <option value="熊本県">熊本県</option>
+                                                    <option value="大分県">大分県</option>
+                                                    <option value="宮崎県">宮崎県</option>
+                                                    <option value="鹿児島県">鹿児島県</option>
+                                                    <option value="沖縄県">沖縄県</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">住所 </label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <input type="text" name="city" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">建物名・号室 </label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <input type="text" name="building_room_name" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                            <div class="form-group">
+                                        <label class="mb-2" for="">その他お問い合わせ</label>
+                                        <textarea name="request_content" id="" class="form-control" cols="30" rows="8" placeholder="ご質問やご希望があればご記入ください。"></textarea>
+                                    </div>
+
+                                    <div class="box_content_footer">
+                                        <p class="primary_policy">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。
+                                            個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.propolife.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
+                                            をご覧ください。また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
+                                        <div class="form-group mb-3">
+                                            <div class="custom-control custom-checkbox w_checkbox">
+                                                <input type="checkbox" name="agree_terms" class="custom-control-input required" id="agree_terms" value="agree">
+                                                <label class="custom-control-label agree_terms" for="agree_terms">同意する</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group text-center mb-0">
+                                            <button type="button" class="btn btnAgree custom" id="btnAgree">上記に同意して確認画面へ <i class="i_rightwhite"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <section class="data-confirm" style="display: none;">
+
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                                        <tr>
+                                                <td width="50%">
+                                                    <label>お問合わせ内容</label>
+                                                </td>
+                                                <td class="confirm-text">
+                                                    <span class="cfr" data-name="request_item[]"></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td width="50%">
+                                                    <label>希望日時</label>
+                                                </td>
+                                                <td class="confirm-text">
+                                                    <span class="cfr" data-name="visit_date"></span> <span class="cfr" data-name="visit_time"></span>
+                                                </td>
+                                            </tr>
+                                                        <tr>
+                                                <td width="50%">
+                                                    <label>お名前</label>
+                                                </td>
+                                                <td class="confirm-text">
+                                                <span class="cfr" data-name="last_name"></span> <span class="cfr" data-name="first_name"></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td width="50%">
+                                                    <label>メールアドレス</label>
+                                                </td>
+                                                <td class="confirm-text">
+                                                <span class="cfr" data-name="email"></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td width="50%">
+                                                    <label>電話番号</label>
+                                                </td>
+                                                <td class="confirm-text">
+                                                <span class="cfr" data-name="phone"></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td width="50%">
+                                                    <label>ご住所</label>
+                                                </td>
+                                                <td class="confirm-text">
+                                                    <span class="cfr" data-name="zip_code"></span><br>
+                                                    <span class="cfr" data-name="pref"></span><br>
+                                                    <span class="cfr" data-name="city"></span><br>
+                                                    <span class="cfr" data-name="building_room_name"></span>
+                                                </td>
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td width="50%">
+                                                    <label>その他のお問合わせ</label>
+                                                </td>
+                                                <td class="confirm-text">
+                                                <span class="cfr" data-name="request_content"></span>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                    <div class="box_content_footer mt-3">
+                                        <div class="form-group mt-5 mb-2 text-center">
+                                            <div id="reCAPTCHAv2" class="g-recaptcha" style="display: inline-block;"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfB6I0aAAAAAElo0TdPW-66NuzIB5QXc7YNIOvl&amp;co=aHR0cHM6Ly93d3cubG9ncmVub3ZlLmpwOjQ0Mw..&amp;hl=ja&amp;v=PRMRaAwB3KlylGQR57Dyk-pF&amp;size=normal&amp;cb=cwl5sewfcirh" width="304" height="78" role="presentation" name="a-7i46nf9k6jum" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                                            <input type="hidden" id="token-recaptcha" name="validate-recaptcha" value="">
+                                        </div>
+
+                                        <div class="form-group text-center w_btnAgree">
+                                            <div class="row">
+                                                <div class="col-6 col-lg-6">
+                                                    <button type="button" class="btn btnAgree custom" id="btnBack"><i class="i_rightwhite rotate"></i> 戻る</button>
+                                                </div>
+                                                <div class="col-6 col-lg-6">
+                                                    <button type="button" class="btn btnAgree" id="btnSubmit" disabled="">送信する <i class="i_rightwhite"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </form>
+
                             <div class="box_map">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.67495289564!2d139.71906685125276!3d35.66037928010212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b6530fa5ef5%3A0x2c0355e32dbc3abf!2s2-ch%C5%8Dme-24-25%20Nishiazabu%2C%20Minato%20City%2C%20Tokyo%20106-0031%2C%20Japan!5e0!3m2!1sen!2s!4v1649149453438!5m2!1sen!2s" width="100%" height="523" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <div class="row">

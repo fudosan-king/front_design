@@ -445,6 +445,7 @@
         .description {
             margin-bottom: 30px;
             font-size: 0.75em;
+            line-height: 1.5em;
         }
         .btn_auto {
             padding-left: 0;
@@ -947,6 +948,45 @@
                 .form-check {
                     padding-left: 40px;
                 }
+            }
+        }
+    }
+}
+
+
+header {
+    .navbar {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 820px) {
+    header {
+        .navbar {
+            position: relative;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .section_banner {
+        margin-top: 0;
+        
+    }
+    .section_topinfo {
+        margin-top: 0;
+    }
+    .section_list_templates {
+        padding-top: 0;
+    }
+    .frm_mansions {
+        margin: 60px 0;
+        .box_content_footer {
+            .primary_policy {
+                line-height: 1.5em;
+                font-size: 0.625em;
             }
         }
     }

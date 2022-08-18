@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-lg bg-white fixed-top">
+  <nav class="navbar navbar-expand-lg bg-white">
     <div class="container relative">
       <a class="navbar-brand" href="index.php"><img src="images/icons/LogRenove_logo.svg" alt="LogRenove_logo" class="img-fluid" width="210"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
