@@ -39,9 +39,7 @@
         </div>
       </div> -->
 
-      <a href="#modal_search" class="btn_search" data-bs-toggle="modal">
-        <img src="images/icons/i_search.svg" alt="i_search" class="img-fluid" width="16">
-      </a>
+      <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
       
     </div>
   </nav>
@@ -73,10 +71,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="search-headingOne">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#search-collapseOne" aria-expanded="false" aria-controls="search-collapseOne">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="Shibuya_Yoyogiarea">
-                          <label class="form-check-label" for="Shibuya_Yoyogiarea">渋谷・代々木エリア</label>
-                        </div>
+                        渋谷・代々木エリア
                       </button>
                     </h2>
                     <div id="search-collapseOne" class="accordion-collapse collapse" aria-labelledby="search-headingOne" data-bs-parent="#accordion_search">
@@ -112,10 +107,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="search-headingTwo">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#search-collapseTwo" aria-expanded="false" aria-controls="search-collapseTwo">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="MinatoWard_CentralArea">
-                          <label class="form-check-label" for="MinatoWard_CentralArea">港区・都心エリア</label>
-                        </div>
+                        港区・都心エリア
                       </button>
                     </h2>
                     <div id="search-collapseTwo" class="accordion-collapse collapse" aria-labelledby="search-headingTwo" data-bs-parent="#accordion_search">
@@ -147,10 +139,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="search-headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#search-collapseThree" aria-expanded="false" aria-controls="search-collapseThree">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="Chiyoda_Shinjuku_Bunkyo">
-                          <label class="form-check-label" for="Chiyoda_Shinjuku_Bunkyo">千代田・新宿・文京エリア</label>
-                        </div>
+                        千代田・新宿・文京エリア
                       </button>
                     </h2>
                     <div id="search-collapseThree" class="accordion-collapse collapse" aria-labelledby="search-headingThree" data-bs-parent="#accordion_search">
@@ -182,10 +171,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="search-headingFour">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#search-collapseFour" aria-expanded="false" aria-controls="search-collapseFour">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="Meguro_Setagaya_Jonanarea">
-                          <label class="form-check-label" for="Meguro_Setagaya_Jonanarea">目黒・世田谷・城南エリア</label>
-                        </div>
+                        目黒・世田谷・城南エリア
                       </button>
                     </h2>
                     <div id="search-collapseFour" class="accordion-collapse collapse" aria-labelledby="search-headingFour" data-bs-parent="#accordion_search">
@@ -221,10 +207,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="search-headingFive">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#search-collapseFive" aria-expanded="false" aria-controls="search-collapseFive">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="Ginza_Toranomon_Nihonbashiarea">
-                          <label class="form-check-label" for="Ginza_Toranomon_Nihonbashiarea">銀座・虎ノ門・日本橋エリア</label>
-                        </div>
+                        銀座・虎ノ門・日本橋エリア
                       </button>
                     </h2>
                     <div id="search-collapseFive" class="accordion-collapse collapse" aria-labelledby="search-headingFive" data-bs-parent="#accordion_search">
@@ -260,10 +243,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="search-headingSix">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#search-collapseSix" aria-expanded="false" aria-controls="search-collapseSix">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="Gulfarea">
-                          <label class="form-check-label" for="Gulfarea">湾岸エリア</label>
-                        </div>
+                        湾岸エリア
                       </button>
                     </h2>
                     <div id="search-collapseSix" class="accordion-collapse collapse" aria-labelledby="search-headingSix" data-bs-parent="#accordion_search">
@@ -291,10 +271,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="search-headingSeven">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#search-collapseSeven" aria-expanded="false" aria-controls="search-collapseSeven">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="Suginami_Kichijojiarea">
-                          <label class="form-check-label" for="Suginami_Kichijojiarea">杉並・吉祥寺エリア</label>
-                        </div>
+                        杉並・吉祥寺エリア
                       </button>
                     </h2>
                     <div id="search-collapseSeven" class="accordion-collapse collapse" aria-labelledby="search-headingSeven" data-bs-parent="#accordion_search">
@@ -380,11 +357,11 @@
                 <div class="box_select list">
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">4DK ～ 4LDK</label>
+                    <label class="form-check-label" for="inlineCheckbox1">1R ～ 1K </label>
                   </div>
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label" for="inlineCheckbox2">5LDK以上</label>
+                    <label class="form-check-label" for="inlineCheckbox2">1DK ～ 1LDK</label>
                   </div>
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
@@ -396,11 +373,11 @@
                   </div>
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-                    <label class="form-check-label" for="inlineCheckbox5">1R~1K</label>
+                    <label class="form-check-label" for="inlineCheckbox5">4DK ～ 4LDK</label>
                   </div>
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
-                    <label class="form-check-label" for="inlineCheckbox6">1DK ～ 1LDK</label>
+                    <label class="form-check-label" for="inlineCheckbox6">5LDK以上</label>
                   </div>
                 </div>
               </td>
