@@ -501,6 +501,28 @@
   background: linear-gradient(269deg, #CFAF6E 0%, #A3864B 100%);
 }
 
+.btn_search {
+  background: #424242;
+  padding: 7px 13px;
+  font-weight: 700;
+  font-size: 0.75em;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.btn_search:hover {
+  color: #fff;
+  background: #1d1d1d;
+}
+.btn_search img {
+  margin-right: 5px;
+}
+
 .modal_search .btn-close {
   opacity: 1;
 }
@@ -620,6 +642,9 @@
 }
 .accordion_search .accordion-button {
   padding: 10px;
+  font-size: 0.59em;
+  line-height: 1em;
+  font-weight: 600;
 }
 .accordion_search .accordion-button::after {
   border-radius: 100px;
@@ -634,6 +659,7 @@
 }
 .accordion_search .accordion-button:not(.collapsed) {
   background: #fff;
+  color: #424242;
 }
 .accordion_search .accordion-button:not(.collapsed)::after {
   background: url("../images/icons/i_minus.svg") no-repeat;
@@ -645,7 +671,7 @@
 }
 .accordion_search .accordion-body .form-check {
   border-bottom: 1px solid #e0e0e0;
-  padding: 5px 0 10px 10px;
+  padding: 5px 0 10px 40px;
 }
 .accordion_search .accordion-body .form-check:last-of-type {
   border-bottom: none;
@@ -691,7 +717,7 @@
 
 @media (max-width: 768px) {
   .btn_search {
-    margin-right: 40px;
+    right: 50px;
   }
 
   .navbar-toggler {

@@ -594,8 +594,27 @@
 
 // Search modal
 .btn_search {
-
+    background: #424242;
+    padding: 7px 13px;
+    font-weight: 700;
+    font-size: 0.75em;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    &:hover {
+        color: #fff;
+        background: #1d1d1d;
+    }
+    img {
+        margin-right: 5px;
+    }
 }
+
 .modal_search {
     .btn-close {
         opacity: 1;
@@ -722,6 +741,9 @@
     }
     .accordion-button {
         padding: 10px;
+        font-size: 0.59em;
+        line-height: 1em;
+        font-weight: 600;
         &::after {
             border-radius: 100px;
             width: 20px;
@@ -738,18 +760,20 @@
         }
         &:not(.collapsed) {
             background: #fff;
+            color: #424242;
             &::after {
                 background: url('../images/icons/i_minus.svg') no-repeat;
                 background-size: 100%;
                 background-color: #fff;
             }
         }
+        
     }
     .accordion-body {
         padding: 0;
         .form-check {
             border-bottom: 1px solid #e0e0e0;
-            padding: 5px 0 10px 10px;
+            padding: 5px 0 10px 40px;
             &:last-of-type {
                 border-bottom: none;
             }
@@ -806,7 +830,7 @@
 
 @media (max-width: 768px) {
     .btn_search {
-        margin-right: 40px;
+        right: 50px;
     }
     .navbar-toggler {
         position: absolute;
