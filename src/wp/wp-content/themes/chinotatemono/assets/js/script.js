@@ -168,4 +168,6 @@ $('.kv__message img').delay(600).fadeIn(2000);
 });
 
 
-
+$(".nav-tabs .nav-link.active").click(function () {
+  $(".nav_tabs_content_sm").toggle();
+});
