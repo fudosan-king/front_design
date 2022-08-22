@@ -1033,3 +1033,46 @@ a {
   padding-right: 5px;
   margin-right: 3px;
 }
+
+.btn_showhide_tab {
+  display: none;
+  background: #0180CD;
+  color: #fff;
+  padding: 15px;
+  border-radius: 0;
+  text-transform: uppercase;
+  position: relative;
+  /* horizontal line */
+}
+.btn_showhide_tab:focus, .btn_showhide_tab:hover {
+  box-shadow: none;
+  color: #fff;
+}
+.btn_showhide_tab::before, .btn_showhide_tab::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  transition: transform 0.25s ease-out;
+}
+.btn_showhide_tab::before {
+  top: 0;
+  bottom: 0;
+  right: 18px;
+  width: 2px;
+  height: 20px;
+  margin: auto;
+}
+.btn_showhide_tab::after {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 9px;
+  width: 20px;
+  height: 2px;
+}
+
+@media (max-width: 768px) {
+  .nav_tab_content {
+    display: none;
+  }
+}
