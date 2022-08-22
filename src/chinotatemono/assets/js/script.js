@@ -231,5 +231,5 @@ $(function ($) {
 
 
 $(".nav-tabs .nav-link.active").click(function () {
-  $(".nav_tab_content").toggle();
+  $(".nav_tabs_content_sm").toggle();
 });
