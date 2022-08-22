@@ -12,6 +12,11 @@
                         <div class="col-12 col-lg-12">
                             <h2 class="title">マンション一覧</h2>
                             <p class="subtitle">築浅から築古まで、立地条件に優れ、管理状態も良好なマンションをリストアップ。都心部で駅に近い、資産価値が下がりにくいマンションを中心に、紹介していきます。</p>
+                            <p class="d-flex justify-content-end mb-4">
+                                <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
+                            </p>
+                            
+
                             <ul class="list_content mansions">
                                 <li>
                                     <a href="mansions_detail.php">

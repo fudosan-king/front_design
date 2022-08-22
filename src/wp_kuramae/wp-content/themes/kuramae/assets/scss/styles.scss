@@ -3975,3 +3975,112 @@ a.disable {
     }
   }
 }
+
+.template {
+  &.limited {
+    .container {
+      max-width: 885px;
+    }
+    .header_inquiry {
+      padding-top: 150px;
+      padding-bottom: 60px;
+      h3 {
+        margin-bottom: 40px;
+      }
+      p {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 1em;
+        line-height: 2.3em;
+        color: #333333;
+      }
+    }
+    .section_specialmovie {
+      background: #fff;
+      padding-top: 160px;
+      padding-bottom: 60px;
+      h2 {
+        font-weight: normal;
+        font-size: 2.25em;
+        letter-spacing: 0.05em;
+        font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+      }
+      .box_movie {
+        position: relative;
+        z-index: 1;
+        p {
+          &.des_movie {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .list_catalog {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        li {
+          margin-right: 20px;
+          width: 50%;
+          &:last-of-type {
+            margin-right: 0;
+          }
+          a {
+            display: block;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            background: #BDBDBD;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+            img {
+              width: 100%;
+              height: 300px;
+              object-fit: cover;
+            }
+          }
+          p {
+            margin-bottom: 0;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1em;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .template {
+    &.limited {
+      .header_inquiry {
+        h3 {
+          font-size: 1.8em;
+        }
+        p {
+          font-size: 0.75em;
+        }
+      }
+      .section_specialmovie {
+        padding-top: 40px;
+        h2 {
+          font-size: 1.8em;
+        }
+        .box_movie {
+          &::before {
+            bottom: -50px;
+          }
+        }
+        .list_catalog {
+          flex-direction: column;
+          li {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}

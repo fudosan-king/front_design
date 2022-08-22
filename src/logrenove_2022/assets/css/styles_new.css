@@ -508,12 +508,10 @@
   font-size: 0.75em;
   color: #fff;
   text-decoration: none;
-  display: flex;
+  display: block;
   align-items: center;
   border-radius: 3px;
-  position: absolute;
-  right: 0;
-  top: 0;
+  max-width: 130px;
 }
 .btn_search:hover {
   color: #fff;
