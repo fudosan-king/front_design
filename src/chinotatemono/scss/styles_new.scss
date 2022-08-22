@@ -1113,3 +1113,46 @@ a {
     }
 }
 
+.btn_showhide_tab {
+    display: none;
+    background: #0180CD;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0;
+    text-transform: uppercase;
+    position: relative;
+    &:focus, &:hover {
+        box-shadow: none;
+        color: #fff;
+    }
+    &::before, &::after{
+        content: "";
+        position: absolute;
+        background-color: white;
+        transition: transform 0.25s ease-out;
+    }
+    &::before {
+        top: 0;
+        bottom: 0;
+        right: 18px;
+        width: 2px;
+        height: 20px;
+        margin: auto;
+    }
+    /* horizontal line */
+    &::after {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 9px;
+        width: 20px;
+        height: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav_tab_content {
+        display: none;
+    }
+    
+}
