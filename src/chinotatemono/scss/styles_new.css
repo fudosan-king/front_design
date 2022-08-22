@@ -1072,7 +1072,11 @@ a {
 }
 
 @media (max-width: 768px) {
-  .nav_tab_content {
+  .nav_tabs_sm {
+    display: block;
+  }
+
+  .nav_tabs_content_sm {
     display: none;
   }
 }
