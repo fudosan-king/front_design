@@ -38,8 +38,6 @@
           </div>
         </div>
       </div> -->
-
-      <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
       
     </div>
   </nav>

@@ -12,6 +12,9 @@
                         <div class="col-12 col-lg-12">
                             <h2 class="title">物件一覧</h2>
                             <p class="subtitle">販売中の中古マンションのなかから、LogRenoveが上質な物件だけをセレクト。都心部で駅に近く、なおかつ専有面積が広い――そんな希少物件を豊富な写真とともに、わかりやすく解説していきます。</p>
+                            <p class="d-flex justify-content-end mb-4">
+                                <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
+                            </p>
                             <ul class="list_content">
                                 <li>
                                     <a href="estates_detail.php">
