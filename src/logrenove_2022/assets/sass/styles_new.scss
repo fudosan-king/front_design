@@ -806,7 +806,7 @@
     }
 }
 .btn_showhide_accordion {
-    background: url('../images/icons/i_add.svg') no-repeat;
+    background: url('../images/icons/i_minus.svg') no-repeat;
     background-size: 100%;
     width: 20px;
     height: 20px;
@@ -816,7 +816,7 @@
     transition: transform .2s ease-in-out;
     display: none;
     &.active {
-        background: url('../images/icons/i_minus.svg') no-repeat;
+        background: url('../images/icons/i_add.svg') no-repeat;
         background-size: 100%;
         width: 20px;
         height: 20px;
