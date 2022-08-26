@@ -155,7 +155,7 @@
             </section>
 
             <section class="section_activerelax">
-                <img src="images/bg_activerelax.jpg" alt="activerelax" class="img-fluid w-100">
+                <img src="images/bg_top.jpg" alt="bg_top" class="img-fluid w-100">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-9">
