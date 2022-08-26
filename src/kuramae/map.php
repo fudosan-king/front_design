@@ -49,7 +49,7 @@
                             <div class="col-12 col-lg-12">
                                 <h2 class="title">現地案内図</h2>
                                 <div class="box_map">
-                                    <img src="images/map.svg" alt="map" class="img-fluid">
+                                    <img src="images/map.jpg" alt="map" class="img-fluid w-100">
                                 </div>
                             </div>
                         </div>
