@@ -4180,6 +4180,18 @@ a.disable {
     width: 50%;
     margin-right: 25px;
     display: flex;
+    position: relative;
+    padding: 30px 45px;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(147, 129, 82, .1);
+      width: 100%;
+      height: 70%;
+    }
     &:last-of-type {
       margin-right: 0;
     }
@@ -4205,6 +4217,7 @@ a.disable {
         font-weight: 700;
         line-height: 1.3em;
         width: 60%;
+        margin-top: 25px;
       }
       .btn_checkit {
         font-size: 0.875em;
@@ -4247,6 +4260,17 @@ a.disable {
     &:last-of-type {
       margin-right: 0;
     }
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin: auto;
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(110.97deg, #B48856 0.1%, #AD7D36 11.74%, #C99950 28.24%, #DBB963 41.96%, #E1C06B 51.08%, #DBB963 59.81%, #C99950 72.73%, #AD7D36 88.2%, #B48856 99.83%);
+    }
     &::before {
       content: '';
       position: absolute;
@@ -4280,6 +4304,8 @@ a.disable {
       list-style: none;
       display: flex;
       justify-content: center;
+      position: relative;
+      z-index: 10;
       li {
         margin-right: 10px;
         &:last-of-type {
@@ -4549,6 +4575,7 @@ a.disable {
         margin-right: 0;
         margin-bottom: 30px;
         width: 100%;
+        padding: 15px;
         .vr_video {
           width: 100%;
           height: auto;
@@ -4563,6 +4590,7 @@ a.disable {
           h3 {
             width: 100%;
             font-size: 1.3em;
+            margin-top: 0;
           }
         }
       }
