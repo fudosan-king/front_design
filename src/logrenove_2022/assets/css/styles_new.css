@@ -891,3 +891,44 @@ header .navbar {
     font-size: 0.625em;
   }
 }
+.box_searchcondition_top {
+  padding: 15px;
+  background: #F6F6F6;
+  margin-bottom: 15px;
+}
+.box_searchcondition_top h3 {
+  font-weight: 700;
+  color: #424242;
+  background: #fff;
+  padding: 5px 10px;
+}
+.box_searchcondition_top p {
+  margin-bottom: 5px;
+  font-size: 0.875em;
+  color: #9B9B9B;
+}
+.box_searchcondition_top p:last-of-type {
+  margin-bottom: 0;
+}
+.box_searchcondition_top p span {
+  font-weight: 700;
+  color: #424242;
+}
+
+@media (max-width: 768px) {
+  .box_searchcondition_top h3 {
+    font-size: 0.875em;
+    text-align: center;
+  }
+
+  .modal_search table tr td.w_accordion_search {
+    display: none;
+  }
+
+  .btn_showhide_accordion {
+    background-image: url("../images/icons/i_add.svg");
+  }
+  .btn_showhide_accordion.active {
+    background-image: url("../images/icons/i_minus.svg");
+  }
+}
