@@ -150,6 +150,124 @@
         </div>
     </section>
 
+    <section class="section_activerelax">
+        <img src="<?php bloginfo('template_directory');?>/assets/images/bg_top.jpg" alt="bg_top" class="img-fluid w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <div class="activerelax_content" data-aos="fade-down" data-aos-duration="3000">
+                        <ul class="list_global">
+                            <li><span>PROSTYLE</span></li>
+                            <li><span>KURAMAE</span></li>
+                            <li class="active"><span>LOCATION.01</span></li>
+                        </ul>
+                        <h2 class="title">Active & Relax</h2>
+                        <p class="subtitle">High quality relaxation in Kuramae</p>
+                        <p class="mb-0">都市と自然が心地よく響きあうこの場所で抱く上質なリラックス。<br>
+                        東と西に配された２つのバルコニーがもたらす開放感は、アクティブに愉しんだ心をゆるやかに解きほぐし、<br>
+                        特別なプライベートと優雅な日常を与えてくれます</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3"></div>
+                <div class="col-12 col-lg-12">
+                    <ul class="list_img">
+                        <li>
+                            <a data-fancybox="list_activerelax" href="<?php bloginfo('template_directory');?>/assets/images/activerelax01.jpg"><img src="<?php bloginfo('template_directory');?>/assets/images/activerelax01.jpg" alt="activerelax" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a data-fancybox="list_activerelax" href="<?php bloginfo('template_directory');?>/assets/images/activerelax02.jpg"><img src="<?php bloginfo('template_directory');?>/assets/images/activerelax02.jpg" alt="activerelax" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a data-fancybox="list_activerelax" href="<?php bloginfo('template_directory');?>/assets/images/activerelax03.jpg"><img src="<?php bloginfo('template_directory');?>/assets/images/activerelax03.jpg" alt="activerelax" class="img-fluid"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_artisanshipdesign">
+        <img src="<?php bloginfo('template_directory');?>/assets/images/bg_artisanshipdesign.jpg" alt="artisanshipdesign" class="img-fluid w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2"></div>
+                <div class="col-12 col-lg-10">
+                    <div class="artisanshipdesign_content" data-aos="fade-down" data-aos-duration="3000">
+                        <div class="row">
+                            <div class="col-12 col-lg-8">
+                                <ul class="list_global">
+                                    <li><span>PROSTYLE</span></li>
+                                    <li><span>KURAMAE</span></li>
+                                    <li class="active"><span>LOCATION.02</span></li>
+                                </ul>
+                                <h2 class="title">KURAMAE<br>Artisanship Design</h2>
+                                <p class="subtitle">Discerning design</p>
+                                <p class="mb-0">「ものづくり」の街に生きづく‘’職人気質‘’を継承しながら<br>
+                                新しい文化を発信し続ける街「蔵前」。<br>
+                                都内にあって下町と呼ばれる特異な存在感を持つこの場所に<br>
+                                この街ならではの個性、こだわりを表現する意匠を纏わせました。</p>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="artisanshipdesign_img">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/images/artisanshipdesign_building.png" alt="artisanshipdesign_building" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12">
+                    <div class="box_materialandesign">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/facadematerial.png" alt="artisanshipdesign" class="img-fluid w-100">
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/greendesign.jpg" alt="artisanshipdesign" class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_designer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box_left" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="box_designer_img">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/designer.jpg" alt="artisanshipdesign" class="img-fluid" width="560">
+                            <div class="box_profile">
+                                <p><small>PROFILE</small></p>
+                                <p>株式会社シー・アンド・スタイル</p>
+                                <h1>古賀 正章<span>Masaaki Koga</span></h1>
+                                <p class="lh-base">設計事務所にて主に集合住宅の設計・監理業務を経験し2005年より現職。分譲マン<br>
+                                ションのデザイン監修や、住宅リノベーションなどに携わる。</p>
+                                <a href="#" class="btn btn-link">株式会社シー・アンド・スタイル</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="designer_content" data-aos="fade-down" data-aos-duration="3000">
+                        <ul class="list_global">
+                            <li><span>PROSTYLE</span></li>
+                            <li><span>KURAMAE</span></li>
+                            <li class="active"><span>DESIGNER</span></li>
+                        </ul>
+                        <h2 class="title">ダミーテキスト：アーバンライフに映える<br>
+                        モダンで洗練された<br>
+                        デザイナーズレジデンス。</h2>
+                        <p class="mb-0">ダミーテキスト：アースカラーを基調に落ち着いた雰囲気を演出した外観デザイン。彩度を抑えた色調タイルと黒茶系タイル、シャープな印象を与えるガラス手摺などを巧みに組み合わせ、周囲の景観と調和を図りながらも精悍で格調高い存在感を印象づけます。また視線を集める基壇部には、天然石のような表情豊かな黒系の大判タイルを使用し、重厚感且つシャープな趣を演出。<br>
+                        そして、木目調タイル、天然石の風合いのある大判タイル、石の小端積みなどクールな素材でまとめたアプローチからエントランスを抜けると、木の温もりと光の演出で纏った落ち着きのプライベート空間へ変化するなど、いつまでも住まう方の誇りを満たす正統な佇まいを追求しました。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- <section class="section_vrtours">
         <h2 class="title">VR TOURS</h2>
         <p>最先端の3Dカメラを使用した360度体験</p>

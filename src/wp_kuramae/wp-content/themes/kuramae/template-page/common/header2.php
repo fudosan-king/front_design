@@ -14,23 +14,24 @@
         
         <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav navbar-mobile mr-0">
-                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">物件コンセプト</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/location/'); ?>">ロケーション</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">天然無垢のマンション</a></li>
                 <li class="nav-item js-menuAnimation dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" href="#">間取り </a>
-                    <!-- <ul class="dropdown-menu fade-down">
-                        <li><a class="dropdown-item" href="#">プラン詳細</a></li>
-                    </ul> -->
+                    <a class="nav-link" href="<?php echo home_url('/plan/'); ?>">間取り </a>
+                    <button type="button" class="dropdown-toggle dropdown-toggle-split btn_down" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu fade-down">
+                        <li><a class="dropdown-item" href="<?php echo home_url('/plan-detail/'); ?>">プラン詳細</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">設備・仕様</a></li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/equipment/'); ?>">設備・仕様</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/access/'); ?>">アクセス</a></li>
-                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">モデルルーム</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/outline/'); ?>">物件概要</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/map/'); ?>">現地案内図</a></li>
-                <!-- <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">限定サイトログインページ</a></li> -->
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="<?php echo home_url('/inquiry/'); ?>">資料請求</a></li>
             </ul>
         </div>
+
     </div>
 </header>
