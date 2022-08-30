@@ -4047,6 +4047,15 @@ i.chevron-left {
   height: 640px;
   background: rgba(189, 189, 189, 0.2);
   position: relative;
+  width: 135%;
+}
+.img_modelroom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .img_modelroom::after {
   content: '';
@@ -4061,10 +4070,15 @@ i.chevron-left {
 }
 .img_modelroom.left {
   margin-top: 0;
+  background: transparent;
+  width: 155%;
 }
 .img_modelroom.left::after {
   right: inherit;
   left: -100%;
+}
+.img_modelroom.left img {
+  left: -35%;
 }
 
 .orange {
@@ -4163,6 +4177,10 @@ i.chevron-left {
     width: 100%;
     margin-right: 0;
     margin-bottom: 15px;
+    padding: 15px;
+  }
+  .box_model .model_item::after {
+    height: 30px;
   }
 
   .carousel.carousel_view {
@@ -4306,7 +4324,7 @@ i.chevron-left {
   padding: 0 145px;
 }
 .plan_body .model_img {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .plan_body .model_img img {
   width: 100%;
@@ -4852,5 +4870,39 @@ i.chevron-left {
   }
   .section_designer .designer_content {
     padding: 15px;
+  }
+}
+.box_plannote {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.box_plannote ul {
+  padding: 0;
+  margin: 0 0 15px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.box_plannote ul li {
+  margin-right: 10px;
+  font-size: 0.875em;
+}
+.box_plannote ul li span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.box_plannote ul li:last-of-type {
+  margin-right: 0;
+}
+.box_plannote p {
+  margin-bottom: 0;
+  line-height: 1.5em;
+  font-size: 0.8125em;
+}
+
+@media (max-width: 768px) {
+  .box_plannote ul li {
+    margin-right: 5px !important;
+    font-size: 0.4375em;
   }
 }

@@ -64,6 +64,17 @@
                                         <div class="model_img">
                                             <a href="#"><img src="<?php bloginfo('template_directory');?>/assets/images/drawing.png" alt="drawing" class="img-fluid"></a>
                                         </div>
+                                        <div class="box_plannote">
+                                            <ul>
+                                                <li>［凡 例］</li>
+                                                <li>…収納 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_storage.svg" alt="i_storage" class="img-fluid" width="40"></span></li>
+                                                <li>…通風 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_ventilation.svg" alt="i_ventilation" class="img-fluid" width="60"></span></li>
+                                                <li>…採光 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_lighting.svg" alt="i_lighting" class="img-fluid" width="50"></span></li>
+                                            </ul>
+                                            <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
+                                            MB＝メーターボックス、PS＝パイプスペース<br>
+                                            ※掲載の間取りは設計段階のもので、今後変更になる場合がございます。</p>
+                                        </div>
                                         <p class="mb-0 text-center">
                                             <a href="#" class="btn bnt_enlargedrawing"><img src="<?php bloginfo('template_directory');?>/assets/images/SVG/i_search.svg" alt="i_search" class="img-fluid" width="24"> 図面を拡大する</a>
                                         </p>
@@ -77,6 +88,17 @@
                         <div class="tab-pane fade" id="furniturearrangement_pane" role="tabpanel" aria-labelledby="furniturearrangement" tabindex="0">
                             <div class="model_img">
                                 <a href="#"><img src="<?php bloginfo('template_directory');?>/assets/images/drawing02.png" alt="drawing" class="img-fluid"></a>
+                            </div>
+                            <div class="box_plannote">
+                                <ul>
+                                    <li>［凡 例］</li>
+                                    <li>…収納 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_storage.svg" alt="i_storage" class="img-fluid" width="40"></span></li>
+                                    <li>…通風 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_ventilation.svg" alt="i_ventilation" class="img-fluid" width="60"></span></li>
+                                    <li>…採光 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_lighting.svg" alt="i_lighting" class="img-fluid" width="50"></span></li>
+                                </ul>
+                                <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
+                                MB＝メーターボックス、PS＝パイプスペース<br>
+                                ※掲載の間取りは設計段階のもので、今後変更になる場合がございます。</p>
                             </div>
                             <p class="mb-0 text-center">
                                 <a href="#" class="btn bnt_enlargedrawing"><img src="<?php bloginfo('template_directory');?>/assets/images/SVG/i_search.svg" alt="i_search" class="img-fluid" width="24"> 図面を拡大する</a>

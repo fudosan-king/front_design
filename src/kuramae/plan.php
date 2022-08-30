@@ -137,9 +137,9 @@
                                                 <div class="box_plannote mt-3 mb-0">
                                                     <ul>
                                                         <li>［凡 例］</li>
-                                                        <li>…収納 <span><img src="images/i_storage.svg" alt="" class="img-fluid" width="40"></span></li>
-                                                        <li>…通風 <span><img src="images/i_ventilation.svg" alt="" class="img-fluid" width="60"></span></li>
-                                                        <li>…採光 <span><img src="images/i_lighting.svg" alt="" class="img-fluid" width="50"></span></li>
+                                                        <li>…収納 <span><img src="images/i_storage.svg" alt="i_storage" class="img-fluid" width="40"></span></li>
+                                                        <li>…通風 <span><img src="images/i_ventilation.svg" alt="i_ventilation" class="img-fluid" width="60"></span></li>
+                                                        <li>…採光 <span><img src="images/i_lighting.svg" alt="i_lighting" class="img-fluid" width="50"></span></li>
                                                     </ul>
                                                     <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
                                                     MB＝メーターボックス、PS＝パイプスペース<br>
