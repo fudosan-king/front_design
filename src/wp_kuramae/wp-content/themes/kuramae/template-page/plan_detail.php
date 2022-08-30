@@ -91,7 +91,7 @@
                             </div>
                             <p class="mb-0 text-center">
                                 <a href="#" class="btn bnt_enlargedrawing"><img src="<?php bloginfo('template_directory');?>/assets/images/SVG/i_search.svg" alt="i_search" class="img-fluid" width="24"> 図面を拡大する</a>
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/i_direction.svg" alt="i_direction" class="img-fluid i_direction" width="50">
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/i_direction.svg" alt="i_direction" class="img-fluid i_direction" width="100">
                             </p>
                             <ul class="list_products">
                                 <li>
