@@ -110,6 +110,17 @@
                                             <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
                                             <div class="model_img">
                                                 <a href="#"><img src="images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                                <div class="box_plannote mt-3 mb-0">
+                                                    <ul>
+                                                        <li>［凡 例］</li>
+                                                        <li>…収納 <span><img src="images/i_storage.svg" alt="" class="img-fluid" width="40"></span></li>
+                                                        <li>…通風 <span><img src="images/i_ventilation.svg" alt="" class="img-fluid" width="60"></span></li>
+                                                        <li>…採光 <span><img src="images/i_lighting.svg" alt="" class="img-fluid" width="50"></span></li>
+                                                    </ul>
+                                                    <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
+                                                    MB＝メーターボックス、PS＝パイプスペース<br>
+                                                    ※掲載の間取りは設計段階のもので、今後変更になる場合がございます。</p>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -123,7 +134,19 @@
                                             <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
                                             <div class="model_img">
                                                 <a href="#"><img src="images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                                <div class="box_plannote mt-3 mb-0">
+                                                    <ul>
+                                                        <li>［凡 例］</li>
+                                                        <li>…収納 <span><img src="images/i_storage.svg" alt="" class="img-fluid" width="40"></span></li>
+                                                        <li>…通風 <span><img src="images/i_ventilation.svg" alt="" class="img-fluid" width="60"></span></li>
+                                                        <li>…採光 <span><img src="images/i_lighting.svg" alt="" class="img-fluid" width="50"></span></li>
+                                                    </ul>
+                                                    <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
+                                                    MB＝メーターボックス、PS＝パイプスペース<br>
+                                                    ※掲載の間取りは設計段階のもので、今後変更になる場合がございます。</p>
+                                                </div>
                                             </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -148,36 +171,37 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <section class="section_modelroom pt-0">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-12 col-lg-12">
-                                                    <div class="modelroom_content aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000">
-                                                        <ul class="list_global">
-                                                            <li><span>PROSTYLE</span></li>
-                                                            <li><span>MIYANOMORI</span></li>
-                                                            <li><span>INTERVEW</span></li>
-                                                            <li class="active"><span>KENGO KUMA</span></li>
-                                                        </ul>
-                                                        <h2>『home』としての実感を得られる<br>
-                                                        木と寄り添う上質な暮らし</h2>
-                                                        <p>「プロスタイル宮の森」の設計を手がけたのは、世界中で活躍する建築家・隈研吾氏。<br>
-                                                        日本の繊細な木工技術を生かしながら、現代的なデザインの木造建築を取り入れるスタイルが特徴的だ。<br>
-                                                        近年日本では、新国立競技場（2019）やJR東日本高輪ゲートウェイ駅（2020）の建築が大きく話題に。</p>
-                                                        <p>「プロスタイル宮の森」の設計の背景や、宮の森の地で味わえるような「上質な暮らし」について話を聞いた。</p>
-                                                    </div>
-                                                    <div class="img_modelroom">
-                                                        
-                                                    </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-12">
+                                                <div class="modelroom_content aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000">
+                                                    <ul class="list_global">
+                                                        <li><span>PROSTYLE</span></li>
+                                                        <li><span>MIYANOMORI</span></li>
+                                                        <li><span>INTERVEW</span></li>
+                                                        <li class="active"><span>KENGO KUMA</span></li>
+                                                    </ul>
+                                                    <h2>『home』としての実感を得られる<br>
+                                                    木と寄り添う上質な暮らし</h2>
+                                                    <p>「プロスタイル宮の森」の設計を手がけたのは、世界中で活躍する建築家・隈研吾氏。<br>
+                                                    日本の繊細な木工技術を生かしながら、現代的なデザインの木造建築を取り入れるスタイルが特徴的だ。<br>
+                                                    近年日本では、新国立競技場（2019）やJR東日本高輪ゲートウェイ駅（2020）の建築が大きく話題に。</p>
+                                                    <p>「プロスタイル宮の森」の設計の背景や、宮の森の地で味わえるような「上質な暮らし」について話を聞いた。</p>
+                                                </div>
+                                                <div class="img_modelroom">
+                                                    <img src="images/bg_activerelax.jpg" alt="" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                     </section>
 
                                     <section class="section_modelroom">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-12 col-lg-5">
-                                                    <div class="img_modelroom left"></div>
+                                                    <div class="img_modelroom left">
+                                                        <img src="images/bg_activerelax.jpg" alt="" class="img-fluid">
+                                                    </div>
                                                 </div>
                                                 <div class="col-12 col-lg-7">
                                                     <div class="modelroom_content ps-0 ps-lg-5 aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000">
@@ -195,7 +219,7 @@
                         </div>
 
                         <div class="img_modelroom">
-
+                            <img src="images/bg_artisanshipdesign.jpg" alt="" class="img-fluid w-100">
                         </div>
 
                         <section class="section_modelroom">
