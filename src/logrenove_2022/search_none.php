@@ -19,11 +19,15 @@
                                 <p><span>広さ：</span>上限なし～下限なし</p>
                                 <p><span>こだわり：</span>ペット飼育可,WIC有り</p>
                             </div>
-
-                            <h3>ご希望の条件に該当する物件は<br>ございませんでした</h3>
-                            <p>ご希望の物件が見つからない場合は、「シークレット物件を探す」よりお問い合わせください。<br>
-                            弊社コンシェルジュが<br>
-                            ご希望に合う物件をご提案いたします。</p>
+                            <p class="d-flex justify-content-end mb-4">
+                                <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
+                            </p>
+                            <div class="box_searchnone">
+                                <h3>ご希望の条件に該当する物件は<br>ございませんでした</h3>
+                                <p>ご希望の物件が見つからない場合は、「シークレット物件を探す」よりお問い合わせください。<br>
+                                弊社コンシェルジュが<br>
+                                ご希望に合う物件をご提案いたします。</p>
+                            </div>
 
                         </div>
                     </div>

@@ -67,5 +67,4 @@ $('#hide-search-input-container').on('click', function (e) {
 $(".btn_showhide_accordion").click(function () {
   $('.w_accordion_search').toggleClass("d-block");
   $(this).toggleClass('active');
-
 });
