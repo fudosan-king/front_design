@@ -75,6 +75,17 @@
                                     <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
                                     <div class="model_img">
                                         <a href="#"><img src="<?php bloginfo('template_directory');?>/assets/images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                        <div class="box_plannote mt-3 mb-0">
+                                            <ul>
+                                                <li>［凡 例］</li>
+                                                <li>…収納 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_storage.svg" alt="i_storage" class="img-fluid" width="40"></span></li>
+                                                <li>…通風 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_ventilation.svg" alt="i_ventilation" class="img-fluid" width="60"></span></li>
+                                                <li>…採光 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_lighting.svg" alt="i_lighting" class="img-fluid" width="50"></span></li>
+                                            </ul>
+                                            <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
+                                            MB＝メーターボックス、PS＝パイプスペース<br>
+                                            ※掲載の間取りは設計段階のもので、今後変更になる場合がございます。</p>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -88,6 +99,17 @@
                                     <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
                                     <div class="model_img">
                                         <a href="#"><img src="<?php bloginfo('template_directory');?>/assets/images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                        <div class="box_plannote mt-3 mb-0">
+                                            <ul>
+                                                <li>［凡 例］</li>
+                                                <li>…収納 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_storage.svg" alt="i_storage" class="img-fluid" width="40"></span></li>
+                                                <li>…通風 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_ventilation.svg" alt="i_ventilation" class="img-fluid" width="60"></span></li>
+                                                <li>…採光 <span><img src="<?php bloginfo('template_directory');?>/assets/images/i_lighting.svg" alt="i_lighting" class="img-fluid" width="50"></span></li>
+                                            </ul>
+                                            <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
+                                            MB＝メーターボックス、PS＝パイプスペース<br>
+                                            ※掲載の間取りは設計段階のもので、今後変更になる場合がございます。</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
