@@ -27,6 +27,10 @@
                                 <p>ご希望の物件が見つからない場合は、「シークレット物件を探す」よりお問い合わせください。<br>
                                 弊社コンシェルジュが<br>
                                 ご希望に合う物件をご提案いたします。</p>
+                                <a href="request.php" class="btn btn_searhconditions">
+                                    <img class="img-fluid" src="assets/images/icons/i_search_white.svg" alt="i_search_white" width="18">
+                                    <span>シークレット物件を探す</span>
+                                </a>
                             </div>
 
                         </div>
