@@ -901,6 +901,7 @@ header .navbar {
   color: #424242;
   background: #fff;
   padding: 5px 10px;
+  text-align: center;
 }
 .box_searchcondition_top p {
   margin-bottom: 5px;
@@ -913,6 +914,20 @@ header .navbar {
 .box_searchcondition_top p span {
   font-weight: 700;
   color: #424242;
+}
+
+.box_searchnone {
+  margin-top: 30px;
+  text-align: center;
+}
+.box_searchnone h3 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #5C5B5B;
+}
+.box_searchnone p {
+  font-size: 0.875em;
+  color: #5C5B5B;
 }
 
 @media (max-width: 768px) {
