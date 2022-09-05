@@ -44,6 +44,13 @@ jQuery(document).ready(function($) {
     autoplaySpeed: 2000
   });
 
+  
+  // resize
+  var $carousel_view = $(".carousel");
+  $('.nav').on('shown.bs.tab', function (e) {
+    $carousel_view.flickity('resize');
+  });
+
 }(jQuery));
 
 

@@ -4367,6 +4367,11 @@ a.disable {
       width: 100%;
       height: 480px;
       background: #C4C4C4;
+      img {
+        width: 100%;
+        height: 480px;
+        object-fit: cover;
+      }
     }
     .flickity-prev-next-button {
       width: 60px;
