@@ -91,6 +91,9 @@
       elseif (is_page_template('template-page/equipment.php')) {
         require 'template-page/common/header2.php';
       }
+      elseif (is_page_template('template-page/login.php')) {
+        require 'template-page/common/header3.php';
+      }
        else {
         require 'template-page/common/header.php';
       }
