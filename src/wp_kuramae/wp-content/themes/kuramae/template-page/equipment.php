@@ -522,7 +522,7 @@
                                                 <div class="box_sitelayout_item">
                                                     <img src="<?php bloginfo('template_directory');?>/assets/images/sitelayout01.jpg" alt="sitelayout01" class="img-fluid">
                                                     <span>1階</span>
-                                                    <img src="<?php bloginfo('template_directory');?>/assets/images/i_direction.svg" alt="direction" class="img-fluid i_directions">
+                                                    <img src="<?php bloginfo('template_directory');?>/assets/images/i_direction.svg" alt="direction" class="img-fluid i_directions" width="100">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
