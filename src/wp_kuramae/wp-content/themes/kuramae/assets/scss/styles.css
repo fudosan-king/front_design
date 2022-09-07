@@ -3611,12 +3611,14 @@ i.chevron-left {
   margin: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 .template.limited .section_specialmovie .list_catalog li {
   margin-right: 20px;
-  width: 50%;
+  margin-bottom: 20px;
+  width: 48%;
 }
-.template.limited .section_specialmovie .list_catalog li:last-of-type {
+.template.limited .section_specialmovie .list_catalog li:nth-of-type(2n) {
   margin-right: 0;
 }
 .template.limited .section_specialmovie .list_catalog li a {
@@ -3834,10 +3836,12 @@ i.chevron-left {
 
 .box_model {
   display: flex;
+  flex-wrap: wrap;
 }
 .box_model .model_item {
-  width: 50%;
+  width: 49%;
   margin-right: 20px;
+  margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 60px;
   padding-left: 30px;
@@ -3847,7 +3851,7 @@ i.chevron-left {
   position: relative;
   overflow: hidden;
 }
-.box_model .model_item:last-of-type {
+.box_model .model_item:nth-of-type(2n) {
   margin-right: 0;
 }
 .box_model .model_item::after {
