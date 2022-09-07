@@ -52,40 +52,40 @@
                                 <div class="col-12 col-lg-12">
                                     <ul class="list_catalog">
                                         <li>
-                                            <a href="#">
+                                            <a class="list_catalog_item" href="#">
                                                 
                                             </a>
-                                            <p>カタログのタイトルが入ります</p>
+                                            <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a class="list_catalog_item" href="#">
                                                 
                                             </a>
-                                            <p>カタログのタイトルが入ります</p>
+                                            <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a class="list_catalog_item" href="#">
                                                 
                                             </a>
-                                            <p>カタログのタイトルが入ります</p>
+                                            <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a class="list_catalog_item" href="#">
                                                 
                                             </a>
-                                            <p>カタログのタイトルが入ります</p>
+                                            <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a class="list_catalog_item"  href="#">
                                                 
                                             </a>
-                                            <p>カタログのタイトルが入ります</p>
+                                            <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a class="list_catalog_item"  href="#">
                                                 
                                             </a>
-                                            <p>カタログのタイトルが入ります</p>
+                                            <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
                                         </li>
                                     </ul>
                                 </div>
