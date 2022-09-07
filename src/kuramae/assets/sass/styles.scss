@@ -3924,24 +3924,31 @@ a.disable {
             margin-right: 0;
           }
           a {
-            display: block;
-            width: 100%;
-            height: 300px;
-            overflow: hidden;
-            background: #BDBDBD;
-            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-            img {
+            &.list_catalog_item {
+              display: block;
               width: 100%;
               height: 300px;
-              object-fit: cover;
+              overflow: hidden;
+              background: #BDBDBD;
+              box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+              img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+              }
+            }
+            &.titles {
+              text-decoration: none;
+              text-align: center;
+              font-size: 1.3333em;
+              font-weight: 700;
+              
             }
           }
           p {
             margin-bottom: 0;
             margin-top: 20px;
             text-align: center;
-            font-size: 1em;
-            font-weight: 700;
           }
         }
       }
