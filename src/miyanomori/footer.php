@@ -2,19 +2,17 @@
 	<div class="container">
 		<div class="row">
     		<div class="col-12 col-lg-12">
-                <a href="#"><img src="images/SVG/logo_footer.svg" alt="" class="img-fluid mb-3" width="110"></a>
+                <a href="https://www.prostyle-residence.com/sapporo/miyanomori"><img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/lang/en/logo01.svg" alt="" class="img-fluid mb-3" width="169"></a>
                 <ul>
-                    <li><a href="whatsnews.php">新着情報</a></li>
-                    <li><a href="about.php">PROSTYLEについて</a></li>
-                    <li><a href="">利用規約</a></li>
-                    <li><a href="">反社会的勢力排除に関する基本方針</a></li>
-                    <li><a href="privacy-policy.php">プライバシーポリシー</a></li>
-                    <li><a href="">ソーシャルメディアポリシー</a></li>
+                    <li><a href="https://www.prostyle-residence.com/sapporo/miyanomori/news/">新着情報</a></li>
+                    <li><a href="https://www.propolife.co.jp/terms/">利用規約</a></li>
+                    <li><a href="https://www.propolife.co.jp/antisocial/">反社会的勢力排除に関する基本方針</a></li>
+                    <li><a href="https://www.prostyle-residence.com/sapporo/miyanomori/privacy-policy/">プライバシーポリシー</a></li>
+                    <li><a href="https://www.propolife.co.jp/socialpolicy/">ソーシャルメディアポリシー</a></li>
                 </ul>
-                
-                <ul class="mb-0">
-                    <li><a href="">【売主】 <img src="images/1x/logo_small.png" alt="" width="116"> </a></li>
-                    <li><a href="">【販売】<img src="images/SVG/logo_chronicle.svg" alt="" width="120"></a></li>
+                <ul class="my-brand mb-0">
+                    <li><a href="https://www.logsuite.co.jp" target="blank_">【売主・共同事業主】<img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/lang/en/logsuite-logo-en.svg" alt="" height="20px" ></a></li>
+                    <li><a href="https://www.prostyle-residence.com" target="blank_">【共同事業主】<img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/lang/en/prostyle-logo-en.svg" alt="" width="116"> </a></li>
                 </ul>
             </div>
 		</div>
@@ -25,22 +23,36 @@
         </address>
     </div>
 </footer>
-<div class="bsnav-mobile d-sm-block d-xl-none">
-    <div class="bsnav-mobile-overlay"></div>
-    <div class="navbar"></div>
-</div>
 
-<div class="modal fade" id="modal_video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-    </button>
-    <div class="modal-dialog modal-dialog-centered modal-xl">
+<div class="bsnav-mobile-overlay"></div>
+
+<section class="video-miyanomori after-logged js-popup-video">
+    <div class="modal fade" id="videoPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-body">
-                <div class="embed-responsive embed-responsive-4by3">
-                  <iframe class="embed-responsive-item" width="100%" height="315" src="https://my.matterport.com/show/?m=VHEQdZ6QNAh" frameborder="0" allowfullscreen></iframe>
-                </div>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <video id="video_miyanomori" loop playsinline>
+              <source src="https://pardot-s3.s3-ap-northeast-1.amazonaws.com/miyanomori/210129_%E7%B4%8D%E5%93%81%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="fixed_bar">
+    <div class="container p-0" >
+        <div class="row">
+            <div class="col-12 col-md-12 align-self-center p-0">
+                <p class="text-center">
+                    <a class="btn btn_online short" rel="noopener noreferrer" href="https://www.prostyle-residence.com/sapporo/miyanomori/contactus/" target="_blank">ご予約・お問い合わせ</a>
+                </p>
             </div>
         </div>
     </div>
-</div>
+</section>

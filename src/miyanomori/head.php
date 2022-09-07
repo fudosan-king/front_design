@@ -20,6 +20,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.standalone.min.css">
 <link rel="stylesheet" type="text/css" href="css/slick.css">
-<link rel="stylesheet" type="text/css" href="css/bsnav.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/bsnav.min.css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
-<link rel="stylesheet" href="css/mobile.css" type="text/css">
+<link rel="stylesheet" href="css/mobile.css" type="text/css"> -->
+
+<link rel="stylesheet" type="text/css" href="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/css/jquery.fancybox.min.css">
+<link rel="stylesheet" href="assets/css/all.min.css" type="text/css">
+<link rel="stylesheet" href="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/css/styles.css" type="text/css">
+<link rel="stylesheet" href="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/css/mobile.css" type="text/css">
+<link rel="stylesheet" href="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/css/custom.css" type="text/css">
+
+<link rel="stylesheet" href="assets/css/styles_new.css" type="text/css">
