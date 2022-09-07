@@ -124,8 +124,60 @@
                                             <div class="model_img">
                                                 <a href="#"><img src="images/drawing.png" alt="drawing" class="img-fluid"></a>
                                             </div>
-                                            
                                         </div>
+
+                                        <div class="model_item">
+                                            <div class="new"><span>New</span></div>
+                                            <ul>
+                                                <li><a href="#">眺望</a></li>
+                                                <li><a href="#">３Dモデルルーム画像</a></li>
+                                            </ul>
+                                            <h4>S301<span>/3LDK</span></h4>
+                                            <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
+                                            <div class="model_img">
+                                                <a href="#"><img src="images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="model_item">
+                                            <div class="new"><span>New</span></div>
+                                            <ul>
+                                                <li><a href="#">眺望</a></li>
+                                                <li><a href="#">３Dモデルルーム画像</a></li>
+                                            </ul>
+                                            <h4>S301<span>/3LDK</span></h4>
+                                            <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
+                                            <div class="model_img">
+                                                <a href="#"><img src="images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="model_item">
+                                            <div class="new"><span>New</span></div>
+                                            <ul>
+                                                <li><a href="#">眺望</a></li>
+                                                <li><a href="#">３Dモデルルーム画像</a></li>
+                                            </ul>
+                                            <h4>S301<span>/3LDK</span></h4>
+                                            <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
+                                            <div class="model_img">
+                                                <a href="#"><img src="images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="model_item">
+                                            <div class="new"><span>New</span></div>
+                                            <ul>
+                                                <li><a href="#">眺望</a></li>
+                                                <li><a href="#">３Dモデルルーム画像</a></li>
+                                            </ul>
+                                            <h4>S301<span>/3LDK</span></h4>
+                                            <h5><span>専有面積</span> 176.<span>65㎡</span></h5>
+                                            <div class="model_img">
+                                                <a href="#"><img src="images/drawing.png" alt="drawing" class="img-fluid"></a>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
