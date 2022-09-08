@@ -155,7 +155,7 @@
             </section>
 
             <section class="section_activerelax">
-                <img src="images/bg_top.jpg" alt="bg_top" class="img-fluid w-100">
+                <img src="images/main/bg_top.jpg" alt="bg_top" class="img-fluid w-100">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-9">
@@ -226,7 +226,7 @@
                                         <img src="images/facadematerial.png" alt="artisanshipdesign" class="img-fluid w-100">
                                     </div>
                                     <div class="col-12 col-lg-6">
-                                        <img src="images/greendesign.jpg" alt="artisanshipdesign" class="img-fluid w-100">
+                                        <img src="images/greendesign.png" alt="artisanshipdesign" class="img-fluid w-100">
                                     </div>
                                 </div>
                             </div>

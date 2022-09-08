@@ -10,7 +10,7 @@
 <main>
 
     <section class="section_subbanner">
-        <img src="<?php bloginfo('template_directory');?>/assets/images/main/bg_plan.jpg" alt="bg_plan" class="img-fluid">
+        <img src="<?php bloginfo('template_directory');?>/assets/images/main/bg_equipment.jpg" alt="bg_plan" class="img-fluid">
     </section>
 
     <section class="section_plan section_equipment">

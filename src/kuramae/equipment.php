@@ -45,7 +45,7 @@
             
 
             <section class="section_subbanner">
-                <img src="images/main/bg_plan.jpg" alt="bg_plan" class="img-fluid">
+                <img src="images/main/bg_equipment.jpg" alt="bg_equipment" class="img-fluid">
             </section>
 
             <section class="section_plan section_equipment">
