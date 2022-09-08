@@ -222,7 +222,7 @@
                                 <img src="<?php bloginfo('template_directory');?>/assets/images/facadematerial.png" alt="artisanshipdesign" class="img-fluid w-100">
                             </div>
                             <div class="col-12 col-lg-6">
-                                <img src="<?php bloginfo('template_directory');?>/assets/images/greendesign.jpg" alt="artisanshipdesign" class="img-fluid w-100">
+                                <img src="<?php bloginfo('template_directory');?>/assets/images/greendesign.png" alt="artisanshipdesign" class="img-fluid w-100">
                             </div>
                         </div>
                     </div>
