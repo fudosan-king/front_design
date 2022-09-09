@@ -126,7 +126,7 @@
                         <div class="col-12 col-lg-5">
                             <div class="design_img">
                                 <img src="images/artisanshipdesign.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid">
-                                <img src="images/artisanshipdesign02.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid img02">
+                                <!-- <img src="images/artisanshipdesign02.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid img02"> -->
                             </div>
                         </div>
                         <div class="col-12 col-lg-7">
@@ -144,7 +144,7 @@
                                 東と西に配された２つのバルコニーがもたらす開放感は、アクティブに愉しんだ心をゆるやかに解きほぐし、特別なプライベートと優雅な日常を与えてくれます。「ものづくり」の街に生きづく‘’職人気質‘’を継承しながら新しい文化を発信し続ける街「蔵前」。<br>
                                 都内にあって下町と呼ばれる特異な存在感を持つこの場所にこの街ならではの個性、こだわりを表現する意匠を纏わせました。</p>
                                 <!-- <img src="images/sumo.svg" data-aos="zoom-in-up" data-aos-duration="3000" alt="" class="img-fluid img_sumo" width="185"> -->
-                                <img src="images/kachikura_area06.jpg" data-aos="fade-left" data-aos-duration="3000" alt="" class="img-fluid img03">
+                                <!-- <img src="images/kachikura_area06.jpg" data-aos="fade-left" data-aos-duration="3000" alt="" class="img-fluid img03"> -->
                             </div>
                         </div>
                         <div class="col-12 col-lg-12">
