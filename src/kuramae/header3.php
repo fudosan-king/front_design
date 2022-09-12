@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav navbar-mobile mr-0">
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="locations.php">ロケーション</a></li>
-                <li class="nav-item js-menuAnimation"><a class="nav-link" href="#">天然無垢のマンション</a></li>
+                <li class="nav-item js-menuAnimation"><a class="nav-link" href="muku.php">天然無垢のマンション</a></li>
                 <li class="nav-item js-menuAnimation dropdown">
                     <a class="nav-link" href="plan.php">間取り </a>
                     <button type="button" class="dropdown-toggle dropdown-toggle-split btn_down" data-bs-toggle="dropdown" aria-expanded="false">
