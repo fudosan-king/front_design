@@ -24,6 +24,7 @@
     }
     h3 {
       margin: 0;
+      padding: 10px 0;
       font-size: 1.5rem;
       color: #938152;
     }
@@ -128,7 +129,7 @@
         li {
           max-width: 100%;
           padding-bottom: 15px;
-          :last-of-type {
+          :last-child {
             padding-bottom: 0px;
           }
         }
@@ -153,7 +154,7 @@
         justify-content: center;
         li {
           padding-bottom: 15px;
-          :last-of-type {
+          :last-child {
             padding-bottom: 0px;
           }
         }

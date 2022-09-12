@@ -26,6 +26,7 @@
 }
 .list_img_content li h3 {
   margin: 0;
+  padding: 10px 0;
   font-size: 1.5rem;
   color: #938152;
 }
@@ -98,8 +99,8 @@
     max-width: 100%;
     padding-bottom: 15px;
   }
-  .section_muku .row .list_img_content li :last-of-type,
-  .section_artisanshipdesign .row .list_img_content li :last-of-type {
+  .section_muku .row .list_img_content li :last-child,
+  .section_artisanshipdesign .row .list_img_content li :last-child {
     padding-bottom: 0px;
   }
 }
@@ -117,7 +118,7 @@
   .section_muku .row .list_img_content li {
     padding-bottom: 15px;
   }
-  .section_muku .row .list_img_content li :last-of-type {
+  .section_muku .row .list_img_content li :last-child {
     padding-bottom: 0px;
   }
 
