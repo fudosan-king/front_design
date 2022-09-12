@@ -54,7 +54,7 @@
                         <div class="col-12 col-lg-12">
                             <ul class="nav nav-tabs" id="tab_plan" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
+                                    <button class="nav-link" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
@@ -63,7 +63,7 @@
                                     <button class="nav-link" id="equipment" data-bs-toggle="tab" data-bs-target="#equipment_pane" type="button" role="tab" aria-controls="equipment_pane" aria-selected="false"><span>設備</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="structure" data-bs-toggle="tab" data-bs-target="#structure_pane" type="button" role="tab" aria-controls="structure_pane" aria-selected="false"><span>構造</span></button>
+                                    <button class="nav-link active" id="structure" data-bs-toggle="tab" data-bs-target="#structure_pane" type="button" role="tab" aria-controls="structure_pane" aria-selected="false"><span>構造</span></button>
                                 </li>
                             </ul>
                         </div>
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="tab-content" id="tab_plancontent">
-                    <div class="tab-pane fade show active" id="sharedequipment_pane" role="tabpanel" aria-labelledby="sharedequipment" tabindex="0">
+                    <div class="tab-pane fade" id="sharedequipment_pane" role="tabpanel" aria-labelledby="sharedequipment" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
@@ -226,8 +226,8 @@
                                      <div class="card" id="card_security">
                                         <h5 class="card-header">セキュリティ</h5>
                                         <div class="card-body">
-                                            <h5 class="card-title">綜合警備保障の24 時間集中監視システム</h5>
-                                            <div class="row">
+                                            <!-- <h5 class="card-title">綜合警備保障の24 時間集中監視システム</h5> -->
+                                            <!-- <div class="row">
                                                 <div class="col-12 col-lg-6">
                                                     <p class="text-center">
                                                         <img src="images/logo_alsok.jpg" alt="" class="img-fluid">
@@ -238,78 +238,93 @@
                                                 <div class="col-12 col-lg-6">
                                                     <img src="images/about_alsok.png" alt="" class="img-fluid">
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <ul class="list_products_security">
                                                 <li>
-                                                    <h6>ハンズフリーキー</h6>
+                                                    <h6>Raccessキー<span>（キーヘッド・タグ）</span></h6>
                                                     <div class="box_img">
-                                                        <img src="images/pro11.jpg" alt="" class="img-fluid">
+                                                        <img src="images/pro11.jpg" alt="pro11" class="img-fluid">
                                                         <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>主なオートロックドアには、鍵をカバンやポケットに入れたまま解錠可能なハンズフリーキーを採用。高いセキュリティと優れた操作性で、荷物で手がふさがっている時や雨の日にとても便利です。</p>
+                                                    <p>キーをカバン等に入れたままリーダの前を通行するだけで解錠できるハンズフリー機能が備わっていますので、エントランスをラクに出入りできます。</p>
                                                 </li>
                                                 <li>
                                                     <h6>防犯カメラ</h6>
                                                     <div class="box_img">
-                                                        <img src="images/pro12.jpg" alt="" class="img-fluid">
+                                                        <img src="images/pro12.jpg" alt="pro12" class="img-fluid">
                                                         <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>共用部各所に防犯カメラを設置。24 時間作動し、管理室の記録装置にリアルタイムで送り続けています。長時間録画が可能なため、監視機能としてはもちろん。犯罪等の抑止効果も高まります。</p>
+                                                    <p>敷地内に防犯監視カメラを設置。24時間作動し、管理員室の記録装置にリアルタイムで送り続けています。約1ヵ月程度の長時間録画が可能なためさらに安心です。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>カラーモニター付インターホン</h6>
+                                                    <h6>防犯サムターン</h6>
                                                     <div class="box_img">
-                                                        <img src="images/pro13.jpg" alt="" class="img-fluid">
+                                                        <img src="images/pro13.jpg" alt="pro13" class="img-fluid">
                                                         <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>各住戸のカラーモニターでエントランスホールにいる来訪者を映像と音声で確認してから解錠できるので安心です。</p>
+                                                    <p>ピッキングと並ぶ空き巣の手口である「サムターン回し」を抑止。工具などで無理に回そうとしても解錠が困難な構造です。</p>
                                                 </li>
 
                                                 <li>
-                                                    <h6>防犯センサー</h6>
+                                                    <h6>ダブルロック</h6>
                                                     <div class="box_img">
-                                                        <img src="images/pro14.jpg" alt="" class="img-fluid">
+                                                        <img src="images/pro14.jpg" alt="pro14" class="img-fluid">
                                                         <span>参考写真</span>
                                                     </div>
-                                                    <p>玄関ドアには防犯センサーを設置。警戒設定時に扉が開けられるとセンサーが反応し、管理室と管理会社へ異常信号を発信します。</p>
-                                                </li>
-                                                <li>
-                                                    <h6>ダブルロック仕様ディンプルキー</h6>
-                                                    <div class="box_img">
-                                                        <img src="images/pro15.jpg" alt="" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                    <p>防犯性を高めるため、玄関ドアには上下2ヶ所で施錠できるダブルロック仕様を採用しました。また、玄関キーはピッキングなどの不正解錠への対応を強化したリバーシブルタイプのディンプルキーを採用しています。不正に解錠しようとしても時間がかかるため、犯罪の未遂率が高まります。</p>
+                                                    <p>玄関ドアには、２ヶ所に鍵を設けることにより防犯性能を高めるダブルロックを採用しました。</p>
                                                 </li>
                                                 <li>
                                                     <h6>鎌デッド錠</h6>
                                                     <div class="box_img">
-                                                        <img src="images/pro16.jpg" alt="" class="img-fluid">
+                                                        <img src="images/pro15.jpg" alt="pro15" class="img-fluid">
                                                         <span>参考写真</span>
                                                     </div>
+                                                    <p>錠前には、バールなどの工具を用いたこじ開けに強い鎌デッド錠を採用しています。</p>
                                                 </li>
                                                 <li>
-                                                    <h6></h6>
+                                                    <h6>24時間セキュリティシステム</h6>
                                                     <div class="box_img">
-                                                        <img src="images/pro17.jpg" alt="" class="img-fluid">
+                                                        <img src="images/pro16.jpg" alt="pro16" class="img-fluid">
                                                         <span>参考写真</span>
-                                                        <p>工具をドアの内側に入れサムターンを回してしまう不正解錠に対応したスイッチ式防犯サムターンを採用しています。</p>
                                                     </div>
+                                                    <p>暮らしの安全を24時間・365日見守る、信頼のセキュリティシステムを導入しています。住戸内の火災・ガス漏れ・非常警報や共用部の設備異常なども迅速な対応でサポートします。</p>
                                                 </li>
-                                                <li class="expand">
-                                                    <h6>エレベーター安全装置</h6>
+                                                <li>
+                                                    <h6>タッチパネル式7型ワイドインターホン</h6>
+                                                    <div class="row mb-3">
+                                                        <div class="col-12 col-lg-6">
+                                                            <img src="images/pro17.jpg" alt="pro17" class="img-fluid">
+                                                        </div>
+                                                        <div class="col-12 col-lg-6">
+                                                            <p class="sub_title">■お取り次ぎ機能</p>
+                                                            <img src="images/pro18.jpg" alt="pro18" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                    <p class="sub_title">■録画機能</p>
+                                                    <p>集合玄関機からの来訪者の画像を保存できる録画機能を搭載。サムネイル表示もしくはカレンダー画面にて録画機能を選択できます。（1件あたり最大15秒・最大90件保存可能）</p>
+                                                    <p class="sub_title">■オートズーム機能</p>
+                                                    <p>集合玄関機から呼び出しがあると、ワイドな画像を表示。画面のタッチでズームできるほか、来訪者が一人の場合は自動でズーム画像に切り替わり、画面に見やすく表示します。</p>
+                                                </li>
+                                                <li class="expand02">
+                                                    <h6>安心のセキュリティ</h6>
                                                     <div class="row">
                                                         <div class="col-12 col-lg-6">
-                                                            <p>エレベーター運転中に、地震管制装置が一定値を超えた地震の初期微動（P 波）・主要動（S波）を感知すると、最寄階に速やかに停止します。<br>
-                                                            また、停電した際には一旦停止後、停電時自動着床装置により、最寄階に自動停止し、さらに、天井の停電灯が点灯してエレベーター内を照らす他、インターホンが使用できるので、外部との連絡も可能です。</p>
-                                                            <p><small>※エレベーター運転中に急速な大きい地震により、主要動（S 波）［高］を感知した場合は、その瞬間に直ちに休止し、最寄階への移動や扉が開かない場合がございます。<br>
-                                                            ※非常用エレベーターは停電時、一旦停止後、非常用発電機が作動し通常の運転に戻ります。</small></p>
+                                                            <img src="images/worryfree01.jpg" alt="worryfree01" class="img-fluid mb-2">
+                                                            <p>集合玄関機に近づくだけで、オートロックを解除できます。操作盤の鍵穴にキーを差し込んだり、かざす必要もありません。荷物で手がふさがっている時や雨の日にとても便利です。</p>
                                                         </div>
                                                         <div class="col-12 col-lg-6">
-                                                            <img src="images/pro18.jpg" alt="" class="img-fluid">
+                                                            <img src="images/worryfree02.jpg" alt="worryfree02" class="img-fluid mb-2">
+                                                            <p>エレベーターを自動的にエントランス階に呼び戻します。エレベーターホールのキーリーダー認証後、開閉等操作が可能です。部外者によるエレベーターの操作、住戸階への侵入を防ぎます。</p>
                                                         </div>
                                                     </div>
                                                 </li>
+                                                <li class="full_expand">
+                                                    <h6>地震時管制運転</h6>
+                                                    <p>エレベーターには、地震の初期微動を感知した際に最寄階で自動停止させる「初期微動感知地震時管制運転」を採用。また、停電時にバッテリ運転で最寄階へ運行する「停電時自動着床装置」、火災時に避難階へ直行する「火災時管制運転」も備えています。</p>
+                                                    <p>揺れの伝達する時間</p>
+                                                    <img src="images/swaytransmission.jpg" alt="swaytransmission" class="img-fluid mb-2">
+                                                </li>
+                                                
                                             </ul>
                                         </div>
                                     </div>
@@ -325,73 +340,102 @@
                                 <div class="col-12 col-lg-12">
                                     <ul class="list_general">
                                         <li><a href="#card_kitchen" data-scroll>キッチン</a></li>
-                                        <li><a href="#card_washroombathroom" data-scroll>洗面室・浴室</a></li>
-                                        <li><a href="#card_privatesauna" data-scroll>プライベートサウナ</a></li>
+                                        <li><a href="#card_washroombathroom" data-scroll>浴室</a></li>
+                                        <li><a href="#card_bathroom" data-scroll>洗面室</a></li>
                                     </ul>
 
                                     <div class="card" id="card_kitchen">
                                         <h5 class="card-header">キッチン</h5>
                                         <div class="card-body">
                                             <div class="box_img_main">
-                                                <img src="images/img_kitchen.jpg" alt="img_kitchen" class="img-fluid">
+                                                <img src="images/activerelax01.jpg" alt="activerelax01" class="img-fluid">
                                             </div>
 
                                             <ul class="list_products_security">
                                                 <li>
-                                                    <h6>IH 平面ヒーター</h6>
+                                                    <h6>静音仕様のシンク</h6>
                                                     <div class="box_img custom">
-                                                        <img src="images/kitchen01.jpg" alt="" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
+                                                        <img src="images/kitchen01.jpg" alt="kitchen01" class="img-fluid">
                                                     </div>
-                                                    <p>安全性の高いIH平面ヒーターを採用しました。フラットな天井面は拭き掃除も簡単で衛生的です。</p>
+                                                    <p>傷や汚れが付きにくいステンレスシンクです。シンク底部の裏面に制振材を装着し、水はねの音や食器が当たる音を大幅に軽減する静音仕様です。</p>
                                                 </li>
                                                 <li>
                                                     <h6>ビルトイン電気オーブン</h6>
                                                     <div class="box_img custom">
-                                                        <img src="images/kitchen02.jpg" alt="" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
+                                                        <img src="images/kitchen02.jpg" alt="kitchen02" class="img-fluid">
                                                     </div>
-                                                    <p>熱風循環方式で2 段調理が可能。食品全体を熱風で包み込むように加熱し、ムラを抑えて焼き上げます。</p>
+                                                    <p>食器の片付けに便利な食器洗い乾燥機を標準装備しました。出し入れしやすいスライドタイプです。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>整流板付レンジフード</h6>
+                                                    <h6>人造大理石天板 アクシーマ</h6>
                                                     <div class="box_img custom">
-                                                        <img src="images/kitchen03.jpg" alt="" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
+                                                        <img src="images/kitchen03.jpg" alt="kitchen03" class="img-fluid">
                                                     </div>
-                                                    <p>フィルターレス仕様で面倒なフィルター掃除も不要。清潔感のあるつぎ目のないシャープな一体フォルム。</p>
+                                                    <p>柔らかな素材感に加え、熱や衝撃に強いアクリル樹脂を主成分としたハイグレードな人造大理石です。</p>
                                                 </li>
 
                                                 <li>
-                                                    <h6>食器洗い乾燥機</h6>
+                                                    <h6>3口ガラストップコンロ</h6>
                                                     <div class="box_img custom">
-                                                        <img src="images/kitchen04.jpg" alt="" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
+                                                        <img src="images/kitchen04.jpg" alt="kitchen04" class="img-fluid">
                                                     </div>
-                                                    <p>食器の片付けに便利な食器洗い乾燥機を標準装備しました。</p>
+                                                    <p>機能性とデザイン性を兼ね備えた使い勝手の良い3口ガラストップコンロを採用。お手入れも、サッと拭くだけで簡単です。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>スライドキャビネット</h6>
+                                                    <h6>ホーロー整流板付レンジフード</h6>
                                                     <div class="box_img custom">
-                                                        <img src="images/kitchen05.jpg" alt="" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
+                                                        <img src="images/kitchen05.jpg" alt="kitchen05" class="img-fluid">
                                                     </div>
-                                                    <p>引き出しが閉まる直前にスピードをゆるめ、ゆっくりと静かに閉まるソフトクローズ機能付きです。</p>
+                                                    <p>スタイリッシュなスリム型のホーロー整流板付レンジフード。取り外し可能な整流板は、表も裏も丸洗いできます。（タイプによって形状が異なります）</p>
                                                 </li>
                                                 <li>
-                                                    <h6>デュポン・コーリアン製天板</h6>
+                                                    <h6>無水両面焼きオートグリル</h6>
                                                     <div class="box_img custom">
-                                                        <img src="images/kitchen06.jpg" alt="" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
+                                                        <img src="images/kitchen06.jpg" alt="kitchen06" class="img-fluid">
                                                     </div>
-                                                    <p>美しさ、耐久性、メンテナンス性に優れたデュポン・コーリアン製の人工大理石天板を採用しました。</p>
+                                                    <p>調理の手間のかからない無水両面焼きを採用。グリルがフルスライドタイプでさらに分割可能なのでお手入れも簡単です。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>シンク前包丁差し</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/kitchen07.jpg" alt="kitchen07" class="img-fluid">
+                                                    </div>
+                                                    <p>今までデッドスペースだったシンク前のスペースを包丁差しとして活用。お子様の手が届きにくく誤使用を防ぎます。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>スライドキャビネット（ブルモーション機能付）</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/kitchen08.jpg" alt="kitchen08" class="img-fluid">
+                                                    </div>
+                                                    <p>重量物を入れた時でもスムーズな引き心地を実感できます。さらに引き出しを強く押しても途中でスピードが落ち、最後はゆっくり静かに閉まります。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>浄水器一体型シャワー水栓</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/kitchen09.jpg" alt="kitchen09" class="img-fluid">
+                                                    </div>
+                                                    <p>キッチン水栓は、使いやすさを考慮し、簡単にシャワーへの切り替えもでき、隅々まで水が届く便利な使用です。また、蛇口先端のボタンを押すだけで浄水／原水が切り替わります。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>コンロ横小引出</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/kitchen10.jpg" alt="kitchen10" class="img-fluid">
+                                                    </div>
+                                                    <p>調味料やスパイスの小瓶などを収納するのに便利な収納スペースを設けました。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>ホーローキッチンパネル</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/kitchen06.jpg" alt="kitchen06" class="img-fluid">
+                                                    </div>
+                                                    <p>目地が少ないので汚れにくく、日々のお手入れがカンタンです。ベースが金属でできているので、マグネット小物を使った自分だけのオリジナル収納スペースが作れます。</p>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div class="card" id="card_washroombathroom">
-                                        <h5 class="card-header">洗面室・浴室</h5>
+                                        <h5 class="card-header">浴室</h5>
                                         <div class="card-body">
                                             <div class="carousel carousel_washroombathroom" data-flickity='{"prevNextButtons": false }'>
                                                 <div class="carousel-cell">
@@ -407,113 +451,131 @@
 
                                             <ul class="list_products_security">
                                                 <li>
-                                                    <h6>DURAVIT 社製 スタルク浴槽</h6>
+                                                    <h6>セミオートバス</h6>
                                                     <div class="box_img custom">
                                                         <img src="images/washroombathroom01.jpg" alt="washroombathroom01" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>デザイナーフィリップ・スタルクがデザインを手掛ける、モダンで機能的なアクリルバスタブです。</p>
+                                                    <p>お湯張りから保温、追い焚きまでボタンひとつで設定できる、セミオートバスを採用しました。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>サーモスタットバス シャワー混合水栓</h6>
+                                                    <h6>浴室暖房乾燥機</h6>
                                                     <div class="box_img custom">
                                                         <img src="images/washroombathroom02.jpg" alt="washroombathroom02" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>サーモスタットバスシャワー混合水栓</p>
+                                                    <p>入浴後の換気や乾燥により、浴室を清潔に保ちます。寒い時期には入浴前の暖房、雨の日は洗濯物の乾燥にも使用できます。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>ユーフォリア モノ ハンドシャワー</h6>
+                                                    <h6>エコアクアシャワー/スライドバー</h6>
                                                     <div class="box_img custom">
                                                         <img src="images/washroombathroom03.jpg" alt="washroombathroom03" class="img-fluid">
                                                         <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>安全性の高いIH平面ヒーターを採用しました。フラットな天井面は拭き掃除も簡単で衛生的です。</p>
+                                                    <p>使う人や姿勢に合わせて、シャワーの高さと角度が調節できるシャワースライドバーを採用。ボリュームのある浴び心地と節水を両立しました。</p>
                                                 </li>
 
                                                 <li>
-                                                    <h6>壁パネル</h6>
+                                                    <h6>キレイサーモフロア</h6>
                                                     <div class="box_img custom">
                                                         <img src="images/washroombathroom04.jpg" alt="washroombathroom04" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
                                                     </div>
+                                                    <p>冷たさを感じにくく、汚れも落としやすい「キレイサーモフロア」を採用しました。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>ボウル</h6>
+                                                    <h6>ラウンドライン浴槽</h6>
                                                     <div class="box_img custom">
                                                         <img src="images/washroombathroom05.jpg" alt="washroombathroom05" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>※部屋タイプにより異なります。</p>
+                                                    <p>なめらかな曲線が、ソフトな印象を与えるシンプルデザイン。浴槽上部を最大限広くとった、ゆったり入浴できる形状です。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>ボウル</h6>
+                                                    <h6>プッシュワンウェイ排水栓</h6>
                                                     <div class="box_img custom">
                                                         <img src="images/washroombathroom06.jpg" alt="washroombathroom06" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>※部屋タイプにより異なります。</p>
+                                                    <p>浴槽のボタンをプッシュするだけで、排水口を開閉。手を濡らさずにお湯を抜くことができます。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>ボウル</h6>
+                                                    <h6>カウンター一体型サーモ水栓</h6>
                                                     <div class="box_img custom">
                                                         <img src="images/washroombathroom07.jpg" alt="washroombathroom07" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
                                                     </div>
-                                                    <p>※部屋タイプにより異なります。</p>
-                                                </li>
-
-                                                <li>
-                                                    <h6>ウォシュレット 一体形便器NJ</h6>
-                                                    <div class="box_img custom">
-                                                        <img src="images/washroombathroom08.jpg" alt="washroombathroom08" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <h6>シングルレバー 混合水栓</h6>
-                                                    <div class="box_img custom">
-                                                        <img src="images/washroombathroom09.jpg" alt="washroombathroom09" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <h6>立水洗</h6>
-                                                    <div class="box_img custom">
-                                                        <img src="images/washroombathroom10.jpg" alt="washroombathroom10" class="img-fluid">
-                                                        <span class="text-black">参考写真</span>
-                                                    </div>
+                                                    <p>シャワー水栓は、利用しながら温度調節が手軽にできるサーモスタット付です。</p>
                                                 </li>
                                                 
                                             </ul>
                                         </div>
                                     </div>
 
-                                    <div class="card" id="card_privatesauna">
-                                        <h5 class="card-header">プライベートサウナ</h5>
+                                    <div class="card" id="card_bathroom">
+                                        <h5 class="card-header">洗面室</h5>
                                         <div class="card-body">
-                                            <h5 class="card-title">札幌の冬を健康的に。最高のくつろぎを生むプライベートサウナ</h5>
-                                            <div class="row">
-                                                <div class="col-12 col-lg-4 align-self-center">
-                                                    <p class="card-text">60～80℃のマイルドな温熱空間で自然な発汗を感じることで、疲労回復やストレス解消など、心身のリラックスを促進します。室内にいながら、自然の中にいるような心地よいサウナ浴をプライベート空間でお楽しみ頂けます。</p>
-                                                </div>
-                                                <div class="col-12 col-lg-8 align-self-center">
-                                                    <div class="row g-0">
-                                                        <div class="col-12 col-lg-6">
-                                                            <div class="box_img">
-                                                                <img src="images/privatesauna01.jpg" alt="privatesauna01" class="img-fluid">
-                                                                <span>参考写真</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-12 col-lg-6">
-                                                            <div class="box_img">
-                                                                <img src="images/privatesauna02.jpg" alt="privatesauna02" class="img-fluid">
-                                                                <span>参考写真</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            <div class="carousel carousel_washroombathroom" data-flickity='{"prevNextButtons": false }'>
+                                                <div class="carousel-cell">
+                                                    <img src="images/bathroom.jpg" alt="bathroom" class="img-fluid">
                                                 </div>
                                             </div>
+
+                                            <ul class="list_products_security">
+                                                <li>
+                                                    <h6>人造大理石天板カウンター</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom01.jpg" alt="bathroom01" class="img-fluid">
+                                                    </div>
+                                                    <p>ゆるやかにラウンドしたボウルと光沢仕上げの天板が、高級感を演出。耐久性や耐候性に非常に優れており美しさを保つことができます。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>シングルレバー混合水栓</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom02.jpg" alt="bathroom02" class="img-fluid">
+                                                    </div>
+                                                    <p>ワンタッチで水とお湯を使い分けられる、シングルレバー混合水栓。吐出口部を引き出すことができ便利です。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>ヘルスメーター収納スペース</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom03.jpg" alt="bathroom03" class="img-fluid">
+                                                        <span class="text-black">参考写真</span>
+                                                    </div>
+                                                    <p>洗面化粧台の下部スペースを有効利用してヘルスメーター置場に。すっきり収納できます。</p>
+                                                </li>
+
+                                                <li>
+                                                    <h6>三面鏡（ミラーキャビネット）</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom04.jpg" alt="bathroom04" class="img-fluid">
+                                                    </div>
+                                                    <p>小物類から化粧品のストックまですっきり片付く収納スペースを確保しました。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>ウォシュレット一体型トイレ・手洗器・化粧鏡</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom05.jpg" alt="bathroom05" class="img-fluid">
+                                                    </div>
+                                                    <p>段差や隙間が少ない一体感のあるデザインのTOTO社製GGシリーズを採用。表面がツルツルで汚れが付きにくい独自の技術に加え、自動で便器にミスト（水）を吹き付けて汚れを付きにくく落ちやすくします。また、人の動きを感知して便ふたが自動で開閉しますので暖房便座の節電にも効果的です。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>トイレ上部吊戸棚</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom06.jpg" alt="bathroom06" class="img-fluid">
+                                                    </div>
+                                                    <p>トイレットペーパーや小物などの収納に便利な吊戸棚を設けました。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>リネン庫</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom07.jpg" alt="bathroom07" class="img-fluid">
+                                                    </div>
+                                                    <p>タオルや洗面用品の収納に便利です。（タイプによって形状が異なります）</p>
+                                                </li>
+                                                <li>
+                                                    <h6>フロントポケット収納付</h6>
+                                                    <div class="box_img custom">
+                                                        <img src="images/bathroom08.jpg" alt="bathroom08" class="img-fluid">
+                                                    </div>
+                                                    <p>ボウル前の取り出しやすい場所にポケットタイプの収納、2段引き出し内にコスメBOXを設けました。</p>
+                                                </li>
+                                                
+                                            </ul>
                                         </div>
                                     </div>
 
@@ -522,7 +584,7 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="structure_pane" role="tabpanel" aria-labelledby="structure" tabindex="0">
+                    <div class="tab-pane fade show active" id="structure_pane" role="tabpanel" aria-labelledby="structure" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
@@ -537,14 +599,24 @@
                                     <div class="card" id="card_elevation">
                                         <h5 class="card-header">立面図</h5>
                                         <div class="card-body">
-                                            <div class="text-center">
-                                                <p><img src="images/elevation01.jpg" alt="elevation01" class="img-fluid"></p>
-                                                <p>東立面図</p>
-                                                <p><img src="images/elevation02.jpg" alt="elevation02" class="img-fluid"></p>
-                                                <p>東立面図</p>
-                                                <p><img src="images/elevation03.jpg" alt="elevation03" class="img-fluid"></p>
-                                                <p>東立面図</p>
-                                            </div>
+                                            <ul class="list_elevation">
+                                                <li>
+                                                    <img src="images/elevation01.svg" alt="elevation01" class="img-fluid" width="250">
+                                                    <p>西側立面図</p>
+                                                </li>
+                                                <li>
+                                                    <img src="images/elevation02.svg" alt="elevation01" class="img-fluid" width="110">
+                                                    <p>西側立面図</p>
+                                                </li>
+                                                <li>
+                                                    <img src="images/elevation03.svg" alt="elevation01" class="img-fluid" width="250">
+                                                    <p>西側立面図</p>
+                                                </li>
+                                                <li>
+                                                    <img src="images/elevation04.svg" alt="elevation01" class="img-fluid" width="90">
+                                                    <p>西側立面図</p>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
 
@@ -552,21 +624,7 @@
                                         <h5 class="card-header">敷地配置図</h5>
                                         <div class="card-body">
                                             <div class="box_sitelayout">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-6">
-                                                        <div class="box_sitelayout_item">
-                                                            <img src="images/sitelayout01.jpg" alt="sitelayout01" class="img-fluid">
-                                                            <span>1階</span>
-                                                            <img src="images/i_direction.svg" alt="direction" class="img-fluid i_directions" width="100">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-lg-6">
-                                                        <div class="box_sitelayout_item">
-                                                            <img src="images/sitelayout02.jpg" alt="sitelayout02" class="img-fluid">
-                                                            <span>1階</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <img src="images/sitelayout03.svg" alt="sitelayout03" class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
@@ -576,31 +634,39 @@
                                         <div class="card-body">
                                             <ul class="list_products_security">
                                                 <li>
-                                                    <h6>直接基礎</h6>
-                                                    <div class="box_img custom">
-                                                        <img src="images/structure01.jpg" alt="structure01" class="img-fluid">
+                                                    <h6>二重天井・二重床</h6>
+                                                    <div class="box_img custom bg-transparent">
+                                                        <img src="images/structure01.svg" alt="structure01" class="img-fluid">
                                                     </div>
-                                                    <p>安全性耐震性を左右する基礎工事は強固な地盤（支持層）に構築されます。地表近くに支持層がある場合に使用される「直接基礎」（建物の底部をコンクリートで固めて建物荷重を直接地盤で支える工法）を採用しています。の高いIH平面ヒーターを採用しました。フラットな天井面は拭き掃除も簡単で衛生的です。</p>
+                                                    <p>階下への振動や床面の衝撃音を吸収するため、乾式置床と空気層を設けた床工法を採用し、床スラブ厚は約180〜200mm（一部除く）を確保。遮音性に配慮した床材を使用しました。</p>
                                                 </li>
                                                 <li>
-                                                    <h6>構造躯体</h6>
-                                                    <div class="box_img custom">
-                                                        <img src="images/structure02.jpg" alt="structure02" class="img-fluid">
+                                                    <h6>外壁</h6>
+                                                    <div class="box_img custom bg-transparent">
+                                                        <img src="images/structure02.svg" alt="structure02" class="img-fluid">
                                                     </div>
-                                                    <p>本物件は、住戸のある建物は構造躯体の耐久性を高めるために、設計基準強度（Fc）を約24N/ ㎟ ～ 約27N / ㎟に設定しています。これは1㎡当たり約2,400～2,700トンの重量を支えられることを示しています。</p>
+                                                    <p>外壁のコンクリート厚を約150mm以上も確保し、耐久性や断熱性の向上に努めました。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>杭構造（拡底杭16本）</h6>
+                                                    <div class="box_img custom bg-transparent">
+                                                        <img src="images/structure03.svg" alt="structure03" class="img-fluid">
+                                                    </div>
+                                                    <p>杭構造は地盤に約18.5mの16本の場所打ちコンクリート杭を安定した固い地盤に到達させ建物を支えています。</p>
                                                 </li>
                                                 <li>
                                                     <h6>ダブル配筋</h6>
-                                                    <div class="box_img custom">
-                                                        <img src="images/structure03.jpg" alt="structure03" class="img-fluid">
+                                                    <div class="box_img custom bg-transparent">
+                                                        <img src="images/structure04.svg" alt="structure04" class="img-fluid">
                                                     </div>
-                                                    <p>耐震壁の鉄筋は、コンクリートの中に二重に鉄筋を配したダブル配筋を採用しています。シングル配筋に比べ、より高い構造強度と耐久性を実現しています。</p>
+                                                    <p>床スラブや妻壁の一部、戸境壁は、コンクリート内に鉄筋を二重に組み上げるダブル配筋とし、高い構造強度を発揮。さらにコンクリートのひび割れに配慮し、非耐力壁には、誘発目地や耐震スリットも採用しました。※一部除く</p>
                                                 </li>
-
-                                                <li class="w-100">
-                                                    <h6>コンクリートの水セメント比</h6>
-                                                    <p>住戸のある建物はコンクリートの耐久性を高めるため、柱・梁・床などの主要な構造部について、セメントの重量に対する水の重量の割合を最大値50.5%に設定しています。<br>
-                                                    水の量が少ないほど強度が高くなり耐久性が向上します。</p>
+                                                <li>
+                                                    <h6>耐震ドア枠</h6>
+                                                    <div class="box_img custom bg-transparent">
+                                                        <img src="images/structure05.svg" alt="structure04" class="img-fluid">
+                                                    </div>
+                                                    <p>枠と扉の間に適度な隙間を設け、地震で居住者を室内に閉じ込めてしまうような事態を軽減します。</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -610,14 +676,18 @@
                                         <h5 class="card-header">アメニティ</h5>
                                         <div class="card-body">
                                             <ul class="list_products_security">
-                                                <li class="w-100">
-                                                    <h6>J:COM テレビ / インターネット / 電話</h6>
-                                                    <p class="text-center">
-                                                        <img src="images/amenities.jpg" alt="amenities" class="img-fluid">
-                                                    </p>
-                                                    <p>本物件はアンテナケーブルをTV 端子に接続することで、地上デジタル放送をご覧いただけます。 また、地域情報をお届けするJ:COM チャンネル（コミュニティチャンネル）の他、J:COMと加入契約をすることにより、スポーツ、アニメなどの専門チャンネル（CS デジタル放送）やビデオオンデマンドがお楽しみいただけます。<br>
-                                                    インターネットはT V 端子よりケーブルモデムを介して、LAN ケーブルをパソコンに接続してご利用いただけます。<br>
-                                                    電話はT V 端子からeMTA（電話専用端末）を介して、一般の固定電話に接続しご利用いただけます。</p>
+                                                <li>
+                                                    <img src="images/jcom.svg" alt="jcom" class="img-fluid">
+                                                </li>
+                                                <li>
+                                                    <h6>■J:COM TV</h6>
+                                                    <p class="mb-2">各居室のアウトレットに接続して、地上デジタル放送はもちろんJ:COM（CATV）の多彩なオプションプログラムをお楽しみいただけます。また、固定電話回線（J:COM PHONEプラス）もオプションでご利用いただけます。</p>
+                                                    <img src="images/jcomtv.svg" alt="jcomtv" class="img-fluid">
+                                                </li>
+                                                <li>
+                                                    <h6>■J:COM NET</h6>
+                                                    <p class="mb-2">J:COM NETなら利用開始まで最短4日でサクサク快適な超速ネットをお楽しみいただけます。※ご契約内容や混雑状況などにより、ご希望の日程に沿えない場合があります。</p>
+                                                    <img src="images/jcomnet.svg" alt="jcomnet" class="img-fluid">
                                                 </li>
                                             </ul>
                                         </div>
