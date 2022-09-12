@@ -350,7 +350,7 @@
                                         下町文化と新しい文化が混ざり合い創造性のあるまち「蔵前」の魅力を更に引き立て、豊かなまちづくりを描きます。</p>
                                         <div class="box_map">
                                             <div class="box_map_img">
-                                                <img src="images/redevelopment_map.jpg" alt="redevelopment_map" class="img-fluid">
+                                                <img src="images/redevelopment_map.svg" alt="redevelopment_map" class="img-fluid w-100">
                                             </div>
                                             <div class="box_map_content">
                                                 <img src="images/map_content.png" alt="map_content" class="img-fluid w-100">

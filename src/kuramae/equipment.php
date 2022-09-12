@@ -57,13 +57,13 @@
                                     <button class="nav-link" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
+                                    <button class="nav-link active" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="equipment" data-bs-toggle="tab" data-bs-target="#equipment_pane" type="button" role="tab" aria-controls="equipment_pane" aria-selected="false"><span>設備</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="structure" data-bs-toggle="tab" data-bs-target="#structure_pane" type="button" role="tab" aria-controls="structure_pane" aria-selected="false"><span>構造</span></button>
+                                    <button class="nav-link" id="structure" data-bs-toggle="tab" data-bs-target="#structure_pane" type="button" role="tab" aria-controls="structure_pane" aria-selected="false"><span>構造</span></button>
                                 </li>
                             </ul>
                         </div>
@@ -169,7 +169,7 @@
                         
                     </div>
 
-                    <div class="tab-pane fade" id="service_pane" role="tabpanel" aria-labelledby="service" tabindex="0">
+                    <div class="tab-pane fade show active" id="service_pane" role="tabpanel" aria-labelledby="service" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
@@ -584,7 +584,7 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade show active" id="structure_pane" role="tabpanel" aria-labelledby="structure" tabindex="0">
+                    <div class="tab-pane fade" id="structure_pane" role="tabpanel" aria-labelledby="structure" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
@@ -681,13 +681,14 @@
                                                 </li>
                                                 <li>
                                                     <h6>■J:COM TV</h6>
-                                                    <p class="mb-2">各居室のアウトレットに接続して、地上デジタル放送はもちろんJ:COM（CATV）の多彩なオプションプログラムをお楽しみいただけます。また、固定電話回線（J:COM PHONEプラス）もオプションでご利用いただけます。</p>
-                                                    <img src="images/jcomtv.svg" alt="jcomtv" class="img-fluid">
+                                                    <img src="images/jcomtv.svg" alt="jcomtv" class="img-fluid my-2">
+                                                    <p>各居室のアウトレットに接続して、地上デジタル放送はもちろんJ:COM（CATV）の多彩なオプションプログラムをお楽しみいただけます。また、固定電話回線（J:COM PHONEプラス）もオプションでご利用いただけます。</p>
+                                                    
                                                 </li>
                                                 <li>
                                                     <h6>■J:COM NET</h6>
-                                                    <p class="mb-2">J:COM NETなら利用開始まで最短4日でサクサク快適な超速ネットをお楽しみいただけます。※ご契約内容や混雑状況などにより、ご希望の日程に沿えない場合があります。</p>
-                                                    <img src="images/jcomnet.svg" alt="jcomnet" class="img-fluid">
+                                                    <img src="images/jcomnet.svg" alt="jcomnet" class="img-fluid my-2">
+                                                    <p>J:COM NETなら利用開始まで最短4日でサクサク快適な超速ネットをお楽しみいただけます。※ご契約内容や混雑状況などにより、ご希望の日程に沿えない場合があります。</p>
                                                 </li>
                                             </ul>
                                         </div>
