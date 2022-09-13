@@ -624,7 +624,7 @@
                                         <h5 class="card-header">敷地配置図</h5>
                                         <div class="card-body">
                                             <div class="box_sitelayout">
-                                                <img src="images/sitelayout03.svg" alt="sitelayout03" class="img-fluid">
+                                                <img src="images/sitelayout03.png" alt="sitelayout03" class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
@@ -636,35 +636,35 @@
                                                 <li>
                                                     <h6>二重天井・二重床</h6>
                                                     <div class="box_img custom bg-transparent">
-                                                        <img src="images/structure01.svg" alt="structure01" class="img-fluid">
+                                                        <img src="images/structure01.png" alt="structure01" class="img-fluid">
                                                     </div>
                                                     <p>階下への振動や床面の衝撃音を吸収するため、乾式置床と空気層を設けた床工法を採用し、床スラブ厚は約180〜200mm（一部除く）を確保。遮音性に配慮した床材を使用しました。</p>
                                                 </li>
                                                 <li>
                                                     <h6>外壁</h6>
                                                     <div class="box_img custom bg-transparent">
-                                                        <img src="images/structure02.svg" alt="structure02" class="img-fluid">
+                                                        <img src="images/structure02.png" alt="structure02" class="img-fluid">
                                                     </div>
                                                     <p>外壁のコンクリート厚を約150mm以上も確保し、耐久性や断熱性の向上に努めました。</p>
                                                 </li>
                                                 <li>
                                                     <h6>杭構造（拡底杭16本）</h6>
                                                     <div class="box_img custom bg-transparent">
-                                                        <img src="images/structure03.svg" alt="structure03" class="img-fluid">
+                                                        <img src="images/structure03.png" alt="structure03" class="img-fluid">
                                                     </div>
                                                     <p>杭構造は地盤に約18.5mの16本の場所打ちコンクリート杭を安定した固い地盤に到達させ建物を支えています。</p>
                                                 </li>
                                                 <li>
                                                     <h6>ダブル配筋</h6>
                                                     <div class="box_img custom bg-transparent">
-                                                        <img src="images/structure04.svg" alt="structure04" class="img-fluid">
+                                                        <img src="images/structure04.png" alt="structure04" class="img-fluid">
                                                     </div>
                                                     <p>床スラブや妻壁の一部、戸境壁は、コンクリート内に鉄筋を二重に組み上げるダブル配筋とし、高い構造強度を発揮。さらにコンクリートのひび割れに配慮し、非耐力壁には、誘発目地や耐震スリットも採用しました。※一部除く</p>
                                                 </li>
                                                 <li>
                                                     <h6>耐震ドア枠</h6>
                                                     <div class="box_img custom bg-transparent">
-                                                        <img src="images/structure05.svg" alt="structure04" class="img-fluid">
+                                                        <img src="images/structure05.png" alt="structure04" class="img-fluid">
                                                     </div>
                                                     <p>枠と扉の間に適度な隙間を設け、地震で居住者を室内に閉じ込めてしまうような事態を軽減します。</p>
                                                 </li>
@@ -677,17 +677,17 @@
                                         <div class="card-body">
                                             <ul class="list_products_security">
                                                 <li>
-                                                    <img src="images/jcom.svg" alt="jcom" class="img-fluid">
+                                                    <img src="images/jcom.png" alt="jcom" class="img-fluid">
                                                 </li>
                                                 <li>
                                                     <h6>■J:COM TV</h6>
-                                                    <img src="images/jcomtv.svg" alt="jcomtv" class="img-fluid my-2">
+                                                    <img src="images/jcomtv.png" alt="jcomtv" class="img-fluid my-2">
                                                     <p>各居室のアウトレットに接続して、地上デジタル放送はもちろんJ:COM（CATV）の多彩なオプションプログラムをお楽しみいただけます。また、固定電話回線（J:COM PHONEプラス）もオプションでご利用いただけます。</p>
                                                     
                                                 </li>
                                                 <li>
                                                     <h6>■J:COM NET</h6>
-                                                    <img src="images/jcomnet.svg" alt="jcomnet" class="img-fluid my-2">
+                                                    <img src="images/jcomnet.png" alt="jcomnet" class="img-fluid my-2">
                                                     <p>J:COM NETなら利用開始まで最短4日でサクサク快適な超速ネットをお楽しみいただけます。※ご契約内容や混雑状況などにより、ご希望の日程に沿えない場合があります。</p>
                                                 </li>
                                             </ul>
