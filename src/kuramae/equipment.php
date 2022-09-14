@@ -54,10 +54,10 @@
                         <div class="col-12 col-lg-12">
                             <ul class="nav nav-tabs" id="tab_plan" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
+                                    <button class="nav-link active" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
+                                    <button class="nav-link" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="equipment" data-bs-toggle="tab" data-bs-target="#equipment_pane" type="button" role="tab" aria-controls="equipment_pane" aria-selected="false"><span>設備</span></button>
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="tab-content" id="tab_plancontent">
-                    <div class="tab-pane fade" id="sharedequipment_pane" role="tabpanel" aria-labelledby="sharedequipment" tabindex="0">
+                    <div class="tab-pane fade show active" id="sharedequipment_pane" role="tabpanel" aria-labelledby="sharedequipment" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
@@ -88,19 +88,9 @@
                                             <h5 class="card-title">斜行エレベーター</h5>
                                             <div class="row">
                                                 <div class="col-12 col-lg-8 align-self-center">
-                                                    <div class="row g-0">
-                                                        <div class="col-12 col-lg-6">
-                                                            <div class="box_img">
-                                                                <!-- <img src="images/" alt="" class="img-fluid"> -->
-                                                                <span>参考写真</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-12 col-lg-6">
-                                                            <div class="box_img">
-                                                                <!-- <img src="images/" alt="" class="img-fluid"> -->
-                                                                <span>参考写真</span>
-                                                            </div>
-                                                        </div>
+                                                    <div class="box_img">
+                                                        <img src="images/bg_activerelax.jpg" alt="activerelax" class="img-fluid">
+                                                        <span>参考写真</span>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-4 align-self-center">
@@ -169,7 +159,7 @@
                         
                     </div>
 
-                    <div class="tab-pane fade show active" id="service_pane" role="tabpanel" aria-labelledby="service" tabindex="0">
+                    <div class="tab-pane fade" id="service_pane" role="tabpanel" aria-labelledby="service" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
