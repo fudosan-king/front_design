@@ -4536,12 +4536,13 @@ i.chevron-left {
 .section_plan.section_equipment .card .card-body .box_img {
   background: #c4c4c4;
   width: 100%;
-  height: 320px;
+  height: 240px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 .section_plan.section_equipment .card .card-body .box_img img {
-  height: 320px;
+  height: 240px;
   width: 100%;
   object-fit: cover;
 }
@@ -4549,7 +4550,7 @@ i.chevron-left {
   position: absolute;
   right: 30px;
   bottom: 5px;
-  color: #FFFFFF;
+  color: #000;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   font-weight: 500;
   font-size: 0.75em;
@@ -4559,6 +4560,14 @@ i.chevron-left {
 }
 .section_plan.section_equipment .card .card-body .box_img.custom img {
   height: 240px;
+}
+.section_plan.section_equipment .card .card-body .box_img.structure {
+  height: auto;
+  background: #fff;
+}
+.section_plan.section_equipment .card .card-body .box_img.structure img {
+  height: auto;
+  object-fit: inherit;
 }
 .section_plan.section_equipment .reservation_system {
   background: #F0ECE9;
@@ -4581,9 +4590,9 @@ i.chevron-left {
   flex-wrap: wrap;
 }
 .list_products_security li {
-  margin-right: 80px;
-  margin-bottom: 60px;
-  width: 28.33%;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  width: 32%;
 }
 .list_products_security li:nth-of-type(3n) {
   margin-right: 0;
@@ -4918,16 +4927,43 @@ i.chevron-left {
     font-size: 0.4375em;
   }
 }
+.list_products_security li h6.title_custom {
+  line-height: 1.5em;
+  min-height: 76px;
+}
+.list_products_security li h6 span {
+  font-size: 0.75em;
+}
 .list_products_security li p.sub_title {
   font-weight: 600;
   margin-bottom: 0;
 }
 .list_products_security li.expand02 {
   width: 64%;
-  margin-right: 0;
 }
 .list_products_security li.full_expand {
   width: 100%;
+}
+.list_products_security.service li {
+  width: 49%;
+}
+.list_products_security.top li {
+  width: 49%;
+}
+
+.box_worryfree {
+  position: relative;
+}
+.box_worryfree::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url("../images/i_arrowright.png") no-repeat;
+  background-size: 100%;
+  width: 35px;
 }
 
 .list_elevation {
@@ -4946,9 +4982,26 @@ i.chevron-left {
   margin-top: 15px;
   margin-bottom: 0;
 }
+.list_elevation li p span {
+  display: inline-block;
+  background: #290A03;
+  padding: 0 10px;
+  color: #fff;
+}
 
 @media (max-width: 768px) {
   .list_elevation li {
     width: 100%;
+  }
+
+  .list_products_security li.expand02 {
+    width: 100%;
+  }
+  .list_products_security.service li, .list_products_security.top li {
+    width: 100%;
+  }
+
+  .box_worryfree::before {
+    display: none;
   }
 }
