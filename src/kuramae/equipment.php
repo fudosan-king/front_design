@@ -54,7 +54,7 @@
                         <div class="col-12 col-lg-12">
                             <ul class="nav nav-tabs" id="tab_plan" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
+                                    <button class="nav-link active" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
@@ -63,7 +63,7 @@
                                     <button class="nav-link" id="equipment" data-bs-toggle="tab" data-bs-target="#equipment_pane" type="button" role="tab" aria-controls="equipment_pane" aria-selected="false"><span>設備</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="structure" data-bs-toggle="tab" data-bs-target="#structure_pane" type="button" role="tab" aria-controls="structure_pane" aria-selected="false"><span>構造</span></button>
+                                    <button class="nav-link" id="structure" data-bs-toggle="tab" data-bs-target="#structure_pane" type="button" role="tab" aria-controls="structure_pane" aria-selected="false"><span>構造</span></button>
                                 </li>
                             </ul>
                         </div>
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="tab-content" id="tab_plancontent">
-                    <div class="tab-pane fade" id="sharedequipment_pane" role="tabpanel" aria-labelledby="sharedequipment" tabindex="0">
+                    <div class="tab-pane fade show active" id="sharedequipment_pane" role="tabpanel" aria-labelledby="sharedequipment" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
@@ -590,7 +590,7 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade show active" id="structure_pane" role="tabpanel" aria-labelledby="structure" tabindex="0">
+                    <div class="tab-pane fade" id="structure_pane" role="tabpanel" aria-labelledby="structure" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
