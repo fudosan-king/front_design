@@ -1418,8 +1418,9 @@ footer address p {
 }
 .slide-main .slideContent .slide {
   max-height: 990px;
-  background: url("../images/bg_activerelax.jpg") no-repeat;
+  background: url("../images/main/bg_top.jpg") no-repeat;
   background-size: cover;
+  background-position: bottom right;
 }
 .slide-main .slideText {
   position: absolute;
@@ -3563,6 +3564,7 @@ i.chevron-left {
     max-height: 100vh;
   }
   .slide-main .slideContent .slide {
+    height: 200px;
     max-height: 100vh;
   }
 }
@@ -5003,5 +5005,13 @@ i.chevron-left {
 
   .box_worryfree::before {
     display: none;
+  }
+}
+@media (max-width: 414px) {
+  .carousel.carousel_view .carousel-cell {
+    height: 240px;
+  }
+  .carousel.carousel_view .carousel-cell img {
+    height: 240px;
   }
 }
