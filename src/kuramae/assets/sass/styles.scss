@@ -1546,8 +1546,9 @@ footer address {
     max-height: 990px;
     .slide {
       max-height: 990px;
-      background: url('../images/bg_activerelax.jpg') no-repeat;
+      background: url('../images/main/bg_top.jpg') no-repeat;
       background-size: cover;
+      background-position: bottom right;
     }
   }
   .slideText {
@@ -3865,6 +3866,7 @@ a.disable {
     .slideContent {
       max-height: 100vh;
       .slide {
+        height: 200px;
         max-height: 100vh;
         // background-image: url('../images/main/bg_top_retina.jpg');
       }
@@ -5470,6 +5472,19 @@ a.disable {
   .box_worryfree {
     &::before {
       display: none;
+    }
+  }
+  
+}
+@media (max-width: 414px) {
+  .carousel {
+    &.carousel_view {
+      .carousel-cell {
+        height: 240px;
+        img {
+          height: 240px;
+        }
+      }
     }
   }
 }

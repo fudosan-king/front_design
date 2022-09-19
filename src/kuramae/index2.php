@@ -22,33 +22,25 @@
                 <div class="scroll_down">
                     <a href="#section_reservation" data-scroll class="scroll_title">Scroll</a>
                 </div>
-                <div class="news news_afterlogin">
-                    <div class="row">
-                        <div class="col-12 col-lg-2 align-self-center">
-                            <h2>新着情報</h2>
-                        </div>
-                        <div class="col-12 col-lg-10 align-self-center">
-                            <!-- <div class="carousel carousel_news" data-flickity='{"pageDots": false, "contain": true, "autoPlay": 3500 }'>
-                                <div class="carousel-cell">
-                                    <p><a href="#">公式ホームページを公開いたしました。</a></p>
-                                </div>
-                                <div class="carousel-cell">
-                                    <p><a href="#">公式ホームページを公開いたしました。</a></p>
-                                </div>
-                            </div> -->
+            </section>
 
-                            <div class="slick_news">
-                                <div><a href="https://staging.prostyle-residence.com/kuramae/news/">年末年始休業のお知らせ</a></div>
-                                <div><a href="https://staging.prostyle-residence.com/kuramae/news/">「PROSTYLE札幌 宮の森・東京説明会」は好評のうちに終了しました</a></div>
-                                <div><a href="https://staging.prostyle-residence.com/kuramae/news/">8月28日(土)、29日(日)「PROSTYLE札幌 宮の森・東京説明会」を開催します</a></div>
-                                <div><a href="https://staging.prostyle-residence.com/kuramae/news/">【プロスタイル札幌 宮の森】家具・インテリアオプションのご案内</a></div>
-                                <div><a href="https://staging.prostyle-residence.com/kuramae/news/">『プロスタイル札幌 宮の森』工事進捗状況</a></div>
-                            </div>
-
+            <div class="news news_afterlogin">
+                <div class="row">
+                    <div class="col-12 col-lg-2 align-self-center">
+                        <h2>新着情報</h2>
+                    </div>
+                    <div class="col-12 col-lg-10 align-self-center">
+                        <div class="slick_news">
+                            <div><a href="https://staging.prostyle-residence.com/kuramae/news/">年末年始休業のお知らせ</a></div>
+                            <div><a href="https://staging.prostyle-residence.com/kuramae/news/">「PROSTYLE札幌 宮の森・東京説明会」は好評のうちに終了しました</a></div>
+                            <div><a href="https://staging.prostyle-residence.com/kuramae/news/">8月28日(土)、29日(日)「PROSTYLE札幌 宮の森・東京説明会」を開催します</a></div>
+                            <div><a href="https://staging.prostyle-residence.com/kuramae/news/">【プロスタイル札幌 宮の森】家具・インテリアオプションのご案内</a></div>
+                            <div><a href="https://staging.prostyle-residence.com/kuramae/news/">『プロスタイル札幌 宮の森』工事進捗状況</a></div>
                         </div>
+
                     </div>
                 </div>
-            </section>
+            </div>
 
             <section id="section_reservation" class="section_reservation">
                 <div class="container-fluid">
@@ -71,13 +63,14 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <p>9月下旬 事前案内会開催(予定) <span class="d-block d-lg-inline"></span>【資料請求受付中】</p>
+                            <!-- <p>9月下旬 事前案内会開催(予定) <span class="d-block d-lg-inline"></span>【資料請求受付中】</p> -->
+                            <p>10月15日（土）より事前案内会開催　来場予約・資料請求受付中</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- <section class="section_specialmovie">
+            <section class="section_specialmovie">
                 <h2 class="title">SPECIAL MOVIE</h2>
                 <p>●●●●●●●●で暮らし始めた2人の物語をスペシャルムービーで公開中。<br>
                 Jazztronikが書き下ろした楽曲にもご注目ください。</p>
@@ -93,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
 
             <section class="section_story">
                 <div class="container">

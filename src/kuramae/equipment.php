@@ -54,10 +54,7 @@
                         <div class="col-12 col-lg-12">
                             <ul class="nav nav-tabs" id="tab_plan" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="sharedequipment" data-bs-toggle="tab" data-bs-target="#sharedequipment_pane" type="button" role="tab" aria-controls="sharedequipment_pane" aria-selected="true"><span>共用設備</span></button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
+                                    <button class="nav-link active" id="service" data-bs-toggle="tab" data-bs-target="#service_pane" type="button" role="tab" aria-controls="service_pane" aria-selected="false"><span>サービス</span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="equipment" data-bs-toggle="tab" data-bs-target="#equipment_pane" type="button" role="tab" aria-controls="equipment_pane" aria-selected="false"><span>設備</span></button>
@@ -71,79 +68,8 @@
                 </div>
 
                 <div class="tab-content" id="tab_plancontent">
-                    <div class="tab-pane fade show active" id="sharedequipment_pane" role="tabpanel" aria-labelledby="sharedequipment" tabindex="0">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 col-lg-12">
-                                    <div class="card">
-                                        <h5 class="card-header">共用設備</h5>
-                                        <div class="card-body">
-                                            <ul class="list_products_security">
-                                                <li>
-                                                    <h6>ペット飼育可</h6>
-                                                    <div class="box_img">
-                                                        <img src="images/sharedequipment01.jpg" alt="sharedequipment01" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                    <p>大切な家族の一員、ペットと一緒に暮らすことができます。<br>
-                                                  ペットの種類や頭数などに制限があります。詳しくは係員にお問合わせください。</p>
-                                                </li>
-                                                <li>
-                                                    <h6>バイク置場</h6>
-                                                    <div class="box_img">
-                                                        <img src="images/sharedequipment02.jpg" alt="sharedequipment02" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                    <p>敷地内に平置バイク置場をご用意しました。<br>
-                                                    車種に制限があります。詳しくは係員にお問い合わせください。</p>
-                                                </li>
-                                                <li>
-                                                    <h6>駐輪場100％設置</h6>
-                                                    <div class="box_img">
-                                                        <img src="images/sharedequipment03.jpg" alt="sharedequipment03" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                    <p>各住戸に駐輪場をご用意しました。日々の生活を便利にサポートします。</p>
-                                                </li>
 
-                                                <li>
-                                                    <h6>屋内 平置駐車場</h6>
-                                                    <div class="box_img">
-                                                        <img src="images/sharedequipment04.jpg" alt="sharedequipment04" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                    <p>敷地内に設けた駐車場は、平置駐車場としました。いつでもスムーズに入出庫が行えます。大切な車を雨風から守ります。<br>
-                                                    車種に制限があります。詳しくは係員にお問い合わせください。</p>
-                                                </li>
-                                                <li>
-                                                    <h6>24時間可能なゴミ置き場</h6>
-                                                    <div class="box_img">
-                                                        <img src="images/sharedequipment05.jpg" alt="sharedequipment05" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                    <p>朝の出勤前や帰宅後の夜間など、時間や曜日を気にせず、ゴミ出し可能。24時間使える便利なゴミ置き場です。<br>
-                                                    管理規約等により使用上の制限があります。</p>
-                                                </li>
-                                                <li>
-                                                    <h6>宅配ボックス</h6>
-                                                    <div class="box_img">
-                                                        <img src="images/sharedequipment06.jpg" alt="sharedequipment06" class="img-fluid">
-                                                        <span>参考写真</span>
-                                                    </div>
-                                                    <p>留守中に届けられた荷物を保管する宅配ボックス。24時間利用可能で、いつでも取り出せるので便利です。</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-
-                    <div class="tab-pane fade" id="service_pane" role="tabpanel" aria-labelledby="service" tabindex="0">
+                    <div class="tab-pane fade show active" id="service_pane" role="tabpanel" aria-labelledby="service" tabindex="0">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
@@ -280,6 +206,7 @@
                                         <li><a href="#card_washroombathroom" data-scroll>浴室</a></li>
                                         <li><a href="#card_bathroom" data-scroll>洗面室</a></li>
                                         <li><a href="#card_amenities" data-scroll>アメニティ</a></li>
+                                        <li><a href="#card_sharedequipment" data-scroll>共用設備</a></li>
                                     </ul>
 
                                     <div class="card" id="card_kitchen">
@@ -583,7 +510,66 @@
                                         </div>
                                     </div>
 
-                                    
+                                    <div class="card" id="card_sharedequipment">
+                                        <h5 class="card-header">共用設備</h5>
+                                        <div class="card-body">
+                                            <ul class="list_products_security">
+                                                <li>
+                                                    <h6>ペット飼育可</h6>
+                                                    <div class="box_img">
+                                                        <img src="images/sharedequipment01.jpg" alt="sharedequipment01" class="img-fluid">
+                                                        <span>参考写真</span>
+                                                    </div>
+                                                    <p>大切な家族の一員、ペットと一緒に暮らすことができます。<br>
+                                                  ペットの種類や頭数などに制限があります。詳しくは係員にお問合わせください。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>バイク置場</h6>
+                                                    <div class="box_img">
+                                                        <img src="images/sharedequipment02.jpg" alt="sharedequipment02" class="img-fluid">
+                                                        <span>参考写真</span>
+                                                    </div>
+                                                    <p>敷地内に平置バイク置場をご用意しました。<br>
+                                                    車種に制限があります。詳しくは係員にお問い合わせください。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>駐輪場100％設置</h6>
+                                                    <div class="box_img">
+                                                        <img src="images/sharedequipment03.jpg" alt="sharedequipment03" class="img-fluid">
+                                                        <span>参考写真</span>
+                                                    </div>
+                                                    <p>各住戸に駐輪場をご用意しました。日々の生活を便利にサポートします。</p>
+                                                </li>
+
+                                                <li>
+                                                    <h6>屋内 平置駐車場</h6>
+                                                    <div class="box_img">
+                                                        <img src="images/sharedequipment04.jpg" alt="sharedequipment04" class="img-fluid">
+                                                        <span>参考写真</span>
+                                                    </div>
+                                                    <p>敷地内に設けた駐車場は、平置駐車場としました。いつでもスムーズに入出庫が行えます。大切な車を雨風から守ります。<br>
+                                                    車種に制限があります。詳しくは係員にお問い合わせください。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>24時間可能なゴミ置き場</h6>
+                                                    <div class="box_img">
+                                                        <img src="images/sharedequipment05.jpg" alt="sharedequipment05" class="img-fluid">
+                                                        <span>参考写真</span>
+                                                    </div>
+                                                    <p>朝の出勤前や帰宅後の夜間など、時間や曜日を気にせず、ゴミ出し可能。24時間使える便利なゴミ置き場です。<br>
+                                                    管理規約等により使用上の制限があります。</p>
+                                                </li>
+                                                <li>
+                                                    <h6>宅配ボックス</h6>
+                                                    <div class="box_img">
+                                                        <img src="images/sharedequipment06.jpg" alt="sharedequipment06" class="img-fluid">
+                                                        <span>参考写真</span>
+                                                    </div>
+                                                    <p>留守中に届けられた荷物を保管する宅配ボックス。24時間利用可能で、いつでも取り出せるので便利です。</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -594,37 +580,6 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
-                                    <ul class="list_general">
-                                        <li><a href="#card_elevation" data-scroll>立面図</a></li>
-                                        <li><a href="#card_eachfloor" data-scroll>各階配置図</a></li>
-                                        <li><a href="#card_sitelayout" data-scroll>敷地配置図</a></li>
-                                        <li><a href="#card_structure" data-scroll>構造</a></li>
-                                    </ul>
-
-                                    <div class="card" id="card_elevation">
-                                        <h5 class="card-header">立面図</h5>
-                                        <div class="card-body">
-                                            <img src="images/elevation.png" alt="elevation" class="img-fluid">
-                                        </div>
-                                    </div>
-
-                                    <div class="card" id="card_eachfloor">
-                                        <h5 class="card-header">各階配置図</h5>
-                                        <div class="card-body">
-                                            <div class="box_sitelayout">
-                                                <img src="images/eachfloor.png" alt="eachfloor" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card" id="card_sitelayout">
-                                        <h5 class="card-header">敷地配置図</h5>
-                                        <div class="card-body">
-                                            <div class="box_sitelayout">
-                                                <img src="images/sitelayout03.png" alt="sitelayout03" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <div class="card" id="card_structure">
                                         <h5 class="card-header">構造</h5>
@@ -671,8 +626,6 @@
                                             </ul>
                                         </div>
                                     </div>
-
-                                    
 
                                 </div>
                             </div>
