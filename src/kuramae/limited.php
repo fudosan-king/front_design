@@ -57,7 +57,7 @@
                                             </a>
                                             <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a class="list_catalog_item" href="#">
                                                 
                                             </a>
@@ -86,7 +86,7 @@
                                                 
                                             </a>
                                             <p><a class="titles" href="#">カタログのタイトルが入ります</a></p>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
