@@ -72,14 +72,20 @@
 
             <section class="section_specialmovie">
                 <h2 class="title">SPECIAL MOVIE</h2>
-                <p>●●●●●●●●で暮らし始めた2人の物語をスペシャルムービーで公開中。<br>
-                Jazztronikが書き下ろした楽曲にもご注目ください。</p>
+                <p>プロスタイル蔵前で叶える暮らしをスペシャルムービーで公開中</p>
                 <div class="box_movie">
                     <div class="box_movie_content">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-lg-12">
-                                    <img src="images/video.jpg" alt="" class="img-fluid">
+                                    <div class="ratio ratio-16x9">
+                                        <video controls width="100%" autoplay loop muted>
+                                            <source src="images/videos/productions.webm" type="video/webm">
+                                            <source src="images/videos/productions.mp4" type="video/mp4">
+                                            Sorry, your browser doesn't support embedded videos.
+                                        </video>
+                                        <!-- <iframe src="images/videos/productions.mp4" title="プロスタイル蔵前_制作動画" allow="autoplay" allowfullscreen></iframe> -->
+                                    </div>
                                     <p>※注釈がある場合はここに入ります。</p>
                                 </div>
                             </div>
