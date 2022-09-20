@@ -79,12 +79,13 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <div class="ratio ratio-16x9">
-                                        <video controls width="100%" autoplay loop muted>
+                                        <!-- <video controls width="100%" autoplay loop muted>
                                             <source src="images/videos/productions.webm" type="video/webm">
                                             <source src="images/videos/productions.mp4" type="video/mp4">
                                             Sorry, your browser doesn't support embedded videos.
-                                        </video>
+                                        </video> -->
                                         <!-- <iframe src="images/videos/productions.mp4" title="プロスタイル蔵前_制作動画" allow="autoplay" allowfullscreen></iframe> -->
+                                        <iframe src="https://drive.google.com/file/d/1bf0N3rLUZzmIwoEsPoiHgtXiXtBU6Jbb/preview"  title="プロスタイル蔵前_制作動画" allow="autoplay" allowfullscreen></iframe>
                                     </div>
                                     <p>※注釈がある場合はここに入ります。</p>
                                 </div>
