@@ -79,13 +79,10 @@
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <div class="ratio ratio-16x9">
-                                        <!-- <video controls width="100%" autoplay loop muted>
-                                            <source src="images/videos/productions.webm" type="video/webm">
-                                            <source src="images/videos/productions.mp4" type="video/mp4">
-                                            Sorry, your browser doesn't support embedded videos.
-                                        </video> -->
-                                        <!-- <iframe src="images/videos/productions.mp4" title="プロスタイル蔵前_制作動画" allow="autoplay" allowfullscreen></iframe> -->
-                                        <iframe src="https://drive.google.com/file/d/1bf0N3rLUZzmIwoEsPoiHgtXiXtBU6Jbb/preview"  title="プロスタイル蔵前_制作動画" allow="autoplay" allowfullscreen></iframe>
+                                        <!-- <iframe src="https://drive.google.com/file/d/1bf0N3rLUZzmIwoEsPoiHgtXiXtBU6Jbb/preview"  title="プロスタイル蔵前_制作動画" allow="autoplay" allowfullscreen></iframe> -->
+                                        <video id="bgvid" playsinline muted controls poster="images/poster.svg">
+                                            <source src="https://prostyle-upload.s3.ap-northeast-1.amazonaws.com/%E3%83%95%E3%82%9A%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E8%94%B5%E5%89%8D_%E5%88%B6%E4%BD%9C%E5%8B%95%E7%94%BB.mp4" type="video/mp4" id="bgvid1">
+                                        </video>
                                     </div>
                                     <p>※注釈がある場合はここに入ります。</p>
                                 </div>
