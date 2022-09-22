@@ -5022,3 +5022,15 @@ i.chevron-left {
     min-height: auto;
   }
 }
+.section_request .btn.btn_reservation:hover::after {
+  border-color: #81713C;
+}
+.section_request .btn_reservation {
+  background: #81713C;
+}
+
+@media (max-width: 768px) {
+  .section_request .btn {
+    min-width: 160px;
+  }
+}
