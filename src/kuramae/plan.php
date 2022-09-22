@@ -154,7 +154,7 @@
                                                 <div class="modelroom_content aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000">
                                                     <ul class="list_global">
                                                         <li><span>PROSTYLE</span></li>
-                                                        <li><span>MIYANOMORI</span></li>
+                                                        <li><span>KURAMAE</span></li>
                                                         <li><span>PLAN</span></li>
                                                         <li class="active"><span>Model Room</span></li>
                                                     </ul>
