@@ -4294,6 +4294,10 @@ a.disable {
     .model_img {
       padding: 40px 20px;
       background: #fff;
+      min-height: 695px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
     }
   }
 }
@@ -5482,6 +5486,13 @@ a.disable {
         img {
           height: 240px;
         }
+      }
+    }
+  }
+  .box_model {
+    .model_item {
+      .model_img {
+        min-height: auto;
       }
     }
   }
