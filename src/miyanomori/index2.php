@@ -73,6 +73,9 @@
                             <div class="slide_item" style="background-image: url('images/new/A2.jpg')"></div>
                         </div>
                         <div class="slide js-slide" >
+                            <div class="slide_item" style="background-image: url('images/new/A2-5.jpg')"></div>
+                        </div>
+                        <div class="slide js-slide" >
                             <div class="slide_item" style="background-image: url('images/new/A3.jpg')"></div>
                         </div>
                         <div class="slide js-slide" >
