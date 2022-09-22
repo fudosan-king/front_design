@@ -113,7 +113,7 @@
                                             <!-- <a href="#"><img src="images/planA.jpg" alt="planA" class="img-fluid"></a> -->
                                             <a href="#"><img src="images/planA.jpg" alt="planB" class="img-fluid"></a>
                                         </div>
-                                        <div class="box_plannote">
+                                        <!-- <div class="box_plannote">
                                             <ul>
                                                 <li>［凡 例］</li>
                                                 <li>…収納 <span><img src="images/i_storage.svg" alt="" class="img-fluid" width="40"></span></li>
@@ -123,7 +123,7 @@
                                             <p>WIC＝ウォークインクローゼット、SIC＝シューズインクローゼット、<br>
                                             MB＝メーターボックス、PS＝パイプスペース<br>
                                             ※掲載の間取りは設計段階のもので、今後変更になる場合がございます。</p>
-                                        </div>
+                                        </div> -->
                                         <p class="mb-0 text-center">
                                             <a href="#" class="btn bnt_enlargedrawing"><img src="images/SVG/i_search.svg" alt="i_search" class="img-fluid" width="24"> 図面を拡大する</a>
                                         </p>
