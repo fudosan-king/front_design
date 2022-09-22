@@ -83,7 +83,7 @@
                                         <button class="nav-link active" id="drawing" data-bs-toggle="tab" data-bs-target="#drawing_pane" type="button" role="tab" aria-controls="drawing_pane" aria-selected="true"><span>図面</span></button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link disabled" id="furniturearrangement" data-bs-toggle="tab" data-bs-target="#furniturearrangement_pane" type="button" role="tab" aria-controls="furniturearrangement_pane" aria-selected="false"><span>家具の配置イメージ</span></button>
+                                        <button class="nav-link" id="furniturearrangement" data-bs-toggle="tab" data-bs-target="#furniturearrangement_pane" type="button" role="tab" aria-controls="furniturearrangement_pane" aria-selected="false"><span>家具の配置イメージ</span></button>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <button class="nav-link" id="view" data-bs-toggle="tab" data-bs-target="#view_pane" type="button" role="tab" aria-controls="view_pane" aria-selected="false"><span>眺望</span></button>
@@ -110,8 +110,9 @@
 
                                     <div class="tab-pane fade" id="furniturearrangement_pane" role="tabpanel" aria-labelledby="furniturearrangement" tabindex="0">
                                         <div class="model_img">
-                                            <a href="#"><img src="images/drawing02.png" alt="drawing" class="img-fluid"></a>
+                                            <a href="#"><img src="images/planA.png" alt="planA" class="img-fluid"></a>
                                         </div>
+                                        <p class="text-end"><img src="images/i_zleft.png" alt="i_zleft" class="img-fluid"></p>
                                         <div class="box_plannote">
                                             <ul>
                                                 <li>［凡 例］</li>
