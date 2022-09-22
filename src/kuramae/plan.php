@@ -56,9 +56,9 @@
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" id="plandesign" data-bs-toggle="tab" data-bs-target="#plandesign_pane" type="button" role="tab" aria-controls="plandesign_pane" aria-selected="false"><span>プランデザイン</span></button>
                                 </li>
-                                <li class="nav-item" role="presentation">
+                                <!-- <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="view" data-bs-toggle="tab" data-bs-target="#view_pane" type="button" role="tab" aria-controls="view_pane" aria-selected="false"><span>眺望</span></button>
-                                </li>
+                                </li> -->
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="modelroom" data-bs-toggle="tab" data-bs-target="#modelroom_pane" type="button" role="tab" aria-controls="modelroom_pane" aria-selected="true"><span>モデルルーム</span></button>
                                 </li>
@@ -155,15 +155,12 @@
                                                     <ul class="list_global">
                                                         <li><span>PROSTYLE</span></li>
                                                         <li><span>MIYANOMORI</span></li>
-                                                        <li><span>INTERVEW</span></li>
-                                                        <li class="active"><span>KENGO KUMA</span></li>
+                                                        <li><span>PLAN</span></li>
+                                                        <li class="active"><span>Model Room</span></li>
                                                     </ul>
-                                                    <h2>『home』としての実感を得られる<br>
-                                                    木と寄り添う上質な暮らし</h2>
-                                                    <p>「プロスタイル宮の森」の設計を手がけたのは、世界中で活躍する建築家・隈研吾氏。<br>
-                                                    日本の繊細な木工技術を生かしながら、現代的なデザインの木造建築を取り入れるスタイルが特徴的だ。<br>
-                                                    近年日本では、新国立競技場（2019）やJR東日本高輪ゲートウェイ駅（2020）の建築が大きく話題に。</p>
-                                                    <p>「プロスタイル宮の森」の設計の背景や、宮の森の地で味わえるような「上質な暮らし」について話を聞いた。</p>
+                                                    <h2>優しい陽光に包まれた開放感溢れるリビング・ダイニング</h2>
+                                                    <p>明るい光と爽やかな風が吹き抜ける暮らしのメインステージ。</p>
+                                                    <p>落ち着きのある色彩を基調とした洗練された佇まいが、新鮮な日常と深い寛ぎをもたらします。</p>
                                                 </div>
                                                 <div class="img_modelroom">
                                                     <img src="images/bg_activerelax.jpg" alt="" class="img-fluid">
