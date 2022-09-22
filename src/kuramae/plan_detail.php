@@ -110,7 +110,8 @@
 
                                     <div class="tab-pane fade" id="furniturearrangement_pane" role="tabpanel" aria-labelledby="furniturearrangement" tabindex="0">
                                         <div class="model_img">
-                                            <a href="#"><img src="images/planA.jpg" alt="planA" class="img-fluid"></a>
+                                            <!-- <a href="#"><img src="images/planA.jpg" alt="planA" class="img-fluid"></a> -->
+                                            <a href="#"><img src="images/planA.jpg" alt="planB" class="img-fluid"></a>
                                         </div>
                                         <!-- <div class="box_plannote">
                                             <ul>
