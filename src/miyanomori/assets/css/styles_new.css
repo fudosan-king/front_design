@@ -79,3 +79,12 @@
     height: 200px !important;
   }
 }
+@media (max-width: 992px) {
+  .slideContent .slide:nth-child(3) .slide_item {
+    background-size: contain;
+  }
+
+  .slide-main .slideContent .slide:nth-child(3) {
+    background: #b48856;
+  }
+}
