@@ -1,0 +1,266 @@
+@media screen and (max-width: 600px){
+    #wpadminbar {
+         position: fixed!important; 
+    }
+}
+
+main section.content-page { padding-top: 104px; }
+main section.content-page.archive-news div#main-content { padding: 50px 0 100px; }
+
+main section.content-page.archive-news div#main-content .news-data .news-tag {    
+    background-color: #B1875A;
+    color: #fff;
+    font-size: 9pt;
+    max-width: 100px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    height: 19px;
+    line-height: 1.5;
+}
+main section.content-page.archive-news,
+.article-news {
+     background: #F0ECE9;
+     padding: 50px 0 3px;
+}
+
+main section.content-page.archive-news div#main-content .news-data .news-tag.empty {background: none;}
+
+main section.content-page .extra-content #section_title h2{
+    background: none;
+    border:none;
+    padding: 50px 0 3px;
+    margin: 50px 0 25px 0;
+    padding: 0 50px !important;
+    text-align: center;
+    line-height: 1em;
+    position: relative;
+    font-size: 3.2em;
+    color: #6C6C6C;
+    font-family:'游ゴシック','YuGothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+}
+
+.date-news {
+    border-bottom: 1px #ccc solid;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.title-news h3 {
+    margin-top: 20px;
+}
+
+.title-news h3 a {
+    margin: 0 0 40px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.content-data {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.content-news,
+.content-news p
+{
+    width: 100%;
+}
+
+.content-news p img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-news p iframe
+{
+    max-width: 100%;
+}
+
+
+.title-news h1{
+    margin-top: 50px;
+}
+
+.pagenav_box{
+    font-family: "游ゴシック", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN"; 
+}
+
+.pagenav_box .pagenavigation{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.pagenav_box span, .pagenav_box a{
+    border: none;
+    margin: 2px;
+    padding: 5px 13px;
+    text-decoration: none;
+    background-color: #B48856;
+    color:#fff;
+}
+
+.pagenav_box span.current {background-color: #828282; color: #fff;}
+
+
+.box_movie .iframe_video {
+    padding-top: 56.25%;
+    width: 100%;
+    max-width: 861px;
+    position:relative;
+}
+
+.box_movie .iframe_video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vr_video .vr_img iframe {
+    width: 100%;
+    height: auto;
+}
+
+.bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-nav .nav-item:nth-child(8) .nav-link {
+    color: #fff;
+}
+
+.header_sub .navbar-nav .nav-item .nav-link .dropdown-item{
+  color: #333;
+}
+
+.header_sub .navbar-nav .nav-item:nth-child(8) .nav-link {
+   border-color: #000;
+   color: #fff;
+ }
+
+ .navbar-nav .nav-item:nth-child(8) {
+  padding-right: 0;
+}
+
+.navbar-nav .nav-item:nth-child(8) .nav-link {
+  background: #71BDD0;
+  max-height: 91px;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav .nav-item:last-of-type {
+    padding-left: 0;
+}
+
+@media (max-width: 1750px) {
+    .navbar-nav .nav-item:nth-child(8) .nav-link {
+        display: block;
+        margin-left: 15px;
+        color: #fff;
+        width: 120px;
+    }
+
+    .navbar-nav .nav-item:last-child .nav-link {
+        width: 120px;
+    }
+
+    .navbar-nav .nav-item:nth-child(8) .nav-link:hover,
+    .navbar-nav .nav-item:nth-child(8) .nav-link:focus  {
+        border: none;
+        opacity: 0.8;
+        color: #fff;
+        outline: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item:nth-child(8) .nav-link  {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0;
+    }
+}
+
+.section_plan .box_model .model_item {
+    cursor: pointer;
+}
+
+.modal-dialog .modal-content .modal-body {
+    position: relative;
+    padding-top: 61.25%
+}
+
+.modal-dialog .modal-content .modal-body iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0
+}
+
+.box_model .model_item ul li a:hover {
+    color: #fff;
+}
+
+.box_model .model_item .plan_type{
+    color: #938152;;
+}
+
+.plan_body_top .box_indoorvr a img {
+    cursor: pointer;
+}
+
+.section_request .btn_reservation {
+    background: #81713C;
+}
+
+.bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-nav .nav-item:nth-child(9) .nav-link {
+    color: #fff;
+}
+
+.header_sub .navbar-nav .nav-item .nav-link .dropdown-item{
+  color: #333;
+}
+
+.header_sub .navbar-nav .nav-item:nth-child(9) .nav-link {
+   border-color: #000;
+   color: #fff;
+ }
+
+ .navbar-nav .nav-item:nth-child(9) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-nav .nav-item:nth-child(9) .nav-link {
+  background: #81713C;
+  max-height: 91px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav .nav-item:last-of-type {
+    padding-left: 0;
+}
+
+.navbar-nav .nav-item:nth-child(9):hover .nav-link {
+    color: #000 !important;
+}
+
+.section_specialmovie p { 
+    color: #000;
+}
+
+.box_content_footer .primary_policy {
+    line-height: 1.7;
+}

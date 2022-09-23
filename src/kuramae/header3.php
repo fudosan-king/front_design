@@ -27,6 +27,12 @@
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="access.php">アクセス</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="outline.php">物件概要</a></li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="map.php">現地案内図</a></li>
+                <li class="nav-item js-menuAnimation">
+                    <a class="nav-link" href="https://www.prostyle-residence.com/kuramae/limited/" target="Page"><span>限定</span>サイト</a>
+                </li>
+                <li class="nav-item js-menuAnimation">
+                    <a class="nav-link" href="https://www.prostyle-residence.com/kuramae/inquiry/" target="Page"><span>来場予約</span></a>
+                </li>
                 <li class="nav-item js-menuAnimation"><a class="nav-link" href="inquiry.php">資料請求</a></li>
             </ul>
         </div>
