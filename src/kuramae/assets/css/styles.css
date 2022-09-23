@@ -1892,7 +1892,7 @@ i.chevron-left {
   font-weight: normal;
   text-align: center;
 }
-.section_location .gmap iframe {
+.section_location iframe {
   margin-bottom: 35px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -1904,7 +1904,6 @@ i.chevron-left {
 .section_location .box_contact {
   display: flex;
   align-items: center;
-  max-width: 854px;
   margin: auto;
 }
 .section_location .box_contact .box_contact_img {
@@ -3050,9 +3049,6 @@ i.chevron-left {
     margin-bottom: 15px;
   }
 
-  .section_location .box_contact {
-    padding: 0 15px;
-  }
   .section_location .box_contact .box_contact_content p {
     font-size: 0.75em;
   }
@@ -3361,17 +3357,26 @@ i.chevron-left {
     padding-top: 60px;
   }
   .section_location .box_contact {
-    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .section_location .box_contact .box_contact_img {
-    margin-right: 0;
-    margin-bottom: 15px;
+    margin-right: 10px;
   }
   .section_location .box_contact .box_contact_content {
-    padding: 0 15px;
+    padding: 0;
+  }
+  .section_location .box_contact .box_contact_content h3 {
+    line-height: 1.3em;
+    font-size: 0.875em;
+  }
+  .section_location .box_contact .box_contact_content p {
+    font-size: 0.6em;
   }
   .section_location iframe {
-    height: 400px;
+    height: 300px;
+    margin-bottom: 0;
   }
 
   .section_story {
@@ -4128,8 +4133,8 @@ i.chevron-left {
   .btn_down {
     color: #000;
     position: absolute;
-    right: 0;
-    top: -5px;
+    left: 70px;
+    top: 13px;
   }
 }
 @media (max-width: 768px) {
@@ -5020,5 +5025,31 @@ i.chevron-left {
 
   .box_model .model_item .model_img {
     min-height: auto;
+  }
+}
+.section_request .btn.btn_reservation:hover::after {
+  border-color: #81713C;
+}
+.section_request .btn_reservation {
+  background: #81713C;
+}
+
+@media (max-width: 1750px) {
+  .navbar-nav .nav-item:nth-child(9) .nav-link {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .section_request .btn {
+    min-width: 160px;
+  }
+
+  .btn_down {
+    top: -3px;
+    left: 60px;
+  }
+
+  .navbar-nav .nav-item:nth-child(9) .nav-link {
+    margin-left: 0;
   }
 }
