@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/mobile.css" type="text/css">
     <link rel="stylesheet" href="css/custom.css" type="text/css">
+    <link rel="stylesheet" href="css/mukustyles.css" type="text/css">
+    <link rel="stylesheet" href="css/css_be.css" type="text/css">
 </head>
 
 <body>
@@ -50,6 +52,28 @@
                                 <h2 class="title">現地案内図</h2>
                                 <div class="box_map">
                                     <img src="images/map.jpg" alt="map" class="img-fluid w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section_location pt-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-12">
+                                <!-- <h2 class="title">LOCATION</h2> -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4146.140179329061!2d139.78210049743035!3d35.704836103574614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eba5218f147%3A0x246d9895d75b24b4!2s111-0055%2C%20Japan!5e0!3m2!1sen!2s!4v1656311130898!5m2!1sen!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div class="box_contact">
+                                    <div class="box_contact_img">
+                                        <img src="images/img_contact.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="box_contact_content">
+                                        <h3>プロスタイル蔵前マンションギャラリー</h3>
+                                        <p><img src="images/i_location.svg" alt="" class="img-fluid" width="20"> 東京都台東区浅草1-10-5 KN浅草ビル7階</p>
+                                        <p><img src="images/i_tel.svg" alt="" class="img-fluid" width="20"> TEL : <a href="tel:0120936417">0120-936-417</a>
+                                         <!-- 　FAX : <a href="tel:03-6897-8571">03-6897-8571</a> --></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

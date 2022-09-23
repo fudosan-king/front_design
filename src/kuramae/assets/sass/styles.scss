@@ -1958,22 +1958,20 @@ a.disable {
     font-weight: normal;
     text-align: center;
   }
-  .gmap {
-    iframe {
-      margin-bottom: 35px;
-      -webkit-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-      -o-filter: grayscale(100%);
-      filter: grayscale(100%);
-      width: 100%;
-    }
+  iframe {
+    margin-bottom: 35px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100%;
   }
+  
 
   .box_contact {
     display: flex;
     align-items: center;
-    max-width: 854px;
     margin: auto;
     .box_contact_img {
       width: 145px;
@@ -3223,7 +3221,6 @@ a.disable {
 
   .section_location {
     .box_contact {
-      padding: 0 15px;
       .box_contact_content {
         p {
           font-size: 0.75em;
@@ -3610,17 +3607,26 @@ a.disable {
   .section_location {
     padding-top: 60px;
     .box_contact {
-      flex-direction: column;
+      margin-top: 15px;
+      padding-left: 0;
+      padding-right: 0;
       .box_contact_img {
-        margin-right: 0;
-        margin-bottom: 15px;
+        margin-right: 10px;
       }
       .box_contact_content {
-        padding: 0 15px;
+        padding: 0;
+        h3 {
+          line-height: 1.3em;
+          font-size: 0.875em;
+        }
+        p {
+          font-size: 0.6em;
+        }
       }
     }
     iframe {
-      height: 400px;
+      height: 300px;
+      margin-bottom: 0;
     }
   }
 
@@ -4501,9 +4507,10 @@ a.disable {
   .btn_down {
     color: #000;
     position: absolute;
-    right: 0;
-    top: -5px;
+    left: 70px;
+    top: 13px;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -5512,10 +5519,36 @@ a.disable {
     background: #81713C;
   }
 }
+
+@media (max-width: 1750px) {
+  .navbar-nav {
+    .nav-item {
+      &:nth-child(9) {
+        .nav-link {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .section_request {
     .btn {
       min-width: 160px;
+    }
+  }
+  .btn_down {
+    top: -3px;
+    left: 60px;
+  }
+  .navbar-nav {
+    .nav-item {
+      &:nth-child(9) {
+        .nav-link {
+          margin-left: 0;
+        }
+      }
     }
   }
 }
