@@ -62,8 +62,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-lg-12">
-                                <!-- <h2 class="title">LOCATION</h2> -->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4146.140179329061!2d139.78210049743035!3d35.704836103574614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eba5218f147%3A0x246d9895d75b24b4!2s111-0055%2C%20Japan!5e0!3m2!1sen!2s!4v1656311130898!5m2!1sen!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <h2 class="title">マンションギャラリー</h2>
+                                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4146.140179329061!2d139.78210049743035!3d35.704836103574614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eba5218f147%3A0x246d9895d75b24b4!2s111-0055%2C%20Japan!5e0!3m2!1sen!2s!4v1656311130898!5m2!1sen!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.58709227489!2d139.7923284!3d35.7117773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ebf6c17ba61%3A0x4af66c4ace7f1499!2z5pel5pys44CB44CSMTExLTAwMzIg5p2x5Lqs6YO95Y-w5p2x5Yy65rWF6I2J77yR5LiB55uu77yR77yQ4oiS77yVIEtu5rWF6I2J44OT44OrIDfpmo4!5e0!3m2!1sja!2s!4v1663924137318!5m2!1sja!2s" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <div class="box_contact">
                                     <div class="box_contact_img">
                                         <img src="images/img_contact.jpg" alt="" class="img-fluid">
