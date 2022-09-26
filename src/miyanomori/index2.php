@@ -199,6 +199,7 @@
                         <div class="col-12 col-lg-6">
                             <div class="living_img">
                                 <img src="images/new/B.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid">
+                                <span>2022年9月撮影</span>
                             </div>
                         </div>
                     </div>
@@ -211,6 +212,7 @@
                         <div class="col-12 col-lg-6">
                             <div class="living_img">
                                 <img src="images/new/pixta_43077338_M.jpg" data-aos="fade-up" data-aos-duration="3000" alt="" class="img-fluid">
+                                <span>2022年9月撮影</span>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
