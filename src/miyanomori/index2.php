@@ -258,6 +258,7 @@
                         <div class="col-12 col-lg-6">
                             <div class="living_img">
                                 <img src="images/new/map.png" data-aos="fade-up" data-aos-duration="3000" alt="map" class="img-fluid">
+                                <span>2022年9月撮影</span>
                             </div>
                         </div>
                     </div>
