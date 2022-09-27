@@ -129,13 +129,13 @@
                                     <div class="col-md-4">
                                         <div class="equip-spec_box_img">
                                             <img src="images/new/S.jpg" alt="S" class="img-fluid">
-                                            <span>参考イメージ</span>
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="equip-spec_box_img">
                                             <img src="images/new/X.jpg" alt="X" class="img-fluid">
-                                            <span>参考写真</span>
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -152,7 +152,7 @@
                                     <div class="col-md-8">
                                         <div class="equip-spec_box_img">
                                             <img src="images/new/T.jpg" alt="T" class="img-fluid">
-                                            <span>参考イメージ</span>
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -176,7 +176,7 @@
                                     <div class="col-md-8">
                                         <div class="equip-spec_box_img">
                                             <img src="images/new/U.jpg" alt="U" class="img-fluid">
-                                            <span>参考イメージ</span>
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                                     <div class="col-md-8">
                                         <div class="equip-spec_box_img">
                                             <img src="images/new/Y.jpg" alt="Y" class="img-fluid">
-                                            <span>参考イメージ</span>
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
                                 </div>
@@ -711,26 +711,28 @@
                             </div>
 
                             <!-- Section 4 -->
-                                                    <div id="アメニティ" class="equip-spec_box">
+                            <div id="アメニティ" class="equip-spec_box">
                                 <h4><span>アメニティ</span></h4>
                                 <p class="equip-spec_box-title">J:COM テレビ / インターネット / 電話</p>
-                                <div class="equip-spec_box_img">
-                                    <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-6.jpg" alt="" title="">
-                                </div>
+                                <p class="text-center">
+                                    <img class="img-fluid w-75" src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-6.jpg" alt="" title="">
+                                </p>
+                                
+                                
                                 <p>本物件はアンテナケーブルをTV 端子に接続することで、地上デジタル放送をご覧いただけます。 また、地域情報をお届けするJ:COM チャンネル（コミュニティチャンネル）の他、J:COMと加入契約をすることにより、スポーツ、アニメなどの専門チャンネル（CS デジタル放送）やビデオオンデマンドがお楽しみいただけます。<br />
     インターネットはインターネットはWifiがすぐにご利用頂けます。T V 端子よりケーブルモデムを介して、LAN ケーブルをパソコンに接続してご利用いただくこともできます。<br />
     電話はT V 端子からeMTA（電話専用端末）を介して、一般の固定電話に接続しご利用いただけます。</p>
                             </div>
 
                             <!-- Section 5 -->
-                                                    <div id="エコシステム" class="equip-spec_box">
+                            <div id="エコシステム" class="equip-spec_box">
                                 <h4><span>エコシステム</span></h4>
                                 <div class="equip-spec_box_items">
                                     <div class="row">
 
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">開放感を感じる天井高</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-7.jpg" alt="" title="">
                                             </div>
                                             <p class="equip-spec_box-des">天井高最大約2,400 ㎜～2,600 ㎜を確保しました。天井を高くすることに、より同じ面積でも空間の広がりを感じられるように配慮した開放感あふれる設計です。<br />
@@ -739,7 +741,7 @@
 
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">エコジョーズ</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-8.jpg" alt="" title="">
                                                 <span class="txt-black">参考写真</span>
                                             </div>
@@ -747,7 +749,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">木・アルミ複合サッシ/ トリプルガラス</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-9.jpg" alt="" title="">
                                                 <span class="txt-black">参考写真</span>
                                             </div>
@@ -756,7 +758,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">宅配ボックス</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-10.jpg" alt="" title="">
                                                 <span class="txt-black">参考写真</span>
                                             </div>
@@ -764,7 +766,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">温水床暖房</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-11.jpg" alt="" title="">
                                                 <span class="txt-black">参考写真</span>
                                             </div>
@@ -772,7 +774,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">天井埋込カセット形エアコン</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-12.jpg" alt="" title="">
                                                 <span class="txt-black">参考写真</span>
                                             </div>
