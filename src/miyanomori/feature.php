@@ -86,8 +86,13 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="box_equipment_info_img border-bottom">
+                            <img src="images/new/D.jpg" alt="D" class="img-fluid">
+                            <span>2022年9月撮影</span>
+                        </div>
                         <div class="box_equipment_info_img">
-                            <img src="images/new/DE.jpg" alt="DE" class="img-fluid">
+                            <img src="images/new/E.jpg" alt="E" class="img-fluid">
+                            <span>2022年9月撮影</span>
                         </div>
                     </div>
 
@@ -103,10 +108,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="box_equipment_info_img">
-                            <img src="images/new/FGH.jpg" alt="FGH" class="img-fluid">
+                        <div class="box_equipment_info_img border-bottom">
+                            <img src="images/new/F.jpg" alt="F" class="img-fluid">
+                            <span>2022年9月撮影</span>
                         </div>
-                            <p class="mt-5">「家」から出ても木のぬくもりを感じる住まい</p>
+                        <div class="row no-gutters">
+                            <div class="col-12 col-lg-6 align-self-center">
+                                <div class="box_equipment_info_img">
+                                    <img src="images/new/G.jpg" alt="G" class="img-fluid border-right">
+                                    <span class="black">2022年9月撮影</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 align-self-center">
+                                <div class="box_equipment_info_img">
+                                    <img src="images/new/H.jpg" alt="H" class="img-fluid">
+                                    <span>2022年9月撮影</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-5">「家」から出ても木のぬくもりを感じる住まい</p>
                     </div>
 
                     <!-- Feature Section 3 -->
@@ -123,9 +143,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="box_equipment_info_img">
-                            <img src="images/new/IJK.jpg" alt="IJK" class="img-fluid">
+                        <div class="row no-gutters">
+                            <div class="col-12 col-lg-6">
+                                <div class="box_equipment_info_img border-right">
+                                    <img src="images/new/I.jpg" alt="I" class="img-fluid">
+                                    <span>2022年9月撮影</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="box_equipment_info_img border-right">
+                                    <img src="images/new/J.jpg" alt="J" class="img-fluid">
+                                    <span>2022年9月撮影</span>
+                                </div>
+                            </div>
                         </div>
+                        <div class="box_equipment_info_img border-top">
+                            <img src="images/new/K.jpg" alt="K" class="img-fluid">
+                            <span>2022年9月撮影</span>
+                        </div>
+                        
                     </div>
 
                     <!-- Feature Section 4 -->
@@ -141,20 +177,30 @@
                                         独立した穏やかな時間が流れます。</p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 align-self-center box_equipment_info_img">
+                                <div class="col-12 col-lg-6 align-self-center box_equipment_info_img pr-0">
                                     <img src="images/new/L.jpg" alt="L" class="img-fluid border-bottom">
+                                    <span>2022年9月撮影</span>
                                 </div>
                             </div>
                         </div>
                         <div class="equipment-img">
-                            <img src="images/new/M.jpg" alt="M" class="img-fluid border-bottom">
+                            <div class="box_equipment_info_img">
+                                <img src="images/new/M.jpg" alt="M" class="img-fluid border-bottom">
+                                <span>2022年9月撮影</span>
+                            </div>
                         </div>
                         <div class="row no-gutters">
                             <div class="col-12 col-lg-6 align-self-center">
-                                <img src="images/new/N.jpg" alt="N" class="img-fluid border-right">
+                                <div class="box_equipment_info_img">
+                                    <img src="images/new/N.jpg" alt="N" class="img-fluid border-right">
+                                    <span>2022年9月撮影</span>
+                                </div>
                             </div>
                             <div class="col-12 col-lg-6 align-self-center">
-                                <img src="images/new/O.jpg" alt="O" class="img-fluid">
+                                <div class="box_equipment_info_img">
+                                    <img src="images/new/O.jpg" alt="O" class="img-fluid">
+                                    <span>2022年9月撮影</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -173,8 +219,26 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="equipment-img">
+                        <!-- <div class="equipment-img">
                             <img src="images/new/PQR.jpg" alt="PQR" class="img-fluid">
+                        </div> -->
+                        <div class="box_equipment_info_img border-bottom">
+                            <img src="images/new/P.jpg" alt="P" class="img-fluid">
+                            <span>2022年9月撮影</span>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-12 col-lg-6">
+                                <div class="box_equipment_info_img border-right">
+                                    <img src="images/new/Q.jpg" alt="Q" class="img-fluid">
+                                    <span>2022年9月撮影</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="box_equipment_info_img border-right">
+                                    <img src="images/new/R.jpg" alt="R" class="img-fluid">
+                                    <span>2022年9月撮影</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -203,7 +267,10 @@
                         <div class="box_equipment_info_top mb-0">
                             <div class="row flex-column-reverse flex-lg-row">
                                 <div class="col-12 col-lg-6 equipment-img">
-                                    <img src="images/new/S.jpg" alt="S" class="img-fluid border-bottom">
+                                    <div class="box_equipment_info_img">
+                                        <img src="images/new/S.jpg" alt="S" class="img-fluid border-bottom">
+                                        <span>2022年9月撮影</span>
+                                    </div>
                                 </div>
                                 <div class="col-12 col-lg-6 align-self-lg-center">
                                     <div class="box_box_equipment_info_top_custom">
@@ -231,6 +298,7 @@
                         </div>
                         <div class="equipment-img">
                             <img src="images/new/T.jpg" alt="T" class="img-fluid">
+                            <span>2022年9月撮影</span>
                         </div>
                         <a href="https://www.prostyle-residence.com/sapporo/miyanomori/equipment/" class="btn btn-equip"><span>共用設備を見る</span></a>
                     </div>
@@ -249,6 +317,7 @@
                         </div>
                         <div class="equipment-img">
                             <img src="images/new/U.jpg" alt="U" class="img-fluid">
+                            <span>2022年9月撮影</span>
                         </div>
                         <a href="https://www.prostyle-residence.com/sapporo/miyanomori/equipment/" class="btn btn-equip"><span>共用設備を見る</span></a>
                     </div>

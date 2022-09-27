@@ -428,6 +428,7 @@
                                 <h4><span>キッチン</span></h4>
                                 <div class="equip-spec_box_img custom">
                                     <img src="images/new/Z.jpg" alt="Z" class="img-fluid">
+                                    <span>2022年9月撮影</span>
                                 </div>
 
                                 <div class="equip-spec_box_items">
@@ -497,9 +498,11 @@
                                     <div class="carousel" data-flickity data-flickity-options='{ "prevNextButtons": false }'>
                                         <div class="carousel-cell">
                                             <img src="images/new/AA.jpg" alt="AA" class="img-fluid">
+                                            <span>2022年9月撮影</span>
                                         </div>
                                         <div class="carousel-cell">
                                             <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-th-8c.jpg" alt="" title="">
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
                                 </div>
@@ -613,14 +616,14 @@
                                     <div class="col-md-4">
                                         <div class="equip-spec_box_img">
                                             <img src="images/new/O.jpg" class="img-fluid" alt="O">
-                                            <span>参考イメージ</span>
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4">
                                         <div class="equip-spec_box_img">
                                             <img src="images/new/AC.jpg" class="img-fluid" alt="AC">
-                                            <span>参考写真</span>
+                                            <span>2022年9月撮影</span>
                                         </div>
                                     </div>
                                 </div>    

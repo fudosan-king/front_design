@@ -79,10 +79,13 @@
                         <div class="col-12 col-lg-12">
                             <div class="box_map">
                                 <h2 class="title">生活利便性と、古き良き情緒も味わえる<br> ｢宮の森｣の魅力</h2>
-                                <div class="box_map_img"></div>
+                                <div class="box_map_img">
+                                    <img class="img-fluid" src="images/1x/img_map.jpg" alt="" title="">
+                                </div>
                                 <div class="row content-center">
                                     <div class="box_map_info-img">
-                                        <img src="images/new/AD.jpg" alt="" title="">
+                                        <img src="images/new/AD.jpg" alt="AD" title="">
+                                        <span class="black">2022年9月撮影</span>
                                     </div>
 
                                     <div class="info_location">
