@@ -681,7 +681,7 @@
 
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">直接基礎</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-3.jpg" alt="" title="">
                                             </div>
                                             <p class="equip-spec_box-des">耐震性を左右する基礎工事は強固な地盤（支持層）に構築されます。地表近くに支持層がある場合に使用される「直接基礎」（建物の底部をコンクリートで固めて建物荷重を直接地盤で支える工法）を採用しています。</p>
@@ -689,14 +689,14 @@
 
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">構造躯体</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-4.jpg" alt="" title="">
                                             </div>
                                             <p class="equip-spec_box-des">本物件は、住戸のある建物は構造躯体の耐久性を高めるために、設計基準強度（Fc）を約24N/ ㎟ ～ 約27N / ㎟に設定しています。これは1㎡当たり約2,400～2,700トンの重量を支えられることを示しています。</p>
                                         </div>
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">ダブル配筋</p>
-                                            <div class="equip-spec_box_img">
+                                            <div class="equip-spec_box_img  custom">
                                                 <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/equip-spec-f-5.jpg" alt="" title="">
                                             </div>
                                             <p class="equip-spec_box-des">耐震壁の鉄筋は、コンクリートの中に二重に鉄筋を配したダブル配筋を採用しています。シングル配筋に比べ、より高い構造強度と耐久性を実現しています。</p>
