@@ -123,7 +123,9 @@
 
 .section_access {
     .box_map_img {
-        background-image: url('../images/1x/img_map.jpg');
+        border: 1px solid #000;
+        background: none;
+        height: auto;
     }
 }
 
@@ -137,5 +139,62 @@
         line-height: 1em;
         text-shadow: 1px 1px 5px rgba(0,0,0, 1);
         font-weight: 700;
+        &.black {
+            color: #000;
+        }
+    }
+}
+
+.box_equipment_info_img, .equipment-img {
+    position: relative;
+    span {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        color: #fff;
+        font-size: 0.625em;
+        line-height: 1em;
+        text-shadow: 1px 1px 5px rgba(0,0,0, 1);
+        font-weight: 700;
+        &.black {
+            color: #000;
+        }
+    }
+}
+
+.equip-spec_box {
+    .equip-spec_box_img {
+        span {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            color: #fff;
+            font-size: 0.625em;
+            line-height: 1em;
+            text-shadow: 1px 1px 5px rgba(0,0,0, 1);
+            font-weight: 700;
+            &.black {
+                color: #000;
+            }
+        }
+    }
+}
+
+.section_access {
+    .box_map_info-img {
+        position: relative;
+        span {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            color: #fff;
+            font-size: 0.625em;
+            line-height: 1em;
+            text-shadow: 1px 1px 5px rgba(0,0,0, 1);
+            font-weight: 700;
+            &.black {
+                color: #000;
+            }
+        }
     }
 }
