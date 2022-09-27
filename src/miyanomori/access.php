@@ -85,7 +85,7 @@
                                 <div class="row content-center">
                                     <div class="box_map_info-img">
                                         <img src="images/new/AD.jpg" alt="AD" title="">
-                                        <span class="black">2022年9月撮影</span>
+                                        <span>2022年9月撮影</span>
                                     </div>
 
                                     <div class="info_location">
