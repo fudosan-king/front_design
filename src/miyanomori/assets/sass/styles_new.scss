@@ -198,3 +198,22 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .section_equip-spec {
+        .equip-spec {
+            li {
+                a {
+                    padding: 0 5px;
+                }
+            }
+            ul {
+                flex-wrap: nowrap;
+                li {
+                    min-height: 40px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

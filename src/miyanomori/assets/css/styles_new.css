@@ -155,3 +155,16 @@
 .section_access .box_map_info-img span.black {
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .section_equip-spec .equip-spec li a {
+    padding: 0 5px;
+  }
+  .section_equip-spec .equip-spec ul {
+    flex-wrap: nowrap;
+  }
+  .section_equip-spec .equip-spec ul li {
+    min-height: 40px;
+    height: auto;
+  }
+}
