@@ -182,14 +182,11 @@
   font-weight: 700;
 }
 
-.slideContent .slide .slide_item {
-  position: relative;
-}
-.slideContent .slide .slide_item .label_date {
+.slideContent .slide .label_date {
   position: absolute;
   z-index: 999;
   right: 10px;
-  bottom: 155px;
+  bottom: 100px;
   color: #fff;
   font-size: 0.625em;
   line-height: 1em;
@@ -212,4 +209,18 @@
 }
 .box_images span.black {
   color: #000;
+}
+
+@media (max-width: 820px) {
+  .slideContent .slide .label_date {
+    bottom: 10px;
+  }
+
+  .slide-main_video {
+    bottom: 240px;
+  }
+  .slide-main_video p {
+    display: flex;
+    align-items: center;
+  }
 }
