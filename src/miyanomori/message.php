@@ -8,7 +8,59 @@
 <body>
     <div id="page">
 
-        <?php include 'header2.php'; ?>
+        <header class="header_afterlogin clearfix">
+            <div class="navbar navbar-expand-lg ">
+                <div class="navbar-top">
+                    <a class="navbar-brand" href="https://www.prostyle-residence.com/sapporo/miyanomori">
+                        <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/lang/en/logo03.svg" alt="" class="img-fluid logo-prostyle logo_white w-100">
+                        <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/lang/en/logo03.svg" alt="" class="img-fluid logo-prostyle logo_black w-100">
+                    </a>
+                    
+                    <div class="btn-action">
+                        <button class="navbar-toggler toggler-spring menu">
+                            <span class="menuLine"></span>
+                            <span class="menuLine"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="navbarSupportedContent" class="collapse navbar-collapse menu-list">
+                    <ul class="navbar-nav">
+                        <li class="active nav-item js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori">宮の森で暮らすということ</a></li>
+                        <li class="nav-item js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/feature/">デザイン</a></li>
+                        <li class="nav-item  js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/plan/ ">プラン・眺望</a></li>
+                        <li class="nav-item  js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/equipment/">設備仕様・構造</a></li>
+                        <li class=" nav-item  js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/access/">アクセス</a></li>
+                        <li class=" nav-item  js-menuAnimation d-block d-md-none"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/newsletters/">宮の森を知る</a></li>
+                        <li class=" nav-item  js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/outline/">物件概要</a></li>
+                        <li class=" nav-item js-menuAnimation menu-list-mobile">
+                            <a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/contactus/">ご予約・お問い合わせ</a>
+                        </li>
+                        <li class=" nav-item js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/event/briefing_session/">東京説明会のご予約</a>
+                        </li>
+                        <li class=" nav-item js-menuAnimation">
+                            <a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/event/site_visit_reservation/">現地見学会のご予約</a>
+                        </li>
+                        <li class=" nav-item js-menuAnimation menu-list-desktop"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/contactus/">ご予約・お問い合わせ</a></li>
+                        <li class="nav-item js-menuAnimation"><a class="nav-link" href="tel:0120991657">TEL.0120-991-657</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " onclick="return false;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">JP<i class="fas fa-caret-down"></i></a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/ja/">JP</a><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/en/">EN</a><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/zh/">zh-CN</a><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/tw/">zh-TW</a></div>                </li>
+                    </ul>
+                    <ul class="navbar-nav lang menu-mobile">
+                        <li class="nav-item js-menuAnimation dropdown dropdown-right">
+                        <a class="nav-link dropdown-toggle " onclick="return false;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">JP<i class="fas fa-caret-down"></i></a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/ja/">JP</a><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/en/">EN</a><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/zh/">zh-CN</a><a class="dropdown-item" href="https://www.prostyle-residence.com/sapporo/miyanomori/tw/">zh-TW</a></div>                </li>
+                    </ul>
+                    <ul class="navbar-nav  menu-mobile">
+                        <li class="nav-item js-menuAnimation "><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/news/">新着情報</a></li>
+                        <li class="nav-item js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/aboutus/ ">PROSTYLEについて</a></li>
+                        <li class="nav-item js-menuAnimation"><a class="nav-link" target="_blank" href="https://www.propolife.co.jp/terms/">利用規約</a></li>
+                        <li class="nav-item js-menuAnimation"><a class="nav-link" target="_blank" href="https://www.propolife.co.jp/antisocial/">反社会的勢力排除に関する基本方針</a></li>
+                        <li class="nav-item js-menuAnimation"><a class="nav-link" href="https://www.prostyle-residence.com/sapporo/miyanomori/privacypolicy/">プライバシーポリシー</a></li>
+                        <li class="nav-item js-menuAnimation"><a class="nav-link" target="_blank" href="https://www.propolife.co.jp/socialpolicy/">ソーシャルメディアポリシー</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
 
         <section class="section_subbanner">
             <img src="images/1x/bg_architecturaldesign.jpg" alt="" class="img-fluid w-100">
@@ -63,7 +115,10 @@
             </section>
 
              <section class="section_places">
-                <img src="images/1x/places.jpg" alt="" class="img-fluid w-100">
+                <div class="box_images">
+                    <img src="images/1x/places.jpg" alt="places" class="img-fluid w-100">
+                    <span>2022年9月撮影</span>
+                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-7 offset-lg-2">

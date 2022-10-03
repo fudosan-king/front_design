@@ -66,6 +66,7 @@
             <div class="subbanner_img bg_plan">
                 <img src="images/new/V.jpg" alt="V" class="img-fluid w-100">
             </div>
+            <span class="label_date">2022年9月撮影</span>
         </section>
 
         <main>

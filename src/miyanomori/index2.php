@@ -70,28 +70,28 @@
                             <div class="slide_item" style="background-image: url('images/new/A1.jpg')"></div>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A2.jpg')"></div>
+                            <div class="slide_item" style="background-image: url('images/new/A2.jpg')"><span class="label_date">2022年9月撮影</span></div>
                         </div>
                         <div class="slide js-slide" >
                             <div class="slide_item" style="background-image: url('images/new/A2-5.jpg')"></div>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A3.jpg')"></div>
+                            <div class="slide_item" style="background-image: url('images/new/A3.jpg')"><span class="label_date">2022年9月撮影</span></div>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A4.jpg')"></div>
+                            <div class="slide_item" style="background-image: url('images/new/A4.jpg')"><span class="label_date">2022年9月撮影</span></div>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A5.jpg')"></div>
+                            <div class="slide_item" style="background-image: url('images/new/A5.jpg')"><span class="label_date">2022年9月撮影</span></div>
                         </div>
                         <div class="slide js-slide" >
                             <div class="slide_item" style="background-image: url('images/new/A6.jpg')"></div>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A7.jpg')"></div>
+                            <div class="slide_item" style="background-image: url('images/new/A7.jpg')"><span class="label_date">2022年9月撮影</span></div>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A8.jpg')"></div>
+                            <div class="slide_item" style="background-image: url('images/new/A8.jpg')"><span class="label_date">2022年9月撮影</span></div>
                         </div>
                         <div class="slide js-slide" >
                             <div class="slide_item" style="background-image: url('images/new/A9.jpg')"></div>
