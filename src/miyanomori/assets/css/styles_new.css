@@ -181,3 +181,35 @@
   text-shadow: 1px 1px 5px black;
   font-weight: 700;
 }
+
+.slideContent .slide .slide_item {
+  position: relative;
+}
+.slideContent .slide .slide_item .label_date {
+  position: absolute;
+  z-index: 999;
+  right: 10px;
+  bottom: 155px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px black;
+  font-weight: 700;
+}
+
+.box_images {
+  position: relative;
+}
+.box_images span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px black;
+  font-weight: 700;
+}
+.box_images span.black {
+  color: #000;
+}
