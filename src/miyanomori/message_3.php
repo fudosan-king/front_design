@@ -184,7 +184,7 @@
             <section class="section_places message-open">
                 <div class="places_img">
                     <div class="box_images">
-                        <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/message-3C.jpg" alt="" class="img-fluid">
+                        <img src="https://www.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/message-3C.jpg" alt="message-3C" class="img-fluid w-100">
                         <span>2022年9月撮影</span>
                     </div>
                 </div>
