@@ -64,6 +64,7 @@
 
         <section class="section_subbanner">
             <img src="images/new/C.jpg" alt="bg_C" class="img-fluid w-100">
+            <span class="label_date">2022年9月撮影</span>
         </section>
 
         <main>

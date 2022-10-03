@@ -168,3 +168,16 @@
     height: auto;
   }
 }
+.section_subbanner {
+  position: relative;
+}
+.section_subbanner .label_date {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px black;
+  font-weight: 700;
+}
