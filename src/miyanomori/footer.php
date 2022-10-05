@@ -37,7 +37,7 @@
           </div>
           <div class="modal-body">
             <video id="video_miyanomori" loop playsinline>
-              <source src="https://prostyle-upload.s3.ap-northeast-1.amazonaws.com/prostyle_miyanomori_last.mp4" type="video/mp4">
+              <source src="https://prostyle-upload.s3.ap-northeast-1.amazonaws.com/prostylemiyanomori_2022.10.mp4" type="video/mp4">
             </video>
           </div>
         </div>
