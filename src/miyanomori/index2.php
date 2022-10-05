@@ -66,41 +66,52 @@
             <section class="slide-main">
                 <div class="slides">
                     <div class="slideContent">
-                        <div class="slide slide-init js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A1.jpg')"></div>
-                        </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A2.jpg')"></div>
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A1.jpg)"></div>
                             <span class="label_date">2022年9月撮影</span>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A2-5.jpg')"></div>
-                        </div>
-                        <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A3.jpg')"></div>
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A2.jpg)"></div>
                             <span class="label_date">2022年9月撮影</span>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A4.jpg')"></div>
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A2-5.jpg)"></div>
+                        </div>
+                        <div class="slide js-slide" >
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A3.jpg)"></div>
                             <span class="label_date">2022年9月撮影</span>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A5.jpg')"></div>
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A4.jpg)"></div>
                             <span class="label_date">2022年9月撮影</span>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A6.jpg')"></div>
-                        </div>
-                        <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A7.jpg')"></div>
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A5.jpg)"></div>
                             <span class="label_date">2022年9月撮影</span>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A8.jpg')"></div>
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A6.jpg)"></div>
                             <span class="label_date">2022年9月撮影</span>
                         </div>
                         <div class="slide js-slide" >
-                            <div class="slide_item" style="background-image: url('images/new/A9.jpg')"></div>
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A7.jpg)"></div>
+                            <span class="label_date">2022年9月撮影</span>
+                        </div>
+                        <div class="slide js-slide" >
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A8.jpg)"></div>
+                            <span class="label_date">2022年9月撮影</span>
+                        </div>
+                        <div class="slide js-slide" >
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A9.jpg)"></div>
+                            <span class="label_date">2022年9月撮影</span>
+                        </div>
+                        <div class="slide js-slide" >
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A10.jpg)"></div>
+                            <span class="label_date">2022年9月撮影</span>
+                        </div>
+                        <div class="slide js-slide" >
+                            <div class="slide_item" style="background-image: url(https://staging.prostyle-residence.com/sapporo/miyanomori/wp-content/themes/miyanomori/assets/images/main/A11.jpg)"></div>
+                            <span class="label_date">2022年9月撮影</span>
                         </div>
 
                     </div>
