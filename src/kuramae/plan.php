@@ -165,7 +165,7 @@
                                                     <p>落ち着きのある色彩を基調とした洗練された佇まいが、新鮮な日常と深い寛ぎをもたらします。</p>
                                                 </div>
                                                 <div class="img_modelroom">
-                                                    <img src="images/bg_activerelax.jpg" alt="" class="img-fluid">
+                                                    <img src="https://www.prostyle-residence.com/kuramae/wp-content/uploads/2022/09/DSC8191ok3.jpg" alt="" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +177,7 @@
                                             <div class="row">
                                                 <div class="col-12 col-lg-5">
                                                     <div class="img_modelroom left">
-                                                        <img src="images/bg_activerelax.jpg" alt="" class="img-fluid">
+                                                        <img src="https://www.prostyle-residence.com/kuramae/wp-content/uploads/2022/09/DSC8173ok.jpg" alt="" class="img-fluid">
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-7">
@@ -196,7 +196,7 @@
                         </div>
 
                         <div class="img_modelroom">
-                            <img src="images/bg_artisanshipdesign.jpg" alt="" class="img-fluid w-100">
+                            <img src="https://www.prostyle-residence.com/kuramae/wp-content/uploads/2022/09/DSC8239ok2.jpg" alt="DSC8239ok2" class="img-fluid w-100">
                         </div>
 
                         <section class="section_modelroom">
