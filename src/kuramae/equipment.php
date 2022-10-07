@@ -290,7 +290,7 @@
                                                 <li>
                                                     <h6>ホーローキッチンパネル</h6>
                                                     <div class="box_img custom">
-                                                        <img src="images/kitchen06.jpg" alt="kitchen06" class="img-fluid">
+                                                        <img src="images/kitchen11.jpg" alt="kitchen11" class="img-fluid">
                                                     </div>
                                                     <p>目地が少ないので汚れにくく、日々のお手入れがカンタンです。ベースが金属でできているので、マグネット小物を使った自分だけのオリジナル収納スペースが作れます。</p>
                                                 </li>
