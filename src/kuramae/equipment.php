@@ -158,7 +158,7 @@
                                                         <div class="col-12 col-lg-6">
                                                             <div class="box_worryfree">
                                                                 <img src="images/worryfree02.jpg" alt="worryfree02" class="img-fluid mb-3">
-                                                                <p>エレベーターを自動的にエントランス階に呼び戻します。エレベーターホールのキーリーダー認証後、開閉等操作が可能です。部外者によるエレベーターの操作、住戸階への侵入を防ぎます。</p>
+                                                                <p>Raccessキーをポケットやカバンに入れたままで、リーダのボタンを押せば施解錠できまます。面倒なキー操作はー切不要。持つだけ、押すだけのハンズフリー機能が備わっています。</p>
                                                             </div>
                                                         </div>
                                                     </div>
