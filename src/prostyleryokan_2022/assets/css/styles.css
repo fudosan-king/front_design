@@ -1,0 +1,549 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a {
+  color: #000;
+}
+
+.btn {
+  font-size: 16px;
+  color: #000;
+  border-radius: 0;
+}
+
+.btn, a, .btn:hover {
+  transition: color .25s ease;
+}
+
+.btn:hover, .btn.focus {
+  color: #B48856;
+  transition: all .3s linear;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+::-moz-selection {
+  background: #00688D;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::selection {
+  background: #00688D;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #00688D;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: #00688D;
+  color: #FFF;
+  text-shadow: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font-family: "Inter", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  line-height: 1.8em;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-link {
+  color: #000;
+  word-break: normal;
+  word-break: break-all;
+  word-break: keep-all;
+  font-size: 0.75em;
+  text-decoration: underline;
+}
+
+.btn-link:hover {
+  color: #B48856;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+*, :before, :after {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+  transition: all .3s linear;
+}
+
+.red {
+  color: #eb5757;
+}
+
+.form-control {
+  font-size: 0.875em;
+  border-color: #828282;
+  height: calc(1.5em + .75rem + 7px);
+  border-radius: 4px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1445px;
+  }
+}
+header {
+  background: #303030;
+  text-align: center;
+  padding: 30px 0 42px;
+  position: relative;
+}
+header h1 {
+  margin: 0;
+}
+header .lang {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  padding: 0 0 0 20px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  background: url("../images/i_globe.svg") no-repeat left center;
+}
+header .lang li {
+  position: relative;
+  padding: 0 10px;
+}
+header .lang li::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+}
+header .lang li:last-of-type::after {
+  display: none;
+}
+header .lang li.active a {
+  font-weight: 900;
+}
+header .lang li a {
+  color: #fff;
+  font-size: 1em;
+  display: block;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.list_top {
+  margin: 35px 0 100px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.list_top li {
+  position: relative;
+  padding: 0 20px;
+}
+.list_top li:last-of-type::after {
+  display: none;
+}
+.list_top li::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: #303030;
+}
+.list_top li a {
+  color: #303030;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+}
+
+.section_top {
+  text-align: center;
+}
+.section_top h2 {
+  font-size: 2.25em;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.section_sparesauna {
+  position: relative;
+}
+.section_sparesauna::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 200px;
+  background: url("../images/pattern_gray.jpg") repeat;
+  width: 100%;
+  height: 100%;
+}
+.section_sparesauna.custom::before {
+  display: none;
+}
+
+.section_variousfacilities {
+  padding-bottom: 120px;
+}
+.section_variousfacilities .box_variousfacilities {
+  background: #303030;
+  padding: 40px 50px;
+}
+.section_variousfacilities .box_variousfacilities h2 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section_variousfacilities .box_variousfacilities h3 {
+  font-size: 1em;
+  color: #fff;
+}
+.section_variousfacilities .box_variousfacilities ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.section_variousfacilities .box_variousfacilities ul li {
+  width: 25%;
+  text-align: center;
+  margin-right: 20px;
+}
+.section_variousfacilities .box_variousfacilities ul li:last-of-type {
+  margin-right: 0;
+}
+.section_variousfacilities .box_variousfacilities ul li .box_icon {
+  height: 117px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.section_variousfacilities .box_variousfacilities ul li p {
+  text-align: left;
+  color: #fff;
+  font-size: 0.875em;
+  line-height: 1.6em;
+  margin-bottom: 0;
+}
+
+.section_reservation {
+  background: #F2F2F2;
+}
+.section_reservation h2 {
+  text-align: center;
+  font-size: 2.25em;
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+}
+.section_reservation .subtitle {
+  text-align: center;
+}
+.section_reservation .top_box {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.section_reservation .top_box li {
+  width: 50%;
+  margin-right: 22px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section_reservation .top_box li:last-of-type {
+  margin-right: 0;
+}
+.section_reservation .top_box li h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.section_reservation .top_box li p {
+  font-size: 0.875em;
+  margin-bottom: 20px;
+}
+.section_reservation .box_reservation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_reservation .box_reservation li {
+  width: 49%;
+  margin-right: 22px;
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 40px 22px 30px;
+}
+.section_reservation .box_reservation li:nth-child(2n) {
+  margin-right: 0;
+}
+.section_reservation .box_reservation li h4 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section_reservation .box_reservation li .w_box_item {
+  display: flex;
+}
+.section_reservation .box_reservation li .w_box_item .box_item {
+  width: 50%;
+  margin-right: 24px;
+}
+.section_reservation .box_reservation li .w_box_item .box_item:last-of-type {
+  margin-right: 0;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_img {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_img img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_map {
+  margin-bottom: 20px;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_content {
+  min-height: 110px;
+  margin-bottom: 30px;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_content .box_content_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_content .box_content_head .btn_officialsite {
+  background: #000;
+  border-radius: 100px;
+  font-size: 0.625em;
+  color: #fff;
+  margin-left: 30px;
+  min-width: 80px;
+  padding: 0;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_content p {
+  font-size: 0.75em;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+.section_reservation .box_reservation li .w_box_item .box_item .box_content p b {
+  font-size: 1.1667em;
+}
+.section_reservation .box_reservation li .btn_reserve {
+  background: #303030;
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: 700;
+  display: block;
+  padding: 15px;
+}
+.section_reservation .box_reservation li .btn_reserve.gray {
+  background: #828282;
+}
+.section_reservation .box_reservation li .btn_reserve.gray:hover {
+  background: #514f4f;
+}
+.section_reservation .box_reservation li .btn_reserve:hover {
+  background: #000;
+}
+.section_reservation .box_notes {
+  border: 1px solid #BDBDBD;
+  padding: 30px;
+}
+.section_reservation .box_notes h2 {
+  text-align: left;
+  font-size: 1.25em;
+  margin-bottom: 30px;
+}
+.section_reservation .box_notes ul li {
+  font-size: 0.875em;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+}
+footer p {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 0.875em;
+}
+footer p a {
+  text-decoration: none;
+}
+
+@media (max-width: 884px) {
+  section {
+    padding: 30px 0;
+  }
+
+  header h1 img {
+    width: 30%;
+  }
+  header .lang {
+    right: 15px;
+  }
+
+  .section_variousfacilities {
+    padding-bottom: 60px;
+  }
+  .section_variousfacilities .box_variousfacilities ul {
+    flex-wrap: wrap;
+  }
+  .section_variousfacilities .box_variousfacilities ul li {
+    width: 46%;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+
+  .section_reservation .box_reservation li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    padding-right: 15px;
+  }
+  .section_reservation .box_reservation li .btn_reserve {
+    font-size: 1em;
+  }
+  .section_reservation .box_reservation li .w_box_item {
+    flex-direction: column;
+  }
+  .section_reservation .box_reservation li .w_box_item .box_item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .section_reservation .box_reservation li .w_box_item .box_item .box_content {
+    min-height: auto;
+  }
+  .section_reservation .box_reservation li h4 {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 428px) {
+  .list_top {
+    margin-bottom: 0;
+  }
+
+  .section_top h2 {
+    font-size: 1.5em;
+  }
+
+  .section_sparesauna h3 {
+    font-size: 1.3em;
+  }
+
+  .section_variousfacilities {
+    padding-bottom: 60px;
+  }
+  .section_variousfacilities .box_variousfacilities {
+    padding: 30px 15px;
+  }
+  .section_variousfacilities .box_variousfacilities h2 {
+    font-size: 1.5em;
+  }
+  .section_variousfacilities .box_variousfacilities ul {
+    flex-direction: column;
+  }
+  .section_variousfacilities .box_variousfacilities ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .section_variousfacilities .box_variousfacilities ul li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .section_reservation h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  .section_reservation .top_box {
+    flex-direction: column;
+  }
+  .section_reservation .top_box li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .section_reservation .box_notes {
+    padding: 15px;
+  }
+
+  footer img {
+    width: 30%;
+  }
+  footer p {
+    font-size: 0.75em;
+    margin-top: 20px;
+  }
+}
