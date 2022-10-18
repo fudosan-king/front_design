@@ -27,45 +27,50 @@
             </div>
         </section>
 
-        <section class="section_sparesauna">
-            <div class="container">
+        <section class="section_sparesauna pt-5">
+            <div class="container bg_pattern">
                 <div class="row align-items-end">
-                    <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                        <h3>ゆとりある大人のための<br>サウナ</h3>
-                        <p>プロスタイルの提案するサウナの特徴や利用シーンなどを説明するテキストが入ります。<br>
-                        テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                    <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="sparesauna_content">
+                            <h3>ゆとりある大人のための<br>サウナ</h3>
+                            <p>プロスタイルの提案するサウナの特徴や利用シーンなどを説明するテキストが入ります。<br>
+                            テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-8" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-lg-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <img src="assets/images/img01.jpg" alt="img01" class="img-fluid">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section_sparesauna custom">
-            <div class="container">
+        <section class="section_sparesauna custom p-0">
+            <div class="container bg_pattern custom">
                 <div class="row align-items-end flex-row-reverse">
-                    <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                        <h3></h3>
-                        <p>このほか、「日本」にこだわった和酒バーやホテルに併設の和食の利用など設備やサービスも充実。“旅館”と“ホテル”が融合したような心地よい空間に、日々の喧騒を忘れてリフレッシュできそうです。</p>
+                    <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="sparesauna_content right">
+                            <h3></h3>
+                            <p class="mb-0">このほか、「日本」にこだわった和酒バーやホテルに併設の和食の利用など設備やサービスも充実。“旅館”と“ホテル”が融合したような心地よい空間に、日々の喧騒を忘れてリフレッシュできそうです。</p>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-8" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-lg-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <img src="assets/images/img02.jpg" alt="img02" class="img-fluid">
                     </div>
-                    
                 </div>
             </div>
         </section>
 
         <section class="section_sparesauna overflow-hidden">
-            <div class="container">
+            <div class="container bg_pattern right">
                 <div class="row align-items-end">
-                    <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                        <h3></h3>
-                        <p>プロスタイルの提案するサウナの特徴や利用シーンなどを説明するテキストが入ります。<br>
-                        テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                    <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="sparesauna_content">
+                            <h3></h3>
+                            <p>プロスタイルの提案するサウナの特徴や利用シーンなどを説明するテキストが入ります。<br>
+                            テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-8" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-lg-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <img src="assets/images/img03.jpg" alt="img03" class="img-fluid">
                     </div>
                 </div>
