@@ -468,7 +468,7 @@ footer p a {
   text-decoration: none;
 }
 
-@media (max-width: 884px) {
+@media (max-width: 912px) {
   section {
     padding: 30px 0;
   }
@@ -493,6 +493,9 @@ footer p a {
     margin-bottom: 30px;
   }
 
+  .section_reservation {
+    padding-top: 40px;
+  }
   .section_reservation .box_reservation li {
     width: 100%;
     margin-right: 0;
@@ -516,6 +519,14 @@ footer p a {
   .section_reservation .box_reservation li h4 {
     font-size: 1.3em;
   }
+
+  .section_sparesauna .sparesauna_content {
+    padding-left: 15px;
+  }
+  .section_sparesauna .sparesauna_content.right {
+    padding-right: 0;
+    padding-left: 15px;
+  }
 }
 @media (max-width: 428px) {
   .list_top {
@@ -526,12 +537,6 @@ footer p a {
     font-size: 1.5em;
   }
 
-  .section_sparesauna .sparesauna_content {
-    padding-left: 0;
-  }
-  .section_sparesauna .sparesauna_content.right {
-    padding-right: 0;
-  }
   .section_sparesauna h3 {
     font-size: 1.3em;
   }
