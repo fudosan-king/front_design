@@ -287,6 +287,7 @@ header {
     h3 {
       font-size: 1em;
       color: #fff;
+      margin-bottom: 15px;
     }
     ul {
       padding: 0;
@@ -304,7 +305,7 @@ header {
           height: 117px;
           display: flex;
           justify-content: center;
-          margin-bottom: 20px;
+          margin-bottom: 40px;
         }
         p {
           text-align: left;
@@ -330,29 +331,19 @@ header {
   }
   .subtitle {
     text-align: center;
+    margin-bottom: 30px;
   }
   .top_box {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    li {
-      width: 50%;
-      margin-right: 22px;
-      margin-bottom: 50px;
-      text-align: center;
-      &:last-of-type {
-        margin-right: 0;
-      }
-      h3 {
-        font-size: 1.5em;
-        font-weight: 700;
-        letter-spacing: 0.1em;
-      }
-      p {
-        font-size: 0.875em;
-        margin-bottom: 20px;
-      }
+    text-align: center;
+    margin-bottom: 60px;
+    h3 {
+      font-size: 1.5em;
+      font-weight: 800;
+    }
+    p {
+      font-size: 0.875em;
+      margin-bottom: 20px;
+      min-height: 60px;
     }
   }
   .box_reservation {
@@ -362,8 +353,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     li {
-      width: 49%;
-      margin-right: 22px;
+      width: 48%;
+      margin-right: 30px;
       margin-bottom: 30px;
       background: #fff;
       padding: 40px 22px 30px;
@@ -374,6 +365,12 @@ header {
         font-size: 1.5em;
         text-align: center;
         margin-bottom: 20px;
+      }
+      .box_item_main {
+        margin-bottom: 60px;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
       }
       .w_box_item {
         display: flex;
@@ -432,7 +429,7 @@ header {
         font-size: 1.25em;
         font-weight: 700;
         display: block;
-        padding: 15px;
+        padding: 14px 15px;
         &.gray {
           background: #828282;
           &:hover {
@@ -454,6 +451,8 @@ header {
       margin-bottom: 30px;
     }
     ul {
+      list-style: none;
+      padding-left: 0;
       li {
         font-size: 0.875em;
       }
@@ -473,14 +472,28 @@ footer {
     }
   }
 }
+@media (max-width: 1400px) {
+  .section_reservation {
+    .box_reservation {
+      li {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 @media (max-width: 912px) {
   section {
     padding: 30px 0;
   }
+  p {
+    font-size: 0.875em;
+  }
   header {
     h1 {
       img {
-        width: 30%;
+        width: 180px;
       }
     }
     .lang {
@@ -490,6 +503,8 @@ footer {
   .section_variousfacilities {
     padding-bottom: 60px;
     .box_variousfacilities {
+      margin-left: -15px;
+      margin-right: -15px;
       ul {
         flex-wrap: wrap;
         li {
@@ -497,6 +512,8 @@ footer {
           text-align: center;
           margin-right: 20px;
           margin-bottom: 30px;
+          padding-left: 15px;
+          padding-right: 15px;
         }
       }
     }
@@ -507,11 +524,13 @@ footer {
       li {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 15px;
-        padding: 15px;
-        padding-right: 15px;
+        margin-bottom: 60px;
+        padding: 40px 20px;
+        &:last-of-type {
+          margin-bottom: 30px;
+        }
         .btn_reserve {
-          font-size: 1em;
+          font-size: 1.25em;
         }
         .w_box_item {
           flex-direction: column;
@@ -521,6 +540,17 @@ footer {
             .box_content {
               min-height: auto;
             }
+            .box_img {
+              height: 245px;
+              img {
+                height: 245px;
+              }
+            }
+            .box_map {
+              iframe {
+                height: 245px;
+              }
+            }
           }
         }
         h4 {
@@ -528,21 +558,47 @@ footer {
         }
       }
     }
+    .top_box {
+      p {
+        min-height: auto;
+      }
+    }
   }
   .section_sparesauna {
+    .bg_pattern {
+      &::before {
+        display: none;
+      }
+    }
     .sparesauna_content {
-      padding-left: 15px;
+      padding-left: 0;
       &.right {
         padding-right: 0;
-        padding-left: 15px;
+        padding-left: 0;
+      }
+      h3 {
+        margin-top: 30px;
       }
     }
   }
   
 }
 
+@media (max-width: 540px) {
+  .section_variousfacilities {
+    .box_variousfacilities {
+      ul {
+        li {
+          &:nth-of-type(2n) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 428px) {
-  
   .list_top {
     margin-bottom: 30px;
   }
@@ -553,12 +609,16 @@ footer {
   }
   .section_sparesauna {
     h3 {
-      font-size: 1.3em;
+      font-size: 1.5em;
+    }
+    .sparesauna_img {
+      margin-left: -15px;
+      margin-right: -15px;
     }
   }
 
   .section_variousfacilities {
-    padding-bottom: 60px;
+    padding: 0;
     .box_variousfacilities {
       padding: 30px 15px;
       h2 {
@@ -580,8 +640,7 @@ footer {
 
   .section_reservation {
     h2 {
-      font-size: 1.8em;
-      margin-bottom: 10px;
+      font-size: 1.5em;
     }
     .top_box {
       flex-direction: column;
@@ -598,7 +657,7 @@ footer {
   }
   footer {
     img {
-      width: 30%;
+      width: 180px;
     }
     p {
       font-size: 0.75em;
