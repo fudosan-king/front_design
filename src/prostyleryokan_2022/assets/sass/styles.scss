@@ -119,12 +119,16 @@ a:hover {
   height: calc(1.5em + .75rem + 7px);
   border-radius: 4px;
 }
+.row>* {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 section {
   padding: 120px 0;
 }
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1445px;
+    max-width: 1475px;
   }
 }
 
@@ -261,7 +265,7 @@ header {
   .sparesauna_content {
     padding-left: 125px;
     h3 {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     p {
       line-height: 2em;
