@@ -285,6 +285,7 @@ header .lang li a {
 .section_variousfacilities .box_variousfacilities h3 {
   font-size: 1em;
   color: #fff;
+  margin-bottom: 15px;
 }
 .section_variousfacilities .box_variousfacilities ul {
   padding: 0;
@@ -304,7 +305,7 @@ header .lang li a {
   height: 117px;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .section_variousfacilities .box_variousfacilities ul li p {
   text-align: left;
@@ -327,30 +328,20 @@ header .lang li a {
 }
 .section_reservation .subtitle {
   text-align: center;
+  margin-bottom: 30px;
 }
 .section_reservation .top_box {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-.section_reservation .top_box li {
-  width: 50%;
-  margin-right: 22px;
-  margin-bottom: 50px;
   text-align: center;
+  margin-bottom: 60px;
 }
-.section_reservation .top_box li:last-of-type {
-  margin-right: 0;
-}
-.section_reservation .top_box li h3 {
+.section_reservation .top_box h3 {
   font-size: 1.5em;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-weight: 800;
 }
-.section_reservation .top_box li p {
+.section_reservation .top_box p {
   font-size: 0.875em;
   margin-bottom: 20px;
+  min-height: 60px;
 }
 .section_reservation .box_reservation {
   list-style: none;
@@ -360,8 +351,8 @@ header .lang li a {
   flex-wrap: wrap;
 }
 .section_reservation .box_reservation li {
-  width: 49%;
-  margin-right: 22px;
+  width: 48%;
+  margin-right: 30px;
   margin-bottom: 30px;
   background: #fff;
   padding: 40px 22px 30px;
@@ -373,6 +364,12 @@ header .lang li a {
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 20px;
+}
+.section_reservation .box_reservation li .box_item_main {
+  margin-bottom: 60px;
+}
+.section_reservation .box_reservation li .box_item_main:last-of-type {
+  margin-bottom: 0;
 }
 .section_reservation .box_reservation li .w_box_item {
   display: flex;
@@ -431,7 +428,7 @@ header .lang li a {
   font-size: 1.25em;
   font-weight: 700;
   display: block;
-  padding: 15px;
+  padding: 14px 15px;
 }
 .section_reservation .box_reservation li .btn_reserve.gray {
   background: #828282;
@@ -451,6 +448,10 @@ header .lang li a {
   font-size: 1.25em;
   margin-bottom: 30px;
 }
+.section_reservation .box_notes ul {
+  list-style: none;
+  padding-left: 0;
+}
 .section_reservation .box_notes ul li {
   font-size: 0.875em;
 }
@@ -468,13 +469,23 @@ footer p a {
   text-decoration: none;
 }
 
+@media (max-width: 1400px) {
+  .section_reservation .box_reservation li {
+    width: 100%;
+    margin-right: 0;
+  }
+}
 @media (max-width: 912px) {
   section {
     padding: 30px 0;
   }
 
+  p {
+    font-size: 0.875em;
+  }
+
   header h1 img {
-    width: 30%;
+    width: 180px;
   }
   header .lang {
     right: 15px;
@@ -482,6 +493,10 @@ footer p a {
 
   .section_variousfacilities {
     padding-bottom: 60px;
+  }
+  .section_variousfacilities .box_variousfacilities {
+    margin-left: -15px;
+    margin-right: -15px;
   }
   .section_variousfacilities .box_variousfacilities ul {
     flex-wrap: wrap;
@@ -491,6 +506,8 @@ footer p a {
     text-align: center;
     margin-right: 20px;
     margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .section_reservation {
@@ -499,12 +516,14 @@ footer p a {
   .section_reservation .box_reservation li {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 15px;
-    padding: 15px;
-    padding-right: 15px;
+    margin-bottom: 60px;
+    padding: 40px 20px;
+  }
+  .section_reservation .box_reservation li:last-of-type {
+    margin-bottom: 30px;
   }
   .section_reservation .box_reservation li .btn_reserve {
-    font-size: 1em;
+    font-size: 1.25em;
   }
   .section_reservation .box_reservation li .w_box_item {
     flex-direction: column;
@@ -516,16 +535,39 @@ footer p a {
   .section_reservation .box_reservation li .w_box_item .box_item .box_content {
     min-height: auto;
   }
+  .section_reservation .box_reservation li .w_box_item .box_item .box_img {
+    height: 245px;
+  }
+  .section_reservation .box_reservation li .w_box_item .box_item .box_img img {
+    height: 245px;
+  }
+  .section_reservation .box_reservation li .w_box_item .box_item .box_map iframe {
+    height: 245px;
+  }
   .section_reservation .box_reservation li h4 {
     font-size: 1.3em;
   }
+  .section_reservation .top_box p {
+    min-height: auto;
+  }
 
+  .section_sparesauna .bg_pattern::before {
+    display: none;
+  }
   .section_sparesauna .sparesauna_content {
-    padding-left: 15px;
+    padding-left: 0;
   }
   .section_sparesauna .sparesauna_content.right {
     padding-right: 0;
-    padding-left: 15px;
+    padding-left: 0;
+  }
+  .section_sparesauna .sparesauna_content h3 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 540px) {
+  .section_variousfacilities .box_variousfacilities ul li:nth-of-type(2n) {
+    margin-right: 0;
   }
 }
 @media (max-width: 428px) {
@@ -538,11 +580,15 @@ footer p a {
   }
 
   .section_sparesauna h3 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+  }
+  .section_sparesauna .sparesauna_img {
+    margin-left: -15px;
+    margin-right: -15px;
   }
 
   .section_variousfacilities {
-    padding-bottom: 60px;
+    padding: 0;
   }
   .section_variousfacilities .box_variousfacilities {
     padding: 30px 15px;
@@ -563,8 +609,7 @@ footer p a {
   }
 
   .section_reservation h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+    font-size: 1.5em;
   }
   .section_reservation .top_box {
     flex-direction: column;
@@ -579,7 +624,7 @@ footer p a {
   }
 
   footer img {
-    width: 30%;
+    width: 180px;
   }
   footer p {
     font-size: 0.75em;
