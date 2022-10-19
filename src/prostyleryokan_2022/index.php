@@ -28,7 +28,7 @@
 
         <section class="section_sparesauna pt-5">
             <div class="container bg_pattern">
-                <div class="row align-items-end flex-row-reverse">
+                <div class="row align-items-end flex-row-reverse gx-4">
                     <div class="col-12 col-lg-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <div class="sparesauna_img">
                             <img src="assets/images/img01.jpg" alt="img01" class="img-fluid">
