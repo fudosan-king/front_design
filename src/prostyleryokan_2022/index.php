@@ -183,7 +183,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn_reserve">予約する</a>
+                                    <a href="#" class="btn btn_reserve disabled">予約する</a>
                                 </div>
                                 <div class="box_item_main">
                                     <h4>プロスタイル テラス ナハ</h4>
@@ -213,7 +213,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn_reserve gray">2022年○月○日オープン予定！</a>
+                                    <a href="#" class="btn btn_reserve gray disabled">2022年○月○日オープン予定！</a>
                                 </div>
                             </li>
 
@@ -284,7 +284,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn_reserve">予約する</a>
+                                    <a href="#" class="btn btn_reserve disabled">予約する</a>
                                 </div>
                             </li>
                         </ul>
