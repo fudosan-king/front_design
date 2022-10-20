@@ -242,7 +242,7 @@ header {
       content: '';
       position: absolute;
       z-index: -1;
-      left: 12px;
+      left: 15px;
       right: 0;
       top: 200px;
       background: url('../images/pattern_gray.jpg') repeat;
@@ -251,7 +251,7 @@ header {
     }
     &.right {
       &::before {
-        right: 12px;
+        right: 15px;
         left: inherit;
       }
     }
@@ -312,7 +312,6 @@ header {
           margin-bottom: 40px;
         }
         p {
-          text-align: left;
           color: #fff;
           font-size: 0.875em;
           line-height: 1.6em;
@@ -346,7 +345,7 @@ header {
     }
     p {
       font-size: 0.875em;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       min-height: 60px;
     }
   }
@@ -556,7 +555,9 @@ footer {
           margin-bottom: 30px;
         }
         .btn_reserve {
-          font-size: 1.25em;
+          font-size: 1.1em;
+          padding-top: 16px;
+          padding-bottom: 16px;
         }
         .w_box_item {
           flex-direction: column;
