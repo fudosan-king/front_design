@@ -164,7 +164,7 @@
                                             <div class="box_content">
                                                 <div class="box_content_head">
                                                     <img src="assets/images/logo.svg" alt="logo" class="img-fluid">
-                                                    <a href="https://www.prostyleryokan.com/yokohamabashamichi/" target="_blank" class="btn btn_officialsite">公式サイト</a>
+                                                    <a href="https://www.prostyleryokan.com/tokyo-asakusa/" target="_blank" class="btn btn_officialsite">公式サイト</a>
                                                 </div>
                                                 <p>〒111-0033　東京都台東区花川戸2丁目12-11<br>
                                                 03ｰ5830ｰ6015</p>
