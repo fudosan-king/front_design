@@ -434,6 +434,9 @@ header .lang li a {
   display: block;
   padding: 14px 15px;
 }
+.section_reservation .box_reservation li .btn_reserve.disabled {
+  opacity: 1;
+}
 .section_reservation .box_reservation li .btn_reserve.gray {
   background: #828282;
 }

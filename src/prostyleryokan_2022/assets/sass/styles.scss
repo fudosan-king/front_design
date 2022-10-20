@@ -433,6 +433,9 @@ header {
         font-weight: 700;
         display: block;
         padding: 14px 15px;
+        &.disabled {
+          opacity: 1;
+        }
         &.gray {
           background: #828282;
           &:hover {
@@ -442,6 +445,7 @@ header {
         &:hover {
           background: #000;
         }
+        
       }
     }
   }
