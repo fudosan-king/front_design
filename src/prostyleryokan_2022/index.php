@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <h2>プロスタイル旅館が提案する<br>プライベートサウナ</h2>
-                        <p>私達は浅草・横浜・那覇の中心部に特別なご宿泊とお 食事をご提案し続てきました。<br>
+                        <p>抜けていたので追記しました<br>
                         高熱と冷却がおりなす最高の「ととのい」をご提案しま す</p>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
 
         <section class="section_sparesauna pt-5">
             <div class="container bg_pattern">
-                <div class="row align-items-end flex-row-reverse gx-4">
+                <div class="row align-items-end flex-row-reverse">
                     <div class="col-12 col-lg-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <div class="sparesauna_img">
                             <img src="assets/images/img01.jpg" alt="img01" class="img-fluid">
@@ -164,7 +164,7 @@
                                             <div class="box_content">
                                                 <div class="box_content_head">
                                                     <img src="assets/images/logo.svg" alt="logo" class="img-fluid">
-                                                    <a href="#" class="btn btn_officialsite">公式サイト</a>
+                                                    <a href="https://www.prostyleryokan.com/yokohamabashamichi/" target="_blank" class="btn btn_officialsite">公式サイト</a>
                                                 </div>
                                                 <p>〒111-0033　東京都台東区花川戸2丁目12-11<br>
                                                 03ｰ5830ｰ6015</p>
@@ -195,7 +195,7 @@
                                             <div class="box_content">
                                                 <div class="box_content_head">
                                                     <img src="assets/images/logo_terracenaha.png" alt="terracenaha" class="img-fluid">
-                                                    <a href="#" class="btn btn_officialsite">公式サイト</a>
+                                                    <a target="_blank" href="https://www.prostyleryokan.com/okinawa/terracenaha/" class="btn btn_officialsite">公式サイト</a>
                                                 </div>
                                                 <p>〒900‐0033　沖縄県那覇市久米2丁目3番地2号<br>
                                                 098-988-4860</p>
@@ -235,7 +235,7 @@
                                             <div class="box_content">
                                                 <div class="box_content_head">
                                                     <img src="assets/images/logo_02.svg" alt="logo" class="img-fluid">
-                                                    <a href="#" class="btn btn_officialsite">公式サイト</a>
+                                                    <a target="_blank" href="https://www.prostyle-residence.com/sapporo/miyanomori/" class="btn btn_officialsite">公式サイト</a>
                                                 </div>
                                                 <p>〒231-0014<br>
                                                 神奈川県横浜市中区常盤町5丁目64番地</p>
@@ -264,7 +264,7 @@
                                             <div class="box_content">
                                                 <div class="box_content_head">
                                                     <img src="assets/images/logo_04.png" alt="logo_04" class="img-fluid">
-                                                    <a href="#" class="btn btn_officialsite">公式サイト</a>
+                                                    <a target="_blank" href="https://www.prostyleryokan.com/okinawa/kenchomae/" class="btn btn_officialsite">公式サイト</a>
                                                 </div>
                                                 <p>〒900‐0033　沖縄県那覇市久米2丁目2番地1号<br>
                                                 098-917-1629</p>

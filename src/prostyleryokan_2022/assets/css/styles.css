@@ -245,7 +245,7 @@ header .lang li a {
   content: '';
   position: absolute;
   z-index: -1;
-  left: 12px;
+  left: 15px;
   right: 0;
   top: 200px;
   background: url("../images/pattern_gray.jpg") repeat;
@@ -253,7 +253,7 @@ header .lang li a {
   height: 100%;
 }
 .section_sparesauna .bg_pattern.right::before {
-  right: 12px;
+  right: 15px;
   left: inherit;
 }
 .section_sparesauna .bg_pattern.custom::before {
@@ -313,7 +313,6 @@ header .lang li a {
   margin-bottom: 40px;
 }
 .section_variousfacilities .box_variousfacilities ul li p {
-  text-align: left;
   color: #fff;
   font-size: 0.875em;
   line-height: 1.6em;
@@ -345,7 +344,7 @@ header .lang li a {
 }
 .section_reservation .top_box p {
   font-size: 0.875em;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   min-height: 60px;
 }
 .section_reservation .box_reservation {
@@ -543,7 +542,9 @@ footer p a {
     margin-bottom: 30px;
   }
   .section_reservation .box_reservation li .btn_reserve {
-    font-size: 1.25em;
+    font-size: 1.1em;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   .section_reservation .box_reservation li .w_box_item {
     flex-direction: column;
