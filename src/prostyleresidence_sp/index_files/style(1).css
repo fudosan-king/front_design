@@ -1,0 +1,93 @@
+/*
+Theme Name: Prostyle Res LTS 2018 | SGVinK
+Theme URI: https://prostyle-residence.com
+Author: Khanh Nguyen - SGVinK
+Author URI: https://www.facebook.com/khanhnp91
+Description: SGVinK Self is customize theme following the company's design and requirement.
+Version: v2018.1227 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sgvink
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+
+--------------------------------------------------------------*/
+
+.list_intros {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list_intros li {
+    margin-right: 30px;
+    width: 31.33%;
+}
+.list_intros li:nth-child(3n) {
+    margin-right: 0;
+}
+
+@media (max-width: 912px) {
+    .list_intros li {
+        width: 30.33%;
+    }
+}
+@media (max-width: 428px) {
+    .list_intros li {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.xcol.dt-3 {
+    flex: 1;
+}
+
+.section_ryokan {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.bg_prosylte {
+    background-color: transparent;
+    padding-bottom: 0;
+}
+
+.banner_line {
+    background-color: #fff;
+    padding-top: 80px;
+    margin-bottom: 35px;
+    border-bottom: none;
+}
+
+.section_ryokan.bg_common.bg_prosylte .banner_line.container {
+    background-color: #fff;
+}
+
+.section_video {
+    padding-bottom: 0;
+}
+
+.w_section_video {
+    padding: 0;
+}
+
+.frame_video {
+    margin-bottom: 0;
+}
+
+#modal_brands.modal.fade.bd-example-modal-lg.modal_brands.show,
+#modal_commitment.modal.fade.bd-example-modal-lg.modal_commitment.show,
+#modal_professional.modal.fade.bd-example-modal-lg.modal_commitment.show {
+    z-index: 99999;
+}
