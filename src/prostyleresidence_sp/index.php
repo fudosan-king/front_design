@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0035)https://www.prostyle-residence.com/ -->
+
 <html lang="en"
     class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths tablesaw-enhanced wf-ubuntu-condensed-n4-active wf-heisei-kaku-gothic-std-n3-active wf-heisei-kaku-gothic-std-n7-active wf-fot-tsukuardgothic-std-n4-active wf-fot-tsukuardgothic-std-n7-active wf-yu-mincho-pr6n-n4-active wf-noto-sans-cjk-jp-n4-active wf-active">
 
@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="./index_files/tablesaw.stackonly.css">
     <link rel="stylesheet" href="./index_files/bsnav.min.css">
 
-    <link href="./index_files/recruit.css" rel="stylesheet">
+    
     <link href="./index_files/mobile.css" rel="stylesheet">
     
 
@@ -1026,7 +1026,8 @@
     <link rel="stylesheet" id="default-styles-css" href="./index_files/style(1).css" type="text/css" media="">
     <link rel="stylesheet" id="custom-styles-css" href="./index_files/sgvink.css" type="text/css" media="all">
     <link rel="stylesheet" id="custom-css" href="./index_files/custom.css" type="text/css" media="all">
-
+    
+    <link href="./index_files/recruit.css" rel="stylesheet">
     <link href="./index_files/scss/nicker.css" rel="stylesheet">
 
     <script type="text/javascript" src="./index_files/jquery.min.js" id="jquery-core-js"></script>
