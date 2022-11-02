@@ -6,7 +6,7 @@
 <script src="js/bootstrap-datepicker.ja.min.js"></script>
 
 <script src="js/flickity.pkgd.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
 
 <script src="js/functions.js"></script>
