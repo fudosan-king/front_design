@@ -137,7 +137,7 @@
                                             </div>
                                         </a>
 
-                                        
+                                        <a href="#" class="brn btnmore">もっとみる</a>
                                     
                                 </div>
                             </div>
