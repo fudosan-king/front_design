@@ -1731,7 +1731,7 @@ footer {
     flex-basis: 100%;
   }
   .card {
-    width: 25%;
+    width: 33.33%;
     overflow: hidden;
     position: relative;
     border: none;
@@ -1748,43 +1748,53 @@ footer {
       padding: 20px;
       box-sizing: border-box;
       min-height: 100px;
-      background: #111;
+      background-color: rgba(51, 58, 86, 0.8);
       span {
         &:first-child {
           text-transform: uppercase;
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           font-weight: 700;
           letter-spacing: 1px;
           text-align: center;
           color: #fff;
-          font-size: 16px;
+          font-size: 1em;
         }
         &:last-child {
-          font-size: 14px;
-          color: #1C90B2;
+          color: #fff;
           text-align: center;
-          font-weight: 700;
+          font-size: 0.875em;
         }
       }
     }
     .image {
       z-index: 1;
-      height: 100%;
+      width: 100%;
+      height: 260px;
+      overflow: hidden;
+      transition: all 0.5s ease;
+      background: #f1f1f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     img {
-      height: 100%;
+      height: auto;
       width: 100%;
+      object-fit: cover;
       transition: all 0.5s ease;
-      transform: scale(1.2);
+      // transform: scale(1.2);
     }
     &:hover {
       .content {
         bottom: 0px;
         color: #fff;
+        justify-content: center;
+        height: 100%;
+        transition: all 0.5s ease;
       }
       .image {
         img {
-          transform: scale(1);
+          // transform: scale(1);
         }
       }
     }
@@ -1814,8 +1824,10 @@ footer {
       }
     }
   }
+}
 
-  
+.fancybox__caption {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

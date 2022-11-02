@@ -1666,7 +1666,7 @@ footer .footer_bottom p a:hover {
   flex-basis: 100%;
 }
 .box_works_content .card {
-  width: 25%;
+  width: 33.33%;
   overflow: hidden;
   position: relative;
   border: none;
@@ -1684,39 +1684,45 @@ footer .footer_bottom p a:hover {
   padding: 20px;
   box-sizing: border-box;
   min-height: 100px;
-  background: #111;
+  background-color: rgba(51, 58, 86, 0.8);
 }
 .box_works_content .card .content span:first-child {
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
 }
 .box_works_content .card .content span:last-child {
-  font-size: 14px;
-  color: #1C90B2;
+  color: #fff;
   text-align: center;
-  font-weight: 700;
+  font-size: 0.875em;
 }
 .box_works_content .card .image {
   z-index: 1;
-  height: 100%;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .box_works_content .card img {
-  height: 100%;
+  height: auto;
   width: 100%;
+  object-fit: cover;
   transition: all 0.5s ease;
-  transform: scale(1.2);
 }
 .box_works_content .card:hover .content {
   bottom: 0px;
   color: #fff;
-}
-.box_works_content .card:hover .image img {
-  transform: scale(1);
+  justify-content: center;
+  height: 100%;
+  transition: all 0.5s ease;
 }
 .box_works_content .btnmore {
   margin-top: 50px;
@@ -1742,6 +1748,10 @@ footer .footer_bottom p a:hover {
 }
 .box_works_content .btnmore:hover img {
   right: 10px;
+}
+
+.fancybox__caption {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

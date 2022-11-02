@@ -17,29 +17,29 @@
             </section>
 
             <section class="section_marketing">
-                <div class="container-fluid p-0">
-                    <div class="row no-gutters">
+                <div class="container">
+                    <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="box_works">
                                 
                                 <div class="box_works_content">
                                     <h2 class="title mb-5">360度パース画像</h2>
-                                    <a href="#" class="card">
+                                    <a href="https://t4.ftcdn.net/jpg/05/38/82/79/240_F_538827931_lB2eE3EcP7z0ZzOxWV0gm24l36wdWWst.jpg" class="card"  data-fancybox="gallery" data-caption="<b>戸建住宅</b> <br /> 外観パース">
                                         <div class="content">
-                                        <span class="title">Web Design</span>
-                                        <span class="category">Mobile / Design / Rebranding</span>
+                                            <span class="title">戸建住宅</span>
+                                            <span class="category">外観パース</span>
                                         </div>
                                         <div class="image">
-                                        <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                            <img src="https://t4.ftcdn.net/jpg/05/38/82/79/240_F_538827931_lB2eE3EcP7z0ZzOxWV0gm24l36wdWWst.jpg" alt="01">
                                         </div>
                                     </a>
-                                    <a href="#" class="card">
+                                    <a href="assets/images/gallerys/02.jpg" class="card" data-fancybox="gallery" data-caption="<b>サービス付き高齢者住宅</b> <br /> 外観パース">
                                         <div class="content">
-                                        <span class="title">UX Design</span>
-                                        <span class="category">UX / UI / Research </span>
+                                            <span class="title">サービス付き高齢者住宅</span>
+                                            <span class="category">外観パース</span>
                                         </div>
                                         <div class="image">
-                                        <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                            <img src="assets/images/gallerys/02.jpg" alt="02">
                                         </div>
                                     </a>
                                 </div>
@@ -47,130 +47,97 @@
 
                                 <div class="box_works_content">
                                     <h2 class="title mb-5">パース図面</h2>
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/03.jpg" class="card" data-fancybox="gallery" data-caption="<b>マンション外構</b> <br /> 外観パース">
                                             <div class="content">
-                                            <span class="title">Web Design</span>
-                                            <span class="category">Mobile / Design / Rebranding</span>
+                                                <span class="title">マンション外構</span>
+                                                <span class="category">外観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                                <img src="assets/images/gallerys/03.jpg" alt="03">
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/04.jpg" class="card" data-fancybox="gallery" data-caption="<b>飲食店</b> <br /> 外観パース">
                                             <div class="content">
-                                            <span class="title">UX Design</span>
-                                            <span class="category">UX / UI / Research </span>
+                                                <span class="title">飲食店</span>
+                                                <span class="category">外観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                                <img src="assets/images/gallerys/04.jpg" alt="04" />
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/05.jpg" class="card" data-fancybox="gallery" data-caption="<b>パチンコ店夜景</b> <br /> 外観パース">
                                             <div class="content">
-                                            <span class="title">Concepts</span>
-                                            <span class="category">Design / Creative</span>
+                                                <span class="title">パチンコ店夜景</span>
+                                                <span class="category">外観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1553531888-a5892402adce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                                <img src="assets/images/gallerys/05.jpg" alt="05" />
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/06.jpg" class="card" data-fancybox="gallery" data-caption="<b>デイサービス</b> <br /> 内観パース">
                                             <div class="content">
-                                            <span class="title">Creative & Cool</span>
-                                            <span class="category">Design / Food</span>
+                                                <span class="title">デイサービス</span>
+                                                <span class="category">内観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1484980859177-5ac1249fda6f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1684&q=80" alt="" />
+                                                <img src="assets/images/gallerys/06.jpg" alt="06">
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/07.jpg" class="card" data-fancybox="gallery" data-caption="<b>エレベータホール</b> <br /> 内観パース">
                                             <div class="content">
-                                            <span class="title">AR-VR</span>
-                                            <span class="category">VR / AR / Creative</span>
+                                                <span class="title">エレベータホール</span>
+                                                <span class="category">内観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1398&q=80" alt="" />
+                                                <img src="assets/images/gallerys/07.jpg" alt="07">
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/08.jpg" class="card" data-fancybox="gallery" data-caption="<b>住宅</b> <br /> 内観パース">
                                             <div class="content">
-                                            <span class="title">Logo</span>
-                                            <span class="category">Design / Logo / Clothing</span>
+                                                <span class="title">住宅</span>
+                                                <span class="category">内観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1600609842388-3e2ed2a1454a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                                <img src="assets/images/gallerys/08.jpg" alt="08">
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/09.jpg" class="card" data-fancybox="gallery" data-caption="<b>古民家改修</b> <br /> 外観パース">
                                             <div class="content">
-                                            <span class="title">Art</span>
-                                            <span class="category">Drawing / Painting / Abstract</span>
+                                                <span class="title">古民家改修</span>
+                                                <span class="category">外観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1544273677-c433136021d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                                <img src="assets/images/gallerys/09.jpg" alt="09">
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/10.jpg" class="card" data-fancybox="gallery" data-caption="<b>建売住宅２棟</b> <br /> 外観パース">
                                             <div class="content">
-                                            <span class="title">Native Apps</span>
-                                            <span class="category">Coding / Mobile </span>
+                                                <span class="title">建売住宅２棟</span>
+                                                <span class="category">外観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1551650992-ee4fd47df41f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                                <img src="assets/images/gallerys/10.jpg" alt="10">
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
+                                        <a href="assets/images/gallerys/11.jpg" class="card" data-fancybox="gallery" data-caption="<b>戸建て住宅</b> <br /> 外観パース">
                                             <div class="content">
-                                            <span class="title">Web Design</span>
-                                            <span class="category">Mobile / Design / Rebranding</span>
+                                                <span class="title">戸建て住宅</span>
+                                                <span class="category">外観パース</span>
                                             </div>
                                             <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
+                                                <img src="assets/images/gallerys/11.jpg" alt="11">
                                             </div>
                                         </a>
 
-                                        <a href="#" class="card">
-                                            <div class="content">
-                                            <span class="title">UX Design</span>
-                                            <span class="category">UX / UI / Research </span>
-                                            </div>
-                                            <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
-                                            </div>
-                                        </a>
-
-                                        <a href="#" class="card">
-                                            <div class="content">
-                                            <span class="title">Concepts</span>
-                                            <span class="category">Design / Creative</span>
-                                            </div>
-                                            <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1553531888-a5892402adce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" alt="" />
-                                            </div>
-                                        </a>
-
-                                        <a href="#" class="card">
-                                            <div class="content">
-                                            <span class="title">Creative & Cool</span>
-                                            <span class="category">Design / Food</span>
-                                            </div>
-                                            <div class="image">
-                                            <img src="https://images.unsplash.com/photo-1484980859177-5ac1249fda6f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1684&q=80" alt="" />
-                                            </div>
-                                        </a>
-
-                                        <a href="#" class="btn btnmore">
-                                            <span>もっと見る</span>
-                                            <img src="https://www.logknot.co.jp/wp-content/themes/logknot2021/assets/images/svg/i_right.svg" alt="" class="img-fluid" width="30">
-                                        </a>
+                                        
                                     
                                 </div>
                             </div>
