@@ -1815,7 +1815,11 @@ footer {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .box_works_content {
     .card {
       width: 50%;
       .content {
@@ -1823,8 +1827,10 @@ footer {
       }
     }
   }
+}
 
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+  .box_works_content {
     .card {
       width: 100%;
     }

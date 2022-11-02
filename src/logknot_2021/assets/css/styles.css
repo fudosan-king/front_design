@@ -768,7 +768,6 @@ footer .footer_top ul {
   margin: 0;
   display: flex;
   justify-content: center;
-
 }
 footer .footer_top ul.list_social {
   margin-top: 15px;
@@ -797,11 +796,6 @@ footer .footer_top ul.list_social li a:before {
   height: 16px;
   background: #474747;
 }
-
-footer .footer_top ul li {
-  display: block;
-  margin-bottom: 5px;
-
 footer .footer_top ul.menu-bottom {
   margin-bottom: 50px;
 }
@@ -1656,7 +1650,6 @@ footer .footer_bottom p a:hover {
     width: 20px;
   }
 }
-
 @media (max-width: 428px) {
   footer .footer_top ul.menu-bottom {
     flex-direction: column;
@@ -1750,6 +1743,7 @@ footer .footer_bottom p a:hover {
 .box_works_content .btnmore:hover img {
   right: 10px;
 }
+
 @media screen and (max-width: 768px) {
   .box_works_content .card {
     width: 50%;
