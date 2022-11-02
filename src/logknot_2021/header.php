@@ -14,13 +14,16 @@
                         <a class="nav-link nav_link" href="index2.php#section_subnews">NEWS</a>
                     </li>
                     <li class="nav-item dropdown dropdown-slide dropdown-hover">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WORKS</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="orderrenove.php">リノベーションプラットフォーム</a>
                             <a class="dropdown-item" href="logrenove.php">ライフスタイル・リノベーションメディア</a>
                             <a class="dropdown-item" href="orderspace.php">VRシミュレーションツール</a>
                             <a class="dropdown-item" href="knotmarketing.php">マーケティング支援</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_link" href="index2.php#section_mission">MISSION</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav_link" href="index2.php#section_about">About us</a>
@@ -30,6 +33,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.propolife.co.jp/group/ir/logknot/">IR</a>
                     </li>
                 </ul>
             </div>

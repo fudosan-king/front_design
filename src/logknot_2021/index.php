@@ -97,21 +97,67 @@
                             <h2 class="title_sub">NEWS</h2>
                             <p class="subtitle">お知らせ</p>
                             <ul class="list_news">
-                                <li>
-                                    <a href="#">
-                                        <time datetime="2020年11月30日">2020年11月30日</time>
-                                        <h4>UsideUと共同で不動産・リノベーションにおける「接客のDX化プロジェクト」を始動</h4>
-                                        <p><span>お知らせ</span></p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <time datetime="2020年8月19日">2020年8月19日</time>
-                                        <h4>LogKnot株式会社を設立いたしました。</h4>
-                                        <p><span>お知らせ</span></p>
-                                    </a>
-                                </li>
-                            </ul>
+                     
+
+                                    <li>
+                                        <a href="https://www.logknot.co.jp/news/20221006-eflink/">
+                                            <time datetime="2022年10月6日">2022年10月6日</time>
+                                            <h4>スマホ向け最新動画テクノロジーで、不動産営業の事務作業削減と売上UPに貢献　～仲介物件資料のやりとり自動化ツールをリリース～</h4>
+
+                                            <p>                                                                <span>PressRelease</span>
+                                                            </p>
+                                        </a>
+                                    </li>
+                                                                         
+                                 
+
+                                    <li>
+                                        <a href="https://www.logknot.co.jp/news/establish_logknot/">
+                                            <time datetime="2020年8月19日">2020年8月19日</time>
+                                            <h4>LogKnot株式会社を設立いたしました。</h4>
+
+                                            <p>                                                                <span>PressRelease</span>
+                                                            </p>
+                                        </a>
+                                    </li>
+                                                                         
+                                 
+
+                                    <li>
+                                        <a href="https://www.logknot.co.jp/news/20211101_logknot-vietnam/">
+                                            <time datetime="2021年11月1日">2021年11月1日</time>
+                                            <h4>プロポライフグループがベトナムにおける新会社  「LogKnot Vietnam」を設立</h4>
+
+                                            <p>                                                                <span>PressRelease</span>
+                                                            </p>
+                                        </a>
+                                    </li>
+                                                                         
+                                 
+
+                                    <li>
+                                        <a href="https://www.logknot.co.jp/news/smart-renove-counter/">
+                                            <time datetime="2020年6月15日">2020年6月15日</time>
+                                            <h4>UsideUと共同で不動産・リノベーションにおける「接客のDX化プロジェクト」を始動</h4>
+
+                                            <p>                                                                <span>PressRelease</span>
+                                                            </p>
+                                        </a>
+                                    </li>
+                                                                         
+                                 
+
+                                    <li>
+                                        <a href="https://www.logknot.co.jp/news/2021%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e4%bc%91%e6%a5%ad%e6%9c%9f%e9%96%93%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/">
+                                            <time datetime="2021年12月22日">2021年12月22日</time>
+                                            <h4>2021年末年始休業期間のお知らせ</h4>
+
+                                            <p>                                                                <span>Information</span>
+                                                            </p>
+                                        </a>
+                                    </li>
+                                                                         
+                                                </ul>
                         </div>
                     </div>
                 </div>
@@ -497,7 +543,7 @@
                 </div>
             </section> -->
 
-            <section class="section_news_popular">
+            <!-- <section class="section_news_popular">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
@@ -518,10 +564,6 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <!-- <div class="like">
-                                                        <span class="i_like"></span>
-                                                        <span class="like_counter">2</span>
-                                                    </div> -->
                                                 </div>
                                                 <h4>【Gmail活用術】業務効率化の第一歩！テンプレートでお問い合わせメール対応するんや！編</h4>
                                             </div>
@@ -541,10 +583,6 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <!-- <div class="like">
-                                                        <span class="i_like"></span>
-                                                        <span class="like_counter">2</span>
-                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -564,10 +602,6 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <!-- <div class="like">
-                                                        <span class="i_like"></span>
-                                                        <span class="like_counter">2</span>
-                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -587,10 +621,6 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <!-- <div class="like">
-                                                        <span class="i_like"></span>
-                                                        <span class="like_counter">2</span>
-                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -610,10 +640,6 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <!-- <div class="like">
-                                                        <span class="i_like"></span>
-                                                        <span class="like_counter">2</span>
-                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -633,10 +659,6 @@
                                                         <img src="images/people.png" alt="" class="img-fluid author_image">
                                                         <span class="author_name">ノブ</span>
                                                     </div>
-                                                    <!-- <div class="like">
-                                                        <span class="i_like"></span>
-                                                        <span class="like_counter">2</span>
-                                                    </div> -->
                                                 </div>
                                                 <h4>7月、慣れて飽きると次の扉が開く</h4>
                                             </div>
@@ -645,28 +667,9 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <!-- <div class="col-12 col-lg-4">
-                            <aside class="side_right">
-                                <div class="box_banner_right">
-                                    <a href="#">
-                                        <img src="images/banner.png" alt="" class="img-fluid">
-                                    </a>
-                                    <a href="#">
-                                        <img src="images/banner.png" alt="" class="img-fluid">
-                                    </a>
-                                    <a href="#">
-                                        <img src="images/banner.png" alt="" class="img-fluid">
-                                    </a>
-                                    <a href="#">
-                                        <img src="images/banner.png" alt="" class="img-fluid">
-                                    </a>
-                                </div>
-                            </aside>
-                        </div> -->
                     </div>
                 </div>
-            </section>
+            </section> -->
 
 
 
