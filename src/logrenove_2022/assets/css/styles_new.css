@@ -1202,7 +1202,11 @@ header .navbar {
 }
 
 .section_point .btn,
-.section_list_templates .btn {
+.section_list_templates .btn,
+.section_magazine_basic .btn,
+.section_magazine_lifestyle .btn,
+.section_magazine_realestate .btn,
+.section_magazine_house .btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1216,7 +1220,11 @@ header .navbar {
   border-radius: 100px;
 }
 
-.section_list_templates .btn {
+.section_list_templates .btn,
+.section_magazine_basic .btn,
+.section_magazine_lifestyle .btn,
+.section_magazine_realestate .btn,
+.section_magazine_house .btn {
   background: #ffffff;
   border: 2px solid #8c7d5e;
   color: #8c7d5e;
@@ -1236,6 +1244,11 @@ header .navbar {
 
 .section_contact .btn {
   background: transparent;
+}
+
+.three_dot {
+  text-align: center;
+  margin: 15px 0px;
 }
 
 @media (max-width: 768px) {
@@ -1288,7 +1301,11 @@ header .navbar {
 @media (max-width: 428px) {
   .section_description .btn,
   .section_point .btn,
-  .section_list_templates .btn {
+  .section_list_templates .btn,
+  .section_magazine_basic .btn,
+  .section_magazine_lifestyle .btn,
+  .section_magazine_realestate .btn,
+  .section_magazine_house .btn {
     width: auto;
     height: auto;
   }
@@ -1298,6 +1315,15 @@ header .navbar {
     width: 100%;
     margin-left: 0;
     transform: translateX(0);
+  }
+
+  .section_list_templates .list_content li {
+    margin-bottom: 15px;
+    width: 100%;
+    margin-right: 0;
+  }
+  .section_list_templates .list_content li:nth-of-type(4n) {
+    margin-right: 0;
   }
 }
 
@@ -1311,5 +1337,120 @@ header .navbar {
 
   .item-description-details {
     padding: 0px 18px 0 40px;
+  }
+}
+
+.section_magazine_description {
+  background: #f6f6f6;
+  padding: 60px 220px;
+}
+.section_magazine_description .details {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 180%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.section_magazine_basic {
+}
+
+.basic_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic_title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #8c7d5e;
+}
+
+.basic_description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #000000;
+  padding: 0 100px;
+  margin-bottom: 50px;
+}
+
+.basic_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.basic_item {
+  display: block;
+  text-decoration: none;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item_title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424242;
+}
+
+.item_descripton {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #8c7d5e;
+  text-decoration: none;
+}
+
+.section_magazine_lifestyle,
+.section_magazine_house {
+  background: #f6f6f6;
+}
+
+@media (max-width: 1280px) {
+  .basic_list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_magazine_description {
+    padding: 30px 20px;
+  }
+
+  .basic_description {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .basic_item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .basic_item {
+    width: 48%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1028px) {
+  .section_magazine_description {
+    padding: 30px 20px;
+  }
+
+  .basic_description {
+    padding: 0 20px;
   }
 }

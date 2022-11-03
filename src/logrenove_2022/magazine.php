@@ -8,168 +8,174 @@
 
     <main>
         <section class="section_banner">
-            <img src="images/bg_top_about.jpg" alt="bg_top_about" class="img-fluid">
+            <img src="images/bg_top_magazine.jpg" alt="bg_top_magazine" class="img-fluid">
             <h1 class="banner_description">都心の高級リノベ物件ならLogRenove</h1>
         </section>
 
-        <section class="section_description">
+
+        <section class="section_magazine_description">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12">
-                        <div class="d-block d-sm-none">
-                            <h2 class="description_header">住みたい街で<br />心地よい暮らしを。</h2>
+                        <p class="details">ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文が入ります。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_magazine_basic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="basic_header">
+                            <h2 class="basic_title">リノベーションの基礎知識</h2>
+                            <p class="basic_description">ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文が入ります。</p>
                         </div>
-                        <div class="d-none d-sm-block">
-                            <h2 class="description_header">住みたい街で心地よい暮らしを。</h2>
-                        </div>
-                        <div class="description_details">
-                            <p>あなたは、どんな住まいを探していますか？</p>
-                            <div class="d-block d-sm-none">
-                                <p>私たちが提案するのは「都心の上質なリノベーションマンション」です。都心ならではの利便性、優れた住環境を持った一室を、センスあふれるデザイン、機能的な間取りに仕上げた住まい。都心の一等地だから資産価値が下がりにくいのもポイントです。</p>
-                            </div>
-                            <div class="d-none d-sm-block">
-                                <p>私たちが提案するのは「都心の上質なリノベーションマンション」です。</p>
-                                <p>都心ならではの利便性、優れた住環境を持った一室を、センスあふれるデザイン、機能的な間取りに仕上げた住まい。</p>
-                                <p>都心の一等地だから資産価値が下がりにくいのもポイントです。</p>
-                            </div>
-                            <p>「都心のリノベーションマンション」で、心地よい暮らしを始めてみませんか。</p>
+                        <div class="basic_list">
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_basic_1.jpg" alt="magazine_basic_1" class="img-fluid item-img">
+                                <h3 class="item_title">マンションなのに見どころは「屋外」!? やたら庭の広い恵比寿の物件とは</h3>
+                                <p href="#" class="item_descripton">リノベーション基礎知識</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_basic_2.jpg" alt="magazine_basic_2" class="img-fluid item-img">
+                                <h3 class="item_title">マンションと戸建のいいとこ取り。人気の「メゾネットリノベ物件」をチェック</h3>
+                                <p href="#" class="item_descripton">リノベーション基礎知識</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_basic_3.jpg" alt="magazine_basic_3" class="img-fluid item-img">
+                                <h3 class="item_title">キッチン・台所のリフォーム費用の相場はどのくらい？工事費の内訳や安く抑えるコツも紹介</h3>
+                                <p href="#" class="item_descripton">リノベーション基礎知識</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_basic_4.jpg" alt="magazine_basic_4" class="img-fluid item-img">
+                                <h3 class="item_title">壁紙・クロスの張替え費用の相場｜一軒家・マンション・部屋別に紹介</h3>
+                                <p href="#" class="item_descripton">リノベーション基礎知識</p>
+                            </a>
                         </div>
                         <a href="#" class="btn">
-                            <span class="i-search-w">物件を探す</span>
+                            <span>もっと物件を見る</span>
                         </a>
                     </div>
                 </div>
             </div>
-            </div>
         </section>
 
-        <section class="section_point">
-            <div class="base-line">
-                <p>「都心のリノベーションマンション」</p>
-                <p>おすすめポイント</p>
-            </div>
+        <section class="section_magazine_lifestyle">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12">
-                        <div class="point-item">
-                            <div class="col-12 col-lg-6">
-                                <img src="images/point_img_1.jpg" alt="point_img_1" class="img-fluid item-img">
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
-                                    <div class="item-description-details">
-                                        <h3 class="details-title">好みの立地を選べる</h3>
-                                        <div class="details-text">
-                                            <p>いい立地にはすでにマンションが建っています。</p>
-                                            <p>中古マンションまで視野を広げれば、選択肢は格段に広がります。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="basic_header">
+                            <h2 class="basic_title">ライフスタイル・リノベーション</h2>
+                            <p class="basic_description">ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文が入ります。</p>
                         </div>
-
-                        <div class="point-item">
-                            <div class="d-lg-none col-12">
-                                <img src="images/point_img_2.jpg" alt="point_img_2" class="img-fluid item-img">
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
-                                    <div class="item-description-details">
-                                        <h3 class="details-title">資産価値が下がりにくい</h3>
-                                        <div class="details-text">
-                                            <p>駅近で住環境もいい物件は人気。</p>
-                                            <p>都心の一等地だから、今後も資産価値が下がりにくいというメリットもあります。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-none d-xl-block d-lg-block col-12 col-lg-6">
-                                <img src="images/point_img_2.jpg" alt="point_img_2" class="img-fluid item-img">
-                            </div>
-                        </div>
-
-                        <div class="point-item">
-                            <div class="col-12 col-lg-6">
-                                <img src="images/point_img_3.jpg" alt="point_img_3" class="img-fluid item-img">
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
-                                    <div class="item-description-details">
-                                        <h3 class="details-title">快適な室内空間に再設計</h3>
-                                        <div class="details-text">
-                                            <p>室内は見えないところを含めてリノベーション。</p>
-                                            <p>現代のライフスタイルにマッチした住まいが見つかります。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="basic_list">
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_lifestyle_1.jpg" alt="magazine_lifestyle_1" class="img-fluid item-img">
+                                <h3 class="item_title">【人気の世田谷エリア】100平米超の上質リノベ物件</h3>
+                                <p href="#" class="item_descripton">ライフスタイル・リノベーション</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_lifestyle_2.jpg" alt="magazine_lifestyle_2" class="img-fluid item-img">
+                                <h3 class="item_title">【港区・渋谷区】100平米超の大型リノベ物件</h3>
+                                <p href="#" class="item_descripton">ライフスタイル・リノベーション</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_lifestyle_3.jpg" alt="magazine_lifestyle_3" class="img-fluid item-img">
+                                <h3 class="item_title">【今なら空き有り！】敷地内駐車場のある都心マンション</h3>
+                                <p href="#" class="item_descripton">ライフスタイル・リノベーション</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_lifestyle_4.jpg" alt="magazine_lifestyle_4" class="img-fluid item-img">
+                                <h3 class="item_title">都心の穴場「乃木坂」周辺の上質物件コレクション</h3>
+                                <p href="#" class="item_descripton">ライフスタイル・リノベーション</p>
+                            </a>
                         </div>
                         <a href="#" class="btn">
-                            <span>物件探しを依頼（無料）</span>
+                            <span>もっと物件を見る</span>
                         </a>
                     </div>
                 </div>
             </div>
-            </div>
         </section>
 
-        <section class="section_renovation">
-            <div class="base-line">
-                <p>LogRenoveが提案する</p>
-                <p>リノベーション物件</p>
-            </div>
+        <section class="section_magazine_realestate">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12">
-                        <div class="point-item">
-                            <div class="d-lg-none col-12">
-                                <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
-                                    <div class="item-description-details">
-                                        <h3 class="details-title">都心での心地よい暮らし</h3>
-                                        <div class="details-text">
-                                            <p>最寄り駅が同じでも、エリアによって街の雰囲気は大きく変わります。</p>
-                                            <p>長年、都心の物件を手掛けている私たちだから分かる、心地よい暮らしを提案いたします。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-none d-xl-block d-lg-block col-12 col-lg-6">
-                                <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
-                            </div>
+                        <div class="basic_header">
+                            <h2 class="basic_title">不動産の基礎知識</h2>
+                            <p class="basic_description">ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文が入ります。</p>
                         </div>
-
-                        <div class="point-item">
-                            <div class="col-12 col-lg-6">
-                                <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img">
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
-                                    <div class="item-description-details">
-                                        <h3 class="details-title">上質なデザイン、設備</h3>
-                                        <div class="details-text">
-                                            <p>私たちは、天然木を使った「リノベーション施工」を1500件以上行ってきました。だからこそ、リノベ物件への視線は自ずと厳しくなります。</p>
-                                            <p>そんな私たちの審美眼にかなった物件だけを紹介しています。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="basic_list">
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_realestate_1.jpg" alt="magazine_realestate_1" class="img-fluid item-img">
+                                <h3 class="item_title">不動産売却の方法｜失敗せずに家や土地を売るために知っておきたい基礎知識</h3>
+                                <p href="#" class="item_descripton">マンション売却</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_realestate_2.jpg" alt="magazine_realestate_2" class="img-fluid item-img">
+                                <h3 class="item_title">マンション売却の流れと相場｜失敗しないための注意点や高く売るコツを紹介</h3>
+                                <p href="#" class="item_descripton">マンション売却</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_realestate_3.jpg" alt="magazine_realestate_3" class="img-fluid item-img">
+                                <h3 class="item_title">不動産査定の方法｜家を売却するために必要な査定の流れや算出方法を紹介</h3>
+                                <p href="#" class="item_descripton">マンション売却</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_realestate_4.jpg" alt="magazine_realestate_4" class="img-fluid item-img">
+                                <h3 class="item_title">マンション査定の方法｜損しないために知っておくべきポイントも紹介</h3>
+                                <p href="#" class="item_descripton">マンション売却</p>
+                            </a>
                         </div>
+                        <a href="#" class="btn">
+                            <span>もっと物件を見る</span>
+                        </a>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="section_magazine_house">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="basic_header">
+                            <h2 class="basic_title">住まいの基礎知識</h2>
+                            <p class="basic_description">ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文ここにはリノベーションや不動産購入に関する知識を説明する記事があるよの説明文が入ります。</p>
+                        </div>
+                        <div class="basic_list">
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_house_1.jpg" alt="magazine_house_1" class="img-fluid item-img">
+                                <h3 class="item_title">玄関チャイムの交換方法｜チャイムの仕組みと故障時の対応、設置工事の費用相場を解説</h3>
+                                <p href="#" class="item_descripton">インテリア</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_house_2.jpg" alt="magazine_house_2" class="img-fluid item-img">
+                                <h3 class="item_title">古民家インテリア｜リビングやキッチン、玄関のおしゃれ事例と取り入れポイントを解説</h3>
+                                <p href="#" class="item_descripton">インテリア</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_house_3.jpg" alt="magazine_house_3" class="img-fluid item-img">
+                                <h3 class="item_title">長風呂好きにおすすめのバスタブトレー。種類や選び方を紹介</h3>
+                                <p href="#" class="item_descripton">インテリア</p>
+                            </a>
+                            <a href="#" class="basic_item">
+                                <img src="images/magazine_house_4.jpg" alt="magazine_house_4" class="img-fluid item-img">
+                                <h3 class="item_title">モテるメンズのおしゃれ部屋はこれでキマる【男の一人暮らし】</h3>
+                                <p href="#" class="item_descripton">インテリア</p>
+                            </a>
+                        </div>
+                        <a href="#" class="btn">
+                            <span>もっと物件を見る</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
-
-        <section class="section_list_templates">
+        <section class="section_list_templates pt-0">
             <div class="base-line">
                 <p>新着リノベーション物件</p>
             </div>
@@ -347,7 +353,6 @@
                 </div>
             </div>
         </section>
-
 
         <section class="section_contact">
             <div class="container">
