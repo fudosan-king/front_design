@@ -46,6 +46,27 @@
 
 </header>
 
+<div class="main_nav">
+  <div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" href="https://www.logrenove.jp/estates/" target=""
+          ><span>リノベ物件を探す</span></a
+        >
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" href="https://www.logrenove.jp/mansions/" target=""
+          ><span>マンションを探す</span></a
+        >
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" href="https://www.logrenove.jp/about/" target=""
+          ><span>ログリノベについて</span></a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
 
 <!-- Modal -->
 <div class="modal fade modal_search" id="modal_search" tabindex="-1" aria-labelledby="modal_search" aria-hidden="true">
