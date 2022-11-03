@@ -1059,23 +1059,6 @@ header .navbar {
   }
 }
 
-@media (max-width: 768px) {
-  .main_nav .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .main_nav .nav-tabs li {
-    text-align: center;
-    flex: 1 1 auto;
-  }
-
-  .main_nav .nav-tabs li a.nav-link {
-    padding: 10px 5px;
-    font-size: 0.75em;
-  }
-}
-
 @media (max-width: 820px) {
   .main_nav {
     margin-top: 0px !important;
@@ -1087,6 +1070,7 @@ header .navbar {
 .section_banner .banner_description {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   left: 0px;
   right: 0px;
   margin: 0px auto;
@@ -1184,6 +1168,7 @@ header .navbar {
 .point-item {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .item-description {
@@ -1251,4 +1236,80 @@ header .navbar {
 
 .section_contact .btn {
   background: transparent;
+}
+
+@media (max-width: 768px) {
+  .main_nav .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main_nav .nav-tabs li {
+    text-align: center;
+    flex: 1 1 auto;
+  }
+
+  .main_nav .nav-tabs li a.nav-link {
+    padding: 10px 5px;
+    font-size: 0.75em;
+  }
+
+  .section_banner .banner_description {
+    font-size: 28px;
+    line-height: 140%;
+  }
+
+  .section_description .description_header {
+    font-size: 30px;
+    line-height: 140%;
+  }
+
+  .base-line {
+    padding: 10px 0px;
+  }
+
+  .base-line p {
+    font-size: 20px;
+  }
+
+  .item-description-details {
+    padding: 0px 18px 0 40px;
+  }
+
+  .details-title {
+    font-size: 22px;
+  }
+
+  .section_contact .contact-item {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 428px) {
+  .section_description .btn,
+  .section_point .btn,
+  .section_list_templates .btn {
+    width: auto;
+    height: auto;
+  }
+
+  .point-item {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0;
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 429px) and (max-width: 1023px) {
+  .point-item {
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .item-description-details {
+    padding: 0px 18px 0 40px;
+  }
 }

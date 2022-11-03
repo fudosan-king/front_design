@@ -16,12 +16,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12">
-                        <h2 class="description_header">住みたい街で心地よい暮らしを。</h2>
+                        <div class="d-block d-sm-none">
+                            <h2 class="description_header">住みたい街で<br />心地よい暮らしを。</h2>
+                        </div>
+                        <div class="d-none d-sm-block">
+                            <h2 class="description_header">住みたい街で心地よい暮らしを。</h2>
+                        </div>
                         <div class="description_details">
                             <p>あなたは、どんな住まいを探していますか？</p>
-                            <p>私たちが提案するのは「都心の上質なリノベーションマンション」です。</p>
-                            <p>都心ならではの利便性、優れた住環境を持った一室を、センスあふれるデザイン、機能的な間取りに仕上げた住まい。</p>
-                            <p>都心の一等地だから資産価値が下がりにくいのもポイントです。</p>
+                            <div class="d-block d-sm-none">
+                                <p>私たちが提案するのは「都心の上質なリノベーションマンション」です。都心ならではの利便性、優れた住環境を持った一室を、センスあふれるデザイン、機能的な間取りに仕上げた住まい。都心の一等地だから資産価値が下がりにくいのもポイントです。</p>
+                            </div>
+                            <div class="d-none d-sm-block">
+                                <p>私たちが提案するのは「都心の上質なリノベーションマンション」です。</p>
+                                <p>都心ならではの利便性、優れた住環境を持った一室を、センスあふれるデザイン、機能的な間取りに仕上げた住まい。</p>
+                                <p>都心の一等地だから資産価値が下がりにくいのもポイントです。</p>
+                            </div>
                             <p>「都心のリノベーションマンション」で、心地よい暮らしを始めてみませんか。</p>
                         </div>
                         <a href="#" class="btn">
@@ -29,6 +39,7 @@
                         </a>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -59,6 +70,9 @@
                         </div>
 
                         <div class="point-item">
+                            <div class="d-lg-none col-12">
+                                <img src="images/point_img_2.jpg" alt="point_img_2" class="img-fluid item-img">
+                            </div>
                             <div class="col-12 col-lg-6">
                                 <div class="item-description">
                                     <img src="images/point.png" alt="point" class="img-fluid description-img">
@@ -71,7 +85,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="d-none d-xl-block d-lg-block col-12 col-lg-6">
                                 <img src="images/point_img_2.jpg" alt="point_img_2" class="img-fluid item-img">
                             </div>
                         </div>
@@ -111,6 +125,9 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <div class="point-item">
+                            <div class="d-lg-none col-12">
+                                <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
+                            </div>
                             <div class="col-12 col-lg-6">
                                 <div class="item-description">
                                     <img src="images/point.png" alt="point" class="img-fluid description-img">
@@ -123,7 +140,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="d-none d-xl-block d-lg-block col-12 col-lg-6">
                                 <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
                             </div>
                         </div>
