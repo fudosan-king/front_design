@@ -51,12 +51,12 @@
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <a class="nav-link" href="https://www.logrenove.jp/estates/" target=""
-          ><span>リノベ物件を探す</span></a
+          ><span>物件一覧</span></a
         >
       </li>
       <li class="nav-item" role="presentation">
         <a class="nav-link" href="https://www.logrenove.jp/mansions/" target=""
-          ><span>マンションを探す</span></a
+          ><span>マンション一覧</span></a
         >
       </li>
       <li class="nav-item" role="presentation">

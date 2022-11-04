@@ -177,7 +177,7 @@
 
         <section class="section_list_templates pt-0">
             <div class="base-line">
-                <p>新着リノベーション物件</p>
+                <p>新着物件</p>
             </div>
             <div class="container">
                 <div class="row">
@@ -378,7 +378,7 @@
         </section>
 
         <section class="section_searchconditions">
-            <div class="container">
+            <div class="container container_full">
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <div class="box_conditions">
