@@ -196,8 +196,8 @@
                                         <span class="label_new">NEW</span>
                                     </div>
                                     <div class="box_body">
-                                        <h3>キャピタルマークタワー2721号室</h3>
-                                        <p class="prices">7,280万円<span>価格改定</span></p>
+                                        <h3>神宮前コーポラス 310号室</h3>
+                                        <p class="prices">12,000万円<span>価格改定</span></p>
                                         <h4>東京都港区芝浦 4-10-1</h4>
                                         <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
                                         <ul class="statistical">
