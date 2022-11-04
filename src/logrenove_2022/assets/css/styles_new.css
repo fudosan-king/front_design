@@ -1607,6 +1607,7 @@ header .navbar {
 @media (max-width: 767px) {
   .basic_item {
     width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -1662,6 +1663,13 @@ header .navbar {
   .section_magazine_realestate,
   .section_magazine_house {
     padding-top: 55px;
+  }
+
+  .section_magazine_basic .btn,
+  .section_magazine_lifestyle .btn,
+  .section_magazine_realestate .btn,
+  .section_magazine_house .btn {
+    margin-top: 10px;
   }
 
   .point-item {
