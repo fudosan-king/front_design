@@ -1848,3 +1848,56 @@ footer {
     }
   }
 }
+
+.box_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.load-more-container {
+  text-align: center;
+  .box_gallery {
+    a {
+      &:nth-child(1n + 7) {
+        max-height: 0;
+        opacity: 0;
+        transition: 0.1s ease-in;
+      }
+    }
+  }
+  .load-more-btn {
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+    background: #1ca8cc;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.125em;
+    padding: 15px 60px;
+    position: relative;
+    &:hover {
+      background: #333;
+    }
+    .loaded {
+      display: none;
+    }
+  }
+  #load-more {
+    display: none;
+  }
+}
+
+.load-more-container #load-more:checked ~ .box_gallery a:nth-child(1n + 5) {
+  max-height: 999px;
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+.load-more-container #load-more:checked ~ .load-more-btn .loaded {
+  display: block;
+}
+.load-more-container #load-more:checked ~ .load-more-btn {
+  display: none;
+}
