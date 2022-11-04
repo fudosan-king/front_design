@@ -1258,6 +1258,7 @@ header .navbar {
 
 .item-description-details {
   padding: 0 0px 70px 49px;
+  text-align: justify;
 }
 
 .details-title {
@@ -1324,6 +1325,8 @@ header .navbar {
   color: #8c7d5e;
 }
 
+.section_point .btn span,
+.section_list_templates .btn span,
 .section_magazine_basic .btn span,
 .section_magazine_lifestyle .btn span,
 .section_magazine_realestate .btn span,
@@ -1332,6 +1335,11 @@ header .navbar {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
+}
+
+.section_point .btn span,
+.section_list_templates .btn span {
+  line-height: 160%;
 }
 
 .section_contact {
@@ -1456,6 +1464,10 @@ header .navbar {
 
   .item-description-details {
     padding: 0px 18px 0 40px;
+  }
+
+  .section_renovation .item-description-details {
+    padding: 0;
   }
 }
 
@@ -1615,6 +1627,25 @@ header .navbar {
 }
 
 @media (max-width: 428px) {
+  .section_description .btn {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .section_description .btn span {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+  }
+
+  .i-search-w:before {
+    left: 30%;
+  }
+
   .section_description .btn,
   .section_point .btn,
   .section_list_templates .btn,
@@ -1675,5 +1706,72 @@ header .navbar {
 
   .item_descripton {
     margin-bottom: 15px;
+  }
+
+  .item-description-details {
+    padding: 0px 0px 0 27px;
+  }
+
+  .section_renovation {
+    padding: 30px 0 62px;
+  }
+
+  .section_renovation .item-description-details {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .point-item {
+    height: auto;
+  }
+
+  .section_point .point-item:nth-child(odd) > div:nth-child(3) {
+    display: none !important;
+  }
+
+  .section_point .point-item:nth-child(even) > div:nth-child(1) {
+    display: block !important;
+  }
+
+  .section_point .point-item:nth-child(even) > div:nth-child(3) {
+    display: none !important;
+  }
+
+  .section_renovation .point-item:nth-child(odd) > div:nth-child(3) {
+    display: none !important;
+  }
+
+  .section_renovation .point-item:nth-child(odd) > div:nth-child(1) {
+    display: block !important;
+  }
+
+  .section_renovation .point-item:nth-child(even) > div:nth-child(3) {
+    display: none !important;
+  }
+
+  .section_point .point-item > div:nth-of-type(1) {
+    margin-right: 0;
+  }
+
+  .section_point .point-item > div:nth-of-type(3) {
+    margin-left: 0;
+  }
+
+  .section_renovation .point-item > div:nth-of-type(3) {
+    margin-left: 0;
+  }
+
+  .section_renovation .point-item > div:nth-of-type(1) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_point .point-item > div:nth-child(odd),
+  .section_point .point-item > div:nth-child(2),
+  .section_renovation .point-item > div:nth-child(odd),
+  .section_renovation .point-item > div:nth-child(2) {
+    max-width: 335px;
   }
 }

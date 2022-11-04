@@ -96,7 +96,7 @@
 
                         <div class="point-item">
                             <div class="col-12">
-                                <img src="images/point_img_1.jpg" alt="point_img_1" class="img-fluid item-img">
+                                <img src="images/point_img_3.jpg" alt="point_img_3" class="img-fluid item-img">
                             </div>
                             <div class="col-12">
                                 <div class="item-description">
@@ -111,7 +111,7 @@
                                 </div>
                             </div>
                             <div class="d-none d-xl-block d-lg-block col-12">
-                                <img src="images/point_img_1.jpg" alt="point_img_1" class="img-fluid item-img">
+                                <img src="images/point_img_3.jpg" alt="point_img_3" class="img-fluid item-img">
                             </div>
                         </div>
 
@@ -139,7 +139,6 @@
                             </div>
                             <div class="col-12">
                                 <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
                                         <h3 class="details-title">都心での心地よい暮らし</h3>
                                         <div class="details-text">
@@ -156,11 +155,10 @@
 
                         <div class="point-item">
                             <div class="col-12">
-                                <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
+                                <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img">
                             </div>
                             <div class="col-12">
                                 <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
                                         <h3 class="details-title">上質なデザイン、設備</h3>
                                         <div class="details-text">
@@ -171,7 +169,7 @@
                                 </div>
                             </div>
                             <div class="d-none d-xl-block d-lg-block col-12">
-                                <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
+                                <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img">
                             </div>
                         </div>
 
