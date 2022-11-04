@@ -64,6 +64,16 @@
           ><span>ログリノベについて</span></a
         >
       </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" href="https://www.logrenove.jp/magazine/" target=""
+          ><span>マガジン</span></a
+        >
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" href="#" target=""
+          ><span>家探しを相談</span></a
+        >
+      </li>
     </ul>
   </div>
 </div>
