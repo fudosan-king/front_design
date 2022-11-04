@@ -141,7 +141,7 @@
                                                 </a>
                                             </div>
                                             <label class="load-more-btn btn" for="load-more">
-                                                <span class="unloaded">もっとみる</span>
+                                                <span class="unloaded">もっと見る</span>
                                                 <!-- <span class="loaded">表示を減らす</span> -->
                                             </label>
                                         </div>
