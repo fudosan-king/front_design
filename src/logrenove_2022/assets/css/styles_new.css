@@ -866,6 +866,10 @@ header .navbar {
   height: 500px;
 }
 
+.section_banner img {
+  height: 500px;
+}
+
 @media (max-width: 820px) {
   header .navbar {
     position: relative;
@@ -996,7 +1000,6 @@ header .navbar {
 }
 
 .main_nav {
-  margin-bottom: 2px;
   background: #8c7d5e;
   position: relative;
   margin-top: 90px;
@@ -1022,14 +1025,22 @@ header .navbar {
 }
 
 .main_nav .nav-tabs li a.nav-link {
-  font-size: 0.875em;
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
   color: #fff;
   border-radius: 0;
   border: none;
-  padding: 12px 30px;
+  padding: 5.5px 30px;
   position: relative;
   z-index: 2;
   transition: padding 0.2s ease, margin 0.2s ease;
+  min-width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main_nav .nav-tabs li a.nav-link.active {
