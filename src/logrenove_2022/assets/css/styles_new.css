@@ -861,11 +861,17 @@ header .navbar {
   width: 100%;
 }
 
+.section_banner {
+  position: relative;
+  height: 500px;
+}
+
 @media (max-width: 820px) {
   header .navbar {
     position: relative;
   }
 }
+
 @media (max-width: 768px) {
   .section_banner {
     margin-top: 0;
@@ -1064,9 +1070,7 @@ header .navbar {
     margin-top: 0px !important;
   }
 }
-.section_banner {
-  position: relative;
-}
+
 .section_banner .banner_description {
   position: absolute;
   top: 50%;
@@ -1080,9 +1084,12 @@ header .navbar {
   line-height: 160%;
   letter-spacing: 0.05em;
   color: #ffffff;
+  font-family: "Noto Serif JP";
+  font-style: normal;
 }
 
 .section_description {
+  padding-bottom: 30px;
 }
 
 .section_description .description_header {
@@ -1092,6 +1099,7 @@ header .navbar {
   text-align: center;
   letter-spacing: 0.05em;
   color: #8c7d5e;
+  margin-bottom: 30px;
 }
 
 .section_description .description_details {
@@ -1100,6 +1108,19 @@ header .navbar {
   line-height: 188%;
   text-align: center;
   color: #000000;
+  margin-bottom: 30px;
+}
+
+.section_description .description_details p {
+  margin-bottom: 0px;
+}
+
+.section_description .description_details > p:nth-of-type(1) {
+  margin-bottom: 30px;
+}
+
+.section_description .description_details > p:nth-of-type(2) {
+  margin-top: 30px;
 }
 
 .section_description .btn {
@@ -1144,13 +1165,21 @@ header .navbar {
 .section_point {
 }
 
+.section_renovation {
+  padding: 40px 0 70px;
+}
+
+.section_point .container,
+.section_renovation .container {
+  max-width: 958px;
+}
+
 .base-line {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 25px 242px;
-  gap: 10px;
   background: #8c7d5e;
   margin-bottom: 60px;
 }
@@ -1168,7 +1197,57 @@ header .navbar {
 .point-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+  height: 344px;
+}
+
+.section_point .point-item > div:nth-child(odd) {
+  max-width: 540px;
+}
+
+.section_point .point-item:nth-child(odd) > div:nth-child(3) {
+  display: none !important;
+}
+
+.section_point .point-item:nth-child(even) > div:nth-child(1) {
+  display: none !important;
+}
+
+.section_point .point-item > div:nth-child(2) {
+  max-width: 396px;
+}
+
+.section_point .point-item > div:nth-of-type(1) {
+  margin-right: 22px;
+}
+
+.section_point .point-item > div:nth-of-type(3) {
+  margin-left: 22px;
+}
+
+.section_renovation .point-item > div:nth-child(odd) {
+  width: 540px;
+}
+
+.section_renovation .point-item:nth-child(odd) > div:nth-child(1) {
+  display: none !important;
+}
+
+.section_renovation .point-item:nth-child(even) > div:nth-child(3) {
+  display: none !important;
+}
+
+.section_renovation .point-item > div:nth-child(2) {
+  width: 396px;
+}
+
+.section_renovation .point-item > div:nth-of-type(3) {
+  margin-left: 22px;
+}
+
+.section_renovation .point-item > div:nth-of-type(1) {
+  margin-right: 22px;
 }
 
 .item-description {
@@ -1178,7 +1257,8 @@ header .navbar {
 }
 
 .item-description-details {
-  padding: 0 106px 70px;
+  padding: 0 0px 70px 49px;
+  text-align: justify;
 }
 
 .details-title {
@@ -1199,6 +1279,21 @@ header .navbar {
 
 .details-text p {
   margin: 0;
+}
+
+.section_magazine_basic,
+.section_magazine_lifestyle,
+.section_magazine_realestate,
+.section_magazine_house {
+  padding: 75px 0 50px;
+}
+
+.section_magazine_description .container,
+.section_magazine_basic .container,
+.section_magazine_lifestyle .container,
+.section_magazine_realestate .container,
+.section_magazine_house .container {
+  max-width: 1140px;
 }
 
 .section_point .btn,
@@ -1230,16 +1325,76 @@ header .navbar {
   color: #8c7d5e;
 }
 
+.section_point .btn span,
+.section_list_templates .btn span,
+.section_magazine_basic .btn span,
+.section_magazine_lifestyle .btn span,
+.section_magazine_realestate .btn span,
+.section_magazine_house .btn span {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section_point .btn span,
+.section_list_templates .btn span {
+  line-height: 160%;
+}
+
 .section_contact {
+  padding: 38px 0 100px;
+}
+
+.contact-list {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  flex-wrap: wrap;
 }
 
 .section_contact .contact-item {
+  width: 445px;
+  height: 120px;
+  position: relative;
+  border-radius: 4px;
+  background: #8c7d5e;
+}
+
+.section_contact .contact-item a {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 4px;
+  z-index: 1;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+}
+
+.section_contact .contact-item p {
+  flex: 1;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  margin: 0 0 0 20px;
+  color: #ffffff;
+}
+
+.section_contact .contact-item .btn img:nth-of-type(1) {
+  width: 120px;
+}
+
+.section_contact .contact-item .btn img:nth-of-type(2) {
+  margin: 0 20px;
+  width: 24px;
 }
 
 .section_contact .btn {
@@ -1248,7 +1403,7 @@ header .navbar {
 
 .three_dot {
   text-align: center;
-  margin: 15px 0px;
+  margin: 0 0 15px;
 }
 
 @media (max-width: 768px) {
@@ -1279,6 +1434,7 @@ header .navbar {
 
   .base-line {
     padding: 10px 0px;
+    margin-bottom: 30px;
   }
 
   .base-line p {
@@ -1298,7 +1454,199 @@ header .navbar {
   }
 }
 
+@media (min-width: 429px) and (max-width: 1023px) {
+  .point-item {
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .item-description-details {
+    padding: 0px 18px 0 40px;
+  }
+
+  .section_renovation .item-description-details {
+    padding: 0;
+  }
+}
+
+.section_magazine_description {
+  background: #f6f6f6;
+  height: 201px;
+  padding: 60px 0 54px;
+}
+
+.section_magazine_description .details {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 180%;
+  color: #000000;
+  padding: 0 106px;
+  margin-bottom: 0;
+}
+
+.section_magazine_basic {
+}
+
+.basic_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic_title {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #8c7d5e;
+  margin-bottom: 25px;
+}
+
+.basic_description {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #000000;
+  padding: 0 100px;
+  margin-bottom: 50px;
+}
+
+.basic_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1100px;
+}
+
+.basic_item {
+  display: block;
+  text-decoration: none;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.basic_item img {
+  object-fit: cover;
+}
+
+.item_title {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424242;
+  min-height: 80px;
+  margin: 11px 0 5px;
+}
+
+.item_descripton {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #8c7d5e;
+  text-decoration: none;
+}
+
+.section_magazine_lifestyle,
+.section_magazine_house {
+  background: #f6f6f6;
+}
+
+.section_magazine_lifestyle .item_title {
+  min-height: 52px;
+}
+
+@media (max-width: 1280px) {
+  .basic_list {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_nav {
+    display: none;
+  }
+
+  .section_magazine_description {
+    padding: 30px 20px;
+    height: auto;
+  }
+
+  .section_magazine_description .details {
+    padding: 0;
+  }
+
+  .basic_description {
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .section_magazine_lifestyle .item_title,
+  .item_title {
+    min-height: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .basic_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .basic_item {
+    width: 48%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1028px) {
+  .section_magazine_description {
+    padding: 30px 20px;
+  }
+
+  .basic_description {
+    padding: 0 20px;
+  }
+}
+
 @media (max-width: 428px) {
+  .section_description .btn {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .section_description .btn span {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+  }
+
+  .i-search-w:before {
+    left: 30%;
+  }
+
   .section_description .btn,
   .section_point .btn,
   .section_list_templates .btn,
@@ -1308,6 +1656,20 @@ header .navbar {
   .section_magazine_house .btn {
     width: auto;
     height: auto;
+  }
+
+  .section_magazine_basic,
+  .section_magazine_lifestyle,
+  .section_magazine_realestate,
+  .section_magazine_house {
+    padding-top: 55px;
+  }
+
+  .section_magazine_basic .btn,
+  .section_magazine_lifestyle .btn,
+  .section_magazine_realestate .btn,
+  .section_magazine_house .btn {
+    margin-top: 10px;
   }
 
   .point-item {
@@ -1325,132 +1687,99 @@ header .navbar {
   .section_list_templates .list_content li:nth-of-type(4n) {
     margin-right: 0;
   }
-}
 
-@media (min-width: 429px) and (max-width: 1023px) {
-  .point-item {
-    flex-wrap: wrap;
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+  .section_contact {
+    padding: 25px 0 60px;
+    margin-bottom: 0;
+  }
+
+  .section_contact .contact-item {
+    height: 80px;
+  }
+
+  .section_contact .contact-item .btn img:nth-of-type(1) {
+    width: 80px;
+  }
+
+  .section_contact .contact-item p {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 0 10px;
+  }
+
+  .section_contact .contact-item .btn img:nth-of-type(2) {
+    margin: 0 15px 0 10px;
+    width: 15px;
+  }
+
+  .item_descripton {
+    margin-bottom: 15px;
   }
 
   .item-description-details {
-    padding: 0px 18px 0 40px;
+    padding: 0px 0px 0 27px;
+  }
+
+  .section_renovation {
+    padding: 30px 0 62px;
+  }
+
+  .section_renovation .item-description-details {
+    padding-left: 0px;
   }
 }
 
-.section_magazine_description {
-  background: #f6f6f6;
-  padding: 60px 220px;
-}
-.section_magazine_description .details {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 180%;
-  color: #000000;
-  margin-bottom: 0;
-}
+@media (max-width: 1024px) {
+  .point-item {
+    height: auto;
+  }
 
-.section_magazine_basic {
-}
+  .section_point .point-item:nth-child(odd) > div:nth-child(3) {
+    display: none !important;
+  }
 
-.basic_header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .section_point .point-item:nth-child(even) > div:nth-child(1) {
+    display: block !important;
+  }
 
-.basic_title {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 160%;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #8c7d5e;
-}
+  .section_point .point-item:nth-child(even) > div:nth-child(3) {
+    display: none !important;
+  }
 
-.basic_description {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 180%;
-  color: #000000;
-  padding: 0 100px;
-  margin-bottom: 50px;
-}
+  .section_renovation .point-item:nth-child(odd) > div:nth-child(3) {
+    display: none !important;
+  }
 
-.basic_list {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 30px;
-}
+  .section_renovation .point-item:nth-child(odd) > div:nth-child(1) {
+    display: block !important;
+  }
 
-.basic_item {
-  display: block;
-  text-decoration: none;
-  width: 260px;
-  display: flex;
-  flex-direction: column;
-}
+  .section_renovation .point-item:nth-child(even) > div:nth-child(3) {
+    display: none !important;
+  }
 
-.item_title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 160%;
-  color: #424242;
-}
+  .section_point .point-item > div:nth-of-type(1) {
+    margin-right: 0;
+  }
 
-.item_descripton {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 140%;
-  display: flex;
-  align-items: center;
-  color: #8c7d5e;
-  text-decoration: none;
-}
+  .section_point .point-item > div:nth-of-type(3) {
+    margin-left: 0;
+  }
 
-.section_magazine_lifestyle,
-.section_magazine_house {
-  background: #f6f6f6;
-}
+  .section_renovation .point-item > div:nth-of-type(3) {
+    margin-left: 0;
+  }
 
-@media (max-width: 1280px) {
-  .basic_list {
-    flex-wrap: wrap;
+  .section_renovation .point-item > div:nth-of-type(1) {
+    margin-right: 0;
   }
 }
 
 @media (max-width: 768px) {
-  .section_magazine_description {
-    padding: 30px 20px;
-  }
-
-  .basic_description {
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  .basic_item {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1280px) {
-  .basic_item {
-    width: 48%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1028px) {
-  .section_magazine_description {
-    padding: 30px 20px;
-  }
-
-  .basic_description {
-    padding: 0 20px;
+  .section_point .point-item > div:nth-child(odd),
+  .section_point .point-item > div:nth-child(2),
+  .section_renovation .point-item > div:nth-child(odd),
+  .section_renovation .point-item > div:nth-child(2) {
+    max-width: 335px;
   }
 }

@@ -51,11 +51,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12">
+
                         <div class="point-item">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <img src="images/point_img_1.jpg" alt="point_img_1" class="img-fluid item-img">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <div class="item-description">
                                     <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
@@ -67,13 +68,16 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-none d-xl-block d-lg-block col-12">
+                                <img src="images/point_img_1.jpg" alt="point_img_1" class="img-fluid item-img">
+                            </div>
                         </div>
 
                         <div class="point-item">
-                            <div class="d-lg-none col-12">
+                            <div class="col-12">
                                 <img src="images/point_img_2.jpg" alt="point_img_2" class="img-fluid item-img">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <div class="item-description">
                                     <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
@@ -85,16 +89,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-none d-xl-block d-lg-block col-12 col-lg-6">
+                            <div class="d-none d-xl-block d-lg-block col-12">
                                 <img src="images/point_img_2.jpg" alt="point_img_2" class="img-fluid item-img">
                             </div>
                         </div>
 
                         <div class="point-item">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <img src="images/point_img_3.jpg" alt="point_img_3" class="img-fluid item-img">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <div class="item-description">
                                     <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
@@ -106,7 +110,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-none d-xl-block d-lg-block col-12">
+                                <img src="images/point_img_3.jpg" alt="point_img_3" class="img-fluid item-img">
+                            </div>
                         </div>
+
                         <a href="#" class="btn">
                             <span>物件探しを依頼（無料）</span>
                         </a>
@@ -123,14 +131,14 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
+                    <div class="col-12">
+
                         <div class="point-item">
-                            <div class="d-lg-none col-12">
+                            <div class="col-12">
                                 <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
                                         <h3 class="details-title">都心での心地よい暮らし</h3>
                                         <div class="details-text">
@@ -140,18 +148,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-none d-xl-block d-lg-block col-12 col-lg-6">
+                            <div class="d-none d-xl-block d-lg-block col-12">
                                 <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
                             </div>
                         </div>
 
                         <div class="point-item">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img">
                             </div>
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12">
                                 <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
                                         <h3 class="details-title">上質なデザイン、設備</h3>
                                         <div class="details-text">
@@ -161,7 +168,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-none d-xl-block d-lg-block col-12">
+                                <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img">
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -169,7 +180,7 @@
         </section>
 
 
-        <section class="section_list_templates">
+        <section class="section_list_templates pt-0">
             <div class="base-line">
                 <p>新着リノベーション物件</p>
             </div>
@@ -348,17 +359,22 @@
             </div>
         </section>
 
-
         <section class="section_contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
+                    <div class="col-12 col-lg-12 contact-list">
                         <div class="contact-item">
                             <a href="#" class="btn">
-                                <img src="images/contact_img_1.jpg" alt="contact_img_1" class="img-fluid">
+                                <img src="images/contact_1.jpg" alt="contact_1" class="img-fluid">
+                                <p>新着物件メールに登録する</p>
+                                <img src="images/arrow-right.svg" alt="arrow-right.svg" class="img-fluid">
                             </a>
+                        </div>
+                        <div class="contact-item">
                             <a href="#" class="btn">
-                                <img src="images/contact_img_2.jpg" alt="contact_img_2" class="img-fluid">
+                                <img src="images/contact_2.jpg" alt="contact_2" class="img-fluid">
+                                <p>家探しの相談をする</p>
+                                <img src="images/arrow-right.svg" alt="arrow-right.svg" class="img-fluid">
                             </a>
                         </div>
                     </div>
