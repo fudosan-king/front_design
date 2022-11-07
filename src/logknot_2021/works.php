@@ -24,7 +24,7 @@
                                 
                                 <div class="box_works_content">
                                     <h2 class="title mb-5">360度パース画像</h2>
-                                    <a href="https://t4.ftcdn.net/jpg/05/38/82/79/240_F_538827931_lB2eE3EcP7z0ZzOxWV0gm24l36wdWWst.jpg" class="card"  data-fancybox="360degree" data-caption="<b>戸建住宅</b> <br /> 外観パース">
+                                    <!-- <a href="https://t4.ftcdn.net/jpg/05/38/82/79/240_F_538827931_lB2eE3EcP7z0ZzOxWV0gm24l36wdWWst.jpg" class="card"  data-fancybox="360degree" data-caption="<b>戸建住宅</b> <br /> 外観パース">
                                         <div class="content">
                                             <span class="title">戸建住宅</span>
                                             <span class="category">外観パース</span>
@@ -41,7 +41,9 @@
                                         <div class="image">
                                             <img src="assets/images/gallerys/02.jpg" alt="02">
                                         </div>
-                                    </a>
+                                    </a> -->
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cGAuCjJbhqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/273Kow05WFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                                 
 
