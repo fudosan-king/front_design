@@ -193,10 +193,11 @@
                                     <div class="box_img">
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
                                         <span class="label_black">リノベ済</span>
+                                        <span class="label_new">NEW</span>
                                     </div>
                                     <div class="box_body">
-                                        <h3>キャピタルマークタワー2721号室</h3>
-                                        <p class="prices">7,280万円</p>
+                                        <h3>神宮前コーポラス 310号室</h3>
+                                        <p class="prices">12,000万円<span>価格改定</span></p>
                                         <h4>東京都港区芝浦 4-10-1</h4>
                                         <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
                                         <ul class="statistical">
@@ -212,11 +213,12 @@
                                 <a href="https://www.logrenove.jp/estates/66732/">
                                     <div class="box_img">
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
-                                        <span class="label_black">リノベ済</span>
+                                        <span class="label_violet">100㎡以上</span>
+                                        <span class="label_new">NEW</span>
                                     </div>
                                     <div class="box_body">
                                         <h3>マンシヨン小石川台609号室</h3>
-                                        <p class="prices">5,990万円</p>
+                                        <p class="prices">5,990万円<span>価格改定</span></p>
                                         <h4>東京都文京区大塚 5-3-10</h4>
                                         <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
                                         <ul class="statistical">
@@ -232,11 +234,12 @@
                                 <a href="https://www.logrenove.jp/estates/66959/">
                                     <div class="box_img">
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
-                                        <span class="label_black">リノベ済</span>
+                                        <span class="label_green">ルーフバルコニー</span>
+                                        <span class="label_new">NEW</span>
                                     </div>
                                     <div class="box_body">
                                         <h3>グリーンハイム梅丘Ⅱ204号室</h3>
-                                        <p class="prices">5,980万円</p>
+                                        <p class="prices">5,980万円<span>価格改定</span></p>
                                         <h4>東京都世田谷区梅丘 ３丁目１０−２３</h4>
                                         <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
                                         <ul class="statistical">
@@ -252,11 +255,12 @@
                                 <a href="https://www.logrenove.jp/estates/66942/">
                                     <div class="box_img">
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
-                                        <span class="label_black">リノベ済</span>
+                                        <span class="label_blue">駅徒歩5分</span>
+                                        <span class="label_new">NEW</span>
                                     </div>
                                     <div class="box_body">
                                         <h3>オープンレジデンシア神楽坂ウェスト・テラス104号室</h3>
-                                        <p class="prices">7,980万円</p>
+                                        <p class="prices">7,980万円<span>価格改定</span></p>
                                         <h4>東京都新宿区納戸町 28-1</h4>
                                         <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
                                         <ul class="statistical">
@@ -276,7 +280,7 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>参宮橋コーポラス401号室</h3>
-                                        <p class="prices">5,999万円</p>
+                                        <p class="prices">5,999万円<span>価格改定</span></p>
                                         <h4>東京都渋谷区代々木 3-33-14</h4>
                                         <p class="address">京王新線「初台」駅 徒歩7分<br></p>
                                         <ul class="statistical">
@@ -383,7 +387,7 @@
         </section>
 
         <section class="section_searchconditions">
-            <div class="container">
+            <div class="container container_full">
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <div class="box_conditions">
