@@ -54,7 +54,7 @@
                             </a>
                         </div>
                         <a href="#" class="btn">
-                            <span>もっと物件を見る</span>
+                            <span>もっと記事を見る</span>
                         </a>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                             </a>
                         </div>
                         <a href="#" class="btn">
-                            <span>もっと物件を見る</span>
+                            <span>もっと記事を見る</span>
                         </a>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                             </a>
                         </div>
                         <a href="#" class="btn">
-                            <span>もっと物件を見る</span>
+                            <span>もっと記事を見る</span>
                         </a>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                             </a>
                         </div>
                         <a href="#" class="btn">
-                            <span>もっと物件を見る</span>
+                            <span>もっと記事を見る</span>
                         </a>
                     </div>
                 </div>
@@ -352,7 +352,7 @@
                             <img src="images/three_dot.png" alt="three_dot" class="img-fluid item-img">
                         </div>
                         <a href="#" class="btn">
-                            <span>もっと物件を見る</span>
+                            <span>もっと記事を見る</span>
                         </a>
                     </div>
                 </div>
