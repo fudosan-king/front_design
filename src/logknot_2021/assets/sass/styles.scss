@@ -1727,6 +1727,10 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 80px;
+  iframe {
+    width: 33.33%;
+    height: 260px;
+  }
   h2 {
     flex-basis: 100%;
   }
@@ -1832,6 +1836,10 @@ footer {
 
 @media screen and (max-width: 768px) {
   .box_works_content {
+    iframe {
+      width: 50%;
+      margin-bottom: 10px;
+    }
     .card {
       width: 50%;
       .content {
@@ -1843,6 +1851,9 @@ footer {
 
 @media screen and (max-width: 480px) {
   .box_works_content {
+    iframe {
+      width: 100%;
+    }
     .card {
       width: 100%;
     }
