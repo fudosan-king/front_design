@@ -1,8 +1,24 @@
 <script>
-  const handleOpenSearch = function () {
+  const handleOpenSearch = function() {
     let inputSearch = document.getElementById("nav-search").classList;
     inputSearch.toggle("d-block");
   };
+
+  const handleOpenSubmenu = function(event) {
+    event.preventDefault();
+    let menu = event.currentTarget;
+    let subMenu = menu.querySelector("ul .nav-sub-menu");
+    let image = menu.querySelector(".nav-link img");
+    if (!subMenu.classList.contains("d-block")) {
+      subMenu.classList.add("d-block");
+      image.src = "./assets/images/icons/chevron-bottom.svg";
+      image.width = "10";
+    } else {
+      subMenu.classList.remove("d-block");
+      image.src = "./assets/images/icons/chevron-right.svg";
+      image.width = "6";
+    }
+  }
 </script>
 
 <header>
@@ -48,18 +64,18 @@
                 <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
               </label></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" onclick="handleOpenSubmenu(event)">
             <a class="nav-link" href="https://www.logrenove.jp/mansions">マンション一覧
               <label>
-                <img src="./assets/images/icons/chevron-bottom.svg" alt="" class="img-fluid" width="10">
+                <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
               </label>
             </a>
+            <ul class="nav-sub-menu">
+              <li>サブメニュー</li>
+              <li>サブメニュー</li>
+              <li>サブメニュー</li>
+            </ul>
           </li>
-          <ul class="nav-sub-menu">
-            <li>サブメニュー</li>
-            <li>サブメニュー</li>
-            <li>サブメニュー</li>
-          </ul>  
           <li class="nav-item">
             <a class="nav-link" href="https://www.logrenove.jp/about/">ログリノベについて
               <label>
@@ -80,9 +96,9 @@
               </label>
             </a>
           </li>
-        <label for="nav-mobile-hamburger" class="navbar-close">
-          <img src="./assets/images/icons/x-circle.svg" alt="" class="img-fluid" width="16">
-        </label>
+          <label for="nav-mobile-hamburger" class="navbar-close">
+            <img src="./assets/images/icons/x-circle.svg" alt="" class="img-fluid" width="16">
+          </label>
       </nav>
       <!-- <div class="search-form-container hdn d-none d-lg-block" id="search-input-container">
         <div class="search-input-group">
