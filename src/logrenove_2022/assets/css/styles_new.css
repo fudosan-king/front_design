@@ -1028,11 +1028,13 @@ header .navbar .container {
 #nav-search {
   position: absolute;
   top: 10px;
-  border: 1px solid #8c7d5e;
+  border: 1px solid #f1f1f1;
+  padding: 6px 10px;
   outline: none;
   display: none;
   width: 640px;
   height: 35px;
+  transform-origin: right;
   animation: scaleWidth 0.4s ease-in;
   font-family: "SF Pro Display";
   font-style: normal;
@@ -1049,10 +1051,10 @@ header .navbar .container {
 
 @keyframes scaleWidth {
   from {
-    width: 0px;
+    transform: translateX(0);
   }
   to {
-    width: 640px;
+    transform: translateX(100%);
   }
 }
 
@@ -1085,6 +1087,11 @@ header .navbar .container {
   }
 
   .navbar .navbar-nav .nav-item {
+  }
+
+  .navbar .navbar-nav .nav-item:hover,
+  .navbar .navbar-nav .nav-item:active {
+    background: #f1f1f1;
   }
 
   .navbar .navbar-nav .nav-item .nav-link {
