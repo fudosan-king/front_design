@@ -1064,6 +1064,49 @@ header .navbar {
   border-bottom: none;
 }
 
+header .navbar .container {
+  padding: 0 50px;
+  max-width: 100%;
+}
+
+.navbar .container .banner_slogan,
+.navbar .navbar-nav .search_icon {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .navbar .container .banner_slogan {
+    display: block;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #595757;
+  }
+
+  .navbar .navbar-nav .search_icon {
+    display: block;
+  }
+
+  .navbar .navbar-nav {
+  }
+
+  .navbar .navbar-nav .nav-item {
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 510;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595757;
+    padding: 0 20px;
+    border: none;
+  }
+}
+
 @media (max-width: 320px) {
   .main_nav .nav-tabs li a.nav-link {
     padding: 5px 2px;
@@ -1104,7 +1147,7 @@ header .navbar {
 }
 
 .section_description .description_header {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -1586,7 +1629,7 @@ header .navbar {
 }
 
 .section_list_templates .list_content li .box_img span.label_new {
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -1634,6 +1677,14 @@ header .navbar {
 
 .section_list_templates .list_content li .box_body p.address {
   font-weight: 500;
+}
+
+.section_searchconditions .container_full {
+  max-width: 1095px;
+}
+
+.section_list_templates .container {
+  max-width: 1100px;
 }
 
 @media (max-width: 1280px) {
@@ -1854,11 +1905,5 @@ header .navbar {
   .section_renovation .point-item > div:nth-child(odd),
   .section_renovation .point-item > div:nth-child(2) {
     max-width: 335px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .section_searchconditions .container_full {
-    max-width: 1095px;
   }
 }
