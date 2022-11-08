@@ -1,33 +1,105 @@
+<script>
+  const handleOpenSearch = function() {
+    let inputSearch = document.getElementById("nav-search").classList;
+    inputSearch.toggle("d-block");
+  };
+
+  const handleOpenSubmenu = function(event) {
+    event.preventDefault();
+    let menu = event.currentTarget;
+    let subMenu = menu.querySelector("ul .nav-sub-menu");
+    let image = menu.querySelector(".nav-link img");
+    if (!subMenu.classList.contains("d-block")) {
+      subMenu.classList.add("d-block");
+      image.src = "./assets/images/icons/chevron-bottom.svg";
+      image.width = "10";
+    } else {
+      subMenu.classList.remove("d-block");
+      image.src = "./assets/images/icons/chevron-right.svg";
+      image.width = "6";
+    }
+  }
+</script>
+
 <header>
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container relative">
       <a class="navbar-brand" href="index.php"><img src="images/icons/LogRenove_logo.svg" alt="LogRenove_logo" class="img-fluid" width="210"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav ms-auto d-block d-lg-none">
+      <input type="checkbox" class="nav-hamburger" name="" id="nav-mobile-hamburger">
+      <label for="nav-mobile-hamburger" class="navbar-btn-hamburger">
+        <img src="./assets/images/icons/menu.svg" alt="" class="img-fluid" width="21">
+      </label>
+      <span class="banner_slogan">住みたい街で心地よい暮らしを。</span>
+      <nav class="nav-pc" id="navbarScroll">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item active">
-            <a class="nav-link">お問い合わせ</a>
+            <a class="nav-link" href="https://www.logrenove.jp/estates">販売中物件</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">プライバシーポリシー</a>
+            <a class="nav-link" href="https://www.logrenove.jp/mansions">マンション一覧</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">ソーシャルメディアポリシー</a>
+            <a class="nav-link" href="https://www.logrenove.jp/about/">ログリノベについて</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">利用規約</a>
+            <a class="nav-link" href="https://www.logrenove.jp/magazine/">マガジン</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">運営会社（企業情報）</a>
+            <a class="nav-link" href="#">物件探しを相談</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">反社会的勢力排除に関する基本方針</a>
+          <input type="text" id="nav-search">
+          <li class="nav-item search_icon" onclick="handleOpenSearch()">
+            <a href="#" class="nav-link">
+              <img class="img-fluid" src="assets/images/icons/i_search_brown.svg" alt="i_search_brown" width="16">
+            </a>
           </li>
         </ul>
-      </div>
+      </nav>
 
+      <nav class="nav-mobile" id="navbarScroll">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.logrenove.jp/estates">物件一覧
+              <label>
+                <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
+              </label></a>
+          </li>
+          <li class="nav-item" onclick="handleOpenSubmenu(event)">
+            <a class="nav-link" href="https://www.logrenove.jp/mansions">マンション一覧
+              <label>
+                <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
+              </label>
+            </a>
+            <ul class="nav-sub-menu">
+              <li>サブメニュー</li>
+              <li>サブメニュー</li>
+              <li>サブメニュー</li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.logrenove.jp/about/">ログリノベについて
+              <label>
+                <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
+              </label></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.logrenove.jp/magazine/">マガジン
+              <label>
+                <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
+              </label>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">家探しを相談
+              <label>
+                <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
+              </label>
+            </a>
+          </li>
+          <label for="nav-mobile-hamburger" class="navbar-close">
+            <img src="./assets/images/icons/x-circle.svg" alt="" class="img-fluid" width="16">
+          </label>
+      </nav>
       <!-- <div class="search-form-container hdn d-none d-lg-block" id="search-input-container">
         <div class="search-input-group">
           <a href="#" class="btn_search" id="hide-search-input-container">
@@ -38,45 +110,13 @@
           </div>
         </div>
       </div> -->
-      
+
     </div>
   </nav>
 
-  
+
 
 </header>
-
-<div class="main_nav">
-  <div class="container">
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" href="https://www.logrenove.jp/estates/" target=""
-          ><span>物件一覧</span></a
-        >
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" href="https://www.logrenove.jp/mansions/" target=""
-          ><span>マンション一覧</span></a
-        >
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" href="https://www.logrenove.jp/about/" target=""
-          ><span>ログリノベについて</span></a
-        >
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" href="https://www.logrenove.jp/magazine/" target=""
-          ><span>マガジン</span></a
-        >
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" href="#" target=""
-          ><span>家探しを相談</span></a
-        >
-      </li>
-    </ul>
-  </div>
-</div>
 
 <!-- Modal -->
 <div class="modal fade modal_search" id="modal_search" tabindex="-1" aria-labelledby="modal_search" aria-hidden="true">
