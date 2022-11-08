@@ -50,7 +50,7 @@
           <input type="text" id="nav-search">
           <li class="nav-item search_icon" onclick="handleOpenSearch()">
             <a href="#" class="nav-link">
-              <img class="img-fluid" src="assets/images/icons/i_search_brown.svg" alt="i_search_brown" width="16">
+              <img class="img-fluid" src="assets/images/icons/i_search_black.svg" alt="i_search_brown" width="16">
             </a>
           </li>
         </ul>
