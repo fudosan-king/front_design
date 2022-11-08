@@ -1,3 +1,10 @@
+<script>
+  const handleOpenSearch = function () {
+    let inputSearch = document.getElementById("nav-search").classList;
+    inputSearch.toggle("d-block");
+  };
+</script>
+
 <header>
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container relative">
@@ -24,7 +31,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#">物件探しを相談</a>
           </li>
-          <li class="nav-item search_icon">
+          <input type="text" id="nav-search">
+          <li class="nav-item search_icon" onclick="handleOpenSearch()">
             <a href="#" class="nav-link">
               <img class="img-fluid" src="assets/images/icons/i_search_brown.svg" alt="i_search_brown" width="16">
             </a>
