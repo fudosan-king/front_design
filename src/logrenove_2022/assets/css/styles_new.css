@@ -1070,12 +1070,27 @@ header .navbar .container {
 }
 
 .navbar .container .banner_slogan,
-.navbar .navbar-nav .search_icon {
+.navbar .navbar-nav .search_icon,
+.navbar .container .nav-hamburger,
+.nav-mobile {
   display: none;
+}
+
+.navbar .container .navbar-btn-hamburger {
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav-hamburger:checked ~ .nav-mobile {
+  display: block;
+  transform: translateY(0);
 }
 
 @media (min-width: 992px) {
   .navbar .container .banner_slogan {
+    flex: 1;
     display: block;
     font-family: "SF Pro";
     font-style: normal;
@@ -1104,6 +1119,90 @@ header .navbar .container {
     color: #595757;
     padding: 0 20px;
     border: none;
+  }
+}
+
+.nav-mobile .navbar-close {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .nav-pc {
+    display: none;
+  }
+
+  .nav-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: translateY(-100%);
+    transition: all 1s ease-in-out;
+    background: #8b7e5e;
+  }
+
+  .nav-mobile .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 114px 40px 0 60px;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 15px 0;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item .nav-link label {
+    padding: 0 10px;
+  }
+
+  .navbar .nav-mobile .nav-sub-menu {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding: 9px 0 0 30px;
+  }
+
+  .navbar .nav-mobile .nav-sub-menu li {
+    margin-bottom: 9px;
+  }
+
+  .navbar .nav-mobile .nav-sub-menu li:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .navbar .container .navbar-btn-hamburger {
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+  }
+
+  .nav-mobile .navbar-close {
+    display: block;
+    position: absolute;
+    top: 71px;
+    right: 21px;
+    cursor: pointer;
   }
 }
 
