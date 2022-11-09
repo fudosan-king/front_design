@@ -7,10 +7,12 @@
     <?php require('header.php'); ?>
 
     <main>
-        <section class="section_banner">
+        <section class="section_banner banner_top_page">
             <img src="images/bg_top_page.jpg" alt="bg_top_page" class="img-fluid">
             <div class="banner_description">
-                <h1>住みたい街で心地よい暮らしを。</h1>
+                <h1 class="d-none d-md-block">住みたい街で心地よい暮らしを。</h1>
+                <h1 class="d-block d-md-none">住みたい街で</h1>
+                <h1 class="d-block d-md-none">心地よい暮らしを。</h1>
                 <h3>都心の高級リノベ物件ならLogRenove</h3>
                 <a href="#" class="btn">
                     <span class="i-search-brown">物件を探す</span>
@@ -542,8 +544,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="item-description">
-                                    <img src="images/point.png" alt="point" class="img-fluid description-img">
-                                    <div class="item-description-details">
+                                    <div class="item-description-details p-0">
                                         <h3 class="details-title">LogRenoveが提案する<br/>リノベーション物件</h3>
                                         <ul class="details-text">
                                             <li>都会で心地よい暮らし</li>

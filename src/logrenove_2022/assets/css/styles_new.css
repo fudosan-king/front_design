@@ -1213,6 +1213,7 @@ header .navbar .container {
   text-align: center;
 }
 
+.section_banner .banner_description,
 .section_banner .banner_description h1,
 .section_banner .banner_description h3 {
   font-family: "Noto Serif JP";
@@ -1222,6 +1223,7 @@ header .navbar .container {
   color: #ffffff;
 }
 
+.section_banner .banner_description,
 .section_banner .banner_description h1 {
   font-size: 40px;
   line-height: 160%;
@@ -1239,7 +1241,7 @@ header .navbar .container {
   line-height: 160%;
   text-align: center;
   color: #8c7d5e;
-  padding: 10px 100px;
+  padding: 10px 60px;
   gap: 10px;
   width: 357px;
   height: 60px;
@@ -1577,21 +1579,6 @@ header .navbar .container {
 }
 
 @media (max-width: 768px) {
-  .main_nav .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .main_nav .nav-tabs li {
-    text-align: center;
-    flex: 1 1 auto;
-  }
-
-  .main_nav .nav-tabs li a.nav-link {
-    padding: 10px 5px;
-    font-size: 0.75em;
-  }
-
   .section_banner .banner_description {
     font-size: 28px;
     line-height: 140%;
@@ -2085,7 +2072,8 @@ header .navbar .container {
   padding-bottom: 35px;
 }
 
-.section_interested_property::after {
+.section_interested_property::after,
+.section_interested_property .row > div:first-child::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -2094,6 +2082,11 @@ header .navbar .container {
   bottom: 0;
   left: 0;
   background: #f6f6f6;
+}
+
+.section_interested_property .row > div:first-child::after {
+  display: none;
+  top: 0;
 }
 
 .section_interested_property .templates_top_title {
@@ -2232,4 +2225,107 @@ header .navbar .container {
   line-height: 26px;
   letter-spacing: 0.05em;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .banner_top_page,
+  .banner_top_page img {
+    height: 300px;
+  }
+
+  .banner_top_page .banner_description h1 {
+    font-size: 28px;
+    line-height: 140%;
+    margin-bottom: 0px;
+  }
+
+  .banner_top_page .banner_description h3 {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .list_templates_top {
+    margin-top: 55px;
+  }
+
+  .section_list_templates .templates_topdescription {
+    margin-bottom: 25px;
+    padding: 0 21px;
+  }
+
+  .section_list_templates .templates_topdescription p {
+    text-align: justify;
+  }
+
+  .section_interested_property {
+    padding-bottom: 30px;
+  }
+
+  .section_interested_property::after {
+    display: none;
+  }
+
+  .section_interested_property .row > div:first-child {
+    position: relative;
+  }
+
+  .section_interested_property .row > div:first-child::after {
+    display: block;
+  }
+
+  .section_interested_property .property_list {
+    max-width: 374px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+
+  .section_pickup {
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+
+  .point_top_page {
+    padding-top: 40px;
+  }
+
+  .point_top_page .base-line {
+    padding: 10px 63px;
+  }
+
+  .renovation_top_page {
+    padding-bottom: 0;
+    border-bottom: 1px solid #bdbdbd;
+  }
+
+  .section_renovation .contact-item {
+    max-width: 375px;
+  }
+
+  .section_renovation .contact-item .renovation_img_background img {
+    max-width: 124px;
+  }
+
+  .section_renovation
+    .contact-item
+    .renovation_img_background
+    img:nth-of-type(4) {
+    max-width: 75px;
+    right: 38px;
+    top: 12px;
+  }
+
+  .section_renovation .contact-item .renovation_footer {
+    max-width: 375px;
+    padding: 2px 0px;
+  }
+
+  .section_renovation .contact-item .renovation_footer_text {
+    font-size: 9.5px;
+    line-height: 120%;
+  }
+
+  .section_renovation .contact-item .renovation_footer img {
+    width: 10px;
+  }
 }
