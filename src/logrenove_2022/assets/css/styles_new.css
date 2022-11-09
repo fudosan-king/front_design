@@ -1028,11 +1028,13 @@ header .navbar .container {
 #nav-search {
   position: absolute;
   top: 10px;
-  border: 1px solid #8c7d5e;
+  border: 1px solid #f1f1f1;
+  padding: 6px 10px;
   outline: none;
   display: none;
   width: 640px;
   height: 35px;
+  transform-origin: right;
   animation: scaleWidth 0.4s ease-in;
   font-family: "SF Pro Display";
   font-style: normal;
@@ -1049,10 +1051,10 @@ header .navbar .container {
 
 @keyframes scaleWidth {
   from {
-    width: 0px;
+    transform: translateX(0);
   }
   to {
-    width: 640px;
+    transform: translateX(100%);
   }
 }
 
@@ -1085,6 +1087,11 @@ header .navbar .container {
   }
 
   .navbar .navbar-nav .nav-item {
+  }
+
+  .navbar .navbar-nav .nav-item:hover,
+  .navbar .navbar-nav .nav-item:active {
+    background: #f1f1f1;
   }
 
   .navbar .navbar-nav .nav-item .nav-link {
@@ -1204,15 +1211,44 @@ header .navbar .container {
   right: 0px;
   margin: 0px auto;
   text-align: center;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 160%;
-  letter-spacing: 0.05em;
-  color: #ffffff;
-  font-family: "Noto Serif JP";
-  font-style: normal;
 }
 
+.section_banner .banner_description,
+.section_banner .banner_description h1,
+.section_banner .banner_description h3 {
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.section_banner .banner_description,
+.section_banner .banner_description h1 {
+  font-size: 40px;
+  line-height: 160%;
+}
+
+.section_banner .banner_description h3 {
+  font-size: 26px;
+  line-height: 160%;
+}
+.section_banner .btn {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  color: #8c7d5e;
+  padding: 10px 60px;
+  gap: 10px;
+  width: 357px;
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid #8c7d5e;
+  border-radius: 100px;
+}
 .section_description {
   padding-bottom: 30px;
 }
@@ -1272,21 +1308,29 @@ header .navbar .container {
   color: #ffffff;
 }
 
-.i-search-w {
+.i-search-w,
+.i-search-brown {
   position: relative;
   padding-left: 24px;
 }
 
-.i-search-w:before {
+.i-search-w:before,
+.i-search-brown:before {
   content: "";
   position: absolute;
   height: 18px;
   width: 20px;
-  transform: translateY(-50%);
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   background: url("../images/icons/i_search_white.svg") no-repeat;
+}
+
+.i-search-brown:before {
+  height: 26px;
+  width: 26px;
+  left: -10px;
+  background: url("../images/icons/i_search_brown.svg") no-repeat;
 }
 
 .section_point {
@@ -1402,6 +1446,7 @@ header .navbar .container {
   line-height: 30px;
   text-align: justify;
   color: #000000;
+  list-style: decimal;
 }
 
 .details-text p {
@@ -1534,21 +1579,6 @@ header .navbar .container {
 }
 
 @media (max-width: 768px) {
-  .main_nav .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .main_nav .nav-tabs li {
-    text-align: center;
-    flex: 1 1 auto;
-  }
-
-  .main_nav .nav-tabs li a.nav-link {
-    padding: 10px 5px;
-    font-size: 0.75em;
-  }
-
   .section_banner .banner_description {
     font-size: 28px;
     line-height: 140%;
@@ -1976,5 +2006,374 @@ header .navbar .container {
   .section_renovation .point-item > div:nth-child(odd),
   .section_renovation .point-item > div:nth-child(2) {
     max-width: 335px;
+  }
+}
+
+.section_list_templates .list_templates_top {
+  padding-top: 85px;
+  padding-bottom: 20px;
+}
+
+.section_list_templates .templates_top_title p,
+.section_interested_property .templates_top_title p {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #8c7d5e;
+  margin-bottom: 10px;
+}
+
+.section_list_templates .templates_topdescription {
+  margin-bottom: 35px;
+}
+
+.section_list_templates .templates_topdescription p {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.section_list_templates.list_templates_top .totalprocess {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section_list_templates.list_templates_top .totalprocess {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #424242;
+}
+
+.section_list_templates.list_templates_top .totalprocess > span:nth-child(2) {
+  color: #ce6f18;
+}
+
+.section_interested_property .container {
+  max-width: 1100px;
+}
+
+.section_interested_property {
+  position: relative;
+  padding-bottom: 35px;
+}
+
+.section_interested_property::after,
+.section_interested_property .row > div:first-child::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 165px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #f6f6f6;
+}
+
+.section_interested_property .row > div:first-child::after {
+  display: none;
+  top: 0;
+}
+
+.section_interested_property .templates_top_title {
+}
+
+.section_interested_property .property_item {
+  max-width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section_interested_property .property_item .item_image {
+  position: relative;
+}
+
+.section_interested_property .property_item .item_image img {
+  width: 85px;
+}
+
+.section_interested_property .property_item .item_image span {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+  background: #ca6407;
+  padding: 8px;
+  border-radius: 100px;
+  width: 30px;
+}
+
+.section_interested_property .property_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.section_interested_property .property_item .item_content {
+}
+
+.section_interested_property .content_title {
+  margin: 14px 0;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  min-height: 38px;
+  color: #8c7d5e;
+}
+
+.section_interested_property .content_description {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: justify;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.section_list_templates .list_content li .mansion_box_body {
+  min-height: 170px;
+}
+
+.section_pickup {
+  padding-top: 44px;
+  padding-bottom: 42px;
+}
+
+.contact_top_page {
+  padding-bottom: 20px;
+}
+
+.point_top_page .btn {
+  padding: 10px 40px;
+}
+
+.section_renovation .renovation_top_page {
+  padding: 20px 0 80px;
+}
+
+.section_renovation .contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 911px;
+}
+
+.section_renovation .contact-item .renovation_img_background {
+  position: relative;
+  max-width: 991px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1px;
+}
+
+.section_renovation .contact-item .renovation_img_background img {
+  max-width: 303px;
+}
+
+.section_renovation
+  .contact-item
+  .renovation_img_background
+  img:nth-of-type(4) {
+  position: absolute;
+  max-width: 212px;
+  right: 70px;
+  top: 25px;
+}
+
+.section_renovation .contact-item .renovation_footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+.section_renovation .contact-item .renovation_footer_text {
+  max-width: 620px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .banner_top_page,
+  .banner_top_page img {
+    height: 300px;
+  }
+
+  .banner_top_page .banner_description h1 {
+    font-size: 28px;
+    line-height: 140%;
+    margin-bottom: 0px;
+  }
+
+  .banner_top_page .banner_description h3 {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .list_templates_top {
+    margin-top: 55px;
+  }
+
+  .list_templates_top .list_content li .box_body h3 {
+    min-height: 52px;
+  }
+  .list_templates_top .list_content .flickity-page-dots {
+    display: none;
+  }
+
+  .list_templates_top .list_content li .box_body ul.statistical {
+    height: 30px;
+  }
+
+  .section_list_templates .templates_topdescription {
+    margin-bottom: 25px;
+    padding: 0 21px;
+  }
+
+  .list_templates_top .templates_topdescription p {
+    text-align: justify;
+  }
+
+  .list_templates_top .list_content li {
+    display: block;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .list_templates_top .list_content li:nth-of-type(3n),
+  .list_templates_top .list_content li:nth-of-type(4n) {
+    margin-right: 10px;
+  }
+
+  .list_templates_top .list_content li + li {
+    margin-right: 10px;
+  }
+
+  .section_list_templates .list_content {
+    display: unset;
+  }
+
+  .section_list_templates .list_content li:before {
+    display: block;
+    content: "";
+  }
+
+  .section_interested_property {
+    padding-bottom: 30px;
+  }
+
+  .section_interested_property::after {
+    display: none;
+  }
+
+  .section_interested_property .row > div:first-child {
+    position: relative;
+  }
+
+  .section_interested_property .row > div:first-child::after {
+    display: block;
+  }
+
+  .section_interested_property .property_list {
+    max-width: 374px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section_pickup {
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+
+  .point_top_page {
+    padding-top: 40px;
+  }
+
+  .point_top_page .base-line {
+    padding: 10px 63px;
+  }
+  .point_top_page .item-description .item-description-details .details-text {
+    margin-bottom: 0px;
+  }
+
+  .renovation_top_page {
+    padding-bottom: 0;
+    border-bottom: 1px solid #bdbdbd;
+  }
+
+  .section_renovation .contact-item {
+    max-width: 375px;
+  }
+
+  .section_renovation .contact-item .renovation_img_background img {
+    max-width: 124px;
+  }
+
+  .section_renovation
+    .contact-item
+    .renovation_img_background
+    img:nth-of-type(4) {
+    max-width: 75px;
+    right: 38px;
+    top: 12px;
+  }
+
+  .section_renovation .contact-item .renovation_footer {
+    max-width: 375px;
+    padding: 2px 0px;
+  }
+
+  .section_renovation .contact-item .renovation_footer_text {
+    font-size: 9.5px;
+    line-height: 120%;
+  }
+
+  .section_renovation .contact-item .renovation_footer img {
+    width: 10px;
+  }
+}
+
+@media (max-width: 428px) {
+  .list_templates_top .list_content li + .list_templates_top .list_content li {
+    margin-right: 10px;
   }
 }
