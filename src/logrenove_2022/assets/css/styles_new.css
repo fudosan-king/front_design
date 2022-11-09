@@ -2248,13 +2248,50 @@ header .navbar .container {
     margin-top: 55px;
   }
 
+  .list_templates_top .list_content li .box_body h3 {
+    min-height: 52px;
+  }
+  .list_templates_top .list_content .flickity-page-dots {
+    display: none;
+  }
+
+  .list_templates_top .list_content li .box_body ul.statistical {
+    height: 30px;
+  }
+
   .section_list_templates .templates_topdescription {
     margin-bottom: 25px;
     padding: 0 21px;
   }
 
-  .section_list_templates .templates_topdescription p {
+  .list_templates_top .templates_topdescription p {
     text-align: justify;
+  }
+
+  .list_templates_top .list_content li {
+    display: block;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .list_templates_top .list_content li:nth-of-type(3n),
+  .list_templates_top .list_content li:nth-of-type(4n) {
+    margin-right: 10px;
+  }
+
+  .list_templates_top .list_content li + li {
+    margin-right: 10px;
+  }
+
+  .section_list_templates .list_content {
+    display: unset;
+  }
+
+  .section_list_templates .list_content li:before {
+    display: block;
+    content: "";
   }
 
   .section_interested_property {
@@ -2278,6 +2315,8 @@ header .navbar .container {
     flex-wrap: wrap;
     padding-bottom: 20px;
     gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section_pickup {
@@ -2291,6 +2330,9 @@ header .navbar .container {
 
   .point_top_page .base-line {
     padding: 10px 63px;
+  }
+  .point_top_page .item-description .item-description-details .details-text {
+    margin-bottom: 0px;
   }
 
   .renovation_top_page {
@@ -2327,5 +2369,11 @@ header .navbar .container {
 
   .section_renovation .contact-item .renovation_footer img {
     width: 10px;
+  }
+}
+
+@media (max-width: 428px) {
+  .list_templates_top .list_content li + .list_templates_top .list_content li {
+    margin-right: 10px;
   }
 }

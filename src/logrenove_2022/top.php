@@ -32,6 +32,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <p class="totalprocess">全 <span>11</span> 件　新着＆更新 <span class="pink">2</span> 件</p>
+
                         <ul class="list_content list_content_property mt-6">
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
@@ -137,7 +138,7 @@
                                 </a>
                             </li>
 
-                            <li class="d-none d-sm-block">
+                            <li>
                                 <a href="https://www.logrenove.jp/estates/66944/">
                                     <div class="box_img">
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid" data-eio="l"></noscript>
@@ -157,7 +158,7 @@
                                 </a>
                             </li>
 
-                            <li class="d-none d-sm-block">
+                            <li>
                                 <a href="https://www.logrenove.jp/estates/65940/">
                                     <div class="box_img">
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/01140120/findBkknGzu-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/01140120/findBkknGzu-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/01140120/findBkknGzu-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
@@ -177,7 +178,7 @@
                                 </a>
                             </li>
 
-                            <li class="d-none d-sm-block">
+                            <li>
                                 <a href="https://www.logrenove.jp/estates/66939/">
                                     <div class="box_img">
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid" data-eio="l"></noscript>
@@ -197,8 +198,9 @@
                                 </a>
                             </li>
                         </ul>
+
                         <div class="d-block d-sm-none three_dot">
-                            <img src="images/three_dot.png" alt="three_dot" class="img-fluid item-img">
+                            <img src="images/three-dot-horizontal.svg" alt="three-dot-horizontal" class="img-fluid item-img">
                         </div>
                         <a href="#" class="btn">
                             <span>もっと物件を見る</span>
@@ -370,8 +372,9 @@
                                 </a>
                             </li>
                         </ul>
+
                         <div class="d-block d-sm-none three_dot">
-                            <img src="images/three_dot.png" alt="three_dot" class="img-fluid item-img">
+                            <img src="images/three-dot-horizontal.svg" alt="three-dot-horizontal" class="img-fluid item-img">
                         </div>
                         <a href="#" class="btn">
                             <span>もっとマンションを見る</span>
@@ -474,8 +477,9 @@
                                 </a>
                             </li>
                         </ul>
+
                         <div class="d-block d-sm-none three_dot">
-                            <img src="images/three_dot.png" alt="three_dot" class="img-fluid item-img">
+                            <img src="images/three-dot-horizontal.svg" alt="three-dot-horizontal" class="img-fluid item-img">
                         </div>
                         <a href="#" class="btn">
                             <span>もっと物件を見る</span>
@@ -524,7 +528,7 @@
                                 <div class="item-description">
                                     <img src="images/point.png" alt="point" class="img-fluid description-img">
                                     <div class="item-description-details">
-                                        <h3 class="details-title">リノベーションマンションの<br/>おすすめポイント</h3>
+                                        <h3 class="details-title">リノベーションマンションの<br />おすすめポイント</h3>
                                         <ul class="details-text">
                                             <li>好みの立地を選べる</li>
                                             <li>資産価値が下がりにくい</li>
@@ -545,7 +549,7 @@
                             <div class="col-12">
                                 <div class="item-description">
                                     <div class="item-description-details p-0">
-                                        <h3 class="details-title">LogRenoveが提案する<br/>リノベーション物件</h3>
+                                        <h3 class="details-title">LogRenoveが提案する<br />リノベーション物件</h3>
                                         <ul class="details-text">
                                             <li>都会で心地よい暮らし</li>
                                             <li>上質なデザイン、設備</li>
@@ -624,6 +628,22 @@
     <?php include('footer.php') ?>
 
     <?php include('js-footer.php') ?>
+
+    <script>
+        const handleAddFlickyMobile = function(mobile) {
+            let listContent = document.querySelectorAll(".list_templates_top .container .list_content");
+            if (mobile.matches) {
+                listContent.forEach(listContent => {
+                    listContent.setAttribute("data-flickity", `{"autoPlay": true}`);
+                    listContent.classList.toggle("d-block");
+                    listContent.classList.toggle("flickity-enabled");
+                    listContent.classList.toggle("is-draggable");
+                })
+            }
+        }
+        let mobile = window.matchMedia("(max-width: 428px)");
+        handleAddFlickyMobile(mobile);
+    </script>
 </body>
 
 </html>
