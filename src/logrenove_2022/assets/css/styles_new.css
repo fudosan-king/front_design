@@ -1444,6 +1444,7 @@ header .navbar .container {
   line-height: 30px;
   text-align: justify;
   color: #000000;
+  list-style: decimal;
 }
 
 .details-text p {
@@ -2077,4 +2078,158 @@ header .navbar .container {
 
 .section_interested_property .container {
   max-width: 1100px;
+}
+
+.section_interested_property {
+  position: relative;
+  padding-bottom: 35px;
+}
+
+.section_interested_property::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 165px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #f6f6f6;
+}
+
+.section_interested_property .templates_top_title {
+}
+
+.section_interested_property .property_item {
+  max-width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section_interested_property .property_item .item_image {
+  position: relative;
+}
+
+.section_interested_property .property_item .item_image img {
+  width: 85px;
+}
+
+.section_interested_property .property_item .item_image span {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+  background: #ca6407;
+  padding: 8px;
+  border-radius: 100px;
+  width: 30px;
+}
+
+.section_interested_property .property_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.section_interested_property .property_item .item_content {
+}
+
+.section_interested_property .content_title {
+  margin: 14px 0;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  min-height: 38px;
+  color: #8c7d5e;
+}
+
+.section_interested_property .content_description {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: justify;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.section_list_templates .list_content li .mansion_box_body {
+  min-height: 170px;
+}
+
+.section_pickup {
+  padding-top: 44px;
+  padding-bottom: 42px;
+}
+
+.contact_top_page {
+  padding-bottom: 20px;
+}
+
+.point_top_page .btn {
+  padding: 10px 40px;
+}
+
+.section_renovation .renovation_top_page {
+  padding: 20px 0 80px;
+}
+
+.section_renovation .contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 911px;
+}
+
+.section_renovation .contact-item .renovation_img_background {
+  position: relative;
+  max-width: 991px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1px;
+}
+
+.section_renovation .contact-item .renovation_img_background img {
+  max-width: 303px;
+}
+
+.section_renovation
+  .contact-item
+  .renovation_img_background
+  img:nth-of-type(4) {
+  position: absolute;
+  max-width: 212px;
+  right: 70px;
+  top: 25px;
+}
+
+.section_renovation .contact-item .renovation_footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+.section_renovation .contact-item .renovation_footer_text {
+  max-width: 620px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
 }
