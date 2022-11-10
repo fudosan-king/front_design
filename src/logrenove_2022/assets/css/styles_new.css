@@ -2222,6 +2222,10 @@ header .navbar .container {
   margin-bottom: 0;
 }
 
+.renovation_top_page .container .row a {
+  text-decoration: none;
+}
+
 @media (max-width: 1024px) {
   .section_list_templates .list_content {
     display: flex;
@@ -2480,6 +2484,7 @@ header .navbar .container {
 
   .section_renovation .contact-item .renovation_footer img {
     width: 10px;
+    margin-right: 6px;
   }
 }
 
@@ -2504,6 +2509,16 @@ header .navbar .container {
     max-width: 75px;
     right: 15px;
     top: 12px;
+  }
+
+  .section_renovation .contact-item .renovation_footer img {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .section_renovation .contact-item .renovation_footer_text {
+    font-size: 9px;
   }
 }
 
