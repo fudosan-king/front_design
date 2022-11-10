@@ -14,7 +14,7 @@
                 <h1 class="d-block d-md-none">住みたい街で</h1>
                 <h1 class="d-block d-md-none">心地よい暮らしを。</h1>
                 <h3>都心の高級リノベ物件ならLogRenove</h3>
-                <a href="#" class="btn">
+                <a href="#modal_search" data-bs-toggle="modal" class="btn">
                     <span class="i-search-brown">物件を探す</span>
                 </a>
             </div>
@@ -365,7 +365,7 @@
                             </li>
                         </ul>
 
-                        <a href="#" class="btn">
+                        <a href="#modal_search" data-bs-toggle="modal" class="btn">
                             <span>もっと物件を見る</span>
                         </a>
                     </div>
@@ -613,7 +613,7 @@
                             </li>
                         </ul>
 
-                        <a href="#" class="btn">
+                        <a href="#modal_search2" data-bs-toggle="modal" class="btn">
                             <span>もっとマンションを見る</span>
                         </a>
                     </div>
@@ -798,7 +798,7 @@
                             </li>
                         </ul>
 
-                        <a href="#" class="btn">
+                        <a href="#modal_search" data-bs-toggle="modal" class="btn">
                             <span>もっと物件を見る</span>
                         </a>
                     </div>
@@ -879,7 +879,7 @@
                             </div>
                         </div>
 
-                        <a href="#" class="btn">
+                        <a href="https://www.logrenove.jp/about/" class="btn">
                             <span>LogRenoveについてもっと見る</span>
                         </a>
                     </div>
@@ -891,7 +891,7 @@
         <section class="section_renovation renovation_top_page">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
+                    <a href="https://www.logrenove.jp/magazine/" class="col-12 col-lg-12">
                         <div class="contact-item">
                             <div class="renovation_img_background">
                                 <img src="images/renovation_01.jpg" alt="renovation_01" class="img-fluid">
@@ -904,7 +904,7 @@
                                 <img src="images/arrow-right-black.svg" alt="arrow-right.svg" class="img-fluid">
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
