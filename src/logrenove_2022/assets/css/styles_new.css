@@ -2222,6 +2222,32 @@ header .navbar .container {
   margin-bottom: 0;
 }
 
+.renovation_top_page .container .row a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .section_list_templates .list_content {
+    display: flex;
+  }
+
+  .section_renovation .contact-item .renovation_img_background {
+    max-width: 100%;
+  }
+
+  .section_renovation .contact-item .renovation_img_background img {
+    max-width: 33.33333%;
+  }
+
+  .section_renovation
+    .contact-item
+    .renovation_img_background
+    img:nth-of-type(4) {
+    max-width: 20%;
+    right: 70px;
+  }
+}
+
 @media (max-width: 932px) {
   .section_renovation
     .contact-item
@@ -2318,9 +2344,6 @@ header .navbar .container {
     padding-top: 40px;
   }
 
-  .point_top_page .base-line {
-    padding: 10px 63px;
-  }
   .point_top_page .item-description .item-description-details .details-text {
     margin-bottom: 0px;
   }
@@ -2363,16 +2386,22 @@ header .navbar .container {
   }
 }
 
-@media (max-width: 375px) {
-  .section_interested_property .property_list {
-    justify-content: center;
-  }
-  .point_top_page .base-line {
-    padding: 10px 52px;
-  }
-}
-
 @media (max-width: 428px) {
+  .section_banner .btn {
+    width: 100%;
+  }
+
+  .section_interested_property .property_list {
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  .section_interested_property .property_item {
+    margin-bottom: 10px;
+  }
+
   .list_templates_top .list-mobile {
     display: block !important;
   }
@@ -2415,7 +2444,7 @@ header .navbar .container {
   }
 
   .section_interested_property .property_item {
-    max-width: 168px;
+    max-width: 48%;
   }
 
   .section_interested_property .content_title {
@@ -2439,7 +2468,7 @@ header .navbar .container {
     .renovation_img_background
     img:nth-of-type(4) {
     max-width: 75px;
-    right: 38px;
+    right: 10%;
     top: 12px;
   }
 
@@ -2455,24 +2484,59 @@ header .navbar .container {
 
   .section_renovation .contact-item .renovation_footer img {
     width: 10px;
+    margin-right: 6px;
   }
 }
 
-@media (max-width: 1024px) {
-  .section_list_templates .list_content {
-    display: flex;
+@media (max-width: 390px) {
+  .section_renovation
+    .contact-item
+    .renovation_img_background
+    img:nth-of-type(4) {
+    right: 8%;
+  }
+}
+
+@media (max-width: 375px) {
+  .section_interested_property .property_item {
+    margin-bottom: 10px;
   }
 
-  .section_renovation .contact-item .renovation_img_background {
-    max-width: 100vw;
+  .section_renovation
+    .contact-item
+    .renovation_img_background
+    img:nth-of-type(4) {
+    max-width: 75px;
+    right: 15px;
+    top: 12px;
+  }
+
+  .section_renovation .contact-item .renovation_footer img {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .section_renovation .contact-item .renovation_footer_text {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section_interested_property .property_list {
+    max-width: 100%;
   }
 
   .section_renovation .contact-item .renovation_img_background img {
-    max-width: 33.33333%;
+    max-width: 33.33%;
   }
 
   .section_renovation .contact-item .renovation_img_background img:nth-of-type(4) {
-    max-width: 20%;
-    right: 70px;
+    max-width: 59px;
+    right: 28px;
+  }
+
+  .section_renovation .contact-item .renovation_footer_text {
+    font-size: 7.5px;
   }
 }

@@ -453,18 +453,35 @@
                   <div class="box_select_item">
                     <select class="form-select" aria-label="Default select example">
                       <option selected>下限なし</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                      <option value="5000">5,000万円</option>
+                      <option value="6000">6,000万円</option>
+                      <option value="7000">7,000万円</option>
+                      <option value="8000">8,000万円</option>
+                      <option value="9000">9,000万円</option>
+                      <option value="10000">10,000万円</option>
+                      <option value="12000">12,000万円</option>
+                      <option value="15000">15,000万円</option>
+                      <option value="18000">18,000万円</option>
+                      <option value="20000">20,000万円</option>
+                      <option value="25000">25,000万円</option>
+                      <option value="30000">30,000万円</option>
                     </select>
                   </div>
                   <span>〜</span>
                   <div class="box_select_item">
                     <select class="form-select" aria-label="Default select example">
                       <option selected>上限なし</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                      <option value="6000">6,000万円</option>
+                      <option value="7000">7,000万円</option>
+                      <option value="8000">8,000万円</option>
+                      <option value="9000">9,000万円</option>
+                      <option value="10000">10,000万円</option>
+                      <option value="12000">12,000万円</option>
+                      <option value="15000">15,000万円</option>
+                      <option value="18000">18,000万円</option>
+                      <option value="20000">20,000万円</option>
+                      <option value="25000">25,000万円</option>
+                      <option value="30000">30,000万円</option>
                     </select>
                   </div>
                 </div>
@@ -477,18 +494,33 @@
                   <div class="box_select_item">
                     <select class="form-select" aria-label="Default select example">
                       <option selected>下限なし</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                      <option value="60">60㎡</option>
+                      <option value="70">70㎡</option>
+                      <option value="80">80㎡</option>
+                      <option value="90">90㎡</option>
+                      <option value="100">100㎡</option>
+                      <option value="120">120㎡</option>
+                      <option value="150">150㎡</option>
+                      <option value="180">180㎡</option>
+                      <option value="200">200㎡</option>
+                      <option value="250">250㎡</option>
+                      <option value="300">300㎡</option>
                     </select>
                   </div>
                   <span>〜</span>
                   <div class="box_select_item">
                     <select class="form-select" aria-label="Default select example">
                       <option selected>上限なし</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                      <option value="70">70㎡</option>
+                      <option value="80">80㎡</option>
+                      <option value="90">90㎡</option>
+                      <option value="100">100㎡</option>
+                      <option value="120">120㎡</option>
+                      <option value="150">150㎡</option>
+                      <option value="180">180㎡</option>
+                      <option value="200">200㎡</option>
+                      <option value="250">250㎡</option>
+                      <option value="300">300㎡</option>
                     </select>
                   </div>
                 </div>
