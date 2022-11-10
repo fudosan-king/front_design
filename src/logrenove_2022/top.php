@@ -33,7 +33,7 @@
                     <div class="col-12 col-lg-12">
                         <p class="totalprocess">全 <span>11</span> 件　新着＆更新 <span class="pink">2</span> 件</p>
 
-                        <ul class="list_content list_content_property mt-6">
+                        <ul class="list_content list_content_property mt-6 list-pc">
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
                                     <div class="box_img">
@@ -199,9 +199,172 @@
                             </li>
                         </ul>
 
-                        <div class="d-block d-sm-none three_dot">
-                            <img src="images/three-dot-horizontal.svg" alt="three-dot-horizontal" class="img-fluid item-img">
-                        </div>
+                        <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66998/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_black">リノベ済</span>
+                                        <span class="label_new">NEW</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>神宮前コーポラス 310号室</h3>
+                                        <p class="prices">12,000万円<span>価格改定</span></p>
+                                        <h4>東京都港区芝浦 4-10-1</h4>
+                                        <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
+                                        <ul class="statistical">
+                                            <li>27階</li>
+                                            <li>42.79m²</li>
+                                            <li>1LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66732/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_violet">100㎡以上</span>
+                                        <span class="label_new">NEW</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>マンシヨン小石川台609号室</h3>
+                                        <p class="prices">5,990万円<span>価格改定</span></p>
+                                        <h4>東京都文京区大塚 5-3-10</h4>
+                                        <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
+                                        <ul class="statistical">
+                                            <li>6階</li>
+                                            <li>53.48m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66959/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_green">ルーフバルコニー</span>
+                                        <span class="label_new">NEW</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>グリーンハイム梅丘Ⅱ204号室</h3>
+                                        <p class="prices">5,980万円<span>価格改定</span></p>
+                                        <h4>東京都世田谷区梅丘 ３丁目１０−２３</h4>
+                                        <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
+                                        <ul class="statistical">
+                                            <li>2階</li>
+                                            <li>57.61m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66942/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_blue">駅徒歩5分</span>
+                                        <span class="label_new">NEW</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>オープンレジデンシア神楽坂ウェスト・テラス104号室</h3>
+                                        <p class="prices">7,980万円<span>価格改定</span></p>
+                                        <h4>東京都新宿区納戸町 28-1</h4>
+                                        <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
+                                        <ul class="statistical">
+                                            <li>-</li>
+                                            <li>65.94m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66961/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181643/01071bbfc80044c9749f03b2416ca732-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181643/01071bbfc80044c9749f03b2416ca732-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181643/01071bbfc80044c9749f03b2416ca732-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_black">リノベ済</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>参宮橋コーポラス401号室</h3>
+                                        <p class="prices">5,999万円<span>価格改定</span></p>
+                                        <h4>東京都渋谷区代々木 3-33-14</h4>
+                                        <p class="address">京王新線「初台」駅 徒歩7分<br></p>
+                                        <ul class="statistical">
+                                            <li>4階</li>
+                                            <li>64.50m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66944/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_blue">駅徒歩5分以内</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>芝パーク・タワー1106号室</h3>
+                                        <p class="prices">12,180万円</p>
+                                        <h4>東京都港区芝 3-34-1</h4>
+                                        <p class="address">都営三田線「三田」駅 徒歩4分<br></p>
+                                        <ul class="statistical">
+                                            <li>11階</li>
+                                            <li>67.20m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/65940/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/01140120/findBkknGzu-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/01140120/findBkknGzu-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/01140120/findBkknGzu-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_green">ルーフバルコニー</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>プレシス中野哲学堂パークフロント304号室</h3>
+                                        <p class="prices">6,180万円</p>
+                                        <h4>東京都中野区松が丘 2-31-12</h4>
+                                        <p class="address">西武新宿線「新井薬師前」駅 徒歩11分<br></p>
+                                        <ul class="statistical">
+                                            <li>3階</li>
+                                            <li>52.91m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66939/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02173140/Group-1-8-4-10.png" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_black">リノベ済</span>
+                                    </div>
+                                    <div class="box_body">
+                                        <h3>藤和シティスクエア三田サウスウイング702号室</h3>
+                                        <p class="prices">8,999万円</p>
+                                        <h4>東京都港区三田 2-13-6</h4>
+                                        <p class="address">都営三田線他「三田」駅 徒歩6分<br></p>
+                                        <ul class="statistical">
+                                            <li>7階</li>
+                                            <li>57.60m²</li>
+                                            <li>1LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
                         <a href="#" class="btn">
                             <span>もっと物件を見る</span>
                         </a>
@@ -297,7 +460,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <p class="totalprocess">全 <span>11</span> 件　新着＆更新 <span class="pink">2</span> 件</p>
-                        <ul class="list_content list_content_property mt-6">
+
+                        <ul class="list_content list_content_property mt-6 list-pc">
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
                                     <div class="box_img">
@@ -373,9 +537,82 @@
                             </li>
                         </ul>
 
-                        <div class="d-block d-sm-none three_dot">
-                            <img src="images/three-dot-horizontal.svg" alt="three-dot-horizontal" class="img-fluid item-img">
-                        </div>
+                        <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66998/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_blue">駅徒歩5分</span>
+                                        <span class="label_new">NEW</span>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>神宮前コーポラス 310号室</h3>
+                                        <h4>東京都港区芝浦 4-10-1</h4>
+                                        <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
+                                        <ul class="statistical">
+                                            <li>27階</li>
+                                            <li>42.79m²</li>
+                                            <li>1LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66732/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>マンシヨン小石川台609号室</h3>
+                                        <h4>東京都文京区大塚 5-3-10</h4>
+                                        <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
+                                        <ul class="statistical">
+                                            <li>6階</li>
+                                            <li>53.48m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66959/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>グリーンハイム梅丘Ⅱ204</h3>
+                                        <h4>東京都世田谷区梅丘 ３丁目</h4>
+                                        <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
+                                        <ul class="statistical">
+                                            <li>2階</li>
+                                            <li>57.61m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66942/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>オープンレジデンシア神楽坂ウェスト・テラス104号室</h3>
+                                        <h4>東京都新宿区納戸町 28-1</h4>
+                                        <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
+                                        <ul class="statistical">
+                                            <li>-</li>
+                                            <li>65.94m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
                         <a href="#" class="btn">
                             <span>もっとマンションを見る</span>
                         </a>
@@ -396,7 +633,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <p class="totalprocess">全 <span>11</span> 件　新着＆更新 <span class="pink">2</span> 件</p>
-                        <ul class="list_content list_content_property mt-6">
+
+                        <ul class="list_content list_content_property mt-6 list-pc">
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
                                     <div class="box_img">
@@ -478,9 +716,88 @@
                             </li>
                         </ul>
 
-                        <div class="d-block d-sm-none three_dot">
-                            <img src="images/three-dot-horizontal.svg" alt="three-dot-horizontal" class="img-fluid item-img">
-                        </div>
+                        <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66998/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_black">リノベ済</span>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>神宮前コーポラス 310号室</h3>
+                                        <p class="prices">12,000万円</p>
+                                        <h4>東京都港区芝浦 4-10-1</h4>
+                                        <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
+                                        <ul class="statistical">
+                                            <li>27階</li>
+                                            <li>42.79m²</li>
+                                            <li>1LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66732/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02214937/s-IMG_2127-1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_violet">100㎡以上</span>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>マンシヨン小石川台609号室</h3>
+                                        <p class="prices">12,000万円</p>
+                                        <h4>東京都文京区大塚 5-3-10</h4>
+                                        <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
+                                        <ul class="statistical">
+                                            <li>6階</li>
+                                            <li>53.48m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66959/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02183417/IV1666926751_1-1.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_green">ルーフバルコニー</span>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>グリーンハイム梅丘Ⅱ204</h3>
+                                        <p class="prices">12,000万円</p>
+                                        <h4>東京都世田谷区梅丘 ３丁目</h4>
+                                        <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
+                                        <ul class="statistical">
+                                            <li>2階</li>
+                                            <li>57.61m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.logrenove.jp/estates/66942/">
+                                    <div class="box_img">
+                                        <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02181721/download-3-5.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
+                                        <span class="label_blue">駅徒歩5分</span>
+                                    </div>
+                                    <div class="box_body mansion_box_body">
+                                        <h3>神宮前コーポラス 310号室</h3>
+                                        <p class="prices">12,000万円</p>
+                                        <h4>東京都新宿区納戸町 28-1</h4>
+                                        <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
+                                        <ul class="statistical">
+                                            <li>-</li>
+                                            <li>65.94m²</li>
+                                            <li>2LDK</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
                         <a href="#" class="btn">
                             <span>もっと物件を見る</span>
                         </a>
@@ -628,22 +945,6 @@
     <?php include('footer.php') ?>
 
     <?php include('js-footer.php') ?>
-
-    <script>
-        const handleAddFlickyMobile = function(mobile) {
-            let listContent = document.querySelectorAll(".list_templates_top .container .list_content");
-            if (mobile.matches) {
-                listContent.forEach(listContent => {
-                    listContent.setAttribute("data-flickity", `{"autoPlay": true}`);
-                    listContent.classList.toggle("d-block");
-                    listContent.classList.toggle("flickity-enabled");
-                    listContent.classList.toggle("is-draggable");
-                })
-            }
-        }
-        let mobile = window.matchMedia("(max-width: 428px)");
-        handleAddFlickyMobile(mobile);
-    </script>
 </body>
 
 </html>
