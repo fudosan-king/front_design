@@ -831,7 +831,7 @@
 
         <section class="section_point point_top_page">
             <div class="base-line">
-                <p>LogRenove がおすすめするリノベーション</p>
+                <p>LogRenove がおすすめする<br class="d-block d-sm-none"/>リノベーション</p>
             </div>
             <div class="container">
                 <div class="row">
