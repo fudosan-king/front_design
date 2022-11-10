@@ -1025,39 +1025,9 @@ header .navbar .container {
 .nav-mobile .navbar-close {
   display: none;
 }
-#nav-search {
-  position: absolute;
-  top: 10px;
-  border: 1px solid #f1f1f1;
-  padding: 6px 10px;
-  outline: none;
-  display: none;
-  width: 640px;
-  height: 35px;
-  transform-origin: right;
-  animation: scaleWidth 0.3s ease-in;
-  font-family: "SF Pro Display";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.05em;
-  color: #8c7d5e;
-}
 
 .nav-sub-menu {
   display: none;
-}
-
-@keyframes scaleWidth {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 
 @keyframes fadeIn {
