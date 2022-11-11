@@ -2433,6 +2433,7 @@ header .navbar .container {
     width: 8px;
     height: 8px;
     margin: 0 !important;
+    background: #d9d9d9;
   }
 
   .section_list_templates .list_content {
@@ -2486,6 +2487,20 @@ header .navbar .container {
     width: 10px;
     margin-right: 6px;
   }
+
+  .modal_search .box_select.custom .form-check {
+    display: flex;
+    align-items: center;
+  }
+
+  .modal_search label {
+    font-size: 0.7em;
+  }
+
+  .modal_search .box_select.custom .form-check:last-of-type label {
+    position: inherit;
+    top: 2px;
+  }
 }
 
 @media (max-width: 390px) {
@@ -2494,6 +2509,10 @@ header .navbar .container {
     .renovation_img_background
     img:nth-of-type(4) {
     right: 8%;
+  }
+
+  .modal_search label {
+    font-size: 0.65em;
   }
 }
 
@@ -2514,6 +2533,10 @@ header .navbar .container {
   .section_renovation .contact-item .renovation_footer img {
     margin-right: 0;
   }
+
+  .modal_search label {
+    font-size: 0.6em;
+  }
 }
 
 @media (max-width: 360px) {
@@ -2531,7 +2554,10 @@ header .navbar .container {
     max-width: 33.33%;
   }
 
-  .section_renovation .contact-item .renovation_img_background img:nth-of-type(4) {
+  .section_renovation
+    .contact-item
+    .renovation_img_background
+    img:nth-of-type(4) {
     max-width: 59px;
     right: 28px;
   }

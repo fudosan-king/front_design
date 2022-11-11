@@ -865,7 +865,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="item-description">
-                                    <div class="item-description-details p-0">
+                                    <div class="item-description-details">
                                         <h3 class="details-title">LogRenoveが提案する<br />リノベーション物件</h3>
                                         <ul class="details-text">
                                             <li>都会で心地よい暮らし</li>
