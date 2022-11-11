@@ -781,15 +781,32 @@
                                             </div>
                                             <p class="equip-spec_box-des">埋込型の天井カセットエアコンを標準装備。理想的な気流をお届けします。セントラル換気システムにより冷暖房エネルギーをリサイクルし、四季を通して室内の快適性を高めます。</p>
                                         </div>
+
+                                        <div class="col-md-4">
+                                            <p class="equip-spec_box-title">壁式構造</p>
+                                            <p class="equip-spec_box-des">柱や梁を使わず「壁」で建物を支える「壁式構造」を採用しています。ラーメン構造と違い、居室内に柱型や梁型が出ないため、すっきりとしたデザインに仕上がる構造を採用しております。</p>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <p class="equip-spec_box-title">温水暖房</p>
+                                            <div class="equip-spec_box_img custom mb-2">
+                                                <img src="images/new/1111_A.jpg" alt="" title="1111_A">
+                                                <span class="txt-black">参考写真</span>
+                                            </div>
+                                            <p class="equip-spec_box-des">リビング、ベッドルームなど全ての部屋に、90°の温水の力で暖める温水暖房を設置しています。天井カセット式エアコン、温水式床暖房と併用でき、より早く効果的に居室内を暖めることができます。</p>
+                                        </div>
+                                        
+
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">LED 照明</p>
                                             <p class="equip-spec_box-des">住戸内のダウンライトにはLED 照明を採用。従来の白熱灯に比べ寿命が長持ちし、消費電力量とCO2 排出量が削減されます。</p>
                                         </div>
                                         <div class="col-md-4">
                                             <p class="equip-spec_box-title">断熱構造</p>
-                                            <p class="equip-spec_box-des">外気に面する梁・壁の室内側に約55 ㎜ 厚、最下階住戸の床下に約35 ㎜～約50 ㎜厚の結露発生を抑制する断熱材を施工。また、最上階の屋上には約70 ㎜厚の断熱材を施しています。<br />
-    ※一部除く。</p>
+                                            <p class="equip-spec_box-des">外気に面する梁・壁の室内側に約55 ㎜ 厚、最下階住戸の床下に約35 ㎜～約50 ㎜厚の結露発生を抑制する断熱材を施工。また、最上階の屋上には約70 ㎜厚の断熱材を施しています。<br />※一部除く。</p>
                                         </div>
+
+                                        
                                     </div>
                                 </div>
                             </div>
