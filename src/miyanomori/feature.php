@@ -342,8 +342,6 @@
                                 <img src="images/new/1111_C.jpg" alt="1111_C" class="img-fluid">
                             </div>
                         </div>
-                        
-                        <a href="#" class="btn btn-equip"><span>共用設備を見る</span></a>
                     </div>
 
 
