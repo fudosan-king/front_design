@@ -33,7 +33,7 @@
                     <div class="col-12 col-lg-12">
                         <p class="totalprocess">全 <span>11</span> 件　新着＆更新 <span class="pink">2</span> 件</p>
 
-                        <ul class="list_content list_content_property mt-6 list-pc">
+                        <ul class="list_content list_content_property mt-6 list-pc list-estate">
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
                                     <div class="box_img">
