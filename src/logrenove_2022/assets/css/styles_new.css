@@ -2574,7 +2574,7 @@ header .navbar .container {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media  (orientation: landscape) or ((min-width: 768px) and (max-width: 1023px)) {
   .point_top_page .point-item > div:nth-child(odd) img {
     width: 544px;
   }
@@ -2615,7 +2615,7 @@ header .navbar .container {
   }
 }
 
-@media (min-width: 820px) and (max-width: 1023px) {
+@media (orientation: landscape) or ((min-width: 820px) and (max-width: 1023px)) {
   .section_interested_property .property_list {
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -2624,7 +2624,7 @@ header .navbar .container {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (orientation: landscape) or ((min-width: 768px) and (max-width: 1024px)) {
   .section_list_templates .list_content_property:not(.list-mobile) {
     gap: 10px;
     justify-content: space-between;
