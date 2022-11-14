@@ -322,6 +322,31 @@
                         </div>
                         <a href="https://www.prostyle-residence.com/sapporo/miyanomori/equipment/" class="btn btn-equip"><span>共用設備を見る</span></a>
                     </div>
+
+                    <div class="box_equipment_info clearfix">
+                        <div class="box_equipment_info_top">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 align-self-center">
+                                    <h2>大型犬も飼育可能な<br>ペットに優しい仕様</h2>
+                                </div>
+                                <div class="col-12 col-lg-7 align-self-center">
+                                    <p>本物件はペット飼育が可能です（細則あり）。犬、猫は2匹まで飼育可能で、大型犬種もOK。愛するペットとともに豊かな暮らしが楽しめます。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-6 col-lg-6">
+                                <img src="images/new/1111_B.jpg" alt="1111_B" class="img-fluid">
+                            </div>
+                            <div class="col-6 col-lg-6">
+                                <img src="images/new/1111_C.jpg" alt="1111_C" class="img-fluid">
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn btn-equip"><span>共用設備を見る</span></a>
+                    </div>
+
+
                 </div>
             </section>
         </main>
