@@ -2566,3 +2566,23 @@ header .navbar .container {
     font-size: 7.5px;
   }
 }
+
+@media (max-width: 1024px) {
+  .section_list_templates.list_templates_top .list-pc.list-estate {
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+
+  .section_list_templates.list_templates_top .list-pc.list-estate li {
+    width: 48%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .section_list_templates.list_templates_top
+    .list-pc.list-estate
+    li:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
