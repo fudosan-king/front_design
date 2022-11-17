@@ -365,7 +365,7 @@
                             </li>
                         </ul>
 
-                        <a href="#modal_search" data-bs-toggle="modal" class="btn">
+                        <a href="https://www.logrenove.jp/estates/" class="btn">
                             <span>もっと物件を見る</span>
                         </a>
                     </div>
@@ -382,66 +382,66 @@
                     <div class="col-12 col-lg-12">
                         <div class="property_list">
 
-                            <div class="property_item">
+                            <a class="property_item" href="https://www.logrenove.jp/estates/facilities/near-station/">
                                 <div class="item_image">
                                     <img src="images/icons/property_01.svg" alt="property_01" class="img-fluid">
                                     <span>12</span>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="content_title">駅徒歩5分</h3>
-                                    <p class="content_description">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                                    <p class="content_description">最寄り駅から徒歩5分以内に立地する「駅近物件」を集めました。駅直結、駅の真上といった「駅前物件」も含まれます。</p>
                                 </div>
-                            </div>
-                            <div class="property_item">
+                            </a>
+                            <a class="property_item" href="https://www.logrenove.jp/estates/facilities/maisonette/">
                                 <div class="item_image">
                                     <img src="images/icons/property_02.svg" alt="property_02" class="img-fluid">
                                     <span>5</span>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="content_title">メゾネット</h3>
-                                    <p class="content_description">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                                    <p class="content_description">居室内に階段があり、複数フロアで構成されたメゾネット。マンションながら戸建ライクな生活が楽しめる人気プランです。</p>
                                 </div>
-                            </div>
-                            <div class="property_item">
+                            </a>
+                            <a class="property_item" href="https://www.logrenove.jp/estates/facilities/1st-lowrisearea/">
                                 <div class="item_image">
                                     <img src="images/icons/property_03.svg" alt="property_03" class="img-fluid">
                                     <span>2</span>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="content_title">第一種低層地域</h3>
-                                    <p class="content_description">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                                    <p class="content_description">主に戸建てが建つことを想定した閑静な住宅街の物件一覧です。落ち着いた街で暮らしたい、住環境重視の方にお勧め。</p>
                                 </div>
-                            </div>
-                            <div class="property_item">
+                            </a>
+                            <a class="property_item" href="https://www.logrenove.jp/estates/facilities/parkinglot/">
                                 <div class="item_image">
                                     <img src="images/icons/property_04.svg" alt="property_04" class="img-fluid">
                                     <span>8</span>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="content_title">駐車場相談</h3>
-                                    <p class="content_description">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                                    <p class="content_description">敷地内に駐車場を備えた物件です。専用使用権付きの物件もありますが、現段階では空き無や「相談」の物件も含まれます。</p>
                                 </div>
-                            </div>
-                            <div class="property_item">
+                            </a>
+                            <a class="property_item" href="https://www.logrenove.jp/estates/facilities/pets/">
                                 <div class="item_image">
                                     <img src="images/icons/property_05.svg" alt="property_05" class="img-fluid">
                                     <span>3</span>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="content_title">ペット相談</h3>
-                                    <p class="content_description">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                                    <p class="content_description">どの物件も細則はありますが、愛猫、愛犬と暮らせる「ペット可」物件をセレクト。大型犬や複数飼育OKの物件も。</p>
                                 </div>
-                            </div>
-                            <div class="property_item">
+                            </a>
+                            <a class="property_item" href="https://www.logrenove.jp/estates/facilities/terrace-roofbalcony/">
                                 <div class="item_image">
                                     <img src="images/icons/property_06.svg" alt="property_06" class="img-fluid">
                                     <span>12</span>
                                 </div>
                                 <div class="item_content">
                                     <h3 class="content_title">テラス・ルーフ<br />バルコニー</h3>
-                                    <p class="content_description">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                                    <p class="content_description">テラスもしくは、ルーフバルコニーを備えた物件。上階がなく、面積も広いケースが多く、圧倒的な開放感が魅力です。</p>
                                 </div>
-                            </div>
+                            </a>
 
                         </div>
                     </div>
@@ -613,7 +613,7 @@
                             </li>
                         </ul>
 
-                        <a href="#modal_search2" data-bs-toggle="modal" class="btn">
+                        <a href="https://www.logrenove.jp/mansions/" class="btn">
                             <span>もっとマンションを見る</span>
                         </a>
                     </div>
@@ -798,7 +798,7 @@
                             </li>
                         </ul>
 
-                        <a href="#modal_search" data-bs-toggle="modal" class="btn">
+                        <a href="https://www.logrenove.jp/estates/" class="btn">
                             <span>もっと物件を見る</span>
                         </a>
                     </div>
@@ -811,14 +811,14 @@
                 <div class="row">
                     <div class="col-12 col-lg-12 contact-list">
                         <div class="contact-item">
-                            <a href="#" class="btn">
+                            <a href="https://www.logrenove.jp/mailmagazine/" class="btn">
                                 <img src="images/contact_1.jpg" alt="contact_1" class="img-fluid">
                                 <p>新着物件メールに登録する</p>
                                 <img src="images/arrow-right.svg" alt="arrow-right.svg" class="img-fluid">
                             </a>
                         </div>
                         <div class="contact-item">
-                            <a href="#" class="btn">
+                            <a href="https://www.logrenove.jp/request" class="btn">
                                 <img src="images/contact_2.jpg" alt="contact_2" class="img-fluid">
                                 <p>家探しの相談をする</p>
                                 <img src="images/arrow-right.svg" alt="arrow-right.svg" class="img-fluid">
