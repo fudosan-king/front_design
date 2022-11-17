@@ -384,7 +384,7 @@
 
                             <a class="property_item" href="https://www.logrenove.jp/estates/facilities/near-station/">
                                 <div class="item_image">
-                                    <img src="images/icons/property_01.svg" alt="property_01" class="img-fluid">
+                                    <img src="images/icons/property_01.png" alt="property_01" class="img-fluid">
                                     <span>12</span>
                                 </div>
                                 <div class="item_content">
@@ -394,7 +394,7 @@
                             </a>
                             <a class="property_item" href="https://www.logrenove.jp/estates/facilities/maisonette/">
                                 <div class="item_image">
-                                    <img src="images/icons/property_02.svg" alt="property_02" class="img-fluid">
+                                    <img src="images/icons/property_02.png" alt="property_02" class="img-fluid">
                                     <span>5</span>
                                 </div>
                                 <div class="item_content">
@@ -404,7 +404,7 @@
                             </a>
                             <a class="property_item" href="https://www.logrenove.jp/estates/facilities/1st-lowrisearea/">
                                 <div class="item_image">
-                                    <img src="images/icons/property_03.svg" alt="property_03" class="img-fluid">
+                                    <img src="images/icons/property_03.png" alt="property_03" class="img-fluid">
                                     <span>2</span>
                                 </div>
                                 <div class="item_content">
@@ -414,7 +414,7 @@
                             </a>
                             <a class="property_item" href="https://www.logrenove.jp/estates/facilities/parkinglot/">
                                 <div class="item_image">
-                                    <img src="images/icons/property_04.svg" alt="property_04" class="img-fluid">
+                                    <img src="images/icons/property_04.png" alt="property_04" class="img-fluid">
                                     <span>8</span>
                                 </div>
                                 <div class="item_content">
@@ -424,7 +424,7 @@
                             </a>
                             <a class="property_item" href="https://www.logrenove.jp/estates/facilities/pets/">
                                 <div class="item_image">
-                                    <img src="images/icons/property_05.svg" alt="property_05" class="img-fluid">
+                                    <img src="images/icons/property_05.png" alt="property_05" class="img-fluid">
                                     <span>3</span>
                                 </div>
                                 <div class="item_content">
@@ -434,7 +434,7 @@
                             </a>
                             <a class="property_item" href="https://www.logrenove.jp/estates/facilities/terrace-roofbalcony/">
                                 <div class="item_image">
-                                    <img src="images/icons/property_06.svg" alt="property_06" class="img-fluid">
+                                    <img src="images/icons/property_06.png" alt="property_06" class="img-fluid">
                                     <span>12</span>
                                 </div>
                                 <div class="item_content">

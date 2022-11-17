@@ -2247,14 +2247,40 @@ header .navbar .container {
 
 .section_interested_property .property_item .item_image {
   position: relative;
+  border: 3px solid #8c7d5e;
+  border-radius: 900px;
+}
+
+.section_interested_property .property_item:nth-child(1) .item_image {
+  padding: 20px 17.6px 19px 20px;
+}
+
+.section_interested_property .property_item:nth-child(2) .item_image {
+  padding: 20px 19.5px 21px 19px;
+}
+
+.section_interested_property .property_item:nth-child(3) .item_image {
+  padding: 21px 13px 21px 8px;
+}
+
+.section_interested_property .property_item:nth-child(4) .item_image {
+  padding: 30px 12px;
+}
+
+.section_interested_property .property_item:nth-child(5) .item_image {
+  padding: 22px 20px;
+}
+
+.section_interested_property .property_item:nth-child(6) .item_image {
+  padding: 22px 20px 21px 20.5px;
 }
 
 .section_interested_property .property_item .item_image img {
-  width: 85px;
 }
 
 .section_interested_property .property_item .item_image span {
   position: absolute;
+  z-index: 10;
   top: 0;
   right: -4px;
   font-family: "SF Pro";
