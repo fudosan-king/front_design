@@ -40,7 +40,7 @@
             <a class="nav-link" href="https://www.logrenove.jp/magazine/">マガジン</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">物件探しを相談</a>
+            <a class="nav-link" href="https://www.logrenove.jp/request/">物件探しを相談</a>
           </li>
           <li class="nav-item search_icon" onclick="handleOpenSearch()">
             <a href="#modal_search" class="nav-link" data-bs-toggle="modal">
