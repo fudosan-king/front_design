@@ -31,14 +31,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>神宮前コーポラス 310号室 神宮前コーポラス 310号室</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都渋谷区神宮前 6-25-8</h4>
                                             <p class="address">東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -50,14 +46,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>オープンレジデンス御殿山</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都品川区北品川 5-11-20</h4>
                                             <p class="address">JR山手線・埼京線・湘南新宿ライン「大崎」駅徒歩12分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -69,14 +61,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>クレヴィア中目黒｜「中目黒」駅徒歩4分。12階角部屋、陽当たり＆眺望良好</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都目黒区青葉台 1-22-10</h4>
                                             <p class="address">東京メトロ日比谷線・東急東横線「中目黒」駅徒歩4分東急東横線「代官山」駅徒歩10分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -88,14 +76,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>日商岩井代官山マンション｜「代官山」駅徒歩1分のヴィンテージマンション</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都目黒区青葉台 1-22-10</h4>
                                             <p class="address">東京メトロ日比谷線・東急東横線「中目黒」駅徒歩4分東急東横線「代官山」駅徒歩10分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -107,14 +91,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>コスモ小石川｜「春日」駅徒歩5分、「後楽園」駅徒歩6分。4路線利用可能な都市型マンション</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都文京区小石川 3-27-6</h4>
                                             <p class="address">都営大江戸線・都営三田線「春日」駅徒歩5分東京メトロ丸の内線・東京メトロ南北線「後楽園」駅徒歩6分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -126,14 +106,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>デュオヒルズ御殿山｜御殿山に抱かれた瀟洒な低層マンション</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都品川区北品川 5-11-20</h4>
                                             <p class="address">JR山手線・埼京線・湘南新宿ライン「大崎」駅徒歩12分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -145,14 +121,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>クレヴィア中目黒｜「中目黒」駅徒歩4分。12階角部屋、陽当たり＆眺望良好</h3>
+                                            <div class="statistical">25階建/1894戸/1999年竣工</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都目黒区青葉台 1-22-10</h4>
                                             <p class="address">東京メトロ日比谷線・東急東横線「中目黒」駅徒歩4分東急東横線「代官山」駅徒歩10分</p>
-                                            <ul class="statistical">
-                                                <li>25階建</li>
-                                                <li>1894戸</li>
-                                                <li>1999年竣工</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -164,14 +136,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>日商岩井代官山マンション｜「代官山」駅徒歩1分のヴィンテージマンション</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都目黒区青葉台 1-22-10</h4>
                                             <p class="address">東京メトロ日比谷線・東急東横線「中目黒」駅徒歩4分東急東横線「代官山」駅徒歩10分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -183,14 +151,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>コスモ小石川｜「春日」駅徒歩5分、「後楽園」駅徒歩6分。4路線利用可能な都市型マンション</h3>
+                                            <div class="statistical">25階建/1894戸/1999年竣工</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都文京区小石川 3-27-6</h4>
                                             <p class="address">都営大江戸線・都営三田線「春日」駅徒歩5分東京メトロ丸の内線・東京メトロ南北線「後楽園」駅徒歩6分</p>
-                                            <ul class="statistical">
-                                                <li>25階建</li>
-                                                <li>1894戸</li>
-                                                <li>1999年竣工</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -202,14 +166,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>デュオヒルズ御殿山｜御殿山に抱かれた瀟洒な低層マンション</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都品川区北品川 5-11-20</h4>
                                             <p class="address">JR山手線・埼京線・湘南新宿ライン「大崎」駅徒歩12分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -221,14 +181,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>クレヴィア中目黒｜「中目黒」駅徒歩4分。12階角部屋、陽当たり＆眺望良好</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都目黒区青葉台 1-22-10</h4>
                                             <p class="address">東京メトロ日比谷線・東急東横線「中目黒」駅徒歩4分東急東横線「代官山」駅徒歩10分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
@@ -240,14 +196,10 @@
                                         </div>
                                         <div class="box_body">
                                             <h3>日商岩井代官山マンション｜「代官山」駅徒歩1分のヴィンテージマンション</h3>
+                                            <div class="statistical">2階/48.24㎡/1LDK</div>
                                             <p class="prices">12,000万円</p>
                                             <h4>東京都目黒区青葉台 1-22-10</h4>
                                             <p class="address">東京メトロ日比谷線・東急東横線「中目黒」駅徒歩4分東急東横線「代官山」駅徒歩10分</p>
-                                            <ul class="statistical">
-                                                <li>2階</li>
-                                                <li>48.24㎡</li>
-                                                <li>1LDK</li>
-                                            </ul>
                                         </div>
                                     </a>
                                 </li>
