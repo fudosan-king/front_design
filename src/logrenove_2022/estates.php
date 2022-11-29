@@ -23,7 +23,7 @@
                                 <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
                             </p>
 
-                            <p class="totalprocess">全 <span>11</span> 件　新着＆更新 <span class="pink">2</span> 件</p>
+                            <p class="totalprocess">全 <span>11</span> 件</p>
                             <ul class="list_content">
                                 <li>
                                     <a href="estates_detail.php">

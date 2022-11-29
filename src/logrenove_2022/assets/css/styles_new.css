@@ -1815,6 +1815,7 @@ header .navbar .container {
 
 .basic_item img {
   object-fit: cover;
+  aspect-ratio: 52/35;
 }
 
 .item_title {
@@ -1824,8 +1825,13 @@ header .navbar .container {
   font-size: 16px;
   line-height: 160%;
   color: #424242;
-  min-height: 80px;
+  min-height: 78px;
   margin: 11px 0 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .item_descripton {
@@ -2293,6 +2299,8 @@ header .navbar .container {
   padding: 8px;
   border-radius: 100px;
   width: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .section_interested_property .property_list {
@@ -2998,6 +3006,7 @@ header .navbar .container {
   font-weight: 700;
   font-size: 1.125em;
   color: #CA6407;
+  word-break: break-all;
 }
 
 .section_list_templates .list_content li .box_body .prices {
