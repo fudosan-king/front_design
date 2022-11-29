@@ -1815,6 +1815,7 @@ header .navbar .container {
 
 .basic_item img {
   object-fit: cover;
+  aspect-ratio: 52/35;
 }
 
 .item_title {
@@ -2293,6 +2294,8 @@ header .navbar .container {
   padding: 8px;
   border-radius: 100px;
   width: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .section_interested_property .property_list {
@@ -2998,6 +3001,7 @@ header .navbar .container {
   font-weight: 700;
   font-size: 1.125em;
   color: #CA6407;
+  word-break: break-all;
 }
 
 .section_list_templates .list_content li .box_body .prices {
