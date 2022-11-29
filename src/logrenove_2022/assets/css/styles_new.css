@@ -2185,12 +2185,12 @@ header .navbar .container {
   margin-bottom: 0;
 }
 
-.section_list_templates.list_templates_top .totalprocess {
+.section_list_templates .totalprocess {
   display: flex;
   justify-content: flex-end;
 }
 
-.section_list_templates.list_templates_top .totalprocess {
+.section_list_templates .totalprocess {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 600;
@@ -2202,7 +2202,7 @@ header .navbar .container {
   color: #424242;
 }
 
-.section_list_templates.list_templates_top .totalprocess>span:nth-child(2) {
+.section_list_templates .totalprocess>span:nth-child(2) {
   color: #ce6f18;
 }
 
