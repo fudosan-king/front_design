@@ -43,14 +43,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>神宮前コーポラス 310号室</h3>
+                                        <div class="statistical">2階/48.24㎡/1LDK</div>
                                         <p class="prices">12,000万円<span>価格改定</span></p>
                                         <h4>東京都港区芝浦 4-10-1</h4>
                                         <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
-                                        <ul class="statistical">
-                                            <li>27階</li>
-                                            <li>42.79m²</li>
-                                            <li>1LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -64,14 +60,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>マンシヨン小石川台609号室</h3>
+                                        <div class="statistical">6階/53.48m²/2LDK</div>
                                         <p class="prices">5,990万円<span>価格改定</span></p>
                                         <h4>東京都文京区大塚 5-3-10</h4>
                                         <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
-                                        <ul class="statistical">
-                                            <li>6階</li>
-                                            <li>53.48m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -85,14 +77,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>グリーンハイム梅丘Ⅱ204号室</h3>
+                                        <div class="statistical">2階/57.61m²/2LDK</div>
                                         <p class="prices">5,980万円<span>価格改定</span></p>
                                         <h4>東京都世田谷区梅丘 ３丁目１０−２３</h4>
                                         <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
-                                        <ul class="statistical">
-                                            <li>2階</li>
-                                            <li>57.61m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -106,14 +94,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>オープンレジデンシア神楽坂ウェスト・テラス104号室</h3>
+                                        <div class="statistical">-/65.94m²/2LDK</div>
                                         <p class="prices">7,980万円<span>価格改定</span></p>
                                         <h4>東京都新宿区納戸町 28-1</h4>
                                         <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
-                                        <ul class="statistical">
-                                            <li>-</li>
-                                            <li>65.94m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -126,14 +110,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>参宮橋コーポラス401号室</h3>
+                                        <div class="statistical">4階/64.50m²/2LDK</div>
                                         <p class="prices">5,999万円<span>価格改定</span></p>
                                         <h4>東京都渋谷区代々木 3-33-14</h4>
                                         <p class="address">京王新線「初台」駅 徒歩7分<br></p>
-                                        <ul class="statistical">
-                                            <li>4階</li>
-                                            <li>64.50m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -146,14 +126,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>芝パーク・タワー1106号室</h3>
+                                        <div class="statistical">11階/67.20m²/2LDK</div>
                                         <p class="prices">12,180万円</p>
                                         <h4>東京都港区芝 3-34-1</h4>
                                         <p class="address">都営三田線「三田」駅 徒歩4分<br></p>
-                                        <ul class="statistical">
-                                            <li>11階</li>
-                                            <li>67.20m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -166,14 +142,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>プレシス中野哲学堂パークフロント304号室</h3>
+                                        <div class="statistical">3階/52.91m²/2LDK</div>
                                         <p class="prices">6,180万円</p>
                                         <h4>東京都中野区松が丘 2-31-12</h4>
                                         <p class="address">西武新宿線「新井薬師前」駅 徒歩11分<br></p>
-                                        <ul class="statistical">
-                                            <li>3階</li>
-                                            <li>52.91m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -186,14 +158,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>藤和シティスクエア三田サウスウイング702号室</h3>
+                                        <div class="statistical">7階/57.60m²/1LDK</div>
                                         <p class="prices">8,999万円</p>
                                         <h4>東京都港区三田 2-13-6</h4>
                                         <p class="address">都営三田線他「三田」駅 徒歩6分<br></p>
-                                        <ul class="statistical">
-                                            <li>7階</li>
-                                            <li>57.60m²</li>
-                                            <li>1LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -209,14 +177,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>神宮前コーポラス 310号室</h3>
+                                        <div class="statistical">27階/42.79m²/1LDK</div>
                                         <p class="prices">12,000万円<span>価格改定</span></p>
                                         <h4>東京都港区芝浦 4-10-1</h4>
                                         <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
-                                        <ul class="statistical">
-                                            <li>27階</li>
-                                            <li>42.79m²</li>
-                                            <li>1LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -230,14 +194,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>マンシヨン小石川台609号室</h3>
+                                        <div class="statistical">6階/53.48m²/2LDK</div>
                                         <p class="prices">5,990万円<span>価格改定</span></p>
                                         <h4>東京都文京区大塚 5-3-10</h4>
                                         <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
-                                        <ul class="statistical">
-                                            <li>6階</li>
-                                            <li>53.48m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -251,14 +211,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>グリーンハイム梅丘Ⅱ204号室</h3>
+                                        <div class="statistical">2階/57.61m²/2LDK</div>
                                         <p class="prices">5,980万円<span>価格改定</span></p>
                                         <h4>東京都世田谷区梅丘 ３丁目１０−２３</h4>
                                         <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
-                                        <ul class="statistical">
-                                            <li>2階</li>
-                                            <li>57.61m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -272,14 +228,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>オープンレジデンシア神楽坂ウェスト・テラス104号室</h3>
+                                        <div class="statistical">-/65.94m²/2LDK</div>
                                         <p class="prices">7,980万円<span>価格改定</span></p>
                                         <h4>東京都新宿区納戸町 28-1</h4>
                                         <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
-                                        <ul class="statistical">
-                                            <li>-</li>
-                                            <li>65.94m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -292,14 +244,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>参宮橋コーポラス401号室</h3>
+                                        <div class="statistical">4階/64.50m²/2LDK</div>
                                         <p class="prices">5,999万円<span>価格改定</span></p>
                                         <h4>東京都渋谷区代々木 3-33-14</h4>
                                         <p class="address">京王新線「初台」駅 徒歩7分<br></p>
-                                        <ul class="statistical">
-                                            <li>4階</li>
-                                            <li>64.50m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -312,14 +260,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>芝パーク・タワー1106号室</h3>
+                                        <div class="statistical">11階/67.20m²/2LDK</div>
                                         <p class="prices">12,180万円</p>
                                         <h4>東京都港区芝 3-34-1</h4>
                                         <p class="address">都営三田線「三田」駅 徒歩4分<br></p>
-                                        <ul class="statistical">
-                                            <li>11階</li>
-                                            <li>67.20m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -332,14 +276,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>プレシス中野哲学堂パークフロント304号室</h3>
+                                        <div class="statistical">3階/52.91m²/2LDK</div>
                                         <p class="prices">6,180万円</p>
                                         <h4>東京都中野区松が丘 2-31-12</h4>
                                         <p class="address">西武新宿線「新井薬師前」駅 徒歩11分<br></p>
-                                        <ul class="statistical">
-                                            <li>3階</li>
-                                            <li>52.91m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -352,14 +292,10 @@
                                     </div>
                                     <div class="box_body">
                                         <h3>藤和シティスクエア三田サウスウイング702号室</h3>
+                                        <div class="statistical">7階/57.60m²/1LDK</div>
                                         <p class="prices">8,999万円</p>
                                         <h4>東京都港区三田 2-13-6</h4>
                                         <p class="address">都営三田線他「三田」駅 徒歩6分<br></p>
-                                        <ul class="statistical">
-                                            <li>7階</li>
-                                            <li>57.60m²</li>
-                                            <li>1LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -641,16 +577,12 @@
                                         <img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid lazyloaded" data-src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" decoding="async"><noscript><img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/02225406/s-20220920104549_01.jpg" alt="" class="img-fluid" data-eio="l"></noscript>
                                         <span class="label_black">リノベ済</span>
                                     </div>
-                                    <div class="box_body mansion_box_body">
+                                    <div class="box_body">
                                         <h3>神宮前コーポラス 310号室</h3>
+                                        <div class="statistical">27階/42.79m²/1LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都港区芝浦 4-10-1</h4>
                                         <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
-                                        <ul class="statistical">
-                                            <li>27階</li>
-                                            <li>42.79m²</li>
-                                            <li>1LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -663,14 +595,10 @@
                                     </div>
                                     <div class="box_body mansion_box_body">
                                         <h3>マンシヨン小石川台609号室</h3>
+                                        <div class="statistical">6階/53.48m²/2LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都文京区大塚 5-3-10</h4>
                                         <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
-                                        <ul class="statistical">
-                                            <li>6階</li>
-                                            <li>53.48m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -683,14 +611,10 @@
                                     </div>
                                     <div class="box_body mansion_box_body">
                                         <h3>グリーンハイム梅丘Ⅱ204</h3>
+                                        <div class="statistical">2階/57.61m²/2LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都世田谷区梅丘 ３丁目</h4>
                                         <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
-                                        <ul class="statistical">
-                                            <li>2階</li>
-                                            <li>57.61m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -703,14 +627,10 @@
                                     </div>
                                     <div class="box_body mansion_box_body">
                                         <h3>神宮前コーポラス 310号室</h3>
+                                        <div class="statistical">-/65.94m²/2LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都新宿区納戸町 28-1</h4>
                                         <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
-                                        <ul class="statistical">
-                                            <li>-</li>
-                                            <li>65.94m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -725,14 +645,10 @@
                                     </div>
                                     <div class="box_body mansion_box_body">
                                         <h3>神宮前コーポラス 310号室</h3>
+                                        <div class="statistical">27階/42.79m²/1LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都港区芝浦 4-10-1</h4>
                                         <p class="address">JR山手線ほか「田町」駅 徒歩8分<br></p>
-                                        <ul class="statistical">
-                                            <li>27階</li>
-                                            <li>42.79m²</li>
-                                            <li>1LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -745,14 +661,10 @@
                                     </div>
                                     <div class="box_body mansion_box_body">
                                         <h3>マンシヨン小石川台609号室</h3>
+                                        <div class="statistical">6階/53.48m²/2LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都文京区大塚 5-3-10</h4>
                                         <p class="address">東京メトロ丸ノ内線「新大塚」駅 徒歩2分<br></p>
-                                        <ul class="statistical">
-                                            <li>6階</li>
-                                            <li>53.48m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -765,14 +677,10 @@
                                     </div>
                                     <div class="box_body mansion_box_body">
                                         <h3>グリーンハイム梅丘Ⅱ204</h3>
+                                        <div class="statistical">2階/57.61m²/2LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都世田谷区梅丘 ３丁目</h4>
                                         <p class="address">小田急小田原線「梅ヶ丘」駅 徒歩9分<br></p>
-                                        <ul class="statistical">
-                                            <li>2階</li>
-                                            <li>57.61m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
@@ -785,14 +693,10 @@
                                     </div>
                                     <div class="box_body mansion_box_body">
                                         <h3>神宮前コーポラス 310号室</h3>
+                                        <div class="statistical">-/65.94m²/2LDK</div>
                                         <p class="prices">12,000万円</p>
                                         <h4>東京都新宿区納戸町 28-1</h4>
                                         <p class="address">都営⼤江⼾線「⽜込神楽坂」駅 徒歩6分<br></p>
-                                        <ul class="statistical">
-                                            <li>-</li>
-                                            <li>65.94m²</li>
-                                            <li>2LDK</li>
-                                        </ul>
                                     </div>
                                 </a>
                             </li>
