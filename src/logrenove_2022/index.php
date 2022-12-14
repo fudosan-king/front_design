@@ -290,14 +290,14 @@
                             
                             <ul class="bg-transparent mt-2">                                
                                 <li>
-                                    <a href="https://staging.logrenove.jp/estates/facilities/%e9%a7%90%e8%bc%aa%e5%a0%b4%e3%81%82%e3%82%8a/?post_type=estates">
-                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐輪場あり.svg" alt="駐輪場あり" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐輪場あり.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐輪場あり.svg" alt="駐輪場あり" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <a href="#">
+                                        <img src="assets/images/icons/駐輪場あり.svg" alt="駐輪場あり" class="img-fluid ls-is-cached lazyloaded" width="40">
                                         <span>駐輪場あり</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://staging.logrenove.jp/estates/facilities/pet/?post_type=estates">
-                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ペット可.svg" alt="ペット可" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ペット可.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ペット可.svg" alt="ペット可" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <img src="images/icons/i_pet.svg" alt="ペット可" class="img-fluid ls-is-cached lazyloaded" width="40">
                                         <span>ペット可</span>
                                     </a>
                                 </li>
