@@ -457,7 +457,7 @@
                                     <span>床暖房</span>
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="https://staging.logrenove.jp/estates/facilities/%e7%ac%ac%e4%b8%80%e7%a8%ae%e4%bd%8e%e5%b1%a4%e5%9c%b0%e5%9f%9f/?post_type=estates">
                                     <img src="assets/images/icons/第一種低層地域.svg" alt="第一種低層地域" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="assets/images/icons/第一種低層地域.svg" decoding="async"><noscript><img src="assets/images/icons/第一種低層地域.svg" alt="第一種低層地域" class="img-fluid" width="40" data-eio="l"></noscript>
                                     <span>第一種低層地域</span>
@@ -474,7 +474,7 @@
                                     <img src="assets/images/icons/駅直結.svg" alt="駅直結" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅直結.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅直結.svg" alt="駅直結" class="img-fluid" width="40" data-eio="l"></noscript>
                                     <span>駅直結</span>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
 
                             <ul>
