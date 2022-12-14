@@ -1117,3 +1117,80 @@ header {
         }
     }
 }
+
+// icon list
+.section_discerningequipment {
+    ul {
+        &:first-of-type {
+            padding: 10px 0;
+            margin: 0 -30px 30px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            li {
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0 5px;
+                }
+                &::after {
+                    right: 0;
+                    height: 40px;
+                }
+                span {
+                    min-height: 33px;
+                    line-height: 1.5em;
+                }
+            }
+        }
+    }
+}
+.section_discerningequipment>.container .bg-transparent li {
+    width: 88px;
+    margin-bottom: 10px ;
+}
+
+
+@media (max-width: 926px) {
+    .section_discerningequipment {
+        ul {
+            &:first-of-type {
+                margin: 0 -15px 30px;
+            }
+        }
+    }
+    .section_area .carousel.carousel_conditions .flickity-prev-next-button.next {
+        right: 10px;
+    }
+    .section_detailproperty {
+        .figure {
+            overflow: hidden;
+        }
+    }
+}
+
+@media (max-width: 834px) {
+    .section_discerningequipment>.container .bg-transparent li {
+        width: 20%;
+    }
+}
+
+@media (max-width: 428px) {
+    .section_discerningequipment>.container .bg-transparent li {
+        width: 20%;
+    }
+    .section_discerningequipment {
+        ul {
+            &:first-of-type {
+                justify-content: space-between;
+                margin: 0 0 30px;
+                li {
+                    &::after {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}

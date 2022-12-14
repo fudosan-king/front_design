@@ -3,7 +3,7 @@
     <?php include('head.php'); ?>
     <body>
 
-        <?php require('header.php'); ?>
+        
 
         <main>
             <section class="section_banner">
@@ -287,62 +287,195 @@
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <h2 class="title">こだわりの設備概要</h2>
-                            <ul>
+                            
+                            <ul class="bg-transparent mt-2">                                
                                 <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_quietarea.svg" alt="i_quietarea" class="img-fluid" width="40">
-                                        <span>閑静な住宅街</span>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/%e9%a7%90%e8%bc%aa%e5%a0%b4%e3%81%82%e3%82%8a/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐輪場あり.svg" alt="駐輪場あり" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐輪場あり.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐輪場あり.svg" alt="駐輪場あり" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>駐輪場あり</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_autolock.svg" alt="i_autolock" class="img-fluid" width="40">
-                                        <span>オートロック</span>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/pet/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ペット可.svg" alt="ペット可" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ペット可.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ペット可.svg" alt="ペット可" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>ペット可</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_concierge.svg" alt="i_concierge" class="img-fluid" width="40">
-                                        <span>コンシェルジュ</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_deliverybox.svg" alt="i_deliverybox" class="img-fluid" width="40">
-                                        <span>宅配ボックス</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_parking.svg" alt="i_parking" class="img-fluid" width="40">
-                                        <span>駐車場相談</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_gasstove.svg" alt="i_gasstove" class="img-fluid" width="40">
-                                        <span>オール家電</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_terrace.svg" alt="i_terrace" class="img-fluid" width="40">
+                                    <a href="https://staging.logrenove.jp/estates/facilities/%e8%a7%92%e9%83%a8%e5%b1%8b/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/角部屋.svg" alt="角部屋" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/角部屋.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/角部屋.svg" alt="角部屋" class="img-fluid" width="40" data-eio="l"></noscript>
                                         <span>角部屋</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_floorheat.svg" alt="" class="img-fluid" width="40">
-                                        <span>床暖部完備</span>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/%e9%a7%90%e8%bb%8a%e5%a0%b4%e3%81%82%e3%82%8a/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐車場あり.svg" alt="駐車場あり" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐車場あり.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駐車場あり.svg" alt="駐車場あり" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>駐車場あり</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <img src="images/icons/i_pet.svg" alt="i_pet" class="img-fluid" width="40">
-                                        <span>ペット相談</span>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/%e5%ae%85%e9%85%8d%e3%83%9c%e3%83%83%e3%82%af%e3%82%b9/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/宅配ボックス.svg" alt="宅配ボックス" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/宅配ボックス.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/宅配ボックス.svg" alt="宅配ボックス" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>宅配ボックス</span>
                                     </a>
                                 </li>
-                            </ul>
+                                <li>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%b3%e3%83%b3%e3%82%b7%e3%82%a7%e3%83%ab%e3%82%b8%e3%83%a5/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/コンシェルジュ.svg" alt="コンシェルジュ" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/コンシェルジュ.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/コンシェルジュ.svg" alt="コンシェルジュ" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>コンシェルジュ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%aa%e3%83%bc%e3%83%88%e3%83%ad%e3%83%83%e3%82%af/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/オートロック.svg" alt="オートロック" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/オートロック.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/オートロック.svg" alt="オートロック" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>オートロック</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/%e9%96%91%e9%9d%99%e3%81%aa%e4%bd%8f%e5%ae%85%e8%a1%97/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/閑静な住宅街.svg" alt="閑静な住宅街" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/閑静な住宅街.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/閑静な住宅街.svg" alt="閑静な住宅街" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>閑静な住宅街</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/1%e3%83%95%e3%83%ad%e3%82%a21%e4%bd%8f%e6%88%b8/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/1フロア1住戸.svg" alt="1フロア1住戸" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/1フロア1住戸.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/1フロア1住戸.svg" alt="1フロア1住戸" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>1フロア1住戸</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/ih%e3%82%af%e3%83%83%e3%82%ad%e3%83%b3%e3%82%b0%e3%83%92%e3%83%bc%e3%82%bf%e3%83%bc/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/IHクッキングヒーター.svg" alt="IHクッキングヒーター" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/IHクッキングヒーター.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/IHクッキングヒーター.svg" alt="IHクッキングヒーター" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>IHクッキングヒーター</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://staging.logrenove.jp/estates/facilities/ld20%e5%b8%96%e4%bb%a5%e4%b8%8a/?post_type=estates">
+                                        <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/LD20帖以上.svg" alt="LD20帖以上" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/LD20帖以上.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/LD20帖以上.svg" alt="LD20帖以上" class="img-fluid" width="40" data-eio="l"></noscript>
+                                        <span>LD20帖以上</span>
+                                    </a>
+                                </li>
+                                                        <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/ld30%e5%b8%96%e4%bb%a5%e4%b8%8a/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/LD30帖以上.svg" alt="LD30帖以上" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/LD30帖以上.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/LD30帖以上.svg" alt="LD30帖以上" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>LD30帖以上</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%a6%e3%82%a9%e3%83%bc%e3%82%af%e3%82%a4%e3%83%b3%e3%82%af%e3%83%ad%e3%83%bc%e3%82%bc%e3%83%83%e3%83%88/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ウォークインクローゼット.svg" alt="ウォークインクローゼット" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ウォークインクローゼット.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ウォークインクローゼット.svg" alt="ウォークインクローゼット" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>ウォークインクローゼット</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%aa%e3%83%bc%e3%83%ab%e9%9b%bb%e5%8c%96/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/オール電化.svg" alt="オール電化" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/オール電化.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/オール電化.svg" alt="オール電化" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>オール電化</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%ab%e3%82%a6%e3%83%b3%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/カウンターキッチン.svg" alt="カウンターキッチン" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/カウンターキッチン.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/カウンターキッチン.svg" alt="カウンターキッチン" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>カウンターキッチン</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%ac%e3%82%b9%e3%82%b3%e3%83%b3%e3%83%ad/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ガスコンロ.svg" alt="ガスコンロ" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ガスコンロ.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ガスコンロ.svg" alt="ガスコンロ" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>ガスコンロ</span>
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%b7%e3%83%a5%e3%83%bc%e3%82%ba%e3%82%a4%e3%83%b3%e3%82%af%e3%83%ad%e3%83%bc%e3%82%bc%e3%83%83%e3%83%88/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/シューズインクローゼット.svg" alt="シューズインクローゼット" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/シューズインクローゼット.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/シューズインクローゼット.svg" alt="シューズインクローゼット" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>シューズインクローゼット</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%84%e3%82%b8%e3%83%a0/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/スポーツジム.svg" alt="スポーツジム" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/スポーツジム.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/スポーツジム.svg" alt="スポーツジム" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>スポーツジム</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%83%86%e3%83%a9%e3%82%b9%e3%83%bb%e3%83%ab%e3%83%bc%e3%83%95%e3%83%90%e3%83%ab%e3%82%b3%e3%83%8b%e3%83%bc/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/テラス・ルーフバルコニー.svg" alt="テラス・ルーフバルコニー" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/テラス・ルーフバルコニー.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/テラス・ルーフバルコニー.svg" alt="テラス・ルーフバルコニー" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>テラス・ルーフバルコニー</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%83%87%e3%82%a3%e3%82%b9%e3%83%9d%e3%83%bc%e3%82%b6%e3%83%bc/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ディスポーザー.svg" alt="ディスポーザー" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ディスポーザー.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/ディスポーザー.svg" alt="ディスポーザー" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>ディスポーザー</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%83%88%e3%83%a9%e3%83%b3%e3%82%af%e3%83%ab%e3%83%bc%e3%83%a0/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/トランクルーム.svg" alt="トランクルーム" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/トランクルーム.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/トランクルーム.svg" alt="トランクルーム" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>トランクルーム</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%83%90%e3%82%a4%e3%82%af%e7%bd%ae%e3%81%8d%e5%a0%b4%e3%81%82%e3%82%8a/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/バイク置き場あり.svg" alt="バイク置き場あり" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/バイク置き場あり.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/バイク置き場あり.svg" alt="バイク置き場あり" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>バイク置き場あり</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%83%a1%e3%82%be%e3%83%8d%e3%83%83%e3%83%88/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/メゾネット.svg" alt="メゾネット" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/メゾネット.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/メゾネット.svg" alt="メゾネット" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>メゾネット</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e3%83%aa%e3%83%8e%e3%83%99%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e6%b8%88/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/リノベーション済.svg" alt="リノベーション済" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/リノベーション済.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/リノベーション済.svg" alt="リノベーション済" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>リノベーション済</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e5%85%a8%e9%9d%a2%e3%83%95%e3%83%ad%e3%83%bc%e3%83%aa%e3%83%b3%e3%82%b0/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/全面フローリング.svg" alt="全面フローリング" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/全面フローリング.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/全面フローリング.svg" alt="全面フローリング" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>全面フローリング</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e5%88%b6%e9%9c%87%e3%83%bb%e5%85%8d%e9%9c%87/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/制震・免震.svg" alt="制震・免震" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/制震・免震.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/制震・免震.svg" alt="制震・免震" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>制震・免震</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e5%b0%82%e6%9c%89%e9%9d%a2%e7%a9%8d150%e5%b9%b3%e7%b1%b3%e4%bb%a5%e4%b8%8a/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/専有面積150平米以上.svg" alt="専有面積150平米以上" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/専有面積150平米以上.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/専有面積150平米以上.svg" alt="専有面積150平米以上" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>専有面積150平米以上</span>
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e5%ba%8a%e6%9a%96%e6%88%bf/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/床暖房.svg" alt="床暖房" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/床暖房.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/床暖房.svg" alt="床暖房" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>床暖房</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e7%ac%ac%e4%b8%80%e7%a8%ae%e4%bd%8e%e5%b1%a4%e5%9c%b0%e5%9f%9f/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/第一種低層地域.svg" alt="第一種低層地域" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/第一種低層地域.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/第一種低層地域.svg" alt="第一種低層地域" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>第一種低層地域</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e9%a7%85%e5%be%92%e6%ad%a95%e5%88%86%e4%bb%a5%e5%86%85/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅徒歩5分以内.svg" alt="駅徒歩5分以内" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅徒歩5分以内.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅徒歩5分以内.svg" alt="駅徒歩5分以内" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>駅徒歩5分以内</span>
+                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://staging.logrenove.jp/estates/facilities/%e9%a7%85%e7%9b%b4%e7%b5%90/?post_type=estates">
+                                    <img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅直結.svg" alt="駅直結" class="img-fluid ls-is-cached lazyloaded" width="40" data-src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅直結.svg" decoding="async"><noscript><img src="https://staging.logrenove.jp/wp-content/themes/logrenove2022/assets/images/facilities/駅直結.svg" alt="駅直結" class="img-fluid" width="40" data-eio="l"></noscript>
+                                    <span>駅直結</span>
+                                </a>
+                            </li>
+                        </ul>
 
                             <ul>
                                 <li>
