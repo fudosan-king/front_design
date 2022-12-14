@@ -1025,6 +1025,11 @@ header .navbar {
     width: 20%;
   }
 }
+@media (max-width: 768px) {
+  .section_discerningequipment ul:first-of-type {
+    justify-content: start;
+  }
+}
 @media (max-width: 428px) {
   .section_discerningequipment > .container .bg-transparent li {
     width: 20%;
