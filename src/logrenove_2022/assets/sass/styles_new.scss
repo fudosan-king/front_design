@@ -1212,10 +1212,32 @@ header {
         flex-wrap: wrap;
         .form-check {
             padding-left: 30px;
+            width: 20%;
             &:last-of-type {
                 border-bottom: 1px solid #e0e0e0;
             }
         }
+    }
+}
+@media (max-width: 1200px) {
+    .modal-dialog {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn_searhconditions {
+        font-size: 0.75em;
+        font-weight: 700;
+        color: #fff;
+        background: #CA6407;
+        border-radius: 4px;
+        padding: 10px 20px;
+        min-width: 160px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        position: relative;
     }
 }
 
