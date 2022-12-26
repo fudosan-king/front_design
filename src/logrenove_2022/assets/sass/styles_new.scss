@@ -1204,3 +1204,56 @@ header {
     }
 
 }
+
+
+.accordion_search {
+    .accordion-body {
+        display: flex;
+        flex-wrap: wrap;
+        .form-check {
+            padding-left: 30px;
+            &:last-of-type {
+                border-bottom: 1px solid #e0e0e0;
+            }
+        }
+    }
+}
+
+@media (max-width: 834px) {
+    .modal-dialog {
+        max-width: 100%;
+    }
+    .modal_search {
+        table {
+            width: 100%;
+            tr {
+                th {
+                    width: 100%;
+                    display: block;
+                }
+                td {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .modal_search {
+        label {
+            font-size: 0.7em;
+        }
+        .accordion_search {
+            .accordion-body {
+                .form-check {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    margin-bottom: 0;
+                    width: 33%;
+                    border-right: 1px solid #e0e0e0;
+                }
+            }
+        }
+    }
+}
