@@ -1266,16 +1266,34 @@ header {
         label {
             font-size: 0.7em;
         }
+        .form-check-input {
+            margin-top: 0;
+        }
         .accordion_search {
             .accordion-body {
                 .form-check {
                     padding-left: 10px;
                     padding-right: 10px;
+                    padding-bottom: 5px;
                     margin-bottom: 0;
                     width: 33%;
                     border-right: 1px solid #e0e0e0;
                 }
             }
         }
+        table {
+            tr {
+                td {
+                    &.w_accordion_search {
+                        display: block;
+                    }
+                }
+            }
+        }
     }
+    .btn_showhide_accordion {
+        display: none;
+    }
+
+    
 }
