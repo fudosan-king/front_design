@@ -1195,6 +1195,9 @@ header .navbar .container {
   footer ul.social li {
     margin-right: 15px;
   }
+  footer ul.social li:last-of-type {
+    margin-right: 0;
+  }
   footer .footer_top p {
     margin-bottom: 10px;
   }
