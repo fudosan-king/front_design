@@ -15,4 +15,5 @@
 <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 <link rel="stylesheet" href="css/flickity.min.css" type="text/css">
 <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+<link rel="stylesheet" href="assets/css/styles_ninh.css" type="text/css">
 <link rel="stylesheet" href="assets/css/styles_new.css" type="text/css">
