@@ -1307,6 +1307,11 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .footer_top {
+        p {
+            margin-bottom: 30px;
+        }
+    }
     ul {
         align-items: center;
         li {
@@ -1367,20 +1372,47 @@ header {
     padding-left: 30px;
     padding-right: 30px;
     display: inline-flex;
+    height: 37px;
 }
 
 @media (max-width: 820px) {
     footer {
+        padding: 30px 0;
         .w_list {
             flex-direction: column;
         }
         ul {
+            li {
+                margin-right: 0;
+                margin-bottom: 5px;
+            }
             &.social {
                 margin-left: 0;
                 margin-top: 15px;
                 flex-direction: row;
+                li {
+                    margin-right: 15px;
+                }
             }
         }
+        .footer_top {
+            p {
+                margin-bottom: 10px;
+            }
+        }
+        .footer_bottom {
+            ul {
+                li {
+                    margin-right: 15px;
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .btn_mailmagazine {
+        margin-top: 20px;
     }
 }
 
