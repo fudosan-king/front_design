@@ -865,10 +865,10 @@ header .navbar {
 @media (max-width: 768px) {
   .section_banner {
     margin-top: 0;
-    height: 200px;
+    height: 300px;
   }
   .section_banner img {
-    height: 200px;
+    height: 300px;
   }
 
   .section_topinfo {
@@ -1111,5 +1111,84 @@ header .navbar {
 
   .btn_showhide_accordion {
     display: none;
+  }
+}
+main {
+  margin-bottom: 0;
+}
+
+footer {
+  padding-bottom: 40px;
+}
+footer .w_list {
+  display: flex;
+  justify-content: center;
+}
+footer ul {
+  align-items: center;
+}
+footer ul.social {
+  margin-left: 15px;
+}
+footer ul.social li a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  background: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  color: #262626;
+  text-align: center;
+}
+footer ul.social li a svg {
+  width: 14px;
+  height: 16px;
+}
+
+header .navbar .container {
+  padding-left: 15px;
+}
+
+.section_interested_property .property_item .item_image {
+  background: #fff;
+}
+
+.section_renovation .contact-item {
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.btn_mailmagazine {
+  background: #fff;
+  border-radius: 100px;
+  color: #000;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-flex;
+}
+
+@media (max-width: 820px) {
+  footer .w_list {
+    flex-direction: column;
+  }
+  footer ul.social {
+    margin-left: 0;
+    margin-top: 15px;
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .renovation_top_page {
+    border-bottom: none;
+  }
+}
+@media (max-width: 428px) {
+  .section_banner .btn {
+    width: 90%;
   }
 }
