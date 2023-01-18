@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12 col-lg-12">
                     <p><a href="#"><img src="images/icons/LogRenove_logo_white.svg" alt="LogRenove_logo_white" class="img-fluid" width="210"></a></p>
-                    <p class="mb-4"><a class="btn btn_mailmagazine" target="_blank" href="https://www.logrenove.jp/mailmagazine/"><img src="images/icons/i_email.svg" alt="icon email" class="img-fluid me-2" width="24"> 新着物件情報メルマガ登録</a></p>
+                    <p class="mb-4"><a class="btn btn_mailmagazine" target="_blank" href="https://www.logrenove.jp/mailmagazine/"><img src="images/icons/i_email.svg" alt="icon email" class="img-fluid me-2" width="24"> メルマガ登録はこちら</a></p>
                     <div class="w_list">
                         <ul>
                             <li><a href="https://www.logrenove.jp/about/" target="">ログリノベについて</a></li>
