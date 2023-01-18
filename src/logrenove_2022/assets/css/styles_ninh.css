@@ -1789,7 +1789,8 @@ header .navbar .container {
     padding: 0px 18px 0 40px;
   }
 
-  .section_renovation .item-description-details {
+  .section_renovation .item-description-details,
+  .point-item.only-text .item-description-details {
     padding: 0;
   }
 }
@@ -2129,7 +2130,8 @@ header .navbar .container {
     padding: 30px 0 62px;
   }
 
-  .section_renovation .item-description-details {
+  .section_renovation .item-description-details,
+  .point-item.only-text .item-description-details {
     padding-left: 0px;
   }
 
