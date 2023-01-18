@@ -173,6 +173,86 @@
                             </div>
                         </div>
 
+                        <div class="point-item only-text">
+                            <div>
+                                <!-- <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img"> -->
+                            </div>
+                            <div class="col-12">
+                                <div class="item-description">
+                                    <div class="item-description-details">
+                                        <h3 class="details-title">上質なデザイン、設備</h3>
+                                        <div class="details-text">
+                                            <p>私たちは、天然木を使った「リノベーション施工」を1500件以上行ってきました。だからこそ、リノベ物件への視線は自ずと厳しくなります。</p>
+                                            <p>そんな私たちの審美眼にかなった物件だけを紹介しています。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-xl-block d-lg-block">
+                                <!-- <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img"> -->
+                            </div>
+                        </div>
+
+                        <div class="point-item only-text">
+                            <div>
+                                <!-- <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img"> -->
+                            </div>
+                            <div class="col-12">
+                                <div class="item-description">
+                                    <div class="item-description-details">
+                                        <h3 class="details-title">上質なデザイン、設備</h3>
+                                        <div class="details-text">
+                                            <p>私たちは、天然木を使った「リノベーション施工」を1500件以上行ってきました。だからこそ、リノベ物件への視線は自ずと厳しくなります。</p>
+                                            <p>そんな私たちの審美眼にかなった物件だけを紹介しています。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-xl-block d-lg-block">
+                                <!-- <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img"> -->
+                            </div>
+                        </div>
+
+                        <div class="point-item">
+                            <div class="col-12">
+                                <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
+                            </div>
+                            <div class="col-12">
+                                <div class="item-description">
+                                    <div class="item-description-details">
+                                        <h3 class="details-title">都心での心地よい暮らし</h3>
+                                        <div class="details-text">
+                                            <p>最寄り駅が同じでも、エリアによって街の雰囲気は大きく変わります。</p>
+                                            <p>長年、都心の物件を手掛けている私たちだから分かる、心地よい暮らしを提案いたします。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-xl-block d-lg-block col-12">
+                                <img src="images/renovation_img_1.jpg" alt="renovation_img_1" class="img-fluid item-img">
+                            </div>
+                        </div>
+
+                        <div class="point-item">
+                            <div class="col-12">
+                                <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img">
+                            </div>
+                            <div class="col-12">
+                                <div class="item-description">
+                                    <div class="item-description-details">
+                                        <h3 class="details-title">上質なデザイン、設備</h3>
+                                        <div class="details-text">
+                                            <p>私たちは、天然木を使った「リノベーション施工」を1500件以上行ってきました。だからこそ、リノベ物件への視線は自ずと厳しくなります。</p>
+                                            <p>そんな私たちの審美眼にかなった物件だけを紹介しています。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-xl-block d-lg-block col-12">
+                                <img src="images/renovation_img_2.jpg" alt="renovation_img_2" class="img-fluid item-img">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -39,8 +39,11 @@
           <li class="nav-item">
             <a class="nav-link" href="https://www.logrenove.jp/magazine/">マガジン</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item bg-orange">
             <a class="nav-link" href="https://www.logrenove.jp/request/">物件探しを相談</a>
+          </li>
+          <li class="nav-item bg-brown">
+            <a class="nav-link" href="https://www.logrenove.jp/mailmagazine/">メルマガ登録</a>
           </li>
           <li class="nav-item search_icon" onclick="handleOpenSearch()">
             <a href="#modal_search" class="nav-link" data-bs-toggle="modal">
@@ -84,7 +87,14 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">家探しを相談
+            <a class="nav-link" href="https://www.logrenove.jp/request/">家探しを相談
+              <label>
+                <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
+              </label>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.logrenove.jp/mailmagazine/">メルマガ登録
               <label>
                 <img src="./assets/images/icons/chevron-right.svg" alt="" class="img-fluid" width="6">
               </label>
