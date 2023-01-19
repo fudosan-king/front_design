@@ -71,7 +71,7 @@
   font-size: 1.5em;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1355px) {
   .section_reservation ul.list_maininfo {
     flex-direction: column;
     margin: 0 -15px;
@@ -82,6 +82,7 @@
     width: 100%;
     padding: 15px 0;
     font-size: 1.5em;
+    border-bottom: 1px solid #000;
   }
   .section_reservation ul.list_maininfo li::after {
     display: none;
