@@ -3060,6 +3060,12 @@ i.chevron-left {
     max-width: inherit;
     min-width: 282px;
   }
+  .section_design .img_building {
+    top: -80px;
+  }
+  .section_design .img_building img {
+    width: 50%;
+  }
   .section_design .img_sumo {
     left: 15px;
   }
@@ -3208,6 +3214,12 @@ i.chevron-left {
     margin-top: 295px;
     margin-left: 15px;
     right: 15px;
+  }
+  .section_design .img_building {
+    top: -80px;
+  }
+  .section_design .img_building img {
+    width: 50%;
   }
 
   .section_story {
@@ -4079,6 +4091,7 @@ i.chevron-left {
 .img_modelroom::after {
   content: '';
   position: absolute;
+  z-index: -1;
   width: 100%;
   height: 100%;
   background: rgba(189, 189, 189, 0.2);

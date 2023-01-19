@@ -46,14 +46,28 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <img src="images/reservation_text.svg" alt="" class="img-fluid d-none d-lg-block" width="1245">
+                            <ul class="list_maininfo">
+                                <li>
+                                    <span><span class="small_text">都営浅草線</span>「蔵前」</span>
+                                    <span class="medium_text">駅徒歩</span>
+                                    <span class="big_number">５</span>
+                                    <span class="medium_text">分</span>
+                                </li>
+                                <li>全戸無垢材フローリング</li>
+                                <li>
+                                    <span class="small_number">8</span>駅
+                                    <span class="small_number">5</span>
+                                    <span class="route"><span class="note">（※１）</span>路線利用可能なアクセシビリティ</span>
+                                </li>
+                            </ul>
+                            <!-- <img src="images/reservation_text.svg" alt="" class="img-fluid d-none d-lg-block" width="1245">
                             <ul class="d-block d-lg-none">
                                 <li>
                                     <img src="images/reservation_text_01.svg" alt="" class="img-fluid">
                                 </li>
                                 <li><img src="images/reservation_text_02.svg" alt="" class="img-fluid"></li>
                                 <li><img src="images/reservation_text_03.svg" alt="" class="img-fluid"></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,117 @@
+.section_reservation {
+    padding-top: 40px;
+    ul {
+        margin: 0;
+        &.list_maininfo {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li {
+                font-size: 1.875em;
+                
+                padding: 0 15px;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    width: 1px;
+                    height: 56px;
+                    background: #221714;
+                    margin: auto;
+                }
+                &:last-of-type {
+                    padding-right: 0;
+                    &::after {
+                        display: none;
+                    }
+                    span {
+                        &.route {
+                            position: relative;
+                            display: inline;
+                        }
+                        &.note {
+                            position: absolute;
+                            right: 0;
+                            top: -20px;
+                            font-size: 0.4667em;
+                        }
+                    }
+                }
+                &:first-of-type {
+                    padding-left: 0;
+                    letter-spacing: -0.1em;
+                    span {
+                        position: relative;
+                        &.small_text {
+                            font-size: 0.4667em;
+                            letter-spacing: 0.01em;
+                            position: absolute;
+                            left: 20px;
+                            top: -25px;
+                        }
+                        &.medium_text {
+                            font-size: 1.5em; 
+                        }
+                    }
+                }
+                span {
+                    display: inline-block;
+                    &.big_number {
+                        font-size: 3.3333em;
+                        letter-spacing: -0.2em;
+                        margin-left: -20px;
+                    }
+                    &.small_number {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 834px) {
+    .section_reservation {
+        ul {
+            &.list_maininfo {
+                flex-direction: column;
+                margin: 0 -15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                li {
+                    width: 100%;
+                    padding: 15px 0;
+                    font-size: 1.5em;
+                    &::after {
+                        display: none;
+                    }
+                    &:last-of-type {
+                        span {
+                            &.route {
+                                font-size: 0.75em;
+                            }
+                        }
+                    }
+                    span {
+                        &.big_number {
+                            font-size: 2em;
+                            margin-left: 0;
+                        }
+                        &.medium_text {
+                            font-size: 1em;
+                        }
+                        &.note {
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
