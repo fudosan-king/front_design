@@ -31,9 +31,9 @@
             <div class="row">
                 <div class="col-12 col-lg-12">
                     <ul>
-                        <li><a href="#"><img src="images/LogSuite.png" alt="LogSuite" class="img-fluid" width="83"></a></li>
-                        <li><a href="#"><img src="images/LogArchitects.png" alt="LogArchitects" class="img-fluid" width="116"></a></li>
-                        <li><a href="#"><img src="images/LogKnot.png" alt="LogKnot" class="img-fluid" width="84"></a></li>
+                        <li><a href="#"><img src="images/LogSuite.png" alt="LogSuite" class="img-fluid" width="103"></a></li>
+                        <li><a href="#"><img src="images/LogArchitects.png" alt="LogArchitects" class="img-fluid" width="140"></a></li>
+                        <li><a href="#"><img src="images/LogKnot.png" alt="LogKnot" class="img-fluid" width="104"></a></li>
                     </ul>
                     <p><small>Copyright © <a target="_blank" href="index.php">LogSuite.</a> All Rights Reserved.</small></p>
                 </div>
