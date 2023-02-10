@@ -594,7 +594,7 @@
   min-width: 385px;
 }
 .modal_search .box_select.custom .form-check {
-  min-width: 145px;
+  min-width: inherit;
 }
 .modal_search .box_select.list {
   justify-content: space-between;
@@ -730,7 +730,7 @@
 
   .modal_search .btn-close {
     position: absolute;
-    top: 15px;
+    top: 30px;
     right: 15px;
   }
   .modal_search .modal-dialog {
@@ -744,7 +744,7 @@
   }
   .modal_search .modal-header {
     border-bottom: none;
-    padding-top: 50px;
+    padding-top: 15px;
   }
   .modal_search .modal-header .btn_searhconditions {
     font-size: 0.75em;
@@ -759,6 +759,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-right: 30px;
   }
   .modal_search .modal-header .btn_searhconditions span {
     display: flex;
@@ -816,7 +817,7 @@
   }
   .modal_search .box_select.custom .form-check:last-of-type label {
     position: absolute;
-    top: 5px;
+    top: 13px;
   }
   .modal_search .box_select.list {
     display: block;
@@ -1092,7 +1093,7 @@ header .navbar {
 }
 @media (max-width: 768px) {
   .modal_search label {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
   .modal_search .form-check-input {
     margin-top: 0;

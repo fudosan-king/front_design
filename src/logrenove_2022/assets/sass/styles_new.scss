@@ -687,7 +687,7 @@
         }
         &.custom {
             .form-check {
-                min-width: 145px;
+                min-width: inherit;
             }
         }
         &.list {
@@ -842,7 +842,7 @@
     .modal_search {
         .btn-close {
             position: absolute;
-            top: 15px;
+            top: 30px;
             right: 15px;
         }
         .modal-dialog {
@@ -856,7 +856,7 @@
         }
         .modal-header {
             border-bottom: none;
-            padding-top: 50px;
+            padding-top: 15px;
             .btn_searhconditions {
                 font-size: 0.75em;
                 font-weight: 700;
@@ -870,6 +870,7 @@
                 align-items: center;
                 justify-content: center;
                 position: relative;
+                margin-right: 30px;
                 span {
                     display: flex;
                     align-items: center;
@@ -928,7 +929,7 @@
                     &:last-of-type {
                         label {
                             position: absolute;
-                            top: 5px;
+                            top: 13px;
                         }
                     }
                 }
@@ -1264,7 +1265,7 @@ header {
 @media (max-width: 768px) {
     .modal_search {
         label {
-            font-size: 0.7em;
+            font-size: 0.6em;
         }
         .form-check-input {
             margin-top: 0;
