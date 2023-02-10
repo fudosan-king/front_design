@@ -904,6 +904,7 @@
         }
         .box_select {
             width: 100% !important;
+            flex-wrap: inherit;
             .form-select {
                 min-width: auto;
                 &.not_specified {
