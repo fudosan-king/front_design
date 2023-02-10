@@ -857,6 +857,7 @@
         .modal-header {
             border-bottom: none;
             padding-top: 15px;
+            padding-bottom: 15px;
             .btn_searhconditions {
                 font-size: 0.75em;
                 font-weight: 700;
@@ -962,6 +963,8 @@
             .btn_searhconditions {
                 min-width: auto;
                 width: 100%;
+                margin-top: 20px;
+                margin-bottom: 20px;
             }
         }
 
@@ -1253,6 +1256,7 @@ header {
                 th {
                     width: 100%;
                     display: block;
+                    padding-top: 5px;
                 }
                 td {
                     display: block;
