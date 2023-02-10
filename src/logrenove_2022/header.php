@@ -130,7 +130,7 @@
         <h5 class="modal-title" id="modal_search">検索条件変更</h5>
         <a href="#" class="btn btn_searhconditions d-block d-lg-none">
           <img class="img-fluid" src="assets/images/icons/i_search_white.svg" alt="i_search_white" width="18">
-          <span>この条件で検索</span>
+          <span>検索する</span>
         </a>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -379,10 +379,16 @@
                     <input class="form-check-input" type="checkbox" id="terrace_roofbalcony" value="option9_02">
                     <label class="form-check-label" for="terrace_roofbalcony">メゾネット</label>
                   </div>
+
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="show_sold_properties" value="option10">
+                    <label class="form-check-label" for="show_sold_properties">販売済の物件も表示</label>
+                  </div>
+                  
                 </div>
               </td>
             </tr>
-            <tr>
+            <!-- <tr>
               <th>表示条件</th>
               <td>
                 <div class="box_select">
@@ -392,7 +398,7 @@
                   </div>
                 </div>
               </td>
-            </tr>
+            </tr> -->
           </table>
           <p class="mb-0 text-center">
             <button type="submit" class="btn btn_searhconditions">
