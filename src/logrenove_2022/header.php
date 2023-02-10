@@ -403,7 +403,7 @@
           <p class="mb-0 text-center">
             <button type="submit" class="btn btn_searhconditions">
               <img class="img-fluid" src="assets/images/icons/i_search_white.svg" alt="i_search_white" width="18">
-              <span>この条件で検索</span>
+              <span>検索する</span>
             </button>
           </p>
         </form>
