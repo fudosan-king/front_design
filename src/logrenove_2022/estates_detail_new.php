@@ -7,17 +7,6 @@
     <?php require('header.php'); ?>
 
     <main>
-        <div class="title_redirect">
-            <div class="title_list">
-                <a class="title_item">物件詳細</a>
-                <a class="title_item" href="#location_environment">ロケーション</a>
-                <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
-                <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
-                <a class="title_item" href="#property_description">物件概要</a>
-                <a class="title_item" href="#map">マップ</a>
-            </div>
-        </div>
-
         <section class="section_topinfo section_topinfo_logasset">
             <div class="container">
                 <div class="row">
@@ -27,13 +16,27 @@
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
                             <div class="top-carousel">
                                 <div class="carousel2 carousel-main" data-flickity='{"pageDots": false }'>
-                                    <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
-                                    <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
-                                    <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
-                                    <div class="carousel-cell2"><img src="images/img04.jpg" /></div>
-                                    <div class="carousel-cell2"><img src="images/img05.jpg" /></div>
-                                    <div class="carousel-cell2"><img src="images/img06.jpg" /></div>
-                                    <div class="carousel-cell2"><img src="images/img07.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img01.jpg" />
+                                        <span>01 27 居室（LDなど）</span>
+                                    </div>
+                                    <div class="carousel-cell2"><img src="images/img02.jpg" />
+                                        <span>01 27 居室（LDなど）</span>
+                                    </div>
+                                    <div class="carousel-cell2"><img src="images/img03.jpg" />
+                                        <span>01 27 居室（LDなど）</span>
+                                    </div>
+                                    <div class="carousel-cell2"><img src="images/img04.jpg" />
+                                        <span>01 27 居室（LDなど）</span>
+                                    </div>
+                                    <div class="carousel-cell2"><img src="images/img05.jpg" />
+                                        <span>01 27 居室（LDなど）</span>
+                                    </div>
+                                    <div class="carousel-cell2"><img src="images/img06.jpg" />
+                                        <span>01 27 居室（LDなど）</span>
+                                    </div>
+                                    <div class="carousel-cell2"><img src="images/img07.jpg" />
+                                        <span>01 27 居室（LDなど）</span>
+                                    </div>
                                 </div>
 
                                 <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
@@ -202,10 +205,11 @@
                                                             ( 管理費：20,000円
                                                             / 修繕積立金：20,000円 含む )
                                                         </p>
+                                                        <p id="pay_included_bonus" class="text-center mt-3">ボーナス月 ：132,154円</p>
                                                     </div>
 
-                                                    <p class="text-center box_showmore">
-                                                        <a class="btn btnshowhide d-block d-lg-none" href="#"></a>
+                                                    <p class="text-center box_showmore d-block d-lg-none">
+                                                        <a class="btn btnshowhide" href="#"></a>
                                                     </p>
                                                 </div>
 
@@ -867,7 +871,7 @@
                                 <a href="#" class="btnview">同じエリアの物件を見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                             </div>
 
-                            <div class="carousel carousel_conditions d-none d-sm-block d-lg-block">
+                            <div class="carousel carousel_conditions">
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
@@ -936,7 +940,7 @@
                                 </div>
                             </div>
 
-                            <div class="d-block d-sm-none d-lg-none box_arealist">
+                            <!-- <div class="d-block d-sm-none d-lg-none box_arealist">
                                 <ul class="box_conditions_list properties_area">
                                     <li>
                                         <a href="#" class="box_item">
@@ -987,8 +991,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <a href="#" class="btn btn_samearea">同じエリアのマンションを見る</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -999,14 +1002,32 @@
 
     <?php include('footer.php') ?>
 
-    <div class="box_bottom fixed-bottom">
+    <div class="box_bottom fixed-bottom box_bottom_logasset">
         <div class="container">
-            <div class="wrapper">
-                <button input="button" class="btn reservation d-flex d-md-none" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-home-w">内見お問い合わせ</span></button>
+            <div class="wrapper d-md-none d-flex align-items-center">
+                <button input="button" class="btn reservation d-flex d-md-none" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
+                <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript></a>
+                <input type="checkbox" class="nav-hamburger-bottom" name="" id="nav-mobile-hamburger-bottom">
+                <label for="nav-mobile-hamburger-bottom" class="navbar-btn-hamburger-bottom">
+                    <img src="./assets/images/icons/menu_bottom.svg" alt="" class="img-fluid" width="21">
+                </label>
+
+                <div class="title_redirect">
+                    <div class="title_list">
+                        <a class="title_item">物件詳細</a>
+                        <a class="title_item" href="#location_environment">ロケーション</a>
+                        <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
+                        <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
+                        <a class="title_item" href="#property_description">物件概要</a>
+                        <a class="title_item" href="#map">マップ</a>
+                    </div>
+                </div>
             </div>
-            <div class="wrapper">
-                <a href="https://www.logrenove.jp/mailmagazine/" class=" btn material" data-inquiry="資料請求" onclick="goToForm(this)"><span class="i-email-w">新着物件情報</span></a>
-                <button input="button" class="btn reservation d-none d-md-flex" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-home-w">内見お問い合わせ</span></button>
+            <label for="nav-mobile-hamburger-bottom" class="navbar-bottom-close">
+                <img src="./assets/images/icons/x-circle.svg" alt="" class="img-fluid" width="16">
+            </label>
+            <div class="wrapper d-none d-md-flex">
+                <button input="button" class="btn reservation d-none d-md-flex" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657</a>
             </div>
         </div>

@@ -3142,6 +3142,29 @@ header .navbar .container {
   background: #fff;
 }
 
+.carousel-cell2 > span {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-main .carousel-cell2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.carousel-cell2 > span:first-letter {
+  margin-left: 10px;
+}
+
 .carousel2.carousel-main {
   width: 914px;
   height: 540px;
@@ -3227,6 +3250,7 @@ header .navbar .container {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  gap: 2px;
 }
 
 .carousel-nav .carousel-cell2 {
@@ -3465,6 +3489,31 @@ header .navbar .container {
   margin-bottom: 0;
 }
 
+.box_showmore {
+  padding: 0 15px 10px;
+  border: 1px solid #F08865;
+  border-radius: 100px;
+}
+
+.btnshowhide {
+  background: url(../images/icons/showhide_down.svg) no-repeat center;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin-top: 50px;
+  color: #000;
+}
+
+.btnshowhide::after {
+  content: '条件を変えて試算する';
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0.875em;
+}
+
 /* Detail property */
 .section_detailproperty.section_detailproperty_logasset {
   padding-top: 60px;
@@ -3538,7 +3587,9 @@ header .navbar .container {
   margin-top: 0;
   margin-bottom: 60px;
 }
-
+.section_detailproperty_logasset .frm_mansions .description {
+  margin-bottom: 10px;
+}
 .frm_mansions .information {
   font-size: 1em;
   text-align: center;
@@ -3655,20 +3706,147 @@ div .frm_mansions h2 {
   margin-bottom: 20px;
 }
 
+/* Bottom */
+.box_bottom.fixed-bottom.box_bottom_logasset {
+  background: #fff;
+  height: 70px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+}
+
+.box_bottom.fixed-bottom.box_bottom_logasset .container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.box_bottom.box_bottom_logasset .btn {
+  font-weight: 700;
+  padding: 16px 72px;
+  max-width: 356px;
+}
+
+.box_bottom.box_bottom_logasset .btn.phone_call {
+  padding: 15px 40px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.box_bottom.box_bottom_logasset .wrapper:nth-child(2) {
+  width: 1024px;
+}
+
+.nav-hamburger-bottom,
+.title_redirect {
+  display: none;
+}
+
+.navbar-bottom-close {
+  display: none;
+}
+
+@media (max-width: 768px){
+  .frm_mansions .information-pc, .information.information-pc {
+    display: none;
+  }
+
+  .frm_mansions .information, .information {
+    padding: 0 23% 0 23%;
+    margin-top: 15px;
+  }
+
+  .frm_mansions .information-sp, .information.information-sp {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .frm_mansions .information .phone-sp, .information .phone-sp {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: #ca6407ff;
+  }
+
+  .phone-sp a {
+    padding-bottom: 9px;
+    margin-left: 2px;
+    background: transparent;
+  }
+
+  .phone-sp .svg-phone {
+    position: relative;
+    font-size: 0.9em;
+  }
+
+  .information-phone-sp {
+    padding: 0;
+  }
+
+  .frm_mansions .information-description, .information-description {
+    margin-bottom: 5px;
+    color: #ca6407ff;
+    font-size: 0.6em;
+    font-weight: 400;
+  }
+}
+
 @media (max-width: 428px) {
   .section_topinfo::before {
     top: 188px;
   }
 
-  .title_redirect {
-    display: none;
+  .nav-hamburger-bottom:checked~.title_redirect {
+    display: block;
+    background: #fff;
+    border-radius: 0px;
+    position: absolute;
+    top: -129px;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect .title_item{
+    color: #BE9C59;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.phone_call {
+    width: 74px;
+    height: 40px;
+    padding: 4.5px 21.5px 7.5px 26.5px;
+    display: block;
+    width: fit-content;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.reservation {
+    padding: 12px 13px;
+    display: block;
+    width: fit-content;
+  }
+
+  .box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom {
+    width: 74px;
+    height: 40px;
+    padding: 8px 25.5px;
+    display: block;
+    width: fit-content;
+    border: 1px solid #BE9C59;
+    border-radius: 4px;
   }
 
   .section_topinfo.section_topinfo_logasset .container,
   .section_topinfo.section_topinfo_logasset .container .box_content {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
+
+  .section_topinfo_logasset .box_content h1 {
+    line-height: 140%;
+  }
+
+  .section_topinfo_logasset .box_content .number {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .carousel2.carousel-main {
     width: 100%;
     height: 222px;
@@ -3696,15 +3874,121 @@ div .frm_mansions h2 {
     padding: 0 20px;
   }
 
-  .section_topinfo.section_topinfo_logasset .container .box_content {
-    padding-bottom: 0;
-  }
-
   .section_discerningequipment_logasset {
     padding-top: 45px;
   }
   
+  .section_discerningequipment.section_discerningequipment_logasset .row > div:first-child {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .section_discerningequipment_logasset .title {
     margin-bottom: 15px;
+  }
+
+  .section_discerningequipment.section_discerningequipment_logasset iframe {
+    width: 335px;
+  }
+
+  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
+    width: 100%;
+    gap: 8.5px;
+    margin-bottom: 16px;
+  }
+
+  .section_discerningequipment_logasset ul:first-of-type li {
+    width: 60px;
+    height: 64px;
+    margin-bottom: 0;
+  }
+
+  .section_detailproperty.section_detailproperty_logasset {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .section_property_main.section_property_main_logasset .box_calcu {
+    padding-top: 0;
+    border: none;
+  }
+
+  .section_detailproperty .post_date {
+    line-height: 1em;
+  }
+
+  .section_detailproperty .post_note p {
+    margin-bottom: 5px;
+    line-height: 1.5em;
+  }
+
+  .section_property_main.section_property_main_logasset .box_calcu {
+    padding: 0;
+  }
+
+  .section_detailproperty.section_detailproperty_logasset .frm_calcu .row>div:nth-child(2),
+  .section_detailproperty_logasset .box_calcu .description {
+    display: none;
+  }
+
+  .section_property_main .box_calcu .frm_calcu .box_simulation_result {
+    padding: 15px 5px;
+  }
+
+  .section_property_main .box_calcu .frm_calcu .box_simulation_result h2 {
+    font-size: 1.875em;
+  }
+
+  .section_property_main .box_calcu .frm_calcu .box_simulation_result p {
+    font-size: 0.7em;
+  }
+
+  .section_detailproperty_logasset .box_map .map {
+    padding: 0;
+    border: none;
+  }
+
+  .section_logassethowroom p {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .section_logassethowroom {
+    padding-top: 40px;
+  }
+
+  .section_detailproperty_logasset .banner a {
+    padding: 0;
+  }
+
+  .section_searchconditions.section_searchconditions_logasset .box_conditions .head_title {
+    flex-direction: column;
+  }
+
+  .section_searchconditions.section_searchconditions_logasset h2 {
+    margin-bottom: 5px;
+  }
+
+  .section_searchconditions.section_searchconditions_logasset .box_conditions .head_title .btnview {
+    display: block;
+    align-self: flex-end;
+  }
+
+  .section_searchconditions.section_searchconditions_logasset .carousel .carousel-cell {
+    width: 260px;
+    margin-right: 20px;
+  }
+
+  .section_searchconditions.section_searchconditions_logasset .carousel .box_item {
+    display: block;
+    text-decoration: none;
+  }
+
+  .section_searchconditions_logasset .carousel.carousel_conditions .flickity-button {
+    display: block;
+  }
+
+  .section_searchconditions_logasset .carousel.carousel_conditions .flickity-page-dots {
+    display: none;
   }
 }
