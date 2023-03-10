@@ -511,8 +511,8 @@
     height: auto;
   }
 
-  .carousel.carousel_property .carousel-cell,
-  .carousel.carousel_conditions .carousel-cell {
+  .carousel.carousel_property .carousel-cell-slider,
+  .carousel.carousel_conditions .carousel-cell-slider {
     margin-right: 20px;
   }
 
@@ -3056,4 +3056,576 @@ header .navbar .container {
   font-size: 0.875em;
   color: #5C5B5B;
   margin-top: 10px;
+}
+
+/* Title redirect */
+.title_redirect {
+  position:fixed;
+  z-index: 10;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../images/pattern.png) repeat;
+  padding: 20px 22px 20px 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title_list {
+  margin-bottom: 0;
+}
+
+.title_item {
+  position: relative;
+  display:block;
+  text-decoration: none;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.title_item:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.title_list .title_item:hover::before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  background: #fff;
+  left: -15px;
+  width: 10px;
+  font-size: 14px;
+  height: 2px;
+  z-index: 9;
+}
+
+.title_item:last-child {
+  margin-bottom: 0;
+}
+
+/* Top info */
+.section_topinfo_logasset .box_content {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+}
+.section_topinfo_logasset .box_content h1 {
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 180%;
+  margin-bottom: 0;
+}
+
+.section_topinfo_logasset .box_content .number {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 180%;
+}
+
+.section_topinfo_logasset .box_content p {
+  margin-top: 20px;
+  margin-left: 104px;
+  max-width: 891px;
+  line-height: 160%;
+}
+
+/* Discerning Equipment */
+.section_discerningequipment_logasset {
+  padding-bottom: 30px;
+}
+
+/* Calculator */
+.section_property_main.section_property_main_logasset {
+  padding-top: 0;
+}
+
+.section_property_main .box_calcu {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.section_property_main.section_property_main_logasset .box_calcu {
+  border: 1px solid #F2F2F2;
+  margin-bottom: 0;
+}
+
+.section_property_main .box_calcu .renovationproperty_price {
+  background: rgba(129, 145, 157, 0.2);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section_property_main .box_calcu .renovationproperty_price h2 {
+  display: inline-block;
+  font-size: 0.875em;
+  margin-bottom: 0;
+  color: #E28D6C;
+}
+
+.section_property_main_logasset .box_calcu .renovationproperty_price h2 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  margin-right: 10px;
+}
+
+.section_property_main .box_calcu .renovationproperty_price span {
+  font-size: 2.25em;
+  color: #E28D6C;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.section_property_main .box_calcu .renovationproperty_price i {
+  font-style: normal;
+  color: #E28D6C;
+  font-size: 0.875em;
+}
+
+.box_renovation_specifications p {
+  font-size: 1em;
+}
+
+.section_property_main .box_calcu .frm_calcu .title_simulation_result {
+  width: auto;
+  display: block;
+  text-align: center;
+  background: #E28D6C;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 1.125em;
+  padding: 8px 15px;
+  position: relative;
+  font-weight: 600;
+  max-width: 300px;
+  margin: 0 auto 22px;
+}
+
+.section_property_main .box_calcu .frm_calcu .title_simulation_result:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #E28D6C;
+  border-width: 7px;
+  margin-left: -7px;
+}
+
+.section_property_main_logasset .box_calcu .frm_calcu .box_simulation_result {
+  color: #000;
+  border: 4px solid #E0E0E0;
+  padding: 30px 20px 15px;
+  margin-bottom: 25px;
+}
+
+.section_property_main .box_calcu .frm_calcu>.row>div:nth-child(2){
+  padding-left: 32px;
+}
+
+.section_property_main .box_calcu .frm_calcu .box_simulation_result .btn_simulation_result {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.section_property_main .box_calcu .frm_calcu .box_simulation_result h2 {
+  font-family: 'SF Pro Display';
+  font-size: 2.25em;
+  margin-bottom: 0;
+  color: #E28D6C;
+  text-align: center;
+  line-height: .5em;
+}
+
+.section_property_main_logasset .box_calcu .frm_calcu .box_simulation_result h2 span{
+  font-size: 14px;
+}
+
+.section_property_main .box_calcu .frm_calcu .box_simulation_result p {
+  margin-bottom: 0;
+  font-size: 0.875em;
+  color: #2C4057;
+}
+
+.section_property_main_logasset .box_calcu .frm_calcu .box_simulation_result #pay_without_bonus {
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.section_property_main .box_calcu .frm_calcu label {
+  color: #2C4057;
+  font-size: 0.875em;
+}
+
+.section_property_main_logasset .box_calcu .frm_calcu label {
+  margin-bottom: 10px;
+}
+
+.section_property_main .box_calcu .frm_calcu .form-control {
+  color: #E28D6C;
+  font-weight: 600;
+  text-align: right;
+  font-size: 1.5em;
+  background: #F2F2F2;
+  border-color: #BDBDBD;
+  border-radius: 0;
+  height: calc(1.5em + 0.75rem + -4px);
+}
+
+.section_detailproperty_logasset .box_calcu .frm_calcu .form-control {
+  width: 160px;
+}
+
+.section_property_main .box_calcu .frm_calcu span.sub {
+  width: 50px;
+  font-size: 0.875em;
+}
+
+.section_detailproperty_logasset .box_calcu .frm_calcu span.sub {
+  margin-left: 10px;
+}
+
+.section_detailproperty_logasset .box_calcu .frm_calcu .w_box_simulation_result .form-group:last-child {
+  border-top: 1px solid #F2F2F2;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.section_detailproperty_logasset .w_box_simulation_result .form-group:last-child .row div:first-child {
+  position: relative;
+}
+
+.section_detailproperty_logasset .w_box_simulation_result .form-group:last-child .row div:first-child::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 74px;
+  right: 15px;
+  bottom: 0;
+  background-color: #BDBDBD;
+}
+
+.section_detailproperty_logasset  .w_box_simulation_result .form-group .row div {
+  padding: 0;
+}
+
+.section_detailproperty_logasset .box_calcu .description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  margin-bottom: 0;
+}
+
+/* Detail property */
+.section_detailproperty.section_detailproperty_logasset {
+  padding-top: 60px;
+  font-family: 'SF Pro Display';
+}
+
+.section_detailproperty_logasset .description_item {
+  margin-bottom: 40px;
+}
+
+.section_detailproperty_logasset .description_list .description_item:last-child {
+  margin-bottom: 60px;
+}
+
+.section_detailproperty_logasset .title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.section_detailproperty_logasset .content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+.section_detailproperty_logasset .property_description .title {
+  margin-bottom: 20px;
+}
+
+.section_detailproperty .post_date,
+.section_detailproperty .post_note {
+  font-size: .8rem;
+  margin-bottom: 25px;
+}
+
+.section_detailproperty .post_date ul {
+  padding-left: 0;
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+}
+
+.section_detailproperty .post_date ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.section_detailproperty .post_date {
+  margin-top: 50px;
+}
+
+/* Map */
+
+.section_detailproperty_logasset .box_map {
+  margin-top: 60px;
+  padding: 0;
+  border: none;
+}
+
+.section_detailproperty_logasset .box_map .map {
+  padding: 20px 20px 10px;
+  border: 1px solid #F2F2F2;
+}
+
+/* Form */
+
+.section_detailproperty_logasset .frm_mansions {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.frm_mansions .information {
+  font-size: 1em;
+  text-align: center;
+  padding: 0 29% 0 29%;
+  margin: 15px 0px;
+}
+
+div .frm_mansions h2 {
+  margin-bottom: 0;
+  line-height: 1.5em;
+}
+
+.frm_mansions h3 {
+  font-size: 0.875em;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2em;
+  margin-bottom: 0;
+}
+
+.single .frm_mansions .description {
+  margin-bottom: 0;
+  padding: 0.7em;
+}
+
+.frm_mansions .information .phone-pc, .information .phone-pc {
+    font-size: 1.4em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.frm_mansions .information-sp, .information.information-sp {
+  display: none;
+}
+
+.frm_mansions .information-description, .information-description {
+  font-weight: 400;
+}
+
+.frm_mansions .description p {
+  margin: 0;
+}
+
+.container .frm_mansions .form-group {
+  margin-bottom: 20px;
+}
+
+.frm_services span.date-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  color: #b9b9b9;
+  width: 16px;
+}
+.frm_services .custom-select {
+  background: #fff url("data:image/svg+xml;charset=UTF-8,%3csvg width='21' height='20' viewBox='0 0 21 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='10.8813' cy='10' r='10' fill='%23AE8148'/%3e%3cpath d='M6.17542 8.23535L10.8813 12.9412L15.5872 8.23535' stroke='white' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e") no-repeat right 0.75rem center/20px 20px;
+}
+
+.col-12 .frm_mansions .form-control {
+  color: #000000;
+}
+
+.frm_mansions .box_content_footer .primary_policy {
+  line-height: 1.125em;
+}
+
+.frm_services .btnAgree {
+  position: relative;
+}
+
+/* Banner */
+
+.section_detailproperty_logasset .banner a {
+  background-color: #fff;
+}
+
+/* Show room */
+
+.section_logassethowroom {
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+.section_logassethowroom .box_logo {
+  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.section_logassethowroom.section_logsuiteshowroom::before {
+  top: 66px;
+}
+
+.section_logassethowroom .title {
+  margin-bottom: 5px;
+}
+
+.section_logsuiteshowroom .phone {
+  margin-bottom: 5px;
+  line-height: 160%;
+}
+
+.section_logassethowroom p {
+  margin: 0 auto 5px;
+}
+
+.section_logassethowroom .btn_more {
+  margin-right: 10px;
+}
+
+.section_searchconditions_logasset .box_conditions .head_title .btnview {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+/* =================== flicky ======================== */
+
+.carousel-nav-slider .flickity-slider {
+  width: 100%;
+  height: 100%;
+  margin-left: -142px;
+}
+
+.carousel-main-slider .flickity-prev-next-button {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: 1px solid #FFFFFF;
+  border-radius: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: url(../images/pattern.png) repeat;
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.carousel-main-slider .flickity-prev-next-button:hover {
+  opacity: 0.6;
+}
+
+.carousel-main-slider .flickity-prev-next-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #09F;
+}
+
+.carousel-main-slider .flickity-prev-next-button:active {
+  opacity: 0.6;
+}
+
+.carousel-main-slider .flickity-prev-next-button.previous { 
+  left: -3%;
+}
+.carousel-main-slider .flickity-prev-next-button.next { 
+  right: 10px;
+  right: -3%;
+  z-index: 100;
+}
+
+.carousel-nav-slider .flickity-prev-next-button.previous { visibility: hidden; }
+.carousel-nav-slider .flickity-prev-next-button.next { visibility: hidden; }
+
+.flickity-prev-next-button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+}
+
+.flickity-prev-next-button svg {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+.carousel-main-slider .flickity-prev-next-button .arrow {
+  fill: #fff;
+}
+.carousel-main-slider .flickity-prev-next-button .flickity-button-icon {
+  width: 12px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.carousel.carousel-main-slider {
+  background: #FAFAFA;
+  margin: auto;
+}
+
+.carousel-main-slider {
+  margin-bottom: 8px;
+  max-width: 911px;
+  max-height: 540px;
+}
+
+.carousel-main-slider .carousel-cell-slider {
+  width: 914px;
+  height: 504px;
+  margin-right: 100%;
+}
+
+.carousel.carousel-nav-slider {
+  max-width: 914px;
+  background: transparent;
+  margin: 20px auto 0;
+}
+
+.carousel-nav-slider .carousel-cell-slider {
+  width: 90px;
+  height: 60px;
+}
+
+.carousel-main-slider img {
+  display: block;
+  margin: 0 auto; 
+}
+
+.carousel-nav-slider .carousel-main-slider img {
+  width: 90px;
+  height: 60px;
 }
