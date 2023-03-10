@@ -25,25 +25,25 @@
                         <div class="box_content">
                             <h1>番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
-
                             <div class="top-carousel">
-                                <div class="carousel carousel-main-slider" data-flickity='{"pageDots": false }'>
-                                    <div class="carousel-cell-slider"><img src="images/img01.jpg" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img02.jpg" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img03.jpg" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img04.jpg" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img05.jpg" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img06.jpg" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img07.jpg" /></div>
+                                <div class="carousel2 carousel-main" data-flickity='{"pageDots": false }'>
+                                    <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img04.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img05.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img06.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img07.jpg" /></div>
                                 </div>
-                                <div class="carousel carousel-nav-slider" data-flickity='{ "asNavFor": ".carousel-main-slider", "contain": true, "pageDots": false }'>
-                                    <div class="carousel-cell-slider"><img src="images/img01.jpg" width="90px" height="60px" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img02.jpg" width="90px" height="60px" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img03.jpg" width="90px" height="60px" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img04.jpg" width="90px" height="60px" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img05.jpg" width="90px" height="60px" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img06.jpg" width="90px" height="60px" /></div>
-                                    <div class="carousel-cell-slider"><img src="images/img07.jpg" width="90px" height="60px" /></div>
+
+                                <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
+                                    <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img04.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img05.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img06.jpg" /></div>
+                                    <div class="carousel-cell2"><img src="images/img07.jpg" /></div>
                                 </div>
                             </div>
                             <p>グランディ田園調布 2階に位置する当物件は、専有面積94.57m² 、2LDKの居室と13.02m² のバルコニーを備えたリノベーション物件です。東急多摩川線「沼部」駅まで徒歩4分の立地にあるほか、東急東横線「多摩川」駅など2駅2路線の利用が可能です。</p>
@@ -61,7 +61,7 @@
                         <h2 class="title">設備概要</h2>
                         <iframe width="100%" height="540" src="https://my.matterport.com/show/?m=Msfg36od5J3"></iframe>
 
-                        <ul class="bg-transparent mt-2">
+                        <ul class="mt-2 tag-list">
                             <li>
                                 <a href="#">
                                     <img src="images/icons/i_quietarea.svg" alt="i_quietarea" class="img-fluid" width="40">
@@ -163,7 +163,7 @@
 
         <section class="section_detailproperty section_detailproperty_logasset">
             <div class="container">
-                <div class="row mt-5">
+                <div class="row">
                     <div class="col-12 col-lg-12">
 
                         <div class="description_list">
