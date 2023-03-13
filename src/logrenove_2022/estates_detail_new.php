@@ -1,6 +1,43 @@
 <!doctype html>
 <html lang="en">
 <?php include('head.php'); ?>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    $(function($) {
+        jQuery(document).ready(function($) {
+            $(".btnshowhide").click(function(event) {
+                event.preventDefault();
+                var simulatorResult = $(".section_detailproperty.section_detailproperty_logasset .frm_calcu .row>div:nth-child(2)");
+                var simulatorDesc = $(".section_detailproperty_logasset .box_calcu .description");
+                var btnShowHide = $(".btnshowhide");
+                if (simulatorResult.css("display") == "none") {
+                    simulatorResult.css("display", "block");
+                    simulatorDesc.css("display", "block");
+                    btnShowHide.css("margin-top", "10px");
+                    $(btnShowHide).attr('data-content', '');
+
+                } else {
+                    simulatorResult.css("display", "none");
+                    simulatorDesc.css("display", "none");
+                    btnShowHide.css("margin-top", "50px");
+                    $(btnShowHide).attr('data-content', '条件を変えて試算する');
+                }
+            });
+
+            if (window.matchMedia('(min-width: 767px)').matches) {
+                var headerNavPosition = $("header .navbar")[0].getBoundingClientRect();
+                headerNavPosition = headerNavPosition.height + headerNavPosition.top;
+                var $root = $('html, body');
+                $('a[href^="#"]').click(function() {
+                    $root.animate({
+                        scrollTop: $($.attr(this, 'href')).offset().top - headerNavPosition
+                    }, 500);
+                    return false;
+                });
+            }
+        }(jQuery));
+    });
+</script>
 
 <body>
 
@@ -221,7 +258,7 @@
                                                     </div>
 
                                                     <p class="text-center box_showmore d-block d-lg-none">
-                                                        <a class="btn btnshowhide" href="#"></a>
+                                                        <a class="btn btnshowhide" href="#" data-content='条件を変えて試算する'></a>
                                                     </p>
                                                 </div>
 
