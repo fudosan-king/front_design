@@ -3079,7 +3079,7 @@ header .navbar .container {
   top: 50%;
   transform: translateY(-50%);
   background: url(../images/pattern.png) repeat;
-  padding: 20px 22px 20px 40px;
+  padding: 20px 20px 20px 35px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -3144,9 +3144,8 @@ header .navbar .container {
 
 .section_topinfo_logasset .box_content p {
   margin-top: 20px;
-  margin-left: 104px;
-  max-width: 891px;
   line-height: 160%;
+  text-align: center;
 }
 
 .carousel-cell2 {
@@ -3296,7 +3295,9 @@ header .navbar .container {
 }
 
 .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
-  width: 914px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 914px;
   margin: 0 0 30px;
   gap: 4px;
   background: transparent;
@@ -3518,7 +3519,7 @@ header .navbar .container {
 }
 
 .btnshowhide::after {
-  content: '条件を変えて試算する';
+  content: attr(data-content);
   position: absolute;
   top: -30px;
   left: 0;
@@ -3924,12 +3925,12 @@ div .frm_mansions h2 {
   }
 
   .section_discerningequipment.section_discerningequipment_logasset iframe {
-    width: 335px;
+    width: 100%;
   }
 
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
     width: 100%;
-    gap: 8.5px;
+    gap: 5.5px;
     margin-bottom: 16px;
   }
 
@@ -3947,6 +3948,22 @@ div .frm_mansions h2 {
   .section_property_main.section_property_main_logasset .box_calcu {
     padding-top: 0;
     border: none;
+  }
+  
+  .section_detailproperty_logasset .box_calcu .frm_calcu .form-control {
+    width: 85%;
+  }
+
+  .section_detailproperty_logasset .box_calcu .frm_calcu span.sub {
+    margin-left: 2px;
+  }
+
+  .section_detailproperty_logasset .w_box_simulation_result .form-group:last-child .row div:first-child::after {
+    right: 16px;
+  }
+
+  .section_detailproperty_logasset .box_calcu .description {
+    margin-top: 10px;
   }
 
   .section_detailproperty .post_date {
@@ -4029,4 +4046,49 @@ div .frm_mansions h2 {
   }
 }
 
-.flickity-slider { -webkit-overflow-scrolling: touch; }
+@media (max-width: 414px) {
+  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
+    gap: 18.5px;
+  }
+} 
+
+@media (max-width: 390px) {
+  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
+    gap: 12px;
+  }
+} 
+
+@media (max-width: 375px) {
+  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
+    gap: 8.5px;
+  }
+}
+
+@media (max-width: 360px) {
+  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
+    gap: 13px;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.reservation {
+    padding: 7px 13px 7px;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.phone_call {
+    padding: 7.5px 14.5px 7.5px 18.5px;
+  }
+
+  .box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom,
+  .box_bottom.box_bottom_logasset .navbar-bottom-close {
+    padding: 8px 18.5px;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect {
+    top: -406%;
+  }
+}
