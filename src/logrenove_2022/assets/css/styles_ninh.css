@@ -3059,7 +3059,20 @@ header .navbar .container {
 }
 
 /* Title redirect */
+.box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom {
+  display: none;
+}
+
+.navbar-bottom-close {
+  display: none;
+}
+
 .title_redirect {
+  display: none;
+}
+
+.title_redirect.nav-pc {
+  display: block;
   position:fixed;
   z-index: 10;
   right: 0;
@@ -3716,7 +3729,6 @@ div .frm_mansions h2 {
 
 .box_bottom.fixed-bottom.box_bottom_logasset .container {
   display: flex;
-  gap: 10px;
   justify-content: center;
 }
 
@@ -3729,19 +3741,16 @@ div .frm_mansions h2 {
 .box_bottom.box_bottom_logasset .btn.phone_call {
   padding: 15px 40px;
   font-weight: 700;
-  width: fit-content;
+  width: 242.56px;
+  height: 50px;
+  margin: 0 10px;
 }
 
 .box_bottom.box_bottom_logasset .wrapper:nth-child(2) {
   width: 1024px;
 }
 
-.nav-hamburger-bottom,
-.title_redirect {
-  display: none;
-}
-
-.navbar-bottom-close {
+.nav-hamburger-bottom {
   display: none;
 }
 
@@ -3797,28 +3806,46 @@ div .frm_mansions h2 {
     top: 188px;
   }
 
+  .title_redirect.nav-pc {
+    display: none;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.phone_call {
+    width: 74px;
+    height: 40px;
+    padding: 7.5px 21.5px 7.5px 26.5px;
+    display: block;
+    width: fit-content;
+  }
+
   .nav-hamburger-bottom:checked~.title_redirect {
     display: block;
+    padding: 20px 20px 20px 35px;
     background: #fff;
     border-radius: 0px;
     position: absolute;
-    top: -129px;
+    top: -347%;
+    left: 48%;
   }
 
   .nav-hamburger-bottom:checked~.title_redirect .title_item{
     color: #BE9C59;
   }
 
-  .box_bottom.box_bottom_logasset .btn.phone_call {
-    width: 74px;
-    height: 40px;
-    padding: 4.5px 21.5px 7.5px 26.5px;
+  .nav-hamburger-bottom:checked~.navbar-btn-hamburger-bottom {
+    display: none !important;
+  }
+
+  .nav-hamburger-bottom:checked~.navbar-bottom-close {
     display: block;
-    width: fit-content;
+  }
+
+  .box_bottom.box_bottom_logasset .container .wrapper:first-of-type() {
+    position: relative;
   }
 
   .box_bottom.box_bottom_logasset .btn.reservation {
-    padding: 12px 13px;
+    padding: 6px 13px 6px;
     display: block;
     width: fit-content;
   }
@@ -3828,6 +3855,15 @@ div .frm_mansions h2 {
     height: 40px;
     padding: 8px 25.5px;
     display: block;
+    width: fit-content;
+    border: 1px solid #BE9C59;
+    border-radius: 4px;
+  }
+
+  .box_bottom.box_bottom_logasset .navbar-bottom-close {
+    width: 74px;
+    height: 40px;
+    padding: 6px 28px;
     width: fit-content;
     border: 1px solid #BE9C59;
     border-radius: 4px;
@@ -3992,3 +4028,5 @@ div .frm_mansions h2 {
     display: none;
   }
 }
+
+.flickity-slider { -webkit-overflow-scrolling: touch; }

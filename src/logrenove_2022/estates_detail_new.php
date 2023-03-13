@@ -7,6 +7,18 @@
     <?php require('header.php'); ?>
 
     <main>
+
+        <div class="title_redirect nav-pc">
+            <div class="title_list">
+                <a class="title_item">物件詳細</a>
+                <a class="title_item" href="#location_environment">ロケーション</a>
+                <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
+                <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
+                <a class="title_item" href="#property_description">物件概要</a>
+                <a class="title_item" href="#map">マップ</a>
+            </div>
+        </div>
+
         <section class="section_topinfo section_topinfo_logasset">
             <div class="container">
                 <div class="row">
@@ -39,7 +51,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
+                                <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false, "draggable": true, "freeScroll": true }'>
                                     <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
@@ -205,7 +217,7 @@
                                                             ( 管理費：20,000円
                                                             / 修繕積立金：20,000円 含む )
                                                         </p>
-                                                        <p id="pay_included_bonus" class="text-center mt-3">ボーナス月 ：132,154円</p>
+                                                        <p id="pay_included_bonus" class="text-center mt-3 d-block d-lg-none">ボーナス月 ：132,154円</p>
                                                     </div>
 
                                                     <p class="text-center box_showmore d-block d-lg-none">
@@ -1003,7 +1015,7 @@
     <?php include('footer.php') ?>
 
     <div class="box_bottom fixed-bottom box_bottom_logasset">
-        <div class="container">
+        <div class="container p-0">
             <div class="wrapper d-md-none d-flex align-items-center">
                 <button input="button" class="btn reservation d-flex d-md-none" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript></a>
@@ -1011,7 +1023,9 @@
                 <label for="nav-mobile-hamburger-bottom" class="navbar-btn-hamburger-bottom">
                     <img src="./assets/images/icons/menu_bottom.svg" alt="" class="img-fluid" width="21">
                 </label>
-
+                <label for="nav-mobile-hamburger-bottom" class="navbar-bottom-close">
+                    <img src="./assets/images/icons/x-circle-brown.svg" alt="" class="img-fluid" width="16">
+                </label>
                 <div class="title_redirect">
                     <div class="title_list">
                         <a class="title_item">物件詳細</a>
@@ -1023,9 +1037,6 @@
                     </div>
                 </div>
             </div>
-            <label for="nav-mobile-hamburger-bottom" class="navbar-bottom-close">
-                <img src="./assets/images/icons/x-circle.svg" alt="" class="img-fluid" width="16">
-            </label>
             <div class="wrapper d-none d-md-flex">
                 <button input="button" class="btn reservation d-none d-md-flex" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657</a>
