@@ -1,43 +1,6 @@
 <!doctype html>
 <html lang="en">
 <?php include('head.php'); ?>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>
-    $(function($) {
-        jQuery(document).ready(function($) {
-            $(".btnshowhide").click(function(event) {
-                event.preventDefault();
-                var simulatorResult = $(".section_detailproperty.section_detailproperty_logasset .frm_calcu .row>div:nth-child(2)");
-                var simulatorDesc = $(".section_detailproperty_logasset .box_calcu .description");
-                var btnShowHide = $(".btnshowhide");
-                if (simulatorResult.css("display") == "none") {
-                    simulatorResult.css("display", "block");
-                    simulatorDesc.css("display", "block");
-                    btnShowHide.css("margin-top", "10px");
-                    $(btnShowHide).attr('data-content', '');
-
-                } else {
-                    simulatorResult.css("display", "none");
-                    simulatorDesc.css("display", "none");
-                    btnShowHide.css("margin-top", "50px");
-                    $(btnShowHide).attr('data-content', '条件を変えて試算する');
-                }
-            });
-
-            if (window.matchMedia('(min-width: 767px)').matches) {
-                var headerNavPosition = $("header .navbar")[0].getBoundingClientRect();
-                headerNavPosition = headerNavPosition.height + headerNavPosition.top;
-                var $root = $('html, body');
-                $('a[href^="#"]').click(function() {
-                    $root.animate({
-                        scrollTop: $($.attr(this, 'href')).offset().top - headerNavPosition
-                    }, 500);
-                    return false;
-                });
-            }
-        }(jQuery));
-    });
-</script>
 
 <body>
 
@@ -47,7 +10,7 @@
 
         <div class="title_redirect nav-pc">
             <div class="title_list">
-                <a class="title_item">物件詳細</a>
+                <a class="title_item" href="#estates_detail">物件詳細</a>
                 <a class="title_item" href="#location_environment">ロケーション</a>
                 <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
                 <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
@@ -61,10 +24,10 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <div class="box_content">
-                            <h1>番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
+                            <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
                             <div class="top-carousel">
-                                <div class="carousel2 carousel-main" data-flickity='{"pageDots": false }'>
+                                <div class="carousel2 carousel-main" data-flickity='{"pageDots": false, "wrapAround": true }'>
                                     <div class="carousel-cell2"><img src="images/img01.jpg" />
                                         <span>01 27 居室（LDなど）</span>
                                     </div>
@@ -88,7 +51,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false, "draggable": true, "freeScroll": true }'>
+                                <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "pageDots": false, "cellAlign": "left" }'>
                                     <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
@@ -1082,6 +1045,43 @@
     </div>
 
     <?php include('js-footer.php') ?>
+
+    <script>
+        $(function($) {
+            jQuery(document).ready(function($) {
+                $(".btnshowhide").click(function(event) {
+                    event.preventDefault();
+                    var simulatorResult = $(".section_detailproperty.section_detailproperty_logasset .frm_calcu .row>div:nth-child(2)");
+                    var simulatorDesc = $(".section_detailproperty_logasset .box_calcu .description");
+                    var btnShowHide = $(".btnshowhide");
+                    if (simulatorResult.css("display") == "none") {
+                        simulatorResult.css("display", "block");
+                        simulatorDesc.css("display", "block");
+                        btnShowHide.css("margin-top", "10px");
+                        $(btnShowHide).attr('data-content', '');
+
+                    } else {
+                        simulatorResult.css("display", "none");
+                        simulatorDesc.css("display", "none");
+                        btnShowHide.css("margin-top", "50px");
+                        $(btnShowHide).attr('data-content', '条件を変えて試算する');
+                    }
+                });
+
+                if (window.matchMedia('(min-width: 767px)').matches) {
+                    var headerNavPosition = $("header .navbar")[0].getBoundingClientRect();
+                    headerNavPosition = headerNavPosition.height + headerNavPosition.top;
+                    var $root = $('html, body');
+                    $('a[href^="#"]').click(function() {
+                        $root.animate({
+                            scrollTop: $($.attr(this, 'href')).offset().top - headerNavPosition
+                        }, 500);
+                        return false;
+                    });
+                }
+            }(jQuery));
+        });
+    </script>
 </body>
 
 </html>
