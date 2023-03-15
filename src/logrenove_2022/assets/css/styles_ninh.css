@@ -3156,7 +3156,7 @@ header .navbar .container {
   background: #fff;
 }
 
-.carousel-cell2 > span {
+.top-carousel .carousel-cell2 > span {
   display: block;
   width: 100%;
   font-weight: 400;
@@ -3175,14 +3175,14 @@ header .navbar .container {
   object-fit: fill;
 }
 
-.carousel-cell2 > span:first-letter {
+.top-carousel .carousel-cell2 > span:first-letter {
   margin-left: 10px;
 }
 
 .carousel2.carousel-main {
   max-width: 914px;
   height: 540px;
-  margin: 0 auto 20px;
+  margin: auto;
 }
 
 .carousel2.carousel-nav {
@@ -3269,7 +3269,12 @@ header .navbar .container {
 }
 
 .section_discerningequipment.section_discerningequipment_logasset iframe {
-  max-width: 911px;
+  max-width: 914px;
+}
+
+.section_discerningequipment.sub.section_discerningequipment_logasset .container {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
@@ -3279,6 +3284,18 @@ header .navbar .container {
   margin: 0 0 30px;
   gap: 4px;
   background: transparent;
+}
+
+.section_discerningequipment.section_discerningequipment_logasset ul:first-of-type li a {
+  padding: 0;
+}
+
+.section_discerningequipment.section_discerningequipment_logasset ul:first-of-type li a img {
+  margin-top: 10px;
+}
+
+.section_discerningequipment.section_discerningequipment_logasset ul:first-of-type li span {
+  margin-top: 0;
 }
 
 .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type li::after {
@@ -3744,7 +3761,25 @@ div .frm_mansions h2 {
   }
 }
 
-@media (max-width: 768px){
+@media (min-width: 769px) and (max-width: 991px) {
+  .top-carousel .carousel-cell2 > span {
+    left: 21%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .top-carousel .carousel-cell2 > span {
+    left: 8%;
+  }
+}
+
+@media (min-width: 1200) {
+  .top-carousel .carousel-cell2 > span {
+    left: 0%;
+  }
+}
+
+@media (max-width: 768px) {
 
   .carousel-main .flickity-prev-next-button {
     display: block;
@@ -3811,6 +3846,12 @@ div .frm_mansions h2 {
     color: #ca6407ff;
     font-size: 0.6em;
     font-weight: 400;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  .top-carousel .carousel-cell2 > span {
+    left: 12%;
   }
 }
 
@@ -4062,13 +4103,13 @@ div .frm_mansions h2 {
 
 @media (max-width: 390px) {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
-    gap: 12px;
+    gap: 14.5px;
   }
 } 
 
 @media (max-width: 375px) {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
-    gap: 8.5px;
+    gap: 10.5px;
   }
 
   .box_bottom.box_bottom_logasset .btn.phone_call {
@@ -4082,13 +4123,13 @@ div .frm_mansions h2 {
 
 @media (max-width: 360px) {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
-    gap: 5px;
+    gap: 7px;
   }
 }
 
 @media (max-width: 320px) {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
-    gap: 13px;
+    gap: 16px;
   }
 
   .box_bottom.box_bottom_logasset .btn.reservation {
