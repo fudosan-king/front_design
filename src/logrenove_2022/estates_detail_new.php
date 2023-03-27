@@ -16,6 +16,12 @@
                 <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
                 <a class="title_item" href="#property_description">物件概要</a>
                 <a class="title_item" href="#map">マップ</a>
+                <a class="title_item title_item_dashed"></a>
+                <a class="title_item" href="#">同一建物の別物件一覧</a>
+                <a class="title_item" href="#">広さが近い物件一覧</a>
+                <a class="title_item" href="#">価格が近い別物件一覧</a>
+                <a class="title_item title_item_dashed"></a>
+                <a class="title_item" href="#">ご来店について</a>
             </div>
         </div>
 
@@ -27,31 +33,74 @@
                             <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
                             <div class="top-carousel">
+                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                 <div class="carousel2 carousel-main" data-flickity='{"pageDots": false, "wrapAround": true }'>
-                                    <div class="carousel-cell2"><img src="images/img01.jpg" />
-                                        <span>01 27 居室（LDなど）</span>
+                                    <div class="carousel-cell2">
+                                        <img src="images/img01.jpg" />
+                                        <div>
+                                            <span>1</span>
+                                            <span>/</span>
+                                            <span>27</span>
+                                            <span>　居室（LDなど）</span>
+                                        </div>
                                     </div>
-                                    <div class="carousel-cell2"><img src="images/img02.jpg" />
-                                        <span>01 27 居室（LDなど）</span>
+                                    <div class="carousel-cell2">
+                                        <img src="images/img02.jpg" />
+                                        <div>
+                                            <span>2</span>
+                                            <span>/</span>
+                                            <span>27</span>
+                                            <span>　居室（LDなど）</span>
+                                        </div>
                                     </div>
-                                    <div class="carousel-cell2"><img src="images/img03.jpg" />
-                                        <span>01 27 居室（LDなど）</span>
+                                    <div class="carousel-cell2">
+                                        <img src="images/img03.jpg" />
+                                        <div>
+                                            <span>3</span>
+                                            <span>/</span>
+                                            <span>27</span>
+                                            <span>　居室（LDなど）</span>
+                                        </div>
                                     </div>
-                                    <div class="carousel-cell2"><img src="images/img04.jpg" />
-                                        <span>01 27 居室（LDなど）</span>
+                                    <div class="carousel-cell2">
+                                        <img src="images/img04.jpg" />
+                                        <div>
+                                            <span>4</span>
+                                            <span>/</span>
+                                            <span>27</span>
+                                            <span>　居室（LDなど）</span>
+                                        </div>
                                     </div>
-                                    <div class="carousel-cell2"><img src="images/img05.jpg" />
-                                        <span>01 27 居室（LDなど）</span>
+                                    <div class="carousel-cell2">
+                                        <img src="images/img05.jpg" />
+                                        <div>
+                                            <span>5</span>
+                                            <span>/</span>
+                                            <span>27</span>
+                                            <span>　居室（LDなど）</span>
+                                        </div>
                                     </div>
-                                    <div class="carousel-cell2"><img src="images/img06.jpg" />
-                                        <span>01 27 居室（LDなど）</span>
+                                    <div class="carousel-cell2">
+                                        <img src="images/img06.jpg" />
+                                        <div>
+                                            <span>6</span>
+                                            <span>/</span>
+                                            <span>27</span>
+                                            <span>　居室（LDなど）</span>
+                                        </div>
                                     </div>
-                                    <div class="carousel-cell2"><img src="images/img07.jpg" />
-                                        <span>01 27 居室（LDなど）</span>
+                                    <div class="carousel-cell2">
+                                        <img src="images/img07.jpg" />
+                                        <div>
+                                            <span>7</span>
+                                            <span>/</span>
+                                            <span>27</span>
+                                            <span>　居室（LDなど）</span>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "pageDots": false, "cellAlign": "left" }'>
+                                <!-- <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "pageDots": false, "cellAlign": "left" }'>
                                     <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
@@ -59,7 +108,7 @@
                                     <div class="carousel-cell2"><img src="images/img05.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img06.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img07.jpg" /></div>
-                                </div>
+                                </div> -->
                             </div>
                             <p>グランディ田園調布 2階に位置する当物件は、専有面積94.57m² 、2LDKの居室と13.02m² のバルコニーを備えたリノベーション物件です。東急多摩川線「沼部」駅まで徒歩4分の立地にあるほか、東急東横線「多摩川」駅など2駅2路線の利用が可能です。</p>
                         </div>
@@ -883,7 +932,7 @@
                                 <a href="#" class="btnview">同じエリアの物件を見る <img src="images/icons/i_arrow_right.svg" alt="i_arrow_right" class="img-fluid" width="20"></a>
                             </div>
 
-                            <div class="carousel carousel_conditions">
+                            <div class="carousel carousel_conditions" data-flickity='{"pageDots": false}'>
                                 <div class="carousel-cell">
                                     <a href="#" class="box_item">
                                         <div class="box_img">
@@ -951,94 +1000,52 @@
                                     </a>
                                 </div>
                             </div>
-
-                            <!-- <div class="d-block d-sm-none d-lg-none box_arealist">
-                                <ul class="box_conditions_list properties_area">
-                                    <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス 301号室</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス 301号室</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス 301号室</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="box_item">
-                                            <div class="box_img">
-                                                <img src="images/img09.jpg" alt="img09" class="img-fluid">
-                                            </div>
-                                            <div class="box_footer">
-                                                <h3>大森北ハウス 301号室</h3>
-                                                <p>東京都大田区大森北３丁目３－２</p>
-                                                <p><span>2階</span> <span>48.24㎡</span> <span>１LDK 5,400万円</span></p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section class="section_searchconditions section_searchconditions2_logasset">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="title_redirect nav-bottom">
+                            <div class="title_list">
+                                <a class="title_item" href="#estates_detail">物件詳細</a>
+                                <a class="title_item" href="#location_environment">ロケーション</a>
+                                <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
+                                <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
+                                <a class="title_item" href="#property_description">物件概要</a>
+                                <a class="title_item" href="#map">マップ</a>
+                            </div>
+                        </div>
+
+                        <div class="box_conditions">
+                            <h4>似た物件から探す</h4>
+                            <ul>
+                                <li><a href="https://www.logrenove.jp/estates/facilities/onefloor-occupied">広さが近い</a></li>
+
+                                <li><a href="https://www.logrenove.jp/estates/facilities/ih-stove">価格が近い</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include('footer.php') ?>
 
     <div class="box_bottom fixed-bottom box_bottom_logasset">
         <div class="container p-0">
-            <div class="wrapper d-md-none d-flex align-items-center">
+            <!-- <div class="wrapper d-md-none d-flex align-items-center">
                 <button input="button" class="btn reservation d-flex d-md-none" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript></a>
-                <input type="checkbox" class="nav-hamburger-bottom" name="" id="nav-mobile-hamburger-bottom">
-                <label for="nav-mobile-hamburger-bottom" class="navbar-btn-hamburger-bottom">
-                    <img src="./assets/images/icons/menu_bottom.svg" alt="" class="img-fluid" width="21">
-                </label>
-                <label for="nav-mobile-hamburger-bottom" class="navbar-bottom-close">
-                    <img src="./assets/images/icons/x-circle-brown.svg" alt="" class="img-fluid" width="16">
-                </label>
-                <div class="title_redirect">
-                    <div class="title_list">
-                        <a class="title_item">物件詳細</a>
-                        <a class="title_item" href="#location_environment">ロケーション</a>
-                        <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
-                        <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
-                        <a class="title_item" href="#property_description">物件概要</a>
-                        <a class="title_item" href="#map">マップ</a>
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper d-none d-md-flex">
-                <button input="button" class="btn reservation d-none d-md-flex" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
+            </div> -->
+            <div class="wrapper">
+                <button input="button" class="btn reservation" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
+                <button input="button" class="btn reservation contact d-none d-lg-block"><span class="i-info-w">ご来店について</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657</a>
             </div>
         </div>
@@ -1079,6 +1086,26 @@
                         return false;
                     });
                 }
+
+                // Show more
+                $(function() {
+                    var maxLengt = 120;
+                    $('.content').each(function() {
+                        var text = $(this).text();
+                        if (text.length > maxLengt) {
+                            var begin = text.substr(0, maxLengt);
+                            var end = text.substr(maxLengt);
+                            $(this).html(begin)
+                                .append($('<a class="readmore"/>').html('...続きを読む'))
+                                .append($('<span class="hidden" />').html(end));
+                        }
+                    });
+
+                    $(document).on('click', '.readmore', function() {
+                        $(this).next('.hidden').slideToggle(400);
+                        $(this).css("display", "none");
+                    })
+                })
             }(jQuery));
         });
     </script>
