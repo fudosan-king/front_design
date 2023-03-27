@@ -3059,18 +3059,6 @@ header .navbar .container {
 }
 
 /* Title redirect */
-.box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom {
-  display: none;
-}
-
-.navbar-bottom-close {
-  display: none;
-}
-
-.title_redirect {
-  display: none;
-}
-
 .title_redirect.nav-pc {
   opacity: 0.5;
   display: block;
@@ -3089,7 +3077,7 @@ header .navbar .container {
   margin-bottom: 0;
 }
 
-.title_item {
+.title_redirect.nav-pc .title_item {
   position: relative;
   display:block;
   text-decoration: none;
@@ -3102,12 +3090,12 @@ header .navbar .container {
   margin-bottom: 20px;
 }
 
-.title_item:hover {
+.title_redirect.nav-pc .title_item:hover {
   cursor: pointer;
   color: #fff;
 }
 
-.title_list .title_item:hover::before {
+.title_redirect.nav-pc .title_list .title_item:not(.title_item_dashed):hover::before {
   position: absolute;
   content: "";
   top: 7px;
@@ -3119,9 +3107,61 @@ header .navbar .container {
   z-index: 9;
 }
 
-.title_item:last-child {
+.title_redirect.nav-pc .title_item:last-child {
   margin-bottom: 0;
 }
+
+.title_redirect.nav-pc .title_list .title_item_dashed {
+  border-bottom: 1px dashed #FFFFFF;
+}
+
+.title_redirect.nav-pc .title_list .title_item_dashed:hover {
+  cursor: unset;
+}
+
+.title_redirect.nav-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.title_redirect.nav-bottom .title_list .title_item {
+  padding: 20px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  position: relative;
+}
+
+.title_redirect.nav-bottom .title_list .title_item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 14px;
+  border: 1px solid #828282;
+}
+
+.title_redirect.nav-bottom .title_list .title_item:nth-child(6)::after {
+  border: none;
+}
+
+.section_searchconditions.section_searchconditions2_logasset {
+  background: #F6F6F6;
+  padding-bottom: 30px;
+}
+
+.section_searchconditions.section_searchconditions2_logasset .box_conditions {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #BDBDBD;
+}
+
 
 /* Top info */
 .section_topinfo_logasset .box_content {
@@ -3156,9 +3196,11 @@ header .navbar .container {
   background: #fff;
 }
 
-.top-carousel .carousel-cell2 > span {
-  display: block;
+.top-carousel .carousel-cell2 > div {
+  display: flex;
+  align-items: center;
   width: 100%;
+  height: 30px;
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
@@ -3167,6 +3209,7 @@ header .navbar .container {
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
 }
 
 .carousel-main .carousel-cell2 > img {
@@ -3175,8 +3218,8 @@ header .navbar .container {
   object-fit: fill;
 }
 
-.top-carousel .carousel-cell2 > span:first-letter {
-  margin-left: 10px;
+.top-carousel .carosuel-img-camera {
+  display: none;
 }
 
 .carousel2.carousel-main {
@@ -3194,20 +3237,18 @@ header .navbar .container {
 .carousel-main .flickity-prev-next-button {
   position: absolute;
   top: 50%;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   padding: 0;
-  border: 1px solid #FFFFFF;
   border-radius: 0;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background: url(../images/pattern.png) repeat;
+  background-color: rgba(0,0,0,0.4);
   cursor: pointer;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .carousel-main .flickity-prev-next-button.previous {
-  left: -3%;
+  left: 0;
 }
 
 .carousel-main .flickity-prev-next-button .flickity-button-icon {
@@ -3216,6 +3257,7 @@ header .navbar .container {
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+  opacity: 0.4;
 }
 
 .carousel-main-slider .flickity-prev-next-button .arrow {
@@ -3223,7 +3265,7 @@ header .navbar .container {
 }
 
 .carousel-main .flickity-prev-next-button.next {
-  right: -3%;
+  right: 0;
   z-index: 100;
 }
 
@@ -3537,6 +3579,15 @@ header .navbar .container {
   margin-bottom: 60px;
 }
 
+.description_list .description_item .content .hidden { 
+  display: none;
+}
+
+.description_list .description_item .content .readmore { 
+  margin: 0 5px;
+  color: #0d6efd;
+}
+
 .section_detailproperty_logasset .title {
   text-align: left;
   font-weight: 700;
@@ -3681,6 +3732,7 @@ div .frm_mansions h2 {
 .section_logassethowroom {
   padding-top: 18px;
   padding-bottom: 20px;
+  background: #F6F6F6;
 }
 
 .section_logassethowroom .box_logo {
@@ -3723,35 +3775,51 @@ div .frm_mansions h2 {
   font-style: normal;
 }
 
-.box_bottom.fixed-bottom.box_bottom_logasset .container {
-  display: flex;
-  justify-content: center;
-}
-
 .box_bottom.box_bottom_logasset .btn {
   font-weight: 700;
-  padding: 16px 72px;
   max-width: 356px;
 }
 
 .box_bottom.box_bottom_logasset .btn.reservation {
   margin: 0;
+  max-width: 272px;
+}
+
+.box_bottom.box_bottom_logasset .btn.reservation.contact {
+  margin-left: 10px;
+}
+
+.i-info-w {
+  padding-left: 24px;
+  position: relative;
+}
+
+.i-info-w::before {
+  content: '';
+  position: absolute;
+  background: url('../images/icons/i-info.svg');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.box_bottom.box_bottom_logasset .btn.reservation .i-email-w::before {
+  top: 46.5%;
 }
 
 .box_bottom.box_bottom_logasset .btn.phone_call {
   padding: 15px 40px;
   font-weight: 700;
-  width: 242.56px;
+  max-width: 242.56px;
   height: 50px;
   margin: 0 10px;
 }
 
 .box_bottom.box_bottom_logasset .wrapper:nth-child(2) {
   width: 1024px;
-}
-
-.nav-hamburger-bottom {
-  display: none;
 }
 
 @media (min-width: 1400px) {
@@ -3762,13 +3830,13 @@ div .frm_mansions h2 {
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-  .top-carousel .carousel-cell2 > span {
+  .top-carousel .carousel-cell2 > div {
     left: 21%;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .top-carousel .carousel-cell2 > span {
+  .top-carousel .carousel-cell2 > div {
     left: 8%;
   }
 }
@@ -3780,11 +3848,10 @@ div .frm_mansions h2 {
 }
 
 @media (max-width: 768px) {
-
   .carousel-main .flickity-prev-next-button {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
 
   .carousel-main .flickity-prev-next-button.next {
@@ -3793,6 +3860,10 @@ div .frm_mansions h2 {
 
   .carousel-main .flickity-prev-next-button.previous {
     left: 0%;
+  }
+
+  .top-carousel .carousel-cell2 > div {
+    left: 12%;
   }
 
   .title_redirect.nav-pc {
@@ -3847,6 +3918,18 @@ div .frm_mansions h2 {
     font-size: 0.6em;
     font-weight: 400;
   }
+
+  .box_bottom.box_bottom_logasset .btn.reservation {
+    font-size: 1.125em;
+  }
+
+  .title_redirect.nav-bottom .title_list .title_item {
+    padding: 10px;
+  }
+
+  .section_searchconditions.section_searchconditions2_logasset .box_conditions {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 550px) and (max-width: 768px) {
@@ -3864,34 +3947,41 @@ div .frm_mansions h2 {
     display: none;
   }
 
+  .top-carousel .carousel-cell2 > div {
+    align-items: unset;
+    padding-left: 35px;
+    padding-top: 7px;
+  }
+
+  .top-carousel {
+    position: relative;
+  }
+
+  .top-carousel .carousel-cell2 > div {
+    left: 0;
+  }
+
+  .top-carousel .carosuel-img-camera {
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    bottom: 7px;
+    left: 10px;
+    width: 15px;
+    height: 15px;
+  }
+
   .box_bottom.box_bottom_logasset .btn.phone_call {
-    width: 74px;
-    height: 40px;
-    padding: 3.5px 19.5px 7.5px 27.5px;
+    max-width: 160px;
+    max-height: 40px;
+    padding: 9px 25px;
+    font-size: 14px;
     display: block;
     width: fit-content;
   }
 
-  .nav-hamburger-bottom:checked~.title_redirect {
-    display: block;
-    padding: 20px 20px 20px 35px;
-    background: #fff;
-    border-radius: 0px;
-    position: absolute;
-    top: -347%;
-    left: 48%;
-  }
-
-  .nav-hamburger-bottom:checked~.title_redirect .title_item{
-    color: #BE9C59;
-  }
-
-  .nav-hamburger-bottom:checked~.navbar-btn-hamburger-bottom {
-    display: none !important;
-  }
-
-  .nav-hamburger-bottom:checked~.navbar-bottom-close {
-    display: block;
+  .box_bottom.box_bottom_logasset .btn.phone_call img {
+    margin-bottom: 5px;
   }
 
   .box_bottom.box_bottom_logasset .container .wrapper:first-of-type() {
@@ -3899,28 +3989,10 @@ div .frm_mansions h2 {
   }
 
   .box_bottom.box_bottom_logasset .btn.reservation {
-    padding: 11px 13px;
+    padding: 10px 12px;
     display: block;
     width: fit-content;
-  }
-
-  .box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom {
-    width: 74px;
-    height: 40px;
-    padding: 8px 25.5px;
-    display: block;
-    width: fit-content;
-    border: 1px solid #BE9C59;
-    border-radius: 4px;
-  }
-
-  .box_bottom.box_bottom_logasset .navbar-bottom-close {
-    width: 74px;
-    height: 40px;
-    padding: 6px 28px;
-    width: fit-content;
-    border: 1px solid #BE9C59;
-    border-radius: 4px;
+    max-height: 40px;
   }
 
   .section_topinfo.section_topinfo_logasset .container,
@@ -4093,6 +4165,27 @@ div .frm_mansions h2 {
   .section_searchconditions_logasset .carousel.carousel_conditions .flickity-page-dots {
     display: none;
   }
+
+  .box_bottom.box_bottom_logasset .btn.reservation {
+    font-size: 12px;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.reservation .i-email-w::before {
+    top: 45.5%;
+  }
+
+  .title_redirect.nav-bottom .title_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title_redirect.nav-bottom .title_list .title_item {
+    text-align: center;
+  }
+
+  .title_redirect.nav-bottom .title_list .title_item::after {
+    border: none;
+  }
 }
 
 @media (max-width: 414px) {
@@ -4114,10 +4207,15 @@ div .frm_mansions h2 {
 
   .box_bottom.box_bottom_logasset .btn.phone_call {
     padding: 7.5px 21.5px 7.5px 26.5px;
+    font-size: 0.85em;
   }
 
   .box_bottom.box_bottom_logasset .btn.reservation {
     padding: 6px 13px;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.reservation .i-email-w {
+    padding-left: 21px;
   }
 }
 
@@ -4133,19 +4231,20 @@ div .frm_mansions h2 {
   }
 
   .box_bottom.box_bottom_logasset .btn.reservation {
-    padding: 7px 13px 7px;
+    padding: 8px 10px 5px;
+    font-size: 0.6em;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.reservation .i-email-w {
+    padding-left: 13px;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.reservation .i-email-w::before {
+    left: -7px;
+    top: 35.5%;
   }
 
   .box_bottom.box_bottom_logasset .btn.phone_call {
     padding: 7.5px 14.5px 7.5px 18.5px;
-  }
-
-  .box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom,
-  .box_bottom.box_bottom_logasset .navbar-bottom-close {
-    padding: 8px 18.5px;
-  }
-
-  .nav-hamburger-bottom:checked~.title_redirect {
-    top: -406%;
   }
 }
