@@ -138,7 +138,7 @@
                             <p><span>神奈川県横浜市：</span>神奈川区、西区、中区、鶴見区、港北区</p>
                         </div>
                     </div>
-                    <div class="map-image">
+                    <div class="map-image w-100 text-center">
                         <img src="./images/home/map.png" alt="" title="" />
                     </div>
                     </div>
