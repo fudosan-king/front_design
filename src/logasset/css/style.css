@@ -474,15 +474,11 @@ h2.title {
   left: 0;
 }
 
-.nav-menu {
-  line-height: 90px;
-  background: #006973;
-  position: relative;
-}
-.nav-menu .bg-white {
+.bg-white {
   background: #fff;
 }
-.nav-menu .btn-contact {
+
+.btn-contact {
   padding: 0;
   line-height: 90px;
   letter-spacing: 0.5px;
@@ -495,6 +491,14 @@ h2.title {
   max-width: 240px;
   border-radius: 0;
   border: none;
+  right: 0;
+  position: absolute;
+}
+
+.nav-menu {
+  line-height: 90px;
+  background: #006973;
+  position: relative;
 }
 .nav-menu .navbar {
   padding: 0;
@@ -548,9 +552,6 @@ h2.title {
 .nav-menu a.navbar-toggler.open .nav-toggler-line:nth-child(3) {
   transform: rotateZ(-45deg) translate(-4px, -12px);
 }
-.nav-menu .navbar-expand-lg ul.navbar-nav {
-  justify-content: flex-end;
-}
 
 @keyframes drawer-open {
   0% {
@@ -586,8 +587,7 @@ h2.title {
   animation-name: top-to-bottom;
   animation-duration: 1s;
 }
-
-header.menu-animation-scroll .nav-menu {
+.menu-animation-scroll .nav-menu {
   background: #006973;
 }
 
@@ -597,16 +597,6 @@ header.menu-animation-scroll .nav-menu {
   }
   100% {
     top: 0;
-  }
-}
-@media (max-width: 767px) {
-  .nav-menu .navbar-brand span {
-    font-size: 0.375rem;
-  }
-}
-@media (max-width: 374px) {
-  .nav-menu .navbar-brand span {
-    display: block;
   }
 }
 @media (max-width: 767px) {
@@ -1083,6 +1073,7 @@ footer .copyright {
 @media (max-width: 767px) {
   .home-about__business__map .map-contain {
     padding-right: 0;
+    width: 100%;
   }
   .home-about__business__map .map-contain > p {
     padding-top: 0;
@@ -1331,12 +1322,20 @@ footer .copyright {
   transform: translateY(-50%);
 }
 .home-news-topics__readmore {
-  max-width: 317px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .home-news-topics__readmore {
+    max-width: 317px;
+  }
 }
 .home-news-topics__contain {
   width: 100%;
-  max-width: calc(100% - 434px);
+}
+@media (min-width: 768px) {
+  .home-news-topics__contain {
+    max-width: calc(100% - 434px);
+  }
 }
 .home-news-topics__contain .lk-asset-news .time, .home-news-topics__contain .lk-asset-news .des {
   margin-bottom: 23px;
