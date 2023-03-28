@@ -1,0 +1,225 @@
+/*Global Setting*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Text Color*/
+
+.txt-black{
+    color:black !important;
+}
+
+
+/* Head Title */
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+}
+
+h2.title {
+    position: relative;
+    margin-left: -35px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 40px;
+    color: #46505C;
+    margin-bottom: 30px;
+    @media (min-width: 768px) {
+        letter-spacing: 0.05em;
+    }
+    @media (max-width: 767px) {
+        span {
+            display: block;
+            padding-left: 56px;
+        }
+    }
+}
+
+.title-line {
+    position: relative;
+    width: 100%;
+    @media (min-width: 768px) {
+        &:before {
+            content: '';
+            position: absolute;
+            top: calc(50% + 15px);
+            transform: translateY(-50%);
+            right: 0;
+            background: #46505C;
+            height: 1px;
+            width: 105px;
+        }
+    }
+}
+
+
+.title-custom {
+    left: -135px;
+}
+
+.ct-page{
+    h2{
+        font-size:3.5rem;
+        color:#777777;
+        text-align: center;
+        font-weight:600px;
+        line-height:1.2;
+        margin-top: 20px;
+        span{
+            margin: 14px 0 10px 0;
+            font-size: 1.125rem;
+            font-weight:normal;
+            color:$cl-black;
+            line-height: 1.2;
+        }
+    }
+    .line{
+        width: 247px;
+        height: 6px;
+        margin: 0 auto 60px auto;
+        background-color: #e1e1e1;;
+        margin-bottom: 45px;
+    }
+}
+
+
+
+.sm-title {
+    h3 {
+        padding-top: 52px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 29px;
+        letter-spacing: 0.05em;
+        color: $cl-white;
+    }
+
+    @media(max-width: 767px) {
+        h3 {
+            padding-top: 25px;
+        }
+    }
+}
+
+/* Width And Height*/
+.mr-last-to-md-0 {
+    @media (max-width: 767px) {
+        margin-right: 0;
+    }
+}
+
+.w-to-md-100 {
+    @media (max-width: 767px) {
+        max-width: 100%;
+    }
+}
+
+.max-w-100 {
+    max-width: 100%;
+}
+
+
+/*Background Gradient*/
+.bg-gradient-black-turquoise {
+    background: $bg-gradient-black-turquoise;
+}
+
+.bg-gradient-ovlarticle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .8) 85%, rgba(255, 255, 255, 1) 100%);
+}
+
+.logsuite-box-shadow {
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+/*Breadcrumb*/
+.breadcrumb {
+    ul {
+        padding: 32px 0;
+
+        li {
+            font-family: 'Noto Sans JP';
+            font-weight: 300;
+            font-size: 0.75rem;
+            line-height: 17px;
+            letter-spacing: 0.05em;
+            padding-right: 15px;
+            position: relative;
+
+            &:before {
+                content: '';
+                background: $breadcrumb-cl-gray-medium;
+                right: 7px;
+                position: absolute;
+                top: 50%;
+                width: 1px;
+                height: 17px;
+                transform: translateY(-50%) rotate(10deg);
+            }
+
+            a {
+                color: $breadcrumb-cl-gray-medium;
+            }
+
+            span {
+                color: $breadcrumb-cl-black;
+            }
+
+            &.active {
+                &:before {
+                    width: 0;
+                }
+            }
+        }
+    }
+}
+
+/* Icons */
+[class^=i-],[class*=i-] {
+    position: relative;
+    display: inline-block;
+    &:before {
+        content: '';
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+}
+
+.i-email {
+    height: 13px;
+    width: 18px;
+    &:before {
+        background-image: url('../images/icons/mail.svg');
+        height: 13px;
+        width: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+    }
+}
+
+
+.i-call-phone {
+    height: 17px;
+    width: 25px;
+    &:before {
+        background-image: url('../images/icons/call-phone.svg');
+        height: 17px;
+        width: 25px;
+        top: 60%;
+        transform: translateY(-50%);
+        left: 0;
+    }
+}

@@ -1,0 +1,141 @@
+.inquiry {
+	margin-bottom: 120px;
+	.container {
+		max-width: 846px;
+	}
+
+	.row {
+		margin-left: -10px;
+		margin-right: -10px;
+		[class*=col],[class^=col] {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		@media (min-width: 768px) {
+			.col-md:nth-of-type(1) {
+				max-width: 313px
+			}
+			.col-md:nth-of-type(2) {
+				max-width: calc(100% - 313px);
+			}
+		}
+	}
+
+	.form-group {
+		margin-bottom: 40px;
+	}
+}
+
+.inquiry {
+	.contact_top {
+		h1 {
+			font-weight: 700;
+			font-size: 1.75rem;
+			line-height: 40px;
+			letter-spacing: 0.05em;
+			padding-top: 30px;
+			margin-bottom: 90px;
+		}
+		p {
+			font-weight: 500;
+			line-height: 1.8;
+			margin-bottom: 60px;
+		}
+	}
+}
+
+
+.inquiry {
+	.form-group {
+		label {
+			gap: 20px;
+			display: flex;
+			font-family: 'Noto Serif JP';
+			font-style: normal;
+			font-weight: 700;
+			font-size: .875rem;
+		}
+		label.label {
+			justify-content: space-between;
+			align-items: center;
+			@media (min-width: 768px) {
+    			margin-bottom: 0;
+    		}
+		}
+		span.red {
+			background: #006973;
+			font-family: 'SF Pro Display';
+			font-weight: 400;
+			font-style: normal;
+			font-size: .75rem;
+			line-height: 24px;
+			height: 24px;
+			color: #FFFFFF;
+			width: 50px;
+			text-align: center;
+			display: inline-block;
+		}
+		.placeholder {
+		    top: 5px;
+		    left: 30px;
+		    right: 30px;
+		    pointer-events: none;
+		    user-select: none;
+		    position: absolute;
+		    color: #828282;
+		    font-size: 0.875em;
+		    line-height: 1.5;
+		}
+
+	}
+}
+.inquiry {
+	.frm_contactus_footer {
+		font-size: .75rem;
+		font-family: 'SF Pro Display';
+		font-weight: 400;
+		line-height: 24px;
+		a {
+			color: #006973;
+		}
+		.custom-control-label {
+			font-size: .875rem;
+			font-family: 'SF Pro Display';
+			font-weight: 400;
+		}
+		.custom-control {
+		    display: flex;
+	    	align-items: center;
+	    	justify-content: center;
+	    	margin-bottom: 20px;
+		}
+		.custom-control-label::before,.custom-control-label::after {
+			width: 20px;
+			height: 20px;
+		    transform: translateY(-50%);
+		    top: 50%;
+		    left: -1.75rem;
+		}
+		.custom-control-input:checked~.custom-control-label::before {
+		    border-color: #006973;
+	    	background-color: #006973;
+		}
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+			background-color: #006973;
+		}
+		.btn-submit {
+			padding: 0;
+			background: #006973;
+			line-height: 60px;
+			width: 100%;
+			max-width: 398px;
+			color: #fff;
+			border-radius: 0;
+			justify-content: center;
+			display: flex;
+	    	margin: 0 auto;
+		    border: none;
+		    font-size: 1.125rem;
+		}
+	}
+}
