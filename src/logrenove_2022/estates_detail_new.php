@@ -100,7 +100,7 @@
                                     </div>
                                 </div>
 
-                                <!-- <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "pageDots": false, "cellAlign": "left" }'>
+                                <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "pageDots": false, "cellAlign": "left" }'>
                                     <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
@@ -108,7 +108,7 @@
                                     <div class="carousel-cell2"><img src="images/img05.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img06.jpg" /></div>
                                     <div class="carousel-cell2"><img src="images/img07.jpg" /></div>
-                                </div> -->
+                                </div>
                             </div>
                             <p>グランディ田園調布 2階に位置する当物件は、専有面積94.57m² 、2LDKの居室と13.02m² のバルコニーを備えたリノベーション物件です。東急多摩川線「沼部」駅まで徒歩4分の立地にあるほか、東急東横線「多摩川」駅など2駅2路線の利用が可能です。</p>
                         </div>

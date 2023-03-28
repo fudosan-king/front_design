@@ -3943,6 +3943,10 @@ div .frm_mansions h2 {
     top: 188px;
   }
 
+  .carousel2.carousel-nav {
+    display: none;
+  }
+
   .title_redirect.nav-pc {
     display: none;
   }
@@ -4198,6 +4202,10 @@ div .frm_mansions h2 {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
     gap: 14.5px;
   }
+
+  .box_bottom.box_bottom_logasset .btn.reservation {
+    padding: 8px 12px;
+  }
 } 
 
 @media (max-width: 375px) {
@@ -4222,6 +4230,10 @@ div .frm_mansions h2 {
 @media (max-width: 360px) {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
     gap: 7px;
+  }
+
+  .box_bottom.box_bottom_logasset .btn.reservation {
+    padding: 6px 5px;
   }
 }
 
