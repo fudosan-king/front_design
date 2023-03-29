@@ -1039,12 +1039,35 @@
 
     <div class="box_bottom fixed-bottom box_bottom_logasset">
         <div class="container p-0">
-            <!-- <div class="wrapper d-md-none d-flex align-items-center">
+            <div class="wrapper d-md-none d-flex align-items-center">
                 <button input="button" class="btn reservation d-flex d-md-none" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript></a>
-            </div> -->
-            <div class="wrapper">
-                <button input="button" class="btn reservation" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
+                <input type="checkbox" class="nav-hamburger-bottom" name="" id="nav-mobile-hamburger-bottom">
+                <label for="nav-mobile-hamburger-bottom" class="navbar-btn-hamburger-bottom">
+                    <img src="./assets/images/icons/menu_bottom.svg" alt="" class="img-fluid" width="21">
+                </label>
+                <label for="nav-mobile-hamburger-bottom" class="navbar-bottom-close">
+                    <img src="./assets/images/icons/x-circle-brown.svg" alt="" class="img-fluid" width="16">
+                </label>
+                <div class="title_redirect">
+                    <div class="title_list">
+                        <a class="title_item" href="#estates_detail">物件詳細</a>
+                        <a class="title_item" href="#location_environment">ロケーション</a>
+                        <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
+                        <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
+                        <a class="title_item" href="#property_description">物件概要</a>
+                        <a class="title_item" href="#map">マップ</a>
+                        <a class="title_item title_item_dashed"></a>
+                        <a class="title_item" href="#">同一建物の別物件一覧</a>
+                        <a class="title_item" href="#">広さが近い物件一覧</a>
+                        <a class="title_item" href="#">価格が近い別物件一覧</a>
+                        <a class="title_item title_item_dashed"></a>
+                        <a class="title_item" href="#">ご来店について</a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper d-none d-md-flex">
+            <button input="button" class="btn reservation" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
                 <button input="button" class="btn reservation contact d-none d-lg-block"><span class="i-info-w">ご来店について</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657</a>
             </div>

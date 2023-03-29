@@ -3059,6 +3059,18 @@ header .navbar .container {
 }
 
 /* Title redirect */
+.box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom {
+  display: none;
+}
+
+.navbar-bottom-close {
+  display: none;
+}
+
+.title_redirect {
+  display: none;
+}
+
 .title_redirect.nav-pc {
   opacity: 0.5;
   display: block;
@@ -3095,7 +3107,7 @@ header .navbar .container {
   color: #fff;
 }
 
-.title_redirect.nav-pc .title_list .title_item:not(.title_item_dashed):hover::before {
+.title_redirect .title_list .title_item:not(.title_item_dashed):hover::before {
   position: absolute;
   content: "";
   top: 7px;
@@ -3111,11 +3123,11 @@ header .navbar .container {
   margin-bottom: 0;
 }
 
-.title_redirect.nav-pc .title_list .title_item_dashed {
+.title_redirect .title_list .title_item_dashed {
   border-bottom: 1px dashed #FFFFFF;
 }
 
-.title_redirect.nav-pc .title_list .title_item_dashed:hover {
+.title_redirect .title_list .title_item_dashed:hover {
   cursor: unset;
 }
 
@@ -3818,8 +3830,12 @@ div .frm_mansions h2 {
   margin: 0 10px;
 }
 
-.box_bottom.box_bottom_logasset .wrapper:nth-child(2) {
+/* .box_bottom.box_bottom_logasset .wrapper:nth-child(2) {
   width: 1024px;
+} */
+
+.nav-hamburger-bottom {
+  display: none;
 }
 
 @media (min-width: 1400px) {
@@ -3957,6 +3973,40 @@ div .frm_mansions h2 {
     padding-top: 7px;
   }
 
+  .nav-hamburger-bottom:checked~.title_redirect {
+    display: block;
+    padding: 20px 20px 20px 35px;
+    background: #fff;
+    border-radius: 0px;
+    position: absolute;
+    left: 49.5%;
+    bottom: 100%;
+    border-top: 0.5px solid #E0C18480;
+    border-left: 0.5px solid #E0C18480;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect .title_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect .title_item{
+    text-decoration: none;
+    color: #BE9C59;
+  }
+  .nav-hamburger-bottom:checked~.navbar-btn-hamburger-bottom {
+    display: none !important;
+  }
+
+  .nav-hamburger-bottom:checked~.navbar-bottom-close {
+    display: block;
+  }
+
+  .title_redirect .title_list .title_item_dashed {
+    border-bottom: 1px dashed #BE9C59;
+  }
+
   .top-carousel {
     position: relative;
   }
@@ -3988,6 +4038,16 @@ div .frm_mansions h2 {
     margin-bottom: 5px;
   }
 
+  .box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom {
+    width: 74px;
+    height: 40px;
+    padding: 8px 25.5px;
+    display: block;
+    width: fit-content;
+    border: 1px solid #BE9C59;
+    border-radius: 4px;
+  }
+  
   .box_bottom.box_bottom_logasset .container .wrapper:first-of-type() {
     position: relative;
   }
@@ -3997,6 +4057,15 @@ div .frm_mansions h2 {
     display: block;
     width: fit-content;
     max-height: 40px;
+  }
+
+  .box_bottom.box_bottom_logasset .navbar-bottom-close {
+    width: 74px;
+    height: 40px;
+    padding: 6px 28px;
+    width: fit-content;
+    border: 1px solid #BE9C59;
+    border-radius: 4px;
   }
 
   .section_topinfo.section_topinfo_logasset .container,
@@ -4196,6 +4265,10 @@ div .frm_mansions h2 {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
     gap: 18.5px;
   }
+
+  .nav-hamburger-bottom:checked~.title_redirect {
+    left: 47.5%;
+  }
 } 
 
 @media (max-width: 390px) {
@@ -4205,6 +4278,10 @@ div .frm_mansions h2 {
 
   .box_bottom.box_bottom_logasset .btn.reservation {
     padding: 8px 12px;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect {
+    left: 42.5%;
   }
 } 
 
@@ -4235,6 +4312,10 @@ div .frm_mansions h2 {
   .box_bottom.box_bottom_logasset .btn.reservation {
     padding: 6px 5px;
   }
+
+  .nav-hamburger-bottom:checked~.title_redirect {
+    left: 39.5%;
+  }
 }
 
 @media (max-width: 320px) {
@@ -4258,5 +4339,15 @@ div .frm_mansions h2 {
 
   .box_bottom.box_bottom_logasset .btn.phone_call {
     padding: 7.5px 14.5px 7.5px 18.5px;
+  }
+
+  .box_bottom.box_bottom_logasset .navbar-btn-hamburger-bottom,
+  .box_bottom.box_bottom_logasset .navbar-bottom-close {
+    padding: 8px 18.5px;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect {
+    left: 39%;
+    padding: 20px 20px 20px 15px;
   }
 }
