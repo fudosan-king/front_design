@@ -33,20 +33,21 @@
                             <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
                             <div class="top-carousel">
-                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                 <div class="carousel2 carousel-main" data-flickity='{"pageDots": false, "wrapAround": true }'>
                                     <div class="carousel-cell2">
                                         <img src="images/img01.jpg" />
                                         <div>
+                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>1</span>
                                             <span>/</span>
                                             <span>27</span>
-                                            <span>　居室（LDなど）</span>
+                                            <span>　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 </span>
                                         </div>
                                     </div>
                                     <div class="carousel-cell2">
                                         <img src="images/img02.jpg" />
                                         <div>
+                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>2</span>
                                             <span>/</span>
                                             <span>27</span>
@@ -56,6 +57,7 @@
                                     <div class="carousel-cell2">
                                         <img src="images/img03.jpg" />
                                         <div>
+                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>3</span>
                                             <span>/</span>
                                             <span>27</span>
@@ -65,6 +67,7 @@
                                     <div class="carousel-cell2">
                                         <img src="images/img04.jpg" />
                                         <div>
+                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>4</span>
                                             <span>/</span>
                                             <span>27</span>
@@ -74,6 +77,7 @@
                                     <div class="carousel-cell2">
                                         <img src="images/img05.jpg" />
                                         <div>
+                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>5</span>
                                             <span>/</span>
                                             <span>27</span>
@@ -83,6 +87,7 @@
                                     <div class="carousel-cell2">
                                         <img src="images/img06.jpg" />
                                         <div>
+                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>6</span>
                                             <span>/</span>
                                             <span>27</span>
@@ -92,6 +97,7 @@
                                     <div class="carousel-cell2">
                                         <img src="images/img07.jpg" />
                                         <div>
+                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>7</span>
                                             <span>/</span>
                                             <span>27</span>
@@ -1067,7 +1073,7 @@
                 </div>
             </div>
             <div class="wrapper d-none d-md-flex">
-            <button input="button" class="btn reservation" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
+                <button input="button" class="btn reservation" data-form="#frm_services" data-inquiry="来場予約" onclick="goToForm(this)"><span class="i-email-w">お問い合わせ・内覧予約</span></button>
                 <button input="button" class="btn reservation contact d-none d-lg-block"><span class="i-info-w">ご来店について</span></button>
                 <a href="tel:0120991657" class="btn phone_call"><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid ls-is-cached lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async"><noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657</a>
             </div>
