@@ -3212,7 +3212,7 @@ header .navbar .container {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 30px;
+  min-height: 30px;
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
@@ -3222,6 +3222,11 @@ header .navbar .container {
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   padding-left: 10px;
+}
+
+.top-carousel .carousel-cell2 > div > span:nth-of-type(4) {
+  line-height: 100%;
+  margin-left: 5px;
 }
 
 .carousel-main .carousel-cell2 > img {
@@ -3969,8 +3974,9 @@ div .frm_mansions h2 {
 
   .top-carousel .carousel-cell2 > div {
     align-items: unset;
-    padding-left: 35px;
-    padding-top: 7px;
+    padding: 5px 0 5px 35px;
+    left: 0;
+    align-items: center;
   }
 
   .nav-hamburger-bottom:checked~.title_redirect {
@@ -3991,7 +3997,11 @@ div .frm_mansions h2 {
     gap: 10px;
   }
 
-  .nav-hamburger-bottom:checked~.title_redirect .title_item{
+  .title_redirect .title_list .title_item:not(.title_item_dashed):hover::before {
+    display: none;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect .title_item {
     text-decoration: none;
     color: #BE9C59;
   }
@@ -4011,15 +4021,12 @@ div .frm_mansions h2 {
     position: relative;
   }
 
-  .top-carousel .carousel-cell2 > div {
-    left: 0;
-  }
-
   .top-carousel .carosuel-img-camera {
     display: inline-block;
     position: absolute;
     z-index: 10;
-    bottom: 7px;
+    top: calc(50% - 1px);
+    transform: translateY(-50%);
     left: 10px;
     width: 15px;
     height: 15px;
