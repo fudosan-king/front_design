@@ -1829,3 +1829,25 @@ footer .footer_bottom p a:hover {
 .load-more-container #load-more:checked ~ .load-more-btn {
   display: none;
 }
+
+/* Update footer */
+footer .footer_top ul.list_company {
+  display: block;
+}
+footer .footer_top ul.list_company li {
+  display: block;
+  margin: 0;
+}
+footer .footer_top h5 {
+  color: #fff;
+  font-size: 0.875em;
+}
+
+@media (max-width: 768px) {
+  footer .footer_top ul.list_company li {
+    text-align: center;
+  }
+  footer .footer_top .box_list_company {
+    text-align: center;
+  }
+}

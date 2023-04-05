@@ -1912,3 +1912,39 @@ footer {
 .load-more-container #load-more:checked ~ .load-more-btn {
   display: none;
 }
+
+/* Update footer */
+footer {
+  .footer_top {
+    ul {
+      &.list_company {
+        display: block;
+        li {
+          display: block;
+          margin: 0;
+        }
+      }
+    }
+    h5 {
+      color: #fff;
+      font-size: 0.875em;
+    }
+  }
+  
+}
+@media (max-width: 768px) {
+  footer {
+    .footer_top {
+      ul {
+        &.list_company {
+          li {
+            text-align: center;
+          }
+        }
+      }
+      .box_list_company {
+        text-align: center;
+      }
+    }
+  }
+}
