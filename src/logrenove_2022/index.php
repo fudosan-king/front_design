@@ -6,7 +6,7 @@
         
 
         <main>
-            <section class="section_banner">
+            <section class="section_banner mt-0">
                 <img src="images/bg_top.jpg" alt="bg_top" class="img-fluid">
             </section>
 
