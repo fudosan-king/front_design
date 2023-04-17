@@ -4358,3 +4358,573 @@ div .frm_mansions h2 {
     padding: 20px 20px 20px 15px;
   }
 }
+
+/* Mail magazine page */
+.mail-magazine .section_mailmagazine .container .row,
+.mail-magazine .section_carefully .container .row {
+  max-width: 1101px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mail-magazine .frm_registration {
+  background: #F2F2F2;
+  padding: 0 100px 10px 100px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.mail-magazine .section_mailmagazine:nth-child(2) .frm_registration {
+  padding-top: 40px;
+}
+
+.input-email {
+  padding-top: 30px;
+}
+
+.mail-magazine .frm_registration label {
+  font-size: .875em;
+  font-weight: 600;
+}
+
+.mail-magazine .frm_registration .label_sub {
+  background: #CA6407;
+  display: inline-block;
+  padding: 0 5px;
+  color: #fff;
+  font-size: .75em;
+  font-family: 'SF Pro Display Semibold',"Noto Sans JP";
+  font-weight: 600;
+  text-align: center;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 0;
+}
+
+.mail-magazine .frm_registration .form-control {
+  font-size: .875em;
+  height: calc(1.5em + 0.75rem + 7px);
+  border-color: #828282;
+}
+
+.mail-magazine .frm_registration .box_content_footer {
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+}
+
+.mail-magazine .frm_registration .primary_policy {
+  font-size: .75em;
+}
+
+.mail-magazine .frm_registration .box_content_footer a {
+  color: #3CBCCF;
+}
+
+.mail-magazine .frm_registration .form-group {
+  margin-bottom: 40px;
+}
+
+.mail-magazine .frm_registration .btnAgree, .box_thanks_mailmagazine .btnAgree {
+    font-family: 'SF Pro Display Semibold',"Noto Sans JP",sans-serif;
+    background: #CA6407;
+}
+
+.mail-magazine .section_mailmagazine .top_form {
+  display: flex;
+  min-height: 316px;
+  padding-top: 156px;
+}
+
+.mail-magazine .section_mailmagazine .top_form_left {
+  position: relative;
+}
+
+.mail-magazine .section_mailmagazine .top_form_left img {
+  width: 213px;
+  position: absolute;
+}
+
+.mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(1) {
+  right: -1.5%;
+  z-index: 1;
+  top: -9%;
+}
+
+.mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(2) {
+  width: 122px;
+  top: -74%;
+  right: -6.5%;
+}
+
+.mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(3) {
+  width: 122px;
+  top: -89%;
+  right: 28.5%;
+}
+
+.mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(4) {
+  width: 122px;
+  right: 44%;
+  top: 12%;
+}
+.mail-magazine .section_mailmagazine .top_form_right {
+  margin-left: 50px;
+}
+
+.mail-magazine .section_mailmagazine .top_form_right > h2:first-of-type,
+.mail-magazine .section_carefully .carefully_top_title > h2:first-of-type {
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #8C7D5E;
+  margin-bottom: 13px;
+}
+
+.mail-magazine .section_mailmagazine .top_form_right > p:first-of-type {
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.1em;
+  margin-left: 32px;
+  margin-bottom: 0px;
+}
+
+.mail-magazine .section_mailmagazine .top_form_right > p:first-of-type span {
+  margin-left: 28px;
+}
+
+
+.mail-magazine .section_carefully .container .row {
+  padding-left: 74px;
+  padding-right: 80px;
+}
+
+.mail-magazine .section_carefully .carefully_top {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 45px;
+}
+
+.mail-magazine .section_carefully .carefully_top_title {
+  flex: 1;
+}
+
+.mail-magazine .section_carefully .carefully_top_title > h2:first-of-type {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.mail-magazine .section_carefully .carefully_top_title > span {
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+}
+
+.mail-magazine .section_carefully img {
+  width: 387px;
+  margin-left: 34px;
+}
+
+.mail-magazine .section_carefully .carefully_content span {
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.mail-magazine .section_carefully .carefully_content span.top_des_highlight {
+  color: #CA6407;
+  font-weight: 700;
+  font-size: 21px;
+  position: relative;
+  background-image: url('../images/highline.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-bottom: 16px;
+  background-size: contain;
+}
+
+.mail-magazine .section_carefully .carefully_content .content_list_selection {
+  margin: 30px 0;
+}
+
+.mail-magazine .section_carefully .carefully_content .content_list_selection ul {
+  margin-top: 30px;
+  font-size: 21px;
+  padding-left: 24px;
+}
+
+.mail-magazine .section_carefully .carefully_content .content_list_selection ul li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.mail-magazine .section_carefully .carefully_content .content_list_selection ul li::before {
+  content: '';
+  position: absolute;
+  background: url('../images/icons/check-square.svg');
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  top: 20%;
+  left: -24px;
+}
+
+.mail-magazine .section_mailmagazine:nth-child(4) {
+  padding-bottom: 120px;
+}
+
+.mail-magazine .section_mailmagazine:nth-child(4) .top_form {
+  min-height: initial;
+  padding-top: 45px;
+}
+
+.mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type {
+  margin-bottom: 0;
+  position: relative;
+  justify-content: center;
+}
+
+.mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type img {
+  position: absolute;
+  right: 26%;
+  top: -50%;
+  width: 100px;
+}
+
+.mail-magazine .section_mailmagazine:nth-child(4) .frm_registration {
+  margin-top: 20px;
+}
+
+@media (max-width: 834px) {
+  .mail-magazine .section_banner.banner_mailmagazine,
+  .mail-magazine .section_banner.banner_mailmagazine img {
+    height: 400px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form {
+    min-height: 216px;
+    padding-top: 130px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(1) {
+    right: -2%;
+    top: -20%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(2) {
+    top: -78%;
+    right: -8.5%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(3) {
+    top: -94%;
+    right: 47.5%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(4) {
+    right: 63%;
+    top: 4%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right {
+    margin-left: 20px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right > h2:first-of-type {
+    font-size: 30px;
+  }
+
+  .mail-magazine .section_carefully .carefully_top {
+    margin-bottom: 25px;
+  }
+
+  .mail-magazine .section_carefully .carefully_top_title {
+    flex: none;
+  }
+
+  .mail-magazine .section_carefully .container .row {
+    padding: 0;
+  }
+
+  .mail-magazine .section_carefully img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection {
+    margin: 15px 0;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul {
+    margin-top: 20px;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type img {
+    right: 12%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 428px) {
+  .mail-magazine .section_banner.banner_mailmagazine,
+  .mail-magazine .section_banner.banner_mailmagazine img {
+    height: 200px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form {
+    display: block;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left {
+    height: 50px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(1) {
+    right: 12%;
+    top: -50%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(2) {
+    top: -240%;
+    right: 5%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(3) {
+    top: -280%;
+    right: 56%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(4) {
+    right: 70%;
+    top: 46%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(2) .top_form_right {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 54%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right > h2:first-of-type {
+    display: block;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right > p:first-of-type span {
+    margin-left: 0;
+  }
+
+  .mail-magazine .frm_registration {
+    padding: 0 10px 10px 10px;
+  }
+
+  .mail-magazine .frm_registration .form-group .row div:nth-child(2) {
+    width: 20%;
+  }
+
+  .mail-magazine .frm_registration .form-group .row div:nth-child(3) {
+    width: 80%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(2) .frm_registration {
+    padding-top: 0;
+  }
+
+  .mail-magazine .section_carefully .carefully_top {
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right > p:first-of-type {
+    margin-left: 0;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li::before {
+    top: 7%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right {
+    margin-left: 0;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type {
+    text-align: left;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type img {
+    right: 0%;
+    top: -40%;
+  }
+}
+
+@media (max-width: 414px) {
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type img {
+    right: -6%;
+  }
+}
+
+@media (max-width: 390px) {
+  .mail-magazine .section_mailmagazine:nth-child(2) .top_form_right {
+    margin-top: 60%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(1) {
+    right: 4%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(2) {
+    right: 0%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(3) {
+    right: 50%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(4) {
+    right: 70%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type {
+    font-size: 28px;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type img {
+    width: 30%;
+    top: -42%;
+    right: -8%;
+  }
+}
+
+@media (max-width: 375px) {
+  .mail-magazine .section_mailmagazine .top_form_right > h2:first-of-type {
+    font-size: 28px;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(2) .top_form_right {
+    margin-top: 62%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 360px) {
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(1) {
+    right: 2%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(2) {
+    right: -4%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(2) .top_form_right {
+    margin-top: 68%;
+  }
+}
+
+@media (max-width: 320px) {
+  .mail-magazine .section_banner.banner_mailmagazine,
+  .mail-magazine .section_banner.banner_mailmagazine img {
+    height: 160px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form {
+    padding-top: 94px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(1) {
+    right: -5%;
+    height: 200px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(2) {
+    right: -4%;
+    top: -188%;
+    width: 84px;
+    height: 86px;
+  }
+  
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(3) {
+    right: 54%;
+    top: -198%;
+    width: 80px;
+    height: 90px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(4) {
+    width: 80px;
+    height: 90px;
+    top: 24%;
+    right: 74%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(2) .top_form_right {
+    margin-top: 48%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right > h2:first-of-type {
+    font-size: 24px;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right > p:first-of-type {
+    font-size: 15px;
+  }
+
+  .mail-magazine .frm_registration .form-group .row div:nth-child(2) {
+    width: 24%;
+  }
+
+  .mail-magazine .frm_registration .form-group .row div:nth-child(3) {
+    width: 76%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type {
+    font-size: 22px;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li::before {
+    top: 5%;
+  }
+
+  .mail-magazine #recaptcha > div {
+    width: 100% !important;
+  }
+
+  .mail-magazine #recaptcha > div > div > iframe {
+    width: 100%;
+  }
+}
