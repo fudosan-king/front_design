@@ -4625,6 +4625,40 @@ div .frm_mansions h2 {
   margin-top: 20px;
 }
 
+@media (min-width: 992px) and (max-width: 1170px) {
+  .section_banner.banner_mailmagazine {
+    margin-top: 120px;
+  }
+}
+
+@media (min-width: 864px) and (max-width: 991px) {
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(2) {
+  top: -58%;
+  right: -8.5%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(3) {
+    top: -69%;
+    right: 44.5%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(4) {
+    right: 66%;
+  }
+
+  .mail-magazine .section_mailmagazine .top_form_right > h2:first-of-type {
+    font-size: 30px;
+  }
+
+  .mail-magazine .section_carefully .carefully_top_title {
+    flex: none;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type img {
+    right: 14%;
+  }
+}
+
 @media (max-width: 834px) {
   .mail-magazine .section_banner.banner_mailmagazine,
   .mail-magazine .section_banner.banner_mailmagazine img {
@@ -4699,7 +4733,7 @@ div .frm_mansions h2 {
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 767px) {
   .mail-magazine .section_banner.banner_mailmagazine,
   .mail-magazine .section_banner.banner_mailmagazine img {
     height: 200px;
