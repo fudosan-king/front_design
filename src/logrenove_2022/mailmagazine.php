@@ -147,8 +147,7 @@
                     <div class="col-12">
                         <div class="col-12 carefully_top">
                             <div class="col-12 col-md-6 carefully_top_title">
-                                <h2 class="text-left">最新物件の中から<br />リノベ専門スタッフが厳選して<br />
-                                    お送りします。</h2>
+                                <h2 class="text-left">最新物件の中から<br class="d-none d-md-block" />リノベ専門スタッフが厳選して<br class="d-none d-md-block" />お送りします。</h2>
                                 <span class="d-block d-lg-inline-block">毎日サイトを確認することなく、素敵な物件と出会うことができます。</span>
                             </div>
                             <img src="images/mailmagazine_5.png" alt="mailmagazine_5" class="img-fluid col-12 col-sm-6">
@@ -185,7 +184,8 @@
                         <div class="top_form col-12">
                             <div class="top_form_right col-12 text-center">
                                 <h2>メルマガに登録して<br />今すぐ厳選物件情報を確認する！
-                                <img src="images/mailmagazine_6.png" alt="mailmagazine_6" class="img-fluid"></h2>
+                                    <img src="images/mailmagazine_6.png" alt="mailmagazine_6" class="img-fluid">
+                                </h2>
                             </div>
                         </div>
                         <form action="https://form.run/api/v1/r/kpkk8dkqhsanp9zljwumqyp3" class="frm_registration"
