@@ -4643,9 +4643,13 @@ div .frm_mansions h2 {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1170px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .section_banner.banner_mailmagazine {
     margin-top: 120px;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type img {
+    right: 22%;
   }
 }
 
