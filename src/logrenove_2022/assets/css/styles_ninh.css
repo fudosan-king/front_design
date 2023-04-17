@@ -4369,7 +4369,7 @@ div .frm_mansions h2 {
 
 .mail-magazine .frm_registration {
   background: #F2F2F2;
-  padding: 0 100px 10px 100px;
+  padding: 0 80px 10px 80px;
   margin-top: 30px;
   position: relative;
 }
@@ -4426,6 +4426,8 @@ div .frm_mansions h2 {
 .mail-magazine .frm_registration .box_content_footer {
   border-top: 1px solid #ccc;
   padding-top: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .mail-magazine .frm_registration .primary_policy {
@@ -4564,7 +4566,7 @@ div .frm_mansions h2 {
 .mail-magazine .section_carefully .carefully_content span.top_des_highlight {
   color: #CA6407;
   font-weight: 700;
-  font-size: 21px;
+  font-size: 20px;
   position: relative;
   background-image: url('../images/highline.png');
   background-repeat: no-repeat;
@@ -4579,8 +4581,9 @@ div .frm_mansions h2 {
 
 .mail-magazine .section_carefully .carefully_content .content_list_selection ul {
   margin-top: 30px;
-  font-size: 21px;
+  font-size: 24px;
   padding-left: 24px;
+  line-height: 180%;
 }
 
 .mail-magazine .section_carefully .carefully_content .content_list_selection ul li {
@@ -4595,7 +4598,7 @@ div .frm_mansions h2 {
   background-repeat: no-repeat;
   height: 24px;
   width: 24px;
-  top: 20%;
+  top: 29%;
   left: -24px;
 }
 
@@ -4632,6 +4635,11 @@ div .frm_mansions h2 {
 
   .section_banner.banner_mailmagazine img {
     height: 100%;
+  }
+
+  .mail-magazine .section_mailmagazine:nth-child(2) .frm_registration,
+  .mail-magazine .section_mailmagazine:nth-child(4) .frm_registration {
+    width: 1097px;
   }
 }
 
@@ -4718,6 +4726,14 @@ div .frm_mansions h2 {
 
   .mail-magazine .section_carefully .container .row {
     padding: 0;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li::before {
+    top: 28%;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li:nth-of-type(3n)::before {
+    top: 14%;
   }
 
   .mail-magazine .section_carefully img {
@@ -4817,7 +4833,11 @@ div .frm_mansions h2 {
   }
 
   .mail-magazine .section_carefully .carefully_content .content_list_selection ul li::before {
-    top: 7%;
+    top: 13%;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li:nth-of-type(3n)::before {
+    top: 9%;
   }
 
   .mail-magazine .section_mailmagazine .top_form_right {
@@ -4858,7 +4878,7 @@ div .frm_mansions h2 {
   }
 
   .mail-magazine .section_mailmagazine .top_form_left img:nth-of-type(4) {
-    right: 70%;
+    right: 68%;
   }
 
   .mail-magazine .section_mailmagazine:nth-child(4) .top_form_right > h2:first-of-type {
@@ -4870,11 +4890,15 @@ div .frm_mansions h2 {
     top: -42%;
     right: -8%;
   }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li:nth-of-type(2n)::before {
+    top: 9%;
+  }
 }
 
 @media (max-width: 375px) {
   .mail-magazine .section_banner.banner_mailmagazine img {
-    height: 190px;
+    height: 180px;
   }
 
   .mail-magazine .section_mailmagazine .top_form_right > h2:first-of-type {
@@ -4901,6 +4925,14 @@ div .frm_mansions h2 {
 
   .mail-magazine .section_mailmagazine:nth-child(2) .top_form_right {
     margin-top: 68%;
+  }
+
+  .mail-magazine #recaptcha > div {
+    width: 100% !important;
+  }
+
+  .mail-magazine #recaptcha > div > div > iframe {
+    width: 100%;
   }
 }
 
@@ -4964,15 +4996,12 @@ div .frm_mansions h2 {
     font-size: 22px;
   }
 
-  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li::before {
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li::before,
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li:nth-of-type(2n)::before {
+    top: 9%;
+  }
+
+  .mail-magazine .section_carefully .carefully_content .content_list_selection ul li:nth-of-type(3n)::before {
     top: 5%;
-  }
-
-  .mail-magazine #recaptcha > div {
-    width: 100% !important;
-  }
-
-  .mail-magazine #recaptcha > div > div > iframe {
-    width: 100%;
   }
 }
