@@ -9,14 +9,14 @@
     <main>
         <section class="section_banner banner_top_page">
             <img src="images/bg_top_page.jpg" alt="bg_top_page" class="img-fluid">
-            <div class="banner_description">
+            <div class="banner_description banner_description_map">
                 <h1 class="d-none d-md-block">住みたい街で心地よい暮らしを。</h1>
                 <h1 class="d-block d-md-none">住みたい街で</h1>
                 <h1 class="d-block d-md-none">心地よい暮らしを。</h1>
                 <h3>都心の高級リノベ物件ならLogRenove</h3>
-                <a href="#modal_search" data-bs-toggle="modal" class="btn">
+                <!-- <a href="#modal_search" data-bs-toggle="modal" class="btn">
                     <span class="i-search-brown">物件を探す</span>
-                </a>
+                </a> -->
             </div>
         </section>
 
