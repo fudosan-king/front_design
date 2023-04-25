@@ -2063,10 +2063,6 @@ header .navbar .container {
     transform: translateX(0);
   }
 
-  .section_list_templates .list_content.list-pc {
-    display: none;
-  }
-
   .section_list_templates .list_content.list-mobile li {
     margin-bottom: 15px;
     width: 90%;
@@ -3001,10 +2997,6 @@ header .navbar .container {
 }
 
 @media (min-width: 429px) and (max-width: 523px) {
-  .section_list_templates .list_content.list-pc {
-    display: none !important;
-  }
-
   .list_templates_top .list-mobile {
     display: block !important;
   }

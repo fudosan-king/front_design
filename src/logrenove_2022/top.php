@@ -167,7 +167,7 @@
                             </li>
                         </ul>
 
-                        <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
+                        <!-- <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
                                     <div class="box_img">
@@ -299,7 +299,7 @@
                                     </div>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
 
                         <a href="https://www.logrenove.jp/estates/" class="btn">
                             <span>もっと物件を見る</span>
@@ -473,7 +473,7 @@
                             </li>
                         </ul>
 
-                        <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
+                        <!-- <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
                                     <div class="box_img">
@@ -547,7 +547,7 @@
                                     </div>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
 
                         <a href="https://www.logrenove.jp/mansions/" class="btn">
                             <span>もっとマンションを見る</span>
@@ -636,7 +636,7 @@
                             </li>
                         </ul>
 
-                        <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
+                        <!-- <ul class="list_content list_content_property mt-6 list-mobile" data-flickity='{ "autoPlay": true }'>
                             <li>
                                 <a href="https://www.logrenove.jp/estates/66998/">
                                     <div class="box_img">
@@ -700,7 +700,7 @@
                                     </div>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
 
                         <a href="https://www.logrenove.jp/estates/" class="btn">
                             <span>もっと物件を見る</span>
