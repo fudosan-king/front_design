@@ -1243,6 +1243,7 @@ header .navbar .container {
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
 }
 .section_map .section_map_content h4 {
+  font-family: 'SF Pro';
   font-weight: 700;
   font-size: 1em;
   color: #8C7D5E;
@@ -1353,20 +1354,35 @@ header .navbar .container {
   line-height: 1.2em;
 }
 
-.ikebukuro_area:hover, .ikebukuro_area.active {
+.ikebukuro_area:hover path, .ikebukuro_area.active path {
   fill: #FEBE55;
 }
+.ikebukuro_area:hover path.st3, .ikebukuro_area.active path.st3 {
+  fill: #fff;
+}
+.ikebukuro_area:hover path.st5, .ikebukuro_area.active path.st5 {
+  opacity: 1;
+}
 
-.shinagawa_area:hover, .shinagawa_area.active {
+.shinagawa_area:hover .st4, .shinagawa_area.active .st4 {
   fill: #AAC5E1;
 }
 
-.downtown_area:hover, .downtown_area.active {
+.downtown_area:hover path, .downtown_area.active path {
   fill: #EFBCCC;
 }
+.downtown_area:hover path.st3, .downtown_area.active path.st3 {
+  fill: #fff;
+}
+.downtown_area:hover path.st5, .downtown_area.active path.st5 {
+  fill: none;
+}
 
-.shinjuku_area path:hover, .shinjuku_area path.active {
+.shinjuku_area:hover path, .shinjuku_area.active path {
   fill: #74BAAB;
+}
+.shinjuku_area:hover path.st3, .shinjuku_area.active path.st3 {
+  fill: #fff;
 }
 
 .shibuya_area:hover path, .shibuya_area.active path {
@@ -1376,8 +1392,14 @@ header .navbar .container {
   fill: #fff;
 }
 
-.marunouchi_area.st4:hover, .marunouchi_area.st4.active {
+.marunouchi_area .st4:hover, .marunouchi_area .st4.active {
   fill: #EA9F72;
+}
+.marunouchi_area:hover path, .marunouchi_area.active path {
+  fill: #EA9F72;
+}
+.marunouchi_area:hover path.st3, .marunouchi_area.active path.st3 {
+  fill: #fff;
 }
 
 .banner_description.banner_description_map {

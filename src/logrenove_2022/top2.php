@@ -95,10 +95,10 @@
             />
 
         <!-- ikebukuro area -->
-        <a target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=772&areas%5B%5D=1035&areas%5B%5D=1028&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
+        <!-- active here -->
+        <a class="ikebukuro_area" target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=772&areas%5B%5D=1035&areas%5B%5D=1028&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
             <g>
-                <!-- active here -->
-                <path class="st4 ikebukuro_area" d="M203.7,1.4c-0.2-0.2-0.5-0.2-0.7,0l-12.9,12.9c-0.1,0.1-0.1,0.2-0.1,0.4v12.9c0,0.3,0.2,0.5,0.5,0.5h12.4v12.4
+                <path class="st4" d="M203.7,1.4c-0.2-0.2-0.5-0.2-0.7,0l-12.9,12.9c-0.1,0.1-0.1,0.2-0.1,0.4v12.9c0,0.3,0.2,0.5,0.5,0.5h12.4v12.4
                 c0,0.1,0.1,0.3,0.1,0.4l25.6,25.6v25h-12.4c-0.1,0-0.3,0.1-0.4,0.1l-12,12V92.1c0-0.3-0.2-0.5-0.5-0.5h-25.8c-0.3,0-0.5,0.2-0.5,0.5
                 v14.5l0,0v11.3c0,0.1,0.1,0.3,0.1,0.4l12.9,12.9c0.1,0.1,0.2,0.1,0.4,0.1h12.7l12.8,12.6c0.1,0.1,0.2,0.1,0.3,0.1l12.5,0.3l0,0
                 c0.1,0.1,0.2,0.1,0.4,0.1l25.6-0.3l12.7,12.7c0.1,0.1,0.2,0.1,0.4,0.1h25.8c0.3,0,0.5-0.2,0.5-0.5v-38.7c0-0.1-0.1-0.3-0.1-0.4
@@ -143,9 +143,9 @@
         </a>
 
         <!-- Shinagawa area -->
-        <a target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=672&areas%5B%5D=729&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
-            <!-- active here -->
-            <path class="st4 shinagawa_area" d="M229.6,259.7c0-0.2-0.1-0.4-0.3-0.5s-0.4,0-0.5,0.1l-12.9,12.9c-0.1,0.1-0.1,0.2-0.1,0.4V285h-12.4
+        <!-- active here -->
+        <a class="shinagawa_area" target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=672&areas%5B%5D=729&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
+            <path class="st4" d="M229.6,259.7c0-0.2-0.1-0.4-0.3-0.5s-0.4,0-0.5,0.1l-12.9,12.9c-0.1,0.1-0.1,0.2-0.1,0.4V285h-12.4
                 c-0.3,0-0.5,0.2-0.5,0.5v12.7l-12.4,12.4L178,298.1c-0.1-0.1-0.4-0.2-0.5-0.1c-0.2,0.1-0.3,0.3-0.3,0.5v12.9l0,0l0.2,24.6l-12-12
                 c-0.1-0.1-0.2-0.1-0.4-0.1h-26c-0.2,0-0.4,0.1-0.5,0.3c-0.1,0.2,0,0.4,0.1,0.5l25.6,25.6V363c0,0.1,0.1,0.3,0.1,0.4l12.7,12.7v12.7
                 c0,0.3,0.2,0.5,0.5,0.5h25.4l12.6,12.4L203,414.2c-0.1,0.1-0.1,0.2-0.1,0.4v12.9c0,0.3,0.2,0.5,0.5,0.5h12.9c0.1,0,0.3-0.1,0.4-0.1
@@ -154,6 +154,7 @@
                 c-0.1-0.1-0.2-0.1-0.4-0.1h-25.8c-0.1,0-0.3,0.1-0.4,0.1L281.9,387v-11.5l13.1-12.3h11.9c0.1,0,0.3-0.1,0.4-0.1l12.7-12.7
                 c0.2-0.2,0.2-0.5,0-0.7l-13-12.9c-0.1-0.1-0.2-0.1-0.4-0.1H294v-12.4v-12.4c0-0.1,0-0.3-0.1-0.3l-12.8-13.2v-12.7
                 c0-0.3-0.2-0.5-0.5-0.5H255l-12.7-12.7c-0.1-0.1-0.2-0.1-0.4-0.1l-12.4,0.2L229.6,259.7L229.6,259.7z"/>
+
             <g>
                 <path class="st3" d="M231.6,338.7h-8.4v-3.2h8.4V338.7z M234.5,332.8h-14.1v8.7h14.1V332.8z M223.4,346.2v4.1h-3.6v-4.1H223.4z
                     M217.2,354.3h2.7v-1.2h3.6v1.1h2.9v-10.7h-9.1L217.2,354.3L217.2,354.3z M231,350.3v-4.1h3.8v4.1H231z M228.3,343.5v10.8h2.7
@@ -172,6 +173,7 @@
                     <path class="st0" d="M276,352.2l-3,2.2V350L276,352.2z"/>
                 </g>
             </g>
+
             <g>
                 <path class="st3" d="M229.3,259.3l-0.8,1.8l0,0L229.3,259.3z M228.8,259.4l1.4,1.4l0,0L228.8,259.4z M215.9,272.3l1.4,1.4l0,0
                     L215.9,272.3z M215.8,285v2c1.1,0,2-0.9,2-2H215.8z M202.9,298.2l1.4,1.4c0.4-0.4,0.6-0.9,0.6-1.4H202.9z M190.5,310.6L189,312
@@ -227,12 +229,15 @@
                 <path class="st5" d="M242,272.6l12.9,12.9h25.8v12.9l12.9,13.4v12.4v12.9L280.7,350l-12.9-12.9H242h-12.9v-12.9h-12.9l-12.9-12.9
                     h-12.9l12.9-12.9v-12.9h12.9v-12.9l12.9-12.9v13.1L242,272.6z"/>
             </g>
+
+            
+
         </a>
 
         <!-- downtown area -->
-        <a target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=752&areas%5B%5D=1036&areas%5B%5D=819&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
-            <!-- active here -->
-            <path class="st4 downtown_area" d="M345.2,91.6c-0.2,0-0.4,0.1-0.5,0.3c-0.1,0.2,0,0.4,0.1,0.5l12.5,12.5l-12.2,12.3l-12.5-12.7
+        <!-- active here -->
+        <a class="downtown_area" target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=752&areas%5B%5D=1036&areas%5B%5D=819&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
+            <path class="st4" d="M345.2,91.6c-0.2,0-0.4,0.1-0.5,0.3c-0.1,0.2,0,0.4,0.1,0.5l12.5,12.5l-12.2,12.3l-12.5-12.7
                 c-0.1-0.1-0.2-0.1-0.4-0.1h-12.9c-0.1,0-0.3,0.1-0.4,0.1l-12.7,12.7h-12.7c-0.3,0-0.5,0.2-0.5,0.5v38.7c0,0.1,0.1,0.3,0.1,0.4
                 l12.9,12.9c0.1,0.1,0.2,0.1,0.4,0.1h12.4v12l0,0c-0.1,0.1-0.1,0.2-0.1,0.4l0.2,51.4l-12.6,12.6h-12.7c-0.2,0-0.4,0.1-0.5,0.3
                 s0,0.4,0.1,0.5l25.8,25.8l12,12l-11.1-0.1l-13.1-12.6c-0.2-0.2-0.5-0.2-0.7,0L293.2,285c-0.2,0.2-0.2,0.5,0,0.7l12.7,12.7v12.7
@@ -320,7 +325,7 @@
         </a>
 
         <!-- Shinjuku area -->
-        <a target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=705&areas%5B%5D=965&areas%5B%5D=731&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
+        <a class="shinjuku_area" target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=705&areas%5B%5D=965&areas%5B%5D=731&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
             <path class="st5" d="M165,104.7c-0.2-0.2-0.5-0.2-0.7,0l-0.6,0.6c-0.2,0.2-0.2,0.5,0,0.7l-0.6,0.6c-0.2-0.2-0.5-0.2-0.7,0l-1.3,1.3
                 c-0.2,0.2-0.2,0.5,0,0.7l-0.6,0.6c-0.2-0.2-0.5-0.2-0.7,0l-1.3,1.3c-0.2,0.2-0.2,0.5,0,0.7l-0.6,0.6c-0.2-0.2-0.5-0.2-0.7,0
                 l-1.3,1.3c-0.2,0.2-0.2,0.5,0,0.7l-0.6,0.6c-0.2-0.2-0.5-0.2-0.7,0l-1.3,1.3c-0.2,0.2-0.2,0.5,0,0.7l-0.6,0.6
@@ -416,7 +421,7 @@
                 M163.6,106.1l12.9,12.9l2.8-2.8l-12.9-12.9L163.6,106.1z M165.7,106.1c-0.6,0.6-1.5,0.6-2.1,0l2.8-2.8c-1-1-2.5-1-3.5,0
                 L165.7,106.1z M153,118.7l12.7-12.6l-2.8-2.8l-12.7,12.6L153,118.7z M128,119.2h23.5v-4H128V119.2z M112.3,106.1l14.4,12.6l2.6-3
                 l-14.4-12.6L112.3,106.1z"/>
-            <g class="shinjuku_area">
+            <g class="">
                 <!-- active here -->
                 <path class="st4" d="M113.6,104.6c-0.2-0.2-0.5-0.2-0.7,0l-13,12.7l-25.5,0.1c-0.1,0-0.3,0.1-0.4,0.1l-25.8,25.8
                     c-0.2,0.2-0.2,0.5,0,0.7l12.5,12.5L48.2,169c-0.2,0.2-0.2,0.5,0,0.7L61,182.6v12.7c0,0.3,0.2,0.5,0.5,0.5l12.8,0.1L87,208.6
@@ -559,7 +564,7 @@
         </a>
 
         <!-- Shibuya area -->
-        <a target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=703&areas%5B%5D=704&areas%5B%5D=670&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0" class="shibuya_area">
+        <a class="shibuya_area" target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=703&areas%5B%5D=704&areas%5B%5D=670&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
             <path class="st3" d="M177.2,182l-1.4-1.4l0,0L177.2,182z M164.5,194.8v2c0.5,0,1-0.2,1.4-0.6L164.5,194.8z M151.3,207.7v2
                 c1.1,0,2-0.9,2-2H151.3z M138.5,207.8l-1.4-1.4l0,0L138.5,207.8z M126,220.4l-1.4,1.4c0.8,0.8,2,0.8,2.8,0L126,220.4z M113.4,207.8
                 l-1.4,1.4l0,0L113.4,207.8z M100.4,207.7l-1.4,1.4c0.4,0.4,0.9,0.6,1.4,0.6V207.7z M87.7,194.9l1.4-1.4l0,0L87.7,194.9z M86.8,207
@@ -795,7 +800,8 @@
         </a>
 
         <!-- Marunouchi area -->
-        <a target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=681&areas%5B%5D=757&areas%5B%5D=876&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
+        <!-- active here -->
+        <a class="marunouchi_area" target="_blank" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=681&areas%5B%5D=757&areas%5B%5D=876&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0">
             <path class="st3" d="M267.5,156.2l-1.4-1.4l0,0L267.5,156.2z M254.7,169v2c0.5,0,1-0.2,1.4-0.6L254.7,169z M241.5,194.8v2
             c1.1,0,2-0.9,2-2H241.5z M228.6,208l1.4,1.4c0.4-0.4,0.6-0.9,0.6-1.4H228.6z M215.9,220.7l1.4,1.4l0,0L215.9,220.7z M215.9,221.4
             l-1.4,1.4l0,0L215.9,221.4z M228.6,234.2h2c0-0.5-0.2-1-0.6-1.4L228.6,234.2z M241.8,273.1l1.4-1.4c-0.4-0.4-0.9-0.6-1.4-0.6V273.1z
@@ -826,8 +832,7 @@
             h12.7v-4h-12.7V171z M292.6,157.6l12.7,12.7l2.8-2.8l-12.7-12.7L292.6,157.6z M293.6,158.1c-0.4,0-0.8-0.2-1.1-0.4l2.8-2.8
             c-0.5-0.5-1.1-0.7-1.8-0.7v3.9H293.6z M267.8,158.1h25.8v-4h-25.8V158.1z"/>
             <polygon points="48.5,143.8 48.6,143.7 48.5,143.6 "/>
-            <!-- active here -->
-            <path class="st4 marunouchi_area" d="M267.8,156.1c-0.1,0-0.3,0.1-0.4,0.1L254.7,169H242c-0.3,0-0.5,0.2-0.5,0.5v25.3h-12.4c-0.3,0-0.5,0.2-0.5,0.5
+            <path class="st4" d="M267.8,156.1c-0.1,0-0.3,0.1-0.4,0.1L254.7,169H242c-0.3,0-0.5,0.2-0.5,0.5v25.3h-12.4c-0.3,0-0.5,0.2-0.5,0.5
             V208l-12.7,12.7c-0.2,0.2-0.2,0.5,0,0.7l12.7,12.7v38.5c0,0.3,0.2,0.5,0.5,0.5h12.7l12.7,12.7c0.1,0.1,0.2,0.1,0.4,0.1h25.8
             c0.3,0,0.5-0.2,0.5-0.5v-12.9c0-0.1-0.1-0.3-0.1-0.4l-12-12h11.7c0.3,0,0.5-0.2,0.5-0.5V235l12,12l0,0l0.1,0.1h0.1c0,0,0,0,0.1,0
             l0,0h12.9c0.1,0,0.3-0.1,0.4-0.1l12.9-12.9c0.1-0.1,0.1-0.2,0.1-0.4v-12.9l0,0l-0.3-25.8l0.3-25.8c0-0.1,0-0.3-0.1-0.4
