@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
     <?php include('head.php'); ?>
+
+    <?php require('header.php'); ?>
     <body>
 
         <div class="modal fade modal_search" id="modal_search" tabindex="-1" aria-labelledby="modal_search" aria-hidden="true">
@@ -291,18 +293,20 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <h2 class="title">物件一覧</h2>
+                            <h2 class="title">販売中のリノベーションマンション</h2>
                             <p class="subtitle">販売中の中古マンションのなかから、LogRenoveが上質な物件だけをセレクト。都心部で駅に近く、なおかつ専有面積が広い――そんな希少物件を豊富な写真とともに、わかりやすく解説していきます。</p>
-                            <div class="box_searchcondition_top">
+                            <!-- <div class="box_searchcondition_top">
                                 <h3>検索条件</h3>
                                 <p><span>エリア：</span>千代田区, 中央区, 港区, 新宿区, 文京区渋谷区, 台東区, 墨田区, 江東区, 荒川区, 足立区, 葛飾区</p>
                                 <p><span>価格：</span>上限なし～下限なし</p>
                                 <p><span>広さ：</span>上限なし～下限なし</p>
                                 <p><span>こだわり：</span>ペット飼育可,WIC有り</p>
-                            </div>
-                            <p class="d-flex justify-content-end mb-4">
-                                <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
-                            </p>
+                            </div> -->
+                            <section class="search-engine mb-4">
+                                <p class="internal-search">
+                                    <a href="#modal_search" class="btn_search" data-bs-toggle="modal"><img src="assets/images/icons/i_conditions.svg" alt="" class="img-fluid" width="15">条件を変更する</a>
+                                </p>
+                            </section>
 
                             <p class="totalprocess">全 <span>11</span> 件</p>
                             <ul class="list_content">
@@ -549,7 +553,27 @@
         </main>
         
         <?php include('footer.php') ?>
-
+        <div class="box_bottom fixed-bottom search">
+    <div class="container">
+        <!-- <div class="wrapper">
+            <a href="#modal_search" data-bs-toggle="modal" input="button" class="btn d-flex d-md-none">
+                <span class="i-home-w">条件を変える</span>
+            </a>
+        </div> -->
+        <div class="wrapper">
+                    <a href="https://www.logrenove.jp/request" class="btn material btn-property-request">
+            <span class="i-user-w">物件探しを依頼</span>
+        </a>
+        <a href="#modal_search" data-bs-toggle="modal" input="button" class="btn btn-otherproperty-search d-flex">
+            <span class="i-search-w">他の物件を検索</span>
+        </a>
+                <a href="tel:0120991657" class="btn phone_call d-none d-md-flex">
+                <img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async">
+                <noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657
+            </a>
+        </div>
+    </div>
+</div>
 
         <?php include('js-footer.php') ?>
     </body>
