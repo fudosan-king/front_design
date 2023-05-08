@@ -4319,7 +4319,7 @@ div .frm_mansions h2 {
   }
 } 
 
-@media (max-width: 390px) and (max-width: 428px) {
+@media (min-width: 390px) and (max-width: 428px) {
   .section_list_templates .search-engine,
   .section_list_templates .box_searchcondition_top {
     display: none;
