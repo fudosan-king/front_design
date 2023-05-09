@@ -4297,29 +4297,18 @@ div .frm_mansions h2 {
     border: none;
   }
 
-  .section_list_templates .totalprocess {
-    font-size: 16px;
-    justify-content: center;
-    margin-bottom: 5px;
-  }
-
   .box_bottom .btn {
     padding: 5px 10px;
     font-size: .75em;
   }
-}
 
-@media (max-width: 414px) {
-  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
-    gap: 18.5px;
+  .section_list_templates .totalprocess {
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 0 !important;
+    margin-bottom: 5px;
   }
 
-  .nav-hamburger-bottom:checked~.title_redirect {
-    left: 47.5%;
-  }
-} 
-
-@media (min-width: 390px) and (max-width: 428px) {
   .section_list_templates .search-engine,
   .section_list_templates .box_searchcondition_top {
     display: none;
@@ -4334,6 +4323,16 @@ div .frm_mansions h2 {
     margin-bottom: 5px;
   }
 }
+
+@media (max-width: 414px) {
+  .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
+    gap: 18.5px;
+  }
+
+  .nav-hamburger-bottom:checked~.title_redirect {
+    left: 47.5%;
+  }
+} 
 
 @media (max-width: 390px) {
   .section_discerningequipment.section_discerningequipment_logasset ul:first-of-type {
