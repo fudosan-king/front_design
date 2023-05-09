@@ -308,7 +308,7 @@
                                 </p>
                             </section>
 
-                            <p class="totalprocess">全 <span>11</span> 件</p>
+                            <p class="totalprocess mt-3">全 <span>11</span> 件</p>
                             <ul class="list_content">
                                 <li>
                                     <a href="estates_detail.php">
