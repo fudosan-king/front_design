@@ -1468,3 +1468,65 @@ header .navbar .container {
     height: auto;
   }
 }
+/** map version 2 **/
+.green_area:hover path, .green_area.active path {
+  fill: #74baab;
+}
+.green_area:hover path.border, .green_area.active path.border {
+  fill: #000;
+}
+.green_area:hover .st1, .green_area.active .st1 {
+  fill: #74baab;
+}
+.green_area:hover .st2, .green_area.active .st2 {
+  fill: #fff;
+}
+
+.yellow_area:hover path, .yellow_area.active path {
+  fill: #f5dd00;
+}
+.yellow_area:hover .st1, .yellow_area.active .st1 {
+  fill: #f5dd00;
+}
+.yellow_area:hover .st2, .yellow_area.active .st2 {
+  fill: #fff;
+}
+
+.pink_area:hover path, .pink_area.active path {
+  fill: #efbccc;
+}
+.pink_area:hover .st1, .pink_area.active .st1 {
+  fill: #efbccc;
+}
+.pink_area:hover .st2, .pink_area.active .st2 {
+  fill: #fff;
+}
+
+.blue_area:hover path, .blue_area.active path {
+  fill: #aac5e1;
+}
+.blue_area:hover path.border, .blue_area.active path.border {
+  fill: #000;
+}
+.blue_area:hover .st1, .blue_area.active .st1 {
+  fill: #aac5e1;
+}
+.blue_area:hover .st2, .blue_area.active .st2 {
+  fill: #fff;
+}
+
+.orange_area:hover path, .orange_area.active path {
+  fill: #febe55;
+}
+.orange_area:hover .st1, .orange_area.active .st1 {
+  fill: #febe55;
+}
+.orange_area:hover .st2, .orange_area.active .st2 {
+  fill: #fff;
+}
+
+@media (max-width: 912px) {
+  .section_map .section_map_content .box_map .main_map.main_map::after {
+    display: none;
+  }
+}

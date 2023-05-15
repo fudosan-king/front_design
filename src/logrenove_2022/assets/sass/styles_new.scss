@@ -1720,3 +1720,96 @@ header {
         
     }
 }
+
+/** map version 2 **/
+.green_area {
+     &:hover, &.active {
+        path {
+            fill: #74baab;
+            &.border {
+                fill: #000;
+            }
+        }
+        .st1 {
+            fill: #74baab;
+        }
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.yellow_area {
+     &:hover, &.active {
+        path {
+            fill: #f5dd00;
+        }
+        .st1 {
+            fill: #f5dd00;
+        }
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.pink_area {
+     &:hover, &.active {
+        path {
+            fill: #efbccc;
+        }
+        .st1 {
+            fill: #efbccc;
+        }
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.blue_area {
+     &:hover, &.active {
+        path {
+            fill: #aac5e1;
+            &.border {
+                fill: #000;
+            }
+        }
+        .st1 {
+            fill: #aac5e1;
+        }
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.orange_area {
+     &:hover, &.active {
+        path {
+            fill: #febe55;
+        }
+        .st1 {
+            fill: #febe55;
+        }
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+@media (max-width: 912px) {
+    .section_map {
+        .section_map_content {
+            .box_map {
+                .main_map {
+                    &.main_map {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
