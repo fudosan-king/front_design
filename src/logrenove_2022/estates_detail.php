@@ -6,22 +6,121 @@
         <?php require('header.php'); ?>
 
         <main>
-            <section class="section_topinfo">
+
+            <div class="title_redirect nav-pc">
+                <div class="title_list">
+                    <a class="title_item" href="#estates_detail">物件詳細</a>
+                    <a class="title_item" href="#location_environment">ロケーション</a>
+                    <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
+                    <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
+                    <a class="title_item" href="#property_description">物件概要</a>
+                    <a class="title_item" href="#map">マップ</a>
+                    <a class="title_item title_item_dashed"></a>
+                    <a class="title_item" href="#">同一建物の別物件一覧</a>
+                    <a class="title_item" href="#">広さが近い物件一覧</a>
+                    <a class="title_item" href="#">価格が近い別物件一覧</a>
+                    <a class="title_item title_item_dashed"></a>
+                    <a class="title_item" href="#">ご来店について</a>
+                </div>
+            </div>
+
+            <section class="section_topinfo section_topinfo_logasset">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
-                            <div class="box_img">
-                                <img src="images/img_main.jpg" alt="img_main" class="img-fluid">
-                            </div>
                             <div class="box_content">
-                                <h1>番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
+                                <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                                 <p class="number">1LDK／54.04㎡／11,480万円</p>
-                                <h2>美しい街並み、高名なアドレスを持つ三番町の瀟洒なログマンション</h2>
-                                <p>「番町千鳥ヶ淵アビタシオン」は修繕、管理が行き届き、番町にふさわしい品を保った物件です。広さは107.55㎡、南向き3方角部屋、3LDKのリノベーションプランを用意しています。日当たりのいい南側に24.6帖の広いLDKを配置。無垢材と天然御影石を使ったL字型のオリジナルキッチンが存在感を示しています。</p>
+                                <div class="top-carousel">
+                                    <div class="carousel2 carousel-main" data-flickity='{"pageDots": false, "wrapAround": true }'>
+                                        <div class="carousel-cell2">
+                                            <a href="images/img01.jpg" data-fancybox="gallery" data-caption="　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。"><img src="images/img01.jpg" /></a>
+                                            <div>
+                                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                                <span>1</span>
+                                                <span>/</span>
+                                                <span>27</span>
+                                                <span>　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 </span>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-cell2">
+                                            <a href="images/img01.jpg" data-fancybox="gallery"></a><img src="images/img02.jpg" />
+                                            <div>
+                                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                                <span>2</span>
+                                                <span>/</span>
+                                                <span>27</span>
+                                                <span>　居室（LDなど）</span>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-cell2">
+                                            <img src="images/img03.jpg" />
+                                            <div>
+                                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                                <span>3</span>
+                                                <span>/</span>
+                                                <span>27</span>
+                                                <span>　居室（LDなど）</span>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-cell2">
+                                            <img src="images/img04.jpg" />
+                                            <div>
+                                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                                <span>4</span>
+                                                <span>/</span>
+                                                <span>27</span>
+                                                <span>　居室（LDなど）</span>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-cell2">
+                                            <img src="images/img05.jpg" />
+                                            <div>
+                                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                                <span>5</span>
+                                                <span>/</span>
+                                                <span>27</span>
+                                                <span>　居室（LDなど）</span>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-cell2">
+                                            <img src="images/img06.jpg" />
+                                            <div>
+                                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                                <span>6</span>
+                                                <span>/</span>
+                                                <span>27</span>
+                                                <span>　居室（LDなど）</span>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-cell2">
+                                            <img src="images/img07.jpg" />
+                                            <div>
+                                                <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                                <span>7</span>
+                                                <span>/</span>
+                                                <span>27</span>
+                                                <span>　居室（LDなど）</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "pageDots": false, "cellAlign": "left" }'>
+                                        <div class="carousel-cell2"><img src="images/img01.jpg" /></div>
+                                        <div class="carousel-cell2"><img src="images/img02.jpg" /></div>
+                                        <div class="carousel-cell2"><img src="images/img03.jpg" /></div>
+                                        <div class="carousel-cell2"><img src="images/img04.jpg" /></div>
+                                        <div class="carousel-cell2"><img src="images/img05.jpg" /></div>
+                                        <div class="carousel-cell2"><img src="images/img06.jpg" /></div>
+                                        <div class="carousel-cell2"><img src="images/img07.jpg" /></div>
+                                    </div>
+                                </div>
+                                <p>グランディ田園調布 2階に位置する当物件は、専有面積94.57m² 、2LDKの居室と13.02m² のバルコニーを備えたリノベーション物件です。東急多摩川線「沼部」駅まで徒歩4分の立地にあるほか、東急東横線「多摩川」駅など2駅2路線の利用が可能です。</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </section>
 
             <section class="section_midinfo">
