@@ -32,78 +32,79 @@
                         <div class="box_content">
                             <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
+                            <span class="carosuel_hint">画像を横スクロールしてツアーを開始！</span>
                             <div class="top-carousel">
                                 <div class="carousel2 carousel-main" data-flickity='{"pageDots": false, "wrapAround": true }'>
-                                    <div class="carousel-cell2">
+                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img01.jpg" data-caption="　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 ">
                                         <img src="images/img01.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>1</span>
                                             <span>/</span>
-                                            <span>27</span>
+                                            <span>7</span>
                                             <span>　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 </span>
                                         </div>
-                                    </div>
-                                    <div class="carousel-cell2">
+                                    </a>
+                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img02.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img02.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>2</span>
                                             <span>/</span>
-                                            <span>27</span>
+                                            <span>7</span>
                                             <span>　居室（LDなど）</span>
                                         </div>
-                                    </div>
-                                    <div class="carousel-cell2">
+                                    </a>
+                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img03.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img03.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>3</span>
                                             <span>/</span>
-                                            <span>27</span>
+                                            <span>7</span>
                                             <span>　居室（LDなど）</span>
                                         </div>
-                                    </div>
-                                    <div class="carousel-cell2">
+                                    </a>
+                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img04.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img04.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>4</span>
                                             <span>/</span>
-                                            <span>27</span>
+                                            <span>7</span>
                                             <span>　居室（LDなど）</span>
                                         </div>
-                                    </div>
-                                    <div class="carousel-cell2">
+                                    </a>
+                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img05.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img05.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>5</span>
                                             <span>/</span>
-                                            <span>27</span>
+                                            <span>7</span>
                                             <span>　居室（LDなど）</span>
                                         </div>
-                                    </div>
-                                    <div class="carousel-cell2">
+                                    </a>
+                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img06.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img06.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>6</span>
                                             <span>/</span>
-                                            <span>27</span>
+                                            <span>7</span>
                                             <span>　居室（LDなど）</span>
                                         </div>
-                                    </div>
-                                    <div class="carousel-cell2">
+                                    </a>
+                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img07.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img07.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>7</span>
                                             <span>/</span>
-                                            <span>27</span>
+                                            <span>7</span>
                                             <span>　居室（LDなど）</span>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
 
                                 <div class="carousel2 carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "pageDots": false, "cellAlign": "left" }'>
@@ -1083,6 +1084,11 @@
     <?php include('js-footer.php') ?>
 
     <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });    
+    </script>
+    <script>
         $(function($) {
             jQuery(document).ready(function($) {
                 $(".btnshowhide").click(function(event) {
@@ -1134,6 +1140,33 @@
                         $(this).next('.hidden').slideToggle(400);
                         $(this).css("display", "none");
                     })
+                })
+
+                $(function() {
+                    if (window.matchMedia('(max-width: 428px)').matches) {
+                        var $carousel = $('.top-carousel').flickity({
+                            pageDots: false,
+                        });
+
+                        var flkty = $carousel.data('flickity');
+
+                        function updateLayout() {
+                            var cellNumber = flkty.selectedIndex;
+                            var imageCarosuelTxt = $('.top-carousel .carousel-cell2 > div');
+                            var carosuelImage = $('.carousel-main .carousel-cell2 > img');
+                            var carosuelHeight = carosuelImage[cellNumber].offsetHeight + imageCarosuelTxt[cellNumber].offsetHeight;
+                            var carosuelMain = $('.carousel2.carousel-main');
+                            var flickityViewPort = $('.flickity-enabled.is-draggable .flickity-viewport');
+                            var carosuelItem = $('.carousel-cell2');
+                            
+                            console.log(cellNumber);
+                            flickityViewPort.css({ 'height': carosuelHeight});
+                            carosuelMain.css({ 'height': carosuelHeight});
+                        }
+
+                        updateLayout();
+                        $carousel.on( 'change.flickity', updateLayout );
+                    }
                 })
             }(jQuery));
         });
