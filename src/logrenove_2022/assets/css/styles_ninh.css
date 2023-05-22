@@ -3252,6 +3252,21 @@ section.search-engine .internal-search {
   color: #fff;
 }
 
+.top-carousel .carousel-cell2 > div::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 102%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.section_topinfo_logasset .carousel2.carousel-main.flickity-enabled.is-draggable:nth-of-type(1) .flickity-viewport {
+  min-height: 600px;
+}
+
 .top-carousel .carousel-cell2 > div {
   display: flex;
   align-items: center;
@@ -3261,11 +3276,12 @@ section.search-engine .internal-search {
   font-size: 15px;
   line-height: 160%;
   text-align: left;
-  position: absolute;
+  background: none;
+  position: relative;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px 5px 5px 10px;
+  z-index: 1;
+  padding: 4px 5px 5px 10px;
 }
 
 .top-carousel .carousel-cell2 > div > span:nth-of-type(4) {
@@ -3293,6 +3309,7 @@ section.search-engine .internal-search {
   max-width: 914px;
   background: transparent;
   margin: auto;
+  margin-top: 50px;
 }
 
 .carousel-main .flickity-prev-next-button {
@@ -3911,9 +3928,17 @@ div .frm_mansions h2 {
     left: 0%;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 850px){
   .top-carousel .carousel-cell2 > div {
     max-width: 522px;
+  }
+
+  .section_topinfo_logasset .carousel2.carousel-main.flickity-enabled.is-draggable:nth-of-type(1) .flickity-viewport {
+    min-height: 650px;
+  }
+
+  .carousel2.carousel-nav {
+    margin-top: 86px;
   }
 }
 
@@ -3935,6 +3960,10 @@ div .frm_mansions h2 {
   .top-carousel .carousel-cell2 > div {
     left: 12%;
     max-width: 691px;
+  }
+
+  .carousel2.carousel-nav {
+    margin-top: 70px;
   }
 
   .title_redirect.nav-pc {
