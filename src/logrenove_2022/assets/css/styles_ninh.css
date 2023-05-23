@@ -3309,7 +3309,7 @@ section.search-engine .internal-search {
   max-width: 914px;
   background: transparent;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 .carousel-main .flickity-prev-next-button {
@@ -5130,4 +5130,8 @@ div .frm_mansions h2 {
   .mail-magazine .section_carefully .carefully_content .content_list_selection ul li:nth-of-type(3n)::before {
     top: 5%;
   }
+}
+
+.single-estates ol.breadcrumb {
+  font-size: 12px;
 }

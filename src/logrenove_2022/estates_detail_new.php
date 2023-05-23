@@ -30,32 +30,33 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <div class="box_content">
+                        <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="https://staging.logrenove.jp">TOP</a></li>  <li class="breadcrumb-item"><a href="https://staging.logrenove.jp/estates/">Estate</a></li><li class="breadcrumb-item"><a href="estates?search=1&amp;mansion_ids=&amp;areas%5B%5D=1035&amp;keyword=&amp;price_from=&amp;price_to=&amp;floor_from=&amp;floor_to=&amp;station_distance=#gsc.tab=0">豊島区</a></li>  <li class="breadcrumb-item active" aria-current="page">番町千鳥ヶ淵アビタシオン</li></ol></nav>
                             <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
                             <span class="carosuel_hint">画像を横スクロールしてツアーを開始！</span>
                             <div class="top-carousel">
                                 <div class="carousel2 carousel-main" data-flickity='{"pageDots": false, "wrapAround": true }'>
-                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img01.jpg" data-caption="　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 ">
+                                    <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img01.jpg" data-caption="　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 ">
                                         <img src="images/img01.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>1</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 </span>
+                                            <span>　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 </span>
                                         </div>
                                     </a>
-                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img02.jpg" data-caption="　居室（LDなど）">
+                                    <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img02.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img02.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
                                             <span>2</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　居室（LDなど）</span>
+                                            <span>　居室（LDなど）<br/>　居室（LDなど）</span>
                                         </div>
                                     </a>
-                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img03.jpg" data-caption="　居室（LDなど）">
+                                    <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img03.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img03.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
@@ -65,7 +66,7 @@
                                             <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
-                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img04.jpg" data-caption="　居室（LDなど）">
+                                    <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img04.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img04.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
@@ -75,7 +76,7 @@
                                             <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
-                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img05.jpg" data-caption="　居室（LDなど）">
+                                    <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img05.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img05.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
@@ -85,7 +86,7 @@
                                             <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
-                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img06.jpg" data-caption="　居室（LDなど）">
+                                    <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img06.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img06.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
@@ -95,7 +96,7 @@
                                             <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
-                                    <a class="carousel-cell2" data-fancybox="gallery" href="images/img07.jpg" data-caption="　居室（LDなど）">
+                                    <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img07.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img07.jpg" />
                                         <div>
                                             <img src="images/icons/camera.svg" class="carosuel-img-camera" />
@@ -1143,30 +1144,26 @@
                 })
 
                 $(function() {
-                    if (window.matchMedia('(max-width: 428px)').matches) {
-                        var $carousel = $('.top-carousel').flickity({
-                            pageDots: false,
-                        });
+                    const updateLayout = function(e) {
+                        let carousel = $('.top-carousel');
+                        let cellSelected = carousel.find('.carousel-cell2.is-selected');
+                        if (cellSelected.length > 0) {
+                            let imageCarosuelTxt = cellSelected.find('div');
+                            let carosuelMain = carousel.find('.carousel-main');
+                            let carosuelImage = carosuelMain.find('img');
+                            let carosuelNav = carousel.find('.carousel-nav');
+                            let carosuelHeight = carosuelImage[0].offsetHeight + imageCarosuelTxt[0].offsetHeight;
+                            let flickityViewPort = carousel.find('.carousel-main.flickity-enabled.is-draggable:nth-of-type(1) .flickity-viewport');
 
-                        var flkty = $carousel.data('flickity');
-
-                        function updateLayout() {
-                            var cellNumber = flkty.selectedIndex;
-                            var imageCarosuelTxt = $('.top-carousel .carousel-cell2 > div');
-                            var carosuelImage = $('.carousel-main .carousel-cell2 > img');
-                            var carosuelHeight = carosuelImage[cellNumber].offsetHeight + imageCarosuelTxt[cellNumber].offsetHeight;
-                            var carosuelMain = $('.carousel2.carousel-main');
-                            var flickityViewPort = $('.flickity-enabled.is-draggable .flickity-viewport');
-                            var carosuelItem = $('.carousel-cell2');
-                            
-                            console.log(cellNumber);
+                            carosuelNav.css('margin-top', `${imageCarosuelTxt[0].offsetHeight}px !important`);
+                            imageCarosuelTxt.css({ 'height': imageCarosuelTxt[0].offsetHeight});
                             flickityViewPort.css({ 'height': carosuelHeight});
                             carosuelMain.css({ 'height': carosuelHeight});
                         }
-
-                        updateLayout();
-                        $carousel.on( 'change.flickity', updateLayout );
                     }
+                
+                    updateLayout();
+                    $carousel.on( 'change.flickity', updateLayout );
                 })
             }(jQuery));
         });
