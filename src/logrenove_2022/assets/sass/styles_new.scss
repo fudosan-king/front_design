@@ -1816,12 +1816,15 @@ header {
 
 /** map version 3 **/
 .area_kitaward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         path {
-            fill: #efbccc;
+            fill: #74BAAB;
         }
         .st1 {
-            fill: #efbccc;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1830,9 +1833,12 @@ header {
 }
 
 .area_toshimaward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         polygon {
-            fill: #febe55;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1841,9 +1847,12 @@ header {
 }
 
 .area_bunkyoward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         polygon {
-            fill: #efbccc;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1852,9 +1861,12 @@ header {
 }
 
 .area_taitoward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         polygon {
-            fill: #f5dd00;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1863,9 +1875,12 @@ header {
 }
 
 .area_sumidaward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         polygon {
-            fill: #aac5e1;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1874,9 +1889,12 @@ header {
 }
 
 .area_suginamiward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         polygon {
-            fill: #EA9F72;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1885,9 +1903,12 @@ header {
 }
 
 .area_nakanoward {
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #78B0C1;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1895,9 +1916,12 @@ header {
     }
 }
 .area_shinjukuward {
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #005f73;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1905,9 +1929,12 @@ header {
     }
 }
 .area_chiyodaward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         polygon {
-            fill: #0a9396;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1915,9 +1942,12 @@ header {
     }
 }
 .area_chuokuward {
+    polygon {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         polygon {
-            fill: #70d6ff;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1925,9 +1955,12 @@ header {
     }
 }
 .area_kotoward {
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #e9d8a6;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1935,10 +1968,12 @@ header {
     }
 }
 .area_setagayaward {
-    
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #ee9b00;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1946,9 +1981,12 @@ header {
     }
 }
 .area_shibuyaward {
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #ca6702;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1956,9 +1994,12 @@ header {
     }
 }
 .area_minatokuward {
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #bb3e03;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1966,9 +2007,12 @@ header {
     }
 }
 .area_meguroward {
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #ae2012;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1976,9 +2020,12 @@ header {
     }
 }
 .area_shinagawaward {
-     &:hover, &.active {
+    .st6 {
+        fill: #8c7d5e;
+    }
+    &:hover, &.active {
         .st6 {
-            fill: #386641;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
@@ -1986,16 +2033,28 @@ header {
     }
 }
 .area_otakuward {
+    .st6 {
+        fill: #8c7d5e;
+    }
      &:hover, &.active {
         .st6 {
-            fill: #6a994e;
+            fill: #74BAAB;
         }
         .st2 {
             fill: #fff;
         }
     }
 }
-
+.big_island {
+    .st1 {
+        fill: #8c7d5e;
+    }
+}
+.small_island {
+    .st1 {
+        fill: #8c7d5e;
+    }
+}
 
 
 
