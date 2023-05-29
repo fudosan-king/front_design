@@ -1537,8 +1537,11 @@ header .navbar .container {
 .area_kitaward:hover path, .area_kitaward.active path {
   fill: #74BAAB;
 }
-.area_kitaward:hover .st1, .area_kitaward.active .st1 {
+.area_kitaward:hover .st6, .area_kitaward.active .st6 {
   fill: #74BAAB;
+}
+.area_kitaward:hover .st1, .area_kitaward.active .st1 {
+  fill: #fff;
 }
 .area_kitaward:hover .st2, .area_kitaward.active .st2 {
   fill: #fff;
@@ -1594,20 +1597,20 @@ header .navbar .container {
   fill: #fff;
 }
 
-.area_nakanoward .st6 {
+.area_nakanoward .st5 {
   fill: #8c7d5e;
 }
-.area_nakanoward:hover .st6, .area_nakanoward.active .st6 {
+.area_nakanoward:hover .st5, .area_nakanoward.active .st5 {
   fill: #74BAAB;
 }
 .area_nakanoward:hover .st2, .area_nakanoward.active .st2 {
   fill: #fff;
 }
 
-.area_shinjukuward .st6 {
+.area_shinjukuward .st5 {
   fill: #8c7d5e;
 }
-.area_shinjukuward:hover .st6, .area_shinjukuward.active .st6 {
+.area_shinjukuward:hover .st5, .area_shinjukuward.active .st5 {
   fill: #74BAAB;
 }
 .area_shinjukuward:hover .st2, .area_shinjukuward.active .st2 {
@@ -1634,78 +1637,84 @@ header .navbar .container {
   fill: #fff;
 }
 
-.area_kotoward .st6 {
+.area_kotoward .st5, .area_kotoward .st6 {
   fill: #8c7d5e;
 }
-.area_kotoward:hover .st6, .area_kotoward.active .st6 {
+.area_kotoward:hover .st5, .area_kotoward:hover .st6, .area_kotoward.active .st5, .area_kotoward.active .st6 {
   fill: #74BAAB;
 }
 .area_kotoward:hover .st2, .area_kotoward.active .st2 {
   fill: #fff;
 }
 
-.area_setagayaward .st6 {
+.area_setagayaward .st5 {
   fill: #8c7d5e;
 }
-.area_setagayaward:hover .st6, .area_setagayaward.active .st6 {
+.area_setagayaward:hover .st5, .area_setagayaward.active .st5 {
   fill: #74BAAB;
 }
 .area_setagayaward:hover .st2, .area_setagayaward.active .st2 {
   fill: #fff;
 }
 
-.area_shibuyaward .st6 {
+.area_shibuyaward .st5 {
   fill: #8c7d5e;
 }
-.area_shibuyaward:hover .st6, .area_shibuyaward.active .st6 {
+.area_shibuyaward:hover .st5, .area_shibuyaward.active .st5 {
   fill: #74BAAB;
 }
 .area_shibuyaward:hover .st2, .area_shibuyaward.active .st2 {
   fill: #fff;
 }
 
-.area_minatokuward .st6 {
+.area_minatokuward .st5 {
   fill: #8c7d5e;
 }
-.area_minatokuward:hover .st6, .area_minatokuward.active .st6 {
+.area_minatokuward:hover .st5, .area_minatokuward.active .st5 {
   fill: #74BAAB;
 }
 .area_minatokuward:hover .st2, .area_minatokuward.active .st2 {
   fill: #fff;
 }
 
-.area_meguroward .st6 {
+.area_meguroward .st5 {
   fill: #8c7d5e;
 }
-.area_meguroward:hover .st6, .area_meguroward.active .st6 {
+.area_meguroward:hover .st5, .area_meguroward.active .st5 {
   fill: #74BAAB;
 }
 .area_meguroward:hover .st2, .area_meguroward.active .st2 {
   fill: #fff;
 }
 
-.area_shinagawaward .st6 {
+.area_shinagawaward .st5 {
   fill: #8c7d5e;
 }
-.area_shinagawaward:hover .st6, .area_shinagawaward.active .st6 {
+.area_shinagawaward:hover .st5, .area_shinagawaward.active .st5 {
   fill: #74BAAB;
 }
 .area_shinagawaward:hover .st2, .area_shinagawaward.active .st2 {
   fill: #fff;
 }
 
+.area_otakuward .st5 {
+  fill: #8c7d5e;
+}
 .area_otakuward .st6 {
   fill: #8c7d5e;
 }
-.area_otakuward:hover .st6, .area_otakuward.active .st6 {
+.area_otakuward:hover .st5, .area_otakuward:hover .st6, .area_otakuward.active .st5, .area_otakuward.active .st6 {
   fill: #74BAAB;
 }
 .area_otakuward:hover .st2, .area_otakuward.active .st2 {
   fill: #fff;
 }
+.area_otakuward:hover .st1, .area_otakuward.active .st1 {
+  fill: #fff;
+}
 
 .big_island .st1 {
-  fill: #5f8dd3;
+  fill: #8c7d5e;
 }
 
 .small_island .st1 {
