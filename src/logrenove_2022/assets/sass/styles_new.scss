@@ -1823,8 +1823,11 @@ header {
         path {
             fill: #74BAAB;
         }
-        .st1 {
+        .st6 {
             fill: #74BAAB;
+        }
+        .st1 {
+            fill: #fff;
         }
         .st2 {
             fill: #fff;
@@ -1903,11 +1906,11 @@ header {
 }
 
 .area_nakanoward {
-    .st6 {
+    .st5 {
         fill: #8c7d5e;
     }
      &:hover, &.active {
-        .st6 {
+        .st5 {
             fill: #74BAAB;
         }
         .st2 {
@@ -1916,11 +1919,11 @@ header {
     }
 }
 .area_shinjukuward {
-    .st6 {
+    .st5 {
         fill: #8c7d5e;
     }
      &:hover, &.active {
-        .st6 {
+        .st5 {
             fill: #74BAAB;
         }
         .st2 {
@@ -1955,11 +1958,12 @@ header {
     }
 }
 .area_kotoward {
-    .st6 {
+    .st5, .st6 {
         fill: #8c7d5e;
     }
+    
      &:hover, &.active {
-        .st6 {
+        .st5, .st6 {
             fill: #74BAAB;
         }
         .st2 {
@@ -1968,11 +1972,11 @@ header {
     }
 }
 .area_setagayaward {
-    .st6 {
+    .st5 {
         fill: #8c7d5e;
     }
      &:hover, &.active {
-        .st6 {
+        .st5 {
             fill: #74BAAB;
         }
         .st2 {
@@ -1981,11 +1985,11 @@ header {
     }
 }
 .area_shibuyaward {
-    .st6 {
+    .st5 {
         fill: #8c7d5e;
     }
      &:hover, &.active {
-        .st6 {
+        .st5 {
             fill: #74BAAB;
         }
         .st2 {
@@ -1994,11 +1998,11 @@ header {
     }
 }
 .area_minatokuward {
-    .st6 {
+    .st5 {
         fill: #8c7d5e;
     }
      &:hover, &.active {
-        .st6 {
+        .st5 {
             fill: #74BAAB;
         }
         .st2 {
@@ -2007,11 +2011,11 @@ header {
     }
 }
 .area_meguroward {
-    .st6 {
+    .st5 {
         fill: #8c7d5e;
     }
      &:hover, &.active {
-        .st6 {
+        .st5 {
             fill: #74BAAB;
         }
         .st2 {
@@ -2020,11 +2024,11 @@ header {
     }
 }
 .area_shinagawaward {
-    .st6 {
+    .st5 {
         fill: #8c7d5e;
     }
     &:hover, &.active {
-        .st6 {
+        .st5 {
             fill: #74BAAB;
         }
         .st2 {
@@ -2033,21 +2037,27 @@ header {
     }
 }
 .area_otakuward {
+    .st5 {
+        fill: #8c7d5e;
+    }
     .st6 {
         fill: #8c7d5e;
     }
      &:hover, &.active {
-        .st6 {
+        .st5, .st6 {
             fill: #74BAAB;
         }
         .st2 {
+            fill: #fff;
+        }
+        .st1 {
             fill: #fff;
         }
     }
 }
 .big_island {
     .st1 {
-        fill: #5f8dd3;
+        fill: #8c7d5e;
     }
 }
 .small_island {
