@@ -136,56 +136,217 @@
                         <ul class="mt-2 tag-list">
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_quietarea.svg" alt="i_quietarea" class="img-fluid" width="40">
-                                    <span>閑静な住宅街</span>
+                                    <img src="images/icons/facilities/i_駅直結.svg" alt="i_駅直結" class="img-fluid" width="32">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_autolock.svg" alt="i_autolock" class="img-fluid" width="40">
-                                    <span>オートロック</span>
+                                    <img src="images/icons/facilities/i_駅徒歩3分以内.svg" alt="i_駅徒歩3分以内.svg" class="img-fluid" width="71">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_concierge.svg" alt="i_concierge" class="img-fluid" width="40">
-                                    <span>コンシェルジュ</span>
+                                    <img src="images/icons/facilities/i_駅徒歩5分以内.svg" alt="i_駅徒歩5分以内.svg" class="img-fluid" width="71">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_deliverybox.svg" alt="i_deliverybox" class="img-fluid" width="40">
-                                    <span>宅配ボックス</span>
+                                    <img src="images/icons/facilities/i_圧巻の眺望.svg" alt="i_圧巻の眺望.svg" class="img-fluid" width="54">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_parking.svg" alt="i_parking" class="img-fluid" width="40">
-                                    <span>駐車場相談</span>
+                                    <img src="images/icons/facilities/i_3階以下の低層マンション.svg" alt="i_3階以下の低層マンション.svg" class="img-fluid" width="71">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_gasstove.svg" alt="i_gasstove" class="img-fluid" width="40">
-                                    <span>オール家電</span>
+                                    <img src="images/icons/facilities/i_閑静な住宅街.svg" alt="i_閑静な住宅街.svg" class="img-fluid" width="65">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_terrace.svg" alt="i_terrace" class="img-fluid" width="40">
-                                    <span>角部屋</span>
+                                    <img src="images/icons/facilities/i_共用施設充実.svg" alt="i_共用施設充実.svg" class="img-fluid" width="65">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_floorheat.svg" alt="i_floorheat" class="img-fluid" width="40">
-                                    <span>床暖部完備</span>
+                                    <img src="images/icons/facilities/i_24時間有人管理 （コンシェル ジュサービス）.svg" alt="i_24時間有人管理 （コンシェル ジュサービス）.svg" class="img-fluid" width="78">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/icons/i_pet.svg" alt="i_pet" class="img-fluid" width="40">
-                                    <span>ペット相談</span>
+                                    <img src="images/icons/facilities/i_ルーフバルコニー.svg" alt="i_ルーフバルコニー.svg" class="img-fluid" width="85">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_テラス.svg" alt="i_テラス.svg" class="img-fluid" width="31">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_ペット飼育可.svg" alt="i_ペット飼育可.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_大型犬飼育可.svg" alt="i_大型犬飼育可.svg" class="img-fluid" width="65">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_駐車場 （空きあり）.svg" alt="i_駐車場 （空きあり）.svg" class="img-fluid" width="42">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_駐車場 （空きなし）.svg" alt="i_駐車場 （空きなし）.svg" class="img-fluid" width="42">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_専用使用権付き 駐車場.svg" alt="i_専用使用権付き 駐車場.svg" class="img-fluid" width="75">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_平置き駐車場.svg" alt="i_平置き駐車場.svg" class="img-fluid" width="65">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_駐輪場 （空きあり）.svg" alt="i_駐輪場 （空きあり）.svg" class="img-fluid" width="42">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_駐輪場 （空きなし）.svg" alt="i_駐輪場 （空きなし）.svg" class="img-fluid" width="42">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_バイク置き場 （空きあり）.svg" alt="i_バイク置き場 （空きあり）.svg" class="img-fluid" width="65">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_バイク置き場 （空きなし）.svg" alt="i_バイク置き場 （空きなし）.svg" class="img-fluid" width="65">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_1フロア1住戸.svg" alt="i_1フロア1住戸.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_LD20帖以上.svg" alt="i_LD20帖以上.svg" class="img-fluid" width="58">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_LD30帖以上.svg" alt="i_LD30帖以上.svg" class="img-fluid" width="58">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_専有面積 120平米以上.svg" alt="i_専有面積 120平米以上.svg" class="img-fluid" width="61">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_最上階角部屋 （ペントハウス）.svg" alt="i_最上階角部屋 （ペントハウス）.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_角部屋.svg" alt="i_角部屋.svg" class="img-fluid" width="32">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_4LDK以上.svg" alt="i_4LDK以上.svg" class="img-fluid" width="48">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_全面フローリング.svg" alt="i_全面フローリング.svg" class="img-fluid" width="81">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_和室あり.svg" alt="i_和室あり.svg" class="img-fluid" width="41">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_床暖房.svg" alt="i_床暖房.svg" class="img-fluid" width="32">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_シューズイン クローゼット.svg" alt="i_シューズイン クローゼット.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_オートロック.svg" alt="i_オートロック.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_カウンター キッチン.svg" alt="i_カウンター キッチン.svg" class="img-fluid" width="53">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_独立型キッチン.svg" alt="i_独立型キッチン.svg" class="img-fluid" width="76">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_IHクッキング ヒーター.svg" alt="i_IHクッキング ヒーター.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_ガスコンロ.svg" alt="i_ガスコンロ.svg" class="img-fluid" width="53">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_ディスポーザー.svg" alt="i_ディスポーザー.svg" class="img-fluid" width="74">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_ウォークイン クローゼット.svg" alt="i_ウォークイン クローゼット.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_ダブル オートロック.svg" alt="i_ダブル オートロック.svg" class="img-fluid" width="64">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_オール電化.svg" alt="i_オール電化.svg" class="img-fluid" width="54">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_制震・免震.svg" alt="i_制震・免震.svg" class="img-fluid" width="54">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_トランクルーム.svg" alt="i_トランクルーム.svg" class="img-fluid" width="72">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/icons/facilities/i_宅配ボックス.svg" alt="i_宅配ボックス.svg" class="img-fluid" width="64">
                                 </a>
                             </li>
                         </ul>
@@ -1144,8 +1305,8 @@
                 })
 
                 $(function() {
+                    let carousel = $('.top-carousel');
                     const updateLayout = function(e) {
-                        let carousel = $('.top-carousel');
                         let cellSelected = carousel.find('.carousel-cell2.is-selected');
                         if (cellSelected.length > 0) {
                             let imageCarosuelTxt = cellSelected.find('div');
@@ -1163,7 +1324,7 @@
                     }
                 
                     updateLayout();
-                    $carousel.on( 'change.flickity', updateLayout );
+                    carousel.on( 'change.flickity', updateLayout );
                 })
             }(jQuery));
         });
