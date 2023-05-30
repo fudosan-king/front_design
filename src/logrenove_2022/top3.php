@@ -1154,73 +1154,73 @@
 						<ul class="list_new">
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_ルーフバルコニー.svg" alt="ルーフバルコニー" width="85">
+									<img src="images/icons/facilities/i_ルーフバルコニー.png" alt="ルーフバルコニー">
 									<span>256</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_角部屋.svg" alt="角部屋" width="32">
+									<img src="images/icons/facilities/i_角部屋.png" alt="角部屋">
 									<span>51</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_オートロック.svg" alt="オートロック" width="64">
+									<img src="images/icons/facilities/i_オートロック.png" alt="オートロック">
 									<span>20</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_駅徒歩5分以内.svg" alt="駅徒歩5分以内" width="71">
+									<img src="images/icons/facilities/i_駅徒歩5分以内.png" alt="駅徒歩5分以内">
 									<span>256</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_平置き駐車場.svg" alt="平置き駐車場" width="65">
+									<img src="images/icons/facilities/i_平置き駐車場.png" alt="平置き駐車場">
 									<span>10</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_最上階角部屋 （ペントハウス）.svg" alt="最上階角部屋 （ペントハウス）" width="64">
+									<img src="images/icons/facilities/i_最上階角部屋 （ペントハウス）.png" alt="最上階角部屋 （ペントハウス）">
 									<span>30</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_24時間有人管理 （コンシェル ジュサービス）.svg" alt="24時間有人管理 （コンシェル ジュサービス） （ペントハウス）" width="78">
+									<img src="images/icons/facilities/i_24時間有人管理 （コンシェル ジュサービス）.png" alt="24時間有人管理 （コンシェル ジュサービス） （ペントハウス）">
 									<span>40</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_共用施設充実.svg" alt="共用施設充実" width="65">
+									<img src="images/icons/facilities/i_共用施設充実.png" alt="共用施設充実">
 									<span>50</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_床暖房.svg" alt="床暖房" width="32">
+									<img src="images/icons/facilities/i_床暖房.png" alt="床暖房">
 									<span>55</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_専有面積 120平米以上.svg" alt="専有面積 120平米以上" width="61">
+									<img src="images/icons/facilities/i_専有面積 120平米以上.png" alt="専有面積 120平米以上">
 									<span>60</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_4LDK以上.svg" alt="4LDK以上" width="48">
+									<img src="images/icons/facilities/i_4LDK以上.png" alt="4LDK以上">
 									<span>100</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="images/icons/facilities/i_駅徒歩3分以内.svg" alt="駅徒歩3分以内" width="71">
+									<img src="images/icons/facilities/i_駅徒歩3分以内.png" alt="駅徒歩3分以内">
 									<span>150</span>
 								</a>
 							</li>
