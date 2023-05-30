@@ -1155,61 +1155,73 @@
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_ルーフバルコニー.svg" alt="ルーフバルコニー" width="85">
+									<span>256</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_角部屋.svg" alt="角部屋" width="32">
+									<span>51</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_オートロック.svg" alt="オートロック" width="64">
+									<span>20</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_駅徒歩5分以内.svg" alt="駅徒歩5分以内" width="71">
+									<span>256</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_平置き駐車場.svg" alt="平置き駐車場" width="65">
+									<span>10</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_最上階角部屋 （ペントハウス）.svg" alt="最上階角部屋 （ペントハウス）" width="64">
+									<span>30</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_24時間有人管理 （コンシェル ジュサービス）.svg" alt="24時間有人管理 （コンシェル ジュサービス） （ペントハウス）" width="78">
+									<span>40</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_共用施設充実.svg" alt="共用施設充実" width="65">
+									<span>50</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_床暖房.svg" alt="床暖房" width="32">
+									<span>55</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_専有面積 120平米以上.svg" alt="専有面積 120平米以上" width="61">
+									<span>60</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_4LDK以上.svg" alt="4LDK以上" width="48">
+									<span>100</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<img src="images/icons/facilities/i_駅徒歩3分以内.svg" alt="駅徒歩3分以内" width="71">
+									<span>150</span>
 								</a>
 							</li>
 						</ul>
