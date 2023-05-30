@@ -196,12 +196,12 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/駐車場_（空きあり）.png" alt="駐車場（空きあり）" class="img-fluid">
+                                    <img src="images/facilities/駐車場（空きあり）.png" alt="駐車場（空きあり）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/駐車場_（空きなし）.png" alt="駐車場（空きなし）" class="img-fluid">
+                                    <img src="images/facilities/駐車場（空きなし）.png" alt="駐車場（空きなし）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
@@ -216,22 +216,22 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/駐輪場_（空きあり）.png" alt="駐輪場（空きあり）" class="img-fluid">
+                                    <img src="images/facilities/駐輪場（空きあり）.png" alt="駐輪場（空きあり）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/駐輪場_（空きなし）.png" alt="駐輪場（空きなし）" class="img-fluid">
+                                    <img src="images/facilities/駐輪場（空きなし）.png" alt="駐輪場（空きなし）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/バイク置き場_（空きあり）.png" alt="バイク置き場（空きあり）" class="img-fluid">
+                                    <img src="images/facilities/バイク置き場（空きあり）.png" alt="バイク置き場（空きあり）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/バイク置き場_（空きなし）.png" alt="バイク置き場（空きなし）" class="img-fluid">
+                                    <img src="images/facilities/バイク置き場（空きなし）.png" alt="バイク置き場（空きなし）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
@@ -256,7 +256,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/最上階角部屋_（ペントハウス）.png" alt="最上階角部屋（ペントハウス）" class="img-fluid">
+                                    <img src="images/facilities/最上階角部屋（ペントハウス）.png" alt="最上階角部屋（ペントハウス）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
