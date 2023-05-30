@@ -171,7 +171,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="images/facilities/24時間有人管理（コンシェル ジュサービス）.png" alt="24時間有人管理 （コンシェル ジュサービス）" class="img-fluid">
+                                    <img src="images/facilities/24時間有人管理_（コンシェル ジュサービス）.png" alt="24時間有人管理 （コンシェル ジュサービス）" class="img-fluid">
                                 </a>
                             </li>
                             <li>
