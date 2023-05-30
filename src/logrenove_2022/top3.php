@@ -1151,48 +1151,66 @@
 
 					<div class="box_searchby">
 						<h4>気になる物件の特徴から探す</h4>
-						<ul>
+						<ul class="list_new">
 							<li>
-								<a href="">
-									<span>249</span>
-									<img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/29153553/property_01.png" alt="property">
+								<a href="#">
+									<img src="images/icons/facilities/i_ルーフバルコニー.svg" alt="ルーフバルコニー" width="85">
 								</a>
-								<p>駅徒歩5分</p>
 							</li>
 							<li>
-								<a href="">
-									<span>259</span>
-									<img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2023/02/17142104/property_06.png" alt="property">
+								<a href="#">
+									<img src="images/icons/facilities/i_角部屋.svg" alt="角部屋" width="32">
 								</a>
-								<p>角部屋</p>
 							</li>
 							<li>
-								<a href="">
-									<span>51</span>
-									<img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/29153544/property_03.png" alt="property">
+								<a href="#">
+									<img src="images/icons/facilities/i_オートロック.svg" alt="オートロック" width="64">
 								</a>
-								<p>第一種低層地域</p>
 							</li>
 							<li>
-								<a href="">
-									<span>408</span>
-									<img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/29153536/property_04.png" alt="property">
+								<a href="#">
+									<img src="images/icons/facilities/i_駅徒歩5分以内.svg" alt="駅徒歩5分以内" width="71">
 								</a>
-								<p>駐車場相談</p>
 							</li>
 							<li>
-								<a href="">
-									<span>322</span>
-									<img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/29153522/property_05.png" alt="property">
+								<a href="#">
+									<img src="images/icons/facilities/i_平置き駐車場.svg" alt="平置き駐車場" width="65">
 								</a>
-								<p>ペット相談</p>
 							</li>
 							<li>
-								<a href="">
-									<span>45</span>
-									<img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2022/11/29153503/property_06.png" alt="property">
+								<a href="#">
+									<img src="images/icons/facilities/i_最上階角部屋 （ペントハウス）.svg" alt="最上階角部屋 （ペントハウス）" width="64">
 								</a>
-								<p>テラス・ルーフ<br>バルコニー</p>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/facilities/i_24時間有人管理 （コンシェル ジュサービス）.svg" alt="24時間有人管理 （コンシェル ジュサービス） （ペントハウス）" width="78">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/facilities/i_共用施設充実.svg" alt="共用施設充実" width="65">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/facilities/i_床暖房.svg" alt="床暖房" width="32">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/facilities/i_専有面積 120平米以上.svg" alt="専有面積 120平米以上" width="61">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/facilities/i_4LDK以上.svg" alt="4LDK以上" width="48">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/facilities/i_駅徒歩3分以内.svg" alt="駅徒歩3分以内" width="71">
+								</a>
 							</li>
 						</ul>
 					</div>
