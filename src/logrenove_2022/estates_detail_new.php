@@ -191,6 +191,11 @@
                             </li>
                             <li>
                                 <a href="#">
+                                    <img src="images/facilities/専用庭.png" alt="専用庭" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
                                     <img src="images/facilities/大型犬飼育可.png" alt="大型犬飼育可" class="img-fluid">
                                 </a>
                             </li>
