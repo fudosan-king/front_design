@@ -51,13 +51,25 @@
   -webkit-box-orient: vertical;
 }
 
+.section_topinfo::before {
+  top: calc(55%);
+}
+
 @media (max-width: 820px) {
   .section_list_templates .list_content li:nth-of-type(4n) {
     margin-right: 20px;
   }
+
+  .section_topinfo::before {
+    top: calc(50%);
+  }
 }
 
 @media (max-width: 768px) {
+  .section_topinfo::before {
+    top: calc(47.5%);
+  }
+
   .section_list_templates .list_content li:nth-of-type(4n) {
     margin-right: 20px;
   }
@@ -998,11 +1010,12 @@ header .navbar {
 
 .section_banner {
   position: relative;
-  height: 500px;
+  height: 400px;
+  object-fit: fill;
 }
 
 .section_banner img {
-  height: 500px;
+  height: 450px;
 }
 
 @media (max-width: 820px) {
@@ -3123,7 +3136,7 @@ section.search-engine .internal-search {
   position: relative;
   display:block;
   text-decoration: none;
-  font-family: 'SF Pro Text';
+  font-family: 'Zen Old Mincho' !important;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -3196,6 +3209,12 @@ section.search-engine .internal-search {
 .section_searchconditions.section_searchconditions2_logasset {
   background: #F6F6F6;
   padding-bottom: 30px;
+  font-family: 'Zen Old Mincho' !important;
+}
+
+.section_searchconditions2_logasset .title_item,
+.section_searchconditions2_logasset h4 {
+  font-family: 'Zen Old Mincho' !important;
 }
 
 .section_searchconditions.section_searchconditions2_logasset .box_conditions {
@@ -3206,8 +3225,14 @@ section.search-engine .internal-search {
 
 
 /* Top info */
+.section_topinfo_logasset {
+  font-family: 'Zen Old Mincho' !important;
+}
+.section_topinfo_logasset .box_content #estates_detail {
+  font-family: 'Zen Old Mincho' !important;
+}
+
 .section_topinfo_logasset .box_content {
-  font-family: 'SF Pro Text';
   font-style: normal;
 }
 .section_topinfo_logasset .box_content h1 {
@@ -3386,6 +3411,11 @@ section.search-engine .internal-search {
 /* Discerning Equipment */
 .section_discerningequipment_logasset {
   padding-bottom: 30px;
+  font-family: 'Zen Old Mincho' !important;
+}
+
+.section_discerningequipment_logasset .title {
+  font-family: 'Zen Old Mincho' !important;
 }
 
 .section_discerningequipment.section_discerningequipment_logasset iframe {
@@ -3567,6 +3597,14 @@ section.search-engine .internal-search {
   border-color: #BDBDBD;
   border-radius: 0;
   height: calc(1.5em + 0.75rem + -4px);
+}
+
+.section_detailproperty_logasset,
+.section_detailproperty_logasset .title,
+.section_detailproperty_logasset h2, 
+.section_detailproperty_logasset h3, 
+.section_detailproperty_logasset p {
+  font-family: 'Zen Old Mincho' !important;
 }
 
 .section_detailproperty_logasset .box_calcu .frm_calcu .form-control {
@@ -3808,6 +3846,7 @@ div .frm_mansions h2 {
   padding-top: 18px;
   padding-bottom: 20px;
   background: #F6F6F6;
+  font-family: 'Zen Old Mincho' !important;
 }
 
 .section_logassethowroom .box_logo {
@@ -3835,6 +3874,11 @@ div .frm_mansions h2 {
 
 .section_logassethowroom .btn_more {
   margin-right: 10px;
+}
+.section_searchconditions_logasset,
+.section_searchconditions_logasset h2,
+.section_searchconditions_logasset .title {
+  font-family: 'Zen Old Mincho' !important;
 }
 
 .section_searchconditions_logasset .box_conditions .head_title .btnview {
@@ -4184,6 +4228,11 @@ div .frm_mansions h2 {
   .section_topinfo_logasset .box_content .number {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .section_topinfo .box_content h1 {
+    font-size: 1.375em;
   }
 
   .carousel2.carousel-main {
