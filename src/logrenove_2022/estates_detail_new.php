@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php include('head.php'); ?>
-
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
 <body>
 
     <?php require('header.php'); ?>
@@ -31,9 +31,9 @@
                     <div class="col-12 col-lg-12">
                         <div class="box_content">
                         <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="https://staging.logrenove.jp">TOP</a></li>  <li class="breadcrumb-item"><a href="https://staging.logrenove.jp/estates/">Estate</a></li><li class="breadcrumb-item"><a href="estates?search=1&amp;mansion_ids=&amp;areas%5B%5D=1035&amp;keyword=&amp;price_from=&amp;price_to=&amp;floor_from=&amp;floor_to=&amp;station_distance=#gsc.tab=0">豊島区</a></li>  <li class="breadcrumb-item active" aria-current="page">番町千鳥ヶ淵アビタシオン</li></ol></nav>
-                            <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <span class="d-block d-lg-inline-block">301号室</span></h1>
+                            <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <br class="d-none d-md-block"/>301号室</h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
-                            <span class="carosuel_hint">画像を横スクロールしてツアーを開始！</span>
+                            <!-- <span class="carosuel_hint">画像を横スクロールしてツアーを開始！</span> -->
                             <div class="top-carousel">
                                 <div class="carousel2 carousel-main" data-flickity='{"pageDots": false, "wrapAround": true }'>
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img01.jpg" data-caption="　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 ">
