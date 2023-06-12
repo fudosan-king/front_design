@@ -8,7 +8,7 @@
 
 	<main>
 		<section class="section_banner banner_top_page">
-			<img src="images/bg_top_page.jpg" alt="bg_top_page" class="img-fluid">
+			<img src="https://cdn.logknot.co.jp/logrenove/wp-content/uploads/2023/02/16130948/1Z7A6608-1-2.jpg" alt="bg_top_page" class="img-fluid">
 			<div class="banner_description banner_description_map">
 				<h1 class="d-none d-md-block">住みたい街で心地よい暮らしを。</h1>
 				<h1 class="d-block d-md-none">住みたい街で</h1>

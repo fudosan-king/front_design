@@ -2099,6 +2099,22 @@ header {
     }
 }
 
+// add dark background color
+.section_banner {
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0, 0, 0, .4);
+    }
+}
+.banner_description {
+    z-index: 10;
+}
 
 
 
