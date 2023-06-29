@@ -24,6 +24,7 @@
 <link rel="stylesheet" type="text/css" href="css/flickity.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+<link rel="stylesheet" href="assets/css/styles_new.css" type="text/css">
 
 <script>
   (function(d) {
