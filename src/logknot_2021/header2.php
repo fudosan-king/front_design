@@ -2,7 +2,8 @@
     <nav class="navbar navbar2 navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <img src="images/svg/logo_new.svg" alt="" class="img-fluid" width="200">
+                <img src="images/svg/logo_black.svg" alt="" class="img-fluid" width="200">
+                <!-- <img src="images/svg/logo_new.svg" alt="" class="img-fluid" width="200"> -->
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,7 +28,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index2.php">Contacts</a>
+                        <a class="nav-link" href="company.php">Contacts</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.propolife.co.jp/group/ir/logknot/">IR</a>
