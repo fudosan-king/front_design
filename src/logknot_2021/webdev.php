@@ -9,11 +9,11 @@
 
         <section class="section_subbanner section_subbanner_new"
             style="background-image: url('images/bg_knotmarketing.jpg'); background-position: 0 center;">
-            <h1>ラボ型システム開発</h1>
+            <h1>Web制作</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Top</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">ラボ型システム開発</li>
+                    <li class="breadcrumb-item active" aria-current="page">Web制作</li>
                 </ol>
             </nav>
         </section>
@@ -22,40 +22,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6">
-                        <h2 class="title">ラボ型システム開発</h2>
-                        <p class="sub_title">小さく始めて大きく育てるラボ型オフショア開発</p>
+                        <h2 class="title">Web制作・システム開発</h2>
+                        <p class="sub_title">ビジネスのゴールに向けて、運用までサポート</p>
                         <p>
-                            インターネット業界に携わってきたメンバーの個性と、プロポライフグループでの開発で培ってきた技術力を活かし、成果を導くシステム開発を心がけています。
+                            Web制作・システム開発では、ビジネスの目的に合ったLPやWebサイト、各種システム開発のため、事前ヒアリングをしっかりと行い、成果につながるプロダクトをご提案いたします。
                             <br />
                         </p>
-                        <p>ラボ型オフショア開発は、お客様専属の開発チームを構築し、素早い開発・安定稼働でビジネスを成功に導くパートナーとしてシステム開発に取り組みます。<br /></p>
-                        <p>ビジネスの成長フェーズに合わせた開発規模の調整も柔軟に対応します。その先の顧客の獲得にコミットした開発チームでありたい。これが私たちLogKnotが提供するオフショア開発です。</p>
+                        <p>Webサイト制作にとどまらず、運用やコンテンツの制作、マーケティングまでサポートも可能です。貴社のビジネスの成長に貢献できるツールとして成長させていきます。<br /></p>
+                        <p>LPやWebサイト、ホームページは公開してからが始まり、と言っても過言ではありません。集客数アップに向けたサイト改善やコンテンツの制作なども柔軟に対応いたします。</p>
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
-                        <img src="images/knotmarketing01.png" alt="" class="img-fluid" width="525">
+                        <img src="images/webdev01.png" alt="" class="img-fluid" width="525">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="section_organization" class="section_organization">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-12">
-                        <div class="d-flex justify-content-center">
-                            <h2 class="title" style="color: #0092B7;">チーム</h2>
-                            <h2 class="title">構造</h2>
-                        </div>
-                        <p class="desc">
-                            日本人PMと日本語が堪能なITコミュニケーターが中心となって、スムーズにシステム開発が進行できるようサポートします。日本企業に依頼する場合と同じようにプロジェクトに取り組めるため、オフショア開発ははじめてという場合もご安心ください。
-                        </p>
-                    </div>
-                    <img src="images/organization01.png" alt="" class="img-fluid" width="700">
-                </div>
-            </div>
-        </section>
-
-        <section class="section_strengths" style="background-color: #FFFFFF;">
+        <section class="section_strengths" style="background-color: #ECEFF1;">
             <div class="container">
                 <div class="row">
                     <h2 style="color: #0092B7;">LogKnot</h2>
@@ -97,7 +80,7 @@
         </section>
 
 
-        <section id="section_dev_example" class="section_dev_example">
+        <section id="section_dev_example" class="section_dev_example" style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="d-flex justify-content-center">
@@ -200,7 +183,7 @@
         </section> -->
 
 
-        <section id="section_dev_methods" class="section_dev_methods">
+        <section id="section_dev_methods" class="section_dev_methods" style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="d-flex justify-content-center">
@@ -292,7 +275,8 @@
                                 <input type="text" class="form-control2" placeholder="メールアドレス">
                             </div>
                             <div class="form-group2">
-                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容" name="" id="" cols="30" rows="10"></textarea>
+                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容"
+                                    name="" id="" cols="30" rows="10"></textarea>
                             </div>
                             <div class="custom-control custom-checkbox custom-control2">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">

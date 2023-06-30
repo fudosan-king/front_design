@@ -395,19 +395,33 @@ footer .footer_bottom.footer_new p a {
     align-items: center;
 }
 
+.section_about_new .container .row > div:nth-child(2) {
+    padding-left: 60px;
+    padding-right: 0;
+}
+
 .section_about_new .title {
     color: #0092b7;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     text-align: left;
+}
+
+.section_about_new p.sub_title {
+    color: #666;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 27px;
 }
 
 .section_about_new p {
     color: #575757;
     font-size: 16px;
     font-weight: 400;
+    width: 585px;
+    padding-right: 2px;
 }
 
 .section_about_lkVN .container {
