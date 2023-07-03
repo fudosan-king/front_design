@@ -9,11 +9,11 @@
 
         <section class="section_subbanner section_subbanner_new"
             style="background-image: url('images/bg_knotmarketing.jpg'); background-position: 0 center;">
-            <h1>ラボ型システム開発</h1>
+            <h1>建築パース</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Top</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">ラボ型システム開発</li>
+                    <li class="breadcrumb-item active" aria-current="page">建築パース</li>
                 </ol>
             </nav>
         </section>
@@ -22,36 +22,75 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6">
-                        <h2 class="title">ラボ型システム開発</h2>
-                        <p class="sub_title">小さく始めて大きく育てるラボ型オフショア開発</p>
+                        <h2 class="title">建築パース</h2>
+                        <p class="sub_title">実写のような仕上がり建築パース</p>
                         <p>
-                            インターネット業界に携わってきたメンバーの個性と、プロポライフグループでの開発で培ってきた技術力を活かし、成果を導くシステム開発を心がけています。
-                            <br />
+                        完工前のリノベーション物件や新築マンションの販売強化、また戸建て住戸や店舗改装のお打ち合わせに役立つパース図の制作を承ります。<br />
                         </p>
-                        <p>ラボ型オフショア開発は、お客様専属の開発チームを構築し、素早い開発・安定稼働でビジネスを成功に導くパートナーとしてシステム開発に取り組みます。<br /></p>
-                        <p>ビジネスの成長フェーズに合わせた開発規模の調整も柔軟に対応します。その先の顧客の獲得にコミットした開発チームでありたい。これが私たちLogKnotが提供するオフショア開発です。</p>
+                        <p>木材や光の描写に注力することで、まるで実写のような仕上がりを実現しています。視点を固定した一般的なパース図に加え、より理解が深まる360°パースの作成も可能です。<br /></p>
+                        <p>最短2営業日で初稿提示が可能。お急ぎの場合もご相談くださいませ。</p>
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
-                        <img src="images/knotmarketing01.png" alt="" class="img-fluid" width="525">
+                        <iframe width="100%" height="540" src="https://my.matterport.com/show/?m=Msfg36od5J3"></iframe>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="section_organization" class="section_organization">
+
+        <section class="section_product" style="background-color: #ECEFF1;">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-12">
-                        <div class="d-flex justify-content-center">
-                            <h2 class="title" style="color: #0092B7;">チーム</h2>
-                            <h2 class="title">構造</h2>
-                        </div>
-                        <p class="desc">
-                            日本人PMと日本語が堪能なITコミュニケーターが中心となって、スムーズにシステム開発が進行できるようサポートします。日本企業に依頼する場合と同じようにプロジェクトに取り組めるため、オフショア開発ははじめてという場合もご安心ください。
-                        </p>
-                    </div>
-                    <img src="images/organization01.png" alt="" class="img-fluid" width="700">
+                <div class="row justify-content-center">
+                    <h2>制作</h2>
+                    <h2 style="color: #0092B7;">事例</h2>
                 </div>
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="box_product">
+                            <div class="products">
+                                <div class="products_item">
+                                    <a href="#" class="box_item">
+                                        <div class="box_img">
+                                            <img src="images/product06.png" alt="product06" class="img-fluid">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="products_item">
+                                    <a href="#" class="box_item">
+                                        <div class="box_img">
+                                            <img src="images/product07.png" alt="product07" class="img-fluid">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="products_item">
+                                    <a href="#" class="box_item">
+                                        <div class="box_img">
+                                            <img src="images/product08.png" alt="product08" class="img-fluid">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="products_item">
+                                    <a href="#" class="box_item">
+                                        <div class="box_img">
+                                            <img src="images/product09.png" alt="product09" class="img-fluid">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="products_item">
+                                    <a href="#" class="box_item">
+                                        <div class="box_img">
+                                            <img src="images/product10.png" alt="product10" class="img-fluid">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="section_product_btn">
+                    もっとみる
+                    <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="41" heiht="15">
+                </button>
             </div>
         </section>
 
@@ -96,60 +135,7 @@
             </div>
         </section>
 
-
-        <section id="section_dev_example" class="section_dev_example">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="title" style="color: #0092B7;">開発</h2>
-                        <h2 class="title">事例</h2>
-                    </div>
-                    <div class="examples">
-                        <a class="example_item" href="#">
-                            <img src="images/svg/example01.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">Web接客ツールの保守運用（Webサービス）</h3>
-                            <p class="desc">運用中システムの開発チームリプレイス</p>
-                            <ul class="point">
-                                <li>検証対象解像度の種類が多い状況に対応するための体制を</li>
-                                <li>構築し、テストケース構築、迅速なテストを提供</li>
-                                <li>既存開発チームと連携した開発体制の提供</li>
-                            </ul>
-                        </a>
-                        <a class="example_item" href="#">
-                            <img src="images/svg/example02.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">SFAツールの開発保守運用</h3>
-                            <p class="desc">既存システムの改善開発、保守</p>
-                            <ul class="point">
-                                <li>既存システムの理解と調査を通じ不足している仕様書を整備</li>
-                                <li>障害対応のフロー化、ドキュメント化によるルーチン対応体制の構築</li>
-                                <li>要望、不具合発生時の調査報告並びに対応</li>
-                            </ul>
-                        </a>
-                        <a class="example_item" href="#">
-                            <img src="images/svg/example03.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">3D間取り制作＋建材配置シミュレータ</h3>
-                            <ul class="point">
-                                <li>ブラウザで動くこと、スマホでも動くことを要件とした実装</li>
-                                <li>よりリアルに見せるため、アイテムの細部や照明の陰影にこだわった構築</li>
-                            </ul>
-                        </a>
-                        <a class="example_item" href="#">
-                            <img src="images/svg/example04.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">不動産情報の入稿管理ツール</h3>
-                            <ul class="point">
-                                <li>不動産種別ごとの入稿要件チェック機能のある物件管理機能</li>
-                                <li>主要媒体との入稿連動機能の提供</li>
-                                <li>掲載物件を活用し、自社ホームページを簡単に作れるテンプレート機能の提供</li>
-                                <li>自社ホームページ上にお知らせ情報を掲載管理できる機能の提供</li>
-                                <li>主要媒体からの問合せに対し、登録済み物件情報と照合したうえで自動メール送信（顧客、内部向け)機能の提供</li>
-                            </ul>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="section_steps" class="section_steps">
+        <section id="section_steps" class="section_steps" style="background-color: #ECEFF1;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="d-flex justify-content-center">
@@ -200,7 +186,7 @@
         </section>
 
 
-        <section id="section_dev_methods" class="section_dev_methods">
+        <section id="section_dev_methods" class="section_dev_methods" style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="d-flex justify-content-center">
@@ -292,7 +278,8 @@
                                 <input type="text" class="form-control2" placeholder="メールアドレス">
                             </div>
                             <div class="form-group2">
-                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容" name="" id="" cols="30" rows="10"></textarea>
+                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容"
+                                    name="" id="" cols="30" rows="10"></textarea>
                             </div>
                             <div class="custom-control custom-checkbox custom-control2">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
@@ -314,6 +301,22 @@
     <?php include('footer2.php') ?>
 
     <?php include('js-footer.php') ?>
+
+    <script>
+    $(function($) {
+        jQuery(document).ready(function($) {
+            $(window).scroll(function(event) {
+                var iconBox = $(".steps_list .step_item").find(".icon_box");
+                const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+                if ($(window).scrollTop() > vh * 2) {
+                    iconBox.addClass("stepAnimation");
+                } else {
+                    iconBox.removeClass("stepAnimation");
+                }
+            });
+        }(jQuery));
+    });
+    </script>
 </body>
 
 </html>
