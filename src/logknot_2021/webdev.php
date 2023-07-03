@@ -80,7 +80,8 @@
         </section>
 
 
-        <section id="section_dev_example" class="section_dev_example" style="background-color: #FFFFFF;">
+        <section id="section_dev_example" class="section_dev_example section_dev_example2"
+            style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="d-flex justify-content-center">
@@ -89,50 +90,53 @@
                     </div>
                     <div class="examples">
                         <a class="example_item" href="#">
-                            <img src="images/svg/example01.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">Web接客ツールの保守運用（Webサービス）</h3>
-                            <p class="desc">運用中システムの開発チームリプレイス</p>
+                            <img src="images/svg/example05.svg" alt="" class="img-fluid" width="60">
+                            <h3 class="title">企業ホームページ</h3>
+                            <p class="desc">Wordpressを活用した企業ホームページ</p>
                             <ul class="point">
-                                <li>検証対象解像度の種類が多い状況に対応するための体制を</li>
-                                <li>構築し、テストケース構築、迅速なテストを提供</li>
-                                <li>既存開発チームと連携した開発体制の提供</li>
+                                <li>ニュースの投稿や情報更新が手軽にできる</li>
+                                <li>Googleしごと検索を実装</li>
                             </ul>
+                            <button  class="example_item_btn">もっとみる</button>
                         </a>
                         <a class="example_item" href="#">
-                            <img src="images/svg/example02.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">SFAツールの開発保守運用</h3>
-                            <p class="desc">既存システムの改善開発、保守</p>
+                            <img src="images/svg/example06.svg" alt="" class="img-fluid" width="60">
+                            <h3 class="title">国内外向け高級新築マンション販売サイト</h3>
                             <ul class="point">
-                                <li>既存システムの理解と調査を通じ不足している仕様書を整備</li>
-                                <li>障害対応のフロー化、ドキュメント化によるルーチン対応体制の構築</li>
-                                <li>要望、不具合発生時の調査報告並びに対応</li>
+                                <li>多言語（日・英・繁体・簡体）対応したマンションの販売サイト</li>
+                                <li>翻訳対応</li>
+                                <li>ニュースの投稿や情報更新が手軽にできる</li>
+                                <li>Web広告による集客サポート</li>
                             </ul>
+                            <button  class="example_item_btn">もっとみる</button>
                         </a>
                         <a class="example_item" href="#">
-                            <img src="images/svg/example03.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">3D間取り制作＋建材配置シミュレータ</h3>
+                            <img src="images/svg/example07.svg" alt="" class="img-fluid" width="60">
+                            <h3 class="title">新築マンションの販売サイト</h3>
+                            <p class="desc">Wordpressを活用した新築マンションの販売サイト</p>
                             <ul class="point">
-                                <li>ブラウザで動くこと、スマホでも動くことを要件とした実装</li>
-                                <li>よりリアルに見せるため、アイテムの細部や照明の陰影にこだわった構築</li>
+                                <li>複数の新築マンションに展開</li>
                             </ul>
+                            <button  class="example_item_btn">もっとみる</button>
                         </a>
                         <a class="example_item" href="#">
-                            <img src="images/svg/example04.svg" alt="" class="img-fluid" width="80">
-                            <h3 class="title">不動産情報の入稿管理ツール</h3>
+                            <img src="images/svg/example08.svg" alt="" class="img-fluid" width="60">
+                            <h3 class="title">ホテル公式サイト</h3>
+                            <p class="desc">Wordpressを活用したホテルの公式サイト</p>
                             <ul class="point">
-                                <li>不動産種別ごとの入稿要件チェック機能のある物件管理機能</li>
-                                <li>主要媒体との入稿連動機能の提供</li>
-                                <li>掲載物件を活用し、自社ホームページを簡単に作れるテンプレート機能の提供</li>
-                                <li>自社ホームページ上にお知らせ情報を掲載管理できる機能の提供</li>
-                                <li>主要媒体からの問合せに対し、登録済み物件情報と照合したうえで自動メール送信（顧客、内部向け)機能の提供</li>
+                                <li>複数の店舗に展開</li>
+                                <li>多言語対応</li>
+                                <li>OTA埋め込み対応（デザインの調整含む）</li>
+                                <li>バナー制作（サイト内埋め込み用、外部広告用）</li>
                             </ul>
+                            <button  class="example_item_btn">もっとみる</button>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section id="section_steps" class="section_steps">
+        <section id="section_steps" class="section_steps" style="background-color: #ECEFF1;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="d-flex justify-content-center">
@@ -180,7 +184,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
 
         <section id="section_dev_methods" class="section_dev_methods" style="background-color: #FFFFFF;">
@@ -298,6 +302,22 @@
     <?php include('footer2.php') ?>
 
     <?php include('js-footer.php') ?>
+
+    <script>
+    $(function($) {
+        jQuery(document).ready(function($) {
+            $(window).scroll(function(event) {
+                var iconBox = $(".steps_list .step_item").find(".icon_box");
+                const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+                if ($(window).scrollTop() > vh * 2.5) {
+                    iconBox.addClass("stepAnimation");
+                } else {
+                    iconBox.removeClass("stepAnimation");
+                }
+            });
+        }(jQuery));
+    });
+    </script>
 </body>
 
 </html>
