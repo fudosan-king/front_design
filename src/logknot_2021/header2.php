@@ -1,7 +1,7 @@
 <header class="fixed-top">
     <nav class="navbar navbar2 navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index3.php">
                 <img src="images/svg/logo_black.svg" alt="" class="img-fluid" width="200">
                 <!-- <img src="images/svg/logo_new.svg" alt="" class="img-fluid" width="200"> -->
             </a>

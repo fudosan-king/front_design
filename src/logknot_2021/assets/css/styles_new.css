@@ -105,6 +105,7 @@ header.fixed-top nav.navbar2 .container {
     color: #222;
     font-size: 40px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     line-height: normal;
     letter-spacing: 3px;
     margin-bottom: 23px;
@@ -136,6 +137,7 @@ header.fixed-top nav.navbar2 .container {
 .section_offshore_development .row .desc .title {
     color: #222;
     font-size: 40px;
+    font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     margin-bottom: 19px;
 }
@@ -170,6 +172,7 @@ header.fixed-top nav.navbar2 .container {
 .section_offshore_development .details .detail_item .title {
     font-size: 20px;
     margin: 24px 0 13px;
+    font-family: Noto Serif CJK SC;
     text-align: left;
 }
 
@@ -210,6 +213,7 @@ header.fixed-top nav.navbar2 .container {
 .section_product .row h2 {
     font-size: 40px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
 }
 
@@ -278,7 +282,9 @@ header.fixed-top nav.navbar2 .container {
 
 .section_product {}
 
-.section_product .products {}
+.section_product .products {
+    justify-content: space-between;
+}
 
 .section_product .box_product {
     margin-top: 60px;
@@ -352,8 +358,13 @@ header.fixed-top nav.navbar2 .container {
     background-color: #eceff1;
 }
 
+.section_subnews2 .title_sub {
+    font-family: Noto Serif CJK SC;
+}
+
 .section_subnews2 .subtitle {
     margin-bottom: 41px;
+    font-family: Noto Serif CJK SC;
     color: #0092b7;
 }
 
@@ -441,6 +452,7 @@ footer .footer_bottom.footer_new p a {
     color: #0092b7;
     font-size: 40px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     margin-bottom: 13px;
     text-align: left;
@@ -459,6 +471,11 @@ footer .footer_bottom.footer_new p a {
     font-weight: 400;
     width: 585px;
     padding-right: 2px;
+}
+
+.section_about_new iframe {
+    height: 400px;
+    border: none;
 }
 
 .section_about_lkVN .container {
@@ -498,6 +515,7 @@ footer .footer_bottom.footer_new p a {
     color: #000;
     font-size: 40px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     margin-bottom: 19px;
 }
@@ -522,12 +540,14 @@ footer .footer_bottom.footer_new p a {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     line-height: normal;
     letter-spacing: 3px;
 }
 
 .section_dev_example h3.title {
     font-size: 20px;
+    font-family: Noto Serif CJK SC;
     line-height: 171%;
 }
 
@@ -598,12 +618,14 @@ footer .footer_bottom.footer_new p a {
     align-self: center;
     font-size: 20px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     line-height: 171%;
     margin-bottom: 10px;
 }
 
 .section_dev_example2 .examples .example_item .title {
     margin: 50px auto 20px 50px;
+    font-family: Noto Serif CJK SC;
 }
 
 .section_dev_example .examples .example_item .desc {
@@ -691,6 +713,7 @@ footer .footer_bottom.footer_new p a {
 
 .section_steps h2.title {
     font-size: 40px;
+    font-family: Noto Serif CJK SC;
     font-weight: 500;
     letter-spacing: 3px;
     margin-bottom: 0;
@@ -764,6 +787,7 @@ footer .footer_bottom.footer_new p a {
     color: #222;
     font-size: 16px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
 }
 
 .section_steps .step_item:first-child .icon_box {
@@ -823,6 +847,7 @@ footer .footer_bottom.footer_new p a {
 .section_dev_methods h2.title {
     font-size: 40px;
     font-weight: 500;
+    font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     margin-bottom: 0;
 }
@@ -831,6 +856,7 @@ footer .footer_bottom.footer_new p a {
     font-size: 20px;
     font-weight: 500;
     line-height: 171%;
+    font-family: Noto Serif CJK SC;
     margin-right: 90px;
     min-width: 160px;
 }
@@ -908,6 +934,7 @@ footer .footer_bottom.footer_new p a {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     margin-bottom: 12px;
 }
@@ -1146,8 +1173,22 @@ footer .footer_bottom.footer_new p a {
         max-width: 100%;
     }
 
+    .section_offshore_development .row .details {
+        gap: 30px;
+    }
+
     .section_offshore_development .details .detail_item .content {
-        min-height: 144px;
+        min-height: 87px;
+    }
+
+    .section_offshore_development .row .details .detail_item {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .section_offshore_development .details .detail_item .title {
+        min-height: 50px;
+        margin: 10px 0 5px;
     }
 
     .section_dev_example .examples .example_item {

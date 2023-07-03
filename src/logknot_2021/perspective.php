@@ -39,10 +39,10 @@
 
 
         <section class="section_product" style="background-color: #ECEFF1;">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <h2>制作</h2>
-                    <h2 style="color: #0092B7;">事例</h2>
+                    <h2 class="title">制作</h2>
+                    <h2 class="title" style="color: #0092B7;">事例</h2>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-12">
@@ -97,8 +97,8 @@
         <section class="section_strengths" style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row">
-                    <h2 style="color: #0092B7;">LogKnot</h2>
-                    <h2>のラボ型システム開発の特徴</h2>
+                    <h2 class="title" style="color: #0092B7;">LogKnot</h2>
+                    <h2 class="title">のラボ型システム開発の特徴</h2>
                 </div>
                 <div class="row">
                     <div>

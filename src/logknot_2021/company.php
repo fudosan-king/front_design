@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <section id="section_about_lkVN" class="section_about_lkVN">
+        <section id="section_about_lkVN" class="section_about_lkVN" style="background-color: #ECEFF1;">
             <div class="container">
                 <img src="images/svg/logo_lkVN.svg" alt="" class="img-fluid" width="201">
                 <div class="row">
