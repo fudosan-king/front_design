@@ -89,8 +89,8 @@
         <section class="section_strengths">
             <div class="container">
                 <div class="row">
-                    <h2 style="color: #0092B7;">LogKnot</h2>
-                    <h2>の強み</h2>
+                    <h2 class="title" style="color: #0092B7;">LogKnot</h2>
+                    <h2 class="title">の強み</h2>
                 </div>
                 <div class="row">
                     <div>
@@ -128,10 +128,10 @@
         </section>
 
         <section class="section_product">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <h2>制作</h2>
-                    <h2 style="color: #0092B7;">事例</h2>
+                    <h2 class="title">制作</h2>
+                    <h2 class="title" style="color: #0092B7;">事例</h2>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-12">

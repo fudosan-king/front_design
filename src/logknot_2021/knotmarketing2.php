@@ -58,8 +58,8 @@
         <section class="section_strengths" style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row">
-                    <h2 style="color: #0092B7;">LogKnot</h2>
-                    <h2>のラボ型システム開発の特徴</h2>
+                    <h2 class="title" style="color: #0092B7;">LogKnot</h2>
+                    <h2 class="title">のラボ型システム開発の特徴</h2>
                 </div>
                 <div class="row">
                     <div>
@@ -314,6 +314,22 @@
     <?php include('footer2.php') ?>
 
     <?php include('js-footer.php') ?>
+
+    <script>
+    $(function($) {
+        jQuery(document).ready(function($) {
+            $(window).scroll(function(event) {
+                var iconBox = $(".steps_list .step_item").find(".icon_box");
+                const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+                if ($(window).scrollTop() > vh * 2) {
+                    iconBox.addClass("stepAnimation");
+                } else {
+                    iconBox.removeClass("stepAnimation");
+                }
+            });
+        }(jQuery));
+    });
+    </script>
 </body>
 
 </html>

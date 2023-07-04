@@ -1,7 +1,7 @@
 <header class="fixed-top">
     <nav class="navbar navbar2 navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index3.php">
                 <img src="images/svg/logo_black.svg" alt="" class="img-fluid" width="200">
                 <!-- <img src="images/svg/logo_new.svg" alt="" class="img-fluid" width="200"> -->
             </a>
@@ -25,8 +25,8 @@
                     <li class="nav-item dropdown dropdown-slide dropdown-hover">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recruitment</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/">中途採用</a>
-                            <a class="dropdown-item" href="https://www.propolife.co.jp/recruit/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/">アルバイト採用</a>
+                            <a class="dropdown-item" href="https://www.propolife.co.jp/recruit/%E3%80%90%E4%B8%AD%E9%80%94%E6%8E%A1%E7%94%A8%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/" target="_blank">中途採用</a>
+                            <a class="dropdown-item" href="https://www.propolife.co.jp/recruit/%E3%80%90%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%80%91%E5%8B%A4%E5%8B%99%E5%9C%B0%E9%99%90%E5%AE%9A/" target="_blank">アルバイト採用</a>
                         </div>
                     </li>
                     <li class="nav-item">

@@ -41,8 +41,8 @@
         <section class="section_strengths" style="background-color: #ECEFF1;">
             <div class="container">
                 <div class="row">
-                    <h2 style="color: #0092B7;">LogKnot</h2>
-                    <h2>のラボ型システム開発の特徴</h2>
+                    <h2 class="title" style="color: #0092B7;">LogKnot</h2>
+                    <h2 class="title">のラボ型システム開発の特徴</h2>
                 </div>
                 <div class="row">
                     <div>

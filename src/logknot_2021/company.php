@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <section id="section_about_lkVN" class="section_about_lkVN">
+        <section id="section_about_lkVN" class="section_about_lkVN" style="background-color: #ECEFF1;">
             <div class="container">
                 <img src="images/svg/logo_lkVN.svg" alt="" class="img-fluid" width="201">
                 <div class="row">
@@ -60,7 +60,7 @@
             </div>
         </section>
 
-        <section id="section_company" class="section_company">
+        <section id="section_company" class="section_company section_company_new">
             <h2 class="title_sub" style="color: #0092B7;">COMPANY</h2>
             <p class="subtitle">会社概要</p>
             <div class="container">
