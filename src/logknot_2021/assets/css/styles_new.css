@@ -7,6 +7,19 @@ header.fixed-top nav.navbar2 .container {
     max-width: 100%;
 }
 
+header.fixed-top nav.navbar2 .navbar-toggler-icon:before,
+header.fixed-top nav.navbar2 .navbar-toggler-icon:after {
+    background-color: #151823;
+}
+
+header.fixed-top nav.navbar2 .navbar-toggler-icon {
+    border-color: #151823;
+}
+
+header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
+}
+
 .fixed-top .navbar-nav .nav-item .nav-link,
 .fixed-top .navbar-nav .nav-item .dropdown-menu {
     color: #000;
@@ -35,8 +48,6 @@ header.fixed-top nav.navbar2 .container {
     color: #0092B7;
 }
 
-.dropdown-slide .dropdown-menu:after {}
-
 .section_banner {
     font-family: Noto Serif CJK SC;
     font-style: normal;
@@ -61,6 +72,9 @@ header.fixed-top nav.navbar2 .container {
     color: #fff;
     font-size: 80px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+    line-height: normal;
     letter-spacing: 3px;
 }
 
@@ -305,7 +319,7 @@ header.fixed-top nav.navbar2 .container {
     text-decoration: none;
 }
 
-.section_product .products .products_item .box_item .box_img {
+.section_product .products .products_item .box_img img {
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -314,18 +328,18 @@ header.fixed-top nav.navbar2 .container {
     margin-right: 10px;
 }
 
-.section_product .products .products_item .box_item .box_img:hover {
+.section_product .products .products_item .box_img:hover img {
     transition: all 400ms;
 }
 
-.section_product .products .products_item .box_item .box_img:hover img {
+.section_product .products .products_item .box_img:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-.section_product .products .products_item .box_item .box_img img {
+.section_product .products .products_item .box_img img {
     width: 100%;
     object-fit: cover;
     -webkit-transition: all 0.5s;
@@ -340,6 +354,7 @@ header.fixed-top nav.navbar2 .container {
     font-size: 16px;
     font-weight: 700;
     line-height: 171%;
+    max-width: 263px;
     border: none;
     padding: 17px 91.5px;
     margin: 30px auto 0;
@@ -348,6 +363,11 @@ header.fixed-top nav.navbar2 .container {
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+.section_product .section_product_btn:hover img {
+    right: 10px;
+    transition: right 0.7s;
 }
 
 .section_product .section_product_btn img {
@@ -367,6 +387,15 @@ header.fixed-top nav.navbar2 .container {
     margin-bottom: 41px;
     font-family: Noto Serif CJK SC;
     color: #0092b7;
+}
+
+.section_subnews2 ul li time,
+.section_subnews2 ul li h4,
+.section_subnews2 ul li p span {
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170.7%;
 }
 
 footer .footer_top.footer_new ul li a,
@@ -1112,6 +1141,14 @@ footer .footer_bottom.footer_new p a {
 }
 
 @media (max-width: 992px) {
+    .fixed-top .dropdown-slide .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown-slide.show .dropdown-menu {
+        display: block;
+    }
+
     .section_about_new .container .row>div:nth-child(2) {
         padding-left: 0;
     }
@@ -1225,6 +1262,40 @@ footer .footer_bottom.footer_new p a {
 }
 
 @media (max-width: 428px) {
+    .section_banner .caption .row h1 {
+        font-size: 50px;
+    }
+
+    .section_subbanner_new h1 {
+        left: 10%;
+    }
+
+    .section_subbanner_new .breadcrumb {
+        top: 55%;
+        left: 10%;
+    }
+
+    .section_achievements .row .desc .title,
+    .section_offshore_development .row .desc .title,
+    .section_strengths .row h2,
+    .section_product .row h2,
+    .section_subnews2 .title_sub,
+    .section_about_new .title,
+    .section_dev_example .title,
+    .section_steps h2.title,
+    .section_contact_new .row h2.title {
+        font-size: 30px;
+    }
+
+    .section_product .products .products_item,
+    .section_product .products .products_item .box_img a img {
+        width: 100%;
+    }
+
+    .section_product .products .products_item {
+        margin-right: 0;
+    }
+
     .section_about_new p {
         max-width: 100%;
     }
@@ -1234,7 +1305,7 @@ footer .footer_bottom.footer_new p a {
     }
 
     .section_offshore_development .details .detail_item .content {
-        min-height: 87px;
+        min-height: unset;
     }
 
     .section_offshore_development .row .details .detail_item {
@@ -1247,15 +1318,33 @@ footer .footer_bottom.footer_new p a {
         margin: 10px 0 5px;
     }
 
+    .section_strengths .row .detail_item {
+        gap: 15px;
+    }
+
+    .section_strengths .row .detail_item:nth-child(1) img,
+    .section_strengths .row .detail_item:nth-child(2) img,
+    .section_strengths .row .detail_item:nth-child(3) img,
+    .section_strengths .row .detail_item:nth-child(4) img,
+    .section_strengths .row .detail_item:nth-child(5) img,
+    .section_strengths .row .detail_item:nth-child(6) img {
+        margin: 0;
+    }
+
     .section_dev_example .examples .example_item {
         max-width: 100%;
+        min-height: unset;
+    }
+
+    .section_dev_example2 .examples .example_item {
+        min-height: 322px;
     }
 
     .section_dev_methods span.title {
-        margin-right: 0;
+        margin: 0;
         font-size: 20px;
         margin-bottom: 5px;
-        text-align: center;
+        text-align: left;
     }
 
     .section_dev_methods .row:first-child {
@@ -1263,17 +1352,17 @@ footer .footer_bottom.footer_new p a {
     }
 
     .section_dev_methods .row {
-        padding: 10px 0;
+        padding: 15px 0;
     }
 
     .section_dev_methods .row .methods_list {
-        gap: 10px;
-        justify-content: center;
+        gap: 5px;
+        justify-content: flex-start;
     }
 
     .section_dev_methods .row .methods_list .methods_item {
-        width: 100px;
-        height: 100px;
+        width: 95px;
+        height: 95px;
     }
 
     .section_dev_methods .row .methods_list .methods_item.two_items img:first-child {
@@ -1364,6 +1453,44 @@ footer .footer_bottom.footer_new p a {
     .section_steps .step_item:nth-child(5) .icon_box {
         padding-right: 0;
     }
+
+    .footer_top.footer_new .box_list_company h5 {
+        position: relative;
+        left: 50%;
+    }
+}
+
+@media (max-width: 414px) {
+    .section_dev_methods .row .methods_list .methods_item img {
+        width: 40px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item {
+        width: 85px;
+        height: 85px;
+    }
+
+    .section_dev_methods .row .methods_list {
+        gap: 15px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item.two_items img:first-child {
+        margin: 4px 0 0 4px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item.two_items img:nth-child(2) {
+        margin-left: 20px;
+    }
+
+    .section_dev_methods .container .row:nth-child(5) .methods_item.two_items img:first-child {
+        width: 35px;
+        margin: 4px 0 0 4px;
+    }
+
+    .section_dev_methods .container .row:nth-child(5) .methods_item.two_items img:nth-child(2) {
+        width: 35px;
+        margin: 0 0 0 42px;
+    }
 }
 
 @media (max-width: 390px) {
@@ -1373,5 +1500,41 @@ footer .footer_bottom.footer_new p a {
 
     .section_strengths .row:nth-child(2)>div:first-child img:nth-child(2) {
         width: 40px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item {
+        width: 100px;
+        height: 100px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item.two_items img:first-child {
+        margin: 8px 0 0 8px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item.two_items img:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    .section_dev_methods .container .row:nth-child(5) .methods_item.two_items img:nth-child(2) {
+        margin: 12px 0 0 56px;
+    }
+}
+
+@media (max-width: 320px) {
+    .section_dev_methods .row .methods_list .methods_item {
+        width: 85px;
+        height: 85px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item.two_items img:first-child {
+        margin: 6px 0 0 4px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item.two_items img:nth-child(2) {
+        margin-left: 20px;
+    }
+
+    .section_dev_methods .container .row:nth-child(5) .methods_item.two_items img:nth-child(2) {
+        margin: 0px 0 0 44px;
     }
 }

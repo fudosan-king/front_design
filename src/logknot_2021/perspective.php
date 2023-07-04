@@ -25,7 +25,7 @@
                         <h2 class="title">建築パース</h2>
                         <p class="sub_title">実写のような仕上がり建築パース</p>
                         <p>
-                        完工前のリノベーション物件や新築マンションの販売強化、また戸建て住戸や店舗改装のお打ち合わせに役立つパース図の制作を承ります。<br />
+                            完工前のリノベーション物件や新築マンションの販売強化、また戸建て住戸や店舗改装のお打ち合わせに役立つパース図の制作を承ります。<br />
                         </p>
                         <p>木材や光の描写に注力することで、まるで実写のような仕上がりを実現しています。視点を固定した一般的なパース図に加え、より理解が深まる360°パースの作成も可能です。<br /></p>
                         <p>最短2営業日で初稿提示が可能。お急ぎの場合もご相談くださいませ。</p>
@@ -47,50 +47,55 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <div class="box_product">
-                            <div class="products">
+                        <div class="products">
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product06.png" data-caption="">
                                             <img src="images/product06.png" alt="product06" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product07.png" data-caption="">
                                             <img src="images/product07.png" alt="product07" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product08.png" data-caption="">
                                             <img src="images/product08.png" alt="product08" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product09.png" data-caption="">
                                             <img src="images/product09.png" alt="product09" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product10.png" data-caption="">
                                             <img src="images/product10.png" alt="product10" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="section_product_btn">
+                <a class="section_product_btn" href="https://www.logknot.co.jp/perspective/gallery/">
                     もっとみる
                     <img src="images/svg/i_right.svg" alt="" class="img-fluid" width="41" heiht="15">
-                </button>
+                </a>
             </div>
         </section>
 
@@ -301,22 +306,6 @@
     <?php include('footer2.php') ?>
 
     <?php include('js-footer.php') ?>
-
-    <script>
-    $(function($) {
-        jQuery(document).ready(function($) {
-            $(window).scroll(function(event) {
-                var iconBox = $(".steps_list .step_item").find(".icon_box");
-                const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-                if ($(window).scrollTop() > vh * 2) {
-                    iconBox.addClass("stepAnimation");
-                } else {
-                    iconBox.removeClass("stepAnimation");
-                }
-            });
-        }(jQuery));
-    });
-    </script>
 </body>
 
 </html>
