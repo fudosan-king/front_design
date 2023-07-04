@@ -28,7 +28,7 @@
                                 </ul> -->
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-6 col-md-6 col-lg-4">
                             <div class="box_list_company">
                                 <h5>グループ企業</h5>
                                 <ul class="list_company">
@@ -43,7 +43,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-6 col-md-6 col-lg-4">
                             <div class="box_list_company">
                                 <ul class="list_company">
                                     <li><a taget="_blank" href="https://www.chinokanri.co.jp/">千野建物管理株式会社</a></li>

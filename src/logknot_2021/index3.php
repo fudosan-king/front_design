@@ -139,37 +139,42 @@
                             <div class="products">
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product01.png" data-caption="">
                                             <img src="images/product01.png" alt="product01" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product02.png" data-caption="">
                                             <img src="images/product02.png" alt="product02" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product03.png" data-caption="">
                                             <img src="images/product03.png" alt="product03" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product04.png" data-caption="">
                                             <img src="images/product04.png" alt="product04" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <div class="box_img">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
+                                            href="images/product05.png" data-caption="">
                                             <img src="images/product05.png" alt="product05" class="img-fluid">
-                                        </div>
+                                        </a>
                                     </a>
                                 </div>
                             </div>
@@ -217,6 +222,41 @@
     <?php include('footer2.php') ?>
 
     <?php include('js-footer.php') ?>
+
+    <script>
+    $(function($) {
+        jQuery(document).ready(function($) {
+            $(window).on("load scroll", (function(event) {
+                var minWidthRes = window.matchMedia("(min-width: 1000px)");
+                var header = $("header.fixed-top");
+                var navItem = header.find(".navbar-nav .nav-item");
+                var navLink = navItem.find(".nav-link");
+                var dropDownMenu = navItem.find(".dropdown-menu");
+                var brandLogo = header.find("nav .navbar-brand img");
+                const vh = Math.max(document.documentElement.clientHeight || 0, window
+                    .innerHeight || 0);
+                if (minWidthRes.matches) {
+                    if ($(window).scrollTop() < vh * 0.5) {
+                        header.css("background-color", "transparent");
+                        navLink.css("color", "#FFF");
+                        dropDownMenu.css("color", "#FFF");
+                        brandLogo.attr('src', "images/svg/logo_new.svg");
+                    } else {
+                        header.css("background-color", "#FFF");
+                        navLink.css("color", "#000");
+                        dropDownMenu.css("color", "#000");
+                        brandLogo.attr('src', "images/svg/logo_black.svg");
+                    }
+                } else {
+                    header.css("background-color", "#FFF");
+                    navLink.css("color", "#000");
+                    dropDownMenu.css("color", "#000");
+                    brandLogo.attr('src', "images/svg/logo_black.svg");
+                }
+            }));
+        }(jQuery));
+    });
+    </script>
 </body>
 
 </html>
