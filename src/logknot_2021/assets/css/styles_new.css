@@ -1,3 +1,7 @@
+section {
+    padding: 50px 0;
+}
+
 header.fixed-top {
     background: #FFF;
 }
@@ -310,7 +314,6 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 }
 
 .section_product .products .products_item {
-    width: 240px;
     margin-right: 20px;
 }
 
@@ -1149,6 +1152,10 @@ footer .footer_bottom.footer_new p a {
         display: block;
     }
 
+    .section_banner .caption .row h1 {
+        font-size: 50px;
+    }
+
     .section_about_new .container .row>div:nth-child(2) {
         padding-left: 0;
     }
@@ -1169,13 +1176,26 @@ footer .footer_bottom.footer_new p a {
 
     .section_product .products {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
+        margin-left: 100px;
         align-items: center;
-        gap: 15px;
+        gap: 30px;
     }
 
     .section_product .products .products_item .box_item .box_img img {
         width: 250px;
+    }
+
+    .section_product .products .products_item {
+        width: 240px;
+    }
+
+    .section_strengths .row:nth-child(2) > div:nth-child(1) {
+        margin-bottom: 25px;
+    }
+
+    .section_organization .container .row > img {
+        margin-top: 25px;
     }
 
     .section_dev_example .examples {
@@ -1205,6 +1225,10 @@ footer .footer_bottom.footer_new p a {
         height: 50px;
     }
 
+    .section_dev_example .examples .example_item .example_item_btn {
+        bottom: 5px;
+    }
+
     .section_dev_methods .row {
         flex-direction: column;
     }
@@ -1225,9 +1249,34 @@ footer .footer_bottom.footer_new p a {
     .section_steps .step_item:nth-child(5) .icon_box {
         padding-top: 118px;
     }
+
+    footer .footer_top.footer_new .row {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    footer .footer_top.footer_new ul.menu-bottom {
+        display: block;
+    }
+
+    footer .footer_top.footer_new ul.menu-bottom li {
+        width: 40%;
+    }
+}
+
+@media (max-width: 835px) {
+    .section_product .products {
+        margin-left: 150px;
+    }
 }
 
 @media (max-width: 768px) {
+    .section_banner:before {
+        height: 100%;
+        width: 100%;
+    }
+
     .section_offshore_development .details .detail_item .title {
         min-height: 72px;
     }
@@ -1259,6 +1308,10 @@ footer .footer_bottom.footer_new p a {
     .section_steps .step_item:nth-child(5) .icon_box {
         padding-top: 138px;
     }
+
+    .section_product .products {
+        margin-left: 120px;
+    }
 }
 
 @media (max-width: 428px) {
@@ -1267,12 +1320,14 @@ footer .footer_bottom.footer_new p a {
     }
 
     .section_subbanner_new h1 {
-        left: 10%;
+        left: 0;
+        right: 0;
     }
 
     .section_subbanner_new .breadcrumb {
         top: 55%;
         left: 10%;
+        text-align: center;
     }
 
     .section_achievements .row .desc .title,
@@ -1338,6 +1393,25 @@ footer .footer_bottom.footer_new p a {
 
     .section_dev_example2 .examples .example_item {
         min-height: 322px;
+    }
+
+    .section_dev_example .examples .example_item {
+        padding-bottom: 30px;
+    }
+
+    .section_dev_example .examples .example_item .title {
+        padding-left: 29px;
+        padding-right: 37px;
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    .section_dev_example2 .examples .example_item .title {
+        padding-left: 10px;
+    }
+
+    .section_dev_example .examples .example_item .point {
+        margin-bottom: 0;
     }
 
     .section_dev_methods span.title {
@@ -1457,6 +1531,29 @@ footer .footer_bottom.footer_new p a {
     .footer_top.footer_new .box_list_company h5 {
         position: relative;
         left: 50%;
+    }
+
+    .section_product .products {
+        margin-left: 0;
+    }
+
+    footer .footer_top.footer_new ul.menu-bottom {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    footer .footer_top.footer_new ul.menu-bottom li {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .footer_top.footer_new .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    footer .footer_top.footer_new ul.list_company li {
+        text-align: left;
     }
 }
 
