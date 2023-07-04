@@ -67,7 +67,7 @@
     </div>
 </footer>
 
-<div class="back-to-top show" id="back-to-top" title="Back to top">
+<div class="back-to-top show back-to-top-new" id="back-to-top" title="Back to top">
     <img src="https://www.logknot.co.jp/wp-content/themes/logknot2021/assets/images/svg/i_top.svg" alt=""
         class="img-fluid" width="15">
 </div>

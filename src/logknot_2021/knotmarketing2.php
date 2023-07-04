@@ -314,6 +314,22 @@
     <?php include('footer2.php') ?>
 
     <?php include('js-footer.php') ?>
+
+    <script>
+    $(function($) {
+        jQuery(document).ready(function($) {
+            $(window).scroll(function(event) {
+                var iconBox = $(".steps_list .step_item").find(".icon_box");
+                const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+                if ($(window).scrollTop() > vh * 2) {
+                    iconBox.addClass("stepAnimation");
+                } else {
+                    iconBox.removeClass("stepAnimation");
+                }
+            });
+        }(jQuery));
+    });
+    </script>
 </body>
 
 </html>

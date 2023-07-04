@@ -215,6 +215,7 @@ header.fixed-top nav.navbar2 .container {
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
+    margin-bottom: 0;
 }
 
 .section_strengths .row .details {
@@ -283,7 +284,7 @@ header.fixed-top nav.navbar2 .container {
 .section_product {}
 
 .section_product .products {
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .section_product .box_product {
@@ -372,6 +373,13 @@ footer .footer_top.footer_new ul li a,
 footer .footer_top.footer_new h5,
 footer .footer_top.footer_new p {
     color: #666;
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+}
+
+footer .footer_top.footer_new ul li a,
+footer .footer_top.footer_new p {
+    font-weight: 500;
 }
 
 footer .footer_top.footer_new ul li:hover a {
@@ -388,7 +396,20 @@ footer .footer_bottom.footer_new {
 
 footer .footer_bottom.footer_new p,
 footer .footer_bottom.footer_new p a {
-    color: #eceff1;
+    color: #ECEFF1;
+    text-align: center;
+    font-size: 12px;
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171%;
+}
+
+.back-to-top-new {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgba(28, 144, 178, 0.5);
 }
 
 .section_subbanner_new {
@@ -410,6 +431,7 @@ footer .footer_bottom.footer_new p a {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
+    font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     position: absolute;
     top: 30%;
@@ -499,6 +521,40 @@ footer .footer_bottom.footer_new p a {
     font-family: Noto Serif CJK SC;
     font-style: normal;
     font-weight: 400;
+}
+
+.section_company_new .title_sub {
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.section_company_new .subtitle {
+    color: #575757;
+    font-size: 20px;
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171%
+}
+
+.section_company_new .table-bordered td {
+    color: #575757;
+    font-size: 16px;
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section_company_new .table-bordered th {
+    color: #000;
+    font-size: 16px;
+    font-family: Noto Serif CJK SC;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171%;
 }
 
 .section_organization {
