@@ -61,7 +61,45 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
     height: 768px;
 }
 
-.section_banner:before {
+.section_banner .fancybox_banner {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.section_banner .fancybox_banner a,
+.section_banner .fancybox_banner .fancy_image {
+    width: 100%;
+    height: 100%;
+}
+
+.section_banner .fancybox_banner .fancy_image {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_banner .fancybox_banner .flickity-page-dots {
+    top: 90%;
+    z-index: 2;
+}
+
+.section_banner .fancybox_banner .flickity-page-dots .dot {
+    width: 34px;
+    height: 3px;
+    background: #FFFFFF;
+    flex-shrink: 0;
+    border-radius: unset;
+}
+
+.section_banner .fancybox_banner .flickity-page-dots .dot.is-selected {
+    background: #0092B7;
+}
+
+.section_banner .fancybox_banner:before {
     content: "";
     position: absolute;
     left: 0;
@@ -70,6 +108,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
     bottom: 0;
     margin: auto;
     background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .section_banner .caption .row h1 {
@@ -456,7 +495,7 @@ footer .footer_bottom.footer_new p a {
     top: 0;
     bottom: 0;
     margin: auto;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .section_subbanner_new h1 {

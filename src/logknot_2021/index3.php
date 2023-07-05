@@ -6,8 +6,34 @@
     <?php include('header2.php') ?>
 
     <main>
-        <section class="section_banner"
-            style="background-image: url('images/bg_top.jpg'); background-attachment: fixed;">
+        <section class="section_banner">
+            <div class="fancybox_banner"
+                data-flickity='{"prevNextButtons": false, "pageDots": true, "wrapAround": true, "draggable": false, "autoPlay": true }'>
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_top.jpg');"/>
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_mission.jpg');" />
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_logrenove.jpg');" />
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_knotmarketing.jpg');" />
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_orderrenove.jpg');" />
+                </a>
+            </div>
             <div class="container">
                 <div class="caption">
                     <div class="row">
@@ -53,7 +79,7 @@
                                 class="img-fluid" width="70">
                             <p class="title">ラボ型システム開発</p>
                             <p class="content">専属の開発チームを構築し、素早く安定した開発パートナーとして支援いたします。</p>
-                            <a class="more" href="#">もっと見る
+                            <a class="more" href="https://www.logknot.co.jp/appdevlabo/" target="_blank">もっと見る
                                 <img src="images/svg/r_arrow.svg" alt="r_arrow" class="img-fluid" width="30">
                             </a>
                         </div>
@@ -62,7 +88,7 @@
                                 class="img-fluid" width="70">
                             <p class="title">Web制作・ホームページ制作</p>
                             <p class="content">ビジネスの目的に合わせて成果につながるLPやWebサイト、各種システムをご提案いたします。</p>
-                            <a class="more" href="#">もっと見る
+                            <a class="more" href="https://www.logknot.co.jp/webdev/" target="_blank">もっと見る
                                 <img src="images/svg/r_arrow.svg" alt="r_arrow" class="img-fluid" width="30"></a>
                         </div>
                         <div class="detail_item">
@@ -70,7 +96,7 @@
                                 class="img-fluid" width="70">
                             <p class="title">建築パース制作</p>
                             <p class="content">完工前物件の販売強化に役立つパース図の作成を承ります。360°パースの制作も可能です。</p>
-                            <a class="more" href="#">もっと見る
+                            <a class="more" href="https://www.logknot.co.jp/perspective/" target="_blank">もっと見る
                                 <img src="images/svg/r_arrow.svg" alt="r_arrow" class="img-fluid" width="30"></a>
                         </div>
                         <div class="detail_item">
@@ -78,7 +104,7 @@
                                 class="img-fluid" width="70">
                             <p class="title">制作実績</p>
                             <p class="content">制作実績をご紹介します。ぜひご参照ください。</p>
-                            <a class="more" href="#">もっと見る
+                            <a class="more" href="https://www.logknot.co.jp/perspective/gallery/" target="_blank">もっと見る
                                 <img src="images/svg/r_arrow.svg" alt="r_arrow" class="img-fluid" width="30"></a>
                         </div>
                     </div>

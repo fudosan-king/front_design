@@ -8,7 +8,7 @@
     <main>
 
         <section class="section_subbanner section_subbanner_new"
-            style="background-image: url('images/bg_knotmarketing.jpg'); background-position: 0 center;">
+            style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
             <h1>ラボ型システム開発</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -24,11 +24,11 @@
                     <div class="col-12 col-md-12 col-lg-6">
                         <h2 class="title">ラボ型システム開発</h2>
                         <p class="sub_title">小さく始めて大きく育てるラボ型オフショア開発</p>
+                        <p>ラボ型オフショア開発は、お客様専属の開発チームを構築し、素早い開発・安定稼働でビジネスを成功に導くパートナーとしてシステム開発に取り組みます。<br /></p>
                         <p>
-                            インターネット業界に携わってきたメンバーの個性と、プロポライフグループでの開発で培ってきた技術力を活かし、成果を導くシステム開発を心がけています。
+                            専属チームを組むことで、お客様の事業を深く理解し、質の高いコミュニケーションをもって、品質向上・生産性向上を図ることができます。
                             <br />
                         </p>
-                        <p>ラボ型オフショア開発は、お客様専属の開発チームを構築し、素早い開発・安定稼働でビジネスを成功に導くパートナーとしてシステム開発に取り組みます。<br /></p>
                         <p>ビジネスの成長フェーズに合わせた開発規模の調整も柔軟に対応します。その先の顧客の獲得にコミットした開発チームでありたい。これが私たちLogKnotが提供するオフショア開発です。</p>
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
@@ -69,27 +69,27 @@
                     <div class="details">
                         <div class="detail_item">
                             <img src="images/svg/strengths03.svg" alt="strengths03" class="img-fluid" width="76">
-                            <p class="desc">ビジネスのゴール、ターゲット像をとらえた企画戦略コンサルティング</p>
+                            <p class="desc">ターゲットを見極めた企画戦略コンサルティング</p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths04.svg" alt="strengths04" class="img-fluid" width="76">
-                            <p class="desc">高い技術を持ち、日本の商習慣・文化を理解したエンジニア</p>
+                            <p class="desc">幅広い知識と深い理解を持つ高いエンジニアリング能力</p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths05.svg" alt="strengths05" class="img-fluid" width="76">
-                            <p class="desc">日本人・ベトナム人デザイナーによる目的に沿ったデザイン</p>
-                        </div>
-                        <div class="detail_item">
-                            <img src="images/svg/strengths06.svg" alt="strengths06" class="img-fluid" width="76">
                             <p class="desc">高い日本語レベルのITコミュニケーター</p>
                         </div>
                         <div class="detail_item">
+                            <img src="images/svg/strengths06.svg" alt="strengths06" class="img-fluid" width="76">
+                            <p class="desc">機能やフェーズごとに品質評価を担うQAチーム</p>
+                        </div>
+                        <div class="detail_item">
                             <img src="images/svg/strengths07.svg" alt="strengths07" class="img-fluid" width="76">
-                            <p class="desc">品質評価を専門に担うQAチーム</p>
+                            <p class="desc"></p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths08.svg" alt="strengths08" class="img-fluid" width="76">
-                            <p class="desc">開発後の運用もサポート。集客、コンテンツ制作、SEO対策</p>
+                            <p class="desc"></p>
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <span class="title">デザイン</span>
+                    <span class="title">インフラ・その他</span>
                     <div class="methods_list">
                         <div class="methods_item two_items">
                             <img src="images/method24.png" alt="method24" class="img-fluid">
@@ -292,11 +292,12 @@
                                 <input type="text" class="form-control2" placeholder="メールアドレス">
                             </div>
                             <div class="form-group2">
-                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容" name="" id="" cols="30" rows="10"></textarea>
+                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容"
+                                    name="" id="" cols="30" rows="10"></textarea>
                             </div>
                             <div class="custom-control custom-checkbox custom-control2">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                <label class="custom-control-label" for="customCheck1">弊社の個人情報に関する取り扱いについては プライバーポリシー
+                                <label class="custom-control-label" for="customCheck1">弊社の個人情報に関する取り扱いについては プライバシーポリシー
                                     をご一読ください。<br />上記事項をご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。</label>
                             </div>
                             <div class="text-center">
