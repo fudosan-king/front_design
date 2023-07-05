@@ -18,14 +18,70 @@
                     <span class="i-search-brown">物件を探す</span>
                 </a> -->
 			</div>
+			<div class="fast-search">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-12">
+							<form action="" class="modal_frmsearch">
+								<table class="table table-condensed">
+									<tr>
+										<th>専有面積</th>
+										<td>
+											<div class="box_select">
+												<div class="box_select_item">
+													<select class="form-select" aria-label="Default select example">
+														<option selected>下限なし</option>
+														<option value="60">60㎡</option>
+														<option value="70">70㎡</option>
+														<option value="80">80㎡</option>
+														<option value="90">90㎡</option>
+														<option value="100">100㎡</option>
+														<option value="120">120㎡</option>
+														<option value="150">150㎡</option>
+														<option value="180">180㎡</option>
+														<option value="200">200㎡</option>
+														<option value="250">250㎡</option>
+														<option value="300">300㎡</option>
+													</select>
+												</div>
+												<span>〜</span>
+												<div class="box_select_item">
+													<select class="form-select" aria-label="Default select example">
+														<option selected>上限なし</option>
+														<option value="70">70㎡</option>
+														<option value="80">80㎡</option>
+														<option value="90">90㎡</option>
+														<option value="100">100㎡</option>
+														<option value="120">120㎡</option>
+														<option value="150">150㎡</option>
+														<option value="180">180㎡</option>
+														<option value="200">200㎡</option>
+														<option value="250">250㎡</option>
+														<option value="300">300㎡</option>
+													</select>
+												</div>
+											</div>
+										</td>
+									</tr>
+								</table>
+								<button type="submit" class="btn btn_fast_search">
+									<img class="img-fluid" src="images/icons/i_search_white_2.svg" alt="i_search_white_2" width="18">
+									<span>この条件で検索</span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+
 
 		<section class="section_map">
 			<div class="section_map_content">
 				<div class="box_map">
 					<div class="main_map main_map2">
 
-<?xml version="1.0" encoding="utf-8"?>
+
 <!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 858 1090" style="enable-background:new 0 0 858 1090;" xml:space="preserve">
