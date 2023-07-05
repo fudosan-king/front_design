@@ -6,8 +6,34 @@
     <?php include('header2.php') ?>
 
     <main>
-        <section class="section_banner"
-            style="background-image: url('images/bg_top.jpg'); background-attachment: fixed;">
+        <section class="section_banner">
+            <div class="fancybox_banner"
+                data-flickity='{"prevNextButtons": false, "pageDots": true, "wrapAround": true, "draggable": false, "autoPlay": true }'>
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_top.jpg');"/>
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_mission.jpg');" />
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_logrenove.jpg');" />
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_knotmarketing.jpg');" />
+                </a>
+
+                <a data-fancybox="gallery-banner">
+                    <img class="fancy_image" src=""
+                        style="background-image: url('images/bg_orderrenove.jpg');" />
+                </a>
+            </div>
             <div class="container">
                 <div class="caption">
                     <div class="row">

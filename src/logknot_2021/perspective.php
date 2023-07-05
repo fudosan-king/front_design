@@ -161,28 +161,28 @@
                             <div class="icon_box">
                                 <div class="stt_step">02</div>
                                 <img src="images/step02.png" alt="" class="img-fluid" width="71">
-                                <div class="title">チーム体制のご提案</div>
+                                <div class="title">必要な資料をご提出</div>
                             </div>
                         </div>
                         <div class="step_item">
                             <div class="icon_box">
                                 <div class="stt_step">03</div>
                                 <img src="images/step03.png" alt="" class="img-fluid" width="71">
-                                <div class="title">ご契約</div>
+                                <div class="title">制作</div>
                             </div>
                         </div>
                         <div class="step_item">
                             <div class="icon_box">
                                 <div class="stt_step">04</div>
                                 <img src="images/step04.png" alt="" class="img-fluid" width="71">
-                                <div class="title">開発実施</div>
+                                <div class="title">フィードバック＆修正</div>
                             </div>
                         </div>
                         <div class="step_item">
                             <div class="icon_box">
                                 <div class="stt_step">05</div>
                                 <img src="images/step05.png" alt="" class="img-fluid" width="71">
-                                <div class="title">評価・調整</div>
+                                <div class="title">ご納品</div>
                             </div>
                         </div>
                     </div>
