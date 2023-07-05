@@ -17,7 +17,7 @@
                     <li class="nav-item dropdown dropdown-slide dropdown-hover">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="knotmarketing2.php">ラボ型システム開発</a>
+                            <a class="dropdown-item" href="appdevlabo.php">ラボ型システム開発</a>
                             <a class="dropdown-item" href="webdev.php">Web制作</a>
                             <a class="dropdown-item" href="perspective.php">建築パース制作</a>
                         </div>
