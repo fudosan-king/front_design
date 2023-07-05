@@ -7,7 +7,7 @@
 
     <main>
         <section class="section_subbanner section_subbanner_new"
-            style="background-image: url('images/bg_knotmarketing.jpg'); background-position: 0 center;">
+            style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
             <h1>Company</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -64,6 +64,32 @@
             <h2 class="title_sub" style="color: #0092B7;">COMPANY</h2>
             <p class="subtitle">会社概要</p>
             <div class="container">
+                <div class="row mb-3">
+                    <div class="col-12 col-lg-12">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th width="20%">社名</th>
+                                <td>LogKnot株式会社</td>
+                            </tr>
+                            <tr>
+                                <th>本社所在地</th>
+                                <td>東京都港区北青山3-6-23</td>
+                            </tr>
+                            <tr>
+                                <th>設立</th>
+                                <td>2020年8月</td>
+                            </tr>
+                            <tr>
+                                <th>資本金</th>
+                                <td>10,000万円</td>
+                            </tr>
+                            <tr>
+                                <th>役員</th>
+                                <td>代表取締役社長　柏口　真貴子</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <table class="table table-bordered">
@@ -91,6 +117,7 @@
                         </table>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>

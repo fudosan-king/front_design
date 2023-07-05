@@ -8,7 +8,7 @@
     <main>
 
         <section class="section_subbanner section_subbanner_new"
-            style="background-image: url('images/bg_knotmarketing.jpg'); background-position: 0 center;">
+            style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
             <h1>建築パース</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -102,8 +102,8 @@
         <section class="section_strengths" style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row">
-                    <h2 class="title" style="color: #0092B7;">LogKnot</h2>
-                    <h2 class="title">のラボ型システム開発の特徴</h2>
+                    <h2 class="title" style="color: #0092B7;">LogKnot </h2>
+                    <h2 class="title">のパース制作の特徴</h2>
                 </div>
                 <div class="row">
                     <div>
@@ -113,27 +113,27 @@
                     <div class="details">
                         <div class="detail_item">
                             <img src="images/svg/strengths03.svg" alt="strengths03" class="img-fluid" width="76">
-                            <p class="desc">ビジネスのゴール、ターゲット像をとらえた企画戦略コンサルティング</p>
+                            <p class="desc">光や影、木材の質感にこだわった実写のような仕上がり</p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths04.svg" alt="strengths04" class="img-fluid" width="76">
-                            <p class="desc">高い技術を持ち、日本の商習慣・文化を理解したエンジニア</p>
+                            <p class="desc">お客様自らブラウザ上で操作できる360°パース</p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths05.svg" alt="strengths05" class="img-fluid" width="76">
-                            <p class="desc">日本人・ベトナム人デザイナーによる目的に沿ったデザイン</p>
+                            <p class="desc">最短２営業日で初稿納品</p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths06.svg" alt="strengths06" class="img-fluid" width="76">
-                            <p class="desc">高い日本語レベルのITコミュニケーター</p>
+                            <p class="desc">年間100件以上の豊富な制作実績</p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths07.svg" alt="strengths07" class="img-fluid" width="76">
-                            <p class="desc">品質評価を専門に担うQAチーム</p>
+                            <p class="desc"></p>
                         </div>
                         <div class="detail_item">
                             <img src="images/svg/strengths08.svg" alt="strengths08" class="img-fluid" width="76">
-                            <p class="desc">開発後の運用もサポート。集客、コンテンツ制作、SEO対策</p>
+                            <p class="desc"></p>
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <span class="title">デザイン</span>
+                    <span class="title">インフラ・その他</span>
                     <div class="methods_list">
                         <div class="methods_item two_items">
                             <img src="images/method24.png" alt="method24" class="img-fluid">
@@ -288,7 +288,7 @@
                             </div>
                             <div class="custom-control custom-checkbox custom-control2">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                <label class="custom-control-label" for="customCheck1">弊社の個人情報に関する取り扱いについては プライバーポリシー
+                                <label class="custom-control-label" for="customCheck1">弊社の個人情報に関する取り扱いについては プライバシーポリシー
                                     をご一読ください。<br />上記事項をご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。</label>
                             </div>
                             <div class="text-center">
