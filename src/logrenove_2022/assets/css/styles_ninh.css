@@ -5186,9 +5186,10 @@ div .frm_mansions h2 {
 .banner_top_page .fast-search {
   position: absolute;
   width: 910px;
-  left: 29%;
+  left: 0;
+  right: 0;
   bottom: 3%;
-  transform: translateX(-11.5%);
+  margin: auto;
   z-index: 2;
 }
 
@@ -5413,49 +5414,13 @@ div .frm_mansions h2 {
   height: 10px;
 }
 
-@media (max-width: 1441px) {
-  .banner_top_page .fast-search {
-    left: 25.5%;
-  }
-}
-
-@media (min-width: 1600px) {
-  .banner_top_page .fast-search {
-    left: 28%;
-  }
-}
-
-@media (min-width: 1900px) {
-  .banner_top_page .fast-search {
-    left: 31.5%;
-  }
-}
-
-@media (min-width: 2559px) {
-  .banner_top_page .fast-search {
-    left: 36.5%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .banner_top_page .fast-search {
-    left: 20.5%;
-  }
-}
-
-@media (max-width: 1020px) {
-  .banner_top_page .fast-search {
-    left: 16.5%;
-  }
-}
-
 @media (max-width: 835px) {
+  .banner_top_page .fast-search {
+    width: 100%;
+  }
+
   .banner_top_page .fast-search .container {
     max-width: 700px
-  }
-
-  .banner_top_page .fast-search {
-    left: 8%;
   }
 
   .banner_top_page .fast-search form.modal_frmsearch table th {
@@ -5501,11 +5466,6 @@ div .frm_mansions h2 {
 }
 
 @media (max-width: 768px) {
-  .banner_top_page .fast-search {
-    left: 4%;
-    bottom: 11%;
-  }
-
   .section_map .section_map_content .tab {
     left: -2px;
   }
@@ -5533,8 +5493,7 @@ div .frm_mansions h2 {
   }
 
   .banner_top_page .fast-search {
-    left: -30%;
-    bottom: 15%;
+    bottom: 11%;
   }
 
   .banner_top_page .fast-search form.modal_frmsearch .box_select {
@@ -5578,35 +5537,7 @@ div .frm_mansions h2 {
   }
 }
 
-@media (max-width: 414px) {
-  .banner_top_page .fast-search {
-    left: -34%;
-  }
-}
-
-@media (max-width: 390px) {
-  .banner_top_page .fast-search {
-    left: -40%;
-  }
-}
-
-@media (max-width: 375px) {
-  .banner_top_page .fast-search {
-    left: -44%;
-  }
-}
-
-@media (max-width: 360px) {
-  .banner_top_page .fast-search {
-    left: -46%;
-  }
-}
-
 @media (max-width: 320px) {
-  .banner_top_page .fast-search {
-    left: -65%;
-  }
-
   .banner_top_page .fast-search .container {
     max-width: 270px;
   }
