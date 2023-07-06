@@ -2245,3 +2245,11 @@ header {
         }
     }
 }
+
+@media (min-width: 1600px) {
+  .section_banner {
+        &::before {
+        height: 87%;
+        }
+  }
+}
