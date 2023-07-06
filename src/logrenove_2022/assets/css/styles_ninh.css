@@ -5335,6 +5335,84 @@ div .frm_mansions h2 {
   display: none;
 }
 
+.banner-about {
+  margin-bottom: 60px;
+  margin-top: 110px;
+}
+
+.banner-about > div {
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 8px;
+  border: 0.5px solid #000;
+  background: #FFF;
+}
+
+.banner-about > div a.contact-item {
+  text-decoration: none;
+  border: 0.5px solid #828282;
+  display: flex;
+  position: relative;
+}
+
+.banner-about > div a.contact-item .img_background {
+  max-width: 160px;
+  position: absolute;
+  top: -50%;
+  left: 3%;
+}
+
+.banner-about > div a.contact-item .desc {
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-about .contact-item .desc .desc_text {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: 0.28px;
+}
+
+.banner-about .contact-item .desc .desc_text span {
+  
+}
+
+.banner-about .contact-item .desc .desc_text h3 {
+  font-size: 1.5em;
+  margin: 0px 10px;
+}
+
+.banner-about .contact-item .desc > div {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.banner-about .contact-item .desc .desc_button button {
+  border: none;
+  outline: none;
+  background: none;
+  color: #262626;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: 160%;
+}
+
+.banner-about .contact-item .desc .desc_button img {
+  width: 6px;
+  height: 10px;
+}
+
 @media (max-width: 1440px) {
   .banner_top_page .fast-search {
     left: 25.5%;
@@ -5384,6 +5462,24 @@ div .frm_mansions h2 {
     max-width: 154px;
     gap: 2px;
   }
+
+  .banner-about > div a.contact-item .img_background {
+    top: -55%;
+  }
+
+  .banner-about .contact-item .desc .desc_text span {
+    font-size: 0.75em;
+  }
+
+  .banner-about .contact-item .desc .desc_text h3 {
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 801px) {
+  .banner-about .contact-item .desc .desc_text h3 {
+    margin: 0 4px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -5394,6 +5490,14 @@ div .frm_mansions h2 {
 
   .section_map .section_map_content .tab {
     left: -2px;
+  }
+
+  .banner-about > div a.contact-item .img_background {
+    left: 1%;
+  }
+
+  .banner-about > div a.contact-item .desc {
+    margin-left: 176px;
   }
 }
 
@@ -5437,6 +5541,22 @@ div .frm_mansions h2 {
 
   .section_map .section_map_content .tab button.active {
     width: 48%;
+  }
+
+  .banner-about > div a.contact-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .banner-about > div a.contact-item .img_background {
+    position: unset;
+  }
+
+  .banner-about > div a.contact-item .desc {
+    margin-left: 0;
+    gap: 10px;
+    padding: 0 2px;
   }
 }
 
