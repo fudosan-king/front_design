@@ -1769,12 +1769,6 @@ header .navbar .container {
   }
 }
 
-@media (max-width: 768px) {
-  .section_map .section_map_content {
-    margin-top: -20px;
-  }
-}
-
 @media (max-width: 428px) {
   .section_banner {
     margin-top: 0;
@@ -1874,7 +1868,11 @@ header .navbar .container {
 
 @media (max-width: 768px) {
   .section_map .section_map_content {
-    margin-top: -20px;
+    margin-top: 20px;
+  }
+
+  .section_banner::before {
+    height: 75%;
   }
 }
 
