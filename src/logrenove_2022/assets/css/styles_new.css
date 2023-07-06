@@ -2,6 +2,17 @@
   margin-top: 84px;
 }
 
+.section_banner::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .custom_item .box_body h3 {
   font-size: 1.125em;
 }
@@ -715,17 +726,6 @@
   width: 20px;
   height: 20px;
   transform: rotate(-180deg);
-}
-
-.section_banner::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 86.5%;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 768px) {
@@ -1761,6 +1761,10 @@ header .navbar .container {
 
 .banner_description {
   z-index: 10;
+@media (max-width: 1441px) {
+  .section_banner::before {
+    height: 86.5%;
+  }
 }
 
 @media (max-width: 768px) {
