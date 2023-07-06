@@ -2122,10 +2122,80 @@ header {
     z-index: 10;
 }
 
+.section_map {
+    .section_map_content {
+        .box_searchby {
+            ul.list_new2 {
+                li {
+                    height: 97px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 4px;
+                    &:nth-child(4), &:nth-child(5) {
+                        p {
+                            align-items: center;
+                        }
+                    }
+                    &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+                        height: 97px;
+                    }
+                    a {
+                        background: none;
+                        border: none;
+                        display: block;
+                        width: auto;
+                        height: auto;
+                        span {
+                            top: -28px;
+                            right: -44px;
+                        }
+                    }
+                    div {
+                        min-height: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        p {
+                            font-size: 0.8125em;
+                            width: 104px;
+                        }
+                        p.sub_desc_img {
+                            margin-top: 0px;
+                            font-size: 0.6875em;
+                            width: 110px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1441px) {
     .section_banner {
         &::before {
             height: 86.5%;
+        }
+    }
+}
+
+@media (max-width: 835px) {
+    .section_map {
+        .section_map_content {
+            .box_searchby {
+                ul.list_new2 {
+                    li {
+                        a {
+                            span {
+                                right: -100px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -2150,5 +2220,28 @@ header {
     .banner_description.banner_description_map {
       top: 25%;
     }
-}
 
+    .section_map {
+        .section_map_content {
+            .box_searchby {
+                ul.list_new2 {
+                    li {
+                        a {
+                            span {
+                                right: -44px;
+                            }
+                        }
+                        div {
+                            p {
+                                width: 80px;
+                            }
+                            p.sub_desc_img {
+                                width: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

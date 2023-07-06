@@ -2981,80 +2981,119 @@
 
 					<div class="box_searchby">
 						<h4>気になる物件の特徴から探す</h4>
-						<ul class="list_new">
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_ルーフバルコニー.png" alt="ルーフバルコニー">
-									<span>256</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_角部屋.png" alt="角部屋">
-									<span>51</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_オートロック.png" alt="オートロック">
-									<span>20</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_駅徒歩5分以内.png" alt="駅徒歩5分以内">
-									<span>256</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_平置き駐車場.png" alt="平置き駐車場">
-									<span>10</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_最上階角部屋 （ペントハウス）.png" alt="最上階角部屋 （ペントハウス）">
-									<span>30</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_24時間有人管理 （コンシェル ジュサービス）.png" alt="24時間有人管理 （コンシェル ジュサービス） （ペントハウス）">
-									<span>40</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_共用施設充実.png" alt="共用施設充実">
-									<span>50</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_床暖房.png" alt="床暖房">
-									<span>55</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_専有面積 120平米以上.png" alt="専有面積 120平米以上">
-									<span>60</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_4LDK以上.png" alt="4LDK以上">
-									<span>100</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="images/icons/facilities/i_駅徒歩3分以内.png" alt="駅徒歩3分以内">
-									<span>150</span>
-								</a>
-							</li>
-						</ul>
+							<ul class="list_new2">
+                                <li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_ルーフバルコニー_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>ルーフバルコニー</p>
+									</div>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>2</span>
+                                        <img src="images/icons/facilities/i_専用庭_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>専用庭</p>
+									</div>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>2</span>
+                                        <img src="images/icons/facilities/i_大型犬飼育可_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>大型犬飼育可</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>49</span>
+                                        <img src="images/icons/facilities/i_専用使用権付き駐車場_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>専用使用権付き 駐車場</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_平置き駐車場_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>平置き駐車場</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_最上階角部屋（ペントハウス）_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>最上階角部屋</p>
+										<p class="sub_desc_img">（ペントハウス）</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_常駐管理（コンシェルジュ有）_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>常駐管理</p>
+										<p class="sub_desc_img">（コンシェルジュ有）</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_共有施設充実_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>共有施設充実</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_圧巻の眺望_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>圧巻の眺望</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_120㎡以上（専有面積）_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>120㎡以上</p>
+										<p class="sub_desc_img">（専有面積）</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_4LDK以上_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>4LDK以上</p>
+									</div>
+                                </li>
+								<li>
+                                    <a href="">
+                                        <span>249</span>
+                                        <img src="images/icons/facilities/i_駅徒歩3分以内_new.svg" alt="property">
+                                    </a>
+									<div>
+										<p>駅徒歩3分以内</p>
+									</div>
+                                </li>
+                            </ul>
 					</div>
 
 
