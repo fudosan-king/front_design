@@ -1904,3 +1904,9 @@ header .navbar .container {
     width: 100px;
   }
 }
+
+@media (min-width: 1600px) {
+  .section_banner::before {
+    height: 87%;
+  }
+}

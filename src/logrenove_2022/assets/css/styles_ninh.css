@@ -5413,9 +5413,27 @@ div .frm_mansions h2 {
   height: 10px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1441px) {
   .banner_top_page .fast-search {
     left: 25.5%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner_top_page .fast-search {
+    left: 28%;
+  }
+}
+
+@media (min-width: 1900px) {
+  .banner_top_page .fast-search {
+    left: 31.5%;
+  }
+}
+
+@media (min-width: 2559px) {
+  .banner_top_page .fast-search {
+    left: 36.5%;
   }
 }
 
