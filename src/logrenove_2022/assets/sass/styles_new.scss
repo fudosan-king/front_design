@@ -1,6 +1,21 @@
 .section_banner {
     margin-top: 84px;
 }
+
+// add dark background color
+.section_banner {
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0, 0, 0, .4);
+    }
+}
+
 .custom_item {
     .box_body {
         h3 {
@@ -1002,9 +1017,12 @@ header {
 @media (max-width: 768px) {
     .section_banner {
         margin-top: 0;
-        height: 300px;
+        height: 400px;
         img {
             height: 300px;
+        }
+        &::before {
+            height: 75.5%;
         }
         
     }
@@ -1453,7 +1471,7 @@ header {
         max-width: 910px;
         background: #fff;
         margin: 0 auto;
-        margin-top: -50px;
+        margin-top: -10px;
         border-radius: 10px;
         border: 4px solid #fff;
         filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
@@ -1651,6 +1669,7 @@ header {
 .banner_description {
     &.banner_description_map {
         line-height: 1em;
+        top: 40%;
         h1 {
             margin-bottom: 0;
         }
@@ -2099,22 +2118,130 @@ header {
     }
 }
 
-// add dark background color
-.section_banner {
-    &::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        background: rgba(0, 0, 0, .4);
-    }
-}
 .banner_description {
     z-index: 10;
 }
 
+.section_map {
+    .section_map_content {
+        .box_searchby {
+            ul.list_new2 {
+                li {
+                    height: 97px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 4px;
+                    &:nth-child(4), &:nth-child(5) {
+                        p {
+                            align-items: center;
+                        }
+                    }
+                    &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+                        height: 97px;
+                    }
+                    a {
+                        background: none;
+                        border: none;
+                        display: block;
+                        width: auto;
+                        height: auto;
+                        span {
+                            top: -28px;
+                            right: -44px;
+                        }
+                    }
+                    div {
+                        min-height: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        p {
+                            font-size: 0.8125em;
+                            width: 104px;
+                        }
+                        p.sub_desc_img {
+                            margin-top: 0px;
+                            font-size: 0.6875em;
+                            width: 110px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+@media (max-width: 1441px) {
+    .section_banner {
+        &::before {
+            height: 86.5%;
+        }
+    }
+}
 
+@media (max-width: 835px) {
+    .section_map {
+        .section_map_content {
+            .box_searchby {
+                ul.list_new2 {
+                    li {
+                        a {
+                            span {
+                                right: -100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section_map {
+        .section_map_content {
+            margin-top: -20px;
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .section_banner {
+      margin-top: 0;
+      height: 500px;
+      &::before {
+        height: 60%;
+      }
+    }
+  
+    .banner_description.banner_description_map {
+      top: 25%;
+    }
+
+    .section_map {
+        .section_map_content {
+            .box_searchby {
+                ul.list_new2 {
+                    li {
+                        a {
+                            span {
+                                right: -44px;
+                            }
+                        }
+                        div {
+                            p {
+                                width: 80px;
+                            }
+                            p.sub_desc_img {
+                                width: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

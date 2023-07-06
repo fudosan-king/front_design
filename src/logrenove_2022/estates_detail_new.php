@@ -1069,6 +1069,30 @@
                             </section>
                         </form>
 
+                        <div class="banner banner-about">
+                            <div class="">
+                                <a href="https://www.logrenove.jp/magazine/" class="col-12 col-lg-12 contact-item">
+                                    <div class="img_background">
+                                        <img src="images/renovation_04.png" alt="renovation_04" class="img-fluid">
+                                    </div>
+                                    <div class="desc">
+                                        <div class="desc_text d-none d-sm-flex">
+                                            <span>LogRenoveは  </span>
+                                            <h3>都心の上質なリノベーションマンション</h3>
+                                            <span>  の選択を提案しています。</span>
+                                        </div>
+                                        <div class="desc_text d-block d-sm-none">
+                                            LogRenoveは<b>都心の上質なリノベーションマンション</b>の選択を提案しています。
+                                        </div>
+                                        <div class="desc_button">
+                                            <button>READ MORE</button>
+                                            <img src="images/icons/i_right3.svg" alt="i_right3.svg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
                         <div class="banner">
                             <a target="_blank" href="https://www.logrenove.jp/magazine" class="btn d-none d-md-block"><img src="images/banner_magazine_pc.png" alt="banner_magazine" class="img-fluid"></a>
                             <a target="_blank" href="https://www.logrenove.jp/magazine" class="btn d-block d-sm-none"><img src="images/banner_magazine_sm.png" alt="banner_magazine" class="img-fluid"></a>
