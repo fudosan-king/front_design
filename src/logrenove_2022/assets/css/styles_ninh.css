@@ -5294,9 +5294,50 @@ div .frm_mansions h2 {
   height: 18px;
 }
 
+.section_map .section_map_content .tab {
+  position: absolute;
+  top: -38px;
+  left: -4px;
+  display: flex;
+  gap: 2px;
+}
+
+.section_map .section_map_content .tab button {
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+  background: #F2F2F2;
+  color: #8C7D5E;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  min-width: 150px;
+  min-height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 5px;
+}
+
+/* Change background color of buttons on hover */
+.section_map .section_map_content .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.section_map .section_map_content .tab button.active {
+  color: #FFF;
+  background: #8C7D5E;
+}
+
+/* Style the tab content */
+.section_map .section_map_content .tabcontent {
+  display: none;
+}
+
 @media (max-width: 1440px) {
   .banner_top_page .fast-search {
-    left: 26%;
+    left: 25.5%;
   }
 }
 
@@ -5350,6 +5391,10 @@ div .frm_mansions h2 {
     left: 4%;
     bottom: 11%;
   }
+
+  .section_map .section_map_content .tab {
+    left: -2px;
+  }
 }
 
 @media (max-width: 428px) {
@@ -5370,10 +5415,6 @@ div .frm_mansions h2 {
     bottom: 15%;
   }
 
-  .section_map .section_map_content {
-    margin-top: -20px;
-  }
-
   .banner_top_page .fast-search form.modal_frmsearch .box_select {
     flex-direction: column;
   }
@@ -5381,6 +5422,21 @@ div .frm_mansions h2 {
   .banner_top_page .fast-search form.modal_frmsearch .btn_fast_search {
     margin-left: 26px;
     margin-top: 10px;
+  }
+
+  .section_map .section_map_content {
+    margin-top: -20px;
+  }
+
+  .section_map .section_map_content .tab {
+    max-width: 320px;
+    flex-wrap: wrap;
+    top: -68px;
+    gap: 5px;
+  }
+
+  .section_map .section_map_content .tab button.active {
+    width: 48%;
   }
 }
 
@@ -5415,5 +5471,14 @@ div .frm_mansions h2 {
 
   .banner_top_page .fast-search .container {
     max-width: 300px;
+  }
+
+  .section_map .section_map_content .tab {
+    top: -74px;
+    gap: 8px;
+  }
+
+  .section_map .section_map_content .tab button {
+    min-width: 120px;
   }
 }
