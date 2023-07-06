@@ -1283,7 +1283,8 @@ header .navbar .container {
   overflow: hidden;
   width: 51%;
 }
-.section_map .section_map_content .box_map .main_map::before {
+
+.section_map .section_map_content .box_map .main_map:nth-child(1)::before {
   content: '';
   position: absolute;
   left: 0;
@@ -1907,4 +1908,80 @@ header .navbar .container {
   .section_banner::before {
     height: 87%;
   }
+}
+
+.area_saitamaward polygon {
+  fill: #8c7d5e;
+}
+
+.area_saitamaward:hover,
+.area_saitamaward.active {
+  cursor: pointer;
+}
+
+.area_saitamaward:hover polygon,
+.area_saitamaward.active polygon {
+  fill: #74BAAB;
+}
+
+.area_saitamaward:hover .st-3-3,
+.area_saitamaward.active .st-3-3 {
+  fill: #74BAAB;
+}
+
+.area_kawaguchiward polygon {
+  fill: #8c7d5e;
+}
+
+.area_kawaguchiward:hover,
+.area_kawaguchiward.active {
+  cursor: pointer;
+}
+
+.area_kawaguchiward:hover polygon,
+.area_kawaguchiward.active polygon {
+  fill: #74BAAB;
+}
+
+.area_kawaguchiward:hover .st-3-3,
+.area_kawaguchiward.active .st-3-3 {
+  fill: #74BAAB;
+}
+
+.area_kawasakiward polygon {
+  fill: #8c7d5e;
+}
+
+.area_kawasakiward:hover,
+.area_kawasakiward.active {
+  cursor: pointer;
+}
+
+.area_kawasakiward:hover polygon,
+.area_kawasakiward.active polygon {
+  fill: #FFF;
+}
+
+.area_kawasakiward:hover .st-2-2,
+.area_kawasakiward.active .st-2-2 {
+  fill: #74BAAB;
+}
+
+.area_yokohamaward polygon {
+  fill: #8c7d5e;
+}
+
+.area_yokohamaward:hover,
+.area_yokohamaward.active {
+  cursor: pointer;
+}
+
+.area_yokohamaward:hover polygon,
+.area_yokohamaward.active polygon {
+  fill: #FFF;
+}
+
+.area_yokohamaward:hover .st-2-0,
+.area_yokohamaward.active .st-2-0 {
+  fill: #74BAAB;
 }
