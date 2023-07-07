@@ -2328,3 +2328,30 @@ header {
         cursor: pointer;
     }
 }
+
+// .top-carousel {
+//     position: relative;
+//     .label_sold {
+//         position: absolute;
+//         z-index: 10;
+//         display: block;
+//         left: 10px;
+//         top: -5px;
+//     }
+// }
+
+.carousel2 {
+    &.label_sold {
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 10;
+            display: block;
+            left: 10px;
+            top: -5px;
+            width: 50px;
+            height: 72px;
+            background: url(../images/icons/i_label_sold.svg) no-repeat;
+        }
+    }
+}

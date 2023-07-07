@@ -887,13 +887,11 @@ header .navbar {
     margin-top: 0;
     height: 400px;
   }
-
-  .section_banner::before {
-    height: 75.5%;
-  }
-
   .section_banner img {
     height: 300px;
+  }
+  .section_banner::before {
+    height: 75.5%;
   }
 
   .section_topinfo {
@@ -916,7 +914,6 @@ header .navbar {
     font-size: 0.625em;
   }
 }
-
 .box_searchcondition_top {
   padding: 15px;
   background: #F6F6F6;
@@ -1283,7 +1280,6 @@ header .navbar .container {
   overflow: hidden;
   width: 51%;
 }
-
 .section_map .section_map_content .box_map .main_map:nth-child(1)::before {
   content: '';
   position: absolute;
@@ -1293,7 +1289,6 @@ header .navbar .container {
   height: 15px;
   background: #F2F2F2;
 }
-
 .section_map .section_map_content .box_map .main_map:nth-child(3)::before {
   content: '';
   position: absolute;
@@ -1303,7 +1298,6 @@ header .navbar .container {
   height: 15px;
   background: #E0E0E0;
 }
-
 .section_map .section_map_content .box_searchby {
   padding: 20px 0 0 30px;
   width: 49%;
@@ -1494,7 +1488,6 @@ header .navbar .container {
     height: auto;
   }
 }
-
 /** map version 2 **/
 .green_area:hover path, .green_area.active path {
   fill: #74baab;
@@ -1775,45 +1768,6 @@ header .navbar .container {
   z-index: 10;
 }
 
-@media (max-width: 1441px) {
-  .section_banner::before {
-    height: 86.5%;
-  }
-}
-
-@media (max-width: 428px) {
-  .section_banner {
-    margin-top: 0;
-    height: 500px;
-  }
-
-  .section_banner::before {
-    height: 60%;
-  }
-
-  .banner_description.banner_description_map {
-    top: 25%;
-  }
-}
-
-.section_map .section_map_content .box_searchby ul.list_new li {
-  width: 98px;
-  height: 74px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
-
-.section_map .section_map_content .box_searchby ul.list_new li a {
-  width: 100%;
-  height: 100%;
-  border: none;
-  background: transparent;
-  border-radius: 4px;
-  padding: 10px;
-}
-
 .section_map .section_map_content .box_searchby ul.list_new2 li {
   height: 97px;
   display: flex;
@@ -1822,18 +1776,12 @@ header .navbar .container {
   justify-content: center;
   padding: 4px;
 }
-
-.section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(4) p,
-.section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(5) p {
+.section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(4) p, .section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(5) p {
   align-items: center;
 }
-
-.section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(4),
-.section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(5),
-.section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(6) {
+.section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(4), .section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(5), .section_map .section_map_content .box_searchby ul.list_new2 li:nth-child(6) {
   height: 97px;
 }
-
 .section_map .section_map_content .box_searchby ul.list_new2 li a {
   background: none;
   border: none;
@@ -1841,12 +1789,10 @@ header .navbar .container {
   width: auto;
   height: auto;
 }
-
 .section_map .section_map_content .box_searchby ul.list_new2 li a span {
   top: -28px;
   right: -44px;
 }
-
 .section_map .section_map_content .box_searchby ul.list_new2 li div {
   min-height: 40px;
   display: flex;
@@ -1854,12 +1800,10 @@ header .navbar .container {
   justify-content: center;
   align-items: center;
 }
-
 .section_map .section_map_content .box_searchby ul.list_new2 li div p {
   font-size: 0.8125em;
   width: 104px;
 }
-
 .section_map .section_map_content .box_searchby ul.list_new2 li div p.sub_desc_img {
   margin-top: 0px;
   font-size: 0.6875em;
@@ -1871,13 +1815,11 @@ header .navbar .container {
     height: 86.5%;
   }
 }
-
 @media (max-width: 835px) {
   .section_map .section_map_content .box_searchby ul.list_new2 li a span {
     right: -100px;
   }
 }
-
 @media (max-width: 768px) {
   .section_map .section_map_content {
     margin-top: 20px;
@@ -1887,13 +1829,11 @@ header .navbar .container {
     height: 75%;
   }
 }
-
 @media (max-width: 428px) {
   .section_banner {
     margin-top: 0;
     height: 500px;
   }
-
   .section_banner::before {
     height: 60%;
   }
@@ -1905,94 +1845,78 @@ header .navbar .container {
   .section_map .section_map_content .box_searchby ul.list_new2 li a span {
     right: -44px;
   }
-
   .section_map .section_map_content .box_searchby ul.list_new2 li div p {
     width: 80px;
   }
-
   .section_map .section_map_content .box_searchby ul.list_new2 li div p.sub_desc_img {
     width: 100px;
   }
 }
-
 @media (min-width: 1600px) {
   .section_banner::before {
     height: 87%;
   }
 }
-
 .area_saitamaward polygon {
   fill: #8c7d5e;
 }
-
-.area_saitamaward:hover,
-.area_saitamaward.active {
+.area_saitamaward:hover, .area_saitamaward.active {
   cursor: pointer;
 }
-
-.area_saitamaward:hover polygon,
-.area_saitamaward.active polygon {
+.area_saitamaward:hover polygon, .area_saitamaward.active polygon {
   fill: #74BAAB;
 }
-
-.area_saitamaward:hover .st-3-3,
-.area_saitamaward.active .st-3-3 {
+.area_saitamaward:hover .st-3-3, .area_saitamaward.active .st-3-3 {
   fill: #74BAAB;
 }
 
 .area_kawaguchiward polygon {
   fill: #8c7d5e;
 }
-
-.area_kawaguchiward:hover,
-.area_kawaguchiward.active {
+.area_kawaguchiward:hover, .area_kawaguchiward.active {
   cursor: pointer;
 }
-
-.area_kawaguchiward:hover polygon,
-.area_kawaguchiward.active polygon {
+.area_kawaguchiward:hover polygon, .area_kawaguchiward.active polygon {
   fill: #74BAAB;
 }
-
-.area_kawaguchiward:hover .st-3-3,
-.area_kawaguchiward.active .st-3-3 {
+.area_kawaguchiward:hover .st-3-3, .area_kawaguchiward.active .st-3-3 {
   fill: #74BAAB;
 }
 
 .area_kawasakiward polygon {
   fill: #8c7d5e;
 }
-
-.area_kawasakiward:hover,
-.area_kawasakiward.active {
+.area_kawasakiward:hover, .area_kawasakiward.active {
   cursor: pointer;
 }
-
-.area_kawasakiward:hover polygon,
-.area_kawasakiward.active polygon {
+.area_kawasakiward:hover polygon, .area_kawasakiward.active polygon {
   fill: #FFF;
 }
-
-.area_kawasakiward:hover .st-2-2,
-.area_kawasakiward.active .st-2-2 {
+.area_kawasakiward:hover .st-2-2, .area_kawasakiward.active .st-2-2 {
   fill: #74BAAB;
 }
 
 .area_yokohamaward polygon {
   fill: #8c7d5e;
 }
-
-.area_yokohamaward:hover,
-.area_yokohamaward.active {
+.area_yokohamaward:hover, .area_yokohamaward.active {
   cursor: pointer;
 }
-
-.area_yokohamaward:hover polygon,
-.area_yokohamaward.active polygon {
+.area_yokohamaward:hover polygon, .area_yokohamaward.active polygon {
   fill: #FFF;
 }
-
-.area_yokohamaward:hover .st-2-0,
-.area_yokohamaward.active .st-2-0 {
+.area_yokohamaward:hover .st-2-0, .area_yokohamaward.active .st-2-0 {
   fill: #74BAAB;
+}
+
+.carousel2.label_sold::before {
+  content: '';
+  position: absolute;
+  z-index: 10;
+  display: block;
+  left: 10px;
+  top: -5px;
+  width: 50px;
+  height: 72px;
+  background: url(../images/icons/i_label_sold.svg) no-repeat;
 }
