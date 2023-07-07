@@ -2142,6 +2142,9 @@ header {
                     align-items: center;
                     justify-content: center;
                     padding: 4px;
+                    background-position: center;
+                    background-color: #F2F2F2;
+                    background-repeat: no-repeat;
                     &:nth-child(4), &:nth-child(5) {
                         p {
                             align-items: center;
@@ -2151,29 +2154,38 @@ header {
                         height: 97px;
                     }
                     a {
-                        background: none;
-                        border: none;
-                        display: block;
-                        width: auto;
-                        height: auto;
-                        span {
-                            top: -28px;
-                            right: -44px;
-                        }
-                    }
-                    div {
-                        min-height: 40px;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        p {
-                            font-size: 0.8125em;
-                            width: 104px;
+                        text-decoration: none;
+                        background: none;
+                        border: none;
+                        min-height: 53px;
+                        min-width: 100%;
+                        margin-top:0;
+                        span {
+                            top: -22px;
+                            right: -5px;
                         }
-                        p.sub_desc_img {
+                        p {
+                            width: 100%;
+                            color: #8C7D5E;
+                            text-align: center;
+                            font-size: 1em;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 120%;
+                            margin-top: 0;
+                        }
+                        p.sub_desc_img-1 {
                             margin-top: 0px;
-                            font-size: 0.6875em;
+                            font-size: 0.75em;
+                            width: 120px;
+                        }
+                        p.sub_desc_img-2 {
+                            margin-top: 0px;
+                            font-size: 0.625em;
                             width: 110px;
                         }
                     }
@@ -2199,7 +2211,7 @@ header {
                     li {
                         a {
                             span {
-                                right: -100px;
+                                right: -4px;
                             }
                         }
                     }
@@ -2243,15 +2255,7 @@ header {
                     li {
                         a {
                             span {
-                                right: -44px;
-                            }
-                        }
-                        div {
-                            p {
-                                width: 80px;
-                            }
-                            p.sub_desc_img {
-                                width: 100px;
+                                top: -20px;
                             }
                         }
                     }
