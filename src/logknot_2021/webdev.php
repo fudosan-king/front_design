@@ -7,15 +7,17 @@
 
     <main>
 
-        <section class="section_subbanner section_subbanner_new"
+        <section class="section_subbanner_new"
             style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
-            <h1>Web制作</h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Top</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Web制作</li>
-                </ol>
-            </nav>
+            <div class="container">
+                <h1>Web制作</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Top</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Web制作</li>
+                    </ol>
+                </nav>
+            </div>
         </section>
 
         <section id="section_about_new" class="section_about_new">
@@ -97,7 +99,7 @@
                                 <li>ニュースの投稿や情報更新が手軽にできる</li>
                                 <li>Googleしごと検索を実装</li>
                             </ul>
-                            <button  class="example_item_btn">もっとみる</button>
+                            <button class="example_item_btn">もっとみる</button>
                         </a>
                         <a class="example_item" href="#">
                             <img src="images/svg/example06.svg" alt="" class="img-fluid" width="60">
@@ -108,7 +110,7 @@
                                 <li>ニュースの投稿や情報更新が手軽にできる</li>
                                 <li>Web広告による集客サポート</li>
                             </ul>
-                            <button  class="example_item_btn">もっとみる</button>
+                            <button class="example_item_btn">もっとみる</button>
                         </a>
                         <a class="example_item" href="#">
                             <img src="images/svg/example07.svg" alt="" class="img-fluid" width="60">
@@ -117,7 +119,7 @@
                             <ul class="point">
                                 <li>複数の新築マンションに展開</li>
                             </ul>
-                            <button  class="example_item_btn">もっとみる</button>
+                            <button class="example_item_btn">もっとみる</button>
                         </a>
                         <a class="example_item" href="#">
                             <img src="images/svg/example08.svg" alt="" class="img-fluid" width="60">
@@ -129,7 +131,7 @@
                                 <li>OTA埋め込み対応（デザインの調整含む）</li>
                                 <li>バナー制作（サイト内埋め込み用、外部広告用）</li>
                             </ul>
-                            <button  class="example_item_btn">もっとみる</button>
+                            <button class="example_item_btn">もっとみる</button>
                         </a>
                     </div>
                 </div>

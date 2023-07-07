@@ -7,15 +7,17 @@
 
     <main>
 
-        <section class="section_subbanner section_subbanner_new"
+        <section class="section_subbanner_new"
             style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
-            <h1>建築パース</h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Top</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">建築パース</li>
-                </ol>
-            </nav>
+            <div class="container">
+                <h1>建築パース</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Top</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">建築パース</li>
+                    </ol>
+                </nav>
+            </div>
         </section>
 
         <section id="section_about_new" class="section_about_new">
@@ -47,7 +49,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <div class="box_product">
-                        <div class="products">
+                            <div class="products">
                                 <div class="products_item">
                                     <a href="#" class="box_item">
                                         <a class="box_img" data-fancybox="gallery" data-touch="false"
