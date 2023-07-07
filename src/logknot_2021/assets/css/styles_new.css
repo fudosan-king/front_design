@@ -61,9 +61,13 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
     height: 768px;
 }
 
+.section_banner > div:nth-child(2).container {
+    z-index: 3;
+}
+
 .section_banner .fancybox_banner {
     position: absolute;
-    z-index: -1;
+    z-index: 3;
     left: 0;
     right: 0;
     top: 0;
@@ -113,7 +117,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_banner .caption .row h1 {
     color: #fff;
-    font-size: 80px;
+    font-size: 3.75em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     font-style: normal;
@@ -126,7 +130,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 }
 
 .section_banner .caption .row p.desc {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 600;
     max-width: 514px;
 }
@@ -149,7 +153,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 .section_achievements .row .desc {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-left: 60px;
 }
@@ -160,7 +164,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_achievements .row .desc .title {
     color: #222;
-    font-size: 40px;
+    font-size: 1.875em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     line-height: normal;
@@ -171,7 +175,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 .section_achievements .row .desc .content {
     color: #666;
     max-width: 461px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -193,7 +197,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_offshore_development .row .desc .title {
     color: #222;
-    font-size: 40px;
+    font-size: 1.875em;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     margin-bottom: 19px;
@@ -201,7 +205,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_offshore_development .row .desc .content {
     color: #666;
-    font-size: 17px;
+    font-size: 1.0625em;
     max-width: 391px;
 }
 
@@ -216,6 +220,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 .section_offshore_development .row .details .detail_item {
     max-width: 357px;
     width: 100%;
+    margin-bottom: 20px;
     color: #222;
     font-weight: 500;
     line-height: normal;
@@ -227,7 +232,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 }
 
 .section_offshore_development .details .detail_item .title {
-    font-size: 20px;
+    font-size: 1.125em;
     margin: 24px 0 13px;
     font-family: Noto Serif CJK SC;
     text-align: left;
@@ -235,10 +240,9 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_offshore_development .details .detail_item .content {
     color: #666;
-    font-size: 16px;
+    font-size: 0.875em;
     font-weight: 400;
-    margin-bottom: 43px;
-    min-height: 87px;
+    min-height: 40px;
 }
 
 .section_offshore_development .details .detail_item .more {
@@ -268,7 +272,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_strengths .row h2,
 .section_product .row h2 {
-    font-size: 40px;
+    font-size: 1.875em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
@@ -288,7 +292,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 .section_strengths .row .desc {
     color: #575757;
     text-align: right;
-    font-size: 16px;
+    font-size: 0.875em;
     font-weight: 500;
     line-height: 171%;
     margin-bottom: 0;
@@ -423,6 +427,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_subnews2 .title_sub {
     font-family: Noto Serif CJK SC;
+    font-size: 1.875em;
 }
 
 .section_subnews2 .subtitle {
@@ -438,6 +443,10 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
     font-style: normal;
     font-weight: 500;
     line-height: 170.7%;
+}
+
+.section_subnews2 ul li h4 {
+    font-size: 1em;
 }
 
 footer .footer_top.footer_new ul li a,
@@ -500,7 +509,7 @@ footer .footer_bottom.footer_new p a {
 
 .section_subbanner_new h1 {
     color: #fff;
-    font-size: 36px;
+    font-size: 2.125em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
@@ -520,7 +529,7 @@ footer .footer_bottom.footer_new p a {
 
 .section_subbanner_new .breadcrumb .breadcrumb-item {
     color: #fff;
-    font-size: 16px;
+    font-size: 0.875em;
     font-family: Noto Serif CJK SC;
     font-style: normal;
     font-weight: 400;
@@ -543,7 +552,7 @@ footer .footer_bottom.footer_new p a {
 
 .section_about_new .title {
     color: #0092b7;
-    font-size: 40px;
+    font-size: 1.875em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
@@ -553,14 +562,14 @@ footer .footer_bottom.footer_new p a {
 
 .section_about_new p.sub_title {
     color: #666;
-    font-size: 17px;
+    font-size: 0.9375em;
     font-weight: 700;
     margin-bottom: 27px;
 }
 
 .section_about_new p {
     color: #575757;
-    font-size: 16px;
+    font-size: 0.875em;
     font-weight: 400;
     width: 585px;
     padding-right: 2px;
@@ -598,13 +607,14 @@ footer .footer_bottom.footer_new p a {
     font-family: Noto Serif CJK SC;
     font-style: normal;
     font-weight: 700;
+    font-size: 1.875em;
     line-height: normal;
     letter-spacing: 3px;
 }
 
 .section_company_new .subtitle {
     color: #575757;
-    font-size: 20px;
+    font-size: 1.125em;
     font-family: Noto Serif CJK SC;
     font-style: normal;
     font-weight: 500;
@@ -640,7 +650,7 @@ footer .footer_bottom.footer_new p a {
 
 .section_organization .title {
     color: #000;
-    font-size: 40px;
+    font-size: 1.875em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
@@ -649,7 +659,7 @@ footer .footer_bottom.footer_new p a {
 
 .section_organization .desc {
     color: #666;
-    font-size: 16px;
+    font-size: 0.875em;
     font-weight: 400;
     max-width: 666px;
     text-align: center;
@@ -665,7 +675,7 @@ footer .footer_bottom.footer_new p a {
 
 .section_dev_example .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 1.875em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     line-height: normal;
@@ -743,11 +753,12 @@ footer .footer_bottom.footer_new p a {
 
 .section_dev_example .examples .example_item .title {
     align-self: center;
-    font-size: 20px;
+    font-size: 1.125em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     line-height: 171%;
     margin-bottom: 10px;
+    letter-spacing: unset;
 }
 
 .section_dev_example2 .examples .example_item .title {
@@ -839,7 +850,7 @@ footer .footer_bottom.footer_new p a {
 }
 
 .section_steps h2.title {
-    font-size: 40px;
+    font-size: 1.875em;
     font-family: Noto Serif CJK SC;
     font-weight: 500;
     letter-spacing: 3px;
@@ -972,7 +983,7 @@ footer .footer_bottom.footer_new p a {
 }
 
 .section_dev_methods h2.title {
-    font-size: 40px;
+    font-size: 1.875em;
     font-weight: 500;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
@@ -1059,7 +1070,7 @@ footer .footer_bottom.footer_new p a {
 .section_contact_new .row h2.title {
     color: #222;
     text-align: center;
-    font-size: 40px;
+    font-size: 1.875em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
