@@ -494,6 +494,16 @@ footer .footer_bottom.footer_new p a {
 
 .section_subbanner_new {
     height: 370px;
+    margin-top: 77px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .section_subbanner_new:before {
@@ -513,18 +523,22 @@ footer .footer_bottom.footer_new p a {
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
-    position: absolute;
-    top: 30%;
-    left: 25%;
+}
+
+.section_subbanner_new .container {
+    padding-left: 150px;
+}
+
+.section_subbanner_new .container nav {
+    min-width: 249px;
+    width: 249px;
 }
 
 .section_subbanner_new .breadcrumb {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 25%;
     background: rgba(255, 255, 255, 0.1684010773897171);
-    padding: 7px 35px 9px 30px;
+    padding: 7px 30px 9px;
+    width: fit-content;
 }
 
 .section_subbanner_new .breadcrumb .breadcrumb-item {
@@ -533,6 +547,10 @@ footer .footer_bottom.footer_new p a {
     font-family: Noto Serif CJK SC;
     font-style: normal;
     font-weight: 400;
+}
+
+.section_subbanner_new .breadcrumb .breadcrumb-item a {
+    color: #fff;
 }
 
 .section_about_new {
@@ -1369,15 +1387,8 @@ footer .footer_bottom.footer_new p a {
         font-size: 50px;
     }
 
-    .section_subbanner_new h1 {
-        left: 0;
-        right: 0;
-    }
-
-    .section_subbanner_new .breadcrumb {
-        top: 55%;
-        left: 10%;
-        text-align: center;
+    .section_subbanner_new .container {
+        padding-left: 46px;
     }
 
     .section_achievements .row .desc .title,
