@@ -519,14 +519,11 @@ footer .footer_bottom.footer_new p a {
 
 .section_subbanner_new h1 {
     color: #fff;
-    font-size: 2.125em;
+    font-size: 1.875em;
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
-}
-
-.section_subbanner_new .container {
-    padding-left: 150px;
+    margin-bottom: 15px;
 }
 
 .section_subbanner_new .container nav {
@@ -1383,6 +1380,10 @@ footer .footer_bottom.footer_new p a {
 }
 
 @media (max-width: 428px) {
+    .section_subbanner_new {
+        height: 230px;
+    }
+
     .section_banner .caption .row h1 {
         font-size: 50px;
     }
