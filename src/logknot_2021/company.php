@@ -6,15 +6,18 @@
     <?php include('header2.php') ?>
 
     <main>
-        <section class="section_subbanner section_subbanner_new"
+
+        <section class="section_subbanner_new"
             style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
-            <h1>Company</h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Top</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Company</li>
-                </ol>
-            </nav>
+            <div class="container">
+                <h1>Company</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Top</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Company</li>
+                    </ol>
+                </nav>
+            </div>
         </section>
 
         <section id="section_about_new" class="section_about_new">
