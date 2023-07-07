@@ -2826,116 +2826,84 @@
 					<div class="box_searchby">
 						<h4>気になる物件の特徴から探す</h4>
 							<ul class="list_new2">
-                                <li>
+                                <li style="background-image: url('images/facilities/ルーフバルコニー_new.png');">
                                     <a href="">
                                         <span>249</span>
-                                        <img src="images/icons/facilities/i_ルーフバルコニー_new.svg" alt="property">
+										<p>ルーフ<br/>バルコニー</p>
                                     </a>
-									<div>
-										<p>ルーフバルコニー</p>
-									</div>
                                 </li>
-                                <li>
+                                <li style="background-image: url('images/facilities/専用庭_new.png');">
                                     <a href="">
-                                        <span>2</span>
-                                        <img src="images/icons/facilities/i_専用庭_new.svg" alt="property">
-                                    </a>
-									<div>
+                                        <span>24</span>
 										<p>専用庭</p>
-									</div>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span>2</span>
-                                        <img src="images/icons/facilities/i_大型犬飼育可_new.svg" alt="property">
                                     </a>
-									<div>
-										<p>大型犬飼育可</p>
-									</div>
                                 </li>
-								<li>
+                                <li style="background-image: url('images/facilities/大型犬飼育可_new.png');">
+                                    <a href="">
+                                        <span>9</span>
+										<p>大型犬飼育可</p>
+                                    </a>
+                                </li>
+                                <li style="background-image: url('images/facilities/専用使用権付き駐車場_new.png');">
+                                    <a href="">
+                                        <span>249</span>
+										<p>専用使用権付き<br/>駐車場</p>
+                                    </a>
+                                </li>
+                                <li style="background-image: url('images/facilities/平置き駐車場_new.png');">
+                                    <a href="">
+                                        <span>249</span>
+										<p>平置き駐車場</p>
+                                    </a>
+                                </li>
+                                <li style="background-image: url('images/facilities/最上階角部屋（ペントハウス）_new.png');">
+                                    <a href="">
+                                        <span>249</span>
+										<p>最上階<br/>角部屋</p>
+										<p class="sub_desc_img-1">（ペントハウス）</p>
+                                    </a>
+                                </li>
+                                <li style="background-image: url('images/facilities/常駐管理（コンシェルジュ有）_new.png');">
+                                    <a href="">
+                                        <span>249</span>
+										<p>常駐管理</p>
+										<p class="sub_desc_img-1">（コンシェルジュ有）</p>
+                                    </a>
+                                </li>
+                                <li style="background-image: url('images/facilities/共有施設充実_new.png');">
+                                    <a href="">
+                                        <span>249</span>
+										<p>共有施設</p>
+										<p>充実</p>
+                                    </a>
+                                </li>
+                                <li style="background-image: url('images/facilities/圧巻の眺望_new.png');">
+                                    <a href="">
+                                        <span>9</span>
+										<p>圧巻の眺望</p>
+                                    </a>
+                                </li>
+                                <li style="background-image: url('images/facilities/120㎡以上（専有面積）_new.png');">
                                     <a href="">
                                         <span>49</span>
-                                        <img src="images/icons/facilities/i_専用使用権付き駐車場_new.svg" alt="property">
-                                    </a>
-									<div>
-										<p>専用使用権付き 駐車場</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_平置き駐車場_new.svg" alt="property">
-                                    </a>
-									<div>
-										<p>平置き駐車場</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_最上階角部屋（ペントハウス）_new.svg" alt="property">
-                                    </a>
-									<div>
-										<p>最上階角部屋</p>
-										<p class="sub_desc_img">（ペントハウス）</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_常駐管理（コンシェルジュ有）_new.svg" alt="property">
-                                    </a>
-									<div>
-										<p>常駐管理</p>
-										<p class="sub_desc_img">（コンシェルジュ有）</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_共有施設充実_new.svg" alt="property">
-                                    </a>
-									<div>
-										<p>共有施設充実</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_圧巻の眺望_new.svg" alt="property">
-                                    </a>
-									<div>
-										<p>圧巻の眺望</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_120㎡以上（専有面積）_new.svg" alt="property">
-                                    </a>
-									<div>
 										<p>120㎡以上</p>
-										<p class="sub_desc_img">（専有面積）</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_4LDK以上_new.svg" alt="property">
+										<p class="sub_desc_img-2">（専有面積）</p>
                                     </a>
-									<div>
+                                </li>
+                                <li style="background-image: url('images/facilities/4LDK以上_new.png');">
+                                    <a href="">
+                                        <span>24</span>
 										<p>4LDK以上</p>
-									</div>
-                                </li>
-								<li>
-                                    <a href="">
-                                        <span>249</span>
-                                        <img src="images/icons/facilities/i_駅徒歩3分以内_new.svg" alt="property">
                                     </a>
-									<div>
-										<p>駅徒歩3分以内</p>
-									</div>
+                                </li>
+                                <li style="background-image: url('images/facilities/駅徒歩3分以内_new.png');">
+                                    <a href="">
+                                        <span>9</span>
+										<div>
+											<p>駅徒歩</p>
+											<p>3分以内</p>
+										</div>
+                                    </a>
                                 </li>
                             </ul>
 					</div>
