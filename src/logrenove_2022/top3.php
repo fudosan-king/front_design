@@ -2899,16 +2899,14 @@
                                 <li style="background-image: url('images/facilities/駅徒歩3分以内_new.png');">
                                     <a href="">
                                         <span>9</span>
-										<div>
 											<p>駅徒歩</p>
 											<p>3分以内</p>
-										</div>
                                     </a>
                                 </li>
                             </ul>
 					</div>
 
-
+					<div class="tokyo_diff">上記以外の<br/>東京都エリア</div>
 				</div>
 			</div>
 		</section>
