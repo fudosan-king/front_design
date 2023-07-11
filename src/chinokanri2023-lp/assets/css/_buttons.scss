@@ -1,0 +1,27 @@
+.btn-yellow-linear {
+	color: #644F21;
+	text-align: center;
+	font-size: 1rem;
+	width: 100%;
+	max-width: 277px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 1px;
+	border-radius: 60px;
+	background: var(--btn, linear-gradient(135deg, #FFC700 0%, #FCFF6F 100%));
+	display: inline-flex;
+	padding: 15px 60px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.20);
+    z-index: 1;
+    position: relative;
+	@media (max-width: 991px) {
+		&.btn-header {
+			padding: 5px;
+			font-size: 0.625rem;
+		}
+	}
+}
+
