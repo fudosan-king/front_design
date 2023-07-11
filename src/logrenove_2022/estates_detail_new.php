@@ -11,18 +11,21 @@
 
         <div class="title_redirect nav-pc">
             <div class="title_list">
-                <a class="title_item" href="#estates_detail">物件詳細</a>
+                <a class="title_item" href="#estates_detail">Top</a>
+                <a class="title_item" href="#room_plan">間取り</a>
+                <a class="title_item" href="#living_room">リビング・ダイニング</a>
+                <a class="title_item" href="#exterior_entrance">外観・エントランス</a>
                 <a class="title_item" href="#location_environment">ロケーション</a>
                 <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
                 <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
                 <a class="title_item" href="#property_description">物件概要</a>
-                <a class="title_item" href="#map">マップ</a>
+                <!-- <a class="title_item" href="#map">マップ</a>
                 <a class="title_item title_item_dashed"></a>
                 <a class="title_item" href="#">同一建物の別物件一覧</a>
                 <a class="title_item" href="#">広さが近い物件一覧</a>
-                <a class="title_item" href="#">価格が近い別物件一覧</a>
+                <a class="title_item" href="#">価格が近い別物件一覧</a> -->
                 <a class="title_item title_item_dashed"></a>
-                <a class="title_item" href="#">ご来店について</a>
+                <a class="title_item" href="#">あなたにおすすめの物件</a>
             </div>
         </div>
 
@@ -47,71 +50,64 @@
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img01.jpg" data-caption="　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 ">
                                         <img src="images/img01.jpg" />
                                         <div>
-                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                            <span>　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 </span>
                                             <span>1</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 　明るく広い洗面化粧台。鏡の裏やシンク下に収納があり、洗面用品やストック洗剤など細々した物もすっきりとさせてくれます。また洗面台の向かいには、タオル類や着替えなどを置ける作り付け棚があるので便利です。 </span>
                                         </div>
                                     </a>
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img02.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img02.jpg" />
                                         <div>
-                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                            <span>　居室（LDなど）<br />　居室（LDなど）</span>
                                             <span>2</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　居室（LDなど）<br />　居室（LDなど）</span>
                                         </div>
                                     </a>
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img03.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img03.jpg" />
                                         <div>
-                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                            <span>　居室（LDなど）</span>
                                             <span>3</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img04.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img04.jpg" />
                                         <div>
-                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                            <span>　居室（LDなど）</span>
                                             <span>4</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img05.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img05.jpg" />
                                         <div>
-                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                            <span>　居室（LDなど）</span>
                                             <span>5</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img06.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img06.jpg" />
                                         <div>
-                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                            <span>　居室（LDなど）</span>
                                             <span>6</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
                                     <a class="carousel-cell2" data-fancybox="gallery" data-touch="false" href="images/img07.jpg" data-caption="　居室（LDなど）">
                                         <img src="images/img07.jpg" />
                                         <div>
-                                            <img src="images/icons/camera.svg" class="carosuel-img-camera" />
+                                            <span>　居室（LDなど）</span>
                                             <span>7</span>
                                             <span>/</span>
                                             <span>7</span>
-                                            <span>　居室（LDなど）</span>
                                         </div>
                                     </a>
                                 </div>
@@ -1252,23 +1248,27 @@
                 <label for="nav-mobile-hamburger-bottom" class="navbar-btn-hamburger-bottom">
                     <img src="./assets/images/icons/menu_bottom.svg" alt="" class="img-fluid" width="21">
                 </label>
+                <label for="nav-mobile-hamburger-bottom" class="focus-layer"></label>
                 <label for="nav-mobile-hamburger-bottom" class="navbar-bottom-close">
                     <img src="./assets/images/icons/x-circle-brown.svg" alt="" class="img-fluid" width="16">
                 </label>
                 <div class="title_redirect">
                     <div class="title_list">
-                        <a class="title_item" href="#estates_detail">物件詳細</a>
+                        <a class="title_item" href="#estates_detail">Top</a>
+                        <a class="title_item" href="#room_plan">間取り</a>
+                        <a class="title_item" href="#living_room">リビング・ダイニング</a>
+                        <a class="title_item" href="#exterior_entrance">外観・エントランス</a>
                         <a class="title_item" href="#location_environment">ロケーション</a>
                         <a class="title_item" href="#overview_management_equipment">概要・管理・設備</a>
                         <a class="title_item" href="#loan_simulator">ローンシミュレーター</a>
                         <a class="title_item" href="#property_description">物件概要</a>
-                        <a class="title_item" href="#map">マップ</a>
+                        <!-- <a class="title_item" href="#map">マップ</a>
                         <a class="title_item title_item_dashed"></a>
                         <a class="title_item" href="#">同一建物の別物件一覧</a>
                         <a class="title_item" href="#">広さが近い物件一覧</a>
                         <a class="title_item" href="#">価格が近い別物件一覧</a>
-                        <a class="title_item title_item_dashed"></a>
-                        <a class="title_item" href="#">ご来店について</a>
+                        <a class="title_item title_item_dashed"></a> -->
+                        <a class="title_item" href="#">あなたにおすすめの物件</a>
                     </div>
                 </div>
             </div>
