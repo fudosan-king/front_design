@@ -224,7 +224,7 @@
 						<p>マンションの管理業務は大切なものです。<br>
 							信頼できる管理会社に変更することで、皆様の資産価値の向上にも繋がります。<br>
 							ぜひ、悩まずにご相談ください。当社が責任を持ってお手伝いします。</p>
-							<button class="btn btn-yellow-linear">相談・お問い合わせ</button>
+							<a href="#" class="btn btn-yellow-linear">相談・お問い合わせ</a>
 					</div>	
 					<div class="col-cus-2">
 						<div class="img img-woman">
@@ -235,7 +235,7 @@
 						<p>マンションの管理業務は大切なものです。<br>
 							信頼できる管理会社に変更することで、皆様の資産価値の向上にも繋がります。<br>
 							ぜひ、悩まずにご相談ください。当社が責任を持ってお手伝いします。</p>
-							<button class="btn btn-yellow-linear">相談・お問い合わせ</button>
+							<a href="#" class="btn btn-yellow-linear">相談・お問い合わせ</a>
 					</div>	
 				</div>
 			</div>

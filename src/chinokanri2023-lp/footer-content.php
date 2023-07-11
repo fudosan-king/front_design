@@ -27,7 +27,7 @@
         <div class="footer-action__img">
             
         </div>
-        <a class="btn-action" hfef="tel:0120901659">
+        <a class="btn-action" href="tel:0120901659">
             <i class="i-call-phone"></i>0120-90-1659
             <span class="d-block d-md-none">営業時間 9:00～18:00（定休日：水•日•祝日）</span>
         </a>
