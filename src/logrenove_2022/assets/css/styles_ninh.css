@@ -4107,10 +4107,14 @@ div .frm_mansions h2 {
   .top-carousel .carousel-cell2 > div {
     background: none;
     position: relative;
-    padding: 5px 0 5px 35px;
+    padding: 5px;
     left: 0;
     font-size: 14px;
     z-index: 1;
+  }
+
+  .top-carousel .carousel-cell2 > div > span:first-of-type {
+    margin-right: 2px;
   }
 
   .carousel-main .carousel-cell2 > img {
@@ -4153,6 +4157,15 @@ div .frm_mansions h2 {
 
   .nav-hamburger-bottom:checked~.navbar-bottom-close {
     display: block;
+  }
+
+  .nav-hamburger-bottom:checked~.focus-layer {
+    position: absolute;
+    top: -800px;
+    bottom: 68px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5) !important;
   }
 
   .title_redirect .title_list .title_item_dashed {
