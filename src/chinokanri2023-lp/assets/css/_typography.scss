@@ -462,6 +462,16 @@
     font-weight: 100 200 300 457 500 600 700 800 900;
 }
 
+@font-face {
+    font-family: 'SF Compact Text';
+    src: url('../fonts/sf-compact/SFCompactText-Bold.eot');
+    src: url('../fonts/sf-compact/SFCompactText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sf-compact/SFCompactText-Bold.woff2') format('woff2'),
+        url('../fonts/sf-compact/SFCompactText-Bold.woff') format('woff'),
+        url('../fonts/sf-compact/SFCompactText-Bold.ttf') format('truetype'),
+        url('../fonts/sf-compact/SFCompactText-Bold.svg#SFCompactText-Bold') format('svg');
+    font-weight: bold;
+}
 
 //SF Pro
 @font-face {
@@ -484,7 +494,7 @@
 }
 
 @font-face {
-    font-family: 'SFProText';
+    font-family: 'SF Pro Text';
     src: url('../fonts/sf-pro-text/SFProText-Regular.eot');
     src: url('../fonts/sf-pro-text/SFProText-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/sf-pro-text/SFProText-Regular.woff2') format('woff2'),
