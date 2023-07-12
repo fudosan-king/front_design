@@ -22,6 +22,8 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
 
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<!-- Place your kit's code here -->
 	<script src="https://kit.fontawesome.com/426c32e6a9.js" crossorigin="anonymous"></script>

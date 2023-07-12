@@ -1,7 +1,7 @@
 <section class="slider">
-	<div class="slider__block"></div>
+	<div data-aos="fade-up" class="slider__block"></div>
 	<div class="container">
-		<div class="slider__item">
+		<div data-aos="fade-up" class="slider__item">
 			<div class="text">
 				<div>マンション•ビルの管理のお悩みは</div>
 				<div><span>千野建物管理</span>に</div>
@@ -16,7 +16,7 @@
 		</div>
 	</div>
 	<div class="slider__img d-block d-md-none">
-		<div class="img">
+		<div data-aos="fade-up" class="img">
 			<img src="./assets/images/common/slider-sp.png" alt="相談・お問い合わせ" title="相談・お問い合わせ"/>
 		</div>
 	</div>

@@ -3,9 +3,9 @@
 <section>
 	<div class="container">
 		<div class="why-us">
-			<h1>お客様に合わせた<br>
+			<h1 data-aos="fade-up">お客様に合わせた<br>
 				<span class="d-block d-md-inline">最適なプランを</span>ご提案いたします！</h1>
-			<img class="img-fluid" src="./assets/images/home/why-us.png" alt="お客様に合わせた最適なプランをご提案いたします" />
+			<img data-aos="fade-up" class="img-fluid" src="./assets/images/home/why-us.png" alt="お客様に合わせた最適なプランをご提案いたします" />
 		</div>
 	</div>
 </section>
@@ -14,24 +14,23 @@
 	<div class="container">
 		<div class="we-have">
 			<div class="quote-group">
-				<h2>
+				<h2 data-aos="fade-up">
 					<span class="quote quote-left"></span>管理会社を見直したい<span class="quote quote-right"></span>
 				</h2>
-				<p>管理組合様、不動産オーナー様の多くは手間や時間を省くために、管理会社へ管理を委託しております。</br>
+				<p data-aos="fade-up">管理組合様、不動産オーナー様の多くは手間や時間を省くために、管理会社へ管理を委託しております。</br>
 				もし、現状の管理会社へ相談しても問題が解決されないと感じたら、是非一度ご相談ください。</br>
 					当社では皆様に満足いただける管理をサポートいたします。</p>
 
-				<img src="./assets/images/home/we-have-1.png" alt="管理会社を見直したい" />
+				<img data-aos="fade-up" src="./assets/images/home/we-have-1.png" alt="管理会社を見直したい" />
 			</div>
-			<div class="arrow-down"></div>
+			<div data-aos="fade-down" class="arrow-down"></div>
 			<div class="system-group">
-				<h2>千野建物管理の特徴的なサポート体制</h2>
-				<p class="description">千野建物管理は1971年設立の歴史ある不動産企業です。<br>
+				<h2 data-aos="fade-down">千野建物管理の特徴的なサポート体制</h2>
+				<p data-aos="fade-down" class="description">千野建物管理は1971年設立の歴史ある不動産企業です。<br>
 				現場第一の管理サービスを提供し、お客様の立場にたってサポートいたします！</p>
 				<div class="system-group__content">
 					<div class="row">
-					
-						<div class="col-sm-6">
+						<div data-aos="fade-right" class="col-sm-6">
 							<div class="article">
 								<div class="article__img"><img src="./assets/images/home/system-1.png" /></div>
 								<div class="article__item">
@@ -43,7 +42,7 @@
 								</div>
 							</div>
 						</div>	
-						<div class="col-sm-6">
+						<div data-aos="fade-right" class="col-sm-6">
 							<div class="article">
 								<div class="article__img"><img src="./assets/images/home/system-2.png" /></div>
 								<div class="article__item">
@@ -54,17 +53,17 @@
 								</div>
 							</div>
 						</div>	
-						<div class="col-sm-6">
+						<div data-aos="fade-right" class="col-sm-6">
 							<div class="article">
+								<div class="article__img"><img src="./assets/images/home/system-3.png" /></div>
 								<div class="article__item">
-									<div class="article__img"><img src="./assets/images/home/system-3.png" /></div>
 									<h3>プロポライフグループの<br>
 									総合的なサポート</h3>
 									<p>建築・販売・管理・リニューアル工事までをワンストップで行なう「住」を追及する総合不動産企業ならではの多岐にわたるサービス・サポートをご提供します。</p>
 								</div>
 							</div>
 						</div>	
-						<div class="col-sm-6">
+						<div data-aos="fade-right" class="col-sm-6">
 							<div class="article">
 								<div class="article__img"><img src="./assets/images/home/system-4.png" /></div>
 								<div class="article__item">
@@ -74,7 +73,7 @@
 								</div>
 							</div>
 						</div>	
-						<div class="col-sm-6">
+						<div data-aos="fade-right" class="col-sm-6">
 							<div class="article">
 								<div class="article__img"><img src="./assets/images/home/system-5.png" /></div>
 								<div class="article__item">
@@ -83,7 +82,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6">
+						<div data-aos="fade-right" class="col-sm-6">
 							<div class="article">
 								<div class="article__img"><img src="./assets/images/home/system-6.png" /></div>
 								<div class="article__item">
@@ -105,7 +104,7 @@
 		<div class="container">
 			<div class="group__one">
 				<div class="row">
-					<div class="col-md-6">
+					<div data-aos="fade-right" class="col-md-6">
 						<div class="mark-group">
 							<span class="mark-group__title">Group</span>
 							<h2>プロポライフグループの取り組み</h2>
@@ -113,22 +112,22 @@
 						<p class="p1">当社が所属するプロポライフグループでは、不動産管理にとどまらず、幅広い事業を手掛けております。</p>
 						<p>法務対応や契約管理、会計業務をバックアップする「プロポライフグループ」、建物診断や施工監理を行う「Log Architects」、Webサイトの構築や運用を行う「Log Knot」など、住に関するあらゆる事業を展開しています。</p>
 					</div>
-					<div class="col-md-6 text-center">
+					<div data-aos="fade-left" class="col-md-6 text-center">
 						<img src="./assets/images/home/group.png" alt="group" title="" />
 					</div>
 				</div>
 			</div>
 			<div class="group__two">
 				<div class="row">
-					<div class="col-sm-4 text-center">
+					<div data-aos="fade-down-left" class="col-sm-4 text-center">
 						<h3>建物診断・施工監理</h3>
 						<img src="./assets/images/home/group-1.jpg" alt="建物診断・施工監理" title="建物診断・施工監理"/ >
 					</div>
-					<div class="col-sm-4 text-center">
+					<div data-aos="fade-down-left" class="col-sm-4 text-center">
 						<h3>WEB開発</h3>
 						<img src="./assets/images/home/group-2.jpg" alt="WEB開発" title="WEB開発"/ >
 					</div>
-					<div class="col-sm-4 text-center">
+					<div data-aos="fade-down-left" class="col-sm-4 text-center">
 						<h3>法務・契約サポート</h3>
 						<img src="./assets/images/home/group-3.jpg" alt="法務・契約サポート" title="法務・契約サポート"/ >
 					</div>
@@ -139,12 +138,12 @@
 	<div class="reason">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
+				<div  data-aos="flip-left" class="col-md-8">
 					<h2>管理会社の乗り換えに<span class="d-block d-md-inline">関する不安・手間に関して</span></h2>
 					<p>マンションの管理会社の変更は、手続きが煩雑で時間や労力を必要とします。また、現在の管理会社と円滑に契約解除を進めるため、契約や法律に詳しい人に相談することが望まれます。</p>
 					<p>新しい管理会社には改善したいことや要望を伝える必要もあるため、コミュニケーションも大切です。信頼できる管理会社に変更することで、長期的には資産価値の向上に繋がることも考えられます。お気軽にご相談ください。</p>
 				</div>
-				<div class="col-md-4">
+				<div  data-aos="flip-left" class="col-md-4">
 					<div class="img text-end text-md-center">
 						<img src="./assets/images/home/reason.png" alt="" title=""/>
 					</div>
@@ -156,13 +155,13 @@
 <section>
 	<div class="voice">
 		<div class="container">
-			<div class="mark-group">
+			<div data-aos="fade-right" data-aos-offset="300" class="mark-group">
 				<span class="mark-group__title">Voice</span>
 				<h2>お客様の声</h2>
 			</div>
 			<div class="row">
 				<div class="col-cus-3">
-					<div class="voice__img">
+					<div data-aos="fade-right" data-aos-offset="300" class="voice__img">
 						<div class="text-center">
 							<img src="./assets/images/home/voice-1.png" alt="" title="" />
 						</div>
@@ -170,7 +169,7 @@
 					</div>
 				</div>
 				<div class="col-cus-9">
-					<div class="voice__txt">
+					<div data-aos="fade-right" data-aos-offset="500" class="voice__txt">
 						<p><strong>お客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入ります。</strong><br>
 						<span>
 						コメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入ります。</span>
@@ -178,21 +177,21 @@
 					</div>
 				</div>
 				<div class="col-cus-3">
-					<div class="voice__img">
+					<div data-aos="fade-right" data-aos-offset="300" class="voice__img">
 						<div class="text-center">
 							<img src="./assets/images/home/voice-2.png" alt="" title="" />
 						</div>
-						<span>千葉県<br>篠崎さん（52歳）</span>
+						<span>大阪府<br>丸山さん（38歳）</span>
 					</div>
 				</div>
 				<div class="col-cus-9">
-					<div class="voice__txt">
+					<div data-aos="fade-right" data-aos-offset="500" class="voice__txt">
 						<p><strong>お客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入ります。</strong><br><span>コメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入ります。</span>
 						</p>
 					</div>
 				</div>
 				<div class="col-cus-3">
-					<div class="voice__img">
+					<div data-aos="fade-right" data-aos-offset="300" class="voice__img">
 						<div class="text-center">
 							<img src="./assets/images/home/voice-3.png" alt="" title="" />
 						</div>
@@ -200,7 +199,7 @@
 					</div>
 				</div>
 				<div class="col-cus-9">
-					<div class="voice__txt">
+					<div data-aos="fade-right" data-aos-offset="500" class="voice__txt">
 						<p><strong>お客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入りますお客様の声が入ります。</strong><br><span>コメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入りますコメントが入ります。</span>
 						</p>
 					</div>
@@ -215,23 +214,23 @@
 		<div class="container">
 			<div class="contact__group">
 				<div class="row">
-					<div class="col-cus-2">
+					<div data-aos="fade-down" data-aos-offset="500" class="col-cus-2">
 						<div class="img img-man">
 							<img src="./assets/images/home/contact-man-sp.png"/>
 						</div>
 					</div>	
-					<div class="col-cus-8 text-center d-none d-md-block">
+					<div data-aos="fade-down" data-aos-offset="300" class="col-cus-8 text-center d-none d-md-block">
 						<p>マンションの管理業務は大切なものです。<br>
 							信頼できる管理会社に変更することで、皆様の資産価値の向上にも繋がります。<br>
 							ぜひ、悩まずにご相談ください。当社が責任を持ってお手伝いします。</p>
 							<a href="#" class="btn btn-yellow-linear">相談・お問い合わせ</a>
 					</div>	
-					<div class="col-cus-2">
+					<div data-aos="fade-down" data-aos-offset="500" class="col-cus-2">
 						<div class="img img-woman">
 							<img src="./assets/images/home/contact-woment-sp.png"/>
 						</div>
 					</div>	
-					<div class="col-cus-8 text-center d-block d-md-none">
+					<div data-aos="fade-down" data-aos-offset="300" class="col-cus-8 text-center d-block d-md-none">
 						<p>マンションの管理業務は大切なものです。<br>
 							信頼できる管理会社に変更することで、皆様の資産価値の向上にも繋がります。<br>
 							ぜひ、悩まずにご相談ください。当社が責任を持ってお手伝いします。</p>
@@ -246,13 +245,13 @@
 <section>
 	<div class="address">
 		<div class="container">
-			<div class="mark-group">
+			<div data-aos="fade-right" data-aos-offset="300" class="mark-group">
 				<span class="mark-group__title">Company</span>
 				<h2>会社概要</h2>
 			</div>
 			<div class="row">
 				<div class="col-cus-3"></div>
-				<div class="col-cus-9">
+				<div data-aos="fade-right" data-aos-offset="300" class="col-cus-9">
 					<div class="address__table">
 						<table>
 							<tr>

@@ -24,6 +24,8 @@
 
 .slider {
 	&__img {
+		z-index: -1;
+    	position: relative;
 		.img {
 			margin-top: -25px;
 		}

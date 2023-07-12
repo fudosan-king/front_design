@@ -98,6 +98,7 @@
 			font-weight: 700;
 			line-height: 2;
 			margin-bottom: 62px;
+			font-family: SF Pro;
 			@media (max-width: 767px) { 
 				font-size: 15px;
 				text-align: justify;
@@ -126,6 +127,7 @@
 
 .system-group {
 	margin-bottom: 64px;
+	overflow: hidden;
 	@media (max-width: 767px) { 
 		margin-bottom: 0;
 	}
@@ -147,6 +149,7 @@
 		color: #4F4F4F;
 		font-weight: 700;
 		line-height: 2;
+		font-family: SF Pro;
 		text-align:center;
 		margin-bottom: 30px;
 		@media (max-width: 767px) { 
@@ -228,6 +231,7 @@
 				font-weight: 700;
 				line-height: 1.6;
 				letter-spacing: 2px;
+				font-family: SF Pro;
 			}
 			p {
 				color: #4F4F4F;
@@ -235,6 +239,7 @@
 				font-size: 0.9375rem;
 				line-height: 2;
 				margin-bottom: 0;
+				font-family: SF Pro;
 			}
 			@media (max-width: 767px) { 
 				padding: 0px 25px 20px 25px;
@@ -261,6 +266,7 @@
 		font-weight: 590;
 		opacity: .1;
 		margin-left: -45px;
+		font-family: SF Pro;
 		@media (min-width: 768px) and (max-width: 1140px) { 
 			margin-left: 0;
 		}
@@ -271,6 +277,7 @@
 	}
 	h2 {
 		position: absolute;
+		font-family: SF Pro;
 		bottom: 40px;
 		font-size: 1.75rem;
 		font-weight: 700;
@@ -289,6 +296,7 @@
 	background: #e9e0cf;
 	position: relative;
 	padding-bottom: 60px;
+	overflow: hidden;
 	&__one {
 		margin-bottom: 45px;
 		.mark-group {
@@ -308,6 +316,9 @@
  			    letter-spacing: .6px;
 	 		}
 	 	}
+	 	p {
+	 		font-family: SF Pro;
+	 	}
 	 	.p1 {
 			margin-bottom: 30px;
 		}
@@ -320,6 +331,7 @@
 			line-height: 1.4;
 			letter-spacing: 1px;
 		    margin-bottom: 22px;
+		    font-family: SF Pro;
 		    @media (min-width: 576px) and (max-width:767px) { 
 		    	h3 {
 		    		font-size: 1rem;
@@ -365,11 +377,13 @@
 .reason {
 	background: #fff;
 	padding: 50px 0;
+	overflow: hidden;
 	@media (max-width: 767px) { 
 		padding: 60px 0;
 	}
 	h2 {
 		color: #644F21;
+		font-family: SF Pro Display;
 		font-size: 1.5rem;
 		font-weight: 700;
 		line-height: 2;
@@ -394,9 +408,13 @@
 
 .voice {
 	margin-bottom: 30px;
-	@media (max-width: 767px) {
-		margin-bottom: 26px;
-		.mark-group {
+	overflow: hidden;
+	.mark-group {
+		h2 {
+			font-family: SF Pro Text;
+		}
+		@media (max-width: 767px) {
+			margin-bottom: 26px;
 			margin-bottom: 34px;
 			margin-top: 10px;
 			h2 {
@@ -460,11 +478,16 @@
 		text-align: justify;
 		line-height: 1.8;
 		margin-bottom: 0;
+		font-family: SF Pro Text;
+		strong {
+			font-weight: 700;
+		}
 		span {
 		    margin-top: 7px;
 		    display: block;
+		    font-size: 0.875rem;
+		    font-weight: 400;
 		    @media (max-width: 767px) {
-		    	font-size: 0.875rem;
 	    	    margin-top: 15px;
 		    }
 		}
@@ -475,6 +498,11 @@
 	background: #E9E0CD;
 	overflow: hidden;
     max-height: 240px;
+    .mark-group {
+		h2 {
+			font-family: SF Pro Text;
+		}
+	}
     @media (min-width: 768px) and (max-width: 1100px) {
     	max-height: 100%;
     }
@@ -526,15 +554,11 @@
 	    	    letter-spacing: -0.1px;
 		    }
 		}
-		button {
+		a.btn  {
 			max-width: 316px;
-		}
-	}
-	@media (max-width: 768px) {
-		button {
-		    letter-spacing: 1.5px;
-	    	font-size: 1.25rem;
-	    	padding: 10px 60px;
+			font-size: 1.25rem;
+			padding: 9px 60px;
+			letter-spacing: 1.5px;
 		}
 	}
 	.img {
@@ -558,8 +582,12 @@
 }
 
 .address {
-	@media (max-width: 767px) {
-		.mark-group {
+	overflow: hidden;
+	.mark-group {
+		h2 {
+			font-family: SF Pro Text;
+		}
+		@media (max-width: 767px) {
 			margin-bottom: 30px;
 	    	margin-top: 20px;
 			&__title {
@@ -568,8 +596,8 @@
 			h2 {
 				bottom: -15px;
 			}
-		}
-	}	
+		}	
+	}
 	&__table {
 		padding-left: 35px;
 		@media (max-width: 767px) {
@@ -580,6 +608,7 @@
 		width: 100%;
 		margin-bottom: 60px;
 		td {
+			font-family: SF Pro;
 			padding: 20px 0;
 			border-bottom: 1px solid #E0E0E0;
 			vertical-align: top;

@@ -10,6 +10,7 @@ function log_scripts() {
 
     this.ready = function() {
         const _this = this;
+        AOS.init();
         _this.navigation();
         _this.scrollToEle();
     }  
