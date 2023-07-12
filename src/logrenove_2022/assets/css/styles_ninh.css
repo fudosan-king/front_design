@@ -5539,12 +5539,24 @@ div .frm_mansions h2 {
   }
 
   .banner_top_page .fast-search form.modal_frmsearch .box_select {
-    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+
+  .banner_top_page .fast-search form.modal_frmsearch table td .box_select_item {
+    max-width: 80px;
+  }
+
+  .banner_top_page .fast-search .box_select .form-select {
+    min-width: 116px;
   }
 
   .banner_top_page .fast-search form.modal_frmsearch .btn_fast_search {
-    margin-left: 26px;
     margin-top: 10px;
+  }
+
+  .banner_top_page .fast-search form.modal_frmsearch table td {
+    width: 100%;
   }
 
   .section_map .section_map_content {
@@ -5570,12 +5582,14 @@ div .frm_mansions h2 {
 
   .banner-about > div a.contact-item .img_background {
     position: unset;
+    align-self: flex-start;
   }
 
   .banner-about > div a.contact-item .desc {
     margin-left: 0;
     gap: 10px;
     padding: 0 2px;
+    margin-top: 20px;
   }
 
   .section_map .box_map .tokyo_diff {
