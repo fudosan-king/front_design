@@ -330,6 +330,12 @@
   font-weight: 100 200 300 457 500 600 700 800 900;
 }
 @font-face {
+  font-family: 'SF Compact Text';
+  src: url("../fonts/sf-compact/SFCompactText-Bold.eot");
+  src: url("../fonts/sf-compact/SFCompactText-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-compact/SFCompactText-Bold.woff2") format("woff2"), url("../fonts/sf-compact/SFCompactText-Bold.woff") format("woff"), url("../fonts/sf-compact/SFCompactText-Bold.ttf") format("truetype"), url("../fonts/sf-compact/SFCompactText-Bold.svg#SFCompactText-Bold") format("svg");
+  font-weight: bold;
+}
+@font-face {
   font-family: 'SF Pro';
   src: url("../fonts/sf-pro/SF-Pro.ttf") format("truetype");
   font-weight: 100 200 300 457 500 600 700 800 900;
@@ -341,7 +347,7 @@
   font-weight: 700;
 }
 @font-face {
-  font-family: 'SFProText';
+  font-family: 'SF Pro Text';
   src: url("../fonts/sf-pro-text/SFProText-Regular.eot");
   src: url("../fonts/sf-pro-text/SFProText-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/sf-pro-text/SFProText-Regular.woff2") format("woff2"), url("../fonts/sf-pro-text/SFProText-Regular.woff") format("woff"), url("../fonts/sf-pro-text/SFProText-Regular.ttf") format("truetype"), url("../fonts/sf-pro-text/SFProText-Regular.svg#SFProText-Regular") format("svg");
   font-weight: 400;
@@ -1158,6 +1164,7 @@ header {
 .voice__img span {
   display: block;
   color: #4F4F4F;
+  font-family: SF Pro Text;
   text-align: center;
   font-size: .875rem;
   font-weight: 700;
@@ -1317,7 +1324,7 @@ header {
   overflow: hidden;
 }
 .address .mark-group h2 {
-  font-family: SF Pro Text;
+  font-family: SF Compact Text;
 }
 @media (max-width: 767px) {
   .address .mark-group {
