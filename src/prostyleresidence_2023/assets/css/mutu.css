@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.mutu_page .muku_content {
+  position: relative;
+  top: -100px;
+  background: #fff;
+  max-width: 998px;
+  padding: 80px 145px;
+}
+.mutu_page .title {
+  font-size: 2.25em;
+  margin-bottom: 0;
+  line-height: 1.5em;
+  color: #000;
+  position: relative;
+  z-index: 200;
+  font-weight: 600;
+}
+.mutu_page .subtitle {
+  font-size: 0.75em;
+  margin-bottom: 50px;
+}
+.mutu_page .list_img_content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mutu_page .list_img_content li {
+  width: 30.33%;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+.mutu_page .list_img_content li:last-of-type {
+  margin-right: 0;
+}
+.mutu_page .list_img_content li h3 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  color: #938152;
+}
+.mutu_page .list_img_content li p {
+  margin: 0;
+}
+.mutu_page .list_img_content li img {
+  width: 100%;
+  height: 250px;
+  object-fit: fill;
+}
+
+.section_muku {
+  padding-top: 73px;
+  padding-bottom: 160px;
+}
+
+ul.list_global {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul.list_global li {
+  display: inline-block;
+  position: relative;
+}
+ul.list_global li span {
+  font-family: "Noto Sans JP", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  font-size: 0.625em;
+  font-weight: 600;
+  color: #828282;
+  display: block;
+  position: relative;
+  padding: 5px;
+  letter-spacing: .1em;
+}
+ul.list_global li span::after {
+  content: '';
+  position: absolute;
+  right: -3px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1px;
+  height: 10px;
+  background: #828282;
+}
+ul.list_global li.active span {
+  color: #000;
+}
+ul.list_global li:last-of-type span::after {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mutu_page .title {
+    font-size: 2em;
+  }
+  .mutu_page .subtitle {
+    margin-bottom: 20px;
+  }
+  .mutu_page .section_muku {
+    padding-bottom: 60px;
+  }
+  .mutu_page .muku_content {
+    padding: 10px 15px 15px;
+  }
+  .mutu_page .list_img_content {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .mutu_page .list_img_content li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .mutu_page .list_img_content li h3 {
+    font-size: 1.4286em;
+    margin-top: 10px;
+  }
+}
