@@ -1,6 +1,7 @@
 header {
 	width: 100%;
 	padding: 20px 5px;
+	overflow: hidden;
 	@media (max-width: 767px) {
 		padding: 20px;
 	}
@@ -22,7 +23,9 @@ header {
 	}
 	span {
 		color: #000;
-		font-size: 0.75rem;
+		font-size: 0.875rem;
+		font-weight: 457;
+		font-family: SF Compact;
 		@media (max-width: 767px) {
 			font-size: 0.625rem;
 		}
@@ -39,6 +42,8 @@ header {
     	display: flex;
     	align-items: center;
     	span {
+    		font-family: SF Pro;
+    		font-weight: 400;
     		color: #333;
 			font-size: 0.75rem;
 			white-space: nowrap;
