@@ -5569,6 +5569,7 @@ div .frm_mansions h2 {
 
   .section_map .section_map_content .tab button {
     min-width: 90px;
+    font-size: 11px;
   }
 
   .section_map .section_map_content .tab button.active {
@@ -5615,16 +5616,20 @@ div .frm_mansions h2 {
 
   .section_map .section_map_content .tab {
     top: -38px;
-    gap: 5px;
     flex-wrap: wrap;
   }
 
+  .section_map .section_map_content .tab button:first-of-type {
+    min-width: 96px;
+  }
+
   .section_map .section_map_content .tab button.active {
-    width: 96px;
+    min-width: 68px;
+    width: fit-content;
   }
 
   .section_map .section_map_content .tab button {
-    min-width: 80px;
+    min-width: 68px;
   }
 
   .section_map .box_map .tokyo_diff {
