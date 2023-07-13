@@ -2178,7 +2178,7 @@
 									</g>
 								</a>
 
-								<a class="area_toshimaward" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=772&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0" target="_blank">
+								<a class="area_bunkyoward" xlink:href="https://www.logrenove.jp/estates?search=1&mansion_ids=&areas%5B%5D=772&keyword=&price_from=&price_to=&floor_from=&floor_to=&station_distance=#gsc.tab=0" target="_blank">
 									<g>
 										<polygon class="st5" points="556.3,260.6 579.5,273.9 590.3,282.3 599.8,323.4 600.1,362.5 611,362.5 611.4,374 597.9,397.9 
 										537.7,383.7 531.5,392.3 526.3,372.7 511.8,362.9 485.9,362.9 451.1,348.8 450.4,340.8 472.8,295.5 494,299.5 516.9,276.6 
