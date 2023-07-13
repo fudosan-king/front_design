@@ -5293,7 +5293,7 @@ div .frm_mansions h2 {
   background: #8C7D5E;
   max-width: 190px;
   height: 36px;
-  padding: 8px 30px;
+  padding: 8px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5561,14 +5561,18 @@ div .frm_mansions h2 {
   }
 
   .section_map .section_map_content .tab {
-    max-width: 320px;
-    flex-wrap: wrap;
-    top: -68px;
+    max-width: 100%;
+    width: 100%;
+    top: -36px;
     gap: 5px;
   }
 
+  .section_map .section_map_content .tab button {
+    min-width: 90px;
+  }
+
   .section_map .section_map_content .tab button.active {
-    width: 48%;
+    width: 100px;
   }
 
   .banner-about > div a.contact-item {
@@ -5610,12 +5614,17 @@ div .frm_mansions h2 {
   }
 
   .section_map .section_map_content .tab {
-    top: -74px;
-    gap: 8px;
+    top: -38px;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .section_map .section_map_content .tab button.active {
+    width: 96px;
   }
 
   .section_map .section_map_content .tab button {
-    min-width: 120px;
+    min-width: 80px;
   }
 
   .section_map .box_map .tokyo_diff {
