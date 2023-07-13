@@ -1248,7 +1248,7 @@
                 <label for="nav-mobile-hamburger-bottom" class="navbar-btn-hamburger-bottom">
                     <img src="./assets/images/icons/menu_bottom.svg" alt="" class="img-fluid" width="21">
                 </label>
-                <label for="nav-mobile-hamburger-bottom" class="focus-layer"></label>
+                <!-- <label for="nav-mobile-hamburger-bottom" class="focus-layer"></label> -->
                 <label for="nav-mobile-hamburger-bottom" class="navbar-bottom-close">
                     <img src="./assets/images/icons/x-circle-brown.svg" alt="" class="img-fluid" width="16">
                 </label>
