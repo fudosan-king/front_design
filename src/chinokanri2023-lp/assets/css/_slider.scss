@@ -1,6 +1,7 @@
 .slider {
 	position: relative;
-	padding: 96px 0;
+ 	padding: 5.8vw 0;
+  	margin-bottom: 13px;
 	@media (max-width: 767px) {
 		padding: 0;	
 	}
@@ -8,18 +9,21 @@
 
 .slider__block {
 	@media (min-width: 768px) {
-		position: absolute;
-		background-image: url('../images/common/slider.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		width: 100%;
-	    top: -106px;
+	    position: absolute;
+	    width: 100%;
 	    z-index: -1;
+	    top: -100px;
+	    bottom: -68px;
+	    background-image: url("../images/mansion-associate/images/common/slider.png");
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    width: 100%;
 	    left: 0;
-	    height: 100%;
-	    padding-top: 49.27%;
 	}
+	@media(min-width: 1600px) {
+	   	background-size: contain;
+	} 
 }
 
 .slider {
@@ -34,6 +38,10 @@
 
 .slider__item {
 	position: relative;
+	max-width: 540px;
+	@media (min-width: 768px) and (max-width: 991px) {
+	    max-width: 360px; 
+	}
 	.text {
 		div {
 			color: #644F21;
