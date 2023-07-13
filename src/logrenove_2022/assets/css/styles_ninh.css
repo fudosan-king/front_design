@@ -5562,6 +5562,7 @@ div .frm_mansions h2 {
 
   .section_map .section_map_content .tab {
     max-width: 100%;
+    justify-content: center;
     width: 100%;
     top: -36px;
     gap: 5px;
@@ -5569,7 +5570,7 @@ div .frm_mansions h2 {
 
   .section_map .section_map_content .tab button {
     min-width: 90px;
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .section_map .section_map_content .tab button.active {
@@ -5616,7 +5617,6 @@ div .frm_mansions h2 {
 
   .section_map .section_map_content .tab {
     top: -38px;
-    flex-wrap: wrap;
   }
 
   .section_map .section_map_content .tab button:first-of-type {
