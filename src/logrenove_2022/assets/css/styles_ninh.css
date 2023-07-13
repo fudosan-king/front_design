@@ -4125,7 +4125,7 @@ div .frm_mansions h2 {
   .nav-hamburger-bottom:checked~.title_redirect {
     display: block;
     padding: 20px 20px 20px 35px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 0px;
     position: absolute;
     left: 49.5%;
@@ -4156,14 +4156,14 @@ div .frm_mansions h2 {
     display: block;
   }
 
-  .nav-hamburger-bottom:checked~.focus-layer {
+  /* .nav-hamburger-bottom:checked~.focus-layer {
     position: absolute;
     top: -800px;
     bottom: 68px;
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.5) !important;
-  }
+  } */
 
   .title_redirect .title_list .title_item_dashed {
     border-bottom: 1px dashed #BE9C59;
