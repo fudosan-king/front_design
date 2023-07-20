@@ -5637,3 +5637,26 @@ div .frm_mansions h2 {
     padding: 2px 8px;
   }
 }
+
+.top-search-button {
+  background-color: #8C7D5E;
+  color: #fff;
+  margin:auto;
+  border: none;
+  border-radius: 4px;
+  padding: 10.5px 30px;
+  max-width: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.top-search-button:hover {
+  color: #be9c59;
+}
+
+
+.top-search-button span {
+  font-weight: 600;
+}

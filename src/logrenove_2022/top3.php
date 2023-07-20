@@ -4108,6 +4108,16 @@
 			</div>
 		</section>
 
+		<div class="container container_full">
+			<div class="row">
+				<div class="col-12 col-lg-12">
+					<a href="#modal_search" data-bs-toggle="modal" input="button" class="btn btn-otherproperty-search d-flex top-search-button">
+						<span>詳細条件を指定して検索</span>
+					</a>			
+				</div>
+			</div>
+		</div>					
+
 		<section class="section_contact contact_top_page">
 			<div class="container">
 				<div class="row">
@@ -4242,6 +4252,23 @@
 			</div>
 		</section>
 
+
+		<div class="box_bottom fixed-bottom search">
+            <div class="container">
+                <div class="wrapper">
+                            <a href="https://www.logrenove.jp/request" class="btn material btn-property-request">
+                    <span class="i-user-w">物件探しを依頼</span>
+                </a>
+                <a href="#modal_search" data-bs-toggle="modal" input="button" class="btn btn-otherproperty-search d-flex">
+                    <span>物件を検索する</span>
+                </a>
+                        <a href="tel:0120991657" class="btn phone_call d-none d-md-flex">
+                        <img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid lazyloaded" width="20" data-src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" decoding="async">
+                        <noscript><img src="https://www.logrenove.jp/wp-content/themes/logrenove2022/assets/images/icons/i_phone.svg" alt="i_phone" class="img-fluid" width="20" data-eio="l"></noscript> 0120-991-657
+                    </a>
+                </div>
+            </div>
+        </div>
 	</main>
 
 	<?php include('footer.php') ?>
