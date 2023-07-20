@@ -4108,7 +4108,7 @@
 			</div>
 		</section>
 
-		<div class="container container_full">
+		<div class="container container_full container_top-search-button">
 			<div class="row">
 				<div class="col-12 col-lg-12">
 					<a href="#modal_search" data-bs-toggle="modal" input="button" class="btn btn-otherproperty-search d-flex top-search-button">

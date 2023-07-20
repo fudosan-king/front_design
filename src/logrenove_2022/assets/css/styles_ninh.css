@@ -5659,3 +5659,9 @@ div .frm_mansions h2 {
 .top-search-button span {
   font-weight: 600;
 }
+
+@media (max-width: 900px) {
+  .container.container_top-search-button {
+    max-width: 910px;
+  }
+}
