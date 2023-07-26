@@ -7,8 +7,7 @@
 
     <main>
 
-        <section class="section_subbanner_new"
-            style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
+        <section class="section_subbanner_new" style="background-image: url('images/appdevlabo.jpg'); background-position: 0 center;">
             <div class="container">
                 <h1>ラボ型システム開発</h1>
                 <nav aria-label="breadcrumb">
@@ -294,8 +293,7 @@
                                 <input type="text" class="form-control2" placeholder="メールアドレス">
                             </div>
                             <div class="form-group2">
-                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容"
-                                    name="" id="" cols="30" rows="10"></textarea>
+                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容" name="" id="" cols="30" rows="10"></textarea>
                             </div>
                             <div class="custom-control custom-checkbox custom-control2">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">

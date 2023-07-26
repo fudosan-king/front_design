@@ -7,31 +7,25 @@
 
     <main>
         <section class="section_banner">
-            <div class="fancybox_banner"
-                data-flickity='{"prevNextButtons": false, "pageDots": true, "wrapAround": true, "draggable": false, "autoPlay": true }'>
+            <div class="fancybox_banner" data-flickity='{"prevNextButtons": false, "pageDots": true, "wrapAround": true, "draggable": false, "autoPlay": true }'>
                 <a data-fancybox="gallery-banner">
-                    <img class="fancy_image" src=""
-                        style="background-image: url('images/bg_top.jpg');"/>
+                    <img class="fancy_image" src="" style="background-image: url('images/top.jpg');" />
                 </a>
 
                 <a data-fancybox="gallery-banner">
-                    <img class="fancy_image" src=""
-                        style="background-image: url('images/bg_mission.jpg');" />
+                    <img class="fancy_image" src="" style="background-image: url('images/bg_mission.jpg');" />
                 </a>
 
                 <a data-fancybox="gallery-banner">
-                    <img class="fancy_image" src=""
-                        style="background-image: url('images/bg_logrenove.jpg');" />
+                    <img class="fancy_image" src="" style="background-image: url('images/bg_logrenove.jpg');" />
                 </a>
 
                 <a data-fancybox="gallery-banner">
-                    <img class="fancy_image" src=""
-                        style="background-image: url('images/bg_knotmarketing.jpg');" />
+                    <img class="fancy_image" src="" style="background-image: url('images/bg_knotmarketing.jpg');" />
                 </a>
 
                 <a data-fancybox="gallery-banner">
-                    <img class="fancy_image" src=""
-                        style="background-image: url('images/bg_orderrenove.jpg');" />
+                    <img class="fancy_image" src="" style="background-image: url('images/bg_orderrenove.jpg');" />
                 </a>
             </div>
             <div class="container">
@@ -56,8 +50,7 @@
                             <h2 class="title d-inline">成果に導く</h2>
                             <h2 class="title d-inline" style="color: #0092B7">システム開発</h2>
                         </div>
-                        <span
-                            class="content">より簡潔な仕様で開発ができないか。そのシステムはより平易な方法で代替できるのではないか。ご依頼内容をそのまま開発するのではなく、本当に必要な開発を提供する、信頼できるパートナーでありたいと考えています。</span>
+                        <span class="content">より簡潔な仕様で開発ができないか。そのシステムはより平易な方法で代替できるのではないか。ご依頼内容をそのまま開発するのではなく、本当に必要な開発を提供する、信頼できるパートナーでありたいと考えています。</span>
                     </div>
                 </div>
             </div>
@@ -75,8 +68,7 @@
                     </div>
                     <div class="details">
                         <div class="detail_item">
-                            <img src="images/svg/offshore_development01.svg" alt="offshore_development01"
-                                class="img-fluid" width="70">
+                            <img src="images/svg/offshore_development01.svg" alt="offshore_development01" class="img-fluid" width="70">
                             <p class="title">ラボ型システム開発</p>
                             <p class="content">専属の開発チームを構築し、素早く安定した開発パートナーとして支援いたします。</p>
                             <a class="more" href="https://www.logknot.co.jp/appdevlabo/" target="_blank">もっと見る
@@ -84,24 +76,21 @@
                             </a>
                         </div>
                         <div class="detail_item">
-                            <img src="images/svg/offshore_development02.svg" alt="offshore_development02"
-                                class="img-fluid" width="70">
+                            <img src="images/svg/offshore_development02.svg" alt="offshore_development02" class="img-fluid" width="70">
                             <p class="title">Web制作・ホームページ制作</p>
                             <p class="content">ビジネスの目的に合わせて成果につながるLPやWebサイト、各種システムをご提案いたします。</p>
                             <a class="more" href="https://www.logknot.co.jp/webdev/" target="_blank">もっと見る
                                 <img src="images/svg/r_arrow.svg" alt="r_arrow" class="img-fluid" width="30"></a>
                         </div>
                         <div class="detail_item">
-                            <img src="images/svg/offshore_development03.svg" alt="offshore_development03"
-                                class="img-fluid" width="70">
+                            <img src="images/svg/offshore_development03.svg" alt="offshore_development03" class="img-fluid" width="70">
                             <p class="title">建築パース制作</p>
                             <p class="content">完工前物件の販売強化に役立つパース図の作成を承ります。360°パースの制作も可能です。</p>
                             <a class="more" href="https://www.logknot.co.jp/perspective/" target="_blank">もっと見る
                                 <img src="images/svg/r_arrow.svg" alt="r_arrow" class="img-fluid" width="30"></a>
                         </div>
                         <div class="detail_item">
-                            <img src="images/svg/offshore_development04.svg" alt="offshore_development04"
-                                class="img-fluid" width="70">
+                            <img src="images/svg/offshore_development04.svg" alt="offshore_development04" class="img-fluid" width="70">
                             <p class="title">制作実績</p>
                             <p class="content">制作実績をご紹介します。ぜひご参照ください。</p>
                             <a class="more" href="https://www.logknot.co.jp/perspective/gallery/" target="_blank">もっと見る
@@ -165,40 +154,35 @@
                             <div class="products">
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product01.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product01.png" data-caption="">
                                             <img src="images/product01.png" alt="product01" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product02.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product02.png" data-caption="">
                                             <img src="images/product02.png" alt="product02" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product03.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product03.png" data-caption="">
                                             <img src="images/product03.png" alt="product03" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product04.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product04.png" data-caption="">
                                             <img src="images/product04.png" alt="product04" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product05.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product05.png" data-caption="">
                                             <img src="images/product05.png" alt="product05" class="img-fluid">
                                         </a>
                                     </a>
@@ -250,38 +234,38 @@
     <?php include('js-footer.php') ?>
 
     <script>
-    $(function($) {
-        jQuery(document).ready(function($) {
-            $(window).on("load scroll", (function(event) {
-                var minWidthRes = window.matchMedia("(min-width: 1000px)");
-                var header = $("header.fixed-top");
-                var navItem = header.find(".navbar-nav .nav-item");
-                var navLink = navItem.find(".nav-link");
-                var dropDownMenu = navItem.find(".dropdown-menu");
-                var brandLogo = header.find("nav .navbar-brand img");
-                const vh = Math.max(document.documentElement.clientHeight || 0, window
-                    .innerHeight || 0);
-                if (minWidthRes.matches) {
-                    if ($(window).scrollTop() < vh * 0.5) {
-                        header.css("background-color", "transparent");
-                        navLink.css("color", "#FFF");
-                        dropDownMenu.css("color", "#FFF");
-                        brandLogo.attr('src', "images/svg/logo_new.svg");
+        $(function($) {
+            jQuery(document).ready(function($) {
+                $(window).on("load scroll", (function(event) {
+                    var minWidthRes = window.matchMedia("(min-width: 1000px)");
+                    var header = $("header.fixed-top");
+                    var navItem = header.find(".navbar-nav .nav-item");
+                    var navLink = navItem.find(".nav-link");
+                    var dropDownMenu = navItem.find(".dropdown-menu");
+                    var brandLogo = header.find("nav .navbar-brand img");
+                    const vh = Math.max(document.documentElement.clientHeight || 0, window
+                        .innerHeight || 0);
+                    if (minWidthRes.matches) {
+                        if ($(window).scrollTop() < vh * 0.5) {
+                            header.css("background-color", "transparent");
+                            navLink.css("color", "#FFF");
+                            dropDownMenu.css("color", "#FFF");
+                            brandLogo.attr('src', "images/svg/logo_new.svg");
+                        } else {
+                            header.css("background-color", "#FFF");
+                            navLink.css("color", "#000");
+                            dropDownMenu.css("color", "#000");
+                            brandLogo.attr('src', "images/svg/logo_black.svg");
+                        }
                     } else {
                         header.css("background-color", "#FFF");
                         navLink.css("color", "#000");
                         dropDownMenu.css("color", "#000");
                         brandLogo.attr('src', "images/svg/logo_black.svg");
                     }
-                } else {
-                    header.css("background-color", "#FFF");
-                    navLink.css("color", "#000");
-                    dropDownMenu.css("color", "#000");
-                    brandLogo.attr('src', "images/svg/logo_black.svg");
-                }
-            }));
-        }(jQuery));
-    });
+                }));
+            }(jQuery));
+        });
     </script>
 </body>
 
