@@ -7,8 +7,7 @@
 
     <main>
 
-        <section class="section_subbanner_new"
-            style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
+        <section class="section_subbanner_new" style="background-image: url('images/webdev.jpg'); background-position: 0 center;">
             <div class="container">
                 <h1>Web制作</h1>
                 <nav aria-label="breadcrumb">
@@ -82,8 +81,7 @@
         </section>
 
 
-        <section id="section_dev_example" class="section_dev_example section_dev_example2"
-            style="background-color: #FFFFFF;">
+        <section id="section_dev_example" class="section_dev_example section_dev_example2" style="background-color: #FFFFFF;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="d-flex justify-content-center">
@@ -281,8 +279,7 @@
                                 <input type="text" class="form-control2" placeholder="メールアドレス">
                             </div>
                             <div class="form-group2">
-                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容"
-                                    name="" id="" cols="30" rows="10"></textarea>
+                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容" name="" id="" cols="30" rows="10"></textarea>
                             </div>
                             <div class="custom-control custom-checkbox custom-control2">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">

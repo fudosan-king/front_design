@@ -7,8 +7,7 @@
 
     <main>
 
-        <section class="section_subbanner_new"
-            style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
+        <section class="section_subbanner_new" style="background-image: url('images/perspective.jpg'); background-position: 0 center;">
             <div class="container">
                 <h1>建築パース</h1>
                 <nav aria-label="breadcrumb">
@@ -52,40 +51,35 @@
                             <div class="products">
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product06.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product06.png" data-caption="">
                                             <img src="images/product06.png" alt="product06" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product07.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product07.png" data-caption="">
                                             <img src="images/product07.png" alt="product07" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product08.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product08.png" data-caption="">
                                             <img src="images/product08.png" alt="product08" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product09.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product09.png" data-caption="">
                                             <img src="images/product09.png" alt="product09" class="img-fluid">
                                         </a>
                                     </a>
                                 </div>
                                 <div class="products_item">
                                     <a href="#" class="box_item">
-                                        <a class="box_img" data-fancybox="gallery" data-touch="false"
-                                            href="images/product10.png" data-caption="">
+                                        <a class="box_img" data-fancybox="gallery" data-touch="false" href="images/product10.png" data-caption="">
                                             <img src="images/product10.png" alt="product10" class="img-fluid">
                                         </a>
                                     </a>
@@ -285,8 +279,7 @@
                                 <input type="text" class="form-control2" placeholder="メールアドレス">
                             </div>
                             <div class="form-group2">
-                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容"
-                                    name="" id="" cols="30" rows="10"></textarea>
+                                <textarea class="form-control2" style="padding-top: 18px;" placeholder="お問い合わせ内容" name="" id="" cols="30" rows="10"></textarea>
                             </div>
                             <div class="custom-control custom-checkbox custom-control2">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">

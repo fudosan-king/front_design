@@ -7,8 +7,7 @@
 
     <main>
 
-        <section class="section_subbanner_new"
-            style="background-image: url('images/bg_appdevlabo.jpg'); background-position: 0 center;">
+        <section class="section_subbanner_new" style="background-image: url('images/company.jpg'); background-position: 0 center;">
             <div class="container">
                 <h1>Company</h1>
                 <nav aria-label="breadcrumb">
@@ -43,7 +42,7 @@
                 <img src="images/svg/logo_lkVN.svg" alt="" class="img-fluid" width="201">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6">
-                        <img src="images/aboutus02.png" alt="" class="img-fluid w-100" width="525">
+                        <img src="images/aboutus02.jpg" alt="" class="img-fluid w-100" width="525">
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
                         <p>LogKnotのシステム開発、WEB制作、パース制作は、ベトナム・ホーチミンにあるLogKnotの100％子会社「LogKnotVIETNAM」で行っています。ベトナムの豊富で優秀な人材と日本のスタッフがタッグを組み、お客様のニーズを適切にとらえた制作・開発・運用を実施。スピードと開発力、コストメリットを両立させた高品質なオフショア・サービスを提供しています。

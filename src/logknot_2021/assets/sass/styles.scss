@@ -1948,3 +1948,9 @@ footer {
     }
   }
 }
+
+.section_subbanner_new {
+  &::before {
+    z-index: -1;
+  }
+}
