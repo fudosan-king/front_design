@@ -24,6 +24,7 @@
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6">
                         <h2 class="title">建築パース</h2>
+                        <span class="subtitle">Perspective Design</span>
                         <p class="sub_title">実写のような仕上がり建築パース</p>
                         <p>
                             完工前のリノベーション物件や新築マンションの販売強化、また戸建て住戸や店舗改装のお打ち合わせに役立つパース図の制作を承ります。<br />
@@ -44,6 +45,10 @@
                 <div class="row justify-content-center">
                     <h2 class="title">制作</h2>
                     <h2 class="title" style="color: #0092B7;">事例</h2>
+                </div>
+                <div class="subtitle d-flex justify-content-center">
+                    <span>Previous&nbsp;</span>
+                    <span style="color: #0092B7;">Works</span>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-12">
@@ -97,9 +102,14 @@
 
         <section class="section_strengths" style="background-color: #FFFFFF;">
             <div class="container">
-                <div class="row">
-                    <h2 class="title" style="color: #0092B7;">LogKnot </h2>
-                    <h2 class="title">のパース制作の特徴</h2>
+                <div class="row flex-column">
+                    <div class="d-flex justify-content-center">
+                        <h2 class="title" style="color: #0092B7;">LogKnot </h2>
+                        <h2 class="title">のパース制作の特徴</h2>
+                    </div>
+                    <div class="subtitle d-flex justify-content-center">
+                        Features
+                    </div>
                 </div>
                 <div class="row">
                     <div>
@@ -138,10 +148,14 @@
 
         <section id="section_steps" class="section_steps" style="background-color: #ECEFF1;">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center flex-column">
                     <div class="d-flex justify-content-center">
                         <h2 class="title">ご依頼</h2>
                         <h2 class="title" style="color: #0092B7;">の流れ</h2>
+                    </div>
+                    <div class="subtitle d-flex justify-content-center">
+                        <span>Order&nbsp;</span>
+                        <span style="color: #0092B7;">Process</span>
                     </div>
                 </div>
                 <div class="row">
@@ -189,10 +203,14 @@
 
         <section id="section_dev_methods" class="section_dev_methods" style="background-color: #FFFFFF;">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center flex-column">
                     <div class="d-flex justify-content-center">
                         <h2 class="title">開発手法・</h2>
                         <h2 class="title" style="color: #0092B7;">対応言語 </h2>
+                    </div>
+                    <div class="subtitle d-flex justify-content-center align-items-center">
+                        <span style="color: #0092B7;">Supported Languages</span>
+                        <span>・Technologies</span>
                     </div>
                 </div>
                 <div class="row">
@@ -264,6 +282,9 @@
                         <div class="d-flex justify-content-center">
                             <h2 class="title">お問い</h2>
                             <h2 class="title" style="color: #0092B7;">合わせ</h2>
+                        </div>
+                        <div class="subtitle d-flex justify-content-center align-items-center">
+                            <span>Contact</span>
                         </div>
                         <p class="desc">サービスに関するご質問や、お見積りはこちらからお問い合わせくださいませ。</p>
                         <form action="" class="frm_contact2">

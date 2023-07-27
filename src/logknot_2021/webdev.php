@@ -24,6 +24,7 @@
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6">
                         <h2 class="title">Web制作・システム開発</h2>
+                        <span class="subtitle">Web・System Development</span>
                         <p class="sub_title">ビジネスのゴールに向けて、運用までサポート</p>
                         <p>
                             Web制作・システム開発では、ビジネスの目的に合ったLPやWebサイト、各種システム開発のため、事前ヒアリングをしっかりと行い、成果につながるプロダクトをご提案いたします。
@@ -41,9 +42,14 @@
 
         <section class="section_strengths" style="background-color: #ECEFF1;">
             <div class="container">
-                <div class="row">
-                    <h2 class="title" style="color: #0092B7;">LogKnot </h2>
-                    <h2 class="title">のWebサイト制作の特徴</h2>
+                <div class="row flex-column">
+                    <div class="d-flex justify-content-center">
+                        <h2 class="title" style="color: #0092B7;">LogKnot</h2>
+                        <h2 class="title">のラボ型システム開発の特徴</h2>
+                    </div>
+                    <div class="subtitle d-flex justify-content-center">
+                        Features
+                    </div>
                 </div>
                 <div class="row">
                     <div>
@@ -87,6 +93,11 @@
                     <div class="d-flex justify-content-center">
                         <h2 class="title" style="color: #0092B7;">開発</h2>
                         <h2 class="title">事例</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="subtitle d-flex justify-content-center">
+                        Services
                     </div>
                     <div class="examples">
                         <a class="example_item" href="#">
@@ -138,10 +149,14 @@
 
         <section id="section_steps" class="section_steps" style="background-color: #ECEFF1;">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center flex-column">
                     <div class="d-flex justify-content-center">
                         <h2 class="title">ご依頼</h2>
                         <h2 class="title" style="color: #0092B7;">の流れ</h2>
+                    </div>
+                    <div class="subtitle d-flex justify-content-center">
+                        <span>Order&nbsp;</span>
+                        <span style="color: #0092B7;">Process</span>
                     </div>
                 </div>
                 <div class="row">
@@ -189,10 +204,14 @@
 
         <section id="section_dev_methods" class="section_dev_methods" style="background-color: #FFFFFF;">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center flex-column">
                     <div class="d-flex justify-content-center">
                         <h2 class="title">開発手法・</h2>
                         <h2 class="title" style="color: #0092B7;">対応言語 </h2>
+                    </div>
+                    <div class="subtitle d-flex justify-content-center align-items-center">
+                        <span style="color: #0092B7;">Supported Languages</span>
+                        <span>・Technologies</span>
                     </div>
                 </div>
                 <div class="row">
@@ -264,6 +283,9 @@
                         <div class="d-flex justify-content-center">
                             <h2 class="title">お問い</h2>
                             <h2 class="title" style="color: #0092B7;">合わせ</h2>
+                        </div>
+                        <div class="subtitle d-flex justify-content-center align-items-center">
+                            <span>Contact</span>
                         </div>
                         <p class="desc">サービスに関するご質問や、お見積りはこちらからお問い合わせくださいませ。</p>
                         <form action="" class="frm_contact2">
