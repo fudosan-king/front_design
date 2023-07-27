@@ -263,7 +263,12 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .section_strengths .row:first-child {
     justify-content: center;
+    margin-bottom: 0;
+}
+
+.section_strengths .subtitle {
     margin-bottom: 60px;
+    font-weight: 700;
 }
 
 .section_strengths .row {
@@ -277,6 +282,12 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
     margin-bottom: 0;
+}
+
+.section_product .subtitle {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-family: Noto Serif CJK SC;
 }
 
 .section_strengths .row .details {
@@ -571,8 +582,15 @@ footer .footer_bottom.footer_new p a {
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
-    margin-bottom: 13px;
+    margin-bottom: 0;
     text-align: left;
+}
+
+.section_about_new .subtitle {
+    margin-bottom: 13px;
+    display: block;
+    text-align: left;
+    font-weight: 700;
 }
 
 .section_about_new p.sub_title {
@@ -669,7 +687,12 @@ footer .footer_bottom.footer_new p a {
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.section_organization .subtitle {
     margin-bottom: 19px;
+    font-weight: 700;
 }
 
 .section_organization .desc {
@@ -695,6 +718,11 @@ footer .footer_bottom.footer_new p a {
     font-family: Noto Serif CJK SC;
     line-height: normal;
     letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.section_dev_example .subtitle {
+    font-weight: 700;
 }
 
 .section_dev_example h3.title {
@@ -876,6 +904,11 @@ footer .footer_bottom.footer_new p a {
     margin-bottom: 0;
 }
 
+.section_steps .row .subtitle {
+    margin-bottom: 0;
+    font-family: Noto Serif CJK SC;
+}
+
 .section_steps .row:nth-child(2) {
     margin-bottom: 13px;
     background: url(../images/stroke01.png) 50% 60%/auto no-repeat, url('../images/stoke02.png') 0% 58%/auto no-repeat;
@@ -1019,8 +1052,15 @@ footer .footer_bottom.footer_new p a {
     border-bottom: none;
 }
 
+.section_dev_methods .row:first-child,
 .section_dev_methods .row:last-child {
     padding-bottom: 0;
+}
+
+.section_dev_methods .subtitle {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: Noto Serif CJK SC;
 }
 
 .section_dev_methods .row {
@@ -1089,7 +1129,12 @@ footer .footer_bottom.footer_new p a {
     font-weight: 700;
     font-family: Noto Serif CJK SC;
     letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.section_contact_new .subtitle {
     margin-bottom: 12px;
+    font-weight: 700;
 }
 
 .section_contact_new .row .desc {
@@ -1330,9 +1375,22 @@ footer .footer_bottom.footer_new p a {
     }
 }
 
-@media (max-width: 835px) {
+@media (max-width: 840px) {
     .section_product .products {
         margin-left: 150px;
+    }
+
+    .section_dev_methods span.title {
+        margin-right: 0;
+    }
+
+    .section_dev_methods .row .methods_list {
+        margin-left: 14px;
+    }
+
+    .section_dev_methods .row .methods_list .methods_item.two_items img:nth-child(2) {
+        width: 68px;
+        margin-left: 118px;
     }
 }
 
@@ -1356,6 +1414,11 @@ footer .footer_bottom.footer_new p a {
 
     .section_dev_example .examples .example_item {
         max-width: 48%;
+    }
+
+    .section_steps .row:nth-child(2) .steps_list {
+        justify-content: space-between;
+        width: 100%;
     }
 
     .section_steps .step_item {
@@ -1483,6 +1546,10 @@ footer .footer_bottom.footer_new p a {
         text-align: left;
     }
 
+    .section_dev_methods .subtitle {
+        margin-bottom: 0;
+    }
+
     .section_dev_methods .row:first-child {
         padding-bottom: 0;
     }
@@ -1494,6 +1561,7 @@ footer .footer_bottom.footer_new p a {
     .section_dev_methods .row .methods_list {
         gap: 5px;
         justify-content: flex-start;
+        margin-left: 0;
     }
 
     .section_dev_methods .row .methods_list .methods_item {
@@ -1704,4 +1772,10 @@ footer .footer_bottom.footer_new p a {
     align-items: center;
     max-width: 90px;
     max-height: 19px;
+}
+
+@media (max-width: 600px) {
+    .section_strengths .row:first-child div:first-child {
+        flex-direction: column;
+    }
 }
