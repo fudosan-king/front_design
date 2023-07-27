@@ -45,7 +45,7 @@ header.fixed-top nav.navbar2 .navbar-toggler[aria-expanded="true"] .navbar-toggl
 
 .fixed-top .navbar-nav .nav-item .nav-link:focus,
 .fixed-top .navbar-nav .nav-item .nav-link:hover {
-    color: #1C90B2;
+    color: #1C90B2 !important;
 }
 
 .fixed-top .navbar-nav .nav-item .dropdown-item:hover {
@@ -1696,4 +1696,12 @@ footer .footer_bottom.footer_new p a {
     .section_dev_methods .container .row:nth-child(5) .methods_item.two_items img:nth-child(2) {
         margin: 0px 0 0 44px;
     }
+}
+
+.section_subnews ul li p span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90px;
+    max-height: 19px;
 }
