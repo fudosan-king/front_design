@@ -26,13 +26,13 @@
     </div>
 </footer>
 
-<section class="section_request fixed-bottom">
+<!-- <section class="section_request fixed-bottom">
     <a class="btn d-none d-lg-inline-block" id="button_order" data_button_order="資料請求" href="https://www.prostyle-residence.com/kuramae/inquiry/"><span>WEB資料請求はこちら</span></a>
     <a class="btn btn_reservation d-none d-lg-inline-block" id="btn_reservation" data_button_reservation="来場予約" href="https://www.prostyle-residence.com/kuramae/inquiry/"><span>ご来場予約はこちら</span></a>
 
     <a class="btn d-inline-block d-lg-none" data_button_order="資料請求" href="https://www.prostyle-residence.com/kuramae/inquiry/"><span>資料請求</span></a>
     <a class="btn btn_reservation d-inline-block d-lg-none" id="btn_reservation" data_button_reservation="来場予約" href="https://www.prostyle-residence.com/kuramae/inquiry/"><span>来場予約</span></a>
-</section>
+</section> -->
 
 <div class="bsnav-mobile d-sm-block">
     <div class="bsnav-mobile-overlay"></div>

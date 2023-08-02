@@ -638,7 +638,7 @@
 }
 
 .section_designer.section_designer2 .designer_content .box_profile p:first-child small {
-  font-size: 0.625em;
+  font-size: 10px;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: 700;
@@ -654,21 +654,16 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%;
+  line-height: 180%;
 }
 
 .section_designer.section_designer2 .designer_content .box_profile h1 {
   margin-bottom: 18px;
+  margin-top: 8px;
 }
 
 .section_designer.section_designer2 .designer_content .box_profile .lh-base {
   margin-bottom: 19px;
-}
-
-@media (max-width: 1680px) {
-  footer.footer2 ul li a {
-    padding: 0 30px;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -697,6 +692,10 @@
       font-size: 15px;
       max-width: 100%;
   }
+}
+
+footer.footer2 {
+  padding: 40px 0 0;
 }
 
 @media (max-width: 1024px) {
