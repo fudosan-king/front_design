@@ -20,6 +20,8 @@
                         <div class="bgTopBanner_bottom_right"></div>
                         <div class="bgTopBanner_bottom_left"></div>
                         <div class="row">
+                            <div class="topBottom-line"></div>
+                            <div class="leftRight-line"></div>
                             <h2>おかげさまで「プロスタイル蔵前」は<br class="d-md-block d-none"/>完売いたしました。</h2>
                             <h2>ただいまキャンセル待ちを受け付けております。</h2>
                         </div>
