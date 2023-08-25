@@ -27,6 +27,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/plan.css">
+	<link rel="stylesheet" href="./assets/css/styles_new.css">
 	<style>
 		@media screen and (min-width: 980px) {
 			.c_float_item {

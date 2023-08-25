@@ -26,6 +26,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/slick.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./assets/css/styles_new.css">
 	<style>
 		.c_title_main {
 			color: #333;
