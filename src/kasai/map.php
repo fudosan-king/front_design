@@ -90,7 +90,7 @@
 			-->
 
 				<p style="margin:0 auto; text-align: center; width:80%; max-width:600px;"><img src="./images/map/map2.png" class="map_img" alt="マンションギャラリー案内図" style="width:100%;"></p>
-				<p class="u_textCenter u_mt30"><a href="https://goo.gl/maps/Rds7Tu1FgSnMZHJTA" class="c_btn c_btn_roman c_btn_default map_btn_link" target="_blank">浅草サロンをGoogleマップで見る</a></p>
+				<p class="u_textCenter u_mt30"><a href="https://goo.gl/maps/Rds7Tu1FgSnMZHJTA" class="c_btn c_btn_roman c_btn_default map_btn_link" target="_blank">Prostyle 浅草サロンをGoogleマップで見る</a></p>
 			</div>
 
 			<div class="l_container l_cont_detail pc">
