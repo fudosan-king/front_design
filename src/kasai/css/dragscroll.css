@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.dragscroll {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+    cursor : -webkit-grab;
+    cursor : -moz-grab;
+    cursor : -o-grab;
+    cursor : grab;
+    position: relative;
+    max-width: 100%;
+    position: relative;
+    -ms-overflow-style:none !important;
+}
+.scrollbar_none::-webkit-scrollbar{
+    display:none;
+    -ms-overflow-style:none !important;
+}
+.dragscroll:active {
+    cursor : -webkit-grabbing;
+    cursor : -moz-grabbing;
+    cursor : -o-grabbing;
+    cursor : grabbing;
+}
+@media screen and (max-width:640px) {
+    .dragscroll {
+    width: 100%;
+}
+}

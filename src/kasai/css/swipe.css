@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+/**
+
+swipeicon
+
+**/
+.slideWrap {
+	position: relative;
+	overflow-y: hidden;
+	overflow-x: auto;
+	z-index: 300;
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+.swipe_icon {
+	display: block;
+	position:absolute;
+	z-index:301;
+	width:60px;
+	top: 20%;
+	left: 2.5%;
+}
+.swipe_icon .swipe_icon_img {
+	width: 60px !important;
+	height:auto;
+}
+.swipe_icon2 {
+	position:absolute;
+	top:30%;
+	left:76%;
+	z-index:305;
+	width:35px;
+	animation: horizontal 1s ease-in-out infinite alternate;
+}
+.swipe_icon2 img {
+	width:100%;
+	height:auto;
+}
+
+@media only screen and (max-width: 640px) {
+    .swipe_icon {
+	bottom: 30%;
+}
+    .swipe_icon .swipe_icon_img {
+	width: 50px !important;
+}
+    .swipe_icon2 img {
+	max-width:60px !important;
+	left:10%;
+}
+
+
+}
+
+
+@keyframes horizontal {
+0% { transform:translate(-30%,-50%); }
+100% { transform:translate(-70%,-50%); }
+}
+
+
+

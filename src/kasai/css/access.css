@@ -1,0 +1,129 @@
+
+
+@charset "UTF-8";
+section.access img{
+    vertical-align: bottom;
+}
+
+.relative{
+    position: relative;
+}
+.img_cap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0em;
+    padding: 0.5em;
+}
+.access img{
+    vertical-align: bottom;
+}
+.remark {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+
+.access .column_double {
+    min-height: 120px;
+    float: left;
+    width: 48%;
+}
+.access .column_double:nth-of-type(odd) {
+    float: left;
+}
+.access .column_double:nth-of-type(even) {
+    float: right;
+}
+.access_time {
+    font-size: 18px;
+    letter-spacing: .01rem;
+    border-bottom: solid 1px #CACACA;
+    padding-bottom: 3px;
+    margin-bottom: 10px !important;
+}
+.access_time span {
+    font-size: 24px;
+}
+span.red {
+    font-size: 36px;
+    color: #CC0000;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 979px) {
+    section.access .column_double {
+        float: none;
+        width: 100%;
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+    section.access .column_double+.column_double {
+        float: none;
+    }
+    .access_time {
+        font-size: 16px;
+    }
+    .access_time span {
+        font-size: 20px;
+    }
+    span.red {
+        font-size: 30px;
+    }
+}
+
+
+.read {
+    font-size: 28px;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+}
+.read2 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 979px) {
+	.read {
+		font-size: 22px;
+		font-size: 2.2rem;
+		line-height: 1.5;
+	}
+
+	.read2 {
+		font-size: 16px;
+		font-size: 1.6rem;
+		line-height: 1.5;
+	}
+}
+
+.acs02 img{
+    float: left;
+    width: 33.3333%;
+}
+.acs01{
+    position: relative;
+}
+.acs_img07{
+    position: absolute;
+    width: 40%;
+    z-index: -1;
+    right: 0;
+    bottom: -100px;
+}
+@media screen and (max-width: 979px) {
+	.acs02 img{
+        width: 50%;
+    }
+    .acs_img07 {
+        width: 60%;
+        bottom: -80px;
+    }
+}
