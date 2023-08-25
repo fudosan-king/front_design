@@ -120,3 +120,12 @@
   min-width: 290px;
   width: auto;
 }
+
+@media (max-width: 768px) {
+  .cmn-order-navi {
+    padding-right: 20px;
+  }
+  .cmn-order-navi ul li {
+    margin: 0 20px;
+  }
+}

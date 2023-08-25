@@ -11,7 +11,7 @@
         <ul class="inline right header-link pc">
             <li class="right1"><a href="./map.php">マップ</a></li>
             <li class="right1"><a href="./outline.php">物件概要</a></li>
-            <li class="right2 reserv_top"><a class="c_btn_tate_red" href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank">来場予約・資料請求</a></li>
+            <li class="right2 reserv_top"><a class="c_btn_tate_red" href="form.php" target="_blank">来場予約・資料請求</a></li>
         </ul>
     </div>
     <div class="header_menu_btn u_pcHide close">
@@ -38,6 +38,6 @@
         </ul>
     </nav>
     <div class="c_btn_tate_wrap">
-        <a class="c_btn c_btn_tate c_btn_tate_red reserv_btn" href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank">来場予約・資料請求</a>
+        <a class="c_btn c_btn_tate c_btn_tate_red reserv_btn" href="form.php" target="_blank">来場予約・資料請求</a>
     </div>
 </header>
