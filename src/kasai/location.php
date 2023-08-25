@@ -31,6 +31,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/location.css">
+	<link rel="stylesheet" href="./assets/css/styles_new.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/jquery-colorbox@1.6.4/jquery.colorbox.min.js"></script>
