@@ -56,11 +56,17 @@
             <li><a href="./outline.php">物件概要</a></li>
         </ul>
         <div class="other">
-
             <div class="l_footer_slide_wrap">
-                <ul class="f-slide">
-                    <!--ajax data-->
-                </ul>
+                <a href="#"><img src="./images/top/banner_prosylte_blog.png" alt="banner_prosylte_blog"></a>
+                <a href="#"><img src="./images/top/kuramae.png" alt="kuarame"></a>
+                <!-- <ul class="f-slide">
+                    <li>
+
+                    </li>
+                    <li>
+
+                    </li>
+                </ul> -->
             </div>
         </div>
     </div>
@@ -71,8 +77,8 @@
         </ul>
     </div>
     <ul class="f-bnr2 sp">
-        <li><a href="https://www.hajime-kensetsu.co.jp/" target="_blank"><img src="./images/f-bnr03-sp.png" alt=""></a></li>
-        <li><a href="https://www.prostyle-residence.com/" target="_blank"><img src="./images/f-bnr03-sp_02.png" alt=""></a></li>
+        <!-- <li><a href="https://www.hajime-kensetsu.co.jp/" target="_blank"><img src="./images/f-bnr03-sp.png" alt=""></a></li> -->
+        <li><a href="https://www.prostyle-residence.com/" target="_blank"><img src="./images/f-bnr03_03.png" alt=""></a></li>
     </ul>
 
     <p class="l_footer_copy">Copyright （C） PROSTYLE INC. All Rights Reserved.</p>

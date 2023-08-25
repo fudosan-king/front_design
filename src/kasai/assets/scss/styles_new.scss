@@ -129,12 +129,39 @@
     }
 }
 
+.other {
+    .l_footer_slide_wrap {
+        a {
+            margin-bottom: 15px;
+            display: block;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .cmn-order-navi {
         padding-right: 20px;
         ul {
             li {
                 margin: 0 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 979px) {
+    .l_footer_fixed {
+        a {
+            width: 25%;
+            height: 60px;
+            &.reserv_on {
+                width: 50%;
+                background-color: #f58f92;
+                img {
+                    width: auto;
+                    height: 60px;
+                    margin: 0 auto;
+                }
             }
         }
     }

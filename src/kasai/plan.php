@@ -151,7 +151,7 @@
 
 		<div class="c_link">
 			<p class="next">NEXT</p>
-			<p class="title">プレシスとは</p>
+			<p class="title">インテリア・設備</p>
 			<p class="arrow"><i class="fas fa-chevron-circle-right"></i></p>
 			<a class="Link" href="interior.php"></a>
 		</div>
