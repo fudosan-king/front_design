@@ -1,125 +1,94 @@
 ﻿<!doctype html>
 <html lang="ja">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>構造・セキュリティ | 【公式】プレシス葛西プロスタイル | 新築分譲マンション</title>
-<meta name="description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
-<meta name="keywords" content="プレシス葛西プロスタイル,東京都,江戸川区,東京メトロ東西線,葛西駅,新築分譲マンション,一建設 ">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
-<meta property="og:title" content="構造・セキュリティ | 【公式】プレシス葛西プロスタイル | 新築分譲マンション">
-<meta property="og:type" content="article">
-<meta property="og:url" content="/outline.html">
-<meta property="og:site_name"  content="新築分譲マンション">
-<meta property="og:image" content="images/ogp.png ">
-<meta property="og:description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
-<link rel="shortcut icon" href="https://www.hajime-kensetsu.co.jp/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.hajime-kensetsu.co.jp/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="https://www.hajime-kensetsu.co.jp/manifest.json">
-<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="./css/reset.css">
-<link rel="stylesheet" type="text/css" href="./css/slick.css">
-<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/structure.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>構造・セキュリティ | 【公式】プレシス葛西プロスタイル | 新築分譲マンション</title>
+	<meta name="description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
+	<meta name="keywords" content="プレシス葛西プロスタイル,東京都,江戸川区,東京メトロ東西線,葛西駅,新築分譲マンション,一建設 ">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
+	<meta property="og:title" content="構造・セキュリティ | 【公式】プレシス葛西プロスタイル | 新築分譲マンション">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="/outline.html">
+	<meta property="og:site_name" content="新築分譲マンション">
+	<meta property="og:image" content="images/ogp.png ">
+	<meta property="og:description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
+	<link rel="shortcut icon" href="https://www.hajime-kensetsu.co.jp/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.hajime-kensetsu.co.jp/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://www.hajime-kensetsu.co.jp/manifest.json">
+	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/slick.css">
+	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/structure.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-colorbox@1.6.4/jquery.colorbox.min.js"></script>
-<script>
-// Picture element HTML5 shiv
-document.createElement( "picture" );
-</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-colorbox@1.6.4/jquery.colorbox.min.js"></script>
+	<script>
+		// Picture element HTML5 shiv
+		document.createElement("picture");
+	</script>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-ND8CLF9');</script>
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-ND8CLF9');
+	</script>
 	<!-- End Google Tag Manager -->
-	</head>
-	
-	<body id="top" class="reserv mincho">
+</head>
+
+<body id="top" class="reserv mincho">
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND8CLF9"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND8CLF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<header>
-		<div class="inner cf">
-			<h1 class="left logo">
-				<a href="./index.html">
-					<picture>
-						<source srcset="./images/logo.png" media="(min-width:768px )">
-						<img srcset="./images/logo-sp.png" alt="PRESIS プレシス">
-					</picture>
-				</a>
-			</h1>
-			<ul class="inline right header-link pc">
-				<li class="right1"><a href="./map.html">マップ</a></li>
-				<li class="right1"><a href="./outline.html">物件概要</a></li>
-				<li class="right2 reserv_top"><a href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank">来場予約</a></li>
-				<li class="right2"><a href="https://lmp1.net/ts0sspoejus0hpqgfflcmulqjl5ili3k/contacts/new" target="_blank">資料請求</a></li>
-			</ul>
+	<?php require 'header.php'; ?>
+	<!--------------------------------------------------------->
+	<section class="structure">
+		<div class="c_mv">
+			<h2 class="c_mv_title">STRUCTURE<span class="c_mv_title_small">構造・セキュリティ</span></h2>
 		</div>
-		<div class="header_menu_btn u_pcHide close">
-			<div class="header_menu_icon">
-				<span  class="header_menu_icon_bar">
-					<span>bar</span>
-				</span>
-				<span class="header_menu_icon_txt close">menu</span>
-				<span class="header_menu_icon_txt">close</span>
-			</div>
-		</div>
-		<nav>
-			<ul class="inline">
-			<li><a href="./index.html">トップ</a></li>
-			<li><a class="header_new" href="./design.html">デザイン</a></li>
-			<li><a href="./access.html">アクセス</a></li>
-			<li><a href="./location.html">ロケーション</a></li>
-			<li><a href="./plan.html">間取り</a></li>
-			<li><a href="./about.html">プレシスとは</a></li>
-			<li><a class="header_new" href="./interior.html">インテリア・設備</a></li>
-			<li><a class="header_new" href="./structure.html">構造・セキュリティ</a></li>
-			<li class="sp"><a href="./map.html">マップ</a></li>
-			<li class="sp"><a href="./outline.html">物件概要</a></li>
-			</ul>
-		</nav>
-		<div class="c_btn_tate_wrap">
-			<a class="c_btn c_btn_tate c_btn_tate_red reserv_btn" href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank">来場予約</a>
-			<a class="c_btn c_btn_tate" href="https://lmp1.net/ts0sspoejus0hpqgfflcmulqjl5ili3k/contacts/new" target="_blank">資料請求</a>
-		</div>
-	</header>
-<!--------------------------------------------------------->
-<section class="structure">
-	<div class="c_mv">
-		<h2 class="c_mv_title">STRUCTURE<span class="c_mv_title_small">構造・セキュリティ</span></h2>
-	</div>
-	
-	<div class="l_container l_cont_detail"></div>
+
+		<div class="l_container l_cont_detail"></div>
 		<div class="l_cont_detail">
 			<div class="c_tab c_tab_top">
 				<button class="c_tab_btn c_btn">構造・セキュリティ</button>
 				<button class="c_tab_btn c_btn">無垢材の魅力</button>
 			</div>
-			
+
 			<div class="c_tab_box">
-			<!--構造セキュリティ-->
+				<!--構造セキュリティ-->
 				<div class="c_tab_box_nomal l_container">
 					<div class="c_tab_box_cont c_tab_box_nomal">
 						<div class="str_ttl">
 							<img src="images/structure/ttl_str.svg" alt="">
 							<p>心地よい暮らしを安心で包む、<br class="sp64">堅牢な構造とセキュリティ。</p>
 						</div>
-						
+
 						<div class="clearfix str01">
 							<div>
 								<p class="structure_title" style="margin-bottom:15px">快適で安心な暮らしを築く、<br class="sp64">強固な基本構造</p>
 								<div class="clearfix str01_in">
-									<div><p class="txt">床スラブや妻壁、戸境壁は、コンクリート内に鉄筋を二重に組み上げるダブル配筋（一部ダブルチドリ配筋）とし、高い構造強度を発揮しました。階下への振動や床面の衝撃音を吸収するため、乾式置床と空気層を設けた床工法を採用し、床スラブ厚は約200〜250mmを確保。遮音性に配慮した床材を使用しました。外壁のコンクリート厚を約150mm（一部除く）確保し、耐久性・断熱性を向上。また、各住戸間を仕切る戸境壁を約180〜220ｍｍとし、隣接住戸の生活音にも配慮しました。（一部除く）</p></div>
+									<div>
+										<p class="txt">床スラブや妻壁、戸境壁は、コンクリート内に鉄筋を二重に組み上げるダブル配筋（一部ダブルチドリ配筋）とし、高い構造強度を発揮しました。階下への振動や床面の衝撃音を吸収するため、乾式置床と空気層を設けた床工法を採用し、床スラブ厚は約200〜250mmを確保。遮音性に配慮した床材を使用しました。外壁のコンクリート厚を約150mm（一部除く）確保し、耐久性・断熱性を向上。また、各住戸間を仕切る戸境壁を約180〜220ｍｍとし、隣接住戸の生活音にも配慮しました。（一部除く）</p>
+									</div>
 									<div>
 										<p>二重床二重天井構造</p>
 										<p>ダブル配筋<br class="sp64"><span>（一部ダブルチドリ配筋）</span></p>
@@ -129,14 +98,15 @@ document.createElement( "picture" );
 									</div>
 								</div>
 							</div>
-							
-							<div><p class="structure_title" style="margin-bottom:15px">最高等級劣化対策等級3<sup>※</sup>を取得</p>
+
+							<div>
+								<p class="structure_title" style="margin-bottom:15px">最高等級劣化対策等級3<sup>※</sup>を取得</p>
 								<p class="txt" style="margin-bottom:15px">耐久性に優れた構造の採用により、「劣化対策等級」の最高ランクの劣化対策等級3を取得。おおむね75〜90年の劣化耐久性を持つ構造躯体です。</p>
 								<img src="images/structure/img12.svg" alt="">
 								<p class="txt" style="margin-top: 10px;"><small>※住宅性能表示制度による「設計住宅性能評価書（取得済）」及び「建設住宅性能評価書」の「劣化の軽減」分野の劣化対策等級において等級3を取得。</small></p>
 							</div>
 						</div>
-						
+
 						<div class="c_float_box_3col">
 							<div class="c_float_item_3col">
 								<p style="position: relative;"><img src="./images/structure/img13.jpg" alt="img"></p>
@@ -150,26 +120,28 @@ document.createElement( "picture" );
 								<p class="txt" style="margin-top: 10px;">株式会社住宅あんしん保証は、国土交通大臣が指定をした指定保険法人です。<br><small>国土交通大臣指定 住宅瑕疵担保責任保険法人指定番号：2 指定日平成20年5月12日※保険の詳細については、係員にお尋ねください。 </small></p>
 							</div>
 						</div>
-						
+
 						<div class="tebra_wrap">
 							<div class="tebra">
 								<div class="tebra_in">
 									<p class="structure_title" style="margin-bottom:15px">先進の機能を取り入れた<br class="sp64">セキュリティ。</p>
-									
+
 									<div class="clearfix tebra01">
 										<div class="clearfix tebra01_in">
 											<div>
 												<p class="tebra01_in_ttl">Tebraキー</p>
 												<p class="txt">高いセキュリティと優れた操作性を持つハンズフリーのTebraキー（非接触型電気錠）システムを採用。バッグにしまったまま解錠が可能です。</p>
 											</div>
-											<div><p style="position: relative;"><img src="./images/structure/tebta01.png" alt="img"></p></div>
+											<div>
+												<p style="position: relative;"><img src="./images/structure/tebta01.png" alt="img"></p>
+											</div>
 										</div>
-										
+
 										<div style="position: relative;"><span class="img_cap" style="left: unset; right:0;">image</span><img src="images/structure/tebta02.png" alt="" class=""></div>
 									</div>
 								</div>
 							</div>
-							
+
 							<div class="clearfix tebra03">
 								<p class="structure_title" style="margin:0px 0 15px">安心のトリプルセキュリティ</p>
 								<div>
@@ -186,7 +158,7 @@ document.createElement( "picture" );
 										<p class="txt">Tebraキーの携帯で、エレベータードアの開閉操作が可能です。部外者によるエレベーター操作、侵入を防ぎます。</p>
 									</div>
 								</div>
-								
+
 								<div>
 									<p class="tebra_txt02"><img src="images/structure/icon_2.jpg" alt=""><span>自宅玄関前<sup>※</sup></span></p>
 									<div class="clearfix">
@@ -196,7 +168,7 @@ document.createElement( "picture" );
 								</div>
 							</div>
 						</div>
-						
+
 						<div class="c_float_box_4col">
 							<div class="c_float_item_4col">
 								<p style="position: relative;"><img src="./images/structure/img16.jpg" alt="img"></p>
@@ -219,46 +191,52 @@ document.createElement( "picture" );
 								<p class="txt" style="margin-top: 10px;">サムターン回し対策錠や鎌デッド錠、ダブルロックで玄関の安全性を高めています。</p>
 							</div>
 						</div>
-						
+
 						<!-- <ul class="c_list_warning u_mt40">
 							<li class="c_list_warning_text">※</li>
 						</ul> -->
 					</div>
 				</div>
-				
-			<!--無垢材の魅力-->
+
+				<!--無垢材の魅力-->
 				<div class="c_tab_box_cont l_container">
 					<div class="str_ttl">
 						<img src="images/structure/ttl_muku.svg" alt="">
 						<p>住む人に温もりと安らぎを与える<br class="sp64">“無垢材の魅力”。</p>
 					</div>
-					
+
 					<div class="muku01 r clearfix">
 						<div>
 							<p class="structure_title" style="margin-bottom:15px">天然無垢材とは</p>
 							<p class="txt">山や森で育った原木（丸太）から、使用する大きさに挽き割った建材です。古来より日本の建築文化に深く根付き、現存する歴史的な寺社仏閣もみな天然無垢材による木造建築です。木は種類や育った場所、周囲の環境などによって一本一本に個性が生じるもので、一本の木でも部分によって性質が違います。これをしっかりと見極めて、適した場所に適した材料を使うことが、何百年も生き続ける住まいづくりの基本といえます。</p>
 						</div>
-						<div><p style="position: relative;"><img src="./images/structure/muku01.jpg" alt="img"></p></div>
+						<div>
+							<p style="position: relative;"><img src="./images/structure/muku01.jpg" alt="img"></p>
+						</div>
 					</div>
-					
+
 					<div class="muku01 l clearfix">
 						<div>
 							<p class="structure_title" style="margin-bottom:15px">夏は涼しく、冬は暖かく</p>
 							<p class="txt">木の断熱性はコンクリートの約12倍と言われるほどで、周囲の温度に影響されにくいのが特徴です。<br>
-							夏は、木に触れてもベタつくことなく、とてもさわやか。冬は、裸足でもいられるほどほんのりとした温もりを感じることができます。<br>
-							木の住まいではエアコンに頼る度合いが低くなるので、体への負担が軽減されるとともに、省エネにも役立ち、住む人の健康や暮らしを守ります。</p>
+								夏は、木に触れてもベタつくことなく、とてもさわやか。冬は、裸足でもいられるほどほんのりとした温もりを感じることができます。<br>
+								木の住まいではエアコンに頼る度合いが低くなるので、体への負担が軽減されるとともに、省エネにも役立ち、住む人の健康や暮らしを守ります。</p>
 						</div>
-						<div><p style="position: relative;"><img src="./images/structure/muku02.jpg" alt="img"></p></div>
+						<div>
+							<p style="position: relative;"><img src="./images/structure/muku02.jpg" alt="img"></p>
+						</div>
 					</div>
-					
+
 					<div class="muku01 r clearfix">
 						<div>
 							<p class="structure_title" style="margin-bottom:15px">森の王様「オーク」</p>
 							<p class="txt">本物件で採用している無垢材は、「オーク（ナラ）」という代表的な樹木で、はるか昔から ウィスキーの樽や船舶の建材として使われています。重厚感があり傷がつきにくく耐久性に優れています。美しい木目も特徴的で、時が経つほどに味が出てくる素材です。合板フローリングと無垢材フローリングの住宅では体感で温かさの違いが実感できます。特に室温が22°Cを下回るとその差は非常に顕著です。この体感差には、熱浸透率（J/s0.5m2K）が関係しています。熱浸透率は建材の熱伝導率（熱の伝わりやすさ）と比熱（熱を貯められる容量）そして比重（体積当たりの重量）によって決まります。例えば無垢材フローリング材料であるオークの熱浸透率は500（J/s0.5m2K）と、鉄筋コンクリート2250（J/s0.5m2K）の約5分の1であり、冬季に床温度が低くなっていても、足裏から熱が奪われにくいため、心地よく感じます。</p>
 						</div>
-						<div><p style="position: relative;"><span class="img_cap" style="left: unset; right:0;">image</span><img src="./images/structure/muku03.jpg" alt="img"></p></div>
+						<div>
+							<p style="position: relative;"><span class="img_cap" style="left: unset; right:0;">image</span><img src="./images/structure/muku03.jpg" alt="img"></p>
+						</div>
 					</div>
-					
+
 					<div class="c_float_box_3col">
 						<div class="c_float_item_3col">
 							<p class="structure_title" style="margin-bottom:15px">人に優しい素材</p>
@@ -288,129 +266,30 @@ document.createElement( "picture" );
 							<p class="txt" style="margin-top: 10px;">寺院や神社など日本の歴史的建造物の多くは木材でできています。日本の木造住宅が建築方法やメンテナンスによって、百年・千年単位で建ち続けることが可能だという事実は、多くの建造物が証明してくれています。例えば日本最古の木造建築物「法隆寺五重塔」など約1400年以上も立ち続けるほど、天然無垢材は耐久性のある材料です。</p>
 						</div>
 					</div>
-					
+
 					<ul class="c_list_warning u_mt40">
 						<li class="c_list_warning_text">※掲載の写真はモデルルームAタイプを2022年6月に撮影したもので、一部有償オプション、家具、調度品等が含まれており、これらは販売価格に含まれておりません。</li>
 					</ul>
 				</div>
 			</div>
-			
+
 			<div class="c_tab c_tab_bottom">
 				<button class="c_tab_btn c_btn">構造・セキュリティ</button>
 				<button class="c_tab_btn c_btn">無垢材の魅力</button>
 			</div>
 		</div>
-	</div>
-	
-	<div class="c_link">
-		<p class="next">NEXT</p>
-		<p class="title">マップ</p>
-		<p class="arrow"><i class="fas fa-chevron-circle-right"></i></p>
-		<a class="Link" href="map.html"></a>
-	</div>
-</section>
+		</div>
 
-<!--------------------------------------------------------->
-<footer class="l_footer">
-	<a href="#" class="l_footer_totop"></a>
-	<div class="l_footer_fixed">
-		<a href="./map.html" class="l_footer_fixed_btn">
-			<img src=".//images/common/footer_fix01.png" alt="現地案内">
-		</a>
-		<a href="./outline.html" class="reserv_off l_footer_fixed_btn">
-			<img src=".//images/common/footer_fix05.png" alt="概要">
-		</a>
-		<a href="https://lmp1.net/ts0sspoejus0hpqgfflcmulqjl5ili3k/contacts/new" target="_blank" class="l_footer_fixed_btn">
-			<img src=".//images/common/footer_fix02.png" alt="資料請求">
-		</a>
-		<a href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank" class="reserv_on l_footer_fixed_btn">
-			<img src=".//images/common/footer_fix03.png" alt="来場予約">
-		</a>
-		<a href="tel:0120964837" class="l_footer_fixed_btn">
-			<img src=".//images/common/footer_fix04.png" alt="電話をかける">
-		</a>
+		<div class="c_link">
+			<p class="next">NEXT</p>
+			<p class="title">マップ</p>
+			<p class="arrow"><i class="fas fa-chevron-circle-right"></i></p>
+			<a class="Link" href="map.php"></a>
 		</div>
-	</div>
-	<div class="l_footer_main">
-		<div class="l_container">
-			<div class="l_footer_actionBtn">
-				<a class="c_btn c_btn_gradient c_btn_gradient_red reserv_ftr" href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank">来場予約</a>
-				<a class="c_btn c_btn_gradient" href="https://lmp1.net/ts0sspoejus0hpqgfflcmulqjl5ili3k/contacts/new" target="_blank">資料請求</a>
-			</div>
-			<div class="l_footer_contact">
-				<div class="l_footer_contact_div l_footer_contact_details">
-					<p class="tel-text">お問い合わせは「プレシス葛西プロスタイル」<br class="pc">マンションギャラリー</p>
-					<div class="l_footer_tel">
-						<img src="./images/tel-icon.png" alt="tel">
-						<span class="pc">0120-964-837</span>
-						<a class="sp" href="tel:0120964837">0120-964-837</a>
-					</div>
-					<div class="l_footer_contact_details_txt">
-						<p>営業時間／10：00～19：00<br>定休日／火・水曜日（祝日除く）</p>
-					</div>
-					<div class="l_footer_btn">
-						<a href="https://goo.gl/maps/hZvgP8A8MiCFiiUJ8" class="c_btn c_btn_default" target="_blank">マンションギャラリーをgoogleマップで見る</a>
-					</div>
-				</div>
-				<div class="l_footer_contact_div l_footer_contact_map">
-					<img src="./images/common/map.png" alt="地図">
-				</div>
-			</div>
-		</div>
-		<ul class="l_footer_menu">
-			<li><a href="./">トップ</a></li>
-			<li><a href="./design.html">デザイン</a></li>
-			<li><a href="./access.html">アクセス</a></li>
-			<li><a href="./location.html">ロケーション</a></li>
-			<li><a href="./plan.html">間取り</a></li>
-			<li><a href="./about.html">プレシスとは</a></li>
-			<li><a href="./interior.html">インテリア・設備</a></li>
-			<li><a href="./structure.html">構造・セキュリティ</a></li>
-			<li class="sp_inline"><a href="./map.html">マップ</a></li>
-			<li><a href="./outline.html">物件概要</a></li>
-		</ul>
-		<div class="other">
-			<h2 class="mintyo u_pb25">プレシスのその他のラインナップはこちら</h2>
-			<div class="l_footer_slide_wrap">
-				<ul class="f-slide">
-					<!--ajax data-->
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<ul class="f-bnr u_pt20">
-		<li><a href="https://www.ighd.co.jp/" target="_blank"><img src="./images/f-bnr01.png" alt="飯田グループホールディングス"></a></li>
-		<li><a href="http://www.presis.com/" target="_blank"><img src="./images/f-bnr02.png" alt="一建設の新築分譲マンション「プレシス」シリーズ"></a></li>
-	</ul>
-	
-	<div class="inline f-bnr3 pc">
-		<ul>
-		<li style="margin-right: 25px;"><a href="https://www.hajime-kensetsu.co.jp/" target="_blank"><img src="./images/f-bnr03_02.png" alt="一建設株式会社"></a></li>
-		<li style="margin-left: 25px;"><a href="https://www.prostyle-residence.com/" target="_blank"><img src="./images/f-bnr03_03.png" alt="PROSTYLE"></a></li>
-		</ul>
-	</div>
-	<ul class="f-bnr2 sp">
-		<li><a href="https://www.hajime-kensetsu.co.jp/" target="_blank"><img src="./images/f-bnr03-sp.png" alt=""></a></li>
-		<li><a href="https://www.prostyle-residence.com/" target="_blank"><img src="./images/f-bnr03-sp_02.png" alt=""></a></li>
-	</ul>
-	
-	<p class="l_footer_copy">（C）Hajime Construction Co.,Ltd</p>
-</footer>
+	</section>
 
-<script type="text/javascript">
-  (function () {
-    var tagjs = document.createElement("script");
-    var s = document.getElementsByTagName("script")[0];
-    tagjs.async = true;
-    tagjs.src = "//s.yjtag.jp/tag.js#site=31I4uxd&referrer=" + encodeURIComponent(document.location.href) + "";
-    s.parentNode.insertBefore(tagjs, s);
-  }());
-</script>
-<noscript>
-  <iframe src="//b.yjtag.jp/iframe?c=31I4uxd" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-</noscript>
-<script src="./js/slick.min.js"></script>
-<script src="./js/common.js"></script>
+	<!--------------------------------------------------------->
+	<?php require 'footer.php'; ?>
 </body>
+
 </html>

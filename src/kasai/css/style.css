@@ -389,15 +389,17 @@ header .right2 a {
 	text-decoration: none;
 	margin-right: 6px;
 	padding: 6px 37px;
-	background: #111;
+	/* background: #111; */
+	background: linear-gradient(to bottom, #e90000 15%, #a80000 95%);
 	color: #fefefd;
 	line-height: 1;
 	top: -2px;
 }
 header .right2 a:hover {
 	text-decoration: none;
-	background: #bbb;
-	color: #111;
+	/* background: #bbb; */
+	background: linear-gradient(to bottom, #ff1d1d 15%, #db0000 95%);
+	color: #fff;
 }
 
 header nav {
