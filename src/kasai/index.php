@@ -305,7 +305,7 @@
 
 			<ul class="top_information_btns u_mt30pc u_mt10sp">
 				<li class="reserv_btn">
-					<a class="c_btn c_btn_gradient c_btn_gradient_red" href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank">来場予約・資料請求</a>
+					<a class="c_btn c_btn_gradient c_btn_gradient_red" href="./form.php" target="_blank">来場予約・資料請求</a>
 				</li>
 			</ul>
 		</div>

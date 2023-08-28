@@ -21,7 +21,7 @@
     <div class="l_footer_main">
         <div class="l_container">
             <div class="l_footer_actionBtn">
-                <a class="c_btn c_btn_gradient c_btn_gradient_red reserv_ftr" href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank">来場予約・資料請求</a>
+                <a class="c_btn c_btn_gradient c_btn_gradient_red reserv_ftr" href="./form.php" target="_blank">来場予約・資料請求</a>
             </div>
             <div class="l_footer_contact">
                 <div class="l_footer_contact_div l_footer_contact_details">
