@@ -28,7 +28,7 @@
                     <p class="tel-text">お問い合わせは「Prostyle 浅草サロン」まで</p>
                     <div class="l_footer_tel">
                         <img src="./images/tel-icon.png" alt="tel">
-                        <span class="pc">0120-936-417</span>
+                        <span class="pc"><a href="tel:0120936417">0120-936-417</a></span>
                         <a class="sp" href="tel:0120936417">0120-936-417</a>
                     </div>
                     <div class="l_footer_contact_details_txt">
@@ -58,7 +58,7 @@
         <div class="other">
             <div class="l_footer_slide_wrap">
                 <a href="#"><img src="./images/top/banner_prosylte_blog.png" alt="banner_prosylte_blog"></a>
-                <a href="#"><img src="./images/top/kuramae.png" alt="kuarame"></a>
+                <a href="#"><img src="./images/top/kuramae.jpg" alt="kuarame"></a>
                 <!-- <ul class="f-slide">
                     <li>
 
