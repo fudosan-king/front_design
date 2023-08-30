@@ -28,7 +28,7 @@
                     <p class="tel-text">お問い合わせは「Prostyle 浅草サロン」まで</p>
                     <div class="l_footer_tel">
                         <img src="./images/tel-icon.png" alt="tel">
-                        <span class="pc"><a href="tel:0120936417">0120-936-417</a></span>
+                        <a class="pc" href="tel:0120936417">0120-936-417</a>
                         <a class="sp" href="tel:0120936417">0120-936-417</a>
                     </div>
                     <div class="l_footer_contact_details_txt">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="l_footer_contact_div l_footer_contact_map">
-                    <img src="./images/common/map.png" alt="地図">
+                    <img src="./images/common/footer-map.jpg" alt="地図">
                 </div>
             </div>
         </div>
@@ -50,15 +50,15 @@
             <li><a href="./location.php">ロケーション</a></li>
             <li><a href="./plan.php">間取り</a></li>
             <!-- <li><a href="./about.php">プレシスとは</a></li> -->
-            <li><a href="./interior.php">インテリア・設備</a></li>
+            <li><a href="./interior.php">設備</a></li>
             <li><a href="./structure.php">構造・セキュリティ</a></li>
             <li class="sp_inline"><a href="./map.php">マップ</a></li>
             <li><a href="./outline.php">物件概要</a></li>
         </ul>
         <div class="other">
             <div class="l_footer_slide_wrap">
-                <a href="#"><img src="./images/top/banner_prosylte_blog.png" alt="banner_prosylte_blog"></a>
-                <a href="#"><img src="./images/top/kuramae.jpg" alt="kuarame"></a>
+                <a href="https://www.prostyle-residence.com/mokusiru/"><img src="./images/top/banner_prosylte_blog.png" alt="banner_prosylte_blog"></a>
+                <a href="https://www.prostyle-residence.com/kuramae/"><img src="./images/top/kurame_hd.jpg" alt="kuarame"></a>
                 <!-- <ul class="f-slide">
                     <li>
 

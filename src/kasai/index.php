@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
@@ -14,14 +14,13 @@
 	<meta property="og:site_name" content="新築分譲マンション">
 	<meta property="og:image" content="images/ogp.png ">
 	<meta property="og:description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
-	<link rel="shortcut icon" href="https://www.hajime-kensetsu.co.jp/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://www.hajime-kensetsu.co.jp/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="https://www.hajime-kensetsu.co.jp/manifest.json">
-	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="shortcut icon" href="./images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16">
+	
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" />
 	<link rel="stylesheet" type="text/css" href="./css/magnific-popup.css">
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick.css">
@@ -35,9 +34,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/jquery-colorbox@1.6.4/jquery.colorbox.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/accordion.css">
-	<!--<script src="js/flick.js"></script>-->
 	<script type="text/javascript" src="js/dragscroll.js"></script>
-	<!--<script src="js/jquery.simplyscroll.min.js"></script>-->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 
 	<script>
@@ -59,11 +56,11 @@
 		});
 	</script>
 
-	<script src="https://www.presis.com/layer_board/jquery.cookie.js"></script>
-	<script src="https://www.presis.com/layer_board/jquery.layerBoard.js"></script>
-	<link rel="stylesheet" href="https://www.presis.com/layer_board/layerBoard.css">
-	<link rel="stylesheet" href="https://www.presis.com/css/banner.css">
-	<link rel="stylesheet" href="https://www.presis.com/campaign/2021/1223_0331/campaign202112.css">
+	<script src="./js/jquery.cookie.js"></script>
+	<script src="./js/jquery.layerBoard.js"></script>
+	<link rel="stylesheet" href="./css/layerBoard.css">
+	<link rel="stylesheet" href="./css/banner.css">
+	<link rel="stylesheet" href="./css/campaign202112.css">
 	<style>
 		.info_230216 {
 			width: 60%;
@@ -230,7 +227,7 @@
 			j.src =
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-ND8CLF9');
+		})(window, document, 'script', 'dataLayer', 'GTM-KFVKSR');
 	</script>
 	<!-- End Google Tag Manager -->
 
@@ -243,6 +240,10 @@
 </head>
 
 <body id="top" class="reserv mincho">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFVKSR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 	<?php require 'header.php'; ?>
 
@@ -274,16 +275,16 @@
 
 			<!-- キャンペーンバナー スマホ用 -->
 			<div class="fixedbnr_sp" style="display: none">
-				<a href="https://www.presis.com/campaign/2019/0801_0901/" target="_blank"><img src="https://www.presis.com/bnr_summer2019.jpg" alt="2019サマーキャンペーン"></a>
+				<a href="#" target="_blank"><img src="images/bnr_summer2019.jpg" alt="2019サマーキャンペーン"></a>
 			</div>
 
 			<div class="bnr_single gothic">
-				<a href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank"><img src="https://www.presis.com/bnr/bnr_athome202301.png" alt="athomeモデルルーム見学キャンペーン"></a>
+				<a href="https://lmp1.net/mgaxhh3vht2ek7t6omwa9cm4ryavgpkx/contacts/new" target="_blank"><img src="images/bnr_athome202301.png" alt="athomeモデルルーム見学キャンペーン"></a>
 				<p>※キャンペーン詳細は営業担当にお尋ねください。</p>
 			</div>
 
 			<div class="bnr_yobinintei gothic">
-				<img src="https://www.presis.com/bnr/bnr_yobinintei_pc.jpg" alt="当物件は「予備認定マンション」に認定されました。" class="pc64"><img src="https://www.presis.com/bnr/bnr_yobinintei_sp.jpg" alt="当物件は「予備認定マンション」に認定されました。" class="sp64">
+				<img src="images/bnr_yobinintei_pc.jpg" alt="当物件は「予備認定マンション」に認定されました。" class="pc64"><img src="images/bnr_yobinintei_sp.jpg" alt="当物件は「予備認定マンション」に認定されました。" class="sp64">
 				<p>※【フラット35】維持保全型として金利引下げを適用するためには、【フラット35】維持保全型の基準に適合することを証する適合証明書の取得が必要になります。詳しくは住宅金融支援機構のフラット35サイト<a href="https://www.flat35.com/" target="_blank">（https://www.flat35.com/）</a>をご確認ください。<br>※【フラット35】維持保全型には予算金額があり、予算金額に達する見込みとなった場合は、受付終了となります。<br>※【フラット35】のご利用には諸条件がございます、詳細は担当者までお尋ねください。<br>※制度の詳細は、フラット35サイト<a href="https://www.flat35.com/" target="_blank">（https://www.flat35.com/）</a>及び公益財団法人マンション管理センター<a href="https://www.mankan.or.jp/11_managementplan/precert.html" target="_blank">（https://www.mankan.or.jp/11_managementplan/precert.html）</a>のホームページ等で必ずご確認ください。
 				</p>
 			</div>
@@ -341,49 +342,6 @@
 		</ul>
 	</section>
 
-	<!--
-<section class="top_style">
-	<h2 class="c_title c_title_style">&nbsp;<span class="c_title_style_small u_block">プレシス葛西プロスタイルで叶える暮らし</span></h2>
-	<div class="top_style_box cf u_mb40pc">
-		<div class="left js_scroll c_slideIn_style">
-			<picture>
-				<source srcset="images/top/style-img01.png" media="(min-width:980px )">
-				<img srcset="images/top/style-img01-sp.png" alt="IMG">
-			</picture>
-			<h3 class="c_title c_title_style_item">都心直結だから快適通勤！</h3>
-			<p>「大宮」駅へ直通7分、「池袋」駅へ直通33分。<br class="pc">都内の主要ターミナル駅へダイレクトアクセス。</p>
-		</div>
-		<div class="right js_scroll c_slideIn_style">
-			<picture>
-				<source srcset="images/top/style-img02.png" media="(min-width:980px )">
-				<img srcset="images/top/style-img02-sp.png" alt="IMG">
-			</picture>
-			<h3 class="c_title c_title_style_item">縦横無尽の便利なカーアクセス</h3>
-			<p>「新大宮上尾道路」の整備で都心へのアクセス性が向上。<br class="pc">NEXCO東日本最大級のSA「Pasar蓮田」を楽しめます。</p>
-		</div>
-	</div>
-	<div class="top_style_box cf">
-		<div class="left js_scroll c_slideIn_style">
-			<picture>
-				<source srcset="images/top/style-img03.png" media="(min-width:980px )">
-				<img srcset="images/top/style-img03-sp.png" alt="IMG">
-			</picture>
-			<h3 class="c_title c_title_style_item">「池袋」駅での乗換もスムーズ</h3>
-			<p>「池袋」駅構内では東武東上線改札とJR線、東京メトロ丸ノ内線の改札が同フロアに近接。乗換の際もスムーズです。</p>
-		</div>
-		<div class="right js_scroll c_slideIn_style">
-			<picture>
-				<source srcset="images/top/style-img04.png" media="(min-width:980px )">
-				<img srcset="images/top/style-img04-sp.png" alt="IMG">
-			</picture>
-			<h3 class="c_title c_title_style_item">全ての列車が停車する<br class="pc">「川越」駅のアクセス力</h3>
-			<p>TJライナーや川越特急など、経由する全列車が停車する葛西駅は、東京メトロ副都心線や有楽町線への乗り入れ可能、<br class="pc">都心へスムーズに接続出来て快適です。
-			</p>
-		</div>
-	</div>
-</section>
--->
-
 	<section class="top_more_area cf">
 		<div class="l_container_fluid">
 			<div class="c_box c_box_slide is_left js_scroll c_slideIn_feature">
@@ -422,19 +380,8 @@
 					<a href="access.html" class="c_btn c_btn_roman c_btn_default u_pcHide">more info</a>
 				</div>
 			</div>
+
 			<div class="c_box c_box_slide is_right js_scroll c_slideIn_feature">
-				<div class="inner">
-					<div class="c_box_slide_txt">
-						<h2 class="c_title c_title_box_slide is_smaller">ModelRoom</h2>
-						<h3 class="c_title c_title_box_slide_sub">寛ぎで満たされた贅沢な空間。</h3>
-						<p>スタイリッシュな中にも落ち着きとくつろぎを感じさせてくれる居住空間。</p>
-						<a href="interior.html" class="c_btn c_btn_roman c_btn_default u_spHide">more info</a>
-					</div>
-					<img class="c_box_slide_img" src="images/top/modelroom-img.jpg" alt="">
-					<a href="interior.html" class="c_btn c_btn_roman c_btn_default u_pcHide">more info</a>
-				</div>
-			</div>
-			<div class="c_box c_box_slide is_left js_scroll c_slideIn_feature">
 				<div class="inner">
 					<div class="c_box_slide_txt">
 						<h2 class="c_title c_title_box_slide">Room Plan</h2>
@@ -449,29 +396,10 @@
 
 		</div>
 	</section>
-
-	<!--
-<div class="loan gothic">
-	<p><span>■住宅ローンのご案内</span><br>
-	●金融機関／地方銀行 ●返済期間／1年以上47年以内 ●利率／年利0.625％（変動金利） ●保証料／物件価格×2.2％ ●取扱手数料／50,000円＋消費税　※ローンは一定要件該当者が対象です。適用される金利は融資実行時のものとなり、表示されている金利と異なる場合があります。金利は2022年10月時点。<br>
-<br>
-■Cタイプ・2LDK＋S（54.45㎡）4,499万円の返済例（予定）／頭金：9万円。借入金：4,490万円 47年返済。 毎月91,894円（年12回）ボーナス時加算0円。</p>
-</div>
--->
-
 	<div class="kome kome_top gothic u_mt40 u_mb40">
 		<p>
 			※掲載の眺望写真は、現地高さ約24ｍより西～南西方向を撮影（2022年3月）したもの（一部CG加工を施しています）に、完成予想CGを合成したものです。当該眺望、環境は将来変わる場合がございます。また、将来の眺望を保証するものではありません。<br>
 			※掲載の花火は2019年8月の江東花火大会の打上位置を基に描き起こしたもので、打上場所については今後変更になる場合がございます。また、2021・2022年は中止となっております。予めご了承ください。
-
-			<!--
-なお、植栽は特定の季節を特定するものではありません。また、敷地内の植栽の樹種、大きさについては未確定となっており、竣工時には完成予想CG程度には成長しておりません。周辺の建物は省略しております。
-※掲載の航空写真は2022年3月に撮影したもので、一部CG加工を施しております。なお、光の表現は建物の高さ、規模を示すものではありません。<br>
-※掲載の環境写真は2022年3月に撮影したもの、またはイメージです。<br>
-※1 東武東上線・JR川越線「川越」駅、西武新宿線「本川越」駅、東武東上線「上尾市」駅利用。<br>
-※2 東武東上線「川越」駅利用で東京メトロ有楽町線・副都心線・東急東横線・みなとみらい線に乗入れ、JR「川越」駅利用でJR埼京線・八高線・りんかい線に乗入れ。
-※掲載の眺望写真は現地高さ約37m（13階相当）の地点より南西方向を撮影（2021年2月）したもので、当該眺望は将来保証されるものではありません。
--->
 		</p>
 	</div>
 	<!------------------------------------------------------------------------------------------------------------------------------>
@@ -481,8 +409,8 @@
 	<!-- キャンペーンバナー PC用 -->
 	<div class="fixedbnr" style="display: none;">
 		<!-- div class="fixedbnr" -->
-		<a href="https://www.presis.com/campaign/2019/0801_0901/" target="_blank"><img src="https://www.presis.com/bnr_summer2019.jpg" alt="2019サマーキャンペーン"></a>
-		<p class="btn_close"><a href="javascript:void(0)"><img src="https://www.presis.com/40thbnr_close.png" alt="close"></a></p>
+		<a href="#" target="_blank"><img src="images/bnr_summer2019.jpg" alt="2019サマーキャンペーン"></a>
+		<p class="btn_close"><a href="javascript:void(0)"><img src="images/40thbnr_close.png" alt="close"></a></p>
 	</div>
 </body>
 

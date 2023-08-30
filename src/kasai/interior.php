@@ -1,30 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>インテリア・設備 | 【公式】プレシス葛西プロスタイル | 新築分譲マンション</title>
+	<title>設備 | 【公式】プレシス葛西プロスタイル | 新築分譲マンション</title>
 	<meta name="description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
 	<meta name="keywords" content="プレシス葛西プロスタイル,東京都,江戸川区,東京メトロ東西線,葛西駅,新築分譲マンション,一建設 ">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
-	<meta property="og:title" content="インテリア・設備 | 【公式】プレシス葛西プロスタイル | 新築分譲マンション">
+	<meta property="og:title" content="設備 | 【公式】プレシス葛西プロスタイル | 新築分譲マンション">
 	<meta property="og:type" content="article">
 	<meta property="og:url" content="/interior.html">
 	<meta property="og:site_name" content="新築分譲マンション">
 	<meta property="og:image" content="images/ogp.png ">
 	<meta property="og:description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
-	<link rel="shortcut icon" href="https://www.hajime-kensetsu.co.jp/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://www.hajime-kensetsu.co.jp/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="https://www.hajime-kensetsu.co.jp/manifest.json">
-	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<link rel="shortcut icon" href="./images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16">
+	
+	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:ital,wght@1,500&family=Tiro+Devanagari+Marathi:ital@1&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" />
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
@@ -54,27 +53,27 @@
 			j.src =
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-ND8CLF9');
+		})(window, document, 'script', 'dataLayer', 'GTM-KFVKSR');
 	</script>
 	<!-- End Google Tag Manager -->
 </head>
 
 <body id="top" class="reserv mincho">
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND8CLF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFVKSR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<?php require 'header.php'; ?>
 	<!--------------------------------------------------------->
 	<section class="interior">
 		<div class="c_mv">
-			<h2 class="c_mv_title">INTERIOR・FACILITY<span class="c_mv_title_small">インテリア・設備</span></h2>
+			<h2 class="c_mv_title">INTERIOR・FACILITY<span class="c_mv_title_small">設備</span></h2>
 		</div>
 
 		<div class="l_cont_detail loader_box">
-			<div class="c_tab c_tab_top">
-				<!-- <button class="c_tab_btn c_btn">モデルルーム</button> -->
+			<!-- <div class="c_tab c_tab_top">
+				<button class="c_tab_btn c_btn">モデルルーム</button>
 				<button class="c_tab_btn c_btn">設備</button>
-			</div>
+			</div> -->
 
 			<div class="c_tab_box c_tab_box_anchor">
 

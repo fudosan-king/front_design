@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.campaign202112 {
+	margin-bottom: 40px;
+}
+.campaign202112_btn div img:hover{
+	cursor: pointer;
+}
+.campaign202112 th, .campaign202112 td {
+	padding: 14px 20px;
+	border: 1px solid #ddd;
+}
+.campaign202112 th {
+	width: 27%;
+	background: #f4f4f4;
+	font-weight: bold;
+	text-align: left;
+}
+.campaign202112 td {
+	background: #fff;
+}
+img.bnr_202112_pc{
+	display: block;
+}
+img.bnr_202112_sp{
+	display: none;
+}
+.campaign202112_contents{
+	margin-top: 30px;
+}
+@media screen and (max-width: 979px) {
+	.campaign202112 th, .campaign202112 td {
+		padding: 14px;
+	}
+	.campaign202112 th {
+		width: 34%;
+	}
+	img.bnr_202112_pc{
+		display: none;
+	}
+	img.bnr_202112_sp{
+		display: block;
+	}
+}
+@media screen and (max-width: 640px) {
+	.campaign202112 {
+		margin-bottom: 20px;
+	}
+}

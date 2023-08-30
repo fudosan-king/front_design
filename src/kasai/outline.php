@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
@@ -14,14 +14,13 @@
 	<meta property="og:site_name" content="新築分譲マンション">
 	<meta property="og:image" content="images/ogp.png ">
 	<meta property="og:description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
-	<link rel="shortcut icon" href="https://www.hajime-kensetsu.co.jp/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://www.hajime-kensetsu.co.jp/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="https://www.hajime-kensetsu.co.jp/manifest.json">
-	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="shortcut icon" href="./images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16">
+	
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" />
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
@@ -49,14 +48,14 @@
 			j.src =
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-ND8CLF9');
+		})(window, document, 'script', 'dataLayer', 'GTM-KFVKSR');
 	</script>
 	<!-- End Google Tag Manager -->
 </head>
 
 <body id="top" class="reserv mincho">
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND8CLF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFVKSR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<?php require 'header.php'; ?>
 
@@ -89,7 +88,10 @@
 							</tr>
 							<tr>
 								<th>所在地</th>
-								<td>東京都江戸川区東葛西五丁目1845-1 他（地番）</td>
+								<td>
+									東京都江戸川区東葛西5丁目1845-1他(地番)<br>
+									東京都江戸川区東葛西5丁目32-7(住居表示)
+								</td>
 							</tr>
 							<tr>
 								<th>交通</th>
@@ -143,34 +145,24 @@
 							</tr>
 							<tr>
 								<th>駐輪場</th>
-								<td>敷地内に86台（2段式ラック53台、平置ラック13台、平置20台） （月額使用料：150円～350円）</td>
+								<td>敷地内に86台（空き有り※管理会社に問い合わせ）2段式ラック53台、平置ラック13台、平置20台 （月額使用料：150円～350円）</td>
 							</tr>
 							<tr>
 								<th>駐車場</th>
-								<td>敷地内に11台（機械式10台、福祉車両用平置1台） （月額使用料：17,000円～26,000円）</td>
+								<td>敷地内に11台（空き有り※管理会社に問い合わせ）機械式10台、福祉車両用平置1台 （月額使用料：17,000円～26,000円）</td>
 							</tr>
 							<tr>
 								<th>バイク置場</th>
-								<td>敷地内に6台 （月額使用料：3,000円）</td>
+								<td>敷地内に6台（空き有り※管理会社に問い合わせ） （月額使用料：3,000円）</td>
 							</tr>
 							<tr>
 								<th>分譲後の権利形態</th>
 								<td>専有部分は区分所有権、土地及び建物の共用部分は各区分所有権の専有面積割合による所有権の共有</td>
 							</tr>
 							<tr>
-								<th>売主・共同事業主</th>
-								<td><a href="https://www.hajime-kensetsu.co.jp/" target="_blank">一建設株式会社</a><br>
-									国土交通大臣免許（10）第3284号<br>
-									（公社）東京都宅地建物取引業協会<br>
-									（公社）全国宅地建物取引業保証協会<br>
-									（公社）首都圏不動産公正取引協議会加盟<br>
-									（一社）日本住宅建設産業協会会員<br>
-									〒177-0041 東京都練馬区石神井町2-26-11</td>
-							</tr>
-							<tr>
-								<th>共同事業主・販売代理</th>
+								<th>売主</th>
 								<td>
-									<a href="https://www.prostyle-residence.com/" target="_blank">株式会社プロスタイル</a><br>
+									<a href="https://www.prostyle-residence.com/" target="_blank">株式会社Prostyle</a><br>
 									東京都知事(2)第100343号<br>
 									（公社）東京都宅地建物取引業協会<br>
 									（公社）首都圏不動産公正取引協議会加盟<br>
@@ -192,11 +184,11 @@
 							</tr>
 							<tr>
 								<th>入居時期</th>
-								<td>2023年9月下旬（予定）</td>
+								<td>要相談</td>
 							</tr>
 							<tr>
 								<th>設計図書閲覧場所</th>
-								<td>「プレシス葛西プロスタイル」マンションギャラリー</td>
+								<td>株式会社Prostyle 浅草サロン</td>
 							</tr>
 							<tr>
 								<th>管理形態</th>
@@ -217,7 +209,7 @@
 						<tbody>
 							<tr>
 								<th>販売戸数</th>
-								<td>1戸（所在階：6F）</td>
+								<td>1戸（所在階：2F）</td>
 							</tr>
 							<tr>
 								<th>販売価格</th>
@@ -225,37 +217,37 @@
 							</tr>
 							<tr>
 								<th>間取り</th>
-								<td>2LDK+S</td>
+								<td>1LDK+2S+WIC</td>
 							</tr>
 							<tr>
 								<th>住戸専有面積</th>
-								<td>65.47㎡</td>
+								<td>55.92㎡</td>
 							</tr>
 							<tr>
 								<th>バルコニー面積</th>
-								<td>11.19㎡</td>
+								<td>8.11㎡</td>
 							</tr>
 							<tr>
 								<th>管理費（月額）</th>
-								<td>14,100円</td>
+								<td>12,400円</td>
 							</tr>
 							<tr>
 								<th>修繕積立金（月額）</th>
-								<td>6,500円</td>
+								<td>5,600円</td>
 							</tr>
 							<tr>
 								<th>管理準備金（引渡時一括）</th>
-								<td>28,200円</td>
+								<td>24,000円</td>
 							</tr>
 							<tr>
 								<th>修繕積立基金（引渡時一括）</th>
-								<td>327,400円</td>
+								<td>279,600円</td>
 							</tr>
 							<tr>
 								<th>備考</th>
 								<td>
 									※サービスルーム(S)の表記がある場合、納戸を示します。<br>
-									取引条件有効期限：2023/6/29
+									※先着申込みのため販売済みの場合があります。あらかじめご了承ください。
 								</td>
 							</tr>
 						</tbody>
@@ -314,7 +306,7 @@
 
 				</div>
 			</div>
-			<p align="center" style="margin-bottom:40px; padding:0 15px; font-size: 12px;">情報提供日：2023/6/15　次回更新予定日：2023/6/29</p>
+			<p align="center" style="margin-bottom:40px; padding:0 15px; font-size: 12px;">情報提供日：2023/8/29　次回更新予定日：2023/9/12</p>
 			<div class="c_tab c_tab_bottom">
 				<button class="c_tab_btn c_btn mincho">物件概要</button>
 				<button class="c_tab_btn c_btn mincho">販売概要</button>
@@ -327,6 +319,7 @@
 			<p class="arrow"><i class="fas fa-chevron-circle-right"></i></p>
 			<a class="Link" href="index.php"></a>
 		</div>
+
 	</section>
 
 	<?php require 'footer.php'; ?>

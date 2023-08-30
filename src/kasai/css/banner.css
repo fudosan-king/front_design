@@ -1,0 +1,62 @@
+
+/* ------------------------------------------------ */
+/* --         �o�i�[�V���O���ݒ�pCSS            -- */
+/* ------------------------------------------------ */
+
+.bnr_single {
+	max-width: 470px;
+	margin: 0 auto;
+
+	display: none !important;
+}
+.bnr_single p {
+	font-size: 95%;
+	margin-top: 10px;
+}
+.bnr_single a:hover {
+	opacity: 0.7;
+}
+.l_container_theta h2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.theta>div {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 980px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+.acdn-inner .swipe_icon {
+	display: none;
+}
+@media (max-width: 640px) {
+	.bnr_single p {
+		font-size: 80%;
+		margin-top: 5px;
+	}
+	.l_container_theta {
+		margin-top: 0px;
+	}
+	.theta>div {
+		max-width: 90%;
+		margin-top: 0px;
+		height: auto;
+	}
+	section.theta,
+	section.theta iframe {
+		max-width: 90%;
+		min-width: auto;
+		height: 230px !important;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 40px;
+	}
+	.acdn-inner .swipe_icon {
+		display: block;
+	}
+	.acdn-inner .swipe_img {
+		width: 1300px;
+	}
+}

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
@@ -14,14 +14,13 @@
 	<meta property="og:site_name" content="新築分譲マンション">
 	<meta property="og:image" content="images/ogp.png ">
 	<meta property="og:description" content="プレシス葛西プロスタイル【公式サイト】。東京都江戸川区に誕生する新築分譲マンション。東京メトロ東西線「葛西」駅徒歩9分。">
-	<link rel="shortcut icon" href="https://www.hajime-kensetsu.co.jp/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://www.hajime-kensetsu.co.jp/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="https://www.hajime-kensetsu.co.jp/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="https://www.hajime-kensetsu.co.jp/manifest.json">
-	<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="shortcut icon" href="./images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16">
+	
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" />
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick.css">
 	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
@@ -101,14 +100,14 @@
 			j.src =
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-ND8CLF9');
+		})(window, document, 'script', 'dataLayer', 'GTM-KFVKSR');
 	</script>
 	<!-- End Google Tag Manager -->
 </head>
 
 <body id="top" class="reserv mincho">
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND8CLF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFVKSR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<?php require 'header.php'; ?>
 
@@ -139,9 +138,9 @@
 
 		<div class="c_link">
 			<p class="next">NEXT</p>
-			<p class="title">プレシスとは</p>
+			<p class="title">設備</p>
 			<p class="arrow"><i class="fas fa-chevron-circle-right"></i></p>
-			<a class="Link" href="about.php"></a>
+			<a class="Link" href="interior.php"></a>
 		</div>
 	</div>
 

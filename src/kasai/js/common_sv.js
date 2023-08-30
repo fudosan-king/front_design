@@ -2,7 +2,7 @@ var presis = [];
 presis.footer = [];
 presis.footer.slider=[];
 presis.local = presis.footer.slider.local = 'js/footer_slider.json'; // ローカルサーバーのスライダーソース
-presis.server = presis.footer.slider.server = 'https://www.presis.com/js/footer_slider.json'; // 本番サーバーのスライダーソース
+presis.server = presis.footer.slider.server = 'https://www.prostyle-residence.com/kasai/js/footer_slider.json'; // 本番サーバーのスライダーソース
 
 /*====================================*/
 
