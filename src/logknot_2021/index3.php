@@ -142,6 +142,12 @@
             </div>
         </section>
 
+        <section>
+            <div class="container">
+                <img class="img-fluid" src="images/eflink01.jpg" alt="eflink01">
+            </div>
+        </section>
+
         <section class="section_product">
             <div class="container-fluid">
                 <div class="row justify-content-center">
