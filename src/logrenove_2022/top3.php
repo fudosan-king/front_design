@@ -84,8 +84,9 @@
 					<button class="tablinks" onclick="openWard(event, 'Saitama')">埼玉県</button>
 				</div>
 				<div class="box_map">
+					<span class="multi_area">複数のエリアがえらべます</span>
+
 					<div class="main_map main_map2 tabcontent" id="Tokyo">
-						<span class="multi_area">複数のエリアがえらべます</span>
 						<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 858 1089.6" style="enable-background:new 0 0 858 1089.6;" xml:space="preserve">
 							<style type="text/css">
@@ -2880,6 +2881,10 @@
 						</svg>
 					</div>
 
+					<a href="#modal_search" data-bs-toggle="modal" input="button" class="btn btn-otherproperty-search top-search-button d-block d-lg-none w-100 mt-3">
+						<span>詳細条件を指定して検索</span>
+					</a>
+
 					<div class="box_searchby">
 						<h4>気になる物件の特徴から探す</h4>
 						<ul class="list_new2">
@@ -2972,7 +2977,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-sm-6 col-lg-6">
-						<a href="#modal_search" data-bs-toggle="modal" input="button" class="btn btn-otherproperty-search d-flex top-search-button mb-2 mb-lg-0">
+						<a href="#modal_search" data-bs-toggle="modal" input="button" class="btn btn-otherproperty-search d-flex top-search-button d-none d-lg-flex">
 							<span>詳細条件を指定して検索</span>
 						</a>
 					</div>
