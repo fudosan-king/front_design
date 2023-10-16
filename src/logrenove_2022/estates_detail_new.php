@@ -44,6 +44,7 @@
                             </nav>
                             <h1 id="estates_detail">番町千鳥ヶ淵アビタシオン <br class="d-none d-md-block" />301号室</h1>
                             <p class="number">1LDK／54.04㎡／11,480万円</p>
+                            <a class="btn btn_loanpaymentmonthly">202,772円／月（支払い目安)※</a>
                             <!-- <span class="carosuel_hint">画像を横スクロールしてツアーを開始！</span> -->
                             <div class="top-carousel">
                                 <div class="carousel2 carousel-main label_sold" data-flickity='{"pageDots": false, "wrapAround": true }'>
