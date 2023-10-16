@@ -1235,7 +1235,7 @@
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 449 516" style="enable-background:new 0 0 449 516;" xml:space="preserve">
 							<style type="text/css">
 								.st-2-0 {
-									fill: #8C7D5E;
+									fill: #cebfa1;
 									stroke: #000000;
 									stroke-miterlimit: 10;
 								}
@@ -1245,7 +1245,7 @@
 								}
 
 								.st-2-2 {
-									fill: #8C7D5E;
+									fill: #cebfa1;
 									stroke: #333333;
 									stroke-linecap: round;
 									stroke-miterlimit: 10;
@@ -1661,7 +1661,7 @@
 								}
 
 								.st-3-3 {
-									fill: #8C7D5E;
+									fill: #cebfa1;
 									stroke: #333333;
 									stroke-miterlimit: 10;
 								}
