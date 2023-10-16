@@ -1984,6 +1984,25 @@ header .navbar .container {
   background: #e0e0e0;
 }
 
+.btn_loanpaymentmonthly {
+  background-color: #8c7d5e;
+  border-radius: 100px;
+  border-radius: 27px;
+  color: #FFFFFF;
+  padding: 6px 20px;
+  font-size: 1.125em;
+  margin-bottom: 20px;
+  line-height: 180%;
+  font-weight: 700;
+  text-align: center;
+  min-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn_loanpaymentmonthly:hover {
+  color: #fff;
+}
+
 @media (max-width: 820px) {
   .section_map .section_map_content .box_map .main_map {
     padding-top: 45px;
@@ -1991,9 +2010,17 @@ header .navbar .container {
     background: #f2f2f2;
     border-radius: 10px;
   }
+
+  .btn_loanpaymentmonthly {
+    min-width: 90%;
+  }
 }
 @media (max-width: 428px) {
   .section_map .box_map .tokyo_diff {
     top: 38%;
+  }
+
+  .btn_loanpaymentmonthly {
+    font-size: 0.9375em;
   }
 }

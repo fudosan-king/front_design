@@ -2450,6 +2450,25 @@ header {
     }
 }
 
+.btn_loanpaymentmonthly {
+    background-color: rgb(140, 125, 94);
+    border-radius: 100px;
+    border-radius: 27px;
+    color: #FFFFFF;
+    padding: 6px 20px;
+    font-size: 1.125em;
+    margin-bottom: 20px;
+    line-height: 180%;
+    font-weight: 700;
+    text-align: center;
+    min-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover {
+        color: #fff;
+    }
+}
+
 @media (max-width: 820px) {
     .section_map {
         .section_map_content {
@@ -2466,6 +2485,9 @@ header {
             }
         }
     }
+    .btn_loanpaymentmonthly {
+        min-width: 90%;
+    }
 }
 @media (max-width: 428px) {
     .section_map {
@@ -2475,4 +2497,8 @@ header {
             }
         }
     }
+    .btn_loanpaymentmonthly {
+        font-size: 0.9375em;
+    }
 }
+
