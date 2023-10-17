@@ -1229,6 +1229,7 @@
 							</g>
 						</svg>
 
+						<div class="tokyo_diff">上記以外の<br />東京都エリア</div>
 
 					</div>
 
@@ -2968,7 +2969,7 @@
 						</ul>
 					</div>
 
-					<div class="tokyo_diff">上記以外の<br />東京都エリア</div>
+
 				</div>
 			</div>
 		</section>
