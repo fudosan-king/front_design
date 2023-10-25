@@ -152,7 +152,11 @@ header {
 
 .main_content {
   display: flex;
+  &.template2 {
+    flex-direction: row-reverse;
+  }
 }
+
 .btn_inquiry {
   background: $primary_color;
   display: block;
@@ -555,6 +559,9 @@ footer {
     max-width: 100%;
     margin-top: 30px;
     margin-left: 0;
+    &.template2 {
+      margin-right: 0;
+    }
     .standard_article {
       .standard_img {
         display: block;
@@ -571,6 +578,7 @@ footer {
         font-size: 0.875em;
       }
       .standard_list_video {
+        justify-content: center;
         li {
           width: 47%;
           margin: 0 15px 15px 0;
