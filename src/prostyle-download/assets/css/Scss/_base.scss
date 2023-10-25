@@ -1,0 +1,424 @@
+h1 {
+
+}
+
+h2 {
+	color: #AD814D;
+	font-family: SF Pro Display;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 48px;
+	margin: 0;
+}
+
+.title {
+	color: #333;
+	font-family: SF Pro Display;
+	font-size: 1.5rem;
+	font-weight: 700;
+	position: relative;
+	margin: 0;
+  line-height: normal;
+  padding-left: 10px;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 5px;
+		background: #AD814D;
+	}	 
+	@media (max-width: 767px) {
+		font-size: 1.25rem;
+	}
+}
+
+.title-single {
+	font-size: 1.25rem;
+}
+
+.two-column {
+	padding-top: 40px;
+	> * {
+		box-sizing: border-box;
+	}
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.widget {
+	position: relative;
+}
+
+.txt-example {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #333;
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 0.75rem;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.w {
+	width: 100%;
+}
+
+.w-left {
+	// max-width: 828px;
+	padding-left: 0;
+	padding-right: 0;
+	@media (min-width: 991px) {
+		padding-right: 9px;
+		width: 75.4785779398%;
+		flex: 0 0 auto;
+	}
+}
+
+.w-right {
+	// max-width: 269px;
+	padding-right: 0;
+	padding-left: 0;
+	@media (min-width: 991px) {
+		padding-left: 9px;
+		width: 24.5214220602%;
+		flex: 0 0 auto;
+	}
+}
+
+.btn {
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-white {
+	color: #AD814D;
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 0.875rem;
+	font-weight: 700;
+  padding: 3px 30px;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+  background: #fff;
+  border-radius: 100px;
+  width: max-content;
+  height: 22px;
+  @media (max-width: 767px) {
+  	width: 100%;
+  	font-size: 0.625rem;
+  	padding: 3px 10px;
+  }
+}
+
+.btn-type {
+	display: flex;
+	padding: 0 10px;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 0.875rem;
+	font-weight: 700;
+	line-height: normal;
+	width: 100%;
+  max-width: 90px;
+  height: 22px;
+}
+
+.btn-blue {
+	background: #0180CD;
+}
+
+.btn-green {
+	background: #6FCF97;
+}
+
+.btn-submit {
+	border-radius: 4px;
+	background: #AD814D;
+	display: flex;
+	height: 50px;
+	width: 100%;
+	max-width: 442px;
+	color: #FFF;
+	text-align: center;
+	font-family: Noto Sans JP;
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.btn-download {
+	border-radius: 100px;
+	padding: 12px 30px 10px 30px;
+	background: #AD814D;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 0.865rem;
+	font-weight: 700;
+	line-height: normal;
+	gap: 10px;
+	height: 40px;
+	@media (max-width: 767px) {
+		font-size: 0.75rem;
+	}
+}
+
+
+.btn-download-single {
+	border-radius: 10px;
+	width: 100%;
+	max-width: 440px;
+	padding: 17px 30px 15px 30px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background: #AD814D;
+	color: #FFF;
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 0.865rem;
+	font-weight: 700;
+	height: 49px;
+}
+
+.btn-contact {
+	border-radius: 100px;
+	background: #4F4F4F;
+	width: 100%;
+	max-width: 240px;
+	color: #FFF;
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: normal;
+	height: 47px;
+}
+
+.btn-back {
+	border-radius: 100px;
+	border: 1px solid #BDBDBD;
+	background: #FFF;
+	color: #333;
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 0.75rem;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 260px;
+	padding: 12px 30px 10px 30px;
+	height: 39px;
+}
+
+.top-sort {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.sort {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	span {
+		color: #828282;
+		font-size: 0.75rem;
+		font-weight: 400;
+	}
+}
+
+.form-group {
+	display: flex;
+	flex-wrap: wrap;
+	> * {
+		width: 100%;
+		flex-shrink: 0;
+    box-sizing: border-box;
+	}
+}
+
+
+/*Create custom select the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  color: #333;
+	font-family: SF Pro Display;
+	width: 140px;
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+  width: 100%;
+  max-width: 140px;
+}
+
+.select-selected {
+  border-radius: 4px;
+	border: 1px solid #AD814D;
+	background: #FFF;
+	color: #333;
+}
+
+.select-selected[data-value=""] {
+	color: #828282;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 13px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  background-image: url('../imgs/icons/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  transform: rotate(-180deg);
+}
+
+/*style the items (options), including the selected item:*/
+.select-selected {
+  color: #333;
+  padding: 6px 10px;
+  border: 1px solid #AD814D;
+  border-radius: 4px;
+	background: #FFF;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-items div:not(:last-child) {
+}
+
+/*style items (options):*/
+.select-items {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+  border-radius: 0px 0px 6px 6px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  background: #fff;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* The container */
+.custom-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  color: #333;
+	font-family: Noto Sans JP;
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 30px);
+  transform: translate(-50%,-50%);
+  height: 20px;
+  width: 20px;
+  border: 1px solid #AD814D;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox input:checked ~ .checkmark {
+  background: #AD814D;
+
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
