@@ -52,8 +52,8 @@
                                     </aside>
 
                                     <aside class="box_social">
-                                        <a href="#" class="btn_social"><img src="assets/images/X.svg" alt="twitter logo"> twitter</a>
-                                        <a href="#" class="btn_social"><img src="assets/images/instagram.svg" alt="instagram logo"> Instaglam</a>
+                                        <a href="#" class="btn_social"><img src="assets/images/X.svg" alt="twitter logo"> Twitter</a>
+                                        <a href="#" class="btn_social"><img src="assets/images/instagram.svg" alt="instagram logo"> Instagram</a>
                                     </aside>
                                     <a href="#" class="btn btn_close">閉じる <img class="bounce" src="assets/images/chevrons-up.svg" alt="chevrons up"></a>
 
