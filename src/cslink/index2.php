@@ -83,11 +83,11 @@
                                                 </li>
                                                 <li>
                                                     <p>リンク用テキストが入りますリンク用テキストが入りますリンク用テキストが入ります。</p>
-                                                    <a class="btn" href="#"><img src="assets/images/download.svg" alt="ownload" width="14"> Download</a>
+                                                    <a class="btn" href="#"><img src="assets/images/download.svg" alt="Download" width="14"> Download</a>
                                                 </li>
                                                 <li>
                                                     <p>リンク用テキストが入りますリンク用テキストが入りますリンク用テキストが入ります。</p>
-                                                    <a class="btn" href="#"><img src="assets/images/Download.svg" alt="Download" width="14"> Download</a>
+                                                    <a class="btn" href="#"><img src="assets/images/download.svg" alt="Download" width="14"> Download</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -150,11 +150,11 @@
                                                 </li>
                                                 <li>
                                                     <p>リンク用テキストが入りますリンク用テキストが入りますリンク用テキストが入ります。</p>
-                                                    <a class="btn" href="#"><img src="assets/images/download.svg" alt="ownload" width="14"> Download</a>
+                                                    <a class="btn" href="#"><img src="assets/images/download.svg" alt="Download" width="14"> Download</a>
                                                 </li>
                                                 <li>
                                                     <p>リンク用テキストが入りますリンク用テキストが入りますリンク用テキストが入ります。</p>
-                                                    <a class="btn" href="#"><img src="assets/images/Download.svg" alt="Download" width="14"> Download</a>
+                                                    <a class="btn" href="#"><img src="assets/images/download.svg" alt="Download" width="14"> Download</a>
                                                 </li>
                                             </ul>
                                         </div>
