@@ -391,7 +391,7 @@
                                     <div class="col-12 col-lg-auto">
                                         <label for="表示数">表示数：</label>
                                         <input type="number" name="" value="9">
-                                        <label for="件／ページ">件／ページ</label>
+                                        <label for="名／ページ">名／ページ</label>
                                     </div>
                                 </div>
                             </div>
@@ -474,6 +474,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-12 col-lg-auto">
                                             <select class="form-select" aria-label="ユーザーを選択">
+                                                <option value="ユーザーを選択">ユーザーを選択</option>
                                                 <option value="山田 太郎さん">山田 太郎さん</option>
                                                 <option value="山田 太郎さん">山田 太郎さん</option>
                                                 <option value="山田 太郎さん">山田 太郎さん</option>
