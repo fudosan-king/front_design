@@ -172,17 +172,17 @@ var myHorizontalBarChart = new Chart(ctx2, {
         labels: ['山田 太郎', '山田 太郎', '山田 太郎', '山田 太郎', '山田 太郎'],
         datasets: [
             {
-                label: '今月',
-                data: [8, 10, 20, 30, 80, 120],
-                backgroundColor: ['rgba(230, 151, 255, 1)'], // Màu nền của các thanh
-                borderColor: ['rgba(161, 85, 185, 1)'], // Màu viền của các thanh
-                borderWidth: 1
-            },
-            {
                 label: '先月',
                 data: [12, 19, 40, 17, 100, 120],
                 backgroundColor: ['rgba(99, 171, 253, 1)'], // Màu nền của các thanh
                 borderColor: ['rgba(22, 91, 170, 1)'], // Màu viền của các thanh
+                borderWidth: 1
+            },
+            {
+                label: '今月',
+                data: [8, 10, 20, 30, 80, 120],
+                backgroundColor: ['rgba(230, 151, 255, 1)'], // Màu nền của các thanh
+                borderColor: ['rgba(161, 85, 185, 1)'], // Màu viền của các thanh
                 borderWidth: 1
             }
         ]
