@@ -45,6 +45,9 @@ var options = {
         }
     },
     scales: {
+        x: {
+            barPercentage: 1 // Đặt giá trị barPercentage tùy theo khoảng cách mong muốn
+        },
         y: [
             {
                 id: 'y-axis-1',
@@ -129,7 +132,7 @@ var data = {
     datasets: [
         {
             label: '',
-            data: [-60, -20, -60, 40, 0, 60],
+            data: [-60, -20, -60, 40, 0, 100],
             borderColor: 'rgba(22, 99, 170, 1)',
             yAxisID: 'y-axis-1' // Trục y chính
         },
@@ -154,14 +157,14 @@ var options = {
     }
 };
 
-
-// *** myHorizontalBarChart ***
 var myMultiAxisChart = new Chart(ctx02, {
     type: 'line',
     data: data,
     options: options
 });
 
+
+// *** myHorizontalBarChart ***
 var ctx2 = document.getElementById('myHorizontalBarChart').getContext('2d');
 var myHorizontalBarChart = new Chart(ctx2, {
     type: 'bar',
@@ -170,7 +173,7 @@ var myHorizontalBarChart = new Chart(ctx2, {
         datasets: [
             {
                 label: '今月',
-                data: [12, 19, 40, 17, 100, 120],
+                data: [8, 10, 20, 30, 80, 120],
                 backgroundColor: ['rgba(230, 151, 255, 1)'], // Màu nền của các thanh
                 borderColor: ['rgba(161, 85, 185, 1)'], // Màu viền của các thanh
                 borderWidth: 1

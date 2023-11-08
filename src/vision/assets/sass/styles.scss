@@ -136,6 +136,7 @@ h2 {
   font-weight: 600;
   font-size: 1.5em;
   margin-bottom: 20px;
+  font-family: "Inter";
 }
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -314,6 +315,7 @@ header {
     color: $primary_color;
     font-weight: 700;
     border-radius: 4px;
+    font-family: "SF Pro", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
     font-size: 0.875em;
     line-height: 1em;
     &:hover {
@@ -493,6 +495,7 @@ header {
       h4 {
         margin: 0;
         font-size: 1em;
+        color: #242D35;
       }
       p {
         font-size: 0.75em;
@@ -538,6 +541,7 @@ header {
         font-size: 0.6875em;
         color: #A8B0B9;
         margin-bottom: 0;
+        font-weight: 700;
         &:last-of-type {
           line-height: 1em;
           color: #373F47;
@@ -766,6 +770,8 @@ header {
             color: #101928;
             font-size: 0.875em;
             line-height: 1em;
+            font-weight: 500;
+            font-family: 'Inter';
           }
           .form-check-input {
             margin-left: 20px;
@@ -846,10 +852,11 @@ header {
         h4 {
           margin: 0;
           font-size: 1em;
+          color: #333;
         }
         p {
           font-size: 0.75em;
-          color: #4F5B67;
+          color: #828282;
           margin-bottom: 0;
         }
       }
@@ -876,7 +883,6 @@ header {
         }
         td {
           font-size: 0.875em;
-          font-family: 'Inter';
           padding: 16px 24px;
           color: #333;
           a {
