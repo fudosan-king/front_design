@@ -132,7 +132,7 @@ var data = {
     datasets: [
         {
             label: '',
-            data: [-60, -20, -60, 40, 0, 100],
+            data: [-100, - 60, -20, -80, 40, 0, 100],
             borderColor: 'rgba(22, 99, 170, 1)',
             yAxisID: 'y-axis-1' // Trục y chính
         },
