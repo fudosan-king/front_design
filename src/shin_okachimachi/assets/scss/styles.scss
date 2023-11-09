@@ -52,6 +52,20 @@
         }
     }
 }
+.section_subbanner {
+    &.banner_access {
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     left: 0;
+        //     top: 0;
+        //     bottom: 0;
+        //     right: 0;
+        //     margin: auto;
+        //     background: rgba(0, 0, 0, 0.2);
+        // }
+    }
+}
 
 @media (max-width: 830px) {
     .section_topaccess {

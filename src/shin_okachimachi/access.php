@@ -808,8 +808,8 @@
     </header>
 
     <main>
-        <section class="section_subbanner">
-            <img src="common/bg_access.jpg" alt="bg_location" class="img-fluid">
+        <section class="section_subbanner banner_access">
+            <img src="assets/images/bg_access.jpg" alt="bg_location" class="img-fluid">
         </section>
 
         <section class="section_topaccess">
@@ -822,7 +822,7 @@
                                 <li><span>KURAMAE</span></li>
                                 <li class="active"><span>ACCESS</span></li>
                             </ul>
-                            <h2 class="title">徒歩15分以内に8駅5路線利用可能なアクセシビリティ</h2>
+                            <h2 class="title">徒歩15分以内に9駅9路線利用可能なアクセシビリティ</h2>
                             <div class="box_img">
                                 <img src="assets/images/train_acess.svg" alt="train_acess" class="img-fluid">
                             </div>
@@ -961,14 +961,14 @@
                                 </li>
                             </ul>
 
-                            <h2><img src="common/icon_a.png" alt="icon_a" class="img-fluid"> 都営浅草線「蔵前」駅利用</h2>
+                            <h2><img src="common/icon_a.png" alt="icon_a" class="img-fluid"> 都営大江戸線「新御徒町」駅利用</h2>
                             <div class="box_img">
                                 <img src="assets/images/asakusa_line.svg" alt="asakusa_line" class="img-fluid" width="693">
                             </div>
                         </div>
 
                         <div class="box_trainline">
-                            <h2><img src="common/icon_e.png" alt="icon_a" class="img-fluid"> 都営大江戸線「蔵前」駅利用</h2>
+                            <h2><img src="assets/images/ci_im01.png" alt="TX" class="img-fluid" width="60"> つくばエクスプレス「新御徒町」駅利用</h2>
                             <div class="box_img">
                                 <img src="assets/images/oedo_line.svg" alt="oedo_line" class="img-fluid" width="754">
                             </div>
