@@ -1,0 +1,38 @@
+.section_topaccess ul.list_color li:first-of-type span {
+  background-color: #D11D66;
+}
+.section_topaccess ul.list_color li:nth-of-type(2) span {
+  background-color: #38487A;
+}
+.section_topaccess ul.list_color li:nth-of-type(3) span {
+  background-color: #939598;
+}
+.section_topaccess ul.list_color li:nth-of-type(4) span, .section_topaccess ul.list_color li:nth-of-type(10) span {
+  background-color: #F15B40;
+}
+.section_topaccess ul.list_color li:nth-of-type(5) span, .section_topaccess ul.list_color li:nth-of-type(11) span {
+  background-color: #DD812B;
+}
+.section_topaccess ul.list_color li:nth-of-type(6) span {
+  background-color: #95BB50;
+}
+.section_topaccess ul.list_color li:nth-of-type(7) span {
+  background-color: #27AAE1;
+}
+.section_topaccess ul.list_color li:nth-of-type(8) span {
+  background-color: #D2C12A;
+}
+.section_topaccess ul.list_color li:nth-of-type(9) span {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+@media (max-width: 830px) {
+  .section_topaccess ul.list_color li:nth-of-type(9) {
+    padding-left: 23px;
+  }
+  .section_topaccess ul.list_color li:nth-of-type(9) span {
+    position: absolute;
+    left: 0;
+  }
+}
