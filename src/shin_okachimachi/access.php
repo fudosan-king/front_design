@@ -961,14 +961,14 @@
                                 </li>
                             </ul>
 
-                            <h2><img src="common/icon_a.png" alt="icon_a" class="img-fluid"> 都営大江戸線「新御徒町」駅利用</h2>
+                            <h2><img src="common/icon_a.png" alt="icon_a" class="img-fluid"> 都営大江戸線「新御徒町」駅利用 </h2>
                             <div class="box_img">
                                 <img src="assets/images/asakusa_line.svg" alt="asakusa_line" class="img-fluid" width="693">
                             </div>
                         </div>
 
                         <div class="box_trainline">
-                            <h2><img src="assets/images/ci_im01.png" alt="TX" class="img-fluid" width="60"> つくばエクスプレス「新御徒町」駅利用</h2>
+                            <h2><img src="assets/images/ci_im01.png" alt="TX" class="img-fluid" width="60">つくばエクスプレス「新御徒町」駅利用</h2>
                             <div class="box_img">
                                 <img src="assets/images/oedo_line.svg" alt="oedo_line" class="img-fluid" width="754">
                             </div>
