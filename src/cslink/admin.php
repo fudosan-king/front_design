@@ -96,6 +96,7 @@
                                                         <span class="icon_cloud"><img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24"></span>
                                                         <p>ファイルを選択</p>
                                                     </a>
+
                                                 </li>
                                             </ul>
                                         </div>
