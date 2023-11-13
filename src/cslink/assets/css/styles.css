@@ -737,17 +737,8 @@ footer ul li a {
   margin-right: 0;
 }
 .standard_post_main_img ul li:last-of-type {
-  border-radius: 6px;
-  border: 2px solid #0168B7;
   background: #fff;
-  padding: 16px;
   text-align: center;
-  color: #0168B7;
-}
-.standard_post_main_img ul li a p {
-  font-weight: 600;
-  font-size: 0.75em;
-  font-family: 'Inter';
   color: #0168B7;
 }
 .standard_post_main_img ul li a img {
@@ -761,20 +752,49 @@ footer ul li a {
 }
 
 .box_uploads {
+  width: 100%;
+  height: 100px;
+}
+.box_uploads:hover .upload_custom {
+  background: #f4f3f3;
+}
+
+.upload_default {
+  display: none;
+}
+
+.upload_custom {
+  height: 100%;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  border: 2px solid #0168B7;
+  color: #0168B7;
+  cursor: pointer;
+  margin-bottom: 0;
 }
-.box_uploads .icon_cloud {
+.upload_custom span {
+  margin-top: 5px;
+  display: block;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 1em;
+  font-family: 'Inter';
+  color: #0168B7;
+}
+.upload_custom i {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 43px;
+  height: 43px;
   border-radius: 100px;
-  background: rgba(1, 104, 183, 0.1);
+  background: #e1ecf8;
 }
 
 .box_reverse textarea {
@@ -803,7 +823,8 @@ footer ul li a {
 .box_reverse .text_link .box_link img {
   margin-right: 10px;
 }
-.box_reverse .btn_addlink {
+
+.btn_addlink {
   border-radius: 4px;
   border: 1px solid var(--primal-color, #0168B7);
   background: var(--white, #FFF);
@@ -818,6 +839,314 @@ footer ul li a {
   align-self: center;
   min-width: 426px;
 }
-.box_reverse .btn_addlink:hover {
+.btn_addlink:hover {
   background: #e6e6e6;
+  border-color: #0168B7;
+}
+.btn_addlink.active {
+  border-color: #0168B7;
+  background: #0168B7;
+  color: #fff;
+}
+.btn_addlink img {
+  margin-right: 10px;
+}
+
+.box_material_content ul {
+  padding: 0;
+  margin: 0 0 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.box_material_content ul li {
+  border-radius: 4px;
+  background: #F0F6FB;
+  padding: 20px;
+  min-width: 253px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box_material_content ul li:nth-of-type(3n) {
+  margin-right: 0;
+}
+.box_material_content ul li p.or {
+  color: rgba(0, 104, 184, 0.5);
+  text-align: center;
+  margin-bottom: 0;
+  font-family: 'Inter';
+  font-size: 0.75em;
+}
+.box_material_content ul li label.label_url {
+  font-family: 'Noto Sans JP';
+  font-weight: 700;
+  font-size: 0.75em;
+  color: #0168B7;
+}
+.box_material_content ul li input {
+  border-radius: 4px;
+  border: 2px solid var(--primal-color, #0168B7);
+  background: var(--white, #FFF);
+  margin-bottom: 10px;
+  color: #828282;
+  font-size: 0.875em;
+}
+.box_material_content ul li textarea {
+  border-radius: 4px;
+  border: 1px solid var(--Gray-3, #828282);
+  background: var(--white, #FFF);
+  height: 80px;
+  color: #828282;
+  font-size: 0.875em;
+}
+.box_material_content .btn_addlink {
+  margin: 0 auto 30px;
+}
+.box_material_content hr {
+  margin-bottom: 30px;
+  border-style: dotted;
+}
+
+.checkbox-lg .form-check-input {
+  top: .8rem;
+  scale: 1.8;
+  margin-right: 0.7rem;
+  width: 1.5em;
+}
+.checkbox-lg .form-check-input:focus {
+  box-shadow: none;
+}
+
+.btn_tab {
+  position: relative;
+  border-radius: 2px 2px 0px 0px;
+  background: #E5F2FD;
+  padding: 10px 40px;
+}
+.btn_tab:hover {
+  background: #E5F2FD;
+}
+.btn_tab:active {
+  border: none;
+}
+
+.box_tab {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.box_tab .box_tab_content {
+  background: #E5F2FD;
+  padding: 64px 0;
+}
+.box_tab form {
+  display: flex;
+  align-self: center;
+}
+.box_tab form .box_tab_content_left {
+  margin-right: 52px;
+  min-width: 600px;
+}
+.box_tab form .box_tab_content_left .row_custom {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.box_tab form .box_tab_content_left .row_custom label {
+  margin-right: 20px;
+  min-width: 100px;
+}
+.box_tab form .box_tab_content_left .row_custom .box_companykey {
+  width: 100%;
+}
+.box_tab form .box_tab_content_left .row_custom .form-switch {
+  padding-left: 3em;
+}
+.box_tab form .box_tab_content_left .link {
+  margin-bottom: 5px;
+  font-size: 0.875em;
+}
+.box_tab form .box_tab_content_left .link b {
+  color: #0168B7;
+}
+.box_tab form .box_tab_content_left input.note {
+  color: #EB5757;
+}
+.box_tab form label {
+  background: #000;
+  font-size: 0.625em;
+  color: #fff;
+  line-height: 1em;
+  padding: 3px 20px;
+}
+.box_tab .note {
+  color: #EB5757;
+  font-size: 0.875em;
+  font-family: 'Inter';
+}
+.box_tab .box_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.box_tab .box_button .btn {
+  padding: 14.5px 16px;
+  border-radius: 6px;
+  border: 1px solid var(--primal-color, #0168B7);
+  background: var(--white, #FFF);
+  margin-right: 10px;
+  width: 50%;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: #0168B7;
+}
+.box_tab .box_button .btn:last-of-type {
+  margin-right: 0;
+}
+.box_tab .box_button .btn:hover {
+  background: #0168B7;
+  color: #fff;
+}
+.box_tab .btn_registration {
+  border-radius: 6px;
+  background: var(--primal-color, #0168B7);
+  display: flex;
+  height: 55px;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  color: #fff;
+  font-weight: 590;
+}
+.box_tab .btn_registration:hover {
+  background: #01477d;
+}
+
+@media (max-width: 834px) {
+  .standard_post_main_img {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .standard_post_main_img ul li {
+    width: 47%;
+    max-width: none;
+    min-width: auto;
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  .standard_post_main_img ul li:nth-of-type(3n) {
+    margin-right: 15px;
+  }
+  .standard_post_main_img ul li:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .box_reverse .text_link {
+    display: block;
+    width: 100%;
+  }
+  .box_reverse .text_link .box_link {
+    min-width: 100%;
+  }
+  .box_reverse .text_link .input_text {
+    min-width: auto;
+    margin-bottom: 10px;
+  }
+
+  .btn_addlink {
+    min-width: auto;
+  }
+
+  .box_material_content ul {
+    display: block;
+  }
+  .box_material_content ul li {
+    margin-right: 0;
+    min-width: auto;
+    width: 100%;
+  }
+
+  .box_tab .box_tab_content {
+    padding: 30px 0;
+  }
+  .box_tab form {
+    display: block;
+  }
+  .box_tab form .box_tab_content_left {
+    min-width: auto;
+    margin-right: 0;
+  }
+  .box_tab form .box_tab_content_left .row_custom {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .box_tab form .box_tab_content_left .row_custom .form-switch {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .box_tab .note {
+    line-height: 1.5em;
+  }
+}
+.main_left.admin h2 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+.main_left.admin .form-control {
+  color: #828282;
+  font-family: 'Noto Sans JP';
+  margin-bottom: 10px;
+}
+.main_left.admin .box_info ul.info li {
+  margin-bottom: 10px;
+}
+.main_left.admin .box_info ul.info li input {
+  padding: 5px 10px;
+  font-size: 0.875em;
+  border-radius: 4px;
+  border: 1px solid var(--Gray-3, #828282);
+  background: var(--white, #FFF);
+  width: 100%;
+}
+.main_left.admin .box_info .box_indicate {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.main_left.admin .box_info .box_indicate label {
+  font-size: 0.875em;
+}
+.main_left.admin .box_info .form_group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.main_left.admin .box_info .form_group span {
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1em;
+  font-size: 0.625em;
+  padding: 5px;
+  margin-right: 10px;
+  min-width: 50px;
+}
+.main_left.admin .box_info .form_group input {
+  padding: 5px 10px;
+  font-size: 0.875em;
+  border-radius: 4px;
+  border: 1px solid var(--Gray-3, #828282);
+  background: var(--white, #FFF);
+}
+.main_left.admin .box_info .about_me_desc textarea {
+  width: 100%;
+  margin-top: 30px;
+  min-height: 423px;
+  font-size: 1em;
 }
