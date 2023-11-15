@@ -188,10 +188,12 @@ header {
   position: relative;
   top: -126px;
   text-align: center;
+  max-height: 1480px;
   p {
     font-size: 0.875em;
   }
   .box_avatar {
+    margin-bottom: 40px;
     .avatar {
       display: block;
       width: 124px;
@@ -199,6 +201,7 @@ header {
       border-radius: 100px;
       margin: 0 auto;
       overflow: hidden;
+      margin-bottom: 10px;
       img {
         width: 100%;
         height: 124px;
@@ -517,6 +520,7 @@ footer {
     .box_avatar {
       position: relative;
       top: -40px;
+      margin-bottom: 0;
       .avatar {
         width: 78px;
         height: 78px;
@@ -546,7 +550,18 @@ footer {
     .box_social {
       margin: 20px 0;
     }
+
+    &.admin {
+      .box_info {
+        .form_group {
+          input {
+            width: 100% !important;
+          }
+        }
+      }
+    }
   }
+  
   .btn_inquiry {
     margin: 0 0 20px;
   }
