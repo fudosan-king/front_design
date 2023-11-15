@@ -881,7 +881,7 @@ footer {
     align-items: center;
     .input_text {
       margin-right: 20px;
-      min-width: 514px;
+      min-width: 314px;
     }
     .box_link {
       display: flex;
@@ -890,9 +890,14 @@ footer {
       border: 2px solid $primary_color;
       background: #fff;
       padding: 10px;
-      min-width: 260px;
+      min-width: 460px;
       img {
         margin-right: 10px;
+      }
+      input {
+        &:last-of-type {
+          margin-left: 10px;
+        }
       }
     }
   }

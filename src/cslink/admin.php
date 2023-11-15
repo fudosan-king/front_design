@@ -137,6 +137,7 @@
                                                 <div class="box_link">
                                                     <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
                                                     <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                                                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
                                                 </div>
                                             </div>
                                             <button class="btn btn_addlink" type=""><img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> リンクを追加する</button>
