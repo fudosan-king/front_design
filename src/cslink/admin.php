@@ -32,7 +32,7 @@
                                         <h2 class="about_me_heading">
                                             <input class="form-control" type="text" name="" value="" placeholder="例) 山本 太郎">
                                         </h2>
-                                        <p><input class="form-control" type="text" name="" value="" placeholder="Ichiro Yamada"></p>
+                                        <p><input class="form-control" type="text" name="" value="" placeholder="例) Yamamoto Taro"></p>
                                     </aside>
 
                                     <a href="#" class="btn btn_inquiry btn_inquiry2">お問い合わせ</a>

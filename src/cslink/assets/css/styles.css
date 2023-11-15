@@ -477,7 +477,7 @@ footer ul li a {
     margin-bottom: 10px;
   }
 }
-@media (max-width: 932px) {
+@media (max-width: 1180px) {
   header h1 {
     font-size: 1.5em;
     padding: 60px 10px;
@@ -976,6 +976,9 @@ footer ul li a {
 .box_tab form .box_tab_content_left input.note {
   color: #EB5757;
 }
+.box_tab form .box_tab_content_left input.note::placeholder {
+  color: #EB5757;
+}
 .box_tab form label {
   background: #000;
   font-size: 0.625em;
@@ -1119,6 +1122,7 @@ footer ul li a {
   border: 1px solid var(--Gray-3, #828282);
   background: var(--white, #FFF);
   width: 100%;
+  font-family: 'Noto Sans JP';
 }
 .main_left.admin .box_info .box_indicate {
   margin-top: 10px;
@@ -1149,6 +1153,7 @@ footer ul li a {
   border: 1px solid var(--Gray-3, #828282);
   background: var(--white, #FFF);
   width: 155px;
+  font-family: 'Noto Sans JP';
 }
 .main_left.admin .box_info .about_me_desc textarea {
   width: 100%;

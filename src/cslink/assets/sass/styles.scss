@@ -498,7 +498,7 @@ footer {
   }
 }
 
-@media (max-width: 932px) {
+@media (max-width: 1180px) {
   header {
     h1 {
       font-size: 1.5em;
@@ -1033,6 +1033,9 @@ footer {
       input {
         &.note {
           color: #EB5757;
+          &::placeholder {
+            color: #EB5757;
+          }
         }
       }
     }
@@ -1193,6 +1196,7 @@ footer {
               border: 1px solid var(--Gray-3, #828282);
               background: var(--white, #FFF);
               width: 100%;
+              font-family: 'Noto Sans JP';
             }
           }
         }
@@ -1225,6 +1229,7 @@ footer {
           border: 1px solid var(--Gray-3, #828282);
           background: var(--white, #FFF);
           width: 155px;
+          font-family: 'Noto Sans JP';
         }
       }
       .about_me_desc {
