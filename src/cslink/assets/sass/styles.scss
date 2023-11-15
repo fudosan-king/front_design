@@ -916,6 +916,9 @@ footer {
     border-color: $primary_color;
     background: $primary_color;
     color: #fff;
+    &:hover {
+      background: #02487e;
+    }
   }
   img {
     margin-right: 10px;
