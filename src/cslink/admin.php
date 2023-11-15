@@ -79,7 +79,7 @@
                                             <div class="form_group"><span>趣味</span> <input type="text" name="" value="" placeholder="例) 読書、映画"></div>
                                             <div class="form_group"><span>特技</span> <input type="text" name="" value="" placeholder="例) テニス"></div>
 
-                                            <p class="about_me_desc">
+                                            <p class="about_me_desc mb-0">
                                                 <textarea rows="" cols="" class="form-control" placeholder="自由テキスト欄"></textarea>
                                             </p>
 

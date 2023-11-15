@@ -158,6 +158,7 @@ header h1 {
 
 .main_content {
   display: flex;
+  align-items: flex-start;
 }
 .main_content.template2 {
   flex-direction: row-reverse;
@@ -194,7 +195,6 @@ header h1 {
   position: relative;
   top: -126px;
   text-align: center;
-  max-height: 1480px;
 }
 .main_left p {
   font-size: 0.875em;
@@ -712,8 +712,10 @@ footer ul li a {
 }
 
 .main_right.admin .standard_article h2 {
-  font-size: 1em;
   margin-bottom: 30px;
+}
+.main_right.admin .standard_article h2 input {
+  font-size: 24px;
 }
 
 .standard_post_main_img {
@@ -870,7 +872,7 @@ footer ul li a {
   margin: 0 0 10px;
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .box_material_content ul li {
   border-radius: 4px;
@@ -1172,4 +1174,5 @@ footer ul li a {
   margin-top: 30px;
   min-height: 432px;
   font-size: 0.875em;
+  margin-bottom: 0;
 }
