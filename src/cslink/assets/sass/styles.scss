@@ -122,6 +122,7 @@ a:hover {
   border-color: #828282;
   height: calc(1.5em + .75rem + 7px);
   border-radius: 4px;
+  font-family: 'Noto Sans JP';
 }
 .row>* {
   padding-left: 15px;
@@ -497,7 +498,7 @@ footer {
   }
 }
 
-@media (max-width: 834px) {
+@media (max-width: 932px) {
   header {
     h1 {
       font-size: 1.5em;
@@ -1038,6 +1039,7 @@ footer {
     label {
       background: #000;
       font-size: 0.625em;
+      font-weight: 700;
       color: #fff;
       line-height: 1em;
       padding: 3px 20px;
@@ -1060,6 +1062,7 @@ footer {
       background: var(--white, #FFF);
       margin-right: 10px;
       width: 50%;
+      max-width: 217px;
       font-size: 0.875em;
       font-weight: 700;
       color: $primary_color;
@@ -1076,6 +1079,8 @@ footer {
     border-radius: 6px;
     background: var(--primal-color, #0168B7);
     display: flex;
+    max-width: 444px;
+    margin: 0 auto;
     height: 55px;
     padding: 16px 24px;
     flex-direction: column;
@@ -1209,7 +1214,7 @@ footer {
           font-weight: 700;
           line-height: 1em;
           font-size: 0.625em;
-          padding: 5px;
+          padding: 3px 5px;
           margin-right: 10px;
           min-width: 50px;
         }
@@ -1219,14 +1224,15 @@ footer {
           border-radius: 4px;
           border: 1px solid var(--Gray-3, #828282);
           background: var(--white, #FFF);
+          width: 155px;
         }
       }
       .about_me_desc {
         textarea {
           width: 100%;
           margin-top: 30px;
-          min-height: 423px;
-          font-size: 1em;
+          min-height: 432px;
+          font-size: 0.875em;
         }
       }
     }
