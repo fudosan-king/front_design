@@ -154,6 +154,7 @@ header {
 
 .main_content {
   display: flex;
+  align-items: flex-start;
   &.template2 {
     flex-direction: row-reverse;
   }
@@ -188,7 +189,6 @@ header {
   position: relative;
   top: -126px;
   text-align: center;
-  max-height: 1480px;
   p {
     font-size: 0.875em;
   }
@@ -762,8 +762,10 @@ footer {
   &.admin {
     .standard_article {
       h2 {
-        font-size: 1em;
         margin-bottom: 30px;
+        input {
+          font-size: 24px;
+        }
       }
     }
   }
@@ -931,7 +933,7 @@ footer {
     margin: 0 0 10px;
     list-style: none;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     li {
       border-radius: 4px;
       background: #F0F6FB;
@@ -1256,6 +1258,7 @@ footer {
           margin-top: 30px;
           min-height: 432px;
           font-size: 0.875em;
+          margin-bottom: 0;
         }
       }
     }
