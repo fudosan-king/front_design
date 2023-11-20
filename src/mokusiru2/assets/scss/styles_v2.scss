@@ -858,7 +858,9 @@ $red_color: #EB5757;
         margin-bottom: 0;
     }
 }
-
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
 .card {
     &.assessmentmethod {
         border: none;
@@ -893,7 +895,7 @@ $red_color: #EB5757;
     }
     .box_unit_detail_img {
         display: flex;
-        align-items: center;
+        align-content: flex-start;
         .big_img {
             margin-right: 20px;
             min-width: 350px;
@@ -911,20 +913,230 @@ $red_color: #EB5757;
             padding: 0;
             margin: 0;
             display: flex;
-            align-self: center;
+            flex-wrap: wrap;
             li {
-                width: 50%;
+                width: 47%;
+                height: 236px;
                 margin-right: 20px;
                 margin-bottom: 20px;
                 &:nth-of-type(2n) {
                     margin-right: 0;
                 }
+                a {
+                    display: block;
+                }
                 img {
-                    
+                    width: 100%;
+                    height: 236px;
+                    object-fit: cover;
                 }
 
             }
         }
+    }
+
+    .box_unit_detail_info {
+        margin-top: 30px;
+        table {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #BDBDBD;
+            th {
+                font-weight: 600;
+                background-color: #E0E0E0;
+                padding: 10px;
+                color: #333;
+                border-color: #BDBDBD;
+                vertical-align: middle;
+                min-width: 200px;
+            }
+            td {
+                padding: 19px 20px;
+                font-size: 0.875em;
+                color: #333;
+                border-color: #BDBDBD;
+                p {
+                    margin-bottom: 0;
+                }
+            }
+            .price {
+                color: $red_color;
+                font-weight: 700;
+                font-size: 1.7143em;
+            }
+        }
+        .box_features {
+            border-radius: 10px;
+            background: var(--Gray-6, #F2F2F2);
+            padding: 30px 40px 40px 40px;
+            margin-bottom: 100px;
+            font-family: 'SF Pro Display';
+            h3 {
+                font-size: 1.625em;
+                margin-bottom: 20px;
+            }
+            h4 {
+                font-size: 1em;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            ul {
+                margin: 0;
+                padding: 0 0 20px 22px;
+                list-style-type: disc;
+                li {
+                    font-size: 0.875em;
+                    margin-bottom: 5px;
+                }
+            }
+            .box_personincharge {
+                border-radius: 10px;
+                background: #FFF;
+                padding: 10px 20px 20px 20px;
+                p {
+                    font-size: 0.875em;
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .box_objectsummary {
+            margin-bottom: 50px;
+            h2 {
+                font-size: 1.5em;
+                font-weight: 700;
+                position: relative;
+                padding-left: 10px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    width: 5px;
+                    height: 30px;
+                    background: $second_color;
+                }
+            }
+            table {
+                margin-bottom: 12px;
+                th {
+                    background-color: #F7F3EA;
+                    border-right: 1px solid #E0E0E0;
+                    min-width: 200px;
+                    color: $second_color;
+                }
+            }
+            h3 {
+                font-size: 1em;
+                font-weight: 400;
+            }
+            small {
+                font-size: 0.75em;
+                color: #828282;
+                line-height: 160%
+            }
+        }
+
+        .box_considering_purchasing {
+            padding-bottom: 50px;
+            border-bottom: 1px dotted;
+            margin-bottom: 50px;
+            h4 {
+                font-size: 1em;
+                margin-bottom: 10px;
+            }
+            .btn_inquiry {
+                background: #3CBCCF;
+                display: block;
+                padding: 13px;
+                color: #fff;
+                border-radius: 0;
+                width: 100%;
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                &:hover {
+                    background: #1e7684;
+                }
+                img {
+                    margin-right: 8px;
+                }
+            }            
+        }
+        .box_followprostyle {
+            border: 1px solid $primary_color;
+            padding: 19px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            &::before {
+                content: 'PROSTYLEのSNSをフォロー';
+                font-weight: 700;
+                font-size: 1em;
+                color: $second_color;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: -15px;
+                margin: 0 auto;
+                text-align: center;
+                width: 29%;
+                background: #fff;
+            }
+            li {
+                margin-right: 20px;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+                &:first-of-type {
+                    a {
+                        img {
+                            width: 10px;
+                        }
+                    }
+                }
+                &:hover {
+                    a {
+                        background: #eee;
+                    }
+                }
+                a {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: center;
+                    background: #fff;
+                    border-radius: 100px;
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+        .btn_mokusiru {
+            width: 100%;
+            padding: 32px;
+            background: $second_color;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0;
+            margin-bottom: 100px;
+            &:hover {
+                background: #72522c;
+            }
+        }
+
     }
 }
 
@@ -1098,6 +1310,48 @@ $red_color: #EB5757;
 
     .accepting_propertyentries {
         padding: 15px;
+    }
+
+    .section_unit_detail {
+        .box_unit_detail_img {
+            flex-wrap: wrap;
+            .big_img {
+                min-width: auto;
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .list_fourimg {
+                li {
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    width: 48%;
+                }
+            }
+        }
+        .box_unit_detail_info {
+            .box_features {
+                padding: 15px;
+            }
+            table {
+                th {
+                    min-width: auto;
+                }
+            }
+            .box_objectsummary {
+                table {
+                    th {
+                        min-width: 120px;
+                    }
+                }
+            }
+            .box_followprostyle {
+                &::before {
+                    width: 70%;
+                }
+            }
+        }
+        
     }
     
 }
