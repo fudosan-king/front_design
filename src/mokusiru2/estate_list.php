@@ -106,7 +106,7 @@
                                     </div>
                                 </div>
                                 <div class="estate_list_footer">
-                                    <a href="#" class="btn"><img src="assets/images/i_mail.svg" alt="" width="17"> お問い合わせ</a>
+                                    <a href="achievement_document_request.php" class="btn"><img src="assets/images/i_mail.svg" alt="" width="17"> お問い合わせ</a>
                                     <a href="estate_detail.php" class="btn">詳細を見る</a>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                                     </div>
                                 </div>
                                 <div class="estate_list_footer">
-                                    <a href="#" class="btn"><img src="assets/images/i_mail.svg" alt="" width="17"> お問い合わせ</a>
+                                    <a href="achievement_document_request.php" class="btn"><img src="assets/images/i_mail.svg" alt="" width="17"> お問い合わせ</a>
                                     <a href="estate_detail.php" class="btn">詳細を見る</a>
                                 </div>
                             </div>
