@@ -1,20 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
-@font-face {
-    font-family: "SF Pro Text";
-    src: url("../fonts/116f64f66c1cfef86f6eb0c37b61b43b.eot");
-    src: url("../fonts/116f64f66c1cfef86f6eb0c37b61b43b.eot?#iefix")format("embedded-opentype"),
-        url("../fonts/116f64f66c1cfef86f6eb0c37b61b43b.woff")format("woff"),
-        url("../fonts/116f64f66c1cfef86f6eb0c37b61b43b.woff2")format("woff2"),
-        url("../fonts/116f64f66c1cfef86f6eb0c37b61b43b.ttf")format("truetype"),
-        url("../fonts/116f64f66c1cfef86f6eb0c37b61b43b.svg#SF Pro Text")format("svg");
-    font-weight:normal;
-    font-style:normal;
-    font-display:swap;
-}
+@import url(https://db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text+Regular);
 
 $primary_color: #8C7D60;
+$second_color: #AD814D;
+$red_color: #EB5757;
 
+.red {
+    color: $red_color;
+}
 .header-top {
     &.main {
         .navbar-expand-lg {
@@ -281,7 +274,7 @@ $primary_color: #8C7D60;
     h3 {
         font-size: 1.125em;
         font-weight: 400;
-        font-family: "SF Pro Text";
+        font-family: "SF Pro Text Regular";
         margin-bottom: 18px;
     }
     .btn {
@@ -316,7 +309,7 @@ $primary_color: #8C7D60;
         .article_title {
             font-weight: 500;
             font-size: 1.5em;
-            font-family: "SF Pro Text";
+            font-family: "SF Pro Text Regular";
             position: relative;
             background: #F2F2F2;
             display: flex;
@@ -342,15 +335,23 @@ $primary_color: #8C7D60;
             }
         }
         .article_subtitle {
-            font-family: "SF Pro Text";
+            font-family: "SF Pro Text Regular";
             font-size: 1.25em;
             color: $primary_color;
             margin-bottom: 20px;
             font-weight: 700;
         }
+        .article_subtitle2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 700;
+            border-left: 5px solid $primary_color;
+            padding-left: 10px;
+        }
         p {
             margin-bottom: 20px;
-            font-family: "SF Pro Text";
+            font-family: "SF Pro Text Regular";
         }
     }
     .w_img {
@@ -373,7 +374,7 @@ $primary_color: #8C7D60;
             img {
                 width: 100%;
                 height: 400px;
-                object-fit: cover;
+                object-fit: none;
             }
         }
         .square_small {
@@ -399,7 +400,7 @@ $primary_color: #8C7D60;
     .description {
         display: block;
         font-size: 0.625em;
-        font-family: "SF Pro Text";
+        font-family: "SF Pro Text Regular";
         margin-top: 5px;
         text-align: left;
     }
@@ -465,7 +466,472 @@ $primary_color: #8C7D60;
     }
 }
 
-@media (max-width: 834px) {
+.list_estate_item {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-content: center;
+    li {
+        min-width: 258px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        &:nth-of-type(3n) {
+            margin-right: 0;
+        }
+        .list_estate_item_img {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            border: 1px solid #E0E0E0;
+            border-bottom: none;
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            a {
+                display: block;
+            }
+        }
+        .list_estate_item_content {
+            padding: 20px;
+            border: 1px solid #E0E0E0;
+            border-bottom: none;
+            background: #fff;
+            h4 {
+                font-size: 1em;
+                color: $primary_color;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            p {
+                font-family: 'SF Pro Display';
+                margin-bottom: 0;
+                font-size: 0.875em;
+                &.price {
+                    margin-bottom: 10px;
+                    .big_price {
+                        font-size: 1.7143em;
+                        color: #EB5757;
+                        font-weight: 700;
+                    }
+                    i {
+                        font-style: normal;
+                        font-weight: 700;
+                        color: #EB5757;
+                    }
+                }
+            }
+        }
+        .btn_viewdetail {
+            display: block;
+            background: #AD814D;
+            color: #fff;
+            border-radius: 0;
+            font-size: 0.75em;
+            font-weight: 700;
+            padding: 8.5px 10px;
+            &:hover {
+                background: #664a28;
+            }
+        }
+    }
+}
+
+.fancybox__container {
+    z-index: 9999;
+}
+
+.mansiongallery {
+    padding: 30px 20px;
+    background: #F7F3EA;
+    h2 {
+        color: #AD814D;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    p {
+        line-height: 200%;
+        font-family: 'SF Pro Text Regular';
+    }
+    .mansiongallery_item {
+        margin-top: 30px;
+        display: flex;
+        align-content: center;
+        &:nth-of-type(2n) {
+            .mansiongallery_img {
+                margin-right: 0;
+                margin-left: 20px;
+            }    
+        }
+        .mansiongallery_img {
+            min-width: 400px;
+            margin-right: 20px;
+            height: 290px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 290px;
+                object-fit: cover;
+            }
+        }
+        .mansiongallery_content {
+            h3 {
+                font-family: 'SF Pro Text Regular';
+                color: #AD814D;
+                font-weight: 700;
+                font-size: 1.25em;
+            }
+        }
+    }
+    .box_inquiries_contact {
+        margin-top: 47px;
+        padding: 30px 20px 20px 20px;
+        border: 1px solid var(--Primary, #AD814D);
+        background: var(--Primary, #FFF);
+        position: relative;
+        h4 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -18px;
+            margin: 0 auto;
+            max-width: 332px;
+            text-align: center;
+            font-weight: 700;
+            font-family: 'SF Pro Text Regular';
+            font-size: 1em;
+            color: #AD814D;
+            border: 1px solid var(--Primary, #AD814D);
+            background: var(--Primary, #FFF);
+            padding: 6px 28px;
+            display: inline-block;
+        }
+        .box_inquiries_contact_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .map {
+                min-width: 415px;
+                height: 240px;
+                overflow: hidden;
+                margin-right: 20px;
+                img {
+                    width: 100%;
+                    height: 240px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .info {
+            h5 {
+                color: #000;
+                font-family: 'SF Pro Text Regular';
+                font-weight: 400;
+                line-height: 180%;
+                font-size: 1.25em;
+            }
+            p {
+                font-size: 0.875em;
+                font-weight: 700;
+                margin-bottom: 10px;
+                line-height: 120%;
+                small {
+                    font-size: 0.8571em;
+                    font-weight: 400;
+                }
+            }
+        }
+        .btn_reserve {
+            display: block;
+            background: #AD814D;
+            color: #fff;
+            border-radius: 0;
+            min-height: 40px;
+            margin-top: 15px;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                left: 2px;
+                right: 2px;
+                bottom: 2px;
+                top: 2px;
+                border: 1px solid #fff;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                right: 30px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                width: 10px;
+                height: 10px;
+                background: url('../images/i_polygon.svg') no-repeat;
+            }
+            &:hover {
+                background: #77562f;
+            }
+        }
+    }
+}
+
+.section_contactus {
+    .container {
+        max-width: 950px;
+    }
+    .contactus_top {
+        text-align: center;
+        h2 {
+            font-size: 2.25em;
+            position: relative;
+            margin-bottom: 60px;
+            margin-top: 40px;
+            span {
+                font-size: 0.875rem;
+            }
+            p {
+                small {
+                    margin-bottom: 0;
+                    font-size: 0.75rem;
+                    line-height: 1.4em;
+                }
+            }
+        }
+    }
+    .contactus_content {
+        padding-bottom: 100px;
+        .form-group {
+            margin-bottom: 30px;
+        }
+        .custom-control {
+            margin-bottom: 5px;
+        }
+        .form-control {
+            font-size: 0.875em;
+            border-color: #828282;
+            height: calc(1.5em + 0.75rem + 7px);
+
+        }
+        textarea {
+            &.form-control {
+                height: auto;
+            }
+        }
+        .box_datetime {
+            position: relative;
+            .i_datetime {
+                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='22' viewBox='0 0 20 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M17 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5C19 3.89543 18.1046 3 17 3Z' stroke='%23B48856' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M14 1V5' stroke='%23B48856' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M6 1V5' stroke='%23B48856' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M1 9H19' stroke='%23B48856' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+                width: 20px;
+                height: 22px;
+                position: absolute;
+                right: 9px;
+                top: 9px;
+            }
+        }
+        .contactus_footer {
+            text-align: center;
+            .custom-checkbox {
+                label {
+                    line-height: 1.8em;
+                }
+            }
+            p {
+                font-size: 0.75em;
+                line-height: 1.5em;
+                color: #333;
+            }
+            .btnsubmit {
+                display: block;
+                background: $second_color;
+                color: #fff;
+                border-radius: 3px;
+                padding: 12px 20px;
+                min-width: 440px;
+                margin: auto;
+                margin-top: 15px;
+                &:hover {
+                    background: $primary_color;
+                }
+            }
+        }
+        
+        .btn_autofill_prefectureaddress {
+            display: flex;
+            align-content: center;
+            color: $second_color;
+        }
+    }
+
+    .custom-checkradio {
+        padding-left: 15px;
+        padding-right: 0;
+        max-width: 130px;
+    }
+    .check-radio {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        span {
+            margin-left: 0;
+        }
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+        .checkmark {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            height: 20px;
+            width: 20px;
+            border: 1px solid #828282;
+            border-radius: 50%;
+            &::after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+        }
+    }
+    .check-radio input:checked ~ .checkmark:after {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #B48856;
+        display: block;
+    }
+    .custom-select {
+        background: #fff url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='10' cy='10' r='10' fill='%23B48856'/%3e%3cpath d='M5.29413 8.23535L10 12.9412L14.7059 8.23535' stroke='white' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e") no-repeat right 0.75rem center/20px 20px;
+        color: #828282;
+    }
+    label {
+        font-size: 0.875em;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+    .custom-checkbox {
+        .custom-control-label {
+            span {
+                display: inline-block;
+                margin-left: 8px;
+                position: relative;
+                top: 5px;
+            }
+            &::before {
+                border-radius: 0;
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+            &::after {
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+        }
+    }
+    .custom-control-input:checked ~ .custom-control-label::before {
+        border-color: $primary_color;
+        background: $primary_color;
+    }
+}
+
+.contact_tel {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.card {
+    &.assessmentmethod {
+        border: none;
+        margin-top: 30px;
+        .card-header {
+            background-color: $second_color;
+            color: #fff;
+            border: none;
+            &:first-child {
+                border-radius: 0;
+            }
+        }
+        .describe {
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: 0.25rem;
+            padding: 10px;
+        }
+    }
+}
+
+.contactus_top {
+    &.request_assessment_top {
+        margin-top: 90px;
+    }
+}
+
+.section_unit_detail {
+    h2 {
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-family: 'SF Pro Display';
+    }
+    .box_unit_detail_img {
+        display: flex;
+        align-items: center;
+        .big_img {
+            margin-right: 20px;
+            min-width: 350px;
+            height: 490px;
+            border: 1px solid #E0E0E0;
+            padding: 10px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 490px;
+                object-fit: cover;
+            }
+        }
+        .list_fourimg {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-self: center;
+            li {
+                width: 50%;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                &:nth-of-type(2n) {
+                    margin-right: 0;
+                }
+                img {
+                    
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 1180px) {
     .w_estate_list_item {
         .estate_list_item {
             .estate_list_item_main {
@@ -482,4 +948,156 @@ $primary_color: #8C7D60;
             }
         }
     }
+
+    .estate_detail_top {
+        .estate_detail_top_head {
+            h2 {
+                font-size: 1em;
+            }
+        }
+        ul {
+            flex-direction: column;
+            li {
+                display: flex;
+                align-items: center;
+                margin-right: 0;
+                margin-bottom: 10px;
+                min-width: auto;
+                width: 100%;
+                min-height: 85px;
+            }
+        }
+    }
+
+    .estate_detail {
+        .w_box_square {
+            flex-direction: column;
+            .box_square {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+        .w_img {
+            flex-direction: column;
+            .square_big {
+                min-width: auto;
+                margin-right: 0;
+            }
+        }
+        .rectangle_img {
+            height: 300px;
+            img {
+                height: 300px;
+            }
+        }
+        .list_square_img {
+            li {
+                margin-right: 5px;
+                width: 33%;
+                a {
+                    height: 100px;
+                    img {
+                        height: 200px;
+                    }
+                }
+            }
+        }
+
+        article {
+            .article_title {
+                flex-direction: column;
+                padding: 15px;
+                span {
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 10px;
+                    margin-right: 0;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+
+    .section_contactus {
+        label {
+            margin-bottom: 5px;
+        }
+        .contactus_content {
+            .form-group {
+                margin-bottom: 15px;
+            }
+            .contactus_footer {
+                .btnsubmit {
+                    min-width: 260px;
+                }
+            }
+            .btn_autofill_prefectureaddress {
+                margin-top: 10px;
+            }
+        }
+        .contactus_top {
+            margin-top: 130px;
+            h2 {
+                font-size: 1.8em;
+            }
+        }
+    }
+
+    .list_estate_item {
+        flex-direction: row;
+        flex-wrap: wrap;
+        li {
+            width: 100%;
+            min-width: auto;
+            margin-right: 0;
+        }
+    }
+
+    .mansiongallery {
+        h2 {
+            font-size: 1.2em;
+        }
+        .mansiongallery_item {
+            flex-direction: column;
+            &:nth-of-type(2n) {
+                .mansiongallery_img {
+                    margin-left: 0;
+                }
+            }
+            .mansiongallery_img {
+                width: 100%;
+                min-width: auto;
+                margin-bottom: 15px;
+            }
+        }
+        .box_inquiries_contact {
+            h4 {
+                left: 15px;
+                right: 15px;
+            }
+            .info {
+                h5 {
+                    font-size: 1em;
+                }
+                p {
+                    font-size: .75em;
+                }
+            }
+            .box_inquiries_contact_content {
+                flex-direction: column;
+                .map {
+                    min-width: auto;
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+
+    .accepting_propertyentries {
+        padding: 15px;
+    }
+    
 }
