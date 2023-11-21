@@ -1140,6 +1140,44 @@ $red_color: #EB5757;
     }
 }
 
+.list_page {
+    .section_result {
+        .section_result_head {
+            text-align: center;
+            color: $second_color;
+            margin-bottom: 50px;
+            h3 {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                letter-spacing: 2px;
+            }
+            p {
+                font-size: 0.875em;
+                margin-bottom: 0;
+            }
+        }
+        .list_result {
+            display: flex;
+            align-items: flex-start;
+            li {
+                min-width: 260px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+                ul {
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    li {
+                        min-width: auto;
+                        margin-right: 0;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 

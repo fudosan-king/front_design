@@ -28,7 +28,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3">
-                                        <label for="" class="label_required">お問い合わせ事項（複数選択可）</label>
+                                        <label for="" class="label_required">お問い合わせ事項（複数選択可）<span class="red">（※）</span></label>
                                         <input type="hidden" name="contact_item_text" value="">
                                     </div>
                                     <div class="col-12 col-lg-9">
@@ -91,7 +91,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">お名前 <span>（フリガナ）</span></label>
+                                        <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <div class="row">
@@ -165,7 +165,7 @@
                                         <label for="" class="label_required">住所 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
-                                        <input type="number" class="form-control required" placeholder="" name="">
+                                        <input type="text" class="form-control required" placeholder="" name="">
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                         <label for="" class="label_required">建物名・号室 </label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
-                                        <input type="number" class="form-control required" placeholder="" name="">
+                                        <input type="text" class="form-control required" placeholder="" name="">
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label for="" class="label_required">都道府県 <span class="red">（※）</span></label>
+                                        <label for="" class="label_required">ご予算 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <select class="form-control custom-select">
@@ -200,6 +200,7 @@
                                             <option value="～20,000万円">～20,000万円</option>
                                             <option value="～25,000万円">～25,000万円</option>
                                             <option value="～30,000万円">～30,000万円</option>
+                                            <option value="～35,000万円">～35,000万円</option>
                                             <option value="～40,000万円">～40,000万円</option>
                                             <option value="～45,000万円">～45,000万円</option>
                                         </select>

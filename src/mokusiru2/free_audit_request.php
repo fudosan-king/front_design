@@ -74,6 +74,16 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">物件の内容</label>
+                                            </div>
+                                            <div class="col-12 col-lg-9 align-self-center">
+                                                <p class="mb-0">Auto get [Estate Name] Value</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-3 align-self-center">
                                                 <label class="mb-lg-0 mb-2" for="">間取り <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
@@ -120,7 +130,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">間取り <span class="red">（※）</span></label>
+                                                <label class="mb-lg-0 mb-2" for="">築年 <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <select class="form-control custom-select">
@@ -146,7 +156,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">郵便番号</label>
+                                                <label class="mb-lg-0 mb-2" for="">郵便番号 <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <div class="row">
@@ -164,7 +174,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">都道府県</label>
+                                                <label class="mb-lg-0 mb-2" for="">都道府県 <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <select class="form-control custom-select">
@@ -176,7 +186,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">住所</label>
+                                                <label class="mb-lg-0 mb-2" for="">住所 <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <input type="text" name="" value="" class="form-control">
@@ -211,10 +221,10 @@
                                 <div class="card-body">
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
+                                            <div class="col-12 col-lg-4 align-self-center">
                                                 <label class="mb-lg-0 mb-2" for="">お名前 <span class="red">（※）</span></label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <div class="row">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="row mb-2 mb-lg-0">
@@ -243,10 +253,10 @@
 
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">お名前 <span>（フリガナ）</span></label>
+                                            <div class="col-12 col-lg-4 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（※）</span></label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <div class="row">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="row mb-2 mb-lg-0">
@@ -275,10 +285,10 @@
 
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">郵便番号 </label>
+                                            <div class="col-12 col-lg-4 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">郵便番号 <span class="red">（※）</span></label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <div class="row">
                                                     <div class="col-12 col-lg-6">
                                                         <input type="text" name="zip_code" class="form-control" placeholder="例：1234567" onkeyup="AjaxZip3.zip2addr(this,'','pref','city');">
@@ -293,10 +303,10 @@
 
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">都道府県</label>
+                                            <div class="col-12 col-lg-4 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">都道府県 <span class="red">（※）</span></label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <select class="form-control custom-select">
                                                     <option value=""></option>
                                                 </select>
@@ -305,40 +315,40 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">住所</label>
+                                            <div class="col-12 col-lg-4 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">住所 <span class="red">（※）</span></label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <input type="text" name="" value="" class="form-control">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
+                                            <div class="col-12 col-lg-4 align-self-center">
                                                 <label class="mb-lg-0 mb-2" for="">建物名・号室</label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <input type="text" name="" value="" class="form-control">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">ご連絡先電話番号</label>
+                                            <div class="col-12 col-lg-4 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">ご連絡先電話番号 <span class="red">（※）</span></label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <input type="number" name="" value="" class="form-control">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-12 col-lg-3 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">メールアドレスメールアドレス</label>
+                                            <div class="col-12 col-lg-4 align-self-center">
+                                                <label class="mb-lg-0 mb-2" for="">メールアドレスメールアドレス <span class="red">（※）</span></label>
                                             </div>
-                                            <div class="col-12 col-lg-9 align-self-center">
+                                            <div class="col-12 col-lg-8 align-self-center">
                                                 <input type="email" name="" value="" class="form-control">
                                             </div>
                                         </div>

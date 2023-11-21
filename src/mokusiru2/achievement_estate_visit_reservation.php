@@ -106,7 +106,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">お名前 <span>（フリガナ）</span></label>
+                                        <label class="mb-lg-0 mb-2" for="">お名前 （フリガナ）<span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <div class="row">
@@ -175,7 +175,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">電話番号 <span class="red">（※）</span></label>
+                                        <label class="mb-lg-0 mb-2" for="">お電話番号 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <input type="tel" name="phone" class="form-control required" placeholder="例：08000000000">
@@ -186,7 +186,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">郵便番号 </label>
+                                        <label class="mb-lg-0 mb-2" for="">郵便番号 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <div class="row">
@@ -204,7 +204,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">都道府県 </label>
+                                        <label class="mb-lg-0 mb-2" for="">都道府県 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <select name="pref" class="form-control custom-select">
@@ -264,7 +264,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">住所 </label>
+                                        <label class="mb-lg-0 mb-2" for="">住所 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <input type="text" name="city" class="form-control">
@@ -284,7 +284,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="mb-2" for="">ご相談事項</label>
+                                <label class="mb-2" for="">ご質問、ご要望等</label>
                                 <textarea name="request_content" id="" class="form-control" cols="30" rows="8" placeholder="エリア、間取り、ご予算などのご希望やご相談事項など"></textarea>
                             </div>
 
