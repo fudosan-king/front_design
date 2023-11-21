@@ -18,10 +18,10 @@
                     <div class="main-content">
 
                         <section class="section_unit_detail">
-                            <h2>プロスタイル南町田 202号室</h2>
+                            <h2>プロスタイル南町田</h2>
                             <div class="box_unit_detail_img">
                                 <div class="big_img">
-                                    <a href="assets/images/products/estate02.jpg" data-fancybox="gallery"><img src="assets/images/products/estate02.jpg" alt="estate02"></a>
+                                    <a href="assets/images/products/big_img.png" data-fancybox="gallery"><img src="assets/images/products/big_img.png" alt="estate02"></a>
                                 </div>
                                 <ul class="list_fourimg">
                                     <li>
@@ -39,83 +39,12 @@
                                 </ul>
                             </div>
 
+                            <div class="box_keypoints">
+                                <span>本物件のポイント</span>
+                                <p>■天然無垢材を多用した高級デザイン ■高い収納率と機能的なプラン ■10.2帖のマスターベットルーム ■トイレ2ヶ所、ツインボール洗面人気の同時使いプラン ■南向きで陽当り良好 ■2018年大規模修繕工事実施済 弊社売主となりますので是非お問合せ下さい。</p>
+                            </div>
+
                             <div class="box_unit_detail_info">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <tr>
-                                            <th>価格</th>
-                                            <td colspan="3">
-                                                <p class="price">4,480<span>万円</span></p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>所在地</th>
-                                            <td colspan="3">東京都品川区大井4</td>
-                                        </tr>
-                                        <tr>
-                                            <th>価格</th>
-                                            <td colspan="3">
-                                                <p>
-                                                    半蔵門線　青山一丁目駅　徒歩5分<br>
-                                                    JR山の手線　原宿駅　徒歩12分<br>
-                                                    JR内房線 五井駅 バス5分 徒歩10分（バス：吹上通り角停留所）
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>間取り</th>
-                                            <td>3LDK</td>
-                                            <th>専有面積</th>
-                                            <td>壁芯79.36m2</td>
-                                        </tr>
-                                        <tr>
-                                            <th>バルコニー面積</th>
-                                            <td>13.00m2</td>
-                                            <th>築年月</th>
-                                            <td>2000年7月</td>
-                                        </tr>
-                                        <tr>
-                                            <th>所在階数</th>
-                                            <td>2階／地上12階</td>
-                                            <th>向き</th>
-                                            <td>壁南</td>
-                                        </tr>
-                                    </table>
-                                </div>
-
-                                <div class="box_features">
-                                    <h3>プロスタイル南町田 202号室の特徴</h3>
-                                    <h4>物件について</h4>
-                                    <ul>
-                                        <li>南向きにつき陽当たり良好です。</li>
-                                        <li>ペット飼育可。大切な家族であるペットと 一緒に暮らすことが可能です。 （管理規約等による制限あり）</li>
-                                        <li>リビングに床暖房が付いている為、冬でも快適に過ごせます。</li>
-                                        <li>総戸数122戸（全棟総戸数686戸）の大規模マンションです。</li>
-                                        <li>1階住戸につき専用庭あり。 下階への足音を気にせずお過ごし頂けます。</li>
-                                        <li>アウトフレーム工法につき、 家具の配置がしやすい間取りです。</li>
-                                        <li>自走式駐車場100％設置</li>
-                                        <li>24時間の有人管理</li>
-                                    </ul>
-                                    <h4>ライフインフォメーション</h4>
-                                    <ul>
-                                        <li>南町田保育園 ・・・約320ｍ(4分)</li>
-                                        <li>鶴間幼稚園 ・・・約1010ｍ(13分)</li>
-                                        <li>町田市立南つくし野小学校 ・・・約330ｍ(5分)</li>
-                                        <li>町田市立つくし野中学校 ・・・約750ｍ(10分)</li>
-                                        <li>グランベリーパーク ・・・約580ｍ(8分)</li>
-                                        <li>エイビイ南町田店 ・・・約550ｍ(7分)</li>
-                                        <li>オーケー町田小川店 ・・・約770ｍ(10分)</li>
-                                        <li>スヌーピーミュージアム ・・・約760ｍ(10分)</li>
-                                        <li>町田慶泉病院 ・・・約900ｍ(12分)</li>
-                                        <li>南町田病院 ・・・約1160ｍ(15分)</li>
-                                        <li>市立鶴間公園 ・・・約710ｍ(9分)</li>
-                                    </ul>
-                                    <div class="box_personincharge">
-                                        <h4>担当者より</h4>
-                                        <p>この度は、「ガーデンセシア壱番館」をご覧頂きまして、誠にありがとうございます。上記内容は一部のご紹介です。ぜひ室内をご覧になって頂けますと幸いです。ご案内・資料請求など随時承っておりますので、お気軽にお問い合わせください。ご連絡心よりお待ちしております。</p>
-                                    </div>
-                                </div>
-
                                 <div class="box_objectsummary">
                                     <h2>物件概要</h2>
                                     <div class="table-responsive">
@@ -164,18 +93,81 @@
                                     </p>
                                 </div>
 
-                                <div class="box_considering_purchasing">
-                                    <div class="box">
-                                        <h4>ご購入を検討の方へ</h4>
-                                        <a href="achievement_document_request.php" class="btn btn_inquiry"><img src="assets/images/i_home.svg" alt="home"> お問い合わせ
-                                        </a>
-                                    </div>
-                                    <div class="box">
-                                        <h4>ご売却をお考えの方へ</h4>
-                                        <a href="achievement_estate_visit_reservation.php" class="btn btn_inquiry"><img src="assets/images/i_search.svg" alt="search"> 内覧のお申し込み
-                                        </a>
-                                    </div>
+                                <div class="box_features brown">
+                                    <h3>プロスタイル南町田の特徴</h3>
+                                    <p>プロスタイル南町田は、シャープな外観の2017年3月に竣工した7階建てのマンションです。東、南、西側が生活道路に面した3方向接道の開放的な敷地です。南側にエントランスへのアプローチが設けられ、北側に駐車場への入庫路が設置された歩車分離のレイアウトで安全面にも配慮しています。スロープの設けられたエントランスには、ダウンライトの灯るお洒落なポーチが優美な空間を演出しています。またTVモニター付きオートロックや防犯カメラを設置してセキュリティ対策をしています。さらに生活を便利にサポートする宅配ボックスもあり、留守時でも荷物の受け取りがスムーズです。プロスタイル南町田の総住戸数は30戸、分譲時の間取りは2LDK～4LDK、面積帯は58.73㎡～78.70㎡を中心としています。全戸西向きにレイアウトされ、1階住戸にはテラスの先に戸建て感覚の暮らしが楽しめる専用庭があります。各住戸のバルコニーは1.8mの奥行を確保し、バルコニーに面した居室は柱が室内に出ないアウトフレーム工法で、すっきりとしています。また玄関はダブルディンプルキーを採用し、住まう方の安心安全を守ります。プロスタイル南町田は、東急田園都市線南町田駅から徒歩6分です。</p>
                                 </div>
+
+                                <article class="article_estate">
+                                    <h3 class="article_subtitle2">プロスタイル南町田 売出し中物件</h3>
+                                    <ul class="list_estate_item">
+                                        <li>
+                                            <div class="list_estate_item_img">
+                                                <a href="assets/images/products/estate01.jpg" data-fancybox="gallery" data-caption="estate01"><img src="assets/images/products/estate01.jpg" alt="estate01"></a>
+                                            </div>
+                                            <div class="list_estate_item_content">
+                                                <h4>プロスタイル南町田 202号室</h4>
+                                                <p class="price">価格 <span class="big_price">5,280</span><i>万円</i></p>
+                                                <p><span>間取り</span>: <span>3LDK</span> </p>
+                                                <p><span>占有面積</span>: <span>79.36 m2</span> </p>
+                                                <p><span>所在階</span>: <span>１階／地上12階</span> </p>
+                                            </div>
+                                            <div class="list_estate_item_footer">
+                                                <a href="achievement_document_request.php" class="btn btn_contactus">お問合せ</a>
+                                                <a class="btn btn_viewdetail" href="unit_detailpage.php">詳細を見る</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list_estate_item_img">
+                                                <a href="assets/images/products/estate01.jpg" data-fancybox="gallery" data-caption="estate01"><img src="assets/images/products/estate01.jpg" alt="estate01"></a>
+                                            </div>
+                                            <div class="list_estate_item_content">
+                                                <h4>プロスタイル南町田 202号室</h4>
+                                                <p class="price">価格 <span class="big_price">5,280</span><i>万円</i></p>
+                                                <p><span>間取り</span>: <span>3LDK</span> </p>
+                                                <p><span>占有面積</span>: <span>79.36 m2</span> </p>
+                                                <p><span>所在階</span>: <span>１階／地上12階</span> </p>
+                                            </div>
+                                            <div class="list_estate_item_footer">
+                                                <a href="achievement_document_request.php" class="btn btn_contactus">お問合せ</a>
+                                                <a class="btn btn_viewdetail" href="unit_detailpage.php">詳細を見る</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list_estate_item_img">
+                                                <a href="assets/images/products/estate01.jpg" data-fancybox="gallery" data-caption="estate01"><img src="assets/images/products/estate01.jpg" alt="estate01"></a>
+                                            </div>
+                                            <div class="list_estate_item_content">
+                                                <h4>プロスタイル南町田 202号室</h4>
+                                                <p class="price">価格 <span class="big_price">5,280</span><i>万円</i></p>
+                                                <p><span>間取り</span>: <span>3LDK</span> </p>
+                                                <p><span>占有面積</span>: <span>79.36 m2</span> </p>
+                                                <p><span>所在階</span>: <span>１階／地上12階</span> </p>
+                                            </div>
+                                            <div class="list_estate_item_footer">
+                                                <a href="achievement_document_request.php" class="btn btn_contactus">お問合せ</a>
+                                                <a class="btn btn_viewdetail" href="unit_detailpage.php">詳細を見る</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+
+                                <div class="box_purchasing">
+                                    <h4>ご購入をお考えの方</h4>
+                                    <a href="request_inform_estate_onsale.php" class="btn"><img src="assets/images/i_home.svg" alt="home"> 売り出されたら教えて欲しい</a>
+                                </div>
+                                <div class="box_consideringselling">
+                                    <h4>ご売却をお考えの方へ</h4>
+                                    <p>プロスタイルマンションの販売をご検討いただける方には、多くの特典をご用意しています。</p>
+                                    <ul>
+                                        <li>特典内容が入ります特典内容が入ります特典内容が入ります特典内容が入ります。</li>
+                                        <li>特典内容が入ります特典内容が入ります特典内容が入ります特典内容が入ります。</li>
+                                        <li>特典内容が入ります特典内容が入ります特典内容が入ります特典内容が入ります。</li>
+                                    </ul>
+                                    <a href="free_audit_request.php" class="btn"><img src="assets/images/i_search.svg" alt="search"> 無料売却査定</a>
+                                </div>
+
+                                <hr class="dot">
 
                                 <ul class="box_followprostyle">
                                     <li>

@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&display=swap');
-@import url(https://db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text+Regular);
+@import url('https://db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text+Regular');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    font-family: 'SF Pro Display', "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+}
 
 $primary_color: #8C7D60;
 $second_color: #AD814D;
 $red_color: #EB5757;
+$blue_color: #3CBCCF;
 
 .red {
     color: $red_color;
@@ -129,7 +135,7 @@ $red_color: #EB5757;
                     margin-bottom: 0;
                     th {
                         font-size: 0.75em;
-                        color: #8C7D60;
+                        color: #AD814D;
                         background: #F7F3EA;
                         padding: 13px;
                         min-width: 100px;
@@ -139,6 +145,7 @@ $red_color: #EB5757;
                         font-size: 0.875em;
                         padding: 13px;
                         vertical-align: middle;
+                        color: #4F4F4F;
                     }
                 }
             }
@@ -200,7 +207,7 @@ $red_color: #EB5757;
        
     }
     p {
-        padding: 10px 20px;
+        padding: 18px 40px;
         background: $primary_color;
         color: #fff;
         margin-bottom: 20px;
@@ -301,9 +308,7 @@ $red_color: #EB5757;
 }
 
 .estate_detail {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     article {
         margin-bottom: 60px;
         .article_title {
@@ -887,6 +892,33 @@ $red_color: #EB5757;
     }
 }
 
+.box_keypoints {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 146px;
+    border: 1px solid $second_color;
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $second_color;
+        width: 173px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
+    p {
+        margin-bottom: 0;
+        padding: 20px;
+        margin-left: 173px;
+    }
+}
+
 .section_unit_detail {
     h2 {
         font-weight: 500;
@@ -901,7 +933,6 @@ $red_color: #EB5757;
             min-width: 350px;
             height: 490px;
             border: 1px solid #E0E0E0;
-            padding: 10px;
             overflow: hidden;
             img {
                 width: 100%;
@@ -966,13 +997,18 @@ $red_color: #EB5757;
         }
         .box_features {
             border-radius: 10px;
-            background: var(--Gray-6, #F2F2F2);
+            background: #F2F2F2;
             padding: 30px 40px 40px 40px;
             margin-bottom: 100px;
             font-family: 'SF Pro Display';
+            &.brown {
+                background: #F7F3EA;
+                margin-bottom: 50px;
+            }
             h3 {
-                font-size: 1.625em;
+                font-size: 1.5em;
                 margin-bottom: 20px;
+                font-weight: 700;
             }
             h4 {
                 font-size: 1em;
@@ -986,6 +1022,11 @@ $red_color: #EB5757;
                 li {
                     font-size: 0.875em;
                     margin-bottom: 5px;
+                }
+            }
+            p {
+                &:last-of-type {
+                    margin-bottom: 0;
                 }
             }
             .box_personincharge {
@@ -1044,6 +1085,34 @@ $red_color: #EB5757;
             padding-bottom: 50px;
             border-bottom: 1px dotted;
             margin-bottom: 50px;
+            display: flex;
+            .box {
+                width: 50%;
+                margin-right: 20px;
+                .btn {
+                    position: relative;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: 3px;
+                        top: 3px;
+                        bottom: 3px;
+                        right: 3px;
+                        border: 1px solid #fff;
+                    }
+                }
+                &:first-of-type {
+                    .btn {
+                        background: $second_color;
+                        &:hover {
+                            background: #7d5a2f;
+                        }
+                    }
+                }
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
             h4 {
                 font-size: 1em;
                 margin-bottom: 10px;
@@ -1142,6 +1211,8 @@ $red_color: #EB5757;
 
 .list_page {
     .section_result {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 50px;
         .section_result_head {
             text-align: center;
             color: $second_color;
@@ -1160,6 +1231,8 @@ $red_color: #EB5757;
             display: flex;
             align-items: flex-start;
             flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
             li {
                 width: 31%;
                 margin-right: 20px;
@@ -1177,6 +1250,33 @@ $red_color: #EB5757;
                         width: 100%;
                         font-size: 0.6875em;
                         color: #4F4F4F;
+                        position: relative;
+                        &::before {
+                            content: '● ';
+                            display: inline-block;
+                        }
+                    }
+                }
+                .item_img {
+                    display: block;
+                    width: 100%;
+                    height: 250px;
+                    overflow: hidden;
+                    background-color: #E0E0E0;
+                    img {
+                        width: 100%;
+                        height: 250px;
+                        object-fit: cover;
+                        -webkit-transform: scale(1);
+                        transform: scale(1);
+                        -webkit-transition: .3s ease-in-out;
+                        transition: .3s ease-in-out;
+                    }
+                    &:hover {
+                        img {
+                            -webkit-transform: scale(1.3);
+	                        transform: scale(1.3);
+                        }
                     }
                 }
                 .item_content {
@@ -1187,12 +1287,142 @@ $red_color: #EB5757;
                         color: $second_color;
                     }
                 }
+                .btn_detail {
+                    font-size: 0.6875em;
+                    display: flex;
+                    align-self: center;
+                    align-items: center;
+                    justify-content: flex-end;
+                    margin-top: 10px;
+                    img {
+                        margin-left: 10px;
+                    }
+                    &:hover {
+                        color: $second_color;
+                    }
+                }
             }
         }
     }
 }
 
+.article_estate {
+    margin-bottom: 50px;
+    .article_subtitle2 {
+        font-size: 1.5em;
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: 700;
+        border-left: 5px solid #8C7D60;
+        padding-left: 10px;
+    }
+    .list_estate_item_footer {
+        display: flex;
+        .btn {
+            color: #fff;
+            border-radius: 0;
+            font-size: 0.75em;
+            font-weight: 700;
+            padding: 8.5px 10px;
+            width: 50%;
+            &:first-of-type {
+                background: #3CBCCF;
+                border-radius: 0;
+                &:hover {
+                    background: #2693a4;
+                }
+            }
+        }
+    }
+}
 
+.box_purchasing {
+    text-align: center;
+    margin-bottom: 40px;
+    h4 {
+        color: $second_color;
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+    .btn {
+        background: $second_color;
+        display: block;
+        padding: 18px 13px;
+        color: #fff;
+        border-radius: 0;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        &:hover {
+            background: #634723;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            left: 3px;
+            top: 3px;
+            bottom: 3px;
+            right: 3px;
+            border: 1px solid #fff;
+        }
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+.box_consideringselling {
+    border-radius: 10px;
+    background: #EEFDFF;
+    padding: 20px 40px 40px 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    h4 {
+        font-size: 1.25em;
+        color: $blue_color;
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom: 20px;
+        font-size: 0.875em;
+    }
+    ul {
+        padding: 0;
+        margin: 0 0 15px;
+        li {
+            margin-bottom: 10px;
+            font-size: 0.875em;
+            &::before {
+                content: '• ';
+            }
+        }
+    }
+    .btn {
+        width: 100%;
+        background: $blue_color;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 0;
+        padding: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            background: #238796;
+        }
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+hr {
+    &.dot {
+        border-style: dotted;
+        margin: 40px 0;
+    }
+}
 
 
 @media (max-width: 1180px) {
@@ -1313,11 +1543,6 @@ $red_color: #EB5757;
     .list_estate_item {
         flex-direction: row;
         flex-wrap: wrap;
-        li {
-            width: 100%;
-            min-width: auto;
-            margin-right: 0;
-        }
     }
 
     .mansiongallery {
@@ -1377,14 +1602,11 @@ $red_color: #EB5757;
                 li {
                     margin-right: 10px;
                     margin-bottom: 10px;
-                    width: 48%;
+                    width: 49%;
                 }
             }
         }
         .box_unit_detail_info {
-            .box_features {
-                padding: 15px;
-            }
             table {
                 th {
                     min-width: auto;
@@ -1402,8 +1624,111 @@ $red_color: #EB5757;
                     width: 70%;
                 }
             }
+            
         }
         
     }
+
+    .box_keypoints {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        span {
+            position: relative;
+            width: 100%;
+            display: block;
+        }
+        p {
+            margin-left: 0;
+        }
+    }
     
+}
+
+@media (max-width: 834px) {
+    .list_estate_item {
+        li {
+            width: 48%;
+            margin-right: 20px;
+            &:nth-of-type(2n) {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .section_unit_detail {
+        .box_unit_detail_img {
+            .big_img {
+                height: 400px;
+                img {
+                    height: 400px;
+                }
+            }
+            .list_fourimg {
+                li {
+                    width: 48%;
+                }
+            }
+        }
+        .box_unit_detail_info {
+            .box_features {
+                padding: 30px 15px;
+                h3 {
+                    margin-bottom: 10px;
+                }
+            }
+            .box_considering_purchasing {
+                flex-direction: column;
+                .box {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-bottom: 15px;
+                }
+            }
+            
+        }
+    }
+
+    .article_estate {
+        .article_subtitle2 {
+            font-size: 1.3em;
+        }
+    }
+
+    .list_estate_item {
+        li {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+    .list_page {
+        .section_result {
+            .list_result {
+                li {
+                    width: 47%;
+                    margin-right: 10px;
+                    &:nth-of-type(2n) {
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(3n) {
+                        margin-right: 10px;
+                    }
+                    .item_img {
+                        height: 200px;
+                        img {
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .box_consideringselling {
+        padding: 20px;
+    }
+
 }
