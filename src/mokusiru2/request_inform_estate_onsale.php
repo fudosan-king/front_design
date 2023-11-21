@@ -46,6 +46,31 @@
                                 </div>
                             </div>
 
+                            <div class="form-group reservation-input">
+                                <div class="row">
+                                    <div class="col-12 col-lg-3 align-self-center">
+                                        <label class="mb-lg-0 mb-2" for="">ご希望日時 <span class="red">（※）</span></label>
+                                    </div>
+                                    <div class="col-12 col-lg-9 align-self-center wrap-datetime">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 mb-2 mb-lg-0" style="position:relative;">
+                                                <div class="box_datetime">
+                                                    <input type="text" name="visit_date" placeholder="日付を選択" class="form-control datepicker datepicker-custom-date required" readonly="">
+                                                    <i class="i_datetime"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <select name="visit_time" class="form-control custom-select required">
+                                                    <option value="時間を選択" selected="">時間を選択</option>
+                                                    <option value="午前を希望">午前を希望</option>
+                                                    <option value="午後を希望">午後を希望</option>
+                                                    <option value="午前・午後どちらでも可">午前・午後どちらでも可</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="form-group">
                                 <div class="row">
@@ -82,7 +107,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">お名前 <span>（フリガナ）</span></label>
+                                        <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <div class="row">

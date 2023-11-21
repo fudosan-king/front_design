@@ -1063,6 +1063,40 @@
   background: #72522c;
 }
 
+.list_page .section_result .section_result_head {
+  text-align: center;
+  color: #AD814D;
+  margin-bottom: 50px;
+}
+.list_page .section_result .section_result_head h3 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.list_page .section_result .section_result_head p {
+  font-size: 0.875em;
+  margin-bottom: 0;
+}
+.list_page .section_result .list_result {
+  display: flex;
+  align-items: flex-start;
+}
+.list_page .section_result .list_result li {
+  min-width: 260px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.list_page .section_result .list_result li ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.list_page .section_result .list_result li ul li {
+  min-width: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 @media (max-width: 1180px) {
   .w_estate_list_item .estate_list_item .estate_list_item_main {
     flex-direction: column;
