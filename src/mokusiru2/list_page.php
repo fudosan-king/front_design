@@ -77,13 +77,13 @@
                                         </a>
                                         <div class="item_content">
                                             <h4>プロスタイル南町田</h4>
-                                            <ul>
+                                            <ol>
                                                 <li>●東京都町田市南町田５丁目</li>
                                                 <li>●東急田園都市線「南町田グランベリーパーク」駅 徒歩6分、「すずかけ台」駅徒歩13分</li>
                                                 <li>●総戸数/30戸</li>
-                                            </ul>
-                                            <a class="btn_detail" href="#">詳細を見る</a>
+                                            </ol>
                                         </div>
+                                        <a class="btn_detail" href="#">詳細を見る</a>
                                     </li>
                                     <li>
                                         <a href="#" class="item_img">
@@ -91,13 +91,13 @@
                                         </a>
                                         <div class="item_content">
                                             <h4>プロスタイル学芸大学</h4>
-                                            <ul>
+                                            <ol>
                                                 <li>●東京都目黒区碑文谷４丁目</li>
                                                 <li>●東急東横線「学芸大学」駅徒歩11分、「都立大学」駅徒歩11分</li>
                                                 <li>●総戸数/20戸</li>
-                                            </ul>
-                                            <a class="btn_detail" href="#">詳細を見る</a>
+                                            </ol>
                                         </div>
+                                        <a class="btn_detail" href="#">詳細を見る</a>
                                     </li>
                                     <li>
                                         <a href="#" class="item_img">
@@ -105,13 +105,27 @@
                                         </a>
                                         <div class="item_content">
                                             <h4>プロスタイル横浜馬車道</h4>
-                                            <ul>
+                                            <ol>
                                                 <li>●神奈川県横浜市中区元浜町３丁目</li>
                                                 <li>●みなとみらい線「馬車道」駅徒歩2分</li>
                                                 <li>●総戸数/87戸</li>
-                                            </ul>
-                                            <a class="btn_detail" href="#">詳細を見る</a>
+                                            </ol>
                                         </div>
+                                        <a class="btn_detail" href="#">詳細を見る</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="item_img">
+                                            <img src="assets/images/products/pro03.jpg" alt="pro03">
+                                        </a>
+                                        <div class="item_content">
+                                            <h4>プロスタイル横浜馬車道</h4>
+                                            <ol>
+                                                <li>●神奈川県横浜市中区元浜町３丁目</li>
+                                                <li>●みなとみらい線「馬車道」駅徒歩2分</li>
+                                                <li>●総戸数/87戸</li>
+                                            </ol>
+                                        </div>
+                                        <a class="btn_detail" href="#">詳細を見る</a>
                                     </li>
                                 </ul>
                             </section>

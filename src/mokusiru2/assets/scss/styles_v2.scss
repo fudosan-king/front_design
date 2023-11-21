@@ -1159,18 +1159,32 @@ $red_color: #EB5757;
         .list_result {
             display: flex;
             align-items: flex-start;
+            flex-wrap: wrap;
             li {
-                min-width: 260px;
+                width: 31%;
                 margin-right: 20px;
                 margin-bottom: 40px;
-                ul {
+                &:nth-of-type(3n) {
+                    margin-right: 0;
+                }
+                ol {
                     padding: 0;
                     margin: 0;
                     list-style: none;
                     li {
-                        min-width: auto;
                         margin-right: 0;
                         margin-bottom: 0;
+                        width: 100%;
+                        font-size: 0.6875em;
+                        color: #4F4F4F;
+                    }
+                }
+                .item_content {
+                    padding: 10px 0;
+                    border-bottom: 1px dotted #000;
+                    h4 {
+                        font-size: 0.875em;
+                        color: $second_color;
                     }
                 }
             }

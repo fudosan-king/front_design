@@ -346,7 +346,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-12 col-lg-4 align-self-center">
-                                                <label class="mb-lg-0 mb-2" for="">メールアドレスメールアドレス <span class="red">（※）</span></label>
+                                                <label class="mb-lg-0 mb-2" for="">メールアドレス <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-8 align-self-center">
                                                 <input type="email" name="" value="" class="form-control">
