@@ -71,6 +71,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
@@ -84,7 +85,7 @@
                                                         <label for="">姓</label>
                                                     </div>
                                                     <div class="col-10 col-lg-10 align-self-center">
-                                                        <input type="text" name="last_name" class="form-control required" placeholder="山田" required="">
+                                                        <input type="text" name="last_name" class="form-control required" placeholder="例：山田" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -94,7 +95,7 @@
                                                         <label for="">名</label>
                                                     </div>
                                                     <div class="col-10 align-self-center">
-                                                        <input type="text" name="first_name" class="form-control required" placeholder="太郎" required="">
+                                                        <input type="text" name="first_name" class="form-control required" placeholder="例：太郎" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -106,7 +107,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">お名前 （フリガナ）<span class="red">（※）</span></label>
+                                        <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <div class="row">
@@ -116,7 +117,7 @@
                                                         <label for="">セイ</label>
                                                     </div>
                                                     <div class="col-10 col-lg-10 align-self-center">
-                                                        <input type="text" name="last_name" class="form-control required" placeholder="山田" required="">
+                                                        <input type="text" name="last_name" class="form-control required" placeholder="例：ヤマダ" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -126,7 +127,7 @@
                                                         <label for="">メイ</label>
                                                     </div>
                                                     <div class="col-10 align-self-center">
-                                                        <input type="text" name="first_name" class="form-control required" placeholder="太郎" required="">
+                                                        <input type="text" name="first_name" class="form-control required" placeholder="例：タロウ" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -144,13 +145,18 @@
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <div class="row mb-2 mb-lg-0">
-                                                    <div class="col-6 col-lg-6 align-self-center">
-                                                        <label class="check-radio">賃貸 <input type="radio" checked="checked" name="housing_type" value="賃貸" data-value="賃貸">
+                                                    <div class="col-4 col-lg-4 align-self-center">
+                                                        <label class="check-radio">賃貸 <input type="radio" name="housing_type" value="賃貸" data-value="賃貸">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                     </div>
-                                                    <div class="col-6 col-lg-6 align-self-center">
+                                                    <div class="col-4 col-lg-4 align-self-center">
                                                         <label class="check-radio">持ち家 <input type="radio" name="housing_type" value="持ち家" data-value="持ち家">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-4 col-lg-4 align-self-center">
+                                                        <label class="check-radio">その他 <input type="radio" name="housing_type" value="その他" data-value="その他">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                     </div>
@@ -288,10 +294,12 @@
                                 <textarea name="request_content" id="" class="form-control" cols="30" rows="8" placeholder="エリア、間取り、ご予算などのご希望やご相談事項など"></textarea>
                             </div>
 
+
                             <div class="contactus_footer">
-                                <p class="primary_policy">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。
+                                <p class="primary_policy">ご入力いただいた情報は、当社のーに従って厳重に管理いたします。<br>
                                     個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
-                                    をご覧ください。また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
+                                    をご覧ください。<br>
+                                    また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
                                 <div class="form-group mb-3">
                                     <div class="custom-control custom-checkbox w_checkbox">
                                         <input type="checkbox" name="agree_terms" class="custom-control-input required" id="agree_terms" value="agree">
@@ -302,6 +310,7 @@
                                     <button type="button" class="btn btnsubmit" id="btnAgree">確認画面へ<i class="i_rightwhite"></i></button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

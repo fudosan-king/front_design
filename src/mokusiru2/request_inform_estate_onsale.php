@@ -46,7 +46,30 @@
                                 </div>
                             </div>
 
-
+                            <div class="box_estates_info_top">
+                                <div class="box_estates_info_top_img">
+                                    <img src="assets/images/products/img01.png" alt="img01">
+                                </div>
+                                <div class="box_estates_info_top_content">
+                                    <h4>アルソスコート</h4>
+                                    <table class="table table-sm">
+                                        <tr>
+                                            <th>所在地</th>
+                                            <td colspan="3">東京都品川区大井4</td>
+                                        </tr>
+                                        <tr>
+                                            <th>交通</th>
+                                            <td colspan="3">半蔵門線　青山一丁目駅　徒歩5分</td>
+                                        </tr>
+                                        <tr>
+                                            <th>築年月</th>
+                                            <td>2017年3月</td>
+                                            <th>総戸数</th>
+                                            <td>30戸</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
 
                             <div class="form-group">
                                 <div class="row">
@@ -61,7 +84,7 @@
                                                         <label for="">姓</label>
                                                     </div>
                                                     <div class="col-10 col-lg-10 align-self-center">
-                                                        <input type="text" name="last_name" class="form-control required" placeholder="山田" required="">
+                                                        <input type="text" name="last_name" class="form-control required" placeholder="例：山田" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -71,7 +94,7 @@
                                                         <label for="">名</label>
                                                     </div>
                                                     <div class="col-10 align-self-center">
-                                                        <input type="text" name="first_name" class="form-control required" placeholder="太郎" required="">
+                                                        <input type="text" name="first_name" class="form-control required" placeholder="例：太郎" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -93,7 +116,7 @@
                                                         <label for="">セイ</label>
                                                     </div>
                                                     <div class="col-10 col-lg-10 align-self-center">
-                                                        <input type="text" name="last_name" class="form-control required" placeholder="山田" required="">
+                                                        <input type="text" name="last_name" class="form-control required" placeholder="例：ヤマダ" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,7 +126,7 @@
                                                         <label for="">メイ</label>
                                                     </div>
                                                     <div class="col-10 align-self-center">
-                                                        <input type="text" name="first_name" class="form-control required" placeholder="太郎" required="">
+                                                        <input type="text" name="first_name" class="form-control required" placeholder="例：タロウ" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,7 +141,7 @@
                                         <label class="mb-lg-0 mb-2" for="">お電話番号 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
-                                        <input type="number" name="email" class="form-control required" placeholder="" required="">
+                                        <input type="number" name="email" class="form-control required" placeholder="例：08000000000" required="">
                                     </div>
                                 </div>
                             </div>
@@ -252,13 +275,14 @@
 
                             <div class="form-group">
                                 <label class="mb-2" for="">ご質問、ご要望等</label>
-                                <textarea name="request_content" id="" class="form-control" cols="30" rows="8" placeholder="エリア、間取り、ご予算などのご希望やご相談事項など"></textarea>
+                                <textarea name="request_content" id="" class="form-control" cols="30" rows="8" placeholder="間取り、ご予算などのご希望やご相談事項など"></textarea>
                             </div>
 
                             <div class="contactus_footer">
-                                <p class="primary_policy">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。
+                                <p class="primary_policy">ご入力いただいた情報は、当社のーに従って厳重に管理いたします。<br>
                                     個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
-                                    をご覧ください。また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
+                                    をご覧ください。<br>
+                                    また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
                                 <div class="form-group mb-3">
                                     <div class="custom-control custom-checkbox w_checkbox">
                                         <input type="checkbox" name="agree_terms" class="custom-control-input required" id="agree_terms" value="agree">
@@ -269,6 +293,7 @@
                                     <button type="button" class="btn btnsubmit" id="btnAgree">確認画面へ<i class="i_rightwhite"></i></button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

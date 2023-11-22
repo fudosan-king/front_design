@@ -114,11 +114,11 @@
                                                     </div>
                                                     <div class="col-12 col-lg-6">
                                                         <label class="check-radio d-inline-block mt-3 mt-lg-0">m2
-                                                            <input type="radio" checked="checked" name="exclusive_area" value="m2" data-value="m2">
+                                                            <input type="radio" name="exclusive_area" value="m2" data-value="m2">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                         <label class="check-radio d-inline-block ml-3">坪
-                                                            <input type="radio" checked="checked" name="exclusive_area" value="坪" data-value="坪">
+                                                            <input type="radio" name="exclusive_area" value="坪" data-value="坪">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                         <p class="mb-0">（※）おおよそで結構です。</p>
@@ -178,7 +178,8 @@
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
                                                 <select class="form-control custom-select">
-                                                    <option value=""></option>
+                                                    <option value="▼選択してください">▼選択してください</option>
+                                                    <option value="...">...</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -209,7 +210,7 @@
                                                 <label class="mb-lg-0 mb-2" for="">ご質問、ご要望等</label>
                                             </div>
                                             <div class="col-12 col-lg-9 align-self-center">
-                                                <input type="text" name="" value="" class="form-control">
+                                                <textarea class="form-control" rows="5" cols="30"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -308,7 +309,8 @@
                                             </div>
                                             <div class="col-12 col-lg-8 align-self-center">
                                                 <select class="form-control custom-select">
-                                                    <option value=""></option>
+                                                    <option value="▼選択してください">▼選択してください</option>
+                                                    <option value="...">...</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -358,16 +360,19 @@
                             </div>
 
                             <div class="contactus_footer">
-                                <div class="custom-control custom-checkbox">
-                                    <p class="text-center">
-                                        ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。<br>
-                                        個人情報の取扱に関しましては <a href="/policy-sell" target="_blank">個人情報の取扱いについて</a>をご覧ください。<br>
-                                        ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。
-                                    </p>
-                                    <input type="checkbox" class="custom-control-input required" id="ck_agree" name="ck_agree">
-                                    <label class="custom-control-label" for="ck_agree">個人情報の取扱いについてに同意する</label>
+                                <p class="primary_policy">ご入力いただいた情報は、当社のーに従って厳重に管理いたします。<br>
+                                    個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
+                                    をご覧ください。<br>
+                                    また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
+                                <div class="form-group mb-3">
+                                    <div class="custom-control custom-checkbox w_checkbox">
+                                        <input type="checkbox" name="agree_terms" class="custom-control-input required" id="agree_terms" value="agree">
+                                        <label class="custom-control-label agree_terms" for="agree_terms">同意する</label>
+                                    </div>
                                 </div>
-                                <button type="button" class="btn btnsubmit" id="btnAgree">入力内容を確認する<i class="i_rightwhite"></i></button>
+                                <div class="form-group text-center mb-0">
+                                    <button type="button" class="btn btnsubmit" id="btnAgree">確認画面へ<i class="i_rightwhite"></i></button>
+                                </div>
                             </div>
 
 

@@ -289,9 +289,10 @@
                             </div>
 
                             <div class="contactus_footer">
-                                <p class="primary_policy">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。
+                                <p class="primary_policy">ご入力いただいた情報は、当社のーに従って厳重に管理いたします。<br>
                                     個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
-                                    をご覧ください。また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
+                                    をご覧ください。<br>
+                                    また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
                                 <div class="form-group mb-3">
                                     <div class="custom-control custom-checkbox w_checkbox">
                                         <input type="checkbox" name="agree_terms" class="custom-control-input required" id="agree_terms" value="agree">
@@ -302,6 +303,7 @@
                                     <button type="button" class="btn btnsubmit" id="btnAgree">確認画面へ<i class="i_rightwhite"></i></button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
