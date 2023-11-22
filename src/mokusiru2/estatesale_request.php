@@ -8,7 +8,7 @@
 <body class="home blog">
     <?php include 'header.php'; ?>
 
-    <?php include 'menu_sub.php'; ?>
+    <?php include 'menu.php'; ?>
 
     <section class="section_contactus">
         <div class="container">

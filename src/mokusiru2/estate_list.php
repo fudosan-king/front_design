@@ -9,7 +9,7 @@
 <body class="home blog">
     <?php include 'header.php'; ?>
 
-    <?php include 'mưnu_sub.php'; ?>
+    <?php include 'menu.php'; ?>
 
     <div class="sub_page">
         <div class="container">
@@ -122,19 +122,7 @@
     </div>
 
 
-    <div id="modal_video" class="modal fade modal_brands" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span>
-                <h2>MOVIE</h2>
-                <a href="https://www.prostyle-residence.com/mokusiru/#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="common/i-close-white.png" alt=""></a>
-                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe id="video" class="embed-responsive-item" src="common/saved_resource.html" allowfullscreen=""></iframe>
-                </div>
-                <a href="https://www.prostyle-residence.com/mokusiru/#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="common/i-close.png" alt=""></a>
-            </div>
-        </div>
-    </div>
+
 
     <?php include 'footer.php'; ?>
 

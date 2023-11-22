@@ -628,19 +628,23 @@ input[type=number] {
   font-weight: 700;
   margin-bottom: 10px;
   line-height: 120%;
+  font-family: 'SF Pro Display';
 }
 .mansiongallery .box_inquiries_contact .info p small {
   font-size: 0.8571em;
   font-weight: 400;
 }
 .mansiongallery .box_inquiries_contact .btn_reserve {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #AD814D;
   color: #fff;
   border-radius: 0;
   min-height: 40px;
   margin-top: 15px;
   position: relative;
+  letter-spacing: .1em;
 }
 .mansiongallery .box_inquiries_contact .btn_reserve::before {
   content: '';
@@ -1591,8 +1595,11 @@ hr.dot {
   .menu-list {
     z-index: 999;
   }
-  .menu-list ul li:first-child a.nav-link {
-    padding-left: 10px;
+  .menu-list ul li {
+    margin-right: 10px;
+  }
+  .menu-list ul li:last-of-type {
+    margin-right: 0;
   }
   .menu-list .navbar_text {
     justify-content: center;
@@ -1601,6 +1608,7 @@ hr.dot {
   .menu-list .navbar_text li {
     width: 50%;
     text-align: center;
+    margin-right: 0;
   }
   .menu-list .social-list li {
     text-align: center;
@@ -1609,6 +1617,9 @@ hr.dot {
   .menu-list .social-list li a {
     width: 100%;
     text-align: center;
+  }
+  .menu-list .social-list li:first-of-type {
+    margin-right: 0;
   }
   .menu-list .social-list li:last-of-type a img {
     width: 17px;

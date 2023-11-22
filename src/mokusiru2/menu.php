@@ -136,38 +136,39 @@
         </ul>
 
         <ul class="navbar social-list d-flex d-lg-none">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="https://www.facebook.com/prostyleresidence/">
-                    <img src="assets/images/i_fb.svg" alt="facebook" title="facebook">
+                    <img src="https://www.prostyle-residence.com/mokusiru/wp-content/themes/blog/assets/images/icons/icon-facebook-black.svg" alt="facebook" title="facebook">
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://mobile.twitter.com/PROSTYLE_OA">
-                    <img src="assets/images/i_x.svg" alt="X" title="X">
+                    <img src="https://www.prostyle-residence.com/mokusiru/wp-content/themes/blog/assets/images/icons/icon-twitterX_circle.svg" alt="twitter" title="twitter">
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://www.instagram.com/prostyle.official">
-                    <img src="assets/images/i_ins.svg" alt="instagram" title="instagram">
+                    <img src="https://www.prostyle-residence.com/mokusiru/wp-content/themes/blog/assets/images/icons/icon-instagram-black.svg" alt="instagram" title="instagram">
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://www.youtube.com/channel/UC1UquQQDwtU6VfKq3pwM4Hg">
-                    <img src="assets/images/i_youtube.svg" alt="youtube" title="youtube">
+                    <img src="https://www.prostyle-residence.com/mokusiru/wp-content/themes/blog/assets/images/icons/icon-youtube-black.svg" alt="youtube" title="youtube">
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://lin.ee/8dqmWKo">
-                    <img src="common/icon-line-black.svg" alt="line" title="line">
+                    <img src="https://www.prostyle-residence.com/mokusiru/wp-content/themes/blog/assets/images/icons/icon-line-black.svg" alt="line" title="line">
                 </a>
             </li>
             <li>
-                <a class="nav-link" href="https://www.prostyle-residence.com/contact/" target="">
+                <a class="nav-link" href="/contact/" target="">
                     <span class="btn-blog i-list_btn">お問い合わせ</span>
                 </a>
             </li>
 
 
         </ul>
+
     </div>
 </div>

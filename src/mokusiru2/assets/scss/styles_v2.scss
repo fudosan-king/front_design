@@ -686,6 +686,7 @@ input[type=number] {
                 font-weight: 700;
                 margin-bottom: 10px;
                 line-height: 120%;
+                font-family: 'SF Pro Display';
                 small {
                     font-size: 0.8571em;
                     font-weight: 400;
@@ -693,13 +694,16 @@ input[type=number] {
             }
         }
         .btn_reserve {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background: #AD814D;
             color: #fff;
             border-radius: 0;
             min-height: 40px;
             margin-top: 15px;
             position: relative;
+            letter-spacing: .1em;
             &::before {
                 content: '';
                 position: absolute;
@@ -1746,12 +1750,9 @@ hr {
         z-index: 999;
         ul {
             li {
-                &:first-child {
-                    a {
-                        &.nav-link {
-                            padding-left: 10px;
-                        }
-                    }
+                margin-right: 10px;
+                &:last-of-type {
+                    margin-right: 0;
                 }
             }
         }
@@ -1761,6 +1762,7 @@ hr {
             li {
                 width: 50%;
                 text-align: center;
+                margin-right: 0;
             }
         }
         .social-list {
@@ -1770,6 +1772,9 @@ hr {
                 a {
                     width: 100%;
                     text-align: center;
+                }
+                &:first-of-type {
+                    margin-right: 0;
                 }
                 &:last-of-type {
                     a {
