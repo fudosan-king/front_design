@@ -59,27 +59,27 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label for="" class="label_required">お名前 <span class="red">（※）</span></label>
+                                        <label class="mb-lg-0 mb-2" for="">お名前 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <div class="row">
-                                            <div class="col-12 col-lg-6 align-self-center">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-2 align-self-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="row mb-2 mb-lg-0">
+                                                    <div class="col-2 col-lg-2 align-self-center">
                                                         <label for="">姓</label>
                                                     </div>
-                                                    <div class="col-12 col-lg-10 align-self-center mb-2 mb-lg-0">
-                                                        <input type="text" class="form-control required" placeholder="例：宮の森" name="kanji_familyname">
+                                                    <div class="col-10 col-lg-10 align-self-center">
+                                                        <input type="text" name="last_name" class="form-control required" placeholder="例：山田" required="">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-lg-6 align-self-center">
+                                            <div class="col-12 col-lg-6">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-2 align-self-center">
+                                                    <div class="col-2 align-self-center">
                                                         <label for="">名</label>
                                                     </div>
-                                                    <div class="col-12 col-lg-10 align-self-center mb-2 mb-lg-0">
-                                                        <input type="text" class="form-control required" placeholder="例：太郎" name="kanji_name">
+                                                    <div class="col-10 align-self-center">
+                                                        <input type="text" name="first_name" class="form-control required" placeholder="例：太郎" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -91,7 +91,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3 align-self-center">
-                                        <label class="mb-lg-0 mb-2" for="">お名前 （フリガナ）<span class="red">（※）</span></label>
+                                        <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <div class="row">
@@ -101,7 +101,7 @@
                                                         <label for="">セイ</label>
                                                     </div>
                                                     <div class="col-10 col-lg-10 align-self-center">
-                                                        <input type="text" name="last_name" class="form-control required" placeholder="山田" required="">
+                                                        <input type="text" name="last_name" class="form-control required" placeholder="例：ヤマダ" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -111,7 +111,7 @@
                                                         <label for="">メイ</label>
                                                     </div>
                                                     <div class="col-10 align-self-center">
-                                                        <input type="text" name="first_name" class="form-control required" placeholder="太郎" required="">
+                                                        <input type="text" name="first_name" class="form-control required" placeholder="例：タロウ" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -126,7 +126,7 @@
                                         <label for="" class="label_required">お電話番号 <span class="red">（※）</span></label>
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
-                                        <input type="number" class="form-control required" placeholder="" name="">
+                                        <input type="number" class="form-control required" placeholder="例：08000000000" name="">
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +138,7 @@
                                     <div class="col-12 col-lg-9">
                                         <div class="row">
                                             <div class="col-12 col-lg-6 align-self-center">
-                                                <input type="number" class="form-control required" placeholder="" name="">
+                                                <input type="number" class="form-control required" placeholder="例：1234567" name="">
                                             </div>
                                             <div class="col-12 col-lg-6 align-self-center">
                                                 <a class="btn_autofill_prefectureaddress" id="btn_autofill_prefectureaddress" href="javascript:void(0)" onclick="AjaxZip3.zip2addr('postal','','prefecture','address', '')"><img src="assets/images/i_right.svg" alt="i_right" class="img-fluid mr-2" width="20">郵便番号から住所を自動入力</a>
@@ -154,7 +154,8 @@
                                     </div>
                                     <div class="col-12 col-lg-9 align-self-center">
                                         <select class="form-control custom-select">
-                                            <option value=""></option>
+                                            <option value="▼選択してください">▼選択してください</option>
+                                            <option value="...">...</option>
                                         </select>
                                     </div>
                                 </div>
@@ -208,22 +209,22 @@
                                 </div>
                             </div>
 
-                            <!-- Agreement -->
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-12 col-lg-12">
-                                        <div class="contactus_footer">
-                                            <p class="text-center">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。 <br>個人情報の取扱に関しましては <a href="https://www.prostyle-residence.com/sapporo/miyanomori/privacy-policy" target="_blank">プライバシーポリシー </a> をご覧ください。 <br>ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。 </p>
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="ck_agree">
-                                                <label class="custom-control-label label_required" for="ck_agree">同意する </label>
-                                            </div>
-                                            <button type="submit" class="btn btnsubmit" id="ibtnGoSubmit" data-formrun-default-text="上記に同意して確認画面へ"><span>上記に同意して確認画面へ</span></button>
-                                        </div>
+                            <div class="contactus_footer">
+                                <p class="primary_policy">ご入力いただいた情報は、当社のーに従って厳重に管理いたします。<br>
+                                    個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
+                                    をご覧ください。<br>
+                                    また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
+                                <div class="form-group mb-3">
+                                    <div class="custom-control custom-checkbox w_checkbox">
+                                        <input type="checkbox" name="agree_terms" class="custom-control-input required" id="agree_terms" value="agree">
+                                        <label class="custom-control-label agree_terms" for="agree_terms">同意する</label>
                                     </div>
                                 </div>
+                                <div class="form-group text-center mb-0">
+                                    <button type="button" class="btn btnsubmit" id="btnAgree">確認画面へ<i class="i_rightwhite"></i></button>
+                                </div>
                             </div>
-                            <!-- END Agreement -->
+
                         </form>
 
                     </div>

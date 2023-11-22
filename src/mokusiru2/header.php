@@ -1,10 +1,12 @@
 <header class="menu-animation-scroll">
     <div class="header-top main">
-        <nav class="navbar navbar-expand-lg"><button class="navbar-toggler hamburger-menu js-menu" type="button">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler hamburger-menu js-menu" type="button">
                 <span class="nav-toggler-line"></span>
                 <span class="nav-toggler-line"></span>
                 <span class="nav-toggler-line"></span>
             </button>
+
             <a class="navbar-brand" href="https://www.prostyle-residence.com/mokusiru/">
                 <img class="img-fuild" alt="MOKUSIRU BLOG logo" src="common/logo_yoko.png" title="">
             </a>
@@ -47,9 +49,6 @@
                             <span class="btn-blog i-list_btn">お問い合わせ</span>
                         </a>
                     </li>
-
-
-
                 </ul>
             </div>
         </nav>

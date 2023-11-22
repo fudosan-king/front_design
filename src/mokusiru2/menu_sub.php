@@ -4,7 +4,7 @@
             <img class="img-fuild" alt="MOKUSIRU BLOG logo" src="common/logo_yoko.png" title="">
         </a>
 
-        <ul class="navbar social-list d-flex d-lg-none">
+        <ul class="navbar social-list d-block d-lg-none">
             <li class="nav-item">
                 <a class="nav-link" href="#">販売中物件</a>
             </li>
