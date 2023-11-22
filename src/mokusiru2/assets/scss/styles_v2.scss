@@ -5,6 +5,9 @@
 body {
     font-family: 'SF Pro Display', "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
 
 $primary_color: #8C7D60;
 $second_color: #AD814D;
@@ -36,8 +39,13 @@ input[type=number] {
         .navbar-expand-lg {
             ul {
                 &.navbar-nav {
-                    li {
-                        &:nth-of-type(1), &:nth-of-type(2) {
+                    &:first-of-type {
+                        li {
+                            &:hover {
+                                a {
+                                    color: $second_color;
+                                }
+                            }
                             &.nav-item {
                                 a {
                                     &.nav-link {
@@ -46,6 +54,8 @@ input[type=number] {
                                 }
                             }
                         }
+                    }
+                    li {
                         &.nav-item {
                             a {
                                 &.nav-link {
@@ -56,6 +66,13 @@ input[type=number] {
                     }
                 }
             }
+        }
+    }
+}
+.nav-link {
+    &:hover {
+        .btn-blog {
+            background: $second_color;
         }
     }
 }
@@ -1300,6 +1317,7 @@ input[type=number] {
             padding: 0;
             li {
                 width: 31%;
+                min-width: 260px;
                 margin-right: 20px;
                 margin-bottom: 40px;
                 &:nth-of-type(3n) {
@@ -1489,6 +1507,15 @@ hr {
     }
 }
 
+@media (max-width: 1130px) {
+    .estate_detail_top {
+        ul {
+            li {
+                min-width: auto;
+            }
+        }
+    }
+}
 
 @media (max-width: 1180px) {
     .w_estate_list_item {
@@ -1504,26 +1531,6 @@ hr {
                         height: auto;
                     }
                 }
-            }
-        }
-    }
-
-    .estate_detail_top {
-        .estate_detail_top_head {
-            h2 {
-                font-size: 1em;
-            }
-        }
-        ul {
-            flex-direction: column;
-            li {
-                display: flex;
-                align-items: center;
-                margin-right: 0;
-                margin-bottom: 10px;
-                min-width: auto;
-                width: 100%;
-                min-height: 85px;
             }
         }
     }
@@ -1707,16 +1714,36 @@ hr {
             margin-left: 0;
         }
     }
+
+    .list_page {
+        .section_result {
+            .list_result {
+                li {
+                    width: 47%;
+                    min-width: auto;
+                    margin-right: 10px;
+                    &:nth-of-type(2n) {
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(3n) {
+                        margin-right: 10px;
+                    }
+                    .item_img {
+                        height: 263px;
+                        img {
+                            height: 263px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     
 }
 
 @media (max-width: 834px) {
     .menu-list {
         z-index: 999;
-        padding-top: 95px;
-        .container-fluid {
-            padding: 0;
-        }
         ul {
             li {
                 &:first-child {
@@ -1731,18 +1758,18 @@ hr {
         .navbar_text {
             justify-content: center;
             border-bottom: 1px solid #ccc;
+            li {
+                width: 50%;
+                text-align: center;
+            }
         }
         .social-list {
-            padding: 0;
             li {
                 text-align: center;
                 width: 30px;
                 a {
                     width: 100%;
                     text-align: center;
-                    img {
-                        width: auto;
-                    }
                 }
                 &:last-of-type {
                     a {
@@ -1763,6 +1790,27 @@ hr {
             }
         }
     }
+
+    .estate_detail_top {
+        .estate_detail_top_head {
+            h2 {
+                font-size: 1em;
+            }
+        }
+        ul {
+            flex-direction: column;
+            li {
+                display: flex;
+                align-items: center;
+                margin-right: 0;
+                margin-bottom: 10px;
+                min-width: auto;
+                width: 100%;
+                min-height: 85px;
+            }
+        }
+    }
+    
 }
 
 @media (max-width: 430px) {
@@ -1812,28 +1860,7 @@ hr {
         }
     }
 
-    .list_page {
-        .section_result {
-            .list_result {
-                li {
-                    width: 47%;
-                    margin-right: 10px;
-                    &:nth-of-type(2n) {
-                        margin-right: 0;
-                    }
-                    &:nth-of-type(3n) {
-                        margin-right: 10px;
-                    }
-                    .item_img {
-                        height: 200px;
-                        img {
-                            height: 200px;
-                        }
-                    }
-                }
-            }
-        }
-    }
+    
 
     .box_consideringselling {
         padding: 20px;
@@ -1848,6 +1875,21 @@ hr {
             margin-bottom: 15px;
             img {
                 height: 200px;
+            }
+        }
+    }
+
+    .list_page {
+        .section_result {
+            .list_result {
+                li {
+                    .item_img {
+                        height: 150px;
+                        img {
+                            height: 150px;
+                        }
+                    }
+                }
             }
         }
     }
