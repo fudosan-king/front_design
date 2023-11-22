@@ -27,6 +27,11 @@ input[type=number] {
 }
 
 .header-top {
+    button {
+        &.hamburger-menu {
+            z-index: 99999;
+        }
+    }
     &.main {
         .navbar-expand-lg {
             ul {
@@ -1707,6 +1712,11 @@ hr {
 
 @media (max-width: 834px) {
     .menu-list {
+        z-index: 999;
+        padding-top: 95px;
+        .container-fluid {
+            padding: 0;
+        }
         ul {
             li {
                 &:first-child {
@@ -1718,13 +1728,27 @@ hr {
                 }
             }
         }
+        .navbar_text {
+            justify-content: center;
+            border-bottom: 1px solid #ccc;
+        }
         .social-list {
+            padding: 0;
             li {
+                text-align: center;
+                width: 30px;
                 a {
                     width: 100%;
                     text-align: center;
                     img {
-                        width: 30px;
+                        width: auto;
+                    }
+                }
+                &:last-of-type {
+                    a {
+                        img {
+                            width: 17px;
+                        }
                     }
                 }
             }

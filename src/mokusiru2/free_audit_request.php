@@ -265,7 +265,7 @@
                                                                 <label for="">セイ</label>
                                                             </div>
                                                             <div class="col-9 col-lg-9 align-self-center">
-                                                                <input type="text" name="last_name" class="form-control required" placeholder="山田" required="">
+                                                                <input type="text" name="last_name" class="form-control required" placeholder="例：ヤマダ" required="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -275,7 +275,7 @@
                                                                 <label for="">メイ</label>
                                                             </div>
                                                             <div class="col-9 align-self-center">
-                                                                <input type="text" name="first_name" class="form-control required" placeholder="太郎" required="">
+                                                                <input type="text" name="first_name" class="form-control required" placeholder="例：タロウ" required="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -351,7 +351,7 @@
                                                 <label class="mb-lg-0 mb-2" for="">メールアドレス <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-8 align-self-center">
-                                                <input type="email" name="" value="" class="form-control">
+                                                <input type="email" name="" value="" class="form-control" placeholder="例：aaaa1234@bbb.cccc">
                                             </div>
                                         </div>
                                     </div>
@@ -360,10 +360,13 @@
                             </div>
 
                             <div class="contactus_footer">
-                                <p class="primary_policy">ご入力いただいた情報は、当社のーに従って厳重に管理いたします。<br>
-                                    個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
-                                    をご覧ください。<br>
-                                    また、当物件に関する情報は、株式会社LogSuiteの担当者より連絡させていただきます。</p>
+                                <p class="primary_policy">
+                                    ご入力いただいた情報は、当社の
+                                    <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
+                                    に従って厳重に管理いたします。<br>
+                                    個人情報の取扱に関しましては プライバシーポリシー をご覧ください。<br>
+                                    ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。
+                                </p>
                                 <div class="form-group mb-3">
                                     <div class="custom-control custom-checkbox w_checkbox">
                                         <input type="checkbox" name="agree_terms" class="custom-control-input required" id="agree_terms" value="agree">

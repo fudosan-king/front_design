@@ -1,16 +1,14 @@
 <div class="menu-list menu-list-scroll" style="display: block;">
     <div class="container-fluid">
-        <a class="navbar-brand d-block d-lg-none" href="https://www.prostyle-residence.com/mokusiru/">
-            <img class="img-fuild" alt="MOKUSIRU BLOG logo" src="common/logo_yoko.png" title="">
-        </a>
-
-        <ul class="navbar social-list d-block d-lg-none">
+        <ul class="navbar navbar_text d-flex d-lg-none">
             <li class="nav-item">
                 <a class="nav-link" href="#">販売中物件</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">分譲実績</a>
             </li>
+        </ul>
+        <ul class="navbar social-list d-flex d-lg-none">
             <li class="nav-item">
                 <a class="nav-link" href="https://www.facebook.com/prostyleresidence/">
                     <img src="assets/images/i_fb.svg" alt="facebook" title="facebook">
@@ -33,7 +31,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://lin.ee/8dqmWKo">
-                    <img src="common/icon-line-black.svg" alt="line" title="line">
+                    <img src="common/icon-line-black.svg" alt="line" title="line" width="17">
                 </a>
             </li>
             <li>

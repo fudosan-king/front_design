@@ -19,6 +19,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">分譲実績</a>
                     </li>
+                </ul>
+                <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="https://www.facebook.com/prostyleresidence/">
                             <img src="assets/images/i_fb.svg" alt="facebook" title="facebook">

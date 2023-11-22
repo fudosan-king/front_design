@@ -22,6 +22,9 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.header-top button.hamburger-menu {
+  z-index: 99999;
+}
 .header-top.main .navbar-expand-lg ul.navbar-nav li:nth-of-type(1).nav-item a.nav-link, .header-top.main .navbar-expand-lg ul.navbar-nav li:nth-of-type(2).nav-item a.nav-link {
   margin-right: 20px;
 }
@@ -1566,15 +1569,36 @@ hr.dot {
   }
 }
 @media (max-width: 834px) {
+  .menu-list {
+    z-index: 999;
+    padding-top: 95px;
+  }
+  .menu-list .container-fluid {
+    padding: 0;
+  }
   .menu-list ul li:first-child a.nav-link {
     padding-left: 10px;
+  }
+  .menu-list .navbar_text {
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+  }
+  .menu-list .social-list {
+    padding: 0;
+  }
+  .menu-list .social-list li {
+    text-align: center;
+    width: 30px;
   }
   .menu-list .social-list li a {
     width: 100%;
     text-align: center;
   }
   .menu-list .social-list li a img {
-    width: 30px;
+    width: auto;
+  }
+  .menu-list .social-list li:last-of-type a img {
+    width: 17px;
   }
 
   .list_estate_item li {
