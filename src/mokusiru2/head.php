@@ -81,7 +81,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.standalone.min.css">
 
-<link rel="stylesheet" href="common/splide.min.css">
-<link rel="stylesheet" href="common/blog-style.css">
-<link rel="stylesheet" href="common/style.css">
+<link rel="stylesheet" href="assets/css/splide.min.css">
+<link rel="stylesheet" href="assets/css/blog-style.css">
+<link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/styles_v2.css">
