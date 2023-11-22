@@ -341,7 +341,7 @@
                                                 <label class="mb-lg-0 mb-2" for="">ご連絡先電話番号 <span class="red">（※）</span></label>
                                             </div>
                                             <div class="col-12 col-lg-8 align-self-center">
-                                                <input type="number" name="" value="" class="form-control">
+                                                <input type="number" name="" value="" class="form-control" placeholder="例：08000000000">
                                             </div>
                                         </div>
                                     </div>

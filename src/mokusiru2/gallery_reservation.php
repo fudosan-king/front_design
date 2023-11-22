@@ -144,13 +144,18 @@
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <div class="row mb-2 mb-lg-0">
-                                                    <div class="col-6 col-lg-6 align-self-center">
-                                                        <label class="check-radio">賃貸 <input type="radio" checked="checked" name="housing_type" value="賃貸" data-value="賃貸">
+                                                    <div class="col-4 col-lg-4 align-self-center">
+                                                        <label class="check-radio">賃貸 <input type="radio" name="housing_type" value="賃貸" data-value="賃貸">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                     </div>
-                                                    <div class="col-6 col-lg-6 align-self-center">
+                                                    <div class="col-4 col-lg-4 align-self-center">
                                                         <label class="check-radio">持ち家 <input type="radio" name="housing_type" value="持ち家" data-value="持ち家">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-4 col-lg-4 align-self-center">
+                                                        <label class="check-radio">その他 <input type="radio" name="housing_type" value="その他" data-value="その他">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                     </div>

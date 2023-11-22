@@ -6,7 +6,7 @@
 
         <nav class="navbar navbar-expand-lg d-block d-sm-none"><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
             <h3 class="d-block d-lg-none">＃ジャンル</h3>
-            <ul class="navbar-nav menu-toggle-open">
+            <ul class="navbar-nav">
                 <li class="nav-item menu-parent_item">
                     <a href="https://www.prostyle-residence.com/mokusiru/category/%e6%96%b0%e7%af%89%e5%8f%96%e6%89%b1%e3%81%84%e7%89%a9%e4%bb%b6/" class="nav-link js-collapse">
                         <span>＃新築マンション</span>
@@ -125,13 +125,17 @@
                 <img class="" src="common/icon-up.svg" alt="" title="">
             </div>
         </div>
-        <ul class="navbar social-list d-flex d-lg-none">
+
+        <ul class="navbar navbar_text d-flex d-lg-none">
             <li class="nav-item">
                 <a class="nav-link" href="#">販売中物件</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">分譲実績</a>
             </li>
+        </ul>
+
+        <ul class="navbar social-list d-flex d-lg-none">
             <li class="nav-item">
                 <a class="nav-link" href="https://www.facebook.com/prostyleresidence/">
                     <img src="assets/images/i_fb.svg" alt="facebook" title="facebook">
