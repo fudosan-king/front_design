@@ -368,7 +368,6 @@ header .btn_enterprisesettings:hover {
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
   margin-right: 20px;
   width: 25%;
-  padding: 20px 17px;
   min-height: 98px;
 }
 .section_usagesummary .list_usagesummary li:last-of-type {
@@ -390,15 +389,20 @@ header .btn_enterprisesettings:hover {
   align-items: center;
   justify-content: space-between;
 }
-.section_usagesummary .list_usagesummary li:nth-of-type(3):hover {
-  background: #014e89;
+.section_usagesummary .list_usagesummary li:nth-of-type(3):hover, .section_usagesummary .list_usagesummary li:nth-of-type(3).active {
+  background: #e7e7e7;
 }
-.section_usagesummary .list_usagesummary li:hover {
-  background: #eeeeee;
+.section_usagesummary .list_usagesummary li:nth-of-type(3):hover h3, .section_usagesummary .list_usagesummary li:nth-of-type(3):hover p, .section_usagesummary .list_usagesummary li:nth-of-type(3).active h3, .section_usagesummary .list_usagesummary li:nth-of-type(3).active p {
+  color: #5b5b5b;
+}
+.section_usagesummary .list_usagesummary li:nth-of-type(3):hover h3 .btn_license, .section_usagesummary .list_usagesummary li:nth-of-type(3):hover p .btn_license, .section_usagesummary .list_usagesummary li:nth-of-type(3).active h3 .btn_license, .section_usagesummary .list_usagesummary li:nth-of-type(3).active p .btn_license {
+  background: #a2a2a2;
+  color: #fff;
 }
 .section_usagesummary .list_usagesummary li a {
   display: flex;
   align-items: center;
+  padding: 20px 17px;
 }
 .section_usagesummary .list_usagesummary li h3 {
   color: var(--secondary-grey-600, #A3AED0);

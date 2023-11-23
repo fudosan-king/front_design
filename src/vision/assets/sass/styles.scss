@@ -341,7 +341,6 @@ header {
       box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.10);
       margin-right: 20px;
       width: 25%;
-      padding: 20px 17px;
       min-height: 98px;
       &:last-of-type {
         margin-right: 0;
@@ -361,16 +360,21 @@ header {
           align-items: center;
           justify-content: space-between;
         }
-        &:hover {
-          background: rgb(1, 78, 137);
+        &:hover, &.active {
+          background: #e7e7e7;
+          h3, p {
+            color: #5b5b5b;
+            .btn_license {
+              background: #a2a2a2;
+              color: #fff;
+            }
+          }
         }
-      }
-      &:hover {
-        background: #eeeeee;
       }
       a {
         display: flex;
         align-items: center;
+        padding: 20px 17px;
       }
       h3 {
         color: var(--secondary-grey-600, #A3AED0);
