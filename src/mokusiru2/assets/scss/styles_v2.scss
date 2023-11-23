@@ -1201,6 +1201,12 @@ input[type=number] {
                         &:hover {
                             background: #7d5a2f;
                         }
+                        &.blue {
+                            background: #3CBCCF;
+                            &:hover {
+                                background: #1e7684;
+                            }
+                        }
                     }
                 }
                 &:last-of-type {
