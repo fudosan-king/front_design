@@ -360,6 +360,11 @@ header {
           align-items: center;
           justify-content: space-between;
         }
+        &:hover {
+          a {
+            cursor: pointer;
+          }
+        }
         &:hover, &.active {
           background: #e7e7e7;
           h3, p {
@@ -375,6 +380,7 @@ header {
         display: flex;
         align-items: center;
         padding: 20px 17px;
+        cursor: default;
       }
       h3 {
         color: var(--secondary-grey-600, #A3AED0);

@@ -389,6 +389,9 @@ header .btn_enterprisesettings:hover {
   align-items: center;
   justify-content: space-between;
 }
+.section_usagesummary .list_usagesummary li:nth-of-type(3):hover a {
+  cursor: pointer;
+}
 .section_usagesummary .list_usagesummary li:nth-of-type(3):hover, .section_usagesummary .list_usagesummary li:nth-of-type(3).active {
   background: #e7e7e7;
 }
@@ -403,6 +406,7 @@ header .btn_enterprisesettings:hover {
   display: flex;
   align-items: center;
   padding: 20px 17px;
+  cursor: default;
 }
 .section_usagesummary .list_usagesummary li h3 {
   color: var(--secondary-grey-600, #A3AED0);
