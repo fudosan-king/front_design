@@ -53,7 +53,7 @@
                                             <td colspan="3">東京都品川区大井4</td>
                                         </tr>
                                         <tr>
-                                            <th>価格</th>
+                                            <th>交通</th>
                                             <td colspan="3">
                                                 <p>
                                                     半蔵門線　青山一丁目駅　徒歩5分<br>
