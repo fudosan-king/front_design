@@ -548,7 +548,7 @@ input[type=number] {
             background: #fff;
             h4 {
                 font-size: 1em;
-                color: $primary_color;
+                color: $second_color;
                 font-weight: 700;
                 margin-bottom: 10px;
             }
@@ -556,6 +556,7 @@ input[type=number] {
                 font-family: 'SF Pro Display';
                 margin-bottom: 0;
                 font-size: 0.875em;
+                font-weight: 500;
                 &.price {
                     margin-bottom: 10px;
                     .big_price {
@@ -567,6 +568,12 @@ input[type=number] {
                         font-style: normal;
                         font-weight: 700;
                         color: #EB5757;
+                    }
+                }
+                span {
+                    &:first-of-type {
+                        display: inline-block;
+                        min-width: 60px;
                     }
                 }
             }
@@ -1060,14 +1067,14 @@ input[type=number] {
             th {
                 font-weight: 600;
                 background-color: #E0E0E0;
-                padding: 10px;
+                padding: 11.5px 10px;
                 color: #333;
                 border-color: #BDBDBD;
                 vertical-align: middle;
                 min-width: 200px;
             }
             td {
-                padding: 19px 20px;
+                padding: 11.5px 20px;
                 font-size: 0.875em;
                 color: #333;
                 border-color: #BDBDBD;
@@ -1095,6 +1102,7 @@ input[type=number] {
                 font-size: 1.5em;
                 margin-bottom: 20px;
                 font-weight: 700;
+                color: #AD814D;
             }
             h4 {
                 font-size: 1em;
@@ -1202,6 +1210,7 @@ input[type=number] {
             h4 {
                 font-size: 1em;
                 margin-bottom: 10px;
+                font-weight: 700;
             }
             .btn_inquiry {
                 background: #3CBCCF;
@@ -1214,6 +1223,7 @@ input[type=number] {
                 align-content: center;
                 align-items: center;
                 justify-content: center;
+                font-weight: 700;
                 &:hover {
                     background: #1e7684;
                 }
@@ -1297,7 +1307,6 @@ input[type=number] {
 
 .list_page {
     .section_result {
-        border-bottom: 1px solid #ccc;
         margin-bottom: 50px;
         .section_result_head {
             text-align: center;
@@ -1307,10 +1316,13 @@ input[type=number] {
                 font-family: 'Montserrat';
                 font-weight: 400;
                 letter-spacing: 2px;
+                font-size: 2.25em;
+                color: #AD8148;
             }
             p {
                 font-size: 0.875em;
                 margin-bottom: 0;
+                color: #AE8148;
             }
         }
         .list_result {
@@ -1371,7 +1383,8 @@ input[type=number] {
                     border-bottom: 1px dotted #000;
                     h4 {
                         font-size: 0.875em;
-                        color: $second_color;
+                        color: #AD8148;
+                        font-weight: 600;
                     }
                 }
                 .btn_detail {
@@ -1381,6 +1394,7 @@ input[type=number] {
                     align-items: center;
                     justify-content: flex-end;
                     margin-top: 10px;
+                    color: #4F4F4F;
                     img {
                         margin-left: 10px;
                     }
@@ -1443,6 +1457,7 @@ input[type=number] {
         align-items: center;
         justify-content: center;
         position: relative;
+        font-weight: 700;
         &:hover {
             background: #634723;
         }
