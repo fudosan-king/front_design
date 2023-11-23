@@ -167,14 +167,14 @@
                                 <div class="box_considering_purchasing">
                                     <div class="box">
                                         <h4>ご購入を検討の方へ</h4>
-                                        <a href="achievement_document_request.php" class="btn btn_inquiry"><img src="assets/images/i_home.svg" alt="home"> お問い合わせ
+                                        <a href="achievement_document_request.php" class="btn btn_inquiry blue"><img src="assets/images/i_home.svg" alt="home"> お問い合わせ
                                         </a>
                                     </div>
-                                    <div class="box">
+                                    <!-- <div class="box">
                                         <h4>ご売却をお考えの方へ</h4>
                                         <a href="achievement_estate_visit_reservation.php" class="btn btn_inquiry"><img src="assets/images/i_search.svg" alt="search"> 内覧のお申し込み
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
 
                                 <ul class="box_followprostyle">
