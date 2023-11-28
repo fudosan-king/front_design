@@ -42,6 +42,8 @@
                                         <p class="about_me_desc">自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります。</p>
                                     </aside>
 
+
+
                                     <aside class="box_social">
                                         <a href="#" class="btn_social"><img src="assets/images/X.svg" alt="twitter logo"> twitter</a>
                                         <a href="#" class="btn_social"><img src="assets/images/instagram.svg" alt="instagram logo"> Instaglam</a>

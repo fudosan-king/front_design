@@ -47,9 +47,110 @@
                                             <li><img src="assets/images/smartphone.svg" alt="smartphone"> <a href="tel:08046225219">+81 080‐4622‐5219</a></li>
                                             <li><img src="assets/images/mail.svg" alt="mail"> <a href="mailto:saito-masayuki@propolife.co.jp">saito-masayuki@propolife.co.jp</a></li>
                                         </ul>
-                                        <a href="#" class="btn btn_inquiry">お問い合わせ</a>
+                                        <a href="#modal_inquiry" class="btn btn_inquiry" data-bs-toggle="modal">お問い合わせ</a>
                                         <p class="about_me_desc">自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります。</p>
                                     </aside>
+
+                                    <div class="modal fade modal_inquiry" id="modal_inquiry" tabindex="-1" aria-labelledby="inquiry_label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title" id="inquiry_label">お問合せ</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    <p>ご相談・ご依頼や資料請求について、お問い合わせフォームよりお気軽にお問い合わせください。</p>
+                                                    <p><span class="red">※</span> は必須項目です。</p>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="form_group">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-12 col-lg-3">
+                                                                <label for="お名前">お名前 <span class="red">※</span></label>
+                                                            </div>
+                                                            <div class="col-12 col-lg-9">
+                                                                <input class="form-control" type="text" name="" placeholder="例：山田一郎">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-12 col-lg-3">
+                                                                <label for="会社名">会社名 <span class="red">※</span></label>
+                                                            </div>
+                                                            <div class="col-12 col-lg-9">
+                                                                <input class="form-control" type="text" name="" placeholder="例：株式会社〇〇〇〇〇〇">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-12 col-lg-3">
+                                                                <label for="話番号">話番号 <span class="red">※</span></label>
+                                                            </div>
+                                                            <div class="col-12 col-lg-9">
+                                                                <input class="form-control" type="number" name="" placeholder="例：0312341234　(※ハイフンなしでご記入ください)">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-12 col-lg-3">
+                                                                <label for="メールアドレス">メールアドレス <span class="red">※</span></label>
+                                                            </div>
+                                                            <div class="col-12 col-lg-9">
+                                                                <input class="form-control" type="email" name="" placeholder="例：xxxxxxx@logrenove.jp">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <div class="row">
+                                                            <div class="col-12 col-lg-3">
+                                                                <label for="お問い合わせ内容">お問い合わせ内容 <span class="red">※</span></label>
+                                                            </div>
+                                                            <div class="col-12 col-lg-9">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" name="ck_contentinquiry" id="flexCheckDefault1">
+                                                                    <label class="form-check-label" for="flexCheckDefault1">
+                                                                        資料請求したい
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" name="ck_contentinquiry" id="flexCheckDefault2">
+                                                                    <label class="form-check-label" for="flexCheckDefault2">
+                                                                        〇〇〇〇したい
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" name="ck_contentinquiry" id="flexCheckDefault3">
+                                                                    <label class="form-check-label" for="flexCheckDefault3">
+                                                                        〇〇〇〇をしたい
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" name="ck_contentinquiry" id="flexCheckDefault4">
+                                                                    <label class="form-check-label" for="flexCheckDefault4">
+                                                                        その他お問い合わせ
+                                                                    </label>
+                                                                </div>
+                                                                <textarea class="form-control" rows="" cols="" placeholder="ご質問やご要望をご記入ください。"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <p class="box_agree">ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。<br>
+                                                            個人情報の取扱に関しましては <a target="_blank" href="#">プライバシーポリシー</a> をご覧ください。<br>
+                                                            ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。</p>
+                                                        <div class="form-check form_check_agree">
+                                                            <input class=" form-check-input" type="checkbox" name="cb_agree" id="cb_agree_label" checked>
+                                                            <label class="form-check-label" for="cb_agree_label">
+                                                                同意する
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btn btn_Submit">上記に同意して確認画面へ</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                     <aside class="box_social">
                                         <a href="#" class="btn_social"><img src="assets/images/X.svg" alt="twitter logo"> Twitter</a>
@@ -57,10 +158,12 @@
                                     </aside>
                                     <a href="#" class="btn btn_close">閉じる <img class="bounce" src="assets/images/chevrons-up.svg" alt="chevrons up"></a>
 
+
+
+
                                 </div>
-
-
                             </div>
+
 
                             <div class="main_right template2">
                                 <article class="standard_article" data-aos="fade-up">

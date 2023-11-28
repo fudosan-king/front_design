@@ -1271,3 +1271,126 @@ footer {
     }
   }
 }
+
+
+.modal_inquiry {
+  color: #333;
+  .modal-header {
+    flex-direction: column;
+    padding: 50px 60px 26px;
+    border-radius: 0;
+    position: relative;
+    border-bottom: none;
+    h1 {
+      font-family: 'Inter';
+      font-size: 1.5em;
+      font-weight: 600;
+      letter-spacing: -0.48px;
+      color: $primary_color;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 0;
+      &:last-of-type {
+        font-size: 0.75em;
+      }
+    }
+    .btn-close {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      border-radius: 100px;
+      border: 1px solid #EAECEE;
+    }
+  }
+  .modal-content {
+    border-radius: 0;
+  }
+  .modal-body {
+    padding: 0 60px 50px;
+  }
+  label {
+    display: block;
+    text-align: left;
+    color: #333;
+    font-weight: 700;
+    font-size: 0.875em;
+  }
+  .form-control {
+    color: #828282;
+    font-size: 0.875em;
+    &::placeholder {
+      color: #828282;
+    }
+  }
+  .form-check {
+    margin-bottom: 10px;
+    label {
+      font-weight: 400;
+      margin-left: 10px;
+    }
+  }
+  .form_group {
+    margin-bottom: 20px;
+  }
+  textarea {
+    min-height: 90px;
+    font-size: 0.875em;
+  }
+  ::-webkit-inner-spin-button {
+    display: none;
+  }
+  .form_check_agree {
+    display: flex;
+    justify-content: center;
+  }
+  .box_agree {
+    text-align: center;
+    font-size: 0.75em;
+    font-family: 'Noto Sans JP';
+    line-height: 1.6em;
+    a {
+      color: $primary_color;
+      font-weight: 700;
+    }
+  }
+  .form-check-input[type=checkbox] {
+    border-radius: 2px;
+  }
+  .form-check-input:checked[type=checkbox] {
+    background-image: url('../images/i_check.svg');
+  }
+  .form-check-input {
+    width: 20px;
+    height: 20px;
+    &:checked {
+      border-color: $primary_color;
+      background-color: $primary_color;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn_Submit {
+    background: $primary_color;
+    font-size: 0.875em;
+    color: #fff;
+    min-width: 442px;
+    border-radius: 4px;
+    padding: 13.5px;
+  }
+}
+
+@media (max-width: 932px) {
+  .modal_inquiry {
+    .modal-header {
+      padding: 15px;
+    }
+    .modal-body {
+      padding: 0 15px 15px;
+    }
+    .btn_Submit {
+      min-width: auto;
+    }
+  }
+}
