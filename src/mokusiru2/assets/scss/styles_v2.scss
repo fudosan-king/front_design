@@ -77,6 +77,9 @@ input[type=number] {
     }
 }
 
+// .sub_page {
+//     padding-top: 60px;
+// }
 
 .banner {
     margin-bottom: 50px;
@@ -535,7 +538,7 @@ input[type=number] {
             img {
                 width: 100%;
                 height: 200px;
-                object-fit: cover;
+                object-fit: contain;
             }
             a {
                 display: block;
@@ -1160,7 +1163,7 @@ input[type=number] {
                 th {
                     background-color: #F7F3EA;
                     border-right: 1px solid #E0E0E0;
-                    min-width: 200px;
+                    width: 200px;
                     color: $second_color;
                 }
             }
@@ -1713,6 +1716,7 @@ hr {
                 table {
                     th {
                         min-width: 120px;
+                        width: auto;
                     }
                 }
             }
@@ -1737,6 +1741,7 @@ hr {
         }
         p {
             margin-left: 0;
+            text-align: left;
         }
     }
 
@@ -1841,6 +1846,9 @@ hr {
 
 @media (max-width: 430px) {
     .section_unit_detail {
+        h2 {
+            font-size: 1.75em;
+        }
         .box_unit_detail_img {
             .big_img {
                 height: 400px;

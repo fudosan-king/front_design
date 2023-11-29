@@ -9,7 +9,7 @@
 <body class="home blog">
     <?php include 'header.php'; ?>
 
-    <?php include 'menu.php'; ?>
+    <?php include 'menu_sub.php'; ?>
 
     <div class="sub_page">
         <div class="container">
@@ -41,7 +41,12 @@
 
                             <div class="box_keypoints">
                                 <span>本物件のポイント</span>
-                                <p>■天然無垢材を多用した高級デザイン ■高い収納率と機能的なプラン ■10.2帖のマスターベットルーム ■トイレ2ヶ所、ツインボール洗面人気の同時使いプラン ■南向きで陽当り良好 ■2018年大規模修繕工事実施済 弊社売主となりますので是非お問合せ下さい。</p>
+                                <p>■天然無垢材を多用した高級デザイン <br>
+                                    ■高い収納率と機能的なプラン <br>
+                                    ■10.2帖のマスターベットルーム <br>
+                                    ■トイレ2ヶ所、ツインボール洗面人気の同時使いプラン <br>
+                                    ■南向きで陽当り良好<br>
+                                    ■2018年大規模修繕工事実施済 弊社売主となりますので是非お問合せ下さい。</p>
                             </div>
 
                             <div class="box_unit_detail_info">
@@ -103,7 +108,7 @@
                                     <ul class="list_estate_item">
                                         <li>
                                             <div class="list_estate_item_img">
-                                                <a href="assets/images/products/estate01.jpg" data-fancybox="gallery" data-caption="estate01"><img src="assets/images/products/estate01.jpg" alt="estate01"></a>
+                                                <a href="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/03/%E9%96%93%E5%8F%96%E3%82%8A.png" data-fancybox="gallery" data-caption="estate01"><img src="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/03/%E9%96%93%E5%8F%96%E3%82%8A.png" alt="estate01"></a>
                                             </div>
                                             <div class="list_estate_item_content">
                                                 <h4>プロスタイル南町田 202号室</h4>
@@ -119,7 +124,7 @@
                                         </li>
                                         <li>
                                             <div class="list_estate_item_img">
-                                                <a href="assets/images/products/estate01.jpg" data-fancybox="gallery" data-caption="estate01"><img src="assets/images/products/estate01.jpg" alt="estate01"></a>
+                                                <a href="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/03/%E9%96%93%E5%8F%96%E3%82%8A.png" data-fancybox="gallery" data-caption="estate01"><img src="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/A-2.jpg" alt="estate01"></a>
                                             </div>
                                             <div class="list_estate_item_content">
                                                 <h4>プロスタイル南町田 202号室</h4>
@@ -135,7 +140,7 @@
                                         </li>
                                         <li>
                                             <div class="list_estate_item_img">
-                                                <a href="assets/images/products/estate01.jpg" data-fancybox="gallery" data-caption="estate01"><img src="assets/images/products/estate01.jpg" alt="estate01"></a>
+                                                <a href="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/A-2.jpg" data-fancybox="gallery" data-caption="estate01"><img src="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/estate02.jpg" alt="estate01"></a>
                                             </div>
                                             <div class="list_estate_item_content">
                                                 <h4>プロスタイル南町田 202号室</h4>
