@@ -496,7 +496,7 @@ input[type=number] {
 }
 .list_estate_item li .list_estate_item_content h4 {
   font-size: 1em;
-  color: #8C7D60;
+  color: #AD814D;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -504,6 +504,7 @@ input[type=number] {
   font-family: 'SF Pro Display';
   margin-bottom: 0;
   font-size: 0.875em;
+  font-weight: 500;
 }
 .list_estate_item li .list_estate_item_content p.price {
   margin-bottom: 10px;
@@ -517,6 +518,10 @@ input[type=number] {
   font-style: normal;
   font-weight: 700;
   color: #EB5757;
+}
+.list_estate_item li .list_estate_item_content p span:first-of-type {
+  display: inline-block;
+  min-width: 60px;
 }
 .list_estate_item li .btn_viewdetail {
   display: block;
@@ -981,14 +986,14 @@ input[type=number] {
 .section_unit_detail .box_unit_detail_info table th {
   font-weight: 600;
   background-color: #E0E0E0;
-  padding: 10px;
+  padding: 11.5px 10px;
   color: #333;
   border-color: #BDBDBD;
   vertical-align: middle;
   min-width: 200px;
 }
 .section_unit_detail .box_unit_detail_info table td {
-  padding: 19px 20px;
+  padding: 11.5px 20px;
   font-size: 0.875em;
   color: #333;
   border-color: #BDBDBD;
@@ -1016,6 +1021,7 @@ input[type=number] {
   font-size: 1.5em;
   margin-bottom: 20px;
   font-weight: 700;
+  color: #AD814D;
 }
 .section_unit_detail .box_unit_detail_info .box_features h4 {
   font-size: 1em;
@@ -1111,12 +1117,19 @@ input[type=number] {
 .section_unit_detail .box_unit_detail_info .box_considering_purchasing .box:first-of-type .btn:hover {
   background: #7d5a2f;
 }
+.section_unit_detail .box_unit_detail_info .box_considering_purchasing .box:first-of-type .btn.blue {
+  background: #3CBCCF;
+}
+.section_unit_detail .box_unit_detail_info .box_considering_purchasing .box:first-of-type .btn.blue:hover {
+  background: #1e7684;
+}
 .section_unit_detail .box_unit_detail_info .box_considering_purchasing .box:last-of-type {
   margin-right: 0;
 }
 .section_unit_detail .box_unit_detail_info .box_considering_purchasing h4 {
   font-size: 1em;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 .section_unit_detail .box_unit_detail_info .box_considering_purchasing .btn_inquiry {
   background: #3CBCCF;
@@ -1129,6 +1142,7 @@ input[type=number] {
   align-content: center;
   align-items: center;
   justify-content: center;
+  font-weight: 700;
 }
 .section_unit_detail .box_unit_detail_info .box_considering_purchasing .btn_inquiry:hover {
   background: #1e7684;
@@ -1201,7 +1215,6 @@ input[type=number] {
 }
 
 .list_page .section_result {
-  border-bottom: 1px solid #ccc;
   margin-bottom: 50px;
 }
 .list_page .section_result .section_result_head {
@@ -1213,10 +1226,13 @@ input[type=number] {
   font-family: 'Montserrat';
   font-weight: 400;
   letter-spacing: 2px;
+  font-size: 2.25em;
+  color: #AE8148;
 }
 .list_page .section_result .section_result_head p {
   font-size: 0.875em;
   margin-bottom: 0;
+  color: #AE8148;
 }
 .list_page .section_result .list_result {
   display: flex;
@@ -1277,7 +1293,8 @@ input[type=number] {
 }
 .list_page .section_result .list_result li .item_content h4 {
   font-size: 0.875em;
-  color: #AD814D;
+  color: #AE8148;
+  font-weight: 600;
 }
 .list_page .section_result .list_result li .btn_detail {
   font-size: 0.6875em;
@@ -1286,6 +1303,7 @@ input[type=number] {
   align-items: center;
   justify-content: flex-end;
   margin-top: 10px;
+  color: #4F4F4F;
 }
 .list_page .section_result .list_result li .btn_detail img {
   margin-left: 10px;
@@ -1345,6 +1363,7 @@ input[type=number] {
   align-items: center;
   justify-content: center;
   position: relative;
+  font-weight: 700;
 }
 .box_purchasing .btn:hover {
   background: #634723;

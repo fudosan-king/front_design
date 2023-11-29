@@ -1,4 +1,4 @@
-<div class="menu-list menu-list-scroll" style="display: block;">
+<div class="menu-list menu-list-scroll">
     <div class="container-fluid">
         <a class="navbar-brand d-block d-lg-none" href="https://www.prostyle-residence.com/mokusiru/">
             <img class="img-fuild" alt="MOKUSIRU BLOG logo" src="common/logo_yoko.png" title="">

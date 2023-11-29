@@ -7,9 +7,10 @@
 </head>
 
 <body class="home blog">
+
 	<?php include 'header.php'; ?>
 
-	<?php include 'menu.php'; ?>
+	<?php include 'menu_sub.php'; ?>
 
 	<div class="slideshow-top">
 		<div class="container">
