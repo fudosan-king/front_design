@@ -1457,12 +1457,28 @@ hr.dot {
     margin-right: 0;
     margin-bottom: 15px;
   }
+  .estate_detail .w_box_square .box_square.map {
+    margin-bottom: 30px;
+    height: auto;
+  }
+  .estate_detail .w_box_square .box_square.map img {
+    height: auto;
+    object-fit: contain;
+  }
   .estate_detail .w_img {
     flex-direction: column;
   }
   .estate_detail .w_img .square_big {
     min-width: auto;
     margin-right: 0;
+  }
+  .estate_detail .w_img .square_big.map {
+    margin-bottom: 30px;
+    height: auto;
+  }
+  .estate_detail .w_img .square_big.map img {
+    height: auto;
+    object-fit: contain;
   }
   .estate_detail .rectangle_img {
     height: 300px;
