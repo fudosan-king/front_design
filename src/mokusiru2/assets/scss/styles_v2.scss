@@ -1569,6 +1569,14 @@ hr {
             .box_square {
                 margin-right: 0;
                 margin-bottom: 15px;
+                &.map {
+                    margin-bottom: 30px;
+                    height: auto;
+                    img {
+                        height: auto;
+                        object-fit: contain;
+                    }
+                }
             }
         }
         .w_img {
@@ -1576,6 +1584,14 @@ hr {
             .square_big {
                 min-width: auto;
                 margin-right: 0;
+                &.map {
+                    margin-bottom: 30px;
+                    height: auto;
+                    img {
+                        height: auto;
+                        object-fit: contain;
+                    }
+                }
             }
         }
         .rectangle_img {

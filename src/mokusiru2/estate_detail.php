@@ -63,7 +63,7 @@
                                     <p>プロスタイル蔵前は、都営浅草線「蔵前」駅徒歩5分の好立地に誕生。徒歩15分圏内に8駅5路線の利用を可能とし、都内どこへ出かけるにも抜群のアクセシビリティを誇ります。日本橋・秋葉原・上野・浅草といった東京の中でも文化や観光・流通の中心としての顔を持つエリアが徒歩圏内にあり、贅沢なアーバンライフをお楽しみいただけます。加えて、10分程で東京駅・30分程で羽田空港まで到着するため、ビジネスや旅行にも最適な立地です。</p>
                                 </div>
                                 <div class="w_img box_threeimg">
-                                    <div class="square_big">
+                                    <div class="square_big map">
                                         <a href="#"><img src="assets/images/trainacess.png" alt="train acess"></a>
                                     </div>
                                     <div class="w_square_small">
@@ -96,7 +96,7 @@
                                         <a href="#"><img src="assets/images/rectangle_77.jpg" alt="rectangle_77"></a>
                                         <span class="description">蔵前一丁目開発事業（蔵前計画）のイメージCG</span>
                                     </div>
-                                    <div class="box_square">
+                                    <div class="box_square map">
                                         <a href="#"><img src="assets/images/image 17.png" alt="image 17"></a>
                                         <span class="description">説明が入ります説明が入ります説明が入ります説明が入ります説明が入ります</span>
                                     </div>
