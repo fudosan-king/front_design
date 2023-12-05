@@ -883,6 +883,299 @@ header .btn_enterprisesettings:hover {
   text-decoration: none;
 }
 
+.header.header_personal h1 {
+  color: #fff;
+}
+.header.header_personal .header_right .logo_company {
+  color: #fff;
+  font-size: 0.75em;
+  margin-right: 22px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 10px;
+}
+.header.header_personal .header_right .logo_company::before {
+  content: '';
+  background: url("../images/header_logo_transperent.png") no-repeat;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.header.header_personal .header_right .header_avatar .btn_dropdown {
+  display: flex;
+  align-items: center;
+}
+.header.header_personal .header_right .header_avatar .btn_dropdown::after {
+  border-top-color: #fff;
+  margin-left: 15px;
+}
+.header.header_personal .header_right .header_avatar .btn_dropdown .avatar_info {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Inter';
+}
+
+.dropdown-menu {
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.04);
+  border: 1px solid #E4E7EC;
+  background: #FFF;
+}
+
+.seciton_pagelist .pagelist_header {
+  padding: 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seciton_pagelist .pagelist_header .header_right {
+  display: flex;
+}
+.seciton_pagelist .pagelist_header h2 {
+  margin-bottom: 0;
+}
+.seciton_pagelist .pagelist_header .btn_pagecreation {
+  padding: 12px;
+  border-radius: 4px;
+  background: #0168B7;
+  color: #fff;
+  font-size: 0.875em;
+  line-height: 1em;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.seciton_pagelist .pagelist_header .btn_pagecreation:hover {
+  background: #014376;
+}
+.seciton_pagelist .pagelist_header .btn_inquirysettings {
+  border-radius: 4px;
+  border: 1px solid #EAECEE;
+  background: #EDF7FF;
+  font-size: 0.875em;
+  line-height: 1em;
+  font-weight: 700;
+  padding: 12px 20px;
+  color: #0168B7;
+  display: flex;
+  align-items: center;
+}
+.seciton_pagelist .pagelist_header .btn_inquirysettings:hover {
+  background: #a5bfd5;
+}
+.seciton_pagelist .pagelist_header .btn_inquirysettings img {
+  margin-right: 8px;
+}
+.seciton_pagelist .table-responsive {
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  border: 1px solid #E4E7EC;
+  background: #FFF;
+}
+.seciton_pagelist .table {
+  margin-bottom: 0;
+}
+.seciton_pagelist .table thead {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  overflow: hidden;
+}
+.seciton_pagelist .table th {
+  background: #EDF7FF;
+  padding: 15px 24px;
+  font-size: 0.75em;
+  line-height: 1em;
+}
+.seciton_pagelist .table th:first-of-type {
+  width: 290px;
+  border-top-left-radius: 4px;
+}
+.seciton_pagelist .table td {
+  font-size: 0.875em;
+  padding: 16px 24px;
+  vertical-align: middle;
+  line-height: 1.3em;
+}
+.seciton_pagelist .table a {
+  text-decoration: underline;
+}
+.seciton_pagelist ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.seciton_pagelist ul li {
+  margin-right: 20px;
+}
+.seciton_pagelist ul li:last-of-type {
+  margin-right: 0;
+}
+.seciton_pagelist ul li:hover img {
+  opacity: .5;
+}
+.seciton_pagelist .btn_printer {
+  margin-left: 8px;
+  padding: 10px 8px;
+  border-radius: 4px;
+  border: 1px solid #E4E7EC;
+  background: #FFF;
+}
+.seciton_pagelist .btn {
+  border-radius: 4px;
+  background: #0168B7;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1em;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.seciton_pagelist .btn:hover {
+  background: #032a47;
+}
+.seciton_pagelist .btn.btn_opennow {
+  background: #EDF7FF;
+  color: #0168B7;
+}
+.seciton_pagelist .btn.btn_opennow:hover {
+  background: #94a1ad;
+  color: #fff;
+}
+
+.modal_inquirysettings .modal-header {
+  padding: 50px 0 26px;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border-bottom: none;
+}
+.modal_inquirysettings .modal-header .btn-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #EAECEE;
+}
+.modal_inquirysettings .modal-content {
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+}
+.modal_inquirysettings .modal-body {
+  padding: 0 60px 50px;
+}
+.modal_inquirysettings p {
+  margin-bottom: 0;
+  color: #333;
+  font-size: 0.875em;
+  line-height: 1em;
+}
+.modal_inquirysettings p.red {
+  color: #EB5757;
+}
+.modal_inquirysettings p span {
+  font-size: 0.8571em;
+}
+.modal_inquirysettings .box {
+  border: 1px solid  #828282;
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 26px;
+  margin-top: 10px;
+}
+.modal_inquirysettings .box .form_group {
+  margin-bottom: 15px;
+}
+.modal_inquirysettings .box .form_group:last-of-type {
+  margin-bottom: 0;
+}
+.modal_inquirysettings label {
+  font-size: 0.875em;
+  font-weight: 700;
+  line-height: 1em;
+}
+.modal_inquirysettings label.form-check-label {
+  font-weight: 400;
+  margin-left: 8px;
+}
+.modal_inquirysettings input[type=file] {
+  opacity: 0;
+  position: relative;
+  z-index: 2;
+}
+.modal_inquirysettings .btn_file {
+  position: relative;
+}
+.modal_inquirysettings .label {
+  display: block;
+  width: 34px;
+  height: 34px;
+  background: url("../images/icons/i_file.svg") no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+.modal_inquirysettings .label:hover {
+  opacity: .8;
+}
+.modal_inquirysettings .form-check-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #828282;
+}
+.modal_inquirysettings .form-check-input:checked, .modal_inquirysettings .form-check-input:focus {
+  box-shadow: none;
+}
+.modal_inquirysettings .form-check-input:checked {
+  background-color: #0168B7;
+  border-color: #0168B7;
+}
+.modal_inquirysettings .btn_update {
+  font-weight: 400;
+  font-size: 0.875em;
+  color: #fff;
+  font-family: 'Noto Sans JP';
+  background: #0168B7;
+  border-radius: 4px;
+  background: #0168B7;
+  min-width: 442px;
+  padding: 13.5px;
+}
+.modal_inquirysettings .btn_update:hover {
+  background: #012643;
+}
+
+.table-responsive-stack tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.table-responsive-stack td,
+.table-responsive-stack th {
+  display: block;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.table-responsive-stack .table-responsive-stack-thead {
+  font-weight: bold;
+}
+
 @media (min-width: 992px) {
   .modal-lg, .modal-xl {
     max-width: 884px;
@@ -1011,6 +1304,47 @@ header .btn_enterprisesettings:hover {
   .modal.modal_userdetails .table tr td {
     padding: 8px;
   }
+
+  .header.header_personal h1 {
+    font-size: 1em;
+  }
+  .header.header_personal .header_right .logo_company {
+    margin-right: 10px;
+    line-height: 1.3em;
+  }
+  .header.header_personal .header_right .header_avatar .avatar_img {
+    margin-right: 10px;
+  }
+  .header.header_personal .header_right .header_avatar .btn_dropdown::after {
+    margin-left: 5px;
+  }
+  .header.header_personal .header_right .header_avatar .btn_dropdown .avatar_info {
+    font-size: 1em;
+  }
+
+  .seciton_pagelist .pagelist_header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .seciton_pagelist .pagelist_header h2 {
+    margin-bottom: 10px;
+  }
+  .seciton_pagelist .pagelist_header .btn_pagecreation {
+    margin-right: 5px;
+  }
+  .seciton_pagelist .pagelist_header .btn_inquirysettings {
+    padding: 12px;
+  }
+
+  .modal_inquirysettings .modal-body {
+    padding: 0 15px 30px;
+  }
+  .modal_inquirysettings .btn_update {
+    min-width: 200px;
+  }
+  .modal_inquirysettings .btn_file {
+    margin-top: 10px;
+  }
 }
 @media screen and (min-width: 830px) {
   body {
@@ -1046,5 +1380,19 @@ header .btn_enterprisesettings:hover {
 
   .modal.show {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .seciton_pagelist .table th:first-of-type {
+    width: 100%;
+  }
+
+  .table-responsive-stack tr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-bottom: 3px solid #ccc;
+    display: block;
   }
 }
