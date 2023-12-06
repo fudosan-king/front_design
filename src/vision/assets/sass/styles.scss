@@ -917,7 +917,9 @@ header {
     .header_right {
       .logo_company {
         color: #fff;
+        font-family: 'SF Pro';
         font-size: 0.75em;
+        font-weight: 700;
         margin-right: 22px;
         margin-bottom: 0;
         position: relative;
@@ -1017,12 +1019,13 @@ header {
     }
     th {
       background: #EDF7FF;
-      padding: 15px 24px;
+      padding: 15px 24px 15px 10px;
       font-size: 0.75em;
       line-height: 1em;
       &:first-of-type {
-        width: 290px;
         border-top-left-radius: 4px;
+        flex-basis: 30% !important;
+        padding-left: 20px;
       }
     }
     td {
@@ -1030,6 +1033,13 @@ header {
       padding: 16px 24px;
       vertical-align: middle;
       line-height: 1.3em;
+      font-family: 'Inter';
+      &:first-of-type {
+        font-family: 'SF Pro';
+        flex-basis: 30% !important;
+        // width: 362px;
+        // flex-basis: inherit !important;
+      }
     }
     a {
       text-decoration: underline;
@@ -1076,6 +1086,7 @@ header {
     &.btn_opennow {
       background: #EDF7FF;
       color: $primary_color;
+      min-width: 98px;
       &:hover {
         background: #94a1ad;
         color: #fff;
@@ -1091,6 +1102,12 @@ header {
     flex-direction: column;
     position: relative;
     border-bottom: none;
+    h1 {
+      color: $primary_color;
+      font-weight: 600;
+      font-family: 'Inter';
+      font-size: 1.5em;
+    }
     .btn-close {
       position: absolute;
       right: 20px;
@@ -1115,6 +1132,7 @@ header {
     line-height: 1em;
     &.red {
       color: $red_color;
+      font-family: 'Noto Sans JP';
     }
     span {
       font-size: 0.8571em;
@@ -1132,14 +1150,19 @@ header {
         margin-bottom: 0;
       }
     }
+    hr {
+      border-style: dotted;
+    }
   }
   label {
     font-size: 0.875em;
     font-weight: 700;
     line-height: 1em;
+    color: #333;
     &.form-check-label {
       font-weight: 400;
       margin-left: 8px;
+      font-family: 'Noto Sans JP';
     }
   }
   input[type=file] {
@@ -1219,7 +1242,13 @@ header {
   }
 }
 
-
+@media (max-width: 1300px) and (min-width: 1200px) {
+  .listuser {
+    li {
+      min-width: auto;
+    }
+  }
+}
 
 @media (min-width: 992px) {
   .modal-lg, .modal-xl {
@@ -1451,7 +1480,7 @@ header {
   }
   .header {
     height: calc(var(--header-height));
-    padding: 0 2.25rem 0;
+    padding: 0 20px 0;
   }
   .header_img {
     width: 40px;

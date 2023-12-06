@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
   });
 
   function flexTable() {
-    if ($(window).width() < 1200) {
+    if ($(window).width() < 1280) {
 
       $(".table-responsive-stack").each(function (i) {
         $(this).find(".table-responsive-stack-thead").show();
