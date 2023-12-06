@@ -144,7 +144,7 @@
         <section class="section_userlist">
             <form class="frm_userlist">
                 <div class="userlist_header">
-                    <h2>ユーザー一覧</h2>
+                    <h2>メンバー一覧</h2>
                     <div class="userlist_search">
                         <div class="row align-items-center">
                             <div class="col-3 col-lg-auto">
@@ -436,8 +436,6 @@
                                     <li class="page-item active"><a class="page-link" href="#">3</a></li>
                                     <li class="page-item"><a class="page-link" href="#">...</a></li>
                                     <li class="page-item"><a class="page-link" href="#">10</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">11</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">12</a></li>
                                     <li class="page-item">
                                         <a class="page-link" href="#" aria-label="Next">
                                             <img src="assets/images/icons/chevron_right.svg" alt="chevron right" width="15">
@@ -452,7 +450,7 @@
                                     <div class="col-12 col-lg-auto">
                                         <label for="表示数">表示数：</label>
                                         <input type="number" name="" value="9">
-                                        <label for="名／ページ">名／ページ</label>
+                                        <label for="件／ページ">件／ページ</label>
                                     </div>
                                 </div>
                             </div>
@@ -533,12 +531,12 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="inquirysettingsLabel">お問合せフォーム設定</h1>
+                    <h1 class="modal-title" id="inquirysettingsLabel">お問合せフォーム設定</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form class="frm_inquirysettings" action="">
-                        <p><b>定項目</b> <span>※以下の項目はフォームに固定で表示されます。</span></p>
+                        <p><b>固定項目</b> <span>※以下の項目はフォームに固定で表示されます。</span></p>
                         <div class="box">
                             <div class="form_group">
                                 <div class="row align-items-center">
@@ -602,7 +600,7 @@
                             </div>
                             <div class="form_group">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-3">
+                                    <div class="col-12 col-lg-3 text-start text-lg-end">
                                         <label for="項目名">項目名</label>
                                     </div>
                                     <div class="col-12 col-lg-9">
@@ -612,7 +610,7 @@
                             </div>
                             <div class="form_group">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-3">
+                                    <div class="col-12 col-lg-3 text-start text-lg-end">
                                         <label for="複数選択を許可する">複数選択を許可する</label>
                                     </div>
                                     <div class="col-12 col-lg-9">
@@ -625,7 +623,7 @@
                             </div>
                             <div class="form_group">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-3">
+                                    <div class="col-12 col-lg-3 text-start text-lg-end">
                                         <label for="選択項目">選択項目</label>
                                     </div>
                                     <div class="col-12 col-lg-7">
@@ -639,6 +637,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <hr>
                             <div class="form_group">
                                 <div class="row">
                                     <div class="col-12 col-lg-3">

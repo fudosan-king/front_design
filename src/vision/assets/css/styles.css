@@ -888,7 +888,9 @@ header .btn_enterprisesettings:hover {
 }
 .header.header_personal .header_right .logo_company {
   color: #fff;
+  font-family: 'SF Pro';
   font-size: 0.75em;
+  font-weight: 700;
   margin-right: 22px;
   margin-bottom: 0;
   position: relative;
@@ -983,19 +985,25 @@ header .btn_enterprisesettings:hover {
 }
 .seciton_pagelist .table th {
   background: #EDF7FF;
-  padding: 15px 24px;
+  padding: 15px 24px 15px 10px;
   font-size: 0.75em;
   line-height: 1em;
 }
 .seciton_pagelist .table th:first-of-type {
-  width: 290px;
   border-top-left-radius: 4px;
+  flex-basis: 30% !important;
+  padding-left: 20px;
 }
 .seciton_pagelist .table td {
   font-size: 0.875em;
   padding: 16px 24px;
   vertical-align: middle;
   line-height: 1.3em;
+  font-family: 'Inter';
+}
+.seciton_pagelist .table td:first-of-type {
+  font-family: 'SF Pro';
+  flex-basis: 30% !important;
 }
 .seciton_pagelist .table a {
   text-decoration: underline;
@@ -1040,6 +1048,7 @@ header .btn_enterprisesettings:hover {
 .seciton_pagelist .btn.btn_opennow {
   background: #EDF7FF;
   color: #0168B7;
+  min-width: 98px;
 }
 .seciton_pagelist .btn.btn_opennow:hover {
   background: #94a1ad;
@@ -1052,6 +1061,12 @@ header .btn_enterprisesettings:hover {
   flex-direction: column;
   position: relative;
   border-bottom: none;
+}
+.modal_inquirysettings .modal-header h1 {
+  color: #0168B7;
+  font-weight: 600;
+  font-family: 'Inter';
+  font-size: 1.5em;
 }
 .modal_inquirysettings .modal-header .btn-close {
   position: absolute;
@@ -1077,6 +1092,7 @@ header .btn_enterprisesettings:hover {
 }
 .modal_inquirysettings p.red {
   color: #EB5757;
+  font-family: 'Noto Sans JP';
 }
 .modal_inquirysettings p span {
   font-size: 0.8571em;
@@ -1094,14 +1110,19 @@ header .btn_enterprisesettings:hover {
 .modal_inquirysettings .box .form_group:last-of-type {
   margin-bottom: 0;
 }
+.modal_inquirysettings .box hr {
+  border-style: dotted;
+}
 .modal_inquirysettings label {
   font-size: 0.875em;
   font-weight: 700;
   line-height: 1em;
+  color: #333;
 }
 .modal_inquirysettings label.form-check-label {
   font-weight: 400;
   margin-left: 8px;
+  font-family: 'Noto Sans JP';
 }
 .modal_inquirysettings input[type=file] {
   opacity: 0;
@@ -1176,6 +1197,11 @@ header .btn_enterprisesettings:hover {
   font-weight: bold;
 }
 
+@media (max-width: 1300px) and (min-width: 1200px) {
+  .listuser li {
+    min-width: auto;
+  }
+}
 @media (min-width: 992px) {
   .modal-lg, .modal-xl {
     max-width: 884px;
@@ -1354,7 +1380,7 @@ header .btn_enterprisesettings:hover {
 
   .header {
     height: calc(var(--header-height));
-    padding: 0 2.25rem 0;
+    padding: 0 20px 0;
   }
 
   .header_img {
