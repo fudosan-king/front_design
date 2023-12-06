@@ -1037,8 +1037,6 @@ header {
       &:first-of-type {
         font-family: 'SF Pro';
         flex-basis: 30% !important;
-        // width: 362px;
-        // flex-basis: inherit !important;
       }
     }
     a {
@@ -1078,8 +1076,9 @@ header {
     font-size: 1em;
     line-height: 1em;
     color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 98px;
     &:hover {
       background: #032a47;
     }
@@ -1242,10 +1241,35 @@ header {
   }
 }
 
+@media (max-width: 1400px) {
+  .seciton_pagelist {
+    .table {
+      th {
+        &:nth-of-type(2) {
+          flex-basis: 9.2857% !important;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1300px) and (min-width: 1200px) {
   .listuser {
     li {
       min-width: auto;
+      &:nth-of-type(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1218px) {
+  .listuser {
+    li {
+      &:nth-of-type(3n) {
+        margin-right: 28px;
+      }
     }
   }
 }

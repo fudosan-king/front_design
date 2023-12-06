@@ -1039,8 +1039,9 @@ header .btn_enterprisesettings:hover {
   font-size: 1em;
   line-height: 1em;
   color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 98px;
 }
 .seciton_pagelist .btn:hover {
   background: #032a47;
@@ -1197,9 +1198,22 @@ header .btn_enterprisesettings:hover {
   font-weight: bold;
 }
 
+@media (max-width: 1400px) {
+  .seciton_pagelist .table th:nth-of-type(2) {
+    flex-basis: 9.2857% !important;
+  }
+}
 @media (max-width: 1300px) and (min-width: 1200px) {
   .listuser li {
     min-width: auto;
+  }
+  .listuser li:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1218px) {
+  .listuser li:nth-of-type(3n) {
+    margin-right: 28px;
   }
 }
 @media (min-width: 992px) {
