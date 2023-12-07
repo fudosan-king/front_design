@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@font-face {
+  font-family: 'Mont';
+  src: local('Mont Regular'), local('Mont-Regular'),
+      url('../css/fonts/Mont-Regular.woff2') format('woff2'),
+      url('../css/fonts/Mont-Regular.woff') format('woff'),
+      url('../css/fonts/Mont-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont';
+  src: local('Mont Bold'), local('Mont-Bold'),
+      url('../css/fonts/Mont-Bold.woff2') format('woff2'),
+      url('../css/fonts/Mont-Bold.woff') format('woff'),
+      url('../css/fonts/Mont-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+$primary_color: #1E7FB8;
+$yellow_color: #EBFF00;
+
+a {
+  color: #000;
+}
+.btn {
+  font-size: 16px;
+  color: #000;
+  border-radius: 0;
+}
+.btn, a, .btn:hover {
+  transition: color .25s ease;
+}
+.btn:hover, .btn.focus {
+  color: $primary_color;
+  transition: all .3s linear;
+}
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+button:focus {
+  outline: none;
+}
+::-moz-selection {
+  background: $primary_color;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary_color;
+  color: #FFF;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: $primary_color;
+  color: #FFF;
+  text-shadow: none;
+}
+::-webkit-selection {
+  background: $primary_color;
+  color: #FFF;
+  text-shadow: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #FBFBFB;
+  font-family: "SF Pro Display", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  line-height: 1.8em;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-link {
+  color: #000;
+  word-break: normal;
+  word-break: break-all;
+  word-break: keep-all;
+  font-size: 0.75em;
+  text-decoration: underline;
+}
+
+.btn-link:hover {
+  color: #B48856;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "SF Pro Display", "Noto Sans JP", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+*, :before, :after {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+  transition: all .3s linear;
+}
+
+.red {
+  color: #eb5757;
+}
+
+.form-control {
+  font-size: 0.875em;
+  border-color: #828282;
+  height: calc(1.5em + .75rem + 7px);
+  border-radius: 4px;
+  font-family: 'Noto Sans JP';
+}
+.row>* {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section {
+  padding: 150px 0;
+}
+
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1098px;
+  }
+}
+
+header {
+  padding: 40px 70px;
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+}
+.navbar {
+  padding: 0;
+}
+.navbar-nav {
+  align-items: center;
+  .nav-item {
+    &:last-of-type {
+      .nav-link {
+        background: #000;
+        padding: 15px 40px;
+        border-radius: 100px;
+        color: $yellow_color;
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+    .nav-link {
+      font-weight: 700;
+      color: #000;
+      padding: 0 25px;
+      &.active, &:hover {
+        color: $primary_color;
+      }
+    }
+  }
+}
+
+.section_banner {
+  background: url('../images/bg_banner.png') repeat-x bottom center;
+  .banner_content {
+    display: flex;
+    position: relative;
+    .box_info {
+      min-width: 540px;
+      position: relative;
+      z-index: 10;
+      h2 {
+        margin-bottom: 30px;
+        letter-spacing: .2em;
+      }
+      h3 {
+        font-size: 6em;
+        line-height: 1em;
+        margin-bottom: 40px;
+      }
+      ul {
+        padding: 0;
+        margin: 0 0 40px;
+        list-style-type: none;
+        display: flex;
+        align-self: center;
+        li {
+          width: 140px;
+          height: 140px;
+          border-radius: 140px;
+          background: $yellow_color;
+          color: #000;
+          margin-right: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          &:last-of-type {
+            margin-right: 0;
+          }
+          p {
+            margin-bottom: 0;
+            font-size: 1.5em;
+            font-weight: 700;
+          }
+        }
+      }
+      .btn_requestinquiries {
+        padding: 22px 30px;
+        min-width: 460px;
+        background: #000;
+        color: $yellow_color;
+        border-radius: 100px;
+        font-weight: 700;
+      }
+    }
+    .img_banner {
+      position: absolute;
+      right: -30%;
+      bottom: 0;
+    }
+  }
+}
+
