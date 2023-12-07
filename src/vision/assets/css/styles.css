@@ -233,6 +233,27 @@ body {
   left: 0;
 }
 
+.nav_list {
+  text-align: center;
+}
+.nav_list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav_list ul.show {
+  width: 80px;
+}
+.nav_list ul li {
+  text-align: center;
+}
+.nav_list ul li img {
+  opacity: .8;
+}
+.nav_list ul li:hover img {
+  opacity: 1;
+}
+
 .nav_logo, .nav_link {
   display: grid;
   grid-template-columns: max-content max-content;

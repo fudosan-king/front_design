@@ -8,6 +8,7 @@ jQuery(document).ready(function ($) {
   }
   $('[data-scroll]').on('click', scrollToSection);
 
+
   // inspired by http://jsfiddle.net/arunpjohny/564Lxosz/1/
   $('.table-responsive-stack').each(function (i) {
     var id = $(this).attr('id');
@@ -71,6 +72,7 @@ $(function ($) {
         scrollTop: "0"
       })
     })
+
   })
 });
 
