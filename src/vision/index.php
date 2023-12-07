@@ -27,9 +27,39 @@
             <div>
                 <div class="nav_list">
                     <a href="#" class="nav_link"><img src="assets/images/icons/i_home.svg" alt="Home"></a>
+
                     <a href="#" class="nav_link"><img src="assets/images/icons/i_call.svg" alt="Call"></a>
-                    <a href="#" class="nav_link"><img src="assets/images/icons/i_users.svg" alt="Users"></a>
+
+                    <div data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample" data-bs-target="#collapseExample">
+                        <a href="#collapseExample">
+                            <img src="assets/images/icons/i_users.svg" alt="Users">
+                            <ul class="collapse" id="collapseExample">
+                                <li>
+                                    <a class="dropdown-item" href="#" title="アカウント管理">
+                                        <img src="assets/images/icons/i_accountmanagement.svg" alt="アカウント管理" width="18">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" title="アクセスログ">
+                                        <img src="assets/images/icons/i_accesslog.svg" alt="アクセスログ" width="18">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" title="視聴ログ通知">
+                                        <img src="assets/images/icons/i_viewing.svg" alt="視聴ログ通知" width="18">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" title="アラート通知">
+                                        <img src="assets/images/icons/i_alert.svg" alt="アラート通知" width="18">
+                                    </a>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+
                     <a href="#" class="nav_link"><img src="assets/images/icons/i_treediagram.svg" alt="Tree Diagram"></a>
+
                 </div>
             </div>
         </nav>
