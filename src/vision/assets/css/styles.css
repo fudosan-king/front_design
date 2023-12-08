@@ -253,6 +253,9 @@ body {
 .nav_list ul li:hover img {
   opacity: 1;
 }
+.nav_list ul li a.active img {
+  opacity: 1;
+}
 
 .nav_logo, .nav_link {
   display: grid;
