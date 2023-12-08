@@ -236,6 +236,13 @@ h2 {
             opacity: 1;
           }
         }
+        a {
+          &.active {
+            img {
+              opacity: 1;
+            }
+          }
+        }
       }
     }
   }
