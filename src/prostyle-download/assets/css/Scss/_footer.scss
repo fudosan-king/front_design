@@ -1,0 +1,91 @@
+.footer-top {
+	background: #fff;
+}
+
+.footer {
+	&__logo-brand {
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 20px;
+		border-top: 1px solid #E0E0E0;
+	}
+	&__line {
+		width: 100%;
+		max-width: 1100px;
+		height: 0.5px;
+		background: #AD814D;
+		text-align: center;
+		margin: 0 auto;
+	}
+	&__action {
+	    display: flex;
+    	justify-content: center;
+    	margin-top: 28px;
+    	margin-bottom: 15px;
+	}
+	&__social {
+		ul {
+			padding-left: 0;
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			padding-bottom: 8px;
+    		margin: 0;
+		}
+	}
+}
+
+
+.footer-bottom {
+	background: #AD814D;
+	padding: 23px 30px;
+	@media (max-width: 767px) {
+		padding: 20px 10px;
+		.navbar {
+			display: block;
+			text-align: center;
+		}
+	}
+}
+
+.footer {
+	&__nav-menu {
+		ul {
+			display: flex;
+			gap: 30px;
+			margin: 0;
+			li {
+				a {
+					color: #FFF;
+					text-align: center;
+					font-family: SF Pro Display;
+					font-size: 0.688rem;
+					font-weight: 500;
+					line-height: 1.4;
+					letter-spacing: 0.55px;
+				}
+			}
+			@media (max-width: 767px) {
+				display: block;
+				li {
+					a {
+						padding: 5px 0;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+
+.copyright {
+	color: #FFF;
+	font-family: SF Pro Display;
+	font-size: 0.75rem;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: 1px;
+	@media (max-width: 425px) {
+		font-size: 0.625rem;
+	}
+}
