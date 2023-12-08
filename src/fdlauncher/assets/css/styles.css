@@ -192,6 +192,7 @@ header h1 {
 
 .section_banner {
   background: url("../images/bg_banner.png") repeat-x bottom center;
+  padding-bottom: 100px;
 }
 .section_banner .banner_content {
   display: flex;
@@ -245,9 +246,267 @@ header h1 {
   color: #EBFF00;
   border-radius: 100px;
   font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_banner .banner_content .box_info .btn_requestinquiries:hover {
+  background: #1E7FB8;
+}
+.section_banner .banner_content .box_info .btn_requestinquiries img {
+  margin-right: 10px;
 }
 .section_banner .banner_content .img_banner {
   position: absolute;
   right: -30%;
   bottom: 0;
+}
+
+.title {
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1E7FB8;
+}
+
+.sub_title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-family: 'Inter';
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.section_submissiontool {
+  background: #EDEDED;
+  padding-top: 0;
+}
+.section_submissiontool .box_submissiontool {
+  display: flex;
+  align-items: center;
+}
+.section_submissiontool .box_submissiontool .box_submissiontool_info {
+  margin-left: 115px;
+}
+.section_submissiontool .box_submissiontool .box_submissiontool_info h2 {
+  font-size: 2.25em;
+  line-height: 1em;
+}
+.section_submissiontool .box_submissiontool .box_submissiontool_info h3 {
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+.section_submissiontool .box_submissiontool .box_submissiontool_info .btn {
+  border-radius: 10px;
+  background: #000;
+  color: #EBFF00;
+  padding: 10px 45px;
+  font-size: 1.5em;
+  font-weight: 860;
+  line-height: 1.8em;
+}
+.section_submissiontool .box_submissiontool .box_submissiontool_info .btn span {
+  font-size: 2em;
+}
+
+.section_price .description {
+  margin-bottom: 50px;
+}
+.section_price .table {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.section_price .table th, .section_price .table td {
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 700;
+  border-color: #E0E0E0;
+  position: relative;
+}
+.section_price .table th:hover::after, .section_price .table td:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #ffa;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+.section_price .table th {
+  background: #E0E0E0;
+}
+.section_price .table td {
+  background: #F2F2F2;
+}
+.section_price .table td:first-of-type {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.section_plan {
+  background: #EDEDED;
+}
+.section_plan ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.section_plan ul li {
+  border-radius: 20px;
+  background: #FFF;
+  margin-right: 20px;
+  padding: 40px 34px;
+  width: 50%;
+  text-align: center;
+  transition: all .3s linear;
+}
+.section_plan ul li:hover {
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  transition: all .3s linear;
+}
+.section_plan ul li:last-of-type {
+  margin-right: 0;
+}
+.section_plan ul li h4 {
+  font-size: 1.875em;
+  font-family: 'Inter';
+  margin-bottom: 30px;
+}
+.section_plan ul li h5 {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.section_plan ul li h6 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 2.25em;
+}
+.section_plan ul li .btn {
+  border-radius: 100px;
+  background: #1E7FB8;
+  padding: 5px 50px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+.section_plan ul li .btn:hover {
+  background: #0d5178;
+}
+.section_plan ul li p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.section_propertyinformation {
+  padding: 75px 0;
+  background: url("../images/bg_dotblue.png") repeat;
+}
+.section_propertyinformation .box_propertyinformation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_propertyinformation .box_propertyinformation .box_info {
+  margin-right: 30px;
+  text-align: center;
+  min-width: 432px;
+}
+.section_propertyinformation .box_propertyinformation .box_info h2 {
+  font-size: 2.25em;
+}
+.section_propertyinformation .box_propertyinformation .box_info .logo_black {
+  margin-bottom: 20px;
+}
+.section_propertyinformation .box_propertyinformation .box_info .btn_application {
+  border-radius: 100px;
+  border: 2px solid #000;
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20.5px 30px;
+  font-size: 1.25em;
+  font-weight: 700;
+  transition: color .25s ease;
+}
+.section_propertyinformation .box_propertyinformation .box_info .btn_application:hover {
+  color: #fff;
+  background: #000;
+  border-color: #fff;
+  box-shadow: 0px 2px 2px 0px #fff;
+  transition: all .3s linear;
+}
+.section_propertyinformation .box_propertyinformation .box_info .btn_application:hover i {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 24 25' style='enable-background:new 0 0 24 25;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:none;stroke:%23FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cg id='file-text_1'%3e%3cpath id='Vector' class='st0' d='M14,2.5H6c-0.5,0-1,0.2-1.4,0.6C4.2,3.5,4,4,4,4.5v16c0,0.5,0.2,1,0.6,1.4C5,22.3,5.5,22.5,6,22.5 h12c0.5,0,1-0.2,1.4-0.6c0.4-0.4,0.6-0.9,0.6-1.4v-12L14,2.5z'/%3e%3cpath id='Vector_2' class='st0' d='M14,2.5v6h6'/%3e%3cpath id='Vector_3' class='st0' d='M16,13.5H8'/%3e%3cpath id='Vector_4' class='st0' d='M16,17.5H8'/%3e%3cpath id='Vector_5' class='st0' d='M10,9.5H9H8'/%3e%3c/g%3e%3c/svg%3e ");
+}
+.section_propertyinformation .box_propertyinformation .box_info .btn_application img {
+  margin-right: 10px;
+}
+
+.i_edit {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 24 25' style='enable-background:new 0 0 24 25;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:none;stroke:%23000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cg id='file-text_1'%3e%3cpath id='Vector' class='st0' d='M14,2.5H6c-0.5,0-1,0.2-1.4,0.6C4.2,3.5,4,4,4,4.5v16c0,0.5,0.2,1,0.6,1.4C5,22.3,5.5,22.5,6,22.5 h12c0.5,0,1-0.2,1.4-0.6c0.4-0.4,0.6-0.9,0.6-1.4v-12L14,2.5z'/%3e%3cpath id='Vector_2' class='st0' d='M14,2.5v6h6'/%3e%3cpath id='Vector_3' class='st0' d='M16,13.5H8'/%3e%3cpath id='Vector_4' class='st0' d='M16,17.5H8'/%3e%3cpath id='Vector_5' class='st0' d='M10,9.5H9H8'/%3e%3c/g%3e%3c/svg%3e");
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-right: 10px;
+}
+
+.section_flow {
+  text-align: center;
+}
+.section_flow .sub_title {
+  margin-bottom: 50px;
+}
+
+.section_faq {
+  background: #E6F6FF;
+}
+.section_faq .sub_title {
+  margin-bottom: 50px;
+}
+
+.accordion {
+  background: transparent;
+}
+
+.accordion-item {
+  border: none;
+  background: transparent;
+}
+.accordion-item:first-of-type {
+  border-radius: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-radius: 0;
+}
+
+.accordion-header {
+  font-size: 1.25em;
+}
+
+.accordion-button {
+  background: transparent;
+  font-size: 1em;
+  font-weight: 700;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  box-shadow: none;
+  color: #000;
 }
