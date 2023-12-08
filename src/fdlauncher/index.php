@@ -45,12 +45,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="box_submissiontool">
-                            <img src="assets/images/submissiontool.svg" alt="">
+                            <img src="assets/images/submissiontool.svg" alt="submissiontool">
                             <div class="box_submissiontool_info">
                                 <h2>物件情報一括入稿ツール</h2>
                                 <h3>FDランチャー</h3>
                                 <p>FDランチャーは、 主要ポータルサイトに「一度の手間」で一気に広告を拡散するシステムです。各主要ポータルサイトと連動しており、低コストかつわかりやすい操作性で、人を増やさずとも、貴社の生産力が一気に上がります。</p>
-                                <a href="#" class="btn">月額費用<span>10,000円</span></a>
+                                <a href="#" class="btn">月額費用<span>10,000</span>円</a>
                             </div>
                         </div>
                     </div>
@@ -64,9 +64,9 @@
                     <div class="col-12">
                         <h2 class="title">PRICE</h2>
                         <h3 class="sub_title">圧倒的な低価格</h3>
-                        <p>一括入稿ツールを初めてお使いのお客様も、既に他社の一括入稿ツールをお使いのお客様にも
+                        <p class="description">一括入稿ツールを初めてお使いのお客様も、既に他社の一括入稿ツールをお使いのお客様にも<br>
                             ご満足いただける価格設定でご提供いたします。</p>
-                        <table class="table">
+                        <table class="table table-bordered">
                             <thead>
                                 <tr>
                                     <th></th>
@@ -102,13 +102,13 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="text-end">※オプションにより一部有料機能あり</p>
+                        <p class="text-end"><small>※オプションにより一部有料機能あり</small></p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section_price">
+        <section class="section_plan">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -118,20 +118,20 @@
                             <li>
                                 <h4>これからホームページを作る方</h4>
                                 <a href="#" class="btn">テンプレートで簡単作成</a>
-                                <p>専門知識がなくてもホームページが簡単に作成できます。お問い合わせフォームの追加も可能です。</p>
+                                <h5>専門知識がなくてもホームページが簡単に作成できます。お問い合わせフォームの追加も可能です。</h5>
                                 <img src="assets/images/templates.svg" alt="templates">
                                 <p><small>入力フォームにデータを入力するだけでホームページが作成できます。難しい知識は必要ありません。入力した物件情報もそのままホームページに反映されます。</small></p>
                                 <img src="assets/images/arrow_down.svg" alt="arrow_down" width="120">
-                                <h5>追加料金無し</h5>
+                                <h6>追加料金無し</h6>
                             </li>
                             <li>
                                 <h4>自社ホームページをお持ちの方</h4>
                                 <a href="#" class="btn">API活用</a>
-                                <p>貴社ホームページのデザインや機能を損なうことなく、物件情報を更新することができます。</p>
-                                <img src="assets/images/templates.svg" alt="templates">
+                                <h5>貴社ホームページのデザインや機能を損なうことなく、物件情報を更新することができます。</h5>
+                                <img src="assets/images/api.svg" alt="templates">
                                 <p><small>FDランチャーのAPI機能を使って、貴社ホームページの物件情報を更新することができます。一度の手間でポータルサイトへの入稿、自社ホームページのデータ更新を行うことができます。</small></p>
                                 <img src="assets/images/arrow_down.svg" alt="arrow_down" width="120">
-                                <h5>月額費用 ➕ 5,000円</h5>
+                                <h6>月額費用 ➕ 5,000円</h6>
                             </li>
                         </ul>
                     </div>
@@ -143,12 +143,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="box_info">
-                            <h2>物件情報一括入稿ツール</h2>
-                            <img src="assets/images/logo_black.svg" alt="logo black" width="290">
-                            <a href="#" class="btn btn_application"><img src="assets/images/i_edit_small.svg" alt="edit" width="290"> 申し込み</a>
+                        <div class="box_propertyinformation">
+                            <div class="box_info">
+                                <h2>物件情報一括入稿ツール</h2>
+                                <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
+                                <a href="#" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
+                            </div>
+                            <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453">
                         </div>
-                        <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453">
                     </div>
                 </div>
             </div>
@@ -160,7 +162,7 @@
                     <div class="col-12">
                         <h2 class="title">FLOW</h2>
                         <h3 class="sub_title">ご契約から利用開始までの流れ</h3>
-                        <img class="img-fluid d-lg-block d-none" src="assets/images/flow.svg" alt="flow" width="916">
+                        <img class="img-fluid d-lg-block d-none m-auto" src="assets/images/flow.svg" alt="flow" width="916">
                         <img class="img-fluid d-block d-lg-none" src="assets/images/flow_sp.svg" alt="flow">
                     </div>
                 </div>
@@ -335,12 +337,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="box_info">
-                            <h2>物件情報一括入稿ツール</h2>
-                            <img src="assets/images/logo_black.svg" alt="logo black" width="290">
-                            <a href="#" class="btn btn_application"><img src="assets/images/i_edit_small.svg" alt="edit" width="290"> 申し込み</a>
+                        <div class="box_propertyinformation">
+                            <div class="box_info">
+                                <h2>物件情報一括入稿ツール</h2>
+                                <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
+                                <a href="#" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
+                            </div>
+                            <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453">
                         </div>
-                        <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453">
                     </div>
                 </div>
             </div>
