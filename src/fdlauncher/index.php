@@ -126,7 +126,7 @@
                                 <a href="#" class="btn">テンプレートで簡単作成</a>
                                 <h5>専門知識がなくてもホームページが簡単に作成できます。お問い合わせフォームの追加も可能です。</h5>
                                 <img src="assets/images/templates.svg" alt="templates">
-                                <p><small>入力フォームにデータを入力するだけでホームページが作成できます。難しい知識は必要ありません。入力した物件情報もそのままホームページに反映されます。</small></p>
+                                <p>入力フォームにデータを入力するだけでホームページが作成できます。難しい知識は必要ありません。入力した物件情報もそのままホームページに反映されます。</p>
                                 <img src="assets/images/arrow_down.svg" alt="arrow_down" width="120">
                                 <h6>追加料金無し</h6>
                             </li>
@@ -135,9 +135,9 @@
                                 <a href="#" class="btn">API活用</a>
                                 <h5>貴社ホームページのデザインや機能を損なうことなく、物件情報を更新することができます。</h5>
                                 <img src="assets/images/api.svg" alt="templates">
-                                <p><small>FDランチャーのAPI機能を使って、貴社ホームページの物件情報を更新することができます。一度の手間でポータルサイトへの入稿、自社ホームページのデータ更新を行うことができます。</small></p>
+                                <p>FDランチャーのAPI機能を使って、貴社ホームページの物件情報を更新することができます。一度の手間でポータルサイトへの入稿、自社ホームページのデータ更新を行うことができます。</p>
                                 <img src="assets/images/arrow_down.svg" alt="arrow_down" width="120">
-                                <h6>月額費用 ➕ 5,000円</h6>
+                                <h6>月額費用 <span>➕</span> <span>5,000</span><i>円</i></h6>
                             </li>
                         </ul>
                     </div>
@@ -194,7 +194,7 @@
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
-                                        <p>自ドメインもご利用できます。ご相談ください。</p>
+                                        <p>独自ドメインもご利用できます。ご相談ください。</p>
                                     </div>
                                 </div>
                             </div>
@@ -255,7 +255,8 @@
                                 <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
                                         <p>不動産ポータルサイトといくつ連動しても初期費用0円、月額費用10,000円です。<br>
-                                            ただし、貴社と各不動産ポータルサイトで利用契約を結ぶときに別途費用が掛かります。また、既存自社サイトと連動する場合は月額費用15,000円となります。</p>
+                                            ただし、貴社と各不動産ポータルサイトで利用契約を結ぶときに別途費用が掛かります。<br>
+                                            また、既存自社サイトと連動する場合は月額費用15,000円となります。</p>
                                     </div>
                                 </div>
                             </div>
