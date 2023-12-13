@@ -103,18 +103,23 @@
                                             <ul>
                                                 <li>
                                                     <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
+                                                    <button type="button" class="btn btnClose"></button>
                                                 </li>
                                                 <li>
                                                     <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
+                                                    <button type="button" class="btn btnClose"></button>
                                                 </li>
                                                 <li>
                                                     <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
+                                                    <button type="button" class="btn btnClose"></button>
                                                 </li>
                                                 <li>
                                                     <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
+                                                    <button type="button" class="btn btnClose"></button>
                                                 </li>
                                                 <li>
                                                     <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
+                                                    <button type="button" class="btn btnClose"></button>
                                                 </li>
                                                 <li>
                                                     <label class="box_uploads">
@@ -138,6 +143,7 @@
                                                     <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
                                                     <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
                                                     <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                                                    <button type="button" class="btn btnClose"></button>
                                                 </div>
                                             </div>
                                             <button class="btn btn_addlink" type=""><img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> リンクを追加する</button>
@@ -154,6 +160,7 @@
                                                             </i>
                                                             <span>資料</span>
                                                         </p>
+                                                        <button type="button" class="btn btnClose"></button>
                                                     </label>
                                                     <p class="or">or</p>
                                                     <label class="label_url" for="動画のURL">動画のURL</label>
@@ -169,6 +176,7 @@
                                                             </i>
                                                             <span>資料</span>
                                                         </p>
+                                                        <button type="button" class="btn btnClose"></button>
                                                     </label>
                                                     <p class="or">or</p>
                                                     <label class="label_url" for="動画のURL">動画のURL</label>
@@ -184,6 +192,7 @@
                                                             </i>
                                                             <span>資料</span>
                                                         </p>
+                                                        <button type="button" class="btn btnClose"></button>
                                                     </label>
                                                     <p class="or">or</p>
                                                     <label class="label_url" for="動画のURL">動画のURL</label>
