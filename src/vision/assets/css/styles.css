@@ -491,9 +491,15 @@ header .btn_enterprisesettings:hover {
   border-radius: 4px;
   border: 1px solid #D0D5DD;
   background-image: url("../images/icons/arrow_drop_down.svg");
+  background-repeat: no-repeat;
 }
 .section_userlist .frm_userlist select:focus {
   box-shadow: none;
+}
+.section_userlist .frm_userlist select.number {
+  background-position: 80% 50%;
+  background-size: 20%;
+  font-size: 1em;
 }
 
 .listuser {
