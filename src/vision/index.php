@@ -418,9 +418,17 @@
                         <div class="col-12 col-lg-4">
                             <div class="box_indicates">
                                 <div class="row align-items-center">
-                                    <div class="col-12 col-lg-auto">
+                                    <div class="col-4 col-lg-auto">
                                         <label for="表示数">表示数：</label>
-                                        <input type="number" name="" value="9">
+                                    </div>
+                                    <div class="col-4">
+                                        <select class="form-control number">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
                                         <label for="名／ページ">名／ページ</label>
                                     </div>
                                 </div>
