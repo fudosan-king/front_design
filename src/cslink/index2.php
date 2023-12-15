@@ -42,6 +42,22 @@
 
                                         <p><span>部署</span> Webプロデュース事業部</p>
                                         <p><span>役職</span> Web Director</p>
+
+                                        <div class="box_personal_data">
+                                            <div class="form_group form_group_infomation personal_data">
+                                                <span class="label_input_profile">出身校</span>
+                                                <div class="profile_content">
+                                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, velit.</p>
+                                                </div>
+                                            </div>
+                                            <div class="form_group form_group_infomation personal_data">
+                                                <span class="label_input_profile">出身校</span>
+                                                <div class="profile_content">
+                                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, velit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                         <ul class="info">
                                             <li><img src="assets/images/phone.svg" alt="phone"> <a href="tel:0368978580">03-6897-8580</a></li>
                                             <li><img src="assets/images/smartphone.svg" alt="smartphone"> <a href="tel:08046225219">+81 080‐4622‐5219</a></li>

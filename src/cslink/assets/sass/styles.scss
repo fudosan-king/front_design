@@ -1416,3 +1416,34 @@ footer {
     border: none;
   }
 }
+
+.box_personal_data {
+  .form_group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    span {
+      min-width: 60px;
+      background: #000;
+      color: #fff;
+      font-size: 0.7143em;
+      font-weight: 700;
+      line-height: 1.3em;
+      padding: 0 10px;
+      margin-right: 10px;
+    }
+    p {
+      margin-bottom: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      line-height: 16px;
+      max-height: 50px;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+}
