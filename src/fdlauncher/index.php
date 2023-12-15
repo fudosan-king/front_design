@@ -35,6 +35,7 @@
                                 <a href="#" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a>
                             </div>
                         </div>
+                        <h4>2024年1月よりサービス開始予定</h4>
                     </div>
                 </div>
             </div>

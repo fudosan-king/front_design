@@ -239,9 +239,20 @@ header h1 {
 
 .section_banner {
   background: url("../images/bg_banner.png") repeat-x bottom center;
-  padding: 110px 0;
+  padding: 110px 0 65px;
   position: relative;
   margin-top: 110px;
+}
+.section_banner h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.25em;
+  position: relative;
+  z-index: 20;
+  margin-bottom: 0;
+  line-height: 1.3em;
+  font-family: 'Inter';
+  margin-top: 103px;
 }
 .section_banner .img_banner {
   position: absolute;
@@ -284,9 +295,14 @@ header h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  line-height: 2.3em;
 }
 .section_banner .banner_content .box_info ul li:last-of-type {
   margin-right: 0;
+  line-height: 2em;
+}
+.section_banner .banner_content .box_info ul li:last-of-type p:first-of-type {
+  margin-top: 5px;
 }
 .section_banner .banner_content .box_info ul li p {
   margin-bottom: 0;
@@ -858,6 +874,10 @@ footer ul li a {
   .section_banner {
     padding: 30px 0 75px;
     margin-top: 72px;
+  }
+  .section_banner h4 {
+    margin-top: 50px;
+    font-size: 2em;
   }
   .section_banner .img_banner {
     position: relative;
