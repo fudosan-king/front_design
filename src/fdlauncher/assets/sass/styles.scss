@@ -244,9 +244,20 @@ header {
 
 .section_banner {
   background: url('../images/bg_banner.png') repeat-x bottom center;
-  padding: 110px 0;
+  padding: 110px 0 65px;
   position: relative;
   margin-top: 110px;
+  h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.25em;
+    position: relative;
+    z-index: 20;
+    margin-bottom: 0;
+    line-height: 1.3em;
+    font-family: 'Inter';
+    margin-top: 103px;
+  }
   .img_banner {
     position: absolute;
     right: 0;
@@ -285,8 +296,15 @@ header {
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          line-height: 2.3em;
           &:last-of-type {
             margin-right: 0;
+            line-height: 2em;
+            p {
+              &:first-of-type {
+                margin-top: 5px;
+              }
+            }
           }
           p {
             margin-bottom: 0;
@@ -881,6 +899,10 @@ footer {
   .section_banner {
     padding: 30px 0 75px;
     margin-top: 72px;
+    h4 {
+      margin-top: 50px;
+      font-size: 2em;
+    }
     .img_banner {
       position: relative;
       top: 0;
