@@ -15,6 +15,9 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-lg-0">
                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"><img src="assets/images/i_house.svg" alt="house" width="30"></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">売買物件</a>
                     </li>
                     <li class="nav-item">

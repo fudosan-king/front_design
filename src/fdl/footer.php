@@ -1,6 +1,7 @@
 <footer>
     <ul class="list_top">
-        <li><a href="#">売買物件</a></li>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">物件検索</a></li>
         <li><a href="#">static_pages1のName</a></li>
         <li><a href="#">無料査定</a></li>
         <li><a href="#">アクセス</a></li>

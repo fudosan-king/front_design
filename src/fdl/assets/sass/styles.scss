@@ -485,12 +485,14 @@ header {
           -webkit-box-orient: vertical;
           text-align: left;
           margin-bottom: 30px;
+          color: #333;
         }
         .btn_detail {
           border: 1px solid #EAEAEA;
           font-size: 0.875em;
           font-weight: 600;
           padding: 8px 20px;
+          color: #333;
           &:hover {
             background: #102746;
             color: #fff;
@@ -601,7 +603,7 @@ header {
 }
 
 footer {
-  border-top: 1px solid #000;
+  border-top: 1px solid #d2d2d2;
   padding: 30px 0;
   ul {
     margin: 0;
