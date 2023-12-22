@@ -58,6 +58,14 @@ jQuery(document).ready(function ($) {
     flexTable();
   };
 
+  $(".load-more").click(function (e) {
+    $(this).addClass("load-more--loading");
+    setTimeout(function (e) {
+      $(".load-more--loading").removeClass("load-more--loading");
+    }, 3000);
+  });
+
+
 }(jQuery));
 
 

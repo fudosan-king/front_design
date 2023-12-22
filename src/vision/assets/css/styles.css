@@ -1544,3 +1544,38 @@ header .btn_enterprisesettings:hover {
     display: block;
   }
 }
+.load-more {
+  background-color: #e1e1e1;
+  border-radius: 4px;
+  color: #444;
+  display: block;
+  font-family: sans-serif;
+  height: 3em;
+  line-height: 3em;
+  margin: 2em auto;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease, background-color 0.01s ease, color 0.01s ease;
+  width: 10em;
+}
+.load-more.load-more--loading {
+  animation: rotate 1.5s linear infinite;
+  animation-delay: 0.2s;
+  background-color: transparent;
+  border: 0.3em solid #e1e1e1;
+  border-radius: 1.5em;
+  border-top-color: #0168B7;
+  box-sizing: border-box;
+  height: 3em;
+  color: transparent;
+  padding: 0;
+  pointer-events: none;
+  width: 3em;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
