@@ -380,22 +380,8 @@ header {
       position: relative;
       transition: all 300ms linear;
       font-weight: 600;
-      &::before {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        left: 5px;
-        top: -5px;
-        background: $primary_color;
-        transition: all 300ms linear;
-      }
       &:hover {
-        &::before {
-          left: 0;
-          top: 0;
-        }
+        background: $primary_color;
       }
     }
   }
