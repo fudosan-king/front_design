@@ -139,9 +139,104 @@
                 </table>
             </div>
 
-            <table class="table_sp">
-
-            </table>
+            <div class="table_sp">
+                <div class="box_item">
+                    <div class="each_row">
+                        <p>1. <a href="#">ページタイトルが入ります</a></p>
+                        <div class="box_edit">
+                            <a href="#"><img src="assets/images/icons/i_lock.svg" alt="i_edit" width="19"></a>
+                            <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
+                        </div>
+                    </div>
+                    <div class="each_row">
+                        <p><span>当月アクセス</span> 50</p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>公開設定</span> <a href="#" class="btn btn_public">公開する</a></p>
+                    </div>
+                    <ul>
+                        <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
+                    </ul>
+                </div>
+                <div class="box_item">
+                    <div class="each_row">
+                        <p>2. <a href="#">ページページタイトルが入ります</a></p>
+                        <div class="box_edit">
+                            <a href="#"><img src="assets/images/icons/i_lock.svg" alt="i_edit" width="19"></a>
+                            <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
+                        </div>
+                    </div>
+                    <div class="each_row">
+                        <p><span>当月アクセス</span> 24</p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
+                    </div>
+                    <ul>
+                        <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
+                    </ul>
+                </div>
+                <div class="box_item">
+                    <div class="each_row">
+                        <p>3. <a href="#">ページタイトルが入ります</a></p>
+                        <div class="box_edit">
+                            <a href="#"><img src="assets/images/icons/i_lock.svg" alt="i_edit" width="19"></a>
+                            <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
+                        </div>
+                    </div>
+                    <div class="each_row">
+                        <p><span>当月アクセス</span> 35</p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
+                    </div>
+                    <ul>
+                        <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
+                    </ul>
+                </div>
+                <div class="box_item">
+                    <div class="each_row">
+                        <p>4. <a href="#"> ページタイトルが入りますページタイトルが入ります</a></p>
+                        <div class="box_edit">
+                            <a href="#"><img src="assets/images/icons/i_lock.svg" alt="i_edit" width="19"></a>
+                            <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
+                        </div>
+                    </div>
+                    <div class="each_row">
+                        <p><span>当月アクセス</span> 35</p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                    </div>
+                    <div class="each_row">
+                        <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
+                    </div>
+                    <ul>
+                        <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
+                    </ul>
+                </div>
+            </div>
 
         </section>
 
