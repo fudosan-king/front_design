@@ -1311,6 +1311,14 @@ header {
   }
 }
 
+@media (max-width: 1300px) {
+  .seciton_pagelist {
+    .table {
+      display: none;
+    }
+}
+}
+
 @media (max-width: 1218px) {
   .listuser {
     li {
