@@ -382,20 +382,8 @@ header .header_top ul li a {
   transition: all 300ms linear;
   font-weight: 600;
 }
-.section_products .top_panel .btn::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  left: 5px;
-  top: -5px;
+.section_products .top_panel .btn:hover {
   background: #1E7FB8;
-  transition: all 300ms linear;
-}
-.section_products .top_panel .btn:hover::before {
-  left: 0;
-  top: 0;
 }
 .section_products .list_pro {
   padding: 0;
