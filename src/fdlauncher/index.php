@@ -171,8 +171,8 @@
                             <h2 class="title">FLOW</h2>
                             <h3 class="sub_title"><span class="d-block d-lg-inline-block">ご契約から</span>利用開始までの流れ</h3>
                         </div>
-                        <img class="img-fluid d-lg-block d-none m-auto" src="assets/images/flow.svg" alt="flow" width="916" data-aos="fade-up">
-                        <img class="img-fluid d-block d-lg-none m-auto" src="assets/images/flow_sp.svg" alt="flow" data-aos="fade-up">
+                        <img class="img-fluid d-lg-block d-none m-auto" src="assets/images/flow_pc_3.png" alt="flow" data-aos="fade-up">
+                        <img class="img-fluid d-block d-lg-none m-auto" src="assets/images/flow_sp_3.png" alt="flow" data-aos="fade-up">
                     </div>
                 </div>
             </div>
