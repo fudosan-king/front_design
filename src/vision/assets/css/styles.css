@@ -1239,6 +1239,10 @@ header .btn_enterprisesettings:hover {
   font-weight: bold;
 }
 
+.table_sp {
+  display: none;
+}
+
 @media (max-width: 1400px) {
   .seciton_pagelist .table th:nth-of-type(2) {
     flex-basis: 9.2857% !important;
@@ -1255,6 +1259,64 @@ header .btn_enterprisesettings:hover {
 @media (max-width: 1300px) {
   .seciton_pagelist .table {
     display: none;
+  }
+
+  .table_sp {
+    display: block;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    border: 1px solid #E4E7EC;
+    background: #FFF;
+    overflow: hidden;
+  }
+  .table_sp .box_item {
+    padding: 20px 15px;
+    border-bottom: 1px solid #E4E7EC;
+  }
+  .table_sp .box_item:hover {
+    background: #f6f5f5;
+  }
+  .table_sp .box_item:last-of-type {
+    border-bottom: none;
+  }
+  .table_sp .box_item .each_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .table_sp .box_item .each_row:first-of-type {
+    margin-bottom: 20px;
+  }
+  .table_sp .box_item .each_row a {
+    text-decoration: underline;
+  }
+  .table_sp .box_item .each_row p {
+    font-size: 0.875em;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    line-height: 1.3em;
+    max-width: 70%;
+  }
+  .table_sp .box_item .each_row p span {
+    display: inline-block;
+    min-width: 130px;
+    font-weight: 600;
+  }
+  .table_sp .box_item .each_row .btn {
+    font-weight: 600;
+  }
+  .table_sp .box_item ul {
+    margin-top: 20px;
+    position: relative;
+  }
+  .table_sp .box_item ul li:last-of-type {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
 @media (max-width: 1218px) {
