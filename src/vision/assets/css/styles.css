@@ -1252,6 +1252,11 @@ header .btn_enterprisesettings:hover {
     margin-right: 0;
   }
 }
+@media (max-width: 1300px) {
+  .seciton_pagelist .table {
+    display: none;
+  }
+}
 @media (max-width: 1218px) {
   .listuser li:nth-of-type(3n) {
     margin-right: 28px;
