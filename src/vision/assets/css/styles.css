@@ -1579,3 +1579,147 @@ header .btn_enterprisesettings:hover {
     transform: rotate(360deg);
   }
 }
+.modal_editaccount .modal-header {
+  padding: 70px 0 30px;
+  justify-content: space-between;
+  margin: 0 60px;
+  position: relative;
+  border-bottom: none;
+}
+.modal_editaccount .modal-header h1 {
+  color: #0168B7;
+  font-weight: 600;
+  font-family: 'Inter';
+  font-size: 1.5em;
+}
+.modal_editaccount .modal-header .btn-close {
+  position: absolute;
+  right: -30px;
+  top: 20px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #EAECEE;
+}
+.modal_editaccount .modal-header .btn_del {
+  background: #EB5757;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875em;
+  padding: 8.5px 10px;
+}
+.modal_editaccount .modal-header .btn_del:hover {
+  background: #b63838;
+}
+.modal_editaccount .modal-content {
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+}
+.modal_editaccount .modal-body {
+  padding: 0 60px 50px;
+}
+.modal_editaccount label {
+  font-weight: 600;
+  font-size: 0.875em;
+}
+.modal_editaccount .box_license {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 30px;
+  position: relative;
+}
+.modal_editaccount .box_license h3 {
+  font-weight: 600;
+  font-size: 0.875em;
+  position: absolute;
+  left: 30px;
+  top: -15px;
+  margin: 0;
+}
+.modal_editaccount .box_license h3 span {
+  background: #FAFAFA;
+  display: block;
+  padding: 5px;
+}
+.modal_editaccount .btn_renew {
+  background: #0168B7;
+  color: #fff;
+  margin: 30px auto 0;
+  display: block;
+  min-width: 150px;
+  font-weight: 600;
+  font-size: 0.875em;
+  border-radius: 4px;
+  padding: 13px 20px;
+}
+.modal_editaccount .btn_renew:hover {
+  background: #004c86;
+}
+.modal_editaccount .form-select {
+  border-color: #828282;
+  font-size: 0.875em;
+  height: calc(1.5em + 0.75rem + 7px);
+  border-radius: 4px;
+}
+.modal_editaccount .form-check-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #828282;
+}
+.modal_editaccount .form-check-input:checked {
+  background-color: #0168B7;
+  border-color: #0168B7;
+}
+.modal_editaccount .file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.modal_editaccount .file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.875em;
+  padding: 6px 12px;
+  background-color: #0168B7;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+.modal_editaccount .file-input__label svg {
+  margin-right: 4px;
+}
+.modal_editaccount .box_datepicker {
+  position: relative;
+}
+.modal_editaccount .box_datepicker svg {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .modal_editaccount .modal-header {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .modal_editaccount .modal-header .btn-close {
+    right: 15px;
+  }
+  .modal_editaccount .modal-body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .modal_editaccount .box_license {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -65,6 +65,12 @@ jQuery(document).ready(function ($) {
     }, 3000);
   });
 
+  $('.datepicker').datepicker({
+    format: 'yyyy/mm/dd',
+    startDate: '-3d',
+    language: 'ja',
+  });
+
 
 }(jQuery));
 

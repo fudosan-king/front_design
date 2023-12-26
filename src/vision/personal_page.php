@@ -47,7 +47,7 @@
             <div class="pagelist_header">
                 <h2>ページ一覧</h2>
                 <div class="header_right">
-                    <a href="#" class="btn btn_pagecreation"><img src="assets/images/icons/i_add.svg" alt="i_add" width="16"> ページ作成</a>
+                    <a href="#modal_editaccount" data-bs-toggle="modal" class="btn btn_pagecreation"><img src="assets/images/icons/i_add.svg" alt="i_add" width="16"> ページ作成</a>
                     <a href="#modal_inquirysettings" data-bs-toggle="modal" class="btn btn_inquirysettings"><img src="assets/images/icons/i_settings.svg" alt="i_settings" width="16"> 問い合わせフォーム設定</a>
                 </div>
             </div>
@@ -774,6 +774,131 @@
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal_editaccount" id="modal_editaccount" tabindex="-1" aria-labelledby="editaccount_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="editaccount_label">アカウント編集</h1>
+                    <a href="#" class="btn btn_del">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                            <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                        </svg> アカウント削除
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="frm_editaccount">
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">顔写真</label>
+                            <div class="col-sm-4">
+                                <div class="file-input">
+                                    <input type="file" name="file-input" id="file-input" class="file-input__input" />
+                                    <label class="file-input__label" for="file-input">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cloud-upload-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0m-.5 14.5V11h1v3.5a.5.5 0 0 1-1 0" />
+                                        </svg>
+                                        <span>ファイル選択</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">⽒名</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">社員番号</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">⼊社年⽉⽇</label>
+                            <div class="col-sm-4">
+                                <div class="box_datepicker">
+                                    <input type="text" class="form-control datepicker" id="" placeholder="----/--/--">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0168B7" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                        <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">所属</label>
+                            <div class="col-sm-9">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">メールアドレス<br>（ログインID）</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="" value="" class="form-control datepicker">
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">企業管理者</label>
+                            <div class="col-sm-9">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="cb_loginid" checked>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box_license">
+                            <h3><span>ライセンス</span></h3>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="row align-items-center">
+                                        <label for="" class="col-sm-3 col-form-label text-start text-lg-end">開始⽇</label>
+                                        <div class="col-sm-9">
+                                            <div class="box_datepicker">
+                                                <input type="text" class="form-control datepicker" id="" placeholder="----/--/--">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0168B7" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="row align-items-center">
+                                        <label for="" class="col-sm-3 col-form-label text-start text-lg-end">終了⽇</label>
+                                        <div class="col-sm-9">
+                                            <div class="box_datepicker">
+                                                <input type="text" class="form-control datepicker" id="" placeholder="----/--/--">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0168B7" class="bi bi-calendar3" viewBox="0 0 16 16">
+                                                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn_renew" type="submit">更新</button>
+
+                    </form>
+                </div>
+
             </div>
         </div>
     </div>
