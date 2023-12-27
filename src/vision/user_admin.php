@@ -112,8 +112,6 @@
                                                 メールアドレス
                                             </a>
                                         </th>
-                                        <th scope="col">編集</th>
-                                        <th scope="col">削除</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -122,14 +120,6 @@
                                         <td class="text-wrap">シーズテスト２</td>
                                         <td>システム管理者</td>
                                         <td class="text-wrap">m.fukumaru.acc2nd@gmail.com</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/39/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="39" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>38</td>
@@ -138,28 +128,12 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">spr.040722@gmail.com</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/38/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="38" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>37</td>
                                         <td class="text-wrap">xuanvtt94</td>
                                         <td>システム管理者</td>
                                         <td class="text-wrap">xuanvtt94@propolife.co.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/37/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="37" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>27</td>
@@ -168,14 +142,6 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">trangptt95@propolife.co.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/27/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="27" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>12</td>
@@ -184,14 +150,6 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">nduythan@gmail.com</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/12/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="12" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>11</td>
@@ -200,14 +158,6 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">m_fukumaru@cs-link.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/11/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="11" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>8</td>
@@ -216,14 +166,6 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">saito-masayuki@propolife.co.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/8/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="8" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>7</td>
@@ -232,14 +174,6 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">hoand97@propolife.co.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/7/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="7" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>6</td>
@@ -248,14 +182,6 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">thannd@propolife.co.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/6/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="6" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
@@ -264,14 +190,6 @@
                                             管理者
                                         </td>
                                         <td class="text-wrap">thannd85@propolife.co.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/5/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="5" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
@@ -280,14 +198,6 @@
                                             ユーザー
                                         </td>
                                         <td class="text-wrap">thienphong91@propolife.co.jp</td>
-                                        <td>
-                                            <button type="submit" class="btn btn-link btn-sm" formaction="/admin/admin-users/4/edit" formmethod="GET">
-                                                編集
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-link btn-sm delete" name="deleteFromId" value="4" onclick="checkDelete()"></button>
-                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
