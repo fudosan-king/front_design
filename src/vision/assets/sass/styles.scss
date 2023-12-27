@@ -1840,6 +1840,147 @@ header {
   }
 }
 
+.modal_corporatesettings {
+  .btn_del {
+    background: $red_color;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875em;
+    padding: 8.5px 20px;
+    display: inline-flex;
+    align-items: center;
+    &:hover {
+      background: #b63838;
+    }
+    svg {
+      margin-right: 5px;
+    }
+  }
+  .modal-content {
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+  }
+  .modal-body {
+    padding: 50px 60px;
+  }
+  label {
+    font-weight: 600;
+    font-size: 0.875em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .frm_corporatesettings {
+    .btn_renew {
+      background: $primary_color;
+      color: #fff;
+      margin: 30px auto 0;
+      display: block;
+      min-width: 150px;
+      font-weight: 600;
+      font-size: 0.875em;
+      border-radius: 4px;
+      padding: 13px 20px;      
+      &:hover {
+        background: #004c86;
+      }
+    }
+
+    .btn-file {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+    }
+    .btn-file__actions {
+      margin: 0;
+      padding: 0;
+    }
+    .btn-file__actions__item {
+      width: 360px;
+      height: 300px;
+      // padding: 35px;
+      // font-size: 1.5em;
+      color: #d3e0e9;
+      cursor: pointer;
+      text-decoration: none;
+      border-top: 3px dashed #d3e0e9;
+      border-left: 3px dashed #d3e0e9;
+      border-bottom: 3px dashed #d3e0e9;
+      &:first-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+      &:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-right: 3px dashed #d3e0e9;
+      }
+      &:hover, &:focus {
+        color: #636b6f;
+        background-color: rgba(211, 224, 233, 0.1);
+      }
+    }
+    
+    
+    .btn-file__actions__item:hover--shadow,
+    .btn-file__actions__item:focus--shadow {
+      box-shadow: #d3e0e9 0 0 60px 15px;
+    }
+    .btn-file__actions__item--shadow {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+    }
+    .btn-file__actions__item--shadow::before {
+      content: " ";
+      box-shadow: #fff 0 0 60px 40px;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+    }
+    .btn-file__preview {
+      width: 360px;
+      height: 300px;
+      opacity: 0.5;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      border-radius: 4px;
+      background-size: cover;
+      background-position: center;
+      object-fit: cover;
+    }
+    label.attachment {
+      width: 100%;
+    }
+    label.attachment .btn-create > a,
+    label.attachment .btn-create > div {
+      margin-top: 5px;
+    }
+    label.attachment input[type='file'] {
+      display: none;
+    }
+    .label_url {
+      display: flex;
+      align-items: center;
+      span {
+        font-weight: 600;
+        font-size: 0.875em;
+        display: block;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .modal_editaccount {
     .modal-header {
@@ -1856,6 +1997,21 @@ header {
     .box_license {
       padding-left: 15px;
       padding-right: 15px;
+    }
+  }
+
+  .modal_corporatesettings {
+    .modal-body {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .frm_corporatesettings {
+      .btn-file__actions__item {
+        width: 100%;
+      }
+      .btn_del {
+        margin-top: 15px;
+      }
     }
   }
 }
