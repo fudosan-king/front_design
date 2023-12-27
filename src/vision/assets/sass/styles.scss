@@ -1999,6 +1999,127 @@ header {
   }
 }
 
+.modal_licenseapp {
+  .modal-header {
+    flex-direction: column;
+    position: relative;
+    h1 {
+      color: #0168B7;
+      font-weight: 600;
+      font-family: 'Inter';
+      font-size: 1.5em;
+    }
+    .btn-close {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+    }
+  }
+  .modal-content {
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+  }
+  .modal-body {
+    padding: 50px 60px;
+  }
+  label {
+    font-weight: 600;
+    font-size: 0.875em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-select {
+    font-size: 0.875em;
+    border-color: #828282;
+    height: 40px;
+  }
+  table {
+    th, td {
+      font-size: 0.875em;
+      padding: 10px 20px;
+      vertical-align: middle;
+    }
+  }
+  .box_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .box_lyse {
+      width: 50%;
+    }
+  }
+  .btn_licensing, .btn_agree {
+    background: $primary_color;
+    color: #fff;
+    font-size: 0.875em;
+    border-radius: 4px;
+    &:hover {
+      background: #013e6d;
+    }
+  }
+  .btn_agree {
+    position: relative;
+    top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.box_sort_cate {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    margin: 0;
+  }
+  .box_affiliation {
+    label {
+      display: block;
+      width: 50px;
+      font-weight: 600;
+      font-size: 0.875em;
+    }
+    select {
+      font-size: 0.875em;
+      border-color: #828282;
+      height: 40px;
+    }
+    width: 33%;
+    display: flex;
+    align-items: center;
+  }
+  .btn_addaccount {
+    background: $primary_color;
+    color: #fff;
+    font-size: 0.875em;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    &:hover {
+      background: #013e6d;
+      color: #fff;
+    }
+    svg {
+      margin-right: 5px;
+    }
+  }
+}
+.table_account {
+  border: 1px solid #ccc;
+  thead {
+    th {
+      background: $primary_color;
+      color: #fff;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .modal_editaccount {
     .modal-header {
@@ -2035,4 +2156,26 @@ header {
       }
     }
   }
+  .modal_licenseapp {
+    .modal-body {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    table {
+      th, td {
+        padding: 10px;
+      }
+    } 
+  }
+
+  .box_sort_cate {
+    flex-direction: column;
+    padding: 15px;
+    .box_affiliation {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+
+  
 }

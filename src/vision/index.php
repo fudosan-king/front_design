@@ -90,7 +90,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#modal_licenseapp" data-bs-toggle="modal">
                         <div class="info">
                             <h3>利用申請ユーザー</h3>
                             <p><span class="number_big">2</span> <span class="btn_license">ライセンスを付与 +</span></p>
@@ -661,6 +661,69 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade modal_licenseapp" id="modal_licenseapp" tabindex="-1" aria-labelledby="licenseapp_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="licenseapp_label">ライセンス申請ユーザー</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form">
+                        <div class="mb-4">
+                            <div class="box_header">
+                                <div class="box_lyse">
+                                    <span>ライセ</span>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option value="ンス申">ンス申</option>
+                                        <option value="...">...</option>
+                                    </select>
+                                </div>
+                                <a href="#" class="btn btn_agree">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
+                                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                                    </svg>
+                                    ⽰⼀する。
+                                </a>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">ライセンス申請者</th>
+                                        <th colspan="2" scope="col">所属</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>佐藤 ⼀郎</td>
+                                        <td>営業部 ⼀課</td>
+                                        <td><a href="#" class="btn btn_licensing">ライセンス付与</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>鈴⽊ ⼆郎</td>
+                                        <td>営業部 ⼆課</td>
+                                        <td><a href="#" class="btn btn_licensing">ライセンス付与</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>⼭⽥ 三郎</td>
+                                        <td>カスタマーサクセス部</td>
+                                        <td><a href="#" class="btn btn_licensing">ライセンス付与</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 
     <?php require 'js-footer.php'; ?>
 </body>
