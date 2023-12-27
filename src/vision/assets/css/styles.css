@@ -1902,6 +1902,14 @@ header .btn_enterprisesettings:hover {
 }
 .modal_licenseapp .box_header .box_lyse {
   width: 50%;
+  display: flex;
+  align-items: center;
+}
+.modal_licenseapp .box_header .box_lyse span {
+  font-weight: 600;
+  font-size: 0.875em;
+  display: block;
+  width: 50px;
 }
 .modal_licenseapp .btn_licensing, .modal_licenseapp .btn_agree {
   background: #0168B7;
@@ -1914,7 +1922,6 @@ header .btn_enterprisesettings:hover {
 }
 .modal_licenseapp .btn_agree {
   position: relative;
-  top: 15px;
   padding-left: 20px;
   padding-right: 20px;
 }

@@ -674,9 +674,9 @@
                         <div class="mb-4">
                             <div class="box_header">
                                 <div class="box_lyse">
-                                    <span>ライセ</span>
+                                    <span>所属</span>
                                     <select class="form-select" aria-label="Default select example">
-                                        <option value="ンス申">ンス申</option>
+                                        <option value="ンス申">ス申</option>
                                         <option value="...">...</option>
                                     </select>
                                 </div>
@@ -685,7 +685,7 @@
                                         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
                                         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
                                     </svg>
-                                    ⽰⼀する。
+                                    一括付与
                                 </a>
                             </div>
                         </div>
