@@ -2047,6 +2047,14 @@ header {
     justify-content: space-between;
     .box_lyse {
       width: 50%;
+      display: flex;
+      align-items: center;
+      span {
+        font-weight: 600;
+        font-size: 0.875em;
+        display: block;
+        width: 50px;
+      }
     }
   }
   .btn_licensing, .btn_agree {
@@ -2060,7 +2068,6 @@ header {
   }
   .btn_agree {
     position: relative;
-    top: 15px;
     padding-left: 20px;
     padding-right: 20px;
   }
