@@ -8,11 +8,11 @@
 <body id="body-pd">
     <header class="header" id="header">
         <h1 class="d-none d-lg-block">
-            <a href="http://18.179.82.28/admin/dashboard" class="logo"><img src="http://18.179.82.28/vision/logo_white.svg" style="vertical-align:baseline" width="200px" alt="header_logo"></a>
+            <a href="http://18.179.82.28/admin/dashboard" class="logo"><img src="assets/images/logo_white.svg" style="vertical-align:baseline" width="200px" alt="header_logo"></a>
 
         </h1>
         <div class="header_right">
-            <a class="logo"><img src="http://18.179.82.28/vision/images/header_logo.png" width="123" alt="header_logo"></a>
+            <a class="logo"><img src="assets/images/header_logo.png" width="123" alt="header_logo"></a>
             <div class="header_avatar" style="margin-right:10px;margin-left:10px">
                 <a href="#" class="avatar_img"><img src="https://t4.ftcdn.net/jpg/06/74/48/15/240_F_674481592_PgI2NVdHq8LLx2BVSVx2LLDjMddopNEQ.jpg" alt=""></a>
                 <div class="avatar_info">
@@ -96,7 +96,9 @@
                                         <th scope="col">
                                             <a href="/admin/admin-users?orderBy=id" style="color: white;">
                                                 ID
-                                                <img style="width: 20px;" src="http://18.179.82.28/images/ic_arrow_white.png">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                </svg>
                                             </a>
                                         </th>
                                         <th scope="col">
