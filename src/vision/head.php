@@ -28,3 +28,4 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
 <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 <link rel="stylesheet" href="assets/css/be_styles.css" type="text/css">
+<link rel="stylesheet" href="http://18.179.82.28/vision/css/be_styles.css" type="text/css">
