@@ -2111,12 +2111,18 @@ header {
   }
 }
 .table_account {
-  border: 1px solid #ccc;
+  th, td {
+    font-size: 0.875em;
+  }
   thead {
     th {
       background: $primary_color;
       color: #fff;
     }
+  }
+  .btn-link {
+    text-decoration: none;
+    font-size: 0.875em;
   }
 }
 

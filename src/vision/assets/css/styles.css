@@ -1964,12 +1964,16 @@ header .btn_enterprisesettings:hover {
   margin-right: 5px;
 }
 
-.table_account {
-  border: 1px solid #ccc;
+.table_account th, .table_account td {
+  font-size: 0.875em;
 }
 .table_account thead th {
   background: #0168B7;
   color: #fff;
+}
+.table_account .btn-link {
+  text-decoration: none;
+  font-size: 0.875em;
 }
 
 @media (max-width: 768px) {
