@@ -18,7 +18,7 @@
                     <p>山田 一郎</p>
                 </div>
             </div>
-            <a href="#" class="btn_enterprisesettings">企業設定 <span>+</span></a>
+            <a href="#modal_corporatesettings" class="btn_enterprisesettings" data-bs-toggle="modal">企業設定 <span>+</span></a>
         </div>
     </header>
 
@@ -588,6 +588,73 @@
                             </tbody>
                         </table>
                     </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal_corporatesettings" id="modal_corporatesettings" tabindex="-1" aria-labelledby="corporatesettings_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h1 class="modal-title" id="corporatesettings_label">会社名</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="frm_corporatesettings">
+                        <div class="mb-3">
+                            <label for="">会社名</label>
+                            <input type="text" class="form-control" id="">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="">会社ロゴ</label>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <label for="fileField" class="attachment">
+                                        <div class="row btn-file">
+                                            <div class="btn-file__preview"></div>
+                                            <div class="btn-file__actions">
+                                                <div class="btn-file__actions__item col-xs-12 text-center">
+                                                    <div class="btn-file__actions__item--shadow">
+                                                        <i class="fa fa-plus fa-lg fa-fw" aria-hidden="true"></i>
+                                                        <div class="visible-xs-block"></div>
+                                                        <!-- Select file -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input name="file" type="file" id="fileField">
+                                    </label>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <a href="#" class="btn btn_del">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                            <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                        </svg> 削除
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="">個⼈情報の取扱いについて</label>
+                            <div class="label_url">
+                                <span>URL</span> <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="">プライバシーポリシー</label>
+                            <div class="label_url">
+                                <span>URL</span> <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+
+                        <button class="btn btn_renew" type="submit">更新</button>
+
+                    </form>
                 </div>
 
             </div>
