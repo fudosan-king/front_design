@@ -406,8 +406,15 @@ header h1 {
   font-weight: 860;
   line-height: 1.8em;
 }
-.section_submissiontool .box_submissiontool .box_submissiontool_info .btn span {
+.section_submissiontool .box_submissiontool .box_submissiontool_info .btn span:first-of-type {
+  display: block;
+}
+.section_submissiontool .box_submissiontool .box_submissiontool_info .btn span:last-of-type {
   font-size: 2em;
+}
+.section_submissiontool .box_submissiontool .box_submissiontool_info .btn i {
+  font-size: 0.75em;
+  font-style: normal;
 }
 
 .section_price {
@@ -428,6 +435,9 @@ header h1 {
 .section_price .table tr td:nth-of-type(4n) {
   background: #E6F6FF;
   color: #1E7FB8;
+}
+.section_price .table tr td span {
+  font-size: 0.7em;
 }
 .section_price .table th, .section_price .table td {
   width: 25%;
@@ -531,6 +541,9 @@ header h1 {
   font-style: normal;
   font-size: 0.6667em;
   font-weight: 860;
+}
+.section_plan ul li h6 i:last-of-type {
+  font-size: 0.5em;
 }
 .section_plan ul li .btn {
   border-radius: 100px;
@@ -949,10 +962,10 @@ footer ul li a {
   .section_price .table th, .section_price .table td {
     width: auto;
     padding: 10px 5px;
-    font-size: 0.75em;
+    font-size: 0.65em;
   }
   .section_price .table td:first-of-type {
-    font-size: 0.875em;
+    font-size: 0.75em;
   }
 
   .section_plan h3 {

@@ -409,7 +409,16 @@ header {
         font-weight: 860;
         line-height: 1.8em;
         span {
-          font-size: 2em;
+          &:first-of-type {
+            display: block;
+          }
+          &:last-of-type {
+            font-size: 2em;
+          }
+        }
+        i {
+          font-size: 0.75em;
+          font-style: normal;
         }
       }
     }
@@ -438,6 +447,9 @@ header {
         &:nth-of-type(4n) {
           background: #E6F6FF;
           color: #1E7FB8;
+        }
+        span {
+          font-size: 0.7em;
         }
       }
     }
@@ -544,6 +556,9 @@ header {
           font-style: normal;
           font-size: 0.6667em;
           font-weight: 860;
+          &:last-of-type {
+            font-size: 0.5em;
+          }
         }
       }
       .btn {
@@ -978,11 +993,11 @@ footer {
       th, td {
         width: auto;
         padding: 10px 5px;
-        font-size: 0.75em;
+        font-size: 0.65em;
       }
       td {
         &:first-of-type {
-          font-size: 0.875em;
+          font-size: 0.75em;
         }
       }
     }

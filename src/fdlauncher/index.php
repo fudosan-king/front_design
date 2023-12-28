@@ -50,7 +50,9 @@
                                 <h2>物件情報一括入稿ツール</h2>
                                 <h3>FDランチャー</h3>
                                 <p>FDランチャーは、 主要ポータルサイトに「一度の手間」で一気に広告を拡散するシステムです。各主要ポータルサイトと連動しており、低コストかつわかりやすい操作性で、人を増やさずとも、貴社の生産力が一気に上がります。</p>
-                                <a href="#" class="btn">月額費用<span>10,000</span>円</a>
+                                <a href="#" class="btn">
+                                    <span>月額費用</span>
+                                    <span>10,000</span>円 <i>（税抜）</i></a>
                             </div>
                             <img class="img-fluid" src="assets/images/submissiontool.svg" alt="submissiontool" data-aos="fade-right">
                         </div>
@@ -90,7 +92,7 @@
                                         <td>月額費用</td>
                                         <td>¥22,000</td>
                                         <td>¥19,800</td>
-                                        <td>¥10,000</td>
+                                        <td>¥10,000 <span>（税抜）</span></td>
                                     </tr>
                                     <tr>
                                         <td>掲載物件数</td>
@@ -138,7 +140,7 @@
                                 <img src="assets/images/api.svg" alt="templates">
                                 <p>FDランチャーのAPI機能を使って、貴社ホームページの物件情報を更新することができます。一度の手間でポータルサイトへの入稿、自社ホームページのデータ更新を行うことができます。</p>
                                 <img src="assets/images/arrow_down.svg" alt="arrow_down" width="120">
-                                <h6>月額費用 <span>➕</span> <span>5,000</span><i>円</i></h6>
+                                <h6>月額費用 <span>➕</span> <span>5,000</span><i>円</i><i> （税抜）</i></h6>
                             </li>
                         </ul>
                     </div>
@@ -250,14 +252,14 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                                        月額費用10,000円以外にかかる費用はありますか？
+                                        月額費用10,000円 （税抜）以外にかかる費用はありますか？
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
-                                        <p>不動産ポータルサイトといくつ連動しても初期費用0円、月額費用10,000円です。<br>
+                                        <p>不動産ポータルサイトといくつ連動しても初期費用0円、月額費用10,000円（税抜）です。<br>
                                             ただし、貴社と各不動産ポータルサイトで利用契約を結ぶときに別途費用が掛かります。<br>
-                                            また、既存自社サイトと連動する場合は月額費用15,000円となります。</p>
+                                            また、既存自社サイトと連動する場合は月額費用15,000円（税抜）となります。</p>
                                     </div>
                                 </div>
                             </div>
