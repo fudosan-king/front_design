@@ -67,6 +67,7 @@
 
     <!--Container Main start-->
     <div class="main_content">
+        <div class="header_toggle"> <i class="bx bx-menu" id="header-toggle"></i> </div>
         <div class="col spacing-with-btn-floating-w bg-content-container">
             <form name="search_form" id="search_form">
                 <div class="box_sort_cate">
@@ -87,123 +88,114 @@
                     </a>
                 </div>
 
-                <div class="row">
-                    <div class="col">
-                        <div class="table-responsive table_account">
-                            <table class="table table-striped m-0">
-                                <thead class="thead-custom">
-                                    <tr>
-                                        <th scope="col">
-                                            <a href="/admin/admin-users?orderBy=id" style="color: white;">
-                                                ID
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </a>
-                                        </th>
-                                        <th scope="col">
-                                            <a href="/admin/admin-users?orderBy=name" style="color: white;">
-                                                名前
-                                            </a>
-                                        </th>
-                                        <th scope="col">権限</th>
-                                        <th scope="col">
-                                            <a href="/admin/admin-users?orderBy=email" style="color: white;">
-                                                メールアドレス
-                                            </a>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>39</td>
-                                        <td class="text-wrap">シーズテスト２</td>
-                                        <td>システム管理者</td>
-                                        <td class="text-wrap">m.fukumaru.acc2nd@gmail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td>38</td>
-                                        <td class="text-wrap">Xuan Test</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">spr.040722@gmail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td>37</td>
-                                        <td class="text-wrap">xuanvtt94</td>
-                                        <td>システム管理者</td>
-                                        <td class="text-wrap">xuanvtt94@propolife.co.jp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>27</td>
-                                        <td class="text-wrap">trangqctest</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">trangptt95@propolife.co.jp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>12</td>
-                                        <td class="text-wrap">nduythan</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">nduythan@gmail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td>11</td>
-                                        <td class="text-wrap">シーズ　テスト</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">m_fukumaru@cs-link.jp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td class="text-wrap">saito masayuki</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">saito-masayuki@propolife.co.jp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td class="text-wrap">Hoa97</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">hoand97@propolife.co.jp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td class="text-wrap">thannd test</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">thannd@propolife.co.jp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td class="text-wrap">thannd</td>
-                                        <td>
-                                            管理者
-                                        </td>
-                                        <td class="text-wrap">thannd85@propolife.co.jp</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td class="text-wrap">PCT Test</td>
-                                        <td>
-                                            ユーザー
-                                        </td>
-                                        <td class="text-wrap">thienphong91@propolife.co.jp</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                <div id="no-table" class="table_info">
+                    <table class="col-12 table table-striped cf">
+                        <thead class="cf table-primary">
+                            <tr>
+                                <th>ID</th>
+                                <th>Permision</th>
+                                <th>Staff ID</th>
+                                <th>Staff Name</th>
+                                <th>Category</th>
+                                <th>Start Date</th>
+                                <th>Email</th>
+                                <th>License Start Date</th>
+                                <th>License Expire Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-title="ID">1</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                            <tr>
+                                <td data-title="ID">2</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                            <tr>
+                                <td data-title="ID">3</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                            <tr>
+                                <td data-title="ID">4</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                            <tr>
+                                <td data-title="ID">5</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                            <tr>
+                                <td data-title="ID">6</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                            <tr>
+                                <td data-title="ID">7</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                            <tr>
+                                <td data-title="ID">8</td>
+                                <td data-title="Permision">管理者</td>
+                                <td data-title="Staff ID">A0002</td>
+                                <td data-title="Staff Name">佐藤　一郎</td>
+                                <td data-title="Category">◯◯事業部</td>
+                                <td data-title="Start Date">yyyy年m月d日</td>
+                                <td data-title="Email">aaaa@mail.jp</td>
+                                <td data-title="License Start Date">yyyy年m月d日</td>
+                                <td data-title="License Expire Date">yyyy年m月d日</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+
                 <input type="hidden" name="_token" value="1fduttSG4xfoovBPPf1VBZKSl2lV89KIiDXHaTrA">
                 <input type="hidden" name="delete_admin_user_id">
                 <input type="hidden" name="_method" value="POST">

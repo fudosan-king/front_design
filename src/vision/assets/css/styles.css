@@ -2031,3 +2031,49 @@ header .btn_enterprisesettings:hover {
     margin: 15px 0;
   }
 }
+.table_info {
+  margin-bottom: 15px;
+}
+.table_info th, .table_info td {
+  font-size: 0.875em;
+}
+
+@media only screen and (max-width: 1100px) {
+  #no-table table, #no-table thead, #no-table tbody, #no-table th, #no-table td, #no-table tr {
+    display: block;
+  }
+
+  #no-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #no-table tr {
+    border: 1px solid #ccc;
+  }
+
+  #no-table td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    white-space: normal;
+    text-align: left;
+  }
+
+  #no-table td:before {
+    position: absolute;
+    top: 6px;
+    left: 15px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  #no-table td:before {
+    content: attr(data-title);
+  }
+}
