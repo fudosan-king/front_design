@@ -75,7 +75,7 @@ body {
   background: #FBFBFB;
   font-family: "SF Pro Display", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
   line-height: 1.8em;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   color: #000;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -154,11 +154,6 @@ section {
   font-size: 0.75em;
 }
 
-@media (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1068px;
-  }
-}
 header {
   position: fixed;
   z-index: 9999;
@@ -219,20 +214,31 @@ header .header_top ul li a {
 .navbar {
   padding: 0;
   background: #102746;
+  margin-bottom: 0;
+  border-radius: 0;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav {
   align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.navbar-nav .nav-item:hover {
+.navbar-nav li:hover {
   background: #1E7FB8;
   transition: all .3s linear;
 }
-.navbar-nav .nav-item:last-of-type .nav-link {
+.navbar-nav li:last-of-type .nav-link {
   border-right: none;
 }
-.navbar-nav .nav-item .nav-link {
+.navbar-nav li a {
+  display: block;
   font-weight: 700;
+  line-height: 1.8em;
   color: #fff;
   padding: 15px 30px;
   border-right: 1px solid #343434;
@@ -263,6 +269,15 @@ header .header_top ul li a {
   font-family: 'Inter';
   font-size: 2.5em;
   text-align: center;
+}
+
+.navbar-toggle {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.navbar-toggle .icon-bar {
+  background: #fff;
 }
 
 .navbar-toggler {
@@ -344,6 +359,15 @@ header .header_top ul li a {
 
 .nav-tabs {
   background: #EAEAEA;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-tabs li {
+  float: none;
+  width: 100%;
+}
+.nav-tabs li.active a {
+  border-right: none;
 }
 .nav-tabs .nav-item.show .nav-link {
   border-radius: 0;
@@ -360,8 +384,18 @@ header .header_top ul li a {
 .section_products .descriptions {
   margin-bottom: 30px;
 }
+.section_products .nav-tabs li a {
+  font-weight: 600;
+  padding: 15px;
+}
+.section_products .nav-tabs > li.active > a, .section_products .nav-tabs > li.active > a:focus, .section_products .nav-tabs > li.active > a:hover {
+  border-radius: 0;
+  background-color: #fbfbfb;
+}
 .section_products .tab-content {
-  padding: 30px 0;
+  padding: 30px;
+  border: 1px solid #EAEAEA;
+  border-top: none;
 }
 .section_products .top_panel {
   display: flex;
@@ -747,9 +781,54 @@ footer p a:hover {
 }
 
 @media (max-width: 1200px) {
-  .navbar-nav .nav-item .nav-link {
+  .navbar-nav li a {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in {
+    display: block !important;
   }
 }
 @media (max-width: 992px) {
@@ -783,15 +862,23 @@ footer p a:hover {
   .navbar .container {
     padding-left: 0;
     padding-right: 0;
+    width: 100%;
+    text-align: center;
   }
 
-  .navbar-nav .nav-item {
+  .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .navbar-nav li {
     width: 100%;
   }
-  .navbar-nav .nav-item:last-of-type .nav-link {
+  .navbar-nav li:last-of-type a {
     border-bottom: none;
   }
-  .navbar-nav .nav-item .nav-link {
+  .navbar-nav li a {
     border-right: none;
     width: 100%;
     display: block;
@@ -818,6 +905,12 @@ footer p a:hover {
     margin-right: 0;
     margin-bottom: 15px;
   }
+  .section_products .tab-content {
+    padding: 15px;
+  }
+  .section_products .tab-content h3 {
+    font-size: 1.5em;
+  }
 
   footer ul.list_top {
     flex-direction: column;
@@ -836,5 +929,21 @@ footer p a:hover {
   .logo_footer {
     display: block;
     margin: 15px 0;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .nav-tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-tabs li {
+    width: 100%;
+  }
+  .nav-tabs li a {
+    text-align: center;
   }
 }
