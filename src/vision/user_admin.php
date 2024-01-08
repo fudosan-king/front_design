@@ -7,24 +7,53 @@
 
 <body id="body-pd">
     <header class="header" id="header">
-        <h1 class="d-none d-lg-block">
+        <h1>
             <a href="http://18.179.82.28/admin/dashboard" class="logo"><img src="assets/images/logo_white.svg" style="vertical-align:baseline" width="200px" alt="header_logo"></a>
-
         </h1>
         <div class="header_right">
             <a class="logo"><img src="assets/images/header_logo.png" width="123" alt="header_logo"></a>
-            <div class="header_avatar" style="margin-right:10px;margin-left:10px">
+            <!-- <div class="header_avatar" style="margin-right:10px;margin-left:10px">
                 <a href="#" class="avatar_img"><img src="https://t4.ftcdn.net/jpg/06/74/48/15/240_F_674481592_PgI2NVdHq8LLx2BVSVx2LLDjMddopNEQ.jpg" alt=""></a>
                 <div class="avatar_info">
                     <span>管理者</span>
                     <p>administrator</p>
                 </div>
+            </div> -->
+
+            <div class="header_avatar" style="margin-left:10px">
+                <a class="dropdown-toggle btn_dropdown" data-bs-toggle="dropdown">
+                    <span class="avatar_img">
+                        <img src="http://18.179.82.28/watashiga1/storage/images/BhOut2UzZirBj7FsSzimqOSCdKa6fYjsD9ZoUwrJ.png" alt="avatar">
+                    </span>
+                    <div class="avatar_info">
+                        <span>PCT Test</span>
+                    </div>
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li>
+                        <form>
+                            <input type="hidden" name="_token" value="zMVD1pafLyFM04cTGgxTZa70AGJylmYDT4jVgcqv"> <a class="btn signout" data-toggle="modal" data-target="#changepassword" style=" display: flex;align-items: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                    <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"></path>
+                                    <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"></path>
+                                </svg>&nbsp;パスワード変更</a>
+                        </form>
+                    </li>
+                    <li>
+                        <a class="btn signout" data-bs-toggle="modal" data-bs-target="#signoutuser" style=" display: flex;align-items: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"></path>
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path>
+                            </svg>&nbsp;サインアウト
+                        </a>
+                    </li>
+                </ul>
             </div>
 
-            <!-- 管理者一覧選択 -->
-            <div class="dropdown dropdown-rl d-none d-sm-block">
+            <!-- <div class="dropdown dropdown-rl d-none d-sm-block">
                 <button class="btn border rounded" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" style="padding-right: 30px !important;color: white;" aria-expanded="false">
-                    administrator
+                    シーズ テスト
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li>
@@ -37,13 +66,13 @@
                         </form>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-            <a class="btn d-none d-sm-block signout" data-bs-toggle="modal" data-bs-target="#signout">
+            <!-- <a class="btn d-none d-sm-block signout" data-bs-toggle="modal" data-bs-target="#signout">
                 <svg xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="28" height="21" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-sign-out-alt fa-w-16 fa-9x" width="512" height="512">
                     <path fill="#B4BEC8" d="M497 273L329 441c-15 15-41 4.5-41-17v-96H152c-13.3 0-24-10.7-24-24v-96c0-13.3 10.7-24 24-24h136V88c0-21.4 25.9-32 41-17l168 168c9.3 9.4 9.3 24.6 0 34zM192 436v-40c0-6.6-5.4-12-12-12H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h84c6.6 0 12-5.4 12-12V76c0-6.6-5.4-12-12-12H96c-53 0-96 43-96 96v192c0 53 43 96 96 96h84c6.6 0 12-5.4 12-12z" class=""></path>
                 </svg>
-            </a>
+            </a> -->
         </div>
 
     </header>
