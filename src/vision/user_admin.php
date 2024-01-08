@@ -23,7 +23,7 @@
             <div class="header_avatar" style="margin-left:10px">
                 <a class="dropdown-toggle btn_dropdown" data-bs-toggle="dropdown">
                     <span class="avatar_img">
-                        <img src="http://18.179.82.28/watashiga1/storage/images/BhOut2UzZirBj7FsSzimqOSCdKa6fYjsD9ZoUwrJ.png" alt="avatar">
+                        <img src="assets/images/avatar_demo.png" alt="avatar">
                     </span>
                     <div class="avatar_info">
                         <span>PCT Test</span>
