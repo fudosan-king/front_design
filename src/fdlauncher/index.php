@@ -156,7 +156,7 @@
                             <div class="box_info" data-aos="fade-right">
                                 <h2>物件情報一括入稿ツール</h2>
                                 <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
-                                <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
+                                <a target="_blank" href="https://form.run/@fdl-order-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
                             </div>
                             <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453" data-aos="fade-left">
                         </div>
@@ -359,7 +359,7 @@
                             <div class="box_info" data-aos="fade-right">
                                 <h2>物件情報一括入稿ツール</h2>
                                 <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
-                                <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
+                                <a target="_blank" href="https://form.run/@fdl-order-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
                             </div>
                             <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453" data-aos="fade-left">
                         </div>
