@@ -20,7 +20,7 @@
                         <a class="nav-link" href="#section_faq" data-scroll>FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i></i> 資料請求・お問合せ</a>
+                        <a target="_blank" class="nav-link" href="https://form.run/@fdl-document-request-form"><i></i> 資料請求・お問合せ</a>
                     </li>
                 </ul>
             </div>

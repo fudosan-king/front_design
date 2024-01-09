@@ -32,7 +32,7 @@
                                         <p>無制限</p>
                                     </li>
                                 </ul>
-                                <a href="#" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a>
+                                <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a>
                             </div>
                         </div>
                         <h4>2024年1月よりサービス開始予定</h4>
@@ -156,7 +156,7 @@
                             <div class="box_info" data-aos="fade-right">
                                 <h2>物件情報一括入稿ツール</h2>
                                 <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
-                                <a href="#" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
+                                <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
                             </div>
                             <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453" data-aos="fade-left">
                         </div>
@@ -359,7 +359,7 @@
                             <div class="box_info" data-aos="fade-right">
                                 <h2>物件情報一括入稿ツール</h2>
                                 <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
-                                <a href="#" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
+                                <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
                             </div>
                             <img class="img-fluid" src="assets/images/submissiontool_img.svg" alt="logo black" width="453" data-aos="fade-left">
                         </div>
