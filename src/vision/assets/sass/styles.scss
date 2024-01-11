@@ -2388,6 +2388,7 @@ header {
 .admin_settings_content {
   h3 {
     font-size: 1.125em;
+    margin-bottom: 0;
   }
   .btn {
     background: #ccc;
@@ -2474,6 +2475,24 @@ header {
       background: #004c86;
     }
   }
+
+  select {
+    font-size: 0.875em;
+    color: #0C1116;
+    border-radius: 4px;
+    border: 1px solid #D0D5DD;
+  }
+  .box_affiliation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 50%;
+    label {
+      width: 60px;
+      font-weight: 600;
+      font-size: 0.875em;
+    }
+  }
   
 }
 
@@ -2501,6 +2520,12 @@ header {
         margin-left: 0;
         margin-bottom: 15px;
       }
+    }
+  }
+  .admin_settings_content {
+    .box_affiliation {
+      width: 100%;
+      margin-top: 15px;
     }
   }
 }
