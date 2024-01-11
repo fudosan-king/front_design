@@ -8,6 +8,20 @@ jQuery(document).ready(function ($) {
   }
   $('[data-scroll]').on('click', scrollToSection);
 
+  $('.record_table tr').click(function (event) {
+    if (event.target.type !== 'checkbox') {
+      $(':checkbox', this).trigger('click');
+    }
+  });
+
+  $(".record_table input[type='checkbox']").change(function (e) {
+    if ($(this).is(":checked")) {
+      $(this).closest('tr').addClass("highlight_row");
+    } else {
+      $(this).closest('tr').removeClass("highlight_row");
+    }
+  });
+
 
   // inspired by http://jsfiddle.net/arunpjohny/564Lxosz/1/
   $('.table-responsive-stack').each(function (i) {
@@ -149,6 +163,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
 });
+
+
 
 
 

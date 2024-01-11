@@ -46,159 +46,103 @@
 
     </header>
 
-    <div class="l-navbar" id="nav-bar">
-        <nav class="nav">
-            <div>
-                <div class="nav_list">
-                    <a href="#" class="nav_link"><img src="assets/images/icons/i_home.svg" alt="Home"></a>
-
-                    <a href="#" class="nav_link"><img src="assets/images/icons/i_call.svg" alt="Call"></a>
-
-                    <a href="#" class="nav_link active"><img src="assets/images/icons/i_users.svg" alt="アカウント管理"></a>
-
-                    <a href="#" class="nav_link"><img src="assets/images/icons/i_treediagram.svg" alt="Tree Diagram"></a>
-
-                </div>
-            </div>
-        </nav>
-    </div>
+    <?php require 'navbar_left.php'; ?>
 
     <!--Container Main start-->
     <div class="main_content">
         <div class="header_toggle"> <i class="bx bx-menu" id="header-toggle"></i> </div>
-        <div class="col spacing-with-btn-floating-w bg-content-container">
-            <form name="search_form" id="search_form">
-                <div class="box_sort_cate">
-                    <h2>アカウント⼀覧</h2>
-                    <div class="box_affiliation">
-                        <label for="所属">所属</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option value="全て">全て</option>
-                            <option value="...">...</option>
-                        </select>
+        <form name="frm_searchcompany">
+            <div class="box_topsearchcompany">
+                <div class="topsearchcompany_left">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-10">
+                            <div class="mb-3 row">
+                                <label for="企業キー" class="col-sm-2 col-form-label">企業キー</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" placeholder="企業キー">
+                                </div>
+                            </div>
+                            <div class="row mb-lg-0 mb-3">
+                                <label for="企業名" class="col-sm-2 col-form-label">企業名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" placeholder="企業名">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2 text-center">
+                            <p class="total">12件</p>
+                            <a href="#" class="btn btn_Search">検索</a>
+                        </div>
                     </div>
-                    <a href="#modal_editaccount" class="btn btn_addaccount" data-bs-toggle="modal">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
-                            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
-                            <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5" />
-                        </svg>
-                        アカウント追加
-                    </a>
                 </div>
-
-                <div id="no-table" class="table_info">
-                    <table class="col-12 table table-striped cf">
-                        <thead class="cf table-primary">
-                            <tr>
-                                <th>ID</th>
-                                <th>Permision</th>
-                                <th>Staff ID</th>
-                                <th>Staff Name</th>
-                                <th>Category</th>
-                                <th>Start Date</th>
-                                <th>Email</th>
-                                <th>License Start Date</th>
-                                <th>License Expire Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-title="ID">1</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">2</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">3</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">4</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">5</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">6</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">7</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">8</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="topsearchcompany_right">
+                    <a class="btn btn_addcompany" href="#modal_editcontractcompany" data-bs-toggle="modal">新規企業追加</a>
                 </div>
+            </div>
 
-                <input type="hidden" name="_token" value="1fduttSG4xfoovBPPf1VBZKSl2lV89KIiDXHaTrA">
-                <input type="hidden" name="delete_admin_user_id">
-                <input type="hidden" name="_method" value="POST">
-            </form>
-        </div>
+            <div id="no-table" class="table_info">
+                <table class="col-12 table table-striped cf">
+                    <thead class="cf table-primary">
+                        <tr>
+                            <th>ID</th>
+                            <th>企業キー</th>
+                            <th>企業名</th>
+                            <th>ライセンス数</th>
+                            <th>編集</th>
+                            <th>削除</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-title="ID">10</td>
+                            <td data-title="企業キー">Logknot</td>
+                            <td data-title="企業名">LogKnot株式会社</td>
+                            <td data-title="ライセンス数">13</td>
+                            <td data-title="編集"><a href="#" class="btn btn_edit">編集</a></td>
+                            <td data-title="削除">
+                                <a href="#" class="btn btn_del">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-title="ID">9</td>
+                            <td data-title="企業キー">cs-link</td>
+                            <td data-title="企業名">株式会社シーズ・リンク</td>
+                            <td data-title="ライセンス数">7</td>
+                            <td data-title="編集"><a href="#" class="btn btn_edit">編集</a></td>
+                            <td data-title="削除">
+                                <a href="#" class="btn btn_del">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-title="ID">8</td>
+                            <td data-title="企業キー">...</td>
+                            <td data-title="企業名">...</td>
+                            <td data-title="ライセンス数">105</td>
+                            <td data-title="編集"><a href="#" class="btn btn_edit">編集</a></td>
+                            <td data-title="削除">
+                                <a href="#" class="btn btn_del">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+        </form>
 
 
 
@@ -513,6 +457,59 @@
                     </form>
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal_editcontractcompany" id="modal_editcontractcompany" tabindex="-1" aria-labelledby="editcontractcompany_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="editcontractcompany_label">契約企業の追加（ or 編集）</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="frm_editcontractcompany">
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">企業名</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">企業名カナ</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">企業キー</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">郵便番号</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" placeholder="例）0001111">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">住所</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control mb-3" placeholder="例）東京都品川区上⼤崎４−４−８">
+                                <input type="text" class="form-control" placeholder="例）ダイナミックアート館ビル１F">
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <label for="" class="col-sm-3 col-form-label text-start text-lg-end">電話番号</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" placeholder="例）0311112222">
+                            </div>
+                        </div>
+                        <button class="btn btn_renew" type="submit">更新</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
