@@ -465,7 +465,7 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title" id="editcontractcompany_label">契約企業の追加（ or 編集）</h1>
+                    <h1 class="modal-title" id="editcontractcompany_label">契約企業の追加</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
