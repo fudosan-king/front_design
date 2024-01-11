@@ -2287,3 +2287,221 @@ header {
     }
   }
 }
+
+// Company List
+.box_topsearchcompany {
+  display: flex;
+  align-items: center;
+  .topsearchcompany_left {
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-bottom: 15px;
+    label {
+      font-weight: 600;
+      font-size: 0.875em;
+    }
+    .total {
+      font-weight: 700;
+      font-size: 1.125em;
+      color: $primary_color;
+    }
+    .btn_Search {
+      background: $primary_color;
+      color: #fff;
+      border-radius: 4px;
+      font-weight: 600;
+      padding: 5px 20px;
+      &:hover {
+        background: #00477d;
+      }
+    }
+  }
+  .topsearchcompany_right {
+    text-align: center;
+    .btn_addcompany {
+      background: $primary_color;
+      color: #fff;
+      border-radius: 4px;
+      font-weight: 600;
+      padding: 5px 20px;
+      margin-left: 30px;
+      &:hover {
+        background: #00477d;
+      }
+    }
+  }
+}
+.modal_editcontractcompany {
+  .modal-header {
+    padding: 50px 0 30px;
+    flex-direction: column;
+    margin: 0 60px;
+    position: relative;
+    border-bottom: none;
+    h1 {
+      color: #0168B7;
+      font-weight: 600;
+      font-family: 'Inter';
+      font-size: 1.5em;
+    }
+    .btn-close {
+      position: absolute;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  .modal-content {
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+  }
+  .modal-body {
+    padding: 0 60px 50px;
+  }
+  .btn_renew {
+    background: #0168B7;
+    color: #fff;
+    margin: 30px auto 0;
+    display: block;
+    min-width: 150px;
+    font-weight: 600;
+    font-size: 0.875em;
+    border-radius: 4px;
+    padding: 13px 20px;
+    &:hover {
+      background: #00477d;
+    }
+  }
+}
+
+.frm_editcontractcompany {
+  label {
+    font-weight: 600;
+    font-size: 0.875em;
+  }
+}
+
+.admin_settings_content {
+  h3 {
+    font-size: 1.125em;
+  }
+  .btn {
+    background: #ccc;
+    border-radius: 4px;
+    padding: 5px 30px;
+    &:hover {
+      background: $primary_color;
+      svg {
+        fill: #fff;
+      }
+    }
+    &.disabled {
+      border: none;
+    }
+  }
+  .box_table {
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 500px;
+    overflow: auto;
+    .table {
+      margin-bottom: 0;
+      tr, td {
+        font-size: 0.9375em;
+        padding: 10px 15px;
+        vertical-align: middle;
+      }
+      tr {
+        &:last-of-type {
+          th, td {
+            border-bottom: none;
+          }
+        }
+      }
+      .form-check-input {
+        margin: 0;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .record_table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .record_table tr:hover {
+    background: #eee;
+  }
+  .highlight_row {
+    th, td {
+      background: rgba(8, 126, 216, 0.583);
+      color: #fff;
+    }
+  }
+
+  .w_box_move {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    .box_move {
+      text-align: center;
+      margin-bottom: 10px;
+      p {
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 0.875em;
+      }
+    }
+  }
+  
+  .btn_renew {
+    background: $primary_color;
+    color: #fff;
+    margin: 50px auto;
+    display: block;
+    min-width: 150px;
+    font-weight: 600;
+    font-size: 0.875em;
+    border-radius: 4px;
+    padding: 13px 20px;
+    &:hover {
+      background: #004c86;
+    }
+  }
+  
+}
+
+@media (max-width: 830px) {
+  .modal_editcontractcompany {
+    .modal-header {
+      margin-left: 15px;
+      margin-right: 15px;
+      .btn-close {
+        margin: 0;
+        top: 10px;
+      }
+    }
+    .modal-body {
+      padding: 0 15px 30px;
+    }
+  }
+  .box_topsearchcompany {
+    flex-direction: column;
+    .topsearchcompany_left {
+      width: 100%;
+    }
+    .topsearchcompany_right {
+      .btn_addcompany {
+        margin-left: 0;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+

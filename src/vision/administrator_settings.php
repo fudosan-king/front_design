@@ -46,158 +46,134 @@
 
     </header>
 
-    <div class="l-navbar" id="nav-bar">
-        <nav class="nav">
-            <div>
-                <div class="nav_list">
-                    <a href="#" class="nav_link"><img src="assets/images/icons/i_home.svg" alt="Home"></a>
-
-                    <a href="#" class="nav_link"><img src="assets/images/icons/i_call.svg" alt="Call"></a>
-
-                    <a href="#" class="nav_link active"><img src="assets/images/icons/i_users.svg" alt="アカウント管理"></a>
-
-                    <a href="#" class="nav_link"><img src="assets/images/icons/i_treediagram.svg" alt="Tree Diagram"></a>
-
-                </div>
-            </div>
-        </nav>
-    </div>
+    <?php require 'navbar_left.php'; ?>
 
     <!--Container Main start-->
     <div class="main_content">
         <div class="header_toggle"> <i class="bx bx-menu" id="header-toggle"></i> </div>
-        <div class="col spacing-with-btn-floating-w bg-content-container">
-            <form name="search_form" id="search_form">
-                <div class="box_sort_cate">
-                    <h2>アカウント⼀覧</h2>
-                    <div class="box_affiliation">
-                        <label for="所属">所属</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option value="全て">全て</option>
-                            <option value="...">...</option>
-                        </select>
+        <div class="admin_settings_content">
+            <h2>システム管理者の設定</h2>
+            <h3>現在のシステム管理者</h3>
+            <form class="frm_admin_settings">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <div class="box_table">
+                            <table class="table table-hover record_table">
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⽒名</td>
+                                    <td>所属</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⼭⽥ 太郎</td>
+                                    <td>営業部 営業企画</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>佐藤 ⼀郎</td>
+                                    <td>カスタマーサクセ</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>鈴⽊ 良⼦</td>
+                                    <td>業務部</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⽒名</td>
+                                    <td>所属</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⼭⽥ 太郎</td>
+                                    <td>営業部 営業企画</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>佐藤 ⼀郎</td>
+                                    <td>カスタマーサクセ</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>鈴⽊ 良⼦</td>
+                                    <td>業務部</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
-                    <a href="#modal_editaccount" class="btn btn_addaccount" data-bs-toggle="modal">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
-                            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
-                            <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5" />
-                        </svg>
-                        アカウント追加
-                    </a>
+                    <div class="col-12 col-lg-2">
+                        <div class="w_box_move">
+                            <div class="box_move">
+                                <p>追加</p>
+                                <a href="#" class="btn disabled">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="box_move">
+                                <a href="#" class="btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                    </svg>
+                                </a>
+                                <p>除外</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="box_table">
+                            <table class="table table-hover record_table">
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⽒名</td>
+                                    <td>所属</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⼭⽥ 太郎</td>
+                                    <td>営業部 営業企画</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>佐藤 ⼀郎</td>
+                                    <td>カスタマーサクセ</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>鈴⽊ 良⼦</td>
+                                    <td>業務部</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⽒名</td>
+                                    <td>所属</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>⼭⽥ 太郎</td>
+                                    <td>営業部 営業企画</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>佐藤 ⼀郎</td>
+                                    <td>カスタマーサクセ</td>
+                                </tr>
+                                <tr>
+                                    <th><input class="form-check-input" type="checkbox" /></th>
+                                    <td>鈴⽊ 良⼦</td>
+                                    <td>業務部</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
                 </div>
 
-                <div id="no-table" class="table_info">
-                    <table class="col-12 table table-striped cf">
-                        <thead class="cf table-primary">
-                            <tr>
-                                <th>ID</th>
-                                <th>Permision</th>
-                                <th>Staff ID</th>
-                                <th>Staff Name</th>
-                                <th>Category</th>
-                                <th>Start Date</th>
-                                <th>Email</th>
-                                <th>License Start Date</th>
-                                <th>License Expire Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-title="ID">1</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">2</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">3</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">4</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">5</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">6</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">7</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                            <tr>
-                                <td data-title="ID">8</td>
-                                <td data-title="Permision">管理者</td>
-                                <td data-title="Staff ID">A0002</td>
-                                <td data-title="Staff Name">佐藤　一郎</td>
-                                <td data-title="Category">◯◯事業部</td>
-                                <td data-title="Start Date">yyyy年m月d日</td>
-                                <td data-title="Email">aaaa@mail.jp</td>
-                                <td data-title="License Start Date">yyyy年m月d日</td>
-                                <td data-title="License Expire Date">yyyy年m月d日</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <button class="btn btn_renew" type="submit">更新</button>
 
-                <input type="hidden" name="_token" value="1fduttSG4xfoovBPPf1VBZKSl2lV89KIiDXHaTrA">
-                <input type="hidden" name="delete_admin_user_id">
-                <input type="hidden" name="_method" value="POST">
             </form>
+
         </div>
 
 
