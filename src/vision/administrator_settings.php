@@ -53,7 +53,26 @@
         <div class="header_toggle"> <i class="bx bx-menu" id="header-toggle"></i> </div>
         <div class="admin_settings_content">
             <h2>システム管理者の設定</h2>
-            <h3>現在のシステム管理者</h3>
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <h3>現在のシステム管理者</h3>
+                </div>
+                <div class="col-12 col-lg-2">
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="box_affiliation">
+                        <label for="" class="col-form-label">所属：</label>
+                        <select class="form-select" aria-label="営業部 第1課 〇〇チーム">
+                            <option selected>営業部 第1課 〇〇チーム</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
             <form class="frm_admin_settings">
                 <div class="row">
                     <div class="col-12 col-lg-5">

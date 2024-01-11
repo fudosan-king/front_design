@@ -2216,6 +2216,7 @@ header .btn_enterprisesettings:hover {
 
 .admin_settings_content h3 {
   font-size: 1.125em;
+  margin-bottom: 0;
 }
 .admin_settings_content .btn {
   background: #ccc;
@@ -2293,6 +2294,23 @@ header .btn_enterprisesettings:hover {
 .admin_settings_content .btn_renew:hover {
   background: #004c86;
 }
+.admin_settings_content select {
+  font-size: 0.875em;
+  color: #0C1116;
+  border-radius: 4px;
+  border: 1px solid #D0D5DD;
+}
+.admin_settings_content .box_affiliation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 50%;
+}
+.admin_settings_content .box_affiliation label {
+  width: 60px;
+  font-weight: 600;
+  font-size: 0.875em;
+}
 
 @media (max-width: 830px) {
   .modal_editcontractcompany .modal-header {
@@ -2316,5 +2334,10 @@ header .btn_enterprisesettings:hover {
   .box_topsearchcompany .topsearchcompany_right .btn_addcompany {
     margin-left: 0;
     margin-bottom: 15px;
+  }
+
+  .admin_settings_content .box_affiliation {
+    width: 100%;
+    margin-top: 15px;
   }
 }
