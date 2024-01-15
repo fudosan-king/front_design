@@ -11,7 +11,7 @@
             <a href="http://18.179.82.28/admin/dashboard" class="logo"><img src="assets/images/logo_white.svg" style="vertical-align:baseline" width="200px" alt="header_logo"></a>
         </h1>
         <div class="header_right">
-            <a class="logo"><img src="assets/images/header_logo.png" width="123" alt="header_logo"></a>
+            <a class="logo"><img src="assets/images/CL_logo_01_big.png" width="123" alt="header_logo"></a>
             <div class="header_avatar" style="margin-left:10px">
                 <a class="dropdown-toggle btn_dropdown" data-bs-toggle="dropdown">
                     <span class="avatar_img">

@@ -2530,3 +2530,17 @@ header {
   }
 }
 
+.header_right {
+  .logo {
+    width: 123px;
+    height: 40px;
+    padding: 5px;
+    background: #fff;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: scale-down;
+    }
+  }
+}
+
