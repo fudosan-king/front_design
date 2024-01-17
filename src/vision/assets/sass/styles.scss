@@ -198,10 +198,10 @@ h2 {
     top: 80px;
     left: -30%;
     height: 100vh;
-    background-color: var(--first-color-light);
+    background-color: rgb(226, 236, 244);
     padding: .5rem 1rem 0 0;
     transition: .5s;
-    z-index: var(--z-fixed);
+    z-index: 9999;
     .nav {
       height: 100%;
       display: flex;
@@ -2280,6 +2280,7 @@ header {
       align-items: flex-end;
       flex-direction: column;
       .logo {
+        width: 80px;
         img {
           width: 80px;
         }
@@ -2539,6 +2540,25 @@ header {
       height: 100%;
       object-fit: scale-down;
     }
+  }
+}
+
+.btn_poweredby {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, .7);
+  font-weight: 600;
+  font-size: 0.875em;
+  padding: 15px 0;
+  color: $primary_color;
+  &:hover {
+    background: rgba(255, 255, 255, 1);;
   }
 }
 
