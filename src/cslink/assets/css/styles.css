@@ -320,11 +320,11 @@ header h1 {
   padding-left: 15px;
   margin-bottom: 10px;
 }
-.main_right .standard_article h2::before {
-  content: '';
+.main_right .standard_article h2 span {
   position: absolute;
   left: 0;
   top: 0;
+  display: block;
   width: 6px;
   height: 100%;
   background: #0168B7;
@@ -871,7 +871,7 @@ footer ul li a {
 .btn_addlink.active:hover {
   background: #02487e;
 }
-.btn_addlink img {
+.btn_addlink img, .btn_addlink svg {
   margin-right: 10px;
 }
 
@@ -1347,4 +1347,39 @@ footer ul li a {
   max-height: 50px;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.colorpicker {
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+}
+.colorpicker:focus {
+  box-shadow: none;
+}
+
+.btn_change {
+  min-width: 100px;
+  height: 40px;
+  background: #0168B7;
+  color: #fff;
+  font-size: 0.875em;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_change:hover {
+  background: #01477d;
+  color: #fff;
+}
+
+@media (max-width: 830px) {
+  .btn_change {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }

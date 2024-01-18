@@ -1,13 +1,13 @@
 <div class="box_tab">
     <a class="btn btn_tab" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><img src="assets/images/i_chevron_down.svg" alt="chevron down" width="14"></a>
-    <div class="box_tab_content collapse color_block" id="collapseExample">
+    <div class="box_tab_content collapse" id="collapseExample">
         <div class="container">
             <form action="">
                 <div class="box_tab_content_left">
                     <div class="row_custom">
-                        <label for="" class="col-form-label">Picker</label>
-                        <input type="color" id="color" class="form-control" name="colorPicker" title="Choose Color">
-                        <a class="btn btn_change" href="#">Change</a>
+                        <label for="" class="col-form-label">背景色</label>
+                        <input type="color" id="color" class="form-control colorpicker" name="colorPicker" title="Choose Color">
+                        <a class="btn btn_change" href="#">適用</a>
                     </div>
                     <div class="row_custom">
                         <label for="" class="col-form-label">ページ管理名</label>
