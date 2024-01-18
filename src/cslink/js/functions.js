@@ -41,7 +41,21 @@ $(".btn_close").on("click", function () {
 
 $(".btn_change").click(function (event) {
   event.preventDefault()
-  $("header, .color_block, .btn_tab").css({
+  $("header, .btn_inquiry").css({
     backgroundColor: $("#color").val()
+  });
+
+  $(".btn_addlink_theme svg path").css({
+    stroke: $("#color").val(),
+  });
+
+  $(".standard_article h2 span").css({
+    backgroundColor: $("#color").val(),
+  });
+
+  $(".btn_addlink_theme").css({
+    borderColor: $("#color").val(),
+    color: $("#color").val(),
+    fill: $("#color").val(),
   });
 });

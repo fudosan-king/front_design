@@ -95,6 +95,7 @@
                                 <div class="main_right template2 admin">
                                     <article class="standard_article" data-aos="fade-up">
                                         <h2>
+                                            <span></span>
                                             <input type="text" class="form-control" placeholder="見出し">
                                         </h2>
 
@@ -146,7 +147,22 @@
                                                     <button type="button" class="btn btnClose"></button>
                                                 </div>
                                             </div>
-                                            <button class="btn btn_addlink" type=""><img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> リンクを追加する</button>
+                                            <button class="btn btn_addlink btn_addlink_theme" type="">
+                                                <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
+                                                        <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_452_22745">
+                                                            <rect width="20" height="20" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                リンクを追加する
+                                            </button>
                                         </div>
 
                                         <div class="box_material_content">
@@ -200,7 +216,22 @@
                                                     <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                 </li>
                                             </ul>
-                                            <button class="btn btn_addlink" type=""><img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> 動画・資料を追加する</button>
+                                            <button class="btn btn_addlink btn_addlink_theme" type="">
+                                                <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
+                                                        <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_452_22745">
+                                                            <rect width="20" height="20" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                動画・資料を追加する
+                                            </button>
                                             <hr>
                                             <button class="btn btn_addlink active" type=""><img src="assets/images/i_plus_circle_white.svg" alt="plus circle" width="20"> ブロックを追加する</button>
                                         </div>
