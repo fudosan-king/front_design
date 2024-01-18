@@ -2354,6 +2354,11 @@ header .btn_enterprisesettings:hover {
   object-fit: scale-down;
 }
 
+footer {
+  margin-top: 30px;
+  position: relative;
+}
+
 .btn_poweredby {
   position: fixed;
   z-index: 999;
@@ -2363,12 +2368,9 @@ header .btn_enterprisesettings:hover {
   margin: auto;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.7);
+  background: #fff;
   font-weight: 600;
   font-size: 0.875em;
   padding: 15px 0;
-  color: #0168B7;
-}
-.btn_poweredby:hover {
-  background: white;
+  color: #8A8C8D;
 }
