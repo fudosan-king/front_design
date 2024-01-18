@@ -39,3 +39,9 @@ $(".btn_close").on("click", function () {
   $('.btn_inquiry.btn_inquiry2').show();
 });
 
+$(".btn_change").click(function (event) {
+  event.preventDefault()
+  $("header, .color_block, .btn_tab").css({
+    backgroundColor: $("#color").val()
+  });
+});
