@@ -6,5 +6,5 @@
         <li><a href="#">プライバシーポリシー</a></li>
         <li><a href="#">個人情報の取扱いについて</a></li>
     </ul> -->
-    <a href="#" class="btn btn_poweredby">powered by C's Link</a>
+    <span class="btn_poweredby">powered by C's Link</span>
 </footer>
