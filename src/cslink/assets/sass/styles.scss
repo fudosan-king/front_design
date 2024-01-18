@@ -1188,7 +1188,7 @@ footer {
 
   .box_tab {
     .box_tab_content {
-      padding: 30px 0;
+      padding: 0 0 10px;
     }
     form {
       display: block;
@@ -1486,5 +1486,12 @@ footer {
     width: 100%;
     margin-left: 0;
     margin-top: 10px;
+  }
+  .box_tab {
+    .box_button {
+      .btn {
+        padding: 10px 15px;
+      }
+    }
   }
 }
