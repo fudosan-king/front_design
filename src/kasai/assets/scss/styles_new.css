@@ -1,0 +1,214 @@
+.cmn-order-navi {
+  padding: 62px 60px 48px 20px;
+}
+.cmn-order-navi ul {
+  position: relative;
+  text-align: center;
+  letter-spacing: -0.4em;
+}
+.cmn-order-navi ul::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 2px;
+  top: 24px;
+  left: 50%;
+  margin-left: -150px;
+  background: #dedede;
+  z-index: 1;
+}
+.cmn-order-navi ul li {
+  position: relative;
+  margin: 0 47px;
+  letter-spacing: normal;
+  display: inline-block;
+  z-index: 2;
+}
+.cmn-order-navi ul li.active .navi-num {
+  color: #fff;
+  background: #070168;
+  border: 1px solid #070168;
+}
+.cmn-order-navi ul li span {
+  display: block;
+  text-align: center;
+}
+.cmn-order-navi ul li .navi-num {
+  padding: 23px 0;
+  width: 48px;
+  position: relative;
+  margin: 0 auto;
+  color: #5f6673;
+  font-size: 154%;
+  line-height: 0;
+  background: #fff;
+  border: 1px solid #787878;
+  border-radius: 100px;
+  outline: 5px solid #fff;
+}
+.cmn-order-navi ul li .navi-label {
+  margin-top: 10px;
+  color: #646464;
+}
+
+.explanation {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.explanation p {
+  margin-bottom: 15px;
+}
+
+.section_inquiry {
+  padding-bottom: 110px;
+  background: #fff;
+  padding-top: 60px;
+  font-size: 1em;
+}
+.section_inquiry .frm_general .form-control {
+  font-size: 1em;
+  border-color: #828282;
+  height: 40px;
+  border-radius: 4px;
+}
+.section_inquiry .frm_general .form-control::-moz-placeholder {
+  color: #828282;
+}
+.section_inquiry .frm_general .form-control::placeholder {
+  color: #828282;
+}
+.section_inquiry .frm_general .form-control:focus {
+  color: #000;
+}
+.section_inquiry .frm_general .form-control.custom-select {
+  background: #fff url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='10' cy='10' r='10' fill='%23B48856'/%3e%3cpath d='M5.29413 8.23535L10 12.9412L14.7059 8.23535' stroke='white' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e") no-repeat right 0.75rem center/20px 20px;
+  color: #828282;
+  opacity: 1;
+}
+.section_inquiry .frm_general label {
+  font-weight: 500;
+}
+.section_inquiry .frm_general label span {
+  color: red;
+}
+.section_inquiry .frm_general textarea.form-control {
+  height: 90px;
+}
+.section_inquiry .btnAgree {
+  background-color: #111;
+  border: 1px solid #111;
+  border-radius: 0;
+  min-width: 300px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 1em;
+  padding: 13.5px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out 0s;
+}
+.section_inquiry .btnAgree:hover {
+  border-color: #938152;
+  color: #333;
+}
+.section_inquiry .btnAgree:hover::after {
+  width: 100%;
+}
+.section_inquiry .btnAgree::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.l_footer_actionBtn .c_btn_gradient {
+  min-width: 290px;
+  width: auto;
+}
+
+.other .l_footer_slide_wrap a {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.c_btn_default, a.c_btn_default {
+  min-width: 315px;
+}
+
+@media (max-width: 768px) {
+  .cmn-order-navi {
+    padding-right: 20px;
+  }
+  .cmn-order-navi ul li {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 979px) {
+  .l_footer_fixed {
+    left: 0;
+    right: 0;
+  }
+  .l_footer_fixed a {
+    width: 25%;
+    height: 60px;
+  }
+  .l_footer_fixed a img {
+    height: 60px;
+  }
+  .l_footer_fixed a.reserv_on {
+    width: 50%;
+    background-color: #f58f92;
+  }
+  .l_footer_fixed a.reserv_on img {
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 979px) {
+  header nav .inline {
+    position: relative;
+  }
+  header nav .inline::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: #706f6d;
+  }
+  header nav .inline li:last-of-type {
+    border-right: none;
+  }
+  header nav .inline li:last-of-type a {
+    position: relative;
+  }
+  header nav .inline li:last-of-type a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 1px;
+    height: 100%;
+    background: #706f6d;
+  }
+  .c_tab {
+    justify-content: center;
+  }
+  .l_footer_btn {
+    align-items: center;
+  }
+  .l_footer_btn a.c_btn {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.top_obi_new img {
+  max-width: 900px;
+}/*# sourceMappingURL=styles_new.css.map */

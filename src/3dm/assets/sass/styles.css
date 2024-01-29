@@ -1,0 +1,1470 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+a {
+  color: #5B5B5B;
+}
+
+.btn {
+  color: #5B5B5B;
+  border-radius: 0;
+}
+
+.btn, a, .btn:hover {
+  transition: color 0.25s ease;
+}
+
+.btn:hover, .btn.focus {
+  transition: all 0.3s linear;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+::-moz-selection {
+  background: #1F91B3;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::selection {
+  background: #1F91B3;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #1F91B3;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: #1F91B3;
+  color: #FFF;
+  text-shadow: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #F3FCFF;
+  font-family: "noto-sans-cjk-jp", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  line-height: 1.5em;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5B5B5B;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-link {
+  color: #5B5B5B;
+  word-break: normal;
+  word-break: break-all;
+  word-break: keep-all;
+  text-decoration: underline;
+}
+
+.btn-link:hover {
+  color: #5B5B5B;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "noto-sans-cjk-jp", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  line-height: 1.3em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #5B5B5B;
+  margin-bottom: 10px;
+  font-size: 1.25em;
+  font-weight: 800;
+}
+
+*, :before, :after {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+p {
+  word-wrap: break-word;
+  line-height: 1.8em;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5B5B5B;
+  transition: all 0.3s linear;
+}
+
+h1 {
+  font-size: 2.3125em;
+}
+
+h2 {
+  font-size: 1.5625em;
+}
+
+.red {
+  color: #D7443E;
+}
+
+.form-control {
+  font-size: 0.875em;
+  border-color: #BDBDBD;
+  height: calc(1.5em + 0.75rem + 10px);
+}
+
+select.form-control, select.form-control:focus {
+  color: #c2c8cf;
+}
+
+.custom-select:focus {
+  border-color: #5B5B5B;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #5B5B5B;
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 0;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #1F91B3;
+}
+
+.custom-control-label::before {
+  border-color: #1F91B3;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #1F91B3;
+  border-color: #1F91B3;
+}
+
+.form-control::-moz-placeholder {
+  color: #BDC0BA;
+}
+
+.form-control::placeholder {
+  color: #BDC0BA;
+}
+
+.bg_lighblue {
+  background: #f3fcff;
+}
+
+.relative {
+  position: relative;
+}
+
+b {
+  font-weight: 700;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.title {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+.title span {
+  margin-left: 10px;
+  position: relative;
+  top: -3px;
+}
+
+.title_sub {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1em;
+  margin-bottom: 0;
+  color: #000;
+}
+
+.subtitle {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #4F4F4F;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background: none;
+}
+
+.navbar-toggler {
+  float: right;
+  border: none;
+  padding-right: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+.navbar-toggler:active, .navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  background-image: none;
+  position: relative;
+  border-bottom: 1px solid #fff;
+  transition: all 300ms linear;
+}
+.navbar-toggler-icon:before, .navbar-toggler-icon:after {
+  width: 24px;
+  position: absolute;
+  height: 1px;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: 2;
+  transition: all 300ms linear;
+}
+.navbar-toggler-icon:after {
+  top: 8px;
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-icon:after {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-icon:before {
+  transform: translateY(8px) rotate(-45deg);
+}
+
+.navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
+  border-color: transparent;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown .dropdown-menu {
+  left: -30px;
+  min-width: 280px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 0.5s;
+  transform-origin: top center;
+  transform: scale(1, 0);
+  display: block;
+}
+.dropdown .dropdown-menu:before {
+  bottom: 100%;
+  left: 30%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 9px;
+  margin-left: -9px;
+}
+.dropdown .dropdown-menu .dropdown-item {
+  font-size: 0.75em;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 10px 5px;
+  color: #5B5B5B;
+}
+.dropdown .dropdown-menu .dropdown-item span {
+  display: block;
+  font-size: 1.3333em;
+  font-weight: 500;
+}
+.dropdown .dropdown-menu .dropdown-item:last-of-type {
+  border-bottom: none;
+}
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+}
+.dropdown .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+}
+
+.navbar-nav .nav-item {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navbar-nav .nav-item:first-of-type {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.navbar-nav .nav-item:last-of-type .nav-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.navbar-nav .nav-item:last-of-type .nav-link span:first-of-type {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  background: #F6AE3F;
+  margin-right: 15px;
+  font-size: 1.2857em;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.navbar-nav .nav-item:last-of-type .nav-link span.name i {
+  font-size: 0.7143em;
+  font-style: normal;
+  display: block;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 0.875em;
+  line-height: 1.3em;
+  font-weight: 500;
+  padding: 12px 30px;
+}
+.navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+  color: #fff;
+}
+
+.notification {
+  position: relative;
+}
+.notification i {
+  font-style: normal;
+  width: 7px;
+  height: 7px;
+  border-radius: 100px;
+  background: #F6AE3F;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.dropleft .dropdown-toggle:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 7px;
+  height: 10px;
+  transform: rotate(-90deg);
+}
+
+#body-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#sidebar-container {
+  min-height: 100vh;
+  background: #fff;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+/* Sidebar sizes when expanded and expanded */
+.sidebar-expanded {
+  width: 230px;
+  position: relative;
+  z-index: 200;
+}
+
+.sidebar-collapsed {
+  width: 60px;
+}
+
+/* Menu item*/
+#sidebar-container .list-group a {
+  height: 50px;
+}
+
+/* Submenu item*/
+#sidebar-container .list-group .sidebar-submenu a {
+  height: 45px;
+  padding-left: 30px;
+}
+
+.sidebar-submenu {
+  font-size: 0.9rem;
+}
+
+/* Separators */
+.sidebar-separator-title {
+  background-color: #333;
+  height: 35px;
+}
+
+.sidebar-separator {
+  background-color: #333;
+  height: 25px;
+}
+
+.logo-separator {
+  background-color: #333;
+  height: 60px;
+}
+
+/* Symbol für geschlossenes Untermenü */
+#sidebar-container .list-group .list-group-item[aria-expanded=false] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+/* Geöffnetes Untermenüsymbol */
+#sidebar-container .list-group .list-group-item[aria-expanded=true] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.list-group .list-group-item {
+  background-color: transparent;
+  border: 0;
+}
+.list-group .list-group-item:first-of-type {
+  border-radius: 0;
+}
+
+.sidebar {
+  padding-top: 40px;
+}
+.sidebar li {
+  padding-left: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  background-size: 10%;
+}
+.sidebar li:last-of-type {
+  margin-bottom: 0;
+}
+.sidebar li:hover:before, .sidebar li.active:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  border-radius: 3px;
+  background: #1F91B3;
+}
+.sidebar li:hover a, .sidebar li.active a {
+  color: #1F91B3;
+}
+.sidebar li:nth-of-type(1) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 18' style='enable-background:new 0 0 20 18;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill-rule:evenodd;clip-rule:evenodd;fill:%23656765;%7d .st1%7bfill:%23656765;%7d %3c/style%3e%3cpath class='st0' d='M0,17.3V0.7h19.9v16.6H0z M1.3,16h17.3V2H1.3V16z'/%3e%3cpath class='st1' d='M5.7,8.5L3.3,11v4.2c0,0.1,0.1,0.2,0.2,0.2h2.8c0.1,0,0.2-0.1,0.2-0.2V8.7L5.9,8.5H5.7z'/%3e%3cpath class='st1' d='M11.4,10.4H8.6c-0.1,0-0.2,0.1-0.2,0.2v4.5c0,0.1,0.1,0.2,0.2,0.2h2.8c0.1,0,0.2-0.1,0.2-0.2v-4.5 C11.6,10.5,11.5,10.4,11.4,10.4z'/%3e%3cpath class='st1' d='M15.5,5.9L15,5.4l-1.9,2.1v7.6c0,0.1,0.1,0.2,0.2,0.2h2.8c0.1,0,0.2-0.1,0.2-0.2V5.9c0,0,0,0,0,0 C16.2,6,16.1,6,16,6C15.8,6,15.6,6,15.5,5.9z'/%3e%3cpath class='st1' d='M2.6,10.6c0.1,0,0.2,0,0.3-0.1l2.7-2.8l4.6,1.7c0.2,0.1,0.3,0,0.5-0.1L15,4.6l1,0.9c0,0,0.1,0,0.2,0 c0.1,0,0.1-0.1,0.1-0.2L16,2.8c0-0.1-0.1-0.2-0.2-0.1l-2.4,0.2c-0.1,0-0.1,0.1-0.1,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0.1,0.1l1,0.9 l-4.1,4.5L5.6,6.8c-0.2-0.1-0.3,0-0.4,0.1l-2.8,3c-0.2,0.2-0.2,0.4,0,0.6C2.4,10.6,2.5,10.6,2.6,10.6z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(1):hover, .sidebar li:nth-of-type(1).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 18' style='enable-background:new 0 0 20 18;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill-rule:evenodd;clip-rule:evenodd;fill:%231F91B3;%7d .st1%7bfill:%231F91B3;%7d %3c/style%3e%3cpath class='st0' d='M0,17.3V0.7h19.9v16.6C19.9,17.3,0,17.3,0,17.3z M1.3,16h17.3V2H1.3V16z'/%3e%3cpath class='st1' d='M5.7,8.5L3.3,11v4.2c0,0.1,0.1,0.2,0.2,0.2h2.8c0.1,0,0.2-0.1,0.2-0.2V8.7L5.9,8.5H5.7z'/%3e%3cpath class='st1' d='M11.4,10.4H8.6c-0.1,0-0.2,0.1-0.2,0.2v4.5c0,0.1,0.1,0.2,0.2,0.2h2.8c0.1,0,0.2-0.1,0.2-0.2v-4.5 C11.6,10.5,11.5,10.4,11.4,10.4z'/%3e%3cpath class='st1' d='M15.5,5.9L15,5.4l-1.9,2.1v7.6c0,0.1,0.1,0.2,0.2,0.2h2.8c0.1,0,0.2-0.1,0.2-0.2V5.9l0,0C16.2,6,16.1,6,16,6 C15.8,6,15.6,6,15.5,5.9z'/%3e%3cpath class='st1' d='M2.6,10.6c0.1,0,0.2,0,0.3-0.1l2.7-2.8l4.6,1.7c0.2,0.1,0.3,0,0.5-0.1L15,4.6l1,0.9c0,0,0.1,0,0.2,0 s0.1-0.1,0.1-0.2L16,2.8c0-0.1-0.1-0.2-0.2-0.1l-2.4,0.2c-0.1,0-0.1,0.1-0.1,0.1s0,0,0,0.1c0,0,0,0.1,0.1,0.1l1,0.9l-4.1,4.5 L5.6,6.8c-0.2-0.1-0.3,0-0.4,0.1l-2.8,3c-0.2,0.2-0.2,0.4,0,0.6C2.4,10.6,2.5,10.6,2.6,10.6z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(2) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 19 19' style='enable-background:new 0 0 19 19;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23656765;%7d %3c/style%3e%3cpath class='st0' d='M7.4,2.1v5.3H6.3V2.1H2.1v8.4h4.2V9.5h1.1v5.3H6.3v-3.2H2.1v5.3h7.4v-2.1h1.1v2.1h6.3v-2.1H19V19H0V0h19v12.7 h-2.1V7.4h-6.3v5.3H9.5V6.3h7.4V2.1H7.4z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(2):hover, .sidebar li:nth-of-type(2).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 19 19' style='enable-background:new 0 0 19 19;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%231F91B3;%7d %3c/style%3e%3cpath class='st0' d='M7.4,2.1v5.3H6.3V2.1H2.1v8.4h4.2V9.5h1.1v5.3H6.3v-3.2H2.1v5.3h7.4v-2.1h1.1v2.1h6.3v-2.1H19V19H0V0h19v12.7 h-2.1V7.4h-6.3v5.3H9.5V6.3h7.4V2.1H7.4z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(3) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23656765;stroke:%23656765;stroke-width:0.2;%7d %3c/style%3e%3cpath class='st0' d='M19,7.9c-0.2-0.9-1-1.6-1.9-1.8C17,6,17,6,16.9,6c-0.7-3-3.3-5.1-6.4-5.1h-1C6.4,0.9,3.8,3,3.1,6 C2.6,6.1,2.2,6.2,1.8,6.6C1.2,7,0.9,7.7,0.9,8.5c0,0.8,0.4,1.5,1,2v4.6c0,0.7,0.4,1.4,1,1.7v0.8c0,0.8,0.7,1.5,1.5,1.5 S6,18.4,6,17.6v-0.5H14v0.5c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5v-0.8c0.6-0.4,1-1,1-1.7v-4.6C18.9,9.9,19.3,8.9,19,7.9z M9.5,1.9h1c2.6,0,4.7,1.7,5.4,4.2c-0.3,0.1-0.6,0.2-0.9,0.5C14.4,7,14,7.7,14,8.5V11H6V8.6c0-1.2-0.8-2.2-1.8-2.5 C4.8,3.6,6.9,1.9,9.5,1.9z M15.1,12.5c0,0.3-0.2,0.5-0.5,0.5H5.5c-0.3,0-0.5-0.2-0.5-0.5c0-0.3,0.2-0.5,0.5-0.5h9.1 C14.8,12,15.1,12.2,15.1,12.5z M4.9,17.6c0,0.3-0.2,0.5-0.5,0.5c-0.3,0-0.5-0.2-0.5-0.5v-0.5h1V17.6z M16.1,17.6 c0,0.3-0.2,0.5-0.5,0.5c-0.3,0-0.5-0.2-0.5-0.5v-0.5h1V17.6z M17.3,9.8c-0.2,0.1-0.3,0.3-0.3,0.4v4.8c0,0.6-0.5,1-1,1H3.9 c-0.6,0-1-0.5-1-1v-4.8c0-0.2-0.1-0.3-0.3-0.4C2.2,9.5,1.9,9,1.9,8.5c0-0.4,0.2-0.9,0.5-1.2C2.8,7,3.2,6.9,3.7,7 c0.7,0.1,1.3,0.8,1.3,1.6v2.5c-0.6,0.2-1,0.8-1,1.4c0,0.8,0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5c0-0.7-0.4-1.2-1-1.4V8.5 c0-0.5,0.2-0.9,0.6-1.2C16,7,16.4,6.9,16.9,7c0.5,0.1,1,0.6,1.1,1.1C18.2,8.8,17.9,9.4,17.3,9.8z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(3):hover, .sidebar li:nth-of-type(3).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%231F91B3;stroke:%231F91B3;stroke-width:0.2;%7d %3c/style%3e%3cpath class='st0' d='M19,7.9c-0.2-0.9-1-1.6-1.9-1.8C17,6,17,6,16.9,6c-0.7-3-3.3-5.1-6.4-5.1h-1C6.4,0.9,3.8,3,3.1,6 C2.6,6.1,2.2,6.2,1.8,6.6C1.2,7,0.9,7.7,0.9,8.5c0,0.8,0.4,1.5,1,2v4.6c0,0.7,0.4,1.4,1,1.7v0.8c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5v-0.5H14v0.5c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5v-0.8c0.6-0.4,1-1,1-1.7v-4.6 C18.9,9.9,19.3,8.9,19,7.9z M9.5,1.9h1c2.6,0,4.7,1.7,5.4,4.2c-0.3,0.1-0.6,0.2-0.9,0.5C14.4,7,14,7.7,14,8.5V11H6V8.6 c0-1.2-0.8-2.2-1.8-2.5C4.8,3.6,6.9,1.9,9.5,1.9z M15.1,12.5c0,0.3-0.2,0.5-0.5,0.5H5.5c-0.3,0-0.5-0.2-0.5-0.5 c0-0.3,0.2-0.5,0.5-0.5h9.1C14.8,12,15.1,12.2,15.1,12.5z M4.9,17.6c0,0.3-0.2,0.5-0.5,0.5c-0.3,0-0.5-0.2-0.5-0.5v-0.5h1V17.6z M16.1,17.6c0,0.3-0.2,0.5-0.5,0.5s-0.5-0.2-0.5-0.5v-0.5h1V17.6z M17.3,9.8c-0.2,0.1-0.3,0.3-0.3,0.4v4.8c0,0.6-0.5,1-1,1H3.9 c-0.6,0-1-0.5-1-1v-4.8c0-0.2-0.1-0.3-0.3-0.4C2.2,9.5,1.9,9,1.9,8.5c0-0.4,0.2-0.9,0.5-1.2C2.8,7,3.2,6.9,3.7,7 c0.7,0.1,1.3,0.8,1.3,1.6v2.5c-0.6,0.2-1,0.8-1,1.4c0,0.8,0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5c0-0.7-0.4-1.2-1-1.4V8.5 c0-0.5,0.2-0.9,0.6-1.2C16,7,16.4,6.9,16.9,7c0.5,0.1,1,0.6,1.1,1.1C18.2,8.8,17.9,9.4,17.3,9.8z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(4) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 18' style='enable-background:new 0 0 20 18;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000062905078734573042860000007533663844925958591_);%7d .st1%7bfill:%235B5B5B;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='20' height='17.8'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000117639761513066176040000006627031141953808520_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000117639761513066176040000006627031141953808520_);'%3e%3cpath class='st1' d='M19.7,3.3v10.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.4-0.1-0.5-0.2 c-0.1-0.1-0.2-0.3-0.2-0.5V4H9.4C9.3,4,9.2,4,9.1,3.9C9,3.9,8.9,3.8,8.8,3.7L7.6,1.9H3.8c-0.2,0-0.4-0.1-0.5-0.2 C3.1,1.6,3.1,1.4,3.1,1.3s0.1-0.4,0.2-0.5c0.1-0.1,0.3-0.2,0.5-0.2H8c0.1,0,0.2,0,0.3,0.1c0.1,0.1,0.2,0.1,0.2,0.2l1.2,1.8H19 c0.2,0,0.4,0.1,0.5,0.2C19.6,3,19.7,3.1,19.7,3.3z M16.9,6.1v10.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.1-0.3,0.2-0.5,0.2H1 c-0.2,0-0.4-0.1-0.5-0.2c-0.1-0.1-0.2-0.3-0.2-0.5V4c0-0.2,0.1-0.4,0.2-0.5S0.8,3.3,1,3.3h5.6c0.1,0,0.2,0,0.3,0.1 C7,3.5,7,3.6,7.1,3.6l1.2,1.8h8c0.2,0,0.4,0.1,0.5,0.2C16.9,5.8,16.9,5.9,16.9,6.1z M15.6,6.8H7.9c-0.1,0-0.2,0-0.3-0.1 C7.5,6.7,7.4,6.6,7.3,6.5L6.2,4.7H1.7v11.1h13.9V6.8z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(4):hover, .sidebar li:nth-of-type(4).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 18' style='enable-background:new 0 0 20 18;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000031909847873537518050000004919265590443764911_);%7d .st1%7bfill:%231F91B3;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='20' height='17.8'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000098192407370009769830000005348317829989344403_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000098192407370009769830000005348317829989344403_);'%3e%3cpath class='st1' d='M19.7,3.3v10.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.4-0.1-0.5-0.2 c-0.1-0.1-0.2-0.3-0.2-0.5V4H9.4C9.3,4,9.2,4,9.1,3.9C9,3.9,8.9,3.8,8.8,3.7L7.6,1.9H3.8c-0.2,0-0.4-0.1-0.5-0.2 C3.1,1.6,3.1,1.4,3.1,1.3s0.1-0.4,0.2-0.5c0.1-0.1,0.3-0.2,0.5-0.2H8c0.1,0,0.2,0,0.3,0.1c0.1,0.1,0.2,0.1,0.2,0.2l1.2,1.8H19 c0.2,0,0.4,0.1,0.5,0.2C19.6,3,19.7,3.1,19.7,3.3z M16.9,6.1v10.4c0,0.2-0.1,0.4-0.2,0.5c-0.1,0.1-0.3,0.2-0.5,0.2H1 c-0.2,0-0.4-0.1-0.5-0.2c-0.1-0.1-0.2-0.3-0.2-0.5V4c0-0.2,0.1-0.4,0.2-0.5S0.8,3.3,1,3.3h5.6c0.1,0,0.2,0,0.3,0.1 C7,3.5,7,3.6,7.1,3.6l1.2,1.8h8c0.2,0,0.4,0.1,0.5,0.2C16.9,5.8,16.9,5.9,16.9,6.1z M15.6,6.8H7.9c-0.1,0-0.2,0-0.3-0.1 C7.5,6.7,7.4,6.6,7.3,6.5L6.2,4.7H1.7v11.1h13.9V6.8z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(5) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23656765;%7d %3c/style%3e%3cpath class='st0' d='M15,5.7l1.4,1.4c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1c0.2-0.2,0.2-0.5,0-0.7L15.7,5l0.6-0.6 c0.1-0.1,0.1-0.2,0.1-0.4c0-0.3-0.2-0.5-0.5-0.5c-0.1,0-0.3,0.1-0.4,0.2L15,4.2l-1.4-1.4c-0.2-0.2-0.5-0.2-0.7,0s-0.2,0.5,0,0.7 L14.3,5l-1.8,1.8L10.7,5L11.6,4c0.2-0.2,0.2-0.5,0-0.7s-0.5-0.2-0.7,0L10,4.2L9.1,3.3c-0.2-0.2-0.5-0.2-0.7,0S8.2,3.8,8.4,4l0.9,0.9 L7.5,6.7L5.7,4.9l1.4-1.4c0.2-0.2,0.2-0.5,0-0.7s-0.5-0.2-0.7,0L5,4.2L4.4,3.6C4.3,3.5,4.1,3.5,4,3.5C3.7,3.5,3.5,3.7,3.5,4 c0,0.1,0.1,0.3,0.1,0.4l0.6,0.6L2.9,6.3C2.7,6.5,2.7,6.9,2.9,7C3,7.1,3.1,7.2,3.2,7.2s0.2,0,0.4-0.1L5,5.6l1.8,1.8L5,9.3L4,8.3 c-0.2-0.2-0.5-0.2-0.7,0S3.1,8.9,3.3,9L4.2,10l-0.9,0.9c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1L5,10.7 l1.8,1.8L5,14.3l-1.4-1.4c-0.2-0.2-0.5-0.2-0.7,0s-0.2,0.5,0,0.7L4.2,15l-0.6,0.6c-0.1,0.1-0.2,0.2-0.2,0.4c0,0.3,0.2,0.5,0.5,0.5 c0.1,0,0.3-0.1,0.4-0.1L5,15.7l1.4,1.4c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1c0.2-0.2,0.2-0.5,0-0.7L5.7,15l1.8-1.8L9.3,15L8.4,16 c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1l0.9-0.9l0.9,0.9c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1 c0.2-0.2,0.2-0.5,0-0.7L10.7,15l1.8-1.8l1.8,1.8l-1.4,1.4c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1l1.4-1.4 l0.6,0.6c0.1,0.1,0.2,0.1,0.4,0.1c0.3,0,0.5-0.2,0.5-0.5c0-0.1-0.1-0.3-0.2-0.4L15.7,15l1.4-1.4c0.2-0.2,0.2-0.5,0-0.7 s-0.5-0.2-0.7,0L15,14.3l-1.8-1.8l1.8-1.8l0.9,0.9c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1c0.2-0.2,0.2-0.5,0-0.7L15.8,10l0.9-0.9 c0.2-0.2,0.2-0.5,0-0.7s-0.5-0.2-0.7,0l-0.9,0.9l-1.8-1.8L15,5.7z M10,5.7l1.8,1.8L10,9.3L8.2,7.5L10,5.7z M5.7,10l1.8-1.8L9.3,10 l-1.8,1.8L5.7,10z M10,14.3l-1.8-1.8l1.8-1.8l1.8,1.8L10,14.3z M14.3,10l-1.8,1.8L10.7,10l1.8-1.8L14.3,10z'/%3e%3cpath class='st0' d='M19.9,6c0-0.5-0.2-1-0.6-1.4c-0.2-0.2-0.3-0.4-0.3-0.6s0.1-0.5,0.3-0.6C19.7,3,19.9,2.5,19.9,2s-0.2-1-0.6-1.4 c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0 C8.3,1,7.7,1,7.4,0.7c-0.8-0.8-2-0.8-2.7,0C4.3,1,3.8,1,3.4,0.7c-0.8-0.8-2-0.8-2.7,0C0.4,1,0.1,1.5,0.1,2s0.2,1,0.6,1.4 C0.8,3.5,0.9,3.8,0.9,4S0.8,4.5,0.7,4.6C0.3,5,0.1,5.5,0.1,6c0,0.5,0.2,1,0.6,1.4C0.8,7.5,0.9,7.7,0.9,8S0.8,8.5,0.7,8.6 C0.3,9,0.1,9.5,0.1,10c0,0.5,0.2,1,0.6,1.4c0.4,0.4,0.4,0.9,0,1.3C0.3,13,0.1,13.5,0.1,14s0.2,1,0.6,1.4c0.4,0.4,0.4,0.9,0,1.3 C0.3,17,0.1,17.4,0.1,18c0,0.5,0.2,1,0.6,1.4c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0 c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.4,0.4,0.9,0.6,1.4,0.6 c0.5,0,1-0.2,1.4-0.6c0.4-0.4,0.6-0.8,0.6-1.4c0-0.5-0.2-1-0.6-1.4C19.1,16.4,19,16.2,19,16s0.1-0.5,0.3-0.6 c0.4-0.4,0.6-0.8,0.6-1.4c0-0.5-0.2-1-0.6-1.4C19.1,12.4,19,12.2,19,12s0.1-0.5,0.3-0.6c0.4-0.4,0.6-0.8,0.6-1.4s-0.2-1-0.6-1.4 C19.1,8.4,19,8.2,19,8s0.1-0.5,0.3-0.6C19.7,7,19.9,6.5,19.9,6z M18.6,5.4c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6 C18.3,7,18.1,7.5,18.1,8s0.2,1,0.6,1.4c0.2,0.2,0.3,0.4,0.3,0.6c0,0.2-0.1,0.5-0.3,0.6c-0.4,0.4-0.6,0.8-0.6,1.4 c0,0.5,0.2,1,0.6,1.4c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6c-0.4,0.4-0.6,0.8-0.6,1.4c0,0.5,0.2,1,0.6,1.4 c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6c-0.4,0.4-0.9,0.4-1.3,0c-0.4-0.4-0.9-0.6-1.4-0.6c-0.5,0-1,0.2-1.4,0.6 c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0 c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.2-0.2-0.3-0.4-0.3-0.6s0.1-0.5,0.3-0.6c0.8-0.8,0.8-2,0-2.7 c-0.2-0.2-0.3-0.4-0.3-0.6s0.1-0.5,0.3-0.6C1.8,13,2,12.5,2,12c0-0.5-0.2-1-0.6-1.4c-0.2-0.2-0.3-0.4-0.3-0.6c0-0.3,0.1-0.5,0.3-0.6 C1.8,9,2,8.5,2,8S1.8,7,1.4,6.7C1.3,6.5,1.2,6.3,1.2,6s0.1-0.5,0.3-0.6C1.8,5,2,4.5,2,4S1.8,3,1.4,2.7C1.3,2.5,1.2,2.3,1.2,2 s0.1-0.5,0.3-0.6C1.8,1,2.4,1,2.7,1.4c0.8,0.8,2,0.8,2.7,0C5.8,1,6.3,1,6.7,1.4c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0 c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6 C18.3,3,18.1,3.5,18.1,4S18.2,5,18.6,5.4z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(5):hover, .sidebar li:nth-of-type(5).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%231F91B3;%7d %3c/style%3e%3cpath class='st0' d='M15,5.7l1.4,1.4c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1c0.2-0.2,0.2-0.5,0-0.7L15.7,5l0.6-0.6 c0.1-0.1,0.1-0.2,0.1-0.4c0-0.3-0.2-0.5-0.5-0.5c-0.1,0-0.3,0.1-0.4,0.2L15,4.2l-1.4-1.4c-0.2-0.2-0.5-0.2-0.7,0s-0.2,0.5,0,0.7 L14.3,5l-1.8,1.8L10.7,5L11.6,4c0.2-0.2,0.2-0.5,0-0.7s-0.5-0.2-0.7,0L10,4.2L9.1,3.3c-0.2-0.2-0.5-0.2-0.7,0S8.2,3.8,8.4,4l0.9,0.9 L7.5,6.7L5.7,4.9l1.4-1.4c0.2-0.2,0.2-0.5,0-0.7s-0.5-0.2-0.7,0L5,4.2L4.4,3.6C4.3,3.5,4.1,3.5,4,3.5C3.7,3.5,3.5,3.7,3.5,4 c0,0.1,0.1,0.3,0.1,0.4l0.6,0.6L2.9,6.3C2.7,6.5,2.7,6.9,2.9,7C3,7.1,3.1,7.2,3.2,7.2s0.2,0,0.4-0.1L5,5.6l1.8,1.8L5,9.3L4,8.3 c-0.2-0.2-0.5-0.2-0.7,0S3.1,8.9,3.3,9L4.2,10l-0.9,0.9c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1L5,10.7 l1.8,1.8L5,14.3l-1.4-1.4c-0.2-0.2-0.5-0.2-0.7,0s-0.2,0.5,0,0.7L4.2,15l-0.6,0.6c-0.1,0.1-0.2,0.2-0.2,0.4c0,0.3,0.2,0.5,0.5,0.5 c0.1,0,0.3-0.1,0.4-0.1L5,15.7l1.4,1.4c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1c0.2-0.2,0.2-0.5,0-0.7L5.7,15l1.8-1.8L9.3,15L8.4,16 c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1l0.9-0.9l0.9,0.9c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1 c0.2-0.2,0.2-0.5,0-0.7L10.7,15l1.8-1.8l1.8,1.8l-1.4,1.4c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1l1.4-1.4 l0.6,0.6c0.1,0.1,0.2,0.1,0.4,0.1c0.3,0,0.5-0.2,0.5-0.5c0-0.1-0.1-0.3-0.2-0.4L15.7,15l1.4-1.4c0.2-0.2,0.2-0.5,0-0.7 s-0.5-0.2-0.7,0L15,14.3l-1.8-1.8l1.8-1.8l0.9,0.9c0.1,0.1,0.2,0.1,0.4,0.1s0.2,0,0.4-0.1c0.2-0.2,0.2-0.5,0-0.7L15.8,10l0.9-0.9 c0.2-0.2,0.2-0.5,0-0.7s-0.5-0.2-0.7,0l-0.9,0.9l-1.8-1.8L15,5.7z M10,5.7l1.8,1.8L10,9.3L8.2,7.5L10,5.7z M5.7,10l1.8-1.8L9.3,10 l-1.8,1.8L5.7,10z M10,14.3l-1.8-1.8l1.8-1.8l1.8,1.8L10,14.3z M14.3,10l-1.8,1.8L10.7,10l1.8-1.8L14.3,10z'/%3e%3cpath class='st0' d='M19.9,6c0-0.5-0.2-1-0.6-1.4c-0.2-0.2-0.3-0.4-0.3-0.6s0.1-0.5,0.3-0.6C19.7,3,19.9,2.5,19.9,2s-0.2-1-0.6-1.4 c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0 C8.3,1,7.8,1,7.4,0.7c-0.8-0.8-2-0.8-2.7,0C4.3,1,3.8,1,3.4,0.7c-0.8-0.8-2-0.8-2.7,0C0.4,1,0.1,1.5,0.1,2s0.2,1,0.6,1.4 C0.8,3.5,0.9,3.8,0.9,4S0.8,4.5,0.7,4.6C0.3,5,0.1,5.5,0.1,6c0,0.5,0.2,1,0.6,1.4C0.8,7.5,0.9,7.7,0.9,8S0.8,8.5,0.7,8.6 C0.3,9,0.1,9.5,0.1,10c0,0.5,0.2,1,0.6,1.4c0.4,0.4,0.4,0.9,0,1.3C0.3,13,0.1,13.5,0.1,14s0.2,1,0.6,1.4c0.4,0.4,0.4,0.9,0,1.3 C0.3,17,0.1,17.4,0.1,18c0,0.5,0.2,1,0.6,1.4c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0 c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.4,0.4,0.9,0.6,1.4,0.6 c0.5,0,1-0.2,1.4-0.6c0.4-0.4,0.6-0.8,0.6-1.4c0-0.5-0.2-1-0.6-1.4C19.1,16.4,19,16.2,19,16s0.1-0.5,0.3-0.6 c0.4-0.4,0.6-0.8,0.6-1.4c0-0.5-0.2-1-0.6-1.4C19.1,12.4,19,12.2,19,12s0.1-0.5,0.3-0.6c0.4-0.4,0.6-0.8,0.6-1.4s-0.2-1-0.6-1.4 C19.1,8.4,19,8.2,19,8s0.1-0.5,0.3-0.6C19.7,7,19.9,6.5,19.9,6z M18.6,5.4c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6 C18.3,7,18.1,7.5,18.1,8s0.2,1,0.6,1.4c0.2,0.2,0.3,0.4,0.3,0.6c0,0.2-0.1,0.5-0.3,0.6c-0.4,0.4-0.6,0.8-0.6,1.4 c0,0.5,0.2,1,0.6,1.4c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6c-0.4,0.4-0.6,0.8-0.6,1.4c0,0.5,0.2,1,0.6,1.4 c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6c-0.4,0.4-0.9,0.4-1.3,0c-0.4-0.4-0.9-0.6-1.4-0.6c-0.5,0-1,0.2-1.4,0.6 c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0 c-0.8-0.8-2-0.8-2.7,0c-0.4,0.4-0.9,0.4-1.3,0c-0.2-0.2-0.3-0.4-0.3-0.6s0.1-0.5,0.3-0.6c0.8-0.8,0.8-2,0-2.7 c-0.2-0.2-0.3-0.4-0.3-0.6s0.1-0.5,0.3-0.6C1.8,13,2,12.5,2,12c0-0.5-0.2-1-0.6-1.4c-0.2-0.2-0.3-0.4-0.3-0.6c0-0.3,0.1-0.5,0.3-0.6 C1.8,9,2,8.5,2,8S1.8,7,1.4,6.7C1.3,6.5,1.2,6.3,1.2,6s0.1-0.5,0.3-0.6C1.8,5,2,4.5,2,4S1.8,3,1.4,2.7C1.3,2.5,1.2,2.3,1.2,2 s0.1-0.5,0.3-0.6C1.8,1,2.4,1,2.7,1.4c0.8,0.8,2,0.8,2.7,0C5.8,1,6.3,1,6.7,1.4c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0 c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.8,0.8,2,0.8,2.7,0c0.4-0.4,0.9-0.4,1.3,0c0.2,0.2,0.3,0.4,0.3,0.6s-0.1,0.5-0.3,0.6 C18.3,3,18.1,3.5,18.1,4S18.3,5,18.6,5.4z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(6) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000127029153674107533320000006036340971980321211_);%7d .st1%7bfill:%23656765;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' x='0.5' y='0.5' width='19' height='19'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000002351485483332778060000015133944564258134420_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000002351485483332778060000015133944564258134420_);'%3e%3cpath class='st1' d='M19.5,16.8c-0.1-0.4-0.5-0.7-0.9-0.6c-0.4,0.1-0.7,0.5-0.6,0.9c0,0.2,0,0.5-0.2,0.7c-0.1,0.1-0.3,0.3-0.6,0.3 H2.8c-0.3,0-0.5-0.2-0.6-0.3C2,17.6,2,17.3,2,17.1c0.8-3.7,4-6.4,7.8-6.5c0.1,0,0.1,0,0.2,0c0.1,0,0.1,0,0.2,0 c2.7,0.1,5.1,1.4,6.6,3.6c0.2,0.3,0.7,0.4,1,0.2c0.3-0.2,0.4-0.7,0.2-1c-1.2-1.8-3-3.1-5-3.8c1.2-0.9,2-2.4,2-4c0-2.8-2.3-5-5-5 c-2.8,0-5,2.3-5,5c0,1.7,0.8,3.1,2,4c-1.1,0.4-2.2,0.9-3.1,1.7c-1.7,1.4-2.9,3.3-3.3,5.5c-0.1,0.7,0,1.4,0.5,1.9 c0.4,0.5,1.1,0.8,1.7,0.8h14.5c0.7,0,1.3-0.3,1.7-0.8C19.4,18.1,19.6,17.5,19.5,16.8z M6.4,5.5C6.4,3.6,8,2,10,2 c2,0,3.6,1.6,3.6,3.6c0,1.9-1.5,3.5-3.4,3.6c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0C7.9,9,6.4,7.5,6.4,5.5z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(6):hover, .sidebar li:nth-of-type(6).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000144320283835942594550000011657550344040924550_);%7d .st1%7bfill:%231F91B3;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' x='0.5' y='0.5' width='19' height='19'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000144329050647380501300000018220784867893994917_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000144329050647380501300000018220784867893994917_);'%3e%3cpath class='st1' d='M19.5,16.8c-0.1-0.4-0.5-0.7-0.9-0.6c-0.4,0.1-0.7,0.5-0.6,0.9c0,0.2,0,0.5-0.2,0.7c-0.1,0.1-0.3,0.3-0.6,0.3 H2.8c-0.3,0-0.5-0.2-0.6-0.3C2,17.6,2,17.3,2,17.1c0.8-3.7,4-6.4,7.8-6.5c0.1,0,0.1,0,0.2,0c0.1,0,0.1,0,0.2,0 c2.7,0.1,5.1,1.4,6.6,3.6c0.2,0.3,0.7,0.4,1,0.2c0.3-0.2,0.4-0.7,0.2-1c-1.2-1.8-3-3.1-5-3.8c1.2-0.9,2-2.4,2-4c0-2.8-2.3-5-5-5 c-2.8,0-5,2.3-5,5c0,1.7,0.8,3.1,2,4c-1.1,0.4-2.2,0.9-3.1,1.7c-1.7,1.4-2.9,3.3-3.3,5.5c-0.1,0.7,0,1.4,0.5,1.9 c0.4,0.5,1.1,0.8,1.7,0.8h14.5c0.7,0,1.3-0.3,1.7-0.8C19.4,18.1,19.6,17.5,19.5,16.8z M6.4,5.5C6.4,3.6,8,2,10,2 c2,0,3.6,1.6,3.6,3.6c0,1.9-1.5,3.5-3.4,3.6c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0C7.9,9,6.4,7.5,6.4,5.5z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(7) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000020381711247456474990000016185647112606300094_);%7d .st1%7bfill:%23656765;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='20' height='20'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000052068734691989196670000002027198727023735218_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000052068734691989196670000002027198727023735218_);'%3e%3cpath class='st1' d='M5.1,18.4H2.4c-0.3,0-0.5-0.2-0.6-0.3c-0.2-0.2-0.2-0.4-0.2-0.7c0.8-3.9,4.3-6.7,8.2-6.8c0.1,0,0.1,0,0.2,0 c0.1,0,0.1,0,0.2,0c1,0,1.9,0.2,2.8,0.5c0.4,0.2,0.9-0.1,1-0.5s-0.1-0.9-0.5-1c-0.1,0-0.3-0.1-0.4-0.1c1.3-1,2.1-2.5,2.1-4.3 C15.3,2.4,12.9,0,10,0C7.1,0,4.7,2.4,4.7,5.3c0,1.7,0.8,3.3,2.1,4.3c-1.2,0.4-2.3,1-3.3,1.8c-1.8,1.5-3,3.5-3.5,5.8 c-0.1,0.7,0,1.4,0.5,2C1,19.7,1.7,20,2.4,20h2.8c0.4,0,0.8-0.3,0.8-0.8C5.9,18.8,5.6,18.4,5.1,18.4z M6.3,5.3 c0-2.1,1.7-3.8,3.7-3.8c2.1,0,3.8,1.7,3.8,3.8c0,2-1.6,3.6-3.6,3.7c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0C7.8,9,6.3,7.3,6.3,5.3z '/%3e%3cpath class='st1' d='M19.4,13.5c-0.3-0.7-1.1-1.2-1.9-1.2H15c0,0,0,0,0,0c-0.9,0-1.6,0.5-2,1.3c0,0.1-0.1,0.2-0.1,0.4H7.8 c-0.2,0-0.4,0.1-0.6,0.2l-1.3,1.4c-0.3,0.3-0.3,0.8,0,1.1L7.3,18c0.1,0.1,0.3,0.2,0.6,0.2h2.5c0.4,0,0.8-0.3,0.8-0.8 c0-0.4-0.3-0.8-0.8-0.8H8.2l-0.6-0.6l0.6-0.6h5.4c0.4,0,0.7-0.2,0.8-0.6c0.1-0.3,0.1-0.5,0.3-0.8c0.1-0.2,0.3-0.3,0.5-0.3 c0,0,0,0,0,0h2.4c0.2,0,0.4,0.1,0.5,0.3c0.2,0.5,0.5,1.2,0.5,2c0,0.8-0.2,1.5-0.5,2c-0.1,0.2-0.3,0.3-0.5,0.3c0,0,0,0,0,0H15 c-0.2,0-0.4-0.1-0.5-0.3c-0.1-0.2-0.2-0.5-0.2-0.8c-0.1-0.4-0.5-0.7-0.9-0.6c-0.4,0.1-0.7,0.5-0.6,0.9c0.1,0.4,0.2,0.7,0.3,1 c0.3,0.8,1.1,1.3,1.9,1.3h2.5c0,0,0,0,0,0c0.8,0,1.6-0.5,1.9-1.3c0.3-0.6,0.6-1.6,0.6-2.7C20,15,19.7,14.1,19.4,13.5z'/%3e%3cpath class='st1' d='M16.8,16.9c0.4,0,0.8-0.3,0.8-0.8c0-0.4-0.3-0.8-0.8-0.8c-0.4,0-0.8,0.3-0.8,0.8 C16.1,16.5,16.4,16.9,16.8,16.9z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(7):hover, .sidebar li:nth-of-type(7).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000043417688985176522890000001360219736452187014_);%7d .st1%7bfill:%231F91B3;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='20' height='20'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000024705885078976901700000010477111136683641790_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000024705885078976901700000010477111136683641790_);'%3e%3cpath class='st1' d='M5.1,18.4H2.4c-0.3,0-0.5-0.2-0.6-0.3c-0.2-0.2-0.2-0.4-0.2-0.7c0.8-3.9,4.3-6.7,8.2-6.8c0.1,0,0.1,0,0.2,0 c0.1,0,0.1,0,0.2,0c1,0,1.9,0.2,2.8,0.5c0.4,0.2,0.9-0.1,1-0.5s-0.1-0.9-0.5-1c-0.1,0-0.3-0.1-0.4-0.1c1.3-1,2.1-2.5,2.1-4.3 C15.3,2.4,12.9,0,10,0C7.1,0,4.7,2.4,4.7,5.3c0,1.7,0.8,3.3,2.1,4.3c-1.2,0.4-2.3,1-3.3,1.8c-1.8,1.5-3,3.5-3.5,5.8 c-0.1,0.7,0,1.4,0.5,2C1,19.7,1.7,20,2.4,20h2.8c0.4,0,0.8-0.3,0.8-0.8C5.9,18.8,5.6,18.4,5.1,18.4z M6.3,5.3 c0-2.1,1.7-3.8,3.8-3.8s3.8,1.7,3.8,3.8c0,2-1.6,3.6-3.6,3.7c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0C7.8,9,6.3,7.3,6.3,5.3z'/%3e%3cpath class='st1' d='M19.4,13.5c-0.3-0.7-1.1-1.2-1.9-1.2H15c0,0,0,0,0,0c-0.9,0-1.6,0.5-2,1.3c0,0.1-0.1,0.2-0.1,0.4H7.8 c-0.2,0-0.4,0.1-0.6,0.2l-1.3,1.4c-0.3,0.3-0.3,0.8,0,1.1L7.3,18c0.1,0.1,0.3,0.2,0.6,0.2h2.5c0.4,0,0.8-0.3,0.8-0.8 c0-0.4-0.3-0.8-0.8-0.8H8.2l-0.6-0.6l0.6-0.6h5.4c0.4,0,0.7-0.2,0.8-0.6c0.1-0.3,0.1-0.5,0.3-0.8c0.1-0.2,0.3-0.3,0.5-0.3 c0,0,0,0,0,0h2.4c0.2,0,0.4,0.1,0.5,0.3c0.2,0.5,0.5,1.2,0.5,2c0,0.8-0.2,1.5-0.5,2c-0.1,0.2-0.3,0.3-0.5,0.3c0,0,0,0,0,0H15 c-0.2,0-0.4-0.1-0.5-0.3c-0.1-0.2-0.2-0.5-0.2-0.8c-0.1-0.4-0.5-0.7-0.9-0.6c-0.4,0.1-0.7,0.5-0.6,0.9c0.1,0.4,0.2,0.7,0.3,1 c0.3,0.8,1.1,1.3,1.9,1.3h2.5c0,0,0,0,0,0c0.8,0,1.6-0.5,1.9-1.3c0.3-0.6,0.6-1.6,0.6-2.7C20,15,19.7,14.1,19.4,13.5z'/%3e%3cpath class='st1' d='M16.8,16.9c0.4,0,0.8-0.3,0.8-0.8c0-0.4-0.3-0.8-0.8-0.8c-0.4,0-0.8,0.3-0.8,0.8 C16.1,16.5,16.4,16.9,16.8,16.9z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(8) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 18' style='enable-background:new 0 0 18 18;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000134960489857242829550000003492573400532563074_);%7d .st1%7bfill:none;stroke:%23656765;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='18' height='18'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000170274877230377760740000016339539243639430563_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000170274877230377760740000016339539243639430563_);'%3e%3cpath class='st1' d='M17.1,11.7v3.6c0,0.5-0.2,0.9-0.5,1.3c-0.3,0.3-0.8,0.5-1.3,0.5H2.7c-0.5,0-0.9-0.2-1.3-0.5 c-0.3-0.3-0.5-0.8-0.5-1.3v-3.6'/%3e%3cpath class='st1' d='M13.5,5.4L9,0.9L4.5,5.4'/%3e%3cpath class='st1' d='M9,0.9v10.8'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(8):hover, .sidebar li:nth-of-type(8).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 18 18' style='enable-background:new 0 0 18 18;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000142174453382208925260000016931063446396718235_);%7d .st1%7bfill:none;stroke:%231F91B3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='18' height='18'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000002371579640317415140000000723670319755336609_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000002371579640317415140000000723670319755336609_);'%3e%3cpath class='st1' d='M17.1,11.7v3.6c0,0.5-0.2,0.9-0.5,1.3c-0.3,0.3-0.8,0.5-1.3,0.5H2.7c-0.5,0-0.9-0.2-1.3-0.5 c-0.3-0.3-0.5-0.8-0.5-1.3v-3.6'/%3e%3cpath class='st1' d='M13.5,5.4L9,0.9L4.5,5.4'/%3e%3cpath class='st1' d='M9,0.9v10.8'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(9) {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23656765;stroke:%23656765;stroke-width:0.4;%7d %3c/style%3e%3cpath class='st0' d='M18.1,7.6l-0.9-0.2C17.1,7.2,17,7,16.9,6.7L17.5,6c0.5-0.7,0.4-1.6-0.2-2.1l-1.1-1.1c-0.3-0.3-0.7-0.5-1.2-0.5 c-0.3,0-0.7,0.1-1,0.3l-0.8,0.5C13,3,12.8,2.9,12.5,2.8l-0.2-0.9c-0.1-0.8-0.8-1.4-1.6-1.4H9.2c-0.8,0-1.5,0.6-1.6,1.4L7.4,2.8 C7.2,2.9,6.9,3,6.7,3.1L6,2.6C5.7,2.4,5.3,2.3,5,2.3c-0.4,0-0.9,0.2-1.2,0.5L2.7,3.9C2.1,4.4,2,5.3,2.5,6l0.6,0.8 C3,7,2.9,7.2,2.8,7.5L1.9,7.6C1.1,7.7,0.5,8.4,0.5,9.3v1.6c0,0.8,0.6,1.5,1.4,1.6l0.9,0.2c0.1,0.2,0.2,0.5,0.3,0.7L2.6,14 c-0.5,0.7-0.4,1.6,0.2,2.1l1.1,1.1c0.3,0.3,0.7,0.5,1.2,0.5c0.3,0,0.7-0.1,1-0.3l0.8-0.6C7,17,7.2,17.1,7.4,17.2l0.2,0.9 c0.1,0.8,0.8,1.4,1.6,1.4h1.6c0.8,0,1.5-0.6,1.6-1.4l0.2-0.9c0.2-0.1,0.5-0.2,0.7-0.3l0.8,0.5c0.3,0.2,0.6,0.3,1,0.3 c0.4,0,0.9-0.2,1.2-0.5l1.1-1.1c0.6-0.6,0.7-1.5,0.2-2.1l-0.5-0.8c0.1-0.2,0.2-0.4,0.3-0.7l0.9-0.2c0.8-0.1,1.4-0.8,1.4-1.6V9.2 C19.5,8.4,18.9,7.7,18.1,7.6z M18.4,10.8c0,0.3-0.2,0.5-0.5,0.5l-1.2,0.2c-0.2,0-0.4,0.2-0.5,0.4c-0.1,0.4-0.3,0.7-0.4,1.1 c-0.1,0.2-0.1,0.4,0,0.6l0.7,1c0.2,0.2,0.1,0.5-0.1,0.7l-1.1,1.1c-0.1,0.1-0.2,0.2-0.4,0.2c-0.1,0-0.2,0-0.3-0.1l-1-0.7 c-0.2-0.1-0.4-0.2-0.6,0c-0.3,0.2-0.7,0.3-1.1,0.4c-0.2,0.1-0.4,0.3-0.4,0.5l-0.2,1.2c0,0.3-0.3,0.5-0.5,0.5H9.2 c-0.3,0-0.5-0.2-0.5-0.5l-0.2-1.2c0-0.2-0.2-0.4-0.4-0.5c-0.4-0.1-0.7-0.3-1-0.4c-0.1,0-0.2-0.1-0.3-0.1c-0.1,0-0.2,0-0.3,0.1 l-1,0.7c-0.1,0.1-0.2,0.1-0.3,0.1c-0.1,0-0.3-0.1-0.4-0.2l-1.1-1.1c-0.2-0.2-0.2-0.5-0.1-0.7l0.7-1c0.1-0.2,0.2-0.4,0-0.6 c-0.2-0.3-0.3-0.7-0.5-1.1c-0.1-0.2-0.3-0.4-0.5-0.4l-1.2-0.2c-0.3,0-0.5-0.3-0.5-0.5V9.3c0-0.3,0.2-0.5,0.5-0.5l1.2-0.2 c0.2,0,0.4-0.2,0.5-0.4C3.9,7.7,4,7.3,4.2,7c0.1-0.2,0.1-0.4,0-0.6l-0.7-1C3.3,5.1,3.3,4.8,3.5,4.6l1.1-1.1l0,0 C4.7,3.4,4.8,3.4,5,3.4c0.1,0,0.2,0,0.3,0.1l1,0.7c0.2,0.1,0.4,0.2,0.6,0C7.3,4.1,7.6,3.9,8,3.8c0.2-0.1,0.4-0.2,0.4-0.5l0.2-1.2 c0-0.3,0.3-0.5,0.5-0.5h1.6c0.3,0,0.5,0.2,0.5,0.5l0.2,1.2c0,0.2,0.2,0.4,0.4,0.5C12.3,3.9,12.7,4,13,4.2c0.2,0.1,0.4,0.1,0.6,0 l1-0.7c0.1-0.1,0.2-0.1,0.3-0.1c0.1,0,0.3,0.1,0.4,0.2l1.1,1.1c0.2,0.2,0.2,0.5,0.1,0.7l-0.7,1c-0.1,0.2-0.1,0.4,0,0.6 C16,7.3,16.1,7.7,16.2,8c0.1,0.2,0.3,0.4,0.5,0.4l1.2,0.2l0,0c0.3,0,0.5,0.3,0.5,0.5V10.8z'/%3e%3cpath class='st0' d='M10,6.3C8,6.3,6.3,8,6.3,10c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7C13.7,8,12,6.3,10,6.3z M10,12.6 c-1.4,0-2.6-1.2-2.6-2.6c0-1.4,1.2-2.6,2.6-2.6c1.4,0,2.6,1.2,2.6,2.6C12.6,11.4,11.4,12.6,10,12.6z'/%3e%3c/svg%3e ");
+}
+.sidebar li:nth-of-type(9):hover, .sidebar li:nth-of-type(9).active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%231F91B3;stroke:%231F91B3;stroke-width:0.4;%7d %3c/style%3e%3cpath class='st0' d='M18.1,7.6l-0.9-0.2C17.1,7.2,17,7,16.9,6.7L17.5,6c0.5-0.7,0.4-1.6-0.2-2.1l-1.1-1.1c-0.3-0.3-0.7-0.5-1.2-0.5 c-0.3,0-0.7,0.1-1,0.3l-0.8,0.5C13,3,12.8,2.9,12.5,2.8l-0.2-0.9c-0.1-0.8-0.8-1.4-1.6-1.4H9.2c-0.8,0-1.5,0.6-1.6,1.4L7.4,2.8 C7.2,2.9,6.9,3,6.7,3.1L6,2.6C5.7,2.4,5.3,2.3,5,2.3c-0.4,0-0.9,0.2-1.2,0.5L2.7,3.9C2.1,4.4,2,5.3,2.5,6l0.6,0.8 C3,7,2.9,7.2,2.8,7.5L1.9,7.6C1.1,7.7,0.5,8.4,0.5,9.3v1.6c0,0.8,0.6,1.5,1.4,1.6l0.9,0.2c0.1,0.2,0.2,0.5,0.3,0.7L2.6,14 c-0.5,0.7-0.4,1.6,0.2,2.1l1.1,1.1c0.3,0.3,0.7,0.5,1.2,0.5c0.3,0,0.7-0.1,1-0.3l0.8-0.6C7,17,7.2,17.1,7.4,17.2l0.2,0.9 c0.1,0.8,0.8,1.4,1.6,1.4h1.6c0.8,0,1.5-0.6,1.6-1.4l0.2-0.9c0.2-0.1,0.5-0.2,0.7-0.3l0.8,0.5c0.3,0.2,0.6,0.3,1,0.3 c0.4,0,0.9-0.2,1.2-0.5l1.1-1.1c0.6-0.6,0.7-1.5,0.2-2.1l-0.5-0.8c0.1-0.2,0.2-0.4,0.3-0.7l0.9-0.2c0.8-0.1,1.4-0.8,1.4-1.6V9.2 C19.5,8.4,18.9,7.7,18.1,7.6z M18.4,10.8c0,0.3-0.2,0.5-0.5,0.5l-1.2,0.2c-0.2,0-0.4,0.2-0.5,0.4c-0.1,0.4-0.3,0.7-0.4,1.1 c-0.1,0.2-0.1,0.4,0,0.6l0.7,1c0.2,0.2,0.1,0.5-0.1,0.7l-1.1,1.1c-0.1,0.1-0.2,0.2-0.4,0.2c-0.1,0-0.2,0-0.3-0.1l-1-0.7 c-0.2-0.1-0.4-0.2-0.6,0c-0.3,0.2-0.7,0.3-1.1,0.4c-0.2,0.1-0.4,0.3-0.4,0.5l-0.2,1.2c0,0.3-0.3,0.5-0.5,0.5H9.2 c-0.3,0-0.5-0.2-0.5-0.5l-0.2-1.2c0-0.2-0.2-0.4-0.4-0.5c-0.4-0.1-0.7-0.3-1-0.4c-0.1,0-0.2-0.1-0.3-0.1c-0.1,0-0.2,0-0.3,0.1 l-1,0.7c-0.1,0.1-0.2,0.1-0.3,0.1c-0.1,0-0.3-0.1-0.4-0.2l-1.1-1.1c-0.2-0.2-0.2-0.5-0.1-0.7l0.7-1c0.1-0.2,0.2-0.4,0-0.6 c-0.2-0.3-0.3-0.7-0.5-1.1c-0.1-0.2-0.3-0.4-0.5-0.4l-1.2-0.2c-0.3,0-0.5-0.3-0.5-0.5V9.3c0-0.3,0.2-0.5,0.5-0.5l1.2-0.2 c0.2,0,0.4-0.2,0.5-0.4C3.9,7.7,4,7.3,4.2,7c0.1-0.2,0.1-0.4,0-0.6l-0.7-1C3.3,5.1,3.3,4.8,3.5,4.6l1.1-1.1l0,0 C4.7,3.4,4.8,3.4,5,3.4c0.1,0,0.2,0,0.3,0.1l1,0.7c0.2,0.1,0.4,0.2,0.6,0C7.3,4.1,7.6,3.9,8,3.8c0.2-0.1,0.4-0.2,0.4-0.5l0.2-1.2 c0-0.3,0.3-0.5,0.5-0.5h1.6c0.3,0,0.5,0.2,0.5,0.5l0.2,1.2c0,0.2,0.2,0.4,0.4,0.5C12.3,3.9,12.7,4,13,4.2c0.2,0.1,0.4,0.1,0.6,0 l1-0.7c0.1-0.1,0.2-0.1,0.3-0.1c0.1,0,0.3,0.1,0.4,0.2l1.1,1.1c0.2,0.2,0.2,0.5,0.1,0.7l-0.7,1c-0.1,0.2-0.1,0.4,0,0.6 C16,7.3,16.1,7.7,16.2,8c0.1,0.2,0.3,0.4,0.5,0.4l1.2,0.2l0,0c0.3,0,0.5,0.3,0.5,0.5V10.8z'/%3e%3cpath class='st0' d='M10,6.3C8,6.3,6.3,8,6.3,10c0,2,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7C13.7,8,12,6.3,10,6.3z M10,12.6 c-1.4,0-2.6-1.2-2.6-2.6c0-1.4,1.2-2.6,2.6-2.6c1.4,0,2.6,1.2,2.6,2.6C12.6,11.4,11.4,12.6,10,12.6z'/%3e%3c/svg%3e ");
+}
+.sidebar li a {
+  font-size: 0.875em;
+  font-weight: 600;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  position: relative;
+  padding: 0;
+  padding-bottom: 12px;
+  margin-right: 50px;
+}
+.nav-tabs .nav-link:first-of-type {
+  padding-left: 0;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+  background-color: transparent;
+  font-weight: 600;
+  color: #1F91B3;
+}
+.nav-tabs .nav-link.active:before, .nav-tabs .nav-link:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 3px;
+  background: #1F91B3;
+}
+
+.main_content {
+  padding: 0;
+}
+.main_content .main_header {
+  position: relative;
+  padding: 35px 55px 0;
+}
+.main_content .main_header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -55px;
+  width: 100%;
+  height: 1px;
+  background: #DDDDDD;
+}
+.main_content .main_header .nav-tabs {
+  border-bottom: none;
+}
+.main_content .main_header .box_display {
+  position: relative;
+  top: 7px;
+}
+.main_content .main_header .box_display p {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 0.75em;
+}
+.main_content .main_header .box_display p b {
+  font-size: 1.3333em;
+}
+.main_content .main_header .box_display .btn {
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.main_content .main_header .box_display .btn:last-of-type {
+  margin-right: 0;
+}
+.main_content .main_header .box_display .btn:hover {
+  opacity: 0.5;
+}
+.main_content .main_header .box_display .btn_left {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 8 14' style='enable-background:new 0 0 8 14;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:none;stroke:%235B5B5B;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cpath class='st0' d='M7,1L1,7l6,6'/%3e%3c/svg%3e ");
+  margin-right: 15px;
+}
+.main_content .main_header .box_display .btn_right {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 8 14' style='enable-background:new 0 0 8 14;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:none;stroke:%235B5B5B;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cpath class='st0' d='M1,13l6-6L1,1'/%3e%3c/svg%3e ");
+}
+
+.main_body {
+  padding: 30px 55px;
+}
+
+.box_searchsort .frm_search {
+  display: flex;
+  position: relative;
+}
+.box_searchsort .frm_search .form-control {
+  border: none;
+  font-size: 0.75em;
+}
+.box_searchsort .frm_search .btn {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 13 14' style='enable-background:new 0 0 13 14;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill-rule:evenodd;clip-rule:evenodd;fill:%235B5B5B;%7d %3c/style%3e%3cpath class='st0' d='M8.8,8.2l3.9,3.9c0.3,0.3,0.3,0.8,0,1.2c-0.2,0.2-0.4,0.2-0.6,0.2c-0.2,0-0.4-0.1-0.6-0.2L7.7,9.3 c-0.8,0.6-1.8,0.9-2.8,0.9C2.2,10.2,0,8.1,0,5.4c0-2.7,2.2-4.9,4.9-4.9c2.7,0,4.9,2.2,4.9,4.9C9.7,6.4,9.4,7.4,8.8,8.2z M7.2,7.7 l0.3-0.4c0.4-0.6,0.6-1.2,0.6-1.9c0-1.8-1.5-3.2-3.2-3.2S1.6,3.6,1.6,5.4c0,1.8,1.5,3.2,3.2,3.2c0.7,0,1.3-0.2,1.9-0.6L7.2,7.7z'/%3e%3c/svg%3e ");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.box_searchsort .frm_search .btn:hover {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 13 14' style='enable-background:new 0 0 13 14;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill-rule:evenodd;clip-rule:evenodd;fill:%231F91B3;%7d %3c/style%3e%3cpath class='st0' d='M8.8,8.2l3.9,3.9c0.3,0.3,0.3,0.8,0,1.2c-0.2,0.2-0.4,0.2-0.6,0.2c-0.2,0-0.4-0.1-0.6-0.2L7.7,9.3 c-0.8,0.6-1.8,0.9-2.8,0.9C2.2,10.2,0,8.1,0,5.4c0-2.7,2.2-4.9,4.9-4.9c2.7,0,4.9,2.2,4.9,4.9C9.7,6.4,9.4,7.4,8.8,8.2z M7.2,7.7 l0.3-0.4c0.4-0.6,0.6-1.2,0.6-1.9c0-1.8-1.5-3.2-3.2-3.2S1.6,3.6,1.6,5.4c0,1.8,1.5,3.2,3.2,3.2c0.7,0,1.3-0.2,1.9-0.6L7.2,7.7z'/%3e%3c/svg%3e ");
+}
+.box_searchsort .btn_sort {
+  background: #F6AE3F;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 0.875em;
+  font-weight: 600;
+  margin-right: 40px;
+  padding: 8px 30px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.box_searchsort .btn_sort:hover {
+  background: #e39114;
+}
+.box_searchsort .btn_list {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 28 20' style='enable-background:new 0 0 28 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000036232058955134859430000010608947759593710750_);%7d .st1%7bfill:%23BDC0BA;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='27.7' height='20'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000080889271923595688140000015291795986887107997_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000080889271923595688140000015291795986887107997_);'%3e%3cpath class='st1' d='M27.7,15.9H6v4h21.7V15.9z'/%3e%3cpath class='st1' d='M27.7,8.1H6v4h21.7V8.1z'/%3e%3cpath class='st1' d='M27.7,0.1H6v4h21.7V0.1z'/%3e%3cpath class='st1' d='M4,16H0v4h4V16z'/%3e%3cpath class='st1' d='M4,8.1H0v4h4V8.1z'/%3e%3cpath class='st1' d='M4,0.1H0v4h4V0.1z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+  background-repeat: no-repeat;
+  padding: 0;
+  width: 28px;
+  height: 20px;
+  margin-right: 20px;
+}
+.box_searchsort .btn_list:hover, .box_searchsort .btn_list.active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 28 20' style='enable-background:new 0 0 28 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bclip-path:url(%23SVGID_00000053544173189848771920000009504916377311758757_);%7d .st1%7bfill:%231F91B3;%7d %3c/style%3e%3cg%3e%3cdefs%3e%3crect id='SVGID_1_' width='27.7' height='20'/%3e%3c/defs%3e%3cclipPath id='SVGID_00000115493719789436209280000013115444843308492215_'%3e%3cuse xlink:href='%23SVGID_1_' style='overflow:visible;'/%3e%3c/clipPath%3e%3cg style='clip-path:url(%23SVGID_00000115493719789436209280000013115444843308492215_);'%3e%3cpath class='st1' d='M27.7,15.9H6v4h21.7V15.9z'/%3e%3cpath class='st1' d='M27.7,8.1H6v4h21.7V8.1z'/%3e%3cpath class='st1' d='M27.7,0.1H6v4h21.7V0.1z'/%3e%3cpath class='st1' d='M4,16H0v4h4V16z'/%3e%3cpath class='st1' d='M4,8.1H0v4h4V8.1z'/%3e%3cpath class='st1' d='M4,0.1H0v4h4V0.1z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e ");
+}
+.box_searchsort .btn_grid {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%23BDC0BA;%7d %3c/style%3e%3cpath class='st0' d='M8.5,0H0.8C0.3,0,0,0.3,0,0.8v7.7c0,0.4,0.3,0.8,0.8,0.8h7.7c0.4,0,0.8-0.3,0.8-0.8V0.8C9.2,0.3,8.9,0,8.5,0z' /%3e%3cpath class='st0' d='M19.2,0h-7.7c-0.4,0-0.8,0.3-0.8,0.8v7.7c0,0.4,0.3,0.8,0.8,0.8h7.7c0.4,0,0.8-0.3,0.8-0.8V0.8 C20,0.3,19.6,0,19.2,0z'/%3e%3cpath class='st0' d='M8.5,10.8H0.8c-0.4,0-0.8,0.3-0.8,0.8v7.7C0,19.6,0.3,20,0.8,20h7.7c0.4,0,0.8-0.3,0.8-0.8v-7.7 C9.2,11.1,8.9,10.8,8.5,10.8z'/%3e%3cpath class='st0' d='M19.2,10.8h-7.7c-0.4,0-0.8,0.3-0.8,0.8v7.7c0,0.4,0.3,0.8,0.8,0.8h7.7c0.4,0,0.8-0.3,0.8-0.8v-7.7 C20,11.1,19.6,10.8,19.2,10.8z'/%3e%3c/svg%3e ");
+  background-repeat: no-repeat;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+.box_searchsort .btn_grid:hover, .box_searchsort .btn_grid.active {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 20 20' style='enable-background:new 0 0 20 20;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:%231F91B3;%7d %3c/style%3e%3cpath class='st0' d='M8.5,0H0.8C0.3,0,0,0.3,0,0.8v7.7c0,0.4,0.3,0.8,0.8,0.8h7.7c0.4,0,0.8-0.3,0.8-0.8V0.8C9.2,0.3,8.9,0,8.5,0z' /%3e%3cpath class='st0' d='M19.2,0h-7.7c-0.4,0-0.8,0.3-0.8,0.8v7.7c0,0.4,0.3,0.8,0.8,0.8h7.7c0.4,0,0.8-0.3,0.8-0.8V0.8 C20,0.3,19.6,0,19.2,0z'/%3e%3cpath class='st0' d='M8.5,10.8H0.8c-0.4,0-0.8,0.3-0.8,0.8v7.7C0,19.6,0.3,20,0.8,20h7.7c0.4,0,0.8-0.3,0.8-0.8v-7.7 C9.2,11.1,8.9,10.8,8.5,10.8z'/%3e%3cpath class='st0' d='M19.2,10.8h-7.7c-0.4,0-0.8,0.3-0.8,0.8v7.7c0,0.4,0.3,0.8,0.8,0.8h7.7c0.4,0,0.8-0.3,0.8-0.8v-7.7 C20,11.1,19.6,10.8,19.2,10.8z'/%3e%3c/svg%3e ");
+}
+
+.box_content {
+  padding: 30px;
+  background: #fff;
+  margin-top: 40px;
+}
+
+ul.list_drawing {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul.list_drawing li {
+  margin-right: 20px;
+  margin-bottom: 30px;
+  width: 250px;
+}
+ul.list_drawing li .box_img {
+  width: 100%;
+  height: 143px;
+  margin-bottom: 10px;
+}
+ul.list_drawing li .box_img img {
+  width: 100%;
+  height: 143px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+ul.list_drawing li h3 {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+ul.list_drawing li p {
+  margin-bottom: 0;
+  font-size: 0.75em;
+}
+ul.list_drawing li .list_drawing_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+ul.list_drawing li .list_drawing_footer .datetimes {
+  color: #BDC0BA;
+}
+.btn_edit {
+  border: 1px solid #2F80ED;
+  border-radius: 4px;
+  padding: 3px;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../images/common/svg/i_edit.svg");
+  margin-right: 12px;
+}
+.btn_edit:hover {
+  background-color: #c8defb;
+}
+
+.btn_del {
+  border: 1px solid #2F80ED;
+  border-radius: 4px;
+  padding: 3px;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../images/common/svg/i_del.svg");
+}
+.btn_del:hover {
+  background-color: #c8defb;
+}
+
+.table_list {
+  color: #5B5B5B;
+  margin-bottom: 0;
+}
+.table_list .custom-control-label {
+  margin-left: 15px;
+}
+.table_list .custom-control-label:before, .table_list .custom-control-label:after {
+  width: 20px;
+  height: 20px;
+  border-color: #5B5B5B;
+}
+.table_list thead th {
+  border-bottom: none;
+}
+.table_list th, .table_list td {
+  padding: 15px;
+}
+.table_list tr:last-of-type {
+  border-bottom: 1px solid #dee2e6;
+}
+.table_list th {
+  font-size: 0.875em;
+  font-weight: normal;
+  background: #F3FCFF;
+  border-top: none;
+}
+.table_list td {
+  vertical-align: middle;
+  font-size: 0.875em;
+}
+.table_list td p {
+  margin-bottom: 0;
+  line-height: 1.3em;
+}
+.table_list .box_img {
+  width: 200px;
+  height: 115px;
+}
+.table_list .box_img img {
+  width: 100%;
+  height: 115px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.table_list.table_listitem td {
+  padding: 10px;
+}
+
+table.dataTable {
+  margin-top: 0 !important;
+}
+
+.dataTables_length, .dataTables_filter {
+  display: none;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+  color: #000;
+}
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:before {
+  color: #000;
+}
+
+.dataTables_info, .dataTables_paginate {
+  display: none;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.box_list {
+  display: none;
+}
+
+.box_img_itemlist {
+  width: 80px;
+  height: 80px;
+}
+.box_img_itemlist img {
+  width: 100%;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.table_listitem p span {
+  display: block;
+}
+
+.btn_keep {
+  padding: 8px 10px;
+  background: #2F80ED;
+  color: #fff;
+  min-width: 160px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.btn_keep:hover {
+  color: #fff;
+}
+
+.btn_cancel {
+  border: 1px solid #C1CCDA;
+  border-radius: 4px;
+  font-size: 0.75em;
+  min-width: 160px;
+  padding: 8px 10px;
+}
+
+.btn_edit2 {
+  border: 1px solid #2F80ED;
+  border-radius: 4px;
+  font-size: 0.75em;
+  min-width: 160px;
+  padding: 8px 10px;
+  color: #2F80ED;
+}
+.btn_edit2:hover {
+  color: #2F80ED;
+}
+
+.frm_newaddition {
+  padding: 40px 150px 40px 40px;
+}
+.frm_newaddition .form-group {
+  margin-bottom: 30px;
+}
+.frm_newaddition label {
+  font-size: 0.875em;
+}
+.frm_newaddition .box_unit {
+  position: relative;
+}
+.frm_newaddition .box_unit span {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  font-size: 0.875em;
+}
+.frm_newaddition .box_unit.and:after {
+  content: "⁓";
+  position: absolute;
+  right: -20px;
+  top: 6px;
+  bottom: 0;
+  margin: auto;
+}
+
+.box_option {
+  padding: 30px;
+  border-top: 15px solid #F3FCFF;
+}
+.box_option h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.box_option ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box_option ul li {
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.box_option ul li:last-of-type {
+  margin-right: 0;
+}
+.box_option ul li p {
+  margin-bottom: 0;
+  font-size: 0.875em;
+  line-height: 1.3em;
+}
+.box_option ul li p:first-of-type {
+  margin-bottom: 10px;
+}
+.box_option ul li .box_img {
+  width: 100%;
+  height: 100px;
+}
+.box_option ul li .box_img img {
+  width: 100%;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box_texture_color ul li {
+  margin-bottom: 20px;
+}
+.box_texture_color ul li p {
+  margin-top: 10px;
+}
+.box_texture_color ul li p:first-of-type {
+  margin-bottom: 0;
+}
+
+.btn_choose {
+  border: 1px solid #2F80ED;
+  color: #2F80ED;
+  border-radius: 4px;
+  font-size: 0.75em;
+  min-width: 160px;
+  padding: 8px 10px;
+  font-weight: 600;
+}
+
+.items {
+  line-height: 1.3em;
+  font-size: 0.875em;
+}
+
+.modal-title {
+  font-size: 1.5em;
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: none;
+}
+
+.modal-header {
+  padding-top: 0;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+.modal-header .close {
+  opacity: 1;
+  position: absolute;
+  right: 35px;
+  top: 56px;
+  padding: 0;
+}
+
+.modal-content {
+  padding: 35px;
+}
+
+.accordion {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.accordion-header,
+.accordion-body {
+  background: white;
+}
+
+.accordion-header {
+  padding: 20px 0 20px 25px;
+  background: #fff;
+  color: #1F91B3;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.accordion__item {
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.accordion__item .accordion__item {
+  border-bottom: none;
+}
+
+.accordion-header:hover {
+  position: relative;
+  z-index: 5;
+}
+
+.accordion-body {
+  background: #fcfcfc;
+  color: #353535;
+  display: none;
+  padding: 0 100px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.accordion-body__contents {
+  padding: 1.5em 1.5em;
+  font-size: 0.85em;
+}
+
+.accordion__item.active:last-child .accordion-header {
+  border-radius: none;
+}
+
+.accordion:first-child > .accordion__item > .accordion-header {
+  border-bottom: 1px solid transparent;
+}
+
+.accordion__item > .accordion-header:after {
+  content: "▲";
+  font-size: 0.8em;
+  float: left;
+  position: relative;
+  top: 1px;
+  left: -25px;
+  transition: 0.3s all;
+  transform: rotate(0deg);
+  color: #353535;
+}
+
+.accordion__item.active > .accordion-header:after {
+  transform: rotate(-180deg);
+}
+
+.accordion__item.active .accordion-header {
+  background: #fff;
+}
+
+.accordion__item .accordion__item .accordion-header {
+  background: #fff;
+  color: #1F91B3;
+}
+
+.frm_user label {
+  margin-bottom: 0;
+  font-size: 0.875em;
+}
+.frm_user .form-control {
+  font-size: 0.875em;
+}
+.frm_user .box_upload {
+  display: flex;
+  align-items: center;
+}
+.frm_user .box_upload span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  background: #F6AE3F;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.frm_user .box_upload .custom-file {
+  width: 300px;
+}
+.frm_user p {
+  font-size: 0.875em;
+  line-height: 1.3em;
+}
+
+.box_sex {
+  display: flex;
+  align-items: center;
+}
+.box_sex label {
+  margin-right: 25px;
+  margin-bottom: 0;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.btn_label {
+  min-width: 184px;
+  border: 1px solid #2F80ED;
+  color: #2F80ED;
+  border-radius: 4px;
+  font-size: 0.625em;
+  font-weight: 500;
+}
+.btn_label:hover {
+  color: #2F80ED;
+}
+
+.box_import_item {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+.box_import_item h2 {
+  font-size: 1.125em;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.box_import_item .btn_label {
+  font-size: 0.75em;
+  margin-bottom: 0;
+}
+.box_import_item .box_upload {
+  display: flex;
+  align-items: center;
+}
+.box_import_item .box_upload span {
+  margin-left: 15px;
+  font-size: 0.875em;
+}
+
+.frm_basic_configuration {
+  max-width: 600px;
+}
+.frm_basic_configuration .box_height {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+.frm_basic_configuration .box_height:after {
+  content: "cm";
+  font-size: 0.875em;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  margin: auto;
+}
+.frm_basic_configuration .box_height span {
+  font-size: 0.875em;
+  margin-right: 13px;
+  width: 50px;
+}
+.frm_basic_configuration .form-control {
+  height: calc(1.5em + 0.75rem + 7px);
+}
+.frm_basic_configuration label {
+  font-size: 0.875em;
+  margin-bottom: 0;
+}
+
+.irs {
+  font-family: "noto-sans-cjk-jp", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  font-weight: 500;
+}
+
+.irs--flat .irs-bar {
+  height: 17px;
+  border-radius: 100px;
+  background: #1F91B3;
+}
+.irs--flat .irs-line {
+  height: 17px;
+  border-radius: 100px;
+  background: #F2F2F2;
+}
+.irs--flat .irs-handle {
+  width: 17px;
+  height: 17px;
+  top: 25px;
+  background: #1F91B3;
+  border-radius: 100px;
+}
+.irs--flat .irs-handle:before {
+  content: "";
+  position: absolute;
+  z-index: 20;
+  left: -2px;
+  right: 0;
+  top: -3px;
+  bottom: 0;
+  margin: auto;
+  background: url("../images/common/svg/line.svg") no-repeat;
+  width: 8px;
+  height: 14px;
+}
+.irs--flat .irs-handle i:first-child {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background: #fff;
+  border: 1px solid #BDBDBD;
+  top: -8px;
+  left: -8px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.irs-from, .irs-to, .irs-single {
+  top: inherit;
+  bottom: -55px;
+  background-color: #fff !important;
+  color: #5B5B5B !important;
+  font-size: 12px !important;
+}
+
+.irs--flat .irs-handle.state_hover > i:first-child, .irs--flat .irs-handle:hover > i:first-child {
+  background-color: #fff;
+}
+
+.irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before {
+  border-top-color: #1F91B3;
+  top: -3px;
+  display: none;
+}
+
+.irs--flat .irs-min, .irs--flat .irs-max {
+  top: inherit;
+  bottom: -48px;
+  display: none;
+}
+
+.enterprisesetting_top {
+  border-bottom: 15px solid #F3FCFF;
+  padding: 30px;
+}
+.enterprisesetting_top h2 {
+  font-size: 1.125em;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.enterprisesetting_top .box_upload {
+  display: flex;
+  align-items: center;
+}
+.enterprisesetting_top .box_upload span {
+  margin-left: 15px;
+  font-size: 0.875em;
+}
+
+.enterprisesetting_body {
+  padding: 30px;
+}
+.enterprisesetting_body h2 {
+  font-size: 1.125em;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.enterprisesetting_body .email_address {
+  width: 150px;
+}
+
+.box_items {
+  padding: 30px;
+  border-bottom: 15px solid #F3FCFF;
+}
+.box_items h2 {
+  font-size: 1.125em;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.btn_newaddition {
+  background: #2F80ED;
+  color: #fff;
+  border-radius: 4px;
+  min-width: 105px;
+  text-align: center;
+  font-size: 0.75em;
+  margin-right: 25px;
+  font-weight: 600;
+}
+.btn_newaddition:hover {
+  color: #fff;
+}
+
+.addition_footer {
+  background: #F3FCFF;
+  text-align: center;
+  padding-top: 30px;
+}
+
+[type=color] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 5px;
+}
+
+[type=color]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+[type=color]::-webkit-color-swatch {
+  border: none;
+}
+
+.color-picker {
+  background-color: #f8f9f9;
+  display: block;
+}
+.color-picker label {
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+.color-picker span {
+  display: none;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .modal-xl {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .accordion {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    margin-bottom: 0;
+  }
+  .main_content .main_header:after {
+    left: 0;
+  }
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-brand {
+    margin: auto;
+  }
+  .main_content .main_header {
+    padding: 15px;
+  }
+  .main_body {
+    padding: 15px 0;
+  }
+  .box_searchsort .frm_search {
+    margin-bottom: 15px;
+  }
+  .frm_newaddition {
+    padding: 15px;
+  }
+  .box_import_item {
+    padding: 15px;
+  }
+  .box_import_item h2 {
+    margin-bottom: 10px;
+  }
+  .btn_keep {
+    min-width: auto;
+    margin-right: 10px;
+  }
+  .btn_cancel {
+    min-width: auto;
+  }
+}/*# sourceMappingURL=styles.css.map */

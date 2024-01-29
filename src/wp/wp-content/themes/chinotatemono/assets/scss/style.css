@@ -18,12 +18,9 @@
  * 3. Remove gray overlay on links for iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-tap-highlight-color: transparent;
-  /* 3*/
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-tap-highlight-color: transparent; /* 3*/
 }
 
 /* Sections */
@@ -95,12 +92,9 @@ dd {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
   border-top-width: 1px;
   margin: 0;
   clear: both;
@@ -112,10 +106,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: inherit;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
 }
 
 address {
@@ -138,8 +130,8 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  text-decoration: underline dotted;
-  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -157,10 +149,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: inherit;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
 }
 
 /**
@@ -215,9 +205,9 @@ input,
 optgroup,
 select,
 textarea {
-  -webkit-appearance: none;
-  /* 1 */
-  appearance: none;
+  -webkit-appearance: none; /* 1 */
+  -moz-appearance: none;
+       appearance: none;
   vertical-align: middle;
   color: inherit;
   font: inherit;
@@ -226,37 +216,38 @@ textarea {
   margin: 0;
   border-radius: 0;
   text-align: inherit;
-  text-transform: inherit;
-  /* 2 */
+  text-transform: inherit; /* 2 */
 }
 
 /**
  * Reset radio and checkbox appearance to preserve their look in iOS.
  */
-[type="checkbox"] {
+[type=checkbox] {
   -webkit-appearance: checkbox;
-  appearance: checkbox;
+  -moz-appearance: checkbox;
+       appearance: checkbox;
 }
 
-[type="radio"] {
+[type=radio] {
   -webkit-appearance: radio;
-  appearance: radio;
+  -moz-appearance: radio;
+       appearance: radio;
 }
 
 /**
  * Correct cursors for clickable elements.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   cursor: pointer;
 }
 
 button:disabled,
-[type="button"]:disabled,
-[type="reset"]:disabled,
-[type="submit"]:disabled {
+[type=button]:disabled,
+[type=reset]:disabled,
+[type=submit]:disabled {
   cursor: default;
 }
 
@@ -308,23 +299,22 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
 /**
  * 1. Correct the outline style in Safari.
  */
-[type="search"] {
-  outline-offset: -2px;
-  /* 1 */
+[type=search] {
+  outline-offset: -2px; /* 1 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -333,10 +323,8 @@ textarea {
  * 2. Fix font inheritance.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /**
@@ -376,8 +364,7 @@ summary {
 */
 table {
   border-spacing: 0;
-  border-color: inherit;
-  /* 1 */
+  border-color: inherit; /* 1 */
 }
 
 caption {
@@ -437,31 +424,31 @@ img, a {
 
 /*----font ----*/
 @font-face {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/NotoSerifCJKjp-Regular.woff") format("woff");
 }
 @font-face {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/NotoSerifCJKjp-Bold.woff") format("woff");
 }
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/NotoSansCJKjp-Regular.ttf") format("woff");
 }
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/NotoSansCJKjp-Bold.ttf") format("woff");
 }
 @font-face {
-  font-family: 'Garamond';
+  font-family: "Garamond";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/EBGaramond-Regular.ttf") format("woff");
@@ -485,9 +472,7 @@ img, a {
   padding: 0.6rem 0 0.5rem 0;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-align: center;
   text-decoration: none;
@@ -518,7 +503,7 @@ img, a {
   position: relative;
   z-index: 1;
   line-height: 1;
-  transition: ease .2s;
+  transition: ease 0.2s;
   box-sizing: content-box;
 }
 .btn-next span {
@@ -529,14 +514,12 @@ img, a {
   color: #fff;
 }
 .btn-next::after {
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   border: 0px;
   border-top: solid 1px #000;
   border-right: solid 1px #000;
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
   top: 50%;
@@ -564,7 +547,7 @@ img, a {
 }
 
 .bgleft:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -589,7 +572,7 @@ img, a {
 }
 /*----brown btn css----*/
 .btn-brown {
-  background: linear-gradient(90deg, #756b63 0%, #80807b 50%, #756b63 100%);
+  background: linear-gradient(90deg, rgb(117, 107, 99) 0%, rgb(128, 128, 123) 50%, rgb(117, 107, 99) 100%);
   border-radius: 10px;
   border: 3px solid #807974;
   color: #fff;
@@ -603,7 +586,7 @@ img, a {
 .btn-brown:hover {
   opacity: 0.8;
   transition: 0.6s;
-  background: linear-gradient(90deg, #80807b 0%, #756b63 50%, #80807b 100%);
+  background: linear-gradient(90deg, rgb(128, 128, 123) 0%, rgb(117, 107, 99) 50%, rgb(128, 128, 123) 100%);
 }
 @media screen and (max-width: 768px) {
   .btn-brown {
@@ -704,11 +687,10 @@ html, body {
     font-size: 0.8rem;
   }
 }
-
 /*----header css----*/
 header {
   background: #f0e9d9;
-  box-shadow: 0px 2px 10px #0000001c;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1098039216);
   height: 125px;
   padding: 0 2rem;
   position: fixed;
@@ -722,15 +704,11 @@ header.fixed {
   transition: 0.3s;
 }
 header .block {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 header .block__ttl {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: end;
   align-items: flex-end;
 }
 header .block__ttl h1 {
@@ -745,7 +723,6 @@ header .block__navi a.btn-cv {
 }
 header .block nav ul.mega_menu {
   font-size: 0.8rem;
-  display: -ms-flexbox;
   display: flex;
 }
 header .block nav ul.mega_menu li {
@@ -781,22 +758,16 @@ header .block nav ul.mega_menu li.menu a::after {
   border-color: transparent transparent #f0e9d9 transparent;
   opacity: 0;
 }
-header .block nav ul.mega_menu li ul.child_menu {
-  /* 下層メニューのスタイル */
-  display: -ms-flexbox;
+header .block nav ul.mega_menu li ul.child_menu { /* 下層メニューのスタイル */
   display: flex;
   box-shadow: 0px 5px 5px #555;
   position: absolute;
-  top: 100%;
-  /* 親項目の直下に配置 */
+  top: 100%; /* 親項目の直下に配置 */
   left: 0;
-  -ms-flex-align: center;
   align-items: center;
   padding: 2rem;
-  background: #f0e9d9;
-  /* 背景色 */
-  visibility: hidden;
-  /* 下層メニューを非表示 */
+  background: #f0e9d9; /* 背景色 */
+  visibility: hidden; /* 下層メニューを非表示 */
   opacity: 0;
   transition: 1s top, 1s opacity;
   width: 100%;
@@ -881,7 +852,6 @@ header .block nav ul.mega_menu li.menu:hover a::after {
     width: 1440px;
   }
   header .block nav ul.mega_menu li ul.child_menu {
-    -ms-flex-pack: center;
     justify-content: center;
   }
 }
@@ -900,7 +870,6 @@ header .block nav ul.mega_menu li.menu:hover a::after {
     width: 100%;
   }
   header .block__navi nav ul.mega_menu {
-    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }
@@ -929,9 +898,7 @@ header .block nav ul.mega_menu li.menu:hover a::after {
     padding-bottom: 70px;
   }
   header .block nav ul.mega_menu {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-pack: justify;
     justify-content: space-between;
   }
   header .block nav ul.mega_menu li {
@@ -958,7 +925,6 @@ header .block nav ul.mega_menu li.menu:hover a::after {
     box-shadow: none;
     visibility: inherit;
     position: relative;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     opacity: 1;
     top: 0;
@@ -1052,7 +1018,7 @@ header .block nav ul.mega_menu li.menu:hover a::after {
   display: block;
   background: #000;
   position: absolute;
-  transition: transform .6s ease-in-out, top .5s ease;
+  transition: transform 0.6s ease-in-out, top 0.5s ease;
 }
 #nav-toggle span:nth-child(1) {
   top: 0;
@@ -1222,9 +1188,7 @@ main {
   padding: 2rem 4rem;
 }
 #top-news .box__ttl {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 #top-news .box__ttl h2 {
@@ -1250,9 +1214,7 @@ main {
   overflow-x: scroll;
 }
 #top-news .box__content dl {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 #top-news .box__content dl dt {
@@ -1303,9 +1265,7 @@ main {
 
 /*----top page category content----*/
 .content .inner {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .content .inner__img {
@@ -1319,11 +1279,8 @@ main {
   margin-top: 3rem;
 }
 .content .inner__txt ul.column2 {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .content .inner__txt ul.column2 li {
@@ -1382,7 +1339,6 @@ main {
 }
 @media screen and (max-width: 768px) {
   .content .inner {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .content .inner__img {
@@ -1413,9 +1369,7 @@ main {
   padding: 4rem 0;
 }
 #link ul {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
@@ -1430,7 +1384,6 @@ main {
 }
 @media screen and (max-width: 768px) {
   #link ul {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   #link ul li {
@@ -1457,15 +1410,11 @@ footer {
 }
 footer .block {
   padding-bottom: 6rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 footer .block__link {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 54%;
 }
@@ -1507,7 +1456,6 @@ footer .block__link--item .box {
   margin-top: 1rem;
 }
 footer .block__link--item .box span {
-  display: -ms-flexbox;
   display: flex;
 }
 footer .block__link--item .box span a:hover {
@@ -1515,11 +1463,9 @@ footer .block__link--item .box span a:hover {
 }
 @media screen and (max-width: 1000px) {
   footer .block {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   footer .block__link {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
   }
@@ -1540,9 +1486,7 @@ footer .block__link--item .box span a:hover {
   }
   footer .block__link b {
     font-size: 1rem;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-align: center;
     align-items: center;
   }
   footer .block__link--item.list1, footer .block__link--item.list2, footer .block__link--item.list3, footer .block__link--item.list4 {
@@ -1748,11 +1692,8 @@ footer .block__link--item .box span a:hover {
   padding: 8rem 0px 8rem 0px;
 }
 #page-link .inner {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 #page-link .inner .block {
@@ -1820,7 +1761,8 @@ footer .block__link--item .box span a:hover {
 }
 .company #profile table th {
   border-right: 3px solid #807974;
-  text-align-last: justify;
+  -moz-text-align-last: justify;
+       text-align-last: justify;
   padding: 1rem 4rem 1rem 1rem;
   width: 25%;
 }
@@ -1853,7 +1795,8 @@ footer .block__link--item .box span a:hover {
     border-bottom: 3px solid #807974;
     display: inline-block;
     padding: 1rem 0 0rem 0;
-    text-align-last: left;
+    -moz-text-align-last: left;
+         text-align-last: left;
     width: auto;
   }
   .company #profile table td {
@@ -1881,11 +1824,8 @@ footer .block__link--item .box span a:hover {
   margin: 1.5rem 0;
 }
 .company #contact .block {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-align: center;
   align-items: center;
   margin-top: 1rem;
 }
@@ -1923,7 +1863,6 @@ footer .block__link--item .box span a:hover {
     padding: 1rem;
   }
   .company #contact .block {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .company #contact .block__tel span {
@@ -1979,11 +1918,8 @@ footer .block__link--item .box span a:hover {
 }
 .company #group .tree {
   padding-bottom: 8rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-align: center;
   align-items: center;
 }
 .company #group .tree__block {
@@ -2032,11 +1968,8 @@ footer .block__link--item .box span a:hover {
   background: #807974;
   height: 100px;
   position: relative;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-align: center;
   align-items: center;
 }
 .company #group .tree__list .item::before {
@@ -2063,9 +1996,7 @@ footer .block__link--item .box span a:hover {
   height: 100%;
   padding: 0 1rem;
   width: 60%;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
 }
 .company #group .tree__list .item:not(:first-child) {
@@ -2084,7 +2015,6 @@ footer .block__link--item .box span a:hover {
 @media screen and (max-width: 768px) {
   .company #group .tree {
     padding-bottom: 4rem;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .company #group .tree__block {
@@ -2117,7 +2047,6 @@ footer .block__link--item .box span a:hover {
   .company #group .tree__list {
     width: 100%;
     padding: 0;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .company #group .tree__list::before {
@@ -2125,7 +2054,6 @@ footer .block__link--item .box span a:hover {
   }
   .company #group .tree__list .item {
     height: auto;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .company #group .tree__list .item::before {
@@ -2145,11 +2073,8 @@ footer .block__link--item .box span a:hover {
 }
 .company #history table tr {
   border-bottom: 1px solid #807974;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .company #history table tr:not(:last-child) {
@@ -2166,9 +2091,7 @@ footer .block__link--item .box span a:hover {
   width: 70%;
 }
 .company #history table td dl {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .company #history table td dl dt {
@@ -2214,16 +2137,12 @@ footer .block__link--item .box span a:hover {
 #news dl {
   border-bottom: 1px solid #807974;
   margin-bottom: 2rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
 }
 #news dl dt {
   white-space: nowrap;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
   padding-bottom: 2rem;
 }
@@ -2279,11 +2198,8 @@ footer .block__link--item .box span a:hover {
   margin-top: 6rem;
 }
 #news .pagenation ul {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
 }
@@ -2307,7 +2223,6 @@ footer .block__link--item .box span a:hover {
     font: bold 1.2rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
   }
   #news dl {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   #news dl dt {
@@ -2393,17 +2308,12 @@ footer .block__link--item .box span a:hover {
   padding: 0.5rem 0 0.5rem 1rem;
 }
 .business .column2, .livemansion .column2, .findmansion .column2, .rentalowner .column2, .download .column2, .access .column2, .privacypolicy .column2 {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .business .column2__ttl, .livemansion .column2__ttl, .findmansion .column2__ttl, .rentalowner .column2__ttl, .download .column2__ttl, .access .column2__ttl, .privacypolicy .column2__ttl {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-align: center;
   align-items: center;
   width: 46%;
 }
@@ -2445,9 +2355,7 @@ footer .block__link--item .box span a:hover {
 }
 .business .column2__voice, .livemansion .column2__voice, .findmansion .column2__voice, .rentalowner .column2__voice, .download .column2__voice, .access .column2__voice, .privacypolicy .column2__voice {
   margin-top: 3rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 46%;
 }
@@ -2507,9 +2415,7 @@ footer .block__link--item .box span a:hover {
   left: 0;
 }
 .business #contractdetails .column3, .livemansion #contractdetails .column3, .findmansion #contractdetails .column3, .rentalowner #contractdetails .column3, .download #contractdetails .column3, .access #contractdetails .column3, .privacypolicy #contractdetails .column3 {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .business #contractdetails .column3__item, .livemansion #contractdetails .column3__item, .findmansion #contractdetails .column3__item, .rentalowner #contractdetails .column3__item, .download #contractdetails .column3__item, .access #contractdetails .column3__item, .privacypolicy #contractdetails .column3__item {
@@ -2529,7 +2435,6 @@ footer .block__link--item .box span a:hover {
   padding: 1rem 0;
   margin-top: 1rem;
   flex-grow: 1;
-  display: -ms-flexbox;
   display: flex;
 }
 .business #service .column2__txt img, .livemansion #service .column2__txt img, .findmansion #service .column2__txt img, .rentalowner #service .column2__txt img, .download #service .column2__txt img, .access #service .column2__txt img, .privacypolicy #service .column2__txt img {
@@ -2539,20 +2444,15 @@ footer .block__link--item .box span a:hover {
   color: #807974;
 }
 .business #investment ul.list-vertical, .livemansion #investment ul.list-vertical, .findmansion #investment ul.list-vertical, .rentalowner #investment ul.list-vertical, .download #investment ul.list-vertical, .access #investment ul.list-vertical, .privacypolicy #investment ul.list-vertical {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .business #investment ul.list-vertical li, .livemansion #investment ul.list-vertical li, .findmansion #investment ul.list-vertical li, .rentalowner #investment ul.list-vertical li, .download #investment ul.list-vertical li, .access #investment ul.list-vertical li, .privacypolicy #investment ul.list-vertical li {
   background: #807974;
   color: #fff;
   font-size: 1rem;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   width: 8%;
   text-align: center;
@@ -2623,9 +2523,7 @@ footer .block__link--item .box span a:hover {
   text-align: center;
 }
 .business #effective #cv ul, .livemansion #effective #cv ul, .findmansion #effective #cv ul, .rentalowner #effective #cv ul, .download #effective #cv ul, .access #effective #cv ul, .privacypolicy #effective #cv ul {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .business #effective #cv ul li, .livemansion #effective #cv ul li, .findmansion #effective #cv ul li, .rentalowner #effective #cv ul li, .download #effective #cv ul li, .access #effective #cv ul li, .privacypolicy #effective #cv ul li {
@@ -2650,11 +2548,8 @@ footer .block__link--item .box span a:hover {
 .business #download ul.downloadlist, .livemansion #download ul.downloadlist, .findmansion #download ul.downloadlist, .rentalowner #download ul.downloadlist, .download #download ul.downloadlist, .access #download ul.downloadlist, .privacypolicy #download ul.downloadlist {
   color: #807974;
   font: bold 1rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .business #download ul.downloadlist li, .livemansion #download ul.downloadlist li, .findmansion #download ul.downloadlist li, .rentalowner #download ul.downloadlist li, .download #download ul.downloadlist li, .access #download ul.downloadlist li, .privacypolicy #download ul.downloadlist li {
@@ -2686,7 +2581,6 @@ footer .block__link--item .box span a:hover {
   font: bold 1.4rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
 }
 .business #access .gmap iframe, .business #privacypolicy .gmap iframe, .livemansion #access .gmap iframe, .livemansion #privacypolicy .gmap iframe, .findmansion #access .gmap iframe, .findmansion #privacypolicy .gmap iframe, .rentalowner #access .gmap iframe, .rentalowner #privacypolicy .gmap iframe, .download #access .gmap iframe, .download #privacypolicy .gmap iframe, .access #access .gmap iframe, .access #privacypolicy .gmap iframe, .privacypolicy #access .gmap iframe, .privacypolicy #privacypolicy .gmap iframe {
-  -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
@@ -2772,7 +2666,6 @@ footer .block__link--item .box span a:hover {
     width: 100%;
   }
   .business .column2, .livemansion .column2, .findmansion .column2, .rentalowner .column2, .download .column2, .access .column2, .privacypolicy .column2 {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .business .column2__ttl, .livemansion .column2__ttl, .findmansion .column2__ttl, .rentalowner .column2__ttl, .download .column2__ttl, .access .column2__ttl, .privacypolicy .column2__ttl {
@@ -2789,7 +2682,6 @@ footer .block__link--item .box span a:hover {
     margin-top: 5rem;
   }
   .business #contractdetails .column3, .livemansion #contractdetails .column3, .findmansion #contractdetails .column3, .rentalowner #contractdetails .column3, .download #contractdetails .column3, .access #contractdetails .column3, .privacypolicy #contractdetails .column3 {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .business #contractdetails .column3__item, .livemansion #contractdetails .column3__item, .findmansion #contractdetails .column3__item, .rentalowner #contractdetails .column3__item, .download #contractdetails .column3__item, .access #contractdetails .column3__item, .privacypolicy #contractdetails .column3__item {
@@ -2808,7 +2700,6 @@ footer .block__link--item .box span a:hover {
     margin-top: 3rem;
   }
   .business #investment ul.list-vertical, .livemansion #investment ul.list-vertical, .findmansion #investment ul.list-vertical, .rentalowner #investment ul.list-vertical, .download #investment ul.list-vertical, .access #investment ul.list-vertical, .privacypolicy #investment ul.list-vertical {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .business #investment ul.list-vertical li, .livemansion #investment ul.list-vertical li, .findmansion #investment ul.list-vertical li, .rentalowner #investment ul.list-vertical li, .download #investment ul.list-vertical li, .access #investment ul.list-vertical li, .privacypolicy #investment ul.list-vertical li {
@@ -2844,7 +2735,6 @@ footer .block__link--item .box span a:hover {
     font: bold 1.4rem/2rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
   }
   .business .column2, .livemansion .column2, .findmansion .column2, .rentalowner .column2, .download .column2, .access .column2, .privacypolicy .column2 {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .business .column2__ttl, .livemansion .column2__ttl, .findmansion .column2__ttl, .rentalowner .column2__ttl, .download .column2__ttl, .access .column2__ttl, .privacypolicy .column2__ttl {
@@ -2917,7 +2807,6 @@ footer .block__link--item .box span a:hover {
     font: 5.5vw/8.5vw "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
   }
   .business #effective #cv ul, .livemansion #effective #cv ul, .findmansion #effective #cv ul, .rentalowner #effective #cv ul, .download #effective #cv ul, .access #effective #cv ul, .privacypolicy #effective #cv ul {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .business #effective #cv ul li, .livemansion #effective #cv ul li, .findmansion #effective #cv ul li, .rentalowner #effective #cv ul li, .download #effective #cv ul li, .access #effective #cv ul li, .privacypolicy #effective #cv ul li {
@@ -2997,21 +2886,17 @@ footer .block__link--item .box span a:hover {
   .copyright_content .logo_img img {
     max-width: 80px;
   }
-
   .nav_top .container {
     padding: 0 5px;
   }
-
   .section_content_body .container {
     padding: 0;
   }
-
   .btnAgree {
     width: 90%;
   }
-
   .frm_general_content table tr td:first-of-type {
     width: 17%;
     padding-left: 0;
   }
-}
+}/*# sourceMappingURL=style.css.map */

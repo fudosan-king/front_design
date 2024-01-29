@@ -3,7 +3,7 @@
 @import url("https://db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text+Regular");
 @import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 body {
-  font-family: 'SF Pro Display', "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+  font-family: "SF Pro Display", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,7 +53,8 @@ input[type=number] {
 .banner .banner_img img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .banner .banner_content {
   padding: 17px 41px;
@@ -116,7 +117,8 @@ input[type=number] {
 .w_estate_list_item .estate_list_item .estate_list_item_main .estate_list_img img {
   width: 100%;
   height: 450px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .w_estate_list_item .estate_list_item .estate_list_item_main .estate_list_content h4 {
   font-weight: 700;
@@ -203,7 +205,8 @@ input[type=number] {
 .estate_detail_top .estate_detail_top_img img {
   width: 100%;
   height: 400px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .estate_detail_top p {
   padding: 18px 40px;
@@ -223,10 +226,10 @@ input[type=number] {
   margin-right: 20px;
   position: relative;
   font-size: 0.875em;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 .estate_detail_top ul li::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 10px;
   top: 0;
@@ -241,7 +244,7 @@ input[type=number] {
 }
 .estate_detail_top ul li:hover a {
   box-shadow: 0px 0px 60px 0 rgba(90, 116, 148, 0.4);
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 .estate_detail_top ul li a {
   display: block;
@@ -253,7 +256,7 @@ input[type=number] {
 }
 .estate_detail_top ul li span {
   display: block;
-  padding: 15px 8px;
+  padding: 3px 8px;
   background: #8C7D60;
   position: absolute;
   left: 0;
@@ -262,7 +265,7 @@ input[type=number] {
   color: #fff;
   font-weight: 600;
   writing-mode: vertical-rl;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   letter-spacing: 0.2em;
   display: flex;
   align-items: center;
@@ -291,7 +294,7 @@ input[type=number] {
   border-radius: 0;
 }
 .accepting_propertyentries .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 2px;
@@ -374,7 +377,8 @@ input[type=number] {
 .estate_detail .w_img .square_big img {
   width: 100%;
   height: 400px;
-  object-fit: none;
+  -o-object-fit: none;
+     object-fit: none;
 }
 .estate_detail .w_img .square_small {
   margin-bottom: 20px;
@@ -387,7 +391,8 @@ input[type=number] {
 .estate_detail .w_img .square_small .square_small_img img {
   width: 100%;
   height: 170px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .estate_detail .w_img .square_big_content {
   margin-left: 20px;
@@ -422,7 +427,8 @@ input[type=number] {
 .estate_detail .list_square_img li a img {
   width: 100%;
   height: 260px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .estate_detail .box_rectangle_img {
   margin-bottom: 20px;
@@ -435,7 +441,8 @@ input[type=number] {
 .estate_detail .rectangle_img img {
   width: 100%;
   height: 400px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .estate_detail .w_box_square {
   display: flex;
@@ -456,7 +463,8 @@ input[type=number] {
 .estate_detail .w_box_square .box_square a img {
   width: 100%;
   height: 400px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .list_estate_item {
@@ -483,7 +491,8 @@ input[type=number] {
 .list_estate_item li .list_estate_item_img img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .list_estate_item li .list_estate_item_img a {
   display: block;
@@ -501,7 +510,7 @@ input[type=number] {
   margin-bottom: 10px;
 }
 .list_estate_item li .list_estate_item_content p {
-  font-family: 'SF Pro Display';
+  font-family: "SF Pro Display";
   margin-bottom: 0;
   font-size: 0.875em;
   font-weight: 500;
@@ -553,7 +562,7 @@ input[type=number] {
 }
 .mansiongallery p {
   line-height: 200%;
-  font-family: 'SF Pro Text Regular';
+  font-family: "SF Pro Text Regular";
 }
 .mansiongallery .mansiongallery_item {
   margin-top: 30px;
@@ -573,10 +582,11 @@ input[type=number] {
 .mansiongallery .mansiongallery_item .mansiongallery_img img {
   width: 100%;
   height: 290px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .mansiongallery .mansiongallery_item .mansiongallery_content h3 {
-  font-family: 'SF Pro Text Regular';
+  font-family: "SF Pro Text Regular";
   color: #AD814D;
   font-weight: 700;
   font-size: 1.25em;
@@ -597,7 +607,7 @@ input[type=number] {
   max-width: 332px;
   text-align: center;
   font-weight: 700;
-  font-family: 'SF Pro Text Regular';
+  font-family: "SF Pro Text Regular";
   font-size: 1em;
   color: #AD814D;
   border: 1px solid var(--Primary, #AD814D);
@@ -619,11 +629,12 @@ input[type=number] {
 .mansiongallery .box_inquiries_contact .box_inquiries_contact_content .map img {
   width: 100%;
   height: 240px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .mansiongallery .box_inquiries_contact .info h5 {
   color: #000;
-  font-family: 'SF Pro Text Regular';
+  font-family: "SF Pro Text Regular";
   font-weight: 400;
   line-height: 180%;
   font-size: 1.25em;
@@ -633,7 +644,7 @@ input[type=number] {
   font-weight: 700;
   margin-bottom: 10px;
   line-height: 120%;
-  font-family: 'SF Pro Display';
+  font-family: "SF Pro Display";
 }
 .mansiongallery .box_inquiries_contact .info p small {
   font-size: 0.8571em;
@@ -649,10 +660,10 @@ input[type=number] {
   min-height: 40px;
   margin-top: 15px;
   position: relative;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 .mansiongallery .box_inquiries_contact .btn_reserve::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   right: 2px;
@@ -661,7 +672,7 @@ input[type=number] {
   border: 1px solid #fff;
 }
 .mansiongallery .box_inquiries_contact .btn_reserve::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 30px;
   top: 0;
@@ -765,7 +776,6 @@ input[type=number] {
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .section_contactus .check-radio span {
@@ -847,7 +857,8 @@ input[type=number] {
 .box_estates_info_top .box_estates_info_top_img img {
   width: 100%;
   height: 150px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .box_estates_info_top .box_estates_info_top_content {
   width: 100%;
@@ -863,6 +874,7 @@ input[type=number] {
 }
 .box_estates_info_top .box_estates_info_top_content table th {
   color: #9a9a9a;
+  width: 80px;
 }
 .box_estates_info_top .box_estates_info_top_content table td {
   font-size: 0.875em;
@@ -935,7 +947,7 @@ input[type=number] {
 .section_unit_detail h2 {
   font-weight: 500;
   margin-bottom: 20px;
-  font-family: 'SF Pro Display';
+  font-family: "SF Pro Display";
 }
 .section_unit_detail .box_unit_detail_img {
   display: flex;
@@ -951,7 +963,8 @@ input[type=number] {
 .section_unit_detail .box_unit_detail_img .big_img img {
   width: 100%;
   height: 490px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .section_unit_detail .box_unit_detail_img .list_fourimg {
   padding: 0;
@@ -974,7 +987,8 @@ input[type=number] {
 .section_unit_detail .box_unit_detail_img .list_fourimg li img {
   width: 100%;
   height: 236px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .section_unit_detail .box_unit_detail_info {
   margin-top: 30px;
@@ -1011,7 +1025,7 @@ input[type=number] {
   background: #F2F2F2;
   padding: 30px 40px 40px 40px;
   margin-bottom: 100px;
-  font-family: 'SF Pro Display';
+  font-family: "SF Pro Display";
 }
 .section_unit_detail .box_unit_detail_info .box_features.brown {
   background: #F7F3EA;
@@ -1061,7 +1075,7 @@ input[type=number] {
   padding-left: 10px;
 }
 .section_unit_detail .box_unit_detail_info .box_objectsummary h2::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -1077,7 +1091,7 @@ input[type=number] {
 .section_unit_detail .box_unit_detail_info .box_objectsummary table th {
   background-color: #F7F3EA;
   border-right: 1px solid #E0E0E0;
-  min-width: 200px;
+  width: 200px;
   color: #AD814D;
 }
 .section_unit_detail .box_unit_detail_info .box_objectsummary h3 {
@@ -1103,7 +1117,7 @@ input[type=number] {
   position: relative;
 }
 .section_unit_detail .box_unit_detail_info .box_considering_purchasing .box .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -1161,7 +1175,7 @@ input[type=number] {
   margin-bottom: 30px;
 }
 .section_unit_detail .box_unit_detail_info .box_followprostyle::before {
-  content: 'PROSTYLEのSNSをフォロー';
+  content: "PROSTYLEのSNSをフォロー";
   font-weight: 700;
   font-size: 1em;
   color: #AD814D;
@@ -1223,7 +1237,7 @@ input[type=number] {
   margin-bottom: 50px;
 }
 .list_page .section_result .section_result_head h3 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 400;
   letter-spacing: 2px;
   font-size: 2.25em;
@@ -1264,7 +1278,7 @@ input[type=number] {
   position: relative;
 }
 .list_page .section_result .list_result li ol li::before {
-  content: '● ';
+  content: "● ";
   display: inline-block;
 }
 .list_page .section_result .list_result li .item_img {
@@ -1277,14 +1291,12 @@ input[type=number] {
 .list_page .section_result .list_result li .item_img img {
   width: 100%;
   height: 250px;
-  object-fit: cover;
-  -webkit-transform: scale(1);
+  -o-object-fit: cover;
+     object-fit: cover;
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .list_page .section_result .list_result li .item_img:hover img {
-  -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
 .list_page .section_result .list_result li .item_content {
@@ -1369,7 +1381,7 @@ input[type=number] {
   background: #634723;
 }
 .box_purchasing .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 3px;
@@ -1406,7 +1418,7 @@ input[type=number] {
   font-size: 0.875em;
 }
 .box_consideringselling ul li::before {
-  content: '• ';
+  content: "• ";
 }
 .box_consideringselling .btn {
   width: 100%;
@@ -1449,7 +1461,6 @@ hr.dot {
   .w_estate_list_item .estate_list_item .estate_list_item_main .estate_list_img img {
     height: auto;
   }
-
   .estate_detail .w_box_square {
     flex-direction: column;
   }
@@ -1457,12 +1468,30 @@ hr.dot {
     margin-right: 0;
     margin-bottom: 15px;
   }
+  .estate_detail .w_box_square .box_square.map {
+    margin-bottom: 30px;
+    height: auto;
+  }
+  .estate_detail .w_box_square .box_square.map img {
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
   .estate_detail .w_img {
     flex-direction: column;
   }
   .estate_detail .w_img .square_big {
     min-width: auto;
     margin-right: 0;
+  }
+  .estate_detail .w_img .square_big.map {
+    margin-bottom: 30px;
+    height: auto;
+  }
+  .estate_detail .w_img .square_big.map img {
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .estate_detail .rectangle_img {
     height: 300px;
@@ -1493,7 +1522,6 @@ hr.dot {
     margin-right: 0;
     padding: 15px;
   }
-
   .section_contactus label {
     margin-bottom: 5px;
   }
@@ -1512,12 +1540,10 @@ hr.dot {
   .section_contactus .contactus_top h2 {
     font-size: 1.8em;
   }
-
   .list_estate_item {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
   .mansiongallery h2 {
     font-size: 1.2em;
   }
@@ -1540,7 +1566,7 @@ hr.dot {
     font-size: 1em;
   }
   .mansiongallery .box_inquiries_contact .info p {
-    font-size: .75em;
+    font-size: 0.75em;
   }
   .mansiongallery .box_inquiries_contact .box_inquiries_contact_content {
     flex-direction: column;
@@ -1549,11 +1575,9 @@ hr.dot {
     min-width: auto;
     margin: 15px 0;
   }
-
   .accepting_propertyentries {
     padding: 15px;
   }
-
   .section_unit_detail .box_unit_detail_img {
     flex-wrap: wrap;
   }
@@ -1573,11 +1597,11 @@ hr.dot {
   }
   .section_unit_detail .box_unit_detail_info .box_objectsummary table th {
     min-width: 120px;
+    width: auto;
   }
   .section_unit_detail .box_unit_detail_info .box_followprostyle::before {
     width: 70%;
   }
-
   .box_keypoints {
     height: auto;
     flex-direction: column;
@@ -1590,8 +1614,8 @@ hr.dot {
   }
   .box_keypoints p {
     margin-left: 0;
+    text-align: left;
   }
-
   .list_page .section_result .list_result li {
     width: 47%;
     min-width: auto;
@@ -1643,7 +1667,6 @@ hr.dot {
   .menu-list .social-list li:last-of-type a img {
     width: 17px;
   }
-
   .list_estate_item li {
     width: 48%;
     margin-right: 20px;
@@ -1651,7 +1674,6 @@ hr.dot {
   .list_estate_item li:nth-of-type(2n) {
     margin-right: 0;
   }
-
   .estate_detail_top .estate_detail_top_head h2 {
     font-size: 1em;
   }
@@ -1669,6 +1691,9 @@ hr.dot {
   }
 }
 @media (max-width: 430px) {
+  .section_unit_detail h2 {
+    font-size: 1.3em;
+  }
   .section_unit_detail .box_unit_detail_img .big_img {
     height: 400px;
   }
@@ -1692,20 +1717,16 @@ hr.dot {
     margin-right: 0;
     margin-bottom: 15px;
   }
-
   .article_estate .article_subtitle2 {
     font-size: 1.3em;
   }
-
   .list_estate_item li {
     width: 100%;
     margin-right: 0;
   }
-
   .box_consideringselling {
     padding: 20px;
   }
-
   .box_estates_info_top {
     flex-direction: column;
   }
@@ -1718,11 +1739,10 @@ hr.dot {
   .box_estates_info_top .box_estates_info_top_img img {
     height: 200px;
   }
-
   .list_page .section_result .list_result li .item_img {
     height: 150px;
   }
   .list_page .section_result .list_result li .item_img img {
     height: 150px;
   }
-}
+}/*# sourceMappingURL=styles_v2.css.map */
