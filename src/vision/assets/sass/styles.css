@@ -2239,6 +2239,7 @@ header .btn_enterprisesettings:hover {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  position: relative;
 }
 .admin_settings_content .w_box_move .box_move {
   text-align: center;
@@ -2252,13 +2253,17 @@ header .btn_enterprisesettings:hover {
 .admin_settings_content .btn_renew {
   background: #0168B7;
   color: #fff;
-  margin: 50px auto;
   display: block;
-  min-width: 150px;
+  min-width: 120px;
   font-weight: 600;
   font-size: 0.875em;
   border-radius: 4px;
   padding: 13px 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 .admin_settings_content .btn_renew:hover {
   background: #004c86;
@@ -2281,6 +2286,12 @@ header .btn_enterprisesettings:hover {
   font-size: 0.875em;
 }
 
+@media (max-width: 992px) {
+  .admin_settings_content .btn_renew {
+    position: relative;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 830px) {
   .modal_editcontractcompany .modal-header {
     margin-left: 15px;
