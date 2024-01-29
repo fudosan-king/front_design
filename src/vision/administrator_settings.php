@@ -139,7 +139,9 @@
                                 </a>
                                 <p>除外</p>
                             </div>
+                            <button class="btn btn_renew" type="submit">更新</button>
                         </div>
+
                     </div>
                     <div class="col-12 col-lg-5">
                         <div class="box_table">
@@ -188,8 +190,6 @@
                         </div>
                     </div>
                 </div>
-
-                <button class="btn btn_renew" type="submit">更新</button>
 
             </form>
 
@@ -318,8 +318,6 @@
                                 <span>URL</span> <input type="text" class="form-control" id="">
                             </div>
                         </div>
-
-                        <button class="btn btn_renew" type="submit">更新</button>
 
                     </form>
                 </div>
