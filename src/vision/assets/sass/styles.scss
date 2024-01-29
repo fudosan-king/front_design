@@ -2604,11 +2604,11 @@ footer {
     border: 1px solid #ccc;
     background: #fff;
     width: 100%;
-    height: 230px;
+    height: 253px;
     overflow: hidden;
     img {
       width: 100%;
-      height: 230px;
+      height: 253px;
       -o-object-fit: contain;
         object-fit: contain;
       -o-object-position: 50% 50%;
@@ -2617,12 +2617,12 @@ footer {
   }
 
   .card {
-    min-height: 75%;
+    min-height: 200px;
     border-radius: 0;
     .card-body {
-      font-size: 0.75em;
+      font-size: 1em;
       line-height: 1.5em;
-      padding: 5px;
+      padding: 10px;
     }
   }
 
