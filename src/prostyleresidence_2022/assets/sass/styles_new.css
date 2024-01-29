@@ -1,0 +1,26 @@
+.list_intros {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.list_intros li {
+  margin-right: 30px;
+  width: 31.33%;
+}
+.list_intros li:nth-child(3n) {
+  margin-right: 0;
+}
+
+@media (max-width: 912px) {
+  .list_intros li {
+    width: 30.33%;
+  }
+}
+@media (max-width: 414px) {
+  .list_intros li {
+    width: 100%;
+    margin-right: 0;
+  }
+}/*# sourceMappingURL=styles_new.css.map */

@@ -1,0 +1,139 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-collapse.collapse:not(.show) {
+    display: block;
+  }
+  .navbar-expand-lg .navbar-nav {
+    text-align: right;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    display: inline-block;
+    padding: 5px 20px;
+  }
+  h1 {
+    font-size: 2.25em;
+  }
+  section {
+    padding: 40px 22.5px;
+  }
+  .btnwhat {
+    min-width: auto;
+    display: block;
+    padding-left: 45px;
+    padding-right: 5px;
+    text-align: left;
+  }
+  .section_topbanner .topbanner_img {
+    padding-bottom: 0;
+    height: 810px;
+  }
+  .section_topbanner .topbanner_img .topbanner_content {
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  .section_topbanner .topbanner_img .topbanner_content p {
+    font-size: 1em;
+  }
+  .section_topbanner .topbanner_img .topbanner_content p img {
+    width: 200px;
+  }
+  .section_topbanner .topbanner_img .topbanner_content h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+  .section_features .box_top_features {
+    padding: 60px 30px 30px;
+  }
+  .section_features article {
+    margin-top: 20px;
+  }
+  .section_features article .box_features_item {
+    display: block;
+  }
+  .section_features article .box_features_item .box_features_left {
+    width: 100%;
+    padding: 20px;
+  }
+  .section_features article .box_features_item .box_features_right {
+    width: 100%;
+  }
+  .section_features article p:last-of-type {
+    margin-top: 15px;
+    font-size: 0.875em;
+  }
+  .section_features article .box_features_item_more {
+    padding: 20px 30px 30px;
+  }
+  .section_features article .box_features_item_more h2 {
+    font-size: 1.125em;
+    margin-bottom: 0;
+  }
+  .section_features article .box_features_item_more p {
+    margin-top: 15px;
+  }
+  .section_features article .box_features_item_more .box_features_item_more_img {
+    width: 100%;
+    height: 160px;
+  }
+  .section_features article .box_features_item_more .box_features_item_more_img img {
+    width: 100%;
+    height: 160px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section_withoutwaste {
+    overflow: hidden;
+    padding: 30px 0;
+  }
+  .section_withoutwaste .btnBlack {
+    min-width: 240px;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .section_withoutwaste .btnBlack:last-of-type {
+    margin-bottom: 0;
+  }
+  .section_withoutwaste .withoutwaste_img {
+    height: 80px;
+    margin: 0 -30px;
+  }
+  .section_withoutwaste .withoutwaste_img img {
+    width: 100%;
+    height: 80px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  footer .footer_top ul:first-of-type {
+    margin-bottom: 15px;
+  }
+  footer .footer_top ul:last-of-type li {
+    display: block;
+    margin: 0;
+  }
+  footer .footer_bottom {
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+  footer .footer_bottom p {
+    font-weight: 500;
+    font-size: 0.75em;
+  }
+}
+@media (max-width: 320px) {
+  section {
+    padding: 15px 0;
+  }
+}/*# sourceMappingURL=mobile.css.map */

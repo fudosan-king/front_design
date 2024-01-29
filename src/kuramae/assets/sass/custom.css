@@ -1,0 +1,105 @@
+.contactus_content .form-group {
+  padding: 0 20px;
+}
+
+.logged-in .news_afterlogin {
+  display: none;
+}
+
+.contact_sale .custom-checkbox label.all-time::before {
+  background-color: #e9ecef;
+}
+
+@media (min-width: 992px) {
+  .section_plan .box_infoview_content .col-12.col-lg-5 {
+    opacity: 0;
+    transition: opacity 1s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .section_plan .box_infoview_content.show .col-12.col-lg-5 {
+    opacity: 1;
+  }
+}
+.my-brand li:hover a {
+  text-decoration: none;
+}
+
+/*Css Placeholder*/
+.hidden {
+  display: none;
+}
+
+.placeholder {
+  top: 5px;
+  left: 30px;
+  right: 30px;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: absolute;
+  color: #828282;
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
+.reservation label {
+  line-height: 3;
+}
+
+@media (max-width: 992px) {
+  .header_sub .menu .menuLine {
+    background: #000;
+  }
+  /*Menu*/
+  .menu-show .header_sub, .menu-show .header_afterlogin {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+  }
+}
+@media (max-width: 768px) {
+  .logged-in.menu-show .bsnav-mobile .navbar {
+    padding-top: 73px;
+  }
+}
+@media (max-width: 641px) {
+  /*Menu Top*/
+  .scroll_title {
+    font-size: 0.625rem;
+  }
+  .scroll_down {
+    height: 150px;
+  }
+  .scroll_down::before {
+    height: 100px;
+  }
+  .scroll_down::after {
+    bottom: 100px;
+    animation-name: scrollBar1;
+    animation-duration: 2.5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-animation-iteration-count: infinite;
+  }
+  /*Slide*/
+  .before-login .slide-main .slideContent {
+    height: 100vh;
+  }
+  .before-login .slideContent .slide {
+    height: 200px;
+  }
+}
+@keyframes (scrollBar1) {
+  0% {
+    bottom: 100px;
+    height: 0;
+  }
+  5% {
+    bottom: 45px;
+    height: 55px;
+  }
+  100% {
+    bottom: -55px;
+    height: 55px;
+  }
+}/*# sourceMappingURL=custom.css.map */

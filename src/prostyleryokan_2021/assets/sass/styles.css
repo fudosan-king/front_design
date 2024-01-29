@@ -1,0 +1,256 @@
+.section_search {
+  background: #333030;
+  padding: 30px 0 45px;
+}
+
+.nav-tabs {
+  justify-content: center;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 0;
+}
+.nav-tabs .nav-item:last-child .nav-link {
+  border-left: none;
+}
+.nav-tabs .nav-item.show .nav-link {
+  background-color: #444444;
+  border-color: #dee2e6;
+}
+.nav-tabs .nav-item .nav-link {
+  border-radius: 0;
+  color: #fff;
+  border-color: #dee2e6 #dee2e6 #333030;
+  background: #222222;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  min-width: 214px;
+  font-size: 1.2308em;
+}
+.nav-tabs .nav-item .nav-link img {
+  margin-right: 10px;
+}
+.nav-tabs .nav-item .nav-link.active {
+  background-color: #333030;
+}
+.nav-tabs .nav-item .nav-link.active:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: #333030;
+}
+
+.frm_search ::-moz-placeholder {
+  color: #fff;
+}
+
+.frm_search ::placeholder {
+  color: #fff;
+}
+.frm_search .custom-select {
+  color: #fff;
+  border-radius: 0;
+  background: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3c!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 14 8' style='enable-background:new 0 0 14 8;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:none;stroke:%23FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;%7d %3c/style%3e%3cpath class='st0' d='M1,1l6,6l6-6'/%3e%3c/svg%3e ") no-repeat right 1.2rem center/12px 10px;
+  background-color: #444444;
+  height: calc(1.5em + 0.75rem + 4px);
+  border: none;
+  padding-left: 20px;
+}
+.frm_search .custom-select:focus {
+  box-shadow: none;
+}
+.frm_search .tab-content {
+  padding-top: 25px;
+}
+.frm_search .tab-content .frm_search_content {
+  display: flex;
+  justify-content: center;
+}
+.frm_search .tab-content .frm_search_content .form-group {
+  margin-right: 20px;
+  margin-bottom: 0;
+  width: 204px;
+}
+.frm_search .tab-content .frm_search_content .form-group:first-child {
+  width: 316px;
+}
+.frm_search .tab-content .frm_search_content .form-group:last-child {
+  margin-right: 0;
+}
+.frm_search .tab-content .frm_search_content .form-group.box_number {
+  width: 92px;
+}
+.frm_search .btn_searchby {
+  background: #fff;
+  color: #000;
+  font-size: 1.2308em;
+  width: 100%;
+  padding: 7px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.frm_search .box_date {
+  position: relative;
+}
+.frm_search .box_date img {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.frm_search label {
+  color: #fff;
+  font-size: 1.0769em;
+  font-weight: 600;
+}
+.frm_search .form-control {
+  background: #444444;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  padding-left: 20px;
+}
+.frm_search .form-control.datetime, .frm_search .form-control.datetime2, .frm_search .form-control.datetime3, .frm_search .form-control.datetime4 {
+  padding-left: 20px;
+}
+
+.btn_findvacancy {
+  display: none;
+  background: #333030;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1.2308em;
+}
+.btn_findvacancy:hover, .btn_findvacancy:focus, .btn_findvacancy.focus {
+  color: #fff;
+}
+
+.modal_vacancysearch .modal-header {
+  padding-top: 0;
+}
+.modal_vacancysearch .modal-header .close {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  opacity: 1;
+}
+.modal_vacancysearch .modal-title {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.modal_vacancysearch .modal-content {
+  background: #333030;
+  padding: 36px 25px 45px;
+  border: none;
+  border-radius: 0;
+}
+.modal_vacancysearch .modal-body {
+  padding: 0;
+}
+.modal_vacancysearch .frm_search label {
+  margin-bottom: 5px;
+}
+.modal_vacancysearch .frm_search .tab-content {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 65px 50px;
+}
+.modal_vacancysearch .frm_search .tab-content .frm_search_content {
+  display: block;
+}
+.modal_vacancysearch .frm_search .tab-content .frm_search_content .form-group {
+  margin-bottom: 20px;
+  margin-right: 0;
+  width: 100%;
+}
+
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 593px;
+  height: 100%;
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.modal.right.fade .modal-dialog {
+  right: -593px;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+  right: 0;
+}
+
+@media (max-width: 1200px) {
+  .frm_search label {
+    font-size: 1em;
+  }
+  .frm_search .btn_searchby {
+    height: 40px;
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .btn_findvacancy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  .modal_vacancysearch .modal-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .modal_vacancysearch .modal-title {
+    padding-top: 0;
+  }
+  .modal_vacancysearch .frm_search .tab-content {
+    padding: 50px 20px;
+  }
+  .modal.right .modal-dialog {
+    width: 100%;
+  }
+  .nav-tabs .nav-item {
+    flex: 1 1 auto;
+  }
+  .nav-tabs .nav-item .nav-link {
+    min-width: auto;
+  }
+}
+@media (max-width: 736px) {
+  footer .copyright {
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 593px;
+  }
+}/*# sourceMappingURL=styles.css.map */

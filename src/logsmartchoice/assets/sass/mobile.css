@@ -1,0 +1,390 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1126px;
+  }
+}
+@media (max-width: 1024px) {
+  ul.recommand_list li {
+    width: 48%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  ul.recommand_list li:nth-child(3n) {
+    margin-right: 15px;
+  }
+  ul.recommand_list li:last-child, ul.recommand_list li:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+  .navbar {
+    padding: 10px 15px;
+  }
+  .navbar .navbar-brand {
+    position: relative;
+    top: -2px;
+  }
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 15px;
+  }
+  .bsnav-mobile .bsnav-mobile-overlay {
+    background: rgba(140, 125, 96, 0.8);
+  }
+  .bsnav-mobile .navbar {
+    width: 250px;
+  }
+  .bsnav-mobile .navbar-nav {
+    padding: 0;
+  }
+  .bsnav-mobile .navbar-nav .nav-item:nth-child(4) .nav-link {
+    text-align: right;
+    border-bottom: none;
+  }
+  .bsnav-mobile .navbar-nav .nav-item .nav-link {
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .spacing {
+    height: 55.7px;
+  }
+  h2 {
+    font-size: 1.625em;
+  }
+  .section_topbanner {
+    height: 410px;
+  }
+  .section_topbanner .topbanner_content {
+    padding: 15px;
+  }
+  .section_topbanner p {
+    margin-bottom: 10px;
+  }
+  .section_topbanner p:first-child {
+    margin-top: 30px;
+  }
+  .section_topinfo .w_box_topinfo {
+    width: 100%;
+  }
+  .section_topinfo .box_topinfo .box_topinfo_img {
+    text-align: center;
+  }
+  .section_topinfo .box_topinfo .btn_askonline {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .section_topinfo .box_price p.label {
+    margin-bottom: 10px;
+    display: block;
+    margin-right: 10px;
+    font-size: 0.6em;
+  }
+  .section_topinfo .box_price p.prices {
+    font-size: 1em;
+  }
+  .section_topinfo table th {
+    width: 15%;
+  }
+  .w_content {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .w_content p.describe {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .w_content .box_example {
+    margin: 30px 0;
+  }
+  .w_content .box_example .box_example_content {
+    padding: 10px;
+  }
+  .w_content .box_example .box_example_content p {
+    line-height: 1.5em;
+    font-size: 0.875em;
+  }
+  .section_expand_room::before {
+    top: 87px;
+  }
+  .section_expand_room .box_expand_room {
+    margin-top: 40px;
+  }
+  .section_expand_room .box_expand_room h2 {
+    font-size: 1.875em;
+  }
+  .section_expand_room .box_expand_room .box_intro .box_intro_content .box_intro_content_text {
+    width: 100%;
+    padding: 10px;
+  }
+  .section_expand_room .box_expand_room .box_intro .box_intro_content .box_intro_content_text p {
+    line-height: 1.5em;
+    font-size: 0.875em;
+  }
+  .section_expand_room .box_expand_room .box_intro .box_intro_content img {
+    position: relative;
+    top: 45px;
+    right: -10px;
+    float: right;
+  }
+  .section_expand_room .box_expand_room .box_expand_room_content {
+    width: 100%;
+  }
+  .section_expand_room .box_expand_room .box_expand_room_content .box_beforeafter .box_beforeafter_img {
+    margin-bottom: 15px;
+  }
+  .box_smallwindow {
+    margin: 30px 0;
+    padding-bottom: 40px;
+  }
+  .section_originalwood .w_originalwood {
+    width: 100%;
+  }
+  .section_originalwood .w_originalwood h2 {
+    margin-bottom: 15px;
+  }
+  .section_originalwood .w_originalwood p.describe {
+    padding: 0;
+  }
+  .section_originalwood .w_originalwood .box_device {
+    margin-top: 30px;
+  }
+  .section_originalwood .w_originalwood .box_originalwood .originalwood_item .originalwood_img {
+    height: 300px;
+  }
+  .section_originalwood .w_originalwood .box_originalwood .originalwood_item .originalwood_img img {
+    height: 300px;
+  }
+  .section_originalwood .w_originalwood .box_renovation {
+    margin-top: 30px;
+  }
+  .section_originalwood .w_originalwood .box_renovation .box_renovation_describe {
+    padding: 0;
+  }
+  .section_originalwood .w_originalwood .box_renovation .box_renovation_content {
+    margin-bottom: 30px;
+  }
+  .section_originalwood .w_originalwood .box_renovation .box_renovation_content img {
+    top: 40px;
+    right: -10px;
+  }
+  .section_furniture {
+    padding: 30px 0;
+  }
+  .section_furniture .box_furniture {
+    width: 100%;
+  }
+  .section_furniture .box_furniture .describe {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .section_searchby h3 {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .section_searchby ul {
+    text-align: center;
+  }
+  .section_searchby ul li:first-child a {
+    padding-left: 10px;
+  }
+  .section_searchby .back_to_top {
+    right: 15px;
+  }
+  footer .footer_middle {
+    text-align: center;
+  }
+  footer .footer_middle .phone_number {
+    text-align: center;
+  }
+  footer .footer_middle .btn_contactus {
+    margin-top: 15px;
+  }
+  footer .footer_bottom {
+    padding-bottom: 120px;
+  }
+  footer .footer_last_bottom .phone_number {
+    text-align: center;
+  }
+  footer .footer_last_bottom .btn_contactus {
+    margin-top: 10px;
+    display: block;
+    min-width: 200px;
+  }
+  .section_login .frm_login .btnlogin {
+    min-width: auto;
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+  }
+  .section_login .frm_login p {
+    width: auto;
+  }
+  .section_searchresults .box_filter {
+    margin-bottom: 30px;
+  }
+  .section_searchresults .box_filter .w_box_filter_item {
+    display: block;
+  }
+  .section_searchresults .box_filter .w_box_filter_item .box_filter_item {
+    flex: inherit;
+    width: 48%;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .section_searchresults .box_filter .w_box_filter_item .box_filter_item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .section_propertyinformation ul.list_property li {
+    width: 48%;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+  .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body {
+    padding: 10px;
+  }
+  .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 {
+    font-size: 1em;
+    min-height: 40px;
+  }
+  .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body p {
+    text-align: center;
+  }
+  .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body .property_info {
+    font-size: 0.6em;
+    text-align: center;
+  }
+  .section_showroom .box_showroom {
+    padding: 15px;
+  }
+  .section_showroom .box_showroom .box_showroom_img {
+    margin-right: 0;
+  }
+  .section_showroom .box_showroom .box_showroom_content {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .section_showroom .box_showroom .box_showroom_content .sub_title {
+    margin-bottom: 15px;
+  }
+  .section_seminar article:last-of-type {
+    margin-bottom: 20px;
+  }
+  .section_seminar article p.article_thumbnail {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .section_seminar article p.article_meta a {
+    font-size: 0.6em;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  .section_construction ul li {
+    width: 47%;
+    margin-right: 15px;
+  }
+  .section_construction ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+  .expand_room_carousel .carousel-cell {
+    height: 186px;
+  }
+  .expand_room_carousel .carousel-cell img {
+    height: 186px;
+  }
+  .section_expand_room_carousel {
+    padding-bottom: 80px;
+  }
+  .box_equiment_carousel .carousel.carousel-main {
+    margin-bottom: 5px;
+  }
+  .box_equiment_carousel .carousel.carousel-main .carousel-cell {
+    height: 259px;
+  }
+  .box_equiment_carousel .carousel.carousel-main .carousel-cell img {
+    height: 259px;
+  }
+  .box_equiment_carousel .carousel.carousel-main .carousel-cell p {
+    padding: 10px;
+  }
+  .box_equiment_carousel .carousel.carousel-nav .carousel-cell {
+    width: 100px;
+    height: 75px;
+    margin-right: 5px;
+  }
+  .box_equiment_carousel .carousel.carousel-nav .carousel-cell img {
+    height: 75px;
+  }
+  .box_equiment_carousel .flickity-prev-next-button.next {
+    right: 15px;
+  }
+  .box_equiment_carousel .flickity-prev-next-button.previous {
+    left: 15px;
+  }
+  .box_privatelabel {
+    margin-top: 40px;
+  }
+  .box_flooring {
+    padding: 15px;
+  }
+  .box_flooring ul li {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .section_propertyinformation ul.list_property li .box_property_item .box_property_item_body h2 .btn_like {
+    top: 0;
+  }
+}
+@media (max-width: 414px) {
+  ul.recommand_list li {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 375px) {
+  .section_propertyinformation ul.list_property li {
+    width: 47.5%;
+  }
+  .btnBlack {
+    min-width: 270px;
+  }
+}
+@media (max-width: 320px) {
+  .section_propertyinformation ul.list_property li {
+    width: 47%;
+  }
+  .section_searchresults .box_filter .w_box_filter_item .box_filter_item {
+    width: 46%;
+    font-size: 0.75em;
+  }
+  .box_flooring ul li article p.article_thumbnail {
+    margin-right: 10px;
+  }
+  .box_flooring ul li article header h2 {
+    margin-bottom: 5px;
+  }
+  .box_flooring ul li article header p {
+    font-size: 0.7em;
+  }
+  .section_seminar article p.article_meta a {
+    font-size: 0.5em;
+    margin-right: 0;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 2px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

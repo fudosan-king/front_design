@@ -1,0 +1,224 @@
+.box_spacing p {
+  margin-bottom: 40px;
+}
+
+.section_living {
+  position: relative;
+}
+
+.living.left::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -33%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #F0ECE9;
+}
+
+.section_locations {
+  padding: 150px 0;
+}
+
+.spring_summer_content.right {
+  padding-left: 60px;
+}
+.spring_summer_content.right::after {
+  left: inherit;
+  right: -50%;
+}
+
+.section_subbanner .subbanner_img.bg_plan {
+  overflow: hidden;
+}
+.section_subbanner .subbanner_img.bg_plan img {
+  height: 680px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.equip-spec_box .equip-spec_box_img {
+  width: 100%;
+  height: 332px;
+  overflow: hidden;
+}
+.equip-spec_box .equip-spec_box_img img {
+  width: 100%;
+  height: 332px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.equip-spec_box .equip-spec_box_img.custom {
+  height: auto;
+}
+.equip-spec_box .equip-spec_box_img.custom img {
+  height: auto !important;
+}
+
+@media (max-width: 992px) {
+  .section_spring_summer .spring_summer_content.right {
+    top: -50px;
+    padding: 40px 0 10px 60px;
+  }
+  .section_spring_summer .spring_summer_content.right::after {
+    right: -35px;
+    top: 0;
+  }
+  .section_subbanner .subbanner_img.bg_plan {
+    overflow: hidden;
+    padding: 0;
+  }
+  .section_subbanner .subbanner_img.bg_plan img {
+    height: auto;
+  }
+  .equip-spec_box .equip-spec_box_img {
+    height: 200px;
+  }
+  .equip-spec_box .equip-spec_box_img img {
+    height: 200px !important;
+  }
+}
+@media (max-width: 992px) {
+  .slideContent .slide:nth-child(3) .slide_item {
+    background-size: contain;
+  }
+  .slide-main .slideContent .slide:nth-child(3) {
+    background: #b48856;
+  }
+}
+.section_access .box_map_img {
+  border: 1px solid #000;
+  background: none;
+  height: auto;
+}
+
+.living_img span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+.living_img span.black {
+  color: #000;
+}
+
+.box_equipment_info_img, .equipment-img {
+  position: relative;
+}
+.box_equipment_info_img span, .equipment-img span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+.box_equipment_info_img span.black, .equipment-img span.black {
+  color: #000;
+}
+
+.equip-spec_box .equip-spec_box_img span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+.equip-spec_box .equip-spec_box_img span.black {
+  color: #000;
+}
+
+.section_access .box_map_info-img {
+  position: relative;
+}
+.section_access .box_map_info-img span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+.section_access .box_map_info-img span.black {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .section_equip-spec .equip-spec li a {
+    padding: 0 5px;
+  }
+  .section_equip-spec .equip-spec ul {
+    flex-wrap: nowrap;
+  }
+  .section_equip-spec .equip-spec ul li {
+    min-height: 40px;
+    height: auto;
+  }
+}
+.section_subbanner {
+  position: relative;
+}
+.section_subbanner .label_date {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.slideContent .slide .label_date {
+  position: absolute;
+  z-index: 999;
+  right: 10px;
+  bottom: 100px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.box_images {
+  position: relative;
+}
+.box_images span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.625em;
+  line-height: 1em;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+.box_images span.black {
+  color: #000;
+}
+
+@media (max-width: 820px) {
+  .slideContent .slide .label_date {
+    bottom: 10px;
+  }
+  .slide-main_video {
+    bottom: 240px;
+  }
+  .slide-main_video p {
+    display: flex;
+    align-items: center;
+  }
+}/*# sourceMappingURL=styles_new.css.map */

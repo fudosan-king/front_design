@@ -1,0 +1,103 @@
+.section_reservation {
+  padding-top: 40px;
+}
+.section_reservation ul {
+  margin: 0;
+}
+.section_reservation ul.list_maininfo {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_reservation ul.list_maininfo li {
+  font-size: 1.875em;
+  padding: 0 15px;
+  position: relative;
+}
+.section_reservation ul.list_maininfo li::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  height: 56px;
+  background: #221714;
+  margin: auto;
+}
+.section_reservation ul.list_maininfo li:last-of-type {
+  padding-right: 0;
+}
+.section_reservation ul.list_maininfo li:last-of-type::after {
+  display: none;
+}
+.section_reservation ul.list_maininfo li:last-of-type span.route {
+  position: relative;
+  display: inline;
+}
+.section_reservation ul.list_maininfo li:last-of-type span.note {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 0.4667em;
+}
+.section_reservation ul.list_maininfo li:first-of-type {
+  padding-left: 0;
+  letter-spacing: -0.1em;
+}
+.section_reservation ul.list_maininfo li:first-of-type span {
+  position: relative;
+}
+.section_reservation ul.list_maininfo li:first-of-type span.small_text {
+  font-size: 0.4667em;
+  letter-spacing: 0.01em;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+}
+.section_reservation ul.list_maininfo li:first-of-type span.medium_text {
+  font-size: 1.5em;
+}
+.section_reservation ul.list_maininfo li span {
+  display: inline-block;
+}
+.section_reservation ul.list_maininfo li span.big_number {
+  font-size: 3.3333em;
+  letter-spacing: -0.2em;
+  margin-left: -20px;
+}
+.section_reservation ul.list_maininfo li span.small_number {
+  font-size: 1.5em;
+}
+
+@media (max-width: 1355px) {
+  .section_reservation ul.list_maininfo {
+    flex-direction: column;
+    margin: 0 -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section_reservation ul.list_maininfo li {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid #000;
+  }
+  .section_reservation ul.list_maininfo li::after {
+    display: none;
+  }
+  .section_reservation ul.list_maininfo li:last-of-type span.route {
+    font-size: 0.75em;
+  }
+  .section_reservation ul.list_maininfo li span.big_number {
+    font-size: 2em;
+    margin-left: 0;
+  }
+  .section_reservation ul.list_maininfo li span.medium_text {
+    font-size: 1em;
+  }
+  .section_reservation ul.list_maininfo li span.note {
+    top: 0;
+  }
+}/*# sourceMappingURL=styles_new.css.map */
