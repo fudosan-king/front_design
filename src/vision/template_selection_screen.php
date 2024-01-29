@@ -8,13 +8,13 @@
 <body id="body-pd">
     <header class="header" id="header">
         <h1>
-            <a href="http://18.179.82.28/watashiga2/admin/dashboard" class="logo"><img src="http://18.179.82.28/watashiga2/vision/logo_white.svg" style="vertical-align:baseline" width="200px" alt="header_logo"></a>
+            <a href="http://18.179.82.28/watashiga2/admin/dashboard" class="logo"><img src="assets/images/logo_white.svg" style="vertical-align:baseline" width="200px" alt="header_logo"></a>
         </h1>
         <div class="header_right">
-            <a href="http://18.179.82.28/watashiga2/admin/dashboard" class="logo"><img src="http://18.179.82.28/watashiga2/storage/companies/2/50yLR36v5uZ9WiRUmgJgPZIrNOPhi32tMeuwxrFp.png" width="123" alt="header_logo"></a>
+            <a href="http://18.179.82.28/watashiga2/admin/dashboard" class="logo"><img src="assets/images/50yLR36v5uZ9WiRUmgJgPZIrNOPhi32tMeuwxrFp.png" width="123" alt="header_logo"></a>
 
 
-            <div class="header_avatar" style="position: relative; margin-right: 0; top: -5px;">
+            <div class="header_avatar" style="position: relative; margin-right: 0;">
                 <div class="avatar_info avatar_name" style="font-size: 1.5em !important;">
                     <p>VISION11</p>
                 </div>
@@ -46,7 +46,7 @@
 
                 <a class="dropdown-toggle btn_dropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     <span class="avatar_img">
-                        <img src="http://18.179.82.28/watashiga2/storage/avatars/qq1DPIKMiWn0e156lsxV74RkOFV3Xqb6IUU8bita.jpg" alt="avatar">
+                        <img src="assets/images/qq1DPIKMiWn0e156lsxV74RkOFV3Xqb6IUU8bita.jpg" alt="avatar">
                     </span>
 
                     <div class="avatar_info avatar_name">
