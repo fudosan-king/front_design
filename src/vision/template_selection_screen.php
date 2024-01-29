@@ -93,7 +93,7 @@
             <h3>テンプレート１</h3>
             <form action="">
                 <div class="row">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-12">
                         <div class="template_content">
                             <ul class="list_template">
                                 <li>
