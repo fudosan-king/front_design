@@ -93,7 +93,7 @@
             <h3>テンプレート１</h3>
             <form action="">
                 <div class="row">
-                    <div class="col-12 col-lg-12">
+                    <div class="col-12 col-lg-12 mb-5">
                         <div class="template_content">
                             <ul class="list_template">
                                 <li>
@@ -107,7 +107,29 @@
                                     </div>
                                 </li>
                             </ul>
-
+                            <div class="tempalte_des">
+                                <div class="card">
+                                    <div class="card-body">
+                                        自己紹介付きのテンプレートです。<br>
+                                        製品・サービスの基本的な紹介や、商談後の資料の提供、カスタマーサポートでの資料提供などにご利用ください。
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn_doit">これにする</a>
+                            </div>
+                        </div>
+                        <div class="template_content">
+                            <ul class="list_template">
+                                <li>
+                                    <div class="box_template">
+                                        <a href="#"><img class="img-fluid" src="assets/images/PC.png" alt="PC"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_template">
+                                        <a href="#"><img class="img-fluid" src="assets/images/SP.png" alt="SP"></a>
+                                    </div>
+                                </li>
+                            </ul>
                             <div class="tempalte_des">
                                 <div class="card">
                                     <div class="card-body">
