@@ -79,7 +79,7 @@
                                 <ul>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                                    <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
                             </td>
@@ -95,7 +95,7 @@
                                 <ul>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                                    <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
                             </td>
@@ -111,7 +111,7 @@
                                 <ul>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                                    <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
                             </td>
@@ -130,7 +130,7 @@
                                 <ul>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                                    <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
                             </td>
@@ -160,7 +160,7 @@
                     <ul>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>
                 </div>
@@ -184,7 +184,7 @@
                     <ul>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>
                 </div>
@@ -208,7 +208,7 @@
                     <ul>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>
                 </div>
@@ -232,7 +232,7 @@
                     <ul>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
+                        <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>
                 </div>
@@ -843,6 +843,16 @@
 
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal_barcodes" id="modal_barcodes" tabindex="-1" aria-labelledby="barcodes_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="assets/images/barcode.png" alt="barcode">
+                </div>
             </div>
         </div>
     </div>
