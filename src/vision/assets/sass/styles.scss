@@ -840,9 +840,21 @@ header {
     .main_charts {
       width: 100%;
     }
+    .tab-content {
+      .tab-pane {
+        display: block;
+        height: 0;
+        overflow: hidden;
+        &.active {
+          height: auto;
+        }
+      }
+    }
   }
   
 }
+
+
 
 .select_user {
   select {

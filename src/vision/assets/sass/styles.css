@@ -824,6 +824,14 @@ header .btn_enterprisesettings:hover {
 .box_chart .box_chart_main .main_charts {
   width: 100%;
 }
+.box_chart .box_chart_main .tab-content .tab-pane {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.box_chart .box_chart_main .tab-content .tab-pane.active {
+  height: auto;
+}
 
 .select_user select {
   min-width: 176px;
