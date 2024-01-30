@@ -2457,4 +2457,37 @@ footer {
   .avatar_info.avatar_name {
     display: none;
   }
+}
+.modal_accessdetail h1 {
+  font-size: 1.25em;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0;
+  padding: 0 0 10px;
+}
+.modal_accessdetail .modal-header {
+  border-color: #000;
+}
+.modal_accessdetail .modal-content {
+  border-radius: 0;
+}
+.modal_accessdetail h2 {
+  font-size: 1em;
+  text-align: right;
+  color: #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0;
+  padding: 10px 15px;
+}
+.modal_accessdetail .accessdetail_content {
+  padding: 0;
+  border-bottom: 1px solid #000;
+  margin-bottom: 15px;
+}
+.modal_accessdetail table {
+  margin-bottom: 0;
+}
+.modal_accessdetail table td {
+  padding: 5px 15px;
+  font-size: 0.875em;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

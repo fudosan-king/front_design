@@ -72,7 +72,7 @@
                                 <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
                             </td>
                             <td>50</td>
-                            <td><a href="#" class="btn btn_refer">参照する</a></td>
+                            <td><a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></td>
                             <td>2023.11.01</td>
                             <td><a href="#" class="btn btn_public">公開する</a></td>
                             <td>
@@ -88,7 +88,7 @@
                             <td>2. <a href="#">ページページタイトルが入ります</a></td>
                             <td></td>
                             <td>24</td>
-                            <td><a href="#" class="btn btn_refer">参照する</a></td>
+                            <td><a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></td>
                             <td>2023.10.31</td>
                             <td><a href="#" class="btn btn_opennow">公開中</a></td>
                             <td>
@@ -104,7 +104,7 @@
                             <td>3. <a href="#">ページタイトルが入ります</a></td>
                             <td></td>
                             <td>35</td>
-                            <td><a href="#" class="btn btn_refer">参照する</a></td>
+                            <td><a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></td>
                             <td>2023.10.12</td>
                             <td><a href="#" class="btn btn_opennow">公開中</a></td>
                             <td>
@@ -123,7 +123,7 @@
                                 <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
                             </td>
                             <td>35</td>
-                            <td><a href="#" class="btn btn_refer">参照する</a></td>
+                            <td><a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></td>
                             <td>2023.10.1</td>
                             <td><a href="#" class="btn btn_opennow">公開中</a></td>
                             <td>
@@ -152,7 +152,7 @@
                         <p><span>当月アクセス</span> 50</p>
                     </div>
                     <div class="each_row">
-                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                        <p><span>月間アクセス</span> <a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></p>
                     </div>
                     <div class="each_row">
                         <p><span>公開設定</span> <a href="#" class="btn btn_public">公開する</a></p>
@@ -176,7 +176,7 @@
                         <p><span>当月アクセス</span> 24</p>
                     </div>
                     <div class="each_row">
-                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                        <p><span>月間アクセス</span> <a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></p>
                     </div>
                     <div class="each_row">
                         <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
@@ -200,7 +200,7 @@
                         <p><span>当月アクセス</span> 35</p>
                     </div>
                     <div class="each_row">
-                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                        <p><span>月間アクセス</span> <a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></p>
                     </div>
                     <div class="each_row">
                         <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
@@ -224,7 +224,7 @@
                         <p><span>当月アクセス</span> 35</p>
                     </div>
                     <div class="each_row">
-                        <p><span>月間アクセス</span> <a href="#" class="btn btn_refer">参照する</a></p>
+                        <p><span>月間アクセス</span> <a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></p>
                     </div>
                     <div class="each_row">
                         <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
@@ -776,6 +776,73 @@
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal_accessdetail" id="modal_accessdetail" tabindex="-1" aria-labelledby="accessdetail_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1>アクセス詳細</h1>
+                    <h2>アクセス数</h2>
+                    <div class="accessdetail_content">
+                        <table class="table table-hover table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td>2023年10⽉(当⽉)</td>
+                                    <td>56</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年9⽉</td>
+                                    <td>42</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年8⽉</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年7⽉</td>
+                                    <td>36</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年6⽉</td>
+                                    <td>48</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年5⽉</td>
+                                    <td>64</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年4⽉</td>
+                                    <td>68</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年3⽉</td>
+                                    <td>79</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年2⽉</td>
+                                    <td>106</td>
+                                </tr>
+                                <tr>
+                                    <td>2023年1⽉</td>
+                                    <td>98</td>
+                                </tr>
+                                <tr>
+                                    <td>2022年12⽉</td>
+                                    <td>63</td>
+                                </tr>
+                                <tr>
+                                    <td>2022年11⽉</td>
+                                    <td>46</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>

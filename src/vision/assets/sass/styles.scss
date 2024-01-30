@@ -2709,5 +2709,40 @@ footer {
   }
 }
 
+.modal_accessdetail {
+  h1 {
+    font-size: 1.25em;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0;
+    padding: 0 0 10px;
+  }
+  .modal-header {
+    border-color: #000;
+  }
+  .modal-content {
+    border-radius: 0;
+  }
+  h2 {
+    font-size: 1em;
+    text-align: right;
+    color: #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0;
+    padding: 10px 15px;
+  }
+  .accessdetail_content {
+    padding: 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+  }
+  table {
+    margin-bottom: 0;
+    td {
+      padding: 5px 15px;
+      font-size: 0.875em;
+      text-align: center;
+    }
+  }
+}
 
 
