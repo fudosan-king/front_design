@@ -486,10 +486,10 @@
                         <div class="box_chart_main">
                             <div class="tab-content" id="pills-tabContent">
                                 <div class="tab-pane fade show active" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab" tabindex="0">
-                                    <canvas id="myMultiAxisChart_month" class="main_charts" style="height: 252px;"></canvas>
+                                    <canvas id="myMultiAxisChart_month" class="main_charts" style="height: 378px;"></canvas>
                                 </div>
                                 <div class="tab-pane fade" id="pills-day" role="tabpanel" aria-labelledby="pills-day-tab" tabindex="0">
-                                    <canvas id="myMultiAxisChart_day" class="main_charts" style="height: 252px;"></canvas>
+                                    <canvas id="myMultiAxisChart_day" class="main_charts" style="height: 378px;"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -500,7 +500,7 @@
                             <h3>当月ページアクセス数（個人ランキング）</h3>
                         </div>
                         <div class="box_chart_main">
-                            <canvas id="myHorizontalBarChart" class="main_charts" style="height: 252px;"></canvas>
+                            <canvas id="myHorizontalBarChart" class="main_charts" style="height: 378px;"></canvas>
                         </div>
                     </div>
 
@@ -523,7 +523,7 @@
                             </div>
                         </div>
                         <div class="box_chart_main">
-                            <canvas id="myMultiAxisChart2" class="main_charts" style="height: 252px;"></canvas>
+                            <canvas id="myMultiAxisChart2" class="main_charts" style="height: 378px;"></canvas>
                         </div>
                     </div>
 
