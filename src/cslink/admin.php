@@ -215,6 +215,22 @@
                                                     <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                                     <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                 </li>
+                                                <li>
+                                                    <label class="box_uploads">
+                                                        <input type="file" class="upload_default">
+                                                        <p class="upload_custom">
+                                                            <i>
+                                                                <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                                            </i>
+                                                            <span>資料</span>
+                                                        </p>
+                                                        <button type="button" class="btn btnClose"></button>
+                                                    </label>
+                                                    <p class="or">or</p>
+                                                    <label class="label_url" for="動画のURL">動画のURL</label>
+                                                    <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                                    <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                </li>
                                             </ul>
                                             <button class="btn btn_addlink btn_addlink_theme" type="">
                                                 <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
