@@ -521,7 +521,7 @@
                     </li>
                 </ul>
 
-                <div class="userlist_footer">
+                <div class="userlist_footer mb-5">
                     <div class="row">
                         <div class="col-12 col-lg-3">
                             <p class="totalpieces">全 <span>27</span> 件</p>
