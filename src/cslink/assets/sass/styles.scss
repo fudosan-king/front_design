@@ -952,9 +952,10 @@ footer {
     padding: 0;
     margin: 0 0 10px;
     list-style: none;
-    // display: flex;
-    // align-items: flex-start;
-    // flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
     li {
       border-radius: 4px;
       background: #F0F6FB;

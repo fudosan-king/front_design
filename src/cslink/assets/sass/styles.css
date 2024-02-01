@@ -832,6 +832,10 @@ footer ul li a {
   padding: 0;
   margin: 0 0 10px;
   list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .box_material_content ul li {
   border-radius: 4px;
