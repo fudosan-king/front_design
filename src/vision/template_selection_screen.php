@@ -18,9 +18,9 @@
                 <div class="avatar_info avatar_name" style="font-size: 1.5em !important;">
                     <p>VISION11</p>
                 </div>
-                <a class="dropdown-toggle btn_dropdown" data-bs-toggle="dropdown" id="dropdownMenuButtonCompnay" aria-expanded="false">
+                <a class="dropdown-toggle btn_dropdown dropdown-companies" data-bs-toggle="dropdown" id="dropdownMenuButtonCompnay" aria-expanded="false">
                     <div class="avatar_info">
-                        <p>LOGKNOT</p>
+                        <p>LOGKNOT LOGKNOT</p>
                     </div>
                 </a>
 
@@ -41,7 +41,7 @@
             </div>
 
 
-            <div class="header_avatar" style="margin-left:10px;position: relative; margin-right: 0;">
+            <div class="header_avatar header_avatar_right">
 
 
                 <a class="dropdown-toggle btn_dropdown" data-bs-toggle="dropdown" aria-expanded="false">

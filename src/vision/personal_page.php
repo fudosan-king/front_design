@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="table-responsive">
-                <table class="table table-responsive-stack">
+                <table class="table">
                     <thead>
                         <tr>
                             <th>ブログタイトル</th>

@@ -1095,6 +1095,7 @@ header {
       &:first-of-type {
         font-family: 'SF Pro';
         flex-basis: 30% !important;
+        width: 20%;
       }
     }
     a {
@@ -1427,7 +1428,8 @@ header {
     .header_avatar {
       .avatar_info {
         p {
-          font-size: 0.875em;
+          font-size: 0.6875em;
+          line-height: 1.3em;
         }
       }
     }
@@ -2287,7 +2289,7 @@ header {
   header {
     h1 {
       img {
-        width: 150px;
+        width: 130px;
       }
     }
     .header_right {
@@ -2745,4 +2747,43 @@ footer {
   }
 }
 
-
+@media (max-width: 830px) {
+  .header_avatar {
+    &.header_avatar_right {
+      margin-left:10px;
+      position: relative;
+      margin-right: 0;
+      top: -10px;
+    }
+  }
+  
+  .dropdown-companies {
+    &.dropdown-toggle {
+      white-space: initial;
+      &::after {
+        z-index: 999;
+        margin-left: -13px;
+      }
+    }
+    width: 150px;
+    overflow: hidden;
+    margin-left: 10px !important;
+    .avatar_info {
+      position: relative;
+      width: 134px;
+      // &::after {
+      //   font-weight: 400;
+      //   font-size: 1em;
+      //   content: '...';
+      //   position: absolute;
+      //   right: 0;
+      //   top: 0;
+      //   color: #fff;
+      //   line-height: .5em;
+      //   background: #2368b8;
+      //   height: 100%;
+      //   width: 35px;
+      // }
+    }
+  }
+}
