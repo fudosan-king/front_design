@@ -1051,6 +1051,7 @@ header .btn_enterprisesettings:hover {
 .seciton_pagelist .table td:first-of-type {
   font-family: "SF Pro";
   flex-basis: 30% !important;
+  width: 20%;
 }
 .seciton_pagelist .table a {
   text-decoration: underline;
@@ -1335,7 +1336,8 @@ header .btn_enterprisesettings:hover {
     padding: 10px 15px !important;
   }
   header .header_avatar .avatar_info p {
-    font-size: 0.875em;
+    font-size: 0.6875em;
+    line-height: 1.3em;
   }
   header .btn_enterprisesettings {
     margin-left: 10px;
@@ -2073,7 +2075,7 @@ header .btn_enterprisesettings:hover {
 
 @media (max-width: 830px) {
   header h1 img {
-    width: 150px;
+    width: 130px;
   }
   header .header_right {
     align-items: flex-end;
@@ -2482,4 +2484,29 @@ footer {
   padding: 5px 15px;
   font-size: 0.875em;
   text-align: center;
+}
+
+@media (max-width: 830px) {
+  .header_avatar.header_avatar_right {
+    margin-left: 10px;
+    position: relative;
+    margin-right: 0;
+    top: -10px;
+  }
+  .dropdown-companies {
+    width: 150px;
+    overflow: hidden;
+    margin-left: 10px !important;
+  }
+  .dropdown-companies.dropdown-toggle {
+    white-space: initial;
+  }
+  .dropdown-companies.dropdown-toggle::after {
+    z-index: 999;
+    margin-left: -13px;
+  }
+  .dropdown-companies .avatar_info {
+    position: relative;
+    width: 134px;
+  }
 }/*# sourceMappingURL=styles.css.map */
