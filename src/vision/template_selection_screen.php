@@ -15,7 +15,7 @@
 
 
             <div class="header_avatar" style="position: relative; margin-right: 0;">
-                <div class="avatar_info avatar_name" style="font-size: 1.5em !important;">
+                <div class="avatar_info avatar_name">
                     <p>VISION11</p>
                 </div>
                 <a class="dropdown-toggle btn_dropdown dropdown-companies" data-bs-toggle="dropdown" id="dropdownMenuButtonCompnay" aria-expanded="false">

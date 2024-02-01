@@ -66,7 +66,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1. <a href="#">ページタイトルが入ります</a></td>
+                            <td>1. <a href="#">Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch</a></td>
                             <td>
                                 <a href="#"><img src="assets/images/icons/i_lock.svg" alt="i_edit" width="19"></a>
                                 <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
@@ -246,7 +246,7 @@
 
         <section class="section_userlist">
             <form class="frm_userlist">
-                <div class="userlist_header">
+                <!-- <div class="userlist_header">
                     <h2>メンバー一覧</h2>
                     <div class="userlist_search">
                         <div class="row align-items-center">
@@ -270,6 +270,52 @@
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="userlist_header">
+                    <h2 class="mb-0">メンバー一覧</h2>
+                    <div class="userlist_search">
+                        <div class="row align-items-center">
+                            <div class="col-3 col-lg-auto">
+                                <label for="inputPassword6" class="col-form-label">所属：</label>
+                            </div>
+                            <div class="col-9 col-lg-auto mb-2 mb-lg-0">
+                                <select class="form-select form-select-category" aria-label="全て">
+                                    <option value="0">全て</option>
+                                    <option value="1">Department 1</option>
+                                    <option value="5">Department 1 ＞Divison 1</option>
+                                    <option value="2">Department 1 ＞Divison 1 ＞Team 1</option>
+                                    <option value="4">Department 1 ＞Divison 1 ＞Team 1 ＞Area 1</option>
+                                    <option value="6">Department 1 ＞Divison 1 ＞Team 1 ＞Area 1 ＞District 1</option>
+                                    <option value="8">Department 1 ＞Divison 1 ＞Team 3</option>
+                                    <option value="7">Department 1 ＞District 2</option>
+                                    <option value="11">Department 1 ＞Test Category</option>
+                                    <option value="12">Department 2</option>
+                                    <option value="13">Department 2 ＞QC Team A1</option>
+                                    <option value="37">Department 2 ＞QC Team A2</option>
+                                    <option value="39">Department 2 ＞QC Team A2 ＞QC Team HCM</option>
+                                    <option value="41">Department 2 ＞QC Team A2 ＞QC Team HCM ＞QC Logknot</option>
+                                    <option value="40">Department 2 ＞QC Team A2 ＞QC Team HN</option>
+                                    <option value="38">Department 2 ＞QC Team A3</option>
+                                    <option value="14">Department 3</option>
+                                    <option value="23">Department 4</option>
+                                    <option value="87">部署テスト</option>
+                                    <option value="88">部署テスト２</option>
+                                </select>
+                            </div>
+                            <div class="col-3 col-lg-auto">
+                                <label for="inputPassword6" class="col-form-label">並べ替え：</label>
+                            </div>
+                            <div class="col-9 col-lg-auto">
+                                <select class="form-select form-select-sort" aria-label="アクセスが多い順">
+                                    <option value="update_desc">ページ更新が新しい順</option>
+                                    <option value="update_asc">ページ更新が古い順</option>
+                                    <option value="most_views">アクセスが多い順</option>
+                                    <option value="least_views">アクセスが少ない順</option>
                                 </select>
                             </div>
                         </div>
