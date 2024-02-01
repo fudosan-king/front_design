@@ -524,9 +524,6 @@ header .btn_enterprisesettings:hover {
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s linear;
 }
-.listuser li:last-of-type {
-  margin-right: 0;
-}
 .listuser li:hover {
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   transition: all 0.3s linear;
@@ -1251,14 +1248,6 @@ header .btn_enterprisesettings:hover {
     flex-basis: 9.2857% !important;
   }
 }
-@media (max-width: 1300px) and (min-width: 1200px) {
-  .listuser li {
-    min-width: auto;
-  }
-  .listuser li:nth-of-type(3n) {
-    margin-right: 0;
-  }
-}
 @media (max-width: 1300px) {
   .seciton_pagelist .table {
     display: none;
@@ -1273,7 +1262,7 @@ header .btn_enterprisesettings:hover {
     overflow: hidden;
   }
   .table_sp .box_item {
-    padding: 20px 15px;
+    padding: 20px 1©px;
     border-bottom: 1px solid #E4E7EC;
   }
   .table_sp .box_item:hover {
