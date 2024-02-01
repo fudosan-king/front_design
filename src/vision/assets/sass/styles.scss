@@ -511,9 +511,6 @@ header {
     background: var(--base-background-white, #FFF);
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.10);
     transition: all .3s linear;
-    &:last-of-type {
-      margin-right: 0;
-    }
     &:hover {
       box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
       transition: all .3s linear;
@@ -1318,16 +1315,16 @@ header {
   }
 }
 
-@media (max-width: 1300px) and (min-width: 1200px) {
-  .listuser {
-    li {
-      min-width: auto;
-      &:nth-of-type(3n) {
-        margin-right: 0;
-      }
-    }
-  }
-}
+// @media (max-width: 1300px) and (min-width: 1200px) {
+//   .listuser {
+//     li {
+//       min-width: auto;
+//       &:nth-of-type(3n) {
+//         margin-right: 0;
+//       }
+//     }
+//   }
+// }
 
 @media (max-width: 1300px) {
   .seciton_pagelist {
@@ -1344,7 +1341,7 @@ header {
     background: #FFF;
     overflow: hidden;
     .box_item {
-      padding: 20px 15px;
+      padding: 20px 1©px;
       border-bottom: 1px solid #E4E7EC;
       &:hover {
         background: #f6f5f5;
