@@ -2757,23 +2757,35 @@ footer {
       position: relative;
       margin-right: 0;
       top: -10px;
+      .dropdown-menu {
+        .dropdown-item {
+          white-space: normal;
+        }
+      }
     }
+  }
+
+  .dropdown-item {
+    width: 250px;
   }
   
   .dropdown-companies {
-    &.dropdown-toggle {
-      white-space: initial;
+    .dropdown-toggle {
+      white-space: normal;
       &::after {
         z-index: 999;
         margin-left: -13px;
       }
     }
-    width: 150px;
-    overflow: hidden;
+    width: 130px;
     margin-left: 10px !important;
+    .dropdown-item {
+      white-space: break-spaces;
+    }
     .avatar_info {
       position: relative;
       width: 134px;
+      overflow: hidden;
       // &::after {
       //   font-weight: 400;
       //   font-size: 1em;
