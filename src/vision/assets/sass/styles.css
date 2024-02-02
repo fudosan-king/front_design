@@ -971,6 +971,10 @@ header .btn_enterprisesettings:hover {
   box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.04);
   border: 1px solid #E4E7EC;
   background: #FFF;
+  width: 250px;
+}
+.dropdown-menu .dropdown-item {
+  white-space: normal !important;
 }
 
 .seciton_pagelist .pagelist_header {
@@ -1340,7 +1344,8 @@ header .btn_enterprisesettings:hover {
   }
   header .header_avatar .avatar_info p {
     font-size: 0.6875em;
-    line-height: 1.3em;
+    line-height: 1.3em !important;
+    height: 44px;
   }
   header .btn_enterprisesettings {
     margin-left: 10px;
@@ -2498,9 +2503,6 @@ footer {
   }
   .header_avatar.header_avatar_right .dropdown-menu .dropdown-item {
     white-space: normal;
-  }
-  .dropdown-item {
-    width: 250px;
   }
   .dropdown-companies {
     width: 130px;
