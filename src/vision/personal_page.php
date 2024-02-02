@@ -245,7 +245,7 @@
         </section>
 
         <section class="section_userlist">
-            <form class="frm_userlist">
+            <div class="frm_userlist">
                 <!-- <div class="userlist_header">
                     <h2>メンバー一覧</h2>
                     <div class="userlist_search">
@@ -606,9 +606,7 @@
                         </div>
                     </div>
                 </div>
-
-
-            </form>
+            </div>
         </section>
 
 

@@ -2496,20 +2496,29 @@ footer {
     margin-right: 0;
     top: -10px;
   }
+  .header_avatar.header_avatar_right .dropdown-menu .dropdown-item {
+    white-space: normal;
+  }
+  .dropdown-item {
+    width: 250px;
+  }
   .dropdown-companies {
-    width: 150px;
-    overflow: hidden;
+    width: 130px;
     margin-left: 10px !important;
   }
-  .dropdown-companies.dropdown-toggle {
-    white-space: initial;
+  .dropdown-companies .dropdown-toggle {
+    white-space: normal;
   }
-  .dropdown-companies.dropdown-toggle::after {
+  .dropdown-companies .dropdown-toggle::after {
     z-index: 999;
     margin-left: -13px;
+  }
+  .dropdown-companies .dropdown-item {
+    white-space: break-spaces;
   }
   .dropdown-companies .avatar_info {
     position: relative;
     width: 134px;
+    overflow: hidden;
   }
 }/*# sourceMappingURL=styles.css.map */
