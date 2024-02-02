@@ -246,35 +246,6 @@
 
         <section class="section_userlist">
             <div class="frm_userlist">
-                <!-- <div class="userlist_header">
-                    <h2>メンバー一覧</h2>
-                    <div class="userlist_search">
-                        <div class="row align-items-center">
-                            <div class="col-3 col-lg-auto">
-                                <label for="inputPassword6" class="col-form-label">所属：</label>
-                            </div>
-                            <div class="col-9 col-lg-auto mb-2 mb-lg-0">
-                                <select class="form-select" aria-label="営業部 第1課 〇〇チーム">
-                                    <option selected>営業部 第1課 〇〇チーム</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                            <div class="col-3 col-lg-auto">
-                                <label for="inputPassword6" class="col-form-label">並べ替え：</label>
-                            </div>
-                            <div class="col-9 col-lg-auto">
-                                <select class="form-select" aria-label="アクセスが多い順">
-                                    <option selected>アクセスが多い順</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
 
                 <div class="userlist_header">
                     <h2 class="mb-0">メンバー一覧</h2>
