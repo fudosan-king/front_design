@@ -1438,6 +1438,8 @@ header {
           font-size: 0.6875em;
           line-height: 1.3em !important;
           height: 44px;
+          display: flex !important;
+          align-items: center;
         }
       }
     }
@@ -2755,6 +2757,10 @@ footer {
   }
 }
 
+.dropdown-companies {
+  margin-right: 15px;
+}
+
 @media (max-width: 830px) {
   .header_avatar {
     &.header_avatar_right {
@@ -2771,6 +2777,7 @@ footer {
   }
   
   .dropdown-companies {
+    margin-right: 0;
     .dropdown-toggle {
       white-space: normal;
       &::after {
