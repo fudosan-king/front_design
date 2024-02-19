@@ -1,0 +1,54 @@
+/* 2024 add section info */
+.section_info {
+  padding-bottom: 0;
+  .container {
+    max-width: 990px;
+  }
+  .section_info_content {
+    padding: 30px 80px 45px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    h2 {
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 30px;
+    }
+    .btn_room {
+      border-radius: 5px;
+      background: #4F4C4C;
+      padding: 17px 35px;
+      display: block;
+      max-width: 270px;
+      margin-bottom: 50px;
+      color: #FFF;
+      font-weight: 700;
+      margin-left: 20px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+      &:hover {
+        background: #312f2f;
+      }
+    }
+  }
+}
+@media (max-width: 830px) {
+  .section_info {
+    .section_info_content {
+      h2 {
+        font-size: 1em;
+        margin-bottom: 15px;
+      }
+      padding: 30px 15px;
+      .btn_room {
+        margin: 0 auto 28px;
+        font-size: 1em;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        &:first-of-type {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
