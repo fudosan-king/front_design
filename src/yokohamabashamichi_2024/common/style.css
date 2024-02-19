@@ -1,0 +1,182 @@
+/*
+ Theme Name:   Bashamichi
+ Theme URI:    https://www.prostyleryokan.com/yokohamabashamichi/
+ Description:  Unique template of Yokohama Bashamichi Hotel
+ Author:       Khanh (カン) - Propolife Vietnam
+ Author URI:   https://www.facebook.com/khanhnp91
+ Version:      20.03.20 LTS
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  bashamichi
+*/
+.best-rate-logo {
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    right: 4px;
+    top: 104px;
+    z-index: 9;
+}
+.sauna-btn {
+    z-index: 100;
+    position: fixed;
+    right: 0;
+    top: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    background: rgba(51, 48, 48, 1);
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .sauna-btn {
+        display: none;
+    }
+}
+
+.section-footer{
+    padding: 60px 60px 27px;
+}
+
+@media (max-width: 736px) {
+  .section-footer {
+        padding-left: 0;
+        padding-right: 0;
+  } 
+}
+
+.section-footer .sns li a.btn_fb {
+  color: #312f2f;
+  padding: 4px 10px;
+  width: 39px;
+  height: 39px;
+  border-radius: 100px;
+  background: #fff;
+}
+
+.section-footer .sns li a.btn_fb:hover {
+  color: #312f2f;
+}
+
+.btn_fb {
+  color: #312f2f;
+  padding: 4px 10px;
+  width: 39px;
+  height: 39px;
+  border-radius: 100px;
+  background: #fff;
+}
+
+.btn_fb:hover {
+  color: #312f2f;
+}
+
+.section-footer .sns li a.btn_ins i {
+  font-size: 2.3em;
+}
+
+.btn_ins {
+  color: #fff;
+  padding: 0;
+}
+
+.btn_ins:hover {
+  color: #fff;
+}
+
+.btn_ins svg {
+  font-size: 2.4em;
+}
+
+.section-footer .sns li a.btn_ins {
+  color: #fff;
+  padding: 0;
+}
+
+.section-footer .sns li a.btn_ins:hover {
+  color: #fff;
+}
+
+.btn_twitter {
+  color: #fff;
+  padding: 0;
+}
+
+.btn_twitter:hover {
+    color: #fff;
+}
+
+.btn_twitter i {
+  font-size: 2.3em;
+}
+
+.section-footer .sns li a.btn_twitter {
+  color: #fff;
+  padding: 0;
+}
+.section_footer_bottom .sns li a.btn_twitter:hover {
+  color: #fff;
+}
+.section-footer .sns li a.btn_twitter i {
+  font-size: 2.3em;
+}
+
+.section-footer .sns ul {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .section-footer .sns ul {
+    display: block;
+    align-items: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .section-footer .sns ul {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.section-footer .sns ul::before {
+  display: none;
+}
+
+.section-footer .sns ul li::before {
+  content: none;
+}
+
+.sauna-notice {
+  margin: 30px 10px 0px 10px;
+  padding: 30px 80px 30px 80px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+
+@media (max-width: 430px) {
+  .sauna-notice {
+    padding: 30px 10px 30px 10px;
+  }
+}
+
+.section_sauna .sauna-notice div h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section_sauna .sauna-notice div p {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
