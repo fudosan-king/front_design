@@ -84,4 +84,4 @@
 <link rel="stylesheet" href="assets/css/splide.min.css">
 <link rel="stylesheet" href="assets/css/blog-style.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/styles_v2.css">
+<link rel="stylesheet" href="assets/scss/styles_v2.css">
