@@ -55,7 +55,7 @@
         </section>
 
         <div class="w_consultation d-block d-lg-none">
-            <a href="#" class="btn btn_consultation"><img src="assets/images/i_email.svg" alt="icon email" width="12"> 査定依頼・ご相談</a>
+            <a target="_blank" href="assessment.php" class="btn btn_consultation"><img src="assets/images/i_email.svg" alt="icon email" width="12"> 査定依頼・ご相談</a>
         </div>
 
         <div id="section_reasons" class="section_reasons">
