@@ -605,7 +605,7 @@ header h1 {
   content: "";
   position: absolute;
   z-index: -1;
-  right: -20%;
+  right: -30%;
   top: -10%;
   width: 3000px;
   height: 947px;
@@ -1115,6 +1115,9 @@ footer ul li a {
   }
 }
 @media (max-width: 1600px) {
+  .section_reasons::before {
+    right: -40%;
+  }
   .section_reasons .w_contentreasons .box_content {
     right: 10%;
   }
@@ -1125,6 +1128,10 @@ footer ul li a {
 @media (max-width: 1400px) {
   .section_banner .banner_content h2 {
     font-size: 4.5em;
+  }
+  .section_reasons::before {
+    right: -50%;
+    top: -8%;
   }
 }
 @media (max-width: 1200px) {
