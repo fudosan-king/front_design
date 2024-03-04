@@ -195,7 +195,7 @@
 
                                                 <div class="row align-items-center align-items-lg-center g-2 g-lg-4 ">
                                                     <div class="col-3 col-lg-2">
-                                                        <label class="text-lg-end d-block" for=""><i>建物・部屋番号</i></label>
+                                                        <label class="text-lg-end d-block" for=""><i class="label_name">建物・部屋番号</i></label>
                                                     </div>
                                                     <div class="col-9 col-lg-10">
                                                         <input class="form-control" type="text" name="" value="">
@@ -303,7 +303,7 @@
 
                                                 <div class="row align-items-center">
                                                     <div class="col-3 col-lg-2">
-                                                        <label for="" class="text-lg-end d-block"><i>建物・部屋番号</i></label>
+                                                        <label for="" class="text-lg-end d-block"><i class="label_name">建物・部屋番号</i></label>
                                                     </div>
                                                     <div class="col-9 col-lg-10">
                                                         <input class="form-control" type="text" name="" value="">

@@ -918,13 +918,14 @@ footer {
     // max-width: 1030px;
     margin: auto;
     i {
-      font-style: normal;
+      &.label_name {
+        font-style: normal;
       // letter-spacing: -.17em;
-      position: absolute;
-      left: -15px;
-      top: -15px;
-      width: 100px;
-
+        position: absolute;
+        left: -15px;
+        top: -15px;
+        width: 100px;
+      }
     }
     label {
       font-size: 0.875em;
