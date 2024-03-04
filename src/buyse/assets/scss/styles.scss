@@ -521,7 +521,7 @@ header {
     content: '';
     position: absolute;
     z-index: -1;
-    right: -42%;
+    right: -20%;
     top: -10%;
     width: 3000px;
     height: 947px;
@@ -549,7 +549,7 @@ header {
         justify-content: flex-end;
         .box_content {
           right: inherit;
-          left: 30%;
+          left: 25%;
         }
         .box_img {
           text-align: right;
@@ -569,7 +569,7 @@ header {
       padding: 40px;
       position: absolute;
       z-index: 10;
-      right: 30%;
+      right: 25%;
       bottom: 0;
       top: 0;
       margin: auto;
@@ -752,7 +752,7 @@ header {
       padding-left: 5px;
     }
     &:last-of-type {
-      width: 30%;
+      width: 330px;
     }
     &:nth-child(n+2) {
       &::before {
@@ -1146,7 +1146,8 @@ footer {
 
   .section_reasons {
     &::before {
-      top: -13%;
+      top: -11%;
+      right: -60%;
     }
   }
 
