@@ -1,7 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta charset="UTF-8">
-<title>FD Launcher</title>
+<title>Buyse</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 <meta property="og:site_name" content="">
