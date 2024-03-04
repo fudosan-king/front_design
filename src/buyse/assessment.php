@@ -39,7 +39,7 @@
                                                     <div class="col-4 col-lg-3">
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                                                            <label class="form-check-label" for="flexRadioDefault1">訪問査定</label>
+                                                            <label class="form-check-label ms-2" for="flexRadioDefault1">訪問査定</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-8 col-lg-9">
@@ -48,7 +48,7 @@
                                                     <div class="col-4 col-lg-3">
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                                            <label class="form-check-label" for="flexRadioDefault2">簡易査定</label>
+                                                            <label class="form-check-label ms-2" for="flexRadioDefault2">簡易査定</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-8 col-lg-9">
@@ -73,6 +73,7 @@
                                                     <div class="row">
                                                         <div class="col-12 col-lg-6 mb-3 mb-lg-0">
                                                             <select class="form-select">
+                                                                <option value="部屋数">部屋数</option>
                                                                 <option value="">0</option>
                                                                 <option value="">1</option>
                                                                 <option value="">2</option>
@@ -194,7 +195,7 @@
 
                                                 <div class="row align-items-center align-items-lg-center g-2 g-lg-4 ">
                                                     <div class="col-3 col-lg-2">
-                                                        <label class="text-lg-end d-block" for="">建物・部屋番号</label>
+                                                        <label class="text-lg-end d-block" for=""><i>建物・部屋番号</i></label>
                                                     </div>
                                                     <div class="col-9 col-lg-10">
                                                         <input class="form-control" type="text" name="" value="">
@@ -302,7 +303,7 @@
 
                                                 <div class="row align-items-center">
                                                     <div class="col-3 col-lg-2">
-                                                        <label for="" class="text-lg-end d-block">建物・部屋番号</label>
+                                                        <label for="" class="text-lg-end d-block"><i>建物・部屋番号</i></label>
                                                     </div>
                                                     <div class="col-9 col-lg-10">
                                                         <input class="form-control" type="text" name="" value="">

@@ -272,6 +272,11 @@ a:hover {
   background-size: inherit;
 }
 
+.form-check-input {
+  width: 20px;
+  height: 20px;
+}
+
 section {
   padding: 60px 0;
 }
@@ -289,6 +294,9 @@ header {
   width: 100%;
   transition: 0.5s;
   background: #fff;
+}
+header .container {
+  max-width: 1238px;
 }
 header.bgwhite {
   background: #fff;
@@ -591,6 +599,19 @@ header h1 {
 .section_reasons {
   padding: 60px 0;
   position: relative;
+  overflow: hidden;
+}
+.section_reasons::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -42%;
+  top: -10%;
+  width: 3000px;
+  height: 947px;
+  background: linear-gradient(180deg, #FFF 0%, #EBF5FF 100%);
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 .section_reasons h2 {
   text-align: center;
@@ -601,13 +622,18 @@ header h1 {
   overflow: hidden;
   position: relative;
 }
+.section_reasons section:nth-of-type(3) .box_content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .section_reasons section:nth-of-type(2n) .w_contentreasons {
   display: flex;
   justify-content: flex-end;
 }
 .section_reasons section:nth-of-type(2n) .w_contentreasons .box_content {
   right: inherit;
-  left: 8%;
+  left: 30%;
 }
 .section_reasons section:nth-of-type(2n) .w_contentreasons .box_img {
   text-align: right;
@@ -625,12 +651,12 @@ header h1 {
   padding: 40px;
   position: absolute;
   z-index: 10;
-  right: 8%;
+  right: 30%;
   bottom: 0;
   top: 0;
   margin: auto;
   max-width: 605px;
-  max-height: 300px;
+  max-height: 310px;
 }
 .section_reasons .w_contentreasons .box_content h3 {
   font-size: 2.125em;
@@ -655,6 +681,9 @@ header h1 {
   right: -26px;
   bottom: -26px;
 }
+.section_reasons .w_contentreasons .box_content h3 span.number img {
+  min-width: 86px;
+}
 .section_reasons .w_contentreasons .box_content h3 span:last-of-type {
   width: 100%;
   padding-top: 30px;
@@ -671,7 +700,11 @@ header h1 {
   font-weight: 400;
 }
 .section_reasons .w_contentreasons .box_content p {
+  margin-top: 10px;
   margin-bottom: 0;
+}
+.section_reasons .w_contentreasons .box_content p small {
+  font-size: 0.875em;
 }
 
 .title {
@@ -702,6 +735,26 @@ header h1 {
   color: #fff;
 }
 
+.section_advantagespurchasing {
+  padding-top: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.section_advantagespurchasing .container {
+  max-width: 1054px;
+}
+.section_advantagespurchasing::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -34%;
+  top: -56%;
+  width: 3000px;
+  height: 947px;
+  background: linear-gradient(180deg, #FFF 0%, #EBF5FF 100%);
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
 .section_advantagespurchasing ul {
   margin: 0;
   padding: 0;
@@ -728,9 +781,10 @@ header h1 {
 .section_advantagespurchasing ul li h3 {
   color: #1C5DB4;
   font-size: 1.5em;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .section_advantagespurchasing ul li h3 span {
   display: block;
@@ -751,6 +805,10 @@ header h1 {
   margin-bottom: 0;
 }
 
+.section_condominiumpurchase {
+  padding-bottom: 100px;
+}
+
 .steps {
   margin: 0;
   padding: 0;
@@ -761,7 +819,7 @@ header h1 {
 .steps li {
   float: left;
   margin-left: 0;
-  width: 33.33%; /* 100 / number of steps */
+  width: 330px; /* 100 / number of steps */
   height: 280px; /* total height */
   list-style-type: none;
   padding: 5px 5px 5px 30px; /* padding around text, last should include arrow width */
@@ -901,6 +959,7 @@ footer ul li a {
   font-family: "Inter";
   color: #142C4D;
   font-size: 2.25em;
+  font-weight: 500;
   margin-bottom: 40px;
 }
 .section_subbanner p {
@@ -910,15 +969,26 @@ footer ul li a {
 .section_request {
   padding: 0 0 120px;
 }
+.section_request .container {
+  max-width: 1054px;
+}
 .section_request .request_content {
   background: #FFF;
   box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.1);
   padding: 80px 106px;
   margin: auto;
 }
+.section_request .request_content i {
+  font-style: normal;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: 100px;
+}
 .section_request .request_content label {
   font-size: 0.875em;
   font-weight: 700;
+  position: relative;
 }
 .section_request .request_content label.require_cus {
   display: flex;
@@ -931,7 +1001,7 @@ footer ul li a {
   color: #fff;
   padding: 5px 10px;
   font-size: 0.8571em;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .section_request .request_content textarea.form-control {
   min-height: 120px;
@@ -956,6 +1026,7 @@ footer ul li a {
   color: #fff;
   font-size: 1em;
   font-family: "Inter";
+  font-weight: 400;
   padding: 10px;
   margin-bottom: 30px;
 }
@@ -1035,6 +1106,22 @@ footer ul li a {
   background: #8B6D38;
 }
 
+@media (max-width: 1700px) {
+  .section_reasons .w_contentreasons .box_content {
+    right: 20%;
+  }
+  .section_reasons section:nth-of-type(2n) .w_contentreasons .box_content {
+    left: 20%;
+  }
+}
+@media (max-width: 1600px) {
+  .section_reasons .w_contentreasons .box_content {
+    right: 10%;
+  }
+  .section_reasons section:nth-of-type(2n) .w_contentreasons .box_content {
+    left: 10%;
+  }
+}
 @media (max-width: 1400px) {
   .section_banner .banner_content h2 {
     font-size: 4.5em;
@@ -1080,11 +1167,17 @@ footer ul li a {
   .section_banner .banner_content h2 {
     font-size: 3.5em;
   }
+  .section_reasons::before {
+    top: -13%;
+  }
   .section_request .request_content label.require_cus {
     justify-content: flex-start;
   }
   .section_request .request_content label span {
     margin-left: 10px;
+  }
+  .section_advantagespurchasing::before {
+    top: -56%;
   }
   .section_advantagespurchasing ul li {
     width: 48%;
@@ -1162,23 +1255,18 @@ footer ul li a {
   .section_banner .trackrecord p small {
     font-size: 7px;
   }
-}
-@media (max-width: 840px) {
-  section {
-    padding: 30px 0;
-  }
-  header {
-    padding: 6px 0 6px 10px;
-  }
-  header h1 img {
-    width: 233px;
-  }
-  .title {
-    font-size: 1.25em;
-  }
   .section_reasons {
     padding-top: 30px;
     padding-bottom: 0;
+  }
+  .section_reasons::before {
+    -webkit-clip-path: none;
+            clip-path: none;
+    top: -5%;
+    right: 0;
+    width: 100%;
+    height: 287px;
+    background: linear-gradient(180deg, #fff 0%, #EBF5FF 100%);
   }
   .section_reasons h2 {
     font-size: 2em;
@@ -1211,6 +1299,7 @@ footer ul li a {
   }
   .section_reasons .w_contentreasons .box_content h3 span.number img {
     width: 46px;
+    min-width: 46px;
   }
   .section_reasons .w_contentreasons .box_content h3 span.number::before {
     width: 36px;
@@ -1226,11 +1315,43 @@ footer ul li a {
   .section_reasons .w_contentreasons .box_content h4 {
     font-size: 1.25em;
   }
+  .section_reasons .w_contentreasons .box_content p {
+    letter-spacing: 0.1em;
+  }
+  .section_advantagespurchasing {
+    padding-top: 60px;
+  }
+  .section_advantagespurchasing::before {
+    -webkit-clip-path: none;
+            clip-path: none;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 287px;
+    background: linear-gradient(180deg, #f8f8f8 0%, #EBF5FF 100%);
+  }
+}
+@media (max-width: 840px) {
+  section {
+    padding: 30px 0;
+  }
+  header {
+    padding: 6px 0 6px 10px;
+  }
+  header h1 img {
+    width: 233px;
+  }
+  .title {
+    font-size: 1.25em;
+  }
   .section_contact {
     padding: 20px 0;
   }
   .section_contact p {
     font-size: 0.875em;
+  }
+  .section_advantagespurchasing {
+    padding-top: 0;
   }
   .section_advantagespurchasing ul li {
     width: 100%;
@@ -1246,6 +1367,9 @@ footer ul li a {
   .section_advantagespurchasing ul li h4 {
     text-align: center;
     left: 0;
+  }
+  .section_condominiumpurchase {
+    padding-bottom: 45px;
   }
   .steps {
     flex-direction: column;

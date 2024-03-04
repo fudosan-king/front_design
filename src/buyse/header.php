@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-xl">
-        <div class="container-fluid">
+        <div class="container">
             <h1><a href="index.php"><img src="assets/images/logo.svg" alt="logo"></a></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
