@@ -46,7 +46,7 @@
             </div>
 
             <div class="w_salesconsultation" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000">
-                <a href="#" class="box_salesconsultation">
+                <a target="_blank" href="assessment.php" class="box_salesconsultation">
                     <span>広い物件も<br>強化買取中</span>
                     <span>無料査定・売却相談 <img class="img-fluid" src="assets/images/i_arrowright.svg" alt="i_arrowright" width="10"></span>
                 </a>
