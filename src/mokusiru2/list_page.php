@@ -31,11 +31,13 @@
                                             <img src="assets/images/products/pro01.jpg" alt="pro01">
                                         </a>
                                         <div class="item_content">
-                                            <h4>プロスタイル南町田</h4>
+                                            <h4>プロスタイル日本橋馬喰町</h4>
                                             <ol>
-                                                <li>東京都町田市南町田５丁目</li>
-                                                <li>東急田園都市線「南町田グランベリーパーク」駅 徒歩6分、「すずかけ台」駅徒歩13分</li>
-                                                <li>総戸数/30戸</li>
+                                                <li>東京都中央区日本橋3丁目 9-5</li>
+                                                <li>都営浅草線「東日本橋」駅 徒歩1分都営新宿線「馬喰横山」駅 徒歩1分JR総武線「馬喰町」駅 徒歩3分</li>
+                                                <li>総戸数/43戸</li>
+                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, doloremque?</li>
                                             </ol>
                                         </div>
                                         <a class="btn_detail" href="detail_page.php">詳細を見る <img src="assets/images/i_arrowright.svg" alt="arrow right"></a>
@@ -47,8 +49,8 @@
                                         <div class="item_content">
                                             <h4>プロスタイル学芸大学</h4>
                                             <ol>
-                                                <li>東京都目黒区碑文谷４丁目</li>
-                                                <li>東急東横線「学芸大学」駅徒歩11分、「都立大学」駅徒歩11分</li>
+                                                <li>東京都目黒区碑文谷4丁目 15-1</li>
+                                                <li>東急東横線「学芸大学」 徒歩12分東急東横線「都立大学」 徒歩12分東急目黒線「大岡山駅」 徒歩25分</li>
                                                 <li>総戸数/20戸</li>
                                             </ol>
                                         </div>
@@ -61,9 +63,9 @@
                                         <div class="item_content">
                                             <h4>プロスタイル横浜馬車道</h4>
                                             <ol>
-                                                <li>神奈川県横浜市中区元浜町３丁目</li>
-                                                <li>みなとみらい線「馬車道」駅徒歩2分</li>
-                                                <li>総戸数/87戸</li>
+                                                <li>神奈川県横浜市中区本浜町3丁目 23-23</li>
+                                                <li>みなとみらい線「馬車道」駅 徒歩3分JR京浜東北線「関内」駅 徒歩9分ブルーライン「桜木町」駅 徒歩13分</li>
+                                                <li>総戸数/76戸</li>
                                             </ol>
                                         </div>
                                         <a class="btn_detail" href="detail_page.php">詳細を見る <img src="assets/images/i_arrowright.svg" alt="arrow right"></a>

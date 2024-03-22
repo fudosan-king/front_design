@@ -1359,6 +1359,9 @@ input[type=number] {
                     padding: 0;
                     margin: 0;
                     list-style: none;
+                    height: 85px;
+                    overflow-x: hidden;
+                    overflow-y: auto;
                     li {
                         margin-right: 0;
                         margin-bottom: 0;
@@ -1366,6 +1369,7 @@ input[type=number] {
                         font-size: 0.6875em;
                         color: #4F4F4F;
                         position: relative;
+                        padding-right: 20px;
                         &::before {
                             content: '● ';
                             display: inline-block;
@@ -1786,6 +1790,9 @@ hr {
                         img {
                             height: 263px;
                         }
+                    }
+                    ol {
+                        height: 116px;
                     }
                 }
             }
