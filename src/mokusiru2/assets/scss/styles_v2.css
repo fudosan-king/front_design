@@ -1274,6 +1274,9 @@ input[type=number] {
   padding: 0;
   margin: 0;
   list-style: none;
+  height: 85px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .list_page .section_result .list_result li ol li {
   margin-right: 0;
@@ -1282,6 +1285,7 @@ input[type=number] {
   font-size: 0.6875em;
   color: #4F4F4F;
   position: relative;
+  padding-right: 20px;
 }
 .list_page .section_result .list_result li ol li::before {
   content: "● ";
@@ -1638,6 +1642,9 @@ hr.dot {
   }
   .list_page .section_result .list_result li .item_img img {
     height: 263px;
+  }
+  .list_page .section_result .list_result li ol {
+    height: 116px;
   }
 }
 @media (max-width: 834px) {
