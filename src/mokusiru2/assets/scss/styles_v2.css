@@ -1278,6 +1278,24 @@ input[type=number] {
   overflow-x: hidden;
   overflow-y: auto;
 }
+.list_page .section_result .list_result li ol ::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.list_page .section_result .list_result li ol ::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+.list_page .section_result .list_result li ol ::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+.list_page .section_result .list_result li ol ::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid #3CBCCF;
+}
+.list_page .section_result .list_result li ol ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #3CBCCF;
+}
 .list_page .section_result .list_result li ol li {
   margin-right: 0;
   margin-bottom: 0;

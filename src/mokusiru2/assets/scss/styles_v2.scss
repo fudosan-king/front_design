@@ -1362,6 +1362,28 @@ input[type=number] {
                     height: 85px;
                     overflow-x: hidden;
                     overflow-y: auto;
+                    ::-webkit-scrollbar {
+                        -webkit-appearance: none;
+                    }
+
+                    ::-webkit-scrollbar:vertical {
+                        width: 12px;
+                    }
+
+                    ::-webkit-scrollbar:horizontal {
+                        height: 12px;
+                    }
+
+                    ::-webkit-scrollbar-thumb {
+                        background-color: rgba(0, 0, 0, .5);
+                        border-radius: 10px;
+                        border: 2px solid $blue_color;
+                    }
+
+                    ::-webkit-scrollbar-track {
+                        border-radius: 10px;
+                        background-color: $blue_color;
+                    }
                     li {
                         margin-right: 0;
                         margin-bottom: 0;
