@@ -41,6 +41,34 @@
             </div>
         </section>
 
+        <section id="section_estatetool" class="section_estatetool">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title" data-aos="fade-up">この機能で充分！スタートアップに最適な不動産ツール！</h2>
+                        <div class="w_box_item">
+                            <div class="box_item" data-aos="flip-left">
+                                <img src="assets/images/men01.svg" alt="men" width="135">
+                                <div class="box_item_content">
+                                    <h3>主要ポータルサイトに一括出稿管理ができる</h3>
+                                    <p>SUUMO,athome,HOME'S<br>
+                                        に対応しています。</p>
+                                </div>
+                            </div>
+                            <div class="box_item" data-aos="flip-right">
+                                <img src="assets/images/men02.svg" alt="men" width="135">
+                                <div class="box_item_content">
+                                    <h3>自社ホームページがもてる</h3>
+                                    <p>物件掲載機能付きホームページがテンプレートで作成可能です。<br>
+                                        別途費用はかかりません。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="section_submissiontool" class="section_submissiontool">
             <div class="container">
                 <div class="row">
@@ -175,6 +203,7 @@
                         </div>
                         <img class="img-fluid d-lg-block d-none m-auto" src="assets/images/flow_pc_3.png" alt="flow" data-aos="fade-up">
                         <img class="img-fluid d-block d-lg-none m-auto" src="assets/images/flow_sp_3.png" alt="flow" data-aos="fade-up">
+                        <p class="note_flow">※ポータルサイトへの掲載をご希望される場合は、各媒体より一括連動用IDの取得をお願いいたします。</p>
                     </div>
                 </div>
             </div>

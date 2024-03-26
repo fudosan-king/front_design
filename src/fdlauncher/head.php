@@ -24,5 +24,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
-<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+<link rel="stylesheet" href="assets/sass/styles.css" type="text/css">
 <link rel="stylesheet" href="assets/css/be_styles.css" type="text/css">
