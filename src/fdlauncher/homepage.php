@@ -51,34 +51,34 @@
                         <ul>
                             <li>
                                 <h3>SEO、LPO対策</h3>
-                                <img src="assets/images/send_mail.svg" alt="send email" width="256">
+                                <img class="img-fluid" src="assets/images/send_mail.svg" alt="send email" width="256">
                                 <p>WEBサイトでの検索結果の上位表示に必要な設定が簡単にできます。</p>
                             </li>
                             <li>
                                 <h3>物件検索機能</h3>
-                                <img src="assets/images/img_map.svg" alt="map" width="242">
+                                <img class="img-fluid" src="assets/images/img_map.svg" alt="map" width="242">
                                 <p>エリアや沿線、駅名からの検索はもちろん、価格や間取りなどの検索にも対応します。</p>
                             </li>
                             <li>
                                 <h3>テンプレートで簡単作成</h3>
-                                <img src="assets/images/img_images.svg" alt="send email" width="186">
+                                <img class="img-fluid" src="assets/images/img_images.svg" alt="send email" width="186">
                                 <p>テンプレート設計だから管理画面もシンプルでわかりやすい。<br>
                                     バナーの変更や物件更新も簡単に行えます。ホームページの立ち上げをフォローします。</p>
                             </li>
 
                             <li>
                                 <h3>スマホにも対応</h3>
-                                <img src="assets/images/img_idea.svg" alt="send email" width="244">
+                                <img class="img-fluid" src="assets/images/img_idea.svg" alt="send email" width="244">
                                 <p>パソコンだけでなくスマートフォンやタブレットから見たときにもきちんとホームページが表示される「レスポンシブ」にも対応します。</p>
                             </li>
                             <li>
                                 <h3>物件コンバーター連動</h3>
-                                <img src="assets/images/img_linked.svg" alt="linked" width="315">
+                                <img class="img-fluid" src="assets/images/img_linked.svg" alt="linked" width="315">
                                 <p>物件入稿コンバーターと連携しているので自社ホームページや主要ポータルサイト（スーモ、アットホーム、ホームズ）にも簡単に物件を一括で入稿できます。</p>
                             </li>
                             <li>
                                 <h3>フォロー体制</h3>
-                                <img src="assets/images/img_chart.svg" alt="chart" width="239">
+                                <img class="img-fluid" src="assets/images/img_chart.svg" alt="chart" width="239">
                                 <p>公開後もWEB広告や分析方法など集客の基礎作りを支援します。（一部有償オプション）</p>
                             </li>
                         </ul>
