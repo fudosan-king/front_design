@@ -2043,6 +2043,166 @@ hr.dot {
     height: 194px;
   }
 }
+.usedapartment_detail_page {
+  display: flex;
+  position: relative;
+}
+.usedapartment_detail_page aside {
+  max-width: 260px;
+  margin-right: 20px;
+}
+.usedapartment_detail_page aside h2 {
+  font-size: 1.5em;
+}
+.usedapartment_detail_page aside h3 {
+  font-size: 1.25em;
+}
+.usedapartment_detail_page aside h4 {
+  font-size: 1.5em;
+  color: #AD814D;
+}
+.usedapartment_detail_page aside .img_pro {
+  margin: 20px 0;
+  border: 1px solid #E0E0E0;
+  overflow: hidden;
+  width: 100%;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.usedapartment_detail_page aside .img_pro img {
+  width: 100%;
+}
+.usedapartment_detail_page aside .btn {
+  border-radius: 100px;
+  border: 1px solid var(--Primary, #AD814D);
+  background: var(--Primary, #FFF);
+  padding: 3px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 0.875em;
+  color: #AD814D;
+  font-weight: 700;
+}
+.usedapartment_detail_page aside .btn:last-of-type {
+  margin-bottom: 0;
+}
+.usedapartment_detail_page aside .btn:hover {
+  background: #AD814D;
+  color: #fff;
+  border-color: #AD814D;
+}
+.usedapartment_detail_page .info_content {
+  max-width: 818px;
+}
+.usedapartment_detail_page .info_content .w_box_item .box_item {
+  display: flex;
+  margin-bottom: 30px;
+}
+.usedapartment_detail_page .info_content .w_box_item .box_item .img_item {
+  margin-right: 20px;
+  width: 446px;
+  height: 280px;
+  overflow: hidden;
+  background: #F2F2F2;
+}
+.usedapartment_detail_page .info_content .w_box_item .box_item .img_item img {
+  width: 100%;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.usedapartment_detail_page .info_content .w_box_item .box_item .item_content {
+  max-width: 353px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.usedapartment_detail_page .info_content .w_box_item .box_item .item_content h2 {
+  font-size: 1.5em;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.usedapartment_detail_page .info_content .w_box_item .box_item .item_content h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 30px;
+  background: #AD814D;
+}
+.usedapartment_detail_page .info_content .w_box_item .box_item .item_content p {
+  font-size: 0.875em;
+  margin-bottom: 0;
+}
+
+.box_objectsummary {
+  margin-top: 40px;
+}
+.box_objectsummary h2 {
+  font-size: 1.5em;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.box_objectsummary h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 30px;
+  background: #AD814D;
+}
+.box_objectsummary table th,
+.box_objectsummary table td {
+  padding: 20px 10px;
+  border-color: #BDBDBD;
+}
+.box_objectsummary table th:last-of-type,
+.box_objectsummary table td:last-of-type {
+  border-bottom: 1px solid #BDBDBD;
+}
+.box_objectsummary table th {
+  width: 190px;
+  background: #E0E0E0;
+  vertical-align: middle;
+}
+.box_objectsummary table td {
+  font-size: 0.875em;
+}
+.box_objectsummary p:first-of-type {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.box_objectsummary p:last-of-type {
+  color: #828282;
+  line-height: 1.3em;
+}
+
+.box_loansimulator {
+  margin-top: 50px;
+}
+.box_loansimulator h2.title_sub {
+  font-size: 1.5em;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.box_loansimulator h2.title_sub::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 30px;
+  background: #AD814D;
+}
+
 @media (max-width: 430px) {
   .usedapartment_page section {
     margin-bottom: 60px;
@@ -2063,5 +2223,10 @@ hr.dot {
   }
   .usedapartment_research .box_research ul li .pro_img img {
     height: 232px;
+  }
+}
+@media (min-width: 43.75em) {
+  .fixedsticky {
+    top: 0;
   }
 }/*# sourceMappingURL=styles_v2.css.map */

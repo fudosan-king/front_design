@@ -2629,6 +2629,202 @@ hr {
     }
 }
 
+.usedapartment_detail_page {
+    display: flex;
+    position: relative;
+
+    aside {
+        max-width: 260px;
+        margin-right: 20px;
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.25em;
+        }
+
+        h4 {
+            font-size: 1.5em;
+            color: $second_color;
+        }
+
+        .img_pro {
+            margin: 20px 0;
+            border: 1px solid #E0E0E0;
+            overflow: hidden;
+            width: 100%;
+            height: 360px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .btn {
+            border-radius: 100px;
+            border: 1px solid var(--Primary, #AD814D);
+            background: var(--Primary, #FFF);
+            padding: 3px;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 0.875em;
+            color: $second_color;
+            font-weight: 700;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            &:hover {
+                background: $second_color;
+                color: #fff;
+                border-color: $second_color;
+            }
+        }
+    }
+
+    .info_content {
+        max-width: 818px;
+
+        .w_box_item {
+            .box_item {
+                display: flex;
+                margin-bottom: 30px;
+
+                .img_item {
+                    margin-right: 20px;
+                    width: 446px;
+                    height: 280px;
+                    overflow: hidden;
+                    background: #F2F2F2;
+
+                    img {
+                        width: 100%;
+                        height: 280px;
+                        object-fit: cover;
+                    }
+                }
+
+                .item_content {
+                    max-width: 353px;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    justify-content: flex-end;
+
+                    h2 {
+                        font-size: 1.5em;
+                        position: relative;
+                        padding-left: 10px;
+                        margin-bottom: 30px;
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 5px;
+                            height: 30px;
+                            background: $second_color;
+                        }
+                    }
+
+                    p {
+                        font-size: 0.875em;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.box_objectsummary {
+    margin-top: 40px;
+
+    h2 {
+        font-size: 1.5em;
+        position: relative;
+        padding-left: 10px;
+        margin-bottom: 30px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 5px;
+            height: 30px;
+            background: $second_color;
+        }
+    }
+
+    table {
+
+        th,
+        td {
+            padding: 20px 10px;
+            border-color: #BDBDBD;
+
+            &:last-of-type {
+                border-bottom: 1px solid #BDBDBD;
+            }
+        }
+
+        th {
+            width: 190px;
+            background: #E0E0E0;
+            vertical-align: middle;
+        }
+
+        td {
+            font-size: 0.875em;
+        }
+    }
+
+    p {
+        &:first-of-type {
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        &:last-of-type {
+            color: #828282;
+            line-height: 1.3em;
+        }
+    }
+}
+
+.box_loansimulator {
+    margin-top: 50px;
+
+    h2 {
+        &.title_sub {
+            font-size: 1.5em;
+            position: relative;
+            padding-left: 10px;
+            margin-bottom: 30px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 5px;
+                height: 30px;
+                background: $second_color;
+            }
+        }
+    }
+}
+
 @media (max-width: 430px) {
     .usedapartment_page {
         section {
@@ -2667,5 +2863,11 @@ hr {
             }
         }
 
+    }
+}
+
+@media (min-width:43.75em) {
+    .fixedsticky {
+        top: 0;
     }
 }
