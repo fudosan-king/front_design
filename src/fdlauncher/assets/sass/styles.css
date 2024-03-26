@@ -396,7 +396,6 @@ header h1 {
 
 .section_submissiontool {
   background: #EDEDED;
-  padding-top: 0;
   overflow: hidden;
 }
 .section_submissiontool .box_submissiontool {
@@ -442,6 +441,14 @@ header h1 {
   margin-bottom: 50px;
   text-align: center;
 }
+.section_price .price_top {
+  position: relative;
+}
+.section_price .price_top .img_stmp {
+  position: absolute;
+  right: -50px;
+  top: 0;
+}
 .section_price .table {
   margin-bottom: 10px;
   overflow: hidden;
@@ -460,7 +467,7 @@ header h1 {
 .section_price .table th,
 .section_price .table td {
   width: 25%;
-  padding: 20px 50px;
+  padding: 20px 30px;
   text-align: center;
   font-size: 1.25em;
   font-weight: 700;
@@ -1166,5 +1173,78 @@ footer ul li a {
   }
   .section_estatetool .w_box_item .box_item img {
     width: 230px;
+  }
+}
+.section_features {
+  background: #EDEDED;
+}
+.section_features h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section_features ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_features ul li {
+  width: 32%;
+  border-radius: 20px;
+  border: 2px solid #000;
+  padding: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  text-align: center;
+}
+.section_features ul li:nth-of-type(3n) {
+  margin-right: 0;
+}
+.section_features ul li h3 {
+  font-size: 1.4375em;
+  font-weight: 700;
+  color: #fff;
+  background: #1E7FB8;
+  border-radius: 100px;
+  padding: 14px 5px;
+  font-family: "Inter";
+  margin-bottom: 0;
+}
+.section_features ul li img {
+  margin: 30px 0 20px;
+}
+.section_features ul li p {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.25em;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  .section_features ul li {
+    width: 48%;
+  }
+  .section_features ul li:nth-of-type(2n) {
+    margin-right: 0;
+  }
+  .section_features ul li:nth-of-type(3n) {
+    margin-right: 20px;
+  }
+  .section_features ul li:last-of-type {
+    margin-right: 0;
+  }
+}
+@media (max-width: 844px) {
+  .section_plan .sub_title {
+    font-size: 2em;
+  }
+  .section_features ul {
+    flex-direction: column;
+  }
+  .section_features ul li {
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
