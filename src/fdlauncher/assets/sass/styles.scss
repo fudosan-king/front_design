@@ -296,14 +296,12 @@ header {
 
   h4 {
     text-align: center;
-    font-weight: 400;
-    font-size: 2.25em;
+    font-size: 2em;
     position: relative;
     z-index: 20;
     margin-bottom: 0;
     line-height: 1.3em;
     font-family: 'Inter';
-    margin-top: 103px;
   }
 
   .img_banner {
@@ -480,7 +478,7 @@ header {
 
         span {
           &:first-of-type {
-            display: block;
+            // display: block;
           }
 
           &:last-of-type {

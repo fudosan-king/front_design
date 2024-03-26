@@ -17,8 +17,8 @@
                         <div class="banner_content">
                             <div class="box_info" data-aos="fade-up">
                                 <h2>
-                                    <span>スタートアップ不動産企業に最適</span><br>
-                                    不動産物件コンバーター
+                                    <span>ノーコードで簡単！物件検索機能付き</span><br>
+                                    不動産ホームページ作成ツール
                                 </h2>
                                 <h3>FDランチャー</h3>
                                 <ul>
@@ -35,7 +35,8 @@
                                         <p>無制限</p>
                                     </li>
                                 </ul>
-                                <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a>
+                                <!-- <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a> -->
+                                <h4>主要ポータルサイトに一括入稿もできます</h4>
                             </div>
                         </div>
                     </div>
@@ -119,7 +120,7 @@
                                         <td>月額費用</td>
                                         <td>¥22,000</td>
                                         <td>￥27,500</td>
-                                        <td>¥11,000※2</td>
+                                        <td>¥11,000 <sup>※2</sup></td>
                                     </tr>
                                     <tr>
                                         <td class="fw-normal">ホームページデザイン</td>
@@ -210,7 +211,7 @@
                     <div class="col-12">
                         <div class="box_propertyinformation">
                             <div class="box_info" data-aos="fade-right">
-                                <h2>物件情報一括入稿ツール</h2>
+                                <h2>不動産ホームページ作成ツール</h2>
                                 <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
                                 <a target="_blank" href="https://form.run/@fdl-order-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
                             </div>
