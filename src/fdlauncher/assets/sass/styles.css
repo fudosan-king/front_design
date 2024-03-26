@@ -23,16 +23,20 @@ a {
   border-radius: 0;
 }
 
-.btn, a, .btn:hover {
+.btn,
+a,
+.btn:hover {
   transition: color 0.25s ease;
 }
 
-.btn:hover, .btn.focus {
+.btn:hover,
+.btn.focus {
   color: #1E7FB8;
   transition: all 0.3s linear;
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   box-shadow: none;
 }
 
@@ -97,7 +101,12 @@ body {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "SF Pro Display", "Noto Sans JP", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
   line-height: 1.5em;
   text-rendering: optimizeLegibility;
@@ -109,12 +118,15 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-*, :before, :after {
+*,
+:before,
+:after {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   position: relative;
   height: 100%;
 }
@@ -150,12 +162,18 @@ section {
   padding: 150px 0;
 }
 
-.small, small {
+.small,
+small {
   font-size: 0.75em;
 }
 
 @media (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
     max-width: 1098px;
   }
 }
@@ -439,7 +457,8 @@ header h1 {
 .section_price .table tr td span {
   font-size: 0.7em;
 }
-.section_price .table th, .section_price .table td {
+.section_price .table th,
+.section_price .table td {
   width: 25%;
   padding: 20px 50px;
   text-align: center;
@@ -448,7 +467,8 @@ header h1 {
   border-color: #E0E0E0;
   position: relative;
 }
-.section_price .table th:hover::after, .section_price .table td:hover::after {
+.section_price .table th:hover::after,
+.section_price .table td:hover::after {
   content: "";
   position: absolute;
   background-color: #ffa;
@@ -951,7 +971,8 @@ footer ul li a {
   .section_submissiontool .box_submissiontool .box_submissiontool_info .btn span {
     font-size: 1.8em;
   }
-  .section_price .table th, .section_price .table td {
+  .section_price .table th,
+  .section_price .table td {
     width: auto;
     padding: 10px 5px;
     font-size: 0.65em;
@@ -1033,5 +1054,84 @@ footer ul li a {
   footer ul li {
     margin-right: 0;
     text-align: center;
+  }
+}
+.section_estatetool {
+  background: #EDEDED;
+  padding-top: 0;
+}
+.section_estatetool h2 {
+  font-size: 2em;
+  font-family: "Inter";
+  margin-bottom: 40px;
+}
+.section_estatetool .w_box_item {
+  display: flex;
+  align-items: center;
+}
+.section_estatetool .w_box_item .box_item {
+  display: flex;
+}
+.section_estatetool .w_box_item .box_item:last-of-type {
+  margin-left: 64px;
+  flex-direction: row-reverse;
+}
+.section_estatetool .w_box_item .box_item:last-of-type img {
+  margin-left: 35px;
+  margin-right: 0;
+}
+.section_estatetool .w_box_item .box_item .box_item_content {
+  background: #D8D8D8;
+  border-radius: 20px;
+  padding: 15px;
+  max-width: 310px;
+  min-height: 250px;
+}
+.section_estatetool .w_box_item .box_item .box_item_content h3 {
+  font-size: 1.5em;
+  color: #1E7FB8;
+  font-family: "Inter";
+  margin-bottom: 30px;
+  min-height: 72px;
+}
+.section_estatetool .w_box_item .box_item .box_item_content p {
+  font-size: 1.25em;
+  font-family: "Inter";
+  font-weight: 700;
+  color: #353535;
+  margin-bottom: 0;
+}
+.section_estatetool .w_box_item .box_item img {
+  margin-right: 70px;
+}
+
+.section_flow .note_flow {
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: "Inter";
+  text-align: left;
+  margin-bottom: 0;
+}
+
+@media (max-width: 844px) {
+  .section_estatetool h2 {
+    font-size: 1.5em;
+  }
+  .section_estatetool .w_box_item {
+    flex-direction: column;
+  }
+  .section_estatetool .w_box_item .box_item {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .section_estatetool .w_box_item .box_item:last-of-type {
+    margin-left: 0;
+    flex-direction: inherit;
+  }
+  .section_estatetool .w_box_item .box_item:last-of-type img {
+    margin: auto;
+  }
+  .section_estatetool .w_box_item .box_item img {
+    margin: auto;
   }
 }/*# sourceMappingURL=styles.css.map */
