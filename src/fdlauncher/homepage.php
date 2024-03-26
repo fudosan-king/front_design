@@ -416,7 +416,7 @@
                     <div class="col-12">
                         <div class="box_propertyinformation">
                             <div class="box_info" data-aos="fade-right">
-                                <h2>物件情報一括入稿ツール</h2>
+                                <h2>不動産ホームページ作成ツール</h2>
                                 <img class="img-fluid logo_black" src="assets/images/logo_black.svg" alt="logo black" width="290">
                                 <a target="_blank" href="https://form.run/@fdl-order-form" class="btn btn_application"><i class="i_edit"></i> 申し込み</a>
                             </div>
