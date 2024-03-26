@@ -1297,12 +1297,45 @@ footer {
 
 .section_estatetool {
   background: #EDEDED;
-  padding-top: 0;
+  padding: 0 0 60px;
+
+  h1 {
+    font-size: 2em;
+    color: $primary_color;
+    text-align: center;
+
+    span {
+      position: relative;
+      display: inline-block;
+      padding: 0 30px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        width: 30px;
+        height: 30px;
+        background: url("../images/line_left.svg") no-repeat;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        width: 30px;
+        height: 30px;
+        background: url("../images/line_right.svg") no-repeat right;
+      }
+    }
+  }
 
   h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Inter';
     margin-bottom: 40px;
+    text-align: center;
   }
 
   .w_box_item {
@@ -1310,44 +1343,37 @@ footer {
     align-items: center;
 
     .box_item {
-      display: flex;
+      border-radius: 20px;
+      border: 1px solid #000;
+      padding: 30px;
+      margin-right: 20px;
+      background: #fff;
+      text-align: center;
+      min-height: 442px;
 
       &:last-of-type {
-        margin-left: 64px;
-        flex-direction: row-reverse;
-
-        img {
-          margin-left: 35px;
-          margin-right: 0;
-        }
-      }
-
-      .box_item_content {
-        background: #D8D8D8;
-        border-radius: 20px;
-        padding: 15px;
-        max-width: 310px;
-        min-height: 250px;
-
-        h3 {
-          font-size: 1.5em;
-          color: $primary_color;
-          font-family: 'Inter';
-          margin-bottom: 30px;
-          min-height: 72px;
-        }
+        margin: 0;
 
         p {
-          font-size: 1.25em;
-          font-family: 'Inter';
-          font-weight: 700;
-          color: #353535;
-          margin-bottom: 0;
+          text-align: left;
+          margin-top: 20px;
         }
       }
 
-      img {
-        margin-right: 70px;
+      h3 {
+        font-size: 1.25em;
+        color: #fff;
+        background: $primary_color;
+        border-radius: 100px;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.25em;
+        font-weight: 700;
+        margin-bottom: 0;
+        line-height: 1.8em;
       }
     }
   }
@@ -1373,20 +1399,26 @@ footer {
       flex-direction: column;
 
       .box_item {
-        flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        margin-right: 0;
+        width: 100%;
+        min-height: auto;
+        padding: 30px 15px;
 
         &:last-of-type {
           margin-left: 0;
-          flex-direction: inherit;
 
           img {
-            margin: auto;
+            width: 190px;
           }
         }
 
+        h3 {
+          font-size: 1.25em;
+        }
+
         img {
-          margin: auto;
+          width: 230px;
         }
       }
     }
