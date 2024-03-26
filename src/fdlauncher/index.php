@@ -132,7 +132,10 @@
                                 </tbody>
                             </table>
                         </div>
-                        <p class="text-end"><small>※オプションにより一部有料機能あり</small></p>
+                        <p class="text-end">
+                            <small>※1 B社と比較した場合の初年度合計額(ホームページ運用込)<br>
+                                ※2 API仕様の場合、月額費用￥16,500</small>
+                        </p>
                     </div>
                 </div>
             </div>
