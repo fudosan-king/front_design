@@ -19,12 +19,13 @@
 
                         <section class="estate_list">
                             <h2 class="title-main">販売中物件</h2>
+
                             <div class="w_estate_list_item">
                                 <div class="estate_list_item">
                                     <h3>プロスタイル南町田</h3>
                                     <div class="estate_list_item_main">
                                         <div class="estate_list_img">
-                                            <a href="#"><img src="assets/images/img01.jpg" alt="img01"></a>
+                                            <a href="#"><img src="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/A-5.jpg" alt="img01"></a>
                                         </div>
                                         <div class="estate_list_content">
                                             <h4>物件のポイント</h4>
@@ -110,6 +111,88 @@
                                     <a href="estate_detail.php" class="btn">詳細を見る</a>
                                 </div>
                             </div>
+
+                            <div class="w_estate_list_item">
+                                <div class="estate_list_item">
+                                    <h3>test</h3>
+                                    <div class="estate_list_item_main">
+                                        <div class="estate_list_img">
+                                            <a href="https://staging.prostyle-residence.com/mokusiru/estates/test/">
+                                            </a>
+                                        </div>
+                                        <div class="estate_list_content">
+                                            <h4>物件のポイント</h4>
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>所在地</th>
+                                                        <td>東京都 </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>交通</th>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>築年月</th>
+                                                        <td>2023年 1月</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>総戸数</th>
+                                                        <td>総戸数/-</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="estate_list_footer">
+                                    <a href="https://staging.prostyle-residence.com/mokusiru/estatesale_request?estate_id=1935" class="btn"><img src="https://staging.prostyle-residence.com/mokusiru/wp-content/themes/blog/assets/images/icons/i_mail.svg" alt="" width="17"> お問い合わせ</a>
+                                    <a href="https://staging.prostyle-residence.com/mokusiru/estates/test/" class="btn">詳細を見る</a>
+                                </div>
+                            </div>
+
+                            <div class="w_estate_list_item">
+                                <div class="estate_list_item">
+                                    <h3>テストマンション　新規登録</h3>
+                                    <div class="estate_list_item_main">
+                                        <div class="estate_list_img">
+                                            <a href="https://staging.prostyle-residence.com/mokusiru/estates/%e3%83%86%e3%82%b9%e3%83%88%e3%83%9e%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%b3%e3%80%80%e6%96%b0%e8%a6%8f%e7%99%bb%e9%8c%b2/">
+                                                <img src="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2021/12/image-9.png" alt="img01">
+                                            </a>
+                                        </div>
+                                        <div class="estate_list_content">
+                                            <h4>物件のポイント</h4>
+                                            <p><img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-1315" src="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/rectangle_77.jpg" alt="" width="1199" height="1200" srcset="https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/rectangle_77.jpg 1199w, https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/rectangle_77-380x380.jpg 380w, https://staging.prostyle-residence.com/mokusiru/wp-content/uploads/2023/11/rectangle_77-768x769.jpg 768w" sizes="(max-width: 1199px) 100vw, 1199px"></p>
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>所在地</th>
+                                                        <td>東京都 </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>交通</th>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>築年月</th>
+                                                        <td>2023年 1月</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>総戸数</th>
+                                                        <td>総戸数/-</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="estate_list_footer">
+                                    <a href="https://staging.prostyle-residence.com/mokusiru/estatesale_request?estate_id=1676" class="btn"><img src="https://staging.prostyle-residence.com/mokusiru/wp-content/themes/blog/assets/images/icons/i_mail.svg" alt="" width="17"> お問い合わせ</a>
+                                    <a href="https://staging.prostyle-residence.com/mokusiru/estates/%e3%83%86%e3%82%b9%e3%83%88%e3%83%9e%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%b3%e3%80%80%e6%96%b0%e8%a6%8f%e7%99%bb%e9%8c%b2/" class="btn">詳細を見る</a>
+                                </div>
+                            </div>
+
+
                         </section>
                     </div>
                 </div>
