@@ -33,7 +33,21 @@
                                         <form action="">
                                             <div class="box_filter justify-content-end">
                                                 <input class="form-control input_search" type="text" name="" value="" placeholder="Search here...">
-                                                <a href="#" class="btn"><i></i> 価格の安い順</a>
+                                                <!-- <a href="#" class="btn"><i></i> 価格の安い順</a> -->
+                                                <div class="dropdown">
+                                                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                        <i></i> 価格の安い順
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">新着・更新順</a>
+                                                        <a class="dropdown-item" href="#">価格の安い順</a>
+                                                        <a class="dropdown-item" href="#">価格の高い順</a>
+                                                        <a class="dropdown-item" href="#">専有面積の狭い順</a>
+                                                        <a class="dropdown-item" href="#">専有面積の広い順</a>
+                                                        <a class="dropdown-item" href="#">築年月の新しい順</a>
+                                                        <a class="dropdown-item" href="#">築年月の古い順</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
@@ -228,7 +242,21 @@
                                         <form action="">
                                             <div class="box_filter justify-content-end">
                                                 <input class="form-control input_search" type="text" name="" value="" placeholder="Search here...">
-                                                <a href="#" class="btn"><i></i> 価格の安い順</a>
+                                                <!-- <a href="#" class="btn"><i></i> 価格の安い順</a> -->
+                                                <div class="dropdown">
+                                                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                                        <i></i> 価格の安い順
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">新着・更新順</a>
+                                                        <a class="dropdown-item" href="#">価格の安い順</a>
+                                                        <a class="dropdown-item" href="#">価格の高い順</a>
+                                                        <a class="dropdown-item" href="#">専有面積の狭い順</a>
+                                                        <a class="dropdown-item" href="#">専有面積の広い順</a>
+                                                        <a class="dropdown-item" href="#">築年月の新しい順</a>
+                                                        <a class="dropdown-item" href="#">築年月の古い順</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
