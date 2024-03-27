@@ -1,4 +1,4 @@
-<!-- <div class="menu-list" style="display: block;">
+<div class="menu-list menu-list2" style="display: block;">
     <div class="container-fluid">
         <ul class="navbar navbar_text d-flex d-lg-none">
             <li class="nav-item">
@@ -45,9 +45,9 @@
 
         </ul>
     </div>
-</div> -->
+</div>
 
-<div class="menu-list" style="display: block;">
+<!-- <div class="menu-list" style="display: block;">
     <div class="container-fluid">
         <a class="navbar-brand d-block d-lg-none" href="https://www.prostyle-residence.com/mokusiru/">
             <img class="img-fuild" alt="MOKUSIRU BLOG logo" src="common/logo_yoko.png" title="">
@@ -208,4 +208,4 @@
             </li>
         </ul>
     </div>
-</div>
+</div> -->

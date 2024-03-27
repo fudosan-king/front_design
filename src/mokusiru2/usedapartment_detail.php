@@ -7,6 +7,7 @@
 
 <body class="home blog">
     <?php include 'header.php'; ?>
+    <?php include 'menu_sub2.php'; ?>
 
     <div class="sub_page">
         <div class="container">
@@ -14,7 +15,7 @@
                 <div class="col-12 col-lg-12">
                     <div class="main-content">
                         <div class="usedapartment_detail_page">
-                            <aside class="aside sidebar fixedsticky">
+                            <aside class="aside sidebar">
                                 <div class="top_info">
                                     <h2>パークハウス・ジオ六番町 2階</h2>
                                     <h3><span>3LDK</span>／<span>114.13m²</span></h3>
@@ -83,7 +84,7 @@
                                         </tr>
                                         <tr>
                                             <th>価格</th>
-                                            <td colspan="3">41,800 <span>万円</span></td>
+                                            <td colspan="3" class="big_number">41,800 <span>万円</span></td>
                                         </tr>
                                         <tr>
                                             <th>築年月</th>
@@ -152,7 +153,7 @@
                                 <div class="box_loansimulator">
                                     <h2 class="title_sub">ローンシミュレーター</h2>
                                     <div class="loansimulator_content">
-                                        <h1>物件価格 　6,000万円（税込）</h1>
+                                        <h1><span>物件価格</span> 6,000<span> 万円（税込）</span></h1>
                                         <form class="frm_loansimulator" action="">
                                             <div class="loansimulator_content_left">
                                                 <h2>毎月のローン返済額</h2>
@@ -163,96 +164,66 @@
                                                 </div>
                                             </div>
                                             <div class="loansimulator_content_right">
-                                                <div class="group_amount">
-                                                    <label for="">自己資金（頭金）</label>
-                                                    <input type="text" name="" value="" placeholder="1,000">
-                                                    <span>万円</span>
+                                                <div class="row_group_amount">
+                                                    <div class="group_amount">
+                                                        <label for="">自己資金（頭金）</label>
+                                                        <input type="number" name="" value="" placeholder="1,000">
+                                                        <span>万円</span>
+                                                    </div>
+                                                    <div class="group_amount">
+                                                        <label for="">借入れ額（ローン）</label>
+                                                        <input type="number" name="" value="" placeholder="5,000">
+                                                        <span>万円</span>
+                                                    </div>
                                                 </div>
-                                                <div class="group_amount">
-                                                    <label for="">借入れ額（ローン）</label>
-                                                    <input type="text" name="" value="" placeholder="5,000">
-                                                    <span>万円</span>
-                                                </div>
+
                                                 <hr>
-                                                <div class="group_amount">
-                                                    <label for="">返済期間</label>
-                                                    <input type="text" name="" value="" placeholder="35">
-                                                    <span>年</span>
+
+                                                <div class="row_group_amount">
+                                                    <div class="group_amount">
+                                                        <label for="">返済期間</label>
+                                                        <input type="number" name="" value="" placeholder="35">
+                                                        <span>年</span>
+                                                    </div>
+                                                    <div class="group_amount">
+                                                        <label for="">金利（元利均等）</label>
+                                                        <input type="number" name="" value="" placeholder="0.475">
+                                                        <span>%</span>
+                                                    </div>
                                                 </div>
-                                                <div class="group_amount">
-                                                    <label for="">金利（元利均等）</label>
-                                                    <input type="text" name="" value="" placeholder="0.475">
-                                                    <span>%</span>
-                                                </div>
+
+
                                             </div>
                                         </form>
-                                        <p>この毎月のローン返済額は、あくまで試算であり実際のご返済額とは異なる場合があります。お借り入れの可否や金利・返済額の諸条件は、金融機関にご確認ください。</p>
+                                        <p class="mb-0">この毎月のローン返済額は、あくまで試算であり実際のご返済額とは異なる場合があります。お借り入れの可否や金利・返済額の諸条件は、金融機関にご確認ください。</p>
                                     </div>
                                 </div>
 
                                 <div class="contactus_content">
+                                    <h2>お問い合わせ・資料請求</h2>
+                                    <p class="mb-5">フォームよりお問合せください</p>
+
                                     <form class="frm_contactus formrun" name="pardotFormEstateSale" id="pardotFormEstateSale" method="POST">
                                         <section class="data-input">
                                             <input type="hidden" id="formLang" class="form-control" value="jp">
                                             <input type="hidden" name="id" id="id" class="form-control" value="8474">
-                                            <input type="hidden" name="name" id="name" class="form-control" value="プレシス鶴間レジデンス　　　　　　　　　　">
+                                            <input type="hidden" name="name" id="name" class="form-control" value="プレシス鶴間レジデンス">
 
                                             <div class="form-group">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-3">
-                                                        <label for="" class="label_required">お問い合わせ事項（複数選択可）<span class="red">（※）</span></label>
+                                                <div class="row g-2">
+                                                    <div class="col-12 col-lg-4">
+                                                        <label for="" class="label_required">お問合せ事項<span class="red">（必須）</span></label>
                                                         <!-- <input type="hidden" name="contact_item_text" value=""> -->
                                                     </div>
-                                                    <div class="col-12 col-lg-9">
-                                                        <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input contact_item_document formrun-has-success" id="customCheck1" name="contact_item[]" value="資料請求" data-value="資料請求">
-                                                            <label class="custom-control-label" for="customCheck1"><span>資料請求</span></label>
-                                                        </div>
-                                                        <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input contact_item_staff formrun-has-success" id="customCheck3_" name="contact_item[]" value="お問合せ・ご質問など" data-value="お問合せ・ご質問など">
-                                                            <label class="custom-control-label" for="customCheck3_"><span>お問合せ・ご質問など</span></label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label for="" class="label_required">メールアドレス <span class="red">（※）</span></label>
-                                                    </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
-                                                        <input type="email" class="form-control required" data-require="true" placeholder="例：aaaa1234@bbb.cccc" name="email">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label class="mb-lg-0 mb-2" for="">お名前 <span class="red">（※）</span></label>
-                                                    </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
-                                                        <div class="row">
-                                                            <div class="col-12 col-lg-6">
-                                                                <div class="row mb-2 mb-lg-0">
-                                                                    <div class="col-2 col-lg-2 align-self-center">
-                                                                        <label for="">姓</label>
-                                                                    </div>
-                                                                    <div class="col-10 col-lg-10 align-self-center">
-                                                                        <input type="text" name="last_name" data-require="true" class="form-control required" placeholder="例：山田" required="">
-                                                                    </div>
-                                                                </div>
+                                                    <div class="col-12 col-lg-8">
+                                                        <div class="box_inquiries">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input contact_item_document formrun-has-success" id="customCheck1" name="contact_item[]" value="資料請求" data-value="資料請求">
+                                                                <label class="custom-control-label font-weight-normal" for="customCheck1"><span>資料請求</span></label>
                                                             </div>
-                                                            <div class="col-12 col-lg-6">
-                                                                <div class="row">
-                                                                    <div class="col-2 align-self-center">
-                                                                        <label for="">名</label>
-                                                                    </div>
-                                                                    <div class="col-10 align-self-center">
-                                                                        <input type="text" name="first_name" data-require="true" class="form-control required" placeholder="例：太郎" required="">
-                                                                    </div>
-                                                                </div>
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input contact_item_staff formrun-has-success" id="customCheck3_" name="contact_item[]" value="お問合せ・ご質問など" data-value="お問合せ・ご質問など">
+                                                                <label class="custom-control-label font-weight-normal" for="customCheck3_"><span>お問合せ・ご質問など</span></label>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -261,30 +232,27 @@
 
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（※）</span></label>
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label for="" class="label_required">メールアドレス <span class="red">（必須）</span></label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
-                                                        <div class="row">
+                                                    <div class="col-12 col-lg-8 align-self-center">
+                                                        <input type="email" class="form-control required" data-require="true" placeholder="例：xxxxxxx@logrenove.jp" name="email">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label class="mb-lg-0 mb-2" for="">お名前 <span class="red">（必須）</span></label>
+                                                    </div>
+                                                    <div class="col-12 col-lg-8 align-self-center">
+                                                        <div class="row row_cus">
                                                             <div class="col-12 col-lg-6">
-                                                                <div class="row mb-2 mb-lg-0">
-                                                                    <div class="col-2 col-lg-2 align-self-center">
-                                                                        <label for="">セイ</label>
-                                                                    </div>
-                                                                    <div class="col-10 col-lg-10 align-self-center">
-                                                                        <input type="text" name="myouji" class="form-control required" placeholder="例：ヤマダ" required="">
-                                                                    </div>
-                                                                </div>
+                                                                <input type="text" name="last_name" data-require="true" class="form-control mb-2 mb-lg-0 required" placeholder="姓" required="">
                                                             </div>
                                                             <div class="col-12 col-lg-6">
-                                                                <div class="row">
-                                                                    <div class="col-2 align-self-center">
-                                                                        <label for="">メイ</label>
-                                                                    </div>
-                                                                    <div class="col-10 align-self-center">
-                                                                        <input type="text" name="namae" class="form-control required" placeholder="例：タロウ" required="">
-                                                                    </div>
-                                                                </div>
+                                                                <input type="text" name="first_name" data-require="true" class="form-control required" placeholder="名" required="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -293,21 +261,39 @@
 
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label for="" class="label_required">お電話番号 <span class="red">（※）</span></label>
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（必須）</span></label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
+                                                    <div class="col-12 col-lg-8 align-self-center">
+                                                        <div class="row row_cus">
+                                                            <div class="col-12 col-lg-6">
+                                                                <input type="text" name="myouji" class="form-control mb-2 mb-lg-0 required" placeholder="セイ" required="">
+                                                            </div>
+                                                            <div class="col-12 col-lg-6">
+                                                                <input type="text" name="namae" class="form-control required" placeholder="メイ" required="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label for="" class="label_required">お電話番号 <span class="red">（必須）</span></label>
+                                                    </div>
+                                                    <div class="col-12 col-lg-8 align-self-center">
                                                         <input type="tel" class="form-control required" placeholder="例：08000000000" name="phone_number" data-require="true">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label for="" class="label_required">郵便番号 <span class="red">（※）</span></label>
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label for="" class="label_required">郵便番号 <span class="red">（必須）</span></label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9">
-                                                        <div class="row">
+                                                    <div class="col-12 col-lg-8">
+                                                        <div class="row row_cus">
                                                             <div class="col-12 col-lg-6 align-self-center">
                                                                 <input type="number" class="form-control required" placeholder="例：1234567" name="post" onkeyup="AjaxZip3.zip2addr(this,'','pref','address');" data-require="true" data-type="zip-code" data-custom="true">
                                                             </div>
@@ -320,12 +306,13 @@
                                             </div>
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label for="" class="label_required">都道府県 <span class="red">（※）</span></label>
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label for="" class="label_required">都道府県 <span class="red">（必須）</span></label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
+                                                    <div class="col-12 col-lg-8 align-self-center">
                                                         <select name="pref" class="form-control custom-select" data-require="true">
-                                                            <option value="null">▼選択してください</option>
+                                                            <!-- <option value="null">▼選択してください</option> -->
+                                                            <option value="都道府県を選択してください">都道府県を選択してください</option>
                                                             <option value="北海道">北海道</option>
                                                             <option value="青森県">青森県</option>
                                                             <option value="岩手県">岩手県</option>
@@ -379,41 +366,42 @@
                                             </div>
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label for="" class="label_required">住所 <span class="red">（※）</span></label>
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label for="" class="label_required">住所 <span class="red">（必須）</span></label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
+                                                    <div class="col-12 col-lg-8 align-self-center">
                                                         <input type="text" class="form-control required" placeholder="" name="address" data-require="true">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
+                                                    <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">建物名・号室 </label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
+                                                    <div class="col-12 col-lg-8 align-self-center">
                                                         <input type="text" class="form-control required" placeholder="" name="building_number">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
+                                                    <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">ご質問内容 </label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
-                                                        <textarea name="question" class="form-control" rows="5" cols="30"></textarea>
+                                                    <div class="col-12 col-lg-8 align-self-center">
+                                                        <textarea name="question" class="form-control" rows="5" cols="30" placeholder="ご希望・ご質問・物件に関しての追加情報等ございましたらご記入ください。"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="row">
-                                                    <div class="col-12 col-lg-3 align-self-center">
-                                                        <label for="" class="label_required">ご予算 <span class="red">（※）</span></label>
+                                                    <div class="col-12 col-lg-4 align-self-center">
+                                                        <label for="" class="label_required">ご予算 <span class="red">（必須）</span></label>
                                                     </div>
-                                                    <div class="col-12 col-lg-9 align-self-center">
+                                                    <div class="col-12 col-lg-8 align-self-center">
                                                         <select name="price" class="form-control custom-select" data-require="true">
+                                                            <option value="〜15,000万円">〜15,000万円</option>
                                                             <option value="〜4,000万円">〜4,000万円</option>
                                                             <option value="〜5,000万円">〜5,000万円</option>
                                                             <option value="〜6,000万円">〜6,000万円</option>
@@ -433,14 +421,14 @@
                                                     個人情報の取扱に関しましては プライバシーポリシー をご覧ください。<br>
                                                     ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。
                                                 </p>
-                                                <div class="form-group mb-3">
+                                                <div class="form-group mb-3 text-center">
                                                     <div class="custom-control custom-checkbox w_checkbox">
                                                         <input type="checkbox" name="agree_terms" data-require="true" class="custom-control-input required" id="agree_terms" value="同意する">
-                                                        <label class="custom-control-label agree_terms" for="agree_terms">同意する</label>
+                                                        <label class="custom-control-label agree_terms font-weight-normal" for="agree_terms"><span>同意する</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="form-group text-center mb-0">
-                                                    <button type="button" class="btn btnsubmit" id="btnAgree">確認画面へ<i class="i_rightwhite"></i></button>
+                                                    <button type="button" class="btn btnsubmit" id="btnAgree">上記に同意して確認画面へ <img src="assets/images/i_rightwhite.svg" alt="icon arrow right"></button>
                                                 </div>
                                             </div>
                                         </section>

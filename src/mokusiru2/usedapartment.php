@@ -7,6 +7,7 @@
 
 <body class="home blog">
     <?php include 'header.php'; ?>
+    <?php include 'menu_sub2.php'; ?>
 
     <div class="sub_page">
         <div class="container">
@@ -41,10 +42,10 @@
                                         <ul>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_01.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_01.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -55,10 +56,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_02.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_02.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -69,10 +70,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_03.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_03.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -83,67 +84,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_04.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_04.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
-                                                        <h2>神宮前コーポラス 310号室</h2>
-                                                        <h3>12,000万円</h3>
-                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
-                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
-                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
-                                                    </a>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_05.png" alt="products"></a>
-                                                </div>
-                                                <div class="pro_content">
-                                                    <a href="#">
-                                                        <h2>神宮前コーポラス 310号室</h2>
-                                                        <h3>12,000万円</h3>
-                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
-                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
-                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_06.png" alt="products"></a>
-                                                </div>
-                                                <div class="pro_content">
-                                                    <a href="#">
-                                                        <h2>神宮前コーポラス 310号室</h2>
-                                                        <h3>12,000万円</h3>
-                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
-                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
-                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_07.png" alt="products"></a>
-                                                </div>
-                                                <div class="pro_content">
-                                                    <a href="#">
-                                                        <h2>神宮前コーポラス 310号室</h2>
-                                                        <h3>12,000万円</h3>
-                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
-                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
-                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_08.png" alt="products"></a>
-                                                </div>
-                                                <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -155,10 +99,10 @@
 
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_05.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_05.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -169,10 +113,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_06.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_06.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -183,10 +127,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_07.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_07.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -197,10 +141,67 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_08.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_08.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
+                                                        <h2>神宮前コーポラス 310号室</h2>
+                                                        <h3>12,000万円</h3>
+                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
+                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="pro_img">
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_05.png" alt="products"></a>
+                                                </div>
+                                                <div class="pro_content">
+                                                    <a href="usedapartment_detail.php">
+                                                        <h2>神宮前コーポラス 310号室</h2>
+                                                        <h3>12,000万円</h3>
+                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
+                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="pro_img">
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_06.png" alt="products"></a>
+                                                </div>
+                                                <div class="pro_content">
+                                                    <a href="usedapartment_detail.php">
+                                                        <h2>神宮前コーポラス 310号室</h2>
+                                                        <h3>12,000万円</h3>
+                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
+                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="pro_img">
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_07.png" alt="products"></a>
+                                                </div>
+                                                <div class="pro_content">
+                                                    <a href="usedapartment_detail.php">
+                                                        <h2>神宮前コーポラス 310号室</h2>
+                                                        <h3>12,000万円</h3>
+                                                        <h4>東京都渋谷区神宮前 6-25-8</h4>
+                                                        <p>東京メトロ千代田線・副都心線「明治神宮前」駅徒歩3分</p>
+                                                        <h5><span>2階</span> / <span>48.24㎡</span> / <span>1LDK</span></h5>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="pro_img">
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_08.png" alt="products"></a>
+                                                </div>
+                                                <div class="pro_content">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -236,10 +237,10 @@
                                         <ul>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_01.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_01.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -250,10 +251,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_02.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_02.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -264,10 +265,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_03.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_03.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -278,10 +279,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_04.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_04.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -293,10 +294,10 @@
 
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_05.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_05.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -307,10 +308,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_06.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_06.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -321,10 +322,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_07.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_07.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>
@@ -335,10 +336,10 @@
                                             </li>
                                             <li>
                                                 <div class="pro_img">
-                                                    <a href="#"><img src="assets/images/products/pro_08.png" alt="products"></a>
+                                                    <a href="usedapartment_detail.php"><img src="assets/images/products/pro_08.png" alt="products"></a>
                                                 </div>
                                                 <div class="pro_content">
-                                                    <a href="#">
+                                                    <a href="usedapartment_detail.php">
                                                         <h2>神宮前コーポラス 310号室</h2>
                                                         <h3>12,000万円</h3>
                                                         <h4>東京都渋谷区神宮前 6-25-8</h4>

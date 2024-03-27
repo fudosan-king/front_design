@@ -37,9 +37,9 @@ input[type=number] {
 }
 
 .header-top {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    // padding-top: 30px;
+    // padding-bottom: 30px;
+    // box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
 
     button {
         &.hamburger-menu {
@@ -189,9 +189,11 @@ input[type=number] {
 
             .estate_list_img {
                 min-width: 330px;
+                max-width: 330px;
                 height: 450px;
                 overflow: hidden;
                 margin-right: 20px;
+                background: #F2F2F2;
 
                 img {
                     width: 100%;
@@ -2125,6 +2127,14 @@ hr {
 
 }
 
+.menu-list {
+    &.menu-list2 {
+        .container-fluid {
+            padding: 0;
+        }
+    }
+}
+
 @media (max-width: 834px) {
     .menu-list {
         z-index: 999;
@@ -2142,6 +2152,7 @@ hr {
         .navbar_text {
             justify-content: center;
             border-bottom: 1px solid #ccc;
+            flex-direction: column;
 
             li {
                 width: 50%;
@@ -2632,8 +2643,18 @@ hr {
 .usedapartment_detail_page {
     display: flex;
     position: relative;
+    margin-bottom: 90px;
+
+    .sidebar {
+        height: 654px;
+        overflow: auto;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 90px;
+    }
 
     aside {
+        padding-top: 10px;
         max-width: 260px;
         margin-right: 20px;
 
@@ -2741,10 +2762,151 @@ hr {
                 }
             }
         }
+
+        .contactus_content {
+            border-radius: 10px;
+            background: var(--Gray-6, #F2F2F2);
+            padding: 50px 70px;
+
+            .row_cus {
+                margin-left: -5px;
+                margin-right: -5px;
+
+                .col-lg-6 {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
+
+            label {
+                font-size: 0.875em;
+                font-weight: 700;
+            }
+
+            .form-group {
+                margin-bottom: 25px;
+            }
+
+            .form-control {
+                border-radius: 4px;
+                border: 1px solid var(--Gray-3, #828282);
+                background: var(--Primary, #FFF);
+                height: calc(1.5em + .75rem + 7px);
+                font-size: 0.875em;
+
+                &::placeholder {
+                    color: #BDBDBD;
+                }
+            }
+
+            .box_inquiries {
+                display: flex;
+
+                .custom-control {
+                    span {
+                        position: relative;
+                        top: 5px;
+                    }
+
+                    &:first-of-type {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            h2 {
+                font-size: 2.25em;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .btn_autofill_prefectureaddress {
+                display: flex;
+                align-content: center;
+                color: #AD814D;
+                font-size: 0.875em;
+            }
+
+            textarea {
+                &.form-control {
+                    height: 120px;
+                }
+            }
+
+            .custom-select {
+                background: #fff url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='10' cy='10' r='10' fill='%23B48856'/%3e%3cpath d='M5.29413 8.23535L10 12.9412L14.7059 8.23535' stroke='white' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e") no-repeat right 0.75rem center / 20px 20px;
+                color: #BDBDBD;
+            }
+
+            .primary_policy {
+                max-width: 490px;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 0.75em;
+
+                a {
+                    color: $second_color;
+                    text-decoration: underline;
+                }
+            }
+
+            .agree_terms {
+                span {
+                    position: relative;
+                    top: 5px;
+                }
+            }
+
+            .btnsubmit {
+                border-radius: 100px;
+                background: $second_color;
+                padding: 15px;
+                max-width: 442px;
+                color: #fff;
+                font-weight: 700;
+                font-size: 1.125em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+
+                &:hover {
+                    background: #4F4F4F;
+                }
+
+                img {
+                    position: absolute;
+                    right: 20px;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
+            }
+        }
     }
 }
 
+.custom-control-label {
 
+    &::after,
+    &::before {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: $second_color;
+    background-color: $second_color;
+}
 
 .box_objectsummary {
     margin-top: 40px;
@@ -2763,6 +2925,16 @@ hr {
             width: 5px;
             height: 30px;
             background: $second_color;
+        }
+    }
+
+    .big_number {
+        color: $red_color;
+        font-size: 1.5em;
+        font-weight: 700;
+
+        span {
+            font-size: 0.6667em;
         }
     }
 
@@ -2823,6 +2995,151 @@ hr {
             }
         }
     }
+
+    .loansimulator_content {
+        border: 0.5px solid var(--Gray-4, #BDBDBD);
+        padding: 20px;
+        margin-bottom: 50px;
+
+        h1 {
+            background: var(--Gray-6, #F2F2F2);
+            text-align: center;
+            font-size: 2.25em;
+            color: $second_color;
+            font-weight: 500;
+            margin-bottom: 30px;
+            padding: 10px;
+
+            span {
+                font-size: 0.3889em;
+                font-weight: 600;
+            }
+        }
+
+        .frm_loansimulator {
+            display: flex;
+            margin-bottom: 30px;
+
+            .loansimulator_content_left {
+                margin-right: 20px;
+                max-width: 330px;
+                text-align: center;
+
+                h2 {
+                    border-radius: 100px;
+                    background: var(--Primary, #AD814D);
+                    font-size: 1.125em;
+                    color: #fff;
+                    text-align: center;
+                    padding: 10px;
+                    margin: 0 15px 22px;
+                    position: relative;
+
+                    &::after,
+                    &::before {
+                        top: 100%;
+                        left: 50%;
+                        border: solid transparent;
+                        content: "";
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        pointer-events: none;
+                    }
+
+                    &::after {
+                        border-color: rgba(136, 183, 213, 0);
+                        border-top-color: $second_color;
+                        border-width: 5x;
+                        margin-left: -5px;
+                    }
+
+                    &::before {
+                        border-color: rgba(194, 225, 245, 0);
+                        border-top-color: $second_color;
+                        border-width: 10px;
+                        margin-left: -10px;
+                    }
+                }
+
+                h3 {
+                    font-size: 2.25em;
+                    font-weight: 600;
+                    color: $second_color;
+
+                    span {
+                        font-size: 0.3889em;
+                    }
+                }
+
+                p {
+                    font-size: 0.875em;
+                    margin-bottom: 0;
+                }
+
+                .box_repayment {
+                    border: 4px solid var(--Gray-5, #E0E0E0);
+                    padding: 20px 8px;
+                }
+            }
+
+            .loansimulator_content_right {
+                max-width: 420px;
+
+                label {
+                    font-size: 0.875em;
+                    font-weight: 500;
+                    width: 100%;
+                }
+
+                span {
+                    font-size: 0.875em;
+                    font-weight: 500;
+                }
+
+                .row_group_amount {
+                    display: flex;
+
+                    &:nth-of-type(2) {
+                        .group_amount {
+                            &:last-of-type {
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    left: -30px;
+                                    top: 0;
+                                    width: 1px;
+                                    height: 100%;
+                                    background: #BDBDBD;
+                                }
+                            }
+                        }
+                    }
+
+                    .group_amount {
+                        width: 50%;
+                        position: relative;
+
+                        input {
+                            max-width: 140px;
+                            border: 1px solid var(--Gray-4, #BDBDBD);
+                            background: var(--Gray-6, #F2F2F2);
+                            margin-right: 10px;
+                            padding: 4px 10px;
+                            text-align: right;
+                            font-size: 1.5em;
+                            font-weight: 500;
+                            color: $second_color;
+
+                            &::placeholder {
+                                color: $second_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 430px) {
@@ -2866,8 +3183,99 @@ hr {
     }
 }
 
-@media (min-width:43.75em) {
-    .fixedsticky {
-        top: 0;
+.menu-opened {
+    .menu-list {
+        &.menu-list2 {
+            .navbar_text {
+                padding-top: 90px;
+            }
+        }
+    }
+}
+
+@media (max-width: 844px) {
+    .usedapartment_detail_page {
+        flex-direction: column;
+
+
+        .sidebar {
+            width: 100%;
+            max-width: inherit;
+            margin-right: 0;
+            position: relative;
+            top: 0;
+        }
+
+        .info_content {
+            .w_box_item {
+                .box_item {
+                    flex-direction: column;
+
+                    .img_item {
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+
+            .contactus_content {
+                padding: 30px 15px;
+
+                h2 {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+
+    .box_objectsummary {
+        table {
+            th {
+                width: auto;
+            }
+        }
+    }
+
+    .box_loansimulator {
+        .loansimulator_content {
+            .frm_loansimulator {
+                flex-direction: column;
+
+                .loansimulator_content_left {
+                    max-width: inherit;
+                    width: 100%;
+                    margin-right: 0;
+                    margin-bottom: 15px;
+                }
+
+                .loansimulator_content_right {
+                    .row_group_amount {
+                        flex-direction: column;
+
+                        &:nth-of-type(2) {
+                            .group_amount {
+                                &:last-of-type {
+                                    &::before {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        .group_amount {
+                            width: 100%;
+                            margin-bottom: 10px;
+
+                            input {
+                                max-width: 80%;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+
     }
 }
