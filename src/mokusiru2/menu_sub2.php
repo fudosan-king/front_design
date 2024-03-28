@@ -1,4 +1,4 @@
-<div class="menu-list menu-list2" style="display: block;">
+<div class="menu-list menu-list2 menu_list_sub" style="display: block;">
     <div class="container-fluid">
         <ul class="navbar navbar_text d-flex d-lg-none">
             <li class="nav-item">

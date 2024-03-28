@@ -36,6 +36,21 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
+header {
+    &.header_sub {
+        &.menu-animation-scroll {
+            position: relative;
+        }
+    }
+}
+
+.menu-list-scroll {
+    &.menu_list_sub {
+        position: relative;
+        top: inherit;
+    }
+}
+
 .header-top {
     // padding-top: 30px;
     // padding-bottom: 30px;
@@ -2158,23 +2173,23 @@ hr {
 // }
 
 // @media (min-width: 992px) {
-    //     .navbar-expand-lg {
-    //         .navbar-toggler {
-    //             display: block;
-    //         }
-    //     }
-    // }
+//     .navbar-expand-lg {
+//         .navbar-toggler {
+//             display: block;
+//         }
+//     }
+// }
 
-    // @media (max-width: 991px) {
-    //     .menu-opening {
-    //         .menu-list {
-    //             -webkit-animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-    //             animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-    //             -webkit-animation-fill-mode: both;
-    //             animation-fill-mode: both;
-    //         }
-    //     }
-    // }
+// @media (max-width: 991px) {
+//     .menu-opening {
+//         .menu-list {
+//             -webkit-animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+//             animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+//             -webkit-animation-fill-mode: both;
+//             animation-fill-mode: both;
+//         }
+//     }
+// }
 
 @media (max-width: 932px) {
     .menu-list {
@@ -2632,6 +2647,20 @@ hr {
     }
 }
 
+@media (max-width: 1114px) {
+    .usedapartment_research {
+        .box_research {
+            ul {
+                li {
+                    &:nth-of-type(4n) {
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1024px) {
     .usedapartment_research {
         .box_research {
@@ -2704,7 +2733,7 @@ hr {
         overflow: auto;
         position: -webkit-sticky;
         position: sticky;
-        top: 90px;
+        top: 0;
     }
 
     aside {
@@ -2994,12 +3023,15 @@ hr {
         position: relative;
         padding-left: 10px;
         margin-bottom: 30px;
+        line-height: 48px;
 
         &::before {
             content: '';
             position: absolute;
             left: 0;
             top: 0;
+            bottom: 0;
+            margin: auto;
             width: 5px;
             height: 30px;
             background: $second_color;
@@ -3061,12 +3093,15 @@ hr {
             position: relative;
             padding-left: 10px;
             margin-bottom: 30px;
+            line-height: 48px;
 
             &::before {
                 content: '';
                 position: absolute;
                 left: 0;
                 top: 0;
+                bottom: 0;
+                margin: auto;
                 width: 5px;
                 height: 30px;
                 background: $second_color;
