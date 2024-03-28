@@ -2492,6 +2492,7 @@ hr.dot {
 }
 .box_loansimulator .loansimulator_content .frm_loansimulator .loansimulator_content_right .row_group_amount .group_amount input {
   max-width: 140px;
+  min-width: 140px;
   border: 1px solid var(--Gray-4, #BDBDBD);
   background: var(--Gray-6, #F2F2F2);
   margin-right: 10px;
@@ -2585,5 +2586,6 @@ hr.dot {
   }
   .box_loansimulator .loansimulator_content .frm_loansimulator .loansimulator_content_right .row_group_amount .group_amount input {
     max-width: 80%;
+    min-width: 80%;
   }
 }/*# sourceMappingURL=styles_v2.css.map */

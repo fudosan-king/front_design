@@ -182,7 +182,7 @@
                                                 <div class="row_group_amount">
                                                     <div class="group_amount">
                                                         <label for="">返済期間</label>
-                                                        <input type="number" name="" value="" placeholder="35">
+                                                        <input type="number" name="" value="" placeholder="35" min="0" max="35">
                                                         <span>年</span>
                                                     </div>
                                                     <div class="group_amount">
