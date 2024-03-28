@@ -34,7 +34,7 @@ input[type=number] {
 .header-top button.hamburger-menu {
   z-index: 99999;
 }
-.header-top .navbar-expand-lg ul.navbar-nav li a {
+.header-top.sub .navbar-expand-lg ul.navbar-nav li a {
   font-size: 1em;
 }
 .header-top.main .navbar-expand-lg ul.navbar-nav:first-of-type li:hover a {
@@ -1680,7 +1680,7 @@ hr.dot {
   padding: 0;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 932px) {
   .menu-list {
     z-index: 999;
   }
@@ -1881,6 +1881,7 @@ hr.dot {
   justify-content: center;
   align-items: center;
   min-width: 145px;
+  color: #333;
 }
 .usedapartment_research .usedapartment_filter .btn:hover {
   background: #3CBCCF;
@@ -1987,6 +1988,7 @@ hr.dot {
   -webkit-line-clamp: 2;
   line-clamp: 2;
   -webkit-box-orient: vertical;
+  color: #4F4F4F;
 }
 
 .box_viewmore {
@@ -2057,7 +2059,7 @@ hr.dot {
   margin-bottom: 90px;
 }
 .usedapartment_detail_page .sidebar {
-  height: 654px;
+  height: 674px;
   overflow: auto;
   position: sticky;
   top: 90px;
@@ -2069,13 +2071,16 @@ hr.dot {
 }
 .usedapartment_detail_page aside h2 {
   font-size: 1.5em;
+  line-height: 38.4px;
 }
 .usedapartment_detail_page aside h3 {
   font-size: 1.25em;
+  line-height: 28px;
 }
 .usedapartment_detail_page aside h4 {
   font-size: 1.5em;
   color: #AD814D;
+  line-height: 33.6px;
 }
 .usedapartment_detail_page aside .img_pro {
   margin: 20px 0;
@@ -2160,6 +2165,18 @@ hr.dot {
   background: var(--Gray-6, #F2F2F2);
   padding: 50px 70px;
 }
+.usedapartment_detail_page .info_content .contactus_content .row_cus2 {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.usedapartment_detail_page .info_content .contactus_content .row_cus2 .col-lg-4 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.usedapartment_detail_page .info_content .contactus_content .row_cus2 .col-lg-8 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
 .usedapartment_detail_page .info_content .contactus_content .row_cus {
   margin-left: -5px;
   margin-right: -5px;
@@ -2171,6 +2188,7 @@ hr.dot {
 .usedapartment_detail_page .info_content .contactus_content label {
   font-size: 0.875em;
   font-weight: 700;
+  font-family: "Inter";
 }
 .usedapartment_detail_page .info_content .contactus_content .form-group {
   margin-bottom: 25px;
@@ -2203,6 +2221,9 @@ hr.dot {
   text-align: center;
   margin-bottom: 20px;
 }
+.usedapartment_detail_page .info_content .contactus_content h2 span {
+  font-size: 0.8889em;
+}
 .usedapartment_detail_page .info_content .contactus_content p {
   text-align: center;
 }
@@ -2224,6 +2245,7 @@ hr.dot {
   margin-left: auto;
   margin-right: auto;
   font-size: 0.75em;
+  line-height: 24px;
 }
 .usedapartment_detail_page .info_content .contactus_content .primary_policy a {
   color: #AD814D;
@@ -2358,6 +2380,10 @@ hr.dot {
 .box_loansimulator .loansimulator_content h1 span {
   font-size: 0.3889em;
   font-weight: 600;
+}
+.box_loansimulator .loansimulator_content p.note {
+  font-size: 0.875em;
+  font-family: "Inter";
 }
 .box_loansimulator .loansimulator_content .frm_loansimulator {
   display: flex;
@@ -2511,6 +2537,9 @@ hr.dot {
   }
   .usedapartment_detail_page .info_content .contactus_content h2 {
     font-size: 1.5em;
+  }
+  .usedapartment_detail_page .info_content .contactus_content .btn_autofill_prefectureaddress {
+    margin-top: 10px;
   }
   .box_objectsummary table th {
     width: auto;

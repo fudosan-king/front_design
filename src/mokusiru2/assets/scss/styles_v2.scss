@@ -47,12 +47,14 @@ input[type=number] {
         }
     }
 
-    .navbar-expand-lg {
-        ul {
-            &.navbar-nav {
-                li {
-                    a {
-                        font-size: 1em;
+    &.sub {
+        .navbar-expand-lg {
+            ul {
+                &.navbar-nav {
+                    li {
+                        a {
+                            font-size: 1em;
+                        }
                     }
                 }
             }
@@ -2135,7 +2137,46 @@ hr {
     }
 }
 
-@media (max-width: 834px) {
+// @media (max-width: 1024px) {
+//     .navbar-expand-lg {
+//         .navbar-collapse {
+//             display: none !important;
+//         }
+//     }
+
+//     .header-top {
+//         button {
+//             &.hamburger-menu {
+//                 right: 0;
+//                 top: 50%;
+//                 position: absolute;
+//                 -webkit-transform: translateY(-50%);
+//                 transform: translateY(-50%);
+//             }
+//         }
+//     }
+// }
+
+// @media (min-width: 992px) {
+    //     .navbar-expand-lg {
+    //         .navbar-toggler {
+    //             display: block;
+    //         }
+    //     }
+    // }
+
+    // @media (max-width: 991px) {
+    //     .menu-opening {
+    //         .menu-list {
+    //             -webkit-animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    //             animation: drawer-open 0.8s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    //             -webkit-animation-fill-mode: both;
+    //             animation-fill-mode: both;
+    //         }
+    //     }
+    // }
+
+@media (max-width: 932px) {
     .menu-list {
         z-index: 999;
 
@@ -2220,6 +2261,7 @@ hr {
     }
 
 }
+
 
 @media (max-width: 430px) {
     .section_unit_detail {
@@ -2426,6 +2468,7 @@ hr {
             justify-content: center;
             align-items: center;
             min-width: 145px;
+            color: #333;
 
             &:hover {
                 background: #3CBCCF;
@@ -2554,6 +2597,7 @@ hr {
                         -webkit-line-clamp: 2;
                         line-clamp: 2;
                         -webkit-box-orient: vertical;
+                        color: #4F4F4F;
                     }
                 }
             }
@@ -2656,7 +2700,7 @@ hr {
     margin-bottom: 90px;
 
     .sidebar {
-        height: 654px;
+        height: 674px;
         overflow: auto;
         position: -webkit-sticky;
         position: sticky;
@@ -2670,15 +2714,18 @@ hr {
 
         h2 {
             font-size: 1.5em;
+            line-height: 38.4px;
         }
 
         h3 {
             font-size: 1.25em;
+            line-height: 28px;
         }
 
         h4 {
             font-size: 1.5em;
             color: $second_color;
+            line-height: 33.6px;
         }
 
         .img_pro {
@@ -2778,6 +2825,21 @@ hr {
             background: var(--Gray-6, #F2F2F2);
             padding: 50px 70px;
 
+            .row_cus2 {
+                margin-left: -25px;
+                margin-right: -25px;
+
+                .col-lg-4 {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+
+                .col-lg-8 {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+            }
+
             .row_cus {
                 margin-left: -5px;
                 margin-right: -5px;
@@ -2791,6 +2853,7 @@ hr {
             label {
                 font-size: 0.875em;
                 font-weight: 700;
+                font-family: "Inter";
             }
 
             .form-group {
@@ -2828,6 +2891,10 @@ hr {
                 font-size: 2.25em;
                 text-align: center;
                 margin-bottom: 20px;
+
+                span {
+                    font-size: 0.8889em;
+                }
             }
 
             p {
@@ -2857,6 +2924,7 @@ hr {
                 margin-left: auto;
                 margin-right: auto;
                 font-size: 0.75em;
+                line-height: 24px;
 
                 a {
                     color: $second_color;
@@ -3023,6 +3091,14 @@ hr {
             span {
                 font-size: 0.3889em;
                 font-weight: 600;
+            }
+        }
+
+        p {
+            &.note {
+                font-size: 0.875em;
+                font-family: 'Inter';
+
             }
         }
 
@@ -3233,6 +3309,10 @@ hr {
 
                 h2 {
                     font-size: 1.5em;
+                }
+
+                .btn_autofill_prefectureaddress {
+                    margin-top: 10px;
                 }
             }
         }

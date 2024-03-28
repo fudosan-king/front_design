@@ -1,5 +1,5 @@
 <header class="">
-    <div class="header-top main">
+    <div class="header-top sub">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="https://www.prostyle-residence.com/mokusiru/">
                 <img class="img-fuild" alt="MOKUSIRU BLOG logo" src="common/logo_yoko.png" title="">
