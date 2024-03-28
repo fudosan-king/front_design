@@ -24,9 +24,9 @@
                                 <div class="img_pro">
                                     <img src="assets/images/products/pro_detail_01.png" alt="products map">
                                 </div>
-                                <a class="btn" href="#">物件概要</a>
-                                <a class="btn" href="#">ローンシミュレーター</a>
-                                <a class="btn" href="#">お問い合わせ</a>
+                                <a class="btn" href="#box_objectsummary" data-scroll>物件概要</a>
+                                <a class="btn" href="#box_loansimulator" data-scroll>ローンシミュレーター</a>
+                                <a class="btn" href="#contactus_content" data-scroll>お問い合わせ</a>
                             </aside>
 
                             <div class="info_content">
@@ -69,7 +69,7 @@
                                     </div>
                                 </div>
 
-                                <div class="box_objectsummary">
+                                <div id="box_objectsummary" class="box_objectsummary">
                                     <h2>物件概要</h2>
                                     <table class="table">
                                         <tr>
@@ -150,7 +150,7 @@
                                             ※不動産の表示に関する公正競争規約の改正（2022年９月１日）により、交通利便情報が販売中のものと異なる場合がございます。</small></p>
                                 </div>
 
-                                <div class="box_loansimulator">
+                                <div id="box_loansimulator" class="box_loansimulator">
                                     <h2 class="title_sub">ローンシミュレーター</h2>
                                     <div class="loansimulator_content">
                                         <h1><span>物件価格</span> 6,000<span> 万円（税込）</span></h1>
@@ -195,12 +195,12 @@
 
                                             </div>
                                         </form>
-                                        <p class="mb-0">この毎月のローン返済額は、あくまで試算であり実際のご返済額とは異なる場合があります。お借り入れの可否や金利・返済額の諸条件は、金融機関にご確認ください。</p>
+                                        <p class="mb-0 note">この毎月のローン返済額は、あくまで試算であり実際のご返済額とは異なる場合があります。お借り入れの可否や金利・返済額の諸条件は、金融機関にご確認ください。</p>
                                     </div>
                                 </div>
 
-                                <div class="contactus_content">
-                                    <h2>お問い合わせ・資料請求</h2>
+                                <div id="contactus_content" class="contactus_content">
+                                    <h2>お問い合わせ・ <span>資料請求</span></h2>
                                     <p class="mb-5">フォームよりお問合せください</p>
 
                                     <form class="frm_contactus formrun" name="pardotFormEstateSale" id="pardotFormEstateSale" method="POST">
@@ -210,7 +210,7 @@
                                             <input type="hidden" name="name" id="name" class="form-control" value="プレシス鶴間レジデンス">
 
                                             <div class="form-group">
-                                                <div class="row g-2">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4">
                                                         <label for="" class="label_required">お問合せ事項<span class="red">（必須）</span></label>
                                                         <!-- <input type="hidden" name="contact_item_text" value=""> -->
@@ -231,7 +231,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">メールアドレス <span class="red">（必須）</span></label>
                                                     </div>
@@ -242,7 +242,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label class="mb-lg-0 mb-2" for="">お名前 <span class="red">（必須）</span></label>
                                                     </div>
@@ -260,7 +260,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label class="mb-lg-0 mb-2" for="">お名前（フリガナ）<span class="red">（必須）</span></label>
                                                     </div>
@@ -278,7 +278,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">お電話番号 <span class="red">（必須）</span></label>
                                                     </div>
@@ -288,7 +288,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">郵便番号 <span class="red">（必須）</span></label>
                                                     </div>
@@ -305,7 +305,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">都道府県 <span class="red">（必須）</span></label>
                                                     </div>
@@ -365,7 +365,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">住所 <span class="red">（必須）</span></label>
                                                     </div>
@@ -375,7 +375,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">建物名・号室 </label>
                                                     </div>
@@ -385,7 +385,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">ご質問内容 </label>
                                                     </div>
@@ -395,7 +395,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <div class="row">
+                                                <div class="row row_cus2">
                                                     <div class="col-12 col-lg-4 align-self-center">
                                                         <label for="" class="label_required">ご予算 <span class="red">（必須）</span></label>
                                                     </div>
@@ -415,10 +415,8 @@
 
                                             <div class="contactus_footer">
                                                 <p class="primary_policy">
-                                                    ご入力いただいた情報は、当社の
-                                                    <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー</b></a>
-                                                    に従って厳重に管理いたします。<br>
-                                                    個人情報の取扱に関しましては プライバシーポリシー をご覧ください。<br>
+                                                    ご入力いただいた情報は、当社のプライバシーポリシーに従って厳重に管理いたします。<br>
+                                                    個人情報の取扱に関しましては <a target="_blank" class="btn-link" href="https://www.logprostyle.co.jp/privacypolicy/" rel="noopener noreferrer"><b>プライバシーポリシー </b></a>をご覧ください。<br>
                                                     ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。
                                                 </p>
                                                 <div class="form-group mb-3 text-center">
