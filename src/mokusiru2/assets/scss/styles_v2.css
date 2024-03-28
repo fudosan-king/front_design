@@ -31,6 +31,15 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+header.header_sub.menu-animation-scroll {
+  position: relative;
+}
+
+.menu-list-scroll.menu_list_sub {
+  position: relative;
+  top: inherit;
+}
+
 .header-top button.hamburger-menu {
   z-index: 99999;
 }
@@ -2014,6 +2023,11 @@ hr.dot {
   color: #fff;
 }
 
+@media (max-width: 1114px) {
+  .usedapartment_research .box_research ul li:nth-of-type(4n) {
+    margin-right: 20px;
+  }
+}
 @media (max-width: 1024px) {
   .usedapartment_research .box_research ul li {
     width: 31.5%;
@@ -2062,7 +2076,7 @@ hr.dot {
   height: 674px;
   overflow: auto;
   position: sticky;
-  top: 90px;
+  top: 0;
 }
 .usedapartment_detail_page aside {
   padding-top: 10px;
@@ -2301,12 +2315,15 @@ hr.dot {
   position: relative;
   padding-left: 10px;
   margin-bottom: 30px;
+  line-height: 48px;
 }
 .box_objectsummary h2::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
+  bottom: 0;
+  margin: auto;
   width: 5px;
   height: 30px;
   background: #AD814D;
@@ -2353,12 +2370,15 @@ hr.dot {
   position: relative;
   padding-left: 10px;
   margin-bottom: 30px;
+  line-height: 48px;
 }
 .box_loansimulator h2.title_sub::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
+  bottom: 0;
+  margin: auto;
   width: 5px;
   height: 30px;
   background: #AD814D;

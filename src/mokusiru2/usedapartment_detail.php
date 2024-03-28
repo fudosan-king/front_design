@@ -6,7 +6,7 @@
 </head>
 
 <body class="home blog">
-    <?php include 'header.php'; ?>
+    <?php include 'header_sub.php'; ?>
     <?php include 'menu_sub2.php'; ?>
 
     <div class="sub_page">
