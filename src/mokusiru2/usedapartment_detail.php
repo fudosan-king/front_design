@@ -71,80 +71,82 @@
 
                                 <div id="box_objectsummary" class="box_objectsummary">
                                     <h2>物件概要</h2>
-                                    <table class="table">
-                                        <tr>
-                                            <th>所在地</th>
-                                            <td colspan="3">東京都品川区大井4</td>
-                                        </tr>
-                                        <tr>
-                                            <th>交通</th>
-                                            <td colspan="3">半蔵門線　青山一丁目駅　徒歩5分<br>
-                                                JR山の手線　原宿駅　徒歩12分<br>
-                                                JR内房線 五井駅 バス5分 徒歩10分（バス：吹上通り角停留所）</td>
-                                        </tr>
-                                        <tr>
-                                            <th>価格</th>
-                                            <td colspan="3" class="big_number">41,800 <span>万円</span></td>
-                                        </tr>
-                                        <tr>
-                                            <th>築年月</th>
-                                            <td colspan="3">2017年3月</td>
-                                        </tr>
-                                        <tr>
-                                            <th>管理費</th>
-                                            <td>-</td>
-                                            <th>修繕積立金</th>
-                                            <td>-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>間取り</th>
-                                            <td>-</td>
-                                            <th>所在階／階数</th>
-                                            <td>-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>専有面積</th>
-                                            <td>-</td>
-                                            <th>バルコニー面積</th>
-                                            <td>-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>構造</th>
-                                            <td>-</td>
-                                            <th>総戸数</th>
-                                            <td>-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>土地権利</th>
-                                            <td>-</td>
-                                            <th>用途地域</th>
-                                            <td>-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>取引態様</th>
-                                            <td>-</td>
-                                            <th>引渡し</th>
-                                            <td>-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>管理形態</th>
-                                            <td>-</td>
-                                            <th>管理人</th>
-                                            <td>-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>管理会社</th>
-                                            <td colspan="3">-</td>
-                                        </tr>
-                                        <tr>
-                                            <th>その他使用料</th>
-                                            <td colspan="3">
-                                                -<br>
-                                                -<br>
-                                                -<br>
-                                            </td>
-                                        </tr>
-                                    </table>
+                                    <div class="table-responsive-sm">
+                                        <table class="table">
+                                            <tr>
+                                                <th>所在地</th>
+                                                <td colspan="3">東京都品川区大井4</td>
+                                            </tr>
+                                            <tr>
+                                                <th>交通</th>
+                                                <td colspan="3">半蔵門線　青山一丁目駅　徒歩5分<br>
+                                                    JR山の手線　原宿駅　徒歩12分<br>
+                                                    JR内房線 五井駅 バス5分 徒歩10分（バス：吹上通り角停留所）</td>
+                                            </tr>
+                                            <tr>
+                                                <th>価格</th>
+                                                <td colspan="3" class="big_number">41,800 <span>万円</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th>築年月</th>
+                                                <td colspan="3">2017年3月</td>
+                                            </tr>
+                                            <tr>
+                                                <th>管理費</th>
+                                                <td>-</td>
+                                                <th>修繕積立金</th>
+                                                <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam deserunt maxime, possimus quidem, ad optio perferendis recusandae vero soluta nostrum expedita eveniet mollitia maiores quisquam architecto veniam commodi illum quasi! </td>
+                                            </tr>
+                                            <tr>
+                                                <th>間取り</th>
+                                                <td>-</td>
+                                                <th>所在階／階数</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>専有面積</th>
+                                                <td>-</td>
+                                                <th>バルコニー面積</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>構造</th>
+                                                <td>-</td>
+                                                <th>総戸数</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>土地権利</th>
+                                                <td>-</td>
+                                                <th>用途地域</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>取引態様</th>
+                                                <td>-</td>
+                                                <th>引渡し</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>管理形態</th>
+                                                <td>-</td>
+                                                <th>管理人</th>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>管理会社</th>
+                                                <td colspan="3">-</td>
+                                            </tr>
+                                            <tr>
+                                                <th>その他使用料</th>
+                                                <td colspan="3">
+                                                    -<br>
+                                                    -<br>
+                                                    -<br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
                                     <p>マンションの情報は、現況（販売中物件）と異なる場合がございます。</p>
                                     <p><small>※分譲当時のパンフレットの内容を記載しているため、以降に更新された情報が異なる場合がございます。<br>
                                             ※不動産の表示に関する公正競争規約の改正（2022年９月１日）により、交通利便情報が販売中のものと異なる場合がございます。</small></p>
