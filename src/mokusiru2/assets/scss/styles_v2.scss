@@ -3054,6 +3054,7 @@ hr {
         td {
             padding: 20px 10px;
             border-color: #BDBDBD;
+            width: 25%;
 
             &:last-of-type {
                 border-bottom: 1px solid #BDBDBD;
@@ -3061,7 +3062,6 @@ hr {
         }
 
         th {
-            width: 190px;
             background: #E0E0E0;
             vertical-align: middle;
         }
@@ -3356,8 +3356,14 @@ hr {
 
     .box_objectsummary {
         table {
-            th {
-                width: auto;
+            tr {
+                display: flex;
+                flex-direction: column;
+            }
+
+            th,
+            td {
+                width: 100%;
             }
         }
     }

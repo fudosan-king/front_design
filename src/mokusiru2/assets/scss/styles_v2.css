@@ -2340,13 +2340,13 @@ hr.dot {
 .box_objectsummary table td {
   padding: 20px 10px;
   border-color: #BDBDBD;
+  width: 25%;
 }
 .box_objectsummary table th:last-of-type,
 .box_objectsummary table td:last-of-type {
   border-bottom: 1px solid #BDBDBD;
 }
 .box_objectsummary table th {
-  width: 190px;
   background: #E0E0E0;
   vertical-align: middle;
 }
@@ -2562,8 +2562,13 @@ hr.dot {
   .usedapartment_detail_page .info_content .contactus_content .btn_autofill_prefectureaddress {
     margin-top: 10px;
   }
-  .box_objectsummary table th {
-    width: auto;
+  .box_objectsummary table tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .box_objectsummary table th,
+  .box_objectsummary table td {
+    width: 100%;
   }
   .box_loansimulator .loansimulator_content .frm_loansimulator {
     flex-direction: column;
