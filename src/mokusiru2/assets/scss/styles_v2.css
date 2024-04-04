@@ -1877,6 +1877,9 @@ hr.dot {
   box-shadow: 0px 3px 2px -2px rgba(0, 0, 0, 0.06), 0px 5px 3px -2px rgba(0, 0, 0, 0.02);
   margin-right: 8px;
   min-width: 290px;
+  font-size: 0.875em;
+  color: #828282;
+  height: calc(1.5em + 0.75rem + 3px);
 }
 .usedapartment_research .usedapartment_filter .btn {
   font-size: 0.875em;
@@ -1885,11 +1888,11 @@ hr.dot {
   background: var(--Primary, #FFF);
   box-shadow: 0px 3px 2px -2px rgba(0, 0, 0, 0.06), 0px 5px 3px -2px rgba(0, 0, 0, 0.02);
   display: flex;
-  padding: 8px 12px;
+  padding: 6.5px 12px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  min-width: 145px;
+  max-width: 135px;
   color: #333;
 }
 .usedapartment_research .usedapartment_filter .btn:hover {
@@ -1961,10 +1964,12 @@ hr.dot {
   -webkit-line-clamp: 1;
   line-clamp: 1;
   -webkit-box-orient: vertical;
+  font-family: "SF Pro Text";
 }
 .usedapartment_research .box_research ul li .pro_content h3 {
   font-size: 1.125em;
   color: #EB5757;
+  font-family: "SF Pro Text";
 }
 .usedapartment_research .box_research ul li .pro_content h4 {
   font-size: 0.875em;
@@ -2335,6 +2340,9 @@ hr.dot {
 }
 .box_objectsummary .big_number span {
   font-size: 0.6667em;
+}
+.box_objectsummary table {
+  color: #333;
 }
 .box_objectsummary table th,
 .box_objectsummary table td {
