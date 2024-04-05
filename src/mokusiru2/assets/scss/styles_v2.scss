@@ -1283,7 +1283,7 @@ header {
                 color: #333;
                 border-color: #BDBDBD;
                 vertical-align: middle;
-                min-width: 200px;
+                // min-width: 200px;
             }
 
             td {
@@ -1291,6 +1291,7 @@ header {
                 font-size: 0.875em;
                 color: #333;
                 border-color: #BDBDBD;
+                width: auto;
 
                 p {
                     margin-bottom: 0;
