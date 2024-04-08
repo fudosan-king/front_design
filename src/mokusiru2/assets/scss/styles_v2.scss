@@ -39,7 +39,7 @@ input[type=number] {
 header {
     &.header_sub {
         &.menu-animation-scroll {
-            position: relative;
+            // position: relative;
         }
     }
 }
@@ -2739,7 +2739,7 @@ hr {
         overflow: auto;
         position: -webkit-sticky;
         position: sticky;
-        top: 0;
+        top: 90px;
     }
 
     aside {

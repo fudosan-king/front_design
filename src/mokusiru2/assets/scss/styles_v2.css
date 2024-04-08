@@ -31,10 +31,6 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-header.header_sub.menu-animation-scroll {
-  position: relative;
-}
-
 .menu-list-scroll.menu_list_sub {
   position: relative;
   top: inherit;
@@ -2081,7 +2077,7 @@ hr.dot {
   height: 674px;
   overflow: auto;
   position: sticky;
-  top: 0;
+  top: 90px;
 }
 .usedapartment_detail_page aside {
   padding-top: 10px;
