@@ -22,7 +22,7 @@
                                 <li><a href="#"><span>新宿区</span></a></li>
                                 <li><a href="#"><span>文京区</span></a></li>
                             </ul>
-                            <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">東京都心の<br>
+                            <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">築古•広い<br>
                                 マンション高額買取に<br>
                                 自信があります</h2>
                         </div>
@@ -47,7 +47,7 @@
 
             <div class="w_salesconsultation" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000">
                 <a target="_blank" href="assessment.php" class="box_salesconsultation">
-                    <span>広い物件も<br>強化買取中</span>
+                    <span><i>東京都心の物件</i>強化買取中</span>
                     <span>無料査定・売却相談 <img class="img-fluid" src="assets/images/i_arrowright.svg" alt="i_arrowright" width="10"></span>
                 </a>
                 <a class="btn_close" href="#"><img class="img-fluid" src="assets/images/i_close.svg" alt="i_arrowright" width="14"></a>
@@ -57,6 +57,65 @@
         <div class="w_consultation d-block d-lg-none">
             <a target="_blank" href="assessment.php" class="btn btn_consultation"><img src="assets/images/i_email.svg" alt="icon email" width="12"> 査定依頼・ご相談</a>
         </div>
+
+        <section class="section_concerns">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><span class="d-block d-lg-inline-block">こんな不安</span>ありませんか？</h2>
+                        <p class="concerns_img">
+                            <img class="img-fluid d-none d-lg-block" src="assets/images/concerns.svg" alt="concerns" width="1022">
+                            <img class="img-fluid d-block d-lg-none" src="assets/images/concerns_sp.svg" alt="concerns">
+                        </p>
+                        <h3><span class="d-block d-lg-inline-block">他社でうまくいかなかった方も</span>まずはご相談下さい！</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_purchaseresults">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title" data-aos="fade-up">買取実績例</h2>
+                        <ul>
+                            <li>
+                                <p>港区</p>
+                                <p>築45年</p>
+                                <p>92.8m²</p>
+                            </li>
+                            <li>
+                                <p>世田谷区</p>
+                                <p>築48年</p>
+                                <p>112.25m²</p>
+                            </li>
+                            <li>
+                                <p>港区</p>
+                                <p>築44年</p>
+                                <p>99.41m²</p>
+                            </li>
+                            <li>
+                                <p>港区</p>
+                                <p>築44年</p>
+                                <p>52.25m²</p>
+                            </li>
+                            <li>
+                                <p>渋谷区</p>
+                                <p>築40年</p>
+                                <p>83.25m²</p>
+                            </li>
+                            <li>
+                                <p>港区</p>
+                                <p>築39年</p>
+                                <p>225.41m²</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         <div id="section_reasons" class="section_reasons">
             <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">早く高く買い取れる<br>3つの理由</h2>
@@ -186,6 +245,18 @@
                                 <p>買い手が確定しているため、取引が成立しないリスクが低減。安定感があります。</p>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section_customervoice" class="section_customervoice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title" data-aos="fade-up">お客様の声</h2>
+                        <img class="img-fluid d-none d-lg-block" src="assets/images/customervoice.svg" alt="icon procedure" width="818">
+                        <img class="img-fluid d-block d-lg-none" src="assets/images/customervoice_sp.svg" alt="icon procedure">
                     </div>
                 </div>
             </div>
