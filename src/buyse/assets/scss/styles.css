@@ -138,16 +138,20 @@ a {
   border-radius: 0;
 }
 
-.btn, a, .btn:hover {
+.btn,
+a,
+.btn:hover {
   transition: color 0.25s ease;
 }
 
-.btn:hover, .btn.focus {
+.btn:hover,
+.btn.focus {
   color: #1C5DB4;
   transition: all 0.3s linear;
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   box-shadow: none;
 }
 
@@ -212,7 +216,12 @@ body {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Noto Serif JP", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, serif;
   line-height: 1.5em;
   text-rendering: optimizeLegibility;
@@ -224,12 +233,15 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-*, :before, :after {
+*,
+:before,
+:after {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   position: relative;
   height: 100%;
 }
@@ -281,7 +293,8 @@ section {
   padding: 60px 0;
 }
 
-.small, small {
+.small,
+small {
   font-size: 0.75em;
 }
 
@@ -566,6 +579,11 @@ header h1 {
   height: 0px;
   background: url("../images/bg_corner.png") no-repeat;
 }
+.section_banner .w_salesconsultation .box_salesconsultation span:first-of-type i {
+  display: block;
+  font-style: normal;
+  font-size: 0.9em;
+}
 .section_banner .w_salesconsultation .box_salesconsultation span:last-of-type {
   width: 62%;
   color: #fff;
@@ -714,6 +732,8 @@ header h1 {
   color: #142C4D;
   margin-bottom: 60px;
   position: relative;
+  font-weight: 700;
+  line-height: 56px;
 }
 .title::before {
   content: "";
@@ -820,11 +840,15 @@ header h1 {
 .steps li {
   float: left;
   margin-left: 0;
-  width: 330px; /* 100 / number of steps */
-  height: 280px; /* total height */
+  width: 330px;
+  /* 100 / number of steps */
+  height: 280px;
+  /* total height */
   list-style-type: none;
-  padding: 5px 5px 5px 30px; /* padding around text, last should include arrow width */
-  border-right: 4px solid white; /* width: gap between arrows, color: background of document */
+  padding: 5px 5px 5px 30px;
+  /* padding around text, last should include arrow width */
+  border-right: 4px solid white;
+  /* width: gap between arrows, color: background of document */
   position: relative;
   display: flex;
   justify-content: center;
@@ -843,22 +867,30 @@ header h1 {
   top: 0;
   left: 0;
   display: block;
-  border-left: 25px solid white; /* width: arrow width, color: background of document */
-  border-top: 140px solid transparent; /* width: half height */
-  border-bottom: 140px solid transparent; /* width: half height */
+  border-left: 25px solid white;
+  /* width: arrow width, color: background of document */
+  border-top: 140px solid transparent;
+  /* width: half height */
+  border-bottom: 140px solid transparent;
+  /* width: half height */
   width: 0;
   height: 0;
   content: " ";
 }
 .steps li::after {
-  z-index: 1; /* need to bring this above the next item */
+  z-index: 1;
+  /* need to bring this above the next item */
   position: absolute;
   top: 0;
-  right: -25px; /* arrow width (negated) */
+  right: -25px;
+  /* arrow width (negated) */
   display: block;
-  border-left: 25px solid #ECF6FF; /* width: arrow width */
-  border-top: 140px solid transparent; /* width: half height */
-  border-bottom: 140px solid transparent; /* width: half height */
+  border-left: 25px solid #ECF6FF;
+  /* width: arrow width */
+  border-top: 140px solid transparent;
+  /* width: half height */
+  border-bottom: 140px solid transparent;
+  /* width: half height */
   width: 0;
   height: 0;
   content: " ";
@@ -867,7 +899,9 @@ header h1 {
 .steps li.current {
   background-color: #142C4D;
 }
-.steps li.current h3, .steps li.current h4, .steps li.current p {
+.steps li.current h3,
+.steps li.current h4,
+.steps li.current p {
   color: #fff;
 }
 .steps li.current::after {
@@ -1458,5 +1492,121 @@ footer ul li a {
     width: 100%;
     padding: 12px;
     text-align: center;
+  }
+}
+.section_concerns {
+  text-align: center;
+}
+.section_concerns h2 {
+  font-size: 4em;
+  margin-bottom: 20px;
+  color: #142C4D;
+}
+.section_concerns h3 {
+  font-size: 2.5em;
+  color: #142C4D;
+}
+.section_concerns .concerns_img img {
+  margin: 0 auto;
+}
+
+.section_purchaseresults {
+  padding-top: 0;
+  text-align: center;
+}
+.section_purchaseresults ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.section_purchaseresults ul li {
+  width: 154px;
+  height: 154px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #142C4D;
+  border-radius: 154px;
+}
+.section_purchaseresults ul li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 154px;
+  padding: 5px;
+  background: linear-gradient(to left, #8B6D38, #D5AF66);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.section_purchaseresults ul li:last-of-type {
+  margin-right: 0;
+}
+.section_purchaseresults ul li p {
+  font-size: 1.25em;
+  color: #fff;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  line-height: 28px;
+}
+.section_purchaseresults ul li p:nth-of-type(2) {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.section_customervoice {
+  background: #ECF6FF;
+}
+.section_customervoice img {
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .section_banner .w_salesconsultation .box_salesconsultation span:first-of-type i {
+    font-size: 0.7em;
+  }
+  .title::before {
+    bottom: -5px;
+  }
+  .section_purchaseresults ul {
+    flex-wrap: wrap;
+  }
+  .section_purchaseresults ul li {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-bottom: 20px;
+  }
+  .section_purchaseresults ul li p {
+    font-size: 1em;
+    line-height: 22.4px;
+  }
+  .section_purchaseresults ul li p:nth-of-type(2) {
+    font-size: 1.25em;
+  }
+}
+@media (max-width: 992px) {
+  .section_concerns h2 {
+    font-size: 2em;
+    line-height: 44.8px;
+  }
+  .section_concerns h3 {
+    font-size: 1.25em;
+  }
+}
+@media (max-width: 430px) {
+  .section_purchaseresults ul li:last-of-type {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .section_purchaseresults ul li:nth-of-type(2n) {
+    margin-right: 0;
   }
 }/*# sourceMappingURL=styles.css.map */
