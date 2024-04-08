@@ -62,12 +62,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2><span class="d-block d-lg-inline-block">こんな不安</span>ありませんか？</h2>
-                        <p class="concerns_img">
+                        <h2 data-aos="fade-up"><span class="d-block d-lg-inline-block">こんな不安</span>ありませんか？</h2>
+                        <p class="concerns_img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
                             <img class="img-fluid d-none d-lg-block" src="assets/images/concerns.svg" alt="concerns" width="1022">
                             <img class="img-fluid d-block d-lg-none" src="assets/images/concerns_sp.svg" alt="concerns">
                         </p>
-                        <h3><span class="d-block d-lg-inline-block">他社でうまくいかなかった方も</span>まずはご相談下さい！</h3>
+                        <h3 data-aos="fade-up"><span class="d-block d-lg-inline-block">他社でうまくいかなかった方も</span>まずはご相談下さい！</h3>
                     </div>
                 </div>
             </div>
@@ -255,8 +255,8 @@
                 <div class="row">
                     <div class="col-12">
                         <h2 class="title" data-aos="fade-up">お客様の声</h2>
-                        <img class="img-fluid d-none d-lg-block" src="assets/images/customervoice.svg" alt="icon procedure" width="818">
-                        <img class="img-fluid d-block d-lg-none" src="assets/images/customervoice_sp.svg" alt="icon procedure">
+                        <img data-aos="fade-up" data-aos-duration="3000" class="img-fluid d-none d-lg-block" src="assets/images/customervoice.svg" alt="icon procedure" width="818">
+                        <img data-aos="fade-up" data-aos-duration="3000" class="img-fluid d-block d-lg-none" src="assets/images/customervoice_sp.svg" alt="icon procedure">
                     </div>
                 </div>
             </div>
