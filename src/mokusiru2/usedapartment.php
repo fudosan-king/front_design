@@ -32,8 +32,10 @@
                                     <div class="usedapartment_filter">
                                         <form action="">
                                             <div class="box_filter justify-content-end">
-                                                <input class="form-control input_search" type="text" name="" value="" placeholder="Search here...">
-                                                <!-- <a href="#" class="btn"><i></i> 価格の安い順</a> -->
+                                                <div class="box_input_search">
+                                                    <button class="btn_search" type="submit"></button>
+                                                    <input class="form-control input_search" type="text" name="" value="" placeholder="Search here...">
+                                                </div>
                                                 <div class="dropdown">
                                                     <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
                                                         <i></i> 価格の安い順
