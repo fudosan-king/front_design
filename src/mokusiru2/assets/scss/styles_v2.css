@@ -1867,7 +1867,6 @@ hr.dot {
 }
 .usedapartment_research .usedapartment_filter .input_search {
   padding-left: 40px;
-  background: url("../images/i_search_gray.svg") no-repeat 5% center;
   border-radius: 6px;
   border: 1px solid var(--Gray-5, #E0E0E0);
   box-shadow: 0px 3px 2px -2px rgba(0, 0, 0, 0.06), 0px 5px 3px -2px rgba(0, 0, 0, 0.02);
@@ -1876,6 +1875,22 @@ hr.dot {
   font-size: 0.875em;
   color: #828282;
   height: calc(1.5em + 0.75rem + 3px);
+}
+.usedapartment_research .usedapartment_filter .box_input_search {
+  display: flex;
+  position: relative;
+}
+.usedapartment_research .usedapartment_filter .box_input_search .btn_search {
+  border: none;
+  display: block;
+  width: 40px;
+  height: 36px;
+  background: url("../images/i_search_gray.svg") no-repeat center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
 }
 .usedapartment_research .usedapartment_filter .btn {
   font-size: 0.875em;
