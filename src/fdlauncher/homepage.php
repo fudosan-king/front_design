@@ -44,6 +44,19 @@
             </div>
         </section>
 
+        <section id="section_introduction" class="section_introduction bggray pt-0 py-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#">
+                            <img class="img-fluid d-none d-lg-block" src="assets/images/introduction_pc02.png" alt="introduction">
+                            <img class="img-fluid d-block d-lg-none" src="assets/images/introduction_sp02.png" alt="introduction">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="section_features" class="section_features">
             <div class="container">
                 <div class="row">

@@ -918,7 +918,7 @@ footer ul li a {
   .section_banner .banner_content .box_info {
     min-width: auto;
     text-align: center;
-    padding: 0 20px;
+    padding: 0;
   }
   .section_banner .banner_content .box_info h2 {
     text-align: center;
@@ -1060,7 +1060,7 @@ footer ul li a {
 }
 .section_estatetool {
   background: #EDEDED;
-  padding: 0 0 60px;
+  padding: 150px 0 0;
 }
 .section_estatetool h1 {
   font-size: 2em;
@@ -1245,5 +1245,24 @@ footer ul li a {
   }
   .section_features ul li {
     width: 100%;
+  }
+}
+.section_introduction {
+  padding: 150px 0;
+  text-align: center;
+}
+.section_introduction.bggray {
+  background: #EDEDED;
+}
+.section_introduction img {
+  margin: 0 auto;
+}
+
+@media (max-width: 844px) {
+  .section_estatetool {
+    padding: 50px 0;
+  }
+  .section_introduction {
+    padding: 50px 0;
   }
 }/*# sourceMappingURL=styles.css.map */
