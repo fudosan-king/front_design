@@ -41,7 +41,7 @@
             </div>
         </section>
 
-        <section id="section_introduction" class="section_introduction">
+        <section id="section_introduction" class="section_introduction bggray pt-0 py-lg-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -54,7 +54,7 @@
             </div>
         </section>
 
-        <section id="section_estatetool" class="section_estatetool">
+        <section id="section_estatetool" class="section_estatetool pt-3">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
