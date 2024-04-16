@@ -35,7 +35,20 @@
                                 <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a>
                             </div>
                         </div>
-                        <h4>2024年3月よりサービス開始予定</h4>
+                        <!-- <h4>2024年3月よりサービス開始予定</h4> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section_introduction" class="section_introduction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#">
+                            <img class="img-fluid d-none d-lg-block" src="assets/images/introduction_pc.png" alt="introduction">
+                            <img class="img-fluid d-block d-lg-none" src="assets/images/introduction_sp.png" alt="introduction">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -73,7 +86,7 @@
                                 <h2>物件情報一括入稿ツール</h2>
                                 <h3>FDランチャー</h3>
                                 <p>FDランチャーは、 主要ポータルサイトに「一度の手間」で一気に広告を拡散するシステムです。各主要ポータルサイトと連動しており、低コストかつわかりやすい操作性で、人を増やさずとも、貴社の生産力が一気に上がります。</p>
-                                <a href="#" class="btn">
+                                <a h ref="#" class="btn">
                                     <span>月額費用</span>
                                     <span>10,000</span>円 <i>（税抜）</i></a>
                             </div>
@@ -218,9 +231,9 @@
                         <div class="accordion" id="accordionFAQ" data-aos="fade-up">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <but ton class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         独自ドメインを使いたいのですが。
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -230,9 +243,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         登録物件数に制限ありますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -242,9 +255,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         各ポータルサイトの検索項目の漏れは無いですか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -254,9 +267,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                                         自社HPへの連動できますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -278,13 +291,13 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
                                         月額費用10,000円 （税抜）以外にかかる費用はありますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
-                                        <p>不動産ポータルサイトといくつ連動しても初期費用0円、月額費用10,000円（税抜）です。<br>
+                                        <p>不 動産ポータルサイトといくつ連動しても初期費用0円、月額費用10,000円（税抜）です。<br>
                                             ただし、貴社と各不動産ポータルサイトで利用契約を結ぶときに別途費用が掛かります。<br>
                                             また、既存自社サイトと連動する場合は月額費用15,000円（税抜）となります。</p>
                                     </div>
@@ -292,9 +305,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
                                         後から連動ポータルサイトを増やすことはできますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -304,9 +317,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
                                         賃貸に対応していますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -316,9 +329,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
                                         どの程度の規模の会社が導入していますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -328,9 +341,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
                                         申し込んでから、どれくらいで利用できるようになりますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">
@@ -340,9 +353,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseThree">
+                                    <but ton class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseThree">
                                         インボイスに対応していますか？
-                                    </button>
+                                        </button>
                                 </h2>
                                 <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                     <div class="accordion-body">

@@ -1100,7 +1100,7 @@ footer {
       .box_info {
         min-width: auto;
         text-align: center;
-        padding: 0 20px;
+        padding: 0;
 
         h2 {
           text-align: center;
@@ -1304,7 +1304,7 @@ footer {
 
 .section_estatetool {
   background: #EDEDED;
-  padding: 0 0 60px;
+  padding: 150px 0 0;
 
   h1 {
     font-size: 2em;
@@ -1535,6 +1535,31 @@ footer {
         width: 100%;
       }
     }
+  }
+
+}
+
+
+.section_introduction {
+  padding: 150px 0;
+  text-align: center;
+
+  &.bggray {
+    background: #EDEDED;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 844px) {
+  .section_estatetool {
+    padding: 50px 0;
+  }
+
+  .section_introduction {
+    padding: 50px 0;
   }
 
 }
