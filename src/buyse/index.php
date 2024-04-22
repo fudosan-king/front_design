@@ -58,21 +58,6 @@
             <a target="_blank" href="assessment.php" class="btn btn_consultation"><img src="assets/images/i_email.svg" alt="icon email" width="12"> 査定依頼・ご相談</a>
         </div>
 
-        <section class="section_concerns">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 data-aos="fade-up"><span class="d-block d-lg-inline-block">こんな不安</span>ありませんか？</h2>
-                        <p class="concerns_img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
-                            <img class="img-fluid d-none d-lg-block" src="assets/images/concerns.svg" alt="concerns" width="1022">
-                            <img class="img-fluid d-block d-lg-none" src="assets/images/concerns_sp.svg" alt="concerns">
-                        </p>
-                        <h3 data-aos="fade-up"><span class="d-block d-lg-inline-block">他社でうまくいかなかった方も</span>まずはご相談下さい！</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="section_purchaseresults">
             <div class="container">
                 <div class="row">
@@ -110,6 +95,21 @@
                                 <p>225.41m²</p>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_concerns">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 data-aos="fade-up"><span class="d-block d-lg-inline-block">こんな不安</span>ありませんか？</h2>
+                        <p class="concerns_img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
+                            <img class="img-fluid d-none d-lg-block" src="assets/images/concerns_pc.png" alt="concerns pc">
+                            <img class="img-fluid d-block d-lg-none" src="assets/images/concerns_sp.png" alt="concerns sp">
+                        </p>
+                        <h3 data-aos="fade-up"><span class="d-block d-lg-inline-block">他社でうまくいかなかった方も</span>まずはご相談下さい！</h3>
                     </div>
                 </div>
             </div>
