@@ -10,33 +10,63 @@
         <?php include 'header.php'; ?>
 
         <section class="section_banner">
+            <div class="banner_content d-block d-lg-none">
+                <div class="box_info" data-aos="fade-up">
+                    <h2>
+                        <span>ノーコードで簡単！物件検索機能付き</span><br>
+                        不動産ホームページ作成ツール
+                    </h2>
+                    <h3>FDランチャー</h3>
+                </div>
+            </div>
             <img class="img-fluid img_banner" src="assets/images/banner_img.svg" alt="banner images" data-aos="fade-down">
+
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row flex-row-reverse">
+                    <div class="col-12 col-lg-6">
+                        <div class="banner_content_right">
+                            <ul>
+                                <li>
+                                    <p>初期費用</p>
+                                    <p><span>0</span>円</p>
+                                </li>
+                                <li>
+                                    <p>月額費用</p>
+                                    <p class="bottom">
+                                        <span>1</span>
+                                        <small>(税抜)</small>
+                                        万円
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>掲載物件数</p>
+                                    <p>無制限</p>
+                                </li>
+                            </ul>
+                            <h4>主要ポータルサイトに一括入稿もできます</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
                         <div class="banner_content">
                             <div class="box_info" data-aos="fade-up">
-                                <h2>
-                                    <span>ノーコードで簡単！物件検索機能付き</span><br>
-                                    不動産ホームページ作成ツール
-                                </h2>
-                                <h3>FDランチャー</h3>
-                                <ul>
-                                    <li>
-                                        <p>初期費用</p>
-                                        <p><span>0</span>円</p>
-                                    </li>
-                                    <li>
-                                        <p>月額費用</p>
-                                        <p><span>1</span>万円</p>
-                                    </li>
-                                    <li>
-                                        <p>掲載物件数</p>
-                                        <p>無制限</p>
-                                    </li>
+                                <div class="d-none d-lg-block">
+                                    <h2>
+                                        <span>ノーコードで簡単！物件検索機能付き</span><br>
+                                        不動産ホームページ作成ツール
+                                    </h2>
+                                    <h3>FDランチャー</h3>
+                                </div>
+                                <p class="mb-0 text-center">
+                                    <img class="img-fluid" src="assets/images/img_devices.png" alt="devices">
+                                </p>
+                                <ul class="list_tag">
+                                    <li><a href="#section_features" data-scroll>#SEOLPO対策</a></li>
+                                    <li><a href="#section_features" data-scroll>#物件検索機能</a></li>
+                                    <li><a href="#section_features" data-scroll>#テンプレートで簡単作成</a></li>
+                                    <li><a href="#section_features" data-scroll>#スマホ対応</a></li>
+                                    <li><a href="#section_features" data-scroll>#物件コンバーター連動</a></li>
+                                    <li><a href="#section_features" data-scroll>#フォロー体制</a></li>
                                 </ul>
-                                <!-- <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a> -->
-                                <h4>主要ポータルサイトに一括入稿もできます</h4>
                             </div>
                         </div>
                     </div>
@@ -44,7 +74,7 @@
             </div>
         </section>
 
-        <section id="section_introduction" class="section_introduction bggray pt-0 py-lg-5">
+        <!-- <section id="section_introduction" class="section_introduction bggray pt-0 py-lg-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -55,7 +85,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="section_features" class="section_features">
             <div class="container">
