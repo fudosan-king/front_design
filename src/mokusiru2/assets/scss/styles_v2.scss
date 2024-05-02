@@ -36,14 +36,6 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-header {
-    &.header_sub {
-        &.menu-animation-scroll {
-            // position: relative;
-        }
-    }
-}
-
 .menu-list-scroll {
     &.menu_list_sub {
         position: relative;
@@ -540,8 +532,6 @@ header {
                     object-fit: cover;
                 }
             }
-
-            span {}
         }
 
         .square_big_content {
@@ -3435,5 +3425,733 @@ hr {
             }
         }
 
+    }
+}
+
+.section_map_content {
+    max-width: 700px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 4px solid #fff;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+    position: relative;
+
+    .nav-tabs {
+        margin-bottom: 5px;
+        border-bottom: none;
+
+        .nav-link {
+            border-radius: 10px 10px 0 0;
+            border: none;
+            background: #F2F2F2;
+            color: #8C7D5E;
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            min-width: 150px;
+            min-height: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-right: 5px;
+
+            &.active {
+                color: #FFF;
+                background: #8C7D5E;
+            }
+        }
+    }
+
+    .box_map {
+        position: relative;
+
+        .tabcontent {
+            &.active {
+                display: block;
+            }
+        }
+
+        .main_map {
+            position: relative;
+            padding-top: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #f2f2f2;
+
+            svg {
+                position: relative;
+            }
+        }
+
+        .multi_area {
+            position: absolute;
+            z-index: 10;
+            top: 10px;
+            left: 10px;
+            color: #8C7D5E;
+            font-family: 'Zen Old Mincho';
+            font-weight: 700;
+            font-size: .9em;
+        }
+
+        .tokyo_diff {
+            background: #cebfa1;
+            width: 90px;
+            height: 90px;
+            border-radius: 100px;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFF;
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            position: absolute;
+            left: 25px;
+            bottom: 20px;
+            max-width: 120px;
+            cursor: pointer;
+
+            &:hover {
+                color: #FFF;
+                background: #74BAAB;
+            }
+        }
+    }
+}
+
+.btn_searchbyareas {
+    max-width: 700px;
+    background: #3CBCCF;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 13px;
+    font-weight: 700;
+
+    &:hover {
+        background: #1e7684;
+        color: #fff;
+    }
+}
+
+.ikebukuro_area {
+
+    &:hover,
+    &.active {
+        path {
+            &.st3 {
+                fill: #fff;
+            }
+
+            &.st5 {
+                opacity: 1;
+            }
+
+            fill: #FEBE55;
+        }
+    }
+}
+
+.shinagawa_area {
+
+    &:hover,
+    &.active {
+        .st4 {
+            fill: #AAC5E1;
+        }
+    }
+}
+
+.downtown_area {
+
+    &:hover,
+    &.active {
+        path {
+            &.st3 {
+                fill: #fff;
+            }
+
+            &.st5 {
+                fill: none;
+            }
+
+            fill: #EFBCCC;
+        }
+    }
+}
+
+.shinjuku_area {
+
+    &:hover,
+    &.active {
+        path {
+            &.st3 {
+                fill: #fff;
+            }
+
+            fill: #74BAAB;
+        }
+    }
+}
+
+.shibuya_area {
+
+    &:hover,
+    &.active {
+        path {
+            fill: #F5DD00;
+        }
+
+        .st3 {
+            fill: #fff;
+        }
+    }
+}
+
+.marunouchi_area {
+    .st4 {
+
+        &:hover,
+        &.active {
+            fill: #EA9F72;
+        }
+    }
+
+    &:hover,
+    &.active {
+        path {
+            &.st3 {
+                fill: #fff;
+            }
+
+            fill: #EA9F72;
+        }
+    }
+}
+
+.green_area {
+
+    &:hover,
+    &.active {
+        path {
+            fill: #74baab;
+
+            &.border {
+                fill: #000;
+            }
+        }
+
+        .st1 {
+            fill: #74baab;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.yellow_area {
+
+    &:hover,
+    &.active {
+        path {
+            fill: #f5dd00;
+        }
+
+        .st1 {
+            fill: #f5dd00;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.pink_area {
+
+    &:hover,
+    &.active {
+        path {
+            fill: #efbccc;
+        }
+
+        .st1 {
+            fill: #efbccc;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.blue_area {
+
+    &:hover,
+    &.active {
+        path {
+            fill: #aac5e1;
+
+            &.border {
+                fill: #000;
+            }
+        }
+
+        .st1 {
+            fill: #aac5e1;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.orange_area {
+
+    &:hover,
+    &.active {
+        path {
+            fill: #febe55;
+        }
+
+        .st1 {
+            fill: #febe55;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_kitaward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        path {
+            fill: #74BAAB;
+        }
+
+        .st6 {
+            fill: #74BAAB;
+        }
+
+        .st1 {
+            fill: #fff;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_toshimaward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_bunkyoward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_taitoward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_sumidaward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_suginamiward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_nakanoward {
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        .st5 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_shinjukuward {
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        .st5 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_chiyodaward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_chuokuward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_kotoward {
+
+    .st5,
+    .st6 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+
+        .st5,
+        .st6 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_setagayaward {
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        .st5 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_shibuyaward {
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        .st5 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_minatokuward {
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    .st6 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        .st5 {
+            fill: #74BAAB;
+        }
+
+        .st6 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_meguroward {
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        .st5 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_shinagawaward {
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+        .st5 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+    }
+}
+
+.area_otakuward {
+    polygon {
+        fill: #cebfa1;
+    }
+
+    .st5 {
+        fill: #cebfa1;
+    }
+
+    .st6 {
+        fill: #cebfa1;
+    }
+
+    &:hover,
+    &.active {
+
+        .st5,
+        .st6 {
+            fill: #74BAAB;
+        }
+
+        .st2 {
+            fill: #fff;
+        }
+
+        .st1 {
+            fill: #fff;
+        }
+    }
+}
+
+.big_island {
+    .st1 {
+        fill: #cebfa1;
+    }
+}
+
+.small_island {
+    .st1 {
+        fill: #cebfa1;
+    }
+}
+
+.area_saitamaward {
+    polygon {
+        fill: #8c7d5e;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st-3-3 {
+            fill: #74BAAB;
+        }
+
+        cursor: pointer;
+    }
+}
+
+.area_kawaguchiward {
+    polygon {
+        fill: #8c7d5e;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #74BAAB;
+        }
+
+        .st-3-3 {
+            fill: #74BAAB;
+        }
+
+        cursor: pointer;
+    }
+}
+
+.area_kawasakiward {
+    polygon {
+        fill: #8c7d5e;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #FFF;
+        }
+
+        .st2_02 {
+            fill: #74BAAB;
+        }
+
+        cursor: pointer;
+    }
+}
+
+.area_yokohamaward {
+    polygon {
+        fill: #8c7d5e;
+    }
+
+    &:hover,
+    &.active {
+        polygon {
+            fill: #FFF;
+        }
+
+        .st0_02 {
+            fill: #74BAAB;
+        }
+
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 840px) {
+    .section_map_content {
+        .nav-tabs {
+            .nav-link {
+                min-width: auto;
+            }
+        }
     }
 }

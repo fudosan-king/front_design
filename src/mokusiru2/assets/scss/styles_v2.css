@@ -2612,4 +2612,470 @@ hr.dot {
     max-width: 80%;
     min-width: 80%;
   }
+}
+.section_map_content {
+  max-width: 700px;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 4px solid #fff;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+  position: relative;
+}
+.section_map_content .nav-tabs {
+  margin-bottom: 5px;
+  border-bottom: none;
+}
+.section_map_content .nav-tabs .nav-link {
+  border-radius: 10px 10px 0 0;
+  border: none;
+  background: #F2F2F2;
+  color: #8C7D5E;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  min-width: 150px;
+  min-height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 5px;
+}
+.section_map_content .nav-tabs .nav-link.active {
+  color: #FFF;
+  background: #8C7D5E;
+}
+.section_map_content .box_map {
+  position: relative;
+}
+.section_map_content .box_map .tabcontent.active {
+  display: block;
+}
+.section_map_content .box_map .main_map {
+  position: relative;
+  padding-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f2f2f2;
+}
+.section_map_content .box_map .main_map svg {
+  position: relative;
+}
+.section_map_content .box_map .multi_area {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  left: 10px;
+  color: #8C7D5E;
+  font-family: "Zen Old Mincho";
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.section_map_content .box_map .tokyo_diff {
+  background: #cebfa1;
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  position: absolute;
+  left: 25px;
+  bottom: 20px;
+  max-width: 120px;
+  cursor: pointer;
+}
+.section_map_content .box_map .tokyo_diff:hover {
+  color: #FFF;
+  background: #74BAAB;
+}
+
+.btn_searchbyareas {
+  max-width: 700px;
+  background: #3CBCCF;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 13px;
+  font-weight: 700;
+}
+.btn_searchbyareas:hover {
+  background: #1e7684;
+  color: #fff;
+}
+
+.ikebukuro_area:hover path, .ikebukuro_area.active path {
+  fill: #FEBE55;
+}
+.ikebukuro_area:hover path.st3, .ikebukuro_area.active path.st3 {
+  fill: #fff;
+}
+.ikebukuro_area:hover path.st5, .ikebukuro_area.active path.st5 {
+  opacity: 1;
+}
+
+.shinagawa_area:hover .st4, .shinagawa_area.active .st4 {
+  fill: #AAC5E1;
+}
+
+.downtown_area:hover path, .downtown_area.active path {
+  fill: #EFBCCC;
+}
+.downtown_area:hover path.st3, .downtown_area.active path.st3 {
+  fill: #fff;
+}
+.downtown_area:hover path.st5, .downtown_area.active path.st5 {
+  fill: none;
+}
+
+.shinjuku_area:hover path, .shinjuku_area.active path {
+  fill: #74BAAB;
+}
+.shinjuku_area:hover path.st3, .shinjuku_area.active path.st3 {
+  fill: #fff;
+}
+
+.shibuya_area:hover path, .shibuya_area.active path {
+  fill: #F5DD00;
+}
+.shibuya_area:hover .st3, .shibuya_area.active .st3 {
+  fill: #fff;
+}
+
+.marunouchi_area .st4:hover, .marunouchi_area .st4.active {
+  fill: #EA9F72;
+}
+.marunouchi_area:hover path, .marunouchi_area.active path {
+  fill: #EA9F72;
+}
+.marunouchi_area:hover path.st3, .marunouchi_area.active path.st3 {
+  fill: #fff;
+}
+
+.green_area:hover path, .green_area.active path {
+  fill: #74baab;
+}
+.green_area:hover path.border, .green_area.active path.border {
+  fill: #000;
+}
+.green_area:hover .st1, .green_area.active .st1 {
+  fill: #74baab;
+}
+.green_area:hover .st2, .green_area.active .st2 {
+  fill: #fff;
+}
+
+.yellow_area:hover path, .yellow_area.active path {
+  fill: #f5dd00;
+}
+.yellow_area:hover .st1, .yellow_area.active .st1 {
+  fill: #f5dd00;
+}
+.yellow_area:hover .st2, .yellow_area.active .st2 {
+  fill: #fff;
+}
+
+.pink_area:hover path, .pink_area.active path {
+  fill: #efbccc;
+}
+.pink_area:hover .st1, .pink_area.active .st1 {
+  fill: #efbccc;
+}
+.pink_area:hover .st2, .pink_area.active .st2 {
+  fill: #fff;
+}
+
+.blue_area:hover path, .blue_area.active path {
+  fill: #aac5e1;
+}
+.blue_area:hover path.border, .blue_area.active path.border {
+  fill: #000;
+}
+.blue_area:hover .st1, .blue_area.active .st1 {
+  fill: #aac5e1;
+}
+.blue_area:hover .st2, .blue_area.active .st2 {
+  fill: #fff;
+}
+
+.orange_area:hover path, .orange_area.active path {
+  fill: #febe55;
+}
+.orange_area:hover .st1, .orange_area.active .st1 {
+  fill: #febe55;
+}
+.orange_area:hover .st2, .orange_area.active .st2 {
+  fill: #fff;
+}
+
+.area_kitaward polygon {
+  fill: #cebfa1;
+}
+.area_kitaward:hover path, .area_kitaward.active path {
+  fill: #74BAAB;
+}
+.area_kitaward:hover .st6, .area_kitaward.active .st6 {
+  fill: #74BAAB;
+}
+.area_kitaward:hover .st1, .area_kitaward.active .st1 {
+  fill: #fff;
+}
+.area_kitaward:hover .st2, .area_kitaward.active .st2 {
+  fill: #fff;
+}
+
+.area_toshimaward polygon {
+  fill: #cebfa1;
+}
+.area_toshimaward:hover polygon, .area_toshimaward.active polygon {
+  fill: #74BAAB;
+}
+.area_toshimaward:hover .st2, .area_toshimaward.active .st2 {
+  fill: #fff;
+}
+
+.area_bunkyoward polygon {
+  fill: #cebfa1;
+}
+.area_bunkyoward:hover polygon, .area_bunkyoward.active polygon {
+  fill: #74BAAB;
+}
+.area_bunkyoward:hover .st2, .area_bunkyoward.active .st2 {
+  fill: #fff;
+}
+
+.area_taitoward polygon {
+  fill: #cebfa1;
+}
+.area_taitoward:hover polygon, .area_taitoward.active polygon {
+  fill: #74BAAB;
+}
+.area_taitoward:hover .st2, .area_taitoward.active .st2 {
+  fill: #fff;
+}
+
+.area_sumidaward polygon {
+  fill: #cebfa1;
+}
+.area_sumidaward:hover polygon, .area_sumidaward.active polygon {
+  fill: #74BAAB;
+}
+.area_sumidaward:hover .st2, .area_sumidaward.active .st2 {
+  fill: #fff;
+}
+
+.area_suginamiward polygon {
+  fill: #cebfa1;
+}
+.area_suginamiward:hover polygon, .area_suginamiward.active polygon {
+  fill: #74BAAB;
+}
+.area_suginamiward:hover .st2, .area_suginamiward.active .st2 {
+  fill: #fff;
+}
+
+.area_nakanoward .st5 {
+  fill: #cebfa1;
+}
+.area_nakanoward:hover .st5, .area_nakanoward.active .st5 {
+  fill: #74BAAB;
+}
+.area_nakanoward:hover .st2, .area_nakanoward.active .st2 {
+  fill: #fff;
+}
+
+.area_shinjukuward .st5 {
+  fill: #cebfa1;
+}
+.area_shinjukuward:hover .st5, .area_shinjukuward.active .st5 {
+  fill: #74BAAB;
+}
+.area_shinjukuward:hover .st2, .area_shinjukuward.active .st2 {
+  fill: #fff;
+}
+
+.area_chiyodaward polygon {
+  fill: #cebfa1;
+}
+.area_chiyodaward:hover polygon, .area_chiyodaward.active polygon {
+  fill: #74BAAB;
+}
+.area_chiyodaward:hover .st2, .area_chiyodaward.active .st2 {
+  fill: #fff;
+}
+
+.area_chuokuward polygon {
+  fill: #cebfa1;
+}
+.area_chuokuward:hover polygon, .area_chuokuward.active polygon {
+  fill: #74BAAB;
+}
+.area_chuokuward:hover .st2, .area_chuokuward.active .st2 {
+  fill: #fff;
+}
+
+.area_kotoward .st5,
+.area_kotoward .st6 {
+  fill: #cebfa1;
+}
+.area_kotoward:hover .st5,
+.area_kotoward:hover .st6, .area_kotoward.active .st5,
+.area_kotoward.active .st6 {
+  fill: #74BAAB;
+}
+.area_kotoward:hover .st2, .area_kotoward.active .st2 {
+  fill: #fff;
+}
+
+.area_setagayaward .st5 {
+  fill: #cebfa1;
+}
+.area_setagayaward:hover .st5, .area_setagayaward.active .st5 {
+  fill: #74BAAB;
+}
+.area_setagayaward:hover .st2, .area_setagayaward.active .st2 {
+  fill: #fff;
+}
+
+.area_shibuyaward .st5 {
+  fill: #cebfa1;
+}
+.area_shibuyaward:hover .st5, .area_shibuyaward.active .st5 {
+  fill: #74BAAB;
+}
+.area_shibuyaward:hover .st2, .area_shibuyaward.active .st2 {
+  fill: #fff;
+}
+
+.area_minatokuward .st5 {
+  fill: #cebfa1;
+}
+.area_minatokuward .st6 {
+  fill: #cebfa1;
+}
+.area_minatokuward:hover .st5, .area_minatokuward.active .st5 {
+  fill: #74BAAB;
+}
+.area_minatokuward:hover .st6, .area_minatokuward.active .st6 {
+  fill: #74BAAB;
+}
+.area_minatokuward:hover .st2, .area_minatokuward.active .st2 {
+  fill: #fff;
+}
+
+.area_meguroward .st5 {
+  fill: #cebfa1;
+}
+.area_meguroward:hover .st5, .area_meguroward.active .st5 {
+  fill: #74BAAB;
+}
+.area_meguroward:hover .st2, .area_meguroward.active .st2 {
+  fill: #fff;
+}
+
+.area_shinagawaward .st5 {
+  fill: #cebfa1;
+}
+.area_shinagawaward:hover .st5, .area_shinagawaward.active .st5 {
+  fill: #74BAAB;
+}
+.area_shinagawaward:hover .st2, .area_shinagawaward.active .st2 {
+  fill: #fff;
+}
+
+.area_otakuward polygon {
+  fill: #cebfa1;
+}
+.area_otakuward .st5 {
+  fill: #cebfa1;
+}
+.area_otakuward .st6 {
+  fill: #cebfa1;
+}
+.area_otakuward:hover .st5,
+.area_otakuward:hover .st6, .area_otakuward.active .st5,
+.area_otakuward.active .st6 {
+  fill: #74BAAB;
+}
+.area_otakuward:hover .st2, .area_otakuward.active .st2 {
+  fill: #fff;
+}
+.area_otakuward:hover .st1, .area_otakuward.active .st1 {
+  fill: #fff;
+}
+
+.big_island .st1 {
+  fill: #cebfa1;
+}
+
+.small_island .st1 {
+  fill: #cebfa1;
+}
+
+.area_saitamaward polygon {
+  fill: #8c7d5e;
+}
+.area_saitamaward:hover, .area_saitamaward.active {
+  cursor: pointer;
+}
+.area_saitamaward:hover polygon, .area_saitamaward.active polygon {
+  fill: #74BAAB;
+}
+.area_saitamaward:hover .st-3-3, .area_saitamaward.active .st-3-3 {
+  fill: #74BAAB;
+}
+
+.area_kawaguchiward polygon {
+  fill: #8c7d5e;
+}
+.area_kawaguchiward:hover, .area_kawaguchiward.active {
+  cursor: pointer;
+}
+.area_kawaguchiward:hover polygon, .area_kawaguchiward.active polygon {
+  fill: #74BAAB;
+}
+.area_kawaguchiward:hover .st-3-3, .area_kawaguchiward.active .st-3-3 {
+  fill: #74BAAB;
+}
+
+.area_kawasakiward polygon {
+  fill: #8c7d5e;
+}
+.area_kawasakiward:hover, .area_kawasakiward.active {
+  cursor: pointer;
+}
+.area_kawasakiward:hover polygon, .area_kawasakiward.active polygon {
+  fill: #FFF;
+}
+.area_kawasakiward:hover .st2_02, .area_kawasakiward.active .st2_02 {
+  fill: #74BAAB;
+}
+
+.area_yokohamaward polygon {
+  fill: #8c7d5e;
+}
+.area_yokohamaward:hover, .area_yokohamaward.active {
+  cursor: pointer;
+}
+.area_yokohamaward:hover polygon, .area_yokohamaward.active polygon {
+  fill: #FFF;
+}
+.area_yokohamaward:hover .st0_02, .area_yokohamaward.active .st0_02 {
+  fill: #74BAAB;
+}
+
+@media (max-width: 840px) {
+  .section_map_content .nav-tabs .nav-link {
+    min-width: auto;
+  }
 }/*# sourceMappingURL=styles_v2.css.map */
