@@ -287,47 +287,51 @@ header h1 {
 .section_banner .banner_content .box_info h2 {
   margin-bottom: 30px;
   letter-spacing: 0.2em;
+  font-size: 1.875em;
 }
 .section_banner .banner_content .box_info h3 {
-  font-size: 6em;
-  line-height: 1em;
+  font-size: 5em;
+  line-height: 0.8em;
   margin-bottom: 40px;
 }
 .section_banner .banner_content .box_info ul {
   padding: 0;
-  margin: 0 0 40px;
-  list-style-type: none;
+  margin: 0;
+  list-style: none;
   display: flex;
-  align-self: center;
+  flex-wrap: wrap;
 }
-.section_banner .banner_content .box_info ul li {
-  width: 140px;
-  height: 140px;
-  border-radius: 140px;
-  background: #EBFF00;
-  color: #000;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  line-height: 2.3em;
+.section_banner .banner_content .box_info ul.list_tag {
+  margin-top: 40px;
 }
-.section_banner .banner_content .box_info ul li:last-of-type {
-  margin-right: 0;
-  line-height: 2em;
+.section_banner .banner_content .box_info ul.list_tag li {
+  border: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
-.section_banner .banner_content .box_info ul li:last-of-type p:first-of-type {
-  margin-top: 5px;
+.section_banner .banner_content .box_info ul.list_tag li:nth-of-type(2) {
+  width: inherit;
+  height: inherit;
+  background-image: none;
 }
-.section_banner .banner_content .box_info ul li p {
-  margin-bottom: 0;
-  font-size: 1.5em;
+.section_banner .banner_content .box_info ul.list_tag li:nth-of-type(2) a {
+  background: #fff;
+}
+.section_banner .banner_content .box_info ul.list_tag li:hover a {
+  background: #000;
+  color: #fff;
+}
+.section_banner .banner_content .box_info ul.list_tag li a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 0.875em;
+  line-height: 1em;
   font-weight: 700;
-  font-family: "Mont";
-}
-.section_banner .banner_content .box_info ul li p span {
-  font-size: 2em;
+  border-radius: 100px;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  display: block;
+  background: #fff;
 }
 .section_banner .banner_content .box_info .btn_requestinquiries {
   padding: 22px 30px;
@@ -370,6 +374,80 @@ header h1 {
   height: 24px;
   margin-right: 10px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='none'%3E%3Cpath d='M14.0701 2H6.07007C5.53964 2 5.03093 2.21071 4.65585 2.58579C4.28078 2.96086 4.07007 3.46957 4.07007 4V20C4.07007 20.5304 4.28078 21.0391 4.65585 21.4142C5.03093 21.7893 5.53964 22 6.07007 22H18.0701C18.6005 22 19.1092 21.7893 19.4843 21.4142C19.8594 21.0391 20.0701 20.5304 20.0701 20V8L14.0701 2Z' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M14.0701 2V8H20.0701' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16.0701 13H8.07007' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16.0701 17H8.07007' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M10.0701 9H9.07007H8.07007' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+.section_banner .banner_content_right {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+.section_banner .banner_content_right h4 {
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 1.625em;
+}
+.section_banner .banner_content_right ul {
+  padding: 0;
+  margin: 0 0 20px;
+  list-style-type: none;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.section_banner .banner_content_right ul li {
+  width: 140px;
+  height: 140px;
+  border-radius: 140px;
+  background: #EBFF00;
+  color: #000;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.3em;
+  border: 3.5px #000 solid;
+}
+.section_banner .banner_content_right ul li:nth-of-type(2) {
+  border-radius: 0;
+  border: none;
+  background: url("../images/special.svg") no-repeat center;
+  background-size: 180px;
+  width: 180px;
+  height: 180px;
+  color: #EBFF00;
+}
+.section_banner .banner_content_right ul li:nth-of-type(2) p {
+  font-size: 1.7em;
+}
+.section_banner .banner_content_right ul li:nth-of-type(2) p.bottom {
+  font-size: 2.4em;
+  position: relative;
+  margin-top: 20px;
+}
+.section_banner .banner_content_right ul li:nth-of-type(2) p.bottom small {
+  position: absolute;
+  right: 0;
+  top: -25px;
+  font-size: 0.35em;
+}
+.section_banner .banner_content_right ul li:last-of-type {
+  margin-right: 0;
+  line-height: 2em;
+}
+.section_banner .banner_content_right ul li:last-of-type p:first-of-type {
+  margin-top: 5px;
+}
+.section_banner .banner_content_right ul li p {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Mont";
+}
+.section_banner .banner_content_right ul li p span {
+  font-size: 2.6em;
 }
 
 .title {
@@ -905,7 +983,6 @@ footer ul li a {
     margin-top: 72px;
   }
   .section_banner h4 {
-    margin-top: 50px;
     font-size: 1.5em;
   }
   .section_banner .img_banner {
@@ -1264,5 +1341,53 @@ footer ul li a {
   }
   .section_introduction {
     padding: 50px 0;
+  }
+  .section_banner .banner_content .box_info ul.list_tag {
+    margin-top: 20px;
+    justify-content: left;
+  }
+  .section_banner .banner_content .box_info ul.list_tag li {
+    width: inherit;
+    height: inherit;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .section_banner .banner_content .box_info ul.list_tag li a {
+    font-size: 0.625em;
+    padding: 5px 10px;
+  }
+  .section_banner .banner_content_right h4 {
+    font-size: 1.125em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section_banner .banner_content_right ul {
+    margin-bottom: 10px;
+  }
+  .section_banner .banner_content_right ul li {
+    width: 84px;
+    height: 84px;
+    border-radius: 84px;
+  }
+  .section_banner .banner_content_right ul li:nth-of-type(2) {
+    width: 120px;
+    height: 120px;
+    background-size: 120px;
+  }
+  .section_banner .banner_content_right ul li:nth-of-type(2) p {
+    font-size: 0.9em;
+  }
+  .section_banner .banner_content_right ul li:nth-of-type(2) p.bottom {
+    font-size: 1.2em;
+    margin-top: 15px;
+  }
+  .section_banner .banner_content_right ul li:nth-of-type(2) p.bottom small {
+    right: 0;
+    top: -15px;
+    font-size: 0.5em;
+  }
+  .section_banner .banner_content_right ul li p {
+    font-size: 0.875em;
+    line-height: 1.6em;
   }
 }/*# sourceMappingURL=styles.css.map */
