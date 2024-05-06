@@ -326,14 +326,18 @@ header {
       }
 
       h3 {
-        font-size: 5em;
+        font-size: 6em;
         line-height: .8em;
         margin-bottom: 40px;
+
+        &.custom {
+          font-size: 5em
+        }
       }
 
       ul {
         padding: 0;
-        margin: 0;
+        margin: 0 0 15px;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
@@ -424,6 +428,40 @@ header {
           height: 24px;
           margin-right: 10px;
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='none'%3E%3Cpath d='M14.0701 2H6.07007C5.53964 2 5.03093 2.21071 4.65585 2.58579C4.28078 2.96086 4.07007 3.46957 4.07007 4V20C4.07007 20.5304 4.28078 21.0391 4.65585 21.4142C5.03093 21.7893 5.53964 22 6.07007 22H18.0701C18.6005 22 19.1092 21.7893 19.4843 21.4142C19.8594 21.0391 20.0701 20.5304 20.0701 20V8L14.0701 2Z' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M14.0701 2V8H20.0701' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16.0701 13H8.07007' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16.0701 17H8.07007' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M10.0701 9H9.07007H8.07007' stroke='%23EBFF00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        }
+      }
+    }
+
+    ul {
+      &.list_left {
+        li {
+          width: 140px;
+          height: 140px;
+          border-radius: 140px;
+          background: #EBFF00;
+          color: #000;
+          margin-right: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          line-height: 2.3em;
+          border: 3.5px #000 solid;
+
+          &:last-of-type {
+            margin-right: 0;
+          }
+
+          p {
+            margin-bottom: 0;
+            font-size: 1.5em;
+            font-weight: 700;
+            font-family: "Mont";
+
+            span {
+              font-size: 2.6em;
+            }
+          }
         }
       }
     }
@@ -1204,6 +1242,10 @@ footer {
           text-align: center;
           font-size: 3em;
           margin-bottom: 20px;
+
+          &.custom {
+            font-size: 3em;
+          }
         }
 
         .btn_requestinquiries {
@@ -1635,6 +1677,7 @@ footer {
 .section_introduction {
   padding: 150px 0;
   text-align: center;
+  position: relative;
 
   &.bggray {
     background: #EDEDED;
@@ -1671,6 +1714,29 @@ footer {
               a {
                 font-size: 0.625em;
                 padding: 5px 10px;
+              }
+            }
+          }
+
+          &.list_left {
+            li {
+              width: 84px;
+              height: 84px;
+              border-radius: 84px;
+
+              &:nth-of-type(2) {
+                width: 120px;
+                height: 120px;
+                background-size: 120px;
+
+                p {
+                  font-size: 0.9em;
+
+                  &.bottom {
+                    font-size: 1.2em;
+                    margin-top: 15px;
+                  }
+                }
               }
             }
           }
