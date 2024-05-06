@@ -16,7 +16,7 @@
                         <span>ノーコードで簡単！物件検索機能付き</span><br>
                         不動産ホームページ作成ツール
                     </h2>
-                    <h3>FDランチャー</h3>
+                    <h3 class="custom">FDランチャー</h3>
                 </div>
             </div>
             <img class="img-fluid img_banner" src="assets/images/banner_img.svg" alt="banner images" data-aos="fade-down">
@@ -54,7 +54,7 @@
                                         <span>ノーコードで簡単！物件検索機能付き</span><br>
                                         不動産ホームページ作成ツール
                                     </h2>
-                                    <h3>FDランチャー</h3>
+                                    <h3 class="custom">FDランチャー</h3>
                                 </div>
                                 <p class="mb-0 text-center">
                                     <img class="img-fluid" src="assets/images/img_devices.png" alt="devices">
@@ -240,7 +240,8 @@
                                 <img src="assets/images/api.svg" alt="templates">
                                 <p>FDランチャーのAPI機能を使って、貴社ホームページの物件情報を更新することができます。一度の手間でポータルサイトへの入稿、自社ホームページのデータ更新を行うことができます。</p>
                                 <img src="assets/images/arrow_down.svg" alt="arrow_down" width="120">
-                                <h6>月額費用 <span>➕</span> <span>5,000</span><i>円</i><i> （税抜）</i></h6>
+                                <h6>月額費用 <span>➕</span> <span>5,000</span><i>円</i></h6>
+                                <small>（税込価格5,500円）</small>
                             </li>
                         </ul>
                     </div>

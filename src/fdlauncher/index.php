@@ -18,21 +18,21 @@
                             <div class="box_info" data-aos="fade-up">
                                 <h2>クラウド不動産情報管理システム</h2>
                                 <h3>FDランチャー</h3>
-                                <ul>
+                                <ul class="list_left">
                                     <li>
                                         <p>初期費用</p>
                                         <p><span>0</span>円</p>
                                     </li>
                                     <li>
                                         <p>月額費用</p>
-                                        <p><span>1</span>万円</p>
+                                        <p class="bottom"><span>1</span>万円</p>
                                     </li>
                                     <li>
                                         <p>掲載物件数</p>
                                         <p>無制限</p>
                                     </li>
                                 </ul>
-                                <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a>
+                                <!-- <a target="_blank" href="https://form.run/@fdl-document-request-form" class="btn btn_requestinquiries butn__new"><i></i> 資料請求・お問合せ</a> -->
                             </div>
                         </div>
                         <!-- <h4>2024年3月よりサービス開始予定</h4> -->
@@ -179,7 +179,8 @@
                                 <img src="assets/images/api.svg" alt="templates">
                                 <p>FDランチャーのAPI機能を使って、貴社ホームページの物件情報を更新することができます。一度の手間でポータルサイトへの入稿、自社ホームページのデータ更新を行うことができます。</p>
                                 <img src="assets/images/arrow_down.svg" alt="arrow_down" width="120">
-                                <h6>月額費用 <span>➕</span> <span>5,000</span><i>円</i><i> （税抜）</i></h6>
+                                <h6>月額費用 <span>➕</span> <span>5,000</span><i>円</i></h6>
+                                <small>（税込価格5,500円）</small>
                             </li>
                         </ul>
                     </div>
