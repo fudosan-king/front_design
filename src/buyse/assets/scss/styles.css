@@ -1805,17 +1805,23 @@ footer ul li a {
     margin-right: 3px;
     padding: 20px;
   }
+  .section_concerns ul.list li:first-of-type span {
+    display: block;
+  }
+  .section_concerns ul.list li:first-of-type span b:first-of-type {
+    font-size: 1em;
+  }
   .section_concerns ul.list li::before {
     border-width: 15px;
     margin-left: 0;
   }
   .section_concerns ul.list li b {
     display: block;
-    font-size: 0.625em;
+    font-size: 0.75em;
   }
   .section_concerns ul.list li i {
     display: block;
-    font-size: 0.625em;
+    font-size: 0.75em;
   }
 }
 @media (max-width: 430px) {

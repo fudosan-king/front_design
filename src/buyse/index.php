@@ -73,7 +73,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ul class="list">
-                            <li><span><b>相続不</b>動産</span></li>
+                            <li><span><b>相続</b><b>不動産</b></span></li>
                             <li><span><i>ローン</i>延滞</span></li>
                             <li><span><b>任意</b>売却</span></li>
                         </ul>
