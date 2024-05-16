@@ -35,6 +35,16 @@
                 </div>
             </div>
 
+            <h3 class="img_cashing">
+                <div class="img_cashing_pc">
+                    <span><i>早期 </i>現金化<img src="assets/images/img_line.png" alt="line"> <i>仲介手数料</i> 無料</span>
+                </div>
+                <div class="img_cashing_sp">
+                    <span><i>早期 </i>現金化</span>
+                    <span><i>仲介手数料</i> 無料</span>
+                </div>
+            </h3>
+
             <div class="trackrecord">
                 <div class="container">
                     <div class="row">
@@ -57,6 +67,31 @@
         <div class="w_consultation d-block d-lg-none">
             <a target="_blank" href="assessment.php" class="btn btn_consultation"><img src="assets/images/i_email.svg" alt="icon email" width="12"> 査定依頼・ご相談</a>
         </div>
+
+        <section class="section_concerns">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="list">
+                            <li><span><b>相続不</b>動産</span></li>
+                            <li><span><i>ローン</i>延滞</span></li>
+                            <li><span><b>任意</b>売却</span></li>
+                        </ul>
+                        <h2 data-aos="fade-up">
+                            <div>
+                                <span>マンションをすぐに<i><b>現金化</b>したいけど・・・</i></span>
+                                <span><i>こんな不安ありませんか？</i></span>
+                            </div>
+                        </h2>
+                        <p class="concerns_img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
+                            <img class="img-fluid d-none d-lg-block" src="assets/images/concerns_pc.png" alt="concerns pc">
+                            <img class="img-fluid d-block d-lg-none" src="assets/images/concerns_sp.png" alt="concerns sp">
+                        </p>
+                        <h3 data-aos="fade-up"><span class="d-block d-lg-inline-block">他社でうまくいかなかった方も</span>まずはご相談下さい！</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="section_purchaseresults">
             <div class="container">
@@ -100,20 +135,7 @@
             </div>
         </section>
 
-        <section class="section_concerns">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 data-aos="fade-up"><span class="d-block d-lg-inline-block">こんな不安</span>ありませんか？</h2>
-                        <p class="concerns_img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
-                            <img class="img-fluid d-none d-lg-block" src="assets/images/concerns_pc.png" alt="concerns pc">
-                            <img class="img-fluid d-block d-lg-none" src="assets/images/concerns_sp.png" alt="concerns sp">
-                        </p>
-                        <h3 data-aos="fade-up"><span class="d-block d-lg-inline-block">他社でうまくいかなかった方も</span>まずはご相談下さい！</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
 
 

@@ -467,6 +467,10 @@ header h1 {
   background-size: cover;
   position: relative;
 }
+.section_banner .banner_content {
+  position: relative;
+  margin-top: -100px;
+}
 .section_banner .banner_content ul {
   padding: 0;
   margin: 0 0 20px;
@@ -508,9 +512,60 @@ header h1 {
 .section_banner .banner_content h2 {
   color: #fff;
   font-size: 5em;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2em;
   margin-bottom: 0;
+}
+.section_banner .img_cashing {
+  margin: 0;
+  font-size: 4em;
+  text-align: right;
+  color: #142C4D;
+  position: relative;
+  right: 6%;
+  bottom: 210px;
+  width: 60%;
+}
+.section_banner .img_cashing .img_cashing_sp {
+  display: none;
+}
+.section_banner .img_cashing span {
+  position: relative;
+  z-index: 0;
+  display: block;
+  padding: 10px 130px 10px 20px;
+}
+.section_banner .img_cashing span::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -55px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+  background: #fff;
+}
+.section_banner .img_cashing span::after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50px;
+  top: 10px;
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+  background: var(--gold, linear-gradient(252deg, #8B6D38 8.74%, #D5AF66 75.44%));
+}
+.section_banner .img_cashing i {
+  font-size: 0.625em;
+  font-style: normal;
+}
+.section_banner .trackrecord {
+  position: relative;
+  top: -115px;
 }
 .section_banner .trackrecord p {
   margin-bottom: 0;
@@ -1498,9 +1553,37 @@ footer ul li a {
   text-align: center;
 }
 .section_concerns h2 {
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: 70px;
   color: #142C4D;
+  font-weight: 700;
+}
+.section_concerns h2 i {
+  font-style: normal;
+  transform: skew(20deg);
+}
+.section_concerns h2 b {
+  font-size: 1.3333em;
+}
+.section_concerns h2 span {
+  display: block;
+  transform: skew(20deg);
+}
+.section_concerns h2 div {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  transform: skew(-20deg);
+}
+.section_concerns h2 div::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(358deg, #D9D9D9 1.28%, #FFF 98.26%);
 }
 .section_concerns h3 {
   font-size: 2.5em;
@@ -1508,6 +1591,54 @@ footer ul li a {
 }
 .section_concerns .concerns_img img {
   margin: 0 auto;
+}
+.section_concerns ul.list {
+  padding: 0;
+  margin: 0 0 40px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_concerns ul.list li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 3em;
+  color: #142C4D;
+  font-family: "Noto Serif JP";
+  font-weight: 700;
+  transform: skew(-20deg);
+  background: linear-gradient(358deg, #D9D9D9 1.28%, #FFF 98.26%);
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+.section_concerns ul.list li:last-of-type {
+  margin-right: 0;
+}
+.section_concerns ul.list li::before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  z-index: -2;
+  pointer-events: none;
+  border-color: rgba(217, 217, 217, 0);
+  border-top-color: #D9D9D9;
+  border-width: 25px;
+  margin-left: 10px;
+  transform: skew(320deg);
+}
+.section_concerns ul.list li span {
+  transform: skew(20deg);
+  display: block;
+}
+.section_concerns ul.list li i {
+  font-style: normal;
+  font-size: 0.75em;
 }
 
 .section_purchaseresults {
@@ -1566,9 +1697,44 @@ footer ul li a {
   margin: 0 auto;
 }
 
+@media (max-width: 1400px) {
+  .section_banner .img_cashing {
+    font-size: 3em;
+  }
+}
+@media (max-width: 1368px) {
+  .section_banner .img_cashing {
+    right: 10%;
+    bottom: 240px;
+  }
+  .section_banner .img_cashing span {
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 100px;
+  }
+  .section_banner .img_cashing span img {
+    display: none;
+  }
+}
 @media (max-width: 1200px) {
   .section_banner .w_salesconsultation .box_salesconsultation span:first-of-type i {
     font-size: 0.7em;
+  }
+  .section_banner .img_cashing {
+    right: 15%;
+    font-size: 2em;
+  }
+  .section_banner .img_cashing .img_cashing_pc {
+    display: none;
+  }
+  .section_banner .img_cashing .img_cashing_sp {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column-reverse;
+  }
+  .section_banner .trackrecord {
+    top: -225px;
+    text-align: right;
   }
   .title::before {
     bottom: -5px;
@@ -1591,13 +1757,65 @@ footer ul li a {
   }
 }
 @media (max-width: 992px) {
+  .section_banner .banner_content {
+    margin-top: -20px;
+  }
+  .section_banner .img_cashing {
+    bottom: 145px;
+    width: 80%;
+  }
+  .section_banner .img_cashing span {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 90px;
+    margin-bottom: 15px;
+  }
+  .section_banner .trackrecord {
+    top: -135px;
+    text-align: right;
+  }
   .section_concerns h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 44.8px;
     margin-bottom: 15px;
   }
+  .section_concerns h2 i {
+    display: block;
+    transform: skew(0deg);
+  }
+  .section_concerns h2 div {
+    padding: 15px 0;
+    transform: skew(0deg);
+  }
+  .section_concerns h2 div::before {
+    background: none;
+  }
+  .section_concerns h2 span {
+    transform: skew(0deg);
+  }
   .section_concerns h3 {
     font-size: 1.25em;
+  }
+  .section_concerns ul.list {
+    margin-bottom: 0;
+  }
+  .section_concerns ul.list li {
+    line-height: 0.9em;
+    font-size: 2em;
+    margin-right: 3px;
+    padding: 20px;
+  }
+  .section_concerns ul.list li::before {
+    border-width: 15px;
+    margin-left: 0;
+  }
+  .section_concerns ul.list li b {
+    display: block;
+    font-size: 0.625em;
+  }
+  .section_concerns ul.list li i {
+    display: block;
+    font-size: 0.625em;
   }
 }
 @media (max-width: 430px) {
@@ -1606,6 +1824,9 @@ footer ul li a {
   }
 }
 @media (max-width: 414px) {
+  .section_banner .img_cashing span {
+    padding-right: 70px;
+  }
   .section_purchaseresults ul li:nth-of-type(2n) {
     margin-right: 0;
   }
