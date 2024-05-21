@@ -22,10 +22,12 @@
     <link rel="stylesheet" href="./css/splide.min.css" type="text/css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/custom.css" type="text/css">
+    <link rel="stylesheet" href="./assets/sass/styles_new.css" type="text/css">
 
     <title>天然無垢材・自然素材のリノベーションマンション｜ログマンション</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
 </head>
-    <body>
+
+<body>
