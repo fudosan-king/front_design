@@ -171,6 +171,16 @@
                         }
                     }
 
+                    &.example {
+                        li {
+                            padding-left: 20px;
+
+                            &::before {
+                                left: -7px;
+                            }
+                        }
+                    }
+
                     &.recruitment_salelland {
                         margin-top: 15px;
 

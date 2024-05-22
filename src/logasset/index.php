@@ -134,7 +134,7 @@
                             </div>
                             <div class="steps_head_box">
                                 <h3><span>ご活用例</span></h3>
-                                <ul>
+                                <ul class="example">
                                     <li>アパート経営</li>
                                     <li>マンション経営</li>
                                     <li>賃貸併用住宅</li>
