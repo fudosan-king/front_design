@@ -2,11 +2,40 @@
     margin-top: 20px;
 }
 
+.home-about__business {
+    .title {
+        .title-line {
+            &::before {
+                width: 137px;
+                max-width: inherit;
+            }
+        }
+    }
+
+    .box-contain {
+        max-width: 530px;
+        padding-right: 0;
+
+        p {
+            font-weight: 500;
+        }
+    }
+}
+
+.home-about__business__contain {
+    max-width: 566px;
+}
+
+.home-about__business__img {
+    max-width: 630px;
+}
+
 .box_steps {
     padding-top: 60px;
 
     p {
         line-height: 180%;
+        font-weight: 500;
     }
 
     section {
@@ -134,6 +163,7 @@
                         margin-bottom: 5px;
                         position: relative;
                         padding-left: 20px;
+                        font-weight: 500;
 
                         &::before {
                             content: '▪ ';
@@ -141,6 +171,18 @@
                             left: 0;
                             top: -5px;
                             font-size: 1.5em;
+                        }
+                    }
+
+                    &.recruitment_salelland {
+                        li {
+                            &::before {
+                                display: none;
+                            }
+
+                            &:first-of-type {
+                                font-weight: 700;
+                            }
                         }
                     }
                 }
@@ -171,6 +213,17 @@
         h3 {
             font-size: 1.25em;
             margin-bottom: 10px;
+            font-weight: 700;
+        }
+    }
+}
+
+.home-about__business__map {
+    .map-contain {
+        .contain {
+            p {
+                font-weight: 600;
+            }
         }
     }
 }
@@ -185,6 +238,8 @@
 
     h2 {
         margin-bottom: 30px;
+        font-size: 1.75em;
+        font-weight: 700;
     }
 
     ul {
@@ -212,7 +267,7 @@
                     left: 27px;
                     top: -18px;
                     font-size: 1.125em;
-                    font-weight: 500px;
+                    font-weight: 500;
                     letter-spacing: 0.9px;
 
                     span {
@@ -227,6 +282,7 @@
                     line-height: 180%;
                     color: #46505C;
                     letter-spacing: 0.8px;
+                    font-weight: 500;
                 }
             }
         }
@@ -261,6 +317,10 @@
                 font-size: 1.25em;
             }
 
+            p {
+                font-weight: 500;
+            }
+
             ul {
                 padding: 0;
                 margin: 0;
@@ -269,6 +329,9 @@
                     position: relative;
                     padding-left: 20px;
                     margin-bottom: 5px;
+                    font-weight: 500;
+                    line-height: 140%;
+                    letter-spacing: 1.6px;
 
                     &::before {
                         content: "▪ ";
@@ -305,6 +368,7 @@
                 width: 47%;
                 margin-right: 46px;
                 margin-bottom: 50px;
+                font-weight: 500;
 
                 &:nth-of-type(2n) {
                     margin-right: 0;
@@ -323,12 +387,14 @@
                     background: #F2F2F2;
                     padding: 7px 20px;
                     margin-bottom: 15px;
+                    font-size: 0.875em;
                 }
 
                 h2 {
                     color: #46505C;
                     font-size: 1.25em;
                     margin-bottom: 15px;
+                    font-weight: 500;
                 }
 
                 p {
@@ -359,6 +425,7 @@
         border-bottom: 1px solid #46505C;
         padding-bottom: 10px;
         margin-bottom: 38px;
+        font-weight: 700;
     }
 
     h3 {
@@ -583,6 +650,17 @@
 }
 
 @media (min-width: 768px) {
+    .title-line {
+        &:before {
+            top: inherit;
+            bottom: 0;
+        }
+    }
+
+    .home-about__mission__contain {
+        padding-top: 145px;
+    }
+
     .home-about__business {
         .title {
             margin-left: 30px;

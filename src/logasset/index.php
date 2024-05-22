@@ -177,7 +177,7 @@
                             </div>
                             <div class="steps_head_box d-none d-lg-block">
                                 <h3><span>事業用地募集</span></h3>
-                                <ul>
+                                <ul class="recruitment_salelland">
                                     <li>新築アパートの開発用地の募集</li>
                                     <li>【立地条件】<br>
                                         一都三県（東京、神奈川、埼玉、千葉）</li>
@@ -204,14 +204,14 @@
                     <div class="d-flex flex-wrap flex-md-nowrap">
                         <div class="map-contain">
                             <h3 class="sub-title">事業エリア</h3>
-                            <p>1 都3 県（東京・千葉・埼玉・神奈川）</p>
+                            <p>[]</p>
                             <div class="contain">
                                 <p>注力エリア</p>
-                                <p><span>東京：</span>23区、城南、城東</p>
+                                <p><span>東京：</span>23区</p>
                                 <p><span>神奈川県川崎市：</span>川崎区、幸区、中原区</p>
                                 <p><span>神奈川県横浜市：</span>神奈川区、西区、中区、鶴見区、港北区</p>
                             </div>
-                            <p><b>事業エリア外についても対応させていただくケースがございます。まずはお問い合わせくださいませ。</b></p>
+                            <p>事業エリア外についても対応させていただくケースがございます。まずはお問い合わせくださいませ。</p>
                         </div>
                         <div class="map-image w-100 text-center">
                             <img src="./images/home/map.png" alt="" title="" />
@@ -521,7 +521,7 @@
                         </li>
                         <li>
                             <p>
-                                <span>従業員数</span>
+                                <span>事業内容</span>
                                 <span>ランドセット事業<br>
                                     不動産の有効活用提案<br>
                                     不動産買取<br>
