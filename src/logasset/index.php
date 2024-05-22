@@ -204,7 +204,7 @@
                     <div class="d-flex flex-wrap flex-md-nowrap">
                         <div class="map-contain">
                             <h3 class="sub-title">事業エリア</h3>
-                            <p>[]</p>
+                            <p>1 都3 県（東京・神奈川・千葉・埼玉）</p>
                             <div class="contain">
                                 <p>注力エリア</p>
                                 <p><span>東京：</span>23区</p>
