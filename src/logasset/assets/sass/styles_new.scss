@@ -107,8 +107,6 @@
                     line-height: 1em;
                 }
 
-
-
                 h2 {
                     font-size: 1.5em;
                     font-weight: 700;
@@ -162,7 +160,6 @@
                         width: 50%;
                         margin-bottom: 5px;
                         position: relative;
-                        padding-left: 20px;
                         font-weight: 500;
 
                         &::before {
@@ -175,7 +172,11 @@
                     }
 
                     &.recruitment_salelland {
+                        margin-top: 15px;
+
                         li {
+                            margin-bottom: 15px;
+
                             &::before {
                                 display: none;
                             }
@@ -192,7 +193,7 @@
                     background: #006973;
                     width: 100%;
                     color: #fff;
-                    margin-top: 68px;
+                    margin-top: 30px;
                     padding: 11px;
 
                     &:hover {
