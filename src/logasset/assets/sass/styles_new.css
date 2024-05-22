@@ -3,11 +3,32 @@
   margin-top: 20px;
 }
 
+.home-about__business .title .title-line::before {
+  width: 137px;
+  max-width: inherit;
+}
+.home-about__business .box-contain {
+  max-width: 530px;
+  padding-right: 0;
+}
+.home-about__business .box-contain p {
+  font-weight: 500;
+}
+
+.home-about__business__contain {
+  max-width: 566px;
+}
+
+.home-about__business__img {
+  max-width: 630px;
+}
+
 .box_steps {
   padding-top: 60px;
 }
 .box_steps p {
   line-height: 180%;
+  font-weight: 500;
 }
 .box_steps section {
   padding-bottom: 117px;
@@ -103,6 +124,7 @@
   margin-bottom: 5px;
   position: relative;
   padding-left: 20px;
+  font-weight: 500;
 }
 .box_steps section .steps_head .steps_head_box ul li::before {
   content: "▪ ";
@@ -110,6 +132,12 @@
   left: 0;
   top: -5px;
   font-size: 1.5em;
+}
+.box_steps section .steps_head .steps_head_box ul.recruitment_salelland li::before {
+  display: none;
+}
+.box_steps section .steps_head .steps_head_box ul.recruitment_salelland li:first-of-type {
+  font-weight: 700;
 }
 .box_steps section .steps_head .steps_head_box .btn {
   border-radius: 100px;
@@ -128,6 +156,11 @@
 .box_steps .proposalprocess h3 {
   font-size: 1.25em;
   margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.home-about__business__map .map-contain .contain p {
+  font-weight: 600;
 }
 
 .case_candies {
@@ -139,6 +172,8 @@
 }
 .case_candies h2 {
   margin-bottom: 30px;
+  font-size: 1.75em;
+  font-weight: 700;
 }
 .case_candies ul.list_box {
   margin: 0 0 35px;
@@ -163,7 +198,7 @@
   left: 27px;
   top: -18px;
   font-size: 1.125em;
-  font-weight: 500px;
+  font-weight: 500;
   letter-spacing: 0.9px;
 }
 .case_candies ul.list_box li h3 span {
@@ -176,6 +211,7 @@
   line-height: 180%;
   color: #46505C;
   letter-spacing: 0.8px;
+  font-weight: 500;
 }
 .case_candies .box_contactus {
   display: flex;
@@ -202,6 +238,9 @@
   margin-top: 40px;
   font-size: 1.25em;
 }
+.case_candies .box_contactus .box_contactus_content p {
+  font-weight: 500;
+}
 .case_candies .box_contactus .box_contactus_content ul {
   padding: 0;
   margin: 0;
@@ -210,6 +249,9 @@
   position: relative;
   padding-left: 20px;
   margin-bottom: 5px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 1.6px;
 }
 .case_candies .box_contactus .box_contactus_content ul li::before {
   content: "▪ ";
@@ -238,6 +280,7 @@
   width: 47%;
   margin-right: 46px;
   margin-bottom: 50px;
+  font-weight: 500;
 }
 .case_candies .box_proposal ul li:nth-of-type(2n) {
   margin-right: 0;
@@ -253,11 +296,13 @@
   background: #F2F2F2;
   padding: 7px 20px;
   margin-bottom: 15px;
+  font-size: 0.875em;
 }
 .case_candies .box_proposal ul li h2 {
   color: #46505C;
   font-size: 1.25em;
   margin-bottom: 15px;
+  font-weight: 500;
 }
 .case_candies .box_proposal ul li p {
   margin-bottom: 10px;
@@ -282,6 +327,7 @@
   border-bottom: 1px solid #46505C;
   padding-bottom: 10px;
   margin-bottom: 38px;
+  font-weight: 700;
 }
 .companyprofile h3.logo {
   text-align: center;
@@ -447,6 +493,13 @@
   }
 }
 @media (min-width: 768px) {
+  .title-line:before {
+    top: inherit;
+    bottom: 0;
+  }
+  .home-about__mission__contain {
+    padding-top: 145px;
+  }
   .home-about__business .title {
     margin-left: 30px;
   }
