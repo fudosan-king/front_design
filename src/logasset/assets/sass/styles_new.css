@@ -534,11 +534,10 @@
   .home-about__business {
     padding-bottom: 0;
   }
+  .home-about__business div::before {
+    top: 445px;
+  }
   .home-about__group {
     margin-bottom: 63px;
-  }
-  .home-about__business__contain::before {
-    top: 445px;
-    height: 90%;
   }
 }/*# sourceMappingURL=styles_new.css.map */
