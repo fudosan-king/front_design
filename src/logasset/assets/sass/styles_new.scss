@@ -704,6 +704,12 @@
 
     .home-about__business {
         padding-bottom: 0;
+
+        div {
+            &::before {
+                top: 445px;
+            }
+        }
     }
 
     .home-about__group {
@@ -711,9 +717,8 @@
     }
 
     .home-about__business__contain {
-        &::before {
-            top: 445px;
-            height: 90%;
-        }
+        // &::before {
+        //     top: 445px;
+        // }
     }
 }
