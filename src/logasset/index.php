@@ -193,7 +193,7 @@
                                     <li>【状態】<br>
                                         テナント入居中検討可能（レジ対応可能）</li>
                                 </ul>
-                                <a href="#" class="btn">お問い合わせはこちら</a>
+                                <a href="https://www.logasset.co.jp/inquiry/" class="btn">お問い合わせはこちら</a>
                             </div>
                         </div>
                     </section>
