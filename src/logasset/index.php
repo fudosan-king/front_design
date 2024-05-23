@@ -171,7 +171,7 @@
                         <div class="steps_head">
                             <div class="steps_head_number">
                                 <h2>不動産買取・仲介</h2>
-                                <p>所有地のご売却を検討の場合には、弊社で買取、もしくはご売却のサポートを致します。<br>
+                                <p class="mb-3">所有地のご売却を検討の場合には、弊社で買取、もしくはご売却のサポートを致します。<br>
                                     コネクションを活かした販売ルートを有しており、一般的な不動産売却の市場に情報を公開するだけでなく、弊社独自のお客様に買取をご検討頂けます。 </p>
                                 <img class="fluid" src="images/home/business-3_1.jpg" alt="business">
                             </div>

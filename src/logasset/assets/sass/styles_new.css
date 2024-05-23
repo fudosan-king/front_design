@@ -268,7 +268,7 @@
   content: "▪ ";
   position: absolute;
   left: 0;
-  top: -5px;
+  top: 0;
   font-size: 1.5em;
 }
 .case_candies .box_proposal h2 {
@@ -361,7 +361,7 @@
   left: 95px;
   top: 0;
   width: 1px;
-  height: 100%;
+  height: 167px;
   background: #46505C;
 }
 .companyprofile ul li p {
@@ -536,5 +536,9 @@
   }
   .home-about__group {
     margin-bottom: 63px;
+  }
+  .home-about__business__contain::before {
+    top: 445px;
+    height: 90%;
   }
 }/*# sourceMappingURL=styles_new.css.map */
