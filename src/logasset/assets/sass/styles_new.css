@@ -378,6 +378,7 @@
 }
 .companyprofile ul li p span:first-of-type {
   padding-left: 0;
+  text-align: right;
 }
 .companyprofile ul li p span:last-of-type {
   padding-right: 0;
@@ -392,6 +393,9 @@
 @media (max-width: 843px) {
   .home-about__business > div:before {
     top: 225px;
+  }
+  .companyprofile ul li p span:first-of-type {
+    text-align: left;
   }
   .box_steps {
     padding-left: 15px;
