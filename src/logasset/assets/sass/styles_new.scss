@@ -482,6 +482,7 @@
 
                     &:first-of-type {
                         padding-left: 0;
+                        text-align: right;
                     }
 
                     &:last-of-type {
@@ -504,6 +505,20 @@
 @media (max-width: 843px) {
     .home-about__business>div:before {
         top: 225px;
+    }
+
+    .companyprofile {
+        ul {
+            li {
+                p {
+                    span {
+                        &:first-of-type {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .box_steps {
