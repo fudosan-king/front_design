@@ -59,3 +59,7 @@ $(".btn_change").click(function (event) {
     fill: $("#color").val(),
   });
 });
+
+$('.btn_tab').on('click', function () {
+  $('.box_tab_content_left').slideToggle();
+});
