@@ -28,7 +28,7 @@
                         <input type="text" class="form-control note" aria-describedby="" placeholder="パスワードONで空欄の場合、自動で設定されます。">
                     </div>
                 </div>
-                <div class="box_tab_content_right mt-3">
+                <div class="box_tab_content_right">
                     <div class="box_button">
                         <a href="#" class="btn">プレビュー</a>
                         <a href="#" class="btn">下書き保存</a>

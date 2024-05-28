@@ -1,5 +1,5 @@
 .box_tab .box_tab_content {
-  padding: 32px 0;
+  padding: 20px 0 10px;
 }
 .box_tab .btn_tab.active {
   border: none;
@@ -11,6 +11,9 @@
 .box_tab form .box_tab_content_left {
   min-width: none;
   margin-right: 0;
+}
+.box_tab form .box_tab_content_left .row_custom {
+  margin-bottom: 15px;
 }
 .box_tab .box_button .btn {
   width: inherit;
