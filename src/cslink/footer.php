@@ -1,6 +1,6 @@
 <div class="box_tab">
-    <a class="btn btn_tab" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><img src="assets/images/i_chevron_down.svg" alt="chevron down" width="14"></a>
-    <div class="box_tab_content collapse" id="collapseExample">
+    <a class="btn btn_tab" href="#"><img src="assets/images/i_chevron_down.svg" alt="chevron down" width="14"></a>
+    <div class="box_tab_content" id="">
         <div class="container">
             <form action="">
                 <div class="box_tab_content_left">
@@ -28,13 +28,13 @@
                         <input type="text" class="form-control note" aria-describedby="" placeholder="パスワードONで空欄の場合、自動で設定されます。">
                     </div>
                 </div>
-                <div class="box_tab_content_right">
-                    <p class="note">※テンプレート上で入力されていない項目は、ページには表示されません。</p>
+                <div class="box_tab_content_right mt-3">
                     <div class="box_button">
                         <a href="#" class="btn">プレビュー</a>
                         <a href="#" class="btn">下書き保存</a>
+                        <a href="#" class="btn btn_registration">登録</a>
                     </div>
-                    <a href="#" class="btn btn_registration">登録</a>
+                    <p class="note mb-0 text-center">※テンプレート上で入力されていない項目は、ページには表示されません。</p>
                 </div>
             </form>
         </div>
