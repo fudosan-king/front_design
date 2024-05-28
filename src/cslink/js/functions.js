@@ -60,6 +60,7 @@ $(".btn_change").click(function (event) {
   });
 });
 
-$('.btn_tab').on('click', function () {
+$('.btn_tab').on('click', function (event) {
+  event.preventDefault()
   $('.box_tab_content_left').slideToggle();
 });
