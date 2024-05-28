@@ -77,8 +77,9 @@
                             <td><a href="#" class="btn btn_public">公開する</a></td>
                             <td>
                                 <ul>
+                                    <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copy link" width="24"></a></li>
                                     <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
@@ -93,8 +94,9 @@
                             <td><a href="#" class="btn btn_opennow">公開中</a></td>
                             <td>
                                 <ul>
+                                    <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copylink" width="24"></a></li>
                                     <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
@@ -109,8 +111,9 @@
                             <td><a href="#" class="btn btn_opennow">公開中</a></td>
                             <td>
                                 <ul>
+                                    <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copylink" width="24"></a></li>
                                     <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
@@ -128,8 +131,9 @@
                             <td><a href="#" class="btn btn_opennow">公開中</a></td>
                             <td>
                                 <ul>
+                                    <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                                    <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                                    <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copylink" width="24"></a></li>
                                     <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                                     <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                                 </ul>
@@ -158,8 +162,9 @@
                         <p><span>公開設定</span> <a href="#" class="btn btn_public">公開する</a></p>
                     </div>
                     <ul>
+                        <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copylink" width="24"></a></li>
                         <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>
@@ -182,8 +187,9 @@
                         <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
                     </div>
                     <ul>
+                        <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copylink" width="24"></a></li>
                         <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>
@@ -206,8 +212,9 @@
                         <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
                     </div>
                     <ul>
+                        <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copylink" width="24"></a></li>
                         <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>
@@ -230,8 +237,9 @@
                         <p><span>公開設定</span> <a href="#" class="btn btn_opennow">公開中</a></p>
                     </div>
                     <ul>
+                        <li><a href="#"><img src="assets/images/icons/copy.svg" alt="copy" width="24"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_edit.svg" alt="i_edit" width="24"></a></li>
-                        <li><a href="#"><img src="assets/images/icons/i_copy.svg" alt="i_copy" width="24"></a></li>
+                        <li><a href="#"><img src="assets/images/icons/copylink.svg" alt="copy link" width="24"></a></li>
                         <li><a href="#modal_barcodes" data-bs-toggle="modal"><img src="assets/images/icons/i_qa.svg" alt="i_qa" width="22"></a></li>
                         <li><a href="#"><img src="assets/images/icons/i_del.svg" alt="i_del" width="24"></a></li>
                     </ul>

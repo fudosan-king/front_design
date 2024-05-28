@@ -562,30 +562,31 @@
                             <thead>
                                 <tr>
                                     <th scope="col">ページタイトル</th>
-                                    <th scope="col">当月アクセス</th>
+                                    <!-- <th scope="col">当月アクセス</th> -->
                                     <th scope="col">最終更新日</th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td><a href="#">ページタイトルが入りますページタイトルが入ります</a></td>
-                                    <td>50</td>
-                                    <td>2023.11.01</td>
+                                    <td><span>2024-05-21</span> <span>18:32:16</span></td>
+                                    <td><a class="icon_copy" href="#"><img class="img-fluid" src="assets/images/icons/copy.svg" alt="icon copy" width="26"></a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#">ページタイトルが入りますページタイトルが入ります</a></td>
-                                    <td>24</td>
-                                    <td>2023.10.31</td>
+                                    <td><span>2024-05-21</span> <span>18:32:16</span></td>
+                                    <td><a class="icon_copy" href="#"><img class="img-fluid" src="assets/images/icons/copy.svg" alt="icon copy" width="26"></a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#">ページタイトルが入りますページタイトルが入ります</a></td>
-                                    <td>35</td>
-                                    <td>2023.10.12</td>
+                                    <td><span>2024-05-21</span> <span>18:32:16</span></td>
+                                    <td><a class="icon_copy" href="#"><img class="img-fluid" src="assets/images/icons/copy.svg" alt="icon copy" width="26"></a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#">ページタイトルが入りますページタイトルが入ります</a></td>
-                                    <td>10</td>
-                                    <td>2023.10.01</td>
+                                    <td><span>2024-05-21</span> <span>18:32:16</span></td>
+                                    <td><a class="icon_copy" href="#"><img class="img-fluid" src="assets/images/icons/copy.svg" alt="icon copy" width="26"></a></td>
                                 </tr>
                             </tbody>
                         </table>
