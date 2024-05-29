@@ -24,11 +24,11 @@
                         <div class="main_content template2">
 
                             <div class="main_left">
-                                <aside class="box_avatar">
+                                <div class="box_avatar">
                                     <a class="avatar" href="#"><img src="assets/images/avatar.png" alt="user"></a>
                                     <h2 class="about_me_heading">山田 一郎</h2>
                                     <p>Ichiro Yamada</p>
-                                </aside>
+                                </div>
 
                                 <a href="#" class="btn btn_inquiry btn_inquiry2">お問い合わせ</a>
                                 <a href="#" class="btn btn_showdetail">詳細を見る <img class="bounce" src="assets/images/chevrons-down.svg" alt="chevrons down"></a>
@@ -43,28 +43,55 @@
                                         <p><span>部署</span> Webプロデュース事業部</p>
                                         <p><span>役職</span> Web Director</p>
 
-                                        <div class="box_personal_data">
-                                            <div class="form_group form_group_infomation personal_data">
-                                                <span class="label_input_profile">出身校</span>
-                                                <div class="profile_content">
-                                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, velit.</p>
-                                                </div>
-                                            </div>
-                                            <div class="form_group form_group_infomation personal_data">
-                                                <span class="label_input_profile">出身校</span>
-                                                <div class="profile_content">
-                                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, velit.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                         <ul class="info">
                                             <li><img src="assets/images/phone.svg" alt="phone"> <a href="tel:0368978580">03-6897-8580</a></li>
                                             <li><img src="assets/images/smartphone.svg" alt="smartphone"> <a href="tel:08046225219">+81 080‐4622‐5219</a></li>
                                             <li><img src="assets/images/mail.svg" alt="mail"> <a href="mailto:saito-masayuki@propolife.co.jp">saito-masayuki@propolife.co.jp</a></li>
                                         </ul>
                                         <a href="#modal_inquiry" class="btn btn_inquiry" data-bs-toggle="modal">お問い合わせ</a>
-                                        <p class="about_me_desc">自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります自己紹介テキストが入ります。</p>
+
+                                        <div class="box_personal_data mb-4">
+                                            <div class="form_group form_group_infomation">
+                                                <span class="label_input_profile">出身地</span>
+                                                <div class="">
+                                                    <p class="profile_content">埼玉県</p>
+                                                </div>
+                                            </div>
+                                            <div class="form_group form_group_infomation">
+                                                <span class="label_input_profile">出身校</span>
+                                                <div class="">
+                                                    <p class="profile_content"> 早稲田大学</p>
+                                                </div>
+                                            </div>
+                                            <div class="form_group form_group_infomation">
+                                                <span class="label_input_profile">趣味</span>
+                                                <div class="">
+                                                    <p class="profile_content">家事、子育て</p>
+                                                </div>
+                                            </div>
+                                            <div class="form_group form_group_infomation personal_data">
+                                                <span class="label_input_profile">特技</span>
+                                                <div class="">
+                                                    <p class="profile_content">ToShi</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <p class="about_me_desc">埼玉生まれ埼玉育ち<br>
+                                            （志木市出身、中学は浦和、高校は本庄）<br>
+                                            休日はもうすぐ9歳になる双子男子の相手に奔走中。<br>
+                                            （片方は野球少年に育ち、片方はまさかの超インドア派…）<br>
+                                            なんと長女は21歳、イギリスはニューカッスルに留学中。<br>
+                                            （羨ましい…）<br>
+                                            将来は軽井沢でリスに囲まれて暮らす予定。<br>
+                                            <br>
+                                            ▼オフィシャルな自己紹介はこちら<br>
+                                            2006年、早稲田大学政治経済学部を卒業後、東日本電信電話株式会社（NTT東日本）に入社。在籍13年間でBtoB領域でのサービス開発・営業企画・プロモーション・ビッグデータ分析等の業務を幅広く経験。<br>
+                                            2019年7月より株式会社シーズ・リンクに入社。動画×Web×資料のデジタルコンテンツプラットフォーム「riclink」の提供を通じ、企業のあらゆる場面でのデジタル発信・DX推進を支援。2020年9月から現職に就任。
+                                        </p>
+
+
+
                                     </aside>
 
                                     <div class="modal fade modal_inquiry" id="modal_inquiry" tabindex="-1" aria-labelledby="inquiry_label" aria-hidden="true">
@@ -168,10 +195,10 @@
                                         </div>
                                     </div>
 
-                                    <aside class="box_social">
+                                    <!-- <aside class="box_social">
                                         <a href="#" class="btn_social"><img src="assets/images/X.svg" alt="twitter logo"> Twitter</a>
                                         <a href="#" class="btn_social"><img src="assets/images/instagram.svg" alt="instagram logo"> Instagram</a>
-                                    </aside>
+                                    </aside> -->
                                     <a href="#" class="btn btn_close">閉じる <img class="bounce" src="assets/images/chevrons-up.svg" alt="chevrons up"></a>
 
 
