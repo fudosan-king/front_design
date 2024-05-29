@@ -30,6 +30,22 @@
   background: #084879;
 }
 
+.main_left aside.box_info {
+  background: #fff;
+  position: relative;
+  top: 0;
+  transition: all 1s ease-in-out;
+}
+.main_left aside.box_info .about_me_desc {
+  overflow: auto;
+  height: 270px;
+}
+
+@media (max-width: 1180px) {
+  .main_left aside.box_info {
+    top: 0 !important;
+  }
+}
 @media (max-width: 896px) {
   .box_tab .box_tab_content {
     padding: 15px 15px;
