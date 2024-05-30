@@ -5,6 +5,9 @@
   border: none;
   background-color: #E5F2FD;
 }
+.box_tab .note {
+  line-height: 1em;
+}
 .box_tab form {
   flex-direction: column;
 }
@@ -13,14 +16,16 @@
   margin-right: 0;
 }
 .box_tab form .box_tab_content_left .row_custom {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .box_tab .box_button .btn {
   width: inherit;
   min-width: 217px;
+  padding: 8px;
 }
 .box_tab .box_button .btn:last-of-type {
   min-width: 444px;
+  height: auto;
   background: #0168B7;
   color: #fff;
   margin: inherit;
