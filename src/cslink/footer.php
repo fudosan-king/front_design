@@ -4,7 +4,7 @@
         <div class="container">
             <form action="">
                 <div class="box_tab_content_left">
-                    <div class="row_custom">
+                    <div class="row_custom w-50">
                         <label for="" class="col-form-label">背景色</label>
                         <input type="color" id="color" class="form-control colorpicker" name="colorPicker" title="Choose Color">
                         <a class="btn btn_change" href="#">適用</a>

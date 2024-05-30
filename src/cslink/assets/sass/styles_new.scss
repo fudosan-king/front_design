@@ -10,6 +10,10 @@
         }
     }
 
+    .note {
+        line-height: 1em;
+    }
+
     form {
         flex-direction: column;
 
@@ -18,7 +22,7 @@
             margin-right: 0;
 
             .row_custom {
-                margin-bottom: 15px;
+                margin-bottom: 10px;
             }
         }
     }
@@ -27,9 +31,11 @@
         .btn {
             width: inherit;
             min-width: 217px;
+            padding: 8px;
 
             &:last-of-type {
                 min-width: 444px;
+                height: auto;
                 background: #0168B7;
                 color: #fff;
                 margin: inherit;
