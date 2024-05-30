@@ -18,6 +18,9 @@
 .box_tab form .box_tab_content_left .row_custom {
   margin-bottom: 10px;
 }
+.box_tab form .box_tab_content_left .row_custom:first-of-type {
+  max-width: 50%;
+}
 .box_tab .box_button .btn {
   width: inherit;
   min-width: 217px;
@@ -69,6 +72,9 @@
 @media (max-width: 896px) {
   .box_tab .box_tab_content {
     padding: 15px 15px;
+  }
+  .box_tab form .box_tab_content_left .row_custom:first-of-type {
+    max-width: 100%;
   }
   .box_tab .box_button .btn {
     min-width: 30%;
