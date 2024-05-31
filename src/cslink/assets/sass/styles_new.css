@@ -43,6 +43,9 @@
   position: relative;
   top: 0;
 }
+.main_left aside.box_info.fixed {
+  top: 0 !important;
+}
 .main_left aside.box_info::before {
   content: "";
   position: absolute;
