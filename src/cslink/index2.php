@@ -34,7 +34,7 @@
                                 <a href="#" class="btn btn_showdetail">詳細を見る <img class="bounce" src="assets/images/chevrons-down.svg" alt="chevrons down"></a>
 
                                 <div id="box_detail" class="box_detail">
-                                    <aside class="box_info">
+                                    <aside class="box_info fixed">
                                         <p class="box_logo">
                                             <a class="logo" href="#"><img src="assets/images/vision_logo.png" alt="vision_logo"></a>
                                             <a target="_blank" href="https://www.vision-net.co.jp/" class="linkweb">株式会社ビジョン</a>
