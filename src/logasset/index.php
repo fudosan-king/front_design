@@ -538,8 +538,8 @@
                 </div>
                 <div class="box_groupcompany">
                     <h2>グループ会社</h2>
-                    <a target="_blank" href="images/documents/LA_Iage_.pdf"><img class="img-fluid" src="images/home/LA_Iage_1.png" title="LA_Iage_1" alt=""></a>
-                    <p class="d-block d-lg-none text-right mt-2"><a target="_blank" href="images/documents/LA_Iage_.pdf">クリックでPDFが開きます</a></p>
+                    <a target="_blank" href="images/documents/LA_Iage_2.pdf"><img class="img-fluid" src="images/documents/LA_Iage_2.jpg" title="LA_Iage_2" alt=""></a>
+                    <p class="d-block d-lg-none text-right mt-2"><a target="_blank" href="images/documents/LA_Iage_2.pdf">クリックでPDFが開きます</a></p>
                     <ul class="mb-3 mt-5">
                         <li>
                             <p>
