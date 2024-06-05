@@ -7,4 +7,24 @@
 
 .seciton_pagelist ul li {
   margin-inline-end: 10px;
+}
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 16px;
+}
+.file-input__label svg {
+  height: 16px;
+  margin-right: 4px;
 }/*# sourceMappingURL=styles_vision.css.map */
