@@ -107,7 +107,8 @@ $(".btn_collapse").click(function (event) {
 });
 
 
-$("#options01").click(function () {
+$("#options01").click(function (event) {
+  event.preventDefault()
   var newBlock = `
                 <div class="block_content">
                   <div class="standard_post_main_img">
