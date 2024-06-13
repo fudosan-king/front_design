@@ -99,3 +99,55 @@ $(window).resize(function () {
   }
 });
 
+
+$(".btn_collapse").click(function (event) {
+  event.preventDefault()
+  $('.nav_addblock').toggleClass('active', 5000);
+  $(this).toggleClass('active');
+});
+
+
+$("#options01").click(function () {
+  var newBlock = `
+                <div class="block_content">
+                  <div class="standard_post_main_img">
+                      <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
+                      <ul>
+                          <li>
+                              <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
+                              <button type="button" class="btn btnClose"></button>
+                          </li>
+                          <li>
+                              <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
+                              <button type="button" class="btn btnClose"></button>
+                          </li>
+                          <li>
+                              <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
+                              <button type="button" class="btn btnClose"></button>
+                          </li>
+                          <li>
+                              <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
+                              <button type="button" class="btn btnClose"></button>
+                          </li>
+                          <li>
+                              <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
+                              <button type="button" class="btn btnClose"></button>
+                          </li>
+                          <li>
+                              <label class="box_uploads">
+                                  <input type="file" class="upload_default">
+                                  <p class="upload_custom">
+                                      <i>
+                                          <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                      </i>
+                                      <span>ファイルを選択</span>
+                                  </p>
+                              </label>
+                          </li>
+                      </ul>
+                  </div>
+                  <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+              </div>
+            `;
+  $("#new_block").append(newBlock);
+});
