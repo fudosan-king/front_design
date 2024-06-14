@@ -109,14 +109,14 @@
                                                 <figure class="snip1467">
                                                     <img src="assets/images/options02.svg" alt="options 2" class="img-fluid">
                                                     <i class="ion-plus"></i>
-                                                    <a class="btn_addnewblock" href="#"></a>
+                                                    <a id="options02" href="#"></a>
                                                 </figure>
                                             </li>
                                             <li class="drop-zone">
                                                 <figure class="snip1467">
                                                     <img src="assets/images/options03.svg" alt="options 3" class="img-fluid">
                                                     <i class="ion-plus"></i>
-                                                    <a class="btn_addnewblock" href="#"></a>
+                                                    <a id="options03" href="#"></a>
                                                 </figure>
                                             </li>
                                         </ul>
@@ -257,7 +257,9 @@
                                             </button>
                                         </div>
 
-                                        <div id="new_block" class="draggable"></div>
+                                        <div id="new_blockcontent" class="draggable"></div>
+                                        <div id="new_blockboxreverse" class="draggable"></div>
+                                        <div id="new_boxmaterialcontent" class="draggable"></div>
 
                                     </article>
 
