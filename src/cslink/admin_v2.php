@@ -127,13 +127,12 @@
 
                                     <article class="standard_article drop-zone" data-aos="fade-up">
 
-                                        <div id="new_block" class="draggable"></div>
-
                                         <div class="block_title draggable">
                                             <h2>
                                                 <span></span>
                                                 <input type="text" class="form-control" placeholder="見出し">
                                             </h2>
+                                            <button type="button" class="btn btnClose"></button>
                                         </div>
 
                                         <div class="block_content draggable">
@@ -142,23 +141,18 @@
                                                 <ul>
                                                     <li>
                                                         <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
-                                                        <button type="button" class="btn btnClose"></button>
                                                     </li>
                                                     <li>
                                                         <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
-                                                        <button type="button" class="btn btnClose"></button>
                                                     </li>
                                                     <li>
                                                         <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
-                                                        <button type="button" class="btn btnClose"></button>
                                                     </li>
                                                     <li>
                                                         <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
-                                                        <button type="button" class="btn btnClose"></button>
                                                     </li>
                                                     <li>
                                                         <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
-                                                        <button type="button" class="btn btnClose"></button>
                                                     </li>
                                                     <li>
                                                         <label class="box_uploads">
@@ -174,6 +168,7 @@
                                                 </ul>
                                             </div>
                                             <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+                                            <button type="button" class="btn btnClose"></button>
                                         </div>
 
                                         <div class="block_box_reverse draggable">
@@ -184,7 +179,6 @@
                                                         <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
                                                         <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
                                                         <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
-                                                        <button type="button" class="btn btnClose"></button>
                                                     </div>
                                                 </div>
                                                 <button class="btn btn_addlink btn_addlink_theme" type="">
@@ -202,12 +196,14 @@
                                                     </svg>
                                                     リンクを追加する
                                                 </button>
+                                                <button type="button" class="btn btnClose"></button>
                                             </div>
                                         </div>
 
 
 
                                         <div class="box_material_content draggable">
+                                            <button type="button" class="btn btnClose"></button>
                                             <ul>
                                                 <li>
                                                     <label class="box_uploads">
@@ -259,9 +255,9 @@
                                                 </svg>
                                                 動画・資料を追加する
                                             </button>
-                                            <hr>
-                                            <button class="btn btn_addlink active" type=""><img src="assets/images/i_plus_circle_white.svg" alt="plus circle" width="20"> ブロックを追加する</button>
                                         </div>
+
+                                        <div id="new_block" class="draggable"></div>
 
                                     </article>
 

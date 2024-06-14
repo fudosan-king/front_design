@@ -100,10 +100,19 @@ $(window).resize(function () {
 });
 
 
+// $(".btn_collapse").click(function (event) {
+//   event.preventDefault()
+//   $('.nav_addblock').toggleClass('active', 5000);
+//   $(this).toggleClass('active');
+// });
+
 $(".btn_collapse").click(function (event) {
-  event.preventDefault()
-  $('.nav_addblock').toggleClass('active', 5000);
-  $(this).toggleClass('active');
+  event.preventDefault();
+  $(".nav_addblock").toggleClass("expanded");
+
+  // Thay đổi biểu tượng của button khi mở rộng hoặc thu hẹp
+  let imgSrc = $(".nav_addblock").hasClass("expanded") ? "assets/images/chevron_right.svg" : "assets/images/chevron_right.svg";
+  $(this).find("img").attr("src", imgSrc);
 });
 
 
@@ -116,23 +125,18 @@ $("#options01").click(function (event) {
                       <ul>
                           <li>
                               <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
-                              <button type="button" class="btn btnClose"></button>
                           </li>
                           <li>
                               <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
-                              <button type="button" class="btn btnClose"></button>
                           </li>
                           <li>
                               <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
-                              <button type="button" class="btn btnClose"></button>
                           </li>
                           <li>
                               <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
-                              <button type="button" class="btn btnClose"></button>
                           </li>
                           <li>
                               <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
-                              <button type="button" class="btn btnClose"></button>
                           </li>
                           <li>
                               <label class="box_uploads">
@@ -148,7 +152,39 @@ $("#options01").click(function (event) {
                       </ul>
                   </div>
                   <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+                  <button type="button" class="btn btnClose"></button>
               </div>
             `;
   $("#new_block").append(newBlock);
+
+  $('html, body').animate({
+    scrollTop: $(document).height() - $(window).height()
+  }, 1500);
+
+});
+
+
+$(".block_content .btnClose").on("click", (event) => {
+  event.preventDefault()
+  $('.block_content').hide();
+});
+
+$(".block_title .btnClose").on("click", (event) => {
+  event.preventDefault()
+  $('.block_title').hide();
+});
+
+$(".block_box_reverse .btnClose").on("click", (event) => {
+  event.preventDefault()
+  $('.block_box_reverse').hide();
+});
+
+$(".box_material_content .btnClose").on("click", (event) => {
+  event.preventDefault();
+  $(".box_material_content").hide();
+});
+
+$(".block_content .btnClose").on("click", (event) => {
+  event.preventDefault();
+  $(".block_content").hide();
 });
