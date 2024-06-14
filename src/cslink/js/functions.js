@@ -115,7 +115,34 @@ $(".btn_collapse").click(function (event) {
   $(this).find("img").attr("src", imgSrc);
 });
 
+/* Sự kiện xoá các block */
+$(".block_content .btnClose").on("click", (event) => {
+  event.preventDefault()
+  $('.block_content').hide();
+});
 
+$(".block_title .btnClose").on("click", (event) => {
+  event.preventDefault()
+  $('.block_title').hide();
+});
+
+$(".block_box_reverse .btnClose").on("click", (event) => {
+  event.preventDefault()
+  $('.block_box_reverse').hide();
+});
+
+$(".box_material_content .btnClose").on("click", (event) => {
+  event.preventDefault();
+  $(".box_material_content").hide();
+});
+
+$(".block_content .btnClose").on("click", (event) => {
+  event.preventDefault();
+  $(".block_content").hide();
+});
+
+
+//Thêm 1 option block_content
 $("#options01").click(function (event) {
   event.preventDefault()
   var newBlock = `
@@ -155,7 +182,7 @@ $("#options01").click(function (event) {
                   <button type="button" class="btn btnClose"></button>
               </div>
             `;
-  $("#new_block").append(newBlock);
+  $("#new_blockcontent").append(newBlock);
 
   $('html, body').animate({
     scrollTop: $(document).height() - $(window).height()
@@ -164,27 +191,110 @@ $("#options01").click(function (event) {
 });
 
 
-$(".block_content .btnClose").on("click", (event) => {
+//Thêm 1 option block_box_reverse
+$("#options02").click(function (event) {
   event.preventDefault()
-  $('.block_content').hide();
+  var newBlock = `
+                <div class="block_box_reverse">
+                  <div class="box_reverse">
+                      <div class="text_link">
+                          <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
+                          <div class="box_link">
+                              <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                              <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                              <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                          </div>
+                      </div>
+                      <button class="btn btn_addlink btn_addlink_theme" type="">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
+                                  <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                              </g>
+                              <defs>
+                                  <clipPath id="clip0_452_22745">
+                                      <rect width="20" height="20" fill="white"></rect>
+                                  </clipPath>
+                              </defs>
+                          </svg>
+                          リンクを追加する
+                      </button>
+                      <button type="button" class="btn btnClose"></button>
+                  </div>
+              </div>
+            `;
+  $("#new_blockboxreverse").append(newBlock);
+
+  $('html, body').animate({
+    scrollTop: $(document).height() - $(window).height()
+  }, 1500);
+
 });
 
-$(".block_title .btnClose").on("click", (event) => {
+//Thêm 1 option box_material_content
+$("#options03").click(function (event) {
   event.preventDefault()
-  $('.block_title').hide();
-});
+  var newBlock = `
+                <div class="box_material_content">
+                  <button type="button" class="btn btnClose"></button>
+                  <ul>
+                      <li>
+                          <label class="box_uploads">
+                              <input type="file" class="upload_default">
+                              <p class="upload_custom">
+                                  <i>
+                                      <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                  </i>
+                                  <span>資料</span>
+                              </p>
+                              <button type="button" class="btn btnClose"></button>
+                          </label>
+                          <p class="or">or</p>
+                          <label class="label_url" for="動画のURL">動画のURL</label>
+                          <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                          <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                      </li>
+                      <li>
+                          <label class="box_uploads">
+                              <input type="file" class="upload_default">
+                              <p class="upload_custom">
+                                  <i>
+                                      <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                  </i>
+                                  <span>資料</span>
+                              </p>
+                              <button type="button" class="btn btnClose"></button>
+                          </label>
+                          <p class="or">or</p>
+                          <label class="label_url" for="動画のURL">動画のURL</label>
+                          <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                          <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                      </li>
 
-$(".block_box_reverse .btnClose").on("click", (event) => {
-  event.preventDefault()
-  $('.block_box_reverse').hide();
-});
+                  </ul>
+                  <button class="btn btn_addlink btn_addlink_theme" type="">
+                      <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
+                              <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                              <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                              <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </g>
+                          <defs>
+                              <clipPath id="clip0_452_22745">
+                                  <rect width="20" height="20" fill="white"></rect>
+                              </clipPath>
+                          </defs>
+                      </svg>
+                      動画・資料を追加する
+                  </button>
+              </div>
+            `;
+  $("#new_boxmaterialcontent").append(newBlock);
 
-$(".box_material_content .btnClose").on("click", (event) => {
-  event.preventDefault();
-  $(".box_material_content").hide();
-});
+  $('html, body').animate({
+    scrollTop: $(document).height() - $(window).height()
+  }, 1500);
 
-$(".block_content .btnClose").on("click", (event) => {
-  event.preventDefault();
-  $(".block_content").hide();
 });

@@ -196,8 +196,20 @@
   transform: translateX(0);
 }
 
+.standard_post_main_img:hover {
+  cursor: move !important;
+  cursor: -moz-grabbing;
+}
+
 .block_content {
   margin-bottom: 30px;
+}
+
+.draggable:hover {
+  cursor: move;
+}
+.draggable:active {
+  cursor: move;
 }
 
 /* Dragged source element style */
