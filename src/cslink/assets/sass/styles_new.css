@@ -249,6 +249,17 @@
 .box_material_content ul li.list-group-item {
   padding: 20px;
   background: #F0F6FB;
+  margin-bottom: 10px;
+}
+
+.box_reverse .text_link {
+  margin-bottom: 10px;
+}
+.box_reverse .text_link.list-group-item {
+  margin-bottom: 10px;
+}
+.box_reverse .text_link:last-of-type {
+  margin-bottom: 30px;
 }
 
 .list-group {

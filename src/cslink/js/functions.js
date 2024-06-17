@@ -319,6 +319,52 @@ $("#options03").click(function (event) {
 
 });
 
+
+//Thêm 1 row text_link
+$('#btn_addlink').click(function (event) {
+  event.preventDefault()
+  // Tạo nội dung HTML cho khối text_link mới
+  let newTextLink = `
+            <div class="text_link list-group-item">
+                <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
+                <div class="box_link">
+                    <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                    <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                </div>
+                <button type="button" class="btn btnClose"></button>
+            </div>`;
+
+  // Thêm khối text_link mới vào cuối div.box_reverse
+  $('.box_reverse').append(newTextLink);
+});
+
+//Thêm 1 row video
+$('#btn_addvideo').click(function (event) {
+  event.preventDefault()
+  // Tạo nội dung HTML cho phần tử <li> mới
+  let newListItem = `
+            <li class="list-group-item">
+                <label class="box_uploads">
+                    <input type="file" class="upload_default">
+                    <p class="upload_custom">
+                        <i>
+                            <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                        </i>
+                        <span>資料</span>
+                    </p>
+                    <button type="button" class="btn btnClose"></button>
+                </label>
+                <p class="or">or</p>
+                <label class="label_url" for="動画のURL">動画のURL</label>
+                <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+            </li>`;
+
+  // Thêm phần tử <li> mới vào cuối danh sách <ul>
+  $('.box_material_content .list-group').append(newListItem);
+});
+
 var group_zone = document.getElementById('group_zone');
 
 // Example 1 - Simple list
@@ -353,6 +399,8 @@ var nestedSortables = [].slice.call(document.querySelectorAll('.nested-sortable'
 for (var i = 0; i < nestedSortables.length; i++) {
   new Sortable(nestedSortables[i], {
     group: 'nested',
+    pull: false,    // Không cho phép kéo ra ngoài nhóm
+    put: false,      // Không cho phép nhận phần tử từ nhóm khác
     animation: 150,
     fallbackOnBody: true,
     swapThreshold: 0.65

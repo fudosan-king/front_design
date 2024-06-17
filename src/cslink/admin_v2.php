@@ -185,16 +185,20 @@
 
                                             <div class="list-group-item">
                                                 <div class="block_box_reverse">
-                                                    <div class="box_reverse">
-                                                        <div class="text_link">
+                                                    <div class="box_reverse list-group nested-sortable">
+                                                        <div class="text_link list-group-item">
                                                             <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
                                                             <div class="box_link">
                                                                 <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
                                                                 <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
                                                                 <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
                                                             </div>
+                                                            <button type="button" class="btn btnClose"></button>
                                                         </div>
-                                                        <button class="btn btn_addlink btn_addlink_theme" type="">
+                                                    </div>
+
+                                                    <div class="flex-center">
+                                                        <button id="btn_addlink" class="btn btn_addlink btn_addlink_theme" type="">
                                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
                                                                     <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -209,8 +213,8 @@
                                                             </svg>
                                                             リンクを追加する
                                                         </button>
-                                                        <button type="button" class="btn btnClose"></button>
                                                     </div>
+
                                                 </div>
                                             </div>
 
@@ -253,8 +257,8 @@
                                                             <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                         </li>
                                                     </ul>
-                                                    <button class="btn btn_addlink btn_addlink_theme" type="">
-                                                        <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
+
+                                                    <button id="btn_addvideo" class="btn btn_addlink btn_addlink_theme" type="">
                                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
                                                                 <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
