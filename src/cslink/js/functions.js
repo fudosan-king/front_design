@@ -141,6 +141,26 @@ $(".block_content .btnClose").on("click", (event) => {
   $(".block_content").hide();
 });
 
+//Thêm 1 option block_title
+$("#options0").click(function (event) {
+  event.preventDefault()
+  var newBlock = `
+                <div class="block_title">
+                  <h2>
+                      <span></span>
+                      <input type="text" class="form-control" placeholder="見出し">
+                  </h2>
+                  <button type="button" class="btn btnClose"></button>
+                </div>
+              `;
+  $("#new_block_title").append(newBlock);
+
+  $('html, body').animate({
+    scrollTop: $(document).height() - $(window).height()
+  }, 1500);
+
+});
+
 
 //Thêm 1 option block_content
 $("#options01").click(function (event) {
@@ -298,3 +318,43 @@ $("#options03").click(function (event) {
   }, 1500);
 
 });
+
+var group_zone = document.getElementById('group_zone');
+
+// Example 1 - Simple list
+new Sortable(group_zone, {
+  animation: 150,
+  ghostClass: 'blue-background-class',
+  onStart: function (evt) {
+    evt.item.classList.add('highlight-background');
+  },
+  onEnd: function (evt) {
+    evt.item.classList.remove('highlight-background');
+    // Xoá lớp highlight-dropzone khỏi tất cả các phần tử
+    let items = document.querySelectorAll('.highlight-dropzone');
+    items.forEach(item => item.classList.remove('highlight-dropzone'));
+  },
+  onChoose: function (evt) {
+    evt.target.classList.add('highlight-dropzone');
+  },
+  onUnchoose: function (evt) {
+    evt.target.classList.remove('highlight-dropzone');
+  },
+  onChange: function (evt) {
+    let items = evt.from.querySelectorAll('.highlight-dropzone');
+    items.forEach(item => item.classList.remove('highlight-dropzone'));
+    evt.item.classList.add('highlight-dropzone');
+  }
+});
+
+
+var nestedSortables = [].slice.call(document.querySelectorAll('.nested-sortable'));
+// Loop through each nested sortable element
+for (var i = 0; i < nestedSortables.length; i++) {
+  new Sortable(nestedSortables[i], {
+    group: 'nested',
+    animation: 150,
+    fallbackOnBody: true,
+    swapThreshold: 0.65
+  });
+}

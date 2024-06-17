@@ -191,6 +191,9 @@
     height: 100%;
     padding: 10px;
     margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .snip1467 *,
@@ -300,6 +303,44 @@
     }
 }
 
+.box_material_content {
+    ul {
+        flex-direction: row;
+
+        li {
+            &.list-group-item {
+                padding: 20px;
+                background: #F0F6FB;
+            }
+        }
+    }
+}
+
+
+.list-group {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+
+    .list-group-item {
+        border: none;
+        padding: 0;
+        margin: 0;
+        background: transparent;
+    }
+}
+
+.highlight-background {
+    background-color: #0168B7;
+    /* Màu nền highlight */
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.highlight-dropzone {
+    background-color: #ccc;
+    /* Màu nền highlight mờ */
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
 
 
 @media (max-width: 1180px) {
@@ -355,5 +396,18 @@
 
     .box_material_content {
         text-align: center;
+    }
+
+    .nav_addblock {
+        width: 40px;
+        padding-right: 20px;
+
+        &.expanded {
+            width: 160px;
+
+            .btn_collapse {
+                right: -20px;
+            }
+        }
     }
 }
