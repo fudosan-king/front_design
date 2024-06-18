@@ -357,6 +357,27 @@
     transition: background-color 0.3s ease, border 0.3s ease;
 }
 
+.main_left {
+    position: relative;
+    width: 260px;
+
+    .box_avatar_scroll {
+        position: fixed;
+        z-index: 100;
+        background: #fff;
+        top: 0;
+        width: 220px;
+        display: none;
+        padding: 10px;
+
+        .btn-link {
+            color: #0168B7;
+        }
+    }
+}
+
+
+
 
 @media (max-width: 1180px) {
     .main_right {
@@ -366,6 +387,8 @@
     }
 
     .main_left {
+        width: 100%;
+
         aside {
             &.box_info {
                 top: 0 !important;
@@ -374,6 +397,10 @@
                     display: none;
                 }
             }
+        }
+
+        .box_avatar_scroll {
+            display: none !important;
         }
     }
 }
