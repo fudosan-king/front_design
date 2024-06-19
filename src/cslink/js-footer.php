@@ -6,3 +6,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js" integrity="sha512-/9uQgrROuVyGVQMh4f61rF2MTLjDVN+tFGn20kq66J+kTZu/q83X8oJ6i4I9MCl3psbB5ByQfIwtZcHDHc2ngQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.min.js" integrity="sha512-MFn8OyBl1+xHPFpbyXJjYrUFSPOIznR5zo8sBN6eSF35K/F/PqSo3EqFfXHqhMzhQdr8z6dMsCEyIjDjBPy+4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/functions.js"></script>
+<script src="js/functions02.js"></script>
