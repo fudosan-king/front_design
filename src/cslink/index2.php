@@ -25,14 +25,14 @@
 
                             <div class="main_left">
                                 <div class="box_avatar_scroll">
-                                    <a class="avatar" href="#"><img src="assets/images/avatar.png" alt="user"></a>
+                                    <a class="avatar" href="#"><img src="https://t3.ftcdn.net/jpg/08/03/22/22/240_F_803222298_vyfPgKdY0sN8RcgJ7X7g6ktpFBMMxvaQ.jpg" alt="user"></a>
                                     <a href="#" class="btn btn_inquiry my-3">お問い合わせ</a>
                                     <p class="mb-0"><a class="btn btn-link" href="#">スケジュール調整はこちら</a></p>
                                 </div>
 
                                 <div class="box_maininfo">
                                     <div class="box_avatar">
-                                        <a class="avatar" href="#"><img src="assets/images/avatar.png" alt="user"></a>
+                                        <a class="avatar" href="#"><img src="https://t3.ftcdn.net/jpg/08/03/22/22/240_F_803222298_vyfPgKdY0sN8RcgJ7X7g6ktpFBMMxvaQ.jpg" alt="user"></a>
                                         <h2 class="about_me_heading">山田 一郎</h2>
                                         <p>Ichiro Yamada</p>
                                     </div>

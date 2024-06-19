@@ -4,7 +4,114 @@
     &.template2 {
         min-width: 800px;
     }
+
+    &.new_templates {
+        min-width: 100%;
+
+        .standard_article {
+            padding-bottom: 50px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .box_reverse {
+                max-width: 725px;
+                margin: auto;
+
+                .standard_download {
+                    padding: 0;
+
+                    .link_description_text_editor {
+                        padding: 5px;
+                        min-width: 300px;
+                        margin-right: 20px;
+                        line-height: 1.5em;
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+
+                    ul {
+                        li {
+                            margin-bottom: 0;
+
+                            &:hover {
+                                a {
+                                    &.btn {
+                                        background: #004376;
+                                        border-color: #004376;
+                                    }
+                                }
+                            }
+
+                            a {
+                                &.btn {
+                                    background: #0168B7;
+                                    color: #fff;
+                                    height: 44px;
+
+                                    img {
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .standard_article {
+        ul {
+            &.standard_list_video {
+                justify-content: center;
+
+                li {
+                    width: calc((100% / 3) - 20px);
+                    max-width: calc((100% / 3) - 20px);
+
+                    .box_video {
+                        width: 100%;
+                        height: 250px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+.box_inquiry {
+    margin: 40px auto 0 auto;
+    text-align: center;
+
+    .btn_inquiry_xl {
+        border-radius: 4px;
+        border: 2px solid var(--primal-color, #0168B7);
+        background: var(--white, #FFF);
+        color: #0168B7;
+        font-size: 1.25em;
+        font-weight: 700;
+        padding: 10px;
+        min-width: 356px;
+        height: 55px;
+
+        &:hover {
+            color: #fff;
+            background: #0168B7;
+        }
+    }
+}
+
 
 .box_tab {
     .box_tab_content {
@@ -130,19 +237,6 @@
         margin: auto;
         background: #e5f2fe;
         width: 100%;
-
-        // &::before {
-        //     content: '';
-        //     position: absolute;
-        //     z-index: -1;
-        //     left: 0;
-        //     right: 0;
-        //     top: 0;
-        //     bottom: 0;
-        //     width: 100%;
-        //     height: 100%;
-        //     background: #e5f2fe;
-        // }
 
         &:active {
             border: none;
@@ -368,10 +462,22 @@
         top: 0;
         width: 220px;
         display: none;
-        padding: 10px;
+        padding: 10px 30px;
 
         .btn-link {
             color: #0168B7;
+        }
+
+        .avatar {
+            display: block;
+            border-radius: 100px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
 }
