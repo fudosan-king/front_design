@@ -1,4 +1,4 @@
-<div class="box_tab">
+<!-- <div class="box_tab">
     <a class="btn btn_tab" href="#"><img src="assets/images/i_chevron_down.svg" alt="chevron down" width="14"></a>
     <div class="box_tab_content" id="">
         <div class="container">
@@ -39,7 +39,7 @@
             </form>
         </div>
     </div>
-</div>
+</div> -->
 
 <footer>
     <p>株式会社ビジョン</p>
