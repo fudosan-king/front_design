@@ -132,7 +132,7 @@
                                         </button>
                                     </nav>
 
-                                    <article class="standard_article" data-aos="fade-up">
+                                    <article class="standard_article">
 
                                         <div id="group_zone_demo" class="list-group">
                                             <div class="list-group-item">
