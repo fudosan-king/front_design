@@ -134,7 +134,7 @@
 
                                     <article class="standard_article" data-aos="fade-up">
 
-                                        <div id="group_zone" class="list-group">
+                                        <div id="group_zone_demo" class="list-group">
                                             <div class="list-group-item">
                                                 <div class="block_title">
                                                     <h2>
