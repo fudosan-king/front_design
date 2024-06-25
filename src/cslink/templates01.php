@@ -96,7 +96,7 @@
                                         </script>
                                     </div>
 
-                                    <ul class="standard_list_video">
+                                    <ul class="standard_list_video standard_list_video_custom">
                                         <li>
                                             <div class="box_video border-image">
                                                 <a target="_blank" href="https://www.prostyle-residence.com/">
@@ -131,7 +131,7 @@
                                             <label class="box_uploads docs_preview">
                                                 <p class="upload_custom view_file" style="border-color: rgb(0, 154, 89);">
                                                     <a onclick="handleClick(event, this)" href="https://s3.ap-northeast-1.amazonaws.com/watashiga-stg/public/sections/docs/bueIWATdayjdlqXxAtuRortMi0hgY6ymHkdj3Ckh.xlsx" download="">
-                                                        <img class="icon-file img-fluid" src="assets/images/xls.png" alt="uploads cloud" width="42">
+                                                        <img class="icon-file img-fluid" src="http://18.179.82.28/watashiga2/images/xls.png" alt="uploads cloud" width="24">
                                                     </a>
                                                     <span class="docs_video_des">1 - Copy (4)_1718703238.xlsx</span>
                                                 </p>
@@ -141,7 +141,7 @@
                                             </p>
                                         </li>
 
-                                        <li>
+                                        <!-- <li>
                                             <label class="box_uploads docs_preview">
                                                 <p class="upload_custom view_file" style="border-color: rgb(0, 154, 89);">
                                                     <a onclick="handleClick(event, this)" href="https://s3.ap-northeast-1.amazonaws.com/watashiga-stg/public/sections/docs/5oanzthlyEX0hYTAUbmF7Xrz3xcsaVHaYDi0QVW6.pdf" download="">
@@ -152,7 +152,7 @@
                                             <p class="docs_video_des">
                                                 5
                                             </p>
-                                        </li>
+                                        </li> -->
 
                                     </ul>
 

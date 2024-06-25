@@ -91,6 +91,10 @@
 .main_right.new_templates .standard_article ul.standard_list_video {
   justify-content: center;
 }
+.main_right.new_templates .standard_article ul.standard_list_video.justify-start {
+  justify-content: flex-start;
+  /* Canh trái khi có lớp này */
+}
 .main_right.new_templates .standard_article ul.standard_list_video li {
   width: calc(33.3333333333% - 20px);
   max-width: calc(33.3333333333% - 20px);
@@ -101,6 +105,9 @@
 }
 .main_right.new_templates .standard_article ul.standard_list_video li:last-of-type {
   margin-right: 0;
+}
+.main_right.new_templates .standard_article ul.standard_list_video li:has(> li:nth-child(4)) {
+  justify-content: flex-start;
 }
 .main_right.new_templates .standard_article ul.standard_list_video li .box_video {
   width: 100%;

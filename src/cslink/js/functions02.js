@@ -1,3 +1,4 @@
+
 // Cuộn xuống xuất hiện box info user
 var $boxAvatarScroll = $('.box_avatar_scroll');
 var $boxMaininfo = $('.box_maininfo');
