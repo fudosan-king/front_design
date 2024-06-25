@@ -7,3 +7,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.min.js" integrity="sha512-MFn8OyBl1+xHPFpbyXJjYrUFSPOIznR5zo8sBN6eSF35K/F/PqSo3EqFfXHqhMzhQdr8z6dMsCEyIjDjBPy+4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/functions.js"></script>
 <script src="js/functions02.js"></script>
+<script src="js/scripts.js"></script>

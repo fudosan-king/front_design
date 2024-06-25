@@ -116,6 +116,11 @@
                 &.standard_list_video {
                     justify-content: center;
 
+                    &.justify-start {
+                        justify-content: flex-start;
+                        /* Canh trái khi có lớp này */
+                    }
+
                     li {
                         width: calc((100% / 3) - 20px);
                         max-width: calc((100% / 3) - 20px);
@@ -127,6 +132,10 @@
 
                         &:last-of-type {
                             margin-right: 0;
+                        }
+
+                        &:has(> li:nth-child(4)) {
+                            justify-content: flex-start;
                         }
 
                         .box_video {

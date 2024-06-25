@@ -64,17 +64,3 @@ $('.btn_tab').on('click', function (event) {
   event.preventDefault()
   $('.box_tab_content_left').slideToggle();
 });
-
-// Cuộn xuống xuất hiện box info user
-var $boxAvatarScroll = $('.box_avatar_scroll');
-var $boxMaininfo = $('.box_maininfo');
-
-$(window).on('scroll', function () {
-  if ($(window).scrollTop() > 1000) { // Điều kiện khi cuộn xuống 100px
-    $boxAvatarScroll.fadeIn();
-    $boxMaininfo.fadeOut(); // Ẩn nội dung của box_maininfo
-  } else {
-    $boxAvatarScroll.fadeOut();
-    $boxMaininfo.fadeIn(); // Hiển thị lại nội dung của box_maininfo
-  }
-});
