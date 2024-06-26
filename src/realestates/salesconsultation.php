@@ -9,7 +9,7 @@
     <div id="page">
         <?php include 'header.php'; ?>
 
-        <div class="assessment_page">
+        <div class="salesconsultation_page">
 
             <section class="section_subbanner">
                 <div class="container">
@@ -22,7 +22,7 @@
                 </div>
             </section>
 
-            <section class="section_request">
+            <section class="section_salesconsultation">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12">
@@ -116,11 +116,11 @@
                                                         <div class="col-12 col-lg-3">
                                                             <div class="form-check form-check-inline mt-2">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                                                <label class="form-check-label" for="inlineRadio1">㎡</label>
+                                                                <label class="form-check-label ms-2" for="inlineRadio1"> ㎡</label>
                                                             </div>
                                                             <div class="form-check form-check-inline mt-2">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                                                <label class="form-check-label" for="inlineRadio2">坪</label>
+                                                                <label class="form-check-label ms-2" for="inlineRadio2"> 坪</label>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -360,7 +360,7 @@
     </div>
 
 
-    <?php require 'footer_subpage.php'; ?>
+    <?php require 'footer.php'; ?>
     <?php require 'js-footer.php'; ?>
 </body>
 
