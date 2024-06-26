@@ -1312,6 +1312,12 @@ footer .footer_content ul li a {
   .section_salesconsultation .request_content .block_content label {
     padding-bottom: 0;
   }
+  .section_salesconsultation .request_content .block_content label .label_name {
+    left: -10px;
+  }
+  .section_salesconsultation .request_content .block_content label.require_cus {
+    justify-content: flex-start;
+  }
   .section_salesconsultation .request_content .block_content .box_text_sm {
     font-size: 0.8571em;
     margin-bottom: 0;
@@ -1324,9 +1330,6 @@ footer .footer_content ul li a {
 @media (max-width: 414px) {
   .section_abundant .img_abundant {
     right: -15px;
-  }
-  .section_purchaseresults ul li:nth-of-type(2n) {
-    margin-right: 0;
   }
   .section_benefitspurchasing ul li {
     width: 100%;
