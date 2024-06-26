@@ -12,37 +12,39 @@ jQuery(document).ready(function ($) {
 
 
 $(function ($) {
-  AOS.init();
-
-  $(document).ready(function () {
-    return $(window).scroll(function () {
-      return $(window).scrollTop() > 200 ? $("#back-to-top").addClass("show") : $("#back-to-top").removeClass("show")
-    }), $("#back-to-top").click(function () {
-      return $("html,body").animate({
-        scrollTop: "0"
-      })
-    })
-  })
+  AOS.init({
+    disable: function () {
+      var maxWidth = 800;
+      return window.innerWidth < maxWidth;
+    }
+  });
 });
 
-$(".btn_showdetail").on("click", function () {
-  $(this).toggle('fast');
-  $('.box_detail').show();
-  $('.btn_close').show();
-  $('.btn_inquiry.btn_inquiry2').hide();
-});
-
-$(".btn_close").on("click", function (event) {
-  event.preventDefault();
-  $('.w_salesconsultation').toggle('fast');
-});
-
-$(window).on('scroll', function () {
-  if ($(window).scrollTop()) {
-    $('header').addClass('bgwhite');
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 200) {
+    $("#back-to-top").addClass("show");
+  } else {
+    $("#back-to-top").removeClass("show");
   }
-  else {
-    $('header').removeClass('bgwhite');
-  }
-})
+});
 
+$("#back-to-top").click(function () {
+  $("html, body").animate({ scrollTop: 0 }, 600);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  let lastScrollTop = 0;
+  const header = document.querySelector('header');
+
+  window.addEventListener('scroll', () => {
+    const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScrollTop > lastScrollTop) {
+      // Cuộn xuống
+      header.classList.add('header-hidden');
+    } else {
+      // Cuộn lên
+      header.classList.remove('header-hidden');
+    }
+    lastScrollTop = currentScrollTop;
+  });
+});
