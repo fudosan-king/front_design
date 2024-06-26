@@ -1571,6 +1571,14 @@ footer {
       .block_content {
         label {
           padding-bottom: 0;
+
+          .label_name {
+            left: -10px;
+          }
+
+          &.require_cus {
+            justify-content: flex-start;
+          }
         }
 
         .box_text_sm {
@@ -1593,16 +1601,6 @@ footer {
   .section_abundant {
     .img_abundant {
       right: -15px;
-    }
-  }
-
-  .section_purchaseresults {
-    ul {
-      li {
-        &:nth-of-type(2n) {
-          margin-right: 0;
-        }
-      }
     }
   }
 
