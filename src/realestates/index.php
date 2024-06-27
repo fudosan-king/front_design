@@ -41,14 +41,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-7 order-2 order-lg-1">
-                        <h2 data-aos="fade-up" data-aos-duration="1000">高級ヴィンテージ<br>
-                            マンション専門だから<br>
-                            価値がわかる</h2>
-                        <h3 data-aos="fade-up" data-aos-duration="2000">東京都心を中心に<br>
-                            1700件※超の豊富な買取実績</h3>
-                        <p data-aos="fade-up" data-aos-duration="3000">1700件を超える買取実績と都心の高級ヴィンテージマンション専門ならではの経験と独自のノウハウを活かして高額な買取金額をご提案。築年数、内装状況問わず買い取ります。
-                            あなたの大切なお住まいをお任せください。</p>
-                        <p><small>※買取サービスを実施するグループ企業の不動産分譲会社の実績です。</small></p>
+                        <div class="abundant_text">
+                            <h2 data-aos="fade-up" data-aos-duration="1000">高級ヴィンテージ<br>
+                                マンション専門だから<br>
+                                価値がわかる</h2>
+                            <h3 data-aos="fade-up" data-aos-duration="2000">東京都心を中心に<br>
+                                1700件※超の豊富な買取実績</h3>
+                            <p data-aos="fade-up" data-aos-duration="3000">1700件を超える買取実績と都心の高級ヴィンテージマンション専門ならではの経験と独自のノウハウを活かして高額な買取金額をご提案。築年数、内装状況問わず買い取ります。<br>
+                                あなたの大切なお住まいをお任せください。</p>
+                            <p><small>※買取サービスを実施するグループ企業の不動産分譲会社の実績です。</small></p>
+                        </div>
                     </div>
                     <div class="col-12 col-lg-5 order-1 order-lg-2">
                         <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="img-fluid img_abundant" src="assets/images/img_abundant.png" alt="abundant">
@@ -120,8 +122,10 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 content_area" data-aos="fade-up" data-aos-duration="3000">
-                            <h2>買取なら手数料無料 <span>0</span>円</h2>
-                            <p>仲介業者が取引に入ると、成約価格の約3％（税別）が必要となりますが、直接買取の際は、手数料が不要となります。</p>
+                            <div class="content_area_text">
+                                <h2>買取なら手数料無料 <span>0</span>円</h2>
+                                <p>仲介業者が取引に入ると、成約価格の約3％（税別）が必要となりますが、直接買取の際は、手数料が不要となります。</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -131,15 +135,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-6 content_area order-2 order-lg-1" data-aos="fade-up" data-aos-duration="3000">
-                            <h2>残置物もそのまま<br>
-                                面倒な片付けや掃除も不要</h2>
-                            <p>「長い間、空き家で家財道具もそのままで…」<br>
-                                「ペットを飼っていて壁紙や内装がぼろぼろで…」<br>
-                                「水回りがカビだら…」「マンションが古すぎて…」など。<br>
-                                クリーニング・リフォームは必要ありませんのでご安心ください。お部屋の状態も残置物もそのまま買い取ります。</p>
+                            <div class="content_area_text">
+                                <h2>残置物もそのまま<br>
+                                    面倒な片付けや掃除も不要</h2>
+                                <p>「長い間、空き家で家財道具もそのままで…」<br>
+                                    「ペットを飼っていて壁紙や内装がぼろぼろで…」<br>
+                                    「水回りがカビだら…」「マンションが古すぎて…」など。<br>
+                                    クリーニング・リフォームは必要ありませんのでご安心ください。お部屋の状態も残置物もそのまま買い取ります。</p>
+                            </div>
                         </div>
                         <div class="col-12 col-lg-6 order-1 order-lg-2">
-                            <img src="assets/images/business02.png" alt="business" class="img-fluid" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <div class="content_area_img">
+                                <img src="assets/images/business02.png" alt="business" class="img-fluid" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -310,7 +318,8 @@
                                     <h3><span>Step.2</span></h3>
                                     <p><img class="img-fluid" src="assets/images/i_handshake.svg" alt="icon handshake" width="60"></p>
                                     <h4>売買契約締結</h4>
-                                    <p>買取金額に合意したら契約</p>
+                                    <p>査定は無料 お気軽に<br>
+                                        ご雑談ください</p>
                                 </a>
                             </li>
                             <li>
@@ -318,7 +327,8 @@
                                     <h3><span>Step.3</span></h3>
                                     <p><img class="img-fluid" src="assets/images/i_money.svg" alt="icon money" width="58"></p>
                                     <h4>引き渡し•決済</h4>
-                                    <p>代金の受領、 マンションの引き渡し</p>
+                                    <p>代金の受領、 マンションの<br>
+                                        引き渡し</p>
                                 </a>
                             </li>
 

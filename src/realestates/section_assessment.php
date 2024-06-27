@@ -22,19 +22,13 @@
                                 <span>STEP2</span>
                                 物件住所を入力
                             </div>
-                            <div class="row g-3">
-                                <div class="col-4 col-lg-4">
-                                    <input type="text" class="form-control" id="" placeholder="郵便番号を入力">
-                                </div>
-                                <div class="col-4 col-lg-4">
-                                    <select id="" class="form-select">
-                                        <option selected>都道府県を選択</option>
-                                        <option>...</option>
-                                    </select>
-                                </div>
-                                <div class="col-4 col-lg-4">
-                                    <input type="text" class="form-control" id="" placeholder="市区町村を入力">
-                                </div>
+                            <div class="box_field">
+                                <input type="text" class="form-control" id="" placeholder="郵便番号を入力">
+                                <select id="" class="form-select">
+                                    <option selected>都道府県を選択</option>
+                                    <option>...</option>
+                                </select>
+                                <input type="text" class="form-control" id="" placeholder="市区町村を入力">
                             </div>
                         </li>
                     </ul>

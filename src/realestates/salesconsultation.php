@@ -341,7 +341,7 @@
                                                 ご確認の上、ご同意いただける方は下の「同意する」をチェックしてください。</p>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                                <label class="form-check-label" for="flexCheckChecked">個人情報の取扱いについてに同意する</label>
+                                                <label class="form-check-label fw-normal" for="flexCheckChecked">個人情報の取扱いについてに同意する</label>
                                             </div>
                                             <button type="submit" class="btn btn_checkentries">入力内容を確認する</button>
                                         </div>

@@ -456,9 +456,21 @@ header h1 a:hover {
 .section_assessment .btn_request:hover {
   transform: translateY(-5px);
 }
+.section_assessment .box_field {
+  display: flex;
+}
+.section_assessment .box_field .form-control {
+  margin-right: 20px;
+}
+.section_assessment .box_field .form-control:last-of-type {
+  margin-right: 0;
+}
+.section_assessment .box_field .form-select {
+  margin-right: 20px;
+}
 
 .section_abundant {
-  padding: 80px 0 50px;
+  padding: 80px 0 80px;
   position: relative;
   overflow: hidden;
 }
@@ -473,6 +485,9 @@ header h1 a:hover {
   width: 50%;
   height: 100%;
 }
+.section_abundant .abundant_text {
+  max-width: 534px;
+}
 .section_abundant .img_abundant {
   position: absolute;
   top: 0;
@@ -483,6 +498,7 @@ header h1 a:hover {
   color: #4B1E78;
   line-height: 120%;
   position: relative;
+  font-weight: 700;
 }
 .section_abundant h2::before {
   content: "";
@@ -495,13 +511,15 @@ header h1 a:hover {
 }
 .section_abundant h3 {
   margin-top: 30px;
+  margin-bottom: 20px;
   background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.5em;
   line-height: 160%;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
 }
 .section_abundant p {
   font-size: 1.125em;
@@ -510,6 +528,10 @@ header h1 a:hover {
   font-size: 0.7778em;
 }
 
+.section_purchaseresults {
+  padding-top: 50px;
+  overflow: hidden;
+}
 .section_purchaseresults ul {
   list-style-type: none;
   padding: 0;
@@ -572,9 +594,10 @@ header h1 a:hover {
   border-radius: 0px 20px 20px 0px;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin-left: -30%;
+  margin-left: -50%;
   position: relative;
-  overflow: hidden;
+  max-width: 854px;
+  max-height: 510px;
 }
 .section_purchaseresults .sub_section .main_img::before {
   content: "";
@@ -590,13 +613,17 @@ header h1 a:hover {
 .section_purchaseresults .sub_section .main_img img {
   width: 100%;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .section_purchaseresults .sub_section .content_area {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-left: 120px;
   flex-direction: column;
+}
+.section_purchaseresults .sub_section .content_area .content_area_text {
+  max-width: 500px;
 }
 .section_purchaseresults .sub_section .content_area h2 {
   background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
@@ -606,6 +633,7 @@ header h1 a:hover {
   font-size: 2.5em;
   letter-spacing: 1.2px;
   line-height: normal;
+  font-weight: 700;
 }
 .section_purchaseresults .sub_section .content_area h2 span {
   font-size: 3.2em;
@@ -617,6 +645,14 @@ header h1 a:hover {
 }
 .section_purchaseresults .sub_section .content_area p:last-of-type {
   margin-bottom: 0;
+}
+.section_purchaseresults .sub_section .content_area_img {
+  position: relative;
+}
+.section_purchaseresults .sub_section .content_area_img img {
+  position: relative;
+  left: -60px;
+  max-width: 700px;
 }
 
 .section_contact {
@@ -755,6 +791,7 @@ header h1 a:hover {
   font-size: 1.25em;
   margin-bottom: 10px;
   text-align: center;
+  font-weight: 700;
 }
 .section_benefitspurchasing ul li h3 span {
   font-size: 0.7em;
@@ -795,6 +832,7 @@ header h1 a:hover {
   padding: 50px 20px 20px 20px;
   position: relative;
   transition: transform 0.3s ease;
+  text-align: center;
 }
 .section_condominiumpurchase ul li:hover {
   transform: translateY(-10px);
@@ -814,6 +852,7 @@ header h1 a:hover {
   line-height: normal;
   font-size: 1.25em;
   color: #fff;
+  font-weight: 700;
 }
 .section_condominiumpurchase ul li h3 span {
   display: inline-flex;
@@ -826,6 +865,7 @@ header h1 a:hover {
 }
 .section_condominiumpurchase ul li h4 {
   font-size: 1.5em;
+  font-weight: 700;
   line-height: normal;
   letter-spacing: 2.4px;
   background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
@@ -1077,6 +1117,14 @@ footer .footer_content ul li a {
   transition: transform 0.3s ease;
 }
 
+@media (max-width: 1200px) {
+  .section_salesconsultation .request_content .block_content label.require_cus span {
+    margin-left: 10px;
+  }
+  .section_salesconsultation .request_content .block_content .block_content_highline .form-check-inline {
+    margin-right: 5px;
+  }
+}
 @media (max-width: 896px) {
   .title {
     font-size: 1.5em;
@@ -1245,6 +1293,10 @@ footer .footer_content ul li a {
   }
   .section_purchaseresults .sub_section .content_area h2 span {
     font-size: 2.6667em;
+  }
+  .section_purchaseresults .sub_section .content_area_img img {
+    left: 0;
+    max-width: 100%;
   }
   .section_contact .section_contact_content {
     margin-left: -20px;
