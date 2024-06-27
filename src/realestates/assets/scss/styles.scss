@@ -508,10 +508,26 @@ header {
       transform: translateY(-5px);
     }
   }
+
+  .box_field {
+    display: flex;
+
+    .form-control {
+      margin-right: 20px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    .form-select {
+      margin-right: 20px;
+    }
+  }
 }
 
 .section_abundant {
-  padding: 80px 0 50px;
+  padding: 80px 0 80px;
   position: relative;
   overflow: hidden;
 
@@ -527,6 +543,10 @@ header {
     height: 100%;
   }
 
+  .abundant_text {
+    max-width: 534px;
+  }
+
   .img_abundant {
     position: absolute;
     top: 0;
@@ -538,6 +558,7 @@ header {
     color: #4B1E78;
     line-height: 120%;
     position: relative;
+    font-weight: 700;
 
     &::before {
       content: '';
@@ -552,13 +573,15 @@ header {
 
   h3 {
     margin-top: 30px;
+    margin-bottom: 20px;
     background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.5em;
     line-height: 160%;
-    letter-spacing: 1.2px;
+    letter-spacing: .5px;
+    font-weight: 700;
   }
 
   p {
@@ -571,6 +594,9 @@ header {
 }
 
 .section_purchaseresults {
+  padding-top: 50px;
+  overflow: hidden;
+
   ul {
     list-style-type: none;
     padding: 0;
@@ -648,9 +674,11 @@ header {
       border-radius: 0px 20px 20px 0px;
       box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
       overflow: hidden;
-      margin-left: -30%;
+      margin-left: -50%;
       position: relative;
-      overflow: hidden;
+      max-width: 854px;
+      max-height: 510px;
+
 
       &::before {
         content: '';
@@ -667,6 +695,7 @@ header {
       img {
         width: 100%;
         height: auto;
+        object-fit: cover;
       }
     }
 
@@ -674,8 +703,11 @@ header {
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      padding-left: 120px;
       flex-direction: column;
+
+      .content_area_text {
+        max-width: 500px;
+      }
 
       h2 {
         background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
@@ -685,6 +717,7 @@ header {
         font-size: 2.5em;
         letter-spacing: 1.2px;
         line-height: normal;
+        font-weight: 700;
 
         span {
           font-size: 3.2em;
@@ -701,6 +734,17 @@ header {
         }
       }
     }
+
+    .content_area_img {
+      position: relative;
+
+      img {
+        position: relative;
+        left: -60px;
+        max-width: 700px;
+      }
+    }
+
   }
 }
 
@@ -861,6 +905,7 @@ header {
         font-size: 1.25em;
         margin-bottom: 10px;
         text-align: center;
+        font-weight: 700;
 
         span {
           font-size: 0.7em;
@@ -908,6 +953,7 @@ header {
       padding: 50px 20px 20px 20px;
       position: relative;
       transition: transform 0.3s ease;
+      text-align: center;
 
       &:hover {
         transform: translateY(-10px);
@@ -929,6 +975,7 @@ header {
         line-height: normal;
         font-size: 1.25em;
         color: #fff;
+        font-weight: 700;
 
         span {
           display: inline-flex;
@@ -943,6 +990,7 @@ header {
 
       h4 {
         font-size: 1.5em;
+        font-weight: 700;
         line-height: normal;
         letter-spacing: 2.4px;
         background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
@@ -1250,7 +1298,27 @@ footer {
 }
 
 
+@media (max-width: 1200px) {
+  .section_salesconsultation {
+    .request_content {
+      .block_content {
+        label {
+          &.require_cus {
+            span {
+              margin-left: 10px;
+            }
+          }
+        }
 
+        .block_content_highline {
+          .form-check-inline {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 896px) {
   .title {
@@ -1470,6 +1538,13 @@ footer {
           span {
             font-size: 2.6667em;
           }
+        }
+      }
+
+      .content_area_img {
+        img {
+          left: 0;
+          max-width: 100%;
         }
       }
     }
