@@ -114,13 +114,15 @@
                                                             <input class="form-control" type="text" name="" value="" placeholder="おおよその面積で結構です">
                                                         </div>
                                                         <div class="col-12 col-lg-3">
-                                                            <div class="form-check form-check-inline mt-2">
-                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                                                <label class="form-check-label ms-2" for="inlineRadio1"> ㎡</label>
-                                                            </div>
-                                                            <div class="form-check form-check-inline mt-2">
-                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                                                <label class="form-check-label ms-2" for="inlineRadio2"> 坪</label>
+                                                            <div class="box_radiocus">
+                                                                <div class="form-check form-check-inline mt-2">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                    <label class="form-check-label ms-2" for="inlineRadio1"> ㎡</label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline mt-2">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                    <label class="form-check-label ms-2" for="inlineRadio2"> 坪</label>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>

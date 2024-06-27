@@ -1201,6 +1201,19 @@ footer {
       .block_content_highline {
         padding: 20px;
         background: var(--Gray-6, #F2F2F2);
+
+        .box_radiocus {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .form-check-inline {
+            &:last-of-type {
+              margin-right: 0;
+            }
+          }
+        }
       }
 
       hr {
