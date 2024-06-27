@@ -470,7 +470,7 @@ header h1 a:hover {
 }
 
 .section_abundant {
-  padding: 80px 0 80px;
+  padding: 80px 0 250px;
   position: relative;
   overflow: hidden;
 }
@@ -1117,6 +1117,16 @@ footer .footer_content ul li a {
   transition: transform 0.3s ease;
 }
 
+@media (max-width: 1600px) {
+  .section_abundant {
+    padding-bottom: 180px;
+  }
+}
+@media (max-width: 1500px) {
+  .section_abundant {
+    padding-bottom: 80px;
+  }
+}
 @media (max-width: 1200px) {
   .section_salesconsultation .request_content .block_content label.require_cus span {
     margin-left: 10px;
