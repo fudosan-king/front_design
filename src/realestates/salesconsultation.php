@@ -158,7 +158,7 @@
                                                     </div>
                                                     <div class="col-9 col-lg-10">
                                                         <div class="w_addresssearch">
-                                                            <input class="form-control" type="text" name="" value="" placeholder="1234567">
+                                                            <input class="form-control" type="text" name="post" value="" placeholder="1234567" onkeyup="AjaxZip3.zip2addr(this,'','pref','city', 'aza');">
                                                             <a href="#" class="btn btn_addresssearch"><i></i> 住所検索</a>
                                                         </div>
                                                     </div>
@@ -169,7 +169,7 @@
                                                         <label class="text-lg-end d-block" for="">都道府県</label>
                                                     </div>
                                                     <div class="col-9 col-lg-10">
-                                                        <select class="form-select">
+                                                        <select name="pref" class="form-select">
                                                             <option value="都道府県を選択してください">都道府県を選択してください</option>
                                                             <option value="北海道">北海道</option>
                                                             <option value="...">...</option>
@@ -182,7 +182,7 @@
                                                         <label class="text-lg-end d-block" for="">市区町村</label>
                                                     </div>
                                                     <div class="col-9 col-lg-10">
-                                                        <input class="form-control" type="text" name="" value="">
+                                                        <input class="form-control" type="text" name="city" value="">
                                                     </div>
                                                 </div>
 
@@ -191,7 +191,7 @@
                                                         <label class="text-lg-end d-block" for="">丁目番地</label>
                                                     </div>
                                                     <div class="col-9 col-lg-10">
-                                                        <input class="form-control" type="text" name="" value="">
+                                                        <input class="form-control" type="text" name="aza" value="">
                                                     </div>
                                                 </div>
 
