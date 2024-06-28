@@ -25,3 +25,24 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="assets/scss/styles.css" type="text/css">
 <link rel="stylesheet" href="assets/css/be_styles.css" type="text/css">
+
+<style>
+.form-select, .form-control {
+    color: #000
+}
+
+.invalid-tooltip {
+    font-size: 0.65rem;
+    padding: 0 0.5rem;
+    line-height: 2.2em;
+}
+
+.frm_contact .confirmForm {display: none;}
+
+.box_privacypolicy .form-check .invalid-tooltip { top: 0; }
+.cfrm_satei_type {margin-top: 23px;}
+
+.section_purchaseresults {
+    padding-top: 60px;
+}
+</style>

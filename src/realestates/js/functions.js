@@ -48,3 +48,48 @@ document.addEventListener('DOMContentLoaded', () => {
     lastScrollTop = currentScrollTop;
   });
 });
+
+/* */
+/* K-Processing script */
+/* */
+let radGroups = document.querySelectorAll('[data-group]')
+
+radGroups.forEach( (g, order) => {
+  g.querySelectorAll('[name="assessment"]').forEach( (p, index) => {
+    p.addEventListener('change', () => {
+
+      let selectedValue = g.querySelector('[name="assessment"]:checked').value
+
+      radGroups.forEach( ge => { ge.querySelector('[name="assessment"][value="' + selectedValue + '"]').checked = true } );
+      
+    });
+  });
+});
+
+const elems = ['pref', 'city', 'aza', 'post']
+
+elems.forEach(e => {
+  let eName = '[name="' + e + '"]'
+
+  document.querySelectorAll(eName).forEach( (p, index) => {
+    p.addEventListener('keyup', () => {
+      document.querySelectorAll(eName).forEach( e => { e.value = p.value } );
+
+      if(e == 'post'){
+        AjaxZip3.zip2addr(p, '', 'pref', 'city', 'aza');
+      }
+
+    });
+    p.addEventListener('change', () => {
+      document.querySelectorAll(eName).forEach( e => { e.value = p.value } );
+
+      if(e == 'post'){
+        document.querySelectorAll('[name="pref"]')[index].dispatchEvent(new Event('change'))
+        document.querySelectorAll('[name="city"]')[index].dispatchEvent(new Event('change'))
+        document.querySelectorAll('[name="aza"]')[index].dispatchEvent(new Event('change'))
+      }
+    });
+  });
+  
+})
+
