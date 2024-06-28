@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <?php include 'section_assessment.php'; ?>
+        <?php $incNumber = 1; include 'section_assessment.php'; ?>
 
         <section class="section_abundant">
             <div class="container">
@@ -173,7 +173,7 @@
             </div>
         </section>
 
-        <?php include 'section_assessment.php'; ?>
+        <?php $incNumber = 2; include 'section_assessment.php'; ?>
 
         <section class="section_customersvoice">
             <div class="container">
@@ -338,7 +338,7 @@
             </div>
         </section>
 
-        <?php include 'section_assessment.php'; ?>
+        <?php $incNumber = 3; include 'section_assessment.php'; ?>
 
 
     </div>
