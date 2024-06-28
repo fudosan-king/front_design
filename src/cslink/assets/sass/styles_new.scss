@@ -22,7 +22,7 @@
                 .standard_download {
                     padding: 0;
 
-                    .link_description_text_editor {
+                    .link_description_text_editor2 {
                         padding: 5px;
                         min-width: 300px;
                         margin-right: 20px;
@@ -42,6 +42,7 @@
                                     background: #0168B7;
                                     color: #fff;
                                     height: 44px;
+                                    min-width: 260px;
                                     position: relative;
                                     overflow: hidden;
                                     transition: color 0.4s;
@@ -75,6 +76,10 @@
                                         position: relative;
                                         z-index: 2;
                                     }
+
+                                    &.btn_long {
+                                        min-width: 342px;
+                                    }
                                 }
                             }
                         }
@@ -91,6 +96,7 @@
                                 max-width: calc((100% / 2) - 20px);
                                 margin-bottom: 30px;
                                 margin-right: 20px;
+                                justify-content: center;
 
                                 &:nth-of-type(2n) {
                                     margin-right: 0;
@@ -103,7 +109,10 @@
                                 a {
                                     display: flex;
                                     max-width: 100%;
-                                    width: 100%;
+
+                                    &.btn_long {
+                                        width: 100%;
+                                    }
                                 }
                             }
                         }
@@ -680,8 +689,13 @@
             .standard_article {
                 .box_reverse {
                     .standard_download {
-                        .link_description_text_editor {
+                        .link_description_text_editor2 {
                             text-align: center;
+                            margin-right: 0;
+
+                            p {
+                                margin-bottom: 5px !important;
+                            }
                         }
 
                         ul {
@@ -693,8 +707,16 @@
 
                                     a {
                                         min-width: 100%;
+
+                                        &.btn {
+                                            min-width: 100%;
+                                        }
                                     }
                                 }
+                            }
+
+                            li {
+                                margin-bottom: 15px;
                             }
                         }
                     }
@@ -722,6 +744,12 @@
                     }
                 }
             }
+        }
+    }
+
+    .article_footer {
+        .btn_inquiry_xl {
+            min-width: 100%;
         }
     }
 }
