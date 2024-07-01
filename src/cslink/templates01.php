@@ -414,6 +414,13 @@
                                                         </span>
                                                     </a>
                                                 </li>
+                                                <li>
+                                                    <a class="btn" target="__blank" href="https://www.google.com/">
+                                                        <span>
+                                                            <img class="img-fluid" src="assets/images/external-link.svg" alt="external-link.svg"> ○○○○○○
+                                                        </span>
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
