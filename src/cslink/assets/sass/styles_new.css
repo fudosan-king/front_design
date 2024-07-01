@@ -76,15 +76,13 @@
 .main_right.new_templates .standard_article .box_reverse .standard_download ul.two_col {
   margin: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 .main_right.new_templates .standard_article .box_reverse .standard_download ul.two_col li {
-  width: calc(50% - 20px);
-  max-width: calc(50% - 20px);
   margin-bottom: 30px;
-  margin-right: 20px;
   justify-content: center;
 }
 .main_right.new_templates .standard_article .box_reverse .standard_download ul.two_col li:nth-of-type(2n) {
@@ -556,15 +554,16 @@
     margin-bottom: 5px !important;
   }
   .main_right.new_templates .standard_article .box_reverse .standard_download ul.two_col li {
-    width: calc(50% - 10px);
-    max-width: calc(50% - 10px);
-    margin-right: 10px;
+    width: 100%;
   }
   .main_right.new_templates .standard_article .box_reverse .standard_download ul.two_col li a {
-    min-width: 100%;
+    min-width: 80%;
   }
   .main_right.new_templates .standard_article .box_reverse .standard_download ul.two_col li a.btn {
-    min-width: 100%;
+    max-width: 80%;
+  }
+  .main_right.new_templates .standard_article .box_reverse .standard_download ul.two_col li a.btn_long {
+    max-width: 100%;
   }
   .main_right.new_templates .standard_article .box_reverse .standard_download ul li {
     margin-bottom: 15px;
