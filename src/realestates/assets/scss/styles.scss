@@ -865,12 +865,9 @@ header {
     li {
       width: calc((100% / 3) - 20px);
       max-width: calc((100% / 3) - 20px);
-      margin-right: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
       margin-bottom: 50px;
-
-      &:nth-of-type(3n) {
-        margin-right: 0;
-      }
 
       figure {
         height: 200px;
@@ -1581,11 +1578,13 @@ footer {
 
       img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
 
       h2 {
         font-size: 1.25em;
-        max-width: 155px;
+        max-width: 200px;
         letter-spacing: 2px;
       }
     }
@@ -1697,6 +1696,17 @@ footer {
       }
     }
   }
+
+  .section_benefitspurchasing {
+    ul {
+      li {
+        width: calc((95% / 2) - 10px);
+        max-width: calc((95% / 2) - 10px);
+        margin-bottom: 25px;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 430px) {
@@ -1711,8 +1721,8 @@ footer {
       li {
         width: 100%;
         max-width: 100%;
+        margin-left: 0;
         margin-right: 0;
-        margin-bottom: 25px;
       }
     }
   }
