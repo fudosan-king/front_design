@@ -87,7 +87,7 @@
                                             <div class="button_size">
                                                 <span>ボタンサイズ</span>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                                                     <label class="form-check-label" for="flexRadioDefault1">普通　◯大</label>
                                                 </div>
                                             </div>
