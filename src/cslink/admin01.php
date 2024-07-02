@@ -33,7 +33,7 @@
                                             <input type="text" class="form-control" placeholder="見出し">
                                         </h2>
 
-                                        <div class="standard_post_main_img">
+                                        <div class="standard_post_main_img new">
                                             <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
                                             <ul>
                                                 <li>
@@ -88,7 +88,11 @@
                                                 <span>ボタンサイズ</span>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault1">普通　◯大</label>
+                                                    <label class="form-check-label" for="flexRadioDefault1">普通</label>
+                                                </div>
+                                                <div class="form-check ms-2">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault2">大</label>
                                                 </div>
                                             </div>
 
@@ -122,8 +126,12 @@
                                             <div class="button_size">
                                                 <span>ボタンサイズ</span>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                                    <label class="form-check-label" for="flexRadioDefault2">普通　◯大</label>
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3" checked>
+                                                    <label class="form-check-label" for="flexRadioDefault3">普通</label>
+                                                </div>
+                                                <div class="form-check ms-2">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault4">
+                                                    <label class="form-check-label" for="flexRadioDefault4">大</label>
                                                 </div>
                                             </div>
 
@@ -147,7 +155,7 @@
                                         </div>
 
                                         <div class="box_material_content three_columns">
-                                            <ul>
+                                            <ul id="link_list">
                                                 <li>
                                                     <label class="box_uploads">
                                                         <input type="file" class="upload_default">
@@ -157,7 +165,7 @@
                                                             </i>
                                                             <span>資料</span>
                                                         </p>
-                                                        <button type="button" class="btn btnClose"></button>
+                                                        <button id="btnClose" type="button" class="btn btnClose"></button>
                                                     </label>
                                                     <p class="or">or</p>
                                                     <label class="label_url" for="動画のURL">動画のURL</label>
@@ -173,7 +181,7 @@
                                                             </i>
                                                             <span>資料</span>
                                                         </p>
-                                                        <button type="button" class="btn btnClose"></button>
+                                                        <button id="btnClose" type="button" class="btn btnClose"></button>
                                                     </label>
                                                     <p class="or">or</p>
                                                     <label class="label_url" for="動画のURL">動画のURL</label>
@@ -189,47 +197,17 @@
                                                             </i>
                                                             <span>資料</span>
                                                         </p>
-                                                        <button type="button" class="btn btnClose"></button>
+                                                        <button id="btnClose" type="button" class="btn btnClose"></button>
                                                     </label>
                                                     <p class="or">or</p>
                                                     <label class="label_url" for="動画のURL">動画のURL</label>
                                                     <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                                     <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                 </li>
-                                                <li>
-                                                    <label class="box_uploads">
-                                                        <input type="file" class="upload_default">
-                                                        <p class="upload_custom">
-                                                            <i>
-                                                                <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                                            </i>
-                                                            <span>資料</span>
-                                                        </p>
-                                                        <button type="button" class="btn btnClose"></button>
-                                                    </label>
-                                                    <p class="or">or</p>
-                                                    <label class="label_url" for="動画のURL">動画のURL</label>
-                                                    <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                                    <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-                                                </li>
-                                                <li>
-                                                    <label class="box_uploads">
-                                                        <input type="file" class="upload_default">
-                                                        <p class="upload_custom">
-                                                            <i>
-                                                                <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                                            </i>
-                                                            <span>資料</span>
-                                                        </p>
-                                                        <button type="button" class="btn btnClose"></button>
-                                                    </label>
-                                                    <p class="or">or</p>
-                                                    <label class="label_url" for="動画のURL">動画のURL</label>
-                                                    <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                                    <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-                                                </li>
+
+
                                             </ul>
-                                            <button class="btn btn_addlink btn_addlink_theme" type="">
+                                            <button id="btn_addlink4" class="btn btn_addlink btn_addlink_theme" type="button">
                                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
                                                         <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -244,6 +222,25 @@
                                                 </svg>
                                                 動画・資料を追加する
                                             </button>
+
+                                            <div class="box_inquiry">
+                                                <a href="#" class="btn btn_inquiry">お問い合わせ</a>
+                                                <div class="box_indicate">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked="">
+                                                        <label class="form-check-label" for="inlineRadio1">表示する</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">表示しない</label>
+                                                    </div>
+                                                </div>
+                                                <div class="box_indicate_product">
+                                                    <label for="">お問合せ用商品・サービス名</label>
+                                                    <input type="text" name="" value="" class="form-control">
+                                                </div>
+                                            </div>
+
                                             <hr>
                                             <button class="btn btn_addlink active" type=""><img src="assets/images/i_plus_circle_white.svg" alt="plus circle" width="20"> ブロックを追加する</button>
                                         </div>
@@ -331,8 +328,80 @@
             // Thêm sự kiện cho button btnClose ban đầu nếu có
             document.querySelectorAll(".btn.btnClose").forEach(function(button) {
                 button.addEventListener("click", function() {
-                    button.parentElement.remove();
+                    button.closest(".text_link").remove();
                 });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("btn_addlink4").addEventListener("click", function() {
+                const ul = document.getElementById("link_list");
+
+                const newLi = document.createElement("li");
+
+                newLi.innerHTML = `
+            <label class="box_uploads">
+                <input type="file" class="upload_default">
+                <p class="upload_custom">
+                    <i>
+                        <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                    </i>
+                    <span>資料</span>
+                </p>
+                <button type="button" class="btn btnClose"></button>
+            </label>
+            <p class="or">or</p>
+            <label class="label_url" for="動画のURL">動画のURL</label>
+            <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+            <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+        `;
+
+                ul.appendChild(newLi);
+
+                // Thêm sự kiện click cho button btnClose mới tạo
+                newLi.querySelector(".btn.btnClose").addEventListener("click", function() {
+                    newLi.remove();
+                });
+            });
+
+            // Thêm sự kiện click cho các button btnClose hiện có
+            document.querySelectorAll(".btn.btnClose").forEach(function(button) {
+                button.addEventListener("click", function() {
+                    button.closest("li").remove();
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const radio1 = document.getElementById("inlineRadio1");
+            const radio2 = document.getElementById("inlineRadio2");
+            const boxIndicateProduct = document.querySelector(".box_indicate_product");
+
+            function toggleBox() {
+                if (radio1.checked) {
+                    boxIndicateProduct.classList.add("show");
+                } else {
+                    boxIndicateProduct.classList.remove("show");
+                }
+            }
+
+            radio1.addEventListener("change", toggleBox);
+            radio2.addEventListener("change", toggleBox);
+
+            // Gọi hàm toggleBox() để kiểm tra trạng thái ban đầu
+            toggleBox();
+        });
+
+        // Lấy tất cả các nút btnClose
+        const closeButtons = document.querySelectorAll("#btnClose");
+
+        closeButtons.forEach(button => {
+            button.addEventListener("click", function() {
+                // Tìm phần tử li chứa nút này và xoá nó
+                const li = this.closest("li");
+                if (li) {
+                    li.remove();
+                }
             });
         });
     </script>
