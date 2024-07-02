@@ -757,11 +757,9 @@ header h1 a:hover {
 .section_benefitspurchasing ul li {
   width: calc(33.3333333333% - 20px);
   max-width: calc(33.3333333333% - 20px);
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 50px;
-}
-.section_benefitspurchasing ul li:nth-of-type(3n) {
-  margin-right: 0;
 }
 .section_benefitspurchasing ul li figure {
   height: 200px;
@@ -1324,10 +1322,13 @@ footer .footer_content ul li a {
   }
   .section_contact .section_contact_content img {
     width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .section_contact .section_contact_content h2 {
     font-size: 1.25em;
-    max-width: 155px;
+    max-width: 200px;
     letter-spacing: 2px;
   }
   .section_customersvoice ul li {
@@ -1400,6 +1401,11 @@ footer .footer_content ul li a {
   .section_salesconsultation .box_privacypolicy p {
     text-align: left;
   }
+  .section_benefitspurchasing ul li {
+    width: calc(47.5% - 10px);
+    max-width: calc(47.5% - 10px);
+    margin-bottom: 25px;
+  }
 }
 @media (max-width: 430px) {
   .section_abundant .img_abundant {
@@ -1408,8 +1414,8 @@ footer .footer_content ul li a {
   .section_benefitspurchasing ul li {
     width: 100%;
     max-width: 100%;
+    margin-left: 0;
     margin-right: 0;
-    margin-bottom: 25px;
   }
   .section_contact .section_contact_content {
     min-height: 310px;

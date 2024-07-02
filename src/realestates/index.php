@@ -28,7 +28,7 @@
                                 <li><a href="#">新宿区</a></li>
                                 <li><a href="#">文京区</a></li>
                             </ul>
-                            <p class="d-none d-lg-block"><small>※買取サービスを実施するグループ企業の不動産分譲会社の実績です</small></p>
+                            <p class="d-none"><small>※買取サービスを実施するグループ企業の不動産分譲会社の実績です</small></p>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
         </section>
 
         <section class="section_contact">
-            <div class="container">
+            <div class="container-lg container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <div class="section_contact_content">
