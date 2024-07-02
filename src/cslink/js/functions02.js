@@ -39,10 +39,10 @@ $(".block_box_reverse .btnClose").on("click", (event) => {
     $('.block_box_reverse').hide();
 });
 
-$(".box_material_content .btnClose").on("click", (event) => {
-    event.preventDefault();
-    $(".box_material_content").hide();
-});
+// $(".box_material_content .btnClose").on("click", (event) => {
+//     event.preventDefault();
+//     $(".box_material_content").hide();
+// });
 
 $(".block_content .btnClose").on("click", (event) => {
     event.preventDefault();
