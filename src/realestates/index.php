@@ -35,7 +35,8 @@
             </div>
         </section>
 
-        <?php $incNumber = 1; include 'section_assessment.php'; ?>
+        <?php $incNumber = 1;
+        include 'section_assessment.php'; ?>
 
         <section class="section_abundant">
             <div class="container">
@@ -46,7 +47,7 @@
                                 マンション専門だから<br>
                                 価値がわかる</h2>
                             <h3 data-aos="fade-up" data-aos-duration="2000">東京都心を中心に<br>
-                                1700件※超の豊富な買取実績</h3>
+                                1700件<span>※</span>超の豊富な買取実績</h3>
                             <p data-aos="fade-up" data-aos-duration="3000">1700件を超える買取実績と都心の高級ヴィンテージマンション専門ならではの経験と独自のノウハウを活かして高額な買取金額をご提案。築年数、内装状況問わず買い取ります。<br>
                                 あなたの大切なお住まいをお任せください。</p>
                             <p><small>※買取サービスを実施するグループ企業の不動産分譲会社の実績です。</small></p>
@@ -173,7 +174,8 @@
             </div>
         </section>
 
-        <?php $incNumber = 2; include 'section_assessment.php'; ?>
+        <?php $incNumber = 2;
+        include 'section_assessment.php'; ?>
 
         <section class="section_customersvoice">
             <div class="container">
@@ -338,7 +340,8 @@
             </div>
         </section>
 
-        <?php $incNumber = 3; include 'section_assessment.php'; ?>
+        <?php $incNumber = 3;
+        include 'section_assessment.php'; ?>
 
 
     </div>

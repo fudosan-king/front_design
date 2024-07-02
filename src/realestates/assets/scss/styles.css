@@ -521,6 +521,16 @@ header h1 a:hover {
   letter-spacing: 0.5px;
   font-weight: 700;
 }
+.section_abundant h3 span {
+  position: relative;
+  top: -10px;
+  font-size: 0.75em;
+  font-weight: 400;
+  background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .section_abundant p {
   font-size: 1.125em;
 }

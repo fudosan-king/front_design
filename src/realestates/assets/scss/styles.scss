@@ -582,6 +582,17 @@ header {
     line-height: 160%;
     letter-spacing: .5px;
     font-weight: 700;
+
+    span {
+      position: relative;
+      top: -10px;
+      font-size: 0.75em;
+      font-weight: 400;
+      background: var(--gradation_P, linear-gradient(125deg, #222953 14.65%, #58517B 85.47%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   p {
