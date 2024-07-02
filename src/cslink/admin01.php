@@ -26,73 +26,7 @@
                         <div class="col-12">
                             <div class="main_content template2">
 
-                                <div class="main_left admin">
-                                    <aside class="box_avatar">
-                                        <a class="avatar" href="#"><img src="assets/images/avatar.png" alt="user"></a>
-                                        <h2 class="about_me_heading">
-                                            <input class="form-control" type="text" name="" value="" placeholder="例) 山本 太郎">
-                                        </h2>
-                                        <p><input class="form-control" type="text" name="" value="" placeholder="例) Yamamoto Taro"></p>
-                                    </aside>
-
-                                    <a href="#" class="btn btn_inquiry btn_inquiry2">お問い合わせ</a>
-                                    <a href="#" class="btn btn_showdetail">詳細を見る <img class="bounce" src="assets/images/chevrons-down.svg" alt="chevrons down"></a>
-
-                                    <div id="box_detail" class="box_detail">
-                                        <aside class="box_info">
-                                            <p class="box_logo">
-                                                <a class="logo" href="#"><img src="assets/images/vision_logo.png" alt="vision_logo"></a>
-                                            </p>
-
-                                            <div class="form_group"><span>部署</span> <input type="text" name="" value="" placeholder="例) 営業部"></div>
-                                            <div class="form_group"><span>役職</span> <input type="text" name="" value="" placeholder="例) 課長"></div>
-                                            <ul class="info">
-                                                <li>
-                                                    <img src="assets/images/phone.svg" alt="phone">
-                                                    <input type="text" name="" value="" placeholder="例) 03-xxxx-xxxx">
-                                                </li>
-                                                <li>
-                                                    <img src="assets/images/smartphone.svg" alt="smartphone">
-                                                    <input type="text" name="" value="" placeholder="例) 090-xxxx-xxxx">
-                                                </li>
-                                                <li>
-                                                    <img src="assets/images/mail.svg" alt="mail">
-                                                    <input type="text" name="" value="" placeholder="例) xxxx@mail.com">
-                                                </li>
-                                            </ul>
-                                            <a href="#" class="btn btn_inquiry mb-0">お問い合わせ</a>
-
-                                            <div class="box_indicate">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
-                                                    <label class="form-check-label" for="inlineRadio1">表示する</label>
-                                                </div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                                    <label class="form-check-label" for="inlineRadio2">表示しない</label>
-                                                </div>
-                                            </div>
-
-                                            <div class="form_group"><span>生年月日</span> <input type="text" name="" value="" placeholder="例) 1990年4月1日"></div>
-                                            <div class="form_group"><span>出身地</span> <input type="text" name="" value="" placeholder="例) 神奈川県"></div>
-                                            <div class="form_group"><span>出身校</span> <input type="text" name="" value="" placeholder="例) ○○大学"></div>
-                                            <div class="form_group"><span>趣味</span> <input type="text" name="" value="" placeholder="例) 読書、映画"></div>
-                                            <div class="form_group"><span>特技</span> <input type="text" name="" value="" placeholder="例) テニス"></div>
-
-                                            <p class="about_me_desc mb-0">
-                                                <textarea rows="" cols="" class="form-control" placeholder="自由テキスト欄"></textarea>
-                                            </p>
-
-                                        </aside>
-
-                                        <a href="#" class="btn btn_close">閉じる <img class="bounce" src="assets/images/chevrons-up.svg" alt="chevrons up"></a>
-
-                                    </div>
-
-
-                                </div>
-
-                                <div class="main_right template2 admin">
+                                <div class="main_right admin new_templates">
                                     <article class="standard_article">
                                         <h2>
                                             <span></span>
@@ -148,7 +82,17 @@
                                                 </div>
                                             </div>
 
-                                            <button class="btn btn_addlink btn_addlink_theme" type="">
+                                            <div id="link_container" class="link_container"></div>
+
+                                            <div class="button_size">
+                                                <span>ボタンサイズ</span>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">普通　◯大</label>
+                                                </div>
+                                            </div>
+
+                                            <button id="btn_addlink2" class="btn btn_addlink btn_addlink_theme" type="button">
                                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
                                                         <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -164,9 +108,45 @@
                                                 リンクを追加する
                                             </button>
 
+                                            <div class="text_link">
+                                                <div class="box_link">
+                                                    <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                                                    <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                                                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                                                    <button type="button" class="btn btnClose"></button>
+                                                </div>
+                                            </div>
+
+                                            <div id="link_container2" class="link_container"></div>
+
+                                            <div class="button_size">
+                                                <span>ボタンサイズ</span>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                    <label class="form-check-label" for="flexRadioDefault2">普通　◯大</label>
+                                                </div>
+                                            </div>
+
+                                            <button id="btn_addlink3" class="btn btn_addlink btn_addlink_theme" type="button">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
+                                                        <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_452_22745">
+                                                            <rect width="20" height="20" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                リンクを追加する
+                                            </button>
+
+
                                         </div>
 
-                                        <div class="box_material_content">
+                                        <div class="box_material_content three_columns">
                                             <ul>
                                                 <li>
                                                     <label class="box_uploads">
@@ -250,7 +230,6 @@
                                                 </li>
                                             </ul>
                                             <button class="btn btn_addlink btn_addlink_theme" type="">
-                                                <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
                                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
                                                         <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -287,6 +266,76 @@
 
     <?php require 'footer.php'; ?>
     <?php require 'js-footer.php'; ?>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("btn_addlink2").addEventListener("click", function() {
+                const linkContainer = document.getElementById("link_container");
+
+                if (linkContainer) {
+                    const newLink = document.createElement("div");
+                    newLink.classList.add("text_link");
+
+                    newLink.innerHTML = `
+                                <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
+                                <div class="box_link">
+                                    <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                                    <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                                    <button type="button" class="btn btnClose"></button>
+                                </div>
+                            `;
+
+                    linkContainer.appendChild(newLink);
+
+                    // Thêm sự kiện cho button btnClose trong phần tử mới tạo
+                    newLink.querySelector(".btn.btnClose").addEventListener("click", function() {
+                        newLink.remove();
+                    });
+                }
+            });
+
+            // Thêm sự kiện cho button btnClose ban đầu nếu có
+            document.querySelectorAll(".btn.btnClose").forEach(function(button) {
+                button.addEventListener("click", function() {
+                    button.parentElement.remove();
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("btn_addlink3").addEventListener("click", function() {
+                const linkContainer = document.getElementById("link_container2");
+
+                if (linkContainer) {
+                    const newLink = document.createElement("div");
+                    newLink.classList.add("text_link");
+
+                    newLink.innerHTML = `
+                                <div class="box_link">
+                                    <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                                    <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                                    <button type="button" class="btn btnClose"></button>
+                                </div>
+                            `;
+
+                    linkContainer.appendChild(newLink);
+
+                    // Thêm sự kiện cho button btnClose trong phần tử mới tạo
+                    newLink.querySelector(".btn.btnClose").addEventListener("click", function() {
+                        newLink.remove();
+                    });
+                }
+            });
+
+            // Thêm sự kiện cho button btnClose ban đầu nếu có
+            document.querySelectorAll(".btn.btnClose").forEach(function(button) {
+                button.addEventListener("click", function() {
+                    button.parentElement.remove();
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
