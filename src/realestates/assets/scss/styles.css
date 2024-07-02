@@ -540,11 +540,9 @@ header h1 a:hover {
   justify-content: center;
 }
 .section_purchaseresults ul li {
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   transition: transform 0.3s ease;
-}
-.section_purchaseresults ul li:last-of-type {
-  margin-right: 0;
 }
 .section_purchaseresults ul li:hover {
   transform: translateY(-5px);
@@ -1143,7 +1141,7 @@ footer .footer_content ul li a {
     margin-right: 5px;
   }
 }
-@media (max-width: 896px) {
+@media (max-width: 932px) {
   .title {
     font-size: 1.5em;
   }
@@ -1403,7 +1401,7 @@ footer .footer_content ul li a {
     text-align: left;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 430px) {
   .section_abundant .img_abundant {
     right: -15px;
   }
@@ -1414,6 +1412,6 @@ footer .footer_content ul li a {
     margin-bottom: 25px;
   }
   .section_contact .section_contact_content {
-    min-height: 300px;
+    min-height: 310px;
   }
 }/*# sourceMappingURL=styles.css.map */
