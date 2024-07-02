@@ -605,12 +605,9 @@ header {
     justify-content: center;
 
     li {
-      margin-right: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
       transition: transform 0.3s ease;
-
-      &:last-of-type {
-        margin-right: 0;
-      }
 
       &:hover {
         transform: translateY(-5px);
@@ -1343,7 +1340,7 @@ footer {
   }
 }
 
-@media (max-width: 896px) {
+@media (max-width: 932px) {
   .title {
     font-size: 1.5em;
   }
@@ -1617,10 +1614,6 @@ footer {
     }
   }
 
-  .section_benefitspurchasing {
-    ul {}
-  }
-
   .section_condominiumpurchase {
     padding: 50px 0;
 
@@ -1704,11 +1697,9 @@ footer {
       }
     }
   }
-
-
 }
 
-@media (max-width: 414px) {
+@media (max-width: 430px) {
   .section_abundant {
     .img_abundant {
       right: -15px;
@@ -1728,7 +1719,7 @@ footer {
 
   .section_contact {
     .section_contact_content {
-      min-height: 300px;
+      min-height: 310px;
     }
   }
 }
