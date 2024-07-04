@@ -28,9 +28,7 @@
 
                                 <div class="main_right admin new_templates">
                                     <article class="standard_article">
-
                                         <div id="group_zone_demo" class="list-group">
-
                                             <h2>
                                                 <span></span>
                                                 <input type="text" class="form-control" placeholder="サブタイトル">
@@ -81,24 +79,24 @@
                                                                 <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
                                                                 <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
                                                                 <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
-                                                                <button type="button" class="btn btnClose"></button>
+                                                                <button type="button" class="btn btnClose" onclick="removeTextLink(this)"></button>
                                                             </div>
                                                         </div>
 
-                                                        <div class="box_text_link_item_footer">
-                                                            <div class="button_size">
-                                                                <span>ボタンサイズ</span>
+                                                        <div id="box_text_link_item_footer" class="box_text_link_item_footer">
+                                                            <div id="button_size" class="button_size">
+                                                                <span>リンクタイプ</span>
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                                                                    <label class="form-check-label" for="flexRadioDefault1">普通</label>
+                                                                    <input class="form-check-input" type="radio" name="link_type" id="text_button" checked>
+                                                                    <label class="form-check-label" for="text_button">テキスト＋ボタン</label>
                                                                 </div>
                                                                 <div class="form-check ms-2">
-                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                                    <label class="form-check-label" for="flexRadioDefault2">大</label>
+                                                                    <input class="form-check-input" type="radio" name="link_type" id="button_only">
+                                                                    <label class="form-check-label" for="button_only">ボタン(大)のみ</label>
                                                                 </div>
                                                             </div>
 
-                                                            <button id="btn_addlink2" class="btn btn_addlink btn_addlink_theme" type="button">
+                                                            <button id="btn_addlink2" class="btn btn_addlink btn_addlink_theme mb-0" type="button">
                                                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                     <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
                                                                         <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -116,53 +114,12 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="list-group-item">
-                                                        <div id="box_text_noinput" class="box_text_link_item list-group nested-sortable">
-                                                            <div class="text_link">
-                                                                <div class="box_link">
-                                                                    <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
-                                                                    <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
-                                                                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
-                                                                    <button type="button" class="btn btnClose"></button>
-                                                                </div>
-                                                            </div>
 
-                                                            <div class="box_text_noinput_footer">
-                                                                <div class="button_size">
-                                                                    <span>ボタンサイズ</span>
-                                                                    <div class="form-check">
-                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3" checked>
-                                                                        <label class="form-check-label" for="flexRadioDefault3">普通</label>
-                                                                    </div>
-                                                                    <div class="form-check ms-2">
-                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault4">
-                                                                        <label class="form-check-label" for="flexRadioDefault4">大</label>
-                                                                    </div>
-                                                                </div>
-
-                                                                <button id="btn_addlink3" class="btn btn_addlink btn_addlink_theme" type="button">
-                                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                        <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
-                                                                            <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                                            <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                                            <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                                        </g>
-                                                                        <defs>
-                                                                            <clipPath id="clip0_452_22745">
-                                                                                <rect width="20" height="20" fill="white" />
-                                                                            </clipPath>
-                                                                        </defs>
-                                                                    </svg>
-                                                                    リンクを追加する
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
 
 
-                                            <div class="box_material_content three_columns text-center">
+                                            <div class="box_material_content three_columns text-center mt-3">
                                                 <div class="list-group-item">
                                                     <ul id="link_list" class="list-group nested-sortable">
                                                         <li>
@@ -247,7 +204,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="box_indicate_product">
-                                                        <label for="">お問合せ用商品・サービス名</label>
+                                                        <label for="">このセクションのお問い合わせ件名</label>
                                                         <input type="text" name="" value="" class="form-control">
                                                     </div>
                                                 </div>
@@ -276,75 +233,66 @@
     <?php require 'footer.php'; ?>
     <?php require 'js-footer.php'; ?>
     <script>
-        document.getElementById('btn_addlink2').addEventListener('click', function() {
-            var boxTextLinkItem = document.getElementById('box_text_link_item');
-            var newTextLink = document.createElement('div');
+        function addTextLink() {
+            const container = document.getElementById('box_text_link_item');
+            const newTextLink = document.createElement('div');
             newTextLink.className = 'text_link';
             newTextLink.innerHTML = `
-                                    <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
-                                    <div class="box_link">
-                                        <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
-                                        <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
-                                        <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
-                                        <button type="button" class="btn btnClose"></button>
-                                    </div>
-                                `;
-            boxTextLinkItem.insertBefore(newTextLink, boxTextLinkItem.querySelector('.box_text_link_item_footer'));
-            updateAddLinkButton();
-        });
+                <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
+                <div class="box_link">
+                    <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                    <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                    <button type="button" class="btn btnClose" onclick="removeTextLink(this)"></button>
+                </div>
+            `;
+            container.insertBefore(newTextLink, document.getElementById('box_text_link_item_footer'));
 
-        document.addEventListener('click', function(e) {
-            if (e.target && e.target.classList.contains('btnClose')) {
-                e.target.closest('.text_link').remove();
-                updateAddLinkButton();
-            }
-        });
+            updateFooterVisibility();
+            updateTextLinkVisibility();
+        }
 
-        function updateAddLinkButton() {
-            var textLinks = document.querySelectorAll('#box_text_link_item .text_link');
-            var addLinkButton = document.getElementById('btn_addlink2');
+        function removeTextLink(button) {
+            const textLink = button.closest('.text_link');
+            textLink.parentNode.removeChild(textLink);
+            updateFooterVisibility();
+        }
+
+        function updateFooterVisibility() {
+            const textLinks = document.querySelectorAll('.box_text_link_item .text_link');
+            const footer = document.getElementById('box_text_link_item_footer');
+
             if (textLinks.length >= 3) {
-                addLinkButton.style.display = 'none';
+                footer.style.display = 'none';
             } else {
-                addLinkButton.style.display = 'inline-block';
+                footer.style.display = 'block';
             }
         }
 
-        // Initial check
-        updateAddLinkButton();
+        function updateTextLinkVisibility() {
+            const isTextButton = document.getElementById('text_button').checked;
+            const textInputs = document.querySelectorAll('.box_text_link_item .text_link .input_text');
 
-        document.getElementById('btn_addlink3').addEventListener('click', function() {
-            var boxTextNoInput = document.getElementById('box_text_noinput');
-            var newTextLink = document.createElement('div');
-            newTextLink.className = 'text_link';
-            newTextLink.innerHTML = `
-                                        <div class="box_link">
-                                            <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
-                                            <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
-                                            <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
-                                            <button type="button" class="btn btnClose"></button>
-                                        </div>
-                                    `;
-            boxTextNoInput.insertBefore(newTextLink, boxTextNoInput.querySelector('.box_text_noinput_footer'));
-            checkTextLinkCount();
-        });
-
-        document.addEventListener('click', function(e) {
-            if (e.target && e.target.classList.contains('btnClose')) {
-                e.target.closest('.text_link').remove();
-                checkTextLinkCount();
-            }
-        });
-
-        function checkTextLinkCount() {
-            var textLinks = document.querySelectorAll('#box_text_noinput .text_link');
-            var btnAddLink3 = document.getElementById('btn_addlink3');
-            if (textLinks.length >= 3) {
-                btnAddLink3.style.display = 'none';
-            } else {
-                btnAddLink3.style.display = 'inline-block';
-            }
+            textInputs.forEach(input => {
+                if (isTextButton) {
+                    input.style.display = 'none';
+                } else {
+                    input.style.display = 'block';
+                }
+            });
         }
+
+        // Kiểm tra số lượng box "text_link" khi trang được tải lại
+        document.addEventListener('DOMContentLoaded', function() {
+            updateFooterVisibility();
+            updateTextLinkVisibility();
+        });
+
+        document.getElementById('btn_addlink2').addEventListener('click', addTextLink);
+        document.getElementById('text_button').addEventListener('change', updateTextLinkVisibility);
+        document.getElementById('button_only').addEventListener('change', updateTextLinkVisibility);
+
+        //////////////////////////////////////////////////////////////////////////////////////////
 
         document.addEventListener("DOMContentLoaded", function() {
             const btnAddLink4 = document.getElementById("btn_addlink4");
@@ -403,6 +351,8 @@
             checkLiCount();
         });
 
+        //////////////////////////////////////////////////////////////////////////////////////////
+
         document.addEventListener("DOMContentLoaded", function() {
             const radio1 = document.getElementById("inlineRadio1");
             const radio2 = document.getElementById("inlineRadio2");
@@ -435,6 +385,7 @@
                 }
             });
         });
+        //////////////////////////////////////////////////////////////////////////////////////////
     </script>
 </body>
 
