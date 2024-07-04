@@ -288,14 +288,11 @@
             listItem.parentNode.removeChild(listItem);
         }
 
-        // Gán sự kiện cho tất cả các nút btnClose khi trang được tải
-        document.addEventListener('DOMContentLoaded', function() {
-            const closeButtons = document.querySelectorAll('.btn.btnClose');
-            closeButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    removeListItem(button);
-                });
-            });
+        // Gán sự kiện cho tất cả các nút btnClose hiện tại và trong tương lai
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('btnClose')) {
+                removeListItem(event.target);
+            }
         });
     </script>
 </body>

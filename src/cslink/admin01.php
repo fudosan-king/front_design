@@ -28,50 +28,49 @@
 
                                 <div class="main_right admin new_templates">
                                     <article class="standard_article">
-                                        <div id="group_zone_demo" class="list-group">
-                                            <h2>
-                                                <span></span>
-                                                <input type="text" class="form-control" placeholder="サブタイトル">
-                                            </h2>
 
-                                            <div class="standard_post_main_img new">
-                                                <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
-                                                    </li>
-                                                    <li>
-                                                        <label class="box_uploads">
-                                                            <input type="file" class="upload_default">
-                                                            <p class="upload_custom">
-                                                                <i>
-                                                                    <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                                                </i>
-                                                                <span>ファイルを選択</span>
-                                                            </p>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <h2>
+                                            <span></span>
+                                            <input type="text" class="form-control" placeholder="サブタイトル">
+                                        </h2>
+
+                                        <div class="standard_post_main_img new">
+                                            <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
+                                                </li>
+                                                <li>
+                                                    <label class="box_uploads">
+                                                        <input type="file" class="upload_default">
+                                                        <p class="upload_custom">
+                                                            <i>
+                                                                <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                                            </i>
+                                                            <span>ファイルを選択</span>
+                                                        </p>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
 
 
-                                            <div class="box_reverse">
-                                                <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
-
+                                        <div class="box_reverse">
+                                            <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+                                            <div id="group_zone_demo" class="list-group">
                                                 <div class="list-group-item">
-
                                                     <div id="box_text_link_item" class="box_text_link_item list-group nested-sortable">
                                                         <div class="text_link">
                                                             <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
@@ -117,65 +116,66 @@
 
                                                 </div>
                                             </div>
+                                        </div>
 
 
-                                            <div class="box_material_content three_columns text-center mt-3">
-                                                <div class="list-group-item">
-                                                    <ul id="link_list" class="list-group nested-sortable">
-                                                        <li>
-                                                            <label class="box_uploads">
-                                                                <input type="file" class="upload_default">
-                                                                <p class="upload_custom">
-                                                                    <i>
-                                                                        <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                                                    </i>
-                                                                    <span>資料</span>
-                                                                </p>
-                                                            </label>
-                                                            <p class="or">or</p>
-                                                            <label class="label_url" for="動画のURL">動画のURL</label>
-                                                            <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                                            <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-                                                            <button id="btnClose" type="button" class="btn btnClose"></button>
-                                                        </li>
-                                                        <li>
-                                                            <label class="box_uploads">
-                                                                <input type="file" class="upload_default">
-                                                                <p class="upload_custom">
-                                                                    <i>
-                                                                        <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                                                    </i>
-                                                                    <span>資料</span>
-                                                                </p>
-                                                            </label>
-                                                            <p class="or">or</p>
-                                                            <label class="label_url" for="動画のURL">動画のURL</label>
-                                                            <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                                            <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-                                                            <button id="btnClose" type="button" class="btn btnClose"></button>
-                                                        </li>
-                                                        <li>
-                                                            <label class="box_uploads">
-                                                                <input type="file" class="upload_default">
-                                                                <p class="upload_custom">
-                                                                    <i>
-                                                                        <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                                                    </i>
-                                                                    <span>資料</span>
-                                                                </p>
-                                                            </label>
-                                                            <p class="or">or</p>
-                                                            <label class="label_url" for="動画のURL">動画のURL</label>
-                                                            <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                                            <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-                                                            <button id="btnClose" type="button" class="btn btnClose"></button>
-                                                        </li>
+                                        <div class="box_material_content three_columns text-center mt-3">
+                                            <div class="list-group-item">
+                                                <ul id="link_list" class="list-group">
+                                                    <li>
+                                                        <label class="box_uploads">
+                                                            <input type="file" class="upload_default">
+                                                            <p class="upload_custom">
+                                                                <i>
+                                                                    <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                                                </i>
+                                                                <span>資料</span>
+                                                            </p>
+                                                        </label>
+                                                        <p class="or">or</p>
+                                                        <label class="label_url" for="動画のURL">動画のURL</label>
+                                                        <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                                        <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                        <button id="btnClose" type="button" class="btn btnClose"></button>
+                                                    </li>
+                                                    <li>
+                                                        <label class="box_uploads">
+                                                            <input type="file" class="upload_default">
+                                                            <p class="upload_custom">
+                                                                <i>
+                                                                    <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                                                </i>
+                                                                <span>資料</span>
+                                                            </p>
+                                                        </label>
+                                                        <p class="or">or</p>
+                                                        <label class="label_url" for="動画のURL">動画のURL</label>
+                                                        <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                                        <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                        <button id="btnClose" type="button" class="btn btnClose"></button>
+                                                    </li>
+                                                    <li>
+                                                        <label class="box_uploads">
+                                                            <input type="file" class="upload_default">
+                                                            <p class="upload_custom">
+                                                                <i>
+                                                                    <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+                                                                </i>
+                                                                <span>資料</span>
+                                                            </p>
+                                                        </label>
+                                                        <p class="or">or</p>
+                                                        <label class="label_url" for="動画のURL">動画のURL</label>
+                                                        <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                                        <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                        <button id="btnClose" type="button" class="btn btnClose"></button>
+                                                    </li>
 
 
-                                                    </ul>
-                                                </div>
+                                                </ul>
                                             </div>
                                         </div>
+
 
                                         <div class="d-flex flex-center">
                                             <button id="btn_addlink4" class="btn btn_addlink btn_addlink_theme" type="button">
@@ -390,6 +390,15 @@
             });
         });
         //////////////////////////////////////////////////////////////////////////////////////////
+
+        new Sortable(document.getElementById('link_list'), {
+            group: {
+                name: 'shared',
+                pull: false,
+                put: false
+            },
+            animation: 150
+        });
     </script>
 </body>
 
