@@ -31,7 +31,7 @@
                                         <a href="https://as1.ftcdn.net/v2/jpg/07/93/19/06/1000_F_793190659_hLAN3Cq0AaIZt66m5ITU25JrXMkw1Vhx.jpg" data-fancybox="" data-caption="img01"><img class="img-fluid " src="https://as1.ftcdn.net/v2/jpg/07/93/19/06/1000_F_793190659_hLAN3Cq0AaIZt66m5ITU25JrXMkw1Vhx.jpg" alt=""></a>
                                     </div>
 
-                                    <div class="box_reverse">
+                                    <div class="box_reverse mx-auto">
                                         <div class="standard_content">
                                             <p>商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト</p>
                                         </div>
@@ -143,7 +143,7 @@
                                         <a href="https://as2.ftcdn.net/v2/jpg/07/80/42/89/1000_F_780428919_pX3LRR3LQVzl54slDyqC0v3Ai58D2w35.jpg" data-fancybox="" data-caption="img01"><img class="img-fluid " src="https://as2.ftcdn.net/v2/jpg/07/80/42/89/1000_F_780428919_pX3LRR3LQVzl54slDyqC0v3Ai58D2w35.jpg" alt=""></a>
                                     </div>
 
-                                    <div class="box_reverse">
+                                    <div class="box_reverse mx-auto">
                                         <div class="standard_content">
                                             <p>商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト。</p>
                                         </div>
@@ -255,7 +255,7 @@
                                         <a href="https://as2.ftcdn.net/v2/jpg/07/25/46/85/1000_F_725468525_B43UjrHzf2CiKe9t8pCDodlfyRwi3o12.jpg" data-fancybox="" data-caption="img01"><img class="img-fluid " src="https://as2.ftcdn.net/v2/jpg/07/25/46/85/1000_F_725468525_B43UjrHzf2CiKe9t8pCDodlfyRwi3o12.jpg" alt=""></a>
                                     </div>
 
-                                    <div class="box_reverse">
+                                    <div class="box_reverse mx-auto">
                                         <div class="standard_content">
                                             <p>商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト。</p>
                                         </div>
@@ -326,7 +326,7 @@
                                         <a href="https://as2.ftcdn.net/v2/jpg/01/46/25/15/1000_F_146251588_Lv04SVa9GZv72AGrCoZpVefCsb684dlF.jpg" data-fancybox="" data-caption="img01"><img class="img-fluid " src="https://as2.ftcdn.net/v2/jpg/01/46/25/15/1000_F_146251588_Lv04SVa9GZv72AGrCoZpVefCsb684dlF.jpg" alt=""></a>
                                     </div>
 
-                                    <div class="box_reverse">
+                                    <div class="box_reverse mx-auto">
                                         <div class="standard_content">
                                             <p>商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト</p>
                                         </div>
@@ -401,7 +401,7 @@
                                         <a href="https://as2.ftcdn.net/v2/jpg/04/95/38/09/1000_F_495380975_58IxoiKG3BtgOaKd20M5jYVFBf9eVFhX.jpg" data-fancybox="" data-caption="img01"><img class="img-fluid " src="https://as2.ftcdn.net/v2/jpg/04/95/38/09/1000_F_495380975_58IxoiKG3BtgOaKd20M5jYVFBf9eVFhX.jpg" alt=""></a>
                                     </div>
 
-                                    <div class="box_reverse">
+                                    <div class="box_reverse mx-auto">
                                         <div class="standard_content">
                                             <p>商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト商品説明テキスト。</p>
                                         </div>

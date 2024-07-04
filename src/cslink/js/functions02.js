@@ -131,21 +131,6 @@ $("#options02").click(function (event) {
                               <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
                           </div>
                       </div>
-                      <button class="btn btn_addlink btn_addlink_theme" type="">
-                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
-                                  <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                  <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                  <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                              </g>
-                              <defs>
-                                  <clipPath id="clip0_452_22745">
-                                      <rect width="20" height="20" fill="white"></rect>
-                                  </clipPath>
-                              </defs>
-                          </svg>
-                          リンクを追加する
-                      </button>
                       <button type="button" class="btn btnClose"></button>
                   </div>
               </div>
@@ -312,3 +297,12 @@ for (var i = 0; i < nestedSortables.length; i++) {
         swapThreshold: 0.65
     });
 }
+
+new Sortable(document.getElementById('list_group'), {
+    group: {
+        name: 'shared',
+        pull: false,
+        put: false
+    },
+    animation: 150
+});
