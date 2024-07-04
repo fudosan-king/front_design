@@ -797,6 +797,14 @@
     }
 }
 
+@media (max-width: 992px) {
+    .box_reverse {
+        textarea {
+            min-width: 100%;
+        }
+    }
+}
+
 @media (max-width: 896px) {
     .box_tab {
         .box_tab_content {
@@ -958,10 +966,6 @@
     }
 
     .box_reverse {
-        textarea {
-            min-width: 100%;
-        }
-
         .button_size {
             span {
                 font-size: 0.625em;
