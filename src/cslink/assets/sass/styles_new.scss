@@ -737,6 +737,10 @@
             margin-bottom: 10px;
         }
     }
+
+    textarea {
+        min-width: 794px;
+    }
 }
 
 .box_text_link_item {
@@ -754,6 +758,8 @@
 
     .box_text_link_item_footer {
         text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 
     .box_text_noinput_footer {
@@ -947,6 +953,18 @@
         .list-group-item {
             .btn_addlink {
                 min-width: 100%;
+            }
+        }
+    }
+
+    .box_reverse {
+        textarea {
+            min-width: 100%;
+        }
+
+        .button_size {
+            span {
+                font-size: 0.625em;
             }
         }
     }
