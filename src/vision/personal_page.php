@@ -57,7 +57,8 @@
                         <tr>
                             <th>ブログタイトル</th>
                             <th></th>
-                            <th>当月アクセス</th>
+                            <th>アクセス数<br>
+                                (過去30日)</th>
                             <th>月間アクセス</th>
                             <th>最終更新日</th>
                             <th>公開設定</th>
@@ -69,7 +70,9 @@
                             <td>1. <a href="#">Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch, Check icon password bị lệch</a></td>
                             <td>
                                 <a href="#"><img src="assets/images/icons/i_lock.svg" alt="i_edit" width="19"></a>
-                                <a class="btn_printer" href="#"><img src="assets/images/icons/i_printer.svg" alt="i_printer" width="24"></a>
+                                <a class="btn_printer" href="#">
+                                    <img class="img-fluid" src="assets/images/icons/i_printer.svg" alt="i_printer" width="24">
+                                </a>
                             </td>
                             <td>50</td>
                             <td><a href="#modal_accessdetail" class="btn btn_refer" data-bs-toggle="modal">参照する</a></td>
