@@ -13,41 +13,15 @@ $(window).on('scroll', function () {
     }
 });
 
-// show hide sidebar left để chọn mục thêm
-$(".btn_collapse").click(function (event) {
-    event.preventDefault();
-    $(".nav_addblock").toggleClass("expanded");
-
-    // Thay đổi biểu tượng của button khi mở rộng hoặc thu hẹp
-    let imgSrc = $(".nav_addblock").hasClass("expanded") ? "assets/images/chevron_right.svg" : "assets/images/chevron_right.svg";
-    $(this).find("img").attr("src", imgSrc);
-});
-
-/* Sự kiện xoá các block */
-$(".block_content .btnClose").on("click", (event) => {
-    event.preventDefault()
-    $('.block_content').hide();
-});
-
-$(".block_title .btnClose").on("click", (event) => {
-    event.preventDefault()
-    $('.block_title').hide();
-});
-
-$(".block_box_reverse .btnClose").on("click", (event) => {
-    event.preventDefault()
-    $('.block_box_reverse').hide();
-});
-
-// $(".box_material_content .btnClose").on("click", (event) => {
+// // show hide sidebar left để chọn mục thêm
+// $(".btn_collapse").click(function (event) {
 //     event.preventDefault();
-//     $(".box_material_content").hide();
-// });
+//     $(".nav_addblock").toggleClass("expanded");
 
-$(".block_content .btnClose").on("click", (event) => {
-    event.preventDefault();
-    $(".block_content").hide();
-});
+//     // Thay đổi biểu tượng của button khi mở rộng hoặc thu hẹp
+//     let imgSrc = $(".nav_addblock").hasClass("expanded") ? "assets/images/chevron_right.svg" : "assets/images/chevron_right.svg";
+//     $(this).find("img").attr("src", imgSrc);
+// });
 
 //Thêm 1 option block_title
 $("#options0").click(function (event) {
@@ -121,19 +95,21 @@ $("#options01").click(function (event) {
 $("#options02").click(function (event) {
     event.preventDefault()
     var newBlock = `
+            <div class="list-group-item">
                 <div class="block_box_reverse">
-                  <div class="box_reverse">
-                      <div class="text_link">
-                          <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
-                          <div class="box_link">
-                              <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
-                              <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
-                              <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
-                          </div>
-                      </div>
-                      <button type="button" class="btn btnClose"></button>
-                  </div>
-              </div>
+                    <div class="box_reverse">
+                        <div class="text_link">
+                            <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
+                            <div class="box_link">
+                                <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                                <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                                <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btnClose"></button>
+                    </div>
+                </div>
+            </div>
             `;
     $("#new_blockboxreverse").append(newBlock);
 
