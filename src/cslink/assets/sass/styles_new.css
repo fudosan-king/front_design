@@ -272,43 +272,33 @@
 }
 
 .nav_addblock {
-  padding: 20px 40px 20px 20px;
+  padding: 20px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   position: fixed;
   z-index: 100;
-  left: 0;
+  left: -130px;
   top: 20%;
-  width: 60px;
+  width: 140px;
   background: #e5f2fe;
-  transition: width 0.5s ease;
+  transition: left 0.3s;
 }
-.nav_addblock.active {
-  transform: translateX(0);
-  width: 210px;
-}
-.nav_addblock.expanded {
-  width: 210px;
-}
-.nav_addblock.expanded .btn_collapse {
-  width: auto;
+.nav_addblock.show {
+  left: 0;
+  /* Hiển thị box */
 }
 .nav_addblock .btn_collapse {
   position: absolute;
-  right: 1px;
+  right: -30px;
   top: 0;
   bottom: 0;
   margin: auto;
   background: #e5f2fe;
-  width: 100%;
+  transition: top 0.3s;
 }
 .nav_addblock .btn_collapse:active {
   border: none;
-}
-.nav_addblock .btn_collapse.active {
-  background: transparent;
-  width: auto;
-  border: none;
+  background: #e5f2fe;
 }
 .nav_addblock .main_options {
   margin: 0;
@@ -661,15 +651,14 @@
     max-width: 100%;
     margin-right: 0;
   }
+  .box_material_content ul li.list-group-item {
+    width: 100%;
+  }
   .nav_addblock {
-    width: 40px;
-    padding-right: 20px;
+    height: 50px;
   }
-  .nav_addblock.expanded {
-    width: 160px;
-  }
-  .nav_addblock.expanded .btn_collapse {
-    right: -20px;
+  .nav_addblock.show {
+    height: auto;
   }
   .main_right.new_templates .standard_article .standard_post_img {
     max-width: 100%;

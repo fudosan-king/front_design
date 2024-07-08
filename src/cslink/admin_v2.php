@@ -185,7 +185,7 @@
 
                                             <div class="list-group-item">
                                                 <div class="block_box_reverse">
-                                                    <div class="box_reverse list-group nested-sortable">
+                                                    <div class="box_reverse">
                                                         <div class="text_link list-group-item">
                                                             <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
                                                             <div class="box_link">
@@ -282,17 +282,61 @@
     <?php require 'footer.php'; ?>
     <?php require 'js-footer.php'; ?>
     <script>
-        // Hàm xóa phần tử li chứa nút được click
+        // Hàm xóa phần tử li chứa nút được click - box_uploads
         function removeListItem(button) {
             const listItem = button.closest('.list-group-item');
             listItem.parentNode.removeChild(listItem);
         }
 
-        // Gán sự kiện cho tất cả các nút btnClose hiện tại và trong tương lai
+        // Gán sự kiện cho tất cả các nút btnClose hiện tại và trong tương lai - box_uploads
         document.addEventListener('click', function(event) {
             if (event.target.classList.contains('btnClose')) {
                 removeListItem(event.target);
             }
+        });
+
+        // Gán sự kiện click cho tất cả các nút btnClose
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('btnClose')) {
+                const blockBoxReverse = event.target.closest('.block_box_reverse');
+                if (blockBoxReverse) {
+                    blockBoxReverse.remove();
+                }
+            }
+        });
+
+        // Gán sự kiện click cho tất cả các nút btnClose - block_content
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('btnClose')) {
+                const blockContent = event.target.closest('.block_content');
+                if (blockContent) {
+                    blockContent.remove();
+                }
+            }
+        });
+
+        // Gán sự kiện click cho tất cả các nút btnClose - box_material_content
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('btnClose')) {
+                const boxMaterialContent = event.target.closest('.box_material_content');
+                if (boxMaterialContent) {
+                    boxMaterialContent.remove();
+                }
+            }
+        });
+
+        // Gán sự kiện click cho tất cả các nút btnClose - block_title
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('btnClose')) {
+                const blockTitle = event.target.closest('.block_title');
+                if (blockTitle) {
+                    blockTitle.remove();
+                }
+            }
+        });
+
+        document.querySelector('.btn_collapse').addEventListener('click', function() {
+            document.querySelector('.nav_addblock').classList.toggle('show');
         });
     </script>
 </body>
