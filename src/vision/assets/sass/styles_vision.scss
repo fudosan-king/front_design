@@ -35,3 +35,44 @@
         margin-right: 4px;
     }
 }
+
+.seciton_pagelist {
+    .table {
+        td {
+            padding: 15px;
+        }
+
+        th {
+            vertical-align: middle;
+            line-height: 1.3em;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .seciton_pagelist {
+        .table {
+            display: block;
+
+            td {
+                padding: 10px;
+            }
+        }
+    }
+
+    .table_sp {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .seciton_pagelist {
+        .table {
+            display: none;
+        }
+    }
+
+    .table_sp {
+        display: block;
+    }
+}
