@@ -282,6 +282,11 @@
     <?php require 'footer.php'; ?>
     <?php require 'js-footer.php'; ?>
     <script>
+        // // show hide sidebar left để chọn mục thêm
+        document.querySelector('.btn_collapse').addEventListener('click', function() {
+            document.querySelector('.nav_addblock').classList.toggle('show');
+        });
+
         // Hàm xóa phần tử li chứa nút được click - box_uploads
         function removeListItem(button) {
             const listItem = button.closest('.list-group-item');
@@ -333,10 +338,6 @@
                     blockTitle.remove();
                 }
             }
-        });
-
-        document.querySelector('.btn_collapse').addEventListener('click', function() {
-            document.querySelector('.nav_addblock').classList.toggle('show');
         });
     </script>
 </body>
