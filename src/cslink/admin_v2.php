@@ -339,6 +339,31 @@
                 }
             }
         });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Hàm xử lý sự kiện xoá li
+            function handleDelete(event) {
+                var listItem = event.target.closest('li.list-group-item');
+                if (listItem) {
+                    listItem.remove();
+
+                    // Kiểm tra nếu không còn li nào thì xoá luôn box_material_content
+                    var listGroup = document.getElementById('list_group');
+                    if (listGroup.children.length === 0) {
+                        var boxMaterialContent = document.querySelector('.box_material_content');
+                        if (boxMaterialContent) {
+                            boxMaterialContent.remove();
+                        }
+                    }
+                }
+            }
+
+            // Thêm sự kiện click cho tất cả các nút btnClose hiện tại
+            var btnCloseElements = document.querySelectorAll('.btn.btnClose');
+            btnCloseElements.forEach(function(btnClose) {
+                btnClose.addEventListener('click', handleDelete);
+            });
+        });
     </script>
 </body>
 
