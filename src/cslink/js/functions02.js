@@ -14,169 +14,169 @@ $(window).on('scroll', function () {
 });
 
 //Thêm 1 option block_title
-$("#options0").click(function (event) {
-    event.preventDefault()
-    var newBlock = `
-                <div class="block_title">
-                  <h2>
-                      <span></span>
-                      <input type="text" class="form-control" placeholder="見出し">
-                  </h2>
-                  <button type="button" class="btn btnClose"></button>
-                </div>
-              `;
-    $("#new_block_title").append(newBlock);
+// $("#options0").click(function (event) {
+//     event.preventDefault()
+//     var newBlock = `
+//                 <div class="block_title">
+//                   <h2>
+//                       <span></span>
+//                       <input type="text" class="form-control" placeholder="見出し">
+//                   </h2>
+//                   <button type="button" class="btn btnClose"></button>
+//                 </div>
+//               `;
+//     $("#new_block_title").append(newBlock);
 
-    $('html, body').animate({
-        scrollTop: $(document).height() - $(window).height()
-    }, 1500);
+//     $('html, body').animate({
+//         scrollTop: $(document).height() - $(window).height()
+//     }, 1500);
 
-});
+// });
 
 //Thêm 1 option block_content
-$("#options01").click(function (event) {
-    event.preventDefault()
-    var newBlock = `
-                <div class="block_content">
-                  <div class="standard_post_main_img">
-                      <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
-                      <ul>
-                          <li>
-                              <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
-                          </li>
-                          <li>
-                              <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
-                          </li>
-                          <li>
-                              <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
-                          </li>
-                          <li>
-                              <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
-                          </li>
-                          <li>
-                              <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
-                          </li>
-                          <li>
-                              <label class="box_uploads">
-                                  <input type="file" class="upload_default">
-                                  <p class="upload_custom">
-                                      <i>
-                                          <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                      </i>
-                                      <span>ファイルを選択</span>
-                                  </p>
-                              </label>
-                          </li>
-                      </ul>
-                  </div>
-                  <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
-                  <button type="button" class="btn btnClose"></button>
-              </div>
-            `;
-    $("#new_blockcontent").append(newBlock);
+// $("#options01").click(function (event) {
+//     event.preventDefault()
+//     var newBlock = `
+//                 <div class="block_content">
+//                   <div class="standard_post_main_img">
+//                       <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
+//                       <ul>
+//                           <li>
+//                               <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
+//                           </li>
+//                           <li>
+//                               <a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a>
+//                           </li>
+//                           <li>
+//                               <a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a>
+//                           </li>
+//                           <li>
+//                               <a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a>
+//                           </li>
+//                           <li>
+//                               <a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a>
+//                           </li>
+//                           <li>
+//                               <label class="box_uploads">
+//                                   <input type="file" class="upload_default">
+//                                   <p class="upload_custom">
+//                                       <i>
+//                                           <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+//                                       </i>
+//                                       <span>ファイルを選択</span>
+//                                   </p>
+//                               </label>
+//                           </li>
+//                       </ul>
+//                   </div>
+//                   <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+//                   <button type="button" class="btn btnClose"></button>
+//               </div>
+//             `;
+//     $("#new_blockcontent").append(newBlock);
 
-    $('html, body').animate({
-        scrollTop: $(document).height() - $(window).height()
-    }, 1500);
+//     $('html, body').animate({
+//         scrollTop: $(document).height() - $(window).height()
+//     }, 1500);
 
-});
+// });
 
 //Thêm 1 option block_box_reverse
-$("#options02").click(function (event) {
-    event.preventDefault()
-    var newBlock = `
-            <div class="list-group-item">
-                <div class="block_box_reverse">
-                    <div class="box_reverse">
-                        <div class="text_link">
-                            <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
-                            <div class="box_link">
-                                <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
-                                <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
-                                <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
-                            </div>
-                        </div>
-                        <button type="button" class="btn btnClose"></button>
-                    </div>
-                </div>
-            </div>
-            `;
-    $("#new_blockboxreverse").append(newBlock);
+// $("#options02").click(function (event) {
+//     event.preventDefault()
+//     var newBlock = `
+//             <div class="list-group-item">
+//                 <div class="block_box_reverse">
+//                     <div class="box_reverse">
+//                         <div class="text_link">
+//                             <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
+//                             <div class="box_link">
+//                                 <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+//                                 <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+//                                 <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+//                             </div>
+//                         </div>
+//                         <button type="button" class="btn btnClose"></button>
+//                     </div>
+//                 </div>
+//             </div>
+//             `;
+//     $("#new_blockboxreverse").append(newBlock);
 
-    $('html, body').animate({
-        scrollTop: $(document).height() - $(window).height()
-    }, 1500);
+//     $('html, body').animate({
+//         scrollTop: $(document).height() - $(window).height()
+//     }, 1500);
 
-});
+// });
 
 //Thêm 1 option box_material_content
-$("#options03").click(function (event) {
-    event.preventDefault()
-    var newBlock = `
-                <div class="list-group-item">
-                    <div class="box_material_content">
-                        <button type="button" class="btn btnClose"></button>
-                        <ul id="list-group2" class="list-group">
-                                <li class="list-group-item">
-                                    <label class="box_uploads">
-                                        <input type="file" class="upload_default">
-                                        <p class="upload_custom">
-                                            <i>
-                                                <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                            </i>
-                                            <span>資料</span>
-                                        </p>
-                                        <button type="button" class="btn btnClose"></button>
-                                    </label>
-                                    <p class="or">or</p>
-                                    <label class="label_url" for="動画のURL">動画のURL</label>
-                                    <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                    <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-                                </li>
+// $("#options03").click(function (event) {
+//     event.preventDefault()
+//     var newBlock = `
+//                 <div class="list-group-item">
+//                     <div class="box_material_content">
+//                         <button type="button" class="btn btnClose"></button>
+//                         <ul id="list-group2" class="list-group">
+//                                 <li class="list-group-item">
+//                                     <label class="box_uploads">
+//                                         <input type="file" class="upload_default">
+//                                         <p class="upload_custom">
+//                                             <i>
+//                                                 <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+//                                             </i>
+//                                             <span>資料</span>
+//                                         </p>
+//                                         <button type="button" class="btn btnClose"></button>
+//                                     </label>
+//                                     <p class="or">or</p>
+//                                     <label class="label_url" for="動画のURL">動画のURL</label>
+//                                     <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+//                                     <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+//                                 </li>
 
-                                <li class="list-group-item">
-                                    <label class="box_uploads">
-                                        <input type="file" class="upload_default">
-                                        <p class="upload_custom">
-                                            <i>
-                                                <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                                            </i>
-                                            <span>資料</span>
-                                        </p>
-                                        <button type="button" class="btn btnClose"></button>
-                                    </label>
-                                    <p class="or">or</p>
-                                    <label class="label_url" for="動画のURL">動画のURL</label>
-                                    <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                    <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-                                </li>
-                            </ul>
-                            <button class="btn btn_addlink btn_addlink_theme" type="">
-                            <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
-                                    <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_452_22745">
-                                        <rect width="20" height="20" fill="white"></rect>
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                            動画・資料を追加する
-                            </button>
-                    </div>
-                </div>
-            `;
-    $("#new_boxmaterialcontent").append(newBlock);
+//                                 <li class="list-group-item">
+//                                     <label class="box_uploads">
+//                                         <input type="file" class="upload_default">
+//                                         <p class="upload_custom">
+//                                             <i>
+//                                                 <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
+//                                             </i>
+//                                             <span>資料</span>
+//                                         </p>
+//                                         <button type="button" class="btn btnClose"></button>
+//                                     </label>
+//                                     <p class="or">or</p>
+//                                     <label class="label_url" for="動画のURL">動画のURL</label>
+//                                     <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+//                                     <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+//                                 </li>
+//                             </ul>
+//                             <button class="btn btn_addlink btn_addlink_theme" type="">
+//                             <!-- <img src="assets/images/i_plus_circle.svg" alt="plus circle" width="20"> -->
+//                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+//                                 <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
+//                                     <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+//                                     <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+//                                     <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+//                                 </g>
+//                                 <defs>
+//                                     <clipPath id="clip0_452_22745">
+//                                         <rect width="20" height="20" fill="white"></rect>
+//                                     </clipPath>
+//                                 </defs>
+//                             </svg>
+//                             動画・資料を追加する
+//                             </button>
+//                     </div>
+//                 </div>
+//             `;
+//     $("#new_boxmaterialcontent").append(newBlock);
 
-    $('html, body').animate({
-        scrollTop: $(document).height() - $(window).height()
-    }, 1500);
+//     $('html, body').animate({
+//         scrollTop: $(document).height() - $(window).height()
+//     }, 1500);
 
-});
+// });
 
 //Thêm 1 row text_link
 $('#btn_addlink').click(function (event) {
@@ -195,32 +195,6 @@ $('#btn_addlink').click(function (event) {
 
     // Thêm khối text_link mới vào cuối div.box_reverse
     $('.box_reverse').append(newTextLink);
-});
-
-//Thêm 1 row video
-$('#btn_addvideo').click(function (event) {
-    event.preventDefault()
-    // Tạo nội dung HTML cho phần tử <li> mới
-    let newListItem = `
-            <li class="list-group-item">
-                <label class="box_uploads">
-                    <input type="file" class="upload_default">
-                    <p class="upload_custom">
-                        <i>
-                            <img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24">
-                        </i>
-                        <span>資料</span>
-                    </p>
-                    <button type="button" class="btn btnClose"></button>
-                </label>
-                <p class="or">or</p>
-                <label class="label_url" for="動画のURL">動画のURL</label>
-                <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
-            </li>`;
-
-    // Thêm phần tử <li> mới vào cuối danh sách <ul>
-    $('.box_material_content .list-group').append(newListItem);
 });
 
 
@@ -283,14 +257,3 @@ new Sortable(document.getElementById('list_group2'), {
     },
     animation: 150
 });
-
-// document.querySelectorAll('.list_group').forEach(function (element) {
-//     new Sortable(element, {
-//         group: {
-//             name: 'shared',
-//             pull: false,
-//             put: false
-//         },
-//         animation: 150
-//     });
-// });

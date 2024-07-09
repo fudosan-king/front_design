@@ -257,10 +257,10 @@
                                                 </div>
                                             </div>
 
-                                            <div id="new_block_title" class="list-group"></div>
+                                            <!-- <div id="new_block_title" class="list-group"></div>
                                             <div id="new_blockcontent" class="list-group"></div>
                                             <div id="new_blockboxreverse" class="list-group"></div>
-                                            <div id="new_boxmaterialcontent" class="list-group"></div>
+                                            <div id="new_boxmaterialcontent" class="list-group"></div> -->
 
                                         </div>
                                     </article>
@@ -281,6 +281,7 @@
 
     <?php require 'footer.php'; ?>
     <?php require 'js-footer.php'; ?>
+
     <script>
         // // show hide sidebar left để chọn mục thêm
         document.querySelector('.btn_collapse').addEventListener('click', function() {
@@ -362,6 +363,159 @@
             var btnCloseElements = document.querySelectorAll('.btn.btnClose');
             btnCloseElements.forEach(function(btnClose) {
                 btnClose.addEventListener('click', handleDelete);
+            });
+        });
+
+        document.getElementById('options0').addEventListener('click', function(event) {
+            event.preventDefault();
+            const newBlock = `
+                <div class="list-group-item">
+                    <div class="block_title">
+                        <h2>
+                            <span></span>
+                            <input type="text" class="form-control" placeholder="見出し">
+                        </h2>
+                        <button type="button" class="btn btnClose"></button>
+                    </div>
+                </div>`;
+            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
+        });
+
+        document.getElementById('options01').addEventListener('click', function(event) {
+            event.preventDefault();
+            const newBlock = `
+                <div class="list-group-item">
+                    <div class="block_content">
+                        <div class="standard_post_main_img">
+                            <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
+                            <ul>
+                                <li><a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a></li>
+                                <li><a href="#"><img src="assets/images/uploads/02.jpg" alt="02"></a></li>
+                                <li><a href="#"><img src="assets/images/uploads/03.jpg" alt="03"></a></li>
+                                <li><a href="#"><img src="assets/images/uploads/04.jpg" alt="04"></a></li>
+                                <li><a href="#"><img src="assets/images/uploads/05.jpg" alt="05"></a></li>
+                                <li>
+                                    <label class="box_uploads">
+                                        <input type="file" class="upload_default">
+                                        <p class="upload_custom">
+                                            <i><img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24"></i>
+                                            <span>ファイルを選択</span>
+                                        </p>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+                        <button type="button" class="btn btnClose"></button>
+                    </div>
+                </div>`;
+            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
+        });
+
+        document.getElementById('options02').addEventListener('click', function(event) {
+            event.preventDefault();
+            const newBlock = `
+                <div class="list-group-item">
+                    <div class="block_box_reverse">
+                        <div class="box_reverse">
+                            <div class="text_link list-group-item">
+                                <input class="form-control input_text" type="text" name="" value="" placeholder="リンクに関するテキスト">
+                                <div class="box_link">
+                                    <a href="#"><img src="assets/images/i_externallink.svg" alt="external link" width="20"></a>
+                                    <input class="form-control" type="text" name="" value="" placeholder="例) https://www.">
+                                    <input class="form-control" type="text" name="" value="" placeholder="ボタンラベル">
+                                </div>
+                                <button type="button" class="btn btnClose"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
+        });
+
+        document.getElementById('options03').addEventListener('click', function(event) {
+            event.preventDefault();
+            const newBlock = `
+                <div class="list-group-item">
+                    <div class="box_material_content">
+                        <button type="button" class="btn btnClose"></button>
+                        <ul id="list_group" class="list-group">
+                            <li class="list-group-item">
+                                <label class="box_uploads">
+                                    <input type="file" class="upload_default">
+                                    <p class="upload_custom">
+                                        <i><img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24"></i>
+                                        <span>資料</span>
+                                    </p>
+                                    <button type="button" class="btn btnClose"></button>
+                                </label>
+                                <p class="or">or</p>
+                                <label class="label_url" for="動画のURL">動画のURL</label>
+                                <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                            </li>
+                        </ul>
+                        <button id="btn_addvideo" class="btn btn_addlink btn_addlink_theme" type="">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="plus-circle 1" clip-path="url(#clip0_452_22745)">
+                                    <path id="Vector" d="M9.99984 18.3337C14.6022 18.3337 18.3332 14.6027 18.3332 10.0003C18.3332 5.39795 14.6022 1.66699 9.99984 1.66699C5.39746 1.66699 1.6665 5.39795 1.6665 10.0003C1.6665 14.6027 5.39746 18.3337 9.99984 18.3337Z" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Vector_2" d="M10 6.66699V13.3337" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Vector_3" d="M6.6665 10H13.3332" stroke="#0168B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_452_22745">
+                                        <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            動画・資料を追加する
+                        </button>
+                    </div>
+                </div>`;
+            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
+        });
+
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('btnClose')) {
+                event.target.closest('.list-group-item').remove();
+            }
+        });
+
+        document.addEventListener('click', function(event) {
+            if (event.target.id === 'btn_addvideo') {
+                event.preventDefault();
+                const newListItem = `
+                    <li class="list-group-item">
+                        <label class="box_uploads">
+                            <input type="file" class="upload_default">
+                            <p class="upload_custom">
+                                <i><img src="assets/images/i_uploads.svg" alt="uploads cloud" width="24"></i>
+                                <span>資料</span>
+                            </p>
+                            <button type="button" class="btn btnClose"></button>
+                        </label>
+                        <p class="or">or</p>
+                        <label class="label_url" for="動画のURL">動画のURL</label>
+                        <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                        <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                    </li>`;
+                const listGroup = event.target.closest('.box_material_content').querySelector('#list_group');
+                listGroup.insertAdjacentHTML('beforeend', newListItem);
+                new Sortable(listGroup, {
+                    animation: 150,
+                    ghostClass: 'sortable-ghost'
+                });
+            }
+
+            if (event.target.classList.contains('btnClose')) {
+                event.target.closest('.list-group-item').remove();
+            }
+        });
+
+        document.querySelectorAll('#list_group').forEach(el => {
+            new Sortable(el, {
+                animation: 150,
+                ghostClass: 'sortable-ghost'
             });
         });
     </script>
