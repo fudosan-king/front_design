@@ -103,13 +103,13 @@
     <?php require 'navbar_left.php'; ?>
 
     <!--Container Main start-->
-    <div class="main_content">
+    <div class="main_content pb-200 h-auto">
         <div class="header_toggle"> <i class="bx bx-menu" id="header-toggle"></i> </div>
 
         <h2>テンプレートを選択してください</h2>
 
         <section class="section_template">
-            <h3>テンプレート１</h3>
+            <h3>基本テンプレート</h3>
             <form action="">
                 <div class="row">
                     <div class="col-12 col-lg-12">
@@ -129,8 +129,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>自己紹介付きのテンプレートです。<br>
-                                    製品・サービスの基本的な紹介や、商談後の資料の提供、カスタマーサポートでの資料提供などにご利用ください。</p>
+                                <div class="template_footer">
+                                    <p>自己紹介付きのテンプレートです。<br>
+                                        製品・サービスの基本的な紹介や、商談後の資料の提供、カスタマーサポートでの資料提供などにご利用ください。</p>
+                                </div>
                             </li>
                             <li>
                                 <div class="template_content">
@@ -147,8 +149,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>自己紹介付きのテンプレートです。<br>
-                                    製品・サービスの基本的な紹介や、商談後の資料の提供、カスタマーサポートでの資料提供などにご利用ください。</p>
+                                <div class="template_footer">
+                                    <p>自己紹介付きのテンプレートです。<br>
+                                        製品・サービスの基本的な紹介や、商談後の資料の提供、カスタマーサポートでの資料提供などにご利用ください。</p>
+                                </div>
                             </li>
                             <li>
                                 <div class="template_content">
@@ -165,13 +169,117 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>自己紹介付きのテンプレートです。<br>
-                                    製品・サービスの基本的な紹介や、商談後の資料の提供、カスタマーサポートでの資料提供などにご利用ください。</p>
+                                <div class="template_footer">
+                                    <p>自己紹介付きのテンプレートです。<br>
+                                        製品・サービスの基本的な紹介や、商談後の資料の提供、カスタマーサポートでの資料提供などにご利用ください。</p>
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </form>
+        </section>
+
+        <section class="section_template">
+            <div class="block_template">
+                <h3>お手本テンプレート</h3>
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 col-lg-12">
+                            <ul id="drag_template" class="template drag_template">
+                                <li>
+                                    <h4 class="template_name">自己紹介</h4>
+                                    <div class="template_content">
+                                        <div class="template_img">
+                                            <a href="#"><img class="img-fluid" src="assets/images/PC.png" alt="PC"></a>
+                                        </div>
+                                        <div class="box_button">
+                                            <div class="box_button_top">
+                                                <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
+                                                <a href="#" class="btn btn_opensample">サンプルを表示</a>
+                                            </div>
+                                            <div class="box_button_bottom">
+                                                <a href="#" class="btn btn_delete">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                                                    </svg> お手本を削除
+                                                </a>
+                                                <div class="box_button_bottom_footer">
+                                                    <p><span>最終修正日</span> YYYY.MM.DD</p>
+                                                    <p><span>最終修正者</span 山田太郎></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="template_footer">
+                                        <p>己紹介のお手本です。自己紹介のお手本です。自己紹介のお自手本です。自己紹介のお手本です。</p>
+                                        <a href="#" class="btn btn_edit">説明文Edit</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4 class="template_name">自己紹介</h4>
+                                    <div class="template_content">
+                                        <div class="template_img">
+                                            <a href="#"><img class="img-fluid" src="assets/images/PC.png" alt="PC"></a>
+                                        </div>
+                                        <div class="box_button">
+                                            <div class="box_button_top">
+                                                <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
+                                                <a href="#" class="btn btn_opensample">サンプルを表示</a>
+                                            </div>
+                                            <div class="box_button_bottom">
+                                                <a href="#" class="btn btn_delete">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                                                    </svg> お手本を削除
+                                                </a>
+                                                <div class="box_button_bottom_footer">
+                                                    <p><span>最終修正日</span> YYYY.MM.DD</p>
+                                                    <p><span>最終修正者</span 山田太郎></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="template_footer">
+                                        <p>己紹介のお手本です。自己紹介のお手本です。自己紹介のお自手本です。自己紹介のお手本です。</p>
+                                        <a href="#" class="btn btn_edit">説明文Edit</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4 class="template_name">自己紹介</h4>
+                                    <div class="template_content">
+                                        <div class="template_img">
+                                            <a href="#"><img class="img-fluid" src="assets/images/PC.png" alt="PC"></a>
+                                        </div>
+                                        <div class="box_button">
+                                            <div class="box_button_top">
+                                                <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
+                                                <a href="#" class="btn btn_opensample">サンプルを表示</a>
+                                            </div>
+                                            <div class="box_button_bottom">
+                                                <a href="#" class="btn btn_delete">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                                                    </svg> お手本を削除
+                                                </a>
+                                                <div class="box_button_bottom_footer">
+                                                    <p><span>最終修正日</span> YYYY.MM.DD</p>
+                                                    <p><span>最終修正者</span 山田太郎></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="template_footer">
+                                        <p>己紹介のお手本です。自己紹介のお手本です。自己紹介のお自手本です。自己紹介のお手本です。</p>
+                                        <a href="#" class="btn btn_edit">説明文Edit</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
         </section>
 
 
@@ -185,6 +293,29 @@
     <?php require 'modal.php'; ?>
 
     <?php require 'js-footer.php'; ?>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const poweredBy = document.querySelector('.btn_poweredby');
+
+            // Xử lý sự kiện scroll
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) { // Đổi giá trị 100 thành vị trí muốn ẩn điểm danh khi scroll
+                    poweredBy.style.opacity = '0';
+                } else {
+                    poweredBy.style.opacity = '1';
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var sortable = new Sortable(document.getElementById('drag_template'), {
+                animation: 150,
+                ghostClass: 'sortable-ghost',
+                chosenClass: 'sortable-chosen'
+            });
+        });
+    </script>
 </body>
 
 </html>
