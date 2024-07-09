@@ -366,6 +366,13 @@
             });
         });
 
+        function scrollToNewBlock(element) {
+            element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'end'
+            });
+        }
+
         document.getElementById('options0').addEventListener('click', function(event) {
             event.preventDefault();
             const newBlock = `
@@ -378,7 +385,9 @@
                         <button type="button" class="btn btnClose"></button>
                     </div>
                 </div>`;
-            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
+            const groupZone = document.getElementById('group_zone_demo');
+            groupZone.insertAdjacentHTML('beforeend', newBlock);
+            scrollToNewBlock(groupZone.lastElementChild);
         });
 
         document.getElementById('options01').addEventListener('click', function(event) {
@@ -409,7 +418,9 @@
                         <button type="button" class="btn btnClose"></button>
                     </div>
                 </div>`;
-            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
+            const groupZone = document.getElementById('group_zone_demo');
+            groupZone.insertAdjacentHTML('beforeend', newBlock);
+            scrollToNewBlock(groupZone.lastElementChild);
         });
 
         document.getElementById('options02').addEventListener('click', function(event) {
@@ -430,7 +441,9 @@
                         </div>
                     </div>
                 </div>`;
-            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
+            const groupZone = document.getElementById('group_zone_demo');
+            groupZone.insertAdjacentHTML('beforeend', newBlock);
+            scrollToNewBlock(groupZone.lastElementChild);
         });
 
         document.getElementById('options03').addEventListener('click', function(event) {
@@ -472,13 +485,14 @@
                         </button>
                     </div>
                 </div>`;
-            document.getElementById('group_zone_demo').insertAdjacentHTML('beforeend', newBlock);
-        });
+            const groupZone = document.getElementById('group_zone_demo');
+            groupZone.insertAdjacentHTML('beforeend', newBlock);
+            scrollToNewBlock(groupZone.lastElementChild);
 
-        document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('btnClose')) {
-                event.target.closest('.list-group-item').remove();
-            }
+            new Sortable(document.getElementById('list_group'), {
+                animation: 150,
+                ghostClass: 'sortable-ghost'
+            });
         });
 
         document.addEventListener('click', function(event) {
@@ -505,6 +519,7 @@
                     animation: 150,
                     ghostClass: 'sortable-ghost'
                 });
+                scrollToNewBlock(listGroup.lastElementChild);
             }
 
             if (event.target.classList.contains('btnClose')) {
