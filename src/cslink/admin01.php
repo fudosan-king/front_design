@@ -133,7 +133,7 @@
                                                             </p>
                                                         </label>
                                                         <p class="or">or</p>
-                                                        <label class="label_url" for="動画のURL">動画のURL</label>
+                                                        <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
                                                         <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                                         <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                         <button id="btnClose" type="button" class="btn btnClose"></button>
@@ -149,7 +149,7 @@
                                                             </p>
                                                         </label>
                                                         <p class="or">or</p>
-                                                        <label class="label_url" for="動画のURL">動画のURL</label>
+                                                        <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
                                                         <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                                         <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                         <button id="btnClose" type="button" class="btn btnClose"></button>
@@ -165,7 +165,7 @@
                                                             </p>
                                                         </label>
                                                         <p class="or">or</p>
-                                                        <label class="label_url" for="動画のURL">動画のURL</label>
+                                                        <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
                                                         <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                                         <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                         <button id="btnClose" type="button" class="btn btnClose"></button>
