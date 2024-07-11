@@ -178,7 +178,7 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+                                                    <textarea class="form-control textarea_custom" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
                                                     <button type="button" class="btn btnClose"></button>
                                                 </div>
                                             </div>
