@@ -258,6 +258,14 @@ header h1 a:hover {
   background-blend-mode: normal, color, normal;
   filter: blur(5px);
 }
+.section_banner h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin-bottom: 0;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
 .section_banner h3 {
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
   font-size: 2em;
@@ -530,6 +538,10 @@ header h1 a:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.section_abundant h3 i {
+  font-style: normal;
+  display: block;
 }
 .section_abundant p {
   font-size: 1.125em;
@@ -1181,6 +1193,9 @@ footer .footer_content ul li a {
     font-size: 0.875em;
     letter-spacing: 1.4px;
   }
+  .section_banner h2 {
+    font-size: 1.75em;
+  }
   .section_banner h3 {
     font-size: 1.5em;
   }
@@ -1261,6 +1276,9 @@ footer .footer_content ul li a {
   .section_abundant h3 {
     font-size: 1.5em;
     margin-bottom: 20px;
+  }
+  .section_abundant h3 i {
+    display: inline-block;
   }
   .section_abundant p {
     font-size: 1em;
