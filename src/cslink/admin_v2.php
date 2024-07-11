@@ -139,7 +139,7 @@
                                                 <div class="block_title">
                                                     <h2>
                                                         <span></span>
-                                                        <input type="text" class="form-control" placeholder="見出し">
+                                                        <input type="text" class="form-control" placeholder="サブタイトル">
                                                     </h2>
                                                     <button type="button" class="btn btnClose"></button>
                                                 </div>
@@ -216,7 +216,7 @@
                                                                 <button type="button" class="btn btnClose"></button>
                                                             </label>
                                                             <p class="or">or</p>
-                                                            <label class="label_url" for="動画のURL">動画のURL</label>
+                                                            <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
                                                             <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                                             <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                         </li>
@@ -233,7 +233,7 @@
                                                                 <button type="button" class="btn btnClose"></button>
                                                             </label>
                                                             <p class="or">or</p>
-                                                            <label class="label_url" for="動画のURL">動画のURL</label>
+                                                            <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
                                                             <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                                             <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                                                         </li>
@@ -380,7 +380,7 @@
                     <div class="block_title">
                         <h2>
                             <span></span>
-                            <input type="text" class="form-control" placeholder="見出し">
+                            <input type="text" class="form-control" placeholder="サブタイトル">
                         </h2>
                         <button type="button" class="btn btnClose"></button>
                     </div>
@@ -463,7 +463,7 @@
                                     <button type="button" class="btn btnClose"></button>
                                 </label>
                                 <p class="or">or</p>
-                                <label class="label_url" for="動画のURL">動画のURL</label>
+                                <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
                                 <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                                 <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                             </li>
@@ -509,7 +509,7 @@
                             <button type="button" class="btn btnClose"></button>
                         </label>
                         <p class="or">or</p>
-                        <label class="label_url" for="動画のURL">動画のURL</label>
+                        <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
                         <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
                         <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
                     </li>`;
