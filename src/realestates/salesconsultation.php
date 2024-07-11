@@ -279,7 +279,7 @@
 
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label class="col-form-label require_cus">ご住所 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">物件所在地<span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center g-2 g-lg-4 mb-3">
