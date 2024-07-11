@@ -34,9 +34,9 @@
                                             <input type="text" class="form-control" placeholder="サブタイトル">
                                         </h2>
 
-                                        <div class="standard_post_main_img new">
-                                            <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3>
-                                            <ul>
+                                        <div class="standard_post_main_img edit">
+                                            <!-- <h3><img src="assets/images/i_collection.svg" alt="collection icon" width="31"> メインイメージ</h3> -->
+                                            <!-- <ul>
                                                 <li>
                                                     <a href="#"><img src="assets/images/uploads/01.jpg" alt="01"></a>
                                                 </li>
@@ -63,12 +63,18 @@
                                                         </p>
                                                     </label>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
+
+                                            <div class="standard_post_main_edit">
+                                                <div class="standard_post_main_img_edit">
+                                                    <img class="img-fluid " src="https://as1.ftcdn.net/v2/jpg/07/93/19/06/1000_F_793190659_hLAN3Cq0AaIZt66m5ITU25JrXMkw1Vhx.jpg" alt="">
+                                                </div>
+                                                <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
+                                            </div>
                                         </div>
 
 
                                         <div class="box_reverse">
-                                            <textarea class="form-control" rows="" cols="" placeholder="例）製品・サービスなどについての説明。"></textarea>
                                             <div id="group_zone_demo" class="list-group">
                                                 <div class="list-group-item">
                                                     <div id="box_text_link_item" class="box_text_link_item list-group nested-sortable">

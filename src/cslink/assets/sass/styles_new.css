@@ -16,6 +16,19 @@
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60%;
+  /* Tính toán tỷ lệ 4:3 dựa trên chiều rộng 60% */
+  position: relative;
+}
+.main_right.new_templates .standard_article .standard_post_img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Đảm bảo hình ảnh luôn che phủ toàn bộ box */
 }
 .main_right.new_templates .standard_article .box_reverse {
   max-width: 725px;
@@ -606,6 +619,47 @@
   align-items: center;
 }
 
+.standard_article .block_fulltextimage {
+  display: flex;
+}
+.standard_article .block_fulltextimage .standard_post_img {
+  width: 60%;
+}
+.standard_article .block_fulltextimage .standard_content {
+  width: 40%;
+  margin-left: 20px;
+}
+.standard_article .block_onlytext .standard_content {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.standard_post_main_edit {
+  display: flex;
+}
+.standard_post_main_edit .standard_post_main_img_edit {
+  width: 60%;
+  padding-top: 45%;
+  /* 4:3 ratio (4/3 = 1.33333, 1.33333 * 100 = 75%) */
+  position: relative;
+}
+.standard_post_main_edit .standard_post_main_img_edit img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Đảm bảo hình ảnh luôn che phủ toàn bộ box */
+}
+.standard_post_main_edit textarea {
+  width: 40%;
+  margin-left: 20px;
+  height: 150px;
+}
+
 @media (max-width: 1180px) {
   .main_right.template2 {
     min-width: 100%;
@@ -662,6 +716,7 @@
   }
   .main_right.new_templates .standard_article .standard_post_img {
     max-width: 100%;
+    padding-top: 75%;
   }
   .main_right.new_templates .standard_article .box_reverse .standard_download .link_description_text_editor2 {
     text-align: center;
@@ -719,6 +774,31 @@
   }
   .box_reverse .button_size span {
     font-size: 0.625em;
+  }
+  .standard_article .block_fulltextimage {
+    flex-direction: column;
+  }
+  .standard_article .block_fulltextimage .standard_post_img {
+    width: 100%;
+  }
+  .standard_article .block_fulltextimage .standard_content {
+    width: 100%;
+    margin-left: 0;
+  }
+  .standard_post_main_img.edit {
+    padding: 15px;
+  }
+  .standard_post_main_edit {
+    flex-direction: column;
+  }
+  .standard_post_main_edit .standard_post_main_img_edit {
+    width: 100%;
+    padding-top: 75%;
+  }
+  .standard_post_main_edit textarea {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
   }
 }
 @media (max-width: 430px) {
