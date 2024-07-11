@@ -792,7 +792,57 @@
     }
 }
 
+.standard_post_main_img {
+    &.edit {
+        display: flex;
 
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* Chia thành 2 cột đều nhau */
+            gap: 10px;
+            /* Khoảng cách giữa các phần tử */
+
+            width: 60%;
+
+            li {
+                margin-right: 0;
+                margin-bottom: 0;
+                max-width: inherit;
+                min-width: inherit;
+                height: auto;
+
+                &:nth-of-type(2n) {
+                    margin-right: 0;
+                }
+
+                &:nth-of-type(3n) {
+                    margin-right: 0;
+                }
+
+                a {
+                    img {
+                        height: 150px;
+                    }
+                }
+            }
+        }
+
+        textarea {
+            width: 40%;
+            margin-left: 20px;
+            height: 150px;
+        }
+
+        .box_uploads {
+            height: 150px;
+
+            .upload_custom {
+                justify-content: center;
+            }
+        }
+    }
+}
 
 .standard_post_main_edit {
     display: flex;
@@ -814,11 +864,7 @@
         }
     }
 
-    textarea {
-        width: 40%;
-        margin-left: 20px;
-        height: 150px;
-    }
+
 }
 
 
@@ -1049,6 +1095,17 @@
     .standard_post_main_img {
         &.edit {
             padding: 15px;
+            flex-direction: column;
+
+            ul {
+                width: 100%;
+            }
+
+            textarea {
+                margin-left: 0;
+                margin-top: 15px;
+                width: 100%;
+            }
         }
     }
 
@@ -1064,6 +1121,22 @@
             width: 100%;
             margin-left: 0;
             margin-top: 15px;
+        }
+    }
+}
+
+@media (max-width: 834px) {
+    .standard_post_main_img {
+        &.edit {
+            ul {
+                li {
+                    width: auto;
+
+                    &:nth-of-type(5n) {
+                        margin-right: 0;
+                    }
+                }
+            }
         }
     }
 }
