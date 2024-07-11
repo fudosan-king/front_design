@@ -275,6 +275,15 @@ header {
     filter: blur(5px);
   }
 
+  h2 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 0;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.10);
+  }
+
   h3 {
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
     font-size: 2em;
@@ -592,6 +601,11 @@ header {
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+
+    i {
+      font-style: normal;
+      display: block;
     }
   }
 
@@ -1388,6 +1402,10 @@ footer {
       }
     }
 
+    h2 {
+      font-size: 1.75em;
+    }
+
     h3 {
       font-size: 1.5em;
 
@@ -1493,6 +1511,10 @@ footer {
     h3 {
       font-size: 1.5em;
       margin-bottom: 20px;
+
+      i {
+        display: inline-block;
+      }
     }
 
     p {

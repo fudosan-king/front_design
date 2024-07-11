@@ -11,12 +11,12 @@
 
         <div class="salesconsultation_page">
 
-            <?php 
-                $query = array();
-                parse_str($_SERVER['QUERY_STRING'], $query);
-                // // print_r($query['aza']);
-                // echo $query['aza'] ?? "";
-                // exit();
+            <?php
+            $query = array();
+            parse_str($_SERVER['QUERY_STRING'], $query);
+            // // print_r($query['aza']);
+            // echo $query['aza'] ?? "";
+            // exit();
             ?>
 
             <section class="section_subbanner">
@@ -24,26 +24,27 @@
                     <div class="row">
                         <div class="col-12">
 
-                            <?php if(!isset($_GET['finish']) || $_GET['finish'] != 1): ?>
+                            <?php if (!isset($_GET['finish']) || $_GET['finish'] != 1) : ?>
                                 <h2>無料査定依頼・売却相談</h2>
                                 <p>必要事項をご入力の上、「入力内容を確認する」ボタンを押してください。</p>
-                            <?php else: ?>
+                            <?php else : ?>
                                 <h2>お問い合わせが完了しました</h2>
                                 <p>
                                     お問い合わせありがとうございます。<br>
                                     後ほど、担当者からご連絡させて頂きます。<br>
-                                    今しばらくお待ち下さい。</div>
-                                    <p>※休業日などでご返信が遅くなる場合がございます。<br>
-                                    お急ぎの場合はお電話でご確認お願いいたします。
-                                </p><br><br><br>
-                            <?php endif; ?>
-
+                                    今しばらくお待ち下さい。
                         </div>
+                        <p>※休業日などでご返信が遅くなる場合がございます。<br>
+                            お急ぎの場合はお電話でご確認お願いいたします。
+                        </p><br><br><br>
+                    <?php endif; ?>
+
                     </div>
                 </div>
-            </section>
+        </div>
+        </section>
 
-            <?php if(!isset($_GET['finish']) || $_GET['finish'] != 1): ?>
+        <?php if (!isset($_GET['finish']) || $_GET['finish'] != 1) : ?>
             <section class="section_salesconsultation">
                 <div class="container">
                     <div class="row">
@@ -58,7 +59,7 @@
                                             <h2>査定方法・ご相談内容の種別</h2>
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus mt-lg-3">ご希望の査定方法 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus mt-lg-3">ご希望の査定方法 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row g-2 align-items-center">
@@ -93,7 +94,7 @@
                                             <div class="block_content_highline">
                                                 <div class="row g-3 mb-3">
                                                     <div class="col-12 col-lg-3">
-                                                        <label  class="col-form-label">間取り</label>
+                                                        <label class="col-form-label">間取り</label>
                                                     </div>
                                                     <div class="col-12 col-lg-9">
                                                         <div class="row">
@@ -131,7 +132,7 @@
 
                                                 <div class="row g-3 mb-3">
                                                     <div class="col-12 col-lg-3">
-                                                        <label  class="col-form-label">専有面積</label>
+                                                        <label class="col-form-label">専有面積</label>
                                                     </div>
                                                     <div class="col-12 col-lg-9">
                                                         <div class="row align-items-center">
@@ -156,7 +157,7 @@
 
                                                 <div class="row">
                                                     <div class="col-12 col-lg-3">
-                                                        <label  class="col-form-label">築年</label>
+                                                        <label class="col-form-label">築年</label>
                                                     </div>
                                                     <div class="col-12 col-lg-9">
                                                         <select class="form-select" name="birthyear" id="birthyear">
@@ -278,30 +279,30 @@
 
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">物件所在地 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">ご住所 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center g-2 g-lg-4 mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >郵便番号</label>
+                                                            <label class="text-lg-end d-block">郵便番号</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="w_addresssearch position-relative">
-                                                                <input class="form-control" type="text" name="shiire_post" value="<?=$query['post'] ?? ''?>" placeholder="1234567" onkeyup="AjaxZip3.zip2addr(this,'','shiire_pref','shiire_city', 'shiire_aza');" required>
+                                                                <input class="form-control" type="text" name="shiire_post" value="<?= $query['post'] ?? '' ?>" placeholder="1234567" onkeyup="AjaxZip3.zip2addr(this,'','shiire_pref','shiire_city', 'shiire_aza');" required>
                                                                 <button type="button" class="btn btn_addresssearch" onclick="AjaxZip3.zip2addr('shiire_post','','shiire_pref','shiire_city', 'shiire_aza');"><i></i> 住所検索</button>
                                                                 <div class="invalid-tooltip">
                                                                     値を入力してください
                                                                 </div>
                                                             </div>
                                                             <div class="invalid-tooltip">
-                                                              値を入力してください
+                                                                値を入力してください
                                                             </div>
                                                         </div>
                                                     </div>
 
                                                     <div class="row align-items-center g-2 g-lg-4 mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >都道府県</label>
+                                                            <label class="text-lg-end d-block">都道府県</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10 position-relative">
                                                             <select class="form-select" name="shiire_pref" required>
@@ -362,25 +363,25 @@
 
                                                     <div class="row align-items-center g-2 g-lg-4 mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >市区町村</label>
+                                                            <label class="text-lg-end d-block">市区町村</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
-                                                            <input class="form-control" type="text" name="shiire_city" value="<?=$query['city'] ?? ''?>">
+                                                            <input class="form-control" type="text" name="shiire_city" value="<?= $query['city'] ?? '' ?>">
                                                         </div>
                                                     </div>
 
                                                     <div class="row align-items-center g-2 g-lg-4 mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >丁目番地</label>
+                                                            <label class="text-lg-end d-block">丁目番地</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
-                                                            <input class="form-control" type="text" name="shiire_aza" value="<?=$query['aza'] ?? ''?>">
+                                                            <input class="form-control" type="text" name="shiire_aza" value="<?= $query['aza'] ?? '' ?>">
                                                         </div>
                                                     </div>
 
                                                     <div class="row align-items-center align-items-lg-center g-2 g-lg-4 ">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" ><i class="label_name">建物・部屋番号</i></label>
+                                                            <label class="text-lg-end d-block"><i class="label_name">建物・部屋番号</i></label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <input class="form-control" type="text" name="shiire_building_roomnumber" value="">
@@ -394,7 +395,7 @@
 
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label">その他お問い合わせ</label>
+                                                    <label class="col-form-label">その他お問い合わせ</label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <textarea name="free_detail_contact" rows="" cols="" class="form-control" placeholder="ご希望・ご質問・物件に関しての追加情報等ございましたらご記入ください。"></textarea>
@@ -407,7 +408,7 @@
                                             <h2>連絡先をご入力ください</h2>
                                             <div class="row g-3 mb-4">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">お名前 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">お名前 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center">
@@ -428,7 +429,7 @@
                                             </div>
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">フリガナ <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">フリガナ <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center">
@@ -452,12 +453,12 @@
 
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">物件所在地 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">ご住所 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label  class="text-lg-end d-block">郵便番号</label>
+                                                            <label class="text-lg-end d-block">郵便番号</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="w_addresssearch position-relative">
@@ -473,7 +474,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label  class="text-lg-end d-block">都道府県</label>
+                                                            <label class="text-lg-end d-block">都道府県</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10 position-relative">
                                                             <select class="form-select" name="pref" required>
@@ -534,7 +535,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label  class="text-lg-end d-block">市区町村</label>
+                                                            <label class="text-lg-end d-block">市区町村</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <input class="form-control" type="text" name="city" value="">
@@ -543,7 +544,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label  class="text-lg-end d-block">丁目番地</label>
+                                                            <label class="text-lg-end d-block">丁目番地</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <input class="form-control" type="text" name="aza" value="">
@@ -552,7 +553,7 @@
 
                                                     <div class="row align-items-center">
                                                         <div class="col-3 col-lg-2">
-                                                            <label  class="text-lg-end d-block"><i class="label_name">建物・部屋番号</i></label>
+                                                            <label class="text-lg-end d-block"><i class="label_name">建物・部屋番号</i></label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <input class="form-control" type="text" name="building_roomnumber" value="">
@@ -565,7 +566,7 @@
 
                                             <div class="row g-3 mb-4">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">ご連絡先電話番号 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">ご連絡先電話番号 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 position-relative">
                                                     <input type="tel" name="phone-number" class="form-control" required>
@@ -577,7 +578,7 @@
 
                                             <div class="row g-3 mb-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">メールアドレス <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">メールアドレス <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="position-relative">
@@ -587,12 +588,12 @@
                                                         </div>
                                                     </div>
                                                     <div class="position-relative">
-                                                        <input type="email" name="email-confirm"  class="form-control" placeholder="確認用" required>
+                                                        <input type="email" name="email-confirm" class="form-control" placeholder="確認用" required>
                                                         <div class="invalid-tooltip">
                                                             <span class="error_email-confirm">値を入力してください</spa>
                                                         </div>
                                                     </div>
-                                                    
+
                                                 </div>
                                             </div>
 
@@ -620,7 +621,7 @@
                                             <h2>査定方法・ご相談内容の種別</h2>
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus mt-lg-3">ご希望の査定方法 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus mt-lg-3">ご希望の査定方法 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 align-self-center">
                                                     <div class="row g-2 align-items-center">
@@ -637,7 +638,7 @@
                                             <div class="block_content_highline">
                                                 <div class="row g-3 mb-3">
                                                     <div class="col-12 col-lg-3">
-                                                        <label  class="col-form-label">間取り</label>
+                                                        <label class="col-form-label">間取り</label>
                                                     </div>
                                                     <div class="col-12 col-lg-9">
                                                         <div class="row">
@@ -650,7 +651,7 @@
 
                                                 <div class="row g-3 mb-3">
                                                     <div class="col-12 col-lg-3">
-                                                        <label  class="col-form-label">専有面積</label>
+                                                        <label class="col-form-label">専有面積</label>
                                                     </div>
                                                     <div class="col-12 col-lg-9">
                                                         <div class="row align-items-center">
@@ -661,7 +662,7 @@
 
                                                 <div class="row">
                                                     <div class="col-12 col-lg-3">
-                                                        <label  class="col-form-label">築年</label>
+                                                        <label class="col-form-label">築年</label>
                                                     </div>
                                                     <div class="col-12 col-lg-9">
                                                         <div class="row align-items-center">
@@ -676,12 +677,12 @@
 
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">物件所在地 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">物件所在地 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >郵便番号</label>
+                                                            <label class="text-lg-end d-block">郵便番号</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_shiire_post"></div>
@@ -690,7 +691,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >都道府県</label>
+                                                            <label class="text-lg-end d-block">都道府県</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_shiire_pref"></div>
@@ -699,7 +700,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >市区町村</label>
+                                                            <label class="text-lg-end d-block">市区町村</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_shiire_city"></div>
@@ -708,7 +709,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >丁目番地</label>
+                                                            <label class="text-lg-end d-block">丁目番地</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_shiire_aza"></div>
@@ -717,7 +718,7 @@
 
                                                     <div class="row align-items-center">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" ><i class="label_name">建物・部屋番号</i></label>
+                                                            <label class="text-lg-end d-block"><i class="label_name">建物・部屋番号</i></label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_shiire_building_roomnumber"></div>
@@ -731,7 +732,7 @@
 
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label">その他お問い合わせ</label>
+                                                    <label class="col-form-label">その他お問い合わせ</label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center">
@@ -746,7 +747,7 @@
                                             <h2>連絡先をご入力ください</h2>
                                             <div class="row g-3 mb-4">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">お名前 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">お名前 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 align-self-center">
                                                     <div class="row align-items-center">
@@ -756,7 +757,7 @@
                                             </div>
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">フリガナ <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">フリガナ <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 align-self-center">
                                                     <div class="row align-items-center">
@@ -769,12 +770,12 @@
 
                                             <div class="row g-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">物件所在地 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">ご住所 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9">
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >郵便番号</label>
+                                                            <label class="text-lg-end d-block">郵便番号</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_post"></div>
@@ -783,7 +784,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >都道府県</label>
+                                                            <label class="text-lg-end d-block">都道府県</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_pref"></div>
@@ -792,7 +793,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >市区町村</label>
+                                                            <label class="text-lg-end d-block">市区町村</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_city"></div>
@@ -801,7 +802,7 @@
 
                                                     <div class="row align-items-center mb-3">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" >丁目番地</label>
+                                                            <label class="text-lg-end d-block">丁目番地</label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_aza"></div>
@@ -810,7 +811,7 @@
 
                                                     <div class="row align-items-center">
                                                         <div class="col-3 col-lg-2">
-                                                            <label class="text-lg-end d-block" ><i class="label_name">建物・部屋番号</i></label>
+                                                            <label class="text-lg-end d-block"><i class="label_name">建物・部屋番号</i></label>
                                                         </div>
                                                         <div class="col-9 col-lg-10">
                                                             <div class="cfrm_building_roomnumber"></div>
@@ -824,7 +825,7 @@
 
                                             <div class="row g-3 mb-4">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">ご連絡先電話番号 <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">ご連絡先電話番号 <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 align-self-center">
                                                     <div class="row align-items-center">
@@ -835,7 +836,7 @@
 
                                             <div class="row g-3 mb-3">
                                                 <div class="col-12 col-lg-3">
-                                                    <label  class="col-form-label require_cus">メールアドレス <span>必須</span></label>
+                                                    <label class="col-form-label require_cus">メールアドレス <span>必須</span></label>
                                                 </div>
                                                 <div class="col-12 col-lg-9 align-self-center">
                                                     <div class="row align-items-center">
@@ -846,12 +847,19 @@
 
                                             <hr>
 
-                                              <!-- "Tags for blocking bot submissions" -->
-                                              <div class="_formrun_gotcha">
-                                                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                                            <!-- "Tags for blocking bot submissions" -->
+                                            <div class="_formrun_gotcha">
+                                                <style media="screen">
+                                                    ._formrun_gotcha {
+                                                        position: absolute !important;
+                                                        height: 1px;
+                                                        width: 1px;
+                                                        overflow: hidden;
+                                                    }
+                                                </style>
                                                 <label for="_formrun_gotcha">If you are a human, ignore this field</label>
                                                 <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-                                              </div>
+                                            </div>
 
                                             <div align="center">
                                                 <div id="grecaptchaV2" style="display:inline-block; margin-bottom: 30px"></div>
@@ -872,8 +880,8 @@
                     </div>
                 </div>
             </section>
-            <?php endif; ?>
-        </div>
+        <?php endif; ?>
+    </div>
 
 
     </div>
@@ -882,14 +890,14 @@
     <?php require 'footer.php'; ?>
     <?php require 'js-footer.php'; ?>
 
-    <?php 
-        if(isset($query['post']) && !empty($query['post'])) {
-            ?>
-            <script>
-                AjaxZip3.zip2addr('shiire_post','','shiire_pref','shiire_city', 'shiire_aza');
-            </script>
-            <?php
-        }
+    <?php
+    if (isset($query['post']) && !empty($query['post'])) {
+    ?>
+        <script>
+            AjaxZip3.zip2addr('shiire_post', '', 'shiire_pref', 'shiire_city', 'shiire_aza');
+        </script>
+    <?php
+    }
     ?>
 </body>
 

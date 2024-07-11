@@ -14,7 +14,11 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="content_banner">
-                            <h2 data-aos="fade-up" data-aos-duration="900"><img class="img-fluid" src="assets/images/title_banner.svg" alt="title banner"></h2>
+                            <h2 data-aos="fade-up" data-aos-duration="900">
+                                <!-- <img class="img-fluid" src="assets/images/title_banner.svg" alt="title banner"> -->
+                                <span class="d-inline d-lg-block">あなたの大切なお住まいを</span>
+                                買い取りさせてください
+                            </h2>
                             <!-- <h3><span><i>1970〜1990年代築</i></span> <span><i>80㎡以上</i></span></h3> -->
                             <h3 data-aos="fade-up" data-aos-duration="1000"><img src="assets/images/label_pc.svg" alt="label" class="img-fluid d-none d-lg-block">
                                 <img src="assets/images/label_sp.svg" alt="label" class="img-fluid d-block d-lg-none">
@@ -47,7 +51,7 @@
                                 マンション専門だから<br>
                                 価値がわかる</h2>
                             <h3 data-aos="fade-up" data-aos-duration="2000">東京都心を中心に<br>
-                                1700件<span>※</span>超の豊富な買取実績</h3>
+                                1700件<span>※</span>超の豊富な<i>買取分譲実績</i></h3>
                             <p data-aos="fade-up" data-aos-duration="3000">1700件を超える買取実績と都心の高級ヴィンテージマンション専門ならではの経験と独自のノウハウを活かして高額な買取金額をご提案。築年数、内装状況問わず買い取ります。<br>
                                 あなたの大切なお住まいをお任せください。</p>
                             <p><small>※買取サービスを実施するグループ企業の不動産分譲会社の実績です。</small></p>
