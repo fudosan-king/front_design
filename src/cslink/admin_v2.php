@@ -73,6 +73,13 @@
                                                 </div>
                                             </div>
 
+                                            <div class="box_scheduleurl">
+                                                <label for="pf_url">スケジュール調整のURL</label>
+                                                <p>
+                                                    <input id="pf_url" class="form-control form-input-profile" type="text" name="profile_url" value="" placeholder="例）https://www.********" maxlength="50">
+                                                </p>
+                                            </div>
+
                                             <div class="form_group"><span>生年月日</span> <input type="text" name="" value="" placeholder="例) 1990年4月1日"></div>
                                             <div class="form_group"><span>出身地</span> <input type="text" name="" value="" placeholder="例) 神奈川県"></div>
                                             <div class="form_group"><span>出身校</span> <input type="text" name="" value="" placeholder="例) ○○大学"></div>
@@ -82,6 +89,20 @@
                                             <p class="about_me_desc mb-0">
                                                 <textarea rows="" cols="" class="form-control" placeholder="自由テキスト欄"></textarea>
                                             </p>
+
+                                            <div class="form_group form_group_infomation mt-3">
+                                                <span class="label_input_profile">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                                    </svg>
+                                                </span>
+                                                <input type="url" class="input_profile_infomation form-input-profile" name="profile_twiter" value="" placeholder="https://x.com/">
+                                            </div>
+
+                                            <div class="form_group form_group_infomation mt-3">
+                                                <span class="label_input_profile">Instagram</span>
+                                                <input type="url" class="input_profile_infomation form-input-profile" name="profile_instagram" value="" placeholder="https://instagram.com">
+                                            </div>
 
                                         </aside>
 
@@ -524,6 +545,19 @@
 
             if (event.target.classList.contains('btnClose')) {
                 event.target.closest('.list-group-item').remove();
+            }
+        });
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var el = document.getElementById('list_group');
+            if (el) {
+                new Sortable(el, {
+                    animation: 150
+                });
+            } else {
+                console.error('Element with ID "list_group" not found.');
             }
         });
 

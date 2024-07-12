@@ -360,11 +360,6 @@
                 box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.02);
                 border-radius: 5px;
             }
-
-            .about_me_desc {
-                overflow: auto;
-                height: 270px;
-            }
         }
     }
 }
@@ -866,6 +861,15 @@
 textarea {
     &.textarea_custom {
         height: 130px;
+    }
+}
+
+.box_scheduleurl {
+    label {
+        font-weight: 600;
+        font-size: 0.875em;
+        text-align: left;
+        display: block;
     }
 }
 
