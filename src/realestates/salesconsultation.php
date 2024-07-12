@@ -41,10 +41,9 @@
 
                     </div>
                 </div>
-        </div>
-        </section>
+            </section>
 
-        <?php if (!isset($_GET['finish']) || $_GET['finish'] != 1) : ?>
+            <?php if (!isset($_GET['finish']) || $_GET['finish'] != 1) : ?>
             <section class="section_salesconsultation">
                 <div class="container">
                     <div class="row">
@@ -571,7 +570,7 @@
                                                 <div class="col-12 col-lg-9 position-relative">
                                                     <input type="tel" name="phone-number" class="form-control" required>
                                                     <div class="invalid-tooltip">
-                                                        <span class="error_phone-number">値を入力してください</spa>
+                                                        <span class="error_phone-number">値を入力してください</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -584,13 +583,13 @@
                                                     <div class="position-relative">
                                                         <input type="email" name="email" id="email" class="form-control mb-3" placeholder="半角英数" required>
                                                         <div class="invalid-tooltip">
-                                                            <span class="error_email">値を入力してください</spa>
+                                                            <span class="error_email">値を入力してください</span>
                                                         </div>
                                                     </div>
                                                     <div class="position-relative">
                                                         <input type="email" name="email-confirm" class="form-control" placeholder="確認用" required>
                                                         <div class="invalid-tooltip">
-                                                            <span class="error_email-confirm">値を入力してください</spa>
+                                                            <span class="error_email-confirm">値を入力してください</span>
                                                         </div>
                                                     </div>
 
@@ -872,15 +871,16 @@
                                             </div>
 
                                         </div>
-
                                     </div>
                                 </section>
+
                             </form>
                         </div>
                     </div>
                 </div>
             </section>
-        <?php endif; ?>
+            <?php endif; ?>
+        </div>
     </div>
 
 

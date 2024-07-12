@@ -4,7 +4,7 @@
             <div class="col-12">
                 <h1>
                     <a href="index.php">
-                        <span>高級マンション買取専門</span> 東京ヴィンテージ不動産
+                        <img class="img-fluid" src="assets/images/logo.png" alt="高額不動産買取専門 東京マンションオールディーズ" width="320">
                     </a>
                 </h1>
             </div>
