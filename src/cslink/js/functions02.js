@@ -249,11 +249,11 @@ new Sortable(document.getElementById('list_group'), {
     animation: 150
 });
 
-new Sortable(document.getElementById('list_group2'), {
-    group: {
-        name: 'shared',
-        pull: false,
-        put: false
-    },
-    animation: 150
-});
+// new Sortable(document.getElementById('list_group2'), {
+//     group: {
+//         name: 'shared',
+//         pull: false,
+//         put: false
+//     },
+//     animation: 150
+// });
