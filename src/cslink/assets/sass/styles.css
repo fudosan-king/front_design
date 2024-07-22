@@ -11,16 +11,20 @@ a {
   border-radius: 0;
 }
 
-.btn, a, .btn:hover {
+.btn,
+a,
+.btn:hover {
   transition: color 0.25s ease;
 }
 
-.btn:hover, .btn.focus {
+.btn:hover,
+.btn.focus {
   color: #0168B7;
   transition: all 0.3s linear;
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   box-shadow: none;
 }
 
@@ -85,7 +89,12 @@ body {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "SF Pro Display", "Noto Sans JP", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
   line-height: 1.5em;
   text-rendering: optimizeLegibility;
@@ -97,12 +106,15 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-*, :before, :after {
+*,
+:before,
+:after {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   position: relative;
   height: 100%;
 }
@@ -139,7 +151,12 @@ section {
 }
 
 @media (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
     max-width: 1127px;
   }
 }
@@ -233,12 +250,12 @@ header h1 {
   font-weight: 700;
   font-size: 1em;
 }
-.main_left .box_info p {
+.main_left .box_info .form-group p {
   text-align: left;
   line-height: 1em;
   margin-bottom: 15px;
 }
-.main_left .box_info p span {
+.main_left .box_info .form-group p span {
   display: inline-block;
   background: #000;
   color: #fff;
@@ -824,7 +841,8 @@ footer ul li a {
 .btn_addlink.active:hover {
   background: #02487e;
 }
-.btn_addlink img, .btn_addlink svg {
+.btn_addlink img,
+.btn_addlink svg {
   margin-right: 10px;
 }
 
