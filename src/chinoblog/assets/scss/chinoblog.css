@@ -1,0 +1,120 @@
+header {
+  padding: 0 2rem;
+}
+header .block {
+  display: flex;
+  justify-content: space-between;
+}
+header .block nav ul.mega_menu {
+  font-size: 0.8rem;
+  display: flex;
+}
+header .block nav ul.mega_menu li {
+  font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+  line-height: 1.6rem;
+}
+header .block nav ul.mega_menu li a {
+  display: block;
+  padding: 1.5rem 1rem;
+  position: relative;
+  text-decoration: none;
+}
+header .block nav ul.mega_menu li.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 20px 10px;
+  border-color: transparent transparent #f0e9d9 transparent;
+  opacity: 0;
+}
+header .block nav ul.mega_menu li ul.child_menu {
+  display: flex;
+  box-shadow: 0px 5px 5px #555;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  align-items: center;
+  padding: 2rem;
+  background: #f0e9d9;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s top, 1s opacity;
+  width: 100%;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl {
+  width: 30%;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl b {
+  font-size: 1.8rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl span {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.ttl span::after {
+  content: "";
+  background: #000;
+  display: block;
+  margin-top: 1.5rem;
+  height: 2px;
+  width: 100px;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link {
+  width: 250px;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+header .block nav ul.mega_menu li ul.child_menu li.link span::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0 0.5em 0 0;
+  border: 5px solid transparent;
+  border-right: 0 solid transparent;
+  border-left: 8px solid #000;
+}
+header .block nav ul.mega_menu li ul.child_menu li img {
+  filter: grayscale(100%);
+  width: 100%;
+}
+header .block__ttl {
+  display: flex;
+  align-items: flex-end;
+}
+header .block__ttl h1 {
+  padding-bottom: 0.7rem;
+  width: 230px;
+}
+header .block__ttl h1 img {
+  width: 100%;
+}
+header .block__navi a.btn-cv {
+  margin: 1rem 0rem 0 auto;
+}
+
+.btn-cv {
+  border: 1px solid #000;
+  display: block;
+  font: 0.9rem/1rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  letter-spacing: 0.1em;
+  font-family: "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+  padding: 0.6rem 0 0.5rem 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  transition: all 0.3s;
+  text-align: center;
+  text-decoration: none;
+  width: 170px;
+}/*# sourceMappingURL=chinoblog.css.map */

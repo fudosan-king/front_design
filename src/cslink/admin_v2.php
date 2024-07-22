@@ -237,9 +237,11 @@
                                                                 <button type="button" class="btn btnClose"></button>
                                                             </label>
                                                             <p class="or">or</p>
-                                                            <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
-                                                            <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                                            <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                            <div class="block_disable">
+                                                                <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
+                                                                <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                                                <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                            </div>
                                                         </li>
 
                                                         <li class="list-group-item">
@@ -254,9 +256,11 @@
                                                                 <button type="button" class="btn btnClose"></button>
                                                             </label>
                                                             <p class="or">or</p>
-                                                            <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
-                                                            <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                                            <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                            <div class="block_disable">
+                                                                <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
+                                                                <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                                                <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                                            </div>
                                                         </li>
                                                     </ul>
 
@@ -484,9 +488,11 @@
                                     <button type="button" class="btn btnClose"></button>
                                 </label>
                                 <p class="or">or</p>
-                                <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
-                                <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                                <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                <div class="block_disable">
+                                    <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
+                                    <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                                    <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                                </div>
                             </li>
                         </ul>
                         <button id="btn_addvideo" class="btn btn_addlink btn_addlink_theme" type="">
@@ -530,9 +536,11 @@
                             <button type="button" class="btn btnClose"></button>
                         </label>
                         <p class="or">or</p>
-                        <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
-                        <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
-                        <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                        <div class="block_disable">
+                            <label class="label_url" for="動画・WebのURL">動画・WebのURL</label>
+                            <input class="form-control" type="" name="" value="例) https://www." placeholder="例) https://www.">
+                            <textarea class="form-control" rows="" cols="" placeholder="動画・資料の説明"></textarea>
+                        </div>
                     </li>`;
                 const listGroup = event.target.closest('.box_material_content').querySelector('#list_group');
                 listGroup.insertAdjacentHTML('beforeend', newListItem);
@@ -550,24 +558,27 @@
 
 
 
-        document.addEventListener('DOMContentLoaded', function() {
-            var el = document.getElementById('list_group');
-            if (el) {
-                new Sortable(el, {
-                    animation: 150
-                });
-            } else {
-                console.error('Element with ID "list_group" not found.');
-            }
-        });
+        // document.addEventListener('DOMContentLoaded', function() {
+        //     var el = document.getElementById('list_group');
+        //     if (el) {
+        //         new Sortable(el, {
+        //             animation: 150
+        //         });
+        //     } else {
+        //         console.error('Element with ID "list_group" not found.');
+        //     }
+        // });
 
         document.querySelectorAll('#list_group').forEach(el => {
             new Sortable(el, {
                 animation: 150,
-                ghostClass: 'sortable-ghost'
+                ghostClass: 'sortable-ghost',
+                filter: '.block_disable', // 'filtered' class is not draggable
             });
         });
     </script>
+
+
 </body>
 
 </html>

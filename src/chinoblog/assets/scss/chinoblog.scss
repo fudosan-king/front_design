@@ -1,0 +1,166 @@
+header {
+    padding: 0 2rem;
+
+    .block {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+
+        nav {
+            ul {
+                &.mega_menu {
+                    font-size: 0.8rem;
+                    display: -ms-flexbox;
+                    display: flex;
+
+                    li {
+                        font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+                        line-height: 1.6rem;
+
+                        a {
+                            display: block;
+                            padding: 1.5rem 1rem;
+                            position: relative;
+                            text-decoration: none;
+                        }
+
+                        &.menu {
+                            a {
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    margin: 0 auto;
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 0 10px 20px 10px;
+                                    border-color: transparent transparent #f0e9d9 transparent;
+                                    opacity: 0;
+                                }
+                            }
+                        }
+
+                        ul {
+                            &.child_menu {
+                                display: -ms-flexbox;
+                                display: flex;
+                                box-shadow: 0px 5px 5px #555;
+                                position: absolute;
+                                top: 100%;
+                                left: 0;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                padding: 2rem;
+                                background: #f0e9d9;
+                                visibility: hidden;
+                                opacity: 0;
+                                transition: 1s top, 1s opacity;
+                                width: 100%;
+
+                                li {
+                                    &.ttl {
+                                        width: 30%;
+
+                                        b {
+                                            font-size: 1.8rem;
+                                        }
+
+                                        span {
+                                            display: block;
+                                            font-size: 0.9rem;
+                                            margin-top: 0.5rem;
+
+                                            &::after {
+                                                content: "";
+                                                background: #000;
+                                                display: block;
+                                                margin-top: 1.5rem;
+                                                height: 2px;
+                                                width: 100px;
+                                            }
+                                        }
+                                    }
+
+                                    &.link {
+                                        width: 250px;
+
+                                        span {
+                                            display: block;
+                                            margin-top: 0.5rem;
+                                            font-size: 0.9rem;
+
+                                            &::before {
+                                                content: "";
+                                                display: inline-block;
+                                                width: 0;
+                                                height: 0;
+                                                margin: 0 0.5em 0 0;
+                                                border: 5px solid transparent;
+                                                border-right: 0 solid transparent;
+                                                border-left: 8px solid #000;
+                                            }
+                                        }
+                                    }
+
+                                    img {
+                                        filter: grayscale(100%);
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    .block__ttl {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: end;
+        align-items: flex-end;
+
+        h1 {
+            padding-bottom: 0.7rem;
+            width: 230px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .block__navi {
+        a {
+            &.btn-cv {
+                margin: 1rem 0rem 0 auto;
+            }
+        }
+    }
+}
+
+.btn-cv {
+    border: 1px solid #000;
+    display: block;
+    font: 0.9rem / 1rem "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+    letter-spacing: 0.1em;
+    font-family: "a-otf-ryumin-pr6n", "Noto Serif JP", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "serif";
+    padding: 0.6rem 0 0.5rem 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    text-decoration: none;
+    width: 170px;
+}
