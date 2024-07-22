@@ -240,14 +240,14 @@ for (var i = 0; i < nestedSortables.length; i++) {
     });
 }
 
-new Sortable(document.getElementById('list_group'), {
-    group: {
-        name: 'shared',
-        pull: false,
-        put: false
-    },
-    animation: 150
-});
+// new Sortable(document.getElementById('list_group'), {
+//     group: {
+//         name: 'shared',
+//         pull: false,
+//         put: false
+//     },
+//     animation: 150
+// });
 
 // new Sortable(document.getElementById('list_group2'), {
 //     group: {
