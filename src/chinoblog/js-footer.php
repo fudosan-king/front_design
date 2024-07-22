@@ -12,6 +12,8 @@
 <script src="assets/js/splide.min.js"></script>
 <script src="assets/js/jquery.toc.js"></script>
 <script src="assets/js/blog-scripts.js"></script>
+<script src="assets/js/script.js"></script>
+
 <script>
     $(document).ready(function() {
         Fancybox.bind('[data-fancybox="gallery"]', {

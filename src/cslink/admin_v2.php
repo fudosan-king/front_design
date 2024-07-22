@@ -572,7 +572,7 @@
         document.querySelectorAll('#list_group').forEach(el => {
             new Sortable(el, {
                 animation: 150,
-                ghostClass: 'sortable-ghost',
+                // ghostClass: 'sortable-ghost',
                 filter: '.block_disable', // 'filtered' class is not draggable
             });
         });
