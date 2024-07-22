@@ -18,6 +18,15 @@ header {
                         font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
                         line-height: 1.6rem;
 
+                        &:hover {
+                            ul {
+                                &.child_menu {
+                                    visibility: visible;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
                         a {
                             display: block;
                             padding: 1.5rem 1rem;
@@ -40,6 +49,15 @@ header {
                                     border-width: 0 10px 20px 10px;
                                     border-color: transparent transparent #f0e9d9 transparent;
                                     opacity: 0;
+                                }
+                            }
+
+                            &:hover {
+                                a {
+                                    &::after {
+                                        opacity: 1;
+                                        transition: 1s, 1s opacity;
+                                    }
                                 }
                             }
                         }
