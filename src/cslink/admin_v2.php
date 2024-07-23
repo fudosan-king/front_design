@@ -556,24 +556,11 @@
             }
         });
 
-
-
-        // document.addEventListener('DOMContentLoaded', function() {
-        //     var el = document.getElementById('list_group');
-        //     if (el) {
-        //         new Sortable(el, {
-        //             animation: 150
-        //         });
-        //     } else {
-        //         console.error('Element with ID "list_group" not found.');
-        //     }
-        // });
-
         document.querySelectorAll('#list_group').forEach(el => {
             new Sortable(el, {
                 animation: 150,
-                // ghostClass: 'sortable-ghost',
-                filter: '.block_disable', // 'filtered' class is not draggable
+                ghostClass: 'sortable-ghost',
+                filter: 'input, textarea'
             });
         });
     </script>

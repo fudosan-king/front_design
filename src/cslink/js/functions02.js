@@ -204,6 +204,7 @@ var group_zone_demo = document.getElementById('group_zone_demo');
 new Sortable(group_zone_demo, {
     animation: 150,
     ghostClass: 'blue-background-class',
+    filter: 'input, textarea',
     onStart: function (evt) {
         evt.item.classList.add('highlight-background');
     },
@@ -225,6 +226,7 @@ new Sortable(group_zone_demo, {
         evt.item.classList.add('highlight-dropzone');
     }
 });
+
 
 
 var nestedSortables = [].slice.call(document.querySelectorAll('.nested-sortable'));
