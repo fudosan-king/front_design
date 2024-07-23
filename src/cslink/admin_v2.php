@@ -518,7 +518,8 @@
 
             new Sortable(document.getElementById('list_group'), {
                 animation: 150,
-                ghostClass: 'sortable-ghost'
+                ghostClass: 'sortable-ghost',
+                filter: 'input, textarea'
             });
         });
 
@@ -546,7 +547,8 @@
                 listGroup.insertAdjacentHTML('beforeend', newListItem);
                 new Sortable(listGroup, {
                     animation: 150,
-                    ghostClass: 'sortable-ghost'
+                    ghostClass: 'sortable-ghost',
+                    filter: 'input, textarea'
                 });
                 scrollToNewBlock(listGroup.lastElementChild);
             }
