@@ -16,7 +16,7 @@
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 <!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
-<title>MOKUSIRU（モクシル） - 株式会社Prostyleが運営するスタッフブログ</title>
+<title>CHINO BLOG - 株式会社Prostyleが運営するスタッフブログ</title>
 <meta name="description" content="株式会社Prostyleが提供する公式のスタッフブログ。販売中の物件情報だけでなく周辺地域や住宅に関する基礎知識などもご紹介します。">
 <link rel="canonical" href="https://www.prostyle-residence.com/mokusiru/">
 <link rel="next" href="https://www.prostyle-residence.com/mokusiru/page/2/">

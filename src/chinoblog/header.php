@@ -77,6 +77,7 @@
                         </ul>
                     </li>
                     <li><a href="news/">NEWS</a></li>
+                    <li><a href="column/">コラム</a></li>
                     <li class="menu"> <a href="business/">事業紹介</a>
                         <ul class="child_menu">
                             <li class="ttl"><b>事業紹介</b><span>business</span></li>

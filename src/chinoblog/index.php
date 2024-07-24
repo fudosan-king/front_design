@@ -38,7 +38,6 @@
 								<div class="col-md-7">
 									<div class="slideshow-top-box">
 										<a href="https://www.prostyle-residence.com/mokusiru/resale-value-checkpoint/">
-											<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
 											<h3>
 												<p>“リセールバリュー”はマンション選びにチェックすべきポイント？？理由をご説明！</p>
 											</h3>
@@ -62,7 +61,7 @@
 								<div class="col-md-7">
 									<div class="slideshow-top-box">
 										<a href="https://www.prostyle-residence.com/mokusiru/%e5%86%85%e5%bb%8a%e4%b8%8bvs%e5%a4%96%e5%bb%8a%e4%b8%8b/">
-											<span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span><span id="vs" class="uag-toc__heading-anchor"></span>
+
 											<h3>
 												<p>内廊下VS外廊下</p>
 											</h3>
@@ -86,7 +85,7 @@
 								<div class="col-md-7">
 									<div class="slideshow-top-box">
 										<a href="https://www.prostyle-residence.com/mokusiru/condominium-structure/">
-											<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 											<h3>
 												<p>マンションにおける構造【二重床・直床のメリット・デメリット】</p>
 											</h3>
@@ -115,7 +114,7 @@
 								<div class="col-md-7">
 									<div class="slideshow-top-box">
 										<a href="https://www.prostyle-residence.com/mokusiru/what-is-leasehold-right/">
-											<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 											<h3>
 												<p>「借地権」ってなに？マンション探しで見かける疑問、調べてみました！</p>
 											</h3>
@@ -163,7 +162,7 @@
 								<div class="col-md-7">
 									<div class="slideshow-top-box">
 										<a href="https://www.prostyle-residence.com/mokusiru/%e3%80%8c%e4%bf%a1%e7%94%a8%e6%83%85%e5%a0%b1%e3%80%8d%e3%81%a3%e3%81%a6%e4%bd%95%ef%bc%9f%e8%87%aa%e5%88%86%e3%81%ae%e3%80%8c%e4%bf%a1%e7%94%a8%e6%83%85%e5%a0%b1%e3%80%8d/">
-											<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 											<h3>
 												<p>「信用情報」って何？自分の「信用情報」を見てみよう！</p>
 											</h3>
@@ -215,10 +214,10 @@
 						<section class="section-home-page">
 
 							<div class="page-list products-list border-0">
-								<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 								<h2 class="title-main">ピックアップコンテンツ</h2>
 								<div class="row row-lists pickup">
-									<div class="col-12 col-md-4 ">
+									<div class="col-12 col-sm-6 col-lg-4 ">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/custom-house-1000/">
 												<div class="box-img">
@@ -239,7 +238,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 ">
+									<div class="col-12 col-sm-6 col-lg-4 ">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/hitotsubottenannheibei/">
 												<div class="box-img">
@@ -260,7 +259,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 ">
+									<div class="col-12 col-sm-6 col-lg-4 ">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/kuramae-charm/">
 												<div class="box-img">
@@ -268,7 +267,7 @@
 												</div>
 											</a>
 											<a href="https://www.prostyle-residence.com/mokusiru/kuramae-charm/">
-												<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 												<h3 class="box-title">東京で憧れのブルックリンに行ける！？台東区・蔵前の魅力とは</h3>
 											</a>
 											<p class="box-date">2022.06.23</p>
@@ -281,7 +280,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 ">
+									<div class="col-12 col-sm-6 col-lg-4 ">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/yokusitunosuuji/">
 												<div class="box-img">
@@ -302,7 +301,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 ">
+									<div class="col-12 col-sm-6 col-lg-4 ">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/denentoshi-line-reason-for-popularity/">
 												<div class="box-img">
@@ -310,7 +309,7 @@
 												</div>
 											</a>
 											<a href="https://www.prostyle-residence.com/mokusiru/denentoshi-line-reason-for-popularity/">
-												<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 												<h3 class="box-title">東急田園都市線はどうして人気なの？理由などを調べてみました！</h3>
 											</a>
 											<p class="box-date">2022.02.19</p>
@@ -323,7 +322,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 ">
+									<div class="col-12 col-sm-6 col-lg-4 ">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/why-do-you-look-like-a-staircase/">
 												<div class="box-img">
@@ -331,7 +330,7 @@
 												</div>
 											</a>
 											<a href="https://www.prostyle-residence.com/mokusiru/why-do-you-look-like-a-staircase/">
-												<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 												<h3 class="box-title">マンションはどうして上の方が階段みたくなるの？「建築基準法」が関係してました！</h3>
 											</a>
 											<p class="box-date">2022.06.13</p>
@@ -344,7 +343,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 d-none">
+									<div class="col-12 col-sm-6 col-lg-4 d-none">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/madorizuryakugo/">
 												<div class="box-img">
@@ -365,7 +364,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 d-none">
+									<div class="col-12 col-sm-6 col-lg-4 d-none">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/morningcafe/">
 												<div class="box-img">
@@ -373,7 +372,7 @@
 												</div>
 											</a>
 											<a href="https://www.prostyle-residence.com/mokusiru/morningcafe/">
-												<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 												<h3 class="box-title">【朝活】蔵前のおしゃれな朝カフェ３選！</h3>
 											</a>
 											<p class="box-date">2022.07.03</p>
@@ -391,7 +390,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 d-none">
+									<div class="col-12 col-sm-6 col-lg-4 d-none">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/tokyometro-ginzaline/">
 												<div class="box-img">
@@ -399,7 +398,7 @@
 												</div>
 											</a>
 											<a href="https://www.prostyle-residence.com/mokusiru/tokyometro-ginzaline/">
-												<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 												<h3 class="box-title">東京メトロ銀座線の魅力をご紹介！</h3>
 											</a>
 											<p class="box-date">2023.06.22</p>
@@ -418,10 +417,9 @@
 						</section>
 						<section class="section-news-list">
 							<div class="page-list news-list">
-								<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
 								<h2 class="title-main">新着記事</h2>
 								<div class="row row-lists">
-									<div class="col-12 col-md-4 8078">
+									<div class="col-12 col-sm-6 col-lg-4 8078">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/prostyle-kuramae-report9/">
 												<div class="box-img">
@@ -447,7 +445,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 8065">
+									<div class="col-12 col-sm-6 col-lg-4 8065">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/%e5%95%86%e5%8f%b7%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bf%bc/">
 												<div class="box-img">
@@ -455,7 +453,7 @@
 												</div>
 											</a>
 											<a href="https://www.prostyle-residence.com/mokusiru/%e5%95%86%e5%8f%b7%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bf%bc/">
-												<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 												<h3 class="box-title">商号変更のお知らせ</h3>
 											</a>
 											<p class="box-date">2023.10.02</p>
@@ -468,7 +466,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 7549">
+									<div class="col-12 col-sm-6 col-lg-4 7549">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/asakusarokku/">
 												<div class="box-img">
@@ -476,7 +474,7 @@
 												</div>
 											</a>
 											<a href="https://www.prostyle-residence.com/mokusiru/asakusarokku/">
-												<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
+
 												<h3 class="box-title">一大歓楽街・浅草六区</h3>
 											</a>
 											<p class="box-date">2023.09.22</p>
@@ -489,7 +487,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 8040">
+									<div class="col-12 col-sm-6 col-lg-4 8040">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/prostyle-kuramae-report8/">
 												<div class="box-img">
@@ -515,7 +513,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 7799">
+									<div class="col-12 col-sm-6 col-lg-4 7799">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/prostyle-kuramae-report7/">
 												<div class="box-img">
@@ -541,7 +539,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-12 col-md-4 7810">
+									<div class="col-12 col-sm-6 col-lg-4 7810">
 										<div class="box-items">
 											<a href="https://www.prostyle-residence.com/mokusiru/financial-planner/">
 												<div class="box-img">
@@ -567,14 +565,7 @@
 								<button type="button" class="btn btn-main" id="btn-more-latest" data-page="1">新着記事をもっと見る</button>
 							</div>
 						</section>
-						<section class="section-videos-list">
-							<div class="page-list videos-list">
-								<span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span><span id="" class="uag-toc__heading-anchor"></span>
-								<h2 class="title-main">新着動画</h2>
-								<div class="row row-lists video">
-								</div>
-							</div>
-						</section>
+
 					</div>
 				</div>
 
@@ -586,34 +577,20 @@
 	</div>
 
 
-	<section class="section-footer-content">
-		<div class="footer-content">
-			<div class="container">
-				<span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span>
-				<h2>MOVIE</h2>
-				<div class="ft-ct-movie">
-					<a class="btnVideo js-btn-video" href="javascript:void(0)" data-target="#modal_video" data-toggle="modal" data-src="https://s3-ap-northeast-1.amazonaws.com/propolife/prostyle-coop-movie.mp4?rel=0">
-						<img src="common/img-video.jpeg" alt="" class="img-fluid">
-					</a>
-				</div>
-			</div>
+	<section id="link">
+		<div class="container">
+			<ul>
+				<li><a href="https://www.propolife.co.jp/recruit/" target="_blank"><img src="assets/images/bn_link_1.png" alt="採用情報"></a></li>
+				<li><a href="https://www.facebook.com/CHINOTATEMONOKANRI/" target="_blank"><img src="assets/images/bn_link_2.png" alt="facebook"></a></li>
+				<li><a href="https://www.instagram.com/chino_tatemonokanri/?hl=ja" target="_blank"><img src="assets/images/bn_link_3.png" alt="instagram"></a></li>
+				<li><a href="download/" target="_blank"><img src="assets/images/bn_link_4.png" alt="書式DOWNLOAD"></a></li>
+				<!--<li><a href="" target="_blank"><img src="assets/img/bn_link_5.png" alt="仲介見積り"></a></li>-->
+			</ul>
 		</div>
 	</section>
 
 
-	<div id="modal_video" class="modal fade modal_brands" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-		<div class="modal-dialog modal-dialog-centered modal-lg">
-			<div class="modal-content">
-				<span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span>
-				<h2>MOVIE</h2>
-				<a href="https://www.prostyle-residence.com/mokusiru/#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="common/i-close-white.png" alt=""></a>
-				<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-					<iframe id="video" class="embed-responsive-item" src="common/saved_resource.html" allowfullscreen=""></iframe>
-				</div>
-				<a href="https://www.prostyle-residence.com/mokusiru/#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="common/i-close.png" alt=""></a>
-			</div>
-		</div>
-	</div>
+
 
 	<?php include 'footer.php'; ?>
 

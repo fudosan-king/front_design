@@ -1,100 +1,111 @@
-<div id="modal_video" class="modal fade modal_brands" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span><span id="movie" class="uag-toc__heading-anchor"></span>
-            <h2>MOVIE</h2>
-            <a href="https://www.prostyle-residence.com/mokusiru/#" class="btn btnClose" data-dismiss="modal" aria-label="Close"><img src="common/i-close-white.png" alt=""></a>
-            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                <iframe id="video" class="embed-responsive-item" src="common/saved_resource.html" allowfullscreen=""></iframe>
+<footer>
+    <div class="container">
+        <div class="block">
+            <div class="block__link">
+                <div class="block__link--item list1"> <a href="business/"><b>事業紹介</b></a>
+                    <ul>
+                        <li><a href="business/mansionmanagement/">分譲マンション管理事業</a></li>
+                        <li><a href="business/buildingmanagement/">ビル・施設管理事業</a></li>
+                        <li><a href="business/brokerage/">仲介事業</a></li>
+                        <li><a href="business/propertymanagement/">プロパティマネジメント事業</a></li>
+                    </ul>
+                </div>
+                <div class="block__link--item list2"> <a href="livemansion/"><b>管理マンションにお住まいの方</b></a>
+                    <ul>
+                        <li><a href="livemansion/service/">ご入居中のお客様へのサービス・専有部サービスのご紹介</a></li>
+                        <li><a href="livemansion/investment/">マンションを売りたい・貸したい</a></li>
+                    </ul>
+                </div>
             </div>
-            <a href="https://www.prostyle-residence.com/mokusiru/#" class="btn btnClose_footer" data-dismiss="modal" aria-label="Close"><img src="common/i-close.png" alt=""></a>
+            <div class="block__link">
+                <div class="block__link--item list3"> <a href="findmansion/"><b>マンション管理会社を探している</b></a>
+                    <ul>
+                        <li><a href="findmansion/mansionassociate/">マンション管理組合様・デベロッパー様</a></li>
+                    </ul>
+                </div>
+                <div class="block__link--item list4"> <a href="rentalowner/"><b>賃貸物件のオーナー様</b></a>
+                    <ul>
+                        <li><a href="rentalowner/rethink/">管理会社を見直したい</a></li>
+                        <li><a href="rentalowner/effective/">不動産の有効活用について</a></li>
+                        <li><a href="rentalowner/freeassessment/">適正賃料の無料査定</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block__link">
+                <div class="block__link--item list1"><a href="company/"><b>企業情報</b></a>
+                    <ul>
+                        <li><a href="company/profile/">会社概要</a></li>
+                        <li><a href="company/philosophy/">企業理念</a></li>
+                        <li><a href="company/group/">グループ会社一覧</a></li>
+                        <li><a href="company/history/">沿革</a></li>
+                        <li><a href="https://www.propolife.co.jp/recruit/" target="_blank">採用情報</a></li>
+                        <li><a href="access/">アクセス</a></li>
+                        <li><a href="news/">NEWS</a></li>
+                    </ul>
+                </div>
+                <div class="block__link--item list2"> <a href=""><b>各種お問い合わせ</b></a>
+                    <ul>
+                        <li><a href="">当社管理賃貸物件に関するお問い合わせ</a></li>
+                        <li><a href="">解約に関するお問い合わせ</a></li>
+                        <li><a href="">当社管理マンションに関するお問い合わせ</a></li>
+                        <li><a href="">管理に関わる重要事項調査報告書作成の依頼</a></li>
+                        <li><a href="">仲介業者様専用内見依頼フォーム</a></li>
+                        <li class="ls0"><a href="">当社管理マンション共有施設申込・変更・解約申請フォーム</a></li>
+                        <li><a href="">その他のお問い合わせ</a></li>
+                        <li><a href="download/">ダウンロードページ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block__link">
+                <div class="block__link--item list3"> <a href="company/group/"><b>グループ企業</b></a>
+                    <ul>
+                        <li><a href="https://www.propolife.co.jp/" target="_blank">株式会社プロポライフグループ</a></li>
+                        <li><a href="https://www.logsuite.co.jp/" target="_blank">株式会社LogSuite</a></li>
+                        <li><a href="https://www.logarchitects.co.jp/" target="_blank">株式会社LogArchitects</a></li>
+                        <li><a href="https://www.prostyle-residence.com/" target="_blank">株式会社プロスタイル</a></li>
+                        <li>煙台提案生活木業有限公司</li>
+                        <li><a href="https://www.propolifevietnam.com/" target="_blank">PROPOLIFE VIETNAM</a></li>
+                        <li><a href="http://nikuan-kotakino.com/" target="_blank">株式会社小滝野</a></li>
+                        <li><a href="https://www.prostyleryokan.com/" target="_blank">株式会社プロスタイル旅館</a></li>
+                        <li><a href="https://www.oki-ig.com/" target="_blank">株式会社沖縄イゲトー</a></li>
+                        <li><a href="https://www.logknot.co.jp/" target="_blank">LogKnot株式会社</a></li>
+                    </ul>
+                </div>
+                <div class="block__link--item list4"> <b>お電話でのお問い合わせ</b>
+                    <div class="box">
+                        <p>＜本店＞</p>
+                        <span><a href="tel:0120-99-7950">0120-99-7950</a>（無料）</span> <span><a href="tel:045-581-9556">045-581-9556</a>（代）</span> <span><a href="tel:045-575-6477">045-575-6477</a>（FAX）</span>
+                        <p>営業時間：10:00〜19:00<br>
+                            定休日：水曜日<br>
+                            ※祝日を除く</p>
+                    </div>
+                    <div class="box">
+                        <p>＜表参道支店＞</p>
+                        <span><a href="tel:0120-90-1659">0120-90-1659</a>（無料）</span> <span><a href="tel:03-6897-8563">03-6897-8563</a>（代）</span> <span><a href="tel:03-6897-8566">03-6897-8566</a>（FAX）</span>
+                        <p>営業時間：10:00〜19:00<br>
+                            定休日：水曜日<br>
+                            ※祝日を除く</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="copyright">
+    <div class="container">
+        <div class="col-12 col-lg-12">
+            <div class="copyright_content">
+                <a href="../privacypolicy/">プライバシーポリシー</a>
+                <small>Copyright © CHINO-TATEMONO.INC. All rights reserved.　</small>
+                <div class="logo_img">
+                    <img class="img-fluid" src="assets/images/17004350_01_JP.jpg" alt="17004350_01_JP">
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<footer>
-    <div class="footer">
-        <div class="container">
-            <div class="footer_logo">
-                <a href="https://www.prostyle-residence.com/">
-                    <img src="common/logo-prostyle.png" alt="Prostyle" title="Prostyle">
-                </a>
-            </div>
-            <span class="divider"></span>
-
-            <div class="footer_btn">
-                <a class="btn btn-footer" href="https://www.prostyle-residence.com/contact/" target="">
-                    <span class="btn-blog i-list_btn">お問い合わせ</span>
-                </a>
-            </div>
-
-            <ul class="navbar social-list">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.facebook.com/prostyleresidence/">
-                        <img src="assets/images/i_fb.svg" alt="facebook" title="facebook" width="10">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://mobile.twitter.com/PROSTYLE_OA">
-                        <img src="assets/images/i_x.svg" alt="X" title="X" width="25">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/prostyle.official">
-                        <img src="assets/images/i_ins.svg" alt="instagram" title="instagram" width="20">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.youtube.com/channel/UC1UquQQDwtU6VfKq3pwM4Hg">
-                        <img src="assets/images/i_youtube.svg" alt="youtube" title="youtube" width="20">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://lin.ee/8dqmWKo">
-                        <img src="assets/images/i_line.svg" alt="line" title="line" width="20">
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="header-top bg-brown">
-            <nav class="navbar navbar-expand-lg">
-                <p class="copy-right">
-                    Copyright © PROSTYLE INC. All Rights Reserved.
-                </p>
-                <p>
-                </p>
-                <div class="collapse navbar-collapse nav_menu-i-list">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://www.prostyle-residence.com/">
-                                PROSTYLEについて
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.prostyle-residence.com/terms/">
-                                利用規約
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.prostyle-residence.com/anti-social/">
-                                反社会的勢力排除に関する基本方針
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.prostyle-residence.com/privacy-policy/">
-                                プライバシーポリシー
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.prostyle-residence.com/social-media-policy/">
-                                ソーシャルメディアポリシー
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-    </div>
-</footer>
+<div id="page-top"><a href="#"><img src="assets/images/scrolltop.svg" alt="上へ戻る"></a></div>
