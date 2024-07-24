@@ -47,7 +47,7 @@
     </div>
 </div> -->
 
-<div class="menu-list" style="display: block;">
+<div class="menu-list">
     <div class="container-fluid">
         <a class="navbar-brand d-block d-lg-none" href="https://www.prostyle-residence.com/mokusiru/">
             <img class="img-fuild" alt="MOKUSIRU BLOG logo" src="common/logo_yoko.png" title="">
