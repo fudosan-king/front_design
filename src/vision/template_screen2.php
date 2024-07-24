@@ -197,8 +197,9 @@
                                             <div class="box_button_top">
                                                 <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
                                                 <a href="#" class="btn btn_opensample">サンプルを表示</a>
+                                                <a href="#" class="btn btn_nowopen">公開中</a>
                                             </div>
-                                            <div class="box_button_bottom">
+                                            <div class="box_button_bottom custom">
                                                 <a href="#" class="btn btn_delete">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                                         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
@@ -226,8 +227,9 @@
                                             <div class="box_button_top">
                                                 <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
                                                 <a href="#" class="btn btn_opensample">サンプルを表示</a>
+                                                <a href="#" class="btn btn_nowopen">公開中</a>
                                             </div>
-                                            <div class="box_button_bottom">
+                                            <div class="box_button_bottom custom">
                                                 <a href="#" class="btn btn_delete">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                                         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
@@ -255,8 +257,9 @@
                                             <div class="box_button_top">
                                                 <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
                                                 <a href="#" class="btn btn_opensample">サンプルを表示</a>
+                                                <a href="#" class="btn btn_nowopen">公開中</a>
                                             </div>
-                                            <div class="box_button_bottom">
+                                            <div class="box_button_bottom custom">
                                                 <a href="#" class="btn btn_delete">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                                                         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
@@ -315,6 +318,16 @@
                 animation: 150,
                 ghostClass: 'sortable-ghost',
                 chosenClass: 'sortable-chosen'
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var buttons = document.querySelectorAll('.btn_nowopen');
+            buttons.forEach(function(btn) {
+                btn.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    btn.classList.toggle('active');
+                });
             });
         });
     </script>

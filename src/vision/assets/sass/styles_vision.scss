@@ -180,6 +180,11 @@
                                 }
                             }
                         }
+
+                        &.custom {
+                            position: relative;
+                            margin-top: 10px;
+                        }
                     }
 
                     .box_button_center {
@@ -245,6 +250,31 @@
                                 color: #fff;
                             }
                         }
+
+                        &.btn_nowopen {
+                            background-color: #0168B7;
+                            color: white;
+                            border-color: #0168B7;
+                            transition: background-color 0.3s ease, color 0.3s ease;
+
+                            &.active {
+                                background: #ccc;
+                                border-color: #ccc;
+                                color: #666;
+
+                                &::after {
+                                    content: "非公開";
+                                }
+
+                                &::before {
+                                    display: none;
+                                }
+                            }
+
+                            &:not(.active)::after {
+                                content: "公開中";
+                            }
+                        }
                     }
                 }
             }
@@ -300,6 +330,10 @@
 .pb-200 {
     padding-bottom: 200px;
 }
+
+
+
+
 
 @media (max-width: 1300px) {
     .section_template {

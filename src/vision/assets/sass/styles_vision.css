@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .icon_copy {
   display: block;
 }
@@ -142,6 +143,10 @@
 .section_template .template li .template_content .box_button .box_button_bottom .box_button_bottom_footer p span {
   font-weight: 700;
 }
+.section_template .template li .template_content .box_button .box_button_bottom.custom {
+  position: relative;
+  margin-top: 10px;
+}
 .section_template .template li .template_content .box_button .box_button_center {
   width: 100%;
 }
@@ -195,6 +200,26 @@
   background: #e60045;
   border-color: #e60045;
   color: #fff;
+}
+.section_template .template li .template_content .box_button .btn.btn_nowopen {
+  background-color: #0168B7;
+  color: white;
+  border-color: #0168B7;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.section_template .template li .template_content .box_button .btn.btn_nowopen.active {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666;
+}
+.section_template .template li .template_content .box_button .btn.btn_nowopen.active::after {
+  content: "非公開";
+}
+.section_template .template li .template_content .box_button .btn.btn_nowopen.active::before {
+  display: none;
+}
+.section_template .template li .template_content .box_button .btn.btn_nowopen:not(.active)::after {
+  content: "公開中";
 }
 .section_template .template li .template_footer {
   position: relative;
