@@ -197,7 +197,7 @@
                                             <div class="box_button_top">
                                                 <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
                                                 <a href="#" class="btn btn_opensample">サンプルを表示</a>
-                                                <a href="#" class="btn btn_nowopen">公開中</a>
+                                                <a href="#" class="btn btn_nowopen"></a>
                                             </div>
                                             <div class="box_button_bottom custom">
                                                 <a href="#" class="btn btn_delete">
@@ -227,7 +227,7 @@
                                             <div class="box_button_top">
                                                 <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
                                                 <a href="#" class="btn btn_opensample">サンプルを表示</a>
-                                                <a href="#" class="btn btn_nowopen">公開中</a>
+                                                <a href="#" class="btn btn_nowopen"></a>
                                             </div>
                                             <div class="box_button_bottom custom">
                                                 <a href="#" class="btn btn_delete">
@@ -257,7 +257,7 @@
                                             <div class="box_button_top">
                                                 <a href="#" class="btn btn_edit">このお手本を<br>修正</a>
                                                 <a href="#" class="btn btn_opensample">サンプルを表示</a>
-                                                <a href="#" class="btn btn_nowopen">公開中</a>
+                                                <a href="#" class="btn btn_nowopen"></a>
                                             </div>
                                             <div class="box_button_bottom custom">
                                                 <a href="#" class="btn btn_delete">
