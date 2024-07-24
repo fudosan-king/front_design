@@ -24,6 +24,8 @@
                     </svg>
                 </a>
 
+                <a href="#" class="nav_link"><img src="assets/images/icons/i_templates.svg" alt="Templates" width="24"></a>
+
             </div>
         </div>
     </nav>
