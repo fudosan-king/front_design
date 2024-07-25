@@ -1,32 +1,32 @@
 //Pagetop
-    var showFlag = false;
-    var topBtn = $('#page-top');
-    topBtn.css('bottom', '-100px');
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            if (showFlag == false) {
-                showFlag = true;
-                topBtn.stop().animate({'bottom' : '50px'}, 200);
-            }
-        } else {
-            if (showFlag) {
-                showFlag = false;
-                topBtn.stop().animate({'bottom' : '-100px'}, 200);
-            }
-        }
-    });
-    topBtn.click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 500);
-        return false;
-    });
+var showFlag = false;
+var topBtn = $('#page-top');
+topBtn.css('bottom', '-100px');
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 100) {
+    if (showFlag == false) {
+      showFlag = true;
+      topBtn.stop().animate({ 'bottom': '50px' }, 200);
+    }
+  } else {
+    if (showFlag) {
+      showFlag = false;
+      topBtn.stop().animate({ 'bottom': '-100px' }, 200);
+    }
+  }
+});
+topBtn.click(function () {
+  $('body,html').animate({
+    scrollTop: 0
+  }, 500);
+  return false;
+});
 
 //scroll fade in
 $(function () {
-  var effect_btm = 300; 
+  var effect_btm = 300;
   var effect_move = 50;
-  var effect_time = 800; 
+  var effect_time = 800;
 
   //親要素と子要素のcssを定義
   $('.scroll-fade-row').css({
@@ -71,7 +71,7 @@ $(function () {
 $(function () {
   $('a[href^="#"]').click(function () {
     var adjust = -90;
-    var speed = 500; 
+    var speed = 500;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
     var position = target.offset().top + adjust;
@@ -99,72 +99,75 @@ if (windowWidth <= windowSm) {
       });
     });
   })(jQuery);
-	
-	//click close
-$('header .block nav ul li a').on('click',function() {
-         $('nav').removeClass('open');   
-	$('#nav-toggle').removeClass('open');
-     } );
-	
-		//scroll event
-$(window).scroll(function () {
-  if($(window).scrollTop() > 70) {
-    $('header .block nav').css('background-color','#f0e9d9');
-    $('header .block nav ul.mega_menu li.menu ul.child_menu').css('background-color','#f0e9d9');
-	$('header').css('background-color','#fff');
-  } else {
-    
-    $('header .block nav').css('background-color','#fff');
-	$('header .block nav ul.mega_menu li.menu ul.child_menu').css('background-color','#fff');
-	$('header').css('background-color','#f0e9d9');
 
-  }
-});
-	
+  //click close
+  $('header .block nav ul li a').on('click', function () {
+    $('nav').removeClass('open');
+    $('#nav-toggle').removeClass('open');
+  });
+
+  //scroll event
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 70) {
+      $('header .block nav').css('background-color', '#f0e9d9');
+      $('header .block nav ul.mega_menu li.menu ul.child_menu').css('background-color', '#f0e9d9');
+      $('header').css('background-color', '#fff');
+    } else {
+
+      $('header .block nav').css('background-color', '#fff');
+      $('header .block nav ul.mega_menu li.menu ul.child_menu').css('background-color', '#fff');
+      $('header').css('background-color', '#f0e9d9');
+
+    }
+  });
+
 } else {
   //tablet pc処理
-	
-	//scroll event
-$(window).scroll(function () {
-  if($(window).scrollTop() > 125) {
-    $('header').addClass('fixed');
-	$('header').css('background-color','#fff');
-	$('header .block nav ul.mega_menu li.menu a').hover(
-    function() {
-		$('header').css('background-color','#fff' );  }, 
-	function() {
- 
-   $('header').css('background-color','#fff');
- 
+
+  //scroll event
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 125) {
+      $('header').addClass('fixed');
+      $('header').css('background-color', '#fff');
+      $('header .block nav ul.mega_menu li.menu a').hover(
+        function () {
+          $('header').css('background-color', '#fff');
+        },
+        function () {
+
+          $('header').css('background-color', '#fff');
+
+        }
+      );
+    } else {
+      $('header').removeClass('fixed');
+      $('header').css('background-color', '#f0e9d9');
+      $('header .block nav ul.mega_menu li.menu a').hover(
+        function () {
+          $('header').css('background-color', '#fff');
+        },
+        function () {
+
+          $('header').css('background-color', '#f0e9d9');
+
+        }
+      );
     }
-);
-  } else {
-    $('header').removeClass('fixed');
-	$('header').css('background-color','#f0e9d9');
-	$('header .block nav ul.mega_menu li.menu a').hover(
-    function() {
-		$('header').css('background-color','#fff' );  }, 
-	function() {
- 
-   $('header').css('background-color','#f0e9d9');
- 
+  });
+  $('header .block nav ul.mega_menu li.menu a').hover(
+    function () {
+      $('header').css('background-color', '#fff');
+    },
+    function () {
+
+      $('header').css('background-color', '#f0e9d9');
+
     }
-);
-  }
-});
-		$('header .block nav ul.mega_menu li.menu a').hover(
-    function() {
-		$('header').css('background-color','#fff' );  }, 
-	function() {
- 
-   $('header').css('background-color','#f0e9d9');
- 
-    }
-);
+  );
 }
 //fadein
-$(window).on("load", function() {
-$('.kv__message img').delay(600).fadeIn(2000);
+$(window).on("load", function () {
+  $('.kv__message img').delay(600).fadeIn(2000);
 });
 
 $(function ($) {
@@ -233,3 +236,32 @@ $(function ($) {
 $(".nav-tabs .nav-link.active").click(function () {
   $(".nav_tabs_content_sm").toggle();
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var header = document.querySelector('header');
+  var menuList = document.querySelector('.menu_list');
+  var headerHeight = header.offsetHeight;
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > headerHeight) {
+      header.classList.add('fixed');
+      menuList.classList.add('fixed');
+    } else {
+      header.classList.remove('fixed');
+      menuList.classList.remove('fixed');
+    }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var menuToggle = document.querySelector('.menu_toggle');
+  var menuList = document.querySelector('.menu_list');
+
+  menuToggle.addEventListener('click', function () {
+    menuList.classList.toggle('active');
+    menuToggle.classList.toggle('active'); // Thêm lớp active cho menuToggle để xoay mũi tên
+  });
+});
+
+

@@ -12,8 +12,8 @@ header {
     z-index: 11;
 
     &.fixed {
-        background: #fff;
-        transition: 0.3s;
+        transform: translateY(-100%); // Bắt đầu với header ngoài khung nhìn
+        animation: dropDown 0.5s forwards; // Animation cho header
     }
 
     .block {
@@ -46,6 +46,7 @@ header {
                         }
 
                         a {
+                            font-weight: 600;
                             display: block;
                             padding: 1.5rem 1rem;
                             position: relative;
@@ -196,6 +197,16 @@ header {
     }
 }
 
+@keyframes dropDown {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .btn-cv {
     border: 1px solid #000;
     display: block;
@@ -214,23 +225,64 @@ header {
     width: 170px;
 }
 
-.menu-animation-scroll {
-    position: relative;
-}
-
 .menu-list-scroll {
     top: 0;
 }
 
-.menu-list {
-    position: relative;
+.menu_list {
+    position: fixed;
     z-index: 10;
+    width: 100%;
     background: #fff;
     top: 125px;
+    padding: 30px;
+    border: 0.5px solid #E0E0E0;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 
-    &.menu-list-scroll {
-        position: fixed;
-        top: 0;
+    &.fixed {
+        transform: translateY(-100%); // Bắt đầu với menu_list ngoài khung nhìn
+        animation: dropDown 0.5s forwards 0.3s; // Animation cho menu_list
+    }
+
+    ul {
+        &.list_tags {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+
+            li {
+                margin-right: 10px;
+
+                a {
+                    position: relative;
+                    background: #F4F4F4;
+                    border-radius: 50px;
+                    padding: 6.5px 30px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    font-weight: 600;
+                    font-size: 0.75rem;
+                    line-height: 17px;
+                    color: #000000;
+                    transition: transform 0.3s ease-in-out; // Thời gian và hiệu ứng chuyển đổi
+                }
+
+                &:hover {
+                    a {
+                        transform: translateY(-5px); // Di chuyển thẻ a lên trên 5px khi hover
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -410,6 +462,14 @@ footer {
     }
 }
 
+.menu_toggle {
+    display: none; // Ẩn mũi tên mặc định trên desktop
+    cursor: pointer;
+    font-size: 24px; // Kích thước mũi tên
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 // For mobile
 @media (max-width: 1265px) {
@@ -457,6 +517,7 @@ footer {
         }
     }
 }
+
 
 @media screen and (max-width: 1000px) {
     #nav-toggle {
@@ -647,9 +708,23 @@ footer {
         max-width: 120px;
     }
 
-    .menu-list {
+    .menu_list {
         top: 70px;
-        display: none;
+
+        ul {
+            &.list_tags {
+                flex-wrap: wrap;
+                gap: 10px; // Điều chỉnh khoảng cách giữa các phần tử nếu cần
+
+                li {
+                    flex: 1 1 calc(50% - 20px); // Chia đều 2 cột, trừ đi khoảng cách giữa các phần tử
+
+                    a {
+                        padding: 8px 15px;
+                    }
+                }
+            }
+        }
     }
 
     .slideshow-top {
@@ -709,6 +784,53 @@ footer {
             }
         }
     }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .menu_list {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        ul {
+            &.list_tags {
+                display: none; // Ẩn menu_list trên mobile
+                animation: slideDown 0.3s ease-in-out forwards; // Animation khi menu_list hiển thị
+                transform: translateY(-100%); // Bắt đầu ngoài khung nhìn
+            }
+        }
+
+
+
+        &.active {
+            padding-bottom: 30px;
+
+            ul {
+                &.list_tags {
+                    animation: slideDown 0.3s ease-in-out forwards; // Animation khi menu_list hiển thị
+                    display: flex; // Hiển thị menu_list khi có lớp .active
+                }
+            }
+        }
+    }
+
+    .menu_toggle {
+        display: block; // Hiển thị mũi tên trên mobile
+
+        &.active {
+            transform: rotate(180deg); // Xoay mũi tên 180 độ khi menu mở
+        }
+    }
+
 }
 
 @media screen and (max-width: 559px) {
