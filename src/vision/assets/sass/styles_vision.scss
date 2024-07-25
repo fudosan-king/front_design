@@ -333,7 +333,22 @@
 
 
 
-
+@media (max-width: 1600px) {
+    .section_template {
+        .template {
+            li {
+                .template_content {
+                    .box_button {
+                        .box_button_bottom {
+                            position: relative;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media (max-width: 1300px) {
     .section_template {
