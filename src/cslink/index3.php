@@ -297,7 +297,7 @@
                                             <label class="box_uploads docs_preview">
                                                 <p class="upload_custom view_file" style="border-color: rgb(1, 104, 183);">
                                                     <a onclick="handleClick(event, this)" href="https://s3.ap-northeast-1.amazonaws.com/watashiga-stg/public/sections/docs/3OZjrpEDTCFW07dyUZyLvKyB6l1yHjKy7K6hIDNP.xlsx" download="">
-                                                        <img class="img-fluid icon-file " src="http://18.179.82.28/watashiga2/images/xls.png" alt="uploads cloud" width="24">
+                                                        <img class="img-fluid icon-file " src="assets/images/xls.png" alt="uploads cloud" width="24">
                                                     </a>
                                                     <span class="docs_video_des">Chấm công 443 - Tháng 6_1721618459.xlsx</span>
                                                 </p>
@@ -311,7 +311,7 @@
                                             <label class="box_uploads docs_preview">
                                                 <p class="upload_custom view_file" style="border-color: rgb(1, 104, 183);">
                                                     <a onclick="handleClick(event, this)" href="https://s3.ap-northeast-1.amazonaws.com/watashiga-stg/public/sections/docs/AZIK7oesuqsoLsMrgA3NNdOujoEj8K4mtppvTVxi.docx" download="">
-                                                        <img class="img-fluid icon-file " src="http://18.179.82.28/watashiga2/images/doc.png" alt="uploads cloud" width="24">
+                                                        <img class="img-fluid icon-file " src="assets/images/doc.png" alt="uploads cloud" width="24">
                                                     </a>
                                                     <span class="docs_video_des">Bài kiểm tra_1721618459.docx</span>
                                                 </p>
@@ -375,7 +375,7 @@
                                             <label class="box_uploads docs_preview">
                                                 <p class="upload_custom view_file" style="border-color: rgb(1, 104, 183);">
                                                     <a onclick="handleClick(event, this)" href="https://s3.ap-northeast-1.amazonaws.com/watashiga-stg/public/sections/docs/oUHV2F3qmm7ZZxGoxahzffLef100NNuiEX1fAyn0.xlsx" download="">
-                                                        <img class="img-fluid icon-file " src="http://18.179.82.28/watashiga2/images/xls.png" alt="uploads cloud" width="24">
+                                                        <img class="img-fluid icon-file " src="assets/images/xls.png" alt="uploads cloud" width="24">
                                                     </a>
                                                     <span class="docs_video_des">DanhSachSanPham_1721963929.xlsx</span>
                                                 </p>
