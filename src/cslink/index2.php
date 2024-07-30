@@ -222,7 +222,11 @@
                                     <h2><span class="icon-title-section" style="background-color: rgb(1, 104, 183);"></span>User001_Test_Copy002</h2>
                                     <!-- <p class="entry_date">2023.10.6</p> -->
                                     <div class="standard_post_img">
-                                        <a href="https://as1.ftcdn.net/v2/jpg/07/66/10/42/1000_F_766104290_LAtHr62hyFlM4FoqHTQCaMwEZfhQzSN8.jpg" data-fancybox="" data-caption="img01"><img class="img-fluid" src="https://as1.ftcdn.net/v2/jpg/07/66/10/42/1000_F_766104290_LAtHr62hyFlM4FoqHTQCaMwEZfhQzSN8.jpg" alt=""></a>
+                                        <a href="https://as1.ftcdn.net/v2/jpg/07/66/10/42/1000_F_766104290_LAtHr62hyFlM4FoqHTQCaMwEZfhQzSN8.jpg" data-fancybox="" data-caption="img01">
+                                            <div class="img-container">
+                                                <img class="img-fluid" src="https://as1.ftcdn.net/v2/jpg/07/66/10/42/1000_F_766104290_LAtHr62hyFlM4FoqHTQCaMwEZfhQzSN8.jpg" alt="">
+                                            </div>
+                                        </a>
                                     </div>
 
                                     <div class="box_reverse">

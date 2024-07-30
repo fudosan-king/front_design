@@ -753,6 +753,29 @@ textarea.textarea_custom {
   height: 250px;
 }
 
+.standard_post_img {
+  width: 100%;
+  max-width: 100%;
+  /* Căn giữa container */
+}
+.standard_post_img .img-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  /* 4:3 aspect ratio (3 / 4 * 100%) */
+  overflow: hidden;
+}
+.standard_post_img .img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Đảm bảo ảnh bao phủ toàn bộ container */
+}
+
 @media (max-width: 1200px) {
   .main_right .standard_article .standard_list_video.list_video_twoblocks li .box_video {
     height: 250px !important;
