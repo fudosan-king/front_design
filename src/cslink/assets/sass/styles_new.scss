@@ -970,6 +970,8 @@ textarea {
             height: 100%;
             object-fit: cover;
             /* Đảm bảo ảnh bao phủ toàn bộ container */
+            object-position: top;
+            /* Lấy phần trên của tấm ảnh */
         }
     }
 }
