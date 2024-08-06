@@ -1,0 +1,157 @@
+/*
+ Theme Name:   StaffBlog
+ Theme URI:    http://https://www.prostyle-residence.com/blog
+ Description:  Staff Blog Template
+ Author:       Khanh Nguyen
+ Author URI:   
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  staffblog
+*/
+.box-items .box-img img {
+    width: 100%;
+}
+
+.blog-single-page .bg-logo-img a {
+    height: 100%;
+}
+
+.blog-single-page .bg-logo-img a img{
+    height: 100%;
+}
+
+.author {
+    position: relative;
+    border: 1px solid #333333;
+       margin-bottom: 60px;
+}
+
+.author .author__box {
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .author .author__box {
+        flex-flow: wrap;
+    }
+}
+
+.author .box-name {
+    position: absolute;
+    left:  50%;
+    transform: translateX(-50%);
+    top: -20px;
+    background:  #fff;
+    padding: 10px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #333333;
+    width: max-content;
+}
+
+.author__box .image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    float: left;
+}
+
+@media (max-width: 767px) {
+    .author .author__box {
+        padding:  20px;
+    }
+
+    .author__box .image {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .author__box .image {
+        max-width: 312px;
+        padding-right: 52px;
+    }
+}
+
+.author__box .image img,.author__box .image div.img {
+    width:  100%;
+    overflow: hidden;
+    max-width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0;
+    background: #F2F2F2;
+}
+
+.author__box .image .author__info {
+    margin-left: 20px;
+}
+
+
+.author__box .author__info .p1 {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #333333;
+    margin-bottom:  8px;
+}
+
+.author__box .author__info .p2 {
+    background: #F2F2F2;
+    border-radius: 50px;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: .625rem;
+    line-height: 12px;
+    color: #333333;
+    padding:  5px 10px;
+}
+
+@media (min-width: 768px) {
+    .author__box .des {
+       width: calc(100% - 312px);
+    }
+}
+
+.author__box .des p {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.blog-single-page .box_shared {
+    border: 1px solid #AD814D;
+    margin-bottom: 30px;
+}
+
+.blog-single-page .box_shared .box_follow {
+    background: #fff;
+}
+
+.blog-single-page .box_shared .box_follow .mb-2 {
+    position: absolute;
+    background: #fff;
+    width: max-content;
+    padding: 8px 10px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #AD814D;
+}
